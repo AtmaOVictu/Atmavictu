@@ -1,0 +1,177 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atmavictu.local/schema/workbench.manifest.v1.schema.json",
+  "title": "Atmavictu Workbench Manifest v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "manifestVersion",
+    "incomingTexts",
+    "fragments",
+    "insertions"
+  ],
+  "properties": {
+    "manifestVersion": {
+      "const": "1"
+    },
+    "incomingTexts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/IncomingText"
+      }
+    },
+    "fragments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Fragment"
+      }
+    },
+    "insertions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Insertion"
+      }
+    },
+    "concepts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Concept"
+      }
+    }
+  },
+  "$defs": {
+    "IncomingStatus": {
+      "type": "string",
+      "enum": [
+        "new",
+        "processing",
+        "used",
+        "archived"
+      ]
+    },
+    "FragmentStatus": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "inserted",
+        "archived"
+      ]
+    },
+    "IncomingText": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "sourcePath",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourcePath": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/IncomingStatus"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "Fragment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "incomingTextId",
+        "text",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "incomingTextId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "$ref": "#/$defs/FragmentStatus"
+        },
+        "conceptIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "Insertion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "fragmentId",
+        "targetChapterPath"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fragmentId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "targetChapterPath": {
+          "type": "string",
+          "minLength": 1
+        },
+        "positionNote": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "Concept": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "label"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
