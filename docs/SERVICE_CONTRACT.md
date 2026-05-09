@@ -10,6 +10,8 @@ Ta dokument doloca minimalne operacije nad `WorkbenchManifest`. Service contract
 - UI nikoli ni izvor resnice za statuse ali relacije
 - vsaka operacija mora po zakljucku pustiti manifest v veljavnem stanju
 - ce operacija ne uspe, se manifest ne sme delno zapisati
+- v izvedbi FAZE 2A ni filesystem write plasti; `sourcePath` je zato lahko deterministična logicna pot, dokler ni dodan dejanski IO sloj
+- schema v1 nima top-level `title` polja za manifest; `createEmptyManifest(title?)` lahko argument sprejme za forward compatibility, ne materializira pa ga se v schema v1
 
 ## createEmptyManifest()
 
