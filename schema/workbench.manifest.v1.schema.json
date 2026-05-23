@@ -40,6 +40,28 @@
     }
   },
   "$defs": {
+    "NonBlankString": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "PathString": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/NonBlankString"
+        },
+        {
+          "not": {
+            "pattern": "^(?:[\\\\/]|[A-Za-z]:[\\\\/])"
+          }
+        },
+        {
+          "not": {
+            "pattern": "(?:^|[\\\\/])\\.\\.(?:[\\\\/]|$)"
+          }
+        }
+      ]
+    },
     "IncomingStatus": {
       "type": "string",
       "enum": [
@@ -67,12 +89,10 @@
       ],
       "properties": {
         "id": {
-          "type": "string",
-          "minLength": 1
+          "$ref": "#/$defs/NonBlankString"
         },
         "sourcePath": {
-          "type": "string",
-          "minLength": 1
+          "$ref": "#/$defs/PathString"
         },
         "title": {
           "type": "string"
@@ -96,16 +116,13 @@
       ],
       "properties": {
         "id": {
-          "type": "string",
-          "minLength": 1
+          "$ref": "#/$defs/NonBlankString"
         },
         "incomingTextId": {
-          "type": "string",
-          "minLength": 1
+          "$ref": "#/$defs/NonBlankString"
         },
         "text": {
-          "type": "string",
-          "minLength": 1
+          "$ref": "#/$defs/NonBlankString"
         },
         "status": {
           "$ref": "#/$defs/FragmentStatus"
@@ -113,8 +130,7 @@
         "conceptIds": {
           "type": "array",
           "items": {
-            "type": "string",
-            "minLength": 1
+            "$ref": "#/$defs/NonBlankString"
           },
           "uniqueItems": true
         },
@@ -133,16 +149,13 @@
       ],
       "properties": {
         "id": {
-          "type": "string",
-          "minLength": 1
+          "$ref": "#/$defs/NonBlankString"
         },
         "fragmentId": {
-          "type": "string",
-          "minLength": 1
+          "$ref": "#/$defs/NonBlankString"
         },
         "targetChapterPath": {
-          "type": "string",
-          "minLength": 1
+          "$ref": "#/$defs/PathString"
         },
         "positionNote": {
           "type": "string"
@@ -161,12 +174,10 @@
       ],
       "properties": {
         "id": {
-          "type": "string",
-          "minLength": 1
+          "$ref": "#/$defs/NonBlankString"
         },
         "label": {
-          "type": "string",
-          "minLength": 1
+          "$ref": "#/$defs/NonBlankString"
         },
         "note": {
           "type": "string"

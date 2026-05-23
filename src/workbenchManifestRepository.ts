@@ -1,10 +1,14 @@
 import { mkdir, readFile, rename, rm, writeFile } from "node:fs/promises";
-import { dirname, join } from "node:path";
+import { basename, dirname, isAbsolute, join, relative, resolve } from "node:path";
 import { randomUUID } from "node:crypto";
 
 import {
+  addIncomingText,
   createEmptyManifest,
   validateManifest,
+  type AddIncomingTextInput,
+  type IncomingText,
+  type ManifestUpdate,
   type WorkbenchManifest,
 } from "./workbenchManifest.js";
 
@@ -15,6 +19,19 @@ export type ManifestRepositoryErrorCode =
   | "INVALID_JSON"
   | "INVALID_MANIFEST"
   | "WRITE_FAILURE";
+
+export interface CaptureIncomingTextConsequence {
+  title: "POSLEDICA";
+  lastAction: "ZAJEMI VNOS";
+  createdPath: string;
+  manifestTrail: {
+    incomingTextId: string;
+    sourcePath: string;
+  };
+  currentState: "CAPTURED";
+  nextAction: "RAZREZI";
+  proofBoundary: "Fragment se ni ustvarjen.";
+}
 
 export class ManifestRepositoryError extends Error {
   readonly code: ManifestRepositoryErrorCode;
@@ -37,6 +54,59 @@ export class ManifestRepositoryError extends Error {
 
 export function getManifestPath(projectRoot: string): string {
   return join(requireNonEmptyPath("projectRoot", projectRoot), MANIFEST_FILE_NAME);
+}
+
+export async function captureIncomingText(
+  projectRoot: string,
+  input: AddIncomingTextInput,
+): Promise<ManifestUpdate<IncomingText>> {
+  const normalizedProjectRoot = requireNonEmptyPath("projectRoot", projectRoot);
+  const manifestPath = getManifestPath(normalizedProjectRoot);
+  const manifest = await loadManifestForUpdate(normalizedProjectRoot);
+  const result = addIncomingText(manifest, input);
+  const bodyFilePath = resolveProjectFilePath(normalizedProjectRoot, result.value.sourcePath, "sourcePath");
+
+  await writeTextFileAtomically(bodyFilePath, input.body, "incoming body file");
+
+  try {
+    await writeManifestToFile(manifestPath, result.manifest);
+  } catch (error) {
+    await rm(bodyFilePath, { force: true }).catch(() => undefined);
+    throw error;
+  }
+
+  return result;
+}
+
+export function createCaptureIncomingTextConsequence(
+  result: ManifestUpdate<IncomingText>,
+): CaptureIncomingTextConsequence {
+  return {
+    title: "POSLEDICA",
+    lastAction: "ZAJEMI VNOS",
+    createdPath: result.value.sourcePath,
+    manifestTrail: {
+      incomingTextId: result.value.id,
+      sourcePath: result.value.sourcePath,
+    },
+    currentState: "CAPTURED",
+    nextAction: "RAZREZI",
+    proofBoundary: "Fragment se ni ustvarjen.",
+  };
+}
+
+export function renderCaptureIncomingTextConsequence(
+  consequence: CaptureIncomingTextConsequence,
+): string {
+  return [
+    consequence.title,
+    `ZADNJE DEJANJE: ${consequence.lastAction}`,
+    `USTVARJENO: ${consequence.createdPath}`,
+    `MANIFEST SLED: ${consequence.manifestTrail.sourcePath}`,
+    `TRENUTNO STANJE: ${consequence.currentState}`,
+    `NASLEDNJI KORAK: ${consequence.nextAction}`,
+    `DOKAZNA MEJA: ${consequence.proofBoundary}`,
+  ].join("\n");
 }
 
 export async function readManifestFromFile(filePath: string): Promise<WorkbenchManifest> {
@@ -81,23 +151,9 @@ export async function writeManifestToFile(
 ): Promise<void> {
   const normalizedFilePath = requireNonEmptyPath("filePath", filePath);
   assertManifestIsValid(manifest, normalizedFilePath);
-
-  const parentDirectory = dirname(normalizedFilePath);
-  const tempFilePath = join(parentDirectory, `${MANIFEST_FILE_NAME}.${randomUUID()}.tmp`);
   const manifestJson = `${JSON.stringify(manifest, null, 2)}\n`;
 
-  try {
-    await mkdir(parentDirectory, { recursive: true });
-    await writeFile(tempFilePath, manifestJson, "utf8");
-    await rename(tempFilePath, normalizedFilePath);
-  } catch (error) {
-    await rm(tempFilePath, { force: true }).catch(() => undefined);
-    throw new ManifestRepositoryError(
-      "WRITE_FAILURE",
-      `Failed to write manifest file: ${normalizedFilePath}`,
-      { cause: error },
-    );
-  }
+  await writeTextFileAtomically(normalizedFilePath, manifestJson, "manifest file");
 }
 
 export async function ensureManifestFile(
@@ -138,6 +194,67 @@ function assertManifestIsValid(manifest: WorkbenchManifest, filePath: string): v
     throw new ManifestRepositoryError(
       "INVALID_MANIFEST",
       `Manifest validation failed for ${filePath}: ${validationResult.errors.join(" | ")}`,
+    );
+  }
+}
+
+async function loadManifestForUpdate(projectRoot: string): Promise<WorkbenchManifest> {
+  const manifestPath = getManifestPath(projectRoot);
+
+  try {
+    return await readManifestFromFile(manifestPath);
+  } catch (error) {
+    if (!(error instanceof ManifestRepositoryError) || error.code !== "MISSING_FILE") {
+      throw error;
+    }
+  }
+
+  return createEmptyManifest();
+}
+
+function resolveProjectFilePath(projectRoot: string, relativeFilePath: string, name: string): string {
+  const normalizedProjectRoot = resolve(requireNonEmptyPath("projectRoot", projectRoot));
+  const normalizedRelativeFilePath = requireNonEmptyPath(name, relativeFilePath);
+
+  if (isAbsolute(normalizedRelativeFilePath)) {
+    throw new ManifestRepositoryError(
+      "WRITE_FAILURE",
+      `${name} must be a relative path inside projectRoot: ${normalizedRelativeFilePath}`,
+    );
+  }
+
+  const resolvedFilePath = resolve(normalizedProjectRoot, normalizedRelativeFilePath);
+  const relativeToRoot = relative(normalizedProjectRoot, resolvedFilePath);
+
+  if (relativeToRoot.startsWith("..") || isAbsolute(relativeToRoot)) {
+    throw new ManifestRepositoryError(
+      "WRITE_FAILURE",
+      `${name} must stay within projectRoot: ${normalizedRelativeFilePath}`,
+    );
+  }
+
+  return resolvedFilePath;
+}
+
+async function writeTextFileAtomically(
+  filePath: string,
+  content: string,
+  fileLabel: string,
+): Promise<void> {
+  const normalizedFilePath = requireNonEmptyPath("filePath", filePath);
+  const parentDirectory = dirname(normalizedFilePath);
+  const tempFilePath = join(parentDirectory, `${basename(normalizedFilePath)}.${randomUUID()}.tmp`);
+
+  try {
+    await mkdir(parentDirectory, { recursive: true });
+    await writeFile(tempFilePath, content, "utf8");
+    await rename(tempFilePath, normalizedFilePath);
+  } catch (error) {
+    await rm(tempFilePath, { force: true }).catch(() => undefined);
+    throw new ManifestRepositoryError(
+      "WRITE_FAILURE",
+      `Failed to write ${fileLabel}: ${normalizedFilePath}`,
+      { cause: error },
     );
   }
 }

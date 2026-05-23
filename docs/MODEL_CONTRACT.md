@@ -30,6 +30,14 @@ Vrhnja entiteta, ki hrani:
 
 `WorkbenchManifest` je lokalni relacijski zapis nad filesystem vsebino. Ni nadomestilo za vsebino besedil ali knjige same.
 
+Minimalni shape v1:
+
+- `manifestVersion: "1"`
+- `incomingTexts: IncomingText[]`
+- `fragments: Fragment[]`
+- `insertions: Insertion[]`
+- `concepts?: Concept[]`
+
 ### IncomingText
 
 `IncomingText` predstavlja vhodni tekstovni vir, ki je bil sprejet v delovni tok.
@@ -41,6 +49,14 @@ Pomen:
 - vez do lokalnega vira prek `sourcePath`
 - osnovni opis prek `title`
 
+Minimalni shape v1:
+
+- `id: string`
+- `sourcePath: string`
+- `status: "new" | "processing" | "used" | "archived"`
+- `title?: string`
+- `note?: string`
+
 ### Fragment
 
 `Fragment` predstavlja delovni odlomek, izpeljan iz enega `IncomingText`.
@@ -50,6 +66,15 @@ Pomen:
 - nosi delovni tekst odlomka
 - kaze na svoj izvorni `IncomingText`
 - lahko ostane osnutek ali pa postane vstavljeni fragment
+
+Minimalni shape v1:
+
+- `id: string`
+- `incomingTextId: string`
+- `text: string`
+- `status: "draft" | "inserted" | "archived"`
+- `conceptIds?: string[]`
+- `note?: string`
 
 ### Insertion
 
@@ -61,6 +86,14 @@ Pomen:
 - hrani `targetChapterPath`
 - predstavlja sled med odlomkom in mestom v knjigi
 
+Minimalni shape v1:
+
+- `id: string`
+- `fragmentId: string`
+- `targetChapterPath: string`
+- `positionNote?: string`
+- `note?: string`
+
 ### Concept
 
 `Concept` je opcijska ali future-ready entiteta za konceptualno oznacevanje fragmentov.
@@ -70,6 +103,12 @@ Pomen:
 - stabilna identiteta koncepta
 - berljiva oznaka `label`
 - opcijska semanticna opomba
+
+Minimalni shape v1:
+
+- `id: string`
+- `label: string`
+- `note?: string`
 
 ## Relacijska pot
 
@@ -93,6 +132,13 @@ Statusi:
 - `processing`
 - `used`
 - `archived`
+
+Pomen statusov:
+
+- `new`: vhodni vir je sprejet v delovni tok, vendar se iz njega se ni ustvaril noben `Fragment`
+- `processing`: vhodni vir je v aktivni obdelavi in lahko ima delovne `Fragment`
+- `used`: iz vhodnega vira obstaja vsaj en `Fragment`, ki je dejansko vstavljen v poglavje prek `Insertion`
+- `archived`: vhodni vir je zaprt za nove izpeljave; obstojece zgodovinske sledi ostanejo veljavne
 
 Dovoljeni prehodi:
 
@@ -119,6 +165,12 @@ Statusi:
 - `inserted`
 - `archived`
 
+Pomen statusov:
+
+- `draft`: delovni `Fragment`, ki se se nima `Insertion` sledi
+- `inserted`: `Fragment`, ki ima vsaj eno `Insertion` sled
+- `archived`: zaprt `Fragment`; obstojece insertion sledi ostanejo veljavne kot zgodovina
+
 Dovoljeni prehodi:
 
 - `draft -> inserted`
@@ -132,13 +184,46 @@ Prepovedani prehodi:
 - `archived -> inserted`
 - vsak drug neposredni preskok, ki ni zgoraj izrecno dovoljen
 
+## Vrste validacije
+
+### Snapshot validation
+
+`validateManifest(manifest)` preverja samo trenutno stanje enega manifesta.
+
+Ta funkcija preverja:
+
+- schema shape
+- relacije med entitetami
+- trenutno statusno skladnost
+- invariants
+
+Iz enega samega manifesta ni mogoce dokazati, iz katerega stanja je prisel trenutni status.
+
+### Transition validation
+
+`validateManifestTransition(previousManifest, nextManifest)` preverja spremembo med dvema snapshotoma.
+
+Ta funkcija preverja:
+
+- ali so statusni prehodi dovoljeni
+- ali sprememba ne razbije relacij ali invariants
+- ali je `nextManifest` po spremembi se vedno veljaven snapshot
+
 ## Invariants
 
 ### Identiteta in struktura
 
 - `WorkbenchManifest.manifestVersion` mora biti `1`
 - `id` znotraj posamezne zbirke mora biti unikaten
+
+### Poti
+
+- `sourcePath` mora biti ne-prazen string
 - `targetChapterPath` mora biti ne-prazen string
+- `sourcePath` in `targetChapterPath` morata biti normalizirana stringa brez vodilnega ali koncnega whitespace
+- `sourcePath` mora kazati znotraj dovoljenega lokalnega source prostora
+- `targetChapterPath` mora kazati znotraj dovoljenega root prostora aktivne knjige
+- v izvedbah, ki uporabljajo lokalni filesystem, `sourcePath` in `targetChapterPath` ne smeta vsebovati traversal segmentov, kot je `..`
 
 ### Relacije
 
@@ -150,14 +235,18 @@ Prepovedani prehodi:
 ### Statusna skladnost
 
 - `Fragment` s statusom `inserted` mora imeti vsaj en `Insertion`, ki kaze nanj
+- `Fragment` s statusom `draft` ne sme imeti `Insertion`
 - vsak `Insertion` mora imeti veljaven `targetChapterPath`
-- `IncomingText` s statusom `used` mora imeti vsaj en povezani `Fragment` ali vsaj eno insertion sled prek povezanega fragmenta
-- `IncomingText` s statusom `new` ne sme imeti `Fragment` v statusu `inserted`
-- `IncomingText` s statusom `archived` ne sme prehajati nazaj v aktivno stanje
+- ce obstaja `Insertion`, ki kaze na `Fragment`, mora imeti ta `Fragment` status `inserted` ali `archived`
+- `IncomingText` s statusom `used` mora imeti vsaj eno insertion sled prek povezanega `Fragment`
+- `IncomingText` s statusom `new` ne sme imeti povezanih `Fragment`
+- `IncomingText` s statusom `archived` ne sme imeti povezanih `Fragment` s statusom `draft`
 
 ### Koncepti
 
 - ce `Fragment.conceptIds` obstaja, mora vsak id kazati na obstoječ `Concept`
+- `Fragment.conceptIds`, ce obstaja, mora vsebovati unikatne id-je
+- ce `concepts` zbirka manjka, `Fragment.conceptIds` ne sme vsebovati vrednosti
 - odsotnost `concepts` zbirke je v v1 dovoljena
 
 ## Prepovedi modela
@@ -166,7 +255,7 @@ Prepovedani prehodi:
 - `Fragment` v v1 ne sme obstajati brez izvora
 - `Insertion` ne sme neposredno kazati na `IncomingText`
 - `targetChapterPath` ne sme biti prazen ali whitespace-only
-- statusni prehod se ne sme zgoditi, ce razbije katerikoli invariant
+- statusni prehod se ne sme zgoditi, ce razbije katerikoli invariant; to se preverja v `validateManifestTransition(previousManifest, nextManifest)`
 
 ## Minimalni validacijski rezultat
 
@@ -174,7 +263,12 @@ Prepovedani prehodi:
 
 - ali je schema shape veljaven
 - ali so relacije veljavne
-- ali so statusni prehodi veljavni
+- ali je trenutno stanje statusno skladno
 - ali invariants drzijo
 
-Ce katerikoli del odpove, manifest ni sprejemljiv za nadaljnjo obdelavo.
+`validateManifestTransition(previousManifest, nextManifest)` mora vsaj vrniti:
+
+- ali so statusni prehodi veljavni
+- ali `nextManifest` po spremembi ostane veljaven
+
+Ce katerikoli del odpove, manifest ali prehod ni sprejemljiv za nadaljnjo obdelavo.

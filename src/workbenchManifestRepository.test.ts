@@ -5,6 +5,7 @@ import { tmpdir } from "node:os";
 import test from "node:test";
 
 import {
+  type AddIncomingTextInput,
   addIncomingText,
   createEmptyManifest,
   createFragmentFromIncoming,
@@ -12,6 +13,8 @@ import {
   type WorkbenchManifest,
 } from "./workbenchManifest.js";
 import {
+  captureIncomingText,
+  createCaptureIncomingTextConsequence,
   MANIFEST_FILE_NAME,
   ManifestRepositoryError,
   ensureManifestFile,
@@ -182,6 +185,124 @@ test("atomic write creates final file with valid JSON and no temp file residue",
         (entry) => entry.startsWith(`${MANIFEST_FILE_NAME}.`) && entry.endsWith(".tmp"),
       ),
       false,
+    );
+  } finally {
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
+test("captureIncomingText persists body file and manifest trail", async () => {
+  const projectRoot = await createTempDirectory();
+  const input: AddIncomingTextInput = {
+    title: "Seed text",
+    body: "Prvi vhodni tekst.",
+  };
+
+  try {
+    const result = await captureIncomingText(projectRoot, input);
+    const manifestPath = getManifestPath(projectRoot);
+    const bodyFilePath = join(projectRoot, result.value.sourcePath);
+    const rawManifest = JSON.parse(await readFile(manifestPath, "utf8")) as WorkbenchManifest;
+    const restoredManifest = await readManifestFromFile(manifestPath);
+    const bodyContent = await readFile(bodyFilePath, "utf8");
+
+    assert.equal(result.value.id, "incoming-0001");
+    assert.equal(result.value.sourcePath, "incoming/incoming-0001.txt");
+    assert.equal(bodyContent, input.body);
+    assert.equal(rawManifest.incomingTexts[0]?.sourcePath, "incoming/incoming-0001.txt");
+    assert.equal("body" in (rawManifest.incomingTexts[0] as unknown as Record<string, unknown>), false);
+    assert.deepEqual(restoredManifest, result.manifest);
+  } finally {
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
+test("capture consequence summary exposes sourcePath without leaking body", async () => {
+  const projectRoot = await createTempDirectory();
+  const input: AddIncomingTextInput = {
+    title: "Seed text",
+    body: "Prvi vhodni tekst.",
+  };
+
+  try {
+    const result = await captureIncomingText(projectRoot, input);
+    const consequence = createCaptureIncomingTextConsequence(result);
+
+    assert.equal(consequence.title, "POSLEDICA");
+    assert.equal(consequence.lastAction, "ZAJEMI VNOS");
+    assert.equal(consequence.createdPath, "incoming/incoming-0001.txt");
+    assert.equal(consequence.manifestTrail.sourcePath, "incoming/incoming-0001.txt");
+    assert.equal(consequence.currentState, "CAPTURED");
+    assert.equal(consequence.nextAction, "RAZREZI");
+    assert.equal(consequence.proofBoundary, "Fragment se ni ustvarjen.");
+    assert.equal("body" in consequence.manifestTrail, false);
+  } finally {
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
+test("captureIncomingText rejects blank body and does not create manifest", async () => {
+  const projectRoot = await createTempDirectory();
+
+  try {
+    await assert.rejects(
+      () => captureIncomingText(projectRoot, { title: "Seed text", body: "   " }),
+      /body must be a non-empty string/,
+    );
+
+    await assert.rejects(
+      () => readFile(getManifestPath(projectRoot), "utf8"),
+      (error: unknown) => error instanceof Error && "code" in error && error.code === "ENOENT",
+    );
+  } finally {
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
+test("captureIncomingText rejects unsafe sourcePath", async () => {
+  const projectRoot = await createTempDirectory();
+
+  try {
+    await assert.rejects(
+      () =>
+        captureIncomingText(projectRoot, {
+          title: "Seed text",
+          body: "Prvi vhodni tekst.",
+          sourcePath: "../outside.txt",
+        }),
+      /sourcePath cannot contain traversal segments/,
+    );
+
+    await assert.rejects(
+      () => readFile(getManifestPath(projectRoot), "utf8"),
+      (error: unknown) => error instanceof Error && "code" in error && error.code === "ENOENT",
+    );
+  } finally {
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
+test("captureIncomingText does not report success when body file write fails", async () => {
+  const projectRoot = await createTempDirectory();
+
+  try {
+    await writeFile(join(projectRoot, "incoming"), "occupied", "utf8");
+
+    await assert.rejects(
+      () =>
+        captureIncomingText(projectRoot, {
+          title: "Seed text",
+          body: "Prvi vhodni tekst.",
+        }),
+      (error: unknown) =>
+        error instanceof ManifestRepositoryError &&
+        error.code === "WRITE_FAILURE" &&
+        error.message.includes("incoming-0001.txt"),
+    );
+
+    await assert.rejects(
+      () => readFile(getManifestPath(projectRoot), "utf8"),
+      (error: unknown) => error instanceof Error && "code" in error && error.code === "ENOENT",
     );
   } finally {
     await cleanupTempDirectory(projectRoot);
