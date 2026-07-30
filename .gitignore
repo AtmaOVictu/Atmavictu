@@ -1,3 +1,24 @@
+﻿# Allowlist by design: this root holds 50k+ files (Corpus, Backups, Models,
+# Imports, Manifests, Compose, Projects) that must never be swept into git.
+# Ignore everything, then explicitly un-ignore only the root docs meant to be
+# tracked here. Do not switch this to a denylist pattern.
+*
+
+!.gitignore
+!CLAUDE.md
+!AGENTS.md
+!.clinerules/
+!.clinerules/**
+!memory-bank/
+!memory-bank/**
+!requirements-dev.txt
+!pyproject.toml
+!.github/
+!.github/**
+!PR_BODY.md
+!Projects/WorkShade/CHANGELOG_ingest_delo_proposals.md
+
+# Typical ignores
 node_modules/
 dist/
 build/

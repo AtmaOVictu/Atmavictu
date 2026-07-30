@@ -1,0 +1,5 @@
+pytest
+jsonschema
+black
+isort
+flake8

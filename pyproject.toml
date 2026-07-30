@@ -1,0 +1,11 @@
+[project]
+name = "smisel"
+version = "0.1.0"
+description = "Smisel helper scripts"
+
+[project.optional-dependencies]
+dev = ["pytest", "jsonschema", "black", "isort", "flake8"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
