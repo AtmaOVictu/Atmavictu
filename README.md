@@ -37,13 +37,13 @@ To pomeni, da povezava med surovim vhodom in mestom v knjigi ni implicitna v UI-
 ## Status repoja
 
 - contract-first
-- no app code yet
-- brez React, Vite, Tauri ali backend implementacije v tej fazi
+- model + service + repository + CLI plast implementirana in testirana (glej `src/`, `npm test`)
+- brez React, Vite, Tauri ali UI implementacije v tej fazi
 - brez kopiranja vsebin iz `Library`
 
 ## Faze
 
-- Faza 0: produktni scope, arhitekturni contract, minimalni manifest schema
-- Faza 1: model + service plast nad manifestom
-- Faza 2: lokalni UI workbench nad zaklenjenim contractom
-- Faza 3: runtime integracija in selektivna desktop plast
+- Faza 0: produktni scope, arhitekturni contract, minimalni manifest schema — DONE
+- Faza 1: model + service plast nad manifestom — DONE (`src/workbenchManifest.ts`, `src/workbenchManifestRepository.ts`, `src/atmaCli.ts`)
+- Faza 2: lokalni UI workbench nad zaklenjenim contractom — not started
+- Faza 3: runtime integracija in selektivna desktop plast — not started

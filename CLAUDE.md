@@ -4,13 +4,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this directory is
 
-`D:\AI` is the D-drive storage and operations root for **Smisel**, a local AI stack (Open WebUI + Ollama + Qdrant + 14 Docker containers). The stack's two code/data folders were migrated here from `C:\Users\Luka\Documents` on 2026-07-06, with NTFS junctions left at the old C paths. `D:\AI` root became a git repo on 2026-07-28, scoped to root docs only via an allowlist `.gitignore` (`*` then explicit `!CLAUDE.md`/`!AGENTS.md`/`!.gitignore`/`!.clinerules/`/`!memory-bank/`) — it does **not** track Corpus, Backups, Models, Compose, Projects, or any other subdirectory; those remain outside git here. `Ops\space-control` is a separate, independent repo with its own full history. (Inert, empty `.agents\`, `.codex\`, and `src\api\` folders also exist at `D:\AI` root — leftover artifacts with no content. Don't mistake them for tool config.)
+`D:\AI` is the D-drive storage and operations root for **Smisel**, a local AI stack (Open WebUI + Ollama + Qdrant + 14 Docker containers). The stack's two code/data folders were migrated here from `C:\Users\Luka\Documents` on 2026-07-06, with NTFS junctions left at the old C paths. `D:\AI` root became a git repo on 2026-07-28, originally scoped to root docs only via an allowlist `.gitignore` (`*` then explicit un-ignores) — it still does **not** track Corpus, Backups, Models, Compose, or Projects; those remain outside git here. `Ops\space-control` is a separate, independent repo with its own full history. (Inert, empty `.agents\`, `.codex\`, and `src\api\` folders also exist at `D:\AI` root — leftover artifacts with no content. Don't mistake them for tool config.)
+
+**The allowlist premise is now stale for one thing: real product code.** Since 2026-07-29 (`cdba504` onward) this same repo also carries **Atmavictu**, a TypeScript product tracked directly at root (`src\`, `docs\`, `schema\`, `package.json`, `tsconfig.json` — see "Working on Atmavictu" below). Those files are tracked despite `.gitignore`'s comment still claiming "root docs only"; they were added before/around when the ignore rule would have caught them. Don't assume new files under `src\`/`docs\`/`schema\` are auto-tracked by the current ignore rules — check `git status` explicitly. Corpus/Backups/Models/Compose/Projects are unaffected by this and remain outside git as before.
 
 As of 2026-07-29, `.clinerules\` and `memory-bank\` are real, active tool config for a third agent, Cline — behavior rules plus a pre-populated project-orientation Memory Bank (see `.clinerules\memory-bank.md` for how Cline maintains it). Not to be confused with the inert folders above. Treat it as a third sibling of this twin-doc pair in spirit: same orientation, adapted for a tool whose memory resets between sessions. If root policy changes here, consider whether `.clinerules\00-orientation.md` or the Memory Bank need a matching update.
 
 | Directory | Contents |
 |---|---|
-| `Ops\space-control\` | **The only code here.** PowerShell tooling (own git repo) for storage inventory, backups, and the C→D junction cutover. Policies and runbook in `docs\`. |
+| `src\`, `docs\`, `schema\`, `package.json`, `tsconfig.json` | **Atmavictu / Book Workbench** — TypeScript product code tracked at repo root. Contract-first manifest system for a `vir -> obdelava -> knjiga` (source → processing → book) workflow. See "Working on Atmavictu" below. |
+| `Ops\space-control\` | PowerShell tooling (own git repo) for storage inventory, backups, and the C→D junction cutover. Policies and runbook in `docs\`. |
 | `Compose\SET Up\` | The Smisel stack itself (DockerCompose.yml, pipelines, functions, n8n workflows). Junction target of `C:\Users\Luka\Documents\SET Up`. **Has its own detailed `CLAUDE.md` — no `AGENTS.md` twin exists there yet, so read the `CLAUDE.md` before touching the stack regardless of tool.** |
 | `Compose\openwebui\` | **Blueprint only — never deployed.** Clean-room OpenWebUI+Ollama compose definition from space-control Shift 3. NOT the live stack (that runs as `smisel-open-webui` on port 3000 with native Windows Ollama on 11434). Do not `docker compose up` it — its containerized Ollama would conflict with native Ollama on port 11434. See its `README.md` for the `down -v` data-destruction warning. |
 | `Projects\` | `WorkShade` — the stack's data workspace, junction target of `C:\Users\Luka\Documents\WorkShade`. |
@@ -53,3 +56,26 @@ All stack development guidance (pipelines, valves, Qdrant collections, slash com
 
 - As of 2026-07-07 the stack binds directly to D paths (compose bind mounts, host scripts, task definitions, docs all repointed). The C junctions remain only as a safety net for stragglers — do not create new C-path references.
 - `WorkShade\library\references\` holds 30k+ flat files; the same "scope your searches" rule applies there.
+
+## Working on Atmavictu
+
+Atmavictu is a Book Workbench for a `vir -> obdelava -> knjiga` (source → processing → book) editorial workflow: an `IncomingText` gets cut into working `Fragment`s, and a confirmed `Fragment` becomes an `Insertion` at a `targetChapterPath` in the active book. The point of the product is a **persistent local manifest** — `book.workbench.json` in the target project root — that makes the `IncomingText -> Fragment -> Insertion -> targetChapterPath` trail explicit and machine-checkable instead of implicit in some future UI. Full narrative in `README.md`; the binding contracts are `docs\ARCHITECTURE.md` (three-space model: Knjiznica/library, Aktivna knjiga/active book, Vhodni tekst/incoming text — plus the Model → Service → UI → Tauri/backend layering rule, where UI is never the source of truth for relations), `docs\MODEL_CONTRACT.md` (entities, statuses, allowed/forbidden transitions, invariants), and `docs\SERVICE_CONTRACT.md` (the operation-by-operation contract: inputs, entity effects, allowed transitions, failure cases, acceptance checks). Contract-first is the explicit house rule here: lock schema/model/service behavior before UI or runtime.
+
+**Commands** (from `package.json`, Node ESM + TypeScript, strict mode):
+
+- `npm run typecheck` — `tsc --noEmit`
+- `npm test` — compiles (`tsc`), then runs `node --test "build/src/*.test.js"` (Node's built-in test runner against compiled output, not Jest/Mocha; there's a `*.test.ts` next to every source file)
+- `npm run atma -- <capture|show|verify> <projectRoot> [title] [body]` — the `atmaCli.ts` CLI (needs a build first, or use the built form: `node build/src/atmaCli.js ...`)
+- `npm run proof:capture` — runs `captureIncomingTextProof.ts` directly, a thin proof-of-flow wrapper around `capture`
+
+**Source layout** (`src\`):
+
+- `workbenchManifest.ts` — the pure domain model: entity shapes, `validateManifest()` (single-snapshot schema/relation/invariant check) and `validateManifestTransition()` (checks a status transition between two snapshots is allowed and leaves a valid result)
+- `workbenchManifestRepository.ts` — the only persistence layer: reads/writes `book.workbench.json` atomically (temp file + rename), guards `sourcePath`/`targetChapterPath` against escaping `projectRoot` (rejects absolute paths and `..` traversal), and is the sole layer allowed to mutate the manifest per the service contract
+- `captureIncomingTextProof.ts`, `atmaCli.ts` — thin CLI wrappers over the repository layer; no domain logic of their own
+- `schema\workbench.manifest.v1.schema.json` — the JSON Schema `book.workbench.json` must validate against (`manifestVersion` is a literal `"1"`; paths are constrained via a shared `PathString` pattern)
+
+**Known gaps — don't trust the other config files here for this code:**
+
+- `.github\workflows\ci.yml`, `pyproject.toml`, and `requirements-dev.txt` are Python-flavored and CI's path filter only watches `Projects/WorkShade/**` — none of it builds, lints, or tests the TypeScript source. There is currently no CI for Atmavictu; run `npm run typecheck` and `npm test` locally before treating a change as verified.
+- `README.md` still says "no app code yet" / Faza 0 (contract-only). That's stale — a working model + service + repository + CLI layer with tests already exists. Trust `src\` and the two contract docs over the phase claim in `README.md`.
