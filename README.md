@@ -38,12 +38,15 @@ To pomeni, da povezava med surovim vhodom in mestom v knjigi ni implicitna v UI-
 
 - contract-first
 - model + service + repository + CLI plast implementirana in testirana (glej `src/`, `npm test`)
-- brez React, Vite, Tauri ali UI implementacije v tej fazi
+- lokalni UI workbench (Faza 2) je v izdelavi: Express API + React/Vite frontend, glej spodaj
+- brez Tauri implementacije v tej fazi
 - brez kopiranja vsebin iz `Library`
 
 ## Faze
 
 - Faza 0: produktni scope, arhitekturni contract, minimalni manifest schema — DONE
 - Faza 1: model + service plast nad manifestom — DONE (`src/workbenchManifest.ts`, `src/workbenchManifestRepository.ts`, `src/atmaCli.ts`)
-- Faza 2: lokalni UI workbench nad zaklenjenim contractom — not started
+- Faza 2: lokalni UI workbench nad zaklenjenim contractom — IN PROGRESS. Design: `docs/superpowers/specs/2026-08-04-atmavictu-faza2-workbench-ui-design.md`. Vseh 9 service operacij je dosegljivih iz UI-ja in preverjenih v resnicnem brskalniku (glej ta dokument in spec). Namerno se manjka: vizualno oblikovanje, konfigurabilna Knjiznica pot, drag-and-drop.
+  - Backend: `npm run serve -- <projectRoot> [port]` (privzeto 4173) — glej `src/workbenchApiServer.ts`, testi v `src/workbenchApiServer.test.ts`.
+  - Frontend: `cd web && npm install && npm run dev` (privzeto 5173, proxy na `/api` -> 4173).
 - Faza 3: runtime integracija in selektivna desktop plast — not started

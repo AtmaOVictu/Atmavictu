@@ -1,8 +1,8 @@
 ﻿# Allowlist by design: this root holds 50k+ files (Corpus, Backups, Models,
 # Imports, Manifests, Compose, Projects) that must never be swept into git.
 # Ignore everything, then explicitly un-ignore only the root docs and the
-# Atmavictu product source meant to be tracked here. Do not switch this to
-# a denylist pattern.
+# Atmavictu product source meant to be tracked here (including web/, the
+# Faza 2 frontend). Do not switch this to a denylist pattern.
 *
 
 !.gitignore
@@ -30,6 +30,8 @@
 !package.json
 !package-lock.json
 !tsconfig.json
+!web/
+!web/**
 
 # Typical ignores
 node_modules/
