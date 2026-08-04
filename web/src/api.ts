@@ -1,4 +1,5 @@
 import type {
+  ExtraLibraryEntry,
   Fragment,
   IncomingText,
   Insertion,
@@ -33,7 +34,24 @@ export const workbenchApi = {
   getManifest: () => request<WorkbenchManifest>("/api/manifest"),
   getVerify: () => request<ManifestValidationResult>("/api/verify"),
   getLibrary: () => request<LibraryEntry[]>("/api/library"),
+  getLibraryContent: (path: string) =>
+    request<{ path: string; content: string }>(`/api/library/content?path=${encodeURIComponent(path)}`),
   getTree: () => request<TreeEntry[]>("/api/tree"),
+
+  /** Returns null (not an error) when the server has no extraLibraryRoot configured. */
+  getExtraLibrary: async (): Promise<ExtraLibraryEntry[] | null> => {
+    const response = await fetch("/api/library/extra");
+    if (response.status === 404) {
+      return null;
+    }
+    if (!response.ok) {
+      throw new WorkbenchApiError("Failed to load the extra library source.");
+    }
+    return (await response.json()) as ExtraLibraryEntry[];
+  },
+
+  getExtraLibraryContent: (path: string) =>
+    request<{ path: string; content: string }>(`/api/library/extra/content?path=${encodeURIComponent(path)}`),
 
   captureIncoming: (input: { title?: string; body: string }) =>
     request<IncomingText>("/api/incoming", { method: "POST", body: JSON.stringify(input) }),

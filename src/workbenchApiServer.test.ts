@@ -1,11 +1,12 @@
 import assert from "node:assert/strict";
-import { mkdtemp, rm } from "node:fs/promises";
+import { mkdir, mkdtemp, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import type { AddressInfo } from "node:net";
 import test from "node:test";
 
 import { startWorkbenchApiServer } from "./workbenchApiServer.js";
+import type { DeloArtifactProvenance } from "./workbenchApiServer.js";
 import type { Fragment, IncomingText, Insertion, ManifestValidationResult, WorkbenchManifest } from "./workbenchManifest.js";
 
 test("full workbench flow: all 9 service operations reachable over HTTP", async () => {
@@ -104,6 +105,97 @@ test("mutation errors surface as 400 with a plain-text message, not a 500", asyn
   } finally {
     server.close();
     await cleanupTempDirectory(projectRoot);
+  }
+});
+
+test("primary library content is readable, and traversal outside projectRoot is refused", async () => {
+  const projectRoot = await createTempDirectory();
+  const server = startWorkbenchApiServer(projectRoot, 0);
+  const baseUrl = await waitForBaseUrl(server);
+
+  try {
+    await mkdir(join(projectRoot, "source"), { recursive: true });
+    await writeFile(join(projectRoot, "source", "raw.txt"), "Surovo besedilo.", "utf8");
+
+    const content = await getJson<{ path: string; content: string }>(
+      `${baseUrl}/api/library/content?path=${encodeURIComponent("source/raw.txt")}`,
+    );
+    assert.equal(content.content, "Surovo besedilo.");
+
+    const traversal = await fetch(`${baseUrl}/api/library/content?path=${encodeURIComponent("../outside.txt")}`);
+    assert.equal(traversal.status, 400);
+  } finally {
+    server.close();
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
+test("without an extraLibraryRoot, the extra-library endpoints report 404, not empty success", async () => {
+  const projectRoot = await createTempDirectory();
+  const server = startWorkbenchApiServer(projectRoot, 0);
+  const baseUrl = await waitForBaseUrl(server);
+
+  try {
+    const response = await fetch(`${baseUrl}/api/library/extra`);
+    assert.equal(response.status, 404);
+  } finally {
+    server.close();
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
+test("extraLibraryRoot surfaces delo-artifact provenance where present, null where absent, and its content is readable", async () => {
+  const projectRoot = await createTempDirectory();
+  const extraLibraryRoot = await createTempDirectory();
+
+  await writeFile(
+    join(extraLibraryRoot, "plain-dialektika-output.md"),
+    "# Ni delo artefakt\n\nNavaden zapisek brez ovojnice.",
+    "utf8",
+  );
+  await writeFile(
+    join(extraLibraryRoot, "delo_real_artifact.md"),
+    [
+      "<!-- delo-artifact:v1",
+      JSON.stringify({
+        schema_version: "delo.artifact.v1",
+        artifact_id: "abc123",
+        output_type: "draft",
+        next_action: "Nadaljuj z naslednjim korakom.",
+        created_at: "2026-08-04T00:00:00+00:00",
+      }),
+      "-->",
+      "",
+      "Telo osnutka.",
+    ].join("\n"),
+    "utf8",
+  );
+
+  const server = startWorkbenchApiServer(projectRoot, 0, { extraLibraryRoot });
+  const baseUrl = await waitForBaseUrl(server);
+
+  try {
+    const entries = await getJson<Array<{ path: string; deloProvenance: DeloArtifactProvenance | null }>>(
+      `${baseUrl}/api/library/extra`,
+    );
+    assert.equal(entries.length, 2);
+
+    const plain = entries.find((entry) => entry.path === "plain-dialektika-output.md");
+    assert.equal(plain?.deloProvenance, null);
+
+    const deloArtifact = entries.find((entry) => entry.path === "delo_real_artifact.md");
+    assert.equal(deloArtifact?.deloProvenance?.artifactId, "abc123");
+    assert.equal(deloArtifact?.deloProvenance?.outputType, "draft");
+    assert.equal(deloArtifact?.deloProvenance?.nextAction, "Nadaljuj z naslednjim korakom.");
+
+    const content = await getJson<{ content: string }>(
+      `${baseUrl}/api/library/extra/content?path=${encodeURIComponent("delo_real_artifact.md")}`,
+    );
+    assert.match(content.content, /Telo osnutka\./);
+  } finally {
+    server.close();
+    await cleanupTempDirectory(projectRoot);
+    await cleanupTempDirectory(extraLibraryRoot);
   }
 });
 

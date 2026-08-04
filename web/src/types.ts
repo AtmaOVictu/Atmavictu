@@ -47,6 +47,18 @@ export interface LibraryEntry {
   captured: boolean;
 }
 
+export interface DeloArtifactProvenance {
+  artifactId: string;
+  outputType: string;
+  nextAction?: string;
+  createdAt?: string;
+}
+
+export interface ExtraLibraryEntry {
+  path: string;
+  deloProvenance: DeloArtifactProvenance | null;
+}
+
 export interface TreeEntry {
   path: string;
   insertionCount: number;

@@ -1,6 +1,6 @@
 import { createServer, type Server } from "node:http";
-import { readdir } from "node:fs/promises";
-import { join, resolve } from "node:path";
+import { readdir, readFile } from "node:fs/promises";
+import { isAbsolute, join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 import express, { type Express, type NextFunction, type Request, type Response } from "express";
@@ -22,9 +22,22 @@ import {
 } from "./workbenchManifestRepository.js";
 
 const IGNORED_ROOT_ENTRIES = new Set(["book.workbench.json", "node_modules", ".git"]);
+const DELO_ARTIFACT_MARKER = "<!-- delo-artifact:v1";
+const DELO_ARTIFACT_MARKER_END = "-->";
 
-export function createWorkbenchApiApp(projectRoot: string): Express {
+export interface WorkbenchApiOptions {
+  /**
+   * Optional second, read-only source root browsable alongside Knjiznica's
+   * own projectRoot — e.g. a Smisel WorkShade `drafts/` folder. Generic by
+   * design: Atmavictu itself has no concept of "Delo" or "WorkShade," this
+   * is just an arbitrary extra folder a caller may point at anything.
+   */
+  extraLibraryRoot?: string;
+}
+
+export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApiOptions = {}): Express {
   const normalizedProjectRoot = requireNonEmptyString("projectRoot", projectRoot);
+  const extraLibraryRoot = options.extraLibraryRoot?.trim() || undefined;
   const app = express();
   app.use(express.json());
 
@@ -48,6 +61,37 @@ export function createWorkbenchApiApp(projectRoot: string): Express {
         captured: capturedSourcePaths.has(filePath),
       })),
     );
+  }));
+
+  app.get("/api/library/content", asyncRoute(async (req, res) => {
+    const filePath = requireQueryString(req, "path");
+    const resolvedPath = resolveWithinRoot(normalizedProjectRoot, filePath, "path");
+    res.json({ path: filePath, content: await readFile(resolvedPath, "utf8") });
+  }));
+
+  app.get("/api/library/extra", asyncRoute(async (_req, res) => {
+    if (extraLibraryRoot === undefined) {
+      res.status(404).json({ error: "No extraLibraryRoot configured for this server." });
+      return;
+    }
+    const files = await listProjectFiles(extraLibraryRoot);
+    const entries = await Promise.all(
+      files.map(async (filePath) => {
+        const content = await readFile(join(extraLibraryRoot, filePath), "utf8");
+        return { path: filePath, deloProvenance: parseDeloProvenance(content) };
+      }),
+    );
+    res.json(entries);
+  }));
+
+  app.get("/api/library/extra/content", asyncRoute(async (req, res) => {
+    if (extraLibraryRoot === undefined) {
+      res.status(404).json({ error: "No extraLibraryRoot configured for this server." });
+      return;
+    }
+    const filePath = requireQueryString(req, "path");
+    const resolvedPath = resolveWithinRoot(extraLibraryRoot, filePath, "path");
+    res.json({ path: filePath, content: await readFile(resolvedPath, "utf8") });
   }));
 
   app.get("/api/tree", asyncRoute(async (_req, res) => {
@@ -125,8 +169,12 @@ export function createWorkbenchApiApp(projectRoot: string): Express {
   return app;
 }
 
-export function startWorkbenchApiServer(projectRoot: string, port: number): Server {
-  const app = createWorkbenchApiApp(projectRoot);
+export function startWorkbenchApiServer(
+  projectRoot: string,
+  port: number,
+  options?: WorkbenchApiOptions,
+): Server {
+  const app = createWorkbenchApiApp(projectRoot, options);
   return createServer(app).listen(port);
 }
 
@@ -191,6 +239,72 @@ function requireBodyString(name: string, value: unknown): string {
   return value;
 }
 
+function requireQueryString(req: Request, name: string): string {
+  const value = req.query[name];
+  if (typeof value !== "string" || value.trim().length === 0) {
+    throw new Error(`Query parameter ${name} must be a non-empty string.`);
+  }
+  return value;
+}
+
+/** Same escape-guard shape as workbenchManifestRepository's resolveProjectFilePath. */
+function resolveWithinRoot(root: string, relativeFilePath: string, name: string): string {
+  const normalizedRoot = resolve(root);
+
+  if (isAbsolute(relativeFilePath)) {
+    throw new Error(`${name} must be a relative path: ${relativeFilePath}`);
+  }
+
+  const resolvedPath = resolve(normalizedRoot, relativeFilePath);
+  const relativeToRoot = relative(normalizedRoot, resolvedPath);
+
+  if (relativeToRoot.startsWith("..") || isAbsolute(relativeToRoot)) {
+    throw new Error(`${name} must stay within its root: ${relativeFilePath}`);
+  }
+
+  return resolvedPath;
+}
+
+export interface DeloArtifactProvenance {
+  artifactId: string;
+  outputType: string;
+  nextAction?: string;
+  createdAt?: string;
+}
+
+/**
+ * Best-effort parse of the delo-artifact:v1 envelope canvas_server.py writes
+ * (see Projects/WorkShade/scripts/canvas_server.py's `_delo_render_artifact_v1`).
+ * Not every file under an extraLibraryRoot carries this — most of WorkShade's
+ * own `drafts/` folder is /dialektika and /seciraj output with no envelope at
+ * all, so a null return here is the common case, not an error.
+ */
+function parseDeloProvenance(content: string): DeloArtifactProvenance | null {
+  if (!content.startsWith(DELO_ARTIFACT_MARKER)) {
+    return null;
+  }
+  const end = content.indexOf(DELO_ARTIFACT_MARKER_END);
+  if (end === -1) {
+    return null;
+  }
+  const envelopeRaw = content.slice(DELO_ARTIFACT_MARKER.length, end).trim();
+
+  try {
+    const envelope = JSON.parse(envelopeRaw) as Record<string, unknown>;
+    if (typeof envelope.artifact_id !== "string" || typeof envelope.output_type !== "string") {
+      return null;
+    }
+    return {
+      artifactId: envelope.artifact_id,
+      outputType: envelope.output_type,
+      ...(typeof envelope.next_action === "string" ? { nextAction: envelope.next_action } : {}),
+      ...(typeof envelope.created_at === "string" ? { createdAt: envelope.created_at } : {}),
+    };
+  } catch {
+    return null;
+  }
+}
+
 function requireNonEmptyString(name: string, value: string): string {
   if (value.trim().length === 0) {
     throw new Error(`${name} must be a non-empty string.`);
@@ -209,12 +323,22 @@ function isDirectExecution(): boolean {
 if (isDirectExecution()) {
   const projectRoot = process.argv[2];
   const port = Number(process.argv[3] ?? "4173");
+  const extraLibraryRoot = process.argv[4];
 
   if (projectRoot === undefined || projectRoot.trim().length === 0) {
-    process.stderr.write("Usage: node build/src/workbenchApiServer.js <projectRoot> [port]\n");
+    process.stderr.write(
+      "Usage: node build/src/workbenchApiServer.js <projectRoot> [port] [extraLibraryRoot]\n",
+    );
     process.exitCode = 1;
   } else {
-    startWorkbenchApiServer(projectRoot, port);
+    startWorkbenchApiServer(
+      projectRoot,
+      port,
+      extraLibraryRoot !== undefined ? { extraLibraryRoot } : {},
+    );
     process.stdout.write(`Atmavictu workbench API listening on http://localhost:${port}\n`);
+    if (extraLibraryRoot !== undefined) {
+      process.stdout.write(`Extra library root: ${extraLibraryRoot}\n`);
+    }
   }
 }

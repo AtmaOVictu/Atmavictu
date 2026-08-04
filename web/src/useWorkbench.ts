@@ -1,13 +1,21 @@
 import { useCallback, useEffect, useState } from "react";
 
 import { WorkbenchApiError, workbenchApi } from "./api";
-import type { LibraryEntry, ManifestValidationResult, TreeEntry, WorkbenchManifest } from "./types";
+import type {
+  ExtraLibraryEntry,
+  LibraryEntry,
+  ManifestValidationResult,
+  TreeEntry,
+  WorkbenchManifest,
+} from "./types";
 
 interface WorkbenchState {
   manifest: WorkbenchManifest | null;
   verify: ManifestValidationResult | null;
   library: LibraryEntry[];
   tree: TreeEntry[];
+  /** null = server has no extraLibraryRoot configured, not "still loading" or "empty." */
+  extraLibrary: ExtraLibraryEntry[] | null;
   error: string | null;
   isLoading: boolean;
 }
@@ -24,6 +32,7 @@ export function useWorkbench() {
     verify: null,
     library: [],
     tree: [],
+    extraLibrary: null,
     error: null,
     isLoading: true,
   });
@@ -31,13 +40,14 @@ export function useWorkbench() {
   const refetchAll = useCallback(async () => {
     setState((previous) => ({ ...previous, isLoading: true }));
     try {
-      const [manifest, verify, library, tree] = await Promise.all([
+      const [manifest, verify, library, tree, extraLibrary] = await Promise.all([
         workbenchApi.getManifest(),
         workbenchApi.getVerify(),
         workbenchApi.getLibrary(),
         workbenchApi.getTree(),
+        workbenchApi.getExtraLibrary(),
       ]);
-      setState({ manifest, verify, library, tree, error: null, isLoading: false });
+      setState({ manifest, verify, library, tree, extraLibrary, error: null, isLoading: false });
     } catch (error) {
       setState((previous) => ({ ...previous, error: describeError(error), isLoading: false }));
     }

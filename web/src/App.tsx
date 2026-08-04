@@ -6,7 +6,7 @@ import { workbenchApi } from "./api";
 import { useWorkbench } from "./useWorkbench";
 
 export function App() {
-  const { manifest, verify, library, tree, error, isLoading, runAction } = useWorkbench();
+  const { manifest, verify, library, tree, extraLibrary, error, isLoading, runAction } = useWorkbench();
 
   if (isLoading && manifest === null) {
     return <p className="loading">Nalagam manifest...</p>;
@@ -20,6 +20,7 @@ export function App() {
       <main className="panes">
         <KnjiznicaPanel
           library={library}
+          extraLibrary={extraLibrary}
           onCapture={(input) => runAction(() => workbenchApi.captureIncoming(input))}
         />
         <AktivnaKnjigaPanel
