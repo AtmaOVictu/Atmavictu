@@ -290,6 +290,121 @@ Arhivira `Fragment`, kadar ni vec del aktivnega uredniskega toka.
 - ciljni `Fragment.status === "archived"`
 - ce obstaja povezan `Insertion`, ta ostane nespremenjen kot dokazna sled
 
+## updateIncomingText(incomingId, { title?, note? })
+
+### Namen
+
+Posodobi meta-podatke vhodnega teksta (obnova odlomka / preimenovanje vira). Operacija ne spreminja statusa in ne premika filesystem `sourcePath`; samo `title` in `note` se lahko spremenita. `undefined` pomeni "pusti pri miru", `null` pomeni "odstrani polje", ne-prazn string pomeni "nastavi novo vrednost".
+
+### Input
+
+- `incomingId: string`
+- `title?: string | null`
+- `note?: string | null`
+
+### Output
+
+- posodobljen `IncomingText`
+- posodobljen manifest
+
+### Spremeni entitete
+
+- spremeni `title` in/ali `note` enega `IncomingText`
+
+### Dovoljeni statusni prehodi
+
+- ni statusnih prehodov; operacija ohrani trenutni status
+
+### Failure cases
+
+- `incomingId` ne obstaja
+- podan `title` je prazen ali whitespace-only
+- rezultat krsi schema ali invariante
+
+### Minimalni proof / acceptance check
+
+- ciljni `IncomingText` ima posodobljen `title`/`note`
+- status ostane nespremenjen
+- manifest ostane veljaven snapshot
+
+## updateFragment(fragmentId, { text?, note? })
+
+### Namen
+
+Posodobi delovni odlomek (obnova teksta). Operacija ne spreminja statusa; lahko spremeni `text` (obvezen ne-prazen, ce je podan) in `note`. `undefined` pomeni "pusti pri miru", `null` pomeni "odstrani polje".
+
+### Input
+
+- `fragmentId: string`
+- `title?: string | null`
+- `text?: string`
+- `note?: string | null`
+
+### Output
+
+- posodobljen `Fragment`
+- posodobljen manifest
+
+### Spremeni entitete
+
+- spremeni `text` in/ali `note` enega `Fragment`
+
+### Dovoljeni statusni prehodi
+
+- ni statusnih prehodov; operacija ohrani trenutni status
+
+### Failure cases
+
+- `fragmentId` ne obstaja
+- podan `text` je prazen ali whitespace-only
+- rezultat krsi schema ali invariante
+
+### Minimalni proof / acceptance check
+
+- ciljni `Fragment` ima posodobljen `text`/`note`
+- status ostane nespremenjen
+- manifest ostane veljaven snapshot
+
+## updateInsertion(insertionId, { targetChapterPath?, positionNote?, note? })
+
+### Namen
+
+Posodobi insertion sled (preimenovanje/obnova ciljnega mesta). Operacija ne spreminja statusa pripadajocega `Fragment`; spremeni lahko `targetChapterPath` (obvezen ne-prazen relativni path, ce je podan), `positionNote` in `note`. `undefined` pomeni "pusti pri miru", `null` pomeni "odstrani polje".
+
+### Input
+
+- `insertionId: string`
+- `targetChapterPath?: string`
+- `positionNote?: string | null`
+- `note?: string | null`
+
+### Output
+
+- posodobljen `Insertion`
+- posodobljen manifest
+
+### Spremeni entitete
+
+- spremeni `targetChapterPath`, `positionNote` in/ali `note` enega `Insertion`
+
+### Dovoljeni statusni prehodi
+
+- ni statusnih prehodov; operacija ohrani status odlomka in vira
+
+### Failure cases
+
+- `insertionId` ne obstaja
+- podan `targetChapterPath` je prazen ali whitespace-only
+- podan `targetChapterPath` je absoluten ali vsebuje traversal segmente (preverjeno prek validacije ne `nextManifest`)
+- rezultat krsi schema ali invariante
+
+### Minimalni proof / acceptance check
+
+- ciljni `Insertion` ima posodobljen `targetChapterPath`/`positionNote`/`note`
+- pripadajoci `Fragment` in `IncomingText` ohranita status
+- manifest ostane veljaven snapshot
+
+## validateManifest(manifest)
 ## validateManifest(manifest)
 
 ### Namen

@@ -108,6 +108,62 @@ test("mutation errors surface as 400 with a plain-text message, not a 500", asyn
   }
 });
 
+test("read/rename/update operations over HTTP: updateIncomingText, updateFragment, updateInsertion", async () => {
+  const projectRoot = await createTempDirectory();
+  const server = startWorkbenchApiServer(projectRoot, 0);
+  const baseUrl = await waitForBaseUrl(server);
+
+  try {
+    const capture = await postJson<IncomingText>(`${baseUrl}/api/incoming`, {
+      title: "Stari naslov",
+      body: "Vsebina vira.",
+    });
+    const incomingId = capture.body.id;
+    await postJson(`${baseUrl}/api/incoming/${incomingId}/start-processing`, {});
+    const fragment = await postJson<Fragment>(`${baseUrl}/api/fragments`, {
+      incomingTextId: incomingId,
+      body: "Star odlomek.",
+    });
+    const fragmentId = fragment.body.id;
+    const insertion = await postJson<Insertion>(`${baseUrl}/api/insertions`, {
+      fragmentId,
+      targetChapterPath: "chapters/01-uvod.md",
+    });
+    const insertionId = insertion.body.id;
+
+    // rename the incoming source (title)
+    const renamed = await postJson<IncomingText>(`${baseUrl}/api/incoming/${incomingId}/update`, {
+      title: "Novi naslov",
+    });
+    assert.equal(renamed.status, 200);
+    assert.equal(renamed.body.title, "Novi naslov");
+    assert.equal(renamed.body.status, "used"); // status unchanged
+
+    // edit the fragment working text (obnova)
+    const edited = await postJson<Fragment>(`${baseUrl}/api/fragments/${fragmentId}/update`, {
+      text: "Obnovljen odlomek.",
+    });
+    assert.equal(edited.status, 200);
+    assert.equal(edited.body.text, "Obnovljen odlomek.");
+    assert.equal(edited.body.status, "inserted");
+
+    // retarget the insertion (rename / obnova ciljnega mesta)
+    const retargeted = await postJson<Insertion>(`${baseUrl}/api/insertions/${insertionId}/update`, {
+      targetChapterPath: "chapters/02-jedro.md",
+      positionNote: "za uvodom",
+    });
+    assert.equal(retargeted.status, 200);
+    assert.equal(retargeted.body.targetChapterPath, "chapters/02-jedro.md");
+    assert.equal(retargeted.body.positionNote, "za uvodom");
+
+    const verify = await getJson<ManifestValidationResult>(`${baseUrl}/api/verify`);
+    assert.equal(verify.isValid, true);
+  } finally {
+    server.close();
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
 test("primary library content is readable, and traversal outside projectRoot is refused", async () => {
   const projectRoot = await createTempDirectory();
   const server = startWorkbenchApiServer(projectRoot, 0);

@@ -19,6 +19,7 @@ export interface Fragment {
   text: string;
   status: FragmentStatus;
   conceptIds?: string[];
+  title?: string;
   note?: string;
 }
 

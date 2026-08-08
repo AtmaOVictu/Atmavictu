@@ -70,4 +70,22 @@ export const workbenchApi = {
 
   insertFragment: (input: { fragmentId: string; targetChapterPath: string }) =>
     request<Insertion>("/api/insertions", { method: "POST", body: JSON.stringify(input) }),
+
+  updateIncomingText: (id: string, input: { title?: string | null; note?: string | null }) =>
+    request<IncomingText>(`/api/incoming/${encodeURIComponent(id)}/update`, {
+      method: "POST",
+      body: JSON.stringify(input),
+    }),
+
+  updateFragment: (id: string, input: { title?: string | null; text?: string; note?: string | null }) =>
+    request<Fragment>(`/api/fragments/${encodeURIComponent(id)}/update`, {
+      method: "POST",
+      body: JSON.stringify(input),
+    }),
+
+  updateInsertion: (id: string, input: { targetChapterPath?: string; positionNote?: string | null; note?: string | null }) =>
+    request<Insertion>(`/api/insertions/${encodeURIComponent(id)}/update`, {
+      method: "POST",
+      body: JSON.stringify(input),
+    }),
 };

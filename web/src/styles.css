@@ -52,14 +52,16 @@ body {
 
 .file-list,
 .incoming-list,
-.fragment-list {
+.fragment-list,
+.insertion-list {
   list-style: none;
   padding: 0;
   margin: 0 0 1rem;
 }
 
 .file-list li,
-.fragment-list li {
+.fragment-list li,
+.insertion-list li {
   padding: 0.25rem 0;
   border-bottom: 1px solid #eee;
 }
@@ -117,6 +119,41 @@ body {
 .empty {
   color: #999;
   font-style: italic;
+}
+
+.rename-inline {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.secondary-button {
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+}
+
+.fragment-edit,
+.insertion-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed #ddd;
+}
+
+.insertion-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.insertion-edit input {
+  padding: 0.3rem 0.5rem;
 }
 
 .loading {

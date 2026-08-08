@@ -1,14 +1,19 @@
 import { useState } from "react";
 
-import type { Fragment, TreeEntry } from "../types";
+import type { Fragment, Insertion, TreeEntry } from "../types";
 
 interface Props {
   tree: TreeEntry[];
   draftFragments: Fragment[];
+  insertions: Insertion[];
   onInsert: (input: { fragmentId: string; targetChapterPath: string }) => Promise<void>;
+  onUpdateInsertion: (
+    id: string,
+    input: { targetChapterPath?: string; positionNote?: string | null; note?: string | null },
+  ) => Promise<void>;
 }
 
-export function AktivnaKnjigaPanel({ tree, draftFragments, onInsert }: Props) {
+export function AktivnaKnjigaPanel({ tree, draftFragments, insertions, onInsert, onUpdateInsertion }: Props) {
   const [fragmentId, setFragmentId] = useState("");
   const [targetChapterPath, setTargetChapterPath] = useState("");
 
@@ -24,6 +29,21 @@ export function AktivnaKnjigaPanel({ tree, draftFragments, onInsert }: Props) {
         ))}
         {tree.length === 0 && <li className="empty">Ni datotek v projectRoot.</li>}
       </ul>
+
+      {insertions.length > 0 && (
+        <>
+          <h3>Vstavljene sledi</h3>
+          <ul className="insertion-list">
+            {insertions.map((insertion) => (
+              <InsertionRow
+                key={insertion.id}
+                insertion={insertion}
+                onUpdateInsertion={onUpdateInsertion}
+              />
+            ))}
+          </ul>
+        </>
+      )}
 
       <form
         className="capture-form"
@@ -61,3 +81,61 @@ export function AktivnaKnjigaPanel({ tree, draftFragments, onInsert }: Props) {
     </section>
   );
 }
+
+function InsertionRow({
+  insertion,
+  onUpdateInsertion,
+}: {
+  insertion: Insertion;
+  onUpdateInsertion: (
+    id: string,
+    input: { targetChapterPath?: string; positionNote?: string | null; note?: string | null },
+  ) => Promise<void>;
+}) {
+  const [editing, setEditing] = useState(false);
+  const [pathValue, setPathValue] = useState(insertion.targetChapterPath);
+  const [positionValue, setPositionValue] = useState(insertion.positionNote ?? "");
+
+  function submitEdit() {
+    if (pathValue.trim().length === 0) {
+      return;
+    }
+    void onUpdateInsertion(insertion.id, {
+      targetChapterPath: pathValue.trim(),
+      positionNote: positionValue.trim().length > 0 ? positionValue.trim() : null,
+    }).then(() => setEditing(false));
+  }
+
+  return (
+    <li className="insertion-row">
+      <span className="badge">{insertion.fragmentId.slice(0, 12)}</span>
+      {insertion.targetChapterPath}
+      {insertion.positionNote ? ` · ${insertion.positionNote}` : ""}
+      <button type="button" className="link-button" onClick={() => setEditing((previous) => !previous)}>
+        {editing ? "prekini" : "uredi"}
+      </button>
+      {editing && (
+        <div className="insertion-edit">
+          <input
+            type="text"
+            value={pathValue}
+            onChange={(event) => setPathValue(event.target.value)}
+            aria-label="Ciljno poglavje"
+            placeholder="ciljno poglavje"
+          />
+          <input
+            type="text"
+            value={positionValue}
+            onChange={(event) => setPositionValue(event.target.value)}
+            aria-label="Pozicijska opomba"
+            placeholder="pozicijska opomba (neobvezno)"
+          />
+          <button type="button" onClick={submitEdit} disabled={pathValue.trim().length === 0}>
+            Shrani obnovo
+          </button>
+        </div>
+      )}
+    </li>
+  );
+}
+

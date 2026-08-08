@@ -11,6 +11,9 @@ import {
   createFragmentFromIncoming,
   insertFragmentIntoChapter,
   startProcessingIncoming,
+  updateFragment,
+  updateIncomingText,
+  updateInsertion,
   validateManifest,
   type WorkbenchManifest,
 } from "./workbenchManifest.js";
@@ -162,6 +165,41 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
         requireBodyString("targetChapterPath", targetChapterPath),
       );
     }, 201),
+  );
+
+  app.post(
+    "/api/incoming/:id/update",
+    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+      const { title, note } = req.body as Record<string, unknown>;
+      return updateIncomingText(manifest, req.params.id!, {
+        ...(title !== undefined ? { title: title as string | null } : {}),
+        ...(note !== undefined ? { note: note as string | null } : {}),
+      });
+    }),
+  );
+
+  app.post(
+    "/api/fragments/:id/update",
+    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+      const { title, text, note } = req.body as Record<string, unknown>;
+      return updateFragment(manifest, req.params.id!, {
+        ...(title !== undefined ? { title: title as string | null } : {}),
+        ...(text !== undefined ? { text: text as string } : {}),
+        ...(note !== undefined ? { note: note as string | null } : {}),
+      });
+    }),
+  );
+
+  app.post(
+    "/api/insertions/:id/update",
+    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+      const { targetChapterPath, positionNote, note } = req.body as Record<string, unknown>;
+      return updateInsertion(manifest, req.params.id!, {
+        ...(targetChapterPath !== undefined ? { targetChapterPath: targetChapterPath as string } : {}),
+        ...(positionNote !== undefined ? { positionNote: positionNote as string | null } : {}),
+        ...(note !== undefined ? { note: note as string | null } : {}),
+      });
+    }),
   );
 
   app.use(errorHandler);

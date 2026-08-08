@@ -74,6 +74,7 @@ Minimalni shape v1:
 - `text: string`
 - `status: "draft" | "inserted" | "archived"`
 - `conceptIds?: string[]`
+- `title?: string`
 - `note?: string`
 
 ### Insertion
@@ -184,6 +185,23 @@ Prepovedani prehodi:
 - `archived -> inserted`
 - vsak drug neposredni preskok, ki ni zgoraj izrecno dovoljen
 
+## Spremenljiva polja (update operacije)
+
+`updateIncomingText`, `updateFragment` in `updateInsertion` spremenijo le vsebino polj, ne statusov in ne relacij. Semantika optional polj v vseh treh operacijah:
+
+- `undefined` — polje ostane pri miru
+- `null` — polje se odstrani (velja za optional polja: `title`, `note`, `positionNote`)
+- ne-prazn string — polje dobi novo vrednost (za obvezna polja `text` in `targetChapterPath` velja: podan string mora biti ne-prazen)
+
+Spremenljiva polja:
+
+- `IncomingText.title`, `IncomingText.note`
+- `Fragment.title`, `Fragment.text`, `Fragment.note`
+- `Insertion.targetChapterPath`, `Insertion.positionNote`, `Insertion.note`
+
+Vsaka update operacija mora po zakljucku pustiti manifest v veljavnem stanju (snapshot validation). Statusni prehodi iz poglavja "Statusi in dovoljeni prehodi" se ne spreminjajo.
+
+## Vrste validacije
 ## Vrste validacije
 
 ### Snapshot validation

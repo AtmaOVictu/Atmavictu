@@ -9,6 +9,9 @@ import {
   createFragmentFromIncoming,
   insertFragmentIntoChapter,
   startProcessingIncoming,
+  updateFragment,
+  updateIncomingText,
+  updateInsertion,
   validateManifest,
   type WorkbenchManifest,
 } from "./workbenchManifest.js";
@@ -674,4 +677,186 @@ test("validateManifestTransition accepts allowed status transitions", async () =
 
   assert.equal(result.isValid, true);
   assert.deepEqual(result.errors, []);
+});
+
+test("updateIncomingText renames the source title without changing status", () => {
+  const manifest = addIncomingText(createEmptyManifest(), {
+    title: "Star naslov",
+    body: "Prvi vhodni tekst.",
+  }).manifest;
+
+  const result = updateIncomingText(manifest, "incoming-0001", { title: "Nov naslov" });
+
+  assert.equal(result.value.title, "Nov naslov");
+  assert.equal(result.value.status, "new");
+  assert.equal(result.manifest.incomingTexts[0]?.title, "Nov naslov");
+  assert.equal(validateManifest(result.manifest).isValid, true);
+  // input manifest is not mutated
+  assert.equal(manifest.incomingTexts[0]?.title, "Star naslov");
+});
+
+test("updateIncomingText removes note on null", () => {
+  const manifest = addIncomingText(createEmptyManifest(), {
+    title: "Vir",
+    body: "Prvi vhodni tekst.",
+    note: "pozni opomba",
+  }).manifest;
+  assert.equal(manifest.incomingTexts[0]?.note, "pozni opomba");
+
+  const result = updateIncomingText(manifest, "incoming-0001", { note: null });
+
+  assert.equal(result.value.note, undefined);
+});
+
+test("updateIncomingText rejects blank title", () => {
+  const manifest = addIncomingText(createEmptyManifest(), { body: "Prvi vhodni tekst." }).manifest;
+
+  assert.throws(
+    () => updateIncomingText(manifest, "incoming-0001", { title: "   " }),
+    /title must be a non-empty string/,
+  );
+});
+
+test("updateIncomingText throws for a missing incoming text", () => {
+  const manifest = addIncomingText(createEmptyManifest(), { body: "Prvi vhodni tekst." }).manifest;
+
+  assert.throws(
+    () => updateIncomingText(manifest, "incoming-missing", { title: "Nov naslov" }),
+    /IncomingText not found: incoming-missing/,
+  );
+});
+
+test("updateFragment edits the working excerpt text without a status change", () => {
+  const manifest = createFragmentFromIncoming(
+    startProcessingIncoming(
+      addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+      "incoming-0001",
+    ).manifest,
+    "incoming-0001",
+    "Star odlomek.",
+  ).manifest;
+
+  const result = updateFragment(manifest, "fragment-0001", { text: "Nov odlomek po obnovi." });
+
+  assert.equal(result.value.text, "Nov odlomek po obnovi.");
+  assert.equal(result.value.status, "draft");
+  assert.equal(validateManifest(result.manifest).isValid, true);
+  assert.equal(manifest.fragments[0]?.text, "Star odlomek.");
+});
+
+test("updateFragment rejects blank text", () => {
+  const manifest = createFragmentFromIncoming(
+    startProcessingIncoming(
+      addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+      "incoming-0001",
+    ).manifest,
+    "incoming-0001",
+    "Star odlomek.",
+  ).manifest;
+
+  assert.throws(
+    () => updateFragment(manifest, "fragment-0001", { text: "   " }),
+    /text must be a non-empty string/,
+  );
+});
+
+test("updateInsertion renames the target chapter path without touching fragment status", () => {
+  const manifest = insertFragmentIntoChapter(
+    createFragmentFromIncoming(
+      startProcessingIncoming(
+        addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+        "incoming-0001",
+      ).manifest,
+      "incoming-0001",
+      "Odlomek.",
+    ).manifest,
+    "fragment-0001",
+    "chapters/01-uvod.md",
+  ).manifest;
+
+  const result = updateInsertion(manifest, "insertion-0001", {
+    targetChapterPath: "chapters/02-jedro.md",
+    positionNote: "za uvodom",
+  });
+
+  assert.equal(result.value.targetChapterPath, "chapters/02-jedro.md");
+  assert.equal(result.value.positionNote, "za uvodom");
+  // fragment and incoming keep their statuses
+  assert.equal(result.manifest.fragments[0]?.status, "inserted");
+  assert.equal(result.manifest.incomingTexts[0]?.status, "used");
+  assert.equal(validateManifest(result.manifest).isValid, true);
+});
+
+test("updateInsertion rejects blank targetChapterPath", () => {
+  const manifest = insertFragmentIntoChapter(
+    createFragmentFromIncoming(
+      startProcessingIncoming(
+        addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+        "incoming-0001",
+      ).manifest,
+      "incoming-0001",
+      "Odlomek.",
+    ).manifest,
+    "fragment-0001",
+    "chapters/01-uvod.md",
+  ).manifest;
+
+  assert.throws(
+    () => updateInsertion(manifest, "insertion-0001", { targetChapterPath: "  " }),
+    /targetChapterPath must be a non-empty string/,
+  );
+});
+test("updateFragment sets a title (rename) without changing status", () => {
+  const manifest = createFragmentFromIncoming(
+    startProcessingIncoming(
+      addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+      "incoming-0001",
+    ).manifest,
+    "incoming-0001",
+    "Star odlomek.",
+  ).manifest;
+
+  const result = updateFragment(manifest, "fragment-0001", { title: "Moj naslov odlomka" });
+
+  assert.equal(result.value.title, "Moj naslov odlomka");
+  assert.equal(result.value.status, "draft");
+  assert.equal(result.manifest.fragments[0]?.title, "Moj naslov odlomka");
+  assert.equal(validateManifest(result.manifest).isValid, true);
+  assert.equal(manifest.fragments[0]?.title, undefined);
+});
+
+test("updateFragment removes a title on null", () => {
+  const titled = updateFragment(
+    createFragmentFromIncoming(
+      startProcessingIncoming(
+        addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+        "incoming-0001",
+      ).manifest,
+      "incoming-0001",
+      "Star odlomek.",
+    ).manifest,
+    "fragment-0001",
+    { title: "Moj naslov" },
+  ).manifest;
+
+  const result = updateFragment(titled, "fragment-0001", { title: null });
+
+  assert.equal(result.value.title, undefined);
+  assert.equal(validateManifest(result.manifest).isValid, true);
+});
+
+test("updateFragment rejects a blank title", () => {
+  const manifest = createFragmentFromIncoming(
+    startProcessingIncoming(
+      addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+      "incoming-0001",
+    ).manifest,
+    "incoming-0001",
+    "Star odlomek.",
+  ).manifest;
+
+  assert.throws(
+    () => updateFragment(manifest, "fragment-0001", { title: "   " }),
+    /title must be a non-empty string/,
+  );
 });

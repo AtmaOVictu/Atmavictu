@@ -134,6 +134,9 @@
           },
           "uniqueItems": true
         },
+        "title": {
+          "type": "string"
+        },
         "note": {
           "type": "string"
         }

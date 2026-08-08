@@ -72,6 +72,7 @@ test("schema keeps optional metadata fields as plain strings", async () => {
 
   assert.equal((incomingText.properties?.title as { type?: string }).type, "string");
   assert.equal((incomingText.properties?.note as { type?: string }).type, "string");
+  assert.equal((fragment.properties?.title as { type?: string }).type, "string");
   assert.equal((fragment.properties?.note as { type?: string }).type, "string");
   assert.equal((insertion.properties?.positionNote as { type?: string }).type, "string");
   assert.equal((insertion.properties?.note as { type?: string }).type, "string");
