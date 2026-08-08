@@ -17,7 +17,7 @@ test("full workbench flow: all 9 service operations reachable over HTTP", async 
   try {
     // createEmptyManifest / ensureManifestFile
     const initialManifest = await getJson<WorkbenchManifest>(`${baseUrl}/api/manifest`);
-    assert.equal(initialManifest.manifestVersion, "1");
+    assert.equal(initialManifest.manifestVersion, "2");
     assert.deepEqual(initialManifest.incomingTexts, []);
 
     // addIncomingText (via captureIncomingText)

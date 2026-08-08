@@ -14,8 +14,17 @@ Domenski pomen tega polja je:
 
 Ta dokument uporablja `incomingTextId` kot kanonicno ime polja. Izraz "source incoming text" se uporablja samo kot opis pomena polja, ne kot drugo polje.
 
-V1 ne dovoljuje `null` vrednosti za to povezavo. Ce bo v prihodnje potreben orphan ali ročno ustvarjen fragment brez izvora, to zahteva schema v2.
+V1 ne dovoljuje `null` vrednosti za to povezavo. Ce bo v prihodnje potreben orphan ali ročno ustvarjen fragment brez izvora, to zahteva schema v3.
 
+## Migracija v1 → v2
+
+`WorkbenchManifest` živi v version `2`. Stari `v1` manifesti (brez `Fragment.title`) se
+ob nalaganju **samodejno migrirajo** v `v2` (repository plast zapiše posodobljen manifest
+nazaj na disk). Migracija je izgubna-glede-verzije ne-izgubna: vse entitete in relacije se
+ohranijo; `Fragment.title` (če obstaja) se prenese. Ročna migracija: `migrateManifestV1ToV2(v1)`.
+Novi manifesti se vedno ustvarijo kot `v2`.
+
+## Entitete
 ## Entitete
 
 ### WorkbenchManifest
@@ -32,7 +41,7 @@ Vrhnja entiteta, ki hrani:
 
 Minimalni shape v1:
 
-- `manifestVersion: "1"`
+- `manifestVersion: "2"`
 - `incomingTexts: IncomingText[]`
 - `fragments: Fragment[]`
 - `insertions: Insertion[]`
@@ -231,7 +240,7 @@ Ta funkcija preverja:
 
 ### Identiteta in struktura
 
-- `WorkbenchManifest.manifestVersion` mora biti `1`
+- `WorkbenchManifest.manifestVersion` mora biti `2`
 - `id` znotraj posamezne zbirke mora biti unikaten
 
 ### Poti

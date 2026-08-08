@@ -11,17 +11,20 @@ Ta dokument doloca minimalne operacije nad `WorkbenchManifest`. Service contract
 - vsaka operacija mora po zakljucku pustiti manifest v veljavnem stanju
 - ce operacija ne uspe, se manifest ne sme delno zapisati
 - v izvedbi trenutne faze obstaja filesystem write plast za materializacijo `IncomingText.body`; `sourcePath` je deterministična relativna pot do lokalne datoteke z vhodnim telesom
-- schema v1 nima top-level `title` polja za manifest; `createEmptyManifest(title?)` lahko argument sprejme za forward compatibility, ne materializira pa ga se v schema v1
+- schema v2 nima top-level `title` polja za manifest; `createEmptyManifest(title?)` lahko argument sprejme za forward compatibility, ne materializira pa ga se v schema v2
 - `validateManifest(manifest)` preverja samo trenutno stanje enega manifesta
 - `validateManifestTransition(previousManifest, nextManifest)` preverja dovoljene prehode med dvema snapshotoma
 - statusnih prehodov ni mogoce dokazati iz enega samega manifesta
 - `sourcePath` in `targetChapterPath` morata slediti pravilom iz model contracta
 
+- `WorkbenchManifest` je trenutno v version `2`. Stari `v1` manifesti se ob nalaganju samodejno migrirajo v `v2` (glej `migrateManifestV1ToV2` v model contractu).
+
+## createEmptyManifest()
 ## createEmptyManifest()
 
 ### Namen
 
-Ustvari prazen, veljaven `WorkbenchManifest` v1.
+Ustvari prazen, veljaven `WorkbenchManifest` v2.
 
 ### Input
 

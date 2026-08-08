@@ -34,6 +34,19 @@ export interface Insertion {
 }
 
 export interface WorkbenchManifest {
+  manifestVersion: "2";
+  incomingTexts: IncomingText[];
+  fragments: Fragment[];
+  insertions: Insertion[];
+  concepts?: Concept[];
+}
+
+/**
+ * v1 manifest shape (original contract, before Fragment.title). Used as the
+ * input to migrateManifestV1ToV2 so existing on-disk manifests upgrade cleanly.
+ * Entity shapes are identical to v2; only the manifest version differs.
+ */
+export interface WorkbenchManifestV1 {
   manifestVersion: "1";
   incomingTexts: IncomingText[];
   fragments: Fragment[];
@@ -133,11 +146,11 @@ const ALLOWED_FRAGMENT_TRANSITIONS: Record<FragmentStatus, readonly FragmentStat
 };
 
 export function createEmptyManifest(title?: string): WorkbenchManifest {
-  // The contract exposes `title` for forward compatibility, but schema v1 does not persist it.
+  // The contract exposes `title` for forward compatibility, but schema v2 does not persist it.
   void title;
 
   return {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [],
     fragments: [],
     insertions: [],
@@ -145,6 +158,18 @@ export function createEmptyManifest(title?: string): WorkbenchManifest {
   };
 }
 
+export function migrateManifestV1ToV2(manifestV1: WorkbenchManifestV1): WorkbenchManifest {
+  return {
+    manifestVersion: "2",
+    incomingTexts: manifestV1.incomingTexts.map((incomingText) => ({ ...incomingText })),
+    fragments: manifestV1.fragments.map((fragment) => ({
+      ...fragment,
+      ...(fragment.conceptIds ? { conceptIds: [...fragment.conceptIds] } : {}),
+    })),
+    insertions: manifestV1.insertions.map((insertion) => ({ ...insertion })),
+    ...(manifestV1.concepts ? { concepts: manifestV1.concepts.map((concept) => ({ ...concept })) } : {}),
+  };
+}
 export function validateManifestTransition(
   previousManifest: WorkbenchManifest,
   nextManifest: WorkbenchManifest,
@@ -547,8 +572,8 @@ export function validateManifest(manifest: WorkbenchManifest): ManifestValidatio
 
   validateUnexpectedProperties("WorkbenchManifest", manifestValue, WORKBENCH_MANIFEST_KEYS, errors);
 
-  if (manifestValue.manifestVersion !== "1") {
-    errors.push("manifestVersion must be '1'.");
+  if (manifestValue.manifestVersion !== "2") {
+    errors.push("manifestVersion must be '2'.");
   }
 
   if (!Array.isArray(manifestValue.incomingTexts)) {

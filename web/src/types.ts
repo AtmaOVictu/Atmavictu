@@ -32,7 +32,7 @@ export interface Insertion {
 }
 
 export interface WorkbenchManifest {
-  manifestVersion: "1";
+  manifestVersion: "2";
   incomingTexts: IncomingText[];
   fragments: Fragment[];
   insertions: Insertion[];

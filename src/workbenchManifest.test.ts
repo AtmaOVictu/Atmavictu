@@ -12,14 +12,16 @@ import {
   updateFragment,
   updateIncomingText,
   updateInsertion,
+  migrateManifestV1ToV2,
   validateManifest,
   type WorkbenchManifest,
+  type WorkbenchManifestV1,
 } from "./workbenchManifest.js";
 
 test("createEmptyManifest returns a valid empty manifest", () => {
   const manifest = createEmptyManifest("Draft Book");
 
-  assert.equal(manifest.manifestVersion, "1");
+  assert.equal(manifest.manifestVersion, "2");
   assert.deepEqual(manifest.incomingTexts, []);
   assert.deepEqual(manifest.fragments, []);
   assert.deepEqual(manifest.insertions, []);
@@ -156,7 +158,7 @@ test("archiveFragment preserves insertion trail while archiving fragment", () =>
 
 test("validateManifest reports broken fragment relation", () => {
   const manifest: WorkbenchManifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [],
     fragments: [
       {
@@ -181,7 +183,7 @@ test("validateManifest reports broken fragment relation", () => {
 
 test("validateManifest rejects unexpected top-level properties", () => {
   const manifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [],
     fragments: [],
     insertions: [],
@@ -196,7 +198,7 @@ test("validateManifest rejects unexpected top-level properties", () => {
 
 test("validateManifest rejects unexpected properties on incoming texts", () => {
   const manifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [
       {
         id: "incoming-0001",
@@ -220,7 +222,7 @@ test("validateManifest rejects unexpected properties on incoming texts", () => {
 
 test("validateManifest rejects unexpected properties on fragments and insertions", () => {
   const manifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [
       {
         id: "incoming-0001",
@@ -262,7 +264,7 @@ test("validateManifest rejects unexpected properties on fragments and insertions
 
 test("validateManifest rejects invalid optional string property types", () => {
   const manifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [
       {
         id: "incoming-0001",
@@ -309,7 +311,7 @@ test("validateManifest rejects invalid optional string property types", () => {
 
 test("validateManifest rejects new incoming text with related fragments", () => {
   const manifest: WorkbenchManifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [
       {
         id: "incoming-0001",
@@ -339,7 +341,7 @@ test("validateManifest rejects new incoming text with related fragments", () => 
 
 test("validateManifest rejects used incoming text without insertion trail", () => {
   const manifest: WorkbenchManifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [
       {
         id: "incoming-0001",
@@ -369,7 +371,7 @@ test("validateManifest rejects used incoming text without insertion trail", () =
 
 test("validateManifest rejects archived incoming text with draft fragments", () => {
   const manifest: WorkbenchManifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [
       {
         id: "incoming-0001",
@@ -401,7 +403,7 @@ test("validateManifest rejects archived incoming text with draft fragments", () 
 
 test("validateManifest rejects traversal segments in sourcePath and targetChapterPath", () => {
   const manifest: WorkbenchManifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [
       {
         id: "incoming-0001",
@@ -444,7 +446,7 @@ test("validateManifest rejects traversal segments in sourcePath and targetChapte
 test("validateManifest rejects absolute sourcePath variants", () => {
   const manifests: WorkbenchManifest[] = [
     {
-      manifestVersion: "1",
+      manifestVersion: "2",
       incomingTexts: [
         {
           id: "incoming-0001",
@@ -456,7 +458,7 @@ test("validateManifest rejects absolute sourcePath variants", () => {
       insertions: [],
     },
     {
-      manifestVersion: "1",
+      manifestVersion: "2",
       incomingTexts: [
         {
           id: "incoming-0001",
@@ -468,7 +470,7 @@ test("validateManifest rejects absolute sourcePath variants", () => {
       insertions: [],
     },
     {
-      manifestVersion: "1",
+      manifestVersion: "2",
       incomingTexts: [
         {
           id: "incoming-0001",
@@ -480,7 +482,7 @@ test("validateManifest rejects absolute sourcePath variants", () => {
       insertions: [],
     },
     {
-      manifestVersion: "1",
+      manifestVersion: "2",
       incomingTexts: [
         {
           id: "incoming-0001",
@@ -507,7 +509,7 @@ test("validateManifest rejects absolute sourcePath variants", () => {
 test("validateManifest rejects absolute targetChapterPath variants", () => {
   const manifests: WorkbenchManifest[] = [
     {
-      manifestVersion: "1",
+      manifestVersion: "2",
       incomingTexts: [
         {
           id: "incoming-0001",
@@ -532,7 +534,7 @@ test("validateManifest rejects absolute targetChapterPath variants", () => {
       ],
     },
     {
-      manifestVersion: "1",
+      manifestVersion: "2",
       incomingTexts: [
         {
           id: "incoming-0001",
@@ -557,7 +559,7 @@ test("validateManifest rejects absolute targetChapterPath variants", () => {
       ],
     },
     {
-      manifestVersion: "1",
+      manifestVersion: "2",
       incomingTexts: [
         {
           id: "incoming-0001",
@@ -596,7 +598,7 @@ test("validateManifest rejects absolute targetChapterPath variants", () => {
 
 test("validateManifest accepts safe relative sourcePath and targetChapterPath", () => {
   const manifest: WorkbenchManifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [
       {
         id: "incoming-0001",
@@ -859,4 +861,69 @@ test("updateFragment rejects a blank title", () => {
     () => updateFragment(manifest, "fragment-0001", { title: "   " }),
     /title must be a non-empty string/,
   );
+});
+test("migrateManifestV1ToV2 upgrades a v1 manifest to v2 losslessly", () => {
+  const manifestV1: WorkbenchManifestV1 = {
+    manifestVersion: "1",
+    incomingTexts: [
+      {
+        id: "incoming-0001",
+        sourcePath: "incoming/incoming-0001.txt",
+        status: "used",
+        title: "Vir",
+      },
+    ],
+    fragments: [
+      {
+        id: "fragment-0001",
+        incomingTextId: "incoming-0001",
+        text: "Odlomek.",
+        status: "inserted",
+        conceptIds: ["concept-0001"],
+      },
+    ],
+    insertions: [
+      {
+        id: "insertion-0001",
+        fragmentId: "fragment-0001",
+        targetChapterPath: "chapters/01-uvod.md",
+      },
+    ],
+    concepts: [{ id: "concept-0001", label: "Bistvo" }],
+  };
+
+  const migrated = migrateManifestV1ToV2(manifestV1);
+
+  assert.equal(migrated.manifestVersion, "2");
+  // lossless: same ids, fields, and connected conceptIds survive
+  assert.equal(migrated.incomingTexts[0]?.title, "Vir");
+  assert.deepEqual(migrated.fragments[0]?.conceptIds, ["concept-0001"]);
+  assert.equal(migrated.insertions[0]?.targetChapterPath, "chapters/01-uvod.md");
+  assert.equal(migrated.concepts?.[0]?.label, "Bistvo");
+  assert.equal(validateManifest(migrated).isValid, true);
+  // input is not mutated
+  assert.equal(manifestV1.manifestVersion, "1");
+});
+
+test("migrateManifestV1ToV2 carries an existing Fragment.title when present", () => {
+  const manifestV1: WorkbenchManifestV1 = {
+    manifestVersion: "1",
+    incomingTexts: [],
+    fragments: [
+      {
+        id: "fragment-0001",
+        incomingTextId: "incoming-0001",
+        text: "Odlomek.",
+        status: "draft",
+        title: "Moja opozorilo",
+      },
+    ],
+    insertions: [],
+  };
+  // a v1 fragment referencing a missing incoming is fine as an input to migration;
+  // the migration itself is a shape-preserving copy, not a validator gate.
+  const migrated = migrateManifestV1ToV2(manifestV1);
+
+  assert.equal(migrated.manifestVersion, "2");
+  assert.equal(migrated.fragments[0]?.title, "Moja opozorilo");
 });
