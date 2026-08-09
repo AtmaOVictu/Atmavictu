@@ -6,7 +6,8 @@ import { workbenchApi } from "./api";
 import { useWorkbench } from "./useWorkbench";
 
 export function App() {
-  const { manifest, verify, library, tree, extraLibrary, error, isLoading, runAction } = useWorkbench();
+  const { manifest, verify, library, tree, extraLibrary, concepts, analysis, overview, error, isLoading, runAction } =
+    useWorkbench();
 
   if (isLoading && manifest === null) {
     return <p className="loading">Nalagam manifest...</p>;
@@ -34,12 +35,16 @@ export function App() {
         <VhodniTekstPanel
           incomingTexts={manifest?.incomingTexts ?? []}
           fragments={manifest?.fragments ?? []}
+          concepts={concepts}
+          overview={overview}
+          analysis={analysis}
           onStartProcessing={(id) => runAction(() => workbenchApi.startProcessingIncoming(id))}
           onArchiveIncoming={(id) => runAction(() => workbenchApi.archiveIncoming(id))}
           onCreateFragment={(input) => runAction(() => workbenchApi.createFragment(input))}
           onArchiveFragment={(id) => runAction(() => workbenchApi.archiveFragment(id))}
           onRenameIncoming={(id, title) => runAction(() => workbenchApi.updateIncomingText(id, { title }))}
           onUpdateFragment={(id, input) => runAction(() => workbenchApi.updateFragment(id, input))}
+          onAddConcept={(label) => runAction(() => workbenchApi.addConcept({ label }))}
         />
       </main>
     </div>

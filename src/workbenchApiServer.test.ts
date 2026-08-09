@@ -255,6 +255,67 @@ test("extraLibraryRoot surfaces delo-artifact provenance where present, null whe
   }
 });
 
+test("concepts and analysis endpoints: create concept, tag fragment, read analysis/overview", async () => {
+  const projectRoot = await createTempDirectory();
+  const server = startWorkbenchApiServer(projectRoot, 0);
+  const baseUrl = await waitForBaseUrl(server);
+
+  try {
+    // seed a fragment that will be tagged
+    const capture = await postJson<IncomingText>(`${baseUrl}/api/incoming`, {
+      title: "Vir",
+      body: "Vsebina vira.",
+    });
+    const incomingId = capture.body.id;
+    await postJson(`${baseUrl}/api/incoming/${incomingId}/start-processing`, {});
+    const fragment = await postJson<Fragment>(`${baseUrl}/api/fragments`, {
+      incomingTextId: incomingId,
+      body: "Odlomek.",
+    });
+    const fragmentId = fragment.body.id;
+
+    // create a concept
+    const concept = await postJson<{ id: string; label: string }>(`${baseUrl}/api/concepts`, {
+      label: "Bistvo",
+    });
+    assert.equal(concept.status, 201);
+    assert.equal(concept.body.id, "concept-0001");
+
+    // tag the fragment with the concept
+    const tagged = await postJson<Fragment>(`${baseUrl}/api/fragments/${fragmentId}/update`, {
+      conceptIds: ["concept-0001"],
+    });
+    assert.equal(tagged.status, 200);
+    assert.deepEqual(tagged.body.conceptIds, ["concept-0001"]);
+
+    // list concepts with count
+    const concepts = await getJson<Array<{ id: string; label: string; fragmentCount: number }>>(
+      `${baseUrl}/api/concepts`,
+    );
+    assert.equal(concepts.length, 1);
+    assert.equal(concepts[0]?.fragmentCount, 1);
+
+    // per-source analysis
+    const analysis = await getJson<Array<{ id: string; fragmentCount: number; draftCount: number }>>(
+      `${baseUrl}/api/analysis/source`,
+    );
+    assert.equal(analysis.length, 1);
+    assert.equal(analysis[0]?.fragmentCount, 1);
+    assert.equal(analysis[0]?.draftCount, 1);
+
+    // overview
+    const overview = await getJson<{ incomingTotal: number; fragmentTotal: number; conceptTotal: number }>(
+      `${baseUrl}/api/overview`,
+    );
+    assert.equal(overview.incomingTotal, 1);
+    assert.equal(overview.fragmentTotal, 1);
+    assert.equal(overview.conceptTotal, 1);
+  } finally {
+    server.close();
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
 async function getJson<T>(url: string): Promise<T> {
   const response = await fetch(url);
   return (await response.json()) as T;

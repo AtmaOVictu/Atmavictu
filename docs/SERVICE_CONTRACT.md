@@ -407,6 +407,55 @@ Posodobi insertion sled (preimenovanje/obnova ciljnega mesta). Operacija ne spre
 - pripadajoci `Fragment` in `IncomingText` ohranita status
 - manifest ostane veljaven snapshot
 
+## addConcept({ label, note? })
+
+### Namen
+
+Ustvari nov `Concept` v manifestu, na katerega se lahko sklicujejo `Fragment.conceptIds`. To je prvi korak k medsebojno povezanim izračunom: fragmenti se lahko grupirajo po konceptih.
+
+### Input
+
+- `label: string` (obvezen, ne-prazen)
+- `note?: string`
+
+### Output
+
+- nov `Concept`
+- posodobljen manifest
+
+### Spremeni entitete
+
+- doda en `Concept` v zbirko `concepts`
+
+### Dovoljeni statusni prehodi
+
+- ni statusnih prehodov
+
+### Failure cases
+
+- `label` je prazen ali whitespace-only
+- rezultat krsi schema ali invariante
+
+### Minimalni proof / acceptance check
+
+- v manifestu obstaja nov `Concept` z unikatenim `id` (`concept-NNNN`) in `label`
+- manifest ostane veljaven snapshot
+
+## updateFragment (razsirjen)
+
+`updateFragment` zdaj sprejema tudi `conceptIds?: string[] | null` — polni seznam konceptov, ki naj bodo pripisani odlomku. `undefined` = pusti pri miru, `null` = pocisti, array = nastavi. Vsak id mora kazati na obstojec `Concept` (preverjeno prek validacije).
+
+## getConcepts / getAnalysisSource / getOverview (read-only)
+
+Analiticni pogledi, ki izracunajo medsebojne povezave med entitetami:
+
+- `getConcepts()` — seznam konceptov z `fragmentCount` (koliko odlomkov uporablja vsak koncept).
+- `getAnalysisSource()` — per-vir: `fragmentCount`, `draftCount`, `insertedCount`, `archivedCount`.
+- `getOverview()` — knjizni agregat: `incomingTotal`, `fragmentTotal`, `insertionTotal`, `conceptTotal`, `chapters` (ciljna poglavja s stevci vstavitev).
+
+Te operacije so read-only; ne spreminjajo manifesta.
+
+## validateManifest(manifest)
 ## validateManifest(manifest)
 ## validateManifest(manifest)
 

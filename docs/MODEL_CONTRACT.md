@@ -205,7 +205,7 @@ Prepovedani prehodi:
 Spremenljiva polja:
 
 - `IncomingText.title`, `IncomingText.note`
-- `Fragment.title`, `Fragment.text`, `Fragment.note`
+- `Fragment.title`, `Fragment.text`, `Fragment.note`, `Fragment.conceptIds`
 - `Insertion.targetChapterPath`, `Insertion.positionNote`, `Insertion.note`
 
 Vsaka update operacija mora po zakljucku pustiti manifest v veljavnem stanju (snapshot validation). Statusni prehodi iz poglavja "Statusi in dovoljeni prehodi" se ne spreminjajo.

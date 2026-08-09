@@ -79,6 +79,7 @@ export interface UpdateFragmentInput {
   title?: string | null;
   text?: string;
   note?: string | null;
+  conceptIds?: string[] | null;
 }
 
 /**
@@ -89,6 +90,11 @@ export interface UpdateInsertionInput {
   targetChapterPath?: string;
   positionNote?: string | null;
   note?: string | null;
+}
+
+export interface AddConceptInput {
+  label: string;
+  note?: string;
 }
 
 export interface ManifestUpdate<T> {
@@ -520,6 +526,13 @@ export function updateFragment(
   applyOptionalField(updated, "title", input.title, "title");
   applyOptionalField(updated, "text", input.text, "text");
   applyOptionalField(updated, "note", input.note);
+  if (input.conceptIds !== undefined) {
+    if (input.conceptIds === null) {
+      delete updated.conceptIds;
+    } else {
+      updated.conceptIds = [...input.conceptIds];
+    }
+  }
 
   nextManifest.fragments[index] = updated as unknown as Fragment;
   assertValidManifest(nextManifest, "updateFragment(result)");
@@ -556,6 +569,31 @@ export function updateInsertion(
   return {
     manifest: nextManifest,
     value: nextManifest.insertions[index]!,
+  };
+}
+
+export function addConcept(manifest: WorkbenchManifest, input: AddConceptInput): ManifestUpdate<Concept> {
+  assertValidManifest(manifest, "addConcept");
+
+  const label = requireNonEmptyString("label", input.label);
+  const note = normalizeOptionalString(input.note);
+  const id = nextEntityId(manifest.concepts?.map((concept) => concept.id) ?? [], "concept");
+
+  const concept: Concept = {
+    id,
+    label,
+    ...(note ? { note } : {}),
+  };
+
+  const nextManifest = cloneManifest(manifest);
+  const concepts = nextManifest.concepts ?? [];
+  concepts.push(concept);
+  nextManifest.concepts = concepts;
+  assertValidManifest(nextManifest, "addConcept(result)");
+
+  return {
+    manifest: nextManifest,
+    value: concept,
   };
 }
 

@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import {
+  addConcept,
   addIncomingText,
   archiveFragment,
   archiveIncoming,
@@ -926,4 +927,64 @@ test("migrateManifestV1ToV2 carries an existing Fragment.title when present", ()
 
   assert.equal(migrated.manifestVersion, "2");
   assert.equal(migrated.fragments[0]?.title, "Moja opozorilo");
+});
+test("addConcept creates a new concept with a unique id", () => {
+  const manifest = createEmptyManifest();
+
+  const result = addConcept(manifest, { label: "Bistvo" });
+
+  assert.equal(result.value.id, "concept-0001");
+  assert.equal(result.value.label, "Bistvo");
+  assert.equal(result.manifest.concepts?.length, 1);
+  assert.equal(validateManifest(result.manifest).isValid, true);
+  assert.equal(manifest.concepts?.length, 0);
+});
+
+test("addConcept rejects a blank label", () => {
+  const manifest = createEmptyManifest();
+
+  assert.throws(
+    () => addConcept(manifest, { label: "   " }),
+    /label must be a non-empty string/,
+  );
+});
+
+test("updateFragment assigns conceptIds to a fragment", () => {
+  const base = createFragmentFromIncoming(
+    startProcessingIncoming(
+      addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+      "incoming-0001",
+    ).manifest,
+    "incoming-0001",
+    "Odlomek.",
+  ).manifest;
+  const withConcept = addConcept(base, { label: "Bistvo" }).manifest;
+
+  const result = updateFragment(withConcept, "fragment-0001", { conceptIds: ["concept-0001"] });
+
+  assert.deepEqual(result.value.conceptIds, ["concept-0001"]);
+  assert.equal(validateManifest(result.manifest).isValid, true);
+});
+
+test("updateFragment clears conceptIds on null and rejects unknown concepts", () => {
+  const base = createFragmentFromIncoming(
+    startProcessingIncoming(
+      addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+      "incoming-0001",
+    ).manifest,
+    "incoming-0001",
+    "Odlomek.",
+  ).manifest;
+  const withConcept = addConcept(base, { label: "Bistvo" }).manifest;
+  const tagged = updateFragment(withConcept, "fragment-0001", { conceptIds: ["concept-0001"] }).manifest;
+
+  // clear works
+  const cleared = updateFragment(tagged, "fragment-0001", { conceptIds: null });
+  assert.equal(cleared.value.conceptIds, undefined);
+
+  // unknown concept is rejected by validation
+  assert.throws(
+    () => updateFragment(tagged, "fragment-0001", { conceptIds: ["concept-missing"] }),
+    /references missing Concept/,
+  );
 });

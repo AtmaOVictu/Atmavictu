@@ -1,10 +1,14 @@
 import type {
+  Concept,
+  ConceptWithCount,
   ExtraLibraryEntry,
   Fragment,
   IncomingText,
   Insertion,
   LibraryEntry,
   ManifestValidationResult,
+  Overview,
+  SourceAnalysis,
   TreeEntry,
   WorkbenchManifest,
 } from "./types";
@@ -77,7 +81,7 @@ export const workbenchApi = {
       body: JSON.stringify(input),
     }),
 
-  updateFragment: (id: string, input: { title?: string | null; text?: string; note?: string | null }) =>
+  updateFragment: (id: string, input: { title?: string | null; text?: string; note?: string | null; conceptIds?: string[] | null }) =>
     request<Fragment>(`/api/fragments/${encodeURIComponent(id)}/update`, {
       method: "POST",
       body: JSON.stringify(input),
@@ -88,4 +92,13 @@ export const workbenchApi = {
       method: "POST",
       body: JSON.stringify(input),
     }),
+
+  addConcept: (input: { label: string; note?: string }) =>
+    request<Concept>("/api/concepts", { method: "POST", body: JSON.stringify(input) }),
+
+  getConcepts: () => request<ConceptWithCount[]>("/api/concepts"),
+
+  getAnalysisSource: () => request<SourceAnalysis[]>("/api/analysis/source"),
+
+  getOverview: () => request<Overview>("/api/overview"),
 };

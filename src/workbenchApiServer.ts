@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 import express, { type Express, type NextFunction, type Request, type Response } from "express";
 
 import {
+  addConcept,
   archiveFragment,
   archiveIncoming,
   createFragmentFromIncoming,
@@ -15,6 +16,9 @@ import {
   updateIncomingText,
   updateInsertion,
   validateManifest,
+  type Fragment,
+  type IncomingText,
+  type Insertion,
   type WorkbenchManifest,
 } from "./workbenchManifest.js";
 import {
@@ -181,11 +185,12 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
   app.post(
     "/api/fragments/:id/update",
     mutateRoute(normalizedProjectRoot, (manifest, req) => {
-      const { title, text, note } = req.body as Record<string, unknown>;
+      const { title, text, note, conceptIds } = req.body as Record<string, unknown>;
       return updateFragment(manifest, req.params.id!, {
         ...(title !== undefined ? { title: title as string | null } : {}),
         ...(text !== undefined ? { text: text as string } : {}),
         ...(note !== undefined ? { note: note as string | null } : {}),
+        ...(conceptIds !== undefined ? { conceptIds: conceptIds as string[] | null } : {}),
       });
     }),
   );
@@ -202,6 +207,78 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
     }),
   );
 
+app.post(
+    "/api/concepts",
+    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+      const { label, note } = req.body as Record<string, unknown>;
+      return addConcept(manifest, {
+        label: requireBodyString("label", label),
+        ...(typeof note === "string" ? { note } : {}),
+      });
+    }, 201),
+  );
+
+  app.get("/api/concepts", asyncRoute(async (_req, res) => {
+    const manifest = await ensureManifestFile(normalizedProjectRoot);
+    const concepts = manifest.concepts ?? [];
+    const fragmentCounts = new Map<string, number>();
+    for (const fragment of manifest.fragments) {
+      for (const conceptId of fragment.conceptIds ?? []) {
+        fragmentCounts.set(conceptId, (fragmentCounts.get(conceptId) ?? 0) + 1);
+      }
+    }
+    res.json(
+      concepts.map((concept) => ({
+        id: concept.id,
+        label: concept.label,
+        note: concept.note,
+        fragmentCount: fragmentCounts.get(concept.id) ?? 0,
+      })),
+    );
+  }));
+
+  app.get("/api/analysis/source", asyncRoute(async (_req, res) => {
+    const manifest = await ensureManifestFile(normalizedProjectRoot);
+    const fragmentsByIncoming = new Map<string, Fragment[]>();
+    for (const fragment of manifest.fragments) {
+      const list = fragmentsByIncoming.get(fragment.incomingTextId) ?? [];
+      list.push(fragment);
+      fragmentsByIncoming.set(fragment.incomingTextId, list);
+    }
+    res.json(
+      manifest.incomingTexts.map((incoming) => {
+        const fragments = fragmentsByIncoming.get(incoming.id) ?? [];
+        return {
+          id: incoming.id,
+          title: incoming.title,
+          sourcePath: incoming.sourcePath,
+          status: incoming.status,
+          fragmentCount: fragments.length,
+          draftCount: fragments.filter((f) => f.status === "draft").length,
+          insertedCount: fragments.filter((f) => f.status === "inserted").length,
+          archivedCount: fragments.filter((f) => f.status === "archived").length,
+        };
+      }),
+    );
+  }));
+
+  app.get("/api/overview", asyncRoute(async (_req, res) => {
+    const manifest = await ensureManifestFile(normalizedProjectRoot);
+    const byChapter = new Map<string, number>();
+    for (const insertion of manifest.insertions) {
+      byChapter.set(insertion.targetChapterPath, (byChapter.get(insertion.targetChapterPath) ?? 0) + 1);
+    }
+    res.json({
+      manifestVersion: manifest.manifestVersion,
+      incomingTotal: manifest.incomingTexts.length,
+      fragmentTotal: manifest.fragments.length,
+      insertionTotal: manifest.insertions.length,
+      conceptTotal: manifest.concepts?.length ?? 0,
+      chapters: Array.from(byChapter.entries()).map(([path, count]) => ({ path, count })),
+    });
+  }));
+
+  app.use(errorHandler);
   app.use(errorHandler);
 
   return app;

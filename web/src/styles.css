@@ -152,6 +152,67 @@ body {
   gap: 0.4rem;
 }
 
+.concept-section,
+.analysis-section {
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #eee;
+}
+
+.concept-section h3,
+.analysis-section h3 {
+  margin: 0 0 0.4rem;
+  font-size: 0.95rem;
+}
+
+.concept-form {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.concept-form input {
+  flex: 1;
+  padding: 0.3rem 0.5rem;
+}
+
+.concept-list,
+.analysis-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.3rem 0 0;
+}
+
+.concept-list li,
+.analysis-list li {
+  font-size: 0.85rem;
+  padding: 0.15rem 0;
+}
+
+.analysis-summary {
+  font-size: 0.85rem;
+  color: #444;
+  margin: 0 0 0.3rem;
+}
+
+.concept-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.concept-picker-label {
+  font-weight: 600;
+}
+
+.concept-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
 .insertion-edit input {
   padding: 0.3rem 0.5rem;
 }

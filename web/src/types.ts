@@ -31,16 +31,50 @@ export interface Insertion {
   note?: string;
 }
 
+export interface Concept {
+  id: string;
+  label: string;
+  note?: string;
+}
+
 export interface WorkbenchManifest {
   manifestVersion: "2";
   incomingTexts: IncomingText[];
   fragments: Fragment[];
   insertions: Insertion[];
+  concepts?: Concept[];
 }
 
 export interface ManifestValidationResult {
   isValid: boolean;
   errors: string[];
+}
+
+export interface ConceptWithCount {
+  id: string;
+  label: string;
+  note?: string;
+  fragmentCount: number;
+}
+
+export interface SourceAnalysis {
+  id: string;
+  title?: string;
+  sourcePath: string;
+  status: IncomingStatus;
+  fragmentCount: number;
+  draftCount: number;
+  insertedCount: number;
+  archivedCount: number;
+}
+
+export interface Overview {
+  manifestVersion: "2";
+  incomingTotal: number;
+  fragmentTotal: number;
+  insertionTotal: number;
+  conceptTotal: number;
+  chapters: Array<{ path: string; count: number }>;
 }
 
 export interface LibraryEntry {

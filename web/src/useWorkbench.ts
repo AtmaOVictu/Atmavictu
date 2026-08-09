@@ -2,9 +2,12 @@ import { useCallback, useEffect, useState } from "react";
 
 import { WorkbenchApiError, workbenchApi } from "./api";
 import type {
+  ConceptWithCount,
   ExtraLibraryEntry,
   LibraryEntry,
   ManifestValidationResult,
+  Overview,
+  SourceAnalysis,
   TreeEntry,
   WorkbenchManifest,
 } from "./types";
@@ -14,6 +17,9 @@ interface WorkbenchState {
   verify: ManifestValidationResult | null;
   library: LibraryEntry[];
   tree: TreeEntry[];
+  concepts: ConceptWithCount[];
+  analysis: SourceAnalysis[];
+  overview: Overview | null;
   /** null = server has no extraLibraryRoot configured, not "still loading" or "empty." */
   extraLibrary: ExtraLibraryEntry[] | null;
   error: string | null;
@@ -32,6 +38,9 @@ export function useWorkbench() {
     verify: null,
     library: [],
     tree: [],
+    concepts: [],
+    analysis: [],
+    overview: null,
     extraLibrary: null,
     error: null,
     isLoading: true,
@@ -40,14 +49,28 @@ export function useWorkbench() {
   const refetchAll = useCallback(async () => {
     setState((previous) => ({ ...previous, isLoading: true }));
     try {
-      const [manifest, verify, library, tree, extraLibrary] = await Promise.all([
+      const [manifest, verify, library, tree, concepts, analysis, overview, extraLibrary] = await Promise.all([
         workbenchApi.getManifest(),
         workbenchApi.getVerify(),
         workbenchApi.getLibrary(),
         workbenchApi.getTree(),
+        workbenchApi.getConcepts(),
+        workbenchApi.getAnalysisSource(),
+        workbenchApi.getOverview(),
         workbenchApi.getExtraLibrary(),
       ]);
-      setState({ manifest, verify, library, tree, extraLibrary, error: null, isLoading: false });
+      setState({
+        manifest,
+        verify,
+        library,
+        tree,
+        concepts,
+        analysis,
+        overview,
+        extraLibrary,
+        error: null,
+        isLoading: false,
+      });
     } catch (error) {
       setState((previous) => ({ ...previous, error: describeError(error), isLoading: false }));
     }
