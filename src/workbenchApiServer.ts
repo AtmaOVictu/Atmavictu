@@ -2,6 +2,7 @@ import { createServer, type Server } from "node:http";
 import { readdir, readFile } from "node:fs/promises";
 import { isAbsolute, join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { randomUUID } from "node:crypto";
 
 import express, { type Express, type NextFunction, type Request, type Response } from "express";
 
@@ -340,7 +341,7 @@ app.post("/api/semantic/index-fragments", asyncRoute(async (_req, res) => {
           continue;
         }
         points.push({
-          id: fragment.id,
+          id: randomUUID(),
           vector,
           payload: {
             fragmentId: fragment.id,
