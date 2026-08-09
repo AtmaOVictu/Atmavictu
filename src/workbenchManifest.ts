@@ -285,10 +285,16 @@ export function startProcessingIncoming(
   };
 }
 
+export interface CreateFragmentFromIncomingInput {
+  title?: string;
+  conceptIds?: string[];
+}
+
 export function createFragmentFromIncoming(
   manifest: WorkbenchManifest,
   incomingTextId: string,
   body: string,
+  input: CreateFragmentFromIncomingInput = {},
 ): ManifestUpdate<Fragment> {
   assertValidManifest(manifest, "createFragmentFromIncoming");
   requireNonEmptyString("incomingTextId", incomingTextId);
@@ -306,11 +312,15 @@ export function createFragmentFromIncoming(
     manifest.fragments.map((fragment) => fragment.id),
     "fragment",
   );
+  const title = normalizeOptionalString(input.title);
+  const conceptIds = input.conceptIds === undefined ? undefined : [...input.conceptIds];
   const fragment: Fragment = {
     id,
     incomingTextId,
     text,
     status: "draft",
+    ...(title ? { title } : {}),
+    ...(conceptIds && conceptIds.length > 0 ? { conceptIds } : {}),
   };
 
   const nextManifest = cloneManifest(manifest);

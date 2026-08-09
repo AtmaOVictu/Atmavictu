@@ -339,6 +339,59 @@ test("suggestions endpoint validates input and degrades gracefully when the mode
   }
 });
 
+test("create fragment can set title and conceptIds at creation", async () => {
+  const projectRoot = await createTempDirectory();
+  const server = startWorkbenchApiServer(projectRoot, 0);
+  const baseUrl = await waitForBaseUrl(server);
+
+  try {
+    const capture = await postJson<IncomingText>(`${baseUrl}/api/incoming`, { title: "Vir", body: "Vsebina." });
+    const incomingId = capture.body.id;
+    await postJson(`${baseUrl}/api/incoming/${incomingId}/start-processing`, {});
+    const concept = await postJson<{ id: string }>(`${baseUrl}/api/concepts`, { label: "Bistvo" });
+    assert.equal(concept.status, 201);
+
+    const fragment = await postJson<Fragment>(`${baseUrl}/api/fragments`, {
+      incomingTextId: incomingId,
+      body: "Odlomek.",
+      title: "Moj naslov",
+      conceptIds: [concept.body.id],
+    });
+
+    assert.equal(fragment.status, 201);
+    assert.equal(fragment.body.title, "Moj naslov");
+    assert.deepEqual(fragment.body.conceptIds, [concept.body.id]);
+  } finally {
+    server.close();
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
+test("semantic endpoints degrade gracefully when Qdrant/Ollama are unreachable", async () => {
+  const projectRoot = await createTempDirectory();
+  // closed ports force fast failures
+  const server = startWorkbenchApiServer(projectRoot, 0, { ollamaUrl: "http://127.0.0.1:1", qdrantUrl: "http://127.0.0.1:1" });
+  const baseUrl = await waitForBaseUrl(server);
+
+  try {
+    // seed a fragment so index-fragments actually attempts an embedding
+    const capture = await postJson<IncomingText>(`${baseUrl}/api/incoming`, { title: "Vir", body: "Vsebina." });
+    const incomingId = capture.body.id;
+    await postJson(`${baseUrl}/api/incoming/${incomingId}/start-processing`, {});
+    await postJson(`${baseUrl}/api/fragments`, { incomingTextId: incomingId, body: "Odlomek." });
+
+    const search = await postJson<{ ok: boolean; error: string }>(`${baseUrl}/api/semantic/search`, { query: "kaj je bistvo" });
+    assert.equal(search.status, 502);
+    assert.equal(search.body.ok, false);
+
+    const index = await postJson<{ ok: boolean }>(`${baseUrl}/api/semantic/index-fragments`, {});
+    assert.equal(index.status, 502);
+    assert.equal(index.body.ok, false);
+  } finally {
+    server.close();
+    await cleanupTempDirectory(projectRoot);
+  }
+});
 async function getJson<T>(url: string): Promise<T> {
   const response = await fetch(url);
   return (await response.json()) as T;

@@ -33,11 +33,22 @@ import {
   parseSuggestionResponse,
   SUGGESTION_MODEL,
 } from "./workbenchSuggestions.js";
+import {
+  buildEmbeddingRequest,
+  buildQdrantCollectionBody,
+  buildQdrantSearchBody,
+  buildQdrantUpsertBody,
+  EMBEDDING_DIMENSIONS,
+  parseEmbeddingResponse,
+  parseQdrantSearchResponse,
+  QDRANT_COLLECTION,
+} from "./workbenchSemantic.js";
 
 const IGNORED_ROOT_ENTRIES = new Set(["book.workbench.json", "node_modules", ".git"]);
 const DELO_ARTIFACT_MARKER = "<!-- delo-artifact:v1";
 const DELO_ARTIFACT_MARKER_END = "-->";
 const DEFAULT_OLLAMA_URL = "http://localhost:11434";
+const DEFAULT_QDRANT_URL = "http://localhost:6333";
 
 export interface WorkbenchApiOptions {
   /**
@@ -54,12 +65,19 @@ export interface WorkbenchApiOptions {
    * the workbench).
    */
   ollamaUrl?: string;
+  /**
+   * Base URL of a Qdrant instance used for optional semantic search over
+   * fragments. Defaults to the local Qdrant. When unreachable, the semantic
+   * endpoints degrade gracefully.
+   */
+  qdrantUrl?: string;
 }
 
 export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApiOptions = {}): Express {
   const normalizedProjectRoot = requireNonEmptyString("projectRoot", projectRoot);
   const extraLibraryRoot = options.extraLibraryRoot?.trim() || undefined;
   const ollamaUrl = options.ollamaUrl?.trim() || DEFAULT_OLLAMA_URL;
+  const qdrantUrl = options.qdrantUrl?.trim() || DEFAULT_QDRANT_URL;
   const app = express();
   app.use(express.json());
 
@@ -160,12 +178,11 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
   app.post(
     "/api/fragments",
     mutateRoute(normalizedProjectRoot, (manifest, req) => {
-      const { incomingTextId, body } = req.body as Record<string, unknown>;
-      return createFragmentFromIncoming(
-        manifest,
-        requireBodyString("incomingTextId", incomingTextId),
-        requireBodyString("body", body),
-      );
+      const { incomingTextId, body, title, conceptIds } = req.body as Record<string, unknown>;
+      return createFragmentFromIncoming(manifest, requireBodyString("incomingTextId", incomingTextId), requireBodyString("body", body), {
+        ...(typeof title === "string" ? { title } : {}),
+        ...(Array.isArray(conceptIds) ? { conceptIds: conceptIds as string[] } : {}),
+      });
     }, 201),
   );
 
@@ -308,6 +325,62 @@ app.post("/api/suggestions", asyncRoute(async (req, res) => {
     }
   }));
 
+app.post("/api/semantic/index-fragments", asyncRoute(async (_req, res) => {
+    const manifest = await ensureManifestFile(normalizedProjectRoot);
+    const fragments = manifest.fragments;
+    if (fragments.length === 0) {
+      res.json({ ok: true, indexed: 0 });
+      return;
+    }
+    try {
+      const points: Array<{ id: string; vector: number[]; payload: Record<string, unknown> }> = [];
+      for (const fragment of fragments) {
+        const vector = await embedText(ollamaUrl, fragment.text);
+        if (vector.length === 0) {
+          continue;
+        }
+        points.push({
+          id: fragment.id,
+          vector,
+          payload: {
+            fragmentId: fragment.id,
+            title: fragment.title,
+            text: fragment.text,
+          },
+        });
+      }
+      await ensureQdrantCollection(qdrantUrl);
+      if (points.length > 0) {
+        await qdrantSend(qdrantUrl, `/collections/${QDRANT_COLLECTION}/points?wait=true`, "PUT", buildQdrantUpsertBody(points));
+      }
+      res.json({ ok: true, indexed: points.length });
+    } catch (error) {
+      res.status(502).json({ ok: false, error: "semantic index service is unavailable." });
+    }
+  }));
+
+  app.post("/api/semantic/search", asyncRoute(async (req, res) => {
+    const body = (req.body as Record<string, unknown> | undefined) ?? {};
+    const query = body.query;
+    const limit = typeof body.limit === "number" ? Math.min(Math.max(Math.floor(body.limit), 1), 20) : 5;
+    if (typeof query !== "string" || query.trim().length === 0) {
+      res.status(400).json({ ok: false, error: "query is a required non-empty string." });
+      return;
+    }
+    try {
+      const vector = await embedText(ollamaUrl, query);
+      if (vector.length === 0) {
+        res.status(502).json({ ok: false, error: "could not embed the query." });
+        return;
+      }
+      const data = await qdrantSend(qdrantUrl, `/collections/${QDRANT_COLLECTION}/points/search`, "POST", buildQdrantSearchBody(vector, limit));
+      res.json({ ok: true, results: parseQdrantSearchResponse(data) });
+    } catch (error) {
+      res.status(502).json({ ok: false, error: "semantic search service is unavailable." });
+    }
+  }));
+
+  app.use(errorHandler);
   app.use(errorHandler);
   app.use(errorHandler);
   app.use(errorHandler);
@@ -376,6 +449,62 @@ async function listProjectFiles(projectRoot: string): Promise<string[]> {
 
   await walk(".");
   return results.sort();
+}
+
+async function embedText(ollamaUrl: string, text: string): Promise<number[]> {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 15000);
+  try {
+    const response = await fetch(`${ollamaUrl.replace(/\/$/, "")}/api/embed`, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(buildEmbeddingRequest(text)),
+      signal: controller.signal,
+    });
+    if (!response.ok) {
+      throw new Error(`Ollama embed responded ${response.status}`);
+    }
+    const data = (await response.json()) as unknown;
+    return parseEmbeddingResponse(data);
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+async function ensureQdrantCollection(qdrantUrl: string): Promise<void> {
+  // 200 = created, 409 = already exists (both fine).
+  await qdrantSend(
+    qdrantUrl,
+    `/collections/${QDRANT_COLLECTION}`,
+    "PUT",
+    buildQdrantCollectionBody(EMBEDDING_DIMENSIONS),
+    new Set([200, 409]),
+  );
+}
+
+async function qdrantSend(
+  qdrantUrl: string,
+  path: string,
+  method: "POST" | "PUT",
+  body: unknown,
+  accepted: Set<number> = new Set([200]),
+): Promise<unknown> {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 15000);
+  try {
+    const response = await fetch(`${qdrantUrl.replace(/\/$/, "")}${path}`, {
+      method,
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(body),
+      signal: controller.signal,
+    });
+    if (!accepted.has(response.status)) {
+      throw new Error(`Qdrant ${path} responded ${response.status}`);
+    }
+    return (await response.json()) as unknown;
+  } finally {
+    clearTimeout(timeout);
+  }
 }
 
 async function requestOllamaSuggestions(

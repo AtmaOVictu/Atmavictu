@@ -8,6 +8,13 @@ import type {
   SourceAnalysis,
 } from "../types";
 
+interface SemanticResult {
+  fragmentId: string;
+  title?: string;
+  text: string;
+  score: number;
+}
+
 interface Props {
   incomingTexts: IncomingText[];
   fragments: Fragment[];
@@ -16,12 +23,14 @@ interface Props {
   analysis: SourceAnalysis[];
   onStartProcessing: (id: string) => Promise<void>;
   onArchiveIncoming: (id: string) => Promise<void>;
-  onCreateFragment: (input: { incomingTextId: string; body: string }) => Promise<void>;
+  onCreateFragment: (input: { incomingTextId: string; body: string; title?: string; conceptIds?: string[] }) => Promise<void>;
   onArchiveFragment: (id: string) => Promise<void>;
   onRenameIncoming: (id: string, title: string) => Promise<void>;
   onUpdateFragment: (id: string, input: { title?: string | null; text?: string; note?: string | null; conceptIds?: string[] | null }) => Promise<void>;
   onAddConcept: (label: string) => Promise<void>;
   onSuggest: (text: string) => Promise<{ ok: boolean; title?: string; concepts: string[] }>;
+  onIndexFragments: () => Promise<void>;
+  onSemanticSearch: (query: string) => Promise<{ ok: boolean; results: SemanticResult[] }>;
 }
 
 export function VhodniTekstPanel({
@@ -38,12 +47,15 @@ export function VhodniTekstPanel({
   onUpdateFragment,
   onAddConcept,
   onSuggest,
+  onIndexFragments,
+  onSemanticSearch,
 }: Props) {
   return (
     <section className="pane">
       <h2>Vhodni tekst</h2>
       <ConceptSection concepts={concepts} onAddConcept={onAddConcept} />
       <AnalysisSection overview={overview} analysis={analysis} />
+      <SemanticSearchSection onIndexFragments={onIndexFragments} onSemanticSearch={onSemanticSearch} />
       {incomingTexts.length === 0 && <p className="empty">Se ni zajetega vhodnega teksta.</p>}
       <ul className="incoming-list">
         {incomingTexts.map((incomingText) => (
@@ -59,6 +71,8 @@ export function VhodniTekstPanel({
             onRenameIncoming={onRenameIncoming}
             onUpdateFragment={onUpdateFragment}
             onSuggest={onSuggest}
+            onIndexFragments={onIndexFragments}
+            onSemanticSearch={onSemanticSearch}
           />
         ))}
       </ul>
@@ -140,6 +154,76 @@ function AnalysisSection({
   );
 }
 
+function SemanticSearchSection({
+  onIndexFragments,
+  onSemanticSearch,
+}: {
+  onIndexFragments: () => Promise<void>;
+  onSemanticSearch: (query: string) => Promise<{ ok: boolean; results: SemanticResult[] }>;
+}) {
+  const [query, setQuery] = useState("");
+  const [results, setResults] = useState<SemanticResult[]>([]);
+  const [status, setStatus] = useState("");
+  const [searching, setSearching] = useState(false);
+
+  async function runSearch() {
+    if (query.trim().length === 0) {
+      return;
+    }
+    setSearching(true);
+    setStatus("Iščem...");
+    try {
+      const result = await onSemanticSearch(query);
+      if (result.ok) {
+        setResults(result.results);
+        setStatus(result.results.length === 0 ? "Ni zadetkov." : "");
+      } else {
+        setResults([]);
+        setStatus("Semaantično iskanje ni dosegljivo (Ollama/Qdrant).");
+      }
+    } finally {
+      setSearching(false);
+    }
+  }
+
+  return (
+    <div className="semantic-section">
+      <h3>Semantično iskanje</h3>
+      <form
+        className="semantic-form"
+        onSubmit={(event) => {
+          event.preventDefault();
+          void runSearch();
+        }}
+      >
+        <input
+          type="text"
+          placeholder="Išči po vsebini fragmentov..."
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+        />
+        <button type="submit" disabled={searching || query.trim().length === 0}>
+          {searching ? "Iščem..." : "Išči"}
+        </button>
+        <button type="button" className="secondary-button" onClick={() => void onIndexFragments()}>
+          Indeksiraj
+        </button>
+      </form>
+      {status !== "" && <p className="semantic-status">{status}</p>}
+      {results.length > 0 && (
+        <ul className="semantic-results">
+          {results.map((result) => (
+            <li key={result.fragmentId}>
+              <span className="badge">{result.score.toFixed(2)}</span> {result.title ?? result.fragmentId}:{" "}
+              {result.text.slice(0, 80)}
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
+
 function IncomingTextRow({
   incomingText,
   fragments,
@@ -151,12 +235,17 @@ function IncomingTextRow({
   onRenameIncoming,
   onUpdateFragment,
   onSuggest,
+  onIndexFragments,
+  onSemanticSearch,
 }: {
   incomingText: IncomingText;
   fragments: Fragment[];
   concepts: ConceptWithCount[];
 } & Omit<Props, "incomingTexts" | "fragments" | "overview" | "analysis" | "onAddConcept">) {
   const [fragmentBody, setFragmentBody] = useState("");
+  const [newFragmentTitle, setNewFragmentTitle] = useState("");
+  const [newConceptIds, setNewConceptIds] = useState<string[]>([]);
+  const [suggestingNew, setSuggestingNew] = useState(false);
   const [editingTitle, setEditingTitle] = useState(false);
   const [titleValue, setTitleValue] = useState(incomingText.title ?? incomingText.id);
   const canCreateFragment = incomingText.status === "processing" || incomingText.status === "used";
@@ -227,9 +316,16 @@ function IncomingTextRow({
             if (fragmentBody.trim().length === 0) {
               return;
             }
-            void onCreateFragment({ incomingTextId: incomingText.id, body: fragmentBody }).then(() =>
-              setFragmentBody(""),
-            );
+            void onCreateFragment({
+              incomingTextId: incomingText.id,
+              body: fragmentBody,
+              ...(newFragmentTitle.trim().length > 0 ? { title: newFragmentTitle.trim() } : {}),
+              conceptIds: newConceptIds,
+            }).then(() => {
+              setFragmentBody("");
+              setNewFragmentTitle("");
+              setNewConceptIds([]);
+            });
           }}
         >
           <textarea
@@ -238,9 +334,63 @@ function IncomingTextRow({
             onChange={(event) => setFragmentBody(event.target.value)}
             rows={2}
           />
-          <button type="submit" disabled={fragmentBody.trim().length === 0}>
-            Ustvari fragment
-          </button>
+          <input
+            type="text"
+            placeholder="Naslov (neobvezno)"
+            value={newFragmentTitle}
+            onChange={(event) => setNewFragmentTitle(event.target.value)}
+          />
+          {concepts.length > 0 && (
+            <div className="concept-picker">
+              <span className="concept-picker-label">Koncepti:</span>
+              {concepts.map((concept) => (
+                <label key={concept.id} className="concept-check">
+                  <input
+                    type="checkbox"
+                    checked={newConceptIds.includes(concept.id)}
+                    onChange={() =>
+                      setNewConceptIds((previous) =>
+                        previous.includes(concept.id)
+                          ? previous.filter((id) => id !== concept.id)
+                          : [...previous, concept.id],
+                      )
+                    }
+                  />
+                  {concept.label}
+                </label>
+              ))}
+            </div>
+          )}
+          <div className="actions">
+            <button
+              type="button"
+              disabled={suggestingNew || fragmentBody.trim().length === 0}
+              onClick={async () => {
+                setSuggestingNew(true);
+                try {
+                  const result = await onSuggest(fragmentBody);
+                  if (result.ok && result.title) {
+                    setNewFragmentTitle(result.title);
+                  }
+                  if (result.ok && result.concepts.length > 0) {
+                    setNewConceptIds((previous) => [
+                      ...previous,
+                      ...result.concepts
+                        .map((label) => concepts.find((c) => c.label === label)?.id)
+                        .filter((id): id is string => id !== undefined && !previous.includes(id)),
+                    ]);
+                  }
+                } finally {
+                  setSuggestingNew(false);
+                }
+              }}
+            >
+              {suggestingNew ? "Predlagam..." : "Predlagaj"}
+            </button>
+            <button type="submit" disabled={fragmentBody.trim().length === 0}>
+              Ustvari fragment
+            </button>
+          </div>
         </form>
       )}
 

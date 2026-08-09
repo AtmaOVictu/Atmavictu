@@ -483,6 +483,20 @@ Opcijska LLM-naslovana pomoc: iz danega odlomka predlaga `title` (naslov) in `co
 - veljaven tekst vrne `{ ok: true, ... }`
 - nedosegljiv model vrne `{ ok: false, error }` z 502, ne napake serverja
 
+## createFragmentFromIncoming (razsirjen)
+
+`createFragmentFromIncoming` zdaj sprejema opcijski `{ title?, conceptIds? }` — tako se fragment lahko ustvari ze z naslovom in koncepti. `conceptIds` se preverijo proti obstojecem Conceptom prek validacije.
+
+## semantic indexFragments / search (read-only, opcijsko)
+
+Medsebojna komputecija s Smisel Qdrant RAG-korpusom. Fragmenti se vektorizirajo (Ollama `bge-m3`) in indeksirajo v Qdrant zbirko `workbench_fragments`; nato se jih da semanticno iskati po vsebini.
+
+- `POST /api/semantic/index-fragments` — vektorizira vse fragmente in jih upsertira v Qdrant.
+- `POST /api/semantic/search` — body `{ query, limit? }` → vektorizira poizvedbo, isce po Qdrant, vrne `{ fragmentId, title, text, score }[]`.
+
+Obe operaciji sta **gracilno degradabilni**: ko Ollama ali Qdrant nista dosegljiva, vrneta `{ ok: false }` z 502 in nikoli ne blokirata workbencha. To je edina povezava Atmavictu do zunanjega vektorskega indeksa (isti Qdrant, ki ga Smisel ze uporablja).
+
+## validateManifest(manifest)
 ## validateManifest(manifest)
 ## validateManifest(manifest)
 ## validateManifest(manifest)

@@ -66,7 +66,7 @@ export const workbenchApi = {
   archiveIncoming: (id: string) =>
     request<IncomingText>(`/api/incoming/${encodeURIComponent(id)}/archive`, { method: "POST" }),
 
-  createFragment: (input: { incomingTextId: string; body: string }) =>
+  createFragment: (input: { incomingTextId: string; body: string; title?: string; conceptIds?: string[] }) =>
     request<Fragment>("/api/fragments", { method: "POST", body: JSON.stringify(input) }),
 
   archiveFragment: (id: string) =>
@@ -107,4 +107,13 @@ export const workbenchApi = {
       method: "POST",
       body: JSON.stringify({ text }),
     }),
+
+  indexFragments: () =>
+    request<{ ok: boolean; indexed: number }>("/api/semantic/index-fragments", { method: "POST" }),
+
+  semanticSearch: (query: string, limit = 5) =>
+    request<{ ok: boolean; results: Array<{ fragmentId: string; title?: string; text: string; score: number }> }>(
+      "/api/semantic/search",
+      { method: "POST", body: JSON.stringify({ query, limit }) },
+    ),
 };

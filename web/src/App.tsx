@@ -46,6 +46,8 @@ export function App() {
           onUpdateFragment={(id, input) => runAction(() => workbenchApi.updateFragment(id, input))}
           onAddConcept={(label) => runAction(() => workbenchApi.addConcept({ label }))}
           onSuggest={(text) => workbenchApi.suggestFragment(text)}
+          onIndexFragments={() => runAction(() => workbenchApi.indexFragments())}
+          onSemanticSearch={(query) => workbenchApi.semanticSearch(query)}
         />
       </main>
     </div>
