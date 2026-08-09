@@ -3,49 +3,44 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Method · zanka znanja</title>
+<title>Method · ozvezdje znanja</title>
 <style>
   html,body{margin:0;padding:0;background:#050608;color:#e8e8e0;
-    font-family:'JetBrains Mono','Consolas',monospace;overflow:hidden;height:100%;width:100%}
+    font-family:'Consolas','JetBrains Mono',monospace;overflow:hidden;height:100%;width:100%}
   #sky{position:fixed;inset:0;display:block}
   text{user-select:none}
   .star{cursor:pointer}
-  .star:hover{filter:brightness(1.4)}
+  .star:hover{filter:brightness(1.5)}
+  .star-label{font-size:9px;pointer-events:none;fill:#9fb89f}
   .reg{cursor:pointer}
-  .reg circle{transition:fill .2s,stroke .2s}
   .reg:hover circle{stroke:#e8c86a;stroke-width:2}
   .reg-label{font-size:8px;pointer-events:none;fill:#8a9a8a}
   .reg-label.filled{fill:#e8c86a}
+  .anchor{font-size:13px;font-weight:700}
+  .anchor-label{font-size:9px;fill:#6a7a6a}
+  .track-label{font-size:8px;fill:#7a9a7a}
 
-  /* HUD — diegetski, v svetu ob robovih */
   #hud{position:fixed;top:0;left:0;right:0;padding:14px 26px;display:flex;justify-content:space-between;
     align-items:center;font-size:12px;color:#7a9a7a;letter-spacing:.04em;
     background:linear-gradient(rgba(5,6,8,.9),transparent);pointer-events:none}
-  #hud b{color:#e8c86a;font-weight:700}
+  #hud b{color:#e8c86a}
   #hud .pill{color:#a9c9a9;border:1px solid #2a3a2a;border-radius:999px;padding:2px 10px}
-
+  #hint{position:fixed;bottom:14px;left:20px;font-size:11px;color:#6a7a6a;pointer-events:none;max-width:340px;line-height:1.6}
+  #hint b{color:#e8c86a}
   #legend{position:fixed;bottom:14px;right:20px;font-size:10px;color:#6a7a6a;text-align:right;line-height:1.8;pointer-events:none}
   #legend span{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}
 
-  #picker{position:fixed;bottom:14px;left:20px;display:flex;gap:8px;align-items:center}
-  #picker .pname{font-size:10px;color:#6a7a6a;margin-right:4px}
-  .pdot{width:14px;height:14px;border-radius:50%;cursor:pointer;border:1px solid rgba(255,255,255,.25);
-    box-shadow:0 0 8px rgba(0,0,0,.6);transition:transform .12s}
-  .pdot:hover{transform:scale(1.25)}
-  .pdot.active{outline:2px solid #e8c86a}
-
-  /* On-canvas diegetski promp — modal v svetu, ne zunanji panel */
-  #veil{position:fixed;inset:0;background:rgba(3,4,3,.55);backdrop-filter:blur(2px);display:none;z-index:20}
-  #sheet{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:420px;max-width:92vw;
-    background:rgba(9,12,9,.97);border:1px solid #2c3a2c;border-radius:10px;padding:20px 22px;z-index:21;
-    box-shadow:0 20px 60px rgba(0,0,0,.6);display:none}
-  #sheet h3{margin:0 0 4px;color:#e8c86a;font-size:16px}
-  #sheet .reg-need{color:#9fb89f;font-size:12px;margin:2px 0 12px}
+  #veil{position:fixed;inset:0;background:rgba(3,4,3,.5);backdrop-filter:blur(2px);display:none;z-index:20}
+  #sheet{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:430px;max-width:92vw;
+    background:radial-gradient(circle at 50% 0%,rgba(40,30,10,.4),rgba(9,12,9,.98));border:1px solid #6a5a20;
+    border-radius:12px;padding:20px 24px;z-index:21;display:none;box-shadow:0 0 60px rgba(232,200,106,.12),0 24px 70px rgba(0,0,0,.6)}
+  #sheet h3{margin:0 0 4px;color:#e8c86a;font-size:16px;letter-spacing:.02em}
+  #sheet .reg-need{color:#9fb89f;font-size:12px;margin:2px 0 4px}
   #sheet .reg-src{color:#6a8a6a;font-size:11px;margin:0 0 12px}
   #sheet .reg-src b{color:#8fbf8f;font-weight:600}
-  #sheet textarea{width:100%;box-sizing:border-box;background:#0c110c;color:#e8e8e0;border:1px solid #2a3a2a;
+  #sheet textarea{width:100%;box-sizing:border-box;background:#0c110c;color:#e8e8e0;border:1px solid #3a4420;
     border-radius:6px;padding:10px;font-family:inherit;font-size:12px;resize:vertical;min-height:72px}
-  #sheet textarea:focus{outline:none;border-color:#4a6a4a}
+  #sheet textarea:focus{outline:none;border-color:#8a6a20}
   #sheet .row{display:flex;gap:8px;margin-top:12px;align-items:center}
   .btn{cursor:pointer;border:1px solid #3a4a3a;background:#0c110c;color:#a9c9a9;padding:8px 14px;border-radius:7px;
     font-family:inherit;font-size:12px;letter-spacing:.03em}
@@ -57,22 +52,22 @@
   .msg.ok{color:#7ae0a0}
   .msg.rej{color:#ff8877}
   .msg.info{color:#aacfff}
+  .msg.gold{color:#e8c86a}
 
-  #log{position:fixed;top:52px;right:20px;width:250px;max-height:40vh;overflow:hidden;font-size:10px;
+  #log{position:fixed;top:50px;right:20px;width:250px;max-height:40vh;overflow:hidden;font-size:10px;
     color:#6a7a6a;line-height:1.7;text-align:right;pointer-events:none}
   #log div{animation:login .3s ease}
   @keyframes login{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
   #log .ok{color:#7a9a7a}
   #log .rej{color:#9a6a5a}
-
-  .track-label{font-size:9px;fill:#7a9a7a}
+  #log .gold{color:#e8c86a}
 </style>
 </head>
 <body>
 
 <div id="hud">
-  <div>METHOD · <b>zanka znanja</b></div>
-  <div class="pill" id="hud-prog">odkrito 0 · kanon 0</div>
+  <div>METHOD · <b>ozvezdje znanja</b></div>
+  <div class="pill" id="hud-prog">zvezd 0 · kanon 0</div>
 </div>
 
 <svg id="sky" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
@@ -81,29 +76,28 @@
       <feGaussianBlur stdDeviation="6" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <radialGradient id="coreg" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#e8c86a" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#e8c86a" stop-opacity="0"/>
-    </radialGradient>
   </defs>
+  <g id="spine"></g>
+  <g id="anchors"></g>
   <g id="dust"></g>
-  <g id="ring"></g>
+  <g id="stars"></g>
   <g id="registers"></g>
   <g id="track"></g>
-  <g id="core"></g>
 </svg>
 
 <div id="legend">
-  <div><span style="background:#8fa8e0"></span>O · celota</div>
-  <div><span style="background:#8fbfe0"></span>⊘ · rez</div>
-  <div><span style="background:#e8c86a"></span>EN · enota</div>
-  <div><span style="background:#e0a06a"></span>⧖ · čas</div>
-  <div><span style="background:#e07a7a"></span>∆ · sprememba</div>
-  <div><span style="background:#c07ae0"></span>EJ · izraz</div>
-  <div><span style="background:#7ae0b0"></span>JAS · jasnost</div>
+  <div><span style="background:#8fa8e0"></span>O</div>
+  <div><span style="background:#8fbfe0"></span>⊘</div>
+  <div><span style="background:#bb88ff"></span>NE</div>
+  <div><span style="background:#e8c86a"></span>EN</div>
+  <div><span style="background:#e0a06a"></span>⧖</div>
+  <div><span style="background:#e07a7a"></span>∆</div>
+  <div><span style="background:#c07ae0"></span>EJ</div>
+  <div><span style="background:#7ae0b0"></span>JAS</div>
+  <div><span style="background:#4a5550"></span>neodkrito</div>
 </div>
 
-<div id="picker"><span class="pname">izberi koncept:</span></div>
+<div id="hint"><b>Razišči ozvezdje.</b> Klikni zvezdo → okoli nje se odpre 7 registrov in steza <b>raw→candidate→tested→operative→canon</b>. Za vsak register zabeleži <i>realno sled</i> (citiraj vir), nato <b>dvojni klik</b> na zvezdo zapečati kanon. Kanonizacija osvetli operatorjevo verigo.</div>
 
 <div id="log"></div>
 
@@ -119,299 +113,60 @@
   </div>
   <div class="msg" id="sh-msg"></div>
 </div>
+
 <script>
-// ── Podatki (mockup) ─────────────────────────────────────────────────────
-const OPERATORS = [
-  {sym:'O',  col:'#8fa8e0'}, {sym:'⊘', col:'#8fbfe0'}, {sym:'NE', col:'#bb88ff'},
-  {sym:'EN', col:'#e8c86a'}, {sym:'⧖', col:'#e0a06a'}, {sym:'∆', col:'#e07a7a'},
-  {sym:'EJ', col:'#c07ae0'}, {sym:'JAS',col:'#7ae0b0'},
-];
-const REGS = [
-  ['geneza','izvor — rez iz nedoločnega'],
-  ['ontologija','operator / relacija'],
-  ['somatika','telesni marker (mora biti zabeležen)'],
-  ['etika','nevarnost + prepoved zlorabe'],
-  ['forma','mesto v knjigi / metodi'],
-  ['operacija','mikro-dejanje'],
-  ['naslovnik','pravica + meja uporabe'],
-];
-const STATUS = ['raw','candidate','tested','operative','canon'];
-const REG_COLORS = ['#8fa8e0','#8fbfe0','#e0a06a','#e07a7a','#c07ae0','#bb88ff','#7ae0b0'];
-
-const CONCEPTS = {
-  Ne:{ pos:'⊘-pogoj · operator', start:'candidate',
-    registers:{
-      geneza:{need:'prvi rez iz nedoločnega', src:'frag_2026-06-30_beseda_je_ne'},
-      ontologija:{need:'operator ali relacija', src:'NE --carries--> ⊘ · library/graph.json'},
-      somatika:{need:'zabeležen telesni marker', src:'npr. »dih se ustavi« — mora biti v logu'},
-      etika:{need:'nevarnost + prepoved', src:'library/definitions/*.md'},
-      forma:{need:'kanonično mesto', src:'library/definitions/ne.md'},
-      operacija:{need:'mikro-dejanje', src:'»ustavi prehitro pritrditev«'},
-      naslovnik:{need:'pravica + meja', src:'bralec dobi pravico do lastnega Ne'},
-    },
-    danger:'Ne se lahko strdi v zid namesto meje — potrebuje povratno pot.' },
-  Beseda:{ pos:'EN · enota', start:'candidate',
-    registers:{
-      geneza:{need:'izvor iz notranje izkušnje', src:'frag_… / bibliografija'},
-      ontologija:{need:'nosilec pomena', src:'Beseda --traces--> ⊘'},
-      somatika:{need:'telesni marker', src:'zabeležena opaznica'},
-      etika:{need:'orodje za zavajanje', src:'definitions/beseda.md'},
-      forma:{need:'mesto v metodi', src:'library/definitions/beseda.md'},
-      operacija:{need:'mikro-dejanje', src:'»prevedi misel v glas«'},
-      naslovnik:{need:'pravica bralca', src:'beseda kot dar, ne ukaz'},
-    },
-    danger:'Beseda kot absolutno ime — brez dvoma' },
-  Rez:{ pos:'⊘ · distinction', start:'raw',
-    registers:{
-      geneza:{need:'ločitev od celote', src:'frag_…'},
-      ontologija:{need:'relacija reza', src:'⊘ --carries--> O'},
-      somatika:{need:'telesni marker', src:'zabeležena opaznica'},
-      etika:{need:'nevarnost', src:'rez kot izključitev'},
-      forma:{need:'mesto', src:'definitions/rez.md'},
-      operacija:{need:'mikro-dejanje', src:'»naredi razliko«'},
-      naslovnik:{need:'pravica', src:'rez je v lasti vsakega'},
-    },
-    danger:'Rez kot absolutna meja' },
+// Operatorji, registri, status
+const OPERATORS=[{sym:'O',col:'#8fa8e0'},{sym:'⊘',col:'#8fbfe0'},{sym:'NE',col:'#bb88ff'},{sym:'EN',col:'#e8c86a'},{sym:'⧖',col:'#e0a06a'},{sym:'∆',col:'#e07a7a'},{sym:'EJ',col:'#c07ae0'},{sym:'JAS',col:'#7ae0b0'}];
+const REGS=[['geneza','izvor'],['ontologija','relacija'],['somatika','telesni marker'],['etika','nevarnost'],['forma','mesto'],['operacija','mikro-dejanje'],['naslovnik','pravica + meja']];
+const STATUS=['raw','candidate','tested','operative','canon'];
+const REG_COLORS=['#8fa8e0','#8fbfe0','#e0a06a','#e07a7a','#c07ae0','#bb88ff','#7ae0b0'];
+function defRegs(sym){ return {geneza:{need:'izvor — rez iz nedoločnega',src:'npr. frag_… / bibliografija'},ontologija:{need:'operator ali relacija',src:sym+' --carries--> … (graph.json)'},somatika:{need:'zabeležen telesni marker',src:'npr. »dih se ustavi« — mora biti v logu'},etika:{need:'nevarnost + prepoved zlorabe',src:'library/definitions/*.md'},forma:{need:'kanonično mesto',src:'library/definitions/<tip>.md'},operacija:{need:'mikro-dejanje',src:'opaznica / delovni postopek'},naslovnik:{need:'pravica + meja uporabe',src:'sogovornik — pravica do lastnega reza'}};}
+const CONCEPTS={
+ 'Ne':{cluster:'⊘',start:'candidate',danger:'Ne se lahko strdi v zid namesto meje — potrebuje povratno pot.',registers:Object.assign(defRegs('NE'),{ontologija:{need:'operator ali relacija',src:'NE --carries--> ⊘ · library/graph.json'},forma:{need:'kanonično mesto',src:'library/definitions/ne.md'},operacija:{need:'mikro-dejanje',src:'»ustavi prehitro pritrditev«'},naslovnik:{need:'pravica + meja',src:'bralec dobi pravico do lastnega Ne'}})},
+ 'Beseda':{cluster:'EN',start:'candidate',danger:'Beseda kot absolutno ime — brez dvoma.',registers:Object.assign(defRegs('EN'),{ontologija:{need:'nosilec pomena',src:'Beseda --traces--> ⊘'},etika:{need:'orodje za zavajanje',src:'definitions/beseda.md'},forma:{need:'mesto',src:'library/definitions/beseda.md'},operacija:{need:'mikro-dejanje',src:'»prevedi misel v glas«'},naslovnik:{need:'pravica bralca',src:'beseda kot dar, ne ukaz'}})},
+ 'Rez':{cluster:'⊘',start:'candidate',danger:'Rez kot absolutna meja.',registers:Object.assign(defRegs('⊘'),{ontologija:{need:'relacija reza',src:'⊘ --carries--> O'}})},
+ 'Celota':{cluster:'O',start:'raw',danger:'Celota kot neizpodbitna.',registers:defRegs('O')},
+ 'Dvom':{cluster:'⊘',start:'raw',danger:'Dvom kot status, ne pot.',registers:defRegs('⊘')},
+ 'Trajanje':{cluster:'⧖',start:'raw',danger:'Trajanje kot absolutni čas.',registers:defRegs('⧖')},
+ 'Sprememba':{cluster:'∆',start:'raw',danger:'Sprememba kot napredek sam po sebi.',registers:defRegs('∆')},
+ 'Izraz':{cluster:'EJ',start:'raw',danger:'Izraz kot golo sredstvo.',registers:defRegs('EJ')},
+ 'Jasnost':{cluster:'JAS',start:'raw',danger:'Jasnost kot končna resnica.',registers:defRegs('JAS')},
+ 'Sled':{cluster:null,start:'raw',danger:'Sled kot dokaz sama po sebi.',registers:defRegs('Sled')},
+ 'Kanon':{cluster:null,start:'raw',danger:'Kanon kot nespremenljiva zbirka.',registers:defRegs('Kanon')}
 };
-
-// ── Stanje ───────────────────────────────────────────────────────────────
-let cur = 'Ne';
-let regState = {};   // {concept:{reg:true/false}}
-let trackState = {}; // {concept: statusIndex}
-function initState(){
-  Object.keys(CONCEPTS).forEach(k=>{
-    regState[k] = {};
-    trackState[k] = STATUS.indexOf(CONCEPTS[k].start);
-  });
-}
-initState();
-
-// ── Validator: loči realno sled od parafraze ─────────────────────────────
-function isRealTrace(text){
-  if(!text || !text.trim()) return false;
-  const t = text.trim();
-  // resnična sled citira vir / povezavo / opaznico; parafraza je samo opis
-  const real = /(frag_|\.md\b|library\/|definitions\/|graph\.json|-->|→|ref:|src_ref|opaznic|log|zabele[\u0161]?en|zapis)/i;
-  return real.test(t);
-}
-
-// ── SVG pomočniki ────────────────────────────────────────────────────────
-const svg = document.getElementById('sky');
-const NS = 'http://www.w3.org/2000/svg';
-function el(tag, attrs){
-  const e = document.createElementNS(NS, tag);
-  for(const k in attrs) e.setAttribute(k, attrs[k]);
-  return e;
-}
-function log(msg, cls){
-  const d = document.createElement('div');
-  d.className = cls||'';
-  d.textContent = msg;
-  document.getElementById('log').prepend(d);
-  while(document.getElementById('log').children.length > 8)
-    document.getElementById('log').lastChild.remove();
-}
-function hud(){
-  const pos = Object.values(CONCEPTS).filter(c=>c.pos && c.pos!=='nez').length;
-  const canon = Object.keys(CONCEPTS).filter(k=>trackState[k]===4).length;
-  document.getElementById('hud-prog').textContent =
-    `odkrito ${Object.keys(CONCEPTS).length} · pozicionirano ${pos} · kanon ${canon}`;
-}
-
-// ── Render: prah, obroč, jedro, registri, steza ──────────────────────────
-const CX=600, CY=400, RING_R=250, HALO_R=120;
-function renderSky(){
-  const dust = document.getElementById('dust');
-  dust.innerHTML='';
-  for(let i=0;i<240;i++){
-    const x=Math.random()*1200, y=Math.random()*800, r=Math.random()*1.3+0.3;
-    dust.appendChild(el('circle',{cx:x,cy:y,r:r,fill:'#2a3530',opacity:Math.random()*0.5+0.1}));
-  }
-  renderRing();
-  renderPicker();
-  renderConcept();
-  hud();
-}
-function renderRing(){
-  const g = document.getElementById('ring');
-  g.innerHTML='';
-  const r = el('circle',{cx:CX,cy:CY,r:RING_R,fill:'none',stroke:'#3a4a3a','stroke-width':1,'stroke-dasharray':'2 8'});
-  g.appendChild(r);
-  OPERATORS.forEach((op,i)=>{
-    const a = (i/OPERATORS.length)*Math.PI*2 - Math.PI/2;
-    const x = CX + Math.cos(a)*RING_R, y = CY + Math.sin(a)*RING_R;
-    g.appendChild(el('circle',{cx:x,cy:y,r:5,fill:op.col,opacity:0.9}));
-    const t = el('text',{x:x,y:y-12,'text-anchor':'middle',fill:op.col,'font-size':13,'font-weight':700});
-    t.textContent = op.sym;
-    g.appendChild(t);
-  });
-}
-function renderConcept(){
-  const core = document.getElementById('core');
-  core.innerHTML='';
-  const c = CONCEPTS[cur];
-  core.appendChild(el('circle',{cx:CX,cy:CY,r:70,fill:'url(#coreg)'}));
-  const star = el('circle',{cx:CX,cy:CY,r:14,fill:'#e8c86a',filter:'url(#glow)',class:'star'});
-  star.addEventListener('click',()=>openTrack());
-  core.appendChild(star);
-  const t = el('text',{x:CX,y:CY-22,'text-anchor':'middle',fill:'#f0e6c0','font-size':16,'font-weight':700});
-  t.textContent = cur;
-  core.appendChild(t);
-  const p = el('text',{x:CX,y:CY+30,'text-anchor':'middle',fill:'#e8c86a','font-size':10});
-  p.textContent = c.pos + ' · ' + STATUS[trackState[cur]];
-  core.appendChild(p);
-  renderRegisters();
-  renderTrack();
-}
-function renderRegisters(){
-  const g = document.getElementById('registers');
-  g.innerHTML='';
-  const filled = regState[cur]||{};
-  REGS.forEach((rg,i)=>{
-    const a = (i/REGS.length)*Math.PI*2 - Math.PI/2;
-    const x = CX + Math.cos(a)*HALO_R, y = CY + Math.sin(a)*HALO_R;
-    const isF = !!filled[rg[0]];
-    const grp = el('g',{class:'reg'});
-    grp.appendChild(el('circle',{cx:x,cy:y,r:isF?9:7,fill:isF?REG_COLORS[i]:'#1a241a',
-      stroke:isF?'#e8c86a':'#3a4a3a','stroke-width':isF?2:1,
-      'data-reg':rg[0]}));
-    const lb = el('text',{x:x,y:y+22,'text-anchor':'middle',fill:isF?'#e8c86a':'#8a9a8a','font-size':8,
-      class:'reg-label'});
-    lb.textContent = rg[0];
-    grp.appendChild(lb);
-    grp.addEventListener('click',()=>openSheet(rg[0]));
-    g.appendChild(grp);
-  });
-}
-function renderTrack(){
-  const g = document.getElementById('track');
-  g.innerHTML='';
-  const idx = trackState[cur];
-  const x0 = CX - 130, x1 = CX + 130, y = CY + 70;
-  g.appendChild(el('line',{x1:x0,y1:y,x2:x1,y2:y,stroke:'#3a4a3a','stroke-width':2}));
-  STATUS.forEach((s,i)=>{
-    const x = x0 + (x1-x0)*(i/(STATUS.length-1));
-    const done = i<=idx;
-    g.appendChild(el('circle',{cx:x,cy:y,r:5,fill:done?'#7ae0b0':'#1a241a',stroke:done?'#7ae0b0':'#3a4a3a'}));
-    const t = el('text',{x:x,y:y+16,'text-anchor':'middle',fill:done?'#7ae0b0':'#6a7a6a','font-size':8,class:'track-label'});
-    t.textContent = s;
-    g.appendChild(t);
-  });
-}
-function renderPicker(){
-  const pick = document.getElementById('picker');
-  // remove old dots except leading label
-  pick.querySelectorAll('.pdot').forEach(d=>d.remove());
-  Object.keys(CONCEPTS).forEach(k=>{
-    const d = document.createElement('div');
-    d.className = 'pdot'+(k===cur?' active':'');
-    d.style.background = CONCEPTS[k].pos.startsWith('⊘')?'#8fbfe0':CONCEPTS[k].pos.startsWith('EN')?'#e8c86a':'#7ae0b0';
-    d.title = k;
-    d.addEventListener('click',()=>{ cur=k; renderConcept(); });
-    pick.appendChild(d);
-  });
-}
-
-// ── Interakcija: register (gumb na platnu) ───────────────────────────────
-let _sheetReg = null;
-const veil = document.getElementById('veil');
-const sheet = document.getElementById('sheet');
-function openSheet(reg){
-  _sheetReg = reg;
-  const c = CONCEPTS[cur];
-  const meta = c.registers[reg];
-  document.getElementById('sh-title').textContent = `register · ${reg}`;
-  document.getElementById('sh-need').textContent = `zahteva: ${meta.need}`;
-  document.getElementById('sh-src').innerHTML =
-    `<b>vir za realno sled:</b> ${meta.src}` + (regState[cur][reg] ? ' <span style="color:#7ae0a0">✓ zapolnjeno</span>' : '');
-  document.getElementById('sh-text').style.display='block';
-  document.getElementById('sh-text').value = '';
-  document.getElementById('sh-msg').textContent = '';
-  document.getElementById('sh-ok').textContent = 'IZVEDI';
-  document.getElementById('sh-ok').classList.remove('danger');
-  document.getElementById('sh-ok').onclick = submitRegister;
-  document.getElementById('sh-cancel').style.display='inline-block';
-  veil.style.display='block'; sheet.style.display='block';
-  document.getElementById('sh-text').focus();
-}
+let focus=null;
+let regState={}, trackState={};
+Object.keys(CONCEPTS).forEach(k=>{ regState[k]={}; trackState[k]=STATUS.indexOf(CONCEPTS[k].start); });
+function hash(s){ let h=0; for(let i=0;i<s.length;i++){ h=(h*31+s.charCodeAt(i))>>>0; } return h; }
+function isRealTrace(t){ if(!t||!t.trim())return false; const s=t.trim(); return /frag_|\.md\b|library\/|definitions\/|graph\.json|--carries|--traces|-->|→|ref:|src_ref|opaznic|zapis|zabele/i.test(s); }
+const svg=document.getElementById('sky');
+const NS='http://www.w3.org/2000/svg';
+function el(tag,attrs){ const e=document.createElementNS(NS,tag); for(const k in attrs) e.setAttribute(k,attrs[k]); return e; }
+function log(msg,cls){ const d=document.createElement('div'); d.className=cls||''; d.textContent=msg; document.getElementById('log').prepend(d); while(document.getElementById('log').children.length>8) document.getElementById('log').lastChild.remove(); }
+function hud(){ const canon=Object.keys(CONCEPTS).filter(k=>trackState[k]===4).length; const pos=Object.keys(CONCEPTS).filter(k=>CONCEPTS[k].cluster).length; document.getElementById('hud-prog').textContent='zvezd '+Object.keys(CONCEPTS).length+' · pozicionirano '+pos+' · kanon '+canon; }
+const CX=600, CY=400, RING_R=300;
+const anchorPos={};
+OPERATORS.forEach((op,i)=>{ const a=i/OPERATORS.length*Math.PI*2-Math.PI/2; anchorPos[op.sym]={x:CX+Math.cos(a)*RING_R,y:CY+Math.sin(a)*RING_R}; });
+const starPos={};
+Object.keys(CONCEPTS).forEach(k=>{ const c=CONCEPTS[k]; const h=hash(k); if(c.cluster&&anchorPos[c.cluster]){ const an=anchorPos[c.cluster]; const a=h*0.000001*Math.PI*2; const dist=70+(h%5)*22; starPos[k]={x:an.x+Math.cos(a)*dist,y:an.y+Math.sin(a)*dist,cluster:c.cluster,dim:false}; } else { starPos[k]={x:100+h%1000,y:80+h%600,cluster:null,dim:true}; } });
+function renderSky(){ renderSpine(); renderAnchors(); renderDust(); renderStars(); renderFocus(); hud(); }
+function renderSpine(){ const g=document.getElementById('spine'); g.innerHTML=''; const pts=OPERATORS.map(o=>anchorPos[o.sym]); g.appendChild(el('path',{d:'M'+pts.map(p=>p.x+','+p.y).join(' L ')+' Z',fill:'none',stroke:'#2a3a2a','stroke-width':1,'stroke-dasharray':'2 8'})); }
+function renderAnchors(){ const g=document.getElementById('anchors'); g.innerHTML=''; OPERATORS.forEach(op=>{ const p=anchorPos[op.sym]; const canon=Object.keys(CONCEPTS).filter(k=>CONCEPTS[k].cluster===op.sym&&trackState[k]===4).length; const active=canon>0; g.appendChild(el('circle',{cx:p.x,cy:p.y,r:active?9:6,fill:op.col,opacity:active?1:0.55,filter:active?'url(#glow)':''})); const t=el('text',{x:p.x,y:p.y-14,'text-anchor':'middle',fill:op.col,'font-size':13,'font-weight':700}); t.textContent=op.sym; g.appendChild(t); const lb=el('text',{x:p.x,y:p.y+18,'text-anchor':'middle',fill:active?op.col:'#5a6a5a','font-size':8}); lb.textContent=op.sym+' · '+canon; g.appendChild(lb); }); }
+function renderDust(){ const g=document.getElementById('dust'); g.innerHTML=''; for(let i=0;i<180;i++){ g.appendChild(el('circle',{cx:Math.random()*1200,cy:Math.random()*800,r:Math.random()*1.3+0.3,fill:'#2a3530',opacity:Math.random()*0.5+0.1})); } Object.keys(CONCEPTS).forEach(k=>{ if(CONCEPTS[k].cluster)return; const p=starPos[k]; g.appendChild(el('circle',{cx:p.x,cy:p.y,r:2,fill:'#3a4440',opacity:0.7})); }); }
+function renderStars(){ const g=document.getElementById('stars'); g.innerHTML=''; Object.keys(CONCEPTS).forEach(k=>{ const c=CONCEPTS[k],p=starPos[k]; const isF=focus===k; const col=p.cluster?OPERATORS.find(o=>o.sym===p.cluster).col:'#4a5550'; const r=isF?13:(p.dim?3:(trackState[k]===4?11:6+(trackState[k]||0))); const grp=el('g',{class:'star'}); grp.appendChild(el('circle',{cx:p.x,cy:p.y,r:r,fill:p.dim?'#3a4440':col,stroke:isF?'#e8c86a':'none','stroke-width':isF?2.5:0,opacity:p.dim?0.7:1,filter:isF||trackState[k]===4?'url(#glow)':''})); if(!p.dim||isF){ const t=el('text',{x:p.x,y:p.y-14,'text-anchor':'middle',fill:isF?'#e8c86a':'#9fb89f','font-size':isF?11:9}); t.textContent=k; grp.appendChild(t); } grp.addEventListener('click',()=>{ focus=k; renderStars(); renderFocus(); }); g.appendChild(grp); }); }
+function renderFocus(){ const reg=document.getElementById('registers'),tr=document.getElementById('track'); reg.innerHTML=''; tr.innerHTML=''; if(!focus)return; const k=focus,p=starPos[k],filled=regState[k]||{}; REGS.forEach((rg,i)=>{ const a=i/REGS.length*Math.PI*2-Math.PI/2; const x=p.x+Math.cos(a)*62,y=p.y+Math.sin(a)*62; const isF=!!filled[rg[0]]; const grp=el('g',{class:'reg'}); grp.appendChild(el('circle',{cx:x,cy:y,r:isF?8:6,fill:isF?REG_COLORS[i]:'#1a241a',stroke:isF?'#e8c86a':'#3a4a3a','stroke-width':isF?2:1})); const lb=el('text',{x:x,y:y+20,'text-anchor':'middle','font-size':isF?8:7}); lb.textContent=rg[0]; grp.appendChild(lb); grp.addEventListener('click',()=>openSheet(k,rg[0])); reg.appendChild(grp); }); const idx=trackState[k],x0=p.x-90,x1=p.x+90,y=Math.min(p.y+78,760); tr.appendChild(el('line',{x1:x0,y1:y,x2:x1,y2:y,stroke:'#3a4a3a','stroke-width':2})); STATUS.forEach((s,i)=>{ const x=x0+(x1-x0)*(i/(STATUS.length-1)); const done=i<=idx; tr.appendChild(el('circle',{cx:x,cy:y,r:4,fill:done?'#7ae0b0':'#1a241a',stroke:done?'#7ae0b0':'#3a4a3a'})); const t=el('text',{x:x,y:y+15,'text-anchor':'middle',fill:done?'#7ae0b0':'#6a7a6a','font-size':7}); t.textContent=s; tr.appendChild(t); }); }
+const veil=document.getElementById('veil'),sheet=document.getElementById('sheet');
+let _f=null,_r=null;
+function openSheet(f,r){ _f=f;_r=r; const c=CONCEPTS[f],meta=c.registers[r]; document.getElementById('sh-title').textContent='register · '+r+'  («'+f+'») '; document.getElementById('sh-need').textContent='zahteva: '+meta.need; document.getElementById('sh-src').innerHTML='<b>vir za realno sled:</b> '+meta.src+(regState[f][r]?' <span style="color:#7ae0a0">✓ zapolnjeno</span>':''); document.getElementById('sh-text').style.display='block'; document.getElementById('sh-text').value=''; document.getElementById('sh-msg').textContent=''; document.getElementById('sh-ok').textContent='IZVEDI'; document.getElementById('sh-ok').classList.remove('danger','gold'); document.getElementById('sh-ok').classList.add('gold'); document.getElementById('sh-ok').onclick=submitRegister; document.getElementById('sh-cancel').style.display='inline-block'; veil.style.display='block'; sheet.style.display='block'; document.getElementById('sh-text').focus(); }
 function closeSheet(){ veil.style.display='none'; sheet.style.display='none'; }
-function submitRegister(){
-  const ta = document.getElementById('sh-text');
-  const val = ta.value;
-  const msg = document.getElementById('sh-msg');
-  if(!val.trim()){
-    msg.textContent = '⚠ Zabeleži sled ali navedi vir.';
-    msg.className='msg rej'; return;
-  }
-  if(!isRealTrace(val)){
-    msg.innerHTML = '⚠ <b>Ni realna sled — to je parafraza.</b> Za vsak register mora obstajati <i>zabeležen</i> vir (datoteka, povezava, opaznica), ne samo opis. Vrni se k viru in citiraj.';
-    msg.className='msg rej';
-    log(`reject ${cur}/${_sheetReg}: parafraza`, 'rej');
-    return;
-  }
-  if(regState[cur][_sheetReg]){
-    msg.innerHTML = '✓ Ta sled je že zabeležena. Lahko jo zamenjaš z boljšo.';
-    msg.className='msg ok';
-  }
-  regState[cur][_sheetReg] = true;
-  msg.innerHTML = '✓ <b>Realna sled zabeležena.</b> Register je zapolnjen.';
-  msg.className='msg ok';
-  log(`${cur} · ${_sheetReg}: sled ✓`, 'ok');
-  renderRegisters();
-  advanceTrack();
-  closeSheet();
-}
-function advanceTrack(){
-  const filled = Object.values(regState[cur]).filter(Boolean).length;
-  // 1 register → candidate; 4 → tested; 7 → operative (canon se zapečati ročno)
-  const idx = filled>=7 ? 3 : filled>=4 ? 2 : filled>=1 ? 1 : 0;
-  if(idx>trackState[cur]) trackState[cur]=idx;
-  renderTrack();
-  renderConceptMaybe();
-  hud();
-}
-function renderConceptMaybe(){ renderConcept(); }
-
-// ── Kanonizacija: gate + preserva nevarnosti ─────────────────────────────
-function openTrack(){
-  const filled = Object.values(regState[cur]).filter(Boolean).length;
-  const c = CONCEPTS[cur];
-  if(filled<7){
-    document.getElementById('sh-title').textContent = `Kanonizacija · ${cur}`;
-    document.getElementById('sh-need').textContent = `Vseh 7 registrov mora imeti realno sled (imaš ${filled}/7).`;
-    document.getElementById('sh-src').innerHTML='';
-    document.getElementById('sh-text').style.display='none';
-    document.getElementById('sh-msg').textContent = 'Zapolni vse registre, preden poskusiš zapečatiti.';
-    document.getElementById('sh-msg').className='msg info';
-    document.getElementById('sh-ok').textContent='Zapri';
-    document.getElementById('sh-ok').classList.add('danger');
-    document.getElementById('sh-ok').onclick = closeSheet;
-    veil.style.display='block'; sheet.style.display='block';
-    return;
-  }
-  // gate: preserva nevarnosti (specc1 §10)
-  document.getElementById('sh-title').textContent = `Gate · kanonizacija ${cur}`;
-  document.getElementById('sh-need').textContent = `Nevarnost: ${c.danger}`;
-  document.getElementById('sh-src').innerHTML =
-    `Vseh 7 sledi je zabeleženih. Ali ta koncept obdrži <b>povratno pot</b> (revizija ostane odprta)?`;
-  document.getElementById('sh-text').style.display='none';
-  document.getElementById('sh-msg').textContent='';
-  document.getElementById('sh-ok').textContent='✓ Ohrani revizijo — zapečati';
-  document.getElementById('sh-ok').classList.remove('danger');
-  document.getElementById('sh-cancel').style.display='inline-block';
-  document.getElementById('sh-ok').onclick = ()=>{
-    trackState[cur]=4;
-    log(`${cur} → KANON ⭐`, 'ok');
-    renderConcept(); hud();
-    closeSheet();
-  };
-  veil.style.display='block'; sheet.style.display='block';
-}
-
-document.getElementById('sh-cancel').addEventListener('click', closeSheet);
-veil.addEventListener('click', closeSheet);
-
-// ── Kickoff ──────────────────────────────────────────────────────────────
+function submitRegister(){ const val=document.getElementById('sh-text').value,msg=document.getElementById('sh-msg'); if(!val.trim()){ msg.className='msg rej'; msg.textContent='⚠ Zabeleži sled ali navedi vir.'; return; } if(!isRealTrace(val)){ msg.className='msg rej'; msg.innerHTML='⚠ <b>Ni realna sled — to je parafraza.</b> Za vsak register mora obstajati <i>zabeležen</i> vir (datoteka, povezava, opaznica), ne samo opis. Vrni se k viru in citiraj.'; log('reject '+_f+'/'+_r+': parafraza','rej'); return; } regState[_f][_r]=true; msg.className='msg ok'; msg.innerHTML='✓ <b>Realna sled zabeležena.</b> Register je zapolnjen.'; log(_f+' · '+_r+': sled ✓','ok'); advanceTrack(); renderFocus(); closeSheet(); }
+function advanceTrack(){ const filled=Object.values(regState[_f]).filter(Boolean).length; const idx=filled>=7?3:filled>=4?2:filled>=1?1:0; if(idx>trackState[_f]) trackState[_f]=idx; renderAnchors(); renderStars(); hud(); }
+function trySeal(){ const k=focus; if(!k)return; const filled=Object.values(regState[k]).filter(Boolean).length,c=CONCEPTS[k]; document.getElementById('sh-text').style.display='none'; document.getElementById('sh-cancel').style.display='inline-block'; if(trackState[k]===4){ document.getElementById('sh-title').textContent='«'+k+'» · KANON ⭐'; document.getElementById('sh-need').textContent='Že zapečaten. Veriga '+c.cluster+' je osvetljena.'; document.getElementById('sh-src').innerHTML=''; document.getElementById('sh-msg').className='msg gold'; document.getElementById('sh-msg').textContent='Kanoniziran koncept.'; document.getElementById('sh-ok').textContent='Zapri'; document.getElementById('sh-ok').classList.add('danger'); document.getElementById('sh-ok').onclick=closeSheet; veil.style.display='block'; sheet.style.display='block'; return; } if(filled<7){ document.getElementById('sh-title').textContent='Kanonizacija · «'+k+'»'; document.getElementById('sh-need').textContent='Vseh 7 registrov mora imeti realno sled (imaš '+filled+'/7).'; document.getElementById('sh-src').innerHTML=''; document.getElementById('sh-msg').className='msg info'; document.getElementById('sh-msg').textContent='Zapolni vse registre, preden poskusiš zapečatiti.'; document.getElementById('sh-ok').textContent='Zapri'; document.getElementById('sh-ok').classList.add('danger'); document.getElementById('sh-ok').onclick=closeSheet; veil.style.display='block'; sheet.style.display='block'; return; } document.getElementById('sh-title').textContent='Gate · kanonizacija «'+k+'»'; document.getElementById('sh-need').textContent='Nevarnost: '+c.danger; document.getElementById('sh-src').innerHTML='Vseh 7 sledi je zabeleženih. Ali ta koncept obdrži <b>povratno pot</b> (revizija ostane odprta)?'; document.getElementById('sh-msg').textContent=''; document.getElementById('sh-msg').className=''; document.getElementById('sh-ok').textContent='✓ Ohrani revizijo — zapečati'; document.getElementById('sh-ok').classList.remove('danger','gold'); document.getElementById('sh-ok').onclick=function(){ trackState[k]=4; log('«'+k+'» → KANON ⭐','gold'); renderAnchors(); renderStars(); renderFocus(); hud(); closeSheet(); }; veil.style.display='block'; sheet.style.display='block'; }
+const sky=document.getElementById('sky');
+sky.addEventListener('dblclick',function(e){ var t=e.target.closest?e.target.closest('.star'):null; if(t) trySeal(); });
+sky.addEventListener('click',function(e){ if(!(e.target.closest&&e.target.closest('.star,.reg'))){ focus=null; renderStars(); renderFocus(); } });
+document.getElementById('sh-cancel').addEventListener('click',closeSheet);
+veil.addEventListener('click',closeSheet);
 renderSky();
 </script>
 </body>
