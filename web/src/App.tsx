@@ -45,6 +45,7 @@ export function App() {
           onRenameIncoming={(id, title) => runAction(() => workbenchApi.updateIncomingText(id, { title }))}
           onUpdateFragment={(id, input) => runAction(() => workbenchApi.updateFragment(id, input))}
           onAddConcept={(label) => runAction(() => workbenchApi.addConcept({ label }))}
+          onSuggest={(text) => workbenchApi.suggestFragment(text)}
         />
       </main>
     </div>

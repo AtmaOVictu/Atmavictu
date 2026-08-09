@@ -28,9 +28,16 @@ import {
   writeManifestToFile,
 } from "./workbenchManifestRepository.js";
 
+import {
+  buildSuggestionPrompt,
+  parseSuggestionResponse,
+  SUGGESTION_MODEL,
+} from "./workbenchSuggestions.js";
+
 const IGNORED_ROOT_ENTRIES = new Set(["book.workbench.json", "node_modules", ".git"]);
 const DELO_ARTIFACT_MARKER = "<!-- delo-artifact:v1";
 const DELO_ARTIFACT_MARKER_END = "-->";
+const DEFAULT_OLLAMA_URL = "http://localhost:11434";
 
 export interface WorkbenchApiOptions {
   /**
@@ -40,11 +47,19 @@ export interface WorkbenchApiOptions {
    * is just an arbitrary extra folder a caller may point at anything.
    */
   extraLibraryRoot?: string;
+  /**
+   * Base URL of an Ollama instance used for the optional LLM-assisted
+   * fragment title/concept suggestions. Defaults to the local Ollama. When
+   * unreachable, the suggestions endpoint degrades gracefully (never blocks
+   * the workbench).
+   */
+  ollamaUrl?: string;
 }
 
 export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApiOptions = {}): Express {
   const normalizedProjectRoot = requireNonEmptyString("projectRoot", projectRoot);
   const extraLibraryRoot = options.extraLibraryRoot?.trim() || undefined;
+  const ollamaUrl = options.ollamaUrl?.trim() || DEFAULT_OLLAMA_URL;
   const app = express();
   app.use(express.json());
 
@@ -278,6 +293,22 @@ app.post(
     });
   }));
 
+app.post("/api/suggestions", asyncRoute(async (req, res) => {
+    const text = (req.body as Record<string, unknown> | undefined)?.text;
+    if (typeof text !== "string" || text.trim().length === 0) {
+      res.status(400).json({ ok: false, error: "text is a required non-empty string." });
+      return;
+    }
+    try {
+      const suggestions = await requestOllamaSuggestions(ollamaUrl, text);
+      res.json({ ok: true, ...suggestions });
+    } catch {
+      // Degrade gracefully: never block the workbench on an unreachable model.
+      res.status(502).json({ ok: false, error: "suggestion service is unavailable." });
+    }
+  }));
+
+  app.use(errorHandler);
   app.use(errorHandler);
   app.use(errorHandler);
 
@@ -345,6 +376,34 @@ async function listProjectFiles(projectRoot: string): Promise<string[]> {
 
   await walk(".");
   return results.sort();
+}
+
+async function requestOllamaSuggestions(
+  ollamaUrl: string,
+  text: string,
+): Promise<{ title?: string; concepts: string[] }> {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 15000);
+  try {
+    const response = await fetch(`${ollamaUrl.replace(/\/$/, "")}/api/generate`, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        model: SUGGESTION_MODEL,
+        prompt: buildSuggestionPrompt(text),
+        stream: false,
+        options: { temperature: 0.3 },
+      }),
+      signal: controller.signal,
+    });
+    if (!response.ok) {
+      throw new Error(`Ollama responded ${response.status}`);
+    }
+    const data = (await response.json()) as { response?: string };
+    return parseSuggestionResponse(data.response ?? "");
+  } finally {
+    clearTimeout(timeout);
+  }
 }
 
 function requireBodyString(name: string, value: unknown): string {

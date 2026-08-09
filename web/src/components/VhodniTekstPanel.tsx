@@ -21,6 +21,7 @@ interface Props {
   onRenameIncoming: (id: string, title: string) => Promise<void>;
   onUpdateFragment: (id: string, input: { title?: string | null; text?: string; note?: string | null; conceptIds?: string[] | null }) => Promise<void>;
   onAddConcept: (label: string) => Promise<void>;
+  onSuggest: (text: string) => Promise<{ ok: boolean; title?: string; concepts: string[] }>;
 }
 
 export function VhodniTekstPanel({
@@ -36,6 +37,7 @@ export function VhodniTekstPanel({
   onRenameIncoming,
   onUpdateFragment,
   onAddConcept,
+  onSuggest,
 }: Props) {
   return (
     <section className="pane">
@@ -56,6 +58,7 @@ export function VhodniTekstPanel({
             onArchiveFragment={onArchiveFragment}
             onRenameIncoming={onRenameIncoming}
             onUpdateFragment={onUpdateFragment}
+            onSuggest={onSuggest}
           />
         ))}
       </ul>
@@ -147,6 +150,7 @@ function IncomingTextRow({
   onArchiveFragment,
   onRenameIncoming,
   onUpdateFragment,
+  onSuggest,
 }: {
   incomingText: IncomingText;
   fragments: Fragment[];
@@ -249,6 +253,7 @@ function IncomingTextRow({
               concepts={concepts}
               onArchiveFragment={onArchiveFragment}
               onUpdateFragment={onUpdateFragment}
+              onSuggest={onSuggest}
             />
           ))}
         </ul>
@@ -262,13 +267,16 @@ function FragmentRow({
   concepts,
   onArchiveFragment,
   onUpdateFragment,
+  onSuggest,
 }: {
   fragment: Fragment;
   concepts: ConceptWithCount[];
   onArchiveFragment: (id: string) => Promise<void>;
   onUpdateFragment: (id: string, input: { title?: string | null; text?: string; note?: string | null; conceptIds?: string[] | null }) => Promise<void>;
+  onSuggest: (text: string) => Promise<{ ok: boolean; title?: string; concepts: string[] }>;
 }) {
   const [editing, setEditing] = useState(false);
+  const [suggesting, setSuggesting] = useState(false);
   const [titleValue, setTitleValue] = useState(fragment.title ?? "");
   const [textValue, setTextValue] = useState(fragment.text);
   const [selectedConceptIds, setSelectedConceptIds] = useState<string[]>(fragment.conceptIds ?? []);
@@ -277,6 +285,28 @@ function FragmentRow({
     setSelectedConceptIds((previous) =>
       previous.includes(conceptId) ? previous.filter((id) => id !== conceptId) : [...previous, conceptId],
     );
+  }
+
+  async function suggest() {
+    if (textValue.trim().length === 0) {
+      return;
+    }
+    setSuggesting(true);
+    try {
+      const result = await onSuggest(textValue);
+      if (result.ok && result.title) {
+        setTitleValue(result.title);
+      }
+      if (result.ok && result.concepts.length > 0) {
+        const knownIds = new Set(concepts.map((concept) => concept.id));
+        setSelectedConceptIds((previous) => [
+          ...previous,
+          ...result.concepts.map((label) => concepts.find((c) => c.label === label)?.id).filter((id): id is string => id !== undefined && !previous.includes(id) && knownIds.has(id)),
+        ]);
+      }
+    } finally {
+      setSuggesting(false);
+    }
   }
 
   function submitEdit() {
@@ -336,6 +366,9 @@ function FragmentRow({
             </div>
           )}
           <div className="actions">
+            <button type="button" onClick={suggest} disabled={suggesting || textValue.trim().length === 0}>
+              {suggesting ? "Predlagam..." : "Predlagaj"}
+            </button>
             <button type="button" onClick={submitEdit} disabled={textValue.trim().length === 0}>
               Shrani obnovo
             </button>

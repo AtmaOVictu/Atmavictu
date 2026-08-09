@@ -455,6 +455,35 @@ Analiticni pogledi, ki izracunajo medsebojne povezave med entitetami:
 
 Te operacije so read-only; ne spreminjajo manifesta.
 
+## suggestFragment(text)
+
+### Namen
+
+Opcijska LLM-naslovana pomoc: iz danega odlomka predlaga `title` (naslov) in `concepts` (koncepte). Rezultat je predlog — nikoli se samodejno ne zapise v manifest; uporabnik ga potrdi v UI. To je "medsebojna komputacija" med LLM in WorkbenchManifestom.
+
+### Input
+
+- `text: string` (obvezen, ne-prazen)
+
+### Output
+
+- `{ ok: true, title?, concepts: string[] }` — `title` je opcijski, `concepts` je seznam (max 5).
+
+### Spremeni entitete
+
+- nobene; operacija je read-only (predlog se ne zapise)
+
+### Failure cases
+
+- `text` je prazen → 400
+- model/dostop ni dosegljiv → 502 (gracilni degradacija, workbench se nikoli ne blokira)
+
+### Minimalni proof / acceptance check
+
+- veljaven tekst vrne `{ ok: true, ... }`
+- nedosegljiv model vrne `{ ok: false, error }` z 502, ne napake serverja
+
+## validateManifest(manifest)
 ## validateManifest(manifest)
 ## validateManifest(manifest)
 ## validateManifest(manifest)

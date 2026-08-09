@@ -316,6 +316,29 @@ test("concepts and analysis endpoints: create concept, tag fragment, read analys
   }
 });
 
+test("suggestions endpoint validates input and degrades gracefully when the model is unreachable", async () => {
+  const projectRoot = await createTempDirectory();
+  // A closed port forces the Ollama fetch to fail fast without network deps.
+  const server = startWorkbenchApiServer(projectRoot, 0, { ollamaUrl: "http://127.0.0.1:1" });
+  const baseUrl = await waitForBaseUrl(server);
+
+  try {
+    // missing/blank text -> 400
+    const empty = await postJson<{ ok: boolean; error: string }>(`${baseUrl}/api/suggestions`, { text: "   " });
+    assert.equal(empty.status, 400);
+
+    // valid text but unreachable model -> graceful 502, no throw
+    const degraded = await postJson<{ ok: boolean; error: string }>(`${baseUrl}/api/suggestions`, {
+      text: "Odlomek o bistvu.",
+    });
+    assert.equal(degraded.status, 502);
+    assert.equal(degraded.body.ok, false);
+  } finally {
+    server.close();
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
 async function getJson<T>(url: string): Promise<T> {
   const response = await fetch(url);
   return (await response.json()) as T;

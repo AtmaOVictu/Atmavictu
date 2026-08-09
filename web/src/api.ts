@@ -101,4 +101,10 @@ export const workbenchApi = {
   getAnalysisSource: () => request<SourceAnalysis[]>("/api/analysis/source"),
 
   getOverview: () => request<Overview>("/api/overview"),
+
+  suggestFragment: (text: string) =>
+    request<{ ok: boolean; title?: string; concepts: string[] }>("/api/suggestions", {
+      method: "POST",
+      body: JSON.stringify({ text }),
+    }),
 };
