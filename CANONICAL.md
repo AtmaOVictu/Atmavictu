@@ -1,6 +1,7 @@
 # CANONICAL DECLARATION
 
 > This file is the source-of-truth marker for this repository's role in the ONTOMATEMATIKA system.
+> Declared: 2026-09-11 — from Orientation Cycle Canvas v0.1
 
 ## Role
 
@@ -24,6 +25,7 @@ This repo implements that spec. If the spec and code diverge, the spec is canoni
 ## Verification
 
 All sealed decisions are recorded in the Notion DOKAZ database (⊢ DOKAZ — Proof-of-Lineage Ledger).
+See also: Notion Source-of-Truth Map page for the full platform role declaration.
 
 ---
 Declared: 2026-09-11
