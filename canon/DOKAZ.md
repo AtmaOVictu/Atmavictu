@@ -33,3 +33,4 @@
 - Ledger format: append-only table, append-only history. Each entry cites a commit hash or PR — the git history is the cryptographic-grade evidence; this file is the human-readable index.
 - To seal a new decision: open a PR adding a row to Entries. The merge commit completes the seal.
 - Migrated from: Notion DOKAZ database (declared 2026-09-11). Historical Notion entries #1–#3 are transcribed above; the Notion database is no longer updated.
+| 13 | 2026-09-30 | Kamni CXIX–CXXI sealed (McGee 24, Tutte–Coxeter 30, Monster 8×10⁵³): grafika series of five stones complete, same cut (∅→∆) confirmed across five dimensions. Corpus now renders on the site: /kamni and /stotnije pages consume canon markdown directly | `canon/kamni/CXVII-CXVIII.md` (commits `1c45db5`, `bf5a083`); ontolo-ko-jedro commit `7527513` | ⊢ |
