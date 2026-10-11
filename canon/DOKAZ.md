@@ -16,13 +16,15 @@
 | 6 | 2026-09-30 | Canonicality rule sealed: if a skill and `canon/` diverge, **`canon/` is canonical**. Sealed entries are immutable; revisions create new entries ("pravila naj bodo revizibilna, izjema naj ima pečat") | `canon/README.md`; commit `530f6b7` | ⊢ |
 | 7 | 2026-09-30 | Pojmovnik concept lexicon canonized as structured data: `canon/pojmovnik.json` (10 concepts: Ne, Gib, Etika, Zavedanje, Čas, Jaz, Ego, Odnos, Telo, Dvom). ontolo-ko-jedro UI consumes corpus at runtime; hardcoded concept arrays removed | Atmavictu commit `a53ec00`; ontolo-ko-jedro commit `19eafe3` | ⊢ |
 | 8 | 2026-09-30 | DOKAZ ledger migrated from Notion to git: this file (`canon/DOKAZ.md`) is the canonical Proof-of-Lineage Ledger. Notion is demoted to scratch space; nothing is canonical until recorded here or in a commit | this file; this commit | ⊢ |
+| 9 | 2026-09-30 | Atmavictu_Oracle **archived** by owner (Luka Pintarič). Evidence: repository empty since declaration, zero commits, no role fulfilled; archived status verified via API | `isArchived: true` (GitHub API, verified 2026-09-30) | ⊢ |
+| 10 | 2026-09-30 | Divine-Ascension-System **archived** by owner (Luka Pintarič), completing DOKAZ #2 (declared SUPERSEDED 2026-09-11, inactive since 2025-07) | `isArchived: true` (GitHub API, verified 2026-09-30) | ⊢ |
 
 ## Pending decisions
 
 | Question | Opened | Status |
 |---|---|---|
-| Atmavictu_Oracle: seed with a real purpose, or archive? | 2026-09-30 | OPEN — repository is empty |
-| Archive Divine-Ascension-System (superseded, DOKAZ #2)? | 2026-09-30 | OPEN — awaiting owner action (metadata outside agent scope) |
+| Atmavictu_Oracle: seed with a real purpose, or archive? | 2026-09-30 | SEALED — archived, DOKAZ #9 |
+| Archive Divine-Ascension-System (superseded, DOKAZ #2)? | 2026-09-30 | SEALED — archived, DOKAZ #10 |
 
 ## Provenance
 
