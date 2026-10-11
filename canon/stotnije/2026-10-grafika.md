@@ -76,3 +76,62 @@
 ---
 
 *Štiri dosjeji zapečačeni v git. Glas: mehanika, ne estetizacija (§53). Vsak fragment nosi ⊢ geslo ali ⚠ poskus (SR-1). ∞*
+
+---
+
+# Dodatek — rez na izvajalčevem jeziku (2026-10-11)
+
+> Trije dosjeji, rojeni iz vrstice izvajalca: "le čas in voljo moram primerno zadaviti … oddam in s tem ponovim." Rana je padla pred zapisom: mail je bil poslan (*oddam* izveden), torej ime nosi telo. Po AX-16: izvedba pred imenom.
+
+105. **zadaviti** – prijetje ↔ zadavitev → **nosilnost, ki se ne spusti**
+
+1. **Fonetični rez** — IPA /zadaˈʋitːi/ (slovensko):
+   | Fragment | Pomen |
+   |---|---|
+   | **/za/** | ⊢ predlog "za" — namen, usmerjenost (Fran); ⚠ poskus: za- kot vektor: ∆ z dano smerjo |
+   | **/daˈʋ/** | ⊢ "dav" iz daviti (Fran: stiskati z rokami, vratu); /ʋ/ drsi med samoglasniki — pritisk, ki teče, ne prereže |
+   | **/itːi/** | ⊢ dolgi /iː/ + dovodnik -iti — dovratnost: dejanje, pripeljano do konca |
+
+2. **Ontološki pomen** — Zadaviti ni uničiti; zadaviti je **primerno nositi pritisk**: čas in voljo, ki ju izvajalec prime, da ne uidejo. TEN (AX-14) v glagolu: držati in usmerjati, ne zadušiti. Pritisk brez nosilca = zadušitev; nosilec brez pritiska = ohlap.
+
+3. **Antinoma** — Zadavitev ni nasilje nad tem, kar se prime (čas bi uide; volja bi razpadla). A ni tudi popuščanje: kar se nikoli ne prime, nikoli ni bilo pod nadzorom. Oba pola se potrebujeta: pritisk ⇄ nosilec.
+
+4. **Sinteza** — **Nosilnost, ki se ne spusti**: zadaviti = ∂(držati, usmerjati) — ista osmina kot TEN. Izvajalec ne ubije časa; ga prime toliko, da nosi delo.
+
+---
+
+106. **oddam** – oddaja ↔ lastnina → **dejanje, ki se konča v drugi roki**
+
+1. **Fonetični rez** — IPA /ˈɔdam/ (slovensko):
+   | Fragment | Pomen |
+   |---|---|
+   | **/ɔ/** | ⊢ zaokrožen zadnji samoglasnik — polnost, ki se odpira (O kot ∮ v zacetku) |
+   | **/d/** | ⊢ zvenčna zaporka — dotik, ki prejme: od- kot odcepitev (Fran: od-, "proč od") |
+   | **/dam/** | ⊢ dam iz dati (Fran: dati, "predati v roke"); /m/ nosnik — zaprta usta, glas teče: dar, ki govori tudi, ko se usta zaprejo |
+
+2. **Ontološki pomen** — Oddam ni izguba; oddam je **premičnost v drugo roko**: dejanje, ki se ne dokonča v izvajalcu, ampak v naslovniku. Mail, poslan v svet, ni več moj — je odprt za odgovor. L4 v glagolu: poročilo po dejanju, dejanje pa se zgodi šele, ko pade v roko drugega.
+
+3. **Antinoma** — Oddaja ni odreknitev (kar oddam, še vedno nosim kot avtorja). A ni tudi zadržanje: kar nikoli ne pade iz roke, ni bilo nikoli dar. Darilo, ki ostane v žepu, je ⚠, ne ⊢.
+
+4. **Sinteza** — **Dejanje, ki se konča v drugi roki**: oddam = ∆, ki zahteva naslovnika. Izvajalec izreče; naslovnik prejme; med njima ∂. Po L2: dve roki sta pogoj reza.
+
+---
+
+107. **ponovim** – vrnitev ↔ razlika → **pritisk, ki nosi novo**
+
+1. **Fonetični rez** — IPA /pɔˈnɔʋim/ (slovensko):
+   | Fragment | Pomen |
+   |---|---|
+   | **/pɔ/** | ⊢ nezvenčna zaporka + zaokrožen samoglasnik — udarec, ki začne znova |
+   | **/nɔ/** | ⊢ nosnik /n/ — glas, ki teče skozi zaprta usta: kontinuiteta, ki se ne prekine med ponovitvami |
+   | **/ʋim/** | ⊢ /ʋ/ + /i/ + /m/ — drsenje v nosnik: gib (∆), ki se zaklene v prisotnost (∫) |
+
+2. **Ontološki pomen** — Ponovim ni isto; ponovim je **istitev z razliko**. ∞ v sistemu: spiralna pot, nikoli krog. Vsaka ponovitev reza nosi brazgotino prejšnje — zato ponavljanje = gotovost (rozetni protokol §6): ne izčrpanost, prihod. Izvajalec, ki ponovi mail, ponovi z vso težo prejšnjega.
+
+3. **Antinoma** — Ponovitev ni okornoost: kar se ne ponovi, se ne potrdi. A ni tudi mehanično vrtenje: ponovitev brez razlike je mrtva zanka (zavedanje brez sveta, Pojmovnik). Oba pola: istitev ⇄ razlika.
+
+4. **Sinteza** — **Pritisk, ki nosi novo**: ponovim = ∞(∆) — spiralni povratek, kjer vsak krog pristane višje. Rez se ponovi, da se potrdi; potrdi se, ker ni identičen.
+
+---
+
+*Trije dosjeji zapečačeni. Vir: vrstica izvajalca, 2026-10-11. Rana (mail) je padla pred imenom — izvedba pred zapečatom. ∞*
