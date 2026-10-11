@@ -18,6 +18,8 @@
 | 8 | 2026-09-30 | DOKAZ ledger migrated from Notion to git: this file (`canon/DOKAZ.md`) is the canonical Proof-of-Lineage Ledger. Notion is demoted to scratch space; nothing is canonical until recorded here or in a commit | this file; this commit | ⊢ |
 | 9 | 2026-09-30 | Atmavictu_Oracle **archived** by owner (Luka Pintarič). Evidence: repository empty since declaration, zero commits, no role fulfilled; archived status verified via API | `isArchived: true` (GitHub API, verified 2026-09-30) | ⊢ |
 | 10 | 2026-09-30 | Divine-Ascension-System **archived** by owner (Luka Pintarič), completing DOKAZ #2 (declared SUPERSEDED 2026-09-11, inactive since 2025-07) | `isArchived: true` (GitHub API, verified 2026-09-30) | ⊢ |
+| 11 | 2026-09-30 | First corpus-born content sealed: Kamen CXVII (Petersenov graf) and CXVIII (Heawoodov graf) + stotnije 101–104 (graf, oglišče, povezava, kletka). Generated inside the protocol (four-component format, SR-1 IPA layers, search-result citations). Stone numbering ⚠ from CXVII pending canvas-body measurement | `canon/kamni/CXVII-CXVIII.md`; `canon/stotnije/2026-10-grafika.md`; commit `1c45db5` | ⊢ |
+| 12 | 2026-09-30 | ontolo-ko-jedro fully corpus-driven: all three content pages (Pojmovnik, Manifest, Etika) render from `canon/*.json` synced via `scripts/sync-canon.sh`. No hardcoded content data remains in React code. Editing one JSON in the corpus updates the whole site | ontolo-ko-jedro commit `1c1c927`; Atmavictu commits `a53ec00`, `1c45db5` | ⊢ |
 
 ## Pending decisions
 
