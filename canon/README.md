@@ -16,11 +16,12 @@ content. Skills and Notion pages are *derived views*; this directory is the
 | `predloga-kamna.md` | Copy-paste stone template |
 | `zemljevid-preslikav.md` | The map of confirmed ∅/∆ mappings across world traditions (Kamen IX–CXVI+) |
 | `pojmovnik.json` | Structured concept lexicon (10 core concepts) — consumed by the ontolo-ko-jedro UI via its `sync-canon.sh` |
+| `DOKAZ.md` | ⊢ DOKAZ — Proof-of-Lineage Ledger: sealed decisions, append-only |
 
 ## Rules
 
 1. **Changes to the canon happen here first**, as PRs, then propagate to
-   skills and Notion — never the reverse.
+   skills — never the reverse.
 2. Each axiom, stone, or dosje is immutable once sealed (⊢ DOKAZ);
    revisions create new entries, they do not overwrite sealed ones
    ("pravila naj bodo revizibilna, izjema naj ima pečat").
@@ -30,5 +31,6 @@ content. Skills and Notion pages are *derived views*; this directory is the
 ## Provenance
 
 - `beseda-je-ne` and `rozetni-kamni` skills, authored by Luka Pintarič.
-- Seal records and decision lineage: Notion DOKAZ database (⊢ DOKAZ —
-  Proof-of-Lineage Ledger).
+- Seal records and decision lineage: [`DOKAZ.md`](DOKAZ.md) — the canonical
+  Proof-of-Lineage Ledger, in this repository. Notion is scratch space only;
+  nothing is canonical until it lands here.

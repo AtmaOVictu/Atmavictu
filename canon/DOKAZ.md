@@ -1,0 +1,31 @@
+# ⊢ DOKAZ — Proof-of-Lineage Ledger
+
+> Ledger of sealed decisions for the ONTOMATEMATIKA system.
+> Canonicality rule: a decision is sealed when recorded here with date, evidence, and seal.
+> Format: one entry per decision, append-only. Revisions create new entries; sealed entries are never edited.
+
+## Entries
+
+| # | Date | Decision | Evidence | Seal |
+|---|------|----------|----------|------|
+| 1 | 2026-09-11 | Atmavictu declared HEAD — canonical headless TypeScript core | Orientation Cycle Canvas v0.1; commit `69f6646` | ⊢ |
+| 2 | 2026-09-11 | soul-evolution declared ACTIVE game build (Godot/GDScript); Divine-Ascension-System SUPERSEDED | Orientation Cycle Canvas v0.1; commit `b562126` | ⊢ |
+| 3 | 2026-09-11 | ontolo-ko-jedro declared EXPERIMENTAL, fold/independence pending | Orientation Cycle Canvas v0.1; commit `0e5c1c5` | ⊢ |
+| 4 | 2026-09-30 | ontolo-ko-jedro fold/independence question resolved: **independent** — role re-declared as ONTOMATEMATIKA presentation/UI layer (React). Evidence: audit found zero shared code/types/logic with Atmavictu headless core; concept data was hardcoded presentation data, not ontology logic | [ontolo-ko-jedro PR#1](https://github.com/AtmaOVictu/ontolo-ko-jedro/pull/1); commit `20d1077` | ⊢ |
+| 5 | 2026-09-30 | ONTOMATEMATIKA corpus migrated into version control: `Atmavictu/canon/` becomes source of truth (Beseda je Ne system, rozetni kamni protocol, stone template, mapping table). Skills and Notion become derived views; changes land in canon first, as PRs | [Atmavictu PR#3](https://github.com/AtmaOVictu/Atmavictu/pull/3); commit `530f6b7`; merge `c91aa45` | ⊢ |
+| 6 | 2026-09-30 | Canonicality rule sealed: if a skill and `canon/` diverge, **`canon/` is canonical**. Sealed entries are immutable; revisions create new entries ("pravila naj bodo revizibilna, izjema naj ima pečat") | `canon/README.md`; commit `530f6b7` | ⊢ |
+| 7 | 2026-09-30 | Pojmovnik concept lexicon canonized as structured data: `canon/pojmovnik.json` (10 concepts: Ne, Gib, Etika, Zavedanje, Čas, Jaz, Ego, Odnos, Telo, Dvom). ontolo-ko-jedro UI consumes corpus at runtime; hardcoded concept arrays removed | Atmavictu commit `a53ec00`; ontolo-ko-jedro commit `19eafe3` | ⊢ |
+| 8 | 2026-09-30 | DOKAZ ledger migrated from Notion to git: this file (`canon/DOKAZ.md`) is the canonical Proof-of-Lineage Ledger. Notion is demoted to scratch space; nothing is canonical until recorded here or in a commit | this file; this commit | ⊢ |
+
+## Pending decisions
+
+| Question | Opened | Status |
+|---|---|---|
+| Atmavictu_Oracle: seed with a real purpose, or archive? | 2026-09-30 | OPEN — repository is empty |
+| Archive Divine-Ascension-System (superseded, DOKAZ #2)? | 2026-09-30 | OPEN — awaiting owner action (metadata outside agent scope) |
+
+## Provenance
+
+- Ledger format: append-only table, append-only history. Each entry cites a commit hash or PR — the git history is the cryptographic-grade evidence; this file is the human-readable index.
+- To seal a new decision: open a PR adding a row to Entries. The merge commit completes the seal.
+- Migrated from: Notion DOKAZ database (declared 2026-09-11). Historical Notion entries #1–#3 are transcribed above; the Notion database is no longer updated.

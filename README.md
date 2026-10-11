@@ -1,7 +1,7 @@
 # Atmavictu — ONTOMATEMATIKA Kernel
 
 > Canonical headless TypeScript core of the ONTOMATEMATIKA system.
-> Role declared in [CANONICAL.md](CANONICAL.md) · Spec: *ONTOMATEMATIKA Kernel v0.1* (Notion)
+> Role declared in [CANONICAL.md](CANONICAL.md) · Corpus: [canon/](canon/README.md)
 
 ## What this is
 
@@ -47,5 +47,5 @@ node build/src/atmaCli.js <capture|show|verify> <projectRoot> [title] [body]
 
 ## Verification lineage
 
-All sealed decisions are recorded in the Notion DOKAZ database
+All sealed decisions are recorded in [canon/DOKAZ.md](canon/DOKAZ.md)
 (⊢ DOKAZ — Proof-of-Lineage Ledger).

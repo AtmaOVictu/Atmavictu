@@ -19,13 +19,13 @@ This repository is the canonical TypeScript implementation of the ONTOMATEMATIKA
 
 ## Canonical Spec
 
-The canonical specification lives in Notion: ONTOMATEMATIKA Kernel v0.1 Spec.
+The canonical specification lives in canon/ (this repo). Historical reference: Notion ONTOMATEMATIKA Kernel v0.1 Spec (scratch, non-canonical).
 This repo implements that spec. If the spec and code diverge, the spec is canonical.
 
 ## Verification
 
-All sealed decisions are recorded in the Notion DOKAZ database (⊢ DOKAZ — Proof-of-Lineage Ledger).
-See also: Notion Source-of-Truth Map page for the full platform role declaration.
+All sealed decisions are recorded in canon/DOKAZ.md (⊢ DOKAZ — Proof-of-Lineage Ledger), in this repository.
+The platform role declaration lives in the CANONICAL.md files of each repository.
 
 ---
 Declared: 2026-09-11
