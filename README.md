@@ -1,49 +1,51 @@
-# Atmavictu
+# Atmavictu — ONTOMATEMATIKA Kernel
 
-Atmavictu je matični produktni repo za Book Workbench: lokalno-prvo delovno mizo za tok `vir -> obdelava -> knjiga`.
+> Canonical headless TypeScript core of the ONTOMATEMATIKA system.
+> Role declared in [CANONICAL.md](CANONICAL.md) · Spec: *ONTOMATEMATIKA Kernel v0.1* (Notion)
 
-## Kaj Atmavictu je
+## What this is
 
-- product repo za Book Workbench
-- contract-first osnova za model in manifest sledenja
-- prostor, kjer se najprej zaklenejo scope, arhitektura in minimalni podatkovni model
-- lokalno-prvi sistem, kjer trajni manifest povezuje vhodni tekst, odlomek in cilj v knjigi
+The headless core: manifest model, CLI tooling, and proof capture for the
+ONTOMATEMATIKA workbench. This repository **computes and verifies**; it
+renders nothing and depends on no UI framework.
 
-## Kaj Atmavictu ni
+It is also the canonical home of the system's **corpus** — see
+[canon/](canon/README.md) (AX-canon, rozetni kamni, stotnije, OPTIKON).
 
-- dump iz `Library`
-- genericni notes app
-- social app
-- AI chat app
-- takojsnja kopija `CIVIC_MEMORY_DESKTOP`
+## Modules
 
-## Osnovni tok
+| Module | Purpose |
+|---|---|
+| `workbenchManifest.ts` | Workbench manifest model: incoming texts, fragments, insertions, concepts |
+| `workbenchManifestRepository.ts` | Manifest persistence (`book.workbench.json`), capture workflow |
+| `captureIncomingTextProof.ts` | Proof capture for incoming text lineage |
+| `atmaCli.ts` | CLI: `capture · show · verify` |
 
-Atmavictu obravnava tri povezane korake:
+## Usage
 
-1. `vir`: vhodni tekst pride v lokalni delovni prostor
-2. `obdelava`: iz vhodnega teksta nastanejo delovni odlomki in odlocitve
-3. `knjiga`: potrjen odlomek se vstavi v ciljno poglavje aktivne knjige
+```sh
+npm install
+npm test          # 44 tests
+npm run typecheck
+node build/src/atmaCli.js <capture|show|verify> <projectRoot> [title] [body]
+```
 
-Trajni manifest hrani sled:
+## Contracts
 
-- `IncomingText`
-- `Fragment`
-- `Insertion`
-- `targetChapterPath`
+- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+- [docs/MODEL_CONTRACT.md](docs/MODEL_CONTRACT.md)
+- [docs/SERVICE_CONTRACT.md](docs/SERVICE_CONTRACT.md)
 
-To pomeni, da povezava med surovim vhodom in mestom v knjigi ni implicitna v UI-ju, ampak eksplicitna v lokalnem manifestu.
+## System hierarchy
 
-## Status repoja
+| Repo | Role | Status |
+|------|------|--------|
+| **Atmavictu** (this) | Canonical headless TS core + corpus | HEAD |
+| ontolo-ko-jedro | Presentation/UI layer (React) | INDEPENDENT |
+| Atmavictu_Oracle | Ontology oracle | EMPTY — seed or archive |
+| soul-evolution | Active game build (Godot/GDScript) | ACTIVE |
 
-- contract-first
-- no app code yet
-- brez React, Vite, Tauri ali backend implementacije v tej fazi
-- brez kopiranja vsebin iz `Library`
+## Verification lineage
 
-## Faze
-
-- Faza 0: produktni scope, arhitekturni contract, minimalni manifest schema
-- Faza 1: model + service plast nad manifestom
-- Faza 2: lokalni UI workbench nad zaklenjenim contractom
-- Faza 3: runtime integracija in selektivna desktop plast
+All sealed decisions are recorded in the Notion DOKAZ database
+(⊢ DOKAZ — Proof-of-Lineage Ledger).
