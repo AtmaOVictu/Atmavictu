@@ -15,6 +15,7 @@ content. Skills and Notion pages are *derived views*; this directory is the
 | `rozetni-kamni-protokol.md` | Operational protocol for generating rosette stones: ∅/∆ framework, 12-operator/12D base vectors, mandatory stone format, accumulation and exploration protocols, SECIRAVA |
 | `predloga-kamna.md` | Copy-paste stone template |
 | `zemljevid-preslikav.md` | The map of confirmed ∅/∆ mappings across world traditions (Kamen IX–CXVI+) |
+| `pojmovnik.json` | Structured concept lexicon (10 core concepts) — consumed by the ontolo-ko-jedro UI via its `sync-canon.sh` |
 
 ## Rules
 
