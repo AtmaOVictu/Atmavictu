@@ -1,0 +1,23 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: ["20", "22"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install toolchain (typescript 5.9.3, @types/node 24.12.3 - lockfile in sync)
+        run: npm ci
+      - name: Typecheck (tsc --noEmit, strict)
+        run: npm run typecheck
+      - name: Build and run the test suite (model, repository, CLI, schema)
+        run: npm test
