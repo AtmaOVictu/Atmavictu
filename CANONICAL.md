@@ -2,6 +2,7 @@
 
 > This file is the source-of-truth marker for this repository's role in the ONTOMATEMATIKA system.
 > Declared: 2026-09-11 — from Orientation Cycle Canvas v0.1
+> Re-declared: 2026-10-14 — hierarchy synced with sealed audit outcomes
 
 ## Role
 
@@ -13,9 +14,11 @@ This repository is the canonical TypeScript implementation of the ONTOMATEMATIKA
 
 | Repo | Role | Status |
 |------|------|--------|
-| **Atmavictu** (this) | Canonical TS core | HEAD |
-| ontolo-ko-jedro | Ontological core | EXPERIMENTAL — fold in or declare independent |
-| Atmavictu_Oracle | Ontology oracle | EXPERIMENTAL — fold in or declare independent |
+| **Atmavictu** (this) | Canonical TS core + corpus (canon/, organi/) | HEAD |
+| verification-before-assertion | Public verification methodology + SL-hybrid-eval | PUBLIC |
+| ontolo-ko-jedro | Presentation/UI layer (React) | INDEPENDENT — sealed 2026-09-30 |
+| soul-evolution | Active game build (Godot/GDScript) | ACTIVE |
+| Atmavictu_Oracle | Ontology oracle | EMPTY — archived (sealed) |
 
 ## Canonical Spec
 
@@ -29,4 +32,5 @@ The platform role declaration lives in the CANONICAL.md files of each repository
 
 ---
 Declared: 2026-09-11
-Source: Orientation Cycle Canvas v0.1
+Re-declared: 2026-10-14
+Source: Orientation Cycle Canvas v0.1; re-declaration from the repo audit of 2026-10-14 (fold/independence outcome sealed in ontolo-ko-jedro/CANONICAL.md 2026-09-30; Atmavictu_Oracle archived empty; verification-before-assertion public since 2026-09-30)
