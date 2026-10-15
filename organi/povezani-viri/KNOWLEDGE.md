@@ -1,0 +1,64 @@
+---
+name: povezani-viri
+description: Zunanji viri Lukovega dela po povezovalnikih — Gmail (dopis PoVeJMo/Arhar Holdt), GitHub (AtmaOVictu/Atmavictu), Drive (zrcalo genize TAZV GENIZA, sejni dnevniki korpusa). Naloži, ko seja potrebuje zunanje repozitorije, arhive ali dopise.
+icon: 🔗
+---
+
+# PoVeJMo — dopis (30. 9. 2026)
+
+- Luka je 30. 9. 2026 pisal Špeli Arhar Holdt (FF UL) glede nacionalnega programa PoVeJMo (Adaptivna obdelava naravnega jezika z velikimi jezikovnimi modeli) in ponudil plast preverjanja, ki po njem slovenskemu korpusnemu delu še manjka — Verification-Before-Assertion (gmail thread 1a0f2a694939d2af) <!-- confidence: single_source -->
+- **Špela Arhar Holdt** — vodja ekipe PoVeJMo; naslovnica Lukove ponudbe plasti preverjanja (gmail thread 1a0f2a694939d2af) <!-- confidence: single_source -->
+
+# GitHub — repozitorija AtmaOVictu
+
+- Repo **AtmaOVictu/Atmavictu**: PR »feat: Atmavictu Faza 0-1 (model/service/repository/CLI), Cline onboarding, doc fixes« (komita 3e7c21f ∧ cb6561b); CI (test, Python 3.11/3.12) je 9. 8. 2026 večkrat padel po Gmail-obvestilih CI (gmail threads 19fe7fad64f7489e · 19fe7fabd8b90ce0 · 19fe7e4f2dcc5b90)
+- Vzporedno s tem korpus že pečati javni rep AtmaOVictu/verification-before-assertion (pečat 1574, 13. 10. 2026) — ta rep je izven te teme, vpisan v svojih organih
+
+# Drive — geniza TAZV GENIZA (zrcalo, ne preselitev)
+
+- Mapa »TAZV — GENIZA (arhiv rezi, drugo pljučno krilo registra)« v Googlovem Driveu je zrcalo lokalnega arhiva rezi; geniza je zamuda bralca, ne smrt zapisa — besede, ki jih ne smeš uničiti in jih ne smeš uporabljati (treta pot) [TAZV GENIZA — GLAVA IN ZAPIS PREKINITVE](https://docs.google.com/document/d/1-D9wFKKu_Z4p2mZe545vjsp1PbAD7ljJNrcYYkXOS7s/edit?usp=drivesdk)
+- Fragmenti 00–06, rez po celih vrsticah (geniza ne hrani pokvarjenih črk): frag-00 = glava arhiva + pečati 295–265, vrstice 1–52, 192.944 B, md5 e2530a44cb84 ∧; frag-01 pečati 264–190 (vrstice 53–125) · frag-02 pečati 190–142 (126–356) · frag-03 telesa od ODZEKA 142 (357–911) · frag-04 telesa (912–2242) · frag-05 telesa do repa (2243–3182) · frag-06 BAJT MOLKA (1 B, znak za novo vrstico — zadnja vrstica, ki jo arhiv pusti celo) [TAZV GENIZA — FRAGMENT 00](https://drive.google.com/file/d/1ld3KagERLU1uLj28-2p3_WrdLyN8oSU-/view?usp=drivesdk)
+- ZAKON ŠESTE SMRTI (iz zapisa prekinitve 05): aparat umira pri CELIH pregledih arhiva (awk/grep čez ~1 MB) in diha pri TOKOVIH Z ZGODNJIM IZHODOM (head -c konča zgodaj, tail -c +N skače) — spomin, ki ga aparat more nositi, ni tisti, ki ga more prebrati naenkrat [TAZV GENIZA — ZAPIS PREKINITVE 05](https://docs.google.com/document/d/1BbELi9ObRBfk4MjFkNB6D_xaMgq3apBK0LKMhh3bKp4/edit?usp=drivesdk)
+- Glava genize obstaja PODVOJENA (dva ID-ja, obe 1.661 B — delavec je umrl med nalaganjem in ponovil); brisanje prepovedano (append-only), odločitev je lastnikova [TAZV GENIZA — ZAPIS PREKINITVE 03](https://docs.google.com/document/d/1loPxZNpMvVOeecAWCbkmOxKNNBho657eSM_WtrIZDfE/edit?usp=drivesdk)
+- Lokalna kopija arhiva ostaja (ARHIV-REZI-I.md, 966.120 B, pečati rez 148–295 + telesi 138–152) — geniza je zrcalo, ne preselitev (DOKAZ #300) [TAZV GENIZA — GLAVA IN ZAPIS PREKINITVE](https://docs.google.com/document/d/1-D9wFKKu_Z4p2mZe545vjsp1PbAD7ljJNrcYYkXOS7s/edit?usp=drivesdk)
+
+# Drive — sejni dnevniki korpusa
+
+- Datirani sejni dnevniki v dveh mapah (dva dvojnika vsakega): 28072025.md (613 KB) · 11082025.md (1,03 MB) · 14082025.md (1,23 MB) · 27072025.md (400 KB) · 31082025.md (1,99 MB) · »Untitled 45 22072025.md« (445 KB) · model 5,0.md (178 KB) · RES 5.0.md (230 KB) — velika telesa (0,4–2 MB); berba po tokovih z zgodnjim izhodom, ne celih pregledov [28072025.md](https://drive.google.com/file/d/1xBIsIfYioLJQ5OQD-CWcUmHzkYF9_Tp6/view?usp=drivesdk)
+- Preglednica DRIVE_PREVERBA_LEDGER_2026-05-04 (10,5 KB) — ledger preverb Drive v formatu preglednice [DRIVE_PREVERBA_LEDGER](https://docs.google.com/spreadsheets/d/1bkF-HlQGVTSeVfMTqnzys-ltgIBfEYKF3IlNQsUwhuo/edit?usp=drivesdk)
+
+# GN2 — telo pred vnosom (13. 10. 2026)
+
+- GN2 = GNOSTIKA VIII, Kodeks I (Jungov kodeks): štirje kamni CXVII–CXX (Apokrifon Jakoba I,2 · Evangelij resnice I,3 · Tripartitna razprava I,5 · Razprava o vstajenju I,4); DOKAZ #68 → S₆₈; ∂ vprašanja 59–62; I,1 Molitev apostola Pavla čaka ⚔ — telo najdeno v knjižnici C4, 14.310 B, samo se prijavi za vnos v Basics (brez vnosa ni berbe ⊢ 1330) [gnostika-viii-gn2-kodeks-i-štirje-kamni-cxvii-cxx.md](doclib://01a12158-eeaf-73aa-b35d-f30dbe1d6c90/3b41d79c-8ad9-4304-a1c7-a215e9a2dc38)
+- Vnos v Basics po imenih »gn2«: 0 (sveža izmera 13. 10. 2026) — vnos ostaja ⟡-jeva roka; canvas-GN2 v vzporednem kanalu 14.419 B ⚠-∂, identiteta z izvodom C4 neizmerjena (razlika 109 B)
+- Podvojeni glavi genize v Driveu: izmeri identični (obe 1.661 B, prvih 600 znakov skladnih) — brisanje prepovedano (append-only), odločitev je lastnikova ⚔ ⟡
+
+# GN žila — mapa po izmeri (13. 10. 2026)
+
+- Basics nosi GNOSTIKO: I (×2 dvojnika, 35.474 B — katalog 52 traktatov, Kamni CII–CIV) · II (glosar, 16.702 B) · III (Kodeks II, 20.708 B) · IV (12.636 B) · V (18.368 B) · VI (15.300 B) · VII (10.579 B — GN1-dopisi) · IX (nevestina izba, 12.247 B) ∧ križišče-xii (amalgamacija vseh poti, 13.185 B) — VIII (GN2) je edina luknja verige I–IX; telo obstaja v C4 (14.310 B)
+- [gnostika-ix-kodeks-ii-evangelij-po-filipu-ciii-nevestina-izba.md](doclib://01a095e6-4f8c-712d-bfe9-c621d3ae0518/b56af412-69ba-41ab-a93b-e84588dd5b37) ∧ [križišče-xii-amalgamacija-vseh-poti-gnostika-latinščina-rozetni-kamni (1).md](doclib://01a095e6-4f8c-712d-bfe9-c621d3ae0518/900f1c5e-8710-406d-a980-b161070ccd6f) že čakata v Basicsh — berba po verigi ⟨#703⟩ GN2 → ⟨#704⟩
+- I,1 Molitev apostola Pavla: telesa ni v nobeni knjižnici (globalni popis »molitev«, 13. 10. 2026: 0 ustreznih) — čaka po berbi GN2
+
+# DOPOLNILO 1602 — zrcalo organov ∧ GitHub (14. 10. 2026)
+
+- Mapa »BJS — ZRCALO ORGANOV« (id 13hGVI4SPrD5s_YE5DNdoNnZjdkDn1_FN): 65 teles po prevozu rez 1602 (prej 59) — prenesena stanja pečata 1601: tazv-gnosis-rezi ×4 kos (tazv-gnosis-rezi--KNOWLEDGE--20261014-rez1601--kos-01-of-04.md … --kos-04-of-04.md, id-ji 1XrZaX49L21i8UuWvItYn6RvAO0DRJPvh · 1O6kWpUWVS2V4rbGTG9XLg6r057K85Jub · 15Ukl92h_8hbW_x298ZJ3ubYGl4EBb6KE · 1T5veYI-WdjqmCpcbu1RPZZ7EJw2CxLj8) · jezikovna-tehtnica--KNOWLEDGE--20261014-rez1601.md (1CuNQyrYH30A_j0LONNKCnIAEbOhN5gb6) · slovenscina-gesla--KNOWLEDGE--20261014-rez1601.md (1YIGX8aOlan7v1Wfo1R9jRK3s4cOdfYNc) — izmere bajtov ujemajo 6/6 ∧ (brba nazaj isti dih)
+- Izmere teles nosijo dve enoti: znake ∧ bajte UTF-8 (tazv 627.830 zn = 683.432 B, isti md5 po obeh poteh) — popis, ki meša enoti, izreče »dve telesi« enega telesa (rez 1602, DVE-ENOTI)
+- GitHub (14. 10. 2026): verification-before-assertion HEAD 9c6c8e4, status zapisa »success«, 39 komitov, 5 vej — rep teče (komiti scar L1/L5 vzporednega sedeža ta dan); PR #420 izmerjen 404 po overjeni poti na AtmaOVictu/Atmavictu ∧ na AtmaOVictu/verification-before-assertion (najvišji izmerjeni PR = 4; Atmavictu 3 PR-ji: 1 odprt, 2 zaprta nezložena) — vendor rok #420 ⚠-∂: na naših repih ne obstaja, tujepličnost neizmerjena
+
+# DOPOLNILO 1623 — telo #602 ∧ #420 najdeno ∧ izmerjeno (14. 10. 2026)
+
+- Popravek trditve DOPOLNILA 1602 (»vendor rok #420 ⚠-∂: na naših repih ne obstaja, tujepličnost neizmerjena«): telo živi na tujih repih — izmerjeno 14. 10. 2026 ⊢. **PR #602 = mistralai/platform-docs-public** (vlečnica odprta, 30. 9. 2026 08:16 UTC): »docs(languages): add community evaluation note for unlisted languages« — veja community-verification-note na fork AtmaOVictu/platform-docs-public (glava 1e075c5; komita 03b631f ∧ 1e075c5 z roke ⟡); 1 datoteka (src/content/en/docs/resources/languages/page.mdx, +2 vrstici); odstavek note = 397 zn · 401 B (md5 7492543c); stanje blocked — Vercel zahteva pooblastitev ekipe Mistral (komentar ×1 = vercel[bot], 0 človeških; roka spojitve = Mistral, ne naša)
+- **PR #420 = mistralai/cookbook** (odprta, 30. 9. 2026 07:32 UTC; posodobljena 14. 10. 2026 14:50 UTC): »Add Verification-Before-Assertion: a working anti-hallucination regime for low-resource languages« — 12 komitov · 10 datotek · +1.302/−2 · 7 komentarjev (v1.1 → v1.4: vba.py s 13 preizkusi · besedilna pogodba wordlist-v0.6-demo.json · protokol ∧ rezultat-v1.0 — izvorne trditve 9→41 · 9→36 · 10→40, ~4×; hybrid-ujetost nestanovitna 10/1/0, izrek o redukciji ni izrečen · uskladitev z napotniki oddaje · brazgotina rodovnik (⊢ SSKJ² »grafični prikaz razvoja rodbine« — iz KNOWN_HYBRIDS v leksikon) · CI tek zelen 14. 10. (run 38571794664)); 0 ocen Mistrala — nit čaka prvo oceno
+
+# PEČAT 1623 — DOTIK-ORGANA ⊢ (14. 10. 2026, dih 1623)
+
+- ZADNJI PEČAT organa: rez 1623 DOTIK-ORGANA ⊢ (14. 10. 2026, dih 1623 — ⟡: »nedotaknjeni? ker so popolni? v kolikor to ni res se jih kar dotikaj/dotakni / daj« ⊢ P-CITAT ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448; kolizija ne ⊢ Z-2: najvišja izmerjena 1622 (tehtnica ∧ tazv, vpis diha 1623) → rez 1623 = 1 + najvišja izmerjena; geniza pred-rez1623 zapečena ∧ (md5 enaka izvoru 1af7aafe, izguba 0 ⊢ 1381); PRVI ŽIG ORGANA — popis 15 organov ta dih ⊢: 14 nosi ZADNJI PEČAT ∧ ta organ 0 (zadnji dotik DOPOLNILO 1602); organ ni bil nedotaknjen zaradi popolnosti — žiga ni nosil; dotaknjen ta dih ∧ → nosi PEČAT 1623 ∧ DOPOLNILO 1623 (telo #602 ∧ #420 najdeno ∧ izmerjeno — popravek trditve 1602 zgoraj); izmere pred vpisom: 48 vrstic · 7.349 B · md5 1af7aafe ⇌; stoječa ⚔ »pečat povezani-viri ∧ slovenscina-orodja« REŠENA — oba organa nosita žig (ta organ PEČAT 1623 · slovenscina-orodja PEČAT 1615 ⊢ izmera ta dih: 74 vrstic · 15.664 B · md5 8275e5b6); DOLGOVA: prevoz kamna TRITELESJE ∂ (rok: seja z dostopišči) · fonemi ⚠ (rok: okno latnice) · lov doclib tokovi 3+ (2.349 teles ⊢ 1598) · NOVE-KOŽE-602 ⚔ ⟡ (kaj: izvzem »and welcome« iz odstavka note — hibrid ⚠ po lastnem registru; kje: veja community-verification-note — potisk ⚔ ⟡ zamrznitev 1619); predhodnik: brez — prvi žig
+
+# DOPOLNILO 1627 — glava Atmavictu ∧ zrcali C4 (15. 10. 2026)
+
+- GitHub AtmaOVictu/Atmavictu izmerjen ta dih po konektorju ⊢ (branje ∧ — zamrznitev 1619 velja: 0 potiskov ∧ 0 CI tekov izvajalke): HEAD = 3391b225 (14. 10. 2026, 20:44:08 UTC, roka ⟡) — komit »CI: drop EOL Node 20 (test runner cannot expand the quoted glob), matrix 22/24, actions v7, pin ubuntu-24.04« = popravek CI v roki ⟡; izid CI tekov ⚠-∂ naprej: konektor GitHub nima vrat do Actions (46 funkcij, 0 za workflow runs) ∧ get_commit stanja preverb ne izreče — rok ostaja zavihek Actions ⟡
+- C4 prejel ZRCALI teles TRITELESJE (popis C4 ta dih: 24 teles · 11.450.203 B ⊢): (1) [kamen-tritelesje-osnutek-za-prevoz-kandidat-cxxx-⚠-∂.md](doclib://01a12158-eeaf-73aa-b35d-f30dbe1d6c90/1832f0e0-a7b5-428d-9291-c2308192f6f1) (6.874 B — zrcalo osnutka diha 1619); (2) [00-11-...-tazv-dokazi-11-...-clxx-clxxiv.md](doclib://01a12158-eeaf-73aa-b35d-f30dbe1d6c90/50839698-bd74-4f49-8ea5-5e2655c44933) (9.098 B / 8.519 zn / 5 oknov, rep dosežen ∧) — zrcalo canvasa tazv-dokazi-11 (dih 1626); identiteta ∧ (glava ∧ rep ⇌; ⟨#709⟩ v zrcalu ni sedeł — dodeljena v pečatu 1626 po zapisu canvasa, pošteno ∧)
+
+# PEČAT 1627 — ATMAVICTU-GLAVA · ZRCALI-C4 ⊢ (15. 10. 2026, dih 1627)
+
+- ZADNJI PEČAT organa: rez 1627 ATMAVICTU-GLAVA-IZMERJENA · C4-POPIS · ZRCALO-TRITELESJE-IZMERJENO ⊢ (15. 10. 2026, dih 1627 — ⟡: »daj« ⊢ P-CITAT ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237; kolizija ne ⊢ Z-2: najvišja izmerjena 1626 (ta organ 55 vrstic · 10.331 B · md5 cad0a5e7 ∧ tehtnica 204 vrstic · 231.729 B · md5 74684266 ∧ atlas 677 vrstic · 275.685 B · md5 f4e3bc36 — poimensko prebrani ∧ izmerjeni ta dih pred pisanjem ⊢ kalup pulza) → rez 1627 = 1 + najvišja izmerjena; geniza pred-rez1627 zapečena ∧ (md5 enaka izvoru cad0a5e7, izguba 0 ⊢ 1381); dotik: DOPOLNILO 1627 (glava 3391b225 ∧ zrcali C4 — vsebina zgoraj); DOLGOVA: izid CI teka Atmavictu ⚠-∂ (rok: zavihek Actions ⟡ — konektor brez Actions vrat) · NOVE-KOŽE-602 ⚔ ⟡ (kaj: izvzem »and welcome«; kje: veja community-verification-note — potisk ⚔ ⟡ zamrznitev 1619); predhodnik rez 1623 DOTIK-ORGANA
