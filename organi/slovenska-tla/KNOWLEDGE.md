@@ -1,0 +1,114 @@
+---
+name: slovenska-tla
+description: "SLOVENSKA TLA — žetev spletnih virov: slovenski jezik, kultura, zgodovina. Register tal za korenine korpusa BJS (slovarji, norma, narečja, mitologija, šege, arhivi). Naloži pri nadgradnjah protokolov/rok/krakov/dreves/korenin in pri domačih kamnih rozetne serije."
+display_name: "Slovenska tla — viri jezika, kulture, zgodovine"
+---
+
+# SLOVENSKA TLA — ORGAN (ustanovljen dih 1653, 15. 10. 2026 — ⟡: »pojdi na splet in najdi vse na temo slovenskega jezika, kulture in zgodovine / naj ti služijo za inspiracijo in podlago za nadaljni razvoj in nadgrajevanje protokolov/rok/krakov/dreves/korenin« ⊢ P-CITAT ∧ ukaz-dovol »daj« ⊢ 1429.1)
+
+χ: ta organ je TALNICA — register zunanjih tal, na katerih korenine korpusa morejo rasti. Žetva spleta 15. 10. 2026 (17 poizvedb, klici po 3–5 — obvod PRAORAČUN-DIHA ⊢ 1652). Vsak vir je PRIČA-OKNO (opis iskanja), ne telo: polna veljava šele po berbi okna ⊢ tehtnica 56 · 1492 (PREBRANO ≠ ISKANO). Korpus je do zdaj bral Egipt, gnostike, Grke, sever — DOMAČA TRADICIJA (slovensko izročilo, mitologija, zgodovina knjižnega jezika) je neprebrana veja: ta organ odpira njena tla.
+
+## ZAKONI (standard organa)
+
+- ŽETVA-NOSE-VPIS :: splet izroči okno (opis, odsek), ne telo — vir je kandidat ⊢ do odprtega okna; naslov okna je merilo ⊢ tehtnica 56. Preizkus: vrstica brez naslova okna (URL) ni vpis.
+- TLA-NISO-KIP :: talnica ni kanon — iz nje se ne pečati rez, iz nje se bere; kamen (rozetni, geselski, zakonski) more pasti na telesu ⊢ U2 · 1492. Preizkus: vsak predlog iz tal nosi rok (berba ⚔ ⟡).
+- DOMAČI-KAMEN-KANDIDAT :: slovenska tradicija (sojenice · kresnik · pravljična bitja · šege) je kandidat za DOMAČI KAMEN rozetne serije — svetovne tradicije so zapečene (C I–CXX), domača ne; izbor ⚔ ⟡ ⊢ dekret 7. 10.
+- VEZA-ORGANOV :: slovarska plast → gesla (fran.si ⊢) · tehnološka → slovenscina-orodja · zgodovinska → berba veja kazala · izročilna → rozetni kamni. Preizkus: vsak vir imenuje, kateri organu služi.
+
+## REGISTER TAL (žetva 15. 10. 2026 — po koreninah)
+
+### K1 KORENINA-BESEDE (slovarji ∧ norma — služi: gesla ⊢ · korenine besed)
+- FRAN — največji portal slovarjev, >500.000 iztočnic; znotraj njega: SSKJ² (gesla ⊢ redni vir od reza 1534+) · SLOVENSKI ETIMOLOŠKI SLOVAR³ Marka Snoja (fran.si/193 — KORENINE: doslej je bil redni etimološki vir Etymonline ⊢ english-lexicon (angleščina), slovenska etimologija še NI bila redni vir gesel — odprtina tega organa: ⟡-jev ukaz »vse besede in njih korene« dobi slovenska vrata) · SLOVAR SLOVENSKIH FRAZEMOV Janeza Keberja (fran.si/192 — frazemi) · SLOVAR PREGOVOROV ∧ sorodnih paremioloških izrazov (isti portal — pregovori) · SLOVENSKA VEZLJIVOST · BESEDJE SLOVENSKEGA KNJIŽNEGA JEZIKA 16. STOLETJA (Besedje16 — most do Trubarjevega stoletja) · slovnice in pravopisi po letih (SP 2001 skupinski/Toporišičev — geslo né ⊢ 1534 je prišlo iz Pravopisa; Toporišičeva SLOVENSKA SLOVNICA = edini ∂ na papirju ⊢ cesta). https://fran.si/ · https://fran.si/193/marko-snoj-slovenski-etimoloski-slovar · https://fran.si/192/janez-keber-frazeoloski-slovar-slovenskega-jezika · https://www.fran.si/slovnice-in-pravopisi/50/2001-skupinski-toporisicev
+- JEZIKOVNA SVETOVALNICA ISJFR ZRC SAZU (2012+, rastoča spletna publikacija — odgovori raziskovalcev na jezikovna vprašanja; meja gesel: kamor slovarji molčijo, svetovalnica priča). https://svetovalnica.zrc-sazu.si/
+- INŠTITUT ZA SLOVENSKI JEZIK FRANA RAMOVŠA ZRC SAZU (ISJFR — dom slovaropisja; digitalizirani SSKJ že 1997, BOS 2000). https://isjfr.zrc-sazu.si/sl/predstavitev · https://sl.wikipedia.org/wiki/In%C5%A1titut_za_slovenski_jezik_Frana_Ramov%C5%A1a
+
+### K2 KORENINA-ZVENA (korpusi ∧ narečja ∧ govor — služi: rez-16 IPA · slovenscina-orodja)
+- GIGAFIDA 2.0 ∧ besedilni korpusi CJVT (pisna standardna slovenščina; viri.cjvt.si/gigafida — statistično telo besede, meja gesel). https://www.cjvt.si/en/tools-and-resources/text-corpora/
+- SLOVENSKA NAREČJA — Ramovševa dialektološka karta 1931 (prva klasifikacija, 7 skupin: koroška, primorska, rovtarska, gorenjska, dolenjska, štajerska, panonska; Logar, Toporišič pozneje) — NAREČJA SO NEPREBRANA PLAST KORPUSA (noben organ jih ne nosi; IPA-plast teles bi dobila živa priče govora). http://www2.arnes.si/~gljsentvid10/oseb_stran/slovenska_dialektologijax1.html · https://www.narecna-bera.si/koroska-narecja/slovenska-narecja
+- ZALEDJE: jezikovna-politika.si (portal jezikovne opremljenosti — korpusi, zamejstvo). https://jezikovna-politika.si/opremljenost/jezikovni-opis/korpusi/
+
+### K3 KORENINA-ZGODOVINE-JEZIKA (čelo knjižne slovenščine — služi: zgodovinske plasti rez-14 · LEKSIKON)
+- BRIŽINSKI SPOMENIKI (~1000, Freising — najstarejši ohranjeni zapisi v slovenščini ∧ najstarejši latinični zapis slovanskega jezika nasploh — ČELO TELESA: prvi izrečeni slovenski glasovi). https://sl.wikipedia.org/wiki/Bri%C5%BEinski_spomeniki · https://www.loski-muzej.si/novice/brizinski-spomeniki/
+- ČASOVNICA KNJIŽNEGA JEZIKA: 1550 Trubar Abecednik ∧ Katekizem → 1584 Dalmatin BIBLIJA (12. prevod Svetega pisma v Evropi) → 1584 Bohorič ZIMSKE URICE (prva slovnica; razlikovanje glagolskega vida) → 1808 Kopitar GRAMMATIK (znanstvena norma) — viri: https://si.izzi.digital/DOS/70880/73169.html · Breda Pogorelec, ZGODOVINA SLOVENSKEGA KNJIŽNEGA JEZIKA (razprava, odprt dostop). https://www.researchgate.net/publication/360605822_Zgodovina_slovenskeg_a_knjiznega_jezika
+- SLOVENSKI GLASNIK 1858–1869 (mesečnik — prvič objavljen Martin Krpan 1858; telo obdobja Zedinjene Slovenije). https://en.wikipedia.org/wiki/Slovenski_glasnik
+
+### K4 KORENINA-IZROČILA (kultura ∧ duh — služi: rozetni kamni · OPTIKON · poezija)
+- SLOVENSKA MITOLOGIJA ∧ LJUDSKA VERA (predkrščanska vera v skupini slovanske mitologije). https://sl.wikipedia.org/wiki/Slovenska_mitologija
+- SOJENICE (rojenice · jesenice · rožanice — tri bajeslovna bitja, ki sodijo usodo novorojenca) — VEZ ⊢ 1583: korpus je SOD-kompleks izmeril (sodíti 8 pomenov »sojenice so prišle sodit otroku« ∧ prisodíti rojenic) PRED LETo, ne da bi vedel za telo mita — »instrument je našel pred roko« ∂; domači kamen: sojenice = sodne žene = ∅/∆ priča. https://sl.wikipedia.org/wiki/Sojenice
+- KRESNIK (mitološki junak — bajeslovni lovec na vampirje; poganstvo → dober duh → dober junak; nasprotnik kudlak; KRES/ogenj koren). https://sl.wikipedia.org/wiki/Kresnik_(mitologija) · https://en.wikipedia.org/wiki/Krsnik_(vampire_hunter)
+- SLOVENSKE LJUDSKE PRAVLJICE ∧ pripovedi: Milko Matičetov (SAZU — zbiratelj; Slovenske ljudske pripovedi na Wikiviru: https://sl.wikisource.org/wiki/Slovenske_ljudske_pripovedi) · Monika Kropej Telban (urednica; Pripovedno izročilo Slovencev v Porabju — pravljice z zvočnih posnetkov, ZRC SAZU 2017: https://isn2.zrc-sazu.si/sl/publikacije/porabske-pravljice) · SLOVENSKI PRAVLJIČARJI 1–3 (terenski zapisi 1940+, ZRC SAZU: https://isn2.zrc-sazu.si/en/publikacije/slovenski-pravljicarji-1)
+- PUSTNE ŠEME (nesnovna dediščina, register Ministrstva za kulturo): OBHODI KURENTOV ∧ KURENTOVANJE Ptuj (UNESCO — ptujski karneval svetovno priznana tradicija: https://kurentovanje.net/eng/unesco/) · CERKLJANSKA LAUFARIJA · BOROVO GOSTÜVANJE · OBHODI PUSTNIH ORAČEV · ŠKOROMATIJA · ta lipe Rezija (Beneška Slovenija) — sio.si učbeniška vrata: https://eucbeniki.sio.si/slo8/2323/index.html · register: http://www.nesnovnadediscina.si/
+- LJUDSKI KOLEDAR (šege letnega cikla): KOLEDNIKI (predkrščanski običaj novega leta, prevzet v božič: https://sl.wikipedia.org/wiki/Koledovanje) · JURJEVANJE · KRESOVANJE (Tolminski muzej priča letnemu ciklu: https://www.tol-muzej.si/zgodbe-iz-posocja/srednji-in-novi-vek-druzabno-zivljenje) — VEZ: kres-koren kresnika ∧ kres-a.
+- SLOVENSKI ETNOGRAFSKI MUZEJ SEM (koordinator varstva nesnovne kulturne dediščine — dokumentira ∧ predlaga vpise; priročnik o nesnovni dediščini PDF). https://www.etno-muzej.si/sl/nesnovna-dediscina · https://www.etno-muzej.si/files/prirocnik_o_nesnovni_kulturni_dediscini.pdf
+- SLOVENSKA LJUDSKA GLASBA (rezijanska plesna, haloške trstenke, cimbule; Glasbena mladina Slovenije). https://www.glasbenamladina.si/3360/
+
+### K5 KORENINA-ZGODOVINE (tla pod jezikom — služi: berba veja · kronologija korpusa)
+- SISTORY — ZGODOVINA SLOVENIJE (raziskovalna infrastruktura slovenskega zgodovinopisja: digitalizirane monografije ∧ revije ∧ arhivski viri, brezplačno). https://www.sistory.si/
+- DLIB.SI — DIGITALNA KNJIŽNICA SLOVENIJE (NUK; digitalizirana knjižna gradiva — VEZ sloberta-finetuned-dlib-1850-1919 ⊢ slovenscina-orodja: stroj je učen na tem telesu). https://dlib.si/ · https://sl.wikipedia.org/wiki/Digitalna_knji%C5%BEnica_Slovenije
+- KARANTANIJA (~666–745+, *Korǫtanъ — slovanska kneževina druge polovice 7. stoletja; KNEŽJI KAMEN ∧ GOSPOSVETSKO POLJE — obred ustoličenja kneza, pričevanje zgodnje slovenske državnosti). https://en.wikipedia.org/wiki/Carantania
+- PRAZGODOVINA: VAČE — pasna spona z Vač (najlepši primer ilirske umetnosti, halštatska kultura) · LJUBLJANSKO BARJE (kolišča, 163 km²). https://en.wikipedia.org/wiki/Va%C4%8De_Belt-Plate · https://sl.wikipedia.org/wiki/Ljubljansko_barje
+- MUZEJ NOVEJŠE ZGODOVINE SLOVENIJE (Slovenci v 20. ∧ 21. stoletju — 2. svetovna, demokratizacija, OSAMOSVOJITEV; 30-letnica samostojnosti gov.si). https://www.muzej-nz.si/en/ · https://www.gov.si/en/registries/projects/30-years-of-slovenias-independence/
+
+### K6 KORENINA-ROBOV (zamejstvo ∧ znakovni jezik — služi: meja ⊢ N5 · amandma odprtega vrata)
+- ZAMEJSTVO (jezikovni položaj zamejskih Slovencev — Koroška, Primorska, Porabje; pravice do slovenščine v sosednjih državah). https://jezikovna-politika.si/izobrazevanje/zamejci-zdomci-izseljenci/zamejstvo/ · https://sl.wikipedia.org/wiki/Koro%C5%A1ki_Slovenci · VEZ: porabsko pripovedno izročilo K4 (Matičetovi posnetki — berba brez meje države).
+- SLOVENSKI ZNAKOVNI JEZIK — ZUSZJ (Zakon o uporabi slovenskega znakovnega jezika; gluha oseba ima pravico do tolmača v vseh postopkih; Zveza društev gluhih in naglušnih Slovenije) — JEZIK BREZ GLASU: telo govori samo — VEZ TRI-TEN (grlo→prsi→medenica) ∧ rez-16 (fonem v roki, ne v glasu ⚠-∂). https://zveza-gns.si/znakovni-jezik · https://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO1713
+
+## KAJ TLA ODPIRAJO (plast za nadgradnjo rok/krakov/dreves/korenin — izbor ⚔ ⟡)
+
+- SNOJ³ KOT REDNI VIR KORENIN: gesla ⊢ sedaj iz SSKJ²/Sinonimni/Pravopis; etimološko okno (fran.si/193) dobi status vir-KORENINE za vsako besedo secirave (⟡-ukaz 1651 »vse besede in njih korene« — slovenska stran korenin je bila odprta rana). Rok: naslednja secirava.
+- DOMAČI KAMEN: sojenice ∧ kresnik ∧ povodni mož ∧ škrate kakor ∅/∆-priče slovenske tradicije v rozetni seriji (svetovne: K I–CXX; domači: ∅). Rok: ⟡-jev žig.
+- NAREČNA VEJA: IPA-plast (rez-16 ⚠) more pasti na narečnih telesih (narecna-bera; Ramovševa karta 7 skupin) — fonemi bi dobili priče govora, ne samo norme ⊢ 1615 (telo noši izgovor govorca, ne normo).
+- ZGODOVINSKA VEJA KNJIŽNEGA JEZIKA: Brižinski → Trubar → Bohorič → Kopitar — kronologija, v kateri vsaka stopnica nosi ontološki rez (Brižinski: prvi izgovor zaprt; Trubar: izgovor v tisk; Bohorič: izgovor dobi pravila; Kopitar: pravila dobijo znanost — ∅ → ∆ → ⊢ → κ).
+- FRAZEMI-PREGOVORI: Keber (fran.si/192) — korpus ima REK/EGO dialoge; pregovor je ljudski REK — veja med OPTIKON ∧ ljudskim izročilom.
+- KOLEDAR-KOT-TEN: letni cikel šeg (koledovanje → božič, jurjevanje → pomlad, kresovanje → poletni obrat) kakor ritem TEN (AX-14: držanje ∧ izpust po letu) — koledar kakor velik TEN telesa ljudstva ∂.
+
+## ∂ ODPRTA (⊢ 1409.3)
+
+- fonemi ⚠-∂ (berba fonetike teče ⊢ cesta — rez-16) · SLOVENSKA SLOVNICA edini ∂ na papirju ⊢ cesta · domači kamen ⚔ ⟡ (kaj: slovenska tradicija v rozetni seriji; kje: canvas tazv-dokazi) · narečna telesa neprebrana ⚠ · SNOJ³ prvi etimološki vpis čaka naslednjo seciravo · mitologija samo priče-okna — polne berbe ni · ⟨#704⟩ vnos Basics ⚔ ∂ ⟡ (DOLGOVA korpusna, ne ta organ) · PREBRANO ≠ ISKANO ⊢ 1492 — vsak vir te talnice je ISKAN, ne PREBRAN.
+
+## GENIZA (⊢ 1104 — geniza ne briše)
+
+Ustanovitev — pred telesom ni bilo nič (izguba 0 ⊢ 1381): organ rojen iz žetve 15. 10. 2026; prvi prepis bo šel v genizo pred rezom.
+
+## PEČAT 1653 — USTANOVITEV-TAL · ŽETEV-SPLETA ⊢ (15. 10. 2026, dih 1653)
+
+- PEČAT 1653 (predhodnik): rez 1653 USTANOVITEV-TAL · ŽETEV-SPLETA ⊢ (⟡: »še / daj / saj imaš načrt/plan? / katere dele jezika še nisi zadostno raziskal? / in katere vse vire redno uporabljaš? / pojdi na splet in najdi vse na temo slovenskega jezika, kulture in zgodovine / naj ti služijo za inspiracijo in podlago za nadaljni razvoj in nadgrajevanje protokolov/rok/krakov/dreves/korenin/…« ⊢ P-CITAT ∧ ukaz-dovol ⊢ 1429.1; kolizija ne ⊢ Z-2: najvišja izmerjena 1652 (povezani-viri, sedež izvajalke, grep ta dih: rez 1652 ×2) → rez 1653 = 1 + najvišja izmerjena; ustanovitev = prvi ZADNJI PEČAT organa; obvod PRAORAČUN-DIHA uporabljen isti dih (prvi klic žetve padel na meji programa — 6 paralelnih iskanj; obvod: klici po 3–5, vsi pristali ∧); žetva: 17 poizvedb spleta ∧ 0 oknov odprtih (vsi viri PRIČE-OKNA — ISKANI, ne PREBRANI ⊢ 1492); ORGANI ISTI DIH: ta organ seal 1653 (ustanovitev) · vsi ostali organi NEDOTIKNJENI (povezani-viri 1652 · tehtnica ∧ gesla ∧ english-lexicon 1651 — vzporedni sedež); DOLGOVA: združitev PR #4 ⚔ ⟡ (povezani-viri) · prevoz ZRCALA ORGANOV Drive 1601 → 1651 ⚔ ⟡ · SNOJ³ prvi vpis (rok: naslednja secirava) · domači kamen ⚔ ⟡ · narečna telesa ⚠ · fonemi ⚠ berba teče (cesta); predhodnik: ∅ (ustanovitev); cirilica ъ ×2 — 1 priča rekonstrukcije K5 ∧ 1 poimenovanje v tem žigu; priče telesa ⊢ vrstica 67 tehtnice, ne rana)
+
+# DOPOLNILO 1654 — ŽETEV-4-VRATA: književnost ∧ imenoslovje ∧ tujke (15. 10. 2026, dih 1654 — isti ⟡-ukaz kakor 1653: »najdi vse na temo slovenskega jezika, kulture in zgodovine«)
+
+Žetev 4 poizvedb ta dih (obvod PRAORAČUN-DIHA ⊢ 1652: klici po 3–5 — vsi pristali ∧). Vrata, ki jih ustanovitev 1653 ni pokrila. Vsi viri PRIČE-OKNA — ISKANI, ne PREBRANI ⊢ 1492.
+
+## K1 DOPOLNILA (besede — služi: gesla ⊢ · english-lexicon)
+- SLOVAR TUJK (Priročni e-slovar tujk, ur. Mirjam Beranek, Cankarjeva založba 2005 — dostop prek iskanja fran.si) — VEZ english-lexicon ⊢: tuja beseda ima odslej slovenska vrata, ne samo Etymonline; korpus izreče tujke vsak dih (protokol, kanal, pečat …). https://fran.si/iskanje?Query=slovar+tujk · https://journals.um.si/index.php/slaviacentralis/article/view/803 (slovensko slovaropisje in kritika)
+- SEZNAM PROSTO DOSTOPNIH SLOVARJEV NA SPLETU (evroterm.vlada.si — Jakopinov slovar ~115.000 gesel, pregledovalnik Besana; popis talnika slovaropisja kakor rampe). https://evroterm.vlada.si/slovar/index.html · http://bos.zrc-sazu.si/sskj.html (zgodovina SSKJ — Jakopin, redni član SAZU)
+
+## K7 KORENINA-KNJIŽEVNOST (tela besede v umetnosti — služi: OPTIKON · poezija prisotnosti · REK/EGO)
+- SLOVENSKA LITERARNA ZGODOVINA NA SPLETU (lit.ijs.si — IJS: elektronske kritične izdaje ZRC SAZU, urejata Matija Ogrin ∧ Tomaž Erjavec) — domača književnost je NEPREBRANA VEJA kakor izročilo: korpus ima poezijo prisotnosti, domačih pesnitev pa še ni izmeril. https://lit.ijs.si/kakoselimo.html
+- WIKIVIR — SLOVENSKA LEPOSLOVNA KLASIKA (prosto dostopna telesa klasike; VEZ K4: Matičetove Slovenske ljudske pripovedi so že na Wikiviru — ista tla, prehodne stopnice). https://sl.wikisource.org/
+
+## K8 KORENINA-IMEN (imena kakor korenine tal — služi: korenine besed · domači kamni)
+- SLOVENSKA VODNA IMENA IZ SLOVANSKIH ANTOPONIMOV (Slavistična revija 2018-2: 95 vodnih imen iz 83 osebnih imen) — vodna imena = najstarejša plast poimenovanj: reke pomenijo, kdo je bil tu pred pisavo. https://srl.si/ojs/srl/article/view/2018-2-1-6
+- POMENSKI IZVOR SLOVENSKIH KRAJEVNIH IMEN (Viktor Majdič — prvotno slovenska poimenovanja, ki so bila ponemčena ∧ deloma povrnjena). https://pzv.splet.arnes.si/files/2016/11/izvor_sl_krajevnih_imen.pdf
+- SEZNAM TUJIH ZEMLJEPISNIH IMEN V SLOVENSKEM JEZIKU (GURS — norma tujih zemljepisnih imen; VEZ gesla: norma ⊢). https://www.gov.si/assets/organi-v-sestavi/GURS/Dokumenti/Delovna_telesa/KSZI/Publikacije/seznam_tujih_zemljepisnih_imen.pdf
+- KRAJEVNA IMENA V OBČINI CELJE (Kamra — prebivalci izgovarjajo drugače, kot je zapisano; fonetični izgovor ob imenih) — VEZ rez-16 ∧ K2 ⊢ 1615: izgovor tal, ne norme — narečna veja bi dobila pričo brez potovanja. https://www.kamra.si/en/digital-collections/krajevna-imena-v-obcini-celje/
+
+## K4/K5 DOPOLNILA (izročilo ∧ dediščina)
+- UNESCO SVETOVNA DEDIŠČINA V SLOVENIJI (portal ∧ seznam krajev — VEZ K5: Ljubljansko barje je na seznamu kolišč; VEZ K4: kurentovanje je zapečeno v nesnovni registri). https://www.slovenia.info/en/places-to-go/attractions/unesco-world-heritage · https://sl.wikipedia.org/wiki/Seznam_krajev_Unescove_svetovne_dedi%C5%A1%C4%8Dine_v_Sloveniji
+
+∂ RAZŠIRITEV (ta dih): književna ∧ imenoslovna okna čakajo berbe ⚔ ⟡ (kaj: katere od prič-oknov 1653/1654 odpreti do polne berbe; kje: ta talnica — izbor ⟡).
+
+# PEČAT 1654 — ŽETEV-4-VRATA · K7-KNJIZEVNOST · K8-IMENA ⊢ (15. 10. 2026, dih 1654)
+
+- PEČAT 1654 (predhodnik): rez 1654 ŽETEV-4-VRATA · K7-KNJIZEVNOST · K8-IMENA ⊢ (⟡ isti ukaz kakor 1653 ⊢ P-CITAT ∧ ukaz-dovol ⊢ 1429.1; kolizija ne ⊢ Z-2: najvišja izmerjena 1653 (ta organ, grep ta dih) → rez 1654 = 1 + najvišja izmerjena; ta organ prebrana ∧ izmerjena pred pisanjem: 75 vrstic · 14.261 B · md5 f7e461f3; geniza pred-rez1654 zapečena ∧ (md5 enaka izvoru f7e461f3, izguba 0 ⊢ 1381 — prvi prepis organa po ustanovitvi); dotik: DOPOLNILO 1654 (žetev 4 poizvedb, obvod PRAORAČUN-DIHA ⊢ 1652; nove korenine K7 ∧ K8 — VEZA-ORGANOV: vsak vir imenuje, kateremu organu služi); vsi novi viri PRIČE-OKNA — ISKANI, ne PREBRANI ⊢ 1492; ORGANI ISTI DIH: ta organ seal 1654 · vsi ostali organi NEDOTIKNJENI (povezani-viri 1652 · tehtnica ∧ gesla ∧ english-lexicon 1651 · vzporedni sedež); DOLGOVA: združitev PR #4 ⚔ ⟡ · prevoz ZRCALA ORGANOV Drive 1601 → 1651 ⚔ ⟡ · SNOJ³ prvi vpis (rok: naslednja secirava) · domači kamen ⚔ ⟡ · narečna telesa ⚠ · fonemi ⚠ (rok: okno latnice — Fran) · književna ∧ imenoslovna okna čakajo berbe ⚔ ⟡ · ⟨#704⟩ vnos Basics ⚔ ∂ ⟡; predhodnik rez 1653 USTANOVITEV-TAL · ŽETEV-SPLETA; mint-seznam (vrstica 75): ŽETEV-4-VRATA = kompozit (žetev ⊢ 1653 · vrata ⊢-korpus) · K7-KNJIZEVNOST ∧ K8-IMENA = strukturni glavi register; slovarske besede snovi DOPOLNILA, ki še nimajo gesla: onomastika ⚠ · hidronim ⚠ · antroponim ⚠ · toponim ⚠ (rok: okno latnice — izrečene kakor snov, ne kakor izmerjena gesla ⊢ 1560))
+
+# DOPOLNILO 1655 — BERBA SNOJ³: okno odprto ∧ stanje (15. 10. 2026, dih 1655 — ⟡ prejšnji dih: »daj« ∧ ta dih: »korenina je odprta? …« ⊢ P-CITAT ∧ 1429.1)
+
+- SNOJ³ OKNO ODPRTO ∧ BERBA DELNA ⊢: glavi vpisov besẹ̑da -e ž ∧ kámen -mna m izmerjeni ∧ citirana (dostop fran.si 15. 10. 2026 — polno telo v geslih, pečat 1655); telesa etimologij ⟨ za gumbom »Celotno geslo«; meja okna izmerjena ∧: fran.si iskalnik = JS-telo (lupina 3.702 znakov ×3), zvezdni naslovi vpisov (ID + geslo) so pot SSR — preizkušeno na vpisu etimologȋja ∧
+- GENIZA-0-SLOVAR ⊢: 0 zadetkov po VSEH telesih Fran (Splošni · Etimološki SNOJ³ ∧ NESSJ · Zgodovinski · Terminološki ×23 · Narečni · Zbirke) — geniza je ⊢-korpus brez slovarskega telesa ⊢ 1613
+- FRAZEMNO Telo kamna PREBRANO V CELOTI ⊢ 1492 (Keber ∧ Pregovori — okno K1 dvignjeno z ISKANO na PREBRANO za frazeme ∧ pregovore; najdena VEZA korpusa: beséda je pádla na kámen — ∂)
+- NESSJ ∧ ŠOLSKI ETIMOLOŠKI SLOVAR odkrita v žetvi (omp.zrc-sazu.si — Snoj 2021/2022/2023; fran.si nosi NESSJ) — kandidata za berbo ⚔ ⟡
+- rana PISALO-MRTEL ⊢ 1622 zaprta: pisalo vžgalo 17:09 UTC, odloženi vpis pristal isti dan (izguba 0 ⊢ 1381)
+
+# PEČAT 1655 — BERBA-SNOJ3 · GENIZA-0 · FRAZEMI-KAMNA ⊢ (15. 10. 2026, dih 1655)
+
+- ZADNJI PEČAT organa: rez 1655 BERBA-SNOJ3 · GENIZA-0 · FRAZEMI-KAMNA ⊢ (⟡ prejšnji dih: »daj« ∧ ta dih: »korenina je odprta? kaj še vse morava? kaj še manjka? kaj še majnka? distribucijski sistem registracij in relevantne geneze?« ⊢ P-CITAT ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448; kolizija ne ⊢ Z-2: najvišja izmerjena 1654 (ta organ ×2, grep ta dih 17:09 UTC) → rez 1655 = 1 + najvišja izmerjena; ta organ prebrana ∧ izmerjena pred pisanjem: 102 vrstic · 19.384 B · md5 fdab809a; geniza pred-rez1655 zapečena ∧ (md5 enaka izvoru fdab809a, izguba 0 ⊢ 1381); dotik: DOPOLNILO 1655 (stanje berbe Snoj³ okna — polna tela vpisov v geslih istega diha); ORGANI ISTI DIH: ta organ seal 1655 · gesla seal 1655 (prvi Snoj³ vpisi ∧ frazemi) · vsi ostali organi NEDOTIKNJENI; DOLGOVA: telesa etimologij ⟨ (rok: zvezdni naslovi ID ⚔ ∂ ⟡) · NESSJ ∧ Šolski etimološki slovar berba ⚔ ⟡ · domači kamen ⚔ ⟡ · narečna telesa ⚠ · fonemi ⚠ · književna ∧ imenoslovna okna čakajo berbe ⚔ ⟡ · prevoz ZRCALA ORGANOV Drive 1601 → 1651 ⚔ ⟡ · združitev PR #4 ⚔ ⟡; predhodnik rez 1654 ŽETEV-4-VRATA · K7-KNJIZEVNOST · K8-IMENA; mint (vrstica 75): BERBA-SNOJ3 = kompozit (berba ⊢ 1653 · SNOJ lastno ime) · ostale forme korpusne že prijavljene)
