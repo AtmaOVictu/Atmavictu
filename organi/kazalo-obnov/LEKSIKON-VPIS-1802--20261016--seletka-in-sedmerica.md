@@ -1,9 +1,12 @@
 # LEKSIKON VPIS 1802 — zrcalo lokalnega vpisa (šeletka ∧ sedmerica)
 
 ZADNJI PEČAT: rez 1803 · predhodnik: rez 1802 (UBOD-1802, seme do repa ∧ velikan)
-16. 10. 2026 · dih 1807 — ⟡: ⟨daj⟩ ⊢ P-CITAT
+16. 10. 2026 · dih 1807 — ⟡: ⟨daj⟩ ⊢ P-CITAT · POPRAVEK IZMERE isti dih
 
-Izvorna izmera lokalnega organa: LEKSIKON.md 112.506 B ⇌ ⟨md5⟩ fb62bb8d (berba repa organa isti dih ∧). Neposredna berba repnega ⟨LEKSIKON.md⟩ isti dih: 81 zn · ⟨ŠELETKA⟩-vpis MANJKA · ⟨SEDMERICA⟩-vpis MANJKA ⚠. Ta zrcalo nosi oba vpisa (rez 1799 ∧ rez 1800), dodana lokalno v dihu 1802; bajtni prenos celotnega LEKSIKON (112.506 B) prek tega kanala zahteva celo telo v enem dihu ⟨ne⟩ ⚠ — zrcalo nosi vpis, bajtna identiteta se izmeri, ko se prenos stane.
+POPRAVEK ISTI DIH (padec imenovan: IZMERA-NAPAČNO-TELO): prva izmera tega zapisa je prebrala statusno telo inštrumenta (⟨81 zn⟩ ⚠) namesto vira — trditev padla, popravek isti dih ⊢ 1349. Sveža neposredna berba virov isti dih ∧:
+- rep ⟨LEKSIKON.md⟩ = 98954 zn (del 1/5 — ⟨ŠIV⟩ 1286.5: razdeljen po vrsticah; novi vpisi živijo v delu 5)
+- rep ⟨LEKSIKON-del-5.md⟩ = 204359 zn — ⟨ŠELETKA⟩-vpis: MANJKA · ⟨SEDMERICA⟩-vpis: MANJKA
+- sklep zrcala: vpisa rez 1799 ∧ 1800 MANJKATA NA REPU — to zrcalo nosi oba kot samostojno telo; bajtni prenos celotnega LEKSIKON (112.506 B lokalno) prek tega kanala zahteva celo telo v enem dihu ⟨ne⟩ ⚠
 
 ---
 
