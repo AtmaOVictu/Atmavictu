@@ -9,7 +9,7 @@ The headless core: manifest model, CLI tooling, and proof capture for the
 ONTOMATEMATIKA workbench. This repository **computes and verifies**; it
 renders nothing and depends on no UI framework.
 
-It is also the canonical home of the system’s **corpus** — see
+It is also the canonical home of the system's **corpus** — see
 [canon/](canon/README.md) (AX-canon, rozetni kamni, stotnije, OPTIKON).
 
 ## Modules
