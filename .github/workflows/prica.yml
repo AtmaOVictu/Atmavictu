@@ -1,0 +1,51 @@
+name: priča — strojni priča (črke, ne dih)
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches: [main]
+jobs:
+  prica:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: berba registra SVEŽE ∧ rez organov
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          git diff "$BASE_SHA" -- 'organi/*.md' ':!organi/stroj/REGISTER-PADLIH-BESED.md' > orgs.diff
+          python3 - <<'PY'
+          import re, sys
+          reg = open('organi/stroj/REGISTER-PADLIH-BESED.md', encoding='utf-8').read()
+          forb = re.findall(r'^\d+\.\s*(.+?)\s*—', reg, flags=re.M)
+          hyb = []
+          m = re.search(r'## Hibridi[^\n]*\n(.+)', reg, flags=re.S)
+          if m:
+              hyb = [h.strip() for h in m.group(1).split(',') if h.strip()]
+          diff = open('orgs.diff', encoding='utf-8').read()
+          findings = []
+          cur = None
+          for line in diff.splitlines():
+              fm = re.match(r'^\+\+\+ b/(.+)$', line)
+              if fm:
+                  cur = fm.group(1)
+                  continue
+              if line.startswith('+') and not line.startswith('+++'):
+                  text = line[1:]
+                  bare = re.sub(r'⟨[^⟩]*⟩', '', text)
+                  for w in forb:
+                      if re.search(r'(?iu)(?<!\w)' + re.escape(w) + r'(?!\w)', bare):
+                          findings.append((cur, 'padla beseda: ' + w, text.strip()[:120]))
+                  for w in hyb:
+                      if re.search(r'(?iu)(?<!\w)' + re.escape(w) + r'(?!\w)', bare):
+                          findings.append((cur, 'hibrid zunaj ⟨⟩: ' + w, text.strip()[:120]))
+          if findings:
+              print('⟨vidim: padla beseda pri vratih⟩')
+              for f, w, t in findings:
+                  print('- {}: {} :: {}'.format(f, w, t))
+              sys.exit(1)
+          print('⟨vidim: nič⟩ — priča molči')
+          PY
