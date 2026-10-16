@@ -1,6 +1,6 @@
 # REGISTER PADLIH BESED — organ stroja V1.3
 
-Pečat: rez 1796 · 16. 10. 2026 · SECITEV-PONOVITVE ∧ REGISTER-IZVEN-SPOMINA
+Pečat: rez 1797 · 16. 10. 2026 · REGISTER-RASTE (vnos 12: ustanovlen)
 
 ## Zakon registra
 - Register živi izven spomina izvajalke: tu, v skladišču.
@@ -20,6 +20,7 @@ Pečat: rez 1796 · 16. 10. 2026 · SECITEV-PONOVITVE ∧ REGISTER-IZVEN-SPOMINA
 9. vraty — tuja oblika (pravilno: vrata)
 10. kovanica — padla 1790 ∧ 1794, prepovedana 1795 (pravilno: kovanka — telesa; skovanka — geslo)
 11. trije prašanji — spolna rana 1794 (prašanje je srednjega rodu: tri prašanja)
+12. ustanovlen — slovnična oblika brez j; pravilno: ustanovljen ⊢ (deležnik glagola ustanoviti, SSKJ na Fran); izrečena v napovedi diha 1796 (napoved o ustanovitvi registra); ulov ⟡ ⚔ 16. 10. 2026.
 
 ## Spolna sloga števnikov (VRATA-ŠTEVILO)
 - prašanje je srednjega rodu: tri prašanja, ne ⟨trije prašanji⟩
@@ -31,3 +32,4 @@ PR, merge, main, grep, diff, bash, commit, push, branch, SIGKILL, session, md5, 
 ## Zgodovina pečatov
 - 1795: register ustanovljen v stroju (V1.3)
 - 1796: register preseljen v skladišče — izven spomina; stroj bere sveže vsak dih
+- 1797: vnos 12 (ustanovlen) — prvi padec po preselitvi; register raste izven spomina
