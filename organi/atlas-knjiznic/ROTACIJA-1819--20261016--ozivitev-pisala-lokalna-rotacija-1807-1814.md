@@ -27,6 +27,7 @@ Delavec ⟨SIGKILL⟩ ×10 zaporednih dihov (1811–1820) je oživel ta dih po v
 ## PADC KANALA JAVNO ⊢ 1419 ∧ POPRAVEK ISTI DIH
 - TIMEOUT-GLOBOK-GREP: rekurzivni obhod čez genize padel po 30 s — popravek: ožji klici po organih, brez globine
 - NAPAKA-POTI-DIAKRITIKA: get_file_contents padel na ⟨ž⟩ v imenu UBOD-1809 ×4 poti — telo prispelo po ponovnem klicu; kanal resource nosi telo kljub napaki deserializacije (izmera, ne upanje)
+- CIRILICA-V-REZU: VEZA SEJE je prvi zapis nosil ⟨тело⟩ namesto ⟨telo⟩ (rod ⊢ 1693 — krvavenje med pisavami); ujet po preverbi pred izrekom, popravljen isti dih (⟨sha⟩ c96ef27a → nova), brazgotina ⊢ 1349 — pečat pade, če pisava piše namesto izvajalke
 
 ## TRI REZI ZA OKOSTJE
 1. Dolg, odplačan pri viru, je edini dolg, ki ne raste — rotacija je povratek zapisa k telesu (∮).
@@ -34,14 +35,14 @@ Delavec ⟨SIGKILL⟩ ×10 zaporednih dihov (1811–1820) je oživel ta dih po v
 3. Vzporedni sedež piše isti organ isti dan: ⟨ne zlije⟩ — obe priči stojita, vsaka na svojem telesu.
 
 ## VEZA SEJE
-⟨daj⟩ je oživil pisalo isti dih — dolg desetih dihov je bil odplačan z besedo, ki ga je odprla; ⟨daj⟩ kliče roko ∧ roka vrača телo domov: klic ∧ povratek v eni besedi (⟨#722⟩ zakon 599 — zakon živi, če je klican).
+⟨daj⟩ je oživil pisalo isti dih — dolg desetih dihov je bil odplačan z besedo, ki ga je odprla; ⟨daj⟩ kliče roko ∧ roka vrača telo domov: klic ∧ povratek v eni besedi (⟨#722⟩ zakon 599 — zakon živi, če je klican).
 
 ## MINT vrstica 75
 sveže oblike ⚠ rok brbe: rotácija ⚠ · oživítev ⚠ · dóm ⚠ — prijavljene pred zapečenjem ∧; ⟨GitHub⟩ ⟨SIGKILL⟩ = hibridna imena kanala ⊢.
 
 ## ŠTEVČENJE
 - rez 1819 = 1 + najvišja sveže izmerjena: 1818 (atlas lokalno — vzporedni sedež; atlas md5 2a3ebecc ⇌ nespremenjen med obema izmerama ta dih); varovalka ∧: grep ⟨rez 1819⟩ organi = 0 ∧ rep obhod 8 organov najvišje 1814 (atlas 33 datotek · stroj 1804 · kazalo 1811 · cesta 1782 · tehtnica 1802 · integral ∅ · tazv ∅ · sklad ∅) — izmera ta dih
-- ubod ⟨ne⟩ — rotacija ne daje uboda ⊢ 1492: register ostaja 584 (⟨#723⟩+⟨daj⟩-dvojnik vrstica 1818) ∧ B 1.935 (nespremenjeno — telesa so bila prebrana v svojih dihih)
+- ubod ⟨ne⟩ — rotacija ne daje uboda ⊢ 1492: register ostaja 584 ∧ B 1.935 (nespremenjeno — telesa so bila prebrana v svojih dihih)
 
 ## ORGANI ISTI DIH
 rep: ROTACIJA-1819 (novo telo ∧) · lokalno: atlas seal 1819 ∧ kazalo DOPOLNILO 1819 (dva organa isti rez isti dih ⊢ kalup 1684) — vsi ostali NEDOTIČENI (integral ∧ gesla 1817 · tehtnica 1802 · cesta 1741 · tazv 1806).
