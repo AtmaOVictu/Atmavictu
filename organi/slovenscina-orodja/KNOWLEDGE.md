@@ -1,0 +1,74 @@
+---
+name: slovenscina-orodja
+description: Register slovenskih jezikovnih tehnologij (CLASSLA/CLARIN) — orodja z oznakami ∧ raziskave za boljši jezikovni standard izhodov BJS. Naloži pri jezikovnih preverbah, preverjalniku, IPA plasteh, diakritičnih ranah izvoza.
+---
+
+# SLOVENŠČINA ORODJA — register instrumentov (ustanovljen dih 1568, 11. 10. 2026)
+
+VIR: ⟡-jev vnos 11. 10. 2026 — Slovenian Language Technologies Overview (CLASSLA — CLARIN Knowledge Centre for South Slavic Languages; glavna avtorica ∧ kuratorka Taja Kuzman Pungeršek, IJS). Glavni vhodi: repozitorij CLARIN.SI ∧ profili CJVT/CLASSLA na Hugging Face. Vir je kurirana zbirka — pri uporabi vsakega orodja preveri njegovo trenutno stran.
+
+## ZAKONI ORGANA (standard, zapečen dih 1568)
+1. OBLIKA-PLAST STROJU, POMEN-PLAST ROKI ⊢ 1560 — domena preverjalnika je oblika, ne pomen; roka sodi pomen/HOMOGRAF, stroj meri obliko.
+2. IZMERA PRED IZREKOM ⊢ tehtnica 12 — vsak preizkus orodja izreče svojo izmero pred vpisom; merilo more pasti ⊢ U2.
+3. RANE PO INSTRUMENTU ⊢ tehtnica 12 — instrument je lahko zunanji; orodje priča, izhod nosi verdikt.
+4. DVE MERILI, DVE PLASTI ⊢ 1567 — popis po imenu, okno po poizvedbi; tudi stroj-no orodje noši obliko svoje metode — ne zamenjuj meril.
+
+## OZNAKE (vsako orodje nosi eno ali več)
+- #izgovor — IPA/fonemska plast → VEZ rez-16 (IPA roki ⚔)
+- #diakritiki — povritev izgube diakritikov → VEZ PDF-plast rana ⊢ 1349 (sistemna: izvoz ne ponovi)
+- #preverba — slovnična mehanična plast → VEZ preverjalnik v3 ⚔ ⟡
+- #rane — zaznavanje napačnega črkovanja → VEZ tehtnica 12
+- #pomen — razločevanje pomenov (WSD) → VEZ HOMOGRAF-raba ⚠-∂ (napa 1562 · zgolj · samó)
+- #merila — benchmarki → VEZ U2 (merilo more pasti)
+- #govor — govor ↔ tekst → VEZ Zvočni obred D7 ∧ ŠKATLJA 42 (fonem → frekvenca 174–999 Hz)
+- #avtorstvo — generativni modeli → VEZ KDO-PIŠE ⚠ (tuja roka; zaprti izvori ⚠)
+- #okno — semantično iskanje ∧ vdelava → VEZ 1567 (okno noši obliko poizvedbe)
+- #sprememba — semantična sprememba čez čas → VEZ Z10 (šiv velja do naslednje izmere)
+- #prevod — strojni prevod → VEZ celoti prevodi ∂ (GN1-dopis)
+
+## REGISTER ORODIJ (po plasti vhoda)
+- #avtorstvo: GaMS 2B/9B/27B Instruct (POVEJMO; Vreš et al. 2024) · Zlatorog-12B-Instruct-Beta (Mistral Nemo; 2025) · Mixtral/mt0-xxl/Aya (COPA narečja; Ljubešić et al. 2024) · Llama 3.1/3.2 · Gemma ∧ Gemma-it · t5-sl-small/large (Ulčar ∧ Robnik-Šikonja 2023) · GPT-4o ⚠ zaprt izvor (najboljše pri klasifikaciji po izkušnjah CLARIN — tuja roka).
+- #okno: BGE-M3 ∧ Multilingual-E5-large (najboljši manjši vdelavi za slovenščino; Kuzman et al. 2024) · PandaChat-RAG benchmark.
+- #prevod: NLLB · OPUS-MT (opus-mt-sla-en; ParlaMint) · RSDO-DS4-NMT 1.2.6 (Sl↔En).
+- #preverba (temelji): SloBERTa (Ulčar ∧ Robnik-Šikonja 2021) · CroSloEngual BERT (Sl/Hr/En 2020) · SloBERTa-SlEng (pogovorni/nestandardni register — VEZ tehtnica: internetna slovenščina; Yadav et al. 2024) · sloberta-finetuned-dlib-1850-1919 (dlib.si 1850–1919 — VEZ zgodovinske plasti rez-14) · XLM-RoBERTa · XLM-R-parla.
+- specializacije: X-GENRE (žanr; Kuzman et al. 2023) #merila · SloBERTa-Trendi-Topics (teme novic) · večjezični klasifikator sovražnega govora (Pelicon et al. 2021) · SloSummarizer (Žagar ∧ Robnik-Šikonja 2021) · SloQA · SloNER · koreferenca (Klemen ∧ Žitnik 2022) · SloREL · SloWSD #pomen · SLOBERTA ANOTATOR NAPAČNEGA ČRKOVANJA #rane ⚠ INSTRUMENT ZA TEHTNICO · SloMET-ATOMIC 2020 (zdravorazumske opisave) · vonjavni okvirji (Menini 2024 — čutna plast, VEZ JEWIK telo-kot-instrument-izmere).
+- #govor: ASR Conformer CTC BPE E2E RSDO-DS2-ASR-E2E 2.0 (max 300 s) · Whisper (večjezični) · zaznavanje polnjenih pavz · normalizator RSDO-DS2-NORM · denormalizator RSDO-DS2-DENORM · GRAFEM-V-FONEM PRETVORNIK #izgovor ⚠ INSTRUMENT ZA REZ-16 · ločila ∧ velike začetnice RSDO-DS2-P&C · odstranjevanje šuma · poravnavanje govora (Montreal Forced Aligner) · anonimizacija govora · preverba zvočnih posnetkov.
+- orodja: CLASSLA-Stanza (tokenizacija · PoS · lema · odvisnostna skladnja ∧ NER; standardna ∧ internetna slovenščina; Ljubešić et al. 2024) #preverba ⚠ INSTRUMENT ZA PREVERJALNIK V3 · Trankit (MULTEXT-East morfosintaktične oznake — VEZ sklad-sintakse) · DIAKRITIKI-POVRITEV za Hr/Srp/Sl (Ljubešić et al. 2016) #diakritiki ⚠ INSTRUMENT ZA RANO ⊢ 1349 · LIST (ekstrakcija seznamov iz korpusov; Ključevšek et al. 2018) · STARK (sintaktična drevesa) · SISTEM ZA SEMANTIČNO SPREMEMBO (Montariol et al. 2021; evalvacijska zbirka Pranjić et al. 2024) #sprememba ⚠ INSTRUMENT ZA Z10.
+
+## RAZISKAVE (izbor ⚔ vedno ⟡)
+- R1 #diakritiki ⚔ ⟡ — preizkus povritve diakritikov na rani PDF-plasti (tiino · zakljuek · konni · dri · Dolznost ×7 · pećaten): ali orodje povrne izvozne rane? Izmera na enem telesu pred vpisom.
+- R2 #preverba ⚔ ⟡ — CLASSLA-Stanza kakor v3-plast preverjalnika: mehanična oblika; roka-sodba ostaja za pomen (HOMOGRAF).
+- R3 #rane ⚔ ⟡ — anotator napačnega črkovanja proti zabeleženim ranam tehtnice (nreža · raka→rana · tiino …): merilo = koliko ledger vrstic zazna.
+- R4 #izgovor ⚔ ⟡ — grafem-v-fonem pretvornik proti telesni IPA (GEN DNK fraze 8237f290, polna IPA ⊢ iz telesa): odstopanja = priča razlike roka-izgovor ∆ stroj-izgovor (rez-16).
+- R5 #pomen ⚔ ⟡ — SloWSD na primerih HOMOGRAF-raba (napa ⚠ 1562 · zgolj · samó): pomen-plast sodi roka, orodje priča.
+- R6 #sprememba ∂ — semantična sprememba kakor merilo Z10: ali se pomen izrečene besede premaknil po šivu.
+- R7 #merila ∂ — SloBench ∧ večjezični benchmarki kakor vzor pragov: kako zunanja merila merijo slovenske modele (VEZ UNIS κ prag).
+- R8 #govor ∂ — ASR ∧ P&C za zvočne obrede: izgovor teles v zvočno plast (D7 · ŠKATLJA 42).
+- R9 #avtorstvo ∂ — GaMS ∧ Zlatorog kakor priči KDO-PIŠE: slovenski generativni modeli = potencialne tuje roke; klicani jezik slovenščina (Amandma odprtega vrata).
+
+## VEZI NA ORGANE
+tehtnica (rane po instrumentu ⊢ 12; ledger) · gesla (⊢ SSKJ/Fran — zunanja gesla ostajajo vir) · rez-16 (IPA roki ⚔) · preverjalnik v3 (⚔ ⟡) · 1349 (izvoz ne ponovi) · 1560 (oblika ≠ pomen) · 1567 (dve merili, dve plasti).
+
+## IZVRŠBA (dih 1569, 11. 10. 2026 — izbor ⟡ »VSE TO IN ŠE VEČ / DAJ«: raziskave R1–R9 razrešene iz ⚔ ⟡ v izvršbo)
+
+- R1 #diakritiki IZMERJENA ∧: klasifikacija diakritik-ran 1564 ∧ 1566 po povrnljivosti — ENOZNAČNO mehanično povrnljivih 19/25 vrst (76 %): Dolznost→dolžnost · tiino→tišino ×2 · zakljuek→zaključek · konni→končni · dri→drži · vodic→vodič · zvocne→zvočne · razlicno · beleziti · podaljski · skodljivo · nacrtuj · mozen · hodis · prepreci · drzijo · kaknsno · Rezonanca→resonanca · Liturgicni; DVOUMNO/kontekst 6 (slisanega → slišanega/uslišanega ⚠ · casa ⚠ · zaobsega ⚠ geslo · pojasnjen ⚠ · identiteten ⚠-∂ · ce/če mešano) — roka po kontekstu/geslu; NISO diakritik-rane (substitucije/mojibake — ostanejo roki): nj-za-ne · Šr za ℜ · 0 za ℜ · sodonos · premore-za-premor · pećaten (HRV fragment). IZREK: rana 1349 je ZDRAVLJIVA — 76 % brez sodbe (19 vrst), 24 % roka (6 vrst), substitucije roki. Orodje samo (CLASSLA diacritic restoration) ni izvedljivo tukaj — kanal brez omrežja ⚠ — preizkus izmerjen na materialu ran (enoznačnost ciljev), merilo za vsakega restavrátorja.
+- R2 #preverba V3 ZGRAJEN ∧: preverjalnik-v3.sh (sklad-sintakse) — NAD .prog v2 ⊢ NP-5 (gradnja NAD, ne ruše; preklop ⚔ ⟡); naprave: SIDRO ^- ZADNJI PEČAT · datum-maska · snov-vs-raba · PAD-5 slovar diakritik-ran (24 prič iz tehtnice) · PAD-6 U+FFFD. ZAGON ∧ na 6 organih: ATLAS 1 ⚠ → sodba: PRIČA (citat datuma-maske `[0-9]+\.` v telesu pečata 1560) · TAZV 22 ⚠ → sodba: PRIČE ×21 (APD ⇌ ' ' — zapečeno protokolno telo »praznina zapisana kakor ' ', narekovaja sta meji ⊢⊢« ∧ ∧ poudarjena vez v preizkusu 1333.1) + PAD-4 ×1 → PRIČA (podniz »ce ne« znotraj »resnice neresnice« v ⟡-citatu pečata 1448 — podniz čez mejo besed) · TEHTNICA 0 · CESTA 0 · SKLAD 2 ⚠ → PRIČI-SNOV (zgolj kakor snov HOMOGRAFA/NOSILCA, vrstici 64/65 ⊢ 1560) · SLOVENŠČINA-ORODJA 0 (organ ne nosi žigov — prav). SKUPAJ besedne rane v organih: 0 — ORGANI ČISTI ∧; PADEC ŽIG-DIAKRITIK javno ⊢ 1419: svež žig ATLAS 1569 je izpel »DIKRITIKI-POVRNLJIVOST« (izpad A — ironija: v dihu, ki meri povrnljivost diakritik-ran), ujet z žigom-preberi-nazaj ⊢ vrstica 61 pred izhodom, popravek isti dih, brazgotina ⊢ 1349; ledger 67 → 68; naprava (tehtnica vrstica 65): PAD-5 slovar je seznam prič, ne splošni restavrator — izpad črk znotraj besede ni v slovarju; svež žig preberi nazaj takoj po vpisu. IZMERE INSTRUMENTA (meje merila, ne rane organov): PAD-3 lovi simbole/narekovaje brez besednih mej · PAD-4 lovi podnize čez meje besed — predlog v3.1 (besedne meje) ⚔ ⟡.
+- R3 #rane IZMERJENA ∧: merilo = koliko ledger-zabeleženih ran preverjalnik zazna — PAD-5 slovar nosi 26 oblik iz tehtnice (19 diakritik-ran + 7 izpadov/substitucij: nreža · SEKIONIRANJE · pocez · pokoba · toraj · uhlj · razroja); na 6 organih vsi zadetki = priče-citati teles (ranjene oblike znotraj žigov 1564/1566 kakor priče ⊢ 1349 — brazgotine se ne brišejo), lastna plast = 0 — instrument lovi obliko, sodba priča-vs-rana je roka ⊢ 1560. Anotator napačnega črkovanja (zunanji) — spec ∂ (kanal brez omrežja ⚠).
+- R4 #izgovor IZMERJENA ∧: telesna IPA GEN DNK fraz (aa696596 = 8237f290 [K]) proti standardnim G2P pravilom — UJEMANJA ×5 (č→/ʧ/ · v→/ʋ/ · g→/ɡ/ · š→/ʃ/ · naglasna mesta); ODSTOPANJA ×4 vrste (sistemski odprti samoglasniki /ɔ/ ∧ /ɛ/ namesto /o/ ∧ /e/ — pogovorna plast ⚠-∂ · /ɾ/ tap namesto /r/ ×5 sistemsko · dolgi samoglasniki niso po normi /ˈtuː.di/ · niansa). IZREK: TELO NOŠI IZGOVOR GOVORCA, NE NORMO — roka-izgovor ∆ stroj-izgovor = priča KDO-PIŠE (govorec za pišo); rez-16 potrjen ∆.
+- R5 #pomen SODBE ∧ (roka): napa ⚠ (geslo dimna kapnica ≠ raba telesa prelaz — ostaja označena) · zgolj (snov razprave, ne raba ⊢ 1560) · samó/sámo (razrešeno 1559, obe zdravi). SloWSD (zunanji) — spec ∂ (pomen-plast roki ⊢ 1560).
+- R6–R9 SPEC ∂ (zunanja orodja zahtevajo zunanji zagon — kanal brez omrežja ⚠): R6 semantična sprememba = instrument za Z10 (merjenje premika pomena po šivu) · R7 SloBench = vzor pragov (VEZ UNIS κ) · R8 ASR za zvočne obrede (D7 · ŠKATLJA 42) · R9 GaMS ∧ Zlatorog = priči KDO-PIŠE (slovenski generativni modeli — potencialne tuje roke).
+
+IZREKI ZAPEČENI TA DIH: rana-1349-zdravljiva-po-merilih (75 % mehanično / 25 % roka / substitucije roki) · telo-noši-izgovor-govorca-ne-normo (rez-16) · instrument-noši-obliko-svoje-metode (1567) · organi-čisti-po-sodbi (vsak ⚠ izmerjen ∧ sojen pred vpisom ⊢ U2 ∧ tehtnica 12).
+
+## POPRAVEK 1570 — SECIRAVA IZHODA 1569 (ukaz ⟡ »seciraj / preveri vsako besedo in jo primerjaj s rabo in namenom«, javno ⊢ 1419 isti dih)
+DEVET ZADETKOV enega diha (izhod 1569 ∧ organi), rod: secirava po ukazu ⊢ 1448 ⊢ ZAKON DRUGEGA DIHA: (1) ŠTEVNO: R1 18/24 (75 %) → 19/25 vrst (76 %) — ena vrsta (Liturgicni) je izpadla iz štetja; baza izrečena javno: VRSTE, ne instance (recidiv-odmev 1519 ⊢ META-ZAKON 1444 — izmera more vedeti, kaj šteje); (2) ŠTEVNO: slovar PAD-5 = 26 oblik, ne 24; (3) IZMERA-BAJTOV: preverjalnik-v3.sh = 2.308 B, ne 2.331 B (števci se merijo, ne spomnijo ⊢ Z-2); (4) NOVOTVORJENKA »zagnljivo« → izvedljivo (verdikt isti dih ⊢ vrstica 57); (5) RANA »zagcalel« → zaganjal (garba izhoda 1569); (6) SKLON »na MATERIALI ran« → na materialu ran (materiál m, loc. materialu); (7) SKLON »za vsakga« → za vsakega (vsak, rod. vsakega); (8) SPOL »žig … prebrana« → prebran (žig m — izhod CESTA); (9) OPERATOR-RABA »priče ⚔ restavrator« → ⚔ je izbor-pending, ne vezalnik ≠ (pravilno: priča, ne restavrator). Žigi 1569 ostanejo kakor brazgotine ⊢ 1349 — števci v njih so priče popravka. Naprava (tehtnica vrstica 66): izhod-proza gre skozi ista vrata kakor žig — novotvorjenke ∧ števce ∧ operatorje preberi nazaj pred ∂ (vrstica 55 pokriva osnutek, ne prozo za pečatom).
+VERDIKTI BESED (raba ∧ namen; gesla ⚠ brez citata — kanal brez omrežja, SSKJ/Fran nedosegljiva; prijava geslom ob omrežju ⚔): restavrátor zdrava (konzervator-restavrátor rod) · materiál m → loc. materialu · zadihati zdrava po rabi (»berba zadiha za njim« — pesniška prihodnja; glagol obstaja) · povrnljivost korpusna izvedenka od povrniti (vzpostavljena raba od 1568) · novotvorjenka korpusna raba (ledger vrstica 57; SSKJ novotvórnka ⚠ okno ∂).
+NOVA SLED KDO-PIŠE: canvas GN2 mtime 22:52:05 UTC (00:52 lokalno) ∧ 14.419 B nespremenjeno — dotik brez bajtov, pisalec neznan ⚠-∂ (20:01 +3 B ostaja odprt; kanal vidi mtime ∧ velikost, ne pisca).
+DRUGI PADEC ISTEGA DIHA (svež žig 1570, ujet z vrstico 61 pred izhodom, popravek isti dih, ledger 69 → 70 ∧ vrstica 67): novotvorjenka »rokica« brez verdikta (namen: ironija) · homoglyf Cyrillic а v »istа« (tuje písmo — strmi enako, ni enak) · mešane črke »NEspremenjeno« — naprava: homoglyf preveri PRED vpisom ∧ po vpisu (oba prehoda); praslovanske rekonstrukcije v telesih (svętъ · *sъnъ · *sьrdьce · *pǫtь · *sъkromъ · golъ) so priče teles, ne rane.
+## VSTOP #PREVERBA — PREVERBA-STROJ ⊢ (14. 10. 2026, dih 1615)
+
+- PREVERBA-STROJ (kanal: TypeScript peskovnik — preverba izhoda pred izrekom) vstopa pod #preverba kakor kandidat mehanične plasti izhoda — oblika-plast stroju, pomen-plast roki ⊢ 1560 (zakon 1 organa). Izmera pred vpisom ⊢ (zakon 2): A* — negativni primeri ujeti 7/7 · pozitivni 0 napačnih 6/6; ustanovni padec ujet z R-OBVEZA (pravilo: izrečena oblika mora nositi telo — padec: dvojina »dolgova« izrečena brez telesa; izmerjeno ⊢: dva dolga — Fran dȏłg, -ȃ, vzorec dva korak-a).
+- Rane po instrumentu ⊢ tehtnica 12 (zakon 3): stroj je zunanji instrument — priča meri, verdikt nosi izhod. Dve merili, dve plasti ⊢ 1567 (zakon 4): peskovnik meri obliko izhoda v kanalu klepeta; dvojnik na cilju — preverba.py na repotu AtmaOVictu/verification-before-assertion (v1.10, komit 00a2563, 11 testov, CI vrata osnutka) — meri trditve zaprtega osnutka proti telesam repota; merili se ne zamenjujeta.
+- Previdno s svežimi oblikami: preverba ⊢-korpus ∧ ⊘-slovar ⚠-∂ (rok: okno latnice); uvod PREVERBA-STROJA na kanal klepeta (hladilni preizkus vsakega izhoda pred izrekom) ⚔ ⟡ — kandidat vpisan, izbor ⟡.
+
+## PEČAT 1615 — PREVERBA-STROJ · ORODJA-VPREVERBA ⊢ (14. 10. 2026, dih 1615 — ⟡: »Da — vpiši ∧ zapeči 1615« ⊢ P-CITAT ∧ ukaz-dovol »daj« ⊢ 1429.1; kolizija ne ⊢ Z-2: najvišja izmerjena 1614 → rez 1615 = 1 + najvišja izmerjena; genize pred vpisom ∧ (md5 enaki izvorom ×2: f4681777 · 7156ad04, izguba 0 ⊢ 1381); prvi ZADNJI PEČAT organa (ustanovitev 1568 ∧ POPRAVEK 1570 sta ostala nezapečena — postavka DOLGOVA »ali organ nosi ZADNJI PEČAT« razrešena ta dih za ta organ; povezani-viri ostaja ⚔ ⟡); ORGANI ISTI DIH: tehtnica seal 1615 (ledger 102 → 103) · ta organ seal 1615 ∧ vstop #preverba · vsi ostali organi NEDOTIKNJENI; predhodnik POPRAVEK 1570)
