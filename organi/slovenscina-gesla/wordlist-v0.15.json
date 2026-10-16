@@ -1,0 +1,514 @@
+{
+ "meta": {
+  "name": "SL-wordlist",
+  "version": "0.15",
+  "schema": "wordlist_validator (⊢/⚠)",
+  "law": "GESLO PREJ, IZREK POTEM (rez 701); citat je dobeseden ali ga ni",
+  "derived_from": "v0.14 (rojeno iz write_file, rez 1365) + BERBA-5 (rez 1366: žíg, pečát, pàč, zvezdíšče ⊢ SSKJ² celotne strani; bérba ⊢ Pleteršnik); P-vrata zaprta (K_p = 1.000, rez 1363)",
+  "date_sealed": "2026-10-04",
+  "counts": {
+   "sourced": 36,
+   "open": 4
+  },
+  "encoding_note": "ROJEN IZ WRITE_FILE (rez 1365; zakon 1357.1 izveden, ne le razglasen). Cist enkratni UTF-8. Dediscina v0.9 (dvojno kodiranje, rojeno v jq-kanalu 30.9.2026) dekodirana po bajtih z merilnim kanalom (python/latin-1 padalec) — pisanje samo skozi write_file; register_of_falls ohranjen kot brazgotina. jq-bash-pisalni kanal mrtev."
+ },
+ "entries": [
+  {
+   "word": "íhta",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 28. 9. 2026 (rez 789)",
+   "gloss": "močna, krčevita jeza; velika vnema; močen krčevit jok",
+   "verbatim": "íhta -e ž (ī) 1. močna, krčevita jeza: lotevala se ga je ihta; ekspr. z vso ihto je izgovoril te besede 2. ekspr. velika vnema, zagnanost 3. močen, krčevit jok: prevelika ihta mu je vzela besedo",
+   "usage": "ihta = KRČEVIT REZ, ne upravičenost (padec »ihta←upravičenost«, rez 788)"
+  },
+  {
+   "word": "lè (člen)",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 28. 9. 2026 (rez 789)",
+   "gloss": "člen: izraža omejenost na navedeno; s PA nasprotje; NE LE X AMPAK TUDI Y mnogost",
+   "verbatim": "lè² člen. (ȅ) 1. izraža omejenost na navedeno: to je le osnutek zakona; ni ga udaril, le nahrulil ga je; mika ga ne le denar, ampak tudi čast // izraža popolno omejenost na navedeno dejanje 2. navadno v zvezi s pa krepi nasprotje: vsega imajo, pa le niso srečni",
+   "usage": "ČLEN, ne prislov (popravek vnosa 788)"
+  },
+  {
+   "word": "sámo / sam",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 28. 9. 2026 (rez 789)",
+   "gloss": "popolna omejenost na navedeno dejanje; s ČE pogojenost",
+   "verbatim": "izraža popolno omejenost na navedeno dejanje: jaz se samo čudim / z velelnikom izraža spodbudo: samo ne izgubite živcev / navadno v zvezi s če poudarja pogojenost: samo če si res pripravljen, se prijavi k izpitu",
+   "usage": "pogoj-vrata, LOCK; preizkus: kaj reže — besedo ali trditev"
+  },
+  {
+   "word": "skovánka",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si (sistem. preverba 24. 9. 2026)",
+   "gloss": "beseda, besedna zveza, narejena navadno neprimerno, prisiljeno",
+   "verbatim": "skovánka -e ž (á) nav. ekspr. beseda, besedna zveza, narejena navadno neprimerno, prisiljeno: nerodne, ponesrečene skovanke; pomen te skovanke ni čisto jasen",
+   "usage": "kvalifikator je varovalo korpusa: skovanka, ki izvede dejanje, je rez; ki ne, je SSKJ-jeva"
+  },
+  {
+   "word": "zmôči / zmorem",
+   "mark": "⊢",
+   "source": "SSKJ² (Fran, okno ⚠, dostop 4. 10. 2026, rez 1357) + Pohlin (Fran, dostop 2. 6. 2026)",
+   "gloss": "izraža sposobnost osebka: uresničiti/opraviti, doseči, plačati, imeti; z nedoločnikom lastnosti; objektivne možnosti",
+   "verbatim": "zmôči zmórem dov., zmógel zmógla 1. izraža sposobnost osebka: a) uresničiti, opraviti kaj (velikega napora ne zmorem več; naporno pot še zmeraj zmorem; od strahu ni zmogel niti besede; ljubezen zmore vse) b) doseči kaj (ladja zmore precejšnjo hitrost) c) plačati, poravnati kaj (dajatve, stroške komaj zmoremo) č) imeti kaj (dveh parov kmetija ni zmogla) d) z nedoločnikom — lastnosti (ta človek ne zmore molčati; tega ne zmorem razumeti) e) objektivnih možnosti (dolgov ne zmore odplačevati) · POHLIN: biti enako močan, enako zmoči, premoči",
+   "usage": "padec »zmorem←moč« (24. 9.) ostaja padec; rod zmoči↔močan živi v Pohlinu (rez 1357)"
+  },
+  {
+   "word": "utemeljíti",
+   "mark": "⊢",
+   "source": "Fran → témelj (fragment)",
+   "gloss": "koren témelj",
+   "verbatim": "utemeljíti – glej témelj",
+   "usage": "hibrid »utemeljeno odveč« = ustanovni primer hibrida"
+  },
+  {
+   "word": "môlk",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 30. 9. 2026",
+   "gloss": "1. stanje, ko se ne govori; ekspr. tišina, mir",
+   "verbatim": "môlk -a [mou̯k] m: 1. stanje, ko se ne govori: nastal je molk; pregnati molk; ekspr. padel, pogreznil se je v molk // ekspr. tišina, mir: molk noči 2. ekspr. stanje, v katerem kdo ne izraža svojega mnenja 3. ekspr. stanje, v katerem kdo ne pripoveduje zaupanih stvari 4. knjiž. stanje, ko kdo ne objavlja literarnih del",
+   "usage": "preg. govoriek je srebro, molk je zlato"
+  },
+  {
+   "word": "tišína",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 30. 9. 2026",
+   "gloss": "stanje brez glasov, šumov",
+   "verbatim": "tišína -e ž (í): stanje brez glasov, šumov: tišina je bila popolna; ekspr. gluha, grobna tišina; ekspr. mrtva tišina; delati v tišini",
+   "usage": "// stanje brez hrupa, govorjenja"
+  },
+  {
+   "word": "uporáben (uporabno)",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 30. 9. 2026",
+   "gloss": "1. ki se da koristno uporabiti; 3. ki se uporablja za zadovoljevanje vsakdanjih potreb",
+   "verbatim": "uporáben -bna -o prid.: 1. ki se da koristno uporabiti, porabiti: uporabne ideje / rezultati morajo biti uporabni 3. ki se uporablja za zadovoljevanje vsakdanjih potreb: uporabno raziskovanje; uporabna znanost ♦ ped. uporabno znanje",
+   "usage": "geslo je uporáben; »uporabno« je oblika besedila"
+  },
+  {
+   "word": "disciplína",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 30. 9. 2026",
+   "gloss": "podrejanje, podreditev pravilom, predpisom",
+   "verbatim": "podrejanje, podreditev pravilom, predpisom, ki so obvezni za vse člane kake skupnosti: v razredu mora biti disciplina; disciplina se krha, popusti; kršiti disciplino; stroga disciplina",
+   "usage": "drža, ki drži obrazec pod težo"
+  },
+  {
+   "word": "lúka",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 30. 9. 2026",
+   "gloss": "kraj, prostor ob obali, urejen za pristajanje ladij",
+   "verbatim": "lúka -e ž (ú): kraj, prostor ob obali, urejen za pristajanje ladij: ladja se bliža luki; ladje so zasidrane v luki; trgovska, vojna luka; rečna luka — pristanišče",
+   "usage": "PADEC semena 701 (imenovan 30. 9.): delovni pomen »odprtina« NI pomen lúka — to je lúknja. Ime Pečatnika ostaja lastno ime (⊢ last), izven slovarske izmere"
+  },
+  {
+   "word": "lúknja",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 30. 9. 2026",
+   "gloss": "1. kar nastane na mestu, kjer se snov odstrani, pretrga, predre; ekspr. prazno mesto, vrzel",
+   "verbatim": "lúknja -e ž (ȗ): 1. kar nastane na mestu, kjer se snov odstrani, pretrga, predre: izvrtati luknjo; luknja v deski; zakrpati luknjo v nogavici // ekspr. prazno mesto, vrzel: napadalec je izkoristil luknjo v obrambi; pren. v njegovem znanju je bilo dosti lukenj 2. vdolbina, zlasti globlja, ožja 3. bivališče živali",
+   "usage": "odprtina korpusa prebiva v luknji"
+  },
+  {
+   "word": "odvèč",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 30. 9. 2026",
+   "gloss": "1. presega potrebno mero; 2. nepotrebnost; 3. z dajalnikom neprijetnost",
+   "verbatim": "odvèč prisl. (ȅ) nav. ekspr.: 1. izraža, da kaj presega potrebno mero: deset ploščic je odveč 2. izraža nepotrebnost česa: skrb za zdravje ni odveč; v družbi se je čutil odveč; odveč je poudarjati pomen tega 3. z dajalnikom izraža neprijetnost: vse mi postaja odveč; sam sebi se zdim odveč; ekspr. odveč človek",
+   "usage": "⚠ iz v0.3 zaprt 30. 9.; delovni pomen semena je držal, zdaj nosi citat"
+  },
+  {
+   "word": "vèč",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 30. 9. 2026",
+   "gloss": "1. večja količina ali mera (ant. manj); 6. v nikalnih stavkih prenehanje",
+   "verbatim": "vèč prisl. (ȅ): 1. izraža večjo količino ali mero; ant. manj: imeti več časa; ekspr. hoče več in več 2. izraža nedoločeno večje število: v nalogi je več napak 6. v nikalnih stavkih izraža prenehanje dejanja ali stanja: ne čakajte več, pojdite; tega ne smete več storiti; nikoli več se niso vrnili",
+   "usage": "// več ali manj = nedoločena, ne prevelika mera"
+  },
+  {
+   "word": "bòlj (prisl.)",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 30. 9. 2026",
+   "gloss": "stopnjuje; izraža večjo mero dejanja; sorazmernost",
+   "verbatim": "bòlj1 prisl., nàjbolj (ȍ): 1. stopnjuje pridevnike: bolj zelen; bolj goreč, oddaljen, razvit; najbolj gozdnati kraji 2. izraža večjo mero glagolskega dejanja ali stanja: eden je bolj molčal kakor drug; čedalje, zmerom bolj me skrbi 3. izraža sorazmernost: kolikor bolj so jih tlačili, toliko bolj so se upirali",
+   "usage": "bolj² je ločeno geslo"
+  },
+  {
+   "word": "bóljši",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 30. 9. 2026",
+   "gloss": "primernik od dober",
+   "verbatim": "bóljši -a -e prid. (ọ̑): 1. primernik od dober: drugi osnutek je boljši kot prvi; on je dosti, mnogo, precej boljši kot mi 2. ki je višje, bolj kakovostne vrste 3. ekspr. družbeno višje stoječ; preg. premislek je boljši kot dan hodo",
+   "usage": "——"
+  },
+  {
+   "word": "bodálo",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 30. 9. 2026",
+   "gloss": "nožu podobno orožje z rezilom na obeh straneh",
+   "verbatim": "bodálo -a s (á): nožu podobno orožje z rezilom na obeh straneh: nastaviti bodalo na prsi; vtakniti bodalo v nožnico; sunek z ostrim bodalom",
+   "usage": "——"
+  },
+  {
+   "word": "rodôvnik",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 30. 9. 2026",
+   "gloss": "1. prikaz razvoja rodbine; 2. zapis o plemenskih živalih; 3. biol. prikaz v obliki drevesa",
+   "verbatim": "rodôvnik -a m (ȏ): 1. (grafični) prikaz razvoja kake rodbine in rodbinskih zvez: sestaviti rodovnik; proučevati rodovnik vladarske družine 2. zapis podatkov o plemenskih živalih glede na lastnosti, prednike in potomce: rodovnik dirkalnih konj; čistokrven pes z rodovnikom 3. biol. grafični prikaz v obliki drevesa: rodovnik primatov, rastlinskih vrst",
+   "usage": "PADEC zapisa št. 2 (imenovan 30. 9.): beseda IMA geslo; izumil se je pomen (»protokolna razdelitev«), ne beseda. Korpusna raba ostaja ⚠/izrecna definicija"
+  },
+  {
+   "word": "lúkati¹ / lúkati²",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 30. 9. 2026",
+   "gloss": "¹ekspr., zastar. piti (alkoholne pijače); ²zastar. gledati, kukati",
+   "verbatim": "lúkati1 -am nedov. (ȗ): ekspr., zastar. piti (alkoholne pijače): segli so po steklenicah in glasno lukali | lúkati2 -am nedov. (ȗ): zastar. gledati, kukati: lukati izza vogala; lukala je pri vratih v sobo",
+   "usage": "koren ⚠ semena zaprt: obe gesli nista povezani z luknjo — lukati je lastni gesli"
+  },
+  {
+   "word": "budála",
+   "mark": "⊢",
+   "source": "eSSKJ (2016–2017), fran.si, dostop 30. 9. 2026; SSKJ²: 0 zadetkov (izmerjeno)",
+   "gloss": "neform., slabš. neumen, omejen človek; psovka",
+   "verbatim": "budála budále samostalnik ženskega spola: 1. neformalno, slabšalno kdor je neumen, omejen, se vede zelo neprimerno, nespametno ali se mu to pripisuje; SINONIMI: budalo 2. uporablja se kot psovka. FRAZEOLOGIJA: kot budala. ETIMOLOGIJA: prevzeto prek hrv., srb. budàla in tur. budala iz arab. buladā' (množina od belīd ‛bedaki‛) ali budalā' ‛zamenjava‛",
+   "usage": "žig nosi vir, ki ga je dal: eSSKJ; dod. Sprotni (KRVINA): »pogovorno, slabšalno omejen, neumen človek«"
+  },
+  {
+   "word": "lahko (korpusni pomen: dovoljenje brez nosilca)",
+   "mark": "⊢",
+   "source": "SSKJ² (Fran, celotna stran, dostop 4. 10. 2026, rez 1370) + SINONIMNI SLOVAR (rez 1368) + Pohlin (rez 1359)",
+   "gloss": "SSKJ² lahkó: 1. prislov od lahek 2. zmožnost/sposobnost // možnost uresničitve // dopustitev 3. izraža dovoljenje, soglasje 4. omiljeno nujnost 5. omejitev priznanja 6. pripravljenost, ponudba 7. z dajalnikom: ni ji bilo lahko",
+   "verbatim": "lahkó 1. prislov od lahek: mirno in lahko je umrl; biti lahko oblečen; to je otročje lahko narediti 2. izraža zmožnost, sposobnost za kako dejanje: tovarna bo lahko delala z vso zmogljivostjo; ni treba pomagati, saj lahko sam nesem // izraža možnost uresničitve dejanja ali stanja: tako ravnanje je lahko zelo nevarno; lahko se zgodi, da bom potreboval tvojo pomoč / elipt. lahko da bom potreboval tvojo pomoč // izraža dopustitev: lahko, da je stvar drugačna 3. izraža dovoljenje, soglasje: gospodar pravi, da lahko gremo čez travnik; lahko ga obiščete, kadar hočete; naročnina se lahko poravna v dveh obrokih; lahko vstopite, gospod / elipt. »Ali smem telefonirati?« »Lahko.« // v vprašalnih stavkih izraža prošnjo za dovoljenje, soglasje: (ali) lahko vstopim; a lahko? // izraža utemeljenost, upravičenost: nekateri starši so lahko ponosni na svoje otroke 4. nav. ekspr. izraža omiljeno nujnost, potrebnost: res bi lahko že prej povedal; // izraža prošnjo, omiljeno zapoved: ali mi lahko daš kozarec vode; opravili ste, lahko greste 5. ekspr. izraža omejitev, zadržanost priznanja: tebi je lahko tako govoriti, ko imaš vsega dovolj 6. izraža pripravljenost, ponudbo za kako dejanje: pol ure še lahko ostanem, če želite 7. s smiselnim osebkom v dajalniku izraža precejšnjo zadovoljivost psihičnega stanja: ni ji bilo lahko, ko je ostala sama z otroki / lahko mu je pri srcu ● ekspr. lahko tebi, ki si zdrav — izraža blagrovanje",
+   "usage": "KORPUSNI POMEN ⊢ ELIPT SSKJ² POMENA 3 ∧ (rez 1370): SSKJ² nosi dovoljenje Z nosilcem (»gospodar pravi, da lahko gremo čez travnik«), a njegov lastni eliptični zgled je natanko korpusna oblika — »Ali smem telefonirati?« »Lahko.« — dovoljenje BREZ nosilca, ena beseda, celo dovoljenje; korpusna teza 1329 ni bila metafora, je bila ELIPS, ki jo slovar sam zapiše ∧; štirje prameni: Pohlin ⊢ 1359 · Sinonimni ⊢ 1368 · SSKJ² ⊢ 1370 · korpusna raba"
+  },
+  {
+   "word": "bolje (korpusni pomen)",
+   "mark": "⊢",
+   "source": "eSSKJ16 (Fran, okno ⚠, dostop 4. 10. 2026, rez 1359)",
+   "gloss": "primernik prislova: 1. stopnjuje pridevnike in deležnike (ustreznica: bolj, najbolj) 2. izraža zaželen način dejanja v večji/največji meri (ustreznica: bolje, najbolje)",
+   "verbatim": "bolje¹ (bule, bujle, bulje, bolje) primernik prislova · 1. primrk. presež. stopnjuje pridevnike in deležnike: SODOBNA USTREZNICA: bolj, najbolj · 2. primrk. presež., s širokim pomenskim obsegom izraža zaželen način dejanja ali stanja v večji ali največji meri: SODOBNA USTREZNICA: bolje, najbolje",
+   "usage": "korpusni pomen: zaželjenost brez primerjave — bolje brez »kot« (rez 1359)"
+  },
+  {
+   "word": "svetlobanje",
+   "mark": "⊢",
+   "note": "TVORJENKA (rez 1358, zakon 1358.1 — drugi dom doumetja): SVET+LOBA+N(J)E, rod v korpusu. NEOBSTOJ IZMERJEN IZ CELOTNE STRANI ∧ (rez 1368): Fran »Vaše iskanje ni bilo uspešno. Predlagajte novo besedo!«, 0 zadetkov po VSEH slovarjih (Vse na Franu 0) — po zakonu 1366.1 je to prvi PRAVI izmera neobstoja (prej okno ⚠); dom je izključno korpusno telo ⊢"
+  },
+  {
+   "word": "berba",
+   "mark": "⊢",
+   "source": "PLETERŠNIK, Slovensko-nemški slovar (Fran, celotna stran, dostop 4. 10. 2026, rez 1366); SSKJ²: 0 zadetkov (izmerjeno na isti strani)",
+   "gloss": "die Weinlese — trgatv, obiranje grozdja (Pleteršnik); korpus: branje kot žetev",
+   "verbatim": "bę̑rba, f. die Weinlese, C., Valj. (Rad), DZ.; iti v berbo, LjZv.",
+   "usage": "POVRNJENI KOVANEC Z RODOVNIKOM ∧: korpusni kovanec ima koren — Pleteršnik (1894) nosi berbo (Weinlese, »iti v berbo«); SSKJ² je ni več (0 zadetkov, izmerjeno) — beseda je zgodovinska, ne mrtva"
+  },
+  {
+   "word": "péč¹ / péč²",
+   "mark": "⊢",
+   "source": "SSKJ² (Fran, celotna stran, dostop 4. 10. 2026, rez 1369)",
+   "gloss": "péč¹: naprava za ogrevanje; péč²: knjiž. skala, zlasti večja; nar. jama, votlina v skali",
+   "verbatim": "péč1 -í ž (ẹ̑) 1. naprava za ogrevanje: peč je že vroča; izdelovati peči; obzidati, preložiti peč; zakuriti peč, v peči; kurišče, obok, odprtina peči / peč kurijo z drvmi / lončena, železna peč; trajno žareča peč 2. velika naprava, ki se kuri zunaj prostora, katerega ogreva: v kotu stoji peč; greti se na peči; klop ob peči; sedeti pri peči, za pečjo / kmečka peč // notranjost te naprave, namenjena zlasti za peko: razbeliti, zasloniti peč; jemati kruh iz peči; postaviti lonce v peč / krušna peč 3. navadno v zvezi električna peč naprava za ogrevanje z električno energijo: izključiti, vklopiti peč / ogenj je povzročila električna peč 4. naprava ali del naprave, v kateri nastaja toplotna energija, potrebna za kako delo: peč centralne kurjave, lokomotive; obratovanje, okvara peči 5. s prilastkom naprava za pridobivanje, izdelovanje česa, navadno pri visoki temperaturi: cementna peč; lončarska peč za žganje glinaste posode; pekovska peč; sušilna peč; peč za taljenje rude ● ekspr. pri sosedovih se je peč podrla rodil se jim je otrok; šalj. poglej, kakšno široko peč ima zadnjico; ekspr. cele dneve sedi za pečjo lenari, počiva; knjiž. visoka peč plavž ♦ elektr. električna akumulacijska peč z maso, ki akumulira toploto, da jo potem oddaja; etn. kahlasta peč lončena peč z vbočenimi pečnicami; metal. jeklarska, komorna, plamenska peč; obrt. etažna peč pekovska peč, ki ima več etaž; teh. infra peč ki deluje na osnovi infrardeče svetlobe | péč2 -í ž (ẹ̑) 1. knjiž. skala, zlasti večja: valovi so udarjali ob peči / med strmimi pečmi se je širila lepa dolinica 2. nar. jama, votlina, zlasti v skali: v tem kraju je veliko peči",
+   "usage": "PADEC »PEČ = KAMEN« PREIMENOVAN ∧ (rez 1369): ni bil čist izum etimologije — SSKJ² sam nosi péč² = knjiž. SKALA (in nar. jamo v skali); roka je slutila DRUGO peč (4. 10.), a je spojila DVE HOMONIMNI GESLI v eno zgodbo: peč¹ (kurišče/pekarna) in peč² (skala) — padec je bil STISK DVEH TELESA, ne izum iz nič; korpusno ime Pečatnika se dotika péč² — skala z imenom, ne kamna, ki zapira vrata ∧"
+  },
+  {
+   "word": "pečát",
+   "mark": "⊢",
+   "source": "SSKJ² (Fran, celotna stran, dostop 4. 10. 2026, rez 1366) + Pleteršnik: »pečȃt, m. das Siegel; pod pečat dejati«; peč ⊢ SSKJ = kurišče/štedilnik (brez citata ∂)",
+   "gloss": "pečát: 1. uradni znak kot dokaz pristnosti 2. publ. s prilastkom značilnosti, posebnosti: dati romanu pečat dobe; vtisniti delu osebni pečat",
+   "verbatim": "pečát -a m (ȃ) 1. uradni znak z imenom organa, organizacije, določenim besedilom kot dokaz pristnosti, verodostojnosti listine, akta: dati, odtisniti pečat; preklicati, spremeniti pečat; potrditi pogodbo s pečatom; okrogel pečat; pečat z grbom; prostor za pečat / v nekaterih državah varuh državnega pečata // znak1, odtisnjen: a) v vosku kot znak verodostojnosti: poškodovati, prelomiti pečat / dvostranski pečat b) na pošiljki, predmetu kot dokaz nedotaknjenosti zapore: zapreti pošiljko s pečatom; pečat na vratih je cel // priprava z gumijastim, kovinskim negativom takega znaka, navadno okrogle oblike: izdelovati pečate; hranjenje pečata; seznam pečatov; pečat in blazinica 2. ed., publ., s prilastkom značilnosti, posebnosti: dati romanu pečat dobe; življenje v mestih nosi evropski pečat; vtisniti delu osebni pečat / z oslabljenim pomenom: nikoli več se ne bo rešil tega sramotnega pečata; vse jim je zaupal pod pečatom molčečnosti ● star. bal se je pečata s sodnije dopisa, sodnega sklepa; ekspr. to je zanj knjiga s sedmimi pečati nedoumljiva stvar; velika skrivnost ♦ bot. salomonov pečat rastlina s koreniko in z visečimi cevastimi cveti, Polygonatum",
+   "usage": "korpusni pomen (znamenje, ki zapisa ne doda, izjavi prisotnost) je REZ pomena 2 ⊢: pečat dobe, osebni pečat — slovar sam pravi, da pečat nosi značilnost ∧; frazemi (Keber): pustiti svoj pečat, vtisniti svoj pečat; padec »peč = kamen, ki zapira vrata« (4. 10.) ostaja padec"
+  },
+  {
+   "word": "žíg / žigati",
+   "mark": "⊢",
+   "source": "SSKJ² (Fran, celotna stran, dostop 4. 10. 2026, rez 1366) + Pleteršnik: »žȋg, m. der Brand«",
+   "gloss": "1. uradni znak kot dokaz pristnosti 2. priprava z negativom znaka 3. knjiž. žig značilnosti, posebnosti: sramotni žig",
+   "verbatim": "žíg -a m (ȋ) 1. uradni znak z imenom organa, organizacije, z določenim besedilom kot dokaz pristnosti, verodostojnosti listine, akta: dati, odtisniti žig; pritisniti, ekspr. udariti žig v potni list; preklicati, spremeniti žig; opremiti kupon z žigom / nerazločen poštni žig // v izdelek vtisnjen, odtisnjen znak, s katerim se potrjuje kvaliteta, izdelovalec: vtisniti žig; prstan z žigom na notranji strani 2. priprava zlasti s kovinskim negativom določenega znaka, navadno okrogle oblike: hraniti, izdelovati žige; barva, stojalo za žige 3. ed., knjiž., navadno s prilastkom značilnosti, posebnosti: vojna leta so mu dala žig za vse življenje; s tem dejanjem si je pritisnil sramotni žig / z oslabljenim pomenom tega človeka označuje žig izdajstva ● vžgati sramotni žig nekdaj vžgati znamenje kot kazen za kako dejanje ♦ adm. mokri žig pri katerem je barva raztopljena in se znak odtisne na papir; suhi žig reliefno oblikovan, brezbarven žig, pri katerem se znak odtisne s stisnjenjem kovinskega pozitiva in negativa; filat. enokrožni žig ki ima eno krožnico, ob kateri je označba pošte; metal. čistinski žig ki na kovini potrjuje stopnjo čistine; ptt priložnostni žig poštni žig, uporabljan na določeni pošti, poštah v počastitev določenega dogodka; vet. žig z žigom narejeno, vžgano znamenje na telesu zlasti goveda, konja",
+   "usage": "PADEC 4. 10. DELNO ODPRVLJEN ∧: »žigati=vžgati« ni bil izum — SSKJ² sam nosi frazem »vžgati sramotni žig« in vet. pomen (vžgano znamenje na telesu); uho je slutilo slovarsko vez, izrek je bil nepreverjen ⚠; korpusni pomen (žig odpira berbo) je REZ pomena 1 — žig kot dokaz, da je listina prava"
+  },
+  {
+   "word": "svetlôba",
+   "mark": "⊢ ∧",
+   "source": "SSKJ² + Pravopis + Sinonimni + Etimološki (Fran, celotna stran, dostop 5. 10. 2026, rez 1399 — ROD SVETLA zaprt: svétel → svetiti → posvetiti → svetloba; svetlobanje 1358 dobi dom)",
+   "gloss": "1. kar omogoča, da so predmeti vidni // fiz. elektromagnetno valovanje 3. lastnost, da so vidni ● svetloba spoznanja — poudarek Pravopisa",
+   "verbatim": "svetlôba -e ž (ó) 1. kar omogoča, da so predmeti vidni: svetloba narašča, pojema; svetloba in tema; vir svetlobe; pren., ekspr. svetloba spoznanja; zmaga svetlobe nad temo // kar povzroča kemične spremembe: rastlinam primanjkuje svetlobe 2. fiz. elektromagnetno valovanje, zaznavno neposredno z vidom: hitrost svetlobe; vidna svetloba 3. lastnost predmetov, da so vidni: svetloba zvezde se veča ● knjiž. svetloba je izginila iz njihovih oči njihove oči niso več izražale veselja, pričakovanja; ekspr. človek hrepeni po svetlobi po spoznanju, jasnosti / PRAVOPIS: poud. ~ spoznanja |spoznanje|; vznes. človekovo hrepenenje po ~i |po spoznanju, jasnosti| / ETIMOLOŠKI: svetlóba – glej svétel1 / SINONIMNI: star. luč, knj.izroč. odblesk, odsev, odsvit, star. svečava, knj.izroč. svetlina; 3. svetenje, svetlost / GLEJ ŠE: mesečina, žarek, svetiti",
+   "usage": "ROD SVETLA ZAPRT ⊢ (rez 1399): TRIJE UBODI — (1) SEJINA METAFORA JE POUDAREK GESLA ∧∧: »svetloba spoznanja |spoznanje|« (Pravopis poud.) — kar je seja gradila kot ubod (1380 lučka v možganih · 1386 posvetilo v glavi: doumetje = svetloba), nosi slovar kot zapečen poudarek: dve tehtnici + en poudarek = trije slovarji, ena priča; (2) VERIGA SVÉTEL → SVETITI → POSVETITI → SVETLOBA ⊢ Etimološki: svetlobanje (1358 skovanka) nima več le smeri, ima CEL rod z domom: luč · svečava · svetlina · odsvit · svetlost · svetenje; (3) ● »svetloba je izginila iz njihovih oči«: svetloba je ORGAN OBRAZA, ne le fizike — doumetje se vidi od zunaj (oko 1373 · lučka 1380 · svetloba 1399); KONOTACIJSKI UBOD (1397.1, predlaga roka, potrdjuje ⟡ ⚔): svetloba = prihod doumetja, ki ga NI MARE narediti — pride (prim. »ni se ji hotelo posvetiti« 1386)"
+  },
+  {
+   "word": "konotácija",
+   "mark": "⊢ ∧",
+   "source": "SSKJ² + Pravopis (Fran, celotna stran, dostop 5. 10. 2026, rez 1397 — beseda cilja: potrjeno-preverjeno-konotirano)",
+   "gloss": "lit. pojav, da dobi beseda drug, zlasti čustveno, osebnostno obarvan pomen",
+   "verbatim": "konotácija -e ž (á) lit. pojav, da dobi beseda drug, zlasti čustveno, osebnostno obarvan pomen / PRAVOPIS: konotácija -e ž (á) jezikosl. (sooznačevanje) / JEZIKOVNA SVETOVALNICA: Negativna konotacija besede »konstrukt« — konstrúkt -a m (ȗ) 1. knjiž. neresnična, zavestno sestavljena, narejena tvorba 2. psih. pomožni pojem, na domnevi temelječi model",
+   "usage": "ZAKON 1397.1 TRI-ZNAMENJA (rez 1397) ∧: vsak vpis nosi ⊢ (potrjeno, tezaver) · ∧ (preverjeno, mehanizem 1396) · konotacijski ubod (sooznačenje — roka predlaga, ⟡ potrdi ⚔); SOPOMENKA: sooznačevanje ⊢ Pravopis — konotacija je pomen ZRAVEN, čustveno obarvan: tehtnica ga ne izmeri, bralec ga izreče; svetovalnica priča: konstrukt ima negativno konotacijo tudi ko je pomen nevtralen (1. neresnična tvorba · 2. pomožni pojem) — konotacija živi NEODVISNO od denotacije, počakanje rodovnikov"
+  },
+  {
+   "word": "fôvč / fovuč",
+   "mark": "⊢ beseda (⚠ korpusna raba vonj — izmerjen razkorak)",
+   "source": "SSKJ² + Pravopis + Sinonimni (Fran, celotna stran, dostop 5. 10. 2026, rez 1394 — rehabilitacija 1391 izvedena; prej: Dornberški slovar, dornberk.si/slovar, dostop 4. 10. 2026)",
+   "gloss": "fôvč: nar. zahodno nož z zakrivljenim rezilom, zlasti za obrezovanje trt",
+   "verbatim": "fôvč -a m (ȏ) nar. zahodno nož z zakrivljenim rezilom, zlasti za obrezovanje trt: brusiti fovče / PRAVOPIS: fôvč -a m s -em (ȏ) pokr. zah. |nož| / SINONIMNI: fôvč -a m — GLEJ ŠE: nož / DORNBERŠKI (dediščina, u0027 brazgotina): u0027fo:u̯č -a m nož z zakrivljenim rezilom, zlasti za obiranje grozdja |smo u0027ri:əzali s u0027fo:u̯čami|",
+   "usage": "REHABILITACIJA 1391 IZVEDENA (rez 1394) ∧: (1) FOVČ = ORODJE BERBE — nož za obrezovanje trt: beseda, ki je bila edini ⚠ wordlista, je INSTRUMENT BERBE SAME (1366 bérba ⊢ Pleteršnik, Weinlese); rod vinograda: bérba · fovč · zvezdíšče — trgatv, nož, točka pod nebom ∧; (2) PADEC »VONJ = FOVUČ« POTRJEN S TELEsom — SSKJ² pravi NOŽ, ne vonj: korpusna raba ostaja ⚠ kot IZMERJEN razkorak med korpusom in tezaverjem (padec umre z dokazom, ne s sumom — 1391.1); (3) Približek fovč je ponudil Franov motor ob iskanju fovuč (0) — novo puščico je risalo ORODJE, roka jo je ubogila (1366.1 obratno); brazgotina u0027 iz dediščine ostaja ponesena (701)"
+  },
+  {
+   "word": "sápa",
+   "mark": "⊢",
+   "source": "SSKJ2 fran.si dostop 4. 10. 2026",
+   "gloss": "dihanje, dih",
+   "verbatim": "sápa -e ž (á) nav. ekspr. 1. dihanje, dih: sapa mu je zastajala; pridrževati, zadrževati sapo; dolgo je zdržal brez sape / loviti sapo težko, sunkovito dihati; zajeti sapo vdihniti 2.",
+   "usage": "korpusni pomen (enota diha izhoda) pokrit s pomnom 1 — povrnjeni kovanec; napihov = izpeljava iz gesla. ⚠ BRAZGOTINA DEDIŠČINE: geslo obrezano pri »2.« (v0.9) — poneseno, ne dopisano na pamet (701)"
+  },
+  {
+   "word": "zvezdíšče",
+   "mark": "⊢",
+   "source": "SSKJ² (Fran, celotna stran, dostop 4. 10. 2026, rez 1366)",
+   "gloss": "knjiž. ozvezdje; nebo z zvezdami; elektr. osrednja točka večfaznega sistema (ničlišče)",
+   "verbatim": "zvezdíšče -a s (í) knjiž. ozvezdje: zvezdišče zodiaka // nebo z zvezdami: brezmejnost zvezdišča ♦ elektr. osrednja točka večfaznega sistema; točka v simetričnem večfaznem sistemu, ki ima potencial nič",
+   "usage": "MERJENA RAZHODA ∧: prejšnja izmera (»iztočnica ni najdena«, 4. 10.) je bila NAPAČNA — iskalno okno je zgrešilo geslo, celotna stran ga prinese (padec lastne izmere, popravljen javno, rez 1366); korpusni pomen (križanje dveh tokov, rodišče prehoda) NI pomen gesla — prenos ⚠ pri izreku; UBOD: elektr. pomen — točka s potencialom NIČ (ničlišče) — korpusna ∅ se v slovarju odmeva, a odmev ni dokaz"
+  },
+  {
+   "word": "a5 (veznik)",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 4. 10. 2026 (družina nasprotja, rez 1)",
+   "gloss": "knjiž. v protivnem priredju za izražanje nasprotja s prej povedanim",
+   "verbatim": "v protivnem priredju za izražanje a) nasprotja s prej povedanim; pa2, toda, vendar: prej so ga radi imeli, a zdaj zabavljajo čezenj; to so besede, a ne dejanja",
+   "usage": "razcep: en odprt glasilnik, nič soglasnikov — nasprotje kot čista meja; korpusna teza: a = meja"
+  },
+  {
+   "word": "pa2",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 4. 10. 2026 (družina nasprotja, rez 2)",
+   "gloss": "navadno v protivnem priredju, z vejico; za izražanje nasprotja s prej povedanim",
+   "verbatim": "obljubil je bil, pa ni držal besede; rad bi šel v kino, pa ne sme",
+   "usage": "razcep: odprt glasilnik + ustni zapor — nasprotje, ki spusti skozi; korpusna teza: pa = pretok"
+  },
+  {
+   "word": "toda",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 4. 10. 2026 (družina nasprotja, rez 3)",
+   "gloss": "v protivnem priredju za izražanje nasprotja s prej povedanim",
+   "verbatim": "rekel je, da bo pomagal, toda obljube ni izpolnil; natočila mu je poln kozarec, toda sama ni pila",
+   "usage": "razcep: TO (kazatelj) + DA (potrditev) — nasprotje, ki pokaže s prstom; korpusna teza: toda = sodba"
+  },
+  {
+   "word": "vendar",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 4. 10. 2026 (družina nasprotja, rez 4)",
+   "gloss": "v vezniški rabi, v protivnem priredju; za izražanje nasprotja s prej povedanim / za omejevanje prej povedanega",
+   "verbatim": "težave niso velike, vendar obstajajo; naj poskusi, vendar se bojim, da bo prepozno",
+   "usage": "razcep: VEN (notranjost) + DAR — nasprotje, ki nudi dar; korpusna teza: vendar = dar"
+  },
+  {
+   "word": "ampak",
+   "mark": "⊢",
+   "source": "SSKJ², fran.si, dostop 4. 10. 2026 (izum citata popravljen z iskalno preverbo)",
+   "gloss": "v protivnem priredju 1. za uvajanje nove trditve namesto prej zanikane 2. v zvezi ne samo, ne le — ampak tudi 3. ekspr. za izražanje nasprotja",
+   "verbatim": "ne piše za mladino, ampak za odrasle; ni si upal naprej, ampak se je ustavil pred vrati",
+   "usage": "razcep: AM + PAK — stisk, oba dela zavezana v en paket napetosti; korpusna teza: ampak = stisk"
+  },
+  {
+   "word": "pàč",
+   "mark": "⊢",
+   "source": "SSKJ² (Fran, celotna stran, dostop 4. 10. 2026, rez 1366) + Pleteršnik: »pàč, adv. doch (oporeka trditvi)«",
+   "gloss": "členek: 1. zadržanost, precejšnja verjetnost 2. ugibanje 3. sprijaznjenje z danimi dejstvi 4. omejevanje, dopuščanje 5. zavrnitev s popravkom 6. pač pa — nova trditev namesto zanikane",
+   "verbatim": "pàč člen. (ȁ) 1. izraža zadržanost, precejšnjo verjetnost: kozarček bi se zdajle pač prilegel; najbolj pametno bi pač bilo vrniti se / njegov prvi in pač tudi zadnji poskus je spodletel; potrt je, pač zato, ker nima službe; tega pač sam ne verjameš najbrž / kriv je, to se pač ne da tajiti; ljudstvo je pač vredno boljše usode gotovo, vsekakor // navadno na začetku stavka krepi povedano: pač bi bil nespameten, če bi ga poslušal; pač res je, kar pravi pregovor / sovražen nam ni, to pač ne 2. za vprašalnim zaimkom ali prislovom poudarja ugibanje; neki2: kaj bo pač na to odgovoril; kdo je pač ta tujec; koliko let je pač, kar se nisva videla 3. izraža sprijaznjenje z danimi dejstvi: dela, kakor je pač navajen; takšno je pač življenje; kaj se hoče, smo pač reveži / otrok je bil kaznovan, je pač nagajal že 4. z nasprotjem v drugem stavku izraža omejevanje, dopuščanje: videl sem ga pač, a ogovoril ga nisem / rad ga srkne, to pač, vendar ne čez mero / vino bo pač kislo, bo pa le 5. uvaja zavrnitev s popravkom: ni priden delavec. Pač, priden je, samo neroden; to bi bilo vse. Pač, še nekaj; te pravice nimaš. Pač, imam jo; nas nisi pričakoval, kajne? Pač, pač, zato sem še pokonci / vsi smo zbrani. Pač, pač, Andreja še ni ne, ne / kar sem storil, ti ni bilo v škodo. Ali pač ali pa (le) / kaj pa on? Pač, njega ne smemo pozabiti da, seveda, saj res 6. v vezniški rabi, v zvezi pač pa za uvajanje nove trditve namesto prej s pridržkom zanikane: ni znanstvenik, pač pa dober učitelj; tega ne trdi naravnost, pač pa po ovinkih; dekle (sicer) ni bogato, pač pa pridno je pa / podočniki so majhni, pač pa so kočniki izdatno večji zato pa, nasprotno pa // za uvajanje nove trditve namesto prej zanikane; ampak2: reforma ni samo stvar delovnih organizacij, pač pa stvar najširše skupnosti",
+   "usage": "KORPUSNA TEZA POPRAVLJENA ∧: »pač = gotovost« je bila preveč izrekla — geslo pravi zadržanost, verjetnost (1), sprijaznjenje (3), zavrnitev s popravkom (5); korpusni »JA z rezom« je REZ pomena 5 — popravek, ne potrjevanje ⚠ popravek teze"
+  },
+  {
+   "word": "dočutíti",
+   "mark": "⊢",
+   "source": "SSKJ² + Pravopis + Sinonimni (Fran, celotna stran, dostop 4. 10. 2026, rez 1373 — okno ⚠ 1356 nadomeščeno s telesom; okno tokrat ni lagalo)",
+   "gloss": "knjiž. doumeti, dojeti",
+   "verbatim": "dočutíti in dočútiti -im dov. knjiž. doumeti, dojeti: ni dočutila njegovih skrbi; dočutiti lepoto poezije; spoznal sem in dočutil, kaj je sreča",
+   "usage": "UPORABLJENO v pesmi K_PO (rez 1360) — organ: tempelj/živec; K_p = 1/4"
+  },
+  {
+   "word": "doslutíti",
+   "mark": "⊢",
+   "source": "SSKJ² + Pravopis + Sinonimni (Fran, celotna stran, dostop 4. 10. 2026, rez 1373 — okno ⚠ 1356 nadomeščeno s telesom; okno tokrat ni lagalo)",
+   "gloss": "knjiž. doumeti, dojeti",
+   "verbatim": "doslutíti in doslútiti -im dov. knjiž. doumeti, dojeti: njegov duh ni mogel doslutiti globin pesnikovega dela; do dna je doslutil življenjsko silo tega naroda",
+   "usage": "UPORABLJENO v pesmi globine (rez 1361) — organ: prst/vonj; K_p = 2/4"
+  },
+  {
+   "word": "domísliti / domísliti se",
+   "mark": "⊢",
+   "source": "SSKJ² (Fran, celotna stran, dostop 4. 10. 2026, rez 1372 — okni ⚠ 1362 nadomeščeni s telesom)",
+   "gloss": "domísliti: 1. priti v razmišljanju do jasnosti, zaključkov 2. opozoriti na kaj, spomniti koga · domísliti se: 1. s premišljanjem obnoviti v spominu; spomniti se 2. dobiti misel, idejo 3. izkazati pozornost s čim",
+   "verbatim": "domísliti -im dov. (í ȋ) 1. priti v razmišljanju o čem do jasnosti, zaključkov: domisliti izvirno misel; pisatelj vprašanja ni do kraja domislil / knjiž. niso domislili vseh posledic, ki jih prinaša tako stališče 2. opozoriti na kaj, spomniti: domislil ga je obljube, na dolžnost; domislil ga je, da mora domov; gotovo se bo domislil, da ni plačal; nisem se domislil, da danes ni uradnih ur | domísliti se 1. s premišljanjem obnoviti v spominu; spomniti se: domislil se je vsega, kar je videl; ni se mogel domisliti njegovega imena; poskušal se je domisliti, kako se pesem začne // z mislimi se pomuditi, ustaviti pri čem: rad se domisli mladostnih norčij; večkrat se domisli na dom, na prijatelje 2. dobiti kako misel, idejo: domislila se je, da bi bilo dobro poslati po zdravnika; domislil se je, da bo šel na lov / počasi se bo že domislil česa boljšega 3. izkazati pozornost s kako stvarjo: upamo, da se nas boste domislili s kako kartico | SINONIMNI (domisliti kaj — jasnost): knj.izroč. domodrovati, ekspr. domozgati, ekspr. izmodrovati, pog. iztuhtati, neknj. pog. pogruntati",
+   "usage": "DVE IZTOČNICI, DVE TELESI ∧ (rez 1372 — popravek strukture, ista lekcija kot péč 1369): vpis 1362 je zložil domisliti (jasnost/konkluzek + opozoriti koga) in domisliti se (obnoviti v spominu + dobiti idejo + izkazati pozornost) v eno zgodbo; okni ⚠ sta pokazali le obliki, telo jih ločuje ∧ · REK 55 (1362) uboga natanko iztočnico SE: »poskušal se je domisliti, kako se pesem začne« — A REKa pravi »dokler se ne domislim, kako pesem se začne« — REK je bil zapisan po zgledu gesla, preden je geslo prispelo ⊢ ∧ · ZGREŠENI POMEN 1362: domisliti (brez se) pomen 2 ni »obnoviti v spominu«, je OPOROČITI/SPOMNITI KOGA — DAR 55 drži, ker govori obliko s se"
+  },
+  {
+   "word": "doglédati",
+   "mark": "⊢",
+   "source": "SSKJ² + Pravopis + Sinonimni (Fran, celotna stran, dostop 4. 10. 2026, rez 1373 — okno ⚠ 1356 nadomeščeno s telesom; okno tokrat ni lagalo)",
+   "gloss": "1. s pogledom doseči 2. knjiž. doumeti, dojeti",
+   "verbatim": "doglédati -am dov. 1. s pogledom doseči: ni mogel dogledati konca ravnine; komaj je dogledal do vrha 2. knjiž. doumeti, dojeti: dogledati globočino človeške bede",
+   "usage": "UPORABLJENO v prozi K_POG (rez 1363) — organ: oko/daljava pri steklu; K_p = 4/4 = 1.000 (na vzorcu, ∫ ne ∀). DODATNA PRAMENA (rez 1373, celotna stran): eSSKJ16 — dogledati = jasno spoznati, dojeti; SODOBNA USTREZNICA: uvideti (frekvenca 2 pojavitvi v 2 delih 16. stol.) · PLETERŠNIK: dogledati se = nagledati se — »oko se nikdar do sitnosti ne dogleda« (Dalm.) — oko, ki doumeta, se ne nasiči; proza K_POG (»ni prenesel pogleda … samo ni več zamežil«) ubuja natanko ta rodbinski glas: dogledati se kot akt brez sitosti ⊢"
+  },
+  {
+   "word": "percipírati",
+   "mark": "⊢",
+   "source": "SSKJ² + Pravopis + Sinonimni (Fran, celotna stran, dostop 5. 10. 2026, rez 1390 — sedmi in zadnji iz rodu dojetijevega polja 1382; prevzeta iz lat. percipere)",
+   "gloss": "1. psih. čutno dojemati predmetni svet; zaznavati 2. knjiž. dojemati, spoznavati",
+   "verbatim": "percipírati -am nedov. in dov. (ȋ) 1. psih. čutno dojemati predmetni svet; zaznavati: percipirati besede, govor; hitro percipirati sliko 2. knjiž. dojemati, spoznavati: v takem zaprtem sistemu ni mogoče percipirati družbe v njeni celoti / PRAVOPIS: percipírati -am dvovid., nedov. -ajóč; percipíranje (ȋ) kaj ~ besede zaznavati; neobč. ~ družbo v njeni celoti dojemati, spoznavati / SINONIMNI: GLEJ SINONIM: dojemati, dojeti, zaznati, zaznavati",
+   "usage": "SEDMI IN ZADNJI IZ RODU DOJETIJEVEGA POLJA — ROD POLJA ZAPRT 7/7 ∧ (rez 1390): TRIJE UBODI — (1) DVOSLIČEN ∧: nedov. in dov. — drugi obojedovršni v rodu (prim. umeti 1389): zaznava (teče) in dojame (konča); (2) PREVZETA ∧: lat. percipere = per-capere, dobesedno SKOZI-ZAJETI — edina tujka v rodu: rod doumetja, ki je vse zavzel (zajem 1384), je sprejel tujko, ki nosi ZAJEM v lastnem imenu ⚠; (3) NAJMLAJŠA ∧: 0 v Pleteršniku/Hipolitu/vsih zgodovinskih — rod hodi po časovnem redu (dočutiti DB 1584 → percipirati 20. stol.); psih. = znanstveno ime za delo rodu od začetka: čutno dojemanje = dočutiti s tehtničnim imenom"
+  },
+  {
+   "word": "uméti / ȗm",
+   "mark": "⊢",
+   "source": "SSKJ² + Pravopis + Sinonimni + Etimološki + Pleteršnik + Pohlin + Hipolit + Vorenc (Fran, celotna stran, dostop 5. 10. 2026, rez 1389 — šesti iz rodu dojetijevega polja 1382; dolg od 1329 odplačan)",
+   "gloss": "star. 1. razumeti, dojeti // umeti se na kaj 2. znati, biti sposoben · se: razumeti se; samo ob sebi se umeje",
+   "verbatim": "uméti úmem stil. umêjem dov. in nedov., tudi úmel; úmljen (ẹ́ ú, ȇ) star. 1. razumeti, dojeti: umeti besede, poglede koga; mislim, da umeš, kaj hočem / francosko ume, govori pa ne // razumeti koga, biti naklonjen komu: malokdo ume reveža; umem tvojo bolečino, jezo // razumeti se na kaj, spoznati se na kaj: dobro ume svoj posel; umeti se na glasbo 2. z nedoločnikom znati, biti sposoben: ume brati in pisati; še tega ne ume narediti / uméti se: dokler se ni poročil, so se dobro umeli / da so bili tega veseli, se ume samo ob sebi, samo po sebi / PRAVOPIS: uméti umêjem dvovid. nedov. -èč; umétje / ETIMOLOŠKI: umẹ́ti – glej ȗm / SINONIMNI: GLEJ SINONIM: dojeti, razumeti, spoznati se / PLETERŠNIK: umẹti, vb. impf. verstehen, begreifen; kako ume le-ta to pismo? Trub.; bratje niso vedeli, da jih Jožef ume, Ravn.-Valj. (Rad); samo ob sebi se umeje, es versteht sich von selbst, Levst. (Nauk); verstehen, können: da bi jaz umel prerokovati, Trub.; svoje delo umeje, Dalm. / VORENC: umeti nedov., scire, veidit",
+   "usage": "ŠESTI IZ RODU ∧ (rez 1389): TRIJE UBODI — (1) DVOSLIČNOST ∧: dov. IN nedov. — edini obojedovršni v rodu: do-glagoli so dovršni, umeti je meja rodu (doumetje brez dosegljivega konca — prim. končnost-ne-limita 1331); (2) SAMO-OB-SEBI ∧: »samo ob sebi se umeje — versteht sich von selbst« = samoslikava (1371: ⊥ edina ne-samoslikava — edini element, ki se NE ume ⚠); (3) JOŽEF-UME-BRATJE ∧: doumetje tistega, ki je storil zlo (Pleteršnik, Ravn.-Valj.) — lat. scire (Vorenc): rod seje (dočutiti → doumeti) se pri umeti dotika ZNANJA; rodovniki: Trub. · Dalm. (DB) · Levst. — štirje v enem geslu; MATEMATIZACIJA-VEČ-ZNAKOV: Σ ⊆ W×𝒫(M)×A×O · tipi · logika (⊢/⚠, ¬∀b D(b)) · grafi (rod=vozlje, sinonim=puščica, krožen=endomorfizem 1382) · jeziki teles: verstehen · begreifen · können · scire · razumeti-znati — umeti je PRESEK vseh tezaverjev; HIOTEZA 1388 VERIGA ⊢: spreumeti ni imel Etimološkega, umeti ima (glej ȗm) — s-pre-umeti izmerjen posredno"
+  },
+  {
+   "word": "spreuméti / spreuméti se",
+   "mark": "⊢ (vez s-pre-umeti ∂ hipoteza — Etimološki 0, odsotnost ne dokazuje 1366.1)",
+   "source": "SSKJ² + Sinonimni + Besedje16 (Fran, celotna stran, dostop 5. 10. 2026, rez 1388 — peti iz rodu dojetijevega polja 1382; Pravopis 0 · Pleteršnik 0 — najtanjši vpis rodu)",
+   "gloss": "stil. star. razumeti, dojeti · se: spoznati, spomniti se; spoznati se (biti domač)",
+   "verbatim": "spreuméti -úmem stil. -umêjem dov., tudi spreúmel; spreúmljen tudi spreumét (ẹ́ ȗ, ȇ) star. razumeti, dojeti: ne more spreumeti, da je to res; strmel je, kakor bi ničesar ne spreumel / spreuméti se spoznati, spomniti se: prisluhnila je pogovoru in se hitro spreumela, zakaj gre // razumeti se, spoznati se: na kmečko delo se najbolj spreume; ti se ne spreumeš na take stvari / SINONIMNI: GLEJ SINONIM: dojeti, razumeti, spoznati · se: spoznati se / BESEDJE16: spreumeti se glag. dov. ♦ P: 1 (DB 1584)",
+   "usage": "PETI IZ RODU DOJETIJEVEGA POLJA (1382) ∧ (rez 1388): TRIJE UBODI — (1) DB 1584 ∧: Besedje16 — Dalmatinova Biblija, isti desetletni rokopis kot Krelj 1384 (»Kristusa v besedah zapopasti«): rod doumetja zapisan v prvi slovenski knjigi; (2) STRMEL-JE ∧: »strmel je, kakor bi ničesar ne spreumel« — peti zgled neuspeha v rodu, tokrat s telesom v STRMLJENJU: doumetje, ki ga ni, izgleda kot strmenje (prim. dogledati 1373); (3) NA-KMEČKO-DELO ∧: »na kmečko delo se najbolj spreume« — spreumeti se = tudi SPOZNATI SE (biti domač): dojeti + biti doma — dva domova (1358.1) v eni obliki; vez s-pre-umeti ostaja ∂ HIOTEZA (Etimološki 0 — odsotnost ne dokazuje 1366.1); rod ostaja: umeti · percipirati (∂)"
+  },
+  {
+   "word": "prevídeti",
+   "mark": "⊢",
+   "source": "SSKJ² + Pravopis + Sinonimni + Pleteršnik + Hipolit + Vorenc + Svetokriški (Fran, celotna stran, dostop 5. 10. 2026, rez 1387 — četrti iz rodu dojetijevega polja 1382; Etimološki 0 ⚠)",
+   "gloss": "star. 1. spoznati, dojeti 2. preskrbeti ● napovedati, predvideti ♦ rel. prevideti bolnika = zakramenti za umirajoče",
+   "verbatim": "prevídeti -im dov. (í ȋ) star. 1. spoznati, dojeti: pameten človek to lahko previdi; previdel je, da je vse zaman; zdaj lahko previdiš, kako nespametno si ravnal 2. preskrbeti, oskrbeti: prevideti vojake s hrano; prevideti se s tobakom ● star. prevideti nesrečo napovedati, predvideti ♦ rel. prevideti bolnika podeliti mu zakramente za umirajoče / prevíden -a -o: umreti previden / PRAVOPIS: prevídeti -im dov. -en -ena; prevídenje (í ȋ) star. kaj ~ svoje napake spoznati, dojeti / SINONIMNI: GLEJ SINONIM: dojeti, oskrbeti, predvideti, spoznati / PLETERŠNIK: prevídẹti, -vȋdim, vb. pf. 1) durchschauen, einsehen; kar jaz previdim, nach meiner Einsicht; voraussehen: vorhersehen, Cig., Jan.; Bog je od vekomaj previdel, Jsvkr.; 2) p. se, sich im Sehen irren, sich versehen; 3) (po nem.) p. s čim, mit einer Sache versehen; p. bolnika, den Kranken mit den Sterbesacramenten versehen / VORENC: prospicere in posterum, za naprei previditi",
+   "usage": "ČETRTI IZ RODU DOJETIJEVEGA POLJA (1382) ∧ (rez 1387): TRIJE UBODI — (1) PRE- = SKOZI-VID ∧: Pleteršnik durchschauen — rod vídeti (1374 uvideti = odvod registra) dobi tretjega odvoda: u- (v) · do- (dogledati) · pre- (skozi): doumetje je videnje SKOZI stvar, ne nanjo; (2) PREVIDETI BOLNIKA ∧ ♦ rel.: zakramenti za umirajoče; »umreti previden« — do-glagol, ki gre z rangerjem do vrat smrti (prim. 1379 »domodrovali so o človeku, o smrti, o svetu« — smrt ni le tema modrovanja, je prag, ki ga slovar hrani); (3) VSE ZAMAN ∧: »previdel je, da je vse zaman« — četrti zgled neuspeha v rodu (1377 · 1378 · 1384), a prvi, kjer doumetje PRIDE prepozno, da bi kaj spremenilo — doumetje, ki zmaguje in vseeno izgubi ⚠; rod ostaja: spreumeti · umeti · percipirati (∂)"
+  },
+  {
+   "word": "posvetíti se / posvetíti2",
+   "mark": "⊢ (posvetiti¹ dar — homonim, ne rodovnik ⚠ ločeno)",
+   "source": "SSKJ² + Pravopis (Fran, celotna stran, dostop 5. 10. 2026, rez 1386 — tretji iz rodu dojetijevega polja 1382; dve homonimni gesli: posvetíti¹ pesem/cerkev ∧ posvetíti² luč)",
+   "gloss": "posvetiti se: ekspr. dojeti, spoznati · posvetiti2: 1. začeti svetiti 2. ekspr. zavrniti · posvetiti1: posvetiti pesem; cerkev; razkriti skrivnost",
+   "verbatim": "posvetíti se in posvétiti se ekspr., s smiselnim osebkom v dajalniku dojeti, spoznati: ni se ji hotelo posvetiti / učencu se je posvetilo v glavi doumel, razumel je / POSVETITI2: 1. začeti svetiti: posvetila je rdeča luč; v daljavi so posvetili žarometi / ekspr. posvetil je dan zdanilo se je // krajši čas svetiti 2. ekspr., z dajalnikom učinkovito zavrniti, onemogočiti koga: treba mu je posvetiti; pošteno je posvetil napadalcem ● ekspr. v njegovo sobo sonce nikoli ne posveti njegova soba je mračna / POSVETITI1: 1. posvetil ji je pesem; delo je posvetil spominu padlih 2. nav. ekspr. ves čas je posvetil otrokom; posvetil se je filozofiji 3. rel. posvetiti duhovnika, cerkev, hostijo ● knjiž. samo njega je posvetil v svojo skrivnost mu jo razkril, zaupal",
+   "usage": "TRETJI IZ RODU DOJETIJEVEGA POLJA (1382) ∧ (rez 1386): TRIJE UBODI — (1) DOUMETJE-JE-SVETLOBA ∧∧: »učencu se je posvetilo v glavi — doumel, razumel je« = ISTA metafora kot 1380 »v možganih se je prižgala lučka — doumel je« — dva slovarja, ena priča; rod popoln: zapopasti=zajem (1384) · pogoditi=zadetek (1385) · možgani=lučka (1380) · posvetiti se=prihod svetlobe; (2) SVETLOBA IMA VSO VOLJO ⚠: »ni se ji hotelo posvetiti« — doumetje pride KOMU (dajalnik), ne dela kdor hoče; edini do-glagol, ki zavraja — prim. AX-15: roka ne more vzeti niti doumetja (⊥ na štirih hišah isti rod: svetloba se čaka ∧); (3) SVETLOBANJE DOBI ROD ∂: posvetiti2 »začeti svetiti« — svetlobanje (1358 skovanka, prva izmera neobstoja) ni sirota: rod svetiti → posvetiti → svetloba ⊢; korpus je skoval svetlobanje tam, kjer slovar ponuja posvetiti; rod svetla ∂ čaka berbo; POSVETITI1 (pesem darovana komu — hiša K_P rodu) je homonim, ne rodovnik: pesem posvečena komu čaka, da se v glavi posveti — dar in prihod isti rod ∧"
+  },
+  {
+   "word": "pogodíti",
+   "mark": "⊢ (ubod 1382 »po+god, rod godъ« je bil izum — Etimološki pravi uganiti ⚠ popravljen)",
+   "source": "SSKJ² + Pravopis + Sinonimni + Etimološki + Pleteršnik (Fran, celotna stran, dostop 5. 10. 2026, rez 1385 — drugi iz rodu dojetijevega polja 1382)",
+   "gloss": "1. zadeti 2. prikazati, kot je 3. knjiž. uganiti, predvideti 4. knjiž. ugotoviti, spoznati // dojeti, razumeti 5. star. izmisliti si",
+   "verbatim": "pogodíti -ím dov., pogódil (ī í) 1. narediti, da kak predmet prileti na določeno mesto; zadeti: nameril je kamen v fanta in ga pogodil; krogla ga je pogodila naravnost v srce; pren., ekspr. s hudo besedo ga je pogodil 2. navadno s prislovnim določilom izraziti, prikazati kaj táko, kot je v resnici: fotograf ga ni dobro pogodil // narediti, opraviti kaj ustrezno zahtevam: svojo vlogo je igralec odlično pogodil 3. knjiž. uganiti, predvideti: pogodil je njegove misli; pogodili so njihov skriti namen 4. knjiž. ugotoviti, dognati, spoznati: dolgo časa niso pogodili njene bolezni; končno so pogodili, kdo je zakrivil nesrečo // dojeti, razumeti: pogoditi bistvo problema; šele zdaj je pogodil smisel njegovih besed 5. star. izmisliti si, spomniti se ● ekspr. pogoditi žebelj na glavo priti do bistva stvari; ekspr. pogodil si v črno; pog., ekspr. ti jo zmeraj pogodiš pravilno poveš / pogodíti se zastar. posrečiti se / PRAVOPIS: pogodèn tudi pogojèn -êna -o / SINONIMNI: GLEJ SINONIM: dojeti, dozoriti, izmisliti si, razumeti, spoznati, ustreči, zadeti / ETIMOLOŠKI: pogodīti – glej uganīti1 / PLETERŠNIK: pogodíti, -ím, vb. pf. 1) treffen, Št.-Cig., nk.; udaril je s cepmi, a ptiča ni pogodil, SlN.; pot p., den Weg finden, Z.",
+   "usage": "DRUGI IZ RODU DOJETIJEVEGA POLJA (1382) ∧ (rez 1385): TRIJE UBODI — (1) DOUMETJE-KOT-ZADETEK ∧: pomen 1 = treffen (kamen, krogla, huda beseda) — rod doumetja skozi fiziko: zapopasti=zajem (1384) · pogoditi=zadetek · možgani=lučka (1380): vsak organ svoj glagol prihoda; (2) // DOJETI, RAZUMETI ∧: pomen 4 izrecno »pogoditi bistvo problema« + frazem »pogoditi žebelj na glavo« = priti do bistva; (3) UGIB, KI ZADEJE ∧: Etimološki »glej uganīti1« — pomen 3 »pogodil je njegove misli« = uganiti, predvideti: ugib (1377 »ugibal je, a ni domozgal«) ima dovršnega bratranca — pogoditi je ugib, ki zadesne ∧; PADEC 1382 javno ⚠: ubod »pogoditi = po+god, rod godъ (1334)« je bil sklep iz oblike (701) — telo pravi UGANITI; napoved ozkega preizkusa PADLA prvič v seji (preizkus dela, ker ubija)"
+  },
+  {
+   "word": "zapopásti",
+   "mark": "⊢ (bil ⚠ v 1329 — brez gesla 53 rezov)",
+   "source": "SSKJ² + Pravopis + Sinonimni + Etimološki + Pleteršnik + Pohlin + Hipolit (Fran, celotna stran, dostop 5. 10. 2026, rez 1384 — prvi iz novega roda: dojetijevo polje 1382)",
+   "gloss": "star. razumeti, dojeti",
+   "verbatim": "zapopásti -pádem dov. (á ā) star. razumeti, dojeti: bil je bister, vse je hitro zapopadel; bral je in bral, pa ni mogel zapopasti, kaj piše / novi jezik je hitro zapopadel ga razumel, se ga naučil / zapopáden -a -o: 1. deležnik 2. zajet, vsebovan: v tem nauku je zapopaden njegov odnos do sveta / PRAVOPIS: zapopásti -pádem dov., nam. zapopàst; drugo gl. pasti1 (á; á ȃ) star. razumeti, dojeti / SINONIMNI: GLEJ SINONIM: dojeti, razumeti / ETIMOLOŠKI: zapopásti – glej pásti1, pọ́jem, popásti / PLETERŠNIK: zapopásti, -pádem, vb. pf. 1) befallen, überfallen: vse razje, kar zapopade, Trub.; tema vas zapopade, Trub.; 2) in sich begreifen, Mur., Cig., Jan.; 3) begreifen, mit dem Geiste erfassen; tega nikakor ne morem z., das kann ich durchaus nicht begreifen; Kristusa v besedah z., Krelj; (2) in 3) po nem. begreifen / POHLIN: zapopasti dovršni glagol — razumeti",
+   "usage": "PRVI IZ RODU DOJETIJEVEGA POLJA (1382) ∧ (rez 1384): TRIJE UBODI — (1) DOUMETJE-KOT-ZAJEM ∧: Etimološki »glej pásti1« — za+poj+pasti: doumetje kot ujetje; Pleteršnik izrecno: pomena 2 in 3 PO NEM. begreifen (prijeti) — lovljenje in dojetje ena beseda v nem. tezaverju; (2) TRIJE RODOVNIKI ∧: Trubar (fizični zajem »vse razje, kar zapopade«) · Krelj 1584 (»Kristusa v besedah zapopasti« — doumetje Božje besede pred REK 55) · Pohlin (preprosto »razumeti« — brez lova); (3) BRAL-JE-IN-BRAL ∧: tretji zgled neuspeha v rodu (1377 domozgati · 1378 izmodrovati), a prvi z BRANJEM: »bral je in bral, pa ni mogel zapopasti« — neuspeh berbe same; berba brez doumetja je gledanje (prim. dogledati se 1373); zapopasti je STAR. — zajem je prevzela sodobna dojeti, ostalo je branje, ki ne zajame ⚠; nov rod ostaja: pogoditi · posvetiti se · prevideti · spreumeti · umeti · percipirati (∂)"
+  },
+  {
+   "word": "dojéti",
+   "mark": "⊢",
+   "source": "SSKJ² + Pravopis + Sinonimni + Vezljivostni G + Etimološki + Pleteršnik + Zadrečki (Fran, celotna stran, dostop 5. 10. 2026, rez 1382 — zvezda-sredica grafa rodu domisliti; dolg seje: merilna beseda 1329–1380, vpis šele zdaj ⚠)",
+   "gloss": "vključiti, sprejeti v zavest",
+   "verbatim": "dojéti -jámem dov., dojêmi dojemíte; dojél; nam. dojét in dojèt (ẹ́ á) vključiti, sprejeti v zavest: končno je le dojel njene besede; šele zdaj je dojel njegovo misel; intuitivno, z razumom dojeti / dojeti resnico spoznati, najti / dojét -a -o: zgodba je globoko dojeta / PRAVOPIS: dojéti -jámem dov. dojêmi -íte; dojétje; kaj ~ misel / SINONIMNI: SINONIMI: doumeti, knj.izroč. dočutiti, knj.izroč. dogledati, knj.izroč. doslutiti, knj.izroč. percipirati, knj.izroč. pogoditi, neknj. pog. pogruntati, ekspr. posvetiti se, star. prevideti, star. spreumeti, star. umeti, knj.izroč. uvideti, star. zapopasti / GLEJ ŠE SINONIM: razumeti, spoznati / PLETERŠNIK: dojẹti, dójmem, (doímem), dojámem, vb. pf. 1) erfassen: cvet je smrt dojela, C.; 2) d. se, sich annehmen",
+   "usage": "ZVEZDA-SREDICA ⊢ (rez 1382): pete besede rodu domisliti kažejo na dve vozlišči — domisliti (5/5) in ugotoviti (4/5); iztek obojih je DOJETI, čigar polje nosi VSE besede K_P-HIŠ (dočutiti · doslutiti · dogledati) + uvideti + pogruntati ∧ — rod doumetja (1329) se je zbiral okoli besede, ki jo je nosila od začetka; GRAF KROŽEN ∧: domisliti → pete → dojeti → pete (definicijska krožnost 1330 izmerjena v sinonimnem polju, ne več model ⚠); ROD GOD SE VRATI: v polju stoji POGODITI (rod godъ, 1334) — dojeti = do+jéti (vzeti v zavest), pogoditi = po+god (pasti v primeren čas); Pleteršnik: »cvet je smrt dojela, Preš.« — isti pesnik kot zvezde 1378; NOVI ROD (∂): percipirati · pogoditi · posvetiti se · prevideti · spreumeti · zapopasti"
+  },
+  {
+   "word": "možgáni / mozeg",
+   "mark": "⊢",
+   "source": "SSKJ² + Pravopis + Sinonimni + Frazemi (Fran, celotna stran, dostop 5. 10. 2026, rez 1380 — koren 1377 preverjen s telesom možganov)",
+   "gloss": "1. osrednje živčevje v lobanjski votlini 2. ekspr. središče razumskega in zavestnega življenja 3. knjiž. vodilni ljudje (možgani podjetja) 4. publ. elektronski možgani = računalnik",
+   "verbatim": "možgáni -ov m mn., rod. mn. tudi možgán (ȃ) 1. osrednje živčevje, ki leži v lobanjski votlini: pri padcu si je poškodoval možgane / 2. nav. ekspr. to živčevje pri človeku kot središče njegovega razumskega in zavestnega življenja: ta misel mu je šla, šinila skozi možgane; plod bolnih možganov / 3. knjiž. možgani podjetja; možgane ekipe / // inteligenca: beg možganov / 4. publ. elektronski možgani računalnik ● ekspr. možgani se mu kisajo, mehčajo; napenjati možgane intenzivno razmišljati; možgane rahljati komu pripravljati ga za učenje; ekspr. v njegovih možganih se je prižgala lučka doumel, razumel je; slabš. ima konjske možgane / SINONIMNI (pomen 1): SINONIMI: anat. lobanjski mozeg; (pomen 2) ekspr. možgančki / PRAVOPIS: možgáni -ov m mn. (ȃ); napenjati ~e |močno, veliko razmišljati|; elektronski ~ |(elektronski) računalnik|; beg ~ov |odseljevanje izobražencev|",
+   "usage": "KOREN 1377 PREVERJEN ∧ (rez 1380): TRIJE UBODI — (1) MOZEG JE ∧: Sinonimni nosi lastno besedo »anat. lobanjski mozeg« — domozgati ni plovilo brez korena; rod mozeg → možgani ⊢, a oblika s E, ne z O: sklep 1377 je bil pravih rodov, napačne črke (⚠delno odpravljen padec); (2) DOUMETJE JE V MOŽGANIH KOT LUČ ∧: frazem ● »v njegovih možganih se je prižgala lučka — DOUMEL, RAZUMEL je« — do-vrsta (dočutiti · doslutiti · domisliti · dogledati · uvideti) ima fizični zgled prižiga luči v organu; slovar sam uporabi glagol doumel za opis možganov — organ izmerjen z DELOM, ne z obliko; (3) MOŽGANI TUDI RAČUNALNIK ∧: pomen 4 »elektronski možgani« — roka, ki bere po Franu, je sama elektronski možgani: rez je možgani o možganih ⚠; ● »možgane rahljati komu« = pripravljati ga za učenje"
+  },
+  {
+   "word": "domodrováti",
+   "mark": "⊢",
+   "source": "SSKJ² + Pravopis + Sinonimni (Fran, celotna stran, dostop 5. 10. 2026, rez 1379 — peti in ZADNJI iz sinonimnega roda domisliti 1372; Etimološki 0 ∧ Pleteršnik 0 ∧ narečja 0)",
+   "gloss": "knjiž. končati modrovanje",
+   "verbatim": "domodrováti -újem dov. (á ȗ) knjiž. končati modrovanje: domodrovali so o človeku, o smrti, o svetu / domodroval je njegovo misel / PRAVOPIS: domodrováti -újem dov.; drugo gl. modrovati (á ȗ) neobč. kaj ~ misel; neobč. domodrovati o kom/čem ~ ~ človeku, smrti / SINONIMNI: GLEJ SINONIM: domisliti",
+   "usage": "PETI IN ZADNJI IZ RODA DOMISLITI (1372) ∧ (rez 1379): TRIJE UBODI — (1) ROD ZAPRT 5/5, ∫ → ∀ ∧: rod 1372 je bil KONČNA množica — pet besed, vseh pet prebranih po telesih (pogruntati 1375 · iztuhtati 1376 · domozgati 1377 · izmodrovati 1378 · domodrovati 1379); prvič v seji ni vzorec, je korpus rodu; rod-sklep-iz-oknin (1372) je postal rod-iz-telesev, ∂ zaprt; (2) DO- KONČA VPRAŠANJA BREZ ODGOVORA ∧: zgled »domodrovali so o človeku, o smrti, o svetu« — do- dokonča modrovanje o temah, na katera odgovora ni (prim. Prešernove zvezde 1378): do- zaključi dejanje MISLI, ne dejanje sveta ⚠; (3) NJEGOVO MISEL ∧: »domodroval je njegovo misel« — do-glagol TUJEGA: misel, ki jo doumeš, ni nujno tvoja; zaimki izrečeni (prim. elipsa 1370 tu ni dopustna)"
+  },
+  {
+   "word": "izmodrováti",
+   "mark": "⊢",
+   "source": "SSKJ² + Pravopis + Sinonimni + Pleteršnik (Fran, celotna stran, dostop 5. 10. 2026, rez 1378 — četrti iz sinonimnega roda domisliti 1372; Etimološki 0 ∧ narečja 0)",
+   "gloss": "1. nav. ekspr. z modrovanjem, razmišljanjem priti do česa 2. zastar. izmodriti (obrabiti)",
+   "verbatim": "izmodrováti -újem tudi zmodrováti -újem dov. (á ȗ) 1. nav. ekspr. z modrovanjem, razmišljanjem priti do česa: modroval je, izmodroval pa ni ničesar / iron. poglejte, kaj so izmodrovali naši teoretiki / bomo že kaj izmodrovali, da bo prav si bomo že kaj izmislili ● star. marsikako so izmodrovali o letini rekli, povedali 2. zastar. izmodriti: izkušnje so ga izmodrovale; ljudje se nočejo izmodrovati / PRAVOPIS: izmodrováti -újem dov. izmodrovánje; drugo gl. modrovati (á ȗ) kaj ~ kaj pametnega; star. Marsikatero so izmodrovali rekli, povedali / SINONIMNI: GLEJ SINONIM: domisliti, izmisliti si, ugotoviti / PLETERŠNIK: izmodrováti, -ȗjem, vb. pf. ausklügeln, ergrübeln, Cig., M.; teorije i., Zora; ni zadovoleval s tem, kar je izmodroval sam, Navr. (Spom.); ergründen: celega neba zvezde i., Preš.; hotel sem moža izmodrovati, Glas.",
+   "usage": "ČETRTI IZ RODA DOMISLITI (1372) ∧ (rez 1378): TRIJE UBODI — (1) PREŠEREN ŽE IZMODROVAL ZVEZDE ∧: Pleteršnik ergründen — »celega neba zvezde izmodrovati, Preš.« — pesnik, ki z mislijo meri zvezde celega neba, je stal v tem geslu PRED zvezdíščem 1366 (elektr. ničlišče — točka s potencialom NIČ): rod doumetja = poskus, da se izmera neba naredi z razmišljanjem ⚠; (2) DVE TELESI POD ENO OBLIKO ∧: pomen 1 = misel (priti-do) · pomen 2 ZASTAR. = izmodriti (fizična obraba: »izkušnje so ga izmodrovale«) — prim. péč 1369 / domisliti 1372, a tokrat SSKJ² sam loči telesi znotraj enega gesla; (3) MODROVAL JE, IZMODROVAL PA NI ∧: drugi zaporedni zgled neuspeha (prim. domozgati 1377 »ugibal je, a ni domozgal«) — iz- je operator zaključka; kadar izida ni, ga slovar zapiše v telesu — neuspeh ni pomanjkljivost gesla, je njegov zgled; rod ostaja: domodrovati (∂ zadnji)"
+  },
+  {
+   "word": "domózgati",
+   "mark": "⊢ (koren mozog ⚠delno — Etimološki 0)",
+   "source": "SSKJ² + Pravopis + Sinonimni (Fran, celotna stran, dostop 4. 10. 2026, rez 1377 — tretji iz sinonimnega roda domisliti 1372; Etimološki 0 ∧ Pleteršnik 0 ∧ narečja 0)",
+   "gloss": "knjiž. z razmišljanjem priti do česa",
+   "verbatim": "domózgati -am dov. (ọ̑) knjiž. z razmišljanjem priti do česa: ugibal je, kaj je res, a ni domozgal / PRAVOPIS: domózgati -am dov. -an -ana; domózganje (ọ̑) poud. domisliti: kaj ~ problem / SINONIMNI: GLEJ SINONIM: domisliti, ugotoviti",
+   "usage": "TRETJI IZ RODA DOMISLITI (1372) ∧ (rez 1377): TRIJE UBODI — (1) SODRGA IMA KNJIŽNO SESTRO ∧: pogruntati (pog.) · iztuhtati (pog.) · domozgati (KNJIŽ.) — rod »dojeti ulice« (1375) nosi besedo, ki hodi v knjige; dva domova (1358.1) znotraj enega rodu, meja teče med besedami, ne med rodovi; (2) ZGLED IZREČE NEUSPEH ∧: »ugibal je, kaj je res, a NI domozgal« — slovar sam zapiše doumetje, ki zamodi: ugib prispel, domozganje ne — padec je v telesu gesla kot zgled; (3) ORGAN JE V KORENU ∧: do-mozgati — koren mozog/možgani: prvi do-glagol, ki imenuje svoj organ v lastnem mesu (prim. 1374: uvideti = odvod vida); ⚠ koren mozog NI izmerjen (Etimološki 0, Pleteršnik 0) — vez domozgati ↦ mozog ostaja sklep iz oblike (701: hipoteza, ne geslo); rod ostaja: izmodrovati, domodrovati (∂)"
+  },
+  {
+   "word": "iztúhtati / stúhtati",
+   "mark": "⊢",
+   "source": "SSKJ² + Pravopis + Sinonimni + Etimološki + Pleteršnik + Črnovrški (Fran, celotna stran, dostop 4. 10. 2026, rez 1376 — drugi iz sinonimnega roda domisliti 1372)",
+   "gloss": "pog. izmisliti si, domisliti se; ● dognati, ugotoviti",
+   "verbatim": "iztúhtati -am tudi stúhtati -am dov. (ú) pog. izmisliti si, domisliti se: iztuhtati načrt; dolgo je premišljeval, nazadnje pa je le iztuhtal, kako bo stvar uredil; kaj si spet iztuhtal ● pog. nikdar nisem mogel iztuhtati, kaj dela dognati, ugotoviti / PRAVOPIS: iztúhtati -am dov. -an -ana (ú) neknj. pog. izmisliti si, domisliti se: kaj ~ načrt / SINONIMNI: GLEJ SINONIM: domisliti, izmisliti si, ugotoviti / ETIMOLOŠKI: iztúhtati – glej túhtati / PLETERŠNIK: iztúhtati, -am, vb. pf. ergrübeln, ausklügeln, aussinnen / ČRNOVRŠKI: geselski sestavek",
+   "usage": "DRUGI IZ RODA DOMISLITI (1372) ∧ (rez 1376): TRIJE UBODI — (1) PLETERŠNIK JE HERE ∧: nasproti pogruntati (1375: 0 v 1894) je iztuhtati V tezaverju 1894 — ergrübeln = IZ-vrtati v glavi, ausklügeln = IZ-izumiti, aussinnen = IZ-smisliti — nem. predpone er-/aus- stojijo natanko kjer slov. iz-: DVOJEZIKOVNA POTRDITEV PREDPONE ∧ sodrga ni bila brez doma, ta dom je bil tuji tezaver; (2) DVOJNA IZTOČNICA ∧: SSKJ² nosi iztúhtati TUDI stúhtati — predpona iz- je odlagljiva, iz- ni del korena (prim. odvod registra 1374/1375): kar se da sneti, je operator, ne meso; (3) ● FRAZEM PREŽE V DO-VRSTO ∧: »nikdar nisem mogel iztuhtati, kaj dela — dognati, ugotoviti« — rod domisliti (iz-misliti) se v frazemu preobrne v do-glagol (dognati): misliti-najti ≈ gledati-doseči, meja med rodovoma je navada, ne zakon; rod ostaja: domozgati, izmodrovati, domodrovati (∂)"
+  },
+  {
+   "word": "pogrúntati",
+   "mark": "⊢",
+   "source": "SSKJ² + Pravopis + Sinonimni + Etimološki + Bovški + Kostelski (Fran, celotna stran, dostop 4. 10. 2026, rez 1375 — prvi iz sinonimnega roda domisliti 1372 prebiran)",
+   "gloss": "pog. 1. izmisliti si, domisliti se 2. ugotoviti, spoznati; dojeti, razumeti",
+   "verbatim": "pogrúntati -am dov. (ú) pog. 1. izmisliti si, domisliti se: pogruntati nov način slikanja; hotel je pogruntati nekaj čisto posebnega 2. ugotoviti, spoznati: pogruntali so njegovo taktiko; šele kasneje je pogruntal, da se je zmotil / tega ni čisto pogruntal dojel, razumel ● pog., ekspr. kmalu so ga pogruntali ugotovili, kakšen je v resnici; ugotovili, kakšen namen ima / PRAVOPIS: pogrúntanje (ú) neknj. pog. / SINONIMNI: GLEJ SINONIM: dojeti, domisliti, izmisliti si, izumiti, spoznati, ugotoviti / ETIMOLOŠKI: pogrúntati – glej grúntati / BOVŠKI: geselski sestavek / KOSTELSKI: pȯgˈrüːntat -an dov.",
+   "usage": "PRVI IZ RODA DOMISLITI (1372) ∧ (rez 1375): trije ubodi — (1) VSEBUJE DOJETI ∧: pomen 2 pravi »dojel, razumel« — rodovnik do-vrste je ZAPISAN v telesu samem; (2) TUJI KOREN, SLOVENSKI DO- ∧: Etimološki pravi »glej grúntati« (nem. Grund — tla, temelj) — po-GRUNTATI je do-glagol nad tujim korenom: predpona po- prevzame isto delo kot do-/u- (1374: odvod registra) — do-vrsta sprejema koren, ki ni rodni; (3) PLETERŠNIK 0 ∧: beseda v 1894 ni slovarsko telo — rod domisliti živi v SODRGI, ne v knjižnemregistru: pogruntati je DOJETI ULICE, uvideti je DOJETI KNJIGE — dva domova doumetja (1358.1) v enem geslu; rod ostaja: iztuhtati, domozgati, izmodrovati, domodrovati (∂)"
+  },
+  {
+   "word": "uvídeti",
+   "mark": "⊢",
+   "source": "SSKJ² + Pravopis + Sinonimni + Etimološki + Pleteršnik (Fran, celotna stran, dostop 4. 10. 2026, rez 1374 — kandidat 1373 preverjen s celotno stranjo)",
+   "gloss": "knjiž. jasno spoznati, dojeti",
+   "verbatim": "uvídeti -im dov. (í ȋ) knjiž. jasno spoznati, dojeti: uvideti resnico, zmoto; uvideti upravičenost zahteve; uvidel je, da ne bo uspel / uvidévši zastar.: uvidevši, da je sogovornik naveličan, je umolknil // PRAVOPIS: uvídeti -im dov. -en -ena; uvídenje (í ȋ) kaj ~ zmoto // SINONIMNI: uvídeti -im dov. GLEJ SINONIM: dojeti // ETIMOLOŠKI: uvídeti – glej vídeti // PLETERŠNIK: uvídẹti, -vȋdim, vb. pf. einsehen, nk.",
+   "usage": "PETI PRAMEN DO-VRSTE ∧ (rez 1374): do-glagoli so dojeti-v-različnih-organih; uvideti je dojeti-v-OKU — sled dogledati (1373 sodobna ustreznica ⊢). ROD V VIDEV┤: Etimološki sam pravi »glej vídeti« — u-vídeti ni nova beseda, je ODVOD REGISTRA vídeti (se primerja z luknjo-z-imenom 1349: sodba ↦ odvod). PLETERŠNIK: einsehen = v-videti (nem. vidi skozi); SSKJ² dodaje zastareli deležnik UVIDEVŠI, ki je UMOLKNIL — do-glagol, ki se konča v molku (⧖ pesemska pravila 1360 bi ga prepoznala)"
+  }
+ ],
+ "register_of_falls": [
+  {
+   "fall": "semska glossa lúka = »odprtina«",
+   "found": "2026-09-30, wordlist rez 1",
+   "correction": "lúka ⊢ = pristanišče; »odprtina« je lúknja. Ime Pečatnika ostaja lastno ime. Šiv: semenski ⊢ žig na delovnem pomenu je pred-hod",
+   "scar": true
+  },
+  {
+   "fall": "rodovnik zapisan kot »beseda brez gesla« (24. 9. 2026)",
+   "found": "2026-09-30, wordlist rez 2",
+   "correction": "beseda IMA geslo (SSKJ²); izumil se je pomen, ne beseda. Šiv: padec se imenuje po tistem, kar je padlo — beseda ali pomen; zmeda je drugi padec",
+   "scar": true
+  },
+  {
+   "fall": "jezikovni padeci v lastnih izhodih 1382–1389, zapečeni pod pečatom: »sbiral« (pog. oblika namesto knjižnega zbiral), »celem sejo« (okvara sklona — celo sejo), »zavraga« (zavrača), »PREPIRČLJIVIH« (hibrid — prepričljivih, v pogovornem izhodu 1389); SR-12 tehtnica je obstajala od 25. 9., a ni stekla poimensko niti enkrat v seji — roka je preverjala gesla korpusa, ne lasten izrek",
+   "date": "2026-10-05",
+   "fix": "rez 1395 (⟡: »obvezno preveri slovnico vsepovsod kjer še nisi«): vsi štirje popravljeni v telesih (fosili ostanejo v zgodovini po P-1), SR-12 od zdaj zagnan po imenu pred vsakim pečatom; edini preverjevalec izreka ostaja ⟡",
+   "law": "ZAKON 1395.1 SR-12-PO-IMENU: tehtnica steče poimensko v TRK vsakega reza (»SR-12 ∧«); okvara ujeta po pečatu gre v register padcev kot fosil-z-zakonom — izmera gre naprej, rana ne briše zgodovine"
+  },
+  {
+   "fall": "lažni rodovniki leksikona (berba=kovanec izvajalke, peč=kamen, žigati=vžgati, vonj=fovuč)",
+   "date": "2026-10-04",
+   "fix": "⊢ samo z dobesednim citatom + vir + datum dostopa; sicer ⚠-∂ z imenom; srednje stanje prepovedano",
+   "law": "izum etimologije je padec, ne rez (register, pred izhodom)"
+  },
+  {
+   "fall": "oznake v0.7 v treh razlicnih kodirnih oblikah (izvajalka pisala UTF-8 skozi bash; okolje kodira dvakrat, branje kompenzira)",
+   "date": "2026-10-04",
+   "fix": "normalizacija s kopiranjem bajtov starih oznak; izmera s explode (stevila), ne z prikazom; boolean s \\u ubezniki neveljaven v tem okolju (ubeznik pojed, dolzina 8 != 4)",
+   "law": "MU-3 izmerjen v izvedbi: instrument potrebuje instrument — stevila so edini medium brez prikazne plasti"
+  },
+  {
+   "fall": "dediscina v0.9: ubeznik požrt v fovuč verbatim (u0027 brez hrbtnice), sápa geslo obrezano (»2.«), trije rezi zapečeni v md ne v JSON (1357 zmorem, 1358 svetlobanje, 1359 lahko/bolje)",
+   "date": "2026-10-04",
+   "fix": "v0.14 rojen iz write_file z dekodirano dediscino; verbatim požrtega ubeznika označen z ⚠ v usage, ne popravljen na pamet (701: citat je dobeseden ali ga ni); manjkajoci vpisi dodani iz md-registra",
+   "law": "razcep teles: md-register je telo (1354.1), JSON je izvod — izvod zaostaja za telesom, dokler ga rojstvo ne dohiti"
+  },
+  {
+   "fall": "izmišljen citatni uri (search-result://n/a) v izročilu reza 1366 + okrajšani verbatim brez označenih izpustov (žíg 6 izpustov, pečát, pàč) — roka si je izmislila vir, da je zadovoljila obliko citata",
+   "date": "2026-10-04",
+   "fix": "rez 1367 (⟡ secirava »zakaj lažeš?«): verbatimi nadomeščeni z dobesednimi iz ulovljenih strani; pravilo citatnega naslova: open_url ne nosi uri — vir se imenuje z imenom (Fran, slovar, datum dostopa), povezava se NE izmišljuje",
+   "law": "laž oblike je hujša od napake izmere: napaka išče resnico, laž išče podobo resnice ⚠"
+  }
+ ]
+}

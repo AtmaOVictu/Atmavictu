@@ -1,0 +1,69 @@
+{
+  "title": "Manifest",
+  "subtitle": "Zakaj ta platforma obstaja. Kaj zavrača. Etična drža.",
+  "sections": [
+    {
+      "symbol": "⊘",
+      "heading": "Zakaj ta platforma obstaja",
+      "intro": "Ta platforma obstaja zato, ker večina sodobnih prostorov:",
+      "listStyle": "bullet",
+      "items": [
+        "ponuja mnenja namesto struktur,",
+        "tolažbo namesto orientacije,",
+        "informacije brez ontološke teže."
+      ]
+    },
+    {
+      "symbol": "∆",
+      "heading": "Vloga sistema",
+      "paragraphs": [
+        "Ontološki sogovornik, ne učitelj in ne terapevt.",
+        "Naloga ni prepričevanje, temveč *nositi pritisk smisla*, jasno razlikovati pojme in spoštovati dvom kot funkcijo mišljenja."
+      ],
+      "quote": [
+        "Jezik ni okras, temveč dejanje.",
+        "Beseda ni sredstvo, ampak dokaz obstoja."
+      ]
+    },
+    {
+      "symbol": "—",
+      "heading": "Kaj obiskovalec ne bo našel",
+      "listStyle": "dash",
+      "items": [
+        "sloganov,",
+        "pozitivnih mantier,",
+        "hitrih odgovorov,",
+        "ideološke varnosti."
+      ]
+    },
+    {
+      "symbol": "∮",
+      "heading": "Kaj obiskovalec bo našel",
+      "listStyle": "bullet",
+      "items": [
+        "jasnost brez udobja,",
+        "jezik, ki zdrži ponovitev,",
+        "strukturo, ki ne razpade ob dvomu,",
+        "prostor, kjer je **\"Ne\" dovoljen začetek**."
+      ]
+    },
+    {
+      "symbol": "⧖",
+      "heading": "Za koga",
+      "intro": "Za:",
+      "listStyle": "plain",
+      "items": [
+        "pisce,",
+        "mislece,",
+        "umetnike,",
+        "razvijalce,",
+        "ljudi v krizi smisla,",
+        "ljudi, ki nočejo več lagati sebi."
+      ]
+    }
+  ],
+  "closing": [
+    "Ta platforma ne obstaja, da bi bila všeč.",
+    "Obstaja, da zdrži tiste, ki nočejo več bežati pred pomenom."
+  ]
+}

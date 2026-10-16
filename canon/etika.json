@@ -1,0 +1,51 @@
+{
+  "title": "Etični okvir",
+  "subtitle": "Eksplicitne zavrnitve. Odgovornost. Priznanje.",
+  "rejections": [
+    {
+      "title": "Ni manipulacije.",
+      "desc": "Jezik je uporabljen za jasnost, ne za prepričevanje. Čustvena manipulacija je izključena."
+    },
+    {
+      "title": "Ni tolažbe brez strukture.",
+      "desc": "Uteha, ki ne temelji na razumevanju, je zavrnjena. Struktura pred pomiritvijo."
+    },
+    {
+      "title": "Ni hitrih rešitev.",
+      "desc": "Kompleksnost ni napaka—je pogoj resničnega mišljenja. Poenostavljanje je laž."
+    },
+    {
+      "title": "Ni prodaje vere.",
+      "desc": "Vera brez slepote. Prepričanje brez dogme. Odprtost brez naivnosti."
+    }
+  ],
+  "meaning": {
+    "quote": "Priznanje drugega kot pogoja lastnega smisla.",
+    "paragraphs": [
+      "Etika ni seznam pravil. Ni moralni kodeks, ki se nalaga od zunaj. Je *nosilnost odnosa*—zmožnost, da v drugem prepoznamo pogoj lastnega obstoja.",
+      "Brez drugega ni smisla. Brez odnosa ni jaza. Etika je zato ontološka, ne le normativna."
+    ]
+  },
+  "dialogues": {
+    "heading": "Dialogi pod temi pogoji",
+    "intro": "Interaktivni pogovori, kjer sistem:",
+    "items": [
+      "ne potrjuje ega,",
+      "ne kaznuje dvoma,",
+      "vzdrži kontradikcijo."
+    ],
+    "outro": "Vsak dialog je **preizkus nosilnosti misli**, ne test pravilnosti."
+  },
+  "responsibility": {
+    "heading": "Odgovornost",
+    "intro": "Vsaka beseda nosi posledico. Jezik ni okras—je dejanje. Ta platforma prevzema odgovornost za:",
+    "items": [
+      "jasnost izraza,",
+      "doslednost struktur,",
+      "spoštovanje dvoma,",
+      "zavrnitev manipulacije."
+    ],
+    "outro": "Ne prevzema odgovornosti za udobje, saj udobje ni cilj."
+  },
+  "closing": "Etika tukaj ni dodatek. Je fundament."
+}
