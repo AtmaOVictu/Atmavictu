@@ -5,11 +5,13 @@ import { randomUUID } from "node:crypto";
 import {
   addIncomingText,
   createEmptyManifest,
+  migrateManifestV1ToV2,
   validateManifest,
   type AddIncomingTextInput,
   type IncomingText,
   type ManifestUpdate,
   type WorkbenchManifest,
+  type WorkbenchManifestV1,
 } from "./workbenchManifest.js";
 
 export const MANIFEST_FILE_NAME = "book.workbench.json";
@@ -140,6 +142,18 @@ export async function readManifestFromFile(filePath: string): Promise<WorkbenchM
       `Manifest file contains invalid JSON: ${normalizedFilePath}`,
       { cause: error },
     );
+  }
+
+  if (
+    isPlainObject(parsedManifest) &&
+    (parsedManifest as Record<string, unknown>).manifestVersion === "1"
+  ) {
+    // v1 on-disk manifest — migrate to v2 and persist the upgrade so the file
+    // is v2 on the next read too.
+    const migrated = migrateManifestV1ToV2(parsedManifest as unknown as WorkbenchManifestV1);
+    assertManifestIsValid(migrated, normalizedFilePath);
+    await writeManifestToFile(normalizedFilePath, migrated);
+    return migrated;
   }
 
   return parseAndValidateManifest(parsedManifest, normalizedFilePath);

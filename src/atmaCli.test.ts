@@ -73,7 +73,7 @@ test("atma CLI show command prints manifest summary", async () => {
     });
 
     assert.match(stdout, /^ATMAVICTU WORKBENCH/m);
-    assert.match(stdout, /MANIFEST VERSION: 1/);
+    assert.match(stdout, /MANIFEST VERSION: 2/);
     assert.match(stdout, /INCOMING TEXTS: 1/);
     assert.match(stdout, /FRAGMENTS: 0/);
     assert.match(stdout, /INSERTIONS: 0/);
@@ -113,7 +113,7 @@ test("atma CLI verify command prints fail and validation errors for invalid mani
     const cliPath = fileURLToPath(new URL("./atmaCli.js", import.meta.url));
     const manifestPath = join(projectRoot, MANIFEST_FILE_NAME);
     const invalidManifest = {
-      manifestVersion: "1",
+      manifestVersion: "2",
       incomingTexts: [
         {
           id: "incoming-0001",

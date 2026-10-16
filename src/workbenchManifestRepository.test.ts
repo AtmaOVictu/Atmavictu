@@ -37,7 +37,7 @@ test("ensureManifestFile creates a new manifest when file is missing", async () 
     const manifestPath = getManifestPath(projectRoot);
     const persistedManifest = JSON.parse(await readFile(manifestPath, "utf8")) as WorkbenchManifest;
 
-    assert.equal(manifest.manifestVersion, "1");
+    assert.equal(manifest.manifestVersion, "2");
     assert.deepEqual(manifest.incomingTexts, []);
     assert.deepEqual(manifest.fragments, []);
     assert.deepEqual(manifest.insertions, []);
@@ -98,7 +98,7 @@ test("readManifestFromFile rejects manifest with broken relation", async () => {
   try {
     const manifestPath = getManifestPath(projectRoot);
     const brokenManifest: WorkbenchManifest = {
-      manifestVersion: "1",
+      manifestVersion: "2",
       incomingTexts: [],
       fragments: [
         {
@@ -132,7 +132,7 @@ test("writeManifestToFile rejects invalid manifest before write", async () => {
   try {
     const manifestPath = getManifestPath(projectRoot);
     const invalidManifest = {
-      manifestVersion: "1",
+      manifestVersion: "2",
       incomingTexts: [],
       fragments: [],
       insertions: [
@@ -304,6 +304,38 @@ test("captureIncomingText does not report success when body file write fails", a
       () => readFile(getManifestPath(projectRoot), "utf8"),
       (error: unknown) => error instanceof Error && "code" in error && error.code === "ENOENT",
     );
+  } finally {
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
+test("readManifestFromFile auto-migrates a v1 manifest to v2 and persists it", async () => {
+  const projectRoot = await createTempDirectory();
+  const manifestPath = getManifestPath(projectRoot);
+
+  const manifestV1 = {
+    manifestVersion: "1",
+    incomingTexts: [
+      {
+        id: "incoming-0001",
+        sourcePath: "incoming/incoming-0001.txt",
+        status: "new",
+      },
+    ],
+    fragments: [],
+    insertions: [],
+  };
+  await writeFile(manifestPath, JSON.stringify(manifestV1, null, 2), "utf8");
+
+  try {
+    const loaded = await readManifestFromFile(manifestPath);
+
+    assert.equal(loaded.manifestVersion, "2");
+    assert.equal(loaded.incomingTexts[0]?.id, "incoming-0001");
+
+    // the upgrade is persisted, so the on-disk file is now v2
+    const persisted = JSON.parse(await readFile(manifestPath, "utf8")) as { manifestVersion: string };
+    assert.equal(persisted.manifestVersion, "2");
   } finally {
     await cleanupTempDirectory(projectRoot);
   }

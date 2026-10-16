@@ -21,6 +21,7 @@ export interface Fragment {
   text: string;
   status: FragmentStatus;
   conceptIds?: string[];
+  title?: string;
   note?: string;
 }
 
@@ -33,6 +34,19 @@ export interface Insertion {
 }
 
 export interface WorkbenchManifest {
+  manifestVersion: "2";
+  incomingTexts: IncomingText[];
+  fragments: Fragment[];
+  insertions: Insertion[];
+  concepts?: Concept[];
+}
+
+/**
+ * v1 manifest shape (original contract, before Fragment.title). Used as the
+ * input to migrateManifestV1ToV2 so existing on-disk manifests upgrade cleanly.
+ * Entity shapes are identical to v2; only the manifest version differs.
+ */
+export interface WorkbenchManifestV1 {
   manifestVersion: "1";
   incomingTexts: IncomingText[];
   fragments: Fragment[];
@@ -45,6 +59,42 @@ export interface AddIncomingTextInput {
   body: string;
   note?: string;
   sourcePath?: string;
+}
+
+/**
+ * updateIncomingText input. Field semantics per MODEL_CONTRACT's
+ * "Spremenljiva polja": undefined = leave untouched, null = remove the
+ * optional field, non-empty string = set the new value.
+ */
+export interface UpdateIncomingTextInput {
+  title?: string | null;
+  note?: string | null;
+}
+
+/**
+ * updateFragment input. `text` (when provided) must be a non-empty string;
+ * `title`/`note` follow the undefined/null/string convention above.
+ */
+export interface UpdateFragmentInput {
+  title?: string | null;
+  text?: string;
+  note?: string | null;
+  conceptIds?: string[] | null;
+}
+
+/**
+ * updateInsertion input. `targetChapterPath` (when provided) must be a
+ * non-empty string; `positionNote`/`note` follow undefined/null/string.
+ */
+export interface UpdateInsertionInput {
+  targetChapterPath?: string;
+  positionNote?: string | null;
+  note?: string | null;
+}
+
+export interface AddConceptInput {
+  label: string;
+  note?: string;
 }
 
 export interface ManifestUpdate<T> {
@@ -84,7 +134,7 @@ const INCOMING_STATUSES = ["new", "processing", "used", "archived"] as const;
 const FRAGMENT_STATUSES = ["draft", "inserted", "archived"] as const;
 const WORKBENCH_MANIFEST_KEYS = ["manifestVersion", "incomingTexts", "fragments", "insertions", "concepts"] as const;
 const INCOMING_TEXT_KEYS = ["id", "sourcePath", "title", "status", "note"] as const;
-const FRAGMENT_KEYS = ["id", "incomingTextId", "text", "status", "conceptIds", "note"] as const;
+const FRAGMENT_KEYS = ["id", "incomingTextId", "text", "status", "conceptIds", "title", "note"] as const;
 const INSERTION_KEYS = ["id", "fragmentId", "targetChapterPath", "positionNote", "note"] as const;
 const CONCEPT_KEYS = ["id", "label", "note"] as const;
 
@@ -102,11 +152,11 @@ const ALLOWED_FRAGMENT_TRANSITIONS: Record<FragmentStatus, readonly FragmentStat
 };
 
 export function createEmptyManifest(title?: string): WorkbenchManifest {
-  // The contract exposes `title` for forward compatibility, but schema v1 does not persist it.
+  // The contract exposes `title` for forward compatibility, but schema v2 does not persist it.
   void title;
 
   return {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [],
     fragments: [],
     insertions: [],
@@ -114,6 +164,18 @@ export function createEmptyManifest(title?: string): WorkbenchManifest {
   };
 }
 
+export function migrateManifestV1ToV2(manifestV1: WorkbenchManifestV1): WorkbenchManifest {
+  return {
+    manifestVersion: "2",
+    incomingTexts: manifestV1.incomingTexts.map((incomingText) => ({ ...incomingText })),
+    fragments: manifestV1.fragments.map((fragment) => ({
+      ...fragment,
+      ...(fragment.conceptIds ? { conceptIds: [...fragment.conceptIds] } : {}),
+    })),
+    insertions: manifestV1.insertions.map((insertion) => ({ ...insertion })),
+    ...(manifestV1.concepts ? { concepts: manifestV1.concepts.map((concept) => ({ ...concept })) } : {}),
+  };
+}
 export function validateManifestTransition(
   previousManifest: WorkbenchManifest,
   nextManifest: WorkbenchManifest,
@@ -223,10 +285,16 @@ export function startProcessingIncoming(
   };
 }
 
+export interface CreateFragmentFromIncomingInput {
+  title?: string;
+  conceptIds?: string[];
+}
+
 export function createFragmentFromIncoming(
   manifest: WorkbenchManifest,
   incomingTextId: string,
   body: string,
+  input: CreateFragmentFromIncomingInput = {},
 ): ManifestUpdate<Fragment> {
   assertValidManifest(manifest, "createFragmentFromIncoming");
   requireNonEmptyString("incomingTextId", incomingTextId);
@@ -244,11 +312,15 @@ export function createFragmentFromIncoming(
     manifest.fragments.map((fragment) => fragment.id),
     "fragment",
   );
+  const title = normalizeOptionalString(input.title);
+  const conceptIds = input.conceptIds === undefined ? undefined : [...input.conceptIds];
   const fragment: Fragment = {
     id,
     incomingTextId,
     text,
     status: "draft",
+    ...(title ? { title } : {}),
+    ...(conceptIds && conceptIds.length > 0 ? { conceptIds } : {}),
   };
 
   const nextManifest = cloneManifest(manifest);
@@ -387,6 +459,154 @@ export function archiveFragment(
   };
 }
 
+/**
+ * Shared field-authoring helper for the update operations.
+ * `undefined` = leave untouched; `null` = remove the optional field;
+ * non-empty string = set; empty string = remove when not required, or a
+ * thrown validation error when `requiredLabel` is provided.
+ */
+function applyOptionalField(
+  target: Record<string, unknown>,
+  key: string,
+  value: string | null | undefined,
+  requiredLabel?: string,
+): void {
+  if (value === undefined) {
+    return;
+  }
+  if (value === null) {
+    delete target[key];
+    return;
+  }
+  const normalized = value.trim();
+  if (requiredLabel !== undefined && normalized.length === 0) {
+    throw new Error(`${requiredLabel} must be a non-empty string.`);
+  }
+  if (normalized.length === 0) {
+    delete target[key];
+    return;
+  }
+  target[key] = normalized;
+}
+
+export function updateIncomingText(
+  manifest: WorkbenchManifest,
+  incomingTextId: string,
+  input: UpdateIncomingTextInput,
+): ManifestUpdate<IncomingText> {
+  assertValidManifest(manifest, "updateIncomingText");
+  requireNonEmptyString("incomingTextId", incomingTextId);
+
+  const nextManifest = cloneManifest(manifest);
+  const index = nextManifest.incomingTexts.findIndex((incomingText) => incomingText.id === incomingTextId);
+
+  if (index === -1) {
+    throw new Error(`IncomingText not found: ${incomingTextId}`);
+  }
+
+  const updated = { ...nextManifest.incomingTexts[index]! } as Record<string, unknown>;
+  applyOptionalField(updated, "title", input.title, "title");
+  applyOptionalField(updated, "note", input.note);
+
+  nextManifest.incomingTexts[index] = updated as unknown as IncomingText;
+  assertValidManifest(nextManifest, "updateIncomingText(result)");
+
+  return {
+    manifest: nextManifest,
+    value: nextManifest.incomingTexts[index]!,
+  };
+}
+
+export function updateFragment(
+  manifest: WorkbenchManifest,
+  fragmentId: string,
+  input: UpdateFragmentInput,
+): ManifestUpdate<Fragment> {
+  assertValidManifest(manifest, "updateFragment");
+  requireNonEmptyString("fragmentId", fragmentId);
+
+  const nextManifest = cloneManifest(manifest);
+  const index = nextManifest.fragments.findIndex((fragment) => fragment.id === fragmentId);
+
+  if (index === -1) {
+    throw new Error(`Fragment not found: ${fragmentId}`);
+  }
+
+  const updated = { ...nextManifest.fragments[index]! } as Record<string, unknown>;
+  applyOptionalField(updated, "title", input.title, "title");
+  applyOptionalField(updated, "text", input.text, "text");
+  applyOptionalField(updated, "note", input.note);
+  if (input.conceptIds !== undefined) {
+    if (input.conceptIds === null) {
+      delete updated.conceptIds;
+    } else {
+      updated.conceptIds = [...input.conceptIds];
+    }
+  }
+
+  nextManifest.fragments[index] = updated as unknown as Fragment;
+  assertValidManifest(nextManifest, "updateFragment(result)");
+
+  return {
+    manifest: nextManifest,
+    value: nextManifest.fragments[index]!,
+  };
+}
+
+export function updateInsertion(
+  manifest: WorkbenchManifest,
+  insertionId: string,
+  input: UpdateInsertionInput,
+): ManifestUpdate<Insertion> {
+  assertValidManifest(manifest, "updateInsertion");
+  requireNonEmptyString("insertionId", insertionId);
+
+  const nextManifest = cloneManifest(manifest);
+  const index = nextManifest.insertions.findIndex((insertion) => insertion.id === insertionId);
+
+  if (index === -1) {
+    throw new Error(`Insertion not found: ${insertionId}`);
+  }
+
+  const updated = { ...nextManifest.insertions[index]! } as Record<string, unknown>;
+  applyOptionalField(updated, "targetChapterPath", input.targetChapterPath, "targetChapterPath");
+  applyOptionalField(updated, "positionNote", input.positionNote);
+  applyOptionalField(updated, "note", input.note);
+
+  nextManifest.insertions[index] = updated as unknown as Insertion;
+  assertValidManifest(nextManifest, "updateInsertion(result)");
+
+  return {
+    manifest: nextManifest,
+    value: nextManifest.insertions[index]!,
+  };
+}
+
+export function addConcept(manifest: WorkbenchManifest, input: AddConceptInput): ManifestUpdate<Concept> {
+  assertValidManifest(manifest, "addConcept");
+
+  const label = requireNonEmptyString("label", input.label);
+  const note = normalizeOptionalString(input.note);
+  const id = nextEntityId(manifest.concepts?.map((concept) => concept.id) ?? [], "concept");
+
+  const concept: Concept = {
+    id,
+    label,
+    ...(note ? { note } : {}),
+  };
+
+  const nextManifest = cloneManifest(manifest);
+  const concepts = nextManifest.concepts ?? [];
+  concepts.push(concept);
+  nextManifest.concepts = concepts;
+  assertValidManifest(nextManifest, "addConcept(result)");
+
+  return {
+    manifest: nextManifest,
+    value: concept,
+  };
+}
+
 export function validateManifest(manifest: WorkbenchManifest): ManifestValidationResult {
   const errors: string[] = [];
   const manifestValue = manifest as unknown;
@@ -400,8 +620,8 @@ export function validateManifest(manifest: WorkbenchManifest): ManifestValidatio
 
   validateUnexpectedProperties("WorkbenchManifest", manifestValue, WORKBENCH_MANIFEST_KEYS, errors);
 
-  if (manifestValue.manifestVersion !== "1") {
-    errors.push("manifestVersion must be '1'.");
+  if (manifestValue.manifestVersion !== "2") {
+    errors.push("manifestVersion must be '2'.");
   }
 
   if (!Array.isArray(manifestValue.incomingTexts)) {
@@ -597,6 +817,7 @@ function validateFragment(fragment: unknown, fragmentIds: Set<string>, errors: s
     errors.push(`Fragment ${fragment.id || "<unknown>"} has invalid status ${String(fragment.status)}.`);
   }
 
+  validateOptionalStringProperty("Fragment", fragment.id, "title", fragment.title, errors);
   validateOptionalStringProperty("Fragment", fragment.id, "note", fragment.note, errors);
 
   if (fragment.conceptIds !== undefined && !Array.isArray(fragment.conceptIds)) {

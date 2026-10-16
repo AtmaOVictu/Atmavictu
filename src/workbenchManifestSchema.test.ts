@@ -15,7 +15,7 @@ interface JsonSchemaObject {
 }
 
 test("schema reuses non-blank and path string definitions for manifest fields", async () => {
-  const schemaPath = new URL("../../schema/workbench.manifest.v1.schema.json", import.meta.url);
+  const schemaPath = new URL("../../schema/workbench.manifest.v2.schema.json", import.meta.url);
   const schema = JSON.parse(await readFile(schemaPath, "utf8")) as JsonSchemaObject;
   const defs = schema.$defs as Record<string, JsonSchemaObject>;
   const incomingText = defs.IncomingText!;
@@ -44,7 +44,7 @@ test("schema reuses non-blank and path string definitions for manifest fields", 
 });
 
 test("schema PathString rejects absolute and traversal paths while allowing safe relative paths", async () => {
-  const schemaPath = new URL("../../schema/workbench.manifest.v1.schema.json", import.meta.url);
+  const schemaPath = new URL("../../schema/workbench.manifest.v2.schema.json", import.meta.url);
   const schema = JSON.parse(await readFile(schemaPath, "utf8")) as JsonSchemaObject;
   const defs = schema.$defs as Record<string, JsonSchemaObject>;
   const pathString = defs.PathString!;
@@ -62,7 +62,7 @@ test("schema PathString rejects absolute and traversal paths while allowing safe
 });
 
 test("schema keeps optional metadata fields as plain strings", async () => {
-  const schemaPath = new URL("../../schema/workbench.manifest.v1.schema.json", import.meta.url);
+  const schemaPath = new URL("../../schema/workbench.manifest.v2.schema.json", import.meta.url);
   const schema = JSON.parse(await readFile(schemaPath, "utf8")) as JsonSchemaObject;
   const defs = schema.$defs as Record<string, JsonSchemaObject>;
   const incomingText = defs.IncomingText!;
@@ -72,6 +72,7 @@ test("schema keeps optional metadata fields as plain strings", async () => {
 
   assert.equal((incomingText.properties?.title as { type?: string }).type, "string");
   assert.equal((incomingText.properties?.note as { type?: string }).type, "string");
+  assert.equal((fragment.properties?.title as { type?: string }).type, "string");
   assert.equal((fragment.properties?.note as { type?: string }).type, "string");
   assert.equal((insertion.properties?.positionNote as { type?: string }).type, "string");
   assert.equal((insertion.properties?.note as { type?: string }).type, "string");
