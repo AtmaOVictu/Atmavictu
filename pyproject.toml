@@ -1,0 +1,20 @@
+[project]
+name = "smisel"
+version = "0.1.0"
+description = "Smisel / Atmavictu megarepo"
+requires-python = ">=3.12"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "jsonschema",
+    "black",
+    "isort",
+    "flake8",
+]
+
+[tool.uv]
+# Prevent uv from auto-discovering requirements files in subdirectories.
+# Only the root requirements-dev.txt and this pyproject.toml are authoritative.
+package = false
+

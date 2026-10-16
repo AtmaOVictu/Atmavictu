@@ -1,3 +1,39 @@
+﻿# Allowlist by design: this root holds 50k+ files (Corpus, Backups, Models,
+# Imports, Manifests, Compose, Projects) that must never be swept into git.
+# Ignore everything, then explicitly un-ignore only the root docs and the
+# Atmavictu product source meant to be tracked here (including web/, the
+# Faza 2 frontend). Do not switch this to a denylist pattern.
+*
+
+!.gitignore
+!CLAUDE.md
+!AGENTS.md
+!README.md
+!.clinerules/
+!.clinerules/**
+!memory-bank/
+!memory-bank/**
+!requirements-dev.txt
+!pyproject.toml
+!.github/
+!.github/**
+!PR_BODY.md
+!Projects/WorkShade/CHANGELOG_ingest_delo_proposals.md
+
+# Atmavictu / Book Workbench product source
+!docs/
+!docs/**
+!schema/
+!schema/**
+!src/
+!src/**
+!package.json
+!package-lock.json
+!tsconfig.json
+!web/
+!web/**
+
+# Typical ignores
 node_modules/
 dist/
 build/

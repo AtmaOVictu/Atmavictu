@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atmavictu.local/schema/workbench.manifest.v2.schema.json",
+  "title": "Atmavictu Workbench Manifest v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "manifestVersion",
+    "incomingTexts",
+    "fragments",
+    "insertions"
+  ],
+  "properties": {
+    "manifestVersion": {
+      "const": "2"
+    },
+    "incomingTexts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/IncomingText"
+      }
+    },
+    "fragments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Fragment"
+      }
+    },
+    "insertions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Insertion"
+      }
+    },
+    "concepts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Concept"
+      }
+    }
+  },
+  "$defs": {
+    "NonBlankString": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "PathString": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/NonBlankString"
+        },
+        {
+          "not": {
+            "pattern": "^(?:[\\\\/]|[A-Za-z]:[\\\\/])"
+          }
+        },
+        {
+          "not": {
+            "pattern": "(?:^|[\\\\/])\\.\\.(?:[\\\\/]|$)"
+          }
+        }
+      ]
+    },
+    "IncomingStatus": {
+      "type": "string",
+      "enum": [
+        "new",
+        "processing",
+        "used",
+        "archived"
+      ]
+    },
+    "FragmentStatus": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "inserted",
+        "archived"
+      ]
+    },
+    "IncomingText": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "sourcePath",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/NonBlankString"
+        },
+        "sourcePath": {
+          "$ref": "#/$defs/PathString"
+        },
+        "title": {
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/IncomingStatus"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "Fragment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "incomingTextId",
+        "text",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/NonBlankString"
+        },
+        "incomingTextId": {
+          "$ref": "#/$defs/NonBlankString"
+        },
+        "text": {
+          "$ref": "#/$defs/NonBlankString"
+        },
+        "status": {
+          "$ref": "#/$defs/FragmentStatus"
+        },
+        "conceptIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/NonBlankString"
+          },
+          "uniqueItems": true
+        },
+        "title": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "Insertion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "fragmentId",
+        "targetChapterPath"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/NonBlankString"
+        },
+        "fragmentId": {
+          "$ref": "#/$defs/NonBlankString"
+        },
+        "targetChapterPath": {
+          "$ref": "#/$defs/PathString"
+        },
+        "positionNote": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "Concept": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "label"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/NonBlankString"
+        },
+        "label": {
+          "$ref": "#/$defs/NonBlankString"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

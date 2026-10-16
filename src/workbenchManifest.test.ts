@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import {
+  addConcept,
   addIncomingText,
   archiveFragment,
   archiveIncoming,
@@ -9,14 +10,19 @@ import {
   createFragmentFromIncoming,
   insertFragmentIntoChapter,
   startProcessingIncoming,
+  updateFragment,
+  updateIncomingText,
+  updateInsertion,
+  migrateManifestV1ToV2,
   validateManifest,
   type WorkbenchManifest,
+  type WorkbenchManifestV1,
 } from "./workbenchManifest.js";
 
 test("createEmptyManifest returns a valid empty manifest", () => {
   const manifest = createEmptyManifest("Draft Book");
 
-  assert.equal(manifest.manifestVersion, "1");
+  assert.equal(manifest.manifestVersion, "2");
   assert.deepEqual(manifest.incomingTexts, []);
   assert.deepEqual(manifest.fragments, []);
   assert.deepEqual(manifest.insertions, []);
@@ -153,7 +159,7 @@ test("archiveFragment preserves insertion trail while archiving fragment", () =>
 
 test("validateManifest reports broken fragment relation", () => {
   const manifest: WorkbenchManifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [],
     fragments: [
       {
@@ -178,7 +184,7 @@ test("validateManifest reports broken fragment relation", () => {
 
 test("validateManifest rejects unexpected top-level properties", () => {
   const manifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [],
     fragments: [],
     insertions: [],
@@ -193,7 +199,7 @@ test("validateManifest rejects unexpected top-level properties", () => {
 
 test("validateManifest rejects unexpected properties on incoming texts", () => {
   const manifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [
       {
         id: "incoming-0001",
@@ -217,7 +223,7 @@ test("validateManifest rejects unexpected properties on incoming texts", () => {
 
 test("validateManifest rejects unexpected properties on fragments and insertions", () => {
   const manifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [
       {
         id: "incoming-0001",
@@ -259,7 +265,7 @@ test("validateManifest rejects unexpected properties on fragments and insertions
 
 test("validateManifest rejects invalid optional string property types", () => {
   const manifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [
       {
         id: "incoming-0001",
@@ -306,7 +312,7 @@ test("validateManifest rejects invalid optional string property types", () => {
 
 test("validateManifest rejects new incoming text with related fragments", () => {
   const manifest: WorkbenchManifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [
       {
         id: "incoming-0001",
@@ -336,7 +342,7 @@ test("validateManifest rejects new incoming text with related fragments", () => 
 
 test("validateManifest rejects used incoming text without insertion trail", () => {
   const manifest: WorkbenchManifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [
       {
         id: "incoming-0001",
@@ -366,7 +372,7 @@ test("validateManifest rejects used incoming text without insertion trail", () =
 
 test("validateManifest rejects archived incoming text with draft fragments", () => {
   const manifest: WorkbenchManifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [
       {
         id: "incoming-0001",
@@ -398,7 +404,7 @@ test("validateManifest rejects archived incoming text with draft fragments", () 
 
 test("validateManifest rejects traversal segments in sourcePath and targetChapterPath", () => {
   const manifest: WorkbenchManifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [
       {
         id: "incoming-0001",
@@ -441,7 +447,7 @@ test("validateManifest rejects traversal segments in sourcePath and targetChapte
 test("validateManifest rejects absolute sourcePath variants", () => {
   const manifests: WorkbenchManifest[] = [
     {
-      manifestVersion: "1",
+      manifestVersion: "2",
       incomingTexts: [
         {
           id: "incoming-0001",
@@ -453,7 +459,7 @@ test("validateManifest rejects absolute sourcePath variants", () => {
       insertions: [],
     },
     {
-      manifestVersion: "1",
+      manifestVersion: "2",
       incomingTexts: [
         {
           id: "incoming-0001",
@@ -465,7 +471,7 @@ test("validateManifest rejects absolute sourcePath variants", () => {
       insertions: [],
     },
     {
-      manifestVersion: "1",
+      manifestVersion: "2",
       incomingTexts: [
         {
           id: "incoming-0001",
@@ -477,7 +483,7 @@ test("validateManifest rejects absolute sourcePath variants", () => {
       insertions: [],
     },
     {
-      manifestVersion: "1",
+      manifestVersion: "2",
       incomingTexts: [
         {
           id: "incoming-0001",
@@ -504,7 +510,7 @@ test("validateManifest rejects absolute sourcePath variants", () => {
 test("validateManifest rejects absolute targetChapterPath variants", () => {
   const manifests: WorkbenchManifest[] = [
     {
-      manifestVersion: "1",
+      manifestVersion: "2",
       incomingTexts: [
         {
           id: "incoming-0001",
@@ -529,7 +535,7 @@ test("validateManifest rejects absolute targetChapterPath variants", () => {
       ],
     },
     {
-      manifestVersion: "1",
+      manifestVersion: "2",
       incomingTexts: [
         {
           id: "incoming-0001",
@@ -554,7 +560,7 @@ test("validateManifest rejects absolute targetChapterPath variants", () => {
       ],
     },
     {
-      manifestVersion: "1",
+      manifestVersion: "2",
       incomingTexts: [
         {
           id: "incoming-0001",
@@ -593,7 +599,7 @@ test("validateManifest rejects absolute targetChapterPath variants", () => {
 
 test("validateManifest accepts safe relative sourcePath and targetChapterPath", () => {
   const manifest: WorkbenchManifest = {
-    manifestVersion: "1",
+    manifestVersion: "2",
     incomingTexts: [
       {
         id: "incoming-0001",
@@ -674,4 +680,311 @@ test("validateManifestTransition accepts allowed status transitions", async () =
 
   assert.equal(result.isValid, true);
   assert.deepEqual(result.errors, []);
+});
+
+test("updateIncomingText renames the source title without changing status", () => {
+  const manifest = addIncomingText(createEmptyManifest(), {
+    title: "Star naslov",
+    body: "Prvi vhodni tekst.",
+  }).manifest;
+
+  const result = updateIncomingText(manifest, "incoming-0001", { title: "Nov naslov" });
+
+  assert.equal(result.value.title, "Nov naslov");
+  assert.equal(result.value.status, "new");
+  assert.equal(result.manifest.incomingTexts[0]?.title, "Nov naslov");
+  assert.equal(validateManifest(result.manifest).isValid, true);
+  // input manifest is not mutated
+  assert.equal(manifest.incomingTexts[0]?.title, "Star naslov");
+});
+
+test("updateIncomingText removes note on null", () => {
+  const manifest = addIncomingText(createEmptyManifest(), {
+    title: "Vir",
+    body: "Prvi vhodni tekst.",
+    note: "pozni opomba",
+  }).manifest;
+  assert.equal(manifest.incomingTexts[0]?.note, "pozni opomba");
+
+  const result = updateIncomingText(manifest, "incoming-0001", { note: null });
+
+  assert.equal(result.value.note, undefined);
+});
+
+test("updateIncomingText rejects blank title", () => {
+  const manifest = addIncomingText(createEmptyManifest(), { body: "Prvi vhodni tekst." }).manifest;
+
+  assert.throws(
+    () => updateIncomingText(manifest, "incoming-0001", { title: "   " }),
+    /title must be a non-empty string/,
+  );
+});
+
+test("updateIncomingText throws for a missing incoming text", () => {
+  const manifest = addIncomingText(createEmptyManifest(), { body: "Prvi vhodni tekst." }).manifest;
+
+  assert.throws(
+    () => updateIncomingText(manifest, "incoming-missing", { title: "Nov naslov" }),
+    /IncomingText not found: incoming-missing/,
+  );
+});
+
+test("updateFragment edits the working excerpt text without a status change", () => {
+  const manifest = createFragmentFromIncoming(
+    startProcessingIncoming(
+      addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+      "incoming-0001",
+    ).manifest,
+    "incoming-0001",
+    "Star odlomek.",
+  ).manifest;
+
+  const result = updateFragment(manifest, "fragment-0001", { text: "Nov odlomek po obnovi." });
+
+  assert.equal(result.value.text, "Nov odlomek po obnovi.");
+  assert.equal(result.value.status, "draft");
+  assert.equal(validateManifest(result.manifest).isValid, true);
+  assert.equal(manifest.fragments[0]?.text, "Star odlomek.");
+});
+
+test("updateFragment rejects blank text", () => {
+  const manifest = createFragmentFromIncoming(
+    startProcessingIncoming(
+      addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+      "incoming-0001",
+    ).manifest,
+    "incoming-0001",
+    "Star odlomek.",
+  ).manifest;
+
+  assert.throws(
+    () => updateFragment(manifest, "fragment-0001", { text: "   " }),
+    /text must be a non-empty string/,
+  );
+});
+
+test("updateInsertion renames the target chapter path without touching fragment status", () => {
+  const manifest = insertFragmentIntoChapter(
+    createFragmentFromIncoming(
+      startProcessingIncoming(
+        addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+        "incoming-0001",
+      ).manifest,
+      "incoming-0001",
+      "Odlomek.",
+    ).manifest,
+    "fragment-0001",
+    "chapters/01-uvod.md",
+  ).manifest;
+
+  const result = updateInsertion(manifest, "insertion-0001", {
+    targetChapterPath: "chapters/02-jedro.md",
+    positionNote: "za uvodom",
+  });
+
+  assert.equal(result.value.targetChapterPath, "chapters/02-jedro.md");
+  assert.equal(result.value.positionNote, "za uvodom");
+  // fragment and incoming keep their statuses
+  assert.equal(result.manifest.fragments[0]?.status, "inserted");
+  assert.equal(result.manifest.incomingTexts[0]?.status, "used");
+  assert.equal(validateManifest(result.manifest).isValid, true);
+});
+
+test("updateInsertion rejects blank targetChapterPath", () => {
+  const manifest = insertFragmentIntoChapter(
+    createFragmentFromIncoming(
+      startProcessingIncoming(
+        addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+        "incoming-0001",
+      ).manifest,
+      "incoming-0001",
+      "Odlomek.",
+    ).manifest,
+    "fragment-0001",
+    "chapters/01-uvod.md",
+  ).manifest;
+
+  assert.throws(
+    () => updateInsertion(manifest, "insertion-0001", { targetChapterPath: "  " }),
+    /targetChapterPath must be a non-empty string/,
+  );
+});
+test("updateFragment sets a title (rename) without changing status", () => {
+  const manifest = createFragmentFromIncoming(
+    startProcessingIncoming(
+      addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+      "incoming-0001",
+    ).manifest,
+    "incoming-0001",
+    "Star odlomek.",
+  ).manifest;
+
+  const result = updateFragment(manifest, "fragment-0001", { title: "Moj naslov odlomka" });
+
+  assert.equal(result.value.title, "Moj naslov odlomka");
+  assert.equal(result.value.status, "draft");
+  assert.equal(result.manifest.fragments[0]?.title, "Moj naslov odlomka");
+  assert.equal(validateManifest(result.manifest).isValid, true);
+  assert.equal(manifest.fragments[0]?.title, undefined);
+});
+
+test("updateFragment removes a title on null", () => {
+  const titled = updateFragment(
+    createFragmentFromIncoming(
+      startProcessingIncoming(
+        addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+        "incoming-0001",
+      ).manifest,
+      "incoming-0001",
+      "Star odlomek.",
+    ).manifest,
+    "fragment-0001",
+    { title: "Moj naslov" },
+  ).manifest;
+
+  const result = updateFragment(titled, "fragment-0001", { title: null });
+
+  assert.equal(result.value.title, undefined);
+  assert.equal(validateManifest(result.manifest).isValid, true);
+});
+
+test("updateFragment rejects a blank title", () => {
+  const manifest = createFragmentFromIncoming(
+    startProcessingIncoming(
+      addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+      "incoming-0001",
+    ).manifest,
+    "incoming-0001",
+    "Star odlomek.",
+  ).manifest;
+
+  assert.throws(
+    () => updateFragment(manifest, "fragment-0001", { title: "   " }),
+    /title must be a non-empty string/,
+  );
+});
+test("migrateManifestV1ToV2 upgrades a v1 manifest to v2 losslessly", () => {
+  const manifestV1: WorkbenchManifestV1 = {
+    manifestVersion: "1",
+    incomingTexts: [
+      {
+        id: "incoming-0001",
+        sourcePath: "incoming/incoming-0001.txt",
+        status: "used",
+        title: "Vir",
+      },
+    ],
+    fragments: [
+      {
+        id: "fragment-0001",
+        incomingTextId: "incoming-0001",
+        text: "Odlomek.",
+        status: "inserted",
+        conceptIds: ["concept-0001"],
+      },
+    ],
+    insertions: [
+      {
+        id: "insertion-0001",
+        fragmentId: "fragment-0001",
+        targetChapterPath: "chapters/01-uvod.md",
+      },
+    ],
+    concepts: [{ id: "concept-0001", label: "Bistvo" }],
+  };
+
+  const migrated = migrateManifestV1ToV2(manifestV1);
+
+  assert.equal(migrated.manifestVersion, "2");
+  // lossless: same ids, fields, and connected conceptIds survive
+  assert.equal(migrated.incomingTexts[0]?.title, "Vir");
+  assert.deepEqual(migrated.fragments[0]?.conceptIds, ["concept-0001"]);
+  assert.equal(migrated.insertions[0]?.targetChapterPath, "chapters/01-uvod.md");
+  assert.equal(migrated.concepts?.[0]?.label, "Bistvo");
+  assert.equal(validateManifest(migrated).isValid, true);
+  // input is not mutated
+  assert.equal(manifestV1.manifestVersion, "1");
+});
+
+test("migrateManifestV1ToV2 carries an existing Fragment.title when present", () => {
+  const manifestV1: WorkbenchManifestV1 = {
+    manifestVersion: "1",
+    incomingTexts: [],
+    fragments: [
+      {
+        id: "fragment-0001",
+        incomingTextId: "incoming-0001",
+        text: "Odlomek.",
+        status: "draft",
+        title: "Moja opozorilo",
+      },
+    ],
+    insertions: [],
+  };
+  // a v1 fragment referencing a missing incoming is fine as an input to migration;
+  // the migration itself is a shape-preserving copy, not a validator gate.
+  const migrated = migrateManifestV1ToV2(manifestV1);
+
+  assert.equal(migrated.manifestVersion, "2");
+  assert.equal(migrated.fragments[0]?.title, "Moja opozorilo");
+});
+test("addConcept creates a new concept with a unique id", () => {
+  const manifest = createEmptyManifest();
+
+  const result = addConcept(manifest, { label: "Bistvo" });
+
+  assert.equal(result.value.id, "concept-0001");
+  assert.equal(result.value.label, "Bistvo");
+  assert.equal(result.manifest.concepts?.length, 1);
+  assert.equal(validateManifest(result.manifest).isValid, true);
+  assert.equal(manifest.concepts?.length, 0);
+});
+
+test("addConcept rejects a blank label", () => {
+  const manifest = createEmptyManifest();
+
+  assert.throws(
+    () => addConcept(manifest, { label: "   " }),
+    /label must be a non-empty string/,
+  );
+});
+
+test("updateFragment assigns conceptIds to a fragment", () => {
+  const base = createFragmentFromIncoming(
+    startProcessingIncoming(
+      addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+      "incoming-0001",
+    ).manifest,
+    "incoming-0001",
+    "Odlomek.",
+  ).manifest;
+  const withConcept = addConcept(base, { label: "Bistvo" }).manifest;
+
+  const result = updateFragment(withConcept, "fragment-0001", { conceptIds: ["concept-0001"] });
+
+  assert.deepEqual(result.value.conceptIds, ["concept-0001"]);
+  assert.equal(validateManifest(result.manifest).isValid, true);
+});
+
+test("updateFragment clears conceptIds on null and rejects unknown concepts", () => {
+  const base = createFragmentFromIncoming(
+    startProcessingIncoming(
+      addIncomingText(createEmptyManifest(), { title: "Vir", body: "Prvi vhodni tekst." }).manifest,
+      "incoming-0001",
+    ).manifest,
+    "incoming-0001",
+    "Odlomek.",
+  ).manifest;
+  const withConcept = addConcept(base, { label: "Bistvo" }).manifest;
+  const tagged = updateFragment(withConcept, "fragment-0001", { conceptIds: ["concept-0001"] }).manifest;
+
+  // clear works
+  const cleared = updateFragment(tagged, "fragment-0001", { conceptIds: null });
+  assert.equal(cleared.value.conceptIds, undefined);
+
+  // unknown concept is rejected by validation
+  assert.throws(
+    () => updateFragment(tagged, "fragment-0001", { conceptIds: ["concept-missing"] }),
+    /references missing Concept/,
+  );
 });

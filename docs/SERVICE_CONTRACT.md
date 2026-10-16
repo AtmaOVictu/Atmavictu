@@ -11,17 +11,20 @@ Ta dokument doloca minimalne operacije nad `WorkbenchManifest`. Service contract
 - vsaka operacija mora po zakljucku pustiti manifest v veljavnem stanju
 - ce operacija ne uspe, se manifest ne sme delno zapisati
 - v izvedbi trenutne faze obstaja filesystem write plast za materializacijo `IncomingText.body`; `sourcePath` je deterministična relativna pot do lokalne datoteke z vhodnim telesom
-- schema v1 nima top-level `title` polja za manifest; `createEmptyManifest(title?)` lahko argument sprejme za forward compatibility, ne materializira pa ga se v schema v1
+- schema v2 nima top-level `title` polja za manifest; `createEmptyManifest(title?)` lahko argument sprejme za forward compatibility, ne materializira pa ga se v schema v2
 - `validateManifest(manifest)` preverja samo trenutno stanje enega manifesta
 - `validateManifestTransition(previousManifest, nextManifest)` preverja dovoljene prehode med dvema snapshotoma
 - statusnih prehodov ni mogoce dokazati iz enega samega manifesta
 - `sourcePath` in `targetChapterPath` morata slediti pravilom iz model contracta
 
+- `WorkbenchManifest` je trenutno v version `2`. Stari `v1` manifesti se ob nalaganju samodejno migrirajo v `v2` (glej `migrateManifestV1ToV2` v model contractu).
+
+## createEmptyManifest()
 ## createEmptyManifest()
 
 ### Namen
 
-Ustvari prazen, veljaven `WorkbenchManifest` v1.
+Ustvari prazen, veljaven `WorkbenchManifest` v2.
 
 ### Input
 
@@ -290,6 +293,213 @@ Arhivira `Fragment`, kadar ni vec del aktivnega uredniskega toka.
 - ciljni `Fragment.status === "archived"`
 - ce obstaja povezan `Insertion`, ta ostane nespremenjen kot dokazna sled
 
+## updateIncomingText(incomingId, { title?, note? })
+
+### Namen
+
+Posodobi meta-podatke vhodnega teksta (obnova odlomka / preimenovanje vira). Operacija ne spreminja statusa in ne premika filesystem `sourcePath`; samo `title` in `note` se lahko spremenita. `undefined` pomeni "pusti pri miru", `null` pomeni "odstrani polje", ne-prazn string pomeni "nastavi novo vrednost".
+
+### Input
+
+- `incomingId: string`
+- `title?: string | null`
+- `note?: string | null`
+
+### Output
+
+- posodobljen `IncomingText`
+- posodobljen manifest
+
+### Spremeni entitete
+
+- spremeni `title` in/ali `note` enega `IncomingText`
+
+### Dovoljeni statusni prehodi
+
+- ni statusnih prehodov; operacija ohrani trenutni status
+
+### Failure cases
+
+- `incomingId` ne obstaja
+- podan `title` je prazen ali whitespace-only
+- rezultat krsi schema ali invariante
+
+### Minimalni proof / acceptance check
+
+- ciljni `IncomingText` ima posodobljen `title`/`note`
+- status ostane nespremenjen
+- manifest ostane veljaven snapshot
+
+## updateFragment(fragmentId, { text?, note? })
+
+### Namen
+
+Posodobi delovni odlomek (obnova teksta). Operacija ne spreminja statusa; lahko spremeni `text` (obvezen ne-prazen, ce je podan) in `note`. `undefined` pomeni "pusti pri miru", `null` pomeni "odstrani polje".
+
+### Input
+
+- `fragmentId: string`
+- `title?: string | null`
+- `text?: string`
+- `note?: string | null`
+
+### Output
+
+- posodobljen `Fragment`
+- posodobljen manifest
+
+### Spremeni entitete
+
+- spremeni `text` in/ali `note` enega `Fragment`
+
+### Dovoljeni statusni prehodi
+
+- ni statusnih prehodov; operacija ohrani trenutni status
+
+### Failure cases
+
+- `fragmentId` ne obstaja
+- podan `text` je prazen ali whitespace-only
+- rezultat krsi schema ali invariante
+
+### Minimalni proof / acceptance check
+
+- ciljni `Fragment` ima posodobljen `text`/`note`
+- status ostane nespremenjen
+- manifest ostane veljaven snapshot
+
+## updateInsertion(insertionId, { targetChapterPath?, positionNote?, note? })
+
+### Namen
+
+Posodobi insertion sled (preimenovanje/obnova ciljnega mesta). Operacija ne spreminja statusa pripadajocega `Fragment`; spremeni lahko `targetChapterPath` (obvezen ne-prazen relativni path, ce je podan), `positionNote` in `note`. `undefined` pomeni "pusti pri miru", `null` pomeni "odstrani polje".
+
+### Input
+
+- `insertionId: string`
+- `targetChapterPath?: string`
+- `positionNote?: string | null`
+- `note?: string | null`
+
+### Output
+
+- posodobljen `Insertion`
+- posodobljen manifest
+
+### Spremeni entitete
+
+- spremeni `targetChapterPath`, `positionNote` in/ali `note` enega `Insertion`
+
+### Dovoljeni statusni prehodi
+
+- ni statusnih prehodov; operacija ohrani status odlomka in vira
+
+### Failure cases
+
+- `insertionId` ne obstaja
+- podan `targetChapterPath` je prazen ali whitespace-only
+- podan `targetChapterPath` je absoluten ali vsebuje traversal segmente (preverjeno prek validacije ne `nextManifest`)
+- rezultat krsi schema ali invariante
+
+### Minimalni proof / acceptance check
+
+- ciljni `Insertion` ima posodobljen `targetChapterPath`/`positionNote`/`note`
+- pripadajoci `Fragment` in `IncomingText` ohranita status
+- manifest ostane veljaven snapshot
+
+## addConcept({ label, note? })
+
+### Namen
+
+Ustvari nov `Concept` v manifestu, na katerega se lahko sklicujejo `Fragment.conceptIds`. To je prvi korak k medsebojno povezanim izračunom: fragmenti se lahko grupirajo po konceptih.
+
+### Input
+
+- `label: string` (obvezen, ne-prazen)
+- `note?: string`
+
+### Output
+
+- nov `Concept`
+- posodobljen manifest
+
+### Spremeni entitete
+
+- doda en `Concept` v zbirko `concepts`
+
+### Dovoljeni statusni prehodi
+
+- ni statusnih prehodov
+
+### Failure cases
+
+- `label` je prazen ali whitespace-only
+- rezultat krsi schema ali invariante
+
+### Minimalni proof / acceptance check
+
+- v manifestu obstaja nov `Concept` z unikatenim `id` (`concept-NNNN`) in `label`
+- manifest ostane veljaven snapshot
+
+## updateFragment (razsirjen)
+
+`updateFragment` zdaj sprejema tudi `conceptIds?: string[] | null` — polni seznam konceptov, ki naj bodo pripisani odlomku. `undefined` = pusti pri miru, `null` = pocisti, array = nastavi. Vsak id mora kazati na obstojec `Concept` (preverjeno prek validacije).
+
+## getConcepts / getAnalysisSource / getOverview (read-only)
+
+Analiticni pogledi, ki izracunajo medsebojne povezave med entitetami:
+
+- `getConcepts()` — seznam konceptov z `fragmentCount` (koliko odlomkov uporablja vsak koncept).
+- `getAnalysisSource()` — per-vir: `fragmentCount`, `draftCount`, `insertedCount`, `archivedCount`.
+- `getOverview()` — knjizni agregat: `incomingTotal`, `fragmentTotal`, `insertionTotal`, `conceptTotal`, `chapters` (ciljna poglavja s stevci vstavitev).
+
+Te operacije so read-only; ne spreminjajo manifesta.
+
+## suggestFragment(text)
+
+### Namen
+
+Opcijska LLM-naslovana pomoc: iz danega odlomka predlaga `title` (naslov) in `concepts` (koncepte). Rezultat je predlog — nikoli se samodejno ne zapise v manifest; uporabnik ga potrdi v UI. To je "medsebojna komputacija" med LLM in WorkbenchManifestom.
+
+### Input
+
+- `text: string` (obvezen, ne-prazen)
+
+### Output
+
+- `{ ok: true, title?, concepts: string[] }` — `title` je opcijski, `concepts` je seznam (max 5).
+
+### Spremeni entitete
+
+- nobene; operacija je read-only (predlog se ne zapise)
+
+### Failure cases
+
+- `text` je prazen → 400
+- model/dostop ni dosegljiv → 502 (gracilni degradacija, workbench se nikoli ne blokira)
+
+### Minimalni proof / acceptance check
+
+- veljaven tekst vrne `{ ok: true, ... }`
+- nedosegljiv model vrne `{ ok: false, error }` z 502, ne napake serverja
+
+## createFragmentFromIncoming (razsirjen)
+
+`createFragmentFromIncoming` zdaj sprejema opcijski `{ title?, conceptIds? }` — tako se fragment lahko ustvari ze z naslovom in koncepti. `conceptIds` se preverijo proti obstojecem Conceptom prek validacije.
+
+## semantic indexFragments / search (read-only, opcijsko)
+
+Medsebojna komputecija s Smisel Qdrant RAG-korpusom. Fragmenti se vektorizirajo (Ollama `bge-m3`) in indeksirajo v Qdrant zbirko `workbench_fragments`; nato se jih da semanticno iskati po vsebini.
+
+- `POST /api/semantic/index-fragments` — vektorizira vse fragmente in jih upsertira v Qdrant.
+- `POST /api/semantic/search` — body `{ query, limit? }` → vektorizira poizvedbo, isce po Qdrant, vrne `{ fragmentId, title, text, score }[]`.
+
+Obe operaciji sta **gracilno degradabilni**: ko Ollama ali Qdrant nista dosegljiva, vrneta `{ ok: false }` z 502 in nikoli ne blokirata workbencha. To je edina povezava Atmavictu do zunanjega vektorskega indeksa (isti Qdrant, ki ga Smisel ze uporablja).
+
+## validateManifest(manifest)
+## validateManifest(manifest)
+## validateManifest(manifest)
+## validateManifest(manifest)
 ## validateManifest(manifest)
 
 ### Namen
