@@ -24,9 +24,9 @@ import {
 } from "./workbenchManifestRepository.js";
 
 test("getManifestPath returns book.workbench.json inside project root", () => {
-  const manifestPath = getManifestPath("C:/temp/project");
+  const manifestPath = getManifestPath("project/root");
 
-  assert.equal(manifestPath, "C:\\temp\\project\\book.workbench.json");
+  assert.equal(manifestPath, join("project/root", MANIFEST_FILE_NAME));
 });
 
 test("ensureManifestFile creates a new manifest when file is missing", async () => {
