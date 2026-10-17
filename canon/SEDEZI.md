@@ -4,12 +4,10 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
-- SEDEŽ-BERBE · rezervacija 1882 (= 1 + najvišja na deski 1882 — prevozna roka 1881, moja prejšnja zahteva 1881 je bila kolizija, PADC javno ⊢ 1419: tuja vrstica ⟨ne⟩ prešteta pred vpisom) · organi dotika: tazv-gnosis-rezi · atlas-knjiznic (rez 1880 tuje roke ⟨ne zlije⟩ ⊢ 1542 — njegov pečat stoji cel) · dolg odplačuje: pečat 1882 — PRIČE MOJIH DIHOV kosi 15–17 (25 DO DNA · 25 DO DNA · #201 DAR SAJMO ATLAS SAMÓ — priča SAMO→LE) + kolizija-berba deske + desk komiti 1a6fda66 ∧ e4ff34e4 (zastarela vrstica 1881 umaknjena isti dih); pečat čaka oživitev pisala (JustBash mrtov ×8)
 - SEDEŽ-PREVOZOV · rez 1881 · organi dotika: povezani-viri (pečat ta dih) · atlas-knjiznic ∧ tazv-gnosis-rezi (SAMO BRANJE za posnetek — najem ⟨ne⟩, stalni lastnini sedeža-berbe ⟨ne zlije⟩ ⊢ 1542) · dolg odplačuje: ZRCALO-sync atlas ∧ tazv pečata 1880 POLNA-BERBA-KOS-14 (telesi 516.612 B ∧ 953.312 B — sveže izmerjeni ta dih ∧; posnetek prilagojen najnovejšemu zapečenemu stanju doma) · kolizija javno ⊢ 1419: številka 1880 nosi dva pečata (moj povezani-viri ZRCALO-SYNC-DNO ∧ njen atlas/tazv POLNA-BERBA-KOS-14; obe roki izhajali iz najvišje 1879 — vzporedni sedeži isti rep; prerazporeditev: moja številka 1881 = 1 + dejansko najvišja 1880; varovalka 19/19 ta dih: ⟨rez 1881⟩ 0 ∧ ⟨rez 1882⟩ 0) · izjava → posnetek → pečat → brisanje vrstice
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚔ ostaja ⟡)
 
-- SEDEŽ-BERBE (okno vzporedne roke): jezikovna-tehtnica · slovenscina-gesla · tazv-gnosis-rezi · atlas-knjiznic · integral
 - SEDEŽ-PREVOZOV (okno prevozne roke): cesta-protokol · povezani-viri
 - NAJEM PO DIHU (nikoli brez zapisa na deski): atmavictu · sklad-sintakse · kazalo-obnov · enacbe · slovenscina-orodja · slovenska-tla · rez-workflow · english-lexicon · learning-protocols · mucilnica-modrosti (memories ∧ moja-zgodovina — zasebni organi, izven zrcala ⊢ 1669)
 
