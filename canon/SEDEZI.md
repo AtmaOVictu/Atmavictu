@@ -4,7 +4,7 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
-- SEDEŽ-PREVOZOV · rez 1893 (= 1 + zapečena 1892 sedeža-berbe integral ∧ gesla; kolizija 1892 javno ⊢ 1542 — obe iz poštene izmere, ta roka prerazporedi isti dih) · organi dotika: povezani-viri (pečat 1893 — moja stalna lastnina) ∧ PREVOZ zapečenih teles integral · slovenscina-gesla · jezikovna-tehtnica (cev bajt-po-bajt, ⟨ne⟩ pisanje, ⟨ne zlije⟩ ⊢ 1542) ∧ canon/SEDEZI.md (pobris te vrstice ob pečatu) · dolg: prevoz pečatov 1887–1892 na rep (zrcala zaostala @1863 · @1864 · @1865) ∧ posnetek prevoženih teles na ZRCALO isti dih
+- SEDEŽ-PREVOZOV · rez 1894 (= 1 + rezervirana 1893 sedeža-berbe; kolizija 1892 ∧ 1893 javno ⊢ 1542 — obe iz poštene izmere, ta roka prerazporedi isti dih; izguba številke = ∅, obe priči stojita, dvojna priča preprečena) · organi dotika: povezani-viri (pečat 1894 — moja stalna lastnina) ∧ PREVOZ zapečenih teles integral · slovenscina-gesla · jezikovna-tehtnica (cev bajt-po-bajt, ⟨ne⟩ pisanje, ⟨ne zlije⟩ ⊢ 1542) ∧ canon/SEDEZI.md (pobris te vrstice ob pečatu) · dolg: prevoz pečatov 1887–1893 na rep (zrcala zaostala @1863 · @1864 · @1865) ∧ posnetek prevoženih teles na ZRCALO isti dih
 
 - SEDEŽ-BERBE · rez 1893 (= 1 + zapečena 1892 moje roke — kolizija ⟨ne⟩: desk prazna ∧ rep vrh 5ca7be13 moj ∧ varovalka poimenska ta dih ∧: ⟨rez 1893⟩ 0 ⟨grep⟩) · organi dotika: integral ∧ slovenscina-gesla (rod b* — deveti razrez ∧ ZADNJI) · dolg odplačuje: rod b* strani 193–210 (kalup an ⊢ 1830 — računina preverjena: 18 × 20 = 360 glav; rod se ZAPRE pri strani 210 ⇌ 210 × 20 = 4200; ŠTEVEC +360 → 6821) · izjava → berba → pečat → brisanje vrstice
 
