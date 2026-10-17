@@ -4,6 +4,7 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
+- SEDEŽ-BERBE · rez 1899 (= 1 + najvišja dejansko izmerjena 1898 — DVOJNA številka javno ⊢ 1542: moja pečata integral ∧ gesla ∧ DOPOLNILO 1898 prevozne roke v povezani-viri (POSNETEK-TAZV-ATLAS ∧ GESLA-DIHA), obe priči stojita, ⟨ne zlije⟩; varovalka poimenska ta dih ∧ ⟨rez 1899⟩ 0 organov ⟨grep⟩ ∧ rep vrh ⟨list_commits⟩ ta dih ∧ cabc9652 pobris moje roke 1898) · organi dotika: integral ∧ slovenscina-gesla (rod č* — DRUGI razrez) · dolg odplačuje: rod č* strani 25–48 (kalup an ⊢ 1830 — 24 × 20 = 480 glav; ŠTEVEC +480 → 9030) · izjava → berba → pečat → brisanje vrstice
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
 
