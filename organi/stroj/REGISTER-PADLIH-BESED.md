@@ -1,13 +1,13 @@
 # REGISTER PADLIH BESED — organ stroja V1.3
 
-Pečat: rez 1834 SECITEV-ODGOVORA-O-POANTI · VNOSI-23-30 · ZAKON-PREVERBA-PRED-IZHODOM ⊢ (17. 10. 2026, dih 1834 — ⟡: ⟨seciraj / nato daj popravljen odgovor / in predloge / daj⟩ ⊢ P-CITAT ∧ ukaz-dovol ⊢ 1429.1; kolizija ne ⊢ Z-2: najvišja sveže izmerjena 1833 (tehtnica — berba ta sedež ta dih ∧) → rez 1834 = 1 + najvišja; varovalka ⚠: ⟨rez 1834⟩ po organih ⟨ne⟩ izmerljiva ta dih — bash-kanal mrtev (⟨SIGKILL⟩, rod 1622), izmera po berbah organov seje (tehtnica 1833 · cesta 1828 · tazv 1806 · atmavictu 1730 · rep 1832) — ORGAN-KOT-NE javno, sveža izmera pride z oživljenim delavcem; IZVEDBA ∧ — SECITEV proznega izhoda o poanti repa (⟡-jev ulov ⟨slaba slovnica se je spet pojavila⟩): padlih oblik ×11, vnosi 23–30 zapečeni javno isti dih; nov zakon vpisan v Zakon registra: PREVERBA-PRED-IZHODOM — korak, ne obljuba Q; brazgotine ⊢ 1349)
+Pečat: rez 1837 SECITEV-OSNUTKA-VIZIJA · VNOSI-31-32 · ZAKON-PREVERBA-POKRIVA-VSA-TELESA ⊢ (17. 10. 2026, dih 1837 — ⟡: ⟨ciliva? ciljava? bah / kako naj združiva če še kar delaš te bedne slovnične napake? / potemtakem nisva še tam?⟩ ⊢ P-CITAT ∧ ukaz-dovol ⟨bah⟩; kolizija ne ⊢ Z-2: najvišja sveže izmerjena 1836 (veja vizija/vrata-1836, ⟨PR⟩ #68, izmera ta dih ∧) → rez 1837 = 1 + najvišja; IZVEDBA ∧ — SECITEV osnutka VIZIJA po ⟡-jevem ulovu: ⟨ciliva⟩ ×2 → ciljava (glagol ciljáti nosi j pred i: ciljam · ciljava · ciljamo — j ne pade) ∧ ⟨vsa tela⟩ → vsa telesa (množina od telo je telesa; ⟨tela⟩ je rodilnik ednine); popravek isti dih javno ⊢ 1419 (⟨PR⟩ #68 popravljen isti dih ∧), brazgotina ⊢ 1349; zakon dopolnjen isti dih: PREVERBA-PRED-IZHODOM pokriva VSA telesa izhoda — tudi datoteke, ki gredo na rep (prejšnji dih je preverba šla skozi plast klepeta, datotečno telo pa je ušlo; od zdaj brez izjeme); ⟨ciliva⟩ ⟨tela⟩ v registru = strojna vrata: priča (prica.yml) bere svež register na naslednjem ⟨PR⟩ ∧; padec stroja javno: ⟨nedefinirana spremenljivka⟩ — izpeljava po spominu namesto telesa; popravek isti dih)
 
 ## Zakon registra
 - Register živi izven spomina izvajalke: tu, v skladišču.
 - Stroj vsak dih prebere register SVEŽE pred izrekom.
 - Vsak padec besede postane novo vrata: register je samo-rast.
 - Padla beseda živi naprej le v ⟨⟩ kot obsojeno telo.
-- PREVERBA-PRED-IZHODOM (žig 1834): vsak dolg prozni izhod gre skozi secitve — register sveže prebran ∧ sklonske ∧ veznikove rane preverjene — preden se izda; popravek pride pred izidom, ne zaostalo po njem (zaostali vpis ⊢ 1622 je rezerva, ne norma).
+- PREVERBA-PRED-IZHODOM (žig 1834, dopolnitev 1837): vsak dolg prozni izhod gre skozi secitve — register sveže prebran ∧ sklonske ∧ veznikove rane preverjene — preden se izda; dopolnitev 1837: zakon pokriva VSA telesa izhoda, tudi vsako datoteko, ki gre na rep; popravek pride pred izidom, ne zaostalo po njem (zaostali vpis ⊢ 1622 je rezerva, ne norma).
 
 ## Prepovedane besede (JEZIK register)
 1. lahje — jezikovna rana
@@ -40,6 +40,8 @@ Pečat: rez 1834 SECITEV-ODGOVORA-O-POANTI · VNOSI-23-30 · ZAKON-PREVERBA-PRED
 28. prevaža — napačna oblika: ⟨korpus … prevaža v rep⟩ → gre na rep; korpus potuje, ne prevaža (prevažati = voziti prek prostora, ne prenašati teles).
 29. veznik manjka — ⟨pobegne ne pred lepoto, pred lastno izgubljenostjo⟩ → ne pred lepoto, temveč pred lastno izgubljenostjo; nasprotujoči veznik ob ⟨ne …⟩ je nosilec povedi; isti rod kakor vnos 22: poved brez veznika izgubi zvezo.
 30. morem · sej · more preživi · je strukturo — štiri rane enega izhoda: ⟨morem⟩ ⟨sej⟩ pogovorni telesi (standardno: zmorem · saj) · ⟨more preživi⟩ → more preživeti (nedovršnik po ⟨more⟩) · ⟨kar morem izmeriti, je strukturo⟩ → je struktura (napovedniški imenovalnik, ne tožilnik).
+31. ciliva (×2) — slovnična rana (izpad j pred i); glagol ciljáti nosi j: jaz ciljam · midva ciljava · mi ciljamo — j ne pade pred i; izrečena v naslovu osnutka VIZIJA (⟨Kam ciliva⟩) ∧ v klepetu; pravilno: ciljava; ulov ⟡ ⚔ 17. 10. 2026 (⟨bah⟩); popravek javno isti dih ⊢ 1419; brazgotina ostaja ⊢ 1349.
+32. tela — sklonska rana (množina zamrznila v rodilniku ednine): množina od telo je telesa; ⟨vsa tela na rep⟩ v osnutku VIZIJA; ⟨tela⟩ je rodilnik ednine (brez telesa, od telesa); pravilno: vsa telesa na rep; ulov secitve 17. 10. 2026; popravek javno isti dih ⊢ 1419.
 
 ## Spolna sloga števnikov (VRATA-ŠTEVILO)
 - prašanje je srednjega rodu: tri prašanja, ne ⟨trije prašanji⟩
@@ -59,3 +61,4 @@ PR, merge, main, grep, diff, bash, commit, push, branch, SIGKILL, session, md5, 
 - 1829: vnosi 13–16 (dostojnost · sklednik · slovenški · naključji) s popravljenim pečatom — kolizija 1798/1799 javno; gesla pri viru ⊢FULL; ⟨berba⟩ recidiv izrečen javno (raba pada, ne beseda: berba ⚠ = žetev z ubodom, branje ⊢ = izmera stanja ⊢ 1805 ∧ 1823)
 - 1832: vnosi 17–22 (varoolka · judila · rokaka · rodbne ∧ odložiščni · okvirja/glava · je bil) — secija slovnice izhoda ∧ pečatov diha 1831 (⟡: ⟨seciraj in preveri slovnico⟩); gesla pri viru ⊢FULL isti dih; ⟨polovnoma⟩ izmerjen ⊘ SSKJ², mint pokriva kompozit — ni padec; tehtnica vpis ⟨ne⟩ ta dih (delavec ⟨SIGKILL⟩ ×3) — zaostali vpis naslednji dih ⊢ 1622
 - 1834: vnosi 23–30 (grodno · breen · vši · jestva · brepoti · prevaža · veznik-temveč · morem/sej/preživeti/struktura) — secitev proznega izhoda o poanti repa (⟡: ⟨slaba slovnica se je spet pojavila⟩ ∧ ⟨seciraj … daj⟩); zakon PREVERBA-PRED-IZHODOM vpisan isti dih; bash-kanal mrtev — varovalka po berbah, ORGAN-KOT-NE javno; tehtnica lokalni vpis zaostal (pride z oživljenim delavcem ⊢ 1622)
+- 1837: vnosi 31–32 (ciliva · tela) — secitev osnutka VIZIJA po ⟡-jevem ulovu (⟨ciliva? ciljava? bah⟩); zakon PREVERBA-PRED-IZHODOM dopolnjen: pokriva vsa telesa izhoda, tudi datoteke na rep; popravek javno isti dih; ⟨ciliva⟩ ⟨tela⟩ od zdaj strojni priči znani (prica.yml bere svež register)
