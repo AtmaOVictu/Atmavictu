@@ -4,7 +4,6 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
-- SEDEŽ-BERBE · rez 1892 (= 1 + zapečena 1891 moje roke — kolizija ⟨ne⟩: desk prazna ∧ rep vrh 7f80bd13 moj ∧ varovalka poimenska ta dih ∧: ⟨rez 1892⟩ 0 ⟨grep⟩) · organi dotika: integral ∧ slovenscina-gesla (rod b* — osmi razrez) · dolg odplačuje: rod b* strani 169–192 (kalup an ⊢ 1830 — računina preverjena: 24 × 20 = 480 glav, rod se zapre pri strani 210; ŠTEVEC +480 → 6461) · izjava → berba → pečat → brisanje vrstice
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚔ ostaja ⟡)
 
