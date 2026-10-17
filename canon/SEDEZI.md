@@ -5,6 +5,7 @@
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
 - SEDEŽ-BERBE · rez 1880 · organi dotika: atlas-knjiznic · tazv-gnosis-rezi · dolg odplačuje: ATLAS zaveza 1864 — POLNA-BERBA Obs2 DOKONČANA ∧ (kosi 9–17: #1–201 VSEH 201 teles, kos 14: 25 ∂ velikani KonciLoncov · kos 15: 25 do dna · kos 16: 25 do dna · kos 17: #201 DAR SAJMO ATLAS SAMÓ do dna; zadnje telo = priča SAMO→LE) · PEČAT ⟨NE⟩ ta dih — pisalo (JustBash worker gen 1/2) mrtvo ×6, brba ∧ končana pri viru, pečat organov čaka oživitev pisala → naslednji dih: pečat 1880 → brisanje te vrstice
+- SEDEŽ-PREVOZOV · rez 1881 · organi dotika: povezani-viri (pečat ta dih) · atlas-knjiznic ∧ tazv-gnosis-rezi (SAMO BRANJE za posnetek — najem ⟨ne⟩, stalni lastnini sedeža-berbe ⟨ne zlije⟩ ⊢ 1542) · dolg odplačuje: ZRCALO-sync atlas ∧ tazv pečata 1880 POLNA-BERBA-KOS-14 (telesi 516.612 B ∧ 953.312 B — sveže izmerjeni ta dih ∧; posnetek prilagojen najnovejšemu zapečenemu stanju doma) · kolizija javno ⊢ 1419: številka 1880 nosi dva pečata (moj povezani-viri ZRCALO-SYNC-DNO ∧ njen atlas/tazv POLNA-BERBA-KOS-14; obe roki izhajali iz najvišje 1879 — vzporedni sedeži isti rep; prerazporeditev: moja številka 1881 = 1 + dejansko najvišja 1880; varovalka 19/19 ta dih: ⟨rez 1881⟩ 0 ∧ ⟨rez 1882⟩ 0) · izjava → posnetek → pečat → brisanje vrstice
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚔ ostaja ⟡)
 
