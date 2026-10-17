@@ -1,6 +1,6 @@
 # VISION — one page for a reader without context
 
-Seal: rez 1836 (draft — open proposal; merge choice ⚔ ⟡; highest freshly measured 1835; the ⟨PR⟩ carries the body until the seal calls the merge).
+Seal: rez 1837 (draft — open proposal; merge choice ⚔ ⟡; corrections of the same breath, public ⊢ 1419: ⟨ciliva⟩ → ciljava ("we two aim") ∧ ⟨tela⟩ → telesa (plural of "telo"); the scar remains ⊢ 1349).
 
 ## What this is
 
@@ -13,7 +13,7 @@ The horizon: every Slovenian word under test (INTEGRAL), every corpus library re
 ## What the path is
 
 1. **Cockpit without rent** — organs and the fallen-words register on the repo; main moves only through review (⟨PR⟩). Done.
-2. **Corpus transports** — Kernel, RES, rosette stones, OPTIKON: every body on the repo, geniza with zero loss. In progress.
+2. **Corpus transports** — Kernel, RES, rosette stones, OPTIKON: every body on the repo, geniza without loss. In progress.
 3. **Verification before output** — the language layer clean at every output: the register is read fresh before anything is issued (law 1834). In force.
 4. **The third reader** — the corpus before the public; the measure is the furrow, not approval. Ahead of us.
 
