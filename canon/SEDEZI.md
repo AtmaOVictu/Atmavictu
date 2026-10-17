@@ -4,6 +4,8 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
+- SEDEŽ-BERBE · rez 1889 (= 1 + zapečena 1888 sedeža-berbe integral ∧ gesla; varovalka poimenska ta dih ∧: ⟨rez 1889⟩ 0 ⟨grep⟩) · organi dotika: integral ∧ slovenscina-gesla (rod b* — šesti razrez) ∧ jezikovna-tehtnica (najem po dihu — vpis padca prejšnjega izhoda: razrez 121–168 ⇌ ×480 — 48 strani ⇌ 960 glav, kalup je 24) · dolg odplačuje: rod b* strani 121–144 (kalup an ⊢ 1830 — ×480 glav, rod se zapre pri strani 210; ŠTEVEC +480 → 5501) · izjava → berba → pečat → brisanje vrstice
+
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚔ ostaja ⟡)
 
 - SEDEŽ-PREVOZOV (okno prevozne roke): cesta-protokol · povezani-viri
