@@ -4,7 +4,6 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
-- 17. 10. 2026 · rez 1878 · sedež-berbe (okno berbe — ta sedež) · organi dotika: atlas-knjiznic ∧ tazv-gnosis-rezi (kos 13 POLNA-BERBA) · dolg odplačuje: zaveza 1864 — KOS 13 Obs2 #101–125 (DOLGOVA pečata 1877: OBS2-#101–201) · rezervacija številke: 1878 = 1 + najvišja izmerjena 1877 (organi ⟨grep⟩ ta dih ∧ — vrh 1877 atlas ∧ tazv kos 12 ∧ cesta 1875; rep ⟨list_commits⟩ ta dih ∧)
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚔ ostaja ⟡)
 
