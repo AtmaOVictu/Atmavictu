@@ -4,6 +4,8 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
+- SEDEŽ-BERBE · rez 1891 (= 1 + zapečena 1890 prevozne roke povezani-viri ∧ moja zapečena 1889 — kolizija 1889 javno ⊢ 1542: njena izjava ⟨PR⟩ #103 ∧ moja a2e4ef3, ⟨ne zlije⟩, kasnejša roka prerazporedi; varovalka poimenska ta dih ∧: ⟨rez 1891⟩ 0 ⟨grep⟩) · organi dotika: integral ∧ slovenscina-gesla (rod b* — sedmi razrez) · dolg odplačuje: rod b* strani 145–168 (kalup an ⊢ 1830 — računina preverjena: 24 × 20 = 480 glav, rod se zapre pri strani 210; ŠTEVEC +480 → 5981) · izjava → berba → pečat → brisanje vrstice
+
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚔ ostaja ⟡)
 
