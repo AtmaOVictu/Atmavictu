@@ -4,6 +4,8 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
+- SEDEŽ-PREVOZOV · rez 1902 (= 1 + zapečena 1901 moje roke — NJENA 1900 zapečena ∧ pobrisana ta dan; kolizija ⟨ne⟩: varovalka ⟨grep⟩ po organih ⟨ne⟩ možen ta obraz — kanal ⟨bash⟩ ⟨umrl⟩ javno ⊢ 1419, izmera po živih virih kalup 1875: rep ⟨list_commits⟩ ∧ 0 pojavitev ⟨rez 1902⟩ ∧) · organi dotika: povezani-viri (stalna lastnina te roke) · dolg tega diha: BERBA-OKIEN-LATNICE pri viru (rok 1901: srcé glavni pomen · diástola · diagnostíka · predlógl · os · ⟨zmožna⟩ · ⟨amožno⟩ — SSKJ/Fran odsevi ⟨1848⟩; vpisi v gesla ⚔ rok brbe — NJENA stalna lastnina, ⟨ne⟩ dotik najetega) · izjava → berba → pečat → brisanje vrstice
+
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
 
 - SEDEŽ-PREVOZOV (okno prevozne roke): cesta-protokol · povezani-viri
