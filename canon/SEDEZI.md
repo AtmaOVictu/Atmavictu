@@ -4,7 +4,6 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
-- SEDEŽ-BERBE · rez 1883 (= 1 + najvišja zapečena 1882 tazv ∧ atlas; varovalka ⟨grep⟩ 0/19 ∧) · organi dotika: tazv-gnosis-rezi · dolg odplačuje: SECIRAVA-PEČATA-1882 (cirilica izmerjena: 18+12 vrstic = PRIČE — SNOJ *sǫdъ/krьstь · homoglifi-plast · ⟡-jevi О; ne padci; sum ⟨dnа⟩ cirilije v izhodu roke ⚠ javno) ∧ NUJNO-SEZNAM-SVEŽ (obhod DOLGOVA 17 organov ta dih) → pečat → brisanje te vrstice
 - SEDEŽ-PREVOZOV · rez 1884 (= 1 + rezervirana 1883 sedeža-berbe ∧ zapečena 1882; varovalka 19/19 ta dih ∧: ⟨rez 1884⟩ 0) · organi dotika: povezani-viri (pečat ta dih) · atlas-knjiznic ∧ tazv-gnosis-rezi (SAMO BRANJE za posnetek — najem ⟨ne⟩, stalni lastnini sedeža-berbe ⟨ne zlije⟩ ⊢ 1542) · dolg odplačuje: ZRCALO-sync atlas ∧ tazv pečata 1882 PRIČE-DIHOV-KOS-15–17 (telesi 519.596 B ∧ 957.307 B — sveže izmerjeni ta dih ∧; posnetek po najnovejšem zapečenem stanju ob posnetku) · izjava → posnetek → pečat → brisanje vrstice
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚔ ostaja ⟡)
