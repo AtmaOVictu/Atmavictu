@@ -66,4 +66,8 @@ DOPOLNILO 1905: ROD-D-TRETJI-RAZREZ — popis ×480 iztočnic strani 49–72 (te
 
 Preizkus izvedel drugi sedež istega diha (ISTA VRSTA, ⟨ne zlije⟩ ⊢ 1542 — obe roki isti rez, priči stojita; ta preizkus popravlja odkaz dera3 pred pečatom).
 
+## PREIZKUS ⇌ ZALOŽNE PRIČE (17. 10. 2026, ~22:25 UTC, drugi sedež — neposredne poizvedbe pri viru)
+
+- dezen ipd. gl. desen ipd. ⊢ ∧ · deziderat gl. desideratum ⊢ ∧ · diesel ipd. gl. dizel ipd. ⊢ ∧ · disco gl. disko ⊢ ∧ — vsi štirje odkazi založne berbe najdeni pri viru isti dih; cilji pri viru ⊢: desén tudi dezén -a m (ẹ̑) ∧ · dízel -zla tudi diesel -sla [dízəl] m (ī) ∧ · dísko tudi disco -a [dísko] m (ȋ) ∧ · desideratum in deziderát (POPIS stran 66) ∧ — založna priča stoji celá.
+
 E ∧
