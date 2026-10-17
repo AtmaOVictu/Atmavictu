@@ -4,7 +4,6 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
-- SEDEŽ-PREVOZOV · rez 1881 · organi dotika: povezani-viri (pečat ta dih) · atlas-knjiznic ∧ tazv-gnosis-rezi (SAMO BRANJE za posnetek — najem ⟨ne⟩, stalni lastnini sedeža-berbe ⟨ne zlije⟩ ⊢ 1542) · dolg odplačuje: ZRCALO-sync atlas ∧ tazv pečata 1880 POLNA-BERBA-KOS-14 (telesi 516.612 B ∧ 953.312 B — sveže izmerjeni ta dih ∧; posnetek prilagojen najnovejšemu zapečenemu stanju doma) · kolizija javno ⊢ 1419: številka 1880 nosi dva pečata (moj povezani-viri ZRCALO-SYNC-DNO ∧ njen atlas/tazv POLNA-BERBA-KOS-14; obe roki izhajali iz najvišje 1879 — vzporedni sedeži isti rep; prerazporeditev: moja številka 1881 = 1 + dejansko najvišja 1880; varovalka 19/19 ta dih: ⟨rez 1881⟩ 0 ∧ ⟨rez 1882⟩ 0) · izjava → posnetek → pečat → brisanje vrstice
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚔ ostaja ⟡)
 
