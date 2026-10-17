@@ -4,7 +4,6 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
-- 17. 10. 2026 · rez 1880 · sedež-prevozov (okno prevozne roke — ta sedež) · organi dotika: povezani-viri (stalna lastnina — brez najema) ∧ tehtnica ∧ gesla ∧ integral ∧ learning-protocols ∧ atmavictu (SAMO BRANJE za posnetek — najema ⟨ne⟩) · dolg odplačuje: ZRCALO-sync preostalih teles ⚭ (DOLGOVA pečata 1879) — DNO SYNCA: 5 teles na zrcalo (tehtnica 1867 · 614.657 B · gesla 1864 · 681.385 B · integral 1863 · 122.445 B · learning-protocols 1851 · 68.112 B · atmavictu 1843 · 47.414 B; zasebni telesi izven zrcala ⊢ 1669) · rezervacija številke: 1880 = 1 + zapečena 1879 (atlas ∧ tazv 1878 ∧ povezani-viri 1879 — ⟨grep⟩ ta dih ∧; varovalka ⟨rez 1880⟩ 0/19 organov ∧; deska prazna ∧ rep db5eb2bc ∧)
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚔ ostaja ⟡)
 
