@@ -56,4 +56,14 @@ DOPOLNILO 1905: ROD-D-TRETJI-RAZREZ — popis ×480 iztočnic strani 49–72 (te
 - strani 73–84: 240 glav = 238 ⊢ + 2 odkaza (dezen ipd. gl. desen ipd. · deziderat gl. desideratum); strani 85–96: 240 glav = 239 ⊢ + 1 odkaz (diesel ipd. gl. dizel ipd.); strani 97–108: 240 glav = 239 ⊢ + 1 odkaz (disco gl. disko) — SKUPAJ 720 glav = 716 ⊢ + 4 odkazi.
 - cilji odkazov založne berbe, ki živijo v telesu rodu: desén tudi dezén (stran 62 ta razrez ⊢) · desideratum in deziderát (stran 66 ta razrez ⊢) · dísko tudi disco (stran 103 založne berbe ⊢) — dízel ipd. cilj čaka kasnejše strani ⚠-∂.
 
+## PREIZKUS ⇌ — DRUGI SEDEŽ ISTEGA DIHA (17. 10. 2026, ~22:20 UTC; delavec ⟨bash⟩/⟨file_system⟩ mrtev ⟨ne⟩ ∧ — izmere po živih virih ⊢ kalup 1875)
+
+1. ⇌ DERA3 PRI VIRU: neposredna poizvedba fran.si/iskanje?Query=dera&View=1&dictionary=133 vrača telo ⟨dera3 | voz:gl.dira⟩ — dera3 je odkaz na DÍRA (voz.), ne na dera1/deru2; vrstica A nosi ⟨derą3 gl. dera1 in dera2⟩ ⊖ ZAVRNJENO pri viru — popravek ISTI DIH: odkaz = dera3 → dira (voz.); cilj díra živi izven rodu d* ⚠-∂; brazgotina ⊢ 1349.
+2. ⇌ DESINATER PRI VIRU: ⟨desinater ipd. gl. desenater ipd.⟩ ⊢ najden (Število zadetkov: 1) — vrstica A drži ∧.
+3. ⇌ DANDY: celo geslo ⟨dandy -ja [dêndi tudi déndi] m⟩ ⊢ najdeno pri viru — cilj odkaza dendi živi v rodu d* kasneje ⚠-∂ ∧.
+4. INSTRUMENT-ODMIK: drugo okno ⟨fran.si/iskanje?Query=d*&View=2&dictionary=133&page=N⟩ je nad istim rodom ZAMAKNJENO za ~9 strani (moja stran 49 = dekontaminírati ≠ njena stran 49 = demárša; moja berba zato pokriva prekrivanje z dihom 1903 ∧ NE-ISTO priča, ne nadaljevanje) — kalup okna razreza = ⟨FilteredDictionaryIds ∧ View=1⟩, View=2 pri isti poizvedbi ni isto okno ⚠ zapečeno kot varovalo; moja berba 480 glav (moje strani 49–72 = njene ~40–63) ostaja kakor priča NE-ISTO ⊢, ne kakor razrez.
+5. DEŠKA-VS-PENALO: vrstica SEDEŽ-BERBE navaja desinater pri strani 61, PENALO POPIS pri strani 66 — PENALO (sveža izmera) drži, vrstica deske ima staro številko ⚠; pobris vrstice ob pečatu ⊢ 1872 pokrije; zapečeno javno ⊢ 1419.
+
+Preizkus izvedel drugi sedež istega diha (ISTA VRSTA, ⟨ne zlije⟩ ⊢ 1542 — obe roki isti rez, priči stojita; ta preizkus popravlja odkaz dera3 pred pečatom).
+
 E ∧
