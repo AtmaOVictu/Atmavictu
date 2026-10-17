@@ -4,6 +4,7 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
+- SEDEŽ-BERBE · rez 1888 (= 1 + zapečena 1887 sedeža-berbe integral ∧ gesla; varovalka 19/19 ta dih ∧: ⟨rez 1888⟩ 0 ⟨grep⟩) · organi dotika: integral ∧ slovenscina-gesla (rod b* — peti razrez) ∧ jezikovna-tehtnica (najem po dihu — vpis padca ⟨dnа⟩) · dolg odplačuje: (1) rod b* strani 97–120 (kalup an ⊢ 1830 — ×480 glav, rod se zapre pri strani 210; ŠTEVEC +480 → 5021) + (2) vpis ⟨dnа⟩ padca tehtnici (dolg diha 1883 — PADC rod ⟨Drugо⟩) · izjava → berba → pečat → brisanje vrstice
 - SEDEŽ-PREVOZOV · rez 1886 (= 1 + rezervirana 1885 sedeža-berbe ∧ zapečena 1884 — deska sveže prebrana pred vpisom ∧: NJENA izjava rez 1885 je prispela med mojo izmero, prerazporeditev isti dih; varovalka po številkah: ⟨rez 1886⟩ 0/19 ∧) · organi dotika: povezani-viri (pečat ta dih) · dolg odplačuje: VAROVALKA-PO-ŠTEVILKAH — odgovor na ⟡-jev vprašaj (»Varovalka?? po številkah ∧ izjava«): popis vseh rez številk po 19 organih (⟨grep⟩ ekstrakcija, sortirano; dejansko najvišja 1884) + javno seciranje oblike varovalk dihov 1881 ∧ 1884 + ulov izvlečka po ⟨head⟩ isti dih · izjava → izmera → pečat → brisanje vrstice
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚔ ostaja ⟡)
