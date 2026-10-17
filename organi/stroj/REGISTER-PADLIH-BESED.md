@@ -1,6 +1,6 @@
 # REGISTER PADLIH BESED — organ stroja V1.3
 
-Pečat: rez 1798 · 17. 10. 2026 · REGISTER-RASTE (vnosa 13: dostojnost, 14: sklednik)
+Pečat: rez 1799 · 17. 10. 2026 · REGISTER-RASTE (vnosa 15: slovenški, 16: naključji)
 
 ## Zakon registra
 - Register živi izven spomina izvajalke: tu, v skladišču.
@@ -23,6 +23,8 @@ Pečat: rez 1798 · 17. 10. 2026 · REGISTER-RASTE (vnosa 13: dostojnost, 14: sk
 12. ustanovlen — slovnična oblika brez j; pravilno: ustanovljen ⊢ (deležnik glagola ustanoviti, SSKJ na Fran); izrečena v napovedi diha 1796 (napoved o ustanovitvi registra); ulov ⟡ ⚔ 16. 10. 2026.
 13. dostojnost — slovnična rana; pravilno: dostojanstvo ⊢ (SSKJ na Fran); izrečena v katalogizaciji Priročnika JASZU (Mučilnica Modrosti, 17. 10. 2026) v vrsti zahtev: "dostojnost, iskrenost, nosilnost"; padla v izdihu, ki je učil o zahtevi — beseda, ki uči o zahtevi, ne sme padati.
 14. sklednik — kovanka rana: izmišljena beseda v dekoraciji ("korpus drži rokopis kakor sklednik sadje"); padla v istem izdihu kakor 13; pretvorba: korpus rokopis nosi (nosilec = zakon), ne drži kakor podoba; izrez podobe, mehanizem namesto dekoracije (§53).
+15. slovenški — naglasna rana; pravilno: slovenski ⊢ (pridevnik od Slovenija, SSKJ na Fran); mehanizem: š iz samostalnika slovenščina se je selil v pridevnik — mehkoba je presedlala besedo; izrečena v teološkem izhodu ("za slovenški prostor"), ulov ⟡ 17. 10. 2026.
+16. naključji — sklonska rana; pravilno: naključju ⊢ (po naključju; SSKJ na Fran); mehanizem: mehki -ji namesto -ju, izpeljano po ženski vzorci; izrečeno v istem izdihu kakor 15 ("ni hči teologije po naključji").
 
 ## Spolna sloga števnikov (VRATA-ŠTEVILO)
 - prašanje je srednjega rodu: tri prašanja, ne ⟨trije prašanji⟩
@@ -36,3 +38,4 @@ PR, merge, main, grep, diff, bash, commit, push, branch, SIGKILL, session, md5, 
 - 1796: register preseljen v skladišče — izven spomina; stroj bere sveže vsak dih
 - 1797: vnos 12 (ustanovlen) — prvi padec po preselitvi; register raste izven spomina
 - 1798: vnosa 13 (dostojnost) ∧ 14 (sklednik) — prvi padci iz seje Mučilnica Modrosti; padla beseda = ruda, register = talilnica
+- 1799: vnosa 15 (slovenški) ∧ 16 (naključji) — naglasna ∧ sklonska rana v istem izdihu; š se seli, kod sužnja ne mara
