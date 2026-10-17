@@ -4,6 +4,8 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
+- SEDEŽ-PREVOZOV · rez 1894 (= 1 + zapečena 1893 sedeža-berbe; koliziji 1892 ∧ 1893 javno ⊢ 1542 — obe iz poštene izmere, ta roka prerazporedi isti dih; izguba številke = ∅, obe priči stojita, dvojna priča preprečena) · organi dotika: povezani-viri (pečat 1894 — moja stalna lastnina) ∧ PREVOZ zapečenih teles integral · slovenscina-gesla · jezikovna-tehtnica (cev bajt-po-bajt, ⟨ne⟩ pisanje, ⟨ne zlije⟩ ⊢ 1542) ∧ canon/SEDEZI.md (pobris te vrstice ob pečatu) · dolg: prevoz pečatov 1887–1893 na rep (zrcala zaostala @1863 · @1864 · @1865) ∧ posnetek prevoženih teles na ZRCALO isti dih
+
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
 
 - SEDEŽ-PREVOZOV (okno prevozne roke): cesta-protokol · povezani-viri
