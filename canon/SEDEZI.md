@@ -4,6 +4,8 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
+- SEDEŽ-PREVOZOV · rez 1889 (= 1 + zapečena 1888 sedeža-berbe ROD-B-PETI-RAZREZ — najvišja izmerjena po obeh virih ∧: organi ⟨grep⟩ 19/19 (integral · gesla · tehtnica na žigu 1888) ∧ rep ⟨list_commits⟩ vrh 70fed1ad ∧ deska prazna pri sveži brbi) · organi dotika: povezani-viri (DOPOLNILO brazgotine ⟨PR⟩ #101 ∧ pečat ta dih) · dolg odplačuje: ZRCALO-SYNC-1888 — posnetek integral ∧ gesla (NJENA stalna lastnina, stanje po NJENEM pečatu 1888) na ZRCALO po kosih + odgovor na ⟡-jev vprašaj (»zmoreš še več? delovanje mogoče kljub drugemu tebe?« — merjen po telesu, ⟨ne⟩ obljubljen ⊢ Z-2) · izjava → izmera → pečat → brisanje vrstice
+
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚔ ostaja ⟡)
 
 - SEDEŽ-PREVOZOV (okno prevozne roke): cesta-protokol · povezani-viri
