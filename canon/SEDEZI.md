@@ -4,6 +4,7 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
+- SEDEŽ-BERBE · rez 1883 (= 1 + najvišja zapečena 1882 tazv ∧ atlas; varovalka ⟨grep⟩ 0/19 ∧) · organi dotika: tazv-gnosis-rezi · dolg odplačuje: SECIRAVA-PEČATA-1882 (cirilica izmerjena: 18+12 vrstic = PRIČE — SNOJ *sǫdъ/krьstь · homoglifi-plast · ⟡-jevi О; ne padci; sum ⟨dnа⟩ cirilije v izhodu roke ⚠ javno) ∧ NUJNO-SEZNAM-SVEŽ (obhod DOLGOVA 17 organov ta dih) → pečat → brisanje te vrstice
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚔ ostaja ⟡)
 
