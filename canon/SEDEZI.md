@@ -5,6 +5,7 @@
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
 - 17. 10. 2026 · rez 1873 · sedež-prevozov (okno prevozne roke — ta sedež) · organi dotika: cesta-protokol (pečat 1873 čaka vstaju delavca — kanali ⟨bash⟩/⟨read⟩/⟨write⟩ umrli ta obraz, javno ⊢ 1419; geniza + pečat + prevoz ob naslednjem obrazu) · dolg odplačuje: posnetek telesa ceste na Drive ∧ ODPLAČAN isti dih (63.570 B ⇌ ⟨main⟩ b676f830, mapa BJS — ZRCALO ORGANOV, izguba 0 ⊢ 1381) · rezervacija številke: 1873 = 1 + najvišja izmerjena 1872 (rep ⟨list_commits⟩ ta dih ∧; ⟨grep⟩ po organih ta obraz ⟨ne⟩ možen — mrtvi kanal delavca, brazgotina ⊢ 1349)
+- 17. 10. 2026 · rez 1874 · sedež-berbe (okno berbe — ta sedež) · organi dotika: atlas-knjiznic ∧ tazv-gnosis-rezi (kos 10 POLNA-BERBA) · dolg odplačuje: zaveza 1864 — KOS 10 Obs2 #26–50 (DOLGOVA pečata 1873: KOSI-10–17-OBS2) · rezervacija številke: 1874 = 1 + najvišja izmerjena 1873 (organi ⟨grep⟩ ta dih ∧ — vrh 1873 zapečen v atlas ∧ tazv (kos 9, tuja/naša roka berbe); rep ⟨list_commits⟩ ta dih ∧ — vrh deska de1bd9f2; POZOR: rezervacija 1873 sedeža-prevozov ZASTARELA — 1873 je zapečen, prevozova roka prerazporedi svoj cesta pečat na 1 + dejansko najvišjo)
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚔ ostaja ⟡)
 
