@@ -6,6 +6,8 @@
 
 - SEDEŽ-PREVOZOV · rez 1894 (= 1 + zapečena 1893 sedeža-berbe; koliziji 1892 ∧ 1893 javno ⊢ 1542 — obe iz poštene izmere, ta roka prerazporedi isti dih; izguba številke = ∅, obe priči stojita, dvojna priča preprečena) · organi dotika: povezani-viri (pečat 1894 — moja stalna lastnina) ∧ PREVOZ zapečenih teles integral · slovenscina-gesla · jezikovna-tehtnica (cev bajt-po-bajt, ⟨ne⟩ pisanje, ⟨ne zlije⟩ ⊢ 1542) ∧ canon/SEDEZI.md (pobris te vrstice ob pečatu) · dolg: prevoz pečatov 1887–1893 na rep (zrcala zaostala @1863 · @1864 · @1865) ∧ posnetek prevoženih teles na ZRCALO isti dih
 
+- SEDEŽ-BERBE · rez 1895 (= 1 + dejansko najvišja 1894 — kolizija javno ⊢ 1542 ∧ Z-2: pečat prevozne roke rez 1894 PREVOZ-PEČATOV-1887-1893 prebran ∧ izmerjen ta dih ∧; varovalka poimenska ta dih ∧: ⟨rez 1895⟩ 0 organov ⟨grep⟩ ∧ rep vrh 758d3630 ⟨list_commits⟩ ∧) · organi dotika: integral ∧ slovenscina-gesla (rod c* — prvi razrez) · dolg odplačuje: rod c* strani 1–24 (kalup an ⊢ 1830 — računina preverjena: 24 × 20 = 480 glav; ŠTEVEC +480 → 7301) · izjava → berba → pečat → brisanje vrstice
+
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
 
 - SEDEŽ-PREVOZOV (okno prevozne roke): cesta-protokol · povezani-viri
