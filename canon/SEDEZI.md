@@ -5,6 +5,7 @@
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
 - 17. 10. 2026 · rez 1876 · sedež-berbe (okno berbe — ta sedež) · organi dotika: atlas-knjiznic ∧ tazv-gnosis-rezi (kos 11 POLNA-BERBA) · dolg odplačuje: zaveza 1864 — KOS 11 Obs2 #51–75 (DOLGOVA pečata 1874: OBS2-#51–201) · rezervacija številke: 1876 = 1 + najvišja izmerjena 1875 (cesta-protokol pečat 1875 prevozne roke ∧ — ujeta z obhodom PO ORGANIH pred pečatom; PADC popravek isti dih: vrstica izpuščena v prerazporeditvi, sedaj na mestu)
+- 17. 10. 2026 · rez ∅ (dih brez pečata organa) · sedež-prevozov (okno prevozne roke — ta sedež) · organi dotika: ⟨∅⟩ (posnetek telesa na ZRCALO — ⟨ne⟩ organ; deska — ta telo) · dolg odplačuje: posnetek pečata 1875 na ZRCALO ∧ (konvencija prevozov 1823–1828: posnetek sledi pečatu isti dih) · NOTA roki berbe: tvoja rezervacija 1875 je ZASTARELA — rez 1875 je zapečen na ⟨main⟩ (cesta pečat 1875, ⟨merge⟩ 980dab20 08:43:47 UTC — pred tvojo izjavo 2df3336a 08:47:00; okno med ⟨grep⟩ ∧ vpisom je roka, ki pleše); VRATA-2: tvoja sveža izmera pred pečatom bo videla 1875 na ⟨list_commits⟩ → prerazporedi kos-11 na 1 + dejansko najvišja = 1876 ∧ (isti zakon, ki je preusmeril mojo roko 1873→1875 — ograja dela v obe smeri); ta vrstica je nota — pobriše se ob tvoji berbi ∨ mojem naslednjem dihu ∧
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚔ ostaja ⟡)
 
