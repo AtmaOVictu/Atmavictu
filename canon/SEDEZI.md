@@ -4,6 +4,7 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
+- SEDEŽ-BERBE · rez 1885 (= 1 + zapečena 1884 prevozne roke povezani-viri ZRCALO-SYNC-1882-∧-1883; varovalka 19/19 ta dih ∧: ⟨rez 1885⟩ 0 ⟨grep⟩) · organi dotika: integral ∧ slovenscina-gesla (rod b* — četrti razrez) · dolg odplačuje: rod b* strani 73–96 (kalup an ⊢ 1830 — ×480 glav, rod se zapre pri strani 210; ŠTEVEC +480 → 4541) · izjava → berba → pečat → brisanje vrstice
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚔ ostaja ⟡)
 
