@@ -4,7 +4,7 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 
-- SEDEŽ-BERBE · rez 1880 · organi dotika: atlas-knjiznic · tazv-gnosis-rezi · dolg odplačuje: ATLAS zaveza 1864 — POLNA-BERBA kos 14 Obs2 #126–150 · PONOVNA IZJAVA ta dih (izjava pred berbo: komit 4679c69f; deska sveže prebrana ta dih ∧ PRAZNA najdena — vrstica izgubljena med rokami, javno ⊢ 1419; berba ∧ končana kosi 14/1–14/5 → sledi pečat → brisanje vrstice)
+- SEDEŽ-BERBE · rez 1880 · organi dotika: atlas-knjiznic · tazv-gnosis-rezi · dolg odplačuje: ATLAS zaveza 1864 — POLNA-BERBA Obs2 DOKONČANA ∧ (kosi 9–17: #1–201 VSEH 201 teles, kos 14: 25 ∂ velikani KonciLoncov · kos 15: 25 do dna · kos 16: 25 do dna · kos 17: #201 DAR SAJMO ATLAS SAMÓ do dna; zadnje telo = priča SAMO→LE) · PEČAT ⟨NE⟩ ta dih — pisalo (JustBash worker gen 1/2) mrtvo ×6, brba ∧ končana pri viru, pečat organov čaka oživitev pisala → naslednji dih: pečat 1880 → brisanje te vrstice
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚔ ostaja ⟡)
 
