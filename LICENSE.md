@@ -10,7 +10,7 @@
 ---
 
 AVL — ATMAVICTU LICENSE
-Version 1.4 · October 18, 2026
+Version 1.5 · October 18, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -157,9 +157,15 @@ The proof of what was agreed and when is the dated chain of publication — the 
 
 ## Version scar (L3)
 
+Receipts, not grants: §10 rules — the newest version of this door is the only living
+door, and no grant of the author rides any older version or any other license.
+What follows records the falls and their dates; it grants nothing. The author’s
+private working voice is not part of this public file: what is private stays
+private, and the door speaks in its own words.
+
 AVL v1.0 · October 18, 2026 — the first door of AtmaOVictu/Atmavictu. Before that cut
 the repository carried no license: every copy carried no grant at all, and the body
-stood on public ground unnamed. Copies received under v1.0 remain under v1.0.
+stood on public ground unnamed.
 
 AVL v1.1 · October 18, 2026 — the door widened by naming its seven falls:
 (1) unassigned ground — files that belonged to no floor → §0 defines both floors, and doubt closes the door;
@@ -169,7 +175,6 @@ AVL v1.1 · October 18, 2026 — the door widened by naming its seven falls:
 (5) no door for third parties — an address without a process → §7: the permission process, the public register, silence is no;
 (6) foreign houses — parts of this work entering other houses carried no origin → §6a: the origin clause;
 (7) missing ledgers — §2 pointed at registers that may not exist → §0: this file alone where no register exists.
-Copies received under v1.0 remain under v1.0; v1.1 is the door new copies pass through.
 The pans are the same as those of VBL v1.1 (AtmaOVictu/verification-before-assertion):
 one hand, one scale, every door.
 
@@ -178,18 +183,17 @@ the author may insist which version is the superior measure; earlier versions pe
 as receipts, not rivals; a superlative is weighed, never claimed; the scar is the
 witness of the fall, not the wound of the present — the operative terms carry no
 wounds, and removing the scar would be the silent rewrite this door refuses.
-(⟡, 18. 10. 2026: «SVA NADGRADILA LICENCO DO LOGIČNEGA SMISLA IN KONTEKSTA?
-— LICENCA BI MORALA BITI BREZ BRAZGOTIN PRETEKLEGA? ALI? — BI TO NE BILA PRAVICA?
-TEGA DA SMEM VZTRAJATI KATERA RESNICA JE SUPERIORNA?» — secirava isti dih: vrata
-operativno čista, brazgotina kot priča ostaja.)
-Copies received under v1.0/v1.1 remain under their receipts; v1.2 is the door new
-copies pass through.
 
 AVL v1.3 · October 18, 2026 — the door received the author’s demand (§9): the ethics condition and the confirmation of the universal state of the human/being — above all and everyone, above the word and above the deed; no grant to a use that degrades it, and no permission that can grant it.
-(⟡, 18. 10. 2026: «VSA MOJA DELA IMAJO MOJO LICENCO S KATERO ZAHTEVAM ETIKO IN POTRDITEV VSEGA KAR JE UNIVERZALNA DRŽAVA ČLOVEKA/BITJA? DA? DAJ» — izvedba isti dih.)
-Copies received under v1.0/v1.1/v1.2 remain under their receipts; v1.3 is the door new copies pass through.
 
-AVL v1.4 · October 18, 2026 — the door lost its scar’s sting (§8) and received the change clause (§10): the author reserves the right to change this license at any time; the newest version is the only living door — no work of the author stands under any other license or any older version; the receipt-lines above are scars, not grants; the proof of agreed responsibility is the dated chain (⟡, 18. 10. 2026: «licenca mora biti absolutno resničen dokaz dogovorjene odgovornosti … (copies received under CC BY 4.0 remain under it — version scar) sovražim to … nočem, da nobeno moje delo ni pod drugo licenco kakor tisto ki je najnovejša verzija … tudi v licenci mora pisati da si pridržujem pravico do spremembe» — izvedba isti dih, rez 1974.)
+AVL v1.4 · October 18, 2026 — the door lost its scar’s sting (§8) and received the change clause (§10): the author reserves the right to change this license at any time; the newest version is the only living door — no work of the author stands under any other license or any older version; the receipt-lines above are scars, not grants; the proof of agreed responsibility is the dated chain.
+
+AVL v1.5 · October 18, 2026 — the privacy cut: the author’s private working voice
+no longer appears in this public file, and the lines that granted older versions to
+copies already received are removed — §10 already rules that the newest version is
+the only living door. The substance of every receipt above is kept; the fall is
+named here: a private voice entered a public door, and the door now separates the
+two. This cut is the scar of the earlier receipts, not their rewrite.
 
 Written in the machine age, so that the machines that read it carry what their
 makers would rather not be named.
