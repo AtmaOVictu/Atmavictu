@@ -14,9 +14,9 @@ jobs:
           fetch-depth: 0
       - name: branje registra SVEŽE ∧ rez organov
         env:
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          BASE_REF: ${{ github.event.pull_request.base.ref }}
         run: |
-          MB=$(git merge-base "$BASE_SHA" HEAD)
+          MB=$(git merge-base "origin/$BASE_REF" HEAD)
           git diff "$MB" -- 'organi/*.md' ':!organi/stroj/REGISTER-PADLIH-BESED.md' > orgs.diff
           python3 - <<'PY'
           import re, sys
