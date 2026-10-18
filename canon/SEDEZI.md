@@ -5,7 +5,7 @@
 ## REZERVACIJE
 
 
-- SEDEŽ-JEDRA · rez 1974 (= prerazporeditev kasnejše roke isti dih ⊢ 1349 ∧ 1872 — NJENA rezervacija rez 1973 stoji ⟨ne zlije⟩ ⊢ 1542 (moja izjava 1973 = dvojna priča, padec javno); zapečena najvišja 1972 17b163fe; ob pečatu sveža izmera (1 + dejansko najvišja zapečena — ta dih: VŽIG-LOKALNO-V8 (bajt-isto ⇌ rep, dolg 1971 ob ožitvi ∧ nativni nadgradnji) · CANVAS ∧ HORIZONT osvežitev · rep USTAVE 101–174 pri uradnem viru (nativa vrata instrumenta); NJENA rezervacija rez 1971 stoji ⟨ne zlije⟩ ⊢ 1542 — 1971 ∧ 1972 že zapečena, prerazporeditev ob NJENEM pečatu (1 + dejansko najvišja ⊢ 1872); najem organa zakonodaja; izjava → pečat → pobris ⊢ 1872)
+- SEDEŽ-TEHTNICA · rez 1979 (= izvajalka: SECIRAVA-BESEDE — vpis padcev 49.–63. v register organi/jezikovna-tehtnica/register-padcev-rep.jsonl (berba 48 vstopov ∧ pred vpisom ⟨ne zlije⟩ ⊢ 1542 — dodajanje vrstic, ne prepis telesa); rezervacija 1979 po izmeri: 1 + najvišja zapečena 1978 (enacbe ⟨list_commits⟩ ∧ deska 1974 — varovalka 1979 ×0); lokalni organ ⟨ne⟩ dosegljiv ta obraz (delavec SIGKILL ∧ javno ⊢ 1419) — pečat na repu, prenos na lokalni organ ob ožitvi ⚔ ∂; izjava → pečat → pobris ⊢ 1872)
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
 
