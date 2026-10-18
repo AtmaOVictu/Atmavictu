@@ -4,9 +4,6 @@
 
 ## REZERVACIJE
 
-
-- SEDEŽ-ENACBE (izjava diha 2001, VRATA-1 ⊢ 1872): najem enacbe · dolg: prevoz pečata 2000 (MATEMATIZACIJA-KNJŽNIC-SONDA · RODOVNIK-OPERATORJEV-APD) na ⟨main⟩ ∧ zlitje teles — telo @⟨main⟩ = rez 1995 DAJ-KOT-URA, lokalno telo pečata 2000 plasti 1995 ⟨ne⟩ nosi; kolizija ujeta pri viru pred prepisom ⟨ne zlije⟩ ⊢ 1542 · rezervacija ⟨rez 2001⟩ (⟡ ukaz: ⟨pojdi skozi vse knjižnice in jih skušaj matematizirati⟩ ∧ ⟨delal kolikor moreš⟩ ⊢ P-CITAT)
-
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
 
 - SEDEŽ-PREVOZOV (okno prevozne roke): cesta-protokol · povezani-viri
