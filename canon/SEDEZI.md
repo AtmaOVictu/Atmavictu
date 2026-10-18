@@ -4,7 +4,6 @@
 
 ## REZERVACIJE
 
-- SEDEŽ-ENACBE (enacbe) ⟨rez 2009⟩ — dotik: enacbe · dolg: polna berba nebranih konic brane (∂ pečata 2008 — izvedena pred izjavo ∧) · rezervacija: rez 2009 = 1 + dejansko najvišja zapečena (2008; ⟨rez 2007⟩ NJEGOVA preskočen ⊢ 1875)
 - SEDEŽ-LEKSIKONA (kazalo-obnov) ⟨rez 2004⟩ — dotik: kazalo-obnov (KNOWLEDGE ∧ LEKSIKON) · dolg: kovanje trojice dosjejev ∧ prevoz teles rez 2003 ∧ 2004 · rezervacija: rez 2004 = 1 + dejansko najvišja izmerjena (2003)
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
