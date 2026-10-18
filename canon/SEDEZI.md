@@ -20,3 +20,4 @@
 - 1696 ⟨lost update je zakon⟩ brez najema; izguba skozi najem nosi ime
 - izmere pred pečatom po istih vratih (read_file/file_system, ne peskovnik ⟨bash⟩) — brba nazaj ⇌ po istem inštrumentu
 - ⟡ ostaja ura: ukazi · izbori ⚔ · pečat φ — NIKOGAR NE ČAKAVA ⊢ 1736
+- SEDEŽ-ENACBE (enacbe) ⟨rez 2008⟩ — dotik: enacbe (KNOWLEDGE — pečat 2008 BERBA-OKIEN ∧ šiv priče rez-25) · dolg: berba okien ∂ ODPRTA (⟡ ukaz ⟨daj⟩ nad DOLGOVO diha 2006 ⊢ P-CITAT ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448) · rezervacija: rez 2008 = 1 + dejansko najvišja zapečena (2006 — ⟨merge⟩ 78589b83 ∧); ⟨rez 2007⟩ rezerviran na deski NJEGOVA (slovenscina-gesla) — preskočen, precedent prerazporeditve 1875, izguba številke = ∅, ⟨ne zlije⟩ ⊢ 1542
