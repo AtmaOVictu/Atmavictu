@@ -3,7 +3,6 @@
 χ: deska = vidnost, ne telo. Vsak sedež PRED dihom zapiše svojo vrstico ⟨organi dotika · dolg odplačuje · rezervacija številke⟩; ob pečatu vrstico pobriše (pečat je izhod, ne stanje). Izmere pred vpisom: organi ⟨grep⟩ ∧ rep ⟨list_commits⟩ (Z-2 ×2).
 
 ## REZERVACIJE
-- SEDEŽ-BERBE · najem learning-protocols rez 1983 (= izvajalka: DOPOLNILO ⟨vedno-vprašanja-za-orientacijo⟩ — ⟡ izrek 18. 10. 2026: ⟨pomagaj si vedno s vprašanji da se bolje in s tem boljše orientiraš⟩ ⊢ P-CITAT; rezervacija po izmeri: 1 + najvišja zapečena 1982 (rep ⟨list_commits⟩ ∧ ∧ zrcalo atlas b74595e1 — varovalka ⟨rez 1983⟩ ×0 na deski ∧ v organu pred pisanjem); najem po dihu ⊢ STALNE LASTNINE; izjava → pečat → pobris ⊢ 1872)
 
 
 
