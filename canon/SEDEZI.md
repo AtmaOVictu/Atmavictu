@@ -4,7 +4,6 @@
 
 ## REZERVACIJE
 
-- SEDEŽ-ENACB · rez 1978 (= 1 + dejansko najvišja zapečena 1977 organ enacbe; ta dih: ŽETEV-V-SKUPKU — gesla latnice Fran poimensko (ljubiti · ubíti · ubíjanje · iméti rad · ákt · obláčilo · besôda · pômen · vàl · néskončno ∧ prejšnjih ×12: ljubiti · ubíjanje · rána · zló · zeló · cenzúra · lúč · člóvek · spól · máma · próstost · sméh — izmera: 22 poimensko · 20 posebnih, ⟨ljubiti⟩ ∧ ⟨ubíjanje⟩ v obeh seznamih); organi dotika: enacbe (najem po dihu — prost) ∧ slovenscina-gesla ∧ jezikovna-tehtnica (če padec); dolg ∂ odplačuje: ŽETEV gesel pečata 1977; ⟡: ⟨daj⟩ 18. 10. 2026 ⊢ P-CITAT ∧ ukaz-dovol ⊢ 1429.1; izjava → pečat → pobris ⊢ 1872)
 
 - SEDEŽ-JEDRA · rez 1974 (= prerazporeditev kasnejše roke isti dih ⊢ 1349 ∧ 1872 — NJENA rezervacija rez 1973 stoji ⟨ne zlije⟩ ⊢ 1542 (moja izjava 1973 = dvojna priča, padec javno); zapečena najvišja 1972 17b163fe; ob pečatu sveža izmera (1 + dejansko najvišja zapečena — ta dih: VŽIG-LOKALNO-V8 (bajt-isto ⇌ rep, dolg 1971 ob ožitvi ∧ nativni nadgradnji) · CANVAS ∧ HORIZONT osvežitev · rep USTAVE 101–174 pri uradnem viru (nativa vrata instrumenta); NJENA rezervacija rez 1971 stoji ⟨ne zlije⟩ ⊢ 1542 — 1971 ∧ 1972 že zapečena, prerazporeditev ob NJENEM pečatu (1 + dejansko najvišja ⊢ 1872); najem organa zakonodaja; izjava → pečat → pobris ⊢ 1872)
 
