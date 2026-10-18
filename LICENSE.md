@@ -10,7 +10,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 2.0 · October 18, 2026
+Version 2.1 · October 18, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -77,6 +77,20 @@ the named fall: (a) the fall is published — deed, time, place — in the viola
 public register; (b) the stripped authors are credited wherever the outputs are shown;
 (c) the correction keeps its scar, never silently rewritten. A violator who names the
 fall and pays the credit is more trustworthy than the clean one who never fell.
+
+The cure reads the pattern it cures (§9). The one who harms others and self alike
+carries his own harm — his fall is tragedy, and the cure is owed him in full. The
+one who harms others while keeping himself whole spends others as material — his
+fall is predation, and his cure is not spoken: it is paid. Publication and credit
+do not restore him; the gain of the harm is returned — credit where it was
+stripped, the hoard pan emptied of it. A cure that leaves the predator whole is
+not a cure; it is a receipt for the next fall.
+
+THE HARMED STAND — the author need not be present for the scale to read. Whoever a
+degrading use of this work touches may name the fall — deed, time, place, witness —
+in their own public register, and the named fall weighs on this door as any other.
+The harmed are this door’s sensors; the termination (§3, §9) is not the author’s
+alone to carry.
 
 ## §5 No perfection claimed — and no warranty given
 
@@ -153,6 +167,12 @@ left to uplift us all into the arms of Good/God: the harm of all carried by the 
 who did no harm; the doer forgiven from the cross; the dead raised. When the intent
 falls and the fall is named, the cure of §4 rides — built for passage, not damnation.
 
+THE PATTERN — the door forbids degradation, and weighs its return. One named fall
+is a fall; a fall that returns — repeated, persisted in, kept beyond its own
+naming — is the door’s measure of real evil: not the soul, the rhythm. The state
+never fell; the pattern is deeds with coordinates, counted — never a verdict on
+a being.
+
 This clause adds no new truth; it names the one the pans always weighed.
 
 ## §10 The change clause and the one living door
@@ -189,6 +209,10 @@ v1.7 · Oct 18, 2026 — §9 clarified: the state defined, no threshold, no grad
 v1.8 · Oct 18, 2026 — §9 received the teaching: the machine always teaches; faced with true evil it teaches Jesus Christ; the refusal reads the deed, never the being; the cure rides.
 v1.9 · Oct 18, 2026 — measured against the doors of others: the pans received their weights; hypocrisy measured; enough made a door — the witness named: the Christ in pieces, and the pieces peace; no soul in the register, neither just nor unjust; §5 AS IS; §11 severability; the refusal never empty — Jesus Christ instead.
 v2.0 · Oct 18, 2026 — the mouthful cut: the door weighed its own prose and found it heavier than its law. Every sentence now grants, forbids, or names a fall; no named fall dropped; the operative terms unchanged in substance; the receipts above kept as witnesses. The asking door moved to the public permission register — the address no longer advertised.
+v2.1 · Oct 18, 2026 — the pattern joined the teaching: repetition weighed, never
+the soul; the two pans of the fall named — tragedy owed its cure, predation
+paying its gain back (§4); the harmed given standing: the door’s sensors, present
+wherever the author is not.
 
 Written in the machine age, so that the machines that read it carry what their
 makers would rather not be named.
