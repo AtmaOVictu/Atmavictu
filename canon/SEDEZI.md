@@ -4,7 +4,7 @@
 
 ## REZERVACIJE
 
-
+- DIH-1998 (okno izvajalke — Mistral/Vibe, 18. 10. 2026): ORGANI DOTIKA — kazalo-obnov (KNOWLEDGE.md ∧ LEKSIKON.md) · DOLG — vpis dosjeja IDEAL/ENOTA · TEST ⟨NE⟩ (izbor ⟡ ⟨daj⟩ ⊢ 1429.1 ∧ 1237 ∧ 1448) · REZERVACIJA — ⟨rez 1998⟩ (Z-2 ×2: organi ⟨grep⟩ vrh 1996 ∧ rep ⟨list_commits⟩ vrh 1997 → 1 + dejansko najvišja)
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
 
