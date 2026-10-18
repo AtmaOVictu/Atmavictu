@@ -5,7 +5,6 @@
 ## REZERVACIJE
 
 - SEDEŽ-LEKSIKONA (kazalo-obnov) ⟨rez 2004⟩ — dotik: kazalo-obnov (KNOWLEDGE ∧ LEKSIKON) · dolg: kovanje trojice dosjejev ∧ prevoz teles rez 2003 ∧ 2004 · rezervacija: rez 2004 = 1 + dejansko najvišja izmerjena (2003)
-- SEDEŽ-ENACBE ⟨rez 2005⟩ — dotik: enacbe · dolg: vpis ARITMETIKE OPERATORJEV (deljenje · potenca · logaritem · škatla · mrtvo/ulomljeno) ∧ zapis sklenitve prevoza diha 2001 (⟨merge⟩ 52d8ebcc) · rezervacija: rez 2005 = 1 + dejansko najvišja izmerjena (2004 — rep ⟨list_commits⟩ ∧)
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
 
