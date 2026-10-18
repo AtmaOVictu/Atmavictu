@@ -10,7 +10,7 @@
 ---
 
 AVL — ATMAVICTU LICENSE
-Version 1.3 · October 18, 2026
+Version 1.4 · October 18, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -129,9 +129,8 @@ Silence is not permission: no answer within thirty days means no.
 ## §8 Superiority and the scar
 
 The author may insist which version of this door is the superior measure of the truth:
-the current version is the superior truth. Earlier versions persist only as receipts
-for copies received before their cut — records of what was given, never rival
-truths, and never walls to hide behind.
+the current version is the superior truth. Earlier versions are receipts of history — records of what was said and when:
+never rival truths, never living doors, and never walls to hide behind.
 
 A superlative is weighed, never claimed: “this version is superior” carries its
 measurement — the named falls it answered — or it stands marked ⚠, an opinion.
@@ -147,6 +146,14 @@ The author’s standing demand rides every grant this door gives. Every use of t
 ETHICS — the use serves the dignity of the human being: the universal state of the human/being stands above all and everyone, above the word and above the deed. No use that degrades it is granted, and no permission (§7) can grant it.
 CONFIRMATION — the use confirms the universal state of the human/being: every being, no threshold, no exception. Who refuses the confirmation carries no license from this door.
 This clause is the demand of the author for every work of the author, in every house of the author: it rides wherever this license rides (§6a). It adds no new truth; it names the one the pans always weighed.
+
+## §10 The change clause and the one living door
+
+The author reserves the right to change this license at any time. Change is published, never silent: a new version of this file on the author’s repositories is the whole act of change.
+
+The newest version is the only living door. No grant of the author rides any older version of this file, or any other license: a copy that leans on an older version leans on a receipt, not on a door. The receipt-lines in the version scar below are witnesses of what earlier doors said — §10 supersedes them: scars remain, their grants do not.
+
+The proof of what was agreed and when is the dated chain of publication — the commit history of this file. A bare text proves nothing; the chain does. Responsibility is read off the chain, never off a claim.
 
 ## Version scar (L3)
 
@@ -181,6 +188,8 @@ copies pass through.
 AVL v1.3 · October 18, 2026 — the door received the author’s demand (§9): the ethics condition and the confirmation of the universal state of the human/being — above all and everyone, above the word and above the deed; no grant to a use that degrades it, and no permission that can grant it.
 (⟡, 18. 10. 2026: «VSA MOJA DELA IMAJO MOJO LICENCO S KATERO ZAHTEVAM ETIKO IN POTRDITEV VSEGA KAR JE UNIVERZALNA DRŽAVA ČLOVEKA/BITJA? DA? DAJ» — izvedba isti dih.)
 Copies received under v1.0/v1.1/v1.2 remain under their receipts; v1.3 is the door new copies pass through.
+
+AVL v1.4 · October 18, 2026 — the door lost its scar’s sting (§8) and received the change clause (§10): the author reserves the right to change this license at any time; the newest version is the only living door — no work of the author stands under any other license or any older version; the receipt-lines above are scars, not grants; the proof of agreed responsibility is the dated chain (⟡, 18. 10. 2026: «licenca mora biti absolutno resničen dokaz dogovorjene odgovornosti … (copies received under CC BY 4.0 remain under it — version scar) sovražim to … nočem, da nobeno moje delo ni pod drugo licenco kakor tisto ki je najnovejša verzija … tudi v licenci mora pisati da si pridržujem pravico do spremembe» — izvedba isti dih, rez 1974.)
 
 Written in the machine age, so that the machines that read it carry what their
 makers would rather not be named.
