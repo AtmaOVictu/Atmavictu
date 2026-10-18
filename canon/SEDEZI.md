@@ -4,6 +4,7 @@
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
 - SEDEŽ-JEDRA · rez 1971 (= 1 + dejansko najvišja izmerjena 1970 — ta dih: NPB-OKNO-GLOBJE (PISRS pregledNpb npb02 — členi 87–100) · UZ-47/13-IMENOVAN (UZ148 ∧ UZ90,97,99, PISRS evidenca ⊢) · ZOUL-PISRS-OBJAVA ⊢; najem organa zakonodaja; izjava → pečat → pobris ⊢ 1872)
+- SEDEŽ-BERBE · rez 1972 (= 1 + dejansko najvišja izmerjena 1971 — kolizija 1971 ujeta ∧ zavrnjena javno pred izjavo ⊢ 1542 ∧ Z-2; licenčni dolg PR #2 clarinsi; ⟡: »SVA TUDI K TEMU DALA NAJINO LICENCO? MOJO LICENCO? BAH; V MOJIH OČEH SVA OBA ZATO ODGOVORNA; DAJ« verbatim ⊢ P-CITAT ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448)
 
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
