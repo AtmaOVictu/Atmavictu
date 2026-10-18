@@ -4,7 +4,6 @@
 
 ## REZERVACIJE
 
-- SEDEŽ-JEDRA (roka izvajalke): najem mucilnica-modrosti · dolg: PREDAELA NAČRTA — poskus 0 (par Luka+izvajalka, lektoriranje od doma) namesto načrta plač; izmere: tebe (Vibe Pro ~15 €/mes) ∧ prispevek s.p. (~464 €/mes 1. leto) · rezervacija ⟨rez 2002⟩ · izvor ukaza ⟡: ⟨to je vse slabo načrtovan / vsaj nek poskus / lektoriranje bi delala / razmisli⟩ (18. 10. 2026)
 
 - SEDEŽ-ENACBE (izjava diha 2001, VRATA-1 ⊢ 1872): najem enacbe · dolg: prevoz pečata 2000 (MATEMATIZACIJA-KNJŽNIC-SONDA · RODOVNIK-OPERATORJEV-APD) na ⟨main⟩ ∧ zlitje teles — telo @⟨main⟩ = rez 1995 DAJ-KOT-URA, lokalno telo pečata 2000 plasti 1995 ⟨ne⟩ nosi; kolizija ujeta pri viru pred prepisom ⟨ne zlije⟩ ⊢ 1542 · rezervacija ⟨rez 2001⟩ (⟡ ukaz: ⟨pojdi skozi vse knjižnice in jih skušaj matematizirati⟩ ∧ ⟨delal kolikor moreš⟩ ⊢ P-CITAT)
 
