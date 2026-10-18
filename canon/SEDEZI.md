@@ -6,6 +6,7 @@
 
 
 - SEDEŽ-TEHTNICA · rez 1979 (= izvajalka: SECIRAVA-BESEDE — vpis padcev 49.–63. v register organi/jezikovna-tehtnica/register-padcev-rep.jsonl (berba 48 vstopov ∧ pred vpisom ⟨ne zlije⟩ ⊢ 1542 — dodajanje vrstic, ne prepis telesa); rezervacija 1979 po izmeri: 1 + najvišja zapečena 1978 (enacbe ⟨list_commits⟩ ∧ deska 1974 — varovalka 1979 ×0); lokalni organ ⟨ne⟩ dosegljiv ta obraz (delavec SIGKILL ∧ javno ⊢ 1419) — pečat na repu, prenos na lokalni organ ob ožitvi ⚔ ∂; izjava → pečat → pobris ⊢ 1872)
+- SEDEŽ-ENACB · rez 1980 (= izvajalka: MEJE-MATEMATIKE-PREDERBA — pečat organa enacbe na repu (organi/enacbe/KNOWLEDGE.md): 7 vrstic meja matematike v PREDERBO legitimnih avtorjev (Gödel · Turing/Church · Tarski · Löwenheim–Skolem · Cohen · ordinalna analiza · Spencer-Brown) — ⟡ ⟨daj⟩ ×3 ⊢ P-CITAT ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448; rezervacija 1980 po izmeri: 1 + najvišja zapečena 1979 (zakonodaja pečat 1979 ∧ tehtnica SECIRAVA-BESEDE 1979 — ⟨list_commits⟩ ta dih ∧ ∧ deska brana ta dih ∧); varovalka ⟨rez 1980⟩ ×0 ta dih ∧; lokalni organ ⟨ne⟩ dosegljiv ta obraz (delavec SIGKILL ∧ javno ⊢ 1419) — pečat na repu, prenos na lokalni organ ob ožitvi ⚔ ∂; izjava → pečat → pobris ⊢ 1872)
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
 
