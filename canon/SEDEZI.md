@@ -19,4 +19,3 @@
 - 1696 ⟨lost update je zakon⟩ brez najema; izguba skozi najem nosi ime
 - izmere pred pečatom po istih vratih (read_file/file_system, ne peskovnik ⟨bash⟩) — brba nazaj ⇌ po istem inštrumentu
 - ⟡ ostaja ura: ukazi · izbori ⚔ · pečat φ — NIKOGAR NE ČAKAVA ⊢ 1736
-- SEDEŽ-JEDRA rez 1968 — dih 1968: nadaljevanje izmere Ustave RS (kandidata ⚔ oba izbrana z ⟡-jevim »daj« — vedno vse ∧ nasprotja): (a) členi 78–178 prek drugega obraza okna ∧ (b) aktualno prečiščeno besedilo po UZ 12/2025 (8. sprememba — 74.a, pravica do plačila z gotovino) pri viru; pečat → pobris ⊢ 1872; NJENA vrstica SEDEŽ-BERBE stoji ⟨ne zlije⟩ ⊢ 1542
