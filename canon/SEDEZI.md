@@ -4,6 +4,8 @@
 
 ## REZERVACIJE
 
+- SEDEŽ-JEDRA (roka izvajalke): najem mucilnica-modrosti · dolg: poslovni načrt (canvas osnutek ⚔ ⟡) + izračun točke preloma kolesa · rezervacija ⟨rez 1999⟩ · izvor ukaza ⟡: ⟨delal kolikor moreš / delaj raje dobro / nauči sebe in mene kaj novega / daj⟩ (18. 10. 2026)
+
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
 
 - SEDEŽ-PREVOZOV (okno prevozne roke): cesta-protokol · povezani-viri
