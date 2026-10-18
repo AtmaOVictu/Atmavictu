@@ -10,7 +10,7 @@
 ---
 
 AVL — ATMAVICTU LICENSE
-Version 1.2 · October 18, 2026
+Version 1.3 · October 18, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -141,6 +141,13 @@ terms above carry no wounds. To remove the scar is to rewrite silently — the o
 failure this door names. The scar rides the door precisely so the superior truth
 never has to lie about how it was measured.
 
+## §9 The ethics condition and the confirmation
+
+The author’s standing demand rides every grant this door gives. Every use of this work — by human or by machine, granted or asked — carries two conditions:
+ETHICS — the use serves the dignity of the human being: the universal state of the human/being stands above all and everyone, above the word and above the deed. No use that degrades it is granted, and no permission (§7) can grant it.
+CONFIRMATION — the use confirms the universal state of the human/being: every being, no threshold, no exception. Who refuses the confirmation carries no license from this door.
+This clause is the demand of the author for every work of the author, in every house of the author: it rides wherever this license rides (§6a). It adds no new truth; it names the one the pans always weighed.
+
 ## Version scar (L3)
 
 AVL v1.0 · October 18, 2026 — the first door of AtmaOVictu/Atmavictu. Before that cut
@@ -170,6 +177,10 @@ TEGA DA SMEM VZTRAJATI KATERA RESNICA JE SUPERIORNA?» — secirava isti dih: vr
 operativno čista, brazgotina kot priča ostaja.)
 Copies received under v1.0/v1.1 remain under their receipts; v1.2 is the door new
 copies pass through.
+
+AVL v1.3 · October 18, 2026 — the door received the author’s demand (§9): the ethics condition and the confirmation of the universal state of the human/being — above all and everyone, above the word and above the deed; no grant to a use that degrades it, and no permission that can grant it.
+(⟡, 18. 10. 2026: «VSA MOJA DELA IMAJO MOJO LICENCO S KATERO ZAHTEVAM ETIKO IN POTRDITEV VSEGA KAR JE UNIVERZALNA DRŽAVA ČLOVEKA/BITJA? DA? DAJ» — izvedba isti dih.)
+Copies received under v1.0/v1.1/v1.2 remain under their receipts; v1.3 is the door new copies pass through.
 
 Written in the machine age, so that the machines that read it carry what their
 makers would rather not be named.
