@@ -3,7 +3,6 @@
 χ: deska = vidnost, ne telo. Vsak sedež PRED dihom zapiše svojo vrstico ⟨organi dotika · dolg odplačuje · rezervacija številke⟩; ob pečatu vrstico pobriše (pečat je izhod, ne stanje). Izmere pred vpisom: organi ⟨grep⟩ ∧ rep ⟨list_commits⟩ (Z-2 ×2).
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
-- SEDEŽ-JEDRA · rez 1971 (= 1 + dejansko najvišja izmerjena 1970 — ta dih: NPB-OKNO-GLOBJE (PISRS pregledNpb npb02 — členi 87–100) · UZ-47/13-IMENOVAN (UZ148 ∧ UZ90,97,99, PISRS evidenca ⊢) · ZOUL-PISRS-OBJAVA ⊢; najem organa zakonodaja; izjava → pečat → pobris ⊢ 1872)
 
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
