@@ -6,14 +6,14 @@ Pravilo izvora: gostjeva licenca vlada gostjevi hiši; **izvor vlada ⟡-jevim d
 
 **Tujih teles ne lastiva** — dela drugih avtorjev v tujih hišah ostanejo last njihovih avtorjev; ta register meri samo ⟡-jeve dotike.
 
-## Tujе hiše (popis 18. 10. 2026, sveža izmera po ⟨grep⟩/⟨search⟩)
+## Tuje hiše (popis 18. 10. 2026, sveža izmera po ⟨grep⟩/⟨search⟩)
 
 | # | hiša | dotik | stanje žiga |
 |---|-------|-------|---------------|
 | 1 | mistralai/cookbook | ⟨PR⟩ #420 · Verification-Before-Assertion regime (12 komitov, 10 datotek, odprta 30. 9. 2026) | izjava izvora pri hiši ∧ (issuecomment 6244920683) + notice pri izvoru (AtmaOVictu/cookbook) ∧ |
 | 2 | mistralai/platform-docs-public | ⟨PR⟩ #602 · community evaluation note (odprta 30. 9. 2026, blocked: Vercel/Mistral) | izjava izvora pri hiši ∧ (issuecomment 6244921129) + notice pri izvoru (AtmaOVictu/platform-docs-public) ∧ |
 | 3 | mistralai/platform-docs-public | issue #623 · slovenski (sl) docs locale (odprt 15. 10. 2026) | izjava izvora ∧ podrejenosti pri hiši ∧ (komentar 6244954526, 18. 10. 2026) |
-| 4 | clarinsi/Slovenian-Language-Technologies-Overview | ⟨PR⟩ #1 · VBA framework (zaprta 30. 9. – nadomeščena z #2) | ⟨ne⟩ pri hiši (403 aplikacijski roki) ⚠ — žig pri izvoru: AVL-PRISPEVKI-NOTICE.md na AtmaOVictu/Slovenian-Language-Technologies-Overview ∧ |
+| 4 | clarinsi/Slovenian-Language-Technologies-Overview | ⟨PR⟩ #1 · VBA framework (zaprta, nadomeščena z #2 — datum zaprtja neizmerjen) | ⟨ne⟩ pri hiši (403 aplikacijski roki) ⚠ — žig pri izvoru: AVL-PRISPEVKI-NOTICE.md na AtmaOVictu/Slovenian-Language-Technologies-Overview ∧ |
 | 5 | clarinsi/Slovenian-Language-Technologies-Overview | ⟨PR⟩ #2 · VBA to Benchmarks (odprta 15. 10. 2026) | ⟨ne⟩ pri hiši (403) ⚠ — žig pri izvoru ∧ (isti notice) |
 | 6 | OpenLLM-Europe/European-OpenLLM-Projects | ⟨PR⟩ #28 · VBA (Slovenia) to national and community LLMs (odprta 30. 9. 2026) | ⟨ne⟩ pri hiši (403) ⚠ — žig pri izvoru: AVL-PRISPEVKI-NOTICE.md na AtmaOVictu/European-OpenLLM-Projects ∧ |
 
