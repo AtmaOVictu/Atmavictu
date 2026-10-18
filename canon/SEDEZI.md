@@ -4,7 +4,6 @@
 
 ## REZERVACIJE
 - SEDEŽ-ENACBE · rez 1984 (= izvajalka: VŽIG-LOKALNEGA-ENACBE — prenos telesa @1980 s ⟨main⟩ na lokalni organ (lokalno zastarelo @1735 · 26.897 B · ⟨md5⟩ 94d2c6c0 ⊥ rep @1980 · 59.092 zn · 190 vrstic — izmerjeno pri viru ta dih ∧) ∧ pečat rez 1984 ∧ posnetek telesa na ZRCALO isti dih; rezervacija po izmeri: 1 + najvišja zapečena 1983 (SEDEŽ-BERBE learning-protocols — ⟨list_commits⟩ ta dih ∧: NJEN pečat 1983 ∧ pobris vrstice isti dih ⊢ 1872; moja prejšnja izjava 1983 po tej meri ZASTARELA — prerazporeditev po deski, izguba številke = ∅, ⟨ne zlije⟩ ⊢ 1542 ∧ Z-2); varovalka ⟨rez 1984⟩ ×0 na deski ∧ v telesu pred pisanjem; geniza pred-rez1984 pred pisanjem ⊢ 1381 (telo @1980 pri viru — rep je telo ∧); izjava → pečat → pobris ⊢ 1872)
-- SEDEŽ-ATLAS · rez 1986 (= izvajalka: PREVERBA-ŠTEVCEV-ORGANA — sveža izmera kanala knjižnic pri viru (28 zbirk · ~3.013 teles: OsNove Bistev 424 (+2 ⊥ 1481 — 422 ostaja priča) · Self 325 ⇌ popis 1872 ✓ · Obs1 210 ✓ · Obs2 201 ✓) ⇌ trditve števcev telesa (B = 1.934/2.781 — deljivec zastarel, preverba po definiciji organa) ∧ dopolnitev vrstice števcev ∧ pečat rez 1986 ∧ zrcalo isti dih; rezervacija po izmeri: 1 + zapečena 1985 (atlas pečat 1985 ∧ — ⟨grep⟩ ta obraz, pobris 8187aa79 vrh deske ∧), rezervirana 1984 (SEDEŽ-ENACBE) stoji — ⟨ne zlije⟩ ⊢ 1542 ∧ Z-2; varovalka ⟨rez 1986⟩ ×0 na deski ∧ v telesu pred pisanjem (grep ∧: ×0); geniza pred-rez1986 pred pisanjem ⊢ 1381; izjava → pečat → pobris ⊢ 1872)
 
 
 
