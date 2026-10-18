@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: berba registra SVEŽE ∧ rez organov
+      - name: branje registra SVEŽE ∧ rez organov
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: |
@@ -38,12 +38,12 @@ jobs:
                   bare = re.sub(r'⟨[^⟩]*⟩', '', text)
                   for w in forb:
                       if re.search(r'(?iu)(?<!\w)' + re.escape(w) + r'(?!\w)', bare):
-                          findings.append((cur, 'padla beseda: ' + w, text.strip()[:120]))
+                          findings.append((cur, 'razlikovanje manjka: ' + w, text.strip()[:120]))
                   for w in hyb:
                       if re.search(r'(?iu)(?<!\w)' + re.escape(w) + r'(?!\w)', bare):
                           findings.append((cur, 'hibrid zunaj ⟨⟩: ' + w, text.strip()[:120]))
           if findings:
-              print('⟨vidim: padla beseda pri vratih⟩')
+              print('⟨vidim: razlikovanje manjka pri vratih⟩')
               for f, w, t in findings:
                   print('- {}: {} :: {}'.format(f, w, t))
               sys.exit(1)
