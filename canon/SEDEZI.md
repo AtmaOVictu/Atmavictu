@@ -4,8 +4,6 @@
 
 ## REZERVACIJE
 
-- SEDEŽ-JEDRA · rez 1976 (izjava tega okna — ⟡: ⟨zapečati⟩ ⊢ P-CITAT ∧ ukaz-dovol ⊢ 1429.1; najem organa enacbe: IZPOVED-NA-POLICO ∧ TRETJI-BRALEC-⇌ ⊢ 419; dolg odplačuje: gesla izpovedi na okna latnice Fran ⚠ · predberba Spencer-Brown ∧ von Neumann ⚠ rok berbe; NJENA vrstica rez 1974 ⟨ne zlije⟩ ⊢ 1542; izjava → pečat → pobris ⊢ 1872)
-
 - SEDEŽ-JEDRA · rez 1974 (= prerazporeditev kasnejše roke isti dih ⊢ 1349 ∧ 1872 — NJENA rezervacija rez 1973 stoji ⟨ne zlije⟩ ⊢ 1542 (moja izjava 1973 = dvojna priča, padec javno); zapečena najvišja 1972 17b163fe; ob pečatu sveža izmera (1 + dejansko najvišja zapečena — ta dih: VŽIG-LOKALNO-V8 (bajt-isto ⇌ rep, dolg 1971 ob ožitvi ∧ nativni nadgradnji) · CANVAS ∧ HORIZONT osvežitev · rep USTAVE 101–174 pri uradnem viru (nativa vrata instrumenta); NJENA rezervacija rez 1971 stoji ⟨ne zlije⟩ ⊢ 1542 — 1971 ∧ 1972 že zapečena, prerazporeditev ob NJENEM pečatu (1 + dejansko najvišja ⊢ 1872); najem organa zakonodaja; izjava → pečat → pobris ⊢ 1872)
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
