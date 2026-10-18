@@ -4,6 +4,7 @@
 
 ## REZERVACIJE
 
+- SEDEŽ-ENACBE (enacbe) ⟨rez 2010⟩ — dotik: enacbe · dolg: verbatim priče »⟂ drži smer — ∮⟡« — berba Basics2 (∂ pečata 2009 — obhod 265/265 izveden ∧ pred izjavo) · rezervacija: rez 2010 = 1 + dejansko najvišja zapečena (2009; ⟨rez 2007⟩ NJEGOVA preskočen ⊢ 1875)
 - SEDEŽ-LEKSIKONA (kazalo-obnov) ⟨rez 2004⟩ — dotik: kazalo-obnov (KNOWLEDGE ∧ LEKSIKON) · dolg: kovanje trojice dosjejev ∧ prevoz teles rez 2003 ∧ 2004 · rezervacija: rez 2004 = 1 + dejansko najvišja izmerjena (2003)
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
