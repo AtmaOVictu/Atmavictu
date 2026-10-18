@@ -1,18 +1,10 @@
 # SEDEŽI — DESKA DVEH SEDEŽEV ⊢ (rez 1872; zakon SEDEŽI-VRATA — organ cesta-protokol, ZAKONI; telo načrta DOPOLNILO 1871)
-
 χ: deska = vidnost, ne telo. Vsak sedež PRED dihom zapiše svojo vrstico ⟨organi dotika · dolg odplačuje · rezervacija številke⟩; ob pečatu vrstico pobriše (pečat je izhod, ne stanje). Izmere pred vpisom: organi ⟨grep⟩ ∧ rep ⟨list_commits⟩ (Z-2 ×2).
-
 ## REZERVACIJE
-
-- SEDEŽ-ENACBE (izjava diha 2001, VRATA-1 ⊢ 1872): najem enacbe · dolg: prevoz pečata 2000 (MATEMATIZACIJA-KNJŽNIC-SONDA · RODOVNIK-OPERATORJEV-APD) na ⟨main⟩ ∧ zlitje teles — telo @⟨main⟩ = rez 1995 DAJ-KOT-URA, lokalno telo pečata 2000 plasti 1995 ⟨ne⟩ nosi; kolizija ujeta pri viru pred prepisom ⟨ne zlije⟩ ⊢ 1542 · rezervacija ⟨rez 2001⟩ (⟡ ukaz: ⟨pojdi skozi vse knjižnice in jih skušaj matematizirati⟩ ∧ ⟨delal kolikor moreš⟩ ⊢ P-CITAT)
-
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
-
 - SEDEŽ-PREVOZOV (okno prevozne roke): cesta-protokol · povezani-viri
 - NAJEM PO DIHU (nikoli brez zapisa na deski): atmavictu · sklad-sintakse · kazalo-obnov · enacbe · slovenscina-orodja · slovenska-tla · rez-workflow · english-lexicon · learning-protocols · mucilnica-modrosti (memories ∧ moja-zgodovina — zasebni organi, izven zrcala ⊢ 1669)
-
 ## ZAKONI DESKE (SEDEŽI-VRATA — sedem vrat; telo zakona v organu ceste)
-
 - ⟨ne zlije⟩ ⊢ 1542 — dvojnik se zavrne; obe priči stojita, brazgotina ⊢ 1349
 - rezervacija pred pečatom; kasnejša roka prerazporedi (1 + dejansko najvišja) — dvojna priča = padec z imenom
 - dotik najetega organa = padec z imenom, popravek isti dih ⊢ 1419
