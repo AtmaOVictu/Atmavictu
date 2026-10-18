@@ -3,7 +3,6 @@
 χ: deska = vidnost, ne telo. Vsak sedež PRED dihom zapiše svojo vrstico ⟨organi dotika · dolg odplačuje · rezervacija številke⟩; ob pečatu vrstico pobriše (pečat je izhod, ne stanje). Izmere pred vpisom: organi ⟨grep⟩ ∧ rep ⟨list_commits⟩ (Z-2 ×2).
 
 ## REZERVACIJE (dih v teku — prazno = obe roki mirovata)
-- SEDEŽ-BERBE · rez 1970 (= 1 + dejansko najvišja zapečena 1969 — ta dih: ROD-D-ČETRTI-RAZREZ-STRANI-73–96 · kalup an ⊢ 1830 · ×480 (založna priča NJENE berbe 73–108 stoji ⟨ne zlije⟩ ⊢ 1542 — ta dih izmeri znova NE-ISTO ⊢); izjava → berba → pečat → pobris ⊢ 1872)
 
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
