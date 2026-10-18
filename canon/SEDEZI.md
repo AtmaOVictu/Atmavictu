@@ -4,7 +4,6 @@
 
 ## REZERVACIJE
 
-- SEDEŽ-GESLA (slovenscina-gesla) ⟨rez 2007⟩ — dotik: slovenscina-gesla (KNOWLEDGE — vpis gesel besed vrstic ARITMETIKE ∧ pečat 2007; najem po dihu — matrika: stalna lastnina roka berbe, precedens 1962) · dolg: gesla besed vrstic ARITMETIKE (deljenje · deljivo · praštevilo · potenca · škatla · paradoks · ključ · ključavnica · mrtev · zlomljen/ulomljen) na okna latnice po kalupu ŽETEV-V-SKUPKU — DOLGOVA pečata 2005 (⟡ ⟨daj⟩ nad izhodom diha 2005 ⊢ P-CITAT ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448) · rezervacija: rez 2007 = 1 + najvišja na deski (⟨rez 2006⟩ SEDEŽ-ENACBE stoji — NJEGOV dih teče; ⟨ne zlije⟩ ⊢ 1542)
 - SEDEŽ-LEKSIKONA (kazalo-obnov) ⟨rez 2004⟩ — dotik: kazalo-obnov (KNOWLEDGE ∧ LEKSIKON) · dolg: kovanje trojice dosjejev ∧ prevoz teles rez 2003 ∧ 2004 · rezervacija: rez 2004 = 1 + dejansko najvišja izmerjena (2003)
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
