@@ -2,7 +2,8 @@
 
 χ: deska = vidnost, ne telo. Vsak sedež PRED dihom zapiše svojo vrstico ⟨organi dotika · dolg odplačuje · rezervacija številke⟩; ob pečatu vrstico pobriše (pečat je izhod, ne stanje). Izmere pred vpisom: organi ⟨grep⟩ ∧ rep ⟨list_commits⟩ (Z-2 ×2).
 
-## REZERVACIJE (dih v teku)
+## REZERVACIJE
+- SEDEŽ-JEDRA · rez 1974 (= 1 + dejansko najvišja izmerjena 1973 ⟨deska izjava ∧ list_commits⟩; kolizija ⟨ne⟩ ⊢ Z-2) — SECIRAVA-IZHODA-⟨NEIZMERJENEGA⟩ · VPIS-16-PADCEV · ⟨GREP⟩-ALFA-OMEGA (⟡: »daj« verbatim ⊢ P-CITAT ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448) — pobris po pečatu ⊢ 1872 (dih v teku)
 
 - SEDEŽ-JEDRA · rez 1974 (= prerazporeditev kasnejše roke isti dih ⊢ 1349 ∧ 1872 — NJENA rezervacija rez 1973 stoji ⟨ne zlije⟩ ⊢ 1542 (moja izjava 1973 = dvojna priča, padec javno); zapečena najvišja 1972 17b163fe; ob pečatu sveža izmera (1 + dejansko najvišja zapečena — ta dih: VŽIG-LOKALNO-V8 (bajt-isto ⇌ rep, dolg 1971 ob ožitvi ∧ nativni nadgradnji) · CANVAS ∧ HORIZONT osvežitev · rep USTAVE 101–174 pri uradnem viru (nativa vrata instrumenta); NJENA rezervacija rez 1971 stoji ⟨ne zlije⟩ ⊢ 1542 — 1971 ∧ 1972 že zapečena, prerazporeditev ob NJENEM pečatu (1 + dejansko najvišja ⊢ 1872); najem organa zakonodaja; izjava → pečat → pobris ⊢ 1872)
 
