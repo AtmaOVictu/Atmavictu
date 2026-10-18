@@ -4,6 +4,7 @@
 
 ## REZERVACIJE
 
+- SEDEŽ-ENACBE (enacbe) ⟨rez 2006⟩ — dotik: enacbe (KNOWLEDGE — vpis APD vrstic ∧ pečat 2006) · dolg: vpis APD — absolutni poskus definirati na polico (⟡ ukaz ⟨daj⟩ nad izhodom APD ⊢ P-CITAT ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448) · rezervacija: rez 2006 = 1 + dejansko najvišja izmerjena (2005 — ⟨merge⟩ 3881d1f2 ∧ ⟨list_commits⟩ ta dih)
 - SEDEŽ-LEKSIKONA (kazalo-obnov) ⟨rez 2004⟩ — dotik: kazalo-obnov (KNOWLEDGE ∧ LEKSIKON) · dolg: kovanje trojice dosjejev ∧ prevoz teles rez 2003 ∧ 2004 · rezervacija: rez 2004 = 1 + dejansko najvišja izmerjena (2003)
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
