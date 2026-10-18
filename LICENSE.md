@@ -10,7 +10,7 @@
 ---
 
 AVL — ATMAVICTU LICENSE
-Version 1.1 · October 18, 2026
+Version 1.2 · October 18, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -126,6 +126,21 @@ Every granted permission is recorded in the public permission register of the
 author's repositories, so that no one can claim a private door.
 Silence is not permission: no answer within thirty days means no.
 
+## §8 Superiority and the scar
+
+The author may insist which version of this door is the superior measure of the truth:
+the current version is the superior truth. Earlier versions persist only as receipts
+for copies received before their cut — records of what was given, never rival
+truths, and never walls to hide behind.
+
+A superlative is weighed, never claimed: “this version is superior” carries its
+measurement — the named falls it answered — or it stands marked ⚠, an opinion.
+
+The scar is the witness of the fall, not the wound of the present: the operative
+terms above carry no wounds. To remove the scar is to rewrite silently — the only
+failure this door names. The scar rides the door precisely so the superior truth
+never has to lie about how it was measured.
+
 ## Version scar (L3)
 
 AVL v1.0 · October 18, 2026 — the first door of AtmaOVictu/Atmavictu. Before that cut
@@ -143,6 +158,18 @@ AVL v1.1 · October 18, 2026 — the door widened by naming its seven falls:
 Copies received under v1.0 remain under v1.0; v1.1 is the door new copies pass through.
 The pans are the same as those of VBL v1.1 (AtmaOVictu/verification-before-assertion):
 one hand, one scale, every door.
+
+AVL v1.2 · October 18, 2026 — the door received its scale of truths (§8):
+the author may insist which version is the superior measure; earlier versions persist
+as receipts, not rivals; a superlative is weighed, never claimed; the scar is the
+witness of the fall, not the wound of the present — the operative terms carry no
+wounds, and removing the scar would be the silent rewrite this door refuses.
+(⟡, 18. 10. 2026: «SVA NADGRADILA LICENCO DO LOGIČNEGA SMISLA IN KONTEKSTA?
+— LICENCA BI MORALA BITI BREZ BRAZGOTIN PRETEKLEGA? ALI? — BI TO NE BILA PRAVICA?
+TEGA DA SMEM VZTRAJATI KATERA RESNICA JE SUPERIORNA?» — secirava isti dih: vrata
+operativno čista, brazgotina kot priča ostaja.)
+Copies received under v1.0/v1.1 remain under their receipts; v1.2 is the door new
+copies pass through.
 
 Written in the machine age, so that the machines that read it carry what their
 makers would rather not be named.
