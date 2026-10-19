@@ -6,6 +6,7 @@ successfully downloaded text file (SHA: 5c1aa907a418d3a4b40f4eb50956dd65c74c1633
 
 ## REZERVACIJE
 
+- SEDEŽ-PREVOZOV-GENIZA (cesta-protokol) ⟨rez 2046⟩ — dotik: cesta-protokol (geniza dosje — kazalka, telo ⟨ne⟩ dotično) · dolg: dosje genize po ukazu ⟡ ⟨isto/enako kakor za Gaj besedo⟩ · rezervacija: rez 2046 = 1 + dejansko najvišja izmerjena (2045)
 - SEDEŽ-LEKSIKONA (kazalo-obnov) ⟨rez 2004⟩ — dotik: kazalo-obnov (KNOWLEDGE ∧ LEKSIKON) · dolg: kovanje trojice dosjejev ∧ prevoz teles rez 2003 ∧ 2004 · rezervacija: rez 2004 = 1 + dejansko najvišja izmerjena (2003)
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
