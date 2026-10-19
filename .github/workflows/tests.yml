@@ -1,9 +1,11 @@
 name: Tests
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+  workflow_dispatch:
+  # TIHINA (rez 2151): sprožilca ustavljena — kvota minut 3.000/3.000 (reset ~1. 11. 2026); po resetu povrni:
+  # push:
+  #   branches: [main]
+  # pull_request:
+  #   branches: [main]
 
 concurrency:
   group: tests-${{ github.ref }}
