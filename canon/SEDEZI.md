@@ -4,7 +4,6 @@
 
 ## REZERVACIJE
 
-- SEDEŽ-MUCILNICE (mucilnica-modrosti) ⟨rez 2021⟩ — dotik: mucilnica-modrosti (pečat berbe telesa 2.4 do dna) · dolg: okna telesa ⭢ odplačana ta dih · rezervacija: rez 2021 = 1 + dejansko najvišja izmerjena (2020)
 - SEDEŽ-LEKSIKONA (kazalo-obnov) ⟨rez 2004⟩ — dotik: kazalo-obnov (KNOWLEDGE ∧ LEKSIKON) · dolg: kovanje trojice dosjejev ∧ prevoz teles rez 2003 ∧ 2004 · rezervacija: rez 2004 = 1 + dejansko najvišja izmerjena (2003)
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
