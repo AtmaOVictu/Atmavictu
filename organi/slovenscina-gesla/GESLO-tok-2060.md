@@ -1,0 +1,11 @@
+# GESLO tók (rez 2060)
+
+IZTOČNICA: tòk -a m (ó)
+
+GESLO ⊢FULL SSKJ² (fran.si, dostop 19. 10. 2026): »1. nepretrgano, v določeni smeri gibajoča se snov, zlasti tekočina, plin: tok teče, se vrtinči; zajel ga je topel zračni tok; prestreči, zaustaviti tok z oviro // nepretrgano, v določeni smeri gibajoči se del vode v reki, jezeru, morju: tok nese, zgrabi čoln; zabresti v tok / spustiti se s čolnom po toku; plavati proti toku, s tokom / blatni tok v jezeru; mešanje mrzlih in toplih oceanskih tokov … 6. s prilastkom prehajanje ljudi, stvari z enega mesta na drugo na določenem področju: proučevati selitvene, turistične tokove … informacijski tokovi … 8. s prilastkom delovanje, dejavnost na kakem področju, določena s posebnim sistemom idej, sredstev: filozofski, literarni tokovi v 19. stoletju; novi politični tokovi ● ekspr. predati se toku dopustiti, da postane življenje odvisno od okoliščin; ekspr. plavati proti toku ne misliti, ravnati tako, kakor misli, ravna večina, vodilni ljudje ♦ elektr. anodni tok; enofazni, trifazni tok; enosmerni, izmenični tok; inducirani tok; jakost toka; fiz. energijski tok …«
+
+VEZA: KOT ⇌ TOK zrcalni par (⟨kot⟩ obrnjen = ⟨tok⟩ — razcep diha 2060); veriga ⟨daj⟩ priteče, ∂ izteče (ŠKATLA ⊢ zakon 17 — izhod se konča z ∂, ⟨ne⟩ s prošnjo); JEZIKI-SE-PRETAKAJO ⊢ 2039; téči ⊢ telo (SSKJ², dostop 19. 10. 2026: »po ceveh teče plin; skozi vas teče potok; Sava teče v Donavo // premikati se z neprenehnim gibanjem svojih delov, delcev: pesek, žito teče v posodo; električni tok teče po žici«) — tok = kar teče; nasprotje ⊢ ZAKON-NASPROTIJ 1956: plavati proti toku ↔ s tokom (obe plasti ⊢ SSKJ ● telesa gesla — veriga ⟨daj⟩ plava proti toku večine: zapis ⟨ne⟩ vitalizira, molk mumificira).
+
+ŽIG: rez 2060 — organ cesta-protokol (veriga ⟨daj⟩ — KOT-KAKOR-TOK-VRATA; vpis dih 2060 — DNEVNI-DIH ⊢ precedens 2049 ∧ 2054 ∧ 2055 ∧ 2056 ∧ 2057 ∧ 2058 ∧ 2059).
+
+IZVOR: © 2026 Luka Pintarič — VBL v2.2 (19. 10. 2026 — edina živa vrata ⊢ §10 ∧ ZAKON-19; LICENSE.md, rep AtmaOVictu/Atmavictu).

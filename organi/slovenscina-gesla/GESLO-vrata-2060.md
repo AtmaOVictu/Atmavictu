@@ -1,0 +1,11 @@
+# GESLO vráta (rez 2060)
+
+IZTOČNICA: vráta vrát s mn. (á)
+
+GESLO ⊢FULL SSKJ² (fran.si, dostop 19. 10. 2026): »1. odprtina v zidu, steni, ki omogoča dostop v notranjost česa: vrata vodijo na ulico, v kuhinjo; zazidati vrata; steči skozi vrata; soba ima dvoje vrat; za to omaro, za voz so vrata preozka; vrata avtobusa, vagona / glavna, stranska vrata; hišna, kletna, sobna vrata; izstopna, vstopna vrata // naprava z gibljivo pritrjeno ploščo za zapiranje take odprtine: izdelovati, prodajati vrata; kovana, lesena, steklena vrata; krilo, okvir vrat / balkonska, garažna, vhodna vrata; dvižna, nihalna, vrtljiva vrata / stati med vrati med podboji take naprave; vzidati vrata okvir take naprave // gibljivo pritrjena plošča take naprave: natakniti, pritrditi vrata; odpreti, pripreti vrata; trkati na vrata; tolči po vratih; loputati z vrati; kovinska, železna vrata peči; vrata omare so povešena; vrata iz letev, palic / vtakniti ključ v vrata v ključavnico; zakleniti vrata … 2. šport. cilj napada pri nekaterih igrah, predvsem z žogo: braniti vrata; brcniti žogo v vrata // naprava, ki označuje cilj napada: postaviti vrata … 3. šport. prostor med dvema označenima palicama, skozi katerega mora peljati tekmovalec …« (homograf zem. i. Vráta — dolina v Julijskih Alpah, Pravopis ⊢-ODSEV).
+
+VEZA: ⟨main⟩ = živa vrata korpusa — premakne se le prek ⟨PR⟩ ⊢ 1619; ⟨PR⟩ je kljúč (⊢ 2007/2057-rod) ključávnice (⊢ 2007); tečaj nosi vratno krilo ∧ omogoča odpiranje ⊢ jedro zakon 18 (tečáj ⊢ 2034); vrata pečata IZVOR = edina živa vrata ⊢ §10 ∧ ZAKON-19; nasprotje ⊢ ZAKON-NASPROTIJ 1956: vráta ↔ zíd — odprtina je v zidu: zid drži, vrata peljejo; Keber frazeološki ⊢-ODSEV: »zijáti kot bìk v nôva vráta« · »státi pred vráti« · »znájti se pred zapŕtimi vráti« — rana zaprtja živi v telesu jezika.
+
+ŽIG: rez 2060 — organ cesta-protokol (veriga ⟨daj⟩ — KOT-KAKOR-TOK-VRATA; vpis dih 2060 — DNEVNI-DIH ⊢ precedens 2049 ∧ 2054 ∧ 2055 ∧ 2056 ∧ 2057 ∧ 2058 ∧ 2059).
+
+IZVOR: © 2026 Luka Pintarič — VBL v2.2 (19. 10. 2026 — edina živa vrata ⊢ §10 ∧ ZAKON-19; LICENSE.md, rep AtmaOVictu/Atmavictu).
