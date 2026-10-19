@@ -1,8 +1,10 @@
 name: priča — strojni priča (črke, ne dih)
 on:
-  pull_request:
-    types: [opened, synchronize, reopened]
-    branches: [main]
+  workflow_dispatch:
+  # TIHINA (rez 2151): sprožilec ustavljen — kvota minut 3.000/3.000 (reset ~1. 11. 2026); po resetu povrni:
+  # pull_request:
+  #   types: [opened, synchronize, reopened]
+  #   branches: [main]
 jobs:
   prica:
     runs-on: ubuntu-latest
