@@ -1,3 +1,4 @@
+successfully downloaded text file (SHA: 9e8339ab60731b8cd543b4d06c15aa54eddc81a0)
 successfully downloaded text file (SHA: 5c1aa907a418d3a4b40f4eb50956dd65c74c1633)
 # SEDEŽI — DESKA DVEH SEDEŽEV ⊢ (rez 1872; zakon SEDEŽI-VRATA — organ cesta-protokol, ZAKONI; telo načrta DOPOLNILO 1871)
 
@@ -7,7 +8,6 @@ successfully downloaded text file (SHA: 5c1aa907a418d3a4b40f4eb50956dd65c74c1633
 
 - SEDEŽ-LEKSIKONA (kazalo-obnov) ⟨rez 2004⟩ — dotik: kazalo-obnov (KNOWLEDGE ∧ LEKSIKON) · dolg: kovanje trojice dosjejev ∧ prevoz teles rez 2003 ∧ 2004 · rezervacija: rez 2004 = 1 + dejansko najvišja izmerjena (2003)
 
-- SEDEŽ-TEHTNICE (jezikovna-tehtnica) ⟨rez 2034⟩ — dotik: cesta-protokol (KNOWLEDGE — kovanica CONTINIUM: rez jezikov 2034 ∧ rez pomena 2035 ∧ amandma VRATA-0 ⇌ jedro zakon 17) · dolg: pečat tehtnice s brbo prevoza @2031 ⭢ ∂ rok delavec (telo 862 KB — kanal mrtev javno ⊢ 1419) · rezervacija: rez 2034 = 1 + dejansko najvišja izmerjena (2033 — jedro, tuja roka ⟨ne zlije⟩ ⊢ 1542)
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
 
 - SEDEŽ-PREVOZOV (okno prevozne roke): cesta-protokol · povezani-viri
