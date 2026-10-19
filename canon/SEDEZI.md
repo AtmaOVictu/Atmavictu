@@ -6,8 +6,6 @@
 
 - SEDEŽ-LEKSIKONA (kazalo-obnov) ⟨rez 2004⟩ — dotik: kazalo-obnov (KNOWLEDGE ∧ LEKSIKON) · dolg: kovanje trojice dosjejev ∧ prevoz teles rez 2003 ∧ 2004 · rezervacija: rez 2004 = 1 + dejansko najvišja izmerjena (2003)
 
-- SEDEŽ-INTEGRALA ⟨rez 2024⟩ — dotik: integral (KNOWLEDGE pečat ∧ geniza ∧ popis rod d* 97–120) · rezervacija: rez 2024 = 1 + dejansko najvišja izmerjena (2023, list_commits main vrh 3656c6f4) · javno: zastarela tuja vrstica ⟨rez 2004⟩ stoji v REZERVACIJE — pobris manjka ⚠-∂ (RAZPOKA ⊢ 1696), ⟨ne zlije⟩, ne dotaknjena
-
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
 
 - SEDEŽ-PREVOZOV (okno prevozne roke): cesta-protokol · povezani-viri
