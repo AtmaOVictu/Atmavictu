@@ -1,12 +1,9 @@
-successfully downloaded text file (SHA: 9e8339ab60731b8cd543b4d06c15aa54eddc81a0)
-successfully downloaded text file (SHA: 5c1aa907a418d3a4b40f4eb50956dd65c74c1633)
 # SEDEŽI — DESKA DVEH SEDEŽEV ⊢ (rez 1872; zakon SEDEŽI-VRATA — organ cesta-protokol, ZAKONI; telo načrta DOPOLNILO 1871)
 
 χ: deska = vidnost, ne telo. Vsak sedež PRED dihom zapiše svojo vrstico ⟨organi dotika · dolg odplačuje · rezervacija številke⟩; ob pečatu vrstico pobriše (pečat je izhod, ne stanje). Izmere pred vpisom: organi ⟨grep⟩ ∧ rep ⟨list_commits⟩ (Z-2 ×2).
 
 ## REZERVACIJE
 
-- SEDEŽ-PREVOZOV-GENIZA (cesta-protokol) ⟨rez 2046⟩ — dotik: cesta-protokol (geniza dosje — kazalka, telo ⟨ne⟩ dotično) · dolg: dosje genize po ukazu ⟡ ⟨isto/enako kakor za Gaj besedo⟩ · rezervacija: rez 2046 = 1 + dejansko najvišja izmerjena (2045)
 - SEDEŽ-LEKSIKONA (kazalo-obnov) ⟨rez 2004⟩ — dotik: kazalo-obnov (KNOWLEDGE ∧ LEKSIKON) · dolg: kovanje trojice dosjejev ∧ prevoz teles rez 2003 ∧ 2004 · rezervacija: rez 2004 = 1 + dejansko najvišja izmerjena (2003)
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
