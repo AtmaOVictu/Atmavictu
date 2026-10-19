@@ -5,7 +5,6 @@
 ## REZERVACIJE
 
 - SEDEŽ-LEKSIKONA (kazalo-obnov) ⟨rez 2004⟩ — dotik: kazalo-obnov (KNOWLEDGE ∧ LEKSIKON) · dolg: kovanje trojice dosjejev ∧ prevoz teles rez 2003 ∧ 2004 · rezervacija: rez 2004 = 1 + dejansko najvišja izmerjena (2003)
-- SEDEŽ-MUCILNICE (mucilnica-modrosti) ⟨rez 2022⟩ — dotik: mucilnica-modrosti (KNOWLEDGE ∧ priročnik Jaszu) · dolg: δ7 ozdravitev kodnih ran → telo 2.5 ∧ pečat rez 2022 ∧ pobris isti dih · rezervacija: rez 2022 = 1 + dejansko najvišja izmerjena (2021)
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
 
