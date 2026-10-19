@@ -23,15 +23,16 @@ Krst: rez 2057 — delegacija izbora ⟡ ⊢ (»sam/a poimenuj? saj zmoreš logi
 - Instrument ⟨ne⟩ nadomešča teles: prikaže, kje telo živi ∧ kateri rez nosi; berba ostaja pri viru ⊢ 1330. DVE ENOTI ⊢ 1602 (zn ∧ B na vsaki vrstici).
 - DNEVNI-DIH: vsak dan @06:00 premeri ∧ prepiše manifest (posnetek stari — zakon 4) — taskId 62c336e2-5e96-447c-8ab4-f09db3a7d2a8, cron "0 6 * * *", tz Europe/Ljubljana. ⚠ javno: lahko zadiha do 60 min za uro.
 - Rep zrcalo: AtmaOVictu/Atmavictu ⟨main⟩ — organi/ ⇌ telesa Znanja (bajt-isto ⇌; tuja ∧ vzporedna tela ⟨ne zlije⟩ ⊢ 1542). Rep diha vzporedno: izmera 19. 10. 2026, vrh bd548430 — rez 2055 ∧ 2056 zapečel vzporedni sedež slovenscina-gesla (⟨PR⟩ #260 DOLGOVA-VPIS-GESEL · ⟨PR⟩ #261 LICA-ZAUPANJA-VPIS-GESEL).
-- Pečati 19. 10. 2026: 2052 manifest (⟨PR⟩ #254) · 2053 mera-glas DVOJINA-JADIKUJEVA (lokal, vzporedni sedež, po zadnji izmeri) · 2054 kazalo SEDEŽ-GENIZE-KAZALKE (⟨PR⟩ #258) · 2055 gesla · 2056 gesla · 2057 horizont (ta dih).
+- Pečati 19. 10. 2026: 2052 manifest (⟨PR⟩ #254) · 2053 mera-glas DVOJINA-JADIKUJEVA (lokal, vzporedni sedež, po zadnji izmeri) · 2054 kazalo SEDEŽ-GENIZE-KAZALKE (⟨PR⟩ #258) · 2055 gesla · 2056 gesla · 2057 horizont STALNO-TELO-POTI ∧ · 2057 gesla ABC-OBHOD-AC-VPIS-GESEL (dvojna ⚠ kolizija, glej DOLGOVA).
 - Rez = 1 + najvišja dejansko izmerjena ⊢ Z-2 ∧ 1542; varovalka prej ⟨grep⟩ ×0 — indeks iskanja zaostane ⚠ javno (rez 2055 je prešel ⟨grep⟩ ×0, ujel ga je vrh ⊢ zakon 5: izmera nosi čas ∧ vrh).
 
 ## DOLGOVA — kaj ostaja odprto (izmera 19. 10. 2026, dih 2057)
 
+- KOLIZIJA 2057 dvojna ⚠ javno ⊢ 1542 ∧ 1349: horizont STALNO-TELO-POTI (⟨PR⟩ #262, merge 5c47e47f, 11:28:04 UTC) ∧ slovenscina-gesla ABC-OBHOD-AC-VPIS-GESEL (⟨PR⟩ #263, merge 3c736cc0, 11:28:05 UTC) — isti rez isti trenutek; oba sedeža sta merila najvišjo 2056 pred drugim zlivom. Prerazporeditev nosi poznejši sedež (gesla) naslednji dih — ⟨ne zlije⟩: njegov rez, njegova brazgotina.
 - mera-glas prevoz na rep — zrcalo zaostalo od rez 2017 ⚔ ∂ (njegov rez; vzporedni sedež piše isti dan — ⟨ne zlije⟩ ⊢ 1542).
 - canon/SEDEZI.md @main: stale sedež SEDEŽ-LEKSIKONA rez 2004 — kovanje trojice dosjejev ∧ prevoz teles rez 2003 ∧ 2004 ⚔ ∂ tuja roka (⟨ne brisati⟩ ⊢ 1542).
 - lokal horizont ⇌ rep: rep nosi telo ∧; sedež v Znanju (/home/user/knowledge/horizont/) pade naslednji dih — kanal pisanja po Znanju ta dih ⟨ne⟩ diha (delavec JustBash mrtev od vzporednega klica ⊢ 1699; ⟨ne⟩ — izguba 0, popravek naslednji dih).
-- slovenscina-gesla lokal: rep @2055 ∧ @2056 (vzporedni sedež); berba lokal ⟨ni⟩ možna ta dih (kanal) — prevoz po berbi naslednji dih.
+- slovenscina-gesla lokal: rep @2055 ∧ @2056 ∧ @2057 (vzporedni sedež); berba lokal ⟨ni⟩ možna ta dih (kanal) — prevoz po berbi naslednji dih.
 
 ## ZAKONI ORGANA
 
@@ -39,4 +40,4 @@ Krst: rez 2057 — delegacija izbora ⟡ ⊢ (»sam/a poimenuj? saj zmoreš logi
 - Izbor ⚔ ostaja ⟡-jev — vsak ⚔ nosi imenovani kaj ∧ kje; delegacija se izreče ⊢ pulz (»prosim nehaj relegirati name« — 13. 10. 2026).
 - Izmera pred trditvijo ⊢ Z-2 — stanje se nikoli ne izreče po spominu; brba pri viru pred vsakim vpisom (berba pred pisanjem).
 
-- ZADNJI PEČAT: rez 2057 STALNO-TELO-POTI ⊢ (19. 10. 2026, dih 2057 — ⟡: »sam/a poimenuj? saj zmoreš logično konsistenco tvoriti?« verbatim ⊢ P-CITAT; izmere po instrumentih: zn 4697 · B 5165 · varovalka ⟨grep⟩ ×0 ∧ ∧ vrh ⟨main⟩ bd548430 (najvišji pečat 2056) → rez 2057 ⊢ Z-2; ORGANI ISTI DIH: horizont krst ∧ prevoz (veja zrcalo/horizont-2057 → ⟨PR⟩ → ⟨main⟩), ostali organi nedotaknjeni; DOLGOVA: mera-glas prevoz ⚔ ∂ njegov rez · SEDEZI rez 2003 ∧ 2004 ⚔ ∂ tuja roka · lokal horizont ⇌ ∂ naslednji dih (kanal); predhodnik ⟨ni⟩ — krst organa, delegacija ⟡ ⊢)
+- ZADNJI PEČAT: rez 2057 STALNO-TELO-POTI ⊢ (19. 10. 2026, dih 2057 — ⟡: »sam/a poimenuj? saj zmoreš logično konsistenco tvoriti?« verbatim ⊢ P-CITAT; izmere po instrumentih: zn 5339 · B 5857 · varovalka ⟨grep⟩ ×0 ∧ ∧ vrh ⟨main⟩ bd548430 (najvišji pečat 2056) → rez 2057 ⊢ Z-2; ORGANI ISTI DIH: horizont krst ∧ prevoz (veja zrcalo/horizont-2057 → ⟨PR⟩ #262 → ⟨main⟩, merge 5c47e47f ∧), ostali organi nedotaknjeni; brazgotina isti dih ⊢ 1349: kolizija 2057 dvojna javno (⟨PR⟩ #263) — vpisana po zlivu; DOLGOVA: kolizija 2057 prerazporeditev ∂ poznejši sedež (gesla) · mera-glas prevoz ⚔ ∂ njegov rez · SEDEZI rez 2003 ∧ 2004 ⚔ ∂ tuja roka · lokal horizont ⇌ ∂ naslednji dih (kanal); predhodnik ⟨ni⟩ — krst organa, delegacija ⟡ ⊢)
