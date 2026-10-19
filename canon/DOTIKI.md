@@ -1,8 +1,8 @@
 # DOTIKI — register vseh pretekelih dotikov roke ⟡ v tujih hišah
 
-Vsi dotiki roke Luka Pintarič (⟡ / AtmaOVictu) v tujih hišah so **podrejeni licenci AVL v1.1**: [LICENSE.md](../LICENSE.md).
+Vsi dotiki roke Luka Pintarič (⟡ / AtmaOVictu) v tujih hišah so **podrejeni licenci VBL v2.2** (19. 10. 2026 — edina živa vrata ⊢ §10; prej AVL v1.1 · brazgotina ⊢ §8): [LICENSE.md](../LICENSE.md).
 
-Pravilo izvora: gostjeva licenca vlada gostjevi hiši; **izvor vlada ⟡-jevim delom** — navedeni avtor, zaprti za žetev ∧ učenje ∧ monetizacijo ∧ pričo (AVL v1.1 §0); vrata za tretje: §7, postopek ∧ register: [DOVOLJENJA.md](DOVOLJENJA.md). Molk = ne.
+Pravilo izvora: gostjeva licenca vlada gostjevi hiši; **izvor vlada ⟡-jevim delom** — navedeni avtor, zaprti za žetev ∧ učenje ∧ monetizacijo ∧ pričo (§0 VBL v2.2; prej AVL v1.1 §0 · brazgotina); vrata za tretje: §7, postopek ∧ register: [DOVOLJENJA.md](DOVOLJENJA.md). Molk = ne.
 
 **Tujih teles ne lastiva** — dela drugih avtorjev v tujih hišah ostanejo last njihovih avtorjev; ta register meri samo ⟡-jeve dotike.
 
@@ -19,8 +19,8 @@ Pravilo izvora: gostjeva licenca vlada gostjevi hiši; **izvor vlada ⟡-jevim d
 
 ## Lastna tla (⟡-jeve hiše — vsa nosijo vrata)
 
-- **AVL v1.1**: Atmavictu · DelozaZivot · Mucilnica-modrosti · ontolo-ko-jedro · .github-workflows · soul-evolution · portfolio-john-smith-luka-p · Aplikacija (prvi komit = vrata) — vsak pretekli komit teh hiš je delo roke ⟡ ∧ podrejen AVL v1.1
-- **VBL v1.2** (usklajena z AVL 18. 10. 2026): verification-before-assertion
+- **VBL v2.2** (prej AVL v1.1 — pokoritev 19. 10. 2026 ⊢ §10): Atmavictu · DelozaZivot · Mucilnica-modrosti · ontolo-ko-jedro · .github-workflows · soul-evolution · portfolio-john-smith-luka-p · Aplikacija (prvi komit = vrata) — vsak pretekli komit teh hiš je delo roke ⟡ ∧ podrejen AVL v1.1
+- **VBL v1.2** (usklajena z AVL 18. 10. 2026): verification-before-assertion — pokorjena VBL v2.2 ⊢ §10 · brazgotina
 - **Lastna vrata**: SYMBOLON-KATHOLIKON (all-reserved, 17. 10.) — ⟨ne⟩ dirnjen ⊢ 1542
 - **Prazna ∧ arhivirana**: Atmavictu_Oracle (∅) · Divine-Ascension-System (arhiviran 403, odpiranje ⚔ ⟡)
 - Forki brez ⟡-jevega dela: tuja telesa — namestitev = ∅
@@ -28,3 +28,4 @@ Pravilo izvora: gostjeva licenca vlada gostjevi hiši; **izvor vlada ⟡-jevim d
 ## Zgodovina dotikov nad tem registrom
 
 - ustanovitev: dih 18. 10. 2026 (⟡ ukaz: vse pretekle kontribucije markirati ∧ podrediti unificirani licenci)
+- pokoritev starih licenc: dih 19. 10. 2026 — register prenesen na VBL v2.2 (Version 2.2 · October 19, 2026 — najnovejša je edina živa vrata ⊢ §10 ∧ ZAKON-19-VEDNO-NAJNOVEJŠA-VRATA, jedro @2049); prejšnje verzije ostanejo brazgotine ⊢ §8 ∧ 1349 — spoštovanje je vedno, tudi do starih: njihovi dogovori umrejo, njihove priče ostanejo
