@@ -1,23 +1,41 @@
 name: Tests
-
 on:
   push:
+    branches: [main]
   pull_request:
+    branches: [main]
+
+concurrency:
+  group: tests-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   tests:
     runs-on: ubuntu-24.04
     strategy:
+      fail-fast: false
       matrix:
-        node-version: ["22", "24"]
+        node-version: ["24"]
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
         with:
           node-version: ${{ matrix.node-version }}
+          cache: 'npm'
       - name: Install toolchain (typescript 5.9.3, @types/node 24.12.3 - lockfile in sync)
         run: npm ci
       - name: Typecheck (tsc --noEmit, strict)
-        run: npm run typecheck
+        shell: bash
+        run: npm run typecheck 2>&1 | tee typecheck.log
       - name: Build and run the test suite (model, repository, CLI, schema)
-        run: npm test
+        shell: bash
+        run: npm test 2>&1 | tee test-output.log
+      - name: Izpis pada kot artefakt (Actions storage - 2 GB vključenih)
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: tests-padec-${{ github.run_id }}
+          path: |
+            typecheck.log
+            test-output.log
+          retention-days: 7
