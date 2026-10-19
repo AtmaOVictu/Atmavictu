@@ -4,7 +4,6 @@
 
 ## REZERVACIJE
 
-- SEDEŽ-GENIZE-KAZALKE (kazalo-obnov) ⟨rez 2054⟩ — dotik: kazalo-obnov (KNOWLEDGE.md — GENIZE-REGISTER vrstica ∧ PEČAT 2054) · dolg: kazalka dosjeja genize v LEKSIKON (⟡ ⟨daj⟩ nad DOLGOVO @2052; prerazporeditev 2053 → 2054 — vzporedni sedež zapečel mera-glas @2053 ⊢ 1542) · rezervacija: rez 2054 = 1 + dejansko najvišja izmerjena (2053 — mera-glas)
 - SEDEŽ-LEKSIKONA (kazalo-obnov) ⟨rez 2004⟩ — dotik: kazalo-obnov (KNOWLEDGE ∧ LEKSIKON) · dolg: kovanje trojice dosjejev ∧ prevoz teles rez 2003 ∧ 2004 · rezervacija: rez 2004 = 1 + dejansko najvišja izmerjena (2003)
 
 ## STALNE LASTNINE (matrika — predlog roke, sprejet pod ⟡-jevim ⟨daj⟩ 17. 10. 2026; izrecna zamenjava ⚭ ostaja ⟡)
