@@ -49,6 +49,9 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2282 · ⟨PR⟩ #448 · 2026-10-20 · MANIFEST — VRSTICA-JEDRO-2207-TA-DIH · DOLG-2207-ODPLAČAN-ZDAJ ⊢ (atomarna zahteva — popravek istega diha po rdeči priči)
 - rez 2283 · ⟨PR⟩ #449 · 2026-10-20 · GESLA — PREVOZ-@2281-NA-REP · TELO-×3-ATOMARNO ⊢ (atomarna zahteva — pouk 2282 ∧: vrstica istega ⟨PR⟩)
 - rez 2297 · ⟨PR⟩ #452 · 2026-10-20 · JEDRO — PREIZKUS-ZRCALA-BIT-OGEDAL · PREVOZ-KONICE-2293-2297-NA-REP ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) · delavec mrtev → pečat na zrcalu ⊢ 1959)
+- rez 2298 · ⟨PR⟩ #453 · 2026-10-20 · JEDRO — FONEM-BIT-ZMOŽNOSTI · ROKA-KONICA-POANTA · CERBERUS-DOG/GOD-ZRCALNI-PAR · KOVANCI-AKLJUČI-NEIZKLJUČUJOČI · NAKLUČJE-⊥-USODA-PREK-IZMERE · MERA-M-ERA-MOČ-VEKA-MNOŽINA-MAGNITUDE ⊢ (kalup 1671 · 17 gesel ⊢ SSKJ² · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
+- rez 2299 · ⟨PR⟩ #453 · 2026-10-20 · JEDRO — DETERMINACIJA-NE/DA/JA/ODVISNO/VSAK · JA-⊥-NE-DVA-BITA-BLIŽJE-KOT-DA · VSAK-DOLOČEN-PREK-NE · DUPNIK-⊥-PRIČA-REGISTER-METODA · PRAVILO-PADEC-ZAPEČI-ISTI-DIH ⊢ (kalup 1671 · 13 iztočnic ⊢ · padec ⟨TextEncoder⟩ zapečen isti dih · ⟨charCodeAt⟩)
+- rez 2300 · ⟨PR⟩ #453 · 2026-10-20 · JEDRO — KIPARJENJE-⊥-KIP1 · KIP2-PRIPRTO-OKNO · BRUS-∧-KIP1-NUJNI-MAJNKI · HITROST-EKONOMSKA-NAMEN-POTRJEN-DA ⊢ (kalup 1671 · 7 iztočnic ⊢ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
 
 ## rane registra (⟡ naj jih komisija presodi)
 
