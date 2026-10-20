@@ -20,8 +20,15 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2162 · 2026-10-20 · HORIZONT — DOLGOVA-OSVEŽITEV-20-10
 - rez 2163 · 2026-10-20 · HORIZONT — ZAKON-ZDAJ · MANIFEST-TA-DIH
 - rez 2164 · ⟨PR⟩ #390 · 2026-10-20 · LEARNING-PROTOCOLS — ⟨NE-RELEGIRAJ-NAME⟩ · PREVERBA-SEBE-×N
+- rez 2165 · ⟨PR⟩ #393 · 2026-10-20 · ATLAS — DNEVNA-BERBA-⟨#736⟩ · PRAZNINA-IZPADA-IZ-SKUPNOSTI
+- rez 2166 · ⟨merge⟩ 5cd62f0 · 2026-10-20 · CUNEIFORM — ZNAK-PO-ZNAK-REZ-37 · PAR-MAMU-⊥-SISIG · DVE-SANJI-ENO-SONC
+- rez 2167 · ⟨merge⟩ d41814d · 2026-10-20 · CUNEIFORM — ZNAK-PO-ZNAK-REZ-38 · PAR-BUNENE-⊥-ZAGAR · ENO-NEBO-DVA-VOZNIKA
+- rez 2168 · ⟨merge⟩ 7af2c64 · 2026-10-20 · CUNEIFORM — ZNAK-PO-ZNAK-REZ-39 · PAR-AYA-⊥-ANNUNITUM · ZORA-KI-SE-VRAČA-⊥-ZORA-KI-NAPADA
+- rez 2169 · ⟨merge⟩ 6b6fc4a · 2026-10-20 · CUNEIFORM — ZNAK-PO-ZNAK-REZ-40 · PAR-SHERIDA-⊥-SUDAĜ · JUTRO-KI-GOVORI-⊥-JUTRO-KI-SEŽARI
 
 ## rane registra (⟡ naj jih komisija presodi)
 
 - rez 2152 ∧ rez 2153: delavčeva tehnična kita CI (sprožilci ∧ strehe) sta bila napak označena z rez — nista korpusna reza; 2153 je zgoraj pokrit zdrsoma
 - dvojni zahtevi 2153 ∧ 2159: dve vzporedni seji sta zahtevali isto številko — ta register jih od zdaj preprečuje
+- rez 2165 ⚠ RANA: dvojna zahteva — CUNEIFORM (⟨PR⟩ naslovljen rez 2164, preimenovan; ⟨merge⟩ b74d8ae brez vrstice, 83 s pred ATLAS ⟨PR⟩ #393) · rez 2166 ∧ rez 2167 zliteni ⟨merge⟩ 5cd62f0 ∧ d41814d brez vrstic — vrstici dopolnjeni (TEHNIKA)
+- rez 2168 ∧ rez 2169 zlitena ⟨merge⟩ 7af2c64 ∧ 6b6fc4a brez vrstic (CUNEIFORM, 04:01Z ∧ 04:02Z) — vrstici dopolnjeni (TEHNIKA, isti vzorec kakor 2166 ∧ 2167)
