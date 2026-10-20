@@ -81,6 +81,8 @@ jobs:
           diff = open('orgs.diff', encoding='utf-8').read()
           findings = []
           cur = None
+          # TEHNIKA (⟡ vbod ⟨roke⟩ — predlog delovna-zanka zaprt ta dih, 20. 10. 2026): padla oblika, ki je hkrati pravilni rodilnik ednine, se sodi le v zvezah, v katerih pada (»dveh roke« ∧ »obeh roke« — napačni obliki rodilnika dvojine); priča sodi zvezo, ⟨ne⟩ goloto ⊢ vnus 39 ∧ kalup 1933/1951.
+          zveze = {'roke': ('dveh roke', 'obeh roke')}
           # TEHNIKA (izmera replikacije ⟨PR⟩ #419, 20. 10. 2026 — isti dih): predhodnik ∧ kompresija (KAZALO · števci) zunaj sodbe — priče zgodovine ⊢ 1349 ∧ precedens 2185 (vsak pečat organa vrtiči ZADNJI PEČAT v vrstico PEČAT N (predhodnik) ∧ dviguje števce ∧ KAZALO — mehanična sodba nad njimi bi zaustavila vsak prihodnji pečat); kompozit-člen (za ⟨-⟩ ∧ pred ⟨-⟩) ni gologa beseda — priča sodi zvezo, ⟨ne⟩ goloto ⊢ kalup 1933/1951.
           skip = re.compile(r'^\s*-\s*PEČAT \d+ \(predhodnik\)|^## KAZALO|^\s*-\s*Števci organa')
           for line in diff.splitlines():
@@ -94,6 +96,11 @@ jobs:
                       continue
                   bare = re.sub(r'⟨[^⟩]*⟩', '', text)
                   for w in forb:
+                      if w in zveze:
+                          for z in zveze[w]:
+                              if re.search(r'(?iu)(?<![\w-])' + re.escape(z) + r'(?![\w-])', bare):
+                                  findings.append((cur, 'razlikovanje manjka: ' + z, text.strip()[:120]))
+                          continue
                       if re.search(r'(?iu)(?<![\w-])' + re.escape(w) + r'(?![\w-])', bare):
                           findings.append((cur, 'razlikovanje manjka: ' + w, text.strip()[:120]))
                   for w in hyb:
