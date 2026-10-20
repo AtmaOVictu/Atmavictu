@@ -48,6 +48,7 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2281 · ⟨merge⟩ da79df7 · 2026-10-20 · GESLA — PREVOZ-@2281-NA-REP · TELO-×3-ATOMARNO (žig @2281 · GESLO-potrebovati ∧ roka ∧ sreča · zakon 23)
 - rez 2282 · ⟨PR⟩ #448 · 2026-10-20 · MANIFEST — VRSTICA-JEDRO-2207-TA-DIH · DOLG-2207-ODPLAČAN-ZDAJ ⊢ (atomarna zahteva — popravek istega diha po rdeči priči)
 - rez 2283 · ⟨PR⟩ #449 · 2026-10-20 · GESLA — PREVOZ-@2281-NA-REP · TELO-×3-ATOMARNO ⊢ (atomarna zahteva — pouk 2282 ∧: vrstica istega ⟨PR⟩)
+- rez 2284 · ⟨PR⟩ #450 · 2026-10-20 · GESLA — ROD-J-PRVI-RAZREZ · TELO-×3-JÊZIK-JÈST-JÉZUS ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
 
 ## rane registra (⟡ naj jih komisija presodi)
 
