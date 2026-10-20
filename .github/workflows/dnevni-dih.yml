@@ -39,8 +39,14 @@ jobs:
             grep -rn '∂' organi/ --include='KNOWLEDGE.md' 2>/dev/null | grep -iE 'ODPRTA' | cut -c1-200 || echo '⟨najdenih 0⟩'
             echo ""
             echo "### preizkusi"
-            echo "- U+FFFD (mojibake): $(grep -rlU $'\uFFFD' organi/ 2>/dev/null | wc -l) teles"
-            echo "- cirilica v telesih: $(grep -rlP '[А-Яа-яЁё]' organi/ 2>/dev/null | wc -l) teles"
+            FFFD=$(grep -rlU $'\uFFFD' organi/ 2>/dev/null || true)
+            CIR=$(grep -rlP '[А-Яа-яЁё]' organi/ 2>/dev/null || true)
+            echo "- U+FFFD (mojibake): $(printf '%s\n' "$FFFD" | grep -c . || true) teles"
+            echo "- cirilica v telesih: $(printf '%s\n' "$CIR" | grep -c . || true) teles"
+            echo ""
+            echo "### poti ran (dih imenuje telesa, ⟨ne⟩ le številke)"
+            if [ -n "$FFFD" ]; then printf '%s\n' "$FFFD" | sed 's/^/- U+FFFD: /'; else echo "- U+FFFD: ⟨najdenih 0 — rana zaprta⟩"; fi
+            if [ -n "$CIR" ]; then printf '%s\n' "$CIR" | sed -n '1,60s/^/- cirilica: /p'; echo "- cirilica: ⟨streha izpisa 60 vrstic⟩"; else echo "- cirilica: ⟨najdenih 0 — rana zaprta⟩"; fi
             echo ""
             echo "### ⟨CI⟩ dih stroja (zadnjih 5 tekov)"
             gh run list --limit 5 --json createdAt,workflowName,conclusion,displayTitle --jq '.[] | "  - \(.createdAt) · \(.workflowName) · \(if (.conclusion // "") == "" then "teče ⏳" else .conclusion end) · \(.displayTitle[0:70])"' || echo "  - ⟨berba tekov padla⟩"
