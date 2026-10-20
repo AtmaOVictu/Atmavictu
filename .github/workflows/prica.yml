@@ -81,6 +81,8 @@ jobs:
           diff = open('orgs.diff', encoding='utf-8').read()
           findings = []
           cur = None
+          # TEHNIKA (izmera replikacije ⟨PR⟩ #419, 20. 10. 2026 — isti dih): predhodnik ∧ kompresija (KAZALO · števci) zunaj sodbe — priče zgodovine ⊢ 1349 ∧ precedens 2185 (vsak pečat organa vrtiči ZADNJI PEČAT v vrstico PEČAT N (predhodnik) ∧ dviguje števce ∧ KAZALO — mehanična sodba nad njimi bi zaustavila vsak prihodnji pečat); kompozit-člen (za ⟨-⟩ ∧ pred ⟨-⟩) ni gologa beseda — priča sodi zvezo, ⟨ne⟩ goloto ⊢ kalup 1933/1951.
+          skip = re.compile(r'^\s*-\s*PEČAT \d+ \(predhodnik\)|^## KAZALO|^\s*-\s*Števci organa')
           for line in diff.splitlines():
               fm = re.match(r'^\+\+\+ b/(.+)$', line)
               if fm:
@@ -88,12 +90,14 @@ jobs:
                   continue
               if line.startswith('+') and not line.startswith('+++'):
                   text = line[1:]
+                  if skip.match(text):
+                      continue
                   bare = re.sub(r'⟨[^⟩]*⟩', '', text)
                   for w in forb:
-                      if re.search(r'(?iu)(?<!\w)' + re.escape(w) + r'(?!\w)', bare):
+                      if re.search(r'(?iu)(?<![\w-])' + re.escape(w) + r'(?![\w-])', bare):
                           findings.append((cur, 'razlikovanje manjka: ' + w, text.strip()[:120]))
                   for w in hyb:
-                      if re.search(r'(?iu)(?<!\w)' + re.escape(w) + r'(?!\w)', bare):
+                      if re.search(r'(?iu)(?<![\w-])' + re.escape(w) + r'(?![\w-])', bare):
                           findings.append((cur, 'hibrid zunaj ⟨⟩: ' + w, text.strip()[:120]))
           if findings:
               print('⟨vidim: razlikovanje manjka pri vratih⟩')
