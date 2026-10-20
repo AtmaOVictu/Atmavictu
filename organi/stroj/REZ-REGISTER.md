@@ -45,6 +45,7 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2203 · ⟨PR⟩ #443 · 2026-10-20 · TEHTNICA — PREVOZ-@2181-NA-REP ⊢ (kalup 1671; varovalka poimensko preverjena — rez = 1 + dejansko najvišja izmerjena)
 - rez 2204 · ⟨PR⟩ #444 · 2026-10-20 · POVEZANI-VIRI — POPRAVEK-JEDRA-JS-⟨MD5⟩-⟨abc⟩ ⊢ (kalup 1671 — dolg pečata 2141 odplačan)
 - rez 2208 · ⟨PR⟩ #447 · 2026-10-20 · VRATA — VBL v2.3 NA-VRATAH-REPA (zrcalo verification-before-assertion ⟨merge⟩ 0e5ab89) · ZRCALO-BAJTNO-ISTO · CC-BY-PREJEMNICA-VEN ⊢
+- rez 2281 · ⟨merge⟩ da79df7 · 2026-10-20 · GESLA — PREVOZ-@2281-NA-REP · TELO-×3-ATOMARNO (žig rez 2281 · GESLO-potrebovati ∧ roka ∧ sreča · zakon 23)
 - rez 2282 · ⟨PR⟩ #448 · 2026-10-20 · MANIFEST — VRSTICA-JEDRO-2207-TA-DIH · DOLG-2207-ODPLAČAN-ZDAJ ⊢ (atomarna zahteva — popravek istega diha po rdeči priči)
 - rez 2283 · ⟨PR⟩ #449 · 2026-10-20 · GESLA — PREVOZ-@2281-NA-REP · TELO-×3-ATOMARNO ⊢ (atomarna zahteva — pouk 2282 ∧: vrstica istega ⟨PR⟩)
 
@@ -62,3 +63,5 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2188–2196 ⚠ vrzel zahtev: pečati zapečeni lokalno (cesta-protokol 2188–2195 ∧ gesla 2196/2197 — telesa potujejo na rep prek ⟨PR⟩ #434), vrstic v zahtevah ni — izmerjeno 20. 10. 2026
 
 - rez 2199 ⚠ dvojna zahteva: ⟨PR⟩ #438 (INTEGRAL — ta roka, vrstica atomarna ∧) ∧ ⟨PR⟩ #439 (GESLA — BRBA-TELES-KOS-2, vzporedna roka isti dih); obe iz poštene sveže izmere (2198 → 2199 = 1 + dejansko najvišja); razrešitev: vzporedna roka PREREZITEV-×1-IZ-2199 → 2200 ⟨merge⟩ 57d81efc @⟨main⟩ ∧ — 2199 ostaja ⟨PR⟩ #438, brazgotina ⊙ 1349 — izmerjeno pri viru ta dih ⊢ Z-2 ∧ 1419
+
+- rez 2281 ⚠ ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA) — izmerjeno 20. 10. 2026: žig rez 2281 v treh telesih ⟨push⟩ na ⟨main⟩ brez vrstice registra ∧ brez ⟨merge⟩ komita (⟨ne zlije⟩ ⊢ 1542)
