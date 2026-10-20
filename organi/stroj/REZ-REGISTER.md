@@ -46,6 +46,7 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2204 · ⟨PR⟩ #444 · 2026-10-20 · POVEZANI-VIRI — POPRAVEK-JEDRA-JS-⟨MD5⟩-⟨abc⟩ ⊢ (kalup 1671 — dolg pečata 2141 odplačan)
 - rez 2208 · ⟨PR⟩ #447 · 2026-10-20 · VRATA — VBL v2.3 NA-VRATAH-REPA (zrcalo verification-before-assertion ⟨merge⟩ 0e5ab89) · ZRCALO-BAJTNO-ISTO · CC-BY-PREJEMNICA-VEN ⊢
 - rez 2282 · ⟨PR⟩ #448 · 2026-10-20 · MANIFEST — VRSTICA-JEDRO-2207-TA-DIH · DOLG-2207-ODPLAČAN-ZDAJ ⊢ (atomarna zahteva — popravek istega diha po rdeči priči)
+- rez 2283 · ⟨PR⟩ #449 · 2026-10-20 · GESLA — PREVOZ-@2281-NA-REP · TELO-×3-ATOMARNO ⊢ (atomarna zahteva — pouk 2282 ∧: vrstica istega ⟨PR⟩)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
