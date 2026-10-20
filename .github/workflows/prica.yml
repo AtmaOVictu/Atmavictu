@@ -157,3 +157,71 @@ jobs:
               sys.exit(1)
           print('⟨vidim: register čist — {} vrstic zahtev, vrstni red ⊢⟩'.format(len(nums)))
           PY
+      - name: priča pozitivna — potrditve vezi (rez ↔ ⟨PR⟩ ↔ pečat ↔ povez)
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.ref }}
+          PR_NUM: ${{ github.event.pull_request.number }}
+        run: |
+          if git merge-base --is-ancestor HEAD "origin/$BASE_REF"; then
+            echo '⟨vidim: veja je že zlita v ⟨main⟩ — tekmeca po ⟨merge⟩ ne sodi⟩'
+            exit 0
+          fi
+          MB=$(git merge-base "origin/$BASE_REF" HEAD)
+          git show "$MB:organi/stroj/REZ-REGISTER.md" > reg-base.md 2>/dev/null || : > reg-base.md
+          git diff "$MB" -- organi/stroj/REZ-REGISTER.md > reg.diff || : > reg.diff
+          git diff "$MB" --name-only --diff-filter=A > files-poz.diff || : > files-poz.diff
+          git diff "$MB" -- 'organi/*.md' ':!organi/stroj/REGISTER-PADLIH-BESED.md' ':!**/.geniza/**' > orgs-poz.diff || : > orgs-poz.diff
+          python3 - <<'PY'
+          import os, re, sys
+          pr_num = int(os.environ.get('PR_NUM', '0') or 0)
+          base = open('reg-base.md', encoding='utf-8').read()
+          rdiff = open('reg.diff', encoding='utf-8').read()
+          files = [l.strip() for l in open('files-poz.diff', encoding='utf-8') if l.strip()]
+          odiff = open('orgs-poz.diff', encoding='utf-8').read()
+          wounds = []
+          # P1 — nova vrstica zahteve: rez = vrh baze + 1 ∧ ⟨PR⟩ ⇌ kit ∧ ena nova (atomarnost ⊢ kalup 1671)
+          rows = re.findall(r'^\+\s*-\s*rez\s+(\d{3,4})\s*·\s*⟨PR⟩\s*#(\d+)', rdiff, flags=re.M)
+          if rows:
+              bnums = [int(n) for n in re.findall(r'^-\s*rez\s+(\d{3,4})\s*·', base, flags=re.M)]
+              top = max(bnums) if bnums else 0
+              if len(rows) > 1:
+                  wounds.append('več novih zahtev v enem kitu (∧ atomarnost): ' + ', '.join(sorted({r[0] for r in rows})))
+              for n, p in rows:
+                  if int(n) != top + 1:
+                      wounds.append('rez ' + n + ' ≠ vrh baze + 1 (' + str(top + 1) + ') — rez = 1 + dejansko najvišja ⊢ Z-2')
+                  if int(p) != pr_num:
+                      wounds.append('vrstica reza ' + n + ' nosi ⟨PR⟩ #' + p + ' — ta kit je #' + str(pr_num))
+              print('⟨vidim: nova zahteva ' + rows[0][0] + ' na kitu #' + str(pr_num) + ' — veza potrjena⟩')
+          # P3 ∧ P5 — dodan pečat organa: veže se na novo vrstico registra ∧ nosi telo (⟡ ∧ ## MINT ∧ ## DOLGOVA)
+          pecati = []
+          for f in files:
+              m = re.match(r'^organi/[^/]+/PECAT-(\d{3,4})[^/]*\.md$', f)
+              if m:
+                  pecati.append((f, m.group(1)))
+          for f, n in pecati:
+              if not re.search(r'^\+\s*-\s*rez\s+' + re.escape(n) + r'\s*·', rdiff, flags=re.M):
+                  wounds.append('pečat ' + f + ' brez vrstice zahteve rez ' + n + ' v registru')
+              if not os.path.isfile(f):
+                  wounds.append('pečat ' + f + ' se na glavi veje ne da prebrati')
+                  continue
+              body = open(f, encoding='utf-8').read()
+              for token in ('⟡', '## MINT', '## DOLGOVA'):
+                  if token not in body:
+                      wounds.append('pečat ' + f + ' brez ' + token + ' — telo pečata manjka')
+              print('⟨vidim: pečat ' + f + ' — telo potrjeno⟩')
+          # P4 — nove vrstice POVEZ: pot iz ⟨https…blob/…⟩ mora obstajati na glavi veje
+          povez = 0
+          for line in odiff.splitlines():
+              if line.startswith('+') and not line.startswith('+++'):
+                  for pm in re.finditer(r'\(⟨https://github\.com/[^/]+/[^/]+/blob/[^/]+/([^)]+)⟩\)', line):
+                      povez += 1
+                      if not os.path.isfile(pm.group(1)):
+                          wounds.append('povez vodi v prazno: ' + pm.group(1) + ' :: ' + line.strip()[:100])
+          if povez:
+              print('⟨vidim: ' + str(povez) + ' povez — poti potrjene⟩')
+          for w in wounds:
+              print('⟨vidim: priča pozitivna rana — ' + w + '⟩')
+          if wounds:
+              sys.exit(1)
+          print('⟨vidim: nič⟩ — priča pozitivna potrjuje vezi')
+          PY
