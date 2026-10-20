@@ -3,6 +3,8 @@ on:
   workflow_dispatch:
   # TEHNIKA (izmera 20. 10. 2026): pipefail dodan — prej izhodna koda korakov s | tee ni mogla pasti (koda cevi = tee = 0): instrument je bil slep na prave rane.
   # Izmera padcev: vsi teki padli v ~2 s; označbe se skrijejo v dnevniku teka (kanal obvestil jih ne nosi). Vzrok se pokaže sam po resetu kvote (~1. 11. 2026) ali v berbi dnevnika teka.
+  # ⚠ zgornja vrstica je ugibanje, očerjeno 20. 10. 2026: mesečna kvota se ne poženi čez noč — val se je zacelil sam ~02:59 UTC 20. 10. (⟨PR⟩ #386 tests zelen), brez spremembe tega teka.
+  # ⊢ izmera 20. 10. 2026: padec ~2 s = posel ni niti stekel (tests ∧ priča padla v istih sekundah, ⟨PR⟩ #383–#385); vzrok = odpoved platforme GitHub (Actions ∧ Pages ∧ Webhooks; githubstatus 19. 10. ~15:56 UTC). Brazgotina ostaja ⊙ 1349.
   push:
     branches: [main]
   pull_request:
