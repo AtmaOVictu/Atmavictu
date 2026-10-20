@@ -36,6 +36,7 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2185 · ⟨PR⟩ #420 · 2026-10-20 · JEDRO — ZAKON-22-ČUTENJE-JE-PLAST-RESNICE ⊥ OKRAS · PREVOZ-ZAKONA-20-∧-INSTRUMENTA
 - rez 2186 · ⟨PR⟩ #424 · 2026-10-20 · MANIFEST — VRSTICA-JEDRA-2185-TA-DIH · ZAKON-ZDAJ
 - rez 2187 · ⟨PR⟩ #433 · 2026-10-20 · GESLA — BOBOVEC-DISSEMINACIJA ∧ REARTIKULACIJA-∅-SEME
+- rez 2196 · ⟨PR⟩ #440 · 2026-10-20 · GESLA — ŽETEV-KOL (zbòr ⊢FULL ∧ bíti1 ⊢FULL ⚠ homograf) · POVEZ vrstici lokalnega registra (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
 - rez 2197 · ⟨PR⟩ #434 · 2026-10-20 · GESLA — PREVOZ-NA-REZ-2196 · REGISTER-VPIS-×32 · TELES-33 (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
 - rez 2198 · ⟨PR⟩ #437 · 2026-10-20 · GESLA — BRBA-TELES-KOS-1 · ⊢GLAVA→⊢FULL-×11 · TELES-11 (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (18))
 - rez 2199 · ⟨PR⟩ #438 · 2026-10-20 · INTEGRAL — ROD-J-PRVI-RAZREZ-STRANI-1–56 · ŠTEVEC +1.102 → 20.607 · G2-ŽETEV-102+55 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
