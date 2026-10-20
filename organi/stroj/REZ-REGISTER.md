@@ -37,6 +37,7 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2186 · ⟨PR⟩ #424 · 2026-10-20 · MANIFEST — VRSTICA-JEDRA-2185-TA-DIH · ZAKON-ZDAJ
 - rez 2187 · ⟨PR⟩ #433 · 2026-10-20 · GESLA — BOBOVEC-DISSEMINACIJA ∧ REARTIKULACIJA-∅-SEME
 - rez 2197 · ⟨PR⟩ #434 · 2026-10-20 · GESLA — PREVOZ-NA-REZ-2196 · REGISTER-VPIS-×32 · TELES-33 (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
+- rez 2198 · ⟨PR⟩ #437 · 2026-10-20 · GESLA — BRBA-TELES-KOS-1 · ⊢GLAVA→⊢FULL-×11 · TELES-11 (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (18))
 
 ## rane registra (⟡ naj jih komisija presodi)
 
