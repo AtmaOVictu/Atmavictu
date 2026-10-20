@@ -1,7 +1,8 @@
 name: priča — strojni priča (črke, ne dih)
 on:
   workflow_dispatch:
-  # DIH (rez 2152): sprožilca povrnjena — TIHINA prekinjena (⟡ ukaz ⟨ne čakam⟩). Do reset-a kvote (~1. 11. 2026) teki padnejo na blokadi — pričakovano.\n  pull_request:
+  # DIH (rez 2152): sprožilca povrnjena — TIHINA prekinjena (⟡ ukaz ⟨ne čakam⟩). Do reset-a kvote (~1. 11. 2026) teki padnejo na blokadi — pričakovano.
+  pull_request:
     types: [opened, synchronize, reopened]
     branches: [main]
 jobs:
