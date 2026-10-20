@@ -18,6 +18,7 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2160 · PR #386 · 2026-10-20 · cuneiform — ZNAK-PO-ZNAK-REZ-35
 - rez 2161 · PR #387 · 2026-10-20 · GESLA — ROD-G-PRVI-RAZREZ-STRANI-1–139
 - rez 2162 · 2026-10-20 · HORIZONT — DOLGOVA-OSVEŽITEV-20-10
+- rez 2163 · 2026-10-20 · HORIZONT — ZAKON-ZDAJ · MANIFEST-TA-DIH
 
 ## rane registra (⟡ naj jih komisija presodi)
 
