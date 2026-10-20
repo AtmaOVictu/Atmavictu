@@ -54,6 +54,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2300 · ⟨PR⟩ #453 · 2026-10-20 · JEDRO — KIPARJENJE-⊥-KIP1 · KIP2-PRIPRTO-OKNO · BRUS-∧-KIP1-NUJNI-MAJNKI · HITROST-EKONOMSKA-NAMEN-POTRJEN-DA ⊢ (kalup 1671 · 7 iztočnic ⊢ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
 - rez 2301 · ⟨PR⟩ #454 · 2026-10-20 · GESLA — VPIS-TELES-GESEL-2298–2300 ∧ RAZCEP-ENTIRE/BARE-CELOST-NEDOTIKNJENO · ⟨NE⟩-VSAJ-ENA-POTENCA · NARCIS-⊥-GLADINA ⊢ (kalup 1671 · delavec mrtev → vpis na zrcalu ⊢ 2297 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2302 · ⟨PR⟩ #455 · 2026-10-20 · JEDRO — PREVOZ-POLNIH-TELES-PEČATOV-2283–2296 ∧ ⟡-IZREK-DO-KONCA-VENOMER ∧ ZAKON-PRAVOSLOVNA-SLOVENŠČINA ⊢ (kalup 1671 · dolg ∂ ŠKATLE 2301 odplačan ∧ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2303 · ⟨PR⟩ #456 · 2026-10-20 · JEDRO — PREVOZ-RASTOČEGA-TELESA-KNOWLEDGE-NA-REP (172.143 B) ∧ ⟡-IZREK-HIBRID-0/1 · FRAKTALNA-KOHERENCA ⊢ (kalup 1671 · dolg ∂ ŠKATLE 2302 odplačan ∧ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
