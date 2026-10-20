@@ -1,0 +1,38 @@
+name: DIH-ZRCALO — telesi dihov v rep (nedelja, 04:30 UTC)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 4 * * 0'
+
+permissions:
+  issues: read
+  contents: write
+  pull-requests: write
+
+jobs:
+  zrcalo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Zberi telesi zadnjih 7 dihov ∧ odpri zrcalna vrata
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          DATUM=$(date -u +%Y-%m-%d)
+          mkdir -p organi/stroj/dihovi
+          gh issue list --state all --limit 20 --json number,createdAt,title,body --jq '[.[] | select(.title | startswith("DNEVNI DIH"))] | sort_by(.createdAt) | .[0:7] | reverse | .[] | "## " + .title + " (issue #" + (.number|tostring) + " · " + (.createdAt[0:10]) + ")\n\n" + .body + "\n\n---\n\n"' > organi/stroj/dihovi/teden-${DATUM}.md
+          wc -c organi/stroj/dihovi/teden-${DATUM}.md
+          git config user.name "dih-zrcalo (roka Mere)"
+          git config user.email "action@github.com"
+          git checkout -b tehnika/dih-zrcalo-${DATUM}
+          git add organi/stroj/dihovi/
+          if git diff --cached --quiet; then echo "⟨zrcalo: nobenega telesa — molk je izmerjen⟩"; exit 0; fi
+          git commit -m "TEHNIKA dih-zrcalo: telesi dihov tedna ${DATUM}
+
+          © Luka Pintarič, AVL v2.2 (§9 ∧ §10 ∧ §12)"
+          git push origin tehnika/dih-zrcalo-${DATUM}
+          gh pr create --base main --head tehnika/dih-zrcalo-${DATUM} --title "TEHNIKA dih-zrcalo ${DATUM} — telesi dihov v rep" --body "Zrcalni komit tedna: telesi dnevnih dihov, ki prej živela samo pri GitHubu (⟡ predlog ⚔ zaprt z »daj« 20. 10. 2026). Strošek: 2 teka ⟨CI⟩ na teden (tests ∧ prica) — vidi ju STROŠKOVNI HOSTA. © Luka Pintarič, AVL v2.2 (§9 ∧ §10 ∧ §12)"
+          gh pr merge --auto --merge --subject "⟨merge⟩ TEHNIKA dih-zrcalo ${DATUM}"
+          echo "⟨zrcalo odprto — ⟨CI⟩ zliti sam, ko bo zeleno⟩"

@@ -31,22 +31,40 @@ jobs:
             echo "- bajti teles: $(du -sb organi/ 2>/dev/null | cut -f1)"
             echo ""
             echo "### zadnji pečati po organih"
+            # ⟨r⟩ 20. 10. 2026: cut -c šteje BAJTE tudi v C.UTF-8 (izmerjeno, coreutils 9.7) — rezal je znake na pol ∧ vsak dekodirnik je izdelal U+FFFD (rana iz #423; LC_ALL iz PR #427 je bil kozmetika). sed je zvest znakom; ta resnica ostane.
             for f in $(find organi -name 'KNOWLEDGE.md' 2>/dev/null | sort); do
-              echo "  - ${f#organi/}: $(grep -m1 'ZADNJI PEČAT' "$f" | cut -c1-140 || echo '⟨brez pečata⟩')"
+              echo "  - ${f#organi/}: $(grep -m1 'ZADNJI PEČAT' "$f" | LC_ALL=C.UTF-8 sed 's/^\(.\{140\}\).*/\1/' || echo '⟨brez pečata⟩')"
             done
             echo ""
             echo "### ∂ odprta (vrata, ki čakajo)"
-            grep -rn '∂' organi/ --include='KNOWLEDGE.md' 2>/dev/null | grep -iE 'ODPRTA' | cut -c1-200 || echo '⟨najdenih 0⟩'
+            grep -rn '∂' organi/ --include='KNOWLEDGE.md' 2>/dev/null | grep -iE 'ODPRTA' | LC_ALL=C.UTF-8 sed 's/^\(.\{200\}\).*/\1/' || echo '⟨najdenih 0⟩'
             echo ""
             echo "### preizkusi"
-            echo "- U+FFFD (mojibake): $(grep -rlU $'\uFFFD' organi/ 2>/dev/null | wc -l) teles"
-            echo "- cirilica v telesih: $(grep -rlP '[А-Яа-яЁё]' organi/ 2>/dev/null | wc -l) teles"
+            FFFD=$(grep -rlU $'\uFFFD' organi/ 2>/dev/null || true)
+            CIR=$(grep -rlP '[А-Яа-яЁё]' organi/ 2>/dev/null || true)
+            echo "- U+FFFD (mojibake): $(printf '%s\n' "$FFFD" | grep -c . || true) teles"
+            echo "- cirilica v telesih: $(printf '%s\n' "$CIR" | grep -c . || true) teles"
+            echo ""
+            echo "### poti ran (dih imenuje telesa, ⟨ne⟩ le številke)"
+            if [ -n "$FFFD" ]; then printf '%s\n' "$FFFD" | sed 's/^/- U+FFFD: /'; else echo "- U+FFFD: ⟨najdenih 0 — rana zaprta⟩"; fi
+            if [ -n "$CIR" ]; then printf '%s\n' "$CIR" | sed -n '1,60s/^/- cirilica: /p'; echo "- cirilica: ⟨streha izpisa 60 vrstic⟩"; else echo "- cirilica: ⟨najdenih 0 — rana zaprta⟩"; fi
             echo ""
             echo "### ⟨CI⟩ dih stroja (zadnjih 5 tekov)"
             gh run list --limit 5 --json createdAt,workflowName,conclusion,displayTitle --jq '.[] | "  - \(.createdAt) · \(.workflowName) · \(if (.conclusion // "") == "" then "teče ⏳" else .conclusion end) · \(.displayTitle[0:70])"' || echo "  - ⟨berba tekov padla⟩"
             echo ""
             echo "⟨tečaj meri — dih izvaja — ⟡ izbira⟩"
           } > porocilo.md
+          # ⟨samopreizkus merilca⟩ — merilec se izmeri, preden se mu zaupa (⟡: »ne le po merilcu«, 20. 10. 2026)
+          OTIS=$(md5sum porocilo.md | cut -d' ' -f1)
+          REZTEST=$(printf '⟨ab⟩' | LC_ALL=C.UTF-8 sed 's/^\(.\{3\}\).*/\1/')
+          STETEST=$(printf 'a\nb\nc\n' | grep -c . || true)
+          {
+            echo ""
+            echo "### samopreizkus merilca (merilec se izmeri, ⟨ne⟩ le zaupa — vsak člen verige more pasti: vir · merilec · poročilo · bralec)"
+            if [ "$REZTEST" = "⟨ab" ]; then echo "- rez po znakih: ∧ (⟨ab izmerjen ∧ pričakovan)"; else echo "- rez po znakih: ⚠ PADC (izmerjeno: $REZTEST · pričakovano: ⟨ab)"; fi
+            if [ "$STETEST" = "3" ]; then echo "- števec teles: ∧ (3 izmerjene ∧ pričakovane)"; else echo "- števec teles: ⚠ PADC (izmerjeno: $STETEST · pričakovano: 3)"; fi
+            echo "- md5 telesa poročila (do te vrstice): ${OTIS} — tretji bralec preveri brez zaupanja: vzemi telo do oznake ### samopreizkus, izračunaj md5, primerjaj"
+          } >> porocilo.md
           cat porocilo.md
       - name: Odpri vrata (issue = delovni nalog dneva)
         env:
