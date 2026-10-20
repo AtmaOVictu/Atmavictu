@@ -46,4 +46,4 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2168 ∧ rez 2169 zlitena ⟨merge⟩ 7af2c64 ∧ 6b6fc4a brez vrstic (CUNEIFORM, 04:01Z ∧ 04:02Z) — vrstici dopolnjeni (TEHNIKA, isti vzorec kakor 2166 ∧ 2167)
 - rez 2172 · 2026-10-20 · HORIZONT — DNEVNI-DIH-MERE · ROD-I-SONDA-∧ · ATLAS-BERBA-KOS ⊢ (© Luka Pintarič, AVL v2.2 — LICENSE.md)
 - rez 2173 · 2026-10-20 · MANIFEST — DNEVNI-DIH — IZMERA-VSEH-TELES · PORAVNAVA-VRSTIC-×7 · VRSTICA-CUNEIFORM ⊢
-- rez 2179 ⚠ PREREZITEV ×2: pečat ⟨#740⟩ (ATLAS) je bil zapečen na veji kakor rez 2178 pred izmero registra; sveža izmera @main ta dih: rez 2178 zahteva JEDRO (⟨PR⟩ #414) ∧ vrstici 2176/2177 že poravnani (tuja roka) → rez 2179 = 1 + dejansko najvišja; JEDROVA vrstica stoji, ⟨ne zlije⟩ ⊢ 1542 — izmerjeno pri viru ta dih ⊢ Z-2 ∧ 1419
+- rez 2179 ⚠ PREREZITEV ×2: pečat ⟨#740⟩ (ATLAS) zapečen na veji kakor rez 2178 pred izmero registra; sveža izmera @⟨main⟩ ta dih: rez 2178 zahteva JEDRO (⟨PR⟩ #414) ∧ vrstici 2176/2177 že poravnani (tuja roka) → rez 2179 = 1 + dejansko najvišja; JEDROVA vrstica stoji, ⟨ne zlije⟩ ⊢ 1542 — izmerjeno pri viru ta dih ⊢ Z-2 ∧ 1419
