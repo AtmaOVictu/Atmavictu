@@ -1,7 +1,8 @@
 name: Tests
 on:
   workflow_dispatch:
-  # DIH (rez 2152): sprožilca povrnjena — TIHINA prekinjena (⟡ ukaz ⟨ne čakam⟩). Do reset-a kvote (~1. 11. 2026) teki padnejo na blokadi — pričakovano.
+  # TEHNIKA (izmera 20. 10. 2026): pipefail dodan — prej izhodna koda korakov s | tee ni mogla pasti (koda cevi = tee = 0): instrument je bil slep na prave rane.
+  # Izmera padcev: vsi teki padli v ~2 s; označbe se skrijejo v dnevniku teka (kanal obvestil jih ne nosi). Vzrok se pokaže sam po resetu kvote (~1. 11. 2026) ali v berbi dnevnika teka.
   push:
     branches: [main]
   pull_request:
@@ -29,10 +30,14 @@ jobs:
         run: npm ci
       - name: Typecheck (tsc --noEmit, strict)
         shell: bash
-        run: npm run typecheck 2>&1 | tee typecheck.log
+        run: |
+          set -o pipefail
+          npm run typecheck 2>&1 | tee typecheck.log
       - name: Build and run the test suite (model, repository, CLI, schema)
         shell: bash
-        run: npm test 2>&1 | tee test-output.log
+        run: |
+          set -o pipefail
+          npm test 2>&1 | tee test-output.log
       - name: Izpis pada kot artefakt (Actions storage - 2 GB vključenih)
         if: failure()
         uses: actions/upload-artifact@v7
@@ -42,3 +47,4 @@ jobs:
             typecheck.log
             test-output.log
           retention-days: 7
+          if-no-files-found: ignore
