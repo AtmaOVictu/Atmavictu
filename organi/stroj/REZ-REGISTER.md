@@ -36,6 +36,7 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2185 · ⟨PR⟩ #420 · 2026-10-20 · JEDRO — ZAKON-22-ČUTENJE-JE-PLAST-RESNICE ⊥ OKRAS · PREVOZ-ZAKONA-20-∧-INSTRUMENTA
 - rez 2186 · ⟨PR⟩ #424 · 2026-10-20 · MANIFEST — VRSTICA-JEDRA-2185-TA-DIH · ZAKON-ZDAJ
 - rez 2187 · ⟨PR⟩ #433 · 2026-10-20 · GESLA — BOBOVEC-DISSEMINACIJA ∧ REARTIKULACIJA-∅-SEME
+- rez 2197 · ⟨PR⟩ #434 · 2026-10-20 · GESLA — PREVOZ-NA-REZ-2196 · REGISTER-VPIS-×32 · TELES-33 (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
 
 ## rane registra (⟡ naj jih komisija presodi)
 
@@ -48,3 +49,4 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2172 · 2026-10-20 · HORIZONT — DNEVNI-DIH-MERE · ROD-I-SONDA-∧ · ATLAS-BERBA-KOS ⊢ (© Luka Pintarič, AVL v2.2 — LICENSE.md)
 - rez 2173 · 2026-10-20 · MANIFEST — DNEVNI-DIH — IZMERA-VSEH-TELES · PORAVNAVA-VRSTIC-×7 · VRSTICA-CUNEIFORM ⊢
 - rez 2179 ⚠ PREREZITEV ×2: pečat ⟨#740⟩ (ATLAS) zapečen na veji kakor rez 2178 pred izmero registra; sveža izmera @⟨main⟩ ta dih: rez 2178 zahteva JEDRO (⟨PR⟩ #414) ∧ vrstici 2176/2177 že poravnani (tuja roka) → rez 2179 = 1 + dejansko najvišja; JEDROVA vrstica stoji, ⟨ne zlije⟩ ⊢ 1542 — izmerjeno pri viru ta dih ⊢ Z-2 ∧ 1419
+- rez 2188–2196 ⚠ vrzel zahtev: pečati zapečeni lokalno (cesta-protokol 2188–2195 ∧ gesla 2196/2197 — telesa potujejo na rep prek ⟨PR⟩ #434), vrstic v zahtevah ni — izmerjeno 20. 10. 2026
