@@ -53,6 +53,17 @@ jobs:
             echo ""
             echo "⟨tečaj meri — dih izvaja — ⟡ izbira⟩"
           } > porocilo.md
+          # ⟨samopreizkus merilca⟩ — merilec se izmeri, preden se mu zaupa (⟡: »ne le po merilcu«, 20. 10. 2026)
+          OTIS=$(md5sum porocilo.md | cut -d' ' -f1)
+          REZTEST=$(printf '⟨ab⟩' | LC_ALL=C.UTF-8 cut -c1-3)
+          STETEST=$(printf 'a\nb\nc\n' | grep -c . || true)
+          {
+            echo ""
+            echo "### samopreizkus merilca (merilec se izmeri, ⟨ne⟩ le zaupa — vsak člen verige more pasti: vir · merilec · poročilo · bralec)"
+            if [ "$REZTEST" = "⟨ab" ]; then echo "- rez po znakih: ∧ (⟨ab izmerjen ∧ pričakovan)"; else echo "- rez po znakih: ⚠ PADC (izmerjeno: $REZTEST · pričakovano: ⟨ab)"; fi
+            if [ "$STETEST" = "3" ]; then echo "- števec teles: ∧ (3 izmerjene ∧ pričakovane)"; else echo "- števec teles: ⚠ PADC (izmerjeno: $STETEST · pričakovano: 3)"; fi
+            echo "- md5 telesa poročila (do te vrstice): ${OTIS} — tretji bralec preveri brez zaupanja: vzemi telo do oznake ### samopreizkus, izračunaj md5, primerjaj"
+          } >> porocilo.md
           cat porocilo.md
       - name: Odpri vrata (issue = delovni nalog dneva)
         env:
