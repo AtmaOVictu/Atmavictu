@@ -8,6 +8,7 @@ on:
 permissions:
   issues: write
   contents: read
+  actions: read
 
 jobs:
   meri:
@@ -15,7 +16,9 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - name: Izmeri korpus (rez · organi · pečati · ∂)
+      - name: Izmeri korpus (rez · organi · pečati · ∂ · ⟨CI⟩ dih stroja)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           {
@@ -38,6 +41,9 @@ jobs:
             echo "### preizkusi"
             echo "- U+FFFD (mojibake): $(grep -rlU $'\uFFFD' organi/ 2>/dev/null | wc -l) teles"
             echo "- cirilica v telesih: $(grep -rlP '[А-Яа-яЁё]' organi/ 2>/dev/null | wc -l) teles"
+            echo ""
+            echo "### ⟨CI⟩ dih stroja (zadnjih 5 tekov)"
+            gh run list --limit 5 --json createdAt,workflowName,conclusion,displayTitle --jq '.[] | "  - \(.createdAt) · \(.workflowName) · \(.conclusion // "teče") · \(.displayTitle[0:70])"' || echo "  - ⟨berba tekov padla⟩"
             echo ""
             echo "⟨tečaj meri — dih izvaja — ⟡ izbira⟩"
           } > porocilo.md
