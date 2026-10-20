@@ -43,7 +43,7 @@ jobs:
             echo "- cirilica v telesih: $(grep -rlP '[А-Яа-яЁё]' organi/ 2>/dev/null | wc -l) teles"
             echo ""
             echo "### ⟨CI⟩ dih stroja (zadnjih 5 tekov)"
-            gh run list --limit 5 --json createdAt,workflowName,conclusion,displayTitle --jq '.[] | "  - \(.createdAt) · \(.workflowName) · \(.conclusion // "teče") · \(.displayTitle[0:70])"' || echo "  - ⟨berba tekov padla⟩"
+            gh run list --limit 5 --json createdAt,workflowName,conclusion,displayTitle --jq '.[] | "  - \(.createdAt) · \(.workflowName) · \(if (.conclusion // "") == "" then "teče ⏳" else .conclusion end) · \(.displayTitle[0:70])"' || echo "  - ⟨berba tekov padla⟩"
             echo ""
             echo "⟨tečaj meri — dih izvaja — ⟡ izbira⟩"
           } > porocilo.md
@@ -53,4 +53,9 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           DATE=$(date -u +%Y-%m-%d)
-          gh issue create --title "DNEVNI DIH ${DATE} — poročilo tečaja" --body-file porocilo.md || echo "⟨issue padel — naredi ročno⟩"
+          if gh issue create --title "DNEVNI DIH ${DATE} — poročilo tečaja" --body-file porocilo.md; then
+            echo "⟨vrata odprta⟩"
+          else
+            echo "::error::⟨issue padel — poročilo je v porocilo.md, naredi ročno⟩"
+            exit 1
+          fi
