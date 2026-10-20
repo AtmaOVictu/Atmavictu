@@ -31,7 +31,7 @@ jobs:
           python3 - <<'PY'
           import os, re, sys
           title = os.environ.get('PR_TITLE', '')
-          m = re.search(r'rez[ ](d{3,4})', title, flags=re.I)
+          m = re.search(r'rez[ ](\d{3,4})', title, flags=re.I)
           if not m:
               print('⟨brez zahteve reza v naslovu — tehnični kit, register preskočen⟩')
               sys.exit(0)
