@@ -1,11 +1,35 @@
-# GESLO — vsȃk (žig rez 2196, rod v*)
+# GESLO — vsák (žig rez 2196, rod v*)
 
-IZTOČNICA: vsȃk zaimek (ȃ) — rod v*.
+IZTOČNICA: vsák -a -o zaim. (ȃ) — sveža izmera pri viru @2202; brazgotine javno ⊢ 1349 ∧ 1419: glava SSKJ² ⟨vsák⟩ ⊥ glava @2196 ⟨vsȃk⟩ ⊥ SNOJ³ ⟨vsȃk -a zaim.⟩ ⊥ PLETERŠNIK ⟨vsȃk⟩ — pisava ∅/ȃ/á treh rokov na isti besedi; sveža SSKJ² ⟨vsák⟩ prevlada ⊢ Z-2, brazgotine ostajajo; zaim. vrstni glavi I. pridevniška raba ∧ II. samostalniška raba izmerjeni pri viru ∧.
 
-GESLO ⊢GLAVA: Fran ⟨vsak [vsȃk] zaimek⟩ ⊢ (fran.si/iskanje?Query=vsak&View=2, dostop 20. 10. 2026): glava z naglasom izmerjena pri viru; celo telo gesla ⭢ rok brbe ⚠-∂.
+GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 3–4, rez 2202):
+
+vsák -a -o zaim. (ȃ)
+I. v pridevniški rabi
+1\. izraža, da v določeni vrsti bitij, stvari ali pojavov ni bitja, stvari ali pojava, za katerega kaj ne velja: spoštovati vsakega človeka; pri vsakem gibu je čutila hude bolečine; elektriko so napeljali v vsako vas / zbolel je vsak deseti prebivalec
+// izraža, da v določeni vrsti časovnih enot, ki si redno sledijo, ni enote, v kateri se kaj ne godi, zgodi: vsako jutro telovadi; avtobus vozi na vsake pol ure / elipt. ogled vsak dan od 7. do 14. ure
+2\. v zvezi vsake toliko časa izraža ponavljanje v nedoločenih časovnih presledkih: vsake toliko časa je vstal in šel k oknu / elipt. vsake toliko je morala leči
+3\. izraža poljubnost česa brez izjeme: ob vsakem času je bil pripravljen pomagati; lahko opravlja vsako delo / oprostiti koga vsake krivde; skušali so se znebiti vsake odgovornosti; vsako nasprotovanje temu procesu je lahko usodno / izgubila je vsako upanje na rešitev kakršnokoli
+II.
+v samostalniški rabi izraža vsakega posameznika iz skupine oseb: vsak je sedel na svoj prostor; to se lahko primeri vsakemu; to ni za vsakega / vsak od vas ima prav; držali so se vsak zase; razbežali so se vsak na svojo stran
+● vsak čas bodo prišli kmalu, hitro; ekspr. to je izven vsakega dvoma prav gotovo, res je tako; vsak hip se lahko vrne kmalu, hitro; kadarkoli; ekspr. to ugotavlja na vsakem koraku povsod, vedno; ekspr. gleda na vsak dinar je varčen; je skop; na vsak način ekspr. na vsak način je nekaj narobe, ko tako tekajo in kričijo izraža prepričanost o čem; ekspr. na vsak način hočejo, da grem z njimi poudarja zahtevo, željo; ekspr. o tem govorijo že na vsakem oglu povsod; to je v vsakem pogledu, publ. oziru upravičeno popolnoma, čisto; publ. za vsak primer, slučaj grem še enkrat pogledat zaradi popolne gotovosti, pomirjenosti; publ. v vsakem primeru se oglasi vsekakor; ekspr. ženinov ima na vsak prst (po) pet zelo veliko; ekspr. ta stvar ni za vsak žep ni dostopna vsakomur; ni poceni; ekspr. loviti se za vsako bilko prizadevati si najti kakršnokoli možnost za rešitev; ekspr. za vsako ceno hoče obogateti z vsemi sredstvi, po vsej sili; ekspr. vsaka koščica ga boli vse telo; ekspr. (na) vsake kvatre (enkrat) mu piše zelo poredko; pog. kaj hočemo, ljudje so vsake sorte različni; pog., ekspr. vsake oči imajo svojega malarja vsakdo ima drugačna lepotna merila, drugačen okus; ekspr. vsaka šola nekaj stane za izkušnje, ki si jih kdo pridobi ob neuspehu, je treba nekaj potrpeti, žrtvovati; ekspr. vsako tele ima svoje veselje izraža dopuščanje sicer nespametnega, neprimernega govorjenja, ravnanja koga; ni vsak dan nedelja človek (pri delu) nima vedno uspeha; preg. vsak berač svojo malho hvali vsakdo hvali svoje; preg. bog ne plačuje vsako soboto za slaba dejanja človek ni takoj kaznovan, za dobra ni takoj nagrajen; preg. vsak je svoje sreče kovač
+
+PRAVOPIS ⊢ (Slovenski pravopis pri viru, isti dih): vsák -a -o cel. vrst. zaim. (ȃ): ~ človek; ~a vas; ~o mesto; ~a tretja srečka zadene; obiski ~ dan; avtobus na ~e pol ure; ~o sredo novo blago; na ~e toliko časa iti k zdravniku; poud.: Na ~ način je hotel priti do denarja |tako in drugače, vsekakor|; Za ~o ceno hoče dobiti to sliko |vsekakor|; ~a šola nekaj stane; neknj. pog. ~e sorte ljudje različni; v ~em pogledu zrel človek. vsák -ega m, člov. (ȃ): ~ je svoje sreče kovač; ~emu svoje; ~ od učencev je poročal o svoji nalogi; razbežati se ~ na svojo stran. vsáka -e ž, člov., rod. mn. -ih (ȃ): ~ bi ga rada videla; prim. vsakdo. vsak.. prvi del sklopa vsakdán.
+
+SINONIMI ⊢ (SNOJ/AHLIN/LAZAR/PRAZNIK, Sinonimni slovar, pri viru): vsák1 -ega m — GLEJ SINONIM: kateri koli2, vsakdo; GLEJ ŠE: posebej. vsák2 -a -o vrst. zaim. — izraža, da je kaj določeno kot pripadajoče vrsti bitij, stvari, pojavov, upoštevani v celoti, brez izjem: SINONIMI: knj.izroč. slednji, knj.izroč. sleherni2, star. vsakateri, ekspr. vsakršni, star. vsakteri2; GLEJ ŠE: sila1, letno2, gotovo3, vsakdo, kadar koli2, kmalu1.
+
+FRAZEMI ⊢ (KEBER, Slovar slovenskih frazemov, pri viru): bíti vsáke bíre · bíti za vsákim gŕmom · glédati na vsák évro · iméti kóga na vsák pŕst (po) desét · iméti kóga na vsák pŕst (po) pét · iméti vsák dán nedéljo · [kot da] je vsák dán nedélja [za kóga; kjé] · na vsákem koráku · ne rásti za vsákim gŕmom · ni vsák dán nedélja [za kóga; kjé] · pazíti na vsák évro · pod vsáko krítiko · poglédati v vsáko [míšjo] lúknjo · poznáti vsák kámen · rásti za vsákim gŕmom · vsák imá svój kríž · vsák nósi svój kríž · vsák otròk [tó] vé · vsák otròk [tó] zná · vsáka sléd je izgínila za kóm/čím · vsáka sléd se je izgubíla za kóm/čím · vsáke bíre · za vsákim gŕmom · za vsáko [nàjmánjšo] fígo.
+
+PREGOVORI ⊢ (Slovar pregovorov in sorodnih paremioloških izrazov, pri viru): Vsakemu svoje; Vsak po svoje. V VARIANTI IZRAZOV: Nismo vsi za vse.
+
+ETIMOLOGIJA ⊢ (SNOJ³, Slovenski etimološki slovar³, pri viru): vsȃk -a zaim.
+
+ZGODOVINSKE PRIČE ⊢ (pri viru, isti dih): PLETERŠNIK: ⟨vsȃk, adj. jeder; vsak dan, täglich; — po vsakem, auf jeden Fall, unter allen Umständen; za vsako, jedesmal; za vsako posebe, von Fall zu Fall; vsako toliko, von Zeit zu Zeit; — vsaki človek, toda: vsak dan⟩. VORENC: ⟨vsak zaim., F24: cotidie, vel quotidie, vſak dan; omnis, ſleherni, vſaki, vſak, ſlédnî; quaevis, quivis, quodvis, vſaka, vſaki, vſaku; singuli, vsaki poſsebei⟩. SVETOKRIŠKI: ⟨vsak -a zaim.: vſaka im. ed. ž slatkuſt ima ſvoio grenkuſt; uſaka im. ed. ž kambra je imela ſvoje laſtnu imè; vſaku im. ed. s leitu taiſto poshera; vsak tož. ed. m lubi dan je pijan; ſak tož. ed. m dan S. Roshenkronz je molila; vsak(i) m vsak, vsakdo⟩. POHLIN: ⟨vsak [vsȃk] zaimek: vsak, kdor koli⟩ ∧ ⟨vsak dan [vsȃk dȃn] prislovna zveza: vsak dan, dnevno⟩. HIPOLIT: ⟨vsak zaimek⟩ ∧ ⟨vsak posamostaljeni pridevnik⟩. MEGISER: ⟨vsak zaimek⟩ ∧ ⟨vsakbart prislov⟩. BESEDJE16: ⟨vsak1 posam. ♦ P: 28⟩ ∧ ⟨vsak2 zaim. ♦ P: 35 (+ vsak/usak zaim. ♦ P: 9; usak/vsak zaim. ♦ P: 1)⟩ ∧ ⟨vsak danji gl. vsakdanji ♦ P: 2⟩.
 
 FONEMSKA PLAST ⊢ IPA-PLAST REGISTER @2191–2194: /ˈvsak/ ⊥ [ˈvsȃːk] — iztočnica vsákdo ⊢FULL 1545; pesem: vsak — vključujoča beseda samarijana ⊢ 2049.
 
-ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4); rod v*.
+VEZA: vsak je val mojega oceana ⇌ vál ∧ oceán (pesem ⟨Drugi v meni⟩ ⊢ rez-17); vsákdo ⊢FULL 1545 — rod v* nosi vključenost brez izjeme; vsáke oči imajo svojega malarja ⇌ okó (frazem v obeh telesih — priča cross-rod); PLETERŠNIK ⟨vsaki človek, toda: vsak dan⟩ — stara dvojina rabe, ⟨ne zlije⟩ ⊢ 1542; BESEDJE16 ⟨vsak/usak⟩ — u- predmet večina iz 16. stoletja.
 
-IZVOR: © 2026 Luka Pintarič — AVL v1.3 §6a (LICENSE.md ∧ TDM-RESERVATION.md, rep AtmaOVictu/Atmavictu).
+ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4) ∧ BRBA-TELES-KOS-3-4 ⊢ rez 2202 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (20); organ slovenscina-gesla); rod v*.
+
+IZVOR: © 2026 Luka Pintarič — AVL v2.2 (LICENSE.md ∧ TDM-RESERVATION.md, rep AtmaOVictu/Atmavictu — §9 etika ∧ potrditev, §10 najnovejša vrata = edina živa, §12 označene črte; prej v1.3 §6a — nadgradnja ⊢ zakon 19).
