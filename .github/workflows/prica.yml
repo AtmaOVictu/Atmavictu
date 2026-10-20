@@ -2,6 +2,7 @@ name: priča — strojni priča (črke, ne dih)
 on:
   workflow_dispatch:
   # TEHNIKA: trda streha ∧ preklic podvojenih tekov ∧ REZ-REGISTER preverba (⟡ ukaz ⟨daj⟩).
+  # TEHNIKA (⟡ ukaz ⟨daj⟩, 20. 10. 2026): popravek slepote priče — berba registra vzame prvo telo vnosa (do oklepaja ∧ brez ⟨⟩); prej inertni vnosi (⟨ciliva (×2)⟩ ni nikoli ulovila ⟨ciliva⟩); odsek Hibridi se konča pri naslednjem ##.
   pull_request:
     types: [opened, synchronize, reopened]
     branches: [main]
@@ -55,9 +56,14 @@ jobs:
           python3 - <<'PY'
           import re, sys
           reg = open('organi/stroj/REGISTER-PADLIH-BESED.md', encoding='utf-8').read()
-          forb = re.findall(r'^\d+\.\s*(.+?)\s*—', reg, flags=re.M)
+          # TEHNIKA (⟡ ukaz ⟨daj⟩, 20. 10. 2026): prvo telo vnosa — do oklepaja ∧ brez ⟨⟩; prej inertni vnosi (⟨ciliva (×2)⟩ ni nikoli ulovila ⟨ciliva⟩).
+          forb = []
+          for m in re.finditer(r'^\d+\.\s*([^(—\n]+?)\s*(?:\([^)\n]*\))?\s*—', reg, flags=re.M):
+              w = re.sub(r'⟨[^⟩]*⟩', '', m.group(1)).replace('⟨', '').replace('⟩', '').strip()
+              if w:
+                  forb.append(w)
           hyb = []
-          m = re.search(r'## Hibridi[^\n]*\n(.+)', reg, flags=re.S)
+          m = re.search(r'## Hibridi[^\n]*\n(.+?)(?=\n## |\Z)', reg, flags=re.S)
           if m:
               hyb = [h.strip() for h in m.group(1).split(',') if h.strip()]
           diff = open('orgs.diff', encoding='utf-8').read()
@@ -81,6 +87,6 @@ jobs:
               print('⟨vidim: razlikovanje manjka pri vratih⟩')
               for f, w, t in findings:
                   print('- {}: {} :: {}'.format(f, w, t))
-              sys.exit(1)
+                  sys.exit(1)
           print('⟨vidim: nič⟩ — priča molči')
           PY
