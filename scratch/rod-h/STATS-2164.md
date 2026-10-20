@@ -1,8 +1,12 @@
-# STATS ROD-H 2164
-- skupaj glav: 0 (strani: 0 — undefined..undefined)
-- odkazi (gl.): 0
-- homografne glave: 0
-- dvojice (in) v grozdu: 0
-- vecbesedne iztocnice (brez odkazov/dvojic): 0
-- G2 pari (strip-diakritik): 0
+# STATS ROD-H 2164 — izmerjeno programsko iz POPIS teles (brazgotina ⊙ 1349)
 
+- skupaj iztočnic: 1759 (strani: 88 — 1..88; 87 × 20 + stran 88 × 19)
+- odkazi (gl.): 23 — h2 predl., gl. k2 · hajd gl.hajdi · hallstattski gl.halštatski · haloefekt gl. halo2 · handicap ipd.gl.hendikepipd. · hardkor gl.hardcore · hardrok ipd.gl.hard rockipd. · hardware gl.hardver · harizma ipd.gl.karizmaipd. · heliodrom gl.helidrom · helioport gl.heliport · hem gl.hm · …
+- homografne glave (številke v glavi): 72 — h1 -- in -ja [hə̀ hə̀ja in há hája] m · h2 predl., gl. k2 · haló1 -ja tudi -- · haló2 -ja · haló3 tudi hàlo · halogén1 -a · halogén2 -a · halucinogén1 -a · halucinogén2 -a · hámburger1 -ja · hámburger2 -ja · hí1 medm. · …
+- dvojice (» in « v glavi): 7 — h1 -- in -ja [hə̀ hə̀ja in há hája] m · hard rock in hardrock in hárdrók -a [hárt rók in hárdrók] m · heavy metal heavy metala [hêvi mêtal in hêvi metál] m · helanca tudi helánka -e [prva oblika helánka in helánca] ž · hm [hə̀m in hm̀] medm. · hmtadra [hə̀mtadra in hm̀tadra] medm. · hranílka -e [hranilka in hraniu̯ka] ž
+- večbesedne iztočnice (brez odkazov ∧ dvojic): 96 — haiku -ja [hajkú tudi hájku] m · hají hajó medm. · hammond -- [hêmond] v prid. rabi · happy end happy enda [hêpi ênd-] m · hardcore in hard core in hárdkór · harlekínski -a -o prid.(ȋ) · harmónski -a -o prid.(ọ̑) · hčí hčére ž, tož. ed. hčér, or. ed. hčérjo; rod. mn. hčerá tudi hčér, daj. mn. tudi hčeràm, mest. mn. tudi hčeràh, or. mn. tudi hčerámi; daj., or. dv. tudi hčeráma (ȋ ẹ̑) · hehetáti se -ám se in -éčem se · hehljáti se -ám se · heksa... ali héksa... in heksa... prvi del zloženk (ẹ̑) · hekto... ali hékto... in hekto... prvi del zloženk (ẹ̑) · hemeroídi -ov m mn. · hemi... predpona v sestavljenkah · hemo... prvi del zloženk · …
+- G2 pari po strip-diakritik — ZNOTRAJ glave (dvojice z enakim odsekom po odstranitvi diakritik): 0
+- G2 pari po strip-diakritik — MED glavami (enaka ključa brez diakritik ∧ števk): 21 — halogén1 -a / halogén2 -a · halucinogén1 -a / halucinogén2 -a · hámburger1 -ja / hámburger2 -ja · hlapčè1 -éta / hlapčè2 -éta · hó1 medm. / hò2 medm. · hója1 -e / hója2 -e · hójica1 -e / hójica2 -e · hórda1 -e / hórda2 -e · hranílec1 -lca [hraniu̯ca tudi hranilca] m / hranílec2 -lca [hraniu̯ca tudi hranilca] m · hranílen1 -lna / hranílen2 -lna · hranítelj1 -a / hranítelj2 -a · hraníteljica1 -e / hraníteljica2 -e · hranítev1 -tve / hranítev2 -tve · hraníti1 in hrániti / hraníti2 in hrániti · hránjenje1 -a / hránjenje2 -a · hríbec1 -bca / hríbec2 -bca · hrúst1 -a / hrúst2 -a · hudíman1 -a / hudíman2 -a · hújšanje1 -a / hújšanje2 -a · hújšati1 -am / hújšati2 -am · húmus1 -a / húmus2 -a
+
+Sonda: # ROD-H ŽETEV — strani 85–88 (20+20+20+19) ∧ SONDA 89 (meja roda)
+Metoda glave: rez ob ` [`/` (`, odstranjeni končni `-` žetoni ∧ slovnica žetoni (m/ž/s/prid./medm./…); ključ = glava brez diakritik (NFD, odstranitev kombinirajočih ∧ čšž→csz) ∧ brez števk.
