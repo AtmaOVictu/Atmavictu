@@ -82,7 +82,15 @@ jobs:
           findings = []
           cur = None
           # TEHNIKA (⟡ vbod ⟨roke⟩ — predlog delovna-zanka zaprt ta dih, 20. 10. 2026): padla oblika, ki je hkrati pravilni rodilnik ednine, se sodi le v zvezah, v katerih pada (»dveh roke« ∧ »obeh roke« — napačni obliki rodilnika dvojine); priča sodi zvezo, ⟨ne⟩ goloto ⊢ vnus 39 ∧ kalup 1933/1951.
-          zveze = {'roke': ('dveh roke', 'obeh roke')}
+          # TEHNIKA (samo-rast — isti zakon, širja izmere, isti dih): zveze se berejo IZ REGISTRA (oklepaj vnosa: zvezi ⟨X⟩ ∧ ⟨Y⟩ — vir, ⟨ne⟩ roka izvajalke ⊢ zakon registra); isto telo rane nosi vnos 21 ⟨okvirja⟩ — gola beseda je pravilen rodilnik ednine, rana živi le v zvezi ⟨2 glava⟩ ∧ ⟨6 okvirja⟩ (predih izmeril: ročni zvezni sod je lažno bodil ⟨brez okvirja⟩).
+          zveze = {}
+          for m in re.finditer(r'^\d+\.\s*(.+?)\s*—', reg, flags=re.M):
+              zm = re.search(r'zvez[ai]?\s+((?:⟨[^⟩]+⟩\s*(?:∧\s*)?)+)', m.group(1))
+              if not zm:
+                  continue
+              key = re.sub(r'⟨[^⟩]*⟩', '', m.group(1).split('(')[0]).replace('⟨', '').replace('⟩', '').strip()
+              if key:
+                  zveze[key] = tuple(z.strip() for z in re.findall(r'⟨([^⟩]+)⟩', zm.group(1)))
           # TEHNIKA (izmera replikacije ⟨PR⟩ #419, 20. 10. 2026 — isti dih): predhodnik ∧ kompresija (KAZALO · števci) zunaj sodbe — priče zgodovine ⊢ 1349 ∧ precedens 2185 (vsak pečat organa vrtiči ZADNJI PEČAT v vrstico PEČAT N (predhodnik) ∧ dviguje števce ∧ KAZALO — mehanična sodba nad njimi bi zaustavila vsak prihodnji pečat); kompozit-člen (za ⟨-⟩ ∧ pred ⟨-⟩) ni gologa beseda — priča sodi zvezo, ⟨ne⟩ goloto ⊢ kalup 1933/1951.
           skip = re.compile(r'^\s*-\s*PEČAT \d+ \(predhodnik\)|^## KAZALO|^\s*-\s*Števci organa')
           for line in diff.splitlines():
