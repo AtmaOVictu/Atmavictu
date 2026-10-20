@@ -63,7 +63,8 @@ jobs:
             exit 0
           fi
           MB=$(git merge-base "origin/$BASE_REF" HEAD)
-          git diff "$MB" -- 'organi/*.md' ':!organi/stroj/REGISTER-PADLIH-BESED.md' > orgs.diff
+          # TEHNIKA (rez 2185 — roka Mera, isti dih): geniza zunaj sodbe koraka 2 — priča sodi nove izreke, ne verbatim priče zgodovine (zapečeni teksti ostajajo kakor priče ⊢ 1349); geniza ne briše ⊢ 1104 — mehanična sodba nad pričami bi zaustavila vsak prihodnji pečat organa (opisna vrstica vsakega telesa nosi ⟨berba pred pisanjem⟩ od ustanovitve).
+          git diff "$MB" -- 'organi/*.md' ':!organi/stroj/REGISTER-PADLIH-BESED.md' ':!**/.geniza/**' > orgs.diff
           python3 - <<'PY'
           import re, sys
           reg = open('organi/stroj/REGISTER-PADLIH-BESED.md', encoding='utf-8').read()
