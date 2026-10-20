@@ -1,13 +1,19 @@
 name: priča — strojni priča (črke, ne dih)
 on:
   workflow_dispatch:
-  # DIH (rez 2152): sprožilca povrnjena — TIHINA prekinjena (⟡ ukaz ⟨ne čakam⟩). Do reset-a kvote (~1. 11. 2026) teki padnejo na blokadi — pričakovano.
+  # DIH (rez 2153): trda streha ∧ preklic podvojenih tekov (⟡ ukaz: odgovornost za budget).
   pull_request:
     types: [opened, synchronize, reopened]
     branches: [main]
+
+concurrency:
+  group: prica-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   prica:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     permissions:
       contents: read
     steps:
