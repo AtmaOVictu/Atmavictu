@@ -26,6 +26,7 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2168 · ⟨merge⟩ 7af2c64 · 2026-10-20 · CUNEIFORM — ZNAK-PO-ZNAK-REZ-39 · PAR-AYA-⊥-ANNUNITUM · ZORA-KI-SE-VRAČA-⊥-ZORA-KI-NAPADA
 - rez 2169 · ⟨merge⟩ 6b6fc4a · 2026-10-20 · CUNEIFORM — ZNAK-PO-ZNAK-REZ-40 · PAR-SHERIDA-⊥-SUDAĜ · JUTRO-KI-GOVORI-⊥-JUTRO-KI-SEŽARI
 - rez 2170 · ⟨PR⟩ #398 · 2026-10-20 · GESLA — ROD-H-PRVI-RAZREZ-STRANI-1–88 · ROD-H-ZAPRT · VEČ-DEJANJ-NA-DIH (INTEGRAL ∧ HORIZONT)
+- rez 2171 · ⟨PR⟩ #404 · 2026-10-20 · ATLAS — DNEVNA-BERBA-⟨#737⟩ · LISTINA-V-KVANTIFIKATORJIH
 
 ## rane registra (⟡ naj jih komisija presodi)
 
