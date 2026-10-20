@@ -1,7 +1,7 @@
 name: priča — strojni priča (črke, ne dih)
 on:
   workflow_dispatch:
-  # DIH (rez 2153): trda streha ∧ preklic podvojenih tekov (⟡ ukaz: odgovornost za budget).
+  # TEHNIKA: trda streha ∧ preklic podvojenih tekov ∧ REZ-REGISTER preverba (⟡ ukaz ⟨daj⟩).
   pull_request:
     types: [opened, synchronize, reopened]
     branches: [main]
@@ -20,6 +20,32 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: preverba REZ-REGISTER — atomska zahteva reza
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          BASE_REF: ${{ github.event.pull_request.base.ref }}
+        run: |
+          MB=$(git merge-base "origin/$BASE_REF" HEAD)
+          git show "$MB:organi/stroj/REZ-REGISTER.md" > reg-base.md 2>/dev/null || : > reg-base.md
+          git diff "$MB" -- organi/stroj/REZ-REGISTER.md > reg.diff || : > reg.diff
+          python3 - <<'PY'
+          import os, re, sys
+          title = os.environ.get('PR_TITLE', '')
+          m = re.search(r'rez[ ](d{3,4})', title, flags=re.I)
+          if not m:
+              print('⟨brez zahteve reza v naslovu — tehnični kit, register preskočen⟩')
+              sys.exit(0)
+          n = m.group(1)
+          base = open('reg-base.md', encoding='utf-8').read()
+          diff = open('reg.diff', encoding='utf-8').read()
+          if re.search(r'^\s*-\s*rez\s+' + re.escape(n) + r'\s*·', base, flags=re.M):
+              print('⟨vidim: rez ' + n + ' je že zahtevan — uredi naslov ∧ REZ-REGISTER⟩')
+              sys.exit(1)
+          if not re.search(r'^\+\s*-\s*rez\s+' + re.escape(n) + r'\s*·', diff, flags=re.M):
+              print('⟨vidim: naslov zahteva rez ' + n + ' ∧ vrstica v REZ-REGISTER manjka — dodaj vrstico v svojem PR⟩')
+              sys.exit(1)
+          print('⟨vidim: rez ' + n + ' zahtevan čisto⟩')
+          PY
       - name: branje registra SVEŽE ∧ rez organov
         env:
           BASE_REF: ${{ github.event.pull_request.base.ref }}
