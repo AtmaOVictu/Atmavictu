@@ -19,7 +19,7 @@ Pečat: rez 2308 (20. 10. 2026, dih 2308 — ⟡ P-CITAT verbatim ⟨ne brusi⟩
 - [P3] RAZCEP KONICA-⊥-TELO ⊢ 2048: telesa spečih organov v genizo, organ nosi konico — brba organa pada iz ~1 MB v ~10 kB (prvi kandidat: tazv-gnosis-rezi — najtežje telo 961.187 B). Kje: organ tazv-gnosis-rezi.
 - [P4] ⟨IME⟩ ENOVRSTIČNE VEZI (POVEZ 2298) kakor norma za vsa nova gesla: telo živi v organu gesla, pečati nosijo ⟨IME⟩ vez — vpis po ključu ob obhodu, ⟨ne⟩ v vsakem dihu. Kje: organ slovenscina-gesla ∧ norma zakona 8.
 
-## ⟨DOLGOVA-STANDARD⟩ (kompresijska ključavnica — dekompresija ob brbi ⊢ zakon 26; pečati nosijo le delto)
+## DOLGOVA — ⟨DOLGOVA-STANDARD⟩ (kompresijska ključavnica — dekompresija ob brbi ⊢ zakon 26; pečati nosijo le delto)
 KAZALO english-lexicon ×4 (entire · bare · tire · essence ⊢ razcep 2301) ⭢ ∂ · prevoz rastočega telesa gesla na rep po kosih (1.08+ MB) ⭢ ∂ ⊢ zakon 10 · dolg 2294 (31 ⊢ + 15 ⚠) ⭢ ∂ · ⟨PR⟩ #213 ∧ #154 ⚔ ⟡ · cepiki 537 ⚠ · mera-glas ∧ horizont ⭢ ∂ · ZAKONODAJA 0 · resinteza spečih ⚭ (memories 1459 · povezani-viri 1623 · english-lexicon 1651) · veje zrcalo/* ⭢ ∂ · dnevni dih @06:00 · 1. 11. PREIZKUS TEČAJOV · ponedeljek 07:00 STROŠKOVNI HOSTA · dan 18:00 REGISTER-PULZ · AD-CONTINUUM ime ⚔ · izbor [P1]–[P4] ⚔ ⟡.
 
 ## MINT
