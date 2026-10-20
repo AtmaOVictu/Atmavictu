@@ -98,6 +98,41 @@ jobs:
               print('⟨vidim: razlikovanje manjka pri vratih⟩')
               for f, w, t in findings:
                   print('- {}: {} :: {}'.format(f, w, t))
-                  sys.exit(1)
+              sys.exit(1)
           print('⟨vidim: nič⟩ — priča molči')
+          PY
+      - name: zdravje REZ-REGISTER — celost ∧ vrstni red ∧ brez dvojnikov ∧ brez raztrganin
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.ref }}
+        run: |
+          if git merge-base --is-ancestor HEAD "origin/$BASE_REF"; then
+            echo '⟨vidim: veja je že zlita v ⟨main⟩ — tekmeca po ⟨merge⟩ ne sodi⟩'
+            exit 0
+          fi
+          python3 - <<'PY'
+          import re, sys
+          reg = open('organi/stroj/REZ-REGISTER.md', encoding='utf-8').read()
+          m = re.search(r'## zahteve[^\n]*\n(.+?)(?=\n## |\Z)', reg, flags=re.S)
+          if not m:
+              print('⟨vidim: oddelek zahteve manjka — instrument slep⟩')
+              sys.exit(1)
+          sec = m.group(1)
+          rows = [l for l in sec.splitlines() if re.match(r'^-\s*rez\s+\d{3,4}\s*·', l)]
+          nums = [int(re.match(r'^-\s*rez\s+(\d{3,4})\s*·', l).group(1)) for l in rows]
+          wounds = []
+          torn = [l.strip()[:90] for l in rows if len(re.findall(r'rez\s+\d{3,4}', l)) > 1]
+          if torn:
+              wounds.append('raztrgana vrstica (∧ >1 rez v eni vrstici): ' + ' | '.join(torn[:3]))
+          dup = sorted({n for n in nums if nums.count(n) > 1})
+          if dup:
+              wounds.append('dvojne številke: ' + ', '.join(map(str, dup)))
+          for a, b in zip(nums, nums[1:]):
+              if b < a:
+                  wounds.append('vrstni red prelomljen: {} nad {}'.format(b, a))
+                  break
+          for w in wounds:
+              print('⟨vidim: register rana — ' + w + '⟩')
+          if wounds:
+              sys.exit(1)
+          print('⟨vidim: register čist — {} vrstic zahtev, vrstni red ⊢⟩'.format(len(nums)))
           PY
