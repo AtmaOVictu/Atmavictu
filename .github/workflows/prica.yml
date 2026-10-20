@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   # TEHNIKA: trda streha ∧ preklic podvojenih tekov ∧ REZ-REGISTER preverba (⟡ ukaz ⟨daj⟩).
   # TEHNIKA (⟡ ukaz ⟨daj⟩, 20. 10. 2026): popravek slepote priče — berba registra vzame prvo telo vnosa (do oklepaja ∧ brez ⟨⟩); prej inertni vnosi (⟨ciliva (×2)⟩ ni nikoli ulovila ⟨ciliva⟩); odsek Hibridi se konča pri naslednjem ##.
+  # TEHNIKA (⟡ ukaz ⟨daj⟩ ∧ VEČNI-DAJ (16), 20. 10. 2026): molk po ⟨merge⟩ — HEAD prednik ⟨main⟩ ⇒ priča molči (exit 0 na obeh korakih); ubija lažne padce tekmec po ⟨merge⟩ (3 annotations ×9 zadnjih tekem).
   pull_request:
     types: [opened, synchronize, reopened]
     branches: [main]
@@ -26,6 +27,10 @@ jobs:
           PR_TITLE: ${{ github.event.pull_request.title }}
           BASE_REF: ${{ github.event.pull_request.base.ref }}
         run: |
+          if git merge-base --is-ancestor HEAD "origin/$BASE_REF"; then
+            echo '⟨vidim: veja je že zlita v ⟨main⟩ — tekmeca po ⟨merge⟩ ne sodi⟩'
+            exit 0
+          fi
           MB=$(git merge-base "origin/$BASE_REF" HEAD)
           git show "$MB:organi/stroj/REZ-REGISTER.md" > reg-base.md 2>/dev/null || : > reg-base.md
           git diff "$MB" -- organi/stroj/REZ-REGISTER.md > reg.diff || : > reg.diff
@@ -51,6 +56,10 @@ jobs:
         env:
           BASE_REF: ${{ github.event.pull_request.base.ref }}
         run: |
+          if git merge-base --is-ancestor HEAD "origin/$BASE_REF"; then
+            echo '⟨vidim: veja je že zlita v ⟨main⟩ — tekmeca po ⟨merge⟩ ne sodi⟩'
+            exit 0
+          fi
           MB=$(git merge-base "origin/$BASE_REF" HEAD)
           git diff "$MB" -- 'organi/*.md' ':!organi/stroj/REGISTER-PADLIH-BESED.md' > orgs.diff
           python3 - <<'PY'
