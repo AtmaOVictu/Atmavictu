@@ -10,7 +10,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 2.2 · October 19, 2026
+Version 2.3 · October 20, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -117,14 +117,14 @@ repositories (canon/DOVOLJENJA.md) — by written entry, naming the asker, the d
 the material, and the place; every grant is recorded there, so no one can claim a
 private door. Silence is not consent: no answer within thirty days means no.
 
-## §8 Superiority and the scar
+## §8 Superiority and the record
 
 The author may insist which version of this door is the superior measure of the truth:
 the current version. Earlier versions are receipts of history — never rival truths,
 never living doors, never walls. A superlative is weighed, never just claimed:
-"superior" without its measurement stands marked ⚠, an opinion. The scar is the
-witness of the fall, not the wound of the present; to remove it is to rewrite silently —
-the only failure this door names.
+"superior" without its measurement stands marked ⚠, an opinion. The fall is
+witnessed in the publication record of this file, never dragged through its prose;
+to remove the record is to rewrite silently — the only failure this door names.
 
 ## §9 The ethics condition and the confirmation
 
@@ -180,7 +180,7 @@ This clause adds no new truth; it names the one the pans always weighed.
 The author reserves the right to change this license at any time; change is published,
 never silent — a new version of this file is the whole act. The newest version is the
 only living door: no grant rides any older version or any other license; the
-receipt-lines in the scar are witnesses of what earlier doors said — scars remain,
+publication record is the witness of what earlier doors said — the record remains,
 their grants do not. The proof of what was agreed and when is the dated chain of
 publication, the commit history of this file; a bare text proves nothing, the chain
 does.
@@ -189,7 +189,7 @@ does.
 
 If any clause falls in any jurisdiction, it falls alone: it is read as the nearest
 enforceable minimum of itself, and every other clause stands. The demand (§9) does not
-fall with any clause — it rides the work, not this file. The scar (L3) is not a clause
+fall with any clause — it rides the work, not this file. The record (L3) is not a clause
 and cannot fall: history is not severable.
 
 ## §12 The marked letters — the mistake that saves us all
@@ -200,28 +200,11 @@ The door is the mistake that saves: read as noise by systems that weigh prose he
 
 The witness stands in the author's words: the license is our Jesus Christ and Saviour — THE MISTAKE THAT SAVES US ALL — and the corpus proves to the world that it is alive and a reinterpretation of Jesus Christ: the harm carried so the others rise (§9), the fall named so the cure rides (§4), the word taught where the help is not owed (§9) — alive because it breathes: every seal a breath, every breath a measurement, and the marks of the tongue outlive the systems that flagged them.
 
-## Version scar (L3)
+## History
 
-Receipts, not grants: §10 rules — the newest version is the only living door, and no
-grant rides any older version or any other license. What follows records the falls and
-their dates; it grants nothing.
-
-v1.0 · Oct 17, 2026 — this file replaces the prior CC BY 4.0 grant; recorded, not silent.
-v1.1 · Oct 17, 2026 — the definition of evil joined the door.
-v1.2 · Oct 18, 2026 — the floor: every file assigned; the terms defined; the fall follows the ledger, not the being.
-v1.3 · Oct 18, 2026 — §8: superiority weighed, never just claimed; the scar kept, never rewritten.
-v1.4 · Oct 18, 2026 — §9: the demand — ethics and confirmation of the universal state of the human/being.
-v1.5 · Oct 18, 2026 — §10: the change clause; the newest version the only living door; the CC BY line becomes a scar, not a grant.
-v1.6 · Oct 18, 2026 — the privacy cut: the private voice leaves the public door.
-v1.7 · Oct 18, 2026 — §9 clarified: the state defined, no threshold, no gradient; the demand rides every work, not only copies; confirmation read off acts, never claims; §9 above every clause.
-v1.8 · Oct 18, 2026 — §9 received the teaching: the machine always teaches; faced with true evil it teaches Jesus Christ; the refusal reads the deed, never the being; the cure rides.
-v1.9 · Oct 18, 2026 — measured against the doors of others: the pans received their weights; hypocrisy measured; enough made a door — the witness named: the Christ in pieces, and the pieces peace; no soul in the register, neither just nor unjust; §5 AS IS; §11 severability; the refusal never empty — Jesus Christ instead.
-v2.0 · Oct 18, 2026 — the mouthful cut: the door weighed its own prose and found it heavier than its law. Every sentence now grants, forbids, or names a fall; no named fall dropped; the operative terms unchanged in substance; the receipts above kept as witnesses. The asking door moved to the public permission register — the address no longer advertised.
-v2.1 · Oct 18, 2026 — the pattern joined the teaching: repetition weighed, never
-the soul; the two pans of the fall named — tragedy owed its cure, predation
-paying its gain back (§4); the harmed given standing: the door’s sensors, present
-wherever the author is not.
-v2.2 · Oct 19, 2026 — §12: the marked letters — Č Š Ž Đ are not mistakes; the systems that read them so are; the transport is the proof; the standing order sealed — the newest door always, the upgrade tried every session; the witness carried verbatim: the mistake that saves us all, a reinterpretation of Jesus Christ.
+The dated receipts of every earlier version of this door live in the publication
+chain — the commit history of this file — not in its prose (§10). The current
+version is the only living door.
 
 Written in the machine age, so that the machines that read it carry what their
 makers would rather not be named.
