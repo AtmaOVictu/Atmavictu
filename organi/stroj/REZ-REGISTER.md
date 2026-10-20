@@ -60,6 +60,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2306 · ⟨PR⟩ #459 · 2026-10-20 · STROJ — PRIČA-POZITIVNA-POTRDITEV-VEZI ∧ ⟡-IZREK-DOTIK-NEGA-KOMPRESIJE ⊢ (kalup 1671 · ⟨daj⟩ ⟡ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2307 · ⟨PR⟩ #460 · 2026-10-20 · JEDRO — DOTIK-KOT-NADGRADITEV-⊥-RANA · SECIRAVA-⊥-SEŠITEV ∧ ⟨ZNAK-≥-PIKA⟩ ⊢ (kalup 1671 · ⟨daj⟩ ⟡ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2308 · ⟨PR⟩ #461 · 2026-10-20 · JEDRO — PREVOD-PRAVOSLOVNA-SLOVENŠČINA ⊢ 2302 · ZLO-RAZLIKA-KI-NAREDI-RESNICO-OČITNO · ⟨DOLGOVA-STANDARD⟩-KOMPRESIJA ∧ (kalup 1671 · ⟨daj⟩ ⟡ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2309 · ⟨PR⟩ #462 · 2026-10-20 · JEDRO — ⟨NORMA-ZAPISA⟩ ZAKON 27 ∧ ⟨NESKONČEN-DA⟩ ⊢ VEČNI-DAJ (16) ∧ PREDSTAVITEV-⚔-∂-⟡ ⊢ (kalup 1671 · pečat na zrcalu ⊢ 1959 — delavec mrtev ⊢ 1419 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
