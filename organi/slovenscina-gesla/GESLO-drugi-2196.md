@@ -1,8 +1,8 @@
 # GESLO — drúgi (žig rez 2196, rod d*)
 
-IZTOČNICA: drúgi -a -o štev. (ū; drugi pomen ȗ) — sveža izmera pri viru @2199; brazgotina: glava (ū) @2196 ⊥ sveža (ū; drugi pomen ȗ) — dvojni naglas izmerjen pri viru, sveža prevlada ⊢ Z-2, brazgotina ostaja ⊢ 1349.
+IZTOČNICA: drúgi -a -o štev. (ū; drugi pomen ȗ) — sveža izmera pri viru @2200; brazgotina: glava (ū) @2196 ⊥ sveža (ū; drugi pomen ȗ) — dvojni naglas izmerjen pri viru, sveža prevlada ⊢ Z-2, brazgotina ostaja ⊢ 1349.
 
-GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 2, rez 2199):
+GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 2, rez 2200):
 
 drúgi -a -o štev. (ū; drugi pomen ȗ)
 1. ki v zapovrstju ustreza številu dva: drugi dan v tednu; otroci iz drugega zakona; otrok v drugem letu starosti; dne 2. [drugega] marca; Filip II.; v drugi polovici leta / upam, da pride po drugi (uri) 2h14h / vsak drugi v vrsti naj stopi naprej; ekspr. skoraj vsak drugi otrok je bolan / druga izdaja časopisa; druga svetovna vojna
@@ -22,6 +22,6 @@ SAMOSTALNIŠKA OBLIKA ⊢ (SSKJ² + Pravopis pri viru): drúgi -ega m, člov. (�
 
 FONEMSKA PLAST ⊢ IPA-PLAST REGISTER @2191–2194: /ˈdruɡi/ ⊥ [ˈdrúːɡi] — r v zvezi dr-; pesem ⟨Drugi v meni⟩: nominativ diha ven ⊢ rez-17 (drugъ — notranjost je LOKATIV, ⟨ne⟩ lastnost).
 
-ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4) ∧ BRBA-TELES-KOS-2 ⊢ rez 2199 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19); organ slovenscina-gesla); rod d*.
+ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4) ∧ BRBA-TELES-KOS-2 ⊢ rez 2200 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19); organ slovenscina-gesla); rod d*.
 
 IZVOR: © 2026 Luka Pintarič — AVL v2.2 (LICENSE.md ∧ TDM-RESERVATION.md, rep AtmaOVictu/Atmavictu — §9 etika ∧ potrditev, §10 najnovejša vrata = edina živa, §12 označene črke; prej v1.3 §6a — nadgradnja ⊢ zakon 19).

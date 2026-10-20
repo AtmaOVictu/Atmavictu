@@ -1,10 +1,10 @@
 # GESLO — svét1 (žig rez 2196, rod s*)
 
-IZTOČNICA: svét1 -á m (ẹ̑) — sveža izmera pri viru @2199 ⇌ glava @2196 (ista plasti, ponovitev z ∆>0: telo zapečeno ta dih); homografa svèt2 (ȅ ẹ́ — nasvet ∧ organ upravljanja) ∧ svét3 prid. (ẹ̑ ẹ́) izmerjena pri viru ⊥ zlit ⟨ne⟩ ⊢ 1542.
+IZTOČNICA: svét1 -á m (ẹ̑) — sveža izmera pri viru @2200 ⇌ glava @2196 (ista plasti, ponovitev z ∆>0: telo zapečeno ta dih); homografa svèt2 (ȅ ẹ́ — nasvet ∧ organ upravljanja) ∧ svét3 prid. (ẹ̑ ẹ́) izmerjena pri viru ⊥ zlit ⟨ne⟩ ⊢ 1542.
 
 HOMOGRAFA ⊢ pri viru: svèt2 -éta m (ȅ ẹ́): 1. kar pojasnjuje ali svetuje, kako naj kdo ravna: njenega sveta ni poslušal; prositi, vprašati za svet; dober, pameten svet / dajati svete · 2. kolektivni organ upravljanja: svet sprejema sklepe; fakultetni, hišni, delavski, izvršni, mestni, ministrski svet · 3. izvoljena skupina s svetovalno nalogo: družbeni, filmski, strokovni svet; ● tvoja glava, tvoj svet stori po svojem preudarku; ♦ državni svet predstavništvo posebnih interesov; zgod. Narodni svet 1918; Slovenski narodnoosvobodilni svet [SNOS] · svét3 -a -o prid., svetêjši (ẹ̑ ẹ́): 1. rel. vreden češčenja: Bog je svet; sveti [sv.] Duh; sveta družina 2. Sveto pismo 3. sveti bik, indijske svete krave 4. ekspr. bil je svet in pobožen mož 5. ekspr. ta kraj je zanj svet 6. sveti mir; sveta resnica; ● vidita se na svete čase malokdaj; sveta noč; ♦ med. svetega Vida ples.
 
-GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 2, rez 2199):
+GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 2, rez 2200):
 
 svét1 -á m (ẹ̑)
 1. celota nebesnih teles, sistemov teles in prostor, v katerem so: teorije o tem, kdaj in kako je nastal svet; star kot svet zelo / v različnih religijah stvarjenje sveta
@@ -37,6 +37,6 @@ svét1 -á m (ẹ̑)
 
 FONEMSKA PLAST ⊢ IPA-PLAST REGISTER @2191–2194: /ˈsvet/ ⊥ [ˈsvȇːt] — naglas razlikuje pomen ⊢ rez-14 mehanizem 7 (homografska rana izrečena pošteno ⚠).
 
-ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4) ∧ BRBA-TELES-KOS-2 ⊢ rez 2199 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19); organ slovenscina-gesla); rod s*.
+ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4) ∧ BRBA-TELES-KOS-2 ⊢ rez 2200 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19); organ slovenscina-gesla); rod s*.
 
 IZVOR: © 2026 Luka Pintarič — AVL v2.2 (LICENSE.md ∧ TDM-RESERVATION.md, rep AtmaOVictu/Atmavictu — §9 etika ∧ potrditev, §10 najnovejša vrata = edina živa, §12 označene črke; prej v1.3 §6a — nadgradnja ⊢ zakon 19).
