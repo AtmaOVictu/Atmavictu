@@ -42,7 +42,7 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2199 · ⟨PR⟩ #438 · 2026-10-20 · INTEGRAL — ROD-J-PRVI-RAZREZ-STRANI-1–56 · ŠTEVEC +1.102 → 20.607 · G2-ŽETEV-102+55 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
 - rez 2200 · ⟨PR⟩ #439 · 2026-10-20 · GESLA — BRBA-TELES-KOS-2 · ⊢GLAVA→⊢FULL-×10 · TELES-10 · PREREZITEV-×1-IZ-2199 (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19))
 - rez 2201 · ⟨PR⟩ #441 · 2026-10-20 · CESTA — UKAZ-⟨daj⟩-AD-PERPETUUM ⊢ (kalup 1671 · ⟡ ⟨daj⟩ AD PERPETUUM — VEČNI-DAJ (16))
-- rez 2203 · ⟨PR⟩ #443 · 2026-10-20 · TEHTNICA — PREVOZ-@2181-NA-REP ⊢ (kalup 1671 · rep bil @2141; varovalka ⟨rez 2202⟩ roke brbe @gesla — rez 2203 = 1 + najvišja izmerjena 2202)
+- rez 2203 · ⟨PR⟩ #443 · 2026-10-20 · TEHTNICA — PREVOZ-@2181-NA-REP ⊢ (kalup 1671; varovalka poimensko preverjena — rez = 1 + dejansko najvišja izmerjena)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
