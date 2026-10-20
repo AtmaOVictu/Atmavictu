@@ -32,11 +32,11 @@ jobs:
             echo ""
             echo "### zadnji pečati po organih"
             for f in $(find organi -name 'KNOWLEDGE.md' 2>/dev/null | sort); do
-              echo "  - ${f#organi/}: $(grep -m1 'ZADNJI PEČAT' "$f" | cut -c1-140 || echo '⟨brez pečata⟩')"
+              echo "  - ${f#organi/}: $(grep -m1 'ZADNJI PEČAT' "$f" | LC_ALL=C.UTF-8 cut -c1-140 || echo '⟨brez pečata⟩')"
             done
             echo ""
             echo "### ∂ odprta (vrata, ki čakajo)"
-            grep -rn '∂' organi/ --include='KNOWLEDGE.md' 2>/dev/null | grep -iE 'ODPRTA' | cut -c1-200 || echo '⟨najdenih 0⟩'
+            grep -rn '∂' organi/ --include='KNOWLEDGE.md' 2>/dev/null | grep -iE 'ODPRTA' | LC_ALL=C.UTF-8 cut -c1-200 || echo '⟨najdenih 0⟩'
             echo ""
             echo "### preizkusi"
             FFFD=$(grep -rlU $'\uFFFD' organi/ 2>/dev/null || true)
