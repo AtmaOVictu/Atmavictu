@@ -2,7 +2,7 @@
 
 - namen: dih loči ZNANO rano (poimenovano v lastnem telesu ali arhivu) od NEZNANE (⚠ nova) — merilec se meri, ⟨ne⟩ obsoja brazgotin.
 - izmera pri viru: 20. 10. 2026 (⟨main⟩ 01397ea, telo organa prebrano po bajtih s py dekodirnikom).
-- zakon: rana na beli listi je ZAPISANA resnica, ⟨ne⟩ neznanа nevarnost — stroj je ⟨ne⟩ zdravi; zdravljenje besed je korpusni dih ⚔ ⟡ (brazgotina ⊢ 1349).
+- zakon: rana na beli listi je ZAPISANA resnica, ⟨ne⟩ neznana nevarnost — stroj je ⟨ne⟩ zdravi; zdravljenje besed je korpusni dih ⚔ ⟡ (brazgotina ⊢ 1349).
 - vzdrževanje: nove poti se dodajajo po izmeri pri viru, po kalupu, nikoli po spominu (Z-2).
 
 ## ZNANA TELA (dih jih izpiše kakor znane)
