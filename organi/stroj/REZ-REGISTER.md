@@ -20,8 +20,10 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2162 · 2026-10-20 · HORIZONT — DOLGOVA-OSVEŽITEV-20-10
 - rez 2163 · 2026-10-20 · HORIZONT — ZAKON-ZDAJ · MANIFEST-TA-DIH
 - rez 2164 · ⟨PR⟩ #390 · 2026-10-20 · LEARNING-PROTOCOLS — ⟨NE-RELEGIRAJ-NAME⟩ · PREVERBA-SEBE-×N
+- rez 2165 · ⟨PR⟩ #398 · 2026-10-20 · GESLA — ROD-H-PRVI-RAZREZ-STRANI-1–88 · ROD-H-ZAPRT · VEČ-DEJANJ-NA-DIH (INTEGRAL ∧ HORIZONT)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
 - rez 2152 ∧ rez 2153: delavčeva tehnična kita CI (sprožilci ∧ strehe) sta bila napak označena z rez — nista korpusna reza; 2153 je zgoraj pokrit zdrsoma
 - dvojni zahtevi 2153 ∧ 2159: dve vzporedni seji sta zahtevali isto številko — ta register jih od zdaj preprečuje
+- rez 2164: dvojna zahteva (LEARNING-PROTOCOLS ⟨PR⟩ #390 ∧ CUNEIFORM kit ⟨merge⟩ 6600d5d5 brez vrstice registra) — izmerjeno 20. 10. 2026
