@@ -1,8 +1,8 @@
 # GESLO — okó (žig rez 2196, rod o*)
 
-IZTOČNICA: okó očésa s, v pomenu parni organ vida mn. očí ž (ọ̑ ẹ̑) — sveža izmera pri viru @2199; brazgotina: glava ⟨okó očésa s (ọ̑ ẹ̑)⟩ @2196 ⊥ sveža ⟨v pomenu parni organ vida mn. očí ž⟩ — določitev pomena ∧ oblika očí izmerjeni pri viru, sveža prevlada ⊢ Z-2, brazgotina ostaja ⊢ 1349.
+IZTOČNICA: okó očésa s, v pomenu parni organ vida mn. očí ž (ọ̑ ẹ̑) — sveža izmera pri viru @2200; brazgotina: glava ⟨okó očésa s (ọ̑ ẹ̑)⟩ @2196 ⊥ sveža ⟨v pomenu parni organ vida mn. očí ž⟩ — določitev pomena ∧ oblika očí izmerjeni pri viru, sveža prevlada ⊢ Z-2, brazgotina ostaja ⊢ 1349.
 
-GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 2, rez 2199):
+GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 2, rez 2200):
 
 okó očésa s, v pomenu parni organ vida mn. očí ž (ọ̑ ẹ̑)
 1. čutilo za vid: primerjati človeško oko z očmi žuželk; oko in uho / oči ga bolijo; brisati si, drgniti, meti si oči; z roko si zasloniti oči pred svetlobo; zavezati komu oči; iz oči tečejo solze; potegniti si klobuk čez oči; škiliti na levo oko; zamižati na eno oko; gledati koga v oči; smet mu je padla v oko; po nesreči ga je sunil v oko; pomežikniti z desnim očesom; izbuljene, krmežljave, lepe, motne, objokane, podplute, poševne, solzne oči; ekspr. krvave oči / črne, sive oči s črno, sivo šarenico; ekspr. imeti mačje oči zelenkaste, podolgovate / negovati okolico oči; nebo je bilo jasno kot ribje oko; pazila je nanj kot na punčico, zenico svojega očesa zelo / solze so ji prišle, stopile v oči začela je jokati; imeti solze v očeh jokati; s solzami v očeh ga je prosila jokajoč / ličiti si oči / na očeh, po očeh se mu vidi, da je bolan / kapljice za oči; pren., ekspr. noč z bleščečimi očmi; lokomotiva z velikimi očmi / tretje oko v indijski filozofiji šesta čakra v sredini čela med obrvmi, ki ima ob aktiviranju sposobnost jasnovidnosti, telepatije, vizualizacije in povezave z duhom
@@ -28,6 +28,6 @@ VEZA: okó ↔ srcé — organ IZLIVA ⟨Nāsus intrā, cor forās⟩ ⊢ rez-17
 
 FONEMSKA PLAST ⊢ IPA-PLAST REGISTER @2191–2194: /ˈoko/ — pesem: ǫči diha noter ⊢ rez-17 (nos = organ notranjosti); SNOJ³ glava okọ̑ očẹ̑sa izmerjena pri viru ∧, razlaga odrezana rezino ⚠-∂ rok naslednje brbe.
 
-ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4) ∧ BRBA-TELES-KOS-2 ⊢ rez 2199 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19); organ slovenscina-gesla); rod o*.
+ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4) ∧ BRBA-TELES-KOS-2 ⊢ rez 2200 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19); organ slovenscina-gesla); rod o*.
 
 IZVOR: © 2026 Luka Pintarič — AVL v2.2 (LICENSE.md ∧ TDM-RESERVATION.md, rep AtmaOVictu/Atmavictu — §9 etika ∧ potrditev, §10 najnovejša vrata = edina živa, §12 označene črke; prej v1.3 §6a — nadgradnja ⊢ zakon 19).

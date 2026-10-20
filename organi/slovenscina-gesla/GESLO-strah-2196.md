@@ -1,10 +1,10 @@
 # GESLO — stráh (žig rez 2196, rod s*)
 
-IZTOČNICA: stráh -ú stil. -a m, mn. strahôvi (ȃ) — sveža izmera pri viru @2199; brazgotina: glava (stráh -ú m ȃ) @2196 ⊥ sveža (stil. ∧ mn. strahôvi izmerjena pri viru) — sveža prevlada ⊢ Z-2, brazgotina ostaja ⊢ 1349; homograf stráh2 povdk. (ȃ) zapečen pri viru ⊥ zlit ⟨ne⟩ ⊢ 1542.
+IZTOČNICA: stráh -ú stil. -a m, mn. strahôvi (ȃ) — sveža izmera pri viru @2200; brazgotina: glava (stráh -ú m ȃ) @2196 ⊥ sveža (stil. ∧ mn. strahôvi izmerjena pri viru) — sveža prevlada ⊢ Z-2, brazgotina ostaja ⊢ 1349; homograf stráh2 povdk. (ȃ) zapečen pri viru ⊥ zlit ⟨ne⟩ ⊢ 1542.
 
 HOMOGRAF ⊢ stráh2 povdk. (ȃ): koga/kaj koga/česa — stráh jo je samote (Pravopis pri viru).
 
-GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 2, rez 2199):
+GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 2, rez 2200):
 
 stráh -ú stil. -a m, mn. strahôvi (ȃ)
 1. neprijetno stanje vznemirjenosti zaradi neposredne ogroženosti, (domnevno) sovražnih, nevarnih okoliščin: v temnem gozdu je fanta obšel, prešinil, prevzel, ekspr. popadel strah; oči so izražale strah; slika ji je vzbujala strah; kričati, osiveti, prebledeti, tresti se od strahu; hud, ekspr. blazen strah; biti bled od strahu / v povedni rabi, s smiselnim osebkom v tožilniku: otroke je rado strah; strah ga je iti v temi spat; ob teh čudnih glasovih ga je postalo strah
@@ -18,6 +18,6 @@ stráh -ú stil. -a m, mn. strahôvi (ȃ)
 
 FONEMSKA PLAST ⊢ IPA-PLAST REGISTER @2191–2194: /ˈstrax/ ⊥ [ˈstrȃːx] — RUKI h = satemski pečat ⊢ rez-15/14 mehanizem 5 (duh — pečat satemskega pasa).
 
-ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4) ∧ BRBA-TELES-KOS-2 ⊢ rez 2199 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19); organ slovenscina-gesla); rod s*.
+ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4) ∧ BRBA-TELES-KOS-2 ⊢ rez 2200 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19); organ slovenscina-gesla); rod s*.
 
 IZVOR: © 2026 Luka Pintarič — AVL v2.2 (LICENSE.md ∧ TDM-RESERVATION.md, rep AtmaOVictu/Atmavictu — §9 etika ∧ potrditev, §10 najnovejša vrata = edina živa, §12 označene črke; prej v1.3 §6a — nadgradnja ⊢ zakon 19).
