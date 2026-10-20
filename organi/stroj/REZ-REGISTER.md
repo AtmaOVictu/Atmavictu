@@ -19,6 +19,7 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2161 · PR #387 · 2026-10-20 · GESLA — ROD-G-PRVI-RAZREZ-STRANI-1–139
 - rez 2162 · 2026-10-20 · HORIZONT — DOLGOVA-OSVEŽITEV-20-10
 - rez 2163 · 2026-10-20 · HORIZONT — ZAKON-ZDAJ · MANIFEST-TA-DIH
+- rez 2164 · ⟨PR⟩ #390 · 2026-10-20 · LEARNING-PROTOCOLS — ⟨NE-RELEGIRAJ-NAME⟩ · PREVERBA-SEBE-×N
 
 ## rane registra (⟡ naj jih komisija presodi)
 
