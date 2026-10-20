@@ -1,7 +1,8 @@
 name: DNEVNI-DIH — tečaj (meri korpus, odpre vrata)
 on:
   workflow_dispatch:
-  # DIH (rez 2152): sprožilca povrnjena — TIHINA prekinjena (⟡ ukaz ⟨ne čakam⟩). Do reset-a kvote (~1. 11. 2026) teki padnejo na blokadi — pričakovano.\n  schedule:
+  # DIH (rez 2152): sprožilca povrnjena — TIHINA prekinjena (⟡ ukaz ⟨ne čakam⟩). Do reset-a kvote (~1. 11. 2026) teki padnejo na blokadi — pričakovano.
+  schedule:
     - cron: '45 3 * * *'
 
 permissions:
