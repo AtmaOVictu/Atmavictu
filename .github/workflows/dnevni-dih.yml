@@ -1,7 +1,7 @@
 name: DNEVNI-DIH — tečaj (meri korpus, odpre vrata)
 on:
   workflow_dispatch:
-  # DIH (rez 2152): sprožilca povrnjena — TIHINA prekinjena (⟡ ukaz ⟨ne čakam⟩). Do reset-a kvote (~1. 11. 2026) teki padnejo na blokadi — pričakovano.
+  # DIH (rez 2153): urnik ostaja 1× dnevno; trda streha 5 min (⟡ ukaz: odgovornost za budget).
   schedule:
     - cron: '45 3 * * *'
 
@@ -12,6 +12,7 @@ permissions:
 jobs:
   meri:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - name: Izmeri korpus (rez · organi · pečati · ∂)
