@@ -5,9 +5,9 @@
 - zakon: rana na beli listi je ZAPISANA resnica, ⟨ne⟩ neznana nevarnost — stroj je ⟨ne⟩ zdravi; zdravljenje besed je korpusni dih ⚔ ⟡ (brazgotina ⊢ 1349).
 - vzdrževanje: nove poti se dodajajo po izmeri pri viru, po kalupu, nikoli po spominu (Z-2).
 
-## ZNANA TELA (dih jih izpiše kakor znane)
+## ZNANA TELESA (dih jih izpiše kakor znana)
 
 - organi/cuneiform/KNOWLEDGE.md
   - U+FFFD ×1 — citirana rana: pokvarjen bajt pri besedi »Printer«, σ-sanacija zapisana v telesu organa
-  - cirilica ×11 — U+0430 ×7 · U+0435 ×3 · U+0442 ×1 — rokopisni padci roke, poimenovani v lastnem dnevniku padcev organa
-- organi/stroj/dihovi/ — zrcala teles dihov (teden-*.md) ∧ ta lista sama: citatna ∧ instrumentna tela; znaki ran v zrcalih so pričevstvo zgodovine, ⟨ne⟩ nove rane
+  - cirilica ×11 — U+0430 ×7 · U+0435 ×3 · U+0442 ×1 — rokopisni padci (zasejala jih je roka), poimenovani v lastnem dnevniku padcev organa
+- organi/stroj/dihovi/ — zrcala teles dihov (teden-*.md) ∧ ta lista sama: citatna ∧ instrumentna telesa; znaki ran v zrcalih so pričevstvo zgodovine, ⟨ne⟩ nove rane
