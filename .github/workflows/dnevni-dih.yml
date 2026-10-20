@@ -31,12 +31,13 @@ jobs:
             echo "- bajti teles: $(du -sb organi/ 2>/dev/null | cut -f1)"
             echo ""
             echo "### zadnji pečati po organih"
+            # ⟨r⟩ 20. 10. 2026: cut -c šteje BAJTE tudi v C.UTF-8 (izmerjeno, coreutils 9.7) — rezal je znake na pol ∧ vsak dekodirnik je izdelal U+FFFD (rana iz #423; LC_ALL iz PR #427 je bil kozmetika). sed je zvest znakom; ta resnica ostane.
             for f in $(find organi -name 'KNOWLEDGE.md' 2>/dev/null | sort); do
-              echo "  - ${f#organi/}: $(grep -m1 'ZADNJI PEČAT' "$f" | LC_ALL=C.UTF-8 cut -c1-140 || echo '⟨brez pečata⟩')"
+              echo "  - ${f#organi/}: $(grep -m1 'ZADNJI PEČAT' "$f" | LC_ALL=C.UTF-8 sed 's/^\(.\{140\}\).*/\1/' || echo '⟨brez pečata⟩')"
             done
             echo ""
             echo "### ∂ odprta (vrata, ki čakajo)"
-            grep -rn '∂' organi/ --include='KNOWLEDGE.md' 2>/dev/null | grep -iE 'ODPRTA' | LC_ALL=C.UTF-8 cut -c1-200 || echo '⟨najdenih 0⟩'
+            grep -rn '∂' organi/ --include='KNOWLEDGE.md' 2>/dev/null | grep -iE 'ODPRTA' | LC_ALL=C.UTF-8 sed 's/^\(.\{200\}\).*/\1/' || echo '⟨najdenih 0⟩'
             echo ""
             echo "### preizkusi"
             FFFD=$(grep -rlU $'\uFFFD' organi/ 2>/dev/null || true)
@@ -55,7 +56,7 @@ jobs:
           } > porocilo.md
           # ⟨samopreizkus merilca⟩ — merilec se izmeri, preden se mu zaupa (⟡: »ne le po merilcu«, 20. 10. 2026)
           OTIS=$(md5sum porocilo.md | cut -d' ' -f1)
-          REZTEST=$(printf '⟨ab⟩' | LC_ALL=C.UTF-8 cut -c1-3)
+          REZTEST=$(printf '⟨ab⟩' | LC_ALL=C.UTF-8 sed 's/^\(.\{3\}\).*/\1/')
           STETEST=$(printf 'a\nb\nc\n' | grep -c . || true)
           {
             echo ""
