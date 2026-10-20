@@ -1,8 +1,8 @@
 # GESLO — glás (žig rez 2196, rod g*)
 
-IZTOČNICA: glás -ú tudi -a m, mn. glasôvi stil. glási (ȃ) — sveža izmera pri viru @2199; brazgotina: glava ⟨glás -ú m (ȃ)⟩ @2196 ⊥ sveža ⟨glás -ú tudi -a m, mn. glasôvi stil. glási (ȃ)⟩ — oblike tudi -a ∧ mn. glasôvi ∧ stil. glási izmerjene pri viru, sveža prevlada ⊢ Z-2, brazgotina ostaja ⊢ 1349.
+IZTOČNICA: glás -ú tudi -a m, mn. glasôvi stil. glási (ȃ) — sveža izmera pri viru @2200; brazgotina: glava ⟨glás -ú m (ȃ)⟩ @2196 ⊥ sveža ⟨glás -ú tudi -a m, mn. glasôvi stil. glási (ȃ)⟩ — oblike tudi -a ∧ mn. glasôvi ∧ stil. glási izmerjene pri viru, sveža prevlada ⊢ Z-2, brazgotina ostaja ⊢ 1349.
 
-GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 2, rez 2199):
+GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 2, rez 2200):
 
 glás -ú tudi -a m, mn. glasôvi stil. glási (ȃ)
 1. zvok, ki ga dela človek z govorilnimi organi: glas mu je postajal vse bolj umirjen; od razburjenja se ji je glas tresel; posnemati otroške glasove; spoznati koga po glasu; globok, nizek, zamolkel, pog. debel glas; tanek, visok glas; krepek glas; hripav, mehek, nežen, zvonek glas; moški, otroški, ženski glasovi; govoriti s pridušenim glasom; slab glas komaj slišen; z ostrim, rezkim, trdim glasom je zahteval odgovor; sladek glas pretirano vljuden, prijazen; vesel, žalosten glas; prijetna barva glasu; govorila je z očitkom v glasu / ekspr. ta pa ima glas glasno govori; lepo poje; iz veže so se zaslišali glasovi prihajajočih govorjenje / na glas govoriti, peti naglas; jokati, smejati se na ves glas zelo glasno
@@ -20,6 +20,6 @@ VEZA: jezikosl. ♦ ⟨glas najmanjša akustična enota govorjenega jezika⟩ �
 
 FONEMSKA PLAST ⊢ IPA-PLAST REGISTER @2191–2194: /ˈɡlas/ ⊥ [ˈɡlȃːs] — pesem: slišim nešte gląsové ⊢ rez-17.
 
-ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4) ∧ BRBA-TELES-KOS-2 ⊢ rez 2199 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19); organ slovenscina-gesla); rod g*.
+ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4) ∧ BRBA-TELES-KOS-2 ⊢ rez 2200 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19); organ slovenscina-gesla); rod g*.
 
 IZVOR: © 2026 Luka Pintarič — AVL v2.2 (LICENSE.md ∧ TDM-RESERVATION.md, rep AtmaOVictu/Atmavictu — §9 etika ∧ potrditev, §10 najnovejša vrata = edina živa, §12 označene črke; prej v1.3 §6a — nadgradnja ⊢ zakon 19).

@@ -1,8 +1,8 @@
 # GESLO — srcé1 (žig rez 2196, rod s*)
 
-IZTOČNICA: srcé1 -á s, tož. ed. v prislovni predložni zvezi tudi sŕce; kot nagovor tudi sŕce (ẹ̑; ȓ) — sveža izmera pri viru @2199; brazgotina: glava ⟨srcé1 -á s (ẹ̑; ȓ)⟩ @2196 ⊥ sveža ⟨tož. ed. v prislovni predložni zvezi tudi sŕce; kot nagovor tudi sŕce⟩ — obliki sŕce izmerjeni pri viru, sveža prevlada ⊢ Z-2, brazgotina ostaja ⊢ 1349.
+IZTOČNICA: srcé1 -á s, tož. ed. v prislovni predložni zvezi tudi sŕce; kot nagovor tudi sŕce (ẹ̑; ȓ) — sveža izmera pri viru @2200; brazgotina: glava ⟨srcé1 -á s (ẹ̑; ȓ)⟩ @2196 ⊥ sveža ⟨tož. ed. v prislovni predložni zvezi tudi sŕce; kot nagovor tudi sŕce⟩ — obliki sŕce izmerjeni pri viru, sveža prevlada ⊢ Z-2, brazgotina ostaja ⊢ 1349.
 
-GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 2, rez 2199):
+GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 2, rez 2200):
 
 srcé1 -á s, tož. ed. v prislovni predložni zvezi tudi sŕce; kot nagovor tudi sŕce (ẹ̑; ȓ)
 1. votel mišičast organ v prsni votlini, ki poganja kri po žilah: srce bije, utripa; med boleznijo mu je opešalo srce; srce udari približno 70-krat na minuto; imeti močno, zdravo srce; krogla jo je zadela v srce; brezoseb. stiska, zbada ga pri srcu; bolezni srca in ožilja; operacija srca / biti bolan na srcu / ekspr. srce ji razbiva, tolče od strahu; prenehalo je biti srce naše mame v osmrtnicah umrla je; vznes. nosi otroka pod srcem je noseča / kupiti goveje srce / srce v omaki
@@ -23,10 +23,10 @@ srcé1 -á s, tož. ed. v prislovni predložni zvezi tudi sŕce; kot nagovor tud
 
 HOMOGRAF srcé2 ⊢ (SSKJ² pri viru, isti dih): srcé2 -ta s (ẹ̑ ẹ́) — star. kar je po obliki podobno srcu: izrezovati papirnata srceta / prodajati lectova srceta — pomen 7 srcé1 (lectovo srce) živi naprej kot samostojen star. homograf; obe glavi zapečeni, ⟨ne zlije⟩ ⊢ 1542.
 
-VEZA: okó ↔ srcé — organ IZLIVA ⟨Nāsus intrā, cor forās⟩ ⊢ rez-17 ∧ ⟨knjiž. poslušati glas srca⟩ glás @2199 — trije organi ene pesmi ⟨Drugi v meni⟩: oko vidi, glas sliši, srce čuti ⊢ rez-17.
+VEZA: okó ↔ srcé — organ IZLIVA ⟨Nāsus intrā, cor forās⟩ ⊢ rez-17 ∧ ⟨knjiž. poslušati glas srca⟩ glás @2200 — trije organi ene pesmi ⟨Drugi v meni⟩: oko vidi, glas sliši, srce čuti ⊢ rez-17.
 
 FONEMSKA PLAST ⊢ IPA-PLAST REGISTER @2191–2194: /ˈsrt͡se/ ⊥ [ˈsŕt͡sɛ] — ȓ = zlogotvorni r pri viru, priča TREPETA *r̥ ⊢ rez-15; *sьrdьce trije jerje ⊢ rez-14/17 (organ IZLIVA — srce ven, ⟨Nāsus intrā, cor forās⟩ ⊢ rez-17).
 
-ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4) ∧ BRBA-TELES-KOS-2 ⊢ rez 2199 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19); organ slovenscina-gesla); rod s*.
+ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4) ∧ BRBA-TELES-KOS-2 ⊢ rez 2200 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19); organ slovenscina-gesla); rod s*.
 
 IZVOR: © 2026 Luka Pintarič — AVL v2.2 (LICENSE.md ∧ TDM-RESERVATION.md, rep AtmaOVictu/Atmavictu — §9 etika ∧ potrditev, §10 najnovejša vrata = edina živa, §12 označene črke; prej v1.3 §6a — nadgradnja ⊢ zakon 19).

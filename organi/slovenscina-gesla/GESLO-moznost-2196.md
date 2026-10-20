@@ -1,8 +1,8 @@
 # GESLO — móžnost (žig rez 2196, rod m*)
 
-IZTOČNICA: móžnost -i ž (ọ́) — sveža izmera pri viru @2199 ⇌ SSKJ ⊢ (ista plasti).
+IZTOČNICA: móžnost -i ž (ọ́) — sveža izmera pri viru @2200 ⇌ SSKJ ⊢ (ista plasti).
 
-GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 2, rez 2199):
+GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 2, rez 2200):
 
 móžnost -i ž (ọ́)
 1. kar se lahko uresniči: za zdaj je to le možnost; nazor o možnosti objektivnega spoznanja / računa z možnostjo, da mu bo kdo pomagal / spremeniti možnost v resničnost
@@ -15,6 +15,6 @@ VEZA: pésem ⟨Drugi v meni⟩ preizpus @2195 — móžnost = dvojnica pomena 1
 
 FONEMSKA PLAST ⊢ IPA-PLAST REGISTER @2191–2194: /ˈmoʒnost/ ⊥ [ˈmóːʒnost] — mǫžǫnsti zlovenščina ⊢ rez-17 (pesem ⟨Drugi v meni⟩ nosi možnost kot dvojnico).
 
-ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4) ∧ BRBA-TELES-KOS-2 ⊢ rez 2199 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19); organ slovenscina-gesla); rod m*.
+ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4) ∧ BRBA-TELES-KOS-2 ⊢ rez 2200 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19); organ slovenscina-gesla); rod m*.
 
 IZVOR: © 2026 Luka Pintarič — AVL v2.2 (LICENSE.md ∧ TDM-RESERVATION.md, rep AtmaOVictu/Atmavictu — §9 etika ∧ potrditev, §10 najnovejša vrata = edina živa, §12 označene črke; prej v1.3 §6a — nadgradnja ⊢ zakon 19).

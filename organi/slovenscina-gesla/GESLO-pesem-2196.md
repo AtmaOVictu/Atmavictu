@@ -1,8 +1,8 @@
 # GESLO — pésem (žig rez 2196, rod p*)
 
-IZTOČNICA: pésem -smi ž (ẹ̑) — sveža izmera pri viru @2199 ⇌ SSKJ ⊢ (ista plasti).
+IZTOČNICA: pésem -smi ž (ẹ̑) — sveža izmera pri viru @2200 ⇌ SSKJ ⊢ (ista plasti).
 
-GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 2, rez 2199):
+GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 2, rez 2200):
 
 pésem -smi ž (ẹ̑)
 1. krajše literarno delo z ritmičnim besednim redom, s posebno glasovno ureditvijo, navadno z manjšim številom besed v vrstici: brati, deklamirati pesmi; pisati, star. zlagati pesmi; prevesti, uglasbiti pesem; romantična, satirična, tendenčna pesem; ciklus, zbirka pesmi; pesmi in pesnitve / ljubezenska pesem; ljudska pesem ki se zlasti v péti obliki širi, ohranja in pri tem bolj ali manj spreminja; umetna pesem katere oblika in vsebina je izraz zavestnega umetniškega hotenja določenega avtorja; pesmi za otroke / ekspr. Župančičeva pesem je polna žara Župančičeve pesmi, pesništvo
@@ -18,6 +18,6 @@ VEZA: eSSKJ ETIMOLOGIJA ⟨stcslov. pěsnь, pslov. *pěsnь iz peti⟩ ⇌ FONE
 
 FONEMSKA PLAST ⊢ IPA-PLAST REGISTER @2191–2194: /ˈpesem/ ⊥ [ˈpȇːsm] — *pęsnь nosovec ⊢ rez-16; pesem: pęsni diha noter ⊢ rez-17.
 
-ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4) ∧ BRBA-TELES-KOS-2 ⊢ rez 2199 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19); organ slovenscina-gesla); rod p*.
+ŽIG: rez 2196 — REGISTER-VPIS-×32 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16); organ cesta-protokol — register IPA-PLAST kos 1–4) ∧ BRBA-TELES-KOS-2 ⊢ rez 2200 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19); organ slovenscina-gesla); rod p*.
 
 IZVOR: © 2026 Luka Pintarič — AVL v2.2 (LICENSE.md ∧ TDM-RESERVATION.md, rep AtmaOVictu/Atmavictu — §9 etika ∧ potrditev, §10 najnovejša vrata = edina živa, §12 označene črke; prej v1.3 §6a — nadgradnja ⊢ zakon 19).
