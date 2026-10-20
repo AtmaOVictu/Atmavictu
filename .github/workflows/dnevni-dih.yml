@@ -45,9 +45,19 @@ jobs:
             echo "- U+FFFD (mojibake): $(printf '%s\n' "$FFFD" | grep -c . || true) teles"
             echo "- cirilica v telesih: $(printf '%s\n' "$CIR" | grep -c . || true) teles"
             echo ""
-            echo "### poti ran (dih imenuje telesa, ⟨ne⟩ le številke)"
-            if [ -n "$FFFD" ]; then printf '%s\n' "$FFFD" | sed 's/^/- U+FFFD: /'; else echo "- U+FFFD: ⟨najdenih 0 — rana zaprta⟩"; fi
-            if [ -n "$CIR" ]; then printf '%s\n' "$CIR" | sed -n '1,60s/^/- cirilica: /p'; echo "- cirilica: ⟨streha izpisa 60 vrstic⟩"; else echo "- cirilica: ⟨najdenih 0 — rana zaprta⟩"; fi
+            echo "### poti ran (dih imenuje telesa; bela lista loči znano rano od neznane)"
+            BELA=organi/stroj/dihovi/bela-lista.md
+            if [ -n "$FFFD" ]; then
+              printf '%s\n' "$FFFD" | while IFS= read -r p; do
+                if [ -f "$BELA" ] && grep -qF "$p" "$BELA"; then echo "- U+FFFD: $p — ⟨znana rana, zapisana: bela lista⟩"; else echo "- U+FFFD: $p — ⚠ NEZNANA RANA"; fi
+              done
+            else echo "- U+FFFD: ⟨najdenih 0 — rana zaprta⟩"; fi
+            if [ -n "$CIR" ]; then
+              printf '%s\n' "$CIR" | while IFS= read -r p; do
+                if [ -f "$BELA" ] && grep -qF "$p" "$BELA"; then echo "- cirilica: $p — ⟨znana rana, zapisana: bela lista⟩"; else echo "- cirilica: $p — ⚠ NEZNANA RANA"; fi
+              done | sed -n '1,60p'
+              echo "- cirilica: ⟨streha izpisa 60 vrstic⟩"
+            else echo "- cirilica: ⟨najdenih 0 — rana zaprta⟩"; fi
             echo ""
             echo "### ⟨CI⟩ dih stroja (zadnjih 5 tekov)"
             gh run list --limit 5 --json createdAt,workflowName,conclusion,displayTitle --jq '.[] | "  - \(.createdAt) · \(.workflowName) · \(if (.conclusion // "") == "" then "teče ⏳" else .conclusion end) · \(.displayTitle[0:70])"' || echo "  - ⟨berba tekov padla⟩"
@@ -60,7 +70,7 @@ jobs:
           STETEST=$(printf 'a\nb\nc\n' | grep -c . || true)
           {
             echo ""
-            echo "### samopreizkus merilca (merilec se izmeri, ⟨ne⟩ le zaupa — vsak člen verige more pasti: vir · merilec · poročilo · bralec)"
+            echo "### samopreizkus merilca (merilec se izmeri, ⟨ne⟩ le zaupa — vsak člen verige more pasti: vir · merilec ∧ poročilo ∧ bralec)"
             if [ "$REZTEST" = "⟨ab" ]; then echo "- rez po znakih: ∧ (⟨ab izmerjen ∧ pričakovan)"; else echo "- rez po znakih: ⚠ PADC (izmerjeno: $REZTEST · pričakovano: ⟨ab)"; fi
             if [ "$STETEST" = "3" ]; then echo "- števec teles: ∧ (3 izmerjene ∧ pričakovane)"; else echo "- števec teles: ⚠ PADC (izmerjeno: $STETEST · pričakovano: 3)"; fi
             echo "- md5 telesa poročila (do te vrstice): ${OTIS} — tretji bralec preveri brez zaupanja: vzemi telo do oznake ### samopreizkus, izračunaj md5, primerjaj"
