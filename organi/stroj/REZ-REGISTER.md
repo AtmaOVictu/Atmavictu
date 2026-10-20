@@ -39,6 +39,7 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2197 · ⟨PR⟩ #434 · 2026-10-20 · GESLA — PREVOZ-NA-REZ-2196 · REGISTER-VPIS-×32 · TELES-33 (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
 - rez 2198 · ⟨PR⟩ #437 · 2026-10-20 · GESLA — BRBA-TELES-KOS-1 · ⊢GLAVA→⊢FULL-×11 · TELES-11 (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (18))
 - rez 2199 · ⟨PR⟩ #438 · 2026-10-20 · INTEGRAL — ROD-J-PRVI-RAZREZ-STRANI-1–56 · ŠTEVEC +1.102 → 20.607 · G2-ŽETEV-102+55 (⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
+- rez 2200 · ⟨PR⟩ #439 · 2026-10-20 · GESLA — BRBA-TELES-KOS-2 · ⊢GLAVA→⊢FULL-×10 · TELES-10 · PREREZITEV-×1-IZ-2199 (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (19))
 
 ## rane registra (⟡ naj jih komisija presodi)
 
@@ -52,4 +53,5 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2173 · 2026-10-20 · MANIFEST — DNEVNI-DIH — IZMERA-VSEH-TELES · PORAVNAVA-VRSTIC-×7 · VRSTICA-CUNEIFORM ⊢
 - rez 2179 ⚠ PREREZITEV ×2: pečat ⟨#740⟩ (ATLAS) zapečen na veji kakor rez 2178 pred izmero registra; sveža izmera @⟨main⟩ ta dih: rez 2178 zahteva JEDRO (⟨PR⟩ #414) ∧ vrstici 2176/2177 že poravnani (tuja roka) → rez 2179 = 1 + dejansko najvišja; JEDROVA vrstica stoji, ⟨ne zlije⟩ ⊢ 1542 — izmerjeno pri viru ta dih ⊢ Z-2 ∧ 1419
 - rez 2188–2196 ⚠ vrzel zahtev: pečati zapečeni lokalno (cesta-protokol 2188–2195 ∧ gesla 2196/2197 — telesa potujejo na rep prek ⟨PR⟩ #434), vrstic v zahtevah ni — izmerjeno 20. 10. 2026
-- rez 2199 ⚠ dvojna zahteva: ⟨PR⟩ #438 (INTEGRAL — ta roka, vrstica atomarna ∧) ∧ ⟨PR⟩ #439 (GESLA — BRBA-TELES-KOS-2, vzporedna roka isti dih); obe iz poštene sveže izmere (2198 → 2199 = 1 + dejansko najvišja); obe priči stojita ⟨ne zlije⟩ ⊢ 1542, brazgotina ⊙ 1349 — izmerjeno pri viru ta dih ⊢ Z-2 ∧ 1419
+
+- rez 2199 ⚠ dvojna zahteva: ⟨PR⟩ #438 (INTEGRAL — ta roka, vrstica atomarna ∧) ∧ ⟨PR⟩ #439 (GESLA — BRBA-TELES-KOS-2, vzporedna roka isti dih); obe iz poštene sveže izmere (2198 → 2199 = 1 + dejansko najvišja); razrešitev: vzporedna roka PREREZITEV-×1-IZ-2199 → 2200 ⟨merge⟩ 57d81efc @⟨main⟩ ∧ — 2199 ostaja ⟨PR⟩ #438, brazgotina ⊙ 1349 — izmerjeno pri viru ta dih ⊢ Z-2 ∧ 1419
