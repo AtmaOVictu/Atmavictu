@@ -17,6 +17,7 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2159 · PR #384 ∧ PR #385 ⚠ RANA: dvojna zahteva (LEARNING-PROTOCOLS ∧ GESLA ROD-F) · 2026-10-20
 - rez 2160 · PR #386 · 2026-10-20 · cuneiform — ZNAK-PO-ZNAK-REZ-35
 - rez 2161 · PR #387 · 2026-10-20 · GESLA — ROD-G-PRVI-RAZREZ-STRANI-1–139
+- rez 2162 · 2026-10-20 · HORIZONT — DOLGOVA-OSVEŽITEV-20-10
 
 ## rane registra (⟡ naj jih komisija presodi)
 
