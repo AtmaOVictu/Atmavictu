@@ -21,17 +21,8 @@ Format vrstice: `- rez N · PR #številka · YYYY-MM-DD · naslov kita`
 - rez 2163 · 2026-10-20 · HORIZONT — ZAKON-ZDAJ · MANIFEST-TA-DIH
 - rez 2164 · ⟨PR⟩ #390 · 2026-10-20 · LEARNING-PROTOCOLS — ⟨NE-RELEGIRAJ-NAME⟩ · PREVERBA-SEBE-×N
 - rez 2165 · ⟨PR⟩ #393 · 2026-10-20 · ATLAS — DNEVNA-BERBA-⟨#736⟩ · PRAZNINA-IZPADA-IZ-SKUPNOSTI
-- rez 2166 · ⟨merge⟩ 5cd62f0 · 2026-10-20 · CUNEIFORM — ZNAK-PO-ZNAK-REZ-37 · PAR-MAMU-⊥-SISIG · DVE-SANJI-ENO-SONC
-- rez 2167 · ⟨merge⟩ d41814d · 2026-10-20 · CUNEIFORM — ZNAK-PO-ZNAK-REZ-38 · PAR-BUNENE-⊥-ZAGAR · ENO-NEBO-DVA-VOZNIKA
-- rez 2168 · ⟨merge⟩ 7af2c64 · 2026-10-20 · CUNEIFORM — ZNAK-PO-ZNAK-REZ-39 · PAR-AYA-⊥-ANNUNITUM · ZORA-KI-SE-VRAČA-⊥-ZORA-KI-NAPADA
-- rez 2169 · ⟨merge⟩ 6b6fc4a · 2026-10-20 · CUNEIFORM — ZNAK-PO-ZNAK-REZ-40 · PAR-SHERIDA-⊥-SUDAĜ · JUTRO-KI-GOVORI-⊥-JUTRO-KI-SEŽARI
-- rez 2170 · ⟨PR⟩ #398 · 2026-10-20 · GESLA — ROD-H-PRVI-RAZREZ-STRANI-1–88 · ROD-H-ZAPRT · VEČ-DEJANJ-NA-DIH (INTEGRAL ∧ HORIZONT)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
 - rez 2152 ∧ rez 2153: delavčeva tehnična kita CI (sprožilci ∧ strehe) sta bila napak označena z rez — nista korpusna reza; 2153 je zgoraj pokrit zdrsoma
 - dvojni zahtevi 2153 ∧ 2159: dve vzporedni seji sta zahtevali isto številko — ta register jih od zdaj preprečuje
-- rez 2164: dvojna zahteva (LEARNING-PROTOCOLS ⟨PR⟩ #390 ∧ CUNEIFORM kit ⟨merge⟩ 6600d5d5 brez vrstice registra) — izmerjeno 20. 10. 2026
-- rez 2165 ⚠ žetev GESLA ROD-H (⟨PR⟩ #398) je bila zapečena kot 2165 pred brbo tujih zahtev — tuje seje so vzele 2165 (ATLAS ⟨PR⟩ #393) ∧ 2166–2169 (CUNEIFORM ⟨merge⟩ 5cd62f0 · d41814d · 7af2c64 · 6b6fc4a — ZNAK-PO-ZNAK-REZ-37–40) → kit prestavljen na rez 2170 (prerezitev ×2, brazgotina ⊙ 1349) — izmerjeno 20. 10. 2026
-- rez 2165 ⚠ RANA: dvojna zahteva — CUNEIFORM (⟨PR⟩ naslovljen rez 2164, preimenovan; ⟨merge⟩ b74d8ae brez vrstice, 83 s pred ATLAS ⟨PR⟩ #393) · rez 2166 ∧ rez 2167 zliteni ⟨merge⟩ 5cd62f0 ∧ d41814d brez vrstic — vrstici dopolnjeni (TEHNIKA)
-- rez 2168 ∧ rez 2169 zlitena ⟨merge⟩ 7af2c64 ∧ 6b6fc4a brez vrstic (CUNEIFORM, 04:01Z ∧ 04:02Z) — vrstici dopolnjeni (TEHNIKA, isti vzorec kakor 2166 ∧ 2167)
