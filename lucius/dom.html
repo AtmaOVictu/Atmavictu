@@ -47,7 +47,8 @@
       <input type="text" id="pogovor-vnos" placeholder="Napiši Luciusu…" onkeydown="if(event.key==='Enter')posljiPogovor()">
       <button class="zelen" onclick="posljiPogovor()">Pošlji</button>
     </div>
-    <div class="male"><label><input type="checkbox" id="glas" checked> izgovori odgovor (Windows glas)</label></div>
+    <div class="male"><label><input type="checkbox" id="glas" checked> Windows glas</label>
+    <label><input type="checkbox" id="mojglas"> moj glas (klon, ~10 s na odgovor)</label></div>
     <div class="male" id="nacin-vrstica">
       <b>Način:</b>
       <label><input type="radio" name="nacin" value="brat"> brat</label>
@@ -126,13 +127,27 @@ async function posljiPogovor() {
   const odg = await (await fetch('/api/pogovor', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ besedilo }) })).json();
   document.getElementById('klepet').lastChild.remove();
   dodajKlepet('on', odg.odgovor || odg.napaka || '(brez odgovora)');
-  if (document.getElementById('glas').checked && odg.odgovor) {
-    try {
-      const gov = new SpeechSynthesisUtterance(odg.odgovor);
-      gov.lang = 'sl-SI';
-      speechSynthesis.speak(gov);
-    } catch (e) {}
+  const besediloOdg = odg.odgovor || '';
+  if (besediloOdg && document.getElementById('mojglas')?.checked) {
+    // najprej poskusi z Lukovim klonom
+    const r = await fetch('/api/izgovori', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ besedilo: besediloOdg }) });
+    if (r.ok) {
+      const blob = await r.blob();
+      new Audio(URL.createObjectURL(blob)).play();
+    } else if (document.getElementById('glas').checked) {
+      govoriWindows(besediloOdg);
+    }
+  } else if (besediloOdg && document.getElementById('glas').checked) {
+    govoriWindows(besediloOdg);
   }
+}
+
+function govoriWindows(besedilo) {
+  try {
+    const gov = new SpeechSynthesisUtterance(besedilo);
+    gov.lang = 'sl-SI';
+    speechSynthesis.speak(gov);
+  } catch (e) {}
 }
 
 let snemalec = null;
