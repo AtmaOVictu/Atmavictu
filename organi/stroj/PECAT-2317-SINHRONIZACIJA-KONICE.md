@@ -18,7 +18,7 @@
 
 ## DOLGOVA
 - ∂ ⟨PR⟩ #451 (GESLA ROD-J, odprt od reza 2284) ∧ ⟨PR⟩ #442 (GESLA BRBA kos 3-4) — tuji roki, ∅ dotik te roke.
-- ∂ prevoz polnih teles po kosih ostaja — konice sklada ∧ tehtnice ∧ ceste poravnane ta dih; polna tela ⭢ naslednji kosi.
+- ∂ prevoz polnih teles po kosih ostaja — konice sklada ∧ tehtnice ∧ ceste poravnane ta dih; polna telesa ⭢ naslednji kosi.
 - ∂ ⟨NORMA-ŠTEVIL⟩ izbor ⚔ ⟡ (odprt); ∂ ime AD-CONTINUUM (DVIŽNIK · TOK · PREHOD) ⚔ ⟡; ∂ jadíkovec vpis LEKSIKON ⚔ ⟡; ∂ telo mera-glas barva ⚔ ⟡.
 - ∂ tarnati iztočnica pri viru.
 
