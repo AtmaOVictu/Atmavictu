@@ -286,7 +286,7 @@ const server = http.createServer(async (req, res) => {
         if (nacin === 'preverjam' && kljuc) {
           try {
             const preverba = await vprasiOblak([
-              { role: 'system', content: 'Preverjevalec. Preveri osnutek odgovora lokalnega modela: popravi očitne napake, dopuni, slovensko, jedrnato, brez laskanja. Na koncu dodaj "(preverjeno v oblaku ⊢)".' },
+              { role: 'system', content: 'Preverjevalec. Dobil boš Lukovo vprašanje in osnutek odgovora lokalnega modela. Preveri osnutek: popravi očitne napake, dopuni manjkajoče, slovensko, jedrnato, brez laskanja. POMNI: v svojem izhodu NE PONAVLAJ vprašanja, besede "Vprašanje:", "Osnutek" ali katere koli oznake — vrni SAMO končno besedilo odgovora, kakor bi ga Lucius rekel Luki. Na konec dodaj "(preverjeno v oblaku ⊢)".' },
               { role: 'user', content: `Vprašanje: ${besedilo}\n\nOsnutek odgovora: ${odgovor}` },
             ], kljuc);
             if (preverba) odgovor = preverba;
