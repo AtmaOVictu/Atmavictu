@@ -7,7 +7,7 @@ import path from 'node:path';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const DNEVNIK = path.join(HERE, 'izmere-kroga.jsonl');
-const VZOREC = 'D:/OntoProjekt/Voice/klon/dataset/wavs/seg-0005.wav';
+const VZOREC = 'D:/OntoProjekt/Voice/klon/dataset/wavs/seg-0002.wav';
 
 async function izmeri(ime, fn) {
   const t0 = Date.now();
