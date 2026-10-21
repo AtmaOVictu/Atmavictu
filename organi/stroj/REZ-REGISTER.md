@@ -1,1 +1,1 @@
-- rez 2341 · 2026-10-21 · ORGANI — PREVOZ-TELES-PEČATOV-2329–2340 (jedro @2340 ∧ horizont @2340 ∧ telologija @2336 ∧ delovna @2340; rana: vrstica 2339 lastnik vzporedni sedež ⚠ ostaja)
+- rez 2341 · 2026-10-21 · ORGANI — PREVOZ-TELES-PEČATOV-2336–2341 (jedro @2341 ∧ telologija @2336 ∧ delovna dih 2341; vrzeli 2339–2340 ⚠ lastnik vzporedni sedež — ⟨ne zlije⟩ ⊢ 1542)
