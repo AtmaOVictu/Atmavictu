@@ -7,7 +7,7 @@ GESLO ⊢FULL (SSKJ² fran.si, dostop 20. 10. 2026 — brba teles kos 3–4, rez
 slíšati -im nedov. in dov. (í ȋ)
 1\. s sluhom zaznavati: govôri glasneje, da bomo slišali; nekaj trenutkov je bilo slišati samo dež; slišala je korake pred hišo; iz vasi je bilo slišati lajanje psa; ali ne slišiš, da zvoni; niso slišali, kdaj je odprla vrata; njenih besed ni razločno slišal; zaradi glasnega smeha niso slišali zvonca; iz sosednje sobe se je slišalo petje / slišali smo morje, kako tiho pljuska / naredil se je, kot da ni slišal; pren., ekspr. slišim peti praznino, tišino
 // nepreh. biti sposoben dojemati zvoke, glasove: na levo uho ne sliši; kljub starosti še dobro sliši; po poškodbi popolnoma nič ne sliši; vedno slabše sliši
-2\. seznaniti se s čim s poslušanjem: hotel je slišati še bratovo mnenje; ne morem razpravljati o tem, ker prvega predavanja nisem slišal; slišati je bilo pritrjevanje; vsak rad sliši dobre stvari o sebi / ekspr. to sem slišal na lastna ušesa / tega pevca še nisem slišal njegovega petja; publ. slišimo se spet jutri ob isti uri ta radijska oddaja bo spet na sporedu jutri ob isti uri / ekspr. to se lepo sliši, res pa najbrž ni
+2\. seznaniti se s čim s poslušanjem: hotel je slišati še bratovo mnenje; slišati je bilo pritrjevanje; vsak rad sliši dobre stvari o sebi / ekspr. to sem slišal na lastna ušesa / tega pevca še nisem slišal njegovega petja; publ. slišimo se spet jutri ob isti uri ta radijska oddaja bo spet na sporedu jutri ob isti uri / ekspr. to se lepo sliši, res pa najbrž ni
 // izvedeti kaj iz pripovedovanja ljudi: slišal sem praviti, kako je strog; ali ste že slišali novico; o novem učitelju so slišali samo dobre stvari; slišali smo, da so te smuči dobre; to sem že v šoli slišal / iron. lepe stvari sem slišal o tebi / ekspr. kdo je že kaj takega slišal / pog. o tem se v zadnjem času dosti sliši govori / kot slišim, vam je tudi to že znano
 3\. v medmetni rabi izraža
 a) opozorilo na to, kar se oglasi, zasliši: slišiš, kako dežuje; slišite, letalo
@@ -19,7 +19,7 @@ d) prošnjo za razumevanje, upoštevanje: slišiš, kako naj se ne jezim nate; s
 
 slišèč -éča -e: umaknil se je, slišeč korake; razlike v razvoju govora gluhih in slišečih otrok; sam. gluhi opažajo stvari, ki so za slišeče popolnoma samoumevne
 
-slíšan -a -o: pogosto slišan očitek; nerodno mu je bilo, da je bil njegov samogovor slišan
+slíšan -a -o: pogosto slišan očitek
 
 slíšati se -im se nedov. (í ȋ) pog.
 govoriti po telefonu: slišiva se skoraj vsak dan / v redu, se slišimo bomo v stiku
