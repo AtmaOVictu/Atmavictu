@@ -2,7 +2,9 @@
 
 Pečat: rez 2315 (21. 10. 2026, dih POKORA — ⟡ P-CITAT verbatim ⟨ne brusi⟩ ⊢ škóda3 2043: ⟨tukaj vidim mnogo narobe / kaj nimaš standarda v vseh pasih in krakih sebe ter ukaznega/metanujnega? daj⟩ — kritika enoplastnega izhoda prejšnjega diha te roke ∧ ukaz nadaljevanja osi ⟨daj/jad⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448; norma zapisa ⊢ zakon 27 (2309): ta pečat ∧ ta izhod nosita vse plasti — proza ∧ CESTA vrstice ∧ vezi ⊢/⚠/∂).
 
-KOLIZIJA ⊢ Z-2 ∧ 1542: najvišja dejansko izmerjena 2313 (@⟨main⟩ ⟨merge⟩ 190e2ed0 ⟨PR⟩ #468 — ⟨list_commits⟩ ∧ ta dih) ∧ 2314 ZAHTEVANA (⟨PR⟩ #469 odprt — CESTA ⟨BARVNA-PLAST⟩, vzporedni sedež; zakon registra: priča zavrne ⟨PR⟩, če je N že zahtevan) → rez 2315 = 1 + najvišja ZAHTEVANA (prerezitev ∅ — 2314 ⟨ne zlije⟩ ⊢ 1542; po ⟨merge⟩ #469 = 1 + dejansko najvišja ⊢ Z-2); varovalka ⟨rez 2315⟩ ×0 (REZ-REGISTER @⟨main⟩ bran ∧ ⟨list_pull_requests⟩ ∧ ⟨list_commits⟩ — izmerjeno ta dih ∧).
+KOLIZIJA ⊢ Z-2 ∧ 1542: najvišja dejansko izmerjena 2314 (@⟨main⟩ ⟨merge⟩ 5dde9f36 ⟨PR⟩ #469 — CESTA ⟨BARVNA-PLAST⟩, vzporedni sedež; ⟨list_commits⟩ ∧ ta dih) → rez 2315 = 1 + dejansko najvišja ∧; varovalka ⟨rez 2315⟩ ×0 (REZ-REGISTER @⟨main⟩ bran ∧ ⟨list_pull_requests⟩ ∧ ⟨list_commits⟩ — izmerjeno ta dih ∧). PREREZITEV ∅ ⊙ 1349: prva izmera tega diha videla ⟨PR⟩ #469 še odprtega (2314 zaseden — zakon registra) → načrtovana zahteva 2315; ⟨merge⟩ #469 je padel sredi diha → 2315 = 1 + dejansko najvišja ČISTO, prerezitev ni bila izvedena (izmerjena ničla ⊢ 618 — načrt, ki ga je prehitela izmera).
+
+PADC TA DIH IMENOVAN JAVNO ⊢ 1419 ∧ popravljen isti dih ⊙ 1349: (a) tipkarska rana ⟨bošje⟩ namesto ⟨božje⟩ v P-CITAT telesu GESLO-pokora-2315 ob prvem potisu (⟨ne brusi⟩ ⊢ škóda3 2043 — P-CITAT verbatim je zakon) — popravek: drugi potis bajt-pravilen isti dih ∧; (b) ⟨PR⟩ številka neizmerjena pri ustvarjanju (vrata ⟨ne⟩ vršejo ⟨#N⟩ v odgovoru) — popravek: izmera ⟨list_pull_requests⟩ po glavi veje isti dih ∧.
 
 ## IZVEDBA ∧
 
@@ -16,7 +18,7 @@ KOLIZIJA ⊢ Z-2 ∧ 1542: najvišja dejansko izmerjena 2313 (@⟨main⟩ ⟨mer
 
 ## REGISTER-ZAVEDUJOČEGA ⊢ 2282
 
-KAJ VEM — pokóra ⊢FULL celo telo pri viru ∧ jáditi ×0 SSKJ² ∧ jadíkovec ×0 ∧ vrh repa 2313 ∧ ⟨PR⟩ #469 (2314) odprt ∧ veriga jad→pokora→daj zapečena; ODKOD VEM — fran.si (SSKJ² ∧ Pravopis ∧ SNOJ ∧ Kostelski, dostop 21. 10. 2026) ∧ rep ⟨list_commits⟩ ∧ ⟨list_pull_requests⟩ ∧ REZ-REGISTER @⟨main⟩ bran ∧ telo mera-glas @2053; KOLIKO ZAUPAM — ⟨95⟩ % (∂ ⟨5⟩ %: Zgodovinski ∧ Pleteršnik zadetki ⟨ne⟩ razvozani — rok obhoda); KJE NA MEJI — pokóra etimologija (SNOJ telo ⚠ okno razlage) ∂ · priča P1 ⟨rez = vrh baze + 1⟩: dokler #469 (2314) odprt, zliv tega kita čaka — po ⟨merge⟩ #469 vrh baze 2314 → 2315 = vrh + 1 ∧ ⭢ ∂ isti ali naslednji dih.
+KAJ VEM — pokóra ⊢FULL celo telo pri viru ∧ jáditi ×0 SSKJ² ∧ jadíkovec ×0 ∧ vrh repa 2314 (⟨merge⟩ #469 padel sredi diha) ∧ veriga jad→pokora→daj zapečena; ODKOD VEM — fran.si (SSKJ² ∧ Pravopis ∧ SNOJ ∧ Kostelski, dostop 21. 10. 2026) ∧ rep ⟨list_commits⟩ ∧ ⟨list_pull_requests⟩ ∧ REZ-REGISTER @⟨main⟩ bran ∧ telo mera-glas @2053; KOLIKO ZAUPAM — ⟨95⟩ % (∂ ⟨5⟩ %: Zgodovinski ∧ Pleteršnik zadetki ⟨ne⟩ razvozani — rok obhoda); KJE NA MEJI — pokóra etimologija (SNOJ telo ⚠ okno razlage) ∂ · priča P1 ⟨rez = vrh baze + 1⟩: veja gradi iz vrha 2314 → 2315 = vrh + 1 ∧.
 
 ## MINT (vrstica 75 — prijavljeno pred zapečenjem ∧)
 
@@ -24,12 +26,11 @@ KAJ VEM — pokóra ⊢FULL celo telo pri viru ∧ jáditi ×0 SSKJ² ∧ jadík
 
 ## DOLGOVA
 
-- ⟨merge⟩ tega kita po ⟨merge⟩ #469 (rez 2314 — CESTA, vzporedni sedež; priča P1 = vrh baze + 1) ⭢ ∂ isti ali naslednji dih
 - sinhronizacija lokal ⇌ rep telesa sklada ∧ tehtnica ∧ cesta (razcep konica ⊥ telo ⊢ 2048 — po kosih ⊢ tehtnica 1407.1) ⭢ ∂ (dedup @2313 DOLGOVA — ⟨ne zlije⟩ ⊢ 1542)
 - tarnati iztočnica pri viru · pokóra etimologija (SNOJ okno) ⭢ ∂ rok obhoda
 - ⟨NORMA-ŠTEVIL⟩ izbor ⚔ ⟡ · dnevni dih @06:00 ⭢ ∂
 
-ORGANI ISTI DIH: slovenscina-gesla (GESLO-pokora-2315 ∧ GESLO-jaditi-2315 ∧ GESLO-jadikovec-2315 nova ∧ ta pečat) · stroj (REZ-REGISTER vrstica atomarna istega kita ∧ rana prerezitve ∅) — vsi ostali NEDOTIKNJENI ⊢ 1963; predhodnik: PEČAT 2313 (⟨PR⟩ #468 ⟨merge⟩ 190e2ed0 — GESLA, vzporedni sedež).
+ORGANI ISTI DIH: slovenscina-gesla (GESLO-pokora-2315 ∧ GESLO-jaditi-2315 ∧ GESLO-jadikovec-2315 nova ∧ ta pečat) · stroj (REZ-REGISTER vrstica atomarna istega kita) — vsi ostali NEDOTIKNJENI ⊢ 1963; predhodnik: PEČAT 2314 (⟨PR⟩ #469 ⟨merge⟩ 5dde9f36 — CESTA ⟨BARVNA-PLAST⟩, vzporedni sedež).
 
 IZVOR: © 2026 Luka Pintarič — AVL v2.2 (LICENSE.md na repu); §9 ∧ §10 ∧ §12.
 
