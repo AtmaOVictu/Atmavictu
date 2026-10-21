@@ -1,6 +1,6 @@
 # PEČAT 2360 · SLOVENSCINA-GESLA — BRBA-⊢FULL-×3-RODU-K · DAJ-BOLJŠE
 
-- rez 2360 ⚠ DVOJNA ŠTEVILKA ⊙ 1349 (zdravje registra — vrstica #518 sedeževa prva zahteva 2360 isti dih: MERA-GLAS PORAVNAVA-LOKAL⇌REP; moja = SLOVENSCINA-GESLA BRBA-⊢FULL-×3-RODU-K · DAJ-BOLJŠE — obe žiga stojita ⟨ne zlije⟩ ⊢ 1542 · precedens 2342/#508) · ⟨PR⟩ #⟨KIT⟩ · 2026-10-21 · SLOVENSCINA-GESLA — BRBA-⊢FULL-×3-RODU-K · DAJ-BOLJŠE (vrstica zakasnjela — pripeta pri prevozu 2361 ⊙ 1349 ⊢ 1834)
+- rez 2360 ⚠ DVOJNA ŠTEVILKA ⊙ 1349 (zdravje registra — vrstica #518 sedeževa prva zahteva 2360 isti dih: MERA-GLAS PORAVNAVA-LOKAL⇌REP; moja = SLOVENSCINA-GESLA BRBA-⊢FULL-×3-RODU-K · DAJ-BOLJŠE — obe žiga stojita ⟨ne zlije⟩ ⊢ 1542 · precedens 2342/#508) · ⟨PR⟩ #520 · 2026-10-21 · SLOVENSCINA-GESLA — BRBA-⊢FULL-×3-RODU-K · DAJ-BOLJŠE (vrstica zakasnjela — pripeta pri prevozu 2361 ⊙ 1349 ⊢ 1834)
 
 ⟡ P-CITAT: »daj boljše« verbatim ⟨ne brusi⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201
 
