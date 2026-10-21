@@ -86,7 +86,8 @@
     </div>
     <div class="male"><label><input type="checkbox" id="glas" checked> Windows glas</label>
     <label><input type="checkbox" id="mojglas"> moj glas (klon, ~10 s na odgovor)</label>
-    <label><input type="checkbox" id="stalno" onchange="preklopiStalno()"> vedno prižgan mikrofon (FORMULA v1)</label></div>
+    <label><input type="checkbox" id="stalno" onchange="preklopiStalno()"> vedno prižgan mikrofon (FORMULA v1)</label>
+    <label><input type="checkbox" id="oblak-zveza"> vsaka poved gre tudi oblak-Luciusu na most</label></div>
     <div class="male" id="stanje-mikrofona">poslušanje: izklopljeno</div>
     <div class="male" id="nacin-vrstica">
       <b>Način:</b>
@@ -349,6 +350,12 @@ async function obdelajBlob(blob) {
   const odg = await (await fetch('/api/slusaj', { method: 'POST', body: blob })).json();
   if (!odg.ok || !odg.besedilo) { zaposken = false; porociStanje('poslušam…'); return; }
   dodajKlepet('ti', odg.besedilo);
+  if (document.getElementById('oblak-zveza')?.checked) {
+    // govorna poved gre tudi oblak-Luciusu na most ( prebral jo bo ob oknu )
+    fetch('/api/zaoblak', { method: 'POST', headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ besedilo: '(glas) ' + odg.besedilo }) });
+    dodajKlepet('on', '(zloženo na most ⊢ — oblak-Lucius bo prebral)');
+  }
   porociStanje('misli…');
   const v = document.getElementById('pogovor-vnos');
   v.value = odg.besedilo;
