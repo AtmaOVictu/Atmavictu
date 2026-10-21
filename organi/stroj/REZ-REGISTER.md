@@ -44,7 +44,6 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2193 · dopolnjena vrstica (TEHNIKA) · 2026-10-20 · CESTA — PESEM-KOT-FONETSKO-TELO · PREIZPUS-VERZOV-DRŽI ⊢ (kalup 1671 · izmera iz telesa organa ⟨grep⟩ ta dih ∧ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
 - rez 2194 · dopolnjena vrstica (TEHNIKA) · 2026-10-20 · CESTA — REGISTER-KOS-4 · PESEM-GESELA-×11 · PADC-PIPO-URL-JAVNO ⊢ (kalup 1671 · izmera iz telesa organa ⟨grep⟩ ta dih ∧ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
 - rez 2195 · dopolnjena vrstica (TEHNIKA) · 2026-10-20 · CESTA — PESEM-PREIZPUS-POPravljen · PESMI-POLN-OBSEV ⊢ (kalup 1671 · izmera iz telesa organa ⟨grep⟩ ta dih ∧ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
-
 - rez 2196 · ⟨PR⟩ #440 · 2026-10-20 · GESLA — ŽETEV-KOL (zbòr ⊢FULL ∧ bíti1 ⊢FULL ⚠ homograf) · POVEZ vrstici lokalnega registra (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
 - rez 2197 · ⟨PR⟩ #434 · 2026-10-20 · GESLA — PREVOZ-NA-REZ-2196 · REGISTER-VPIS-×32 · TELES-33 (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
 - rez 2198 · ⟨PR⟩ #437 · 2026-10-20 · GESLA — BRBA-TELES-KOS-1 · ⊢GLAVA→⊢FULL-×11 · TELES-11 (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (18))
