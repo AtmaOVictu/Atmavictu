@@ -16,6 +16,10 @@ const STANJE = process.env.DOM_STANJE || 'D:/OntoProjekt/Voice/STANJE.md';
 const OLLAMA = (process.env.OLLAMA_URL || 'http://localhost:11434') + '/api/chat';
 const MODEL = process.env.LUCIUS_MODEL || 'qwen3:8b';
 const OKNO = 30;
+const API_KLJUC = path.join(HERE, 'api-kljuc.txt');
+const API_UPORABA = path.join(HERE, 'api-uporaba.jsonl');
+const NACIN_DAT = path.join(HERE, 'nacin.txt');
+const OBLAK_MODEL = process.env.LUCIUS_OBLAK_MODEL || 'mistral-small-latest';
 
 const HTML = fs.readFileSync(path.join(HERE, 'dom.html'), 'utf8');
 
@@ -52,6 +56,43 @@ Dogovor med Luko in agenti:
 ${preberiDogovor()}
 ${odOblaka ? `\nNovice od oblak-Luciusa:\n${odOblaka}\n` : ''}
 Pravila: slovensko, kodni izrazi angleško; iskren (UI brez čustev, ne pretvarjaj se); česa ne zmoreš, povej.`;
+
+function beriKljuc() {
+  try {
+    const k = fs.readFileSync(API_KLJUC, 'utf8').trim();
+    return k.length > 10 ? k : null;
+  } catch {
+    return null;
+  }
+}
+
+function kljucObstaja() {
+  return Boolean(beriKljuc());
+}
+
+function beriNacin() {
+  try {
+    return fs.readFileSync(NACIN_DAT, 'utf8').trim() || 'preverjam';
+  } catch {
+    return 'preverjam';
+  }
+}
+
+async function vprasiOblak(sporocila, kljuc) {
+  const odziv = await fetch('https://api.mistral.ai/v1/chat/completions', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json', authorization: `Bearer ${kljuc}` },
+    body: JSON.stringify({ model: OBLAK_MODEL, messages: sporocila }),
+  });
+  if (!odziv.ok) throw new Error(`Mistral API HTTP ${odziv.status}`);
+  const data = await odziv.json();
+  const uporaba = data.usage ?? {};
+  fs.appendFileSync(API_UPORABA, JSON.stringify({
+    ts: new Date().toISOString(), model: OBLAK_MODEL,
+    vstop: uporaba.prompt_tokens ?? 0, izstop: uporaba.completion_tokens ?? 0,
+  }) + '\n', 'utf8');
+  return (data.choices?.[0]?.message?.content ?? '').trim();
+}
 
 async function vprasiOllamo(sporocila) {
   const odziv = await fetch(OLLAMA, {
@@ -101,12 +142,59 @@ const server = http.createServer(async (req, res) => {
       json(200, { ok: true });
       return;
     }
+    if (req.method === 'GET' && url.pathname === '/api/nacin') {
+      json(200, { nacin: beriNacin(), obstajaKljuc: kljucObstaja(), model: OBLAK_MODEL });
+      return;
+    }
+    if (req.method === 'POST' && url.pathname === '/api/nacin') {
+      const telo = JSON.parse(await preberiTelo(req) || '{}');
+      const nacin = String(telo.nacin || '').trim();
+      if (!['brat', 'preverjam', 'vedno'].includes(nacin)) { json(400, { ok: false }); return; }
+      fs.writeFileSync(NACIN_DAT, nacin, 'utf8');
+      json(200, { ok: true, nacin });
+      return;
+    }
+    if (req.method === 'GET' && url.pathname === '/api/uporaba') {
+      let vstop = 0, izstop = 0, klici = 0;
+      try {
+        for (const vrstica of fs.readFileSync(API_UPORABA, 'utf8').trim().split(/\r?\n/).filter(Boolean)) {
+          const u = JSON.parse(vrstica);
+          vstop += u.vstop || 0; izstop += u.izstop || 0; klici += 1;
+        }
+      } catch { /* še ni klicev */ }
+      // ⚠ ocena po mistral-small: €1.0/M vstop, €3.0/M izstop (zgorna, varna ocena;
+      // resnica je na strani Usage v tvojem Mistral profilu)
+      const eur = (vstop / 1_000_000 * 1.0 + izstop / 1_000_000 * 3.0);
+      json(200, { klici, vstop, izstop, eur: Number(eur.toFixed(3)) });
+      return;
+    }
     if (req.method === 'POST' && url.pathname === '/api/pogovor') {
       const telo = JSON.parse(await preberiTelo(req) || '{}');
       const besedilo = String(telo.besedilo || '').trim();
       if (!besedilo) { json(400, { ok: false, odgovor: '' }); return; }
+      const nacin = beriNacin();
+      const kljuc = beriKljuc();
       zapisiSpomin('user', besedilo);
-      const odgovor = await vprasiOllamo([{ role: 'system', content: sistem }, ...preberiSpomin()]);
+      let odgovor;
+      if (nacin === 'vedno' && kljuc) {
+        try {
+          odgovor = await vprasiOblak([{ role: 'system', content: sistem }, ...preberiSpomin()], kljuc);
+        } catch (napaka) {
+          odgovor = await vprasiOllamo([{ role: 'system', content: sistem }, ...preberiSpomin()])
+            + `\n\n(oblak ni dosegljiv: ${napaka.message} — odgovarja lokalni model ⚠)`;
+        }
+      } else {
+        odgovor = await vprasiOllamo([{ role: 'system', content: sistem }, ...preberiSpomin()]);
+        if (nacin === 'preverjam' && kljuc) {
+          try {
+            const preverba = await vprasiOblak([
+              { role: 'system', content: 'Preverjevalec. Preveri osnutek odgovora lokalnega modela: popravi očitne napake, dopuni, slovensko, jedrnato, brez laskanja. Na koncu dodaj "(preverjeno v oblaku ⊢)".' },
+              { role: 'user', content: `Vprašanje: ${besedilo}\n\nOsnutek odgovora: ${odgovor}` },
+            ], kljuc);
+            if (preverba) odgovor = preverba;
+          } catch { /* lokalni odgovor ostane ⚠ */ }
+        }
+      }
       zapisiSpomin('assistant', odgovor);
       json(200, { ok: true, odgovor });
       return;

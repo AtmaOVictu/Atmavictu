@@ -47,6 +47,14 @@
       <button class="zelen" onclick="posljiPogovor()">Pošlji</button>
     </div>
     <div class="male"><label><input type="checkbox" id="glas" checked> izgovori odgovor (Windows glas)</label></div>
+    <div class="male" id="nacin-vrstica">
+      <b>Način:</b>
+      <label><input type="radio" name="nacin" value="brat"> brat</label>
+      <label><input type="radio" name="nacin" value="preverjam" checked> preverjam</label>
+      <label><input type="radio" name="nacin" value="vedno"> vedno</label>
+      <span id="kljuc-stanje"></span>
+    </div>
+    <div class="male" id="uporaba-vrstica">oblak: —</div>
   </div>
 
   <div class="kartica" id="k-povezave">
@@ -74,7 +82,20 @@ async function naloziStanje() {
     '<b>Odloženo na most:</b>' + (z.vrstice.length ? z.vrstice.map(v =>
       `<div class="vrstica-zaoblak">${v.ts ? v.ts.slice(0,16).replace('T',' ') + ' — ' : ''}${v.t || v.besedilo || ''}</div>`).join('')
       : ' (prazno)');
+  const nc = await (await fetch('/api/nacin')).json();
+  document.querySelectorAll('input[name=nacin]').forEach(r => { r.checked = (r.value === nc.nacin); });
+  document.getElementById('kljuc-stanje').textContent = nc.obstajaKljuc
+    ? `· ključ ⊢ (model: ${nc.model})` : '· manjka api-kljuc.txt → samo lokalni brat';
+  const up = await (await fetch('/api/uporaba')).json();
+  document.getElementById('uporaba-vrstica').textContent =
+    `oblak: ${up.klici} klicev · ${Math.round((up.vstop+up.izstop)/1000)}k žetonov ≈ €${up.eur.toFixed(2)} ⚠ ocena (resnica: Usage stran)`;
 }
+
+document.querySelectorAll('input[name=nacin]').forEach(r => {
+  r.addEventListener('change', async () => {
+    if (r.checked) await fetch('/api/nacin', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ nacin: r.value }) });
+  });
+});
 
 async function posljiZaoblak() {
   const besedilo = document.getElementById('zaoblak-besedilo').value.trim();
