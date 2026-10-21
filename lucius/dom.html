@@ -230,6 +230,7 @@ function preklopiMikrofon() {
 let stalniTok = null, stalenKontekst = null, stalenMerilec = null;
 let stalnoVklopljeno = false, zaposken = false;
 let pricneGovor = 0, koncaGovor = 0, snemalecVedno = null, kosiVedno = [];
+let snemalecPrek = null, kosiPrek = [], prekKonec = 0;
 const PRAG = 0.022;
 
 function porociStanje(besedilo) {
@@ -295,8 +296,22 @@ function zankaStalnega() {
   uho.style.width = Math.min(100, Math.round(glasnost * 700)) + '%';
   uho.classList.toggle('slica', glasnost > PRAG);
   uhoB.textContent = glasnost > PRAG ? 'slišim te ⊢' : 'poslušam';
-  if (zaposken) return;
   const zdaj = Date.now();
+  if (zaposken) {
+    // VRSTA PREKINITEV: tudi med odgovorom poslušam; poved gre v vrsto, ne v nič
+    if (snemalecPrek === null && glasnost > PRAG * 1.4) {
+      snemalecPrek = new MediaRecorder(stalniTok);
+      kosiPrek = [];
+      snemalecPrek.ondataavailable = (d) => kosiPrek.push(d);
+      snemalecPrek.start();
+      prekKonec = zdaj;
+      porociStanje('prekinitev slišana…');
+    } else if (snemalecPrek) {
+      if (glasnost > PRAG * 1.4) prekKonec = zdaj;
+      if (zdaj - prekKonec > 1500) { snemalecPrek.stop(); snemalecPrek = null; }
+    }
+    return;
+  }
   if (!snemalecVedno && glasnost > PRAG) {
     pricneGovor = zdaj;
     snemalecVedno = new MediaRecorder(stalniTok);
@@ -323,9 +338,13 @@ function zankaStalnega() {
 }
 
 async function obdelajPoved() {
-  zaposken = true;
   const blob = new Blob(kosiVedno, { type: 'audio/webm' });
   kosiVedno = [];
+  await obdelajBlob(blob);
+}
+
+async function obdelajBlob(blob) {
+  zaposken = true;
   if (blob.size < 3000) { zaposken = false; porociStanje('poslušam…'); return; }
   const odg = await (await fetch('/api/slusaj', { method: 'POST', body: blob })).json();
   if (!odg.ok || !odg.besedilo) { zaposken = false; porociStanje('poslušam…'); return; }
@@ -336,6 +355,12 @@ async function obdelajPoved() {
   await posljiPogovor(); // posljiPogovor počisti vnos in pride do glasu
   zaposken = false;
   porociStanje('poslušam…');
+  // VRSTA: prekinitev, ki je padla med odgovorom, gre zdaj na pult
+  if (kosiPrek.length) {
+    const prek = new Blob(kosiPrek, { type: 'audio/webm' });
+    kosiPrek = [];
+    setTimeout(() => obdelajBlob(prek), 400);
+  }
 }
 
 naloziStanje();
