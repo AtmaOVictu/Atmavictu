@@ -43,6 +43,7 @@
     <h2>POGOVOR — lokalni Lucius (Ollama)</h2>
     <div class="klepet" id="klepet"></div>
     <div style="display:flex; gap:0.5rem; margin-top:0.5rem;">
+      <button id="mikrofon" onclick="preklopiMikrofon()">Govori</button>
       <input type="text" id="pogovor-vnos" placeholder="Napiši Luciusu…" onkeydown="if(event.key==='Enter')posljiPogovor()">
       <button class="zelen" onclick="posljiPogovor()">Pošlji</button>
     </div>
@@ -132,6 +133,40 @@ async function posljiPogovor() {
       speechSynthesis.speak(gov);
     } catch (e) {}
   }
+}
+
+let snemalec = null;
+let kosckiZvoka = [];
+
+function preklopiMikrofon() {
+  const gumb = document.getElementById('mikrofon');
+  if (snemalec && snemalec.state === 'recording') {
+    snemalec.stop();
+    gumb.textContent = 'Govori';
+    return;
+  }
+  navigator.mediaDevices.getUserMedia({ audio: true }).then((tok) => {
+    snemalec = new MediaRecorder(tok);
+    kosckiZvoka = [];
+    snemalec.ondataavailable = (d) => kosckiZvoka.push(d);
+    snemalec.onstop = async () => {
+      tok.getTracks().forEach(t => t.stop());
+      gumb.textContent = 'Razumevam…';
+      const blob = new Blob(kosckiZvoka, { type: snemalec.mimeType });
+      const odg = await (await fetch('/api/slusaj', { method: 'POST', body: blob })).json();
+      gumb.textContent = 'Govori';
+      if (odg.ok && odg.besedilo) {
+        document.getElementById('pogovor-vnos').value = odg.besedilo;
+        posljiPogovor();
+      } else {
+        dodajKlepet('on', '(nisem razumel — poskusi znova' + (odg.napaka ? ': ' + odg.napaka : '') + ')');
+      }
+    };
+    snemalec.start();
+    gumb.textContent = 'Ustavi posnetek';
+  }).catch(() => {
+    dodajKlepet('on', '(mikrofon ni dosegliv — preveri dovoljenje brskalnika)');
+  });
 }
 
 naloziStanje();

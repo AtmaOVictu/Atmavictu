@@ -2,6 +2,7 @@
 // Lokalno, brezplačno, brez odvisnosti (Node 18+).
 // Zagon: node lucius/dom.mjs [port]  (privzeto 8766)
 import fs from 'node:fs';
+import os from 'node:os';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import http from 'node:http';
@@ -166,6 +167,45 @@ const server = http.createServer(async (req, res) => {
       // resnica je na strani Usage v tvojem Mistral profilu)
       const eur = (vstop / 1_000_000 * 1.0 + izstop / 1_000_000 * 3.0);
       json(200, { klici, vstop, izstop, eur: Number(eur.toFixed(3)) });
+      return;
+    }
+    if (req.method === 'POST' && url.pathname === '/api/slusaj') {
+      // zvok (wav/webm) v telesu → shrani v temp → faster-whisper (small, CPU) → besedilo
+      const koscki = [];
+      for await (const delček of req) koscki.push(delček);
+      const zvok = Buffer.concat(koscki);
+      if (zvok.length < 1000) { json(400, { ok: false, napaka: 'prazna naložba' }); return; }
+      const tmp = path.join(os.tmpdir(), `dom-slusaj-${Date.now()}`);
+      let vhod = tmp;
+      const glava = zvok.subarray(0, 4).toString('hex');
+      if (glava.startsWith('52494646')) { // "RIFF" — WAV
+        vhod = tmp + '.wav';
+        fs.writeFileSync(vhod, zvok);
+      } else { // webm/ogg iz MediaRecorder — pretvori z ffmpeg
+        vhod = tmp + '.wav';
+        fs.writeFileSync(tmp + '.raw', zvok);
+        try {
+          const { execFileSync } = await import('node:child_process');
+          execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', tmp + '.raw', '-ar', '16000', '-ac', '1', vhod]);
+        } catch (napaka) {
+          json(500, { ok: false, napaka: `ffmpeg: ${napaka.message}` });
+          return;
+        }
+      }
+      try {
+        const { execFile } = await import('node:child_process');
+        const izhod = await new Promise((resitev, zavrnitev) => {
+          execFile('D:/OntoProjekt/Voice/klon/py311/python.exe',
+            ['D:/OntoProjekt/Voice/klon/slusaj.py', vhod],
+            { cwd: 'D:/OntoProjekt/Voice/klon' },
+            (napaka, stdout) => napaka ? zavrnitev(napaka) : resitev(stdout),
+          );
+        });
+        const odg = JSON.parse(izhod);
+        json(200, { ok: true, besedilo: odg.besedilo });
+      } catch (napaka) {
+        json(500, { ok: false, napaka: String(napaka.message || napaka) });
+      }
       return;
     }
     if (req.method === 'POST' && url.pathname === '/api/pogovor') {
