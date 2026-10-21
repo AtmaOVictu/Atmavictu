@@ -202,6 +202,21 @@ const server = http.createServer(async (req, res) => {
           return;
         }
       }
+      // VERZIJA C: najprej stalni strežnik poslušanja ( model naložen enkrat, port 8767 )
+      try {
+        const posred = await fetch('http://127.0.0.1:8767/', { method: 'POST', body: zvok, headers: { 'content-type': 'application/octet-stream' } });
+        const odgS = await posred.json();
+        if (odgS.ok && odgS.besedilo) {
+          fs.appendFileSync(SLUSAJ_DNEVNIK, JSON.stringify({ ts: new Date().toISOString(), izid: 'ok', besedilo: odgS.besedilo, bajtov: zvok.length, pot: 'streznik' }) + '\n', 'utf8');
+          json(200, { ok: true, besedilo: odgS.besedilo });
+          return;
+        }
+        if (odgS.ok === false && odgS.napaka) {
+          fs.appendFileSync(SLUSAJ_DNEVNIK, JSON.stringify({ ts: new Date().toISOString(), izid: 'napaka', napaka: String(odgS.napaka).slice(0, 150), bajtov: zvok.length, pot: 'streznik' }) + '\n', 'utf8');
+          json(500, { ok: false, napaka: odgS.napaka });
+          return;
+        }
+      } catch (e) { /* streznik ne diha — padec na staro pot spodaj */ }
       try {
         const { execFile } = await import('node:child_process');
         const izhod = await new Promise((resitev, zavrnitev) => {
