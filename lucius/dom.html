@@ -89,6 +89,7 @@
     <label><input type="checkbox" id="stalno" onchange="preklopiStalno()"> vedno prižgan mikrofon (FORMULA v1)</label>
     <label><input type="checkbox" id="oblak-zveza"> vsaka poved gre tudi oblak-Luciusu na most</label></div>
     <div class="male" id="stanje-mikrofona">poslušanje: izklopljeno</div>
+    <button onclick="testUho()">Preizkusi uho ( 6 s )</button>
     <div class="male" id="nacin-vrstica">
       <b>Način:</b>
       <label><input type="radio" name="nacin" value="brat"> brat</label>
@@ -367,6 +368,34 @@ async function obdelajBlob(blob) {
     const prek = new Blob(kosiPrek, { type: 'audio/webm' });
     kosiPrek = [];
     setTimeout(() => obdelajBlob(prek), 400);
+  }
+}
+
+async function testUho() {
+  porociStanje('preizkus ušesa…');
+  try {
+    const tok = await navigator.mediaDevices.getUserMedia({ audio: true });
+    const k = new AudioContext();
+    const mer = k.createAnalyser(); mer.fftSize = 512;
+    k.createMediaStreamSource(tok).connect(mer);
+    const podatki = new Uint8Array(mer.fftSize);
+    const uho = document.getElementById('uho');
+    const uhoB = document.getElementById('uho-besedilo');
+    const konec = Date.now() + 6000;
+    while (Date.now() < konec) {
+      mer.getByteTimeDomainData(podatki);
+      let s = 0; for (const v of podatki) { const d = (v - 128) / 128; s += d * d; }
+      const r = Math.sqrt(s / podatki.length);
+      uho.style.width = Math.min(100, Math.round(r * 700)) + '%';
+      uho.classList.toggle('slica', r > 0.022);
+      uhoB.textContent = r > 0.022 ? 'GLAS PRISOTEN ⊢' : 'tišina';
+      await new Promise((res) => setTimeout(res, 110));
+    }
+    tok.getTracks().forEach((t) => t.stop());
+    k.close();
+    porociStanje('preizkus končan — mikrofon deluje ⊢; zdaj odkljukaj "vedno prižgan"');
+  } catch (e) {
+    porociStanje('NAPAKA ' + e.name + ' — brskalnik je odrekel mikrofon. Kljukica/padlock levo od naslova → Mikrofon → Dovoli, potem F5');
   }
 }
 
