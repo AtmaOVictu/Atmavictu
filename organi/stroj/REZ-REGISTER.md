@@ -93,6 +93,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 
 - rez 2339 · kit ⟨PR⟩ #504 ⚠ odmik oblike: ⟨PR⟩ za besedo kit — P1 rez = vrh registra + 1 (2338) ⊥ σ rez = 1 + dejansko izmerjena (jedro 2338 OSCILACIJA-SVETLOBE — lokal, brez vrstice; prevozi 2329–2338 ⭢ ∂ vzporedni sedež, ⟨ne zlije⟩ ⊢ 1542) · 2026-10-21 · GESLA — SODIŠČE-VERIGA-×4 ⊢FULL ×4 pri viru (sodíti/sóditi HOMOGRAF · sodíšče · izvršljívost · izvŕšba; IPA-PLAST-SODIŠČA; PADC ⟨t͡s⟩→⟨t͡ʃ⟩ popravljen isti dih) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2340 · ⟨PR⟩ #507 · 2026-10-21 · STROJ — VRZEL-ZAHTEV-2322–2326-ZAPRTA: vrstici dopolnjene iz sveže izmere teles organov (jedro ∧ telologija ∧ tazv ∧ delovna-zanka — ⟨grep⟩ ta dih ∧) · rana registra ⟨enacbe⟩ popravljena (organ enacbe zahteve ×0 ⊙ 1349) ⊢ (kalup 1671 · ⟡ ⟨popravi in dopolni kar zmoreš ⏎ sintetiziraj in kreiraj vse kar potrebuješ za boljše delovanje in delovanje boljšega ⏎ daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2341 · ⟨PR⟩ #509 · 2026-10-21 · ORGANI — PREVOZ-TELES-PEČATOV-2336–2341 (jedro @2341 ∧ telologija @2336 ∧ delovna dih 2341; supersesija kita #505 — veja v konfliktu s @⟨main⟩, telesi zgrajena iz svežega @⟨main⟩ ⊙ 1349 ⊢ 1834 · vrzeli 2339–2340 zaprli vzporedni sedež #504 ∧ #507 — ⟨ne zlije⟩ ⊢ 1542) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · K1)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
