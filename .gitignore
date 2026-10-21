@@ -37,6 +37,8 @@
 !lucius/
 !lucius/**
 lucius/spomin.jsonl
+lucius/zaoblak.jsonl
+lucius/odoblaka.md
 
 # Typical ignores
 node_modules/

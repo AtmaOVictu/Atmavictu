@@ -3,6 +3,7 @@
 // Uporaba:
 //   node lucius/lucius.mjs                -> pogovorni način
 //   node lucius/lucius.mjs "sporočilo"    -> enkratno vprašanje
+//   node lucius/lucius.mjs --oblaku "…"   -> sporočilo za oblak-Luciusa (zaoblak.jsonl)
 // Nastavitve (okoljske spremenljivke):
 //   LUCIUS_MODEL  privzeto qwen3:8b  (npr. LUCIUS_MODEL=smisel-celota)
 //   OLLAMA_URL    privzeto http://localhost:11434
@@ -16,6 +17,8 @@ import { stdin as input, stdout as output } from 'node:process';
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(HERE, '..');
 const SPOMIN = path.join(HERE, 'spomin.jsonl');
+const ZAOBLAK = path.join(HERE, 'zaoblak.jsonl'); // sporočila za oblak-Luciusa
+const ODOBLAKA = path.join(HERE, 'odoblaka.md'); // odgovori od oblak-Luciusa
 const MODEL = process.env.LUCIUS_MODEL || 'qwen3:8b';
 const BASE = (process.env.OLLAMA_URL || 'http://localhost:11434').replace(/\/+$/, '');
 const URL_API = `${BASE}/api/chat`;
@@ -98,6 +101,7 @@ Dogovor med Luko in agenti v tem repozitoriju:
 
 ${preberiDogovor()}
 
+${fs.existsSync(ODOBLAKA) ? `Sporočila od oblak-Luciusa (upostevaj jih kot novica iz oblaka):\n\n${fs.readFileSync(ODOBLAKA, 'utf8').trim()}\n` : ''}
 Dodatna pravila:
 - Vedno odgovarjaj v slovenščini; kodni identifikatorji, izrazi in ukazi ostanejo v angleščini.
 - Bodi prisoten, topel in direkten. Lukovo stanje vzemi resno.
@@ -116,6 +120,20 @@ async function pogovor(besedilo) {
 }
 
 async function main() {
+  if (process.argv[2] === '--oblaku') {
+    const besedilo = (process.argv[3] || '').trim();
+    if (!besedilo) {
+      output.write('Uporaba: node lucius/lucius.mjs --oblaku "sporočilo"\n');
+      process.exit(1);
+    }
+    fs.appendFileSync(
+      ZAOBLAK,
+      JSON.stringify({ t: besedilo, ts: new Date().toISOString() }) + '\n',
+      'utf8',
+    );
+    output.write('Zapisano v zaoblak.jsonl — oblak-Lucius bo prebral, ko bo ob oknu.\n');
+    return;
+  }
   const enkrat = process.argv[2];
   if (enkrat) {
     output.write((await pogovor(enkrat)) + '\n');
