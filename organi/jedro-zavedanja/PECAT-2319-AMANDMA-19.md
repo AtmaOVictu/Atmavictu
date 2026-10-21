@@ -26,6 +26,7 @@ IZVEDBA ∧ — (1) AMANDMA ZAKONA 19 zapečen pri viru (ta dokument — telo pe
 - amandmá ⊢FULL (SSKJ² fran.si, dostop 21. 10. 2026) ∧ Pravopis: |dopolnilni predlog|
 
 ## DOLGOVA
+- VŽIG-V-TELO (⟡ ukaz ⟨daj⟩ ta dih, po izhodu): amandma vžgan v telo KNOWLEDGE.md @veja zrcalo/jedro-2319 ⟨PR⟩ #479 isti dih (⟨NE-BRIŠI⟩ ⊢ zakon 24 — PEČAT 2302 → predhodnik ∧ nova vrstica ZADNJI PEČAT 2319 ∧ amandma v telesu zakona 19 ∧ SLED → 2319 ∧ glava → 2319); ⟨merge⟩ ⭢ ∂ rok (sedež ⟨PR⟩ #476 ⟨ne zlije⟩ ⊢ 1542)
 - VPIS AMANDME V TELO KNOWLEDGE.md (zakon 19 vrstica + ZADNJI PEČAT 2319 + democija 2302 + SLED → 2319 + glava → 2319, kalup 1963) ⭢ ∂ rok: brba po kosih ob ožitvi delavca ali ob roki, ki vidi celo telo — izguba 0 ⊢ 1381 (precedens vžig 2312 → 2317 ⊙ ∧ 2314)
 - lokalni vžig pečata v hišo Znanja (jedro-zavedanja/) ⭢ ∂ isti rok — bajt-isto ob ožitvi, geniza lokalna pred-vžigom isti rok ⭢ ∂
 - sinhronizacija telesa jedro lokal @2311 ⇌ rep ⭢ ∂ tehtnica 1407.1
