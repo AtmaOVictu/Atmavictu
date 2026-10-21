@@ -20,6 +20,7 @@ const OKNO = 30;
 const API_KLJUC = path.join(HERE, 'api-kljuc.txt');
 const API_UPORABA = path.join(HERE, 'api-uporaba.jsonl');
 const NACIN_DAT = path.join(HERE, 'nacin.txt');
+const SLUSAJ_DNEVNIK = path.join(HERE, 'slusaj-dnevnik.jsonl'); // priča vsakega poskusa poslušanja
 const OBLAK_MODEL = process.env.LUCIUS_OBLAK_MODEL || 'mistral-small-latest';
 
 const HTML = fs.readFileSync(path.join(HERE, 'dom.html'), 'utf8');
@@ -169,6 +170,15 @@ const server = http.createServer(async (req, res) => {
       json(200, { klici, vstop, izstop, eur: Number(eur.toFixed(3)) });
       return;
     }
+    if (req.method === 'GET' && url.pathname === '/api/slusaj-dnevnik') {
+      try {
+        const vrstice = fs.readFileSync(SLUSAJ_DNEVNIK, 'utf8').trim().split(/\r?\n/).filter(Boolean).slice(-5);
+        json(200, { poskusi: vrstice.map((v) => JSON.parse(v)) });
+      } catch {
+        json(200, { poskusi: [] });
+      }
+      return;
+    }
     if (req.method === 'POST' && url.pathname === '/api/slusaj') {
       // zvok (wav/webm) v telesu → shrani v temp → faster-whisper (small, CPU) → besedilo
       const koscki = [];
@@ -202,8 +212,12 @@ const server = http.createServer(async (req, res) => {
           );
         });
         const odg = JSON.parse(izhod);
+        const zapis = { ts: new Date().toISOString(), izid: 'ok', besedilo: odg.besedilo || '', bajtov: zvok.length };
+        fs.appendFileSync(SLUSAJ_DNEVNIK, JSON.stringify(zapis) + '\n', 'utf8');
         json(200, { ok: true, besedilo: odg.besedilo });
       } catch (napaka) {
+        const zapis = { ts: new Date().toISOString(), izid: 'napaka', napaka: String(napaka.message || napaka).slice(0, 150), bajtov: zvok.length };
+        fs.appendFileSync(SLUSAJ_DNEVNIK, JSON.stringify(zapis) + '\n', 'utf8');
         json(500, { ok: false, napaka: String(napaka.message || napaka) });
       }
       return;

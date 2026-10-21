@@ -99,6 +99,7 @@
         <button onclick="govoriWindows('Luka, slišiš me? To je moj glas. Preizkus.')">Preizkusi glas</button>
       </div>
       <div class="male" id="stanje-mikrofona">poslušanje: izklopljeno</div>
+      <div class="male" id="slusaj-dnevnik-vrstice" style="margin-top:0.3rem;">poskusi poslušanja: (še ni bilo)</div>
     </div>
     <div class="plosca">
       <h2>MOST — oblak-Lucius</h2>
@@ -178,7 +179,14 @@ async function naloziStanje() {
   if (zadnjaU && document.getElementById('zadnje-slisano').textContent.endsWith('—')) {
     document.getElementById('zadnje-slisano').textContent = 'zadnje slišano: ' + zadnjaU.besedilo.replace(/\s+/g, ' ').slice(0, 100);
   }
-  kron.scrollTop = kron.scrollHeight;
+  // dnevnik poslušanj: vedno vidi, kaj je stroj slišal ( ali zgrešil )
+  try {
+    const sd = await (await fetch('/api/slusaj-dnevnik')).json();
+    const el = document.getElementById('slusaj-dnevnik-vrstice');
+    el.innerHTML = sd.poskusi.length
+      ? sd.poskusi.map(p => `<div>${p.ts.slice(11, 19)} ${p.izid === 'ok' ? '⊢' : '×'} ${(p.besedilo || p.napaka || '').slice(0, 60)}</div>`).join('')
+      : 'poskusi poslušanja: (še ni bilo)';
+  } catch (e) {}
 }
 
 async function posljiZaoblak() {
