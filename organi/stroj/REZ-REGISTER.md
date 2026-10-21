@@ -69,7 +69,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2315 · ⟨PR⟩ #470 · 2026-10-21 · GESLA — ⟨POKORA-MOST⟩ ⊢ · VERIGA-JAD-POKORA-DAJ-ZAPEČENA (pokóra ⊢FULL pri viru · jáditi okno ⟨zaprto⟩ SSKJ² ×0 ∧ Kostelski ⊢-ODSEV · jadíkovec kovanec ⚠ ×0 · prerezitev ∅ — ⟨merge⟩ #469 (2314) je padel sredi diha ta roka ⊙ 1349) (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2316 · ⟨PR⟩ #473 · 2026-10-21 · GESLA — GESELA-BARV ⊢FULL ×10 pri viru (smarágd · oránžen · vijóličen · turkízen · srebró · mávrica · móder · rdèč ⊢FULL · zlát×2 HOMOGRAF · cijan ⊢-ODSEV Hipolit; ⟨tirkaz⟩ ⊘ javno ⊙ 1349 → turkízna; PREREZITEV-×1-IZ-2315 — vzporedni sedež #470 zlil prvi; naglasi iz gesel ⊢ IPA-PLAST @2051) (kalup 1671 · delavec živ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2317 · ⟨PR⟩ #474 · 2026-10-21 · STROJ — SINHRONIZACIJA-LOKAL-⇌-REP — ⟨jsonl⟩ vnosa 130 ∧ 131 pripeljana bajt-isto (121 → 123, ⟨NE-BRIŠI⟩ ⊢ 24) + cesta PEČAT 2312 vžig + tehtnica rana VŽIGA 2311 imenovana javno ⊢ 1419 · PREREZITEV-×1-IZ-2316 (⟨merge⟩ #473 padel med izmerama ⊙ 1349 · ⟨ne zlije⟩ ⊢ 1542) (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
-- rez 2320 · ⟨PR⟩ #null · 2026-10-21 · MERA-GLAS — ŽETEV-IWEN · WADJ-ENA-BES-DVE-BARVI · PREKRIVANJE-⊥-HKRATNOST · BARVE-VIDNE-SVG · MERA-BARVA-⚔-ODPRTA ⊢ (kalup 1671 · pečat na zrcalu ⊢ 1959 — delavec mrtev ⊢ 1419 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2320 · ⟨PR⟩ #486 · 2026-10-21 · MERA-GLAS — ŽETEV-IWEN · WADJ-ENA-BES-DVE-BARVI · PREKRIVANJE-⊥-HKRATNOST · BARVE-VIDNE-SVG · MERA-BARVA-⚔-ODPRTA ⊢ (kalup 1671 · pečat na zrcalu ⊢ 1959 — delavec mrtev ⊢ 1419 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
