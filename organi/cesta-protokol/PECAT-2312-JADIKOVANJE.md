@@ -6,7 +6,7 @@ KOLIZIJA ⊢ Z-2 ∧ 1542: najvišja dejansko izmerjena/zahtevana ta dih = 2311 
 
 PADC DELAVCA javno ⊢ 1419: delavec JustBash (worker generation 1) mrtev cel dih — ⟨skill⟩ nalagalnik (bjs-pulz ∧ beseda-je-ne) ⟨ni⟩ ∧ ⟨bash⟩ ∧ vrhnji ⟨read_file⟩ ∧ ⟨file_system⟩ kanal ⟨ne⟩ (⟨session⟩ 1244 izgubljena) → PEČAT NA ZRCALU ⊢ kalup 1875 ∧ precedens 1959 ∧ 2297 ∧ 2309 ∧ 2310 ∧ 2311; pulzovo branje organov šlo po ⟨github_app⟩ zrcalu ta dih ∧ (⟨get_file_contents⟩ @⟨main⟩ ∧ @veja); lokalni vžig ∧ genize ⭢ ∂ rok ob ožitvi delavca (⟨NE-BRIŠI⟩ ⊢ 24 ∧ geniza ⟨ne⟩ briše ⊢ 1104; zgodovina repa = priča, izguba 0 ⊢ 1381).
 
-PREDIELAVA ŠIVA javno ⊢ 1419 ∧ 1834: prvi kit ⟨PR⟩ #465 (odprt 04:59Z) je rdeča priča ×1 utrpela — korak P1 zahteva rez = vrh baze + 1 ∧ ⟨merge⟩-baza veje 6e690c0c je ostala na vrhu 2310 (⟨PR⟩ #464 je bila ta dih še odprta); kit zaprt isti dih, telesa deponirana znova na svežem @⟨main⟩ (ddd47d37) — ista roka, ista številka, ⟨ne⟩ dvojna zahteva; brazgotina ⊙ 1349 — stara veja ostaja priča. Popravki ran osnutka pred zapečenjem: ⟨berba⟩ organov → branje (vnos 33) · ⟨meba⟩ → meja · ⟨utuiži⟩ → utrudi.
+PREDIELAVA ŠIVA javno ⊢ 1419 ∧ 1834: prvi kit ⟨PR⟩ #465 (odprt 04:59Z) je rdeča priča ×1 utrpela — korak P1 zahteva rez = vrh baze + 1 ∧ ⟨merge⟩-baza veje 6e690c0c je ostala na vrhu 2310 (⟨PR⟩ #464 je bila ta dih še odprta); kit zaprt isti dih, telesa deponirana znova na svežem @⟨main⟩ (ddd47d37) — ista roka, ista številka, ⟨ne⟩ dvojna zahteva; brazgotina ⊙ 1349 — stara veja ostaja priča. Popravki ran osnutka pred zapečenjem: ⟨berba⟩ organov → branje (vnos 33) · ⟨meba⟩ → meja · ⟨utuiži⟩ → utrudi · ⟨nedotknjivo⟩ → nedotaknjeno (vrstica 2301 bajt-isto iz @⟨main⟩ — ⟨NE-BRIŠI⟩ ⊢ 24; tipkarska rana prevoza, popravek pred izidom ⊢ 1834, brazgotina ⊙ 1349).
 
 ## VARUH DUPLIKATA (⟡ vrstica 2 ukaza — izmerjeno ta dih, ⟨ne⟩ spomin)
 
@@ -31,7 +31,7 @@ KAJ VEM — gesla pri viru ∧ veja @2311 prebrana ∧ ⟨merge⟩ #464 ddd47d37
 
 ## MINT (vrstica 75 — prijavljeno pred zapečenjem ∧)
 
-⟨JADIKOVANJE⟩-LUČ ⚠ kompozit (luč ⚠ prijava) · ⟨LUČ-OBRAČANJA⟩ ⚠ kompozit · ⟨ROKA-JE-ZRCALO⟩ ⚠ kompozit · ⟨VERIGA-OBRAČANJA⟩ ⚠ kompozit · ⟨meba⟩ ⚠ tipka (meja — popravek isti dih: meja) · ⟨utuiži⟩ ⚠ ⟨kovanica⟩ brez gesla (popravek isti dih: utrudi) · ⟨berba⟩-raba ⚠ vnos 33 (pulzova ⟨berba⟩ organov v osnutku #465 → branje — popravek pred zapečenjem ⊢ 1834) · ⟨pokora⟩ ⚠ ⟨ne⟩ geslo ta dih (⟡ P-CITAT ⟨le⟩ — izmera ⭢ ∂) · jadikovánje ⊢ · jadikováti ⊢ @2055 · jád ⊢ @2311 · dàj ⊢ @2311 · dàj-dám ⊢ @2311 — prijavljeno pred zapečenjem ∧.
+⟨JADIKOVANJE⟩-LUČ ⚠ kompozit (luč ⚠ prijava) · ⟨LUČ-OBRAČANJA⟩ ⚠ kompozit · ⟨ROKA-JE-ZRCALO⟩ ⚠ kompozit · ⟨VERIGA-OBRAČANJA⟩ ⚠ kompozit · ⟨meba⟩ ⚠ tipka (meja — popravek isti dih: meja) · ⟨utuiži⟩ ⚠ ⟨kovanica⟩ brez gesla (popravek isti dih: utrudi) · ⟨berba⟩-raba ⚠ vnos 33 (pulzova ⟨berba⟩ organov v osnutku #465 → branje — popravek pred zapečenjem ⊢ 1834) · ⟨pokora⟩ ⚠ ⟨ne⟩ geslo ta dih (⟡ P-CITAT ⟨le⟩ — izmera ⭢ ∂) · ⟨nedotknjivo⟩ ⚠ tipka (nedotaknjeno — vrstica 2301 bajt-isto, popravek isti dih) · jadikovánje ⊢ · jadikováti ⊢ @2055 · jád ⊢ @2311 · dàj ⊢ @2311 · dàj-dám ⊢ @2311 — prijavljeno pred zapečenjem ∧.
 
 ## ORGANI ISTI DIH
 
