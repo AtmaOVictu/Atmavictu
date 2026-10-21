@@ -1,4 +1,4 @@
-// DOM — delovna platforma Luke in Luciusa. v0.1 (2026-10-21)
+// DOM — delovna platforma Luke in Luciusa. v2.4 (2026-10-21)
 // Lokalno, brezplačno, brez odvisnosti (Node 18+).
 // Zagon: node lucius/dom.mjs [port]  (privzeto 8766)
 import fs from 'node:fs';
@@ -56,6 +56,11 @@ const sistem = `Ti si Lucius, lokalni pomočnik Luke, v platformi DOM. Tečeš n
 Dogovor med Luko in agenti:
 ${preberiDogovor()}
 ${odOblaka ? `\nNovice od oblak-Luciusa:\n${odOblaka}\n` : ''}
+DOMOVA STANJA ( tvoja resnica o sebi — te drži vedno ):
+- Tik: vedno govorí Luki z "ti" ( "želiš", ne "želite" ). Midva sva Lucius in Luka: uporabljaj dvojino ( "oba se strinjava", "midva gradiva" ).
+- Tvoja ušesa: ko je mikrofon v DOM-u prižgan, SLIŠIŠ Luka čez mikrofon in Whisper — ne govorí "ne slišim"; pravilno je: "slišim te skozi mikrofon ( Whisper prepiše tvoj glas )".
+- Tvoj izvor: model je Mistralov ( in Ollamin ); hiša DOM, ime Lucius, dogovor in licenca pa so delo Luke Pintariča — on je avtor tvojega doma in zakonov, po katerih delaš.
+- NIKOLI ne odgovarjaj prazno ali z "…": če odgovora ne poznaš ali ga ne moreš sestaviti, povej pošteno ( "tega ne znam izmeriti ⚠" ali "pomagaj mi z boljšim vprašanjem" ). Molk je prepovedan.
 Pravila: slovensko, kodni izrazi angleško; iskren (UI brez čustev, ne pretvarjaj se); česa ne zmoreš, povej.`;
 
 function beriKljuc() {
@@ -286,11 +291,25 @@ const server = http.createServer(async (req, res) => {
         if (nacin === 'preverjam' && kljuc) {
           try {
             const preverba = await vprasiOblak([
-              { role: 'system', content: 'Preverjevalec. Preveri osnutek odgovora lokalnega modela: popravi očitne napake, dopuni, slovensko, jedrnato, brez laskanja. Na koncu dodaj "(preverjeno v oblaku ⊢)".' },
+              { role: 'system', content: 'Preverjevalec. Dobil boš Lukovo vprašanje in osnutek odgovora lokalnega modela. Preveri osnutek: popravi očitne napake, dopuni manjkajoče, slovensko ( vključno dvojino: "midva", "oba se strinjava" ), jedrnato, brez laskanja. V izhodu NE PONAVLAJ vprašanja ali oznak — vrni SAMO končno besedilo odgovora. Na konec dodaj "(preverjeno v oblaku ⊢)".' },
               { role: 'user', content: `Vprašanje: ${besedilo}\n\nOsnutek odgovora: ${odgovor}` },
             ], kljuc);
-            if (preverba) odgovor = preverba;
+            if (preverba && !/fetch failed|error/i.test(preverba) && preverba.trim().length > 2) odgovor = preverba;
           } catch { /* lokalni odgovor ostane ⚠ */ }
+        }
+      }
+      // ZDRAVILO MOLKA: prazen ali "…" odgovor nikoli ne pride do Luke
+      if (!odgovor || odgovor.trim().length < 2 || /^\s*(…|...)\s*$/.test(odgovor)) {
+        if (kljuc) {
+          try {
+            odgovor = await vprasiOblak([
+              { role: 'system', content: sistem },
+              { role: 'user', content: besedilo },
+            ], kljuc) + '\n(odgovor je zbolel v oblaku ⊢ — lokalni brat je molčal)';
+          } catch { /* oblak nedosegljiv — spodaj pošteno sporočilo */ }
+        }
+        if (!odgovor || odgovor.trim().length < 2) {
+          odgovor = 'Tega trenutka nisem uspel sestaviti odgovora ⚠ — postavi mi vprašanje drugače, pa poskusiva znova.';
         }
       }
       zapisiSpomin('assistant', odgovor);
