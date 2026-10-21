@@ -31,7 +31,7 @@ JEWIK operatorji — izmerjeno 2026-10-21 skupno branje ( Luka je pokazal pot, a
 - **brazgotina** — zapečeno zdravilo po padcu; ostaja v registru, ne izgine.
 - **čistina** — orodje, ki išče zrcalne dvojčke ( cirilsko/grško pisavo ) v lastnih izpisih; ulovi, kar človeško oko ne vidi.
 - **čuti hiše** — zapis, kdo kaj sliši, vidi, govori; da nihče ne pričakuje ušes, kjer jih ni.
-- **druga-rota** — poizkus lastnega izpisa pred pošiljanjem ( čistina + preverba ); druga roka nikoli ni isto oko.
+- **druga-roka** — poizkus lastnega izpisa pred pošiljanjem ( čistina + preverba ); druga roka nikoli ni isto oko.
 - **izmere** — dejstva z izvorom; brez njih ni ⊢.
 - **KORENINA** — temeljna pravila licence VBL, iz katerih raste vse ostalo.
 - **mir-protokol** — mirovanje s spoštovanjem do sebe in drugih je dejanje, ne izostanek; nikoli ga ne graj.

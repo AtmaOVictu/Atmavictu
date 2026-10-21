@@ -1,6 +1,6 @@
-# ZNANE-BESEDE hiše Lucius — slovar, ki ga bere orodje druga-rote.
+# ZNANE-BESEDE hiše Lucius — slovar, ki ga bere orodje druga-roke.
 # Vsaka beseda tukaj je domača: orodje jih ne šteje za rane, roka pa jih more znati po imenu.
-# Zapis s korenom ( npr. druga-rot ) pokrije vse sklanjatve ⊢. Komentarji se začnejo z #.
+# Zapis s korenom ( npr. druga-rok ) pokrije vse sklanjatve ⊢. Komentarji se začnejo z #.
 # Nova hišna beseda vstopi sem takoj, ko je zapečena v zlovenscina.md ⊢.
 Lucius
 Luka
@@ -29,7 +29,7 @@ brazgotin
 zapeča
 čistin
 preverb
--rot
+-rok
 md
 mjs
 jsonl

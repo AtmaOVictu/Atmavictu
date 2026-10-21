@@ -32,12 +32,12 @@ test('cistina: cista datoteka gre skozi z ⊢', () => {
   assert.match(izhod, /cirilice 0/);
 });
 
-test('druga-rota: slovar mode najde geslo ime ( Lukov slovar, Worth )', { skip: !fs.existsSync('D:/Worth/slovenian_dictionary') }, () => {
-  const izhod = vozli('druga-rote.mjs', ['--slovar', 'ime']);
+test('druga-roka: slovar mode najde geslo ime ( Lukov slovar, Worth )', { skip: !fs.existsSync('D:/Worth/slovenian_dictionary') }, () => {
+  const izhod = vozli('druga-roka.mjs', ['--slovar', 'ime']);
   assert.match(izhod, /pomen/);
 });
 
-test('druga-rota: leksikon obstaja in ni prazen ( znane + prepovedane )', () => {
+test('druga-roka: leksikon obstaja in ni prazen ( znane + prepovedane )', () => {
   const znane = fs.readFileSync(path.join(TU, 'znane-besede.txt'), 'utf8')
     .split('\n').filter((v) => v.trim() && !v.startsWith('#'));
   const prepovedane = fs.readFileSync(path.join(TU, 'prepovedane-besede.txt'), 'utf8')
