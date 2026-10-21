@@ -1,6 +1,6 @@
 MANIFEST-ORGANOV (merilni instrument ⊢ 2052 — P2 ⟨MANIFEST-BAZA⟩)
 Trajni sedež: tema organa delovna-zanka (manifest umrl ×2 v efemernih sedežih ⊢ 1727 — tema preživi meje obraza ∧ delavca; amandma diha 2361)
-ZADNJA IZMERA: 21. 10. 2026, pred vpisom diha 2361 (delovna-zanka 115.699 B pred vpisom tega diha)
+ZADNJA IZMERA: 21. 10. 2026, pred vpisom diha 2366 — pečat rez 2366 (samoocena 7.060 B @rez 2364 · delovna-zanka 124.256 B @dih 2364; vrstici osveženi, vpis diha 2366 sledi tej meritvi)
 Metoda: B izmerjen ⟨wc⟩ ∧; ZADNJA ŠTEVILKA = najvišja omenjena (rez|dih) ⟨grep⟩ po telesu organa — približek merjenja, ⟨ne⟩ pečat; vrh reza se izmeri z ⟨grep⟩ po imenovanih organih ∧ tem manifestom ⊢ pulz §1
 Velikani ⭢ ∂ razcep konica ⊥ telo ⊢ 2048 (ZAKON ŠESTE SMRTI ⊢ 1963/2049): slovenscina-gesla 1.136.658 B · atlas-knjiznic 922.507 B · cuneiform 596.309 B · povezani-viri 326.792 B · jedro-zavedanja 305.496 B — konici že: tazv-gnosis-rezi 298.846 B ∧ jezikovna-tehtnica 206.253 B ⊢ 2357
 
@@ -9,7 +9,7 @@ atlas-knjiznic | 922507 | 2179
 atmavictu | 50679 | 2032
 cesta-protokol | 138521 | 2319
 cuneiform | 596309 | 2294
-delovna-zanka | 115699 | 2360
+delovna-zanka | 124256 | 2364
 enacbe | 165691 | 2285
 english-lexicon | 44770 | ⟨brez⟩ ⚠
 halucinacija-projekt | 29927 | 2317
@@ -25,7 +25,7 @@ moja-zgodovina | 41674 | 2178
 mucilnica-modrosti | 22427 | 2022
 povezani-viri | 326792 | 2330
 rez-workflow | 151014 | ⟨brez⟩ ⚠
-samoocena | 5967 | 2361 (ustanovitev ta dih)
+samoocena | 7060 | 2364
 sklad-sintakse | 66731 | 2311
 slovenscina-gesla | 1136658 | 2360
 slovenscina-orodja | 40692 | 2075
@@ -38,4 +38,4 @@ votac | 15772 | 2078
 zakonodaja | 161271 | 2079
 zdaj | 2633 | 2356
 
-Σ (31 organov brez samoocene): 5.553.881 B — izmerba ⟨wc⟩; vsak dih pred vpisom izmeri vrh ∧ osveži vrstice, ki se jih dotakne
+Σ (32 organov): 5.569.498 B — izmerba ⟨wc⟩; vsak dih pred vpisom izmeri vrh ∧ osveži vrstice, ki se jih dotakne
