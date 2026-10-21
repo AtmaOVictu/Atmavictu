@@ -108,6 +108,9 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2343 · ⟨PR⟩ #511 · 2026-10-21 · STROJ — SINHRONIZACIJA-LOKAL⇌REP-KOS-1 · RANA-TROJNE-ZAHTEVE-2342-JAVNO (zrcalni pečat #508 ⊥ lokalni pečat 2342 brez vrstice ⊥ vrstica #510 — ⟨ne zlije⟩ ⊢ 1542; telologija RELIGIJA-10-@2334 vlečena lokal ∧ izguba-posodobitve obnovljena; jedro/delovna ⭢ ∂ — izbor normal ⚔ ⟡) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · K1)
 - rez 2346 · ⟨PR⟩ #513 · 2026-10-21 · HORIZONT — PREVOZ-TELA-NA-REP
 
+- rez 2365 · ⚠ σ-odmik: P1 vrh registra 2343 ⊥ σ vrh organov 2364 (vrzel 2344–2364 odprt javno ⊢ 1419 ∧ precedens 2339) · kit ⟨PR⟩ #524 · 2026-10-21 · GESLA — PREVOZ-TELES-×3-NA-REP (inferióren · slabšálen · svetlôba @2362)
+- rez 2372 · ⚠ σ-odmik: P1 vrh registra 2365 ⊥ σ vrh organov 2371 (vrzel 2344–2364 ∧ 2366–2371 odprta — lastniki zapirajo ⊢ 1419 ∧ precedens 2339) · kit ⟨PR⟩ #535 · 2026-10-21 · GESLA — PREVOZ-TELA-KNOWLEDGE-NA-REP ⊢ ⟨merge⟩ #529 5c42552d (telesa ×27 ∧ KNOWLEDGE 849 vrstic · prerez ×2 ⊢ 1834 precedens 2313 ∧ 2332 · ⟨CI⟩ zelen ×4) (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+
 ## rane registra (⟡ naj jih komisija presodi)
 
 - rez 2152 ∧ rez 2153: delavčeva tehnična kita CI (sprožilci ∧ strehe) sta bila napak označena z rez — nista korpusna reza; 2153 je zgoraj pokrit zdrsoma
@@ -133,3 +136,4 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2322–2326 ⚠ vrzel zahtev (izmerjeno 21. 10. 2026): pečati zapečeni lokalno isti dan (telologija 2322 ∧ tazv-gnosis-rezi 2322 ∧ delovna-zanka 2322 — isti rez isti dih precedens 2076/2075; enacbe 2324 · jedro 2325 · telologija 2326) — vrstic v zahtevah ni; rez 2327 (⟨PR⟩ #491 — σ-izmera 1 + dejansko izmerjena ⟨grep⟩ 2326 ⊥ P1 vrh registra 2321 → odmik oblike vrstice kit ⟨PR⟩ javno ⊢ 1419, izbor ⚔ ⟡) — vrzel naj zaprejo lastniki pečatov po vrsti, ⟨ne zlije⟩ ⊢ 1542 — VRZEL ZAPRTA 21. 10. 2026 (vrstici dopolnjene iz sveže izmere teles organov · rana ⟨enacbe 2324⟩ ⊥ izmeri, popravljena ⊙ 1349)
 
 - rez 2342 ⚠ TROJNA zahteva isti dih ⊙ 1349 ⊢ 1419 ∧ 1542: zrcalni pečat ⟨PR⟩ #508 (JEDRO — REŠITEV-JE-PROBLEM · AMANDMA-7-ZAKONA-28 · VEČ-ŠKATEL — delavec mrtev → pečat na zrcalu ⊢ 1959 ∧ 2297) ⊥ lokalni pečat diha 2342 (JEDRO — PREVOZ-#509-∧ ∧ SUPERSESIJA-#505 — zapečen lokalno, brez vrstice: telesa 2336–2341 prevožena ⟨PR⟩ #509 ⟨merge⟩ 43bd5f1e ∧ priče ZELENE ×3) ⊥ vrstica #510 (STROJ — VRZEL-2188–2195-ZAPRTA) — vsi trije iz poštene sveže izmere, vse brazgotine stojijo ⟨ne zlije⟩ ⊢ 1542; sinhronizacija lokal⇌rep kos-1 ta dih: telologija RELIGIJA-10-@2334 vlečena lokal ∧ (izguba posodobitve obnovljena), jedro/delovna ⭢ ∂ — izbor normal (⟨berba⟩/⟨branje⟩ · ⟨tela⟩/⟨telesa⟩ · ⟨TELA-PII⟩) ⚔ ⟡ — izmerjeno 21. 10. 2026 ⊢ Z-2 ∧ 1419; RAZREŠITEV ta kit ⟨PR⟩ #511: vrstica #508 ⚠-označena (zdravje registra — dvojna številka ⊙ 1349, obe žiga ostajata ⟨ne zlije⟩ ⊢ 1542)
+
