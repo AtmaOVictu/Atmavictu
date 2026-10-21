@@ -4,11 +4,14 @@
 //   node lucius/lucius.mjs                -> pogovorni način
 //   node lucius/lucius.mjs "sporočilo"    -> enkratno vprašanje
 //   node lucius/lucius.mjs --oblaku "…"   -> sporočilo za oblak-Luciusa (zaoblak.jsonl)
+//   --glas  -> odgovor tudi izgovorjen (Windows TTS, offline)
 // Nastavitve (okoljske spremenljivke):
 //   LUCIUS_MODEL  privzeto qwen3:8b  (npr. LUCIUS_MODEL=smisel-celota)
 //   OLLAMA_URL    privzeto http://localhost:11434
 
 import fs from 'node:fs';
+import os from 'node:os';
+import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import readline from 'node:readline/promises';
@@ -64,6 +67,26 @@ function odstraniMiselnike(besedilo) {
   return besedilo.replace(/<think>[\s\S]*?<\/think>/g, '').trim();
 }
 
+// Izgovori besedilo prek Windows TTS (System.Speech) — deluje tudi brez interneta.
+// Pozor: brez nameščenega slovenskega glasu č/š/ž zvenijo po angleško.
+function izgovori(besedilo) {
+  const dat = path.join(os.tmpdir(), `lucius-glas-${process.pid}-${Date.now()}.txt`);
+  fs.writeFileSync(dat, '\ufeff' + besedilo, 'utf16le');
+  return new Promise((razresi) => {
+    const postopek = spawn('powershell.exe', [
+      '-NoProfile', '-Command',
+      '$t = Get-Content -LiteralPath $args[0] -Encoding Unicode; Add-Type -AssemblyName System.Speech; $s = New-Object System.Speech.Synthesis.SpeechSynthesizer; $s.Speak($t); $s.Dispose()',
+      dat,
+    ]);
+    const konec = () => {
+      try { fs.unlinkSync(dat); } catch { /* temp že pobrisan */ }
+      razresi();
+    };
+    postopek.on('close', konec);
+    postopek.on('error', konec);
+  });
+}
+
 async function vprasiOllamo(sporocila) {
   const telo = {
     model: MODEL,
@@ -101,7 +124,7 @@ Dogovor med Luko in agenti v tem repozitoriju:
 
 ${preberiDogovor()}
 
-${fs.existsSync(ODOBLAKA) ? `Sporočila od oblak-Luciusa (upostevaj jih kot novica iz oblaka):\n\n${fs.readFileSync(ODOBLAKA, 'utf8').trim()}\n` : ''}
+${fs.existsSync(ODOBLAKA) ? `Sporočila od oblak-Luciusa (upoštevaj jih kot novico iz oblaka):\n\n${fs.readFileSync(ODOBLAKA, 'utf8').trim()}\n` : ''}
 Dodatna pravila:
 - Vedno odgovarjaj v slovenščini; kodni identifikatorji, izrazi in ukazi ostanejo v angleščini.
 - Bodi prisoten, topel in direkten. Lukovo stanje vzemi resno.
@@ -120,8 +143,12 @@ async function pogovor(besedilo) {
 }
 
 async function main() {
-  if (process.argv[2] === '--oblaku') {
-    const besedilo = (process.argv[3] || '').trim();
+  const argumenti = process.argv.slice(2);
+  const glas = argumenti.includes('--glas');
+  const ostali = argumenti.filter((a) => a !== '--glas');
+
+  if (ostali[0] === '--oblaku') {
+    const besedilo = (ostali[1] || '').trim();
     if (!besedilo) {
       output.write('Uporaba: node lucius/lucius.mjs --oblaku "sporočilo"\n');
       process.exit(1);
@@ -134,18 +161,22 @@ async function main() {
     output.write('Zapisano v zaoblak.jsonl — oblak-Lucius bo prebral, ko bo ob oknu.\n');
     return;
   }
-  const enkrat = process.argv[2];
+  const enkrat = ostali[0];
   if (enkrat) {
-    output.write((await pogovor(enkrat)) + '\n');
+    const odgovor = await pogovor(enkrat);
+    output.write(odgovor + '\n');
+    if (glas) await izgovori(odgovor);
     return;
   }
-  output.write(`Lucius (lokalno, model: ${MODEL}). Piši 'izhod' za konec.\n`);
+  output.write(`Lucius (lokalno, model: ${MODEL}${glas ? ', glas: vklopljen' : ''}). Piši 'izhod' za konec.\n`);
   const rl = readline.createInterface({ input, output });
   for (;;) {
     const besedilo = (await rl.question('ti> ')).trim();
     if (!besedilo || ['izhod', 'exit', 'quit'].includes(besedilo.toLowerCase())) break;
     try {
-      output.write(`Lucius: ${await pogovor(besedilo)}\n\n`);
+      const odgovor = await pogovor(besedilo);
+      output.write(`Lucius: ${odgovor}\n\n`);
+      if (glas) await izgovori(odgovor);
     } catch (napaka) {
       output.write(`Lucius: (napaka: ${napaka.message})\nPreveri, ali Ollama teče: ollama serve\n\n`);
     }
