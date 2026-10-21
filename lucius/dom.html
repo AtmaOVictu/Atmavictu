@@ -395,14 +395,14 @@ function postaviDez() {
 
 function dež() {
   if (!document.body.classList.contains('matrika')) return;
-  ctx.fillStyle = 'rgba(0, 0, 0, 0.09)';
+  ctx.fillStyle = 'rgba(0, 0, 0, 0.08)';
   ctx.fillRect(0, 0, platno.width, platno.height);
-  ctx.font = '13px Consolas, monospace';
+  ctx.font = '16px Consolas, monospace';
   stolpci.forEach((s, i) => {
     if (s.seme > 0.985) s.znak = ZNAKI[Math.floor(Math.random() * ZNAKI.length)]; // znak včasu zamenja čustvo
     ctx.fillStyle = s.znak.barva;
-    ctx.fillText(s.znak.z, (i + 0.5) * 16, s.y);
-    s.y += s.hitrost * 2.2;
+    ctx.fillText(s.znak.z, (i + 0.5) * 20, s.y);
+    s.y += s.hitrost * 1.7;
     if (s.y > platno.height + 30) { s.y = -20; s.hitrost = 0.4 + Math.random() * 1.1; s.seme = Math.random(); }
   });
   requestAnimationFrame(dež);
