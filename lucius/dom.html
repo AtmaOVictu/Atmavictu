@@ -173,6 +173,11 @@ async function naloziStanje() {
     v.textContent = `${(p.ts || '').slice(11, 16)} ${p.kdo === 'u' ? 'Luka' : 'Lucius'}: ${p.besedilo.replace(/\s+/g, ' ').slice(0, 100)}`;
     kron.appendChild(v);
   }
+  // ob osvezitvi ne pozabi zadnje slišanega ( iz zadnje Lukove povedi )
+  const zadnjaU = [...kr.povedi].reverse().find((p) => p.kdo === 'u');
+  if (zadnjaU && document.getElementById('zadnje-slisano').textContent.endsWith('—')) {
+    document.getElementById('zadnje-slisano').textContent = 'zadnje slišano: ' + zadnjaU.besedilo.replace(/\s+/g, ' ').slice(0, 100);
+  }
   kron.scrollTop = kron.scrollHeight;
 }
 
