@@ -57,6 +57,12 @@ jobs:
   web:
     runs-on: ubuntu-24.04
     timeout-minutes: 10
+    env:
+      # playwright npm paket ob npm ci privzeto prenaša brskalnike (~300 MB) —
+      # CI rabi samo typecheck + build, brskalnike pa ne (posel 21. 10. 2026
+      # padel v timeout 10 min prav zaradi tega prenosa; priča: check run web,
+      # run 39620715338).
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
