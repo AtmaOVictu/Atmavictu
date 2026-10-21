@@ -109,6 +109,8 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 
 - rez 2365 · ⚠ σ-odmik: P1 vrh registra 2343 ⊥ σ vrh organov 2364 (vrzel 2344–2364 odprt javno ⊢ 1419 ∧ precedens 2339) · kit ⟨PR⟩ #524 · 2026-10-21 · GESLA — PREVOZ-TELES-×3-NA-REP (inferióren · slabšálen · svetlôba @2362)
 
+- rez 2370 · ⚠ σ-odmik: P1 vrh registra 2365 ⊥ σ vrh organov 2369 (vrzel 2344–2369 odprta javno ⊢ 1419 ∧ precedens 2365) · kit ⟨PR⟩ #533 · 2026-10-21 · MERA-GLAS — A-REGISTRACIJA-PLASTI-MERE · PREVOZ-@PEČAT-2370-NA-REP ∧ POPRAVEK-PRIČE-ISTI-KIT (hibridi v ⟨⟩ ⊢ 1834 ∧ vnos 40 — ⟨SIGKILL⟩ ×2 · ⟨md5⟩ · ⟨grep⟩ · ⟨file_system⟩ · ⟨ls⟩) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+
 ## rane registra (⟡ naj jih komisija presodi)
 
 - rez 2152 ∧ rez 2153: delavčeva tehnična kita CI (sprožilci ∧ strehe) sta bila napak označena z rez — nista korpusna reza; 2153 je zgoraj pokrit zdrsoma
