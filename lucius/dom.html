@@ -119,6 +119,7 @@
   <!-- SREDINA: klepet -->
   <div class="plosca">
     <h2>POGOVOR — z bratom (Ollama) in oblakom (preverba ⊢)</h2>
+    <div class="male" id="zadnje-slisano" style="font-size:1rem; color:#4dff88; margin-bottom:0.3rem;">zadnje slišano: —</div>
     <div class="klepet" id="klepet"></div>
     <div class="tipkice">
       <input type="text" id="pogovor-vnos" placeholder="Napiši Luciusu…" onkeydown="if(event.key==='Enter')posljiPogovor()" style="flex:1;">
@@ -376,6 +377,7 @@ async function obdelajBlob(blob) {
   const odg = await (await fetch('/api/slusaj', { method: 'POST', body: blob })).json();
   if (!odg.ok || !odg.besedilo) { zaposken = false; porociStanje('poslušam…'); return; }
   dodajKlepet('ti', odg.besedilo);
+  document.getElementById('zadnje-slisano').textContent = 'zadnje slišano ⊢: ' + odg.besedilo;
   if (document.getElementById('oblak-zveza')?.checked) {
     fetch('/api/zaoblak', { method: 'POST', headers: { 'content-type': 'application/json' },
       body: JSON.stringify({ besedilo: '(glas) ' + odg.besedilo }) });
