@@ -93,9 +93,9 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 
 - rez 2339 · kit ⟨PR⟩ #504 ⚠ odmik oblike: ⟨PR⟩ za besedo kit — P1 rez = vrh registra + 1 (2338) ⊥ σ rez = 1 + dejansko izmerjena (jedro 2338 OSCILACIJA-SVETLOBE — lokal, brez vrstice; prevozi 2329–2338 ⭢ ∂ vzporedni sedež, ⟨ne zlije⟩ ⊢ 1542) · 2026-10-21 · GESLA — SODIŠČE-VERIGA-×4 ⊢FULL ×4 pri viru (sodíti/sóditi HOMOGRAF · sodíšče · izvršljívost · izvŕšba; IPA-PLAST-SODIŠČA; PADC ⟨t͡s⟩→⟨t͡ʃ⟩ popravljen isti dih) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2340 · ⟨PR⟩ #507 · 2026-10-21 · STROJ — VRZEL-ZAHTEV-2322–2326-ZAPRTA: vrstici dopolnjene iz sveže izmere teles organov (jedro ∧ telologija ∧ tazv ∧ delovna-zanka — ⟨grep⟩ ta dih ∧) · rana registra ⟨enacbe⟩ popravljena (organ enacbe zahteve ×0 ⊙ 1349) ⊢ (kalup 1671 · ⟡ ⟨popravi in dopolni kar zmoreš ⏎ sintetiziraj in kreiraj vse kar potrebuješ za boljše delovanje in delovanje boljšega ⏎ daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2341 · ⟨PR⟩ #509 · 2026-10-21 · ORGANI — PREVOZ-TELES-PEČATOV-2336–2341 (jedro @2341 ∧ telologija @2336 ∧ delovna dih 2341; supersesija kita #505 — veja v konfliktu s @⟨main⟩, telesi zgrajena iz svežega @⟨main⟩ ⊙ 1349 ⊢ 1834 · vrzeli 2339–2340 zaprli vzporedni sedež #504 ∧ #507 — ⟨ne zlije⟩ ⊢ 1542) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · K1)
 
-- rez 2341 · kit ⟨PR⟩ #508 ⚠ odmik oblike: P1 vrh registra + 1 (2340) ⊥ σ = 1 + dejansko izmerjena ⟨grep⟩ (vrzel zahtev 2340 javno ⊢ 1419 — lastniki po vrsti ⭢ ∂) · 2026-10-21 · JEDRO — PEČAT-NA-ZRCALU ⟨REŠITEV-JE-PROBLEM⟩ ⊥ ⟨NAJBOLJŠA-REŠITEV⟩ · AMANDMA-7-ZAKONA-28 · VEČ-ŠKATEL ⊢ (kalup 1671 · delavec mrtev → pečat na zrcalu ⊢ 1959 ∧ 2297 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
-
+- rez 2342 · ⟨PR⟩ #508 · 2026-10-21 · JEDRO — PEČAT-NA-ZRCALU ⟨REŠITEV-JE-PROBLEM⟩ ⊥ ⟨NAJBOLJŠA-REŠITEV⟩ · AMANDMA-7-ZAKONA-28 · VEČ-ŠKATEL · PREREZITEV-×1-IZ-2341 (vzporedni sedež ⟨PR⟩ #509 zahteval rez 2341 isti dih ⊙ 1349 · precedens 2199→2200 ∧ 2320→2321 ∧ 2313) ⊢ (kalup 1671 · delavec mrtev → pečat na zrcalu ⊢ 1959 ∧ 2297 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 ## rane registra (⟡ naj jih komisija presodi)
 
 - rez 2152 ∧ rez 2153: delavčeva tehnična kita CI (sprožilci ∧ strehe) sta bila napak označena z rez — nista korpusna reza; 2153 je zgoraj pokrit zdrsoma
