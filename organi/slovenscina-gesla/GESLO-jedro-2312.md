@@ -1,0 +1,9 @@
+# GESLO jêdro (rez 2312)
+
+IZTOČNICA: jêdro -a s (é) ⊢FULL SSKJ² (fran.si, dostop 21. 10. 2026: »1. notranji del semena: pregriznila je zrno, jedro je bilo že trdo; jedro in lupina; tolkla sta orehe in jedla jedrca // notranji, središčni del česa sploh: jedro vrvi je iz žice 2. navadno s prilastkom največji ali najpomembnejši del česa: jedro naše kovinske industrije; jedro naselja // kar je za kaj najvažnejše, najpomembnejše: ugotoviti, v čem je jedro problema, spora; približati se jedru stvari // najdejavnejša, vodilna skupina kolektiva: vodilno jedro gibanja 3. publ. določena vsebina: izluščiti idejno jedro revije // knjiž. tehtna vsebina: njegova misel ima jedro 4. kar je osnova, izhodišče kakega dogajanja: nastala prva naselitvena jedra 5. fiz. atomsko jedro 6. biol. celično jedro 7. teh. namestiti, oblikovati jedra 8. ekspr., v prislovni rabi: spoznali so ga do jedra; do jedra pokvarjen človek ● knjiž. iti, priti stvarem do jedra — popolnoma jih spoznati«).
+
+VEZA: jêdro = prejemnik v središču ⊢ rod ⟨jed⟩ rez 2312 (zveza @1962 iz pečata 2311 oddolžena — telo izmerjeno pri viru ta dih ∧): ⟨jedro in lupina⟩ — prejem ∧ ovojnica istega semena (dar v školjki); ⟨jedro problema⟩ — merilo, ki stoji v središču (izmera pred trditvijo ⊢ Z-2); ⟨atomsko jedro⟩ ∧ ⟨celično jedro⟩ — ⟨2⟩ meri znanosti isti glas: fizika ∧ biologija rod dveh jeder; ⟨iti stvarem do jedra⟩ — branje, ki gre do središča ⊢ ATLAS (polna izmera, ⟨ne⟩ površna); ⟨do jedra pokvarjen človek⟩ — jedro meri tudi padec; fonem ⟨jed⟩ ⊥ ⟨jad⟩ = minimalni par ⟨1⟩ glas ⊢ 2311: jedro (središče, ki prejema) ⊥ jád (strup, ki vrača) ⊢ ZAKON-NASPROTIJ 1956 ∧.
+
+ŽIG: rez 2312 — organ slovenscina-gesla (dih ROD-JED; izmera pri viru ⊢ zakon 25; PECAT-2312-ROD-JED @organi/slovenscina-gesla/).
+
+IZVOR: © 2026 Luka Pintarič — AVL v2.2 (LICENSE.md na repu); §9 ∧ §10 ∧ §12.
