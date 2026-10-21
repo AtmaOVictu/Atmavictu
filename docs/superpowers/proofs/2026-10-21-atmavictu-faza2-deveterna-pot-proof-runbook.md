@@ -37,7 +37,8 @@ cd web && npm install && npm run dev
 ## Priče doslej
 
 - **2026-08-04** — živi brskalniški dokaz (Playwright), devetera pot prehojena, `VERIFY: PASS` celo pot (zapisano v specu Faze 2 in README).
-- **2026-10-21** — živi API dokaz (⊢ izpis v seji agenta Mistral Vibe, isti endpointi, ki jih kliče UI): capture → start-processing → create-fragment → insert → update×3 → archive-fragment → archive-incoming; `isValid: true` sredi poti in po obeh arhivih; sled `poglavje/dokaz.md ← Fragment dokaza` preživi oba arhiva. 85/85 testov, `web` typecheck + vite build zeleni; istega dne komit `4857890` (CI `web` posel + REGISTER-PADCEV vnos 3).
+- **2026-10-21 (dop.)** — živi API dokaz (⊢ izpis v seji agenta Mistral Vibe, isti endpointi, ki jih kliče UI): capture → start-processing → create-fragment → insert → update×3 → archive-fragment → archive-incoming; `isValid: true` sredi poti in po obeh arhivih; sled `poglavje/dokaz.md ← Fragment dokaza` preživi oba arhiva. 85/85 testov, `web` typecheck + vite build zeleni; istega dne komit `4857890` (CI `web` posel + REGISTER-PADCEV vnos 3).
+- **2026-10-21 (ponovljivi brskalniški dokaz)** — `web/proof/deveterna-pot.mjs` (Playwright, Edge headless): 9/9 operacij v resničnem brskalniku, `VERIFY: PASS` po vsakem koraku, sled `poglavje/brskalniski-dokaz.md` preživi oba arhiva, neodvisni `/api/verify` = true. Ponovljiv ukaz: API na 4173 + vite na 5173 + `node web/proof/deveterna-pot.mjs <projectRoot>` ( začasni projectRoot; trije popravki teka zabeleženi v seji: selectOption index, `.first()` namesto hasText med urejanjem, badge `inserted` namesto `draft` po insertu ).
 
 ## Pravilo teka
 
