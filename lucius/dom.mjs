@@ -114,7 +114,7 @@ const server = http.createServer(async (req, res) => {
   };
   try {
     if (req.method === 'GET' && url.pathname === '/') {
-      res.writeHead(200, { 'content-type': 'text/html; charset=utf-8' });
+      res.writeHead(200, { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store, max-age=0' });
       res.end(HTML);
       return;
     }
