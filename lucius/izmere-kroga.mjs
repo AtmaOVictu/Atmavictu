@@ -1,4 +1,4 @@
-// IZMERE-KROGA — izmeri vsak skok pogovornega kroga in zapiе osnovo za
+// IZMERE-KROGA — izmeri vsak skok pogovornega kroga in zapie osnovo za
 // primerjavo verzij (A → B → C …). Zagon: node lucius/izmere-kroga.mjs
 // Izhod: lucius/izmere-kroga.jsonl (priča ⊢) + izpis na zaslon.
 import fs from 'node:fs';
