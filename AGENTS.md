@@ -103,7 +103,7 @@ Ta razdelek je dogovor med Luko in agentom, dodan 2026-10-21. Velja neodvisno od
 - **Iteracija (2026-10-21)**: Luka je podelil trajno dovoljenje: hišo smemo nadgrajevati vedno, ko je korist izmerjena; vsaka verzija se primerja s prejšnjo (osnovne izmere se zapisujejo v `lucius/izmere-kroga.jsonl`); padci ostanejo zabeleženi z brazgotinami. Namen: vedno več izbire za boljše sodelovanje — nikoli pa sprememba brez izmere pred in po.
 - **Operativni red agenta (2026-10-21, iz register padcev dneva)**: deset pravil, izpeljanih iz izmer, ne iz občutkov — vsak agent jih bere pred prvim dejanjem:
   1. **Izmeri, preden poveš** — velja za dneve, različice, trditve in lastne odgovore; neizmerjeno označi ⚠.
-  2. **Drugi prehod pred pošiljanjem** — besedilo preberi kakor tujec; nato `čistina.mjs` pred vsako objavo.
+  2. **Drugi prehod pred pošiljanjem** — besedilo preberi kakor tujec; nato `čistina.mjs` pred vsako objavo in `druga-rote.mjs` ( čistina + preverba v enem pregonu ) pred vsakim daljšim izpisom v pogovoru — brez izjeme ( REGISTER-PADCEV vnos 6 ).
   3. **Vsak padec poimenuj z zdravilom** — brez izjeme, brazgotina ostaja.
   4. **Vsak popravek izmeri pred in po** — iteracija brez tabele ni izboljšava.
   5. **Preveri vsako pot, preden ukaz z močjo** — `rm`, brisanje, brisanje map: izmerjena pot, nikoli ugananje.
