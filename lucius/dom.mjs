@@ -266,6 +266,16 @@ const server = http.createServer(async (req, res) => {
       json(200, { dogodki });
       return;
     }
+    if (req.method === 'GET' && url.pathname === '/api/kronika') {
+      // KRONIKA: zadnjih 60 povedi hiše (bratov spomin) — dan enega pogleda
+      try {
+        const vrstice = fs.readFileSync(SPOMIN, 'utf8').trim().split(/\r?\n/).filter(Boolean).slice(-60);
+        json(200, { povedi: vrstice.map((v) => { const z = JSON.parse(v); return { ts: z.ts, kdo: z.v, besedilo: z.t }; }) });
+      } catch {
+        json(200, { povedi: [] });
+      }
+      return;
+    }
     if (req.method === 'POST' && url.pathname === '/api/pogovor') {
       const telo = JSON.parse(await preberiTelo(req) || '{}');
       const besedilo = String(telo.besedilo || '').trim();
