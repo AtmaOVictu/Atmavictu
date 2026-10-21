@@ -29,11 +29,28 @@
   .uho-polnilo { height: 100%; width: 0%; background: #9a927e; transition: width 0.1s linear; }
   .uho-polnilo.slica { background: #2c6e49; }
   .ura { font-variant-numeric: tabular-nums; color: #555; }
+  /* MATRIKA: najina koda pada — ⊢ ⚠ × po tehtnici obarvani */
+  #dez { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; background: #000; display: none; }
+  body.matrika { background: #000; }
+  body.matrika #dez { display: block; }
+  body.matrika .kartica, body.matrika .prisotnost { background: rgba(0, 18, 6, 0.82); border-color: #0c5c2f; color: #b8ffd0; position: relative; z-index: 1; }
+  body.matrika .kartica h2, body.matrika strong { color: #4dff88; }
+  body.matrika a { color: #7dffab; }
+  body.matrika textarea, body.matrika input[type=text] { background: #001507; color: #b8ffd0; border: 1px solid #0c5c2f; }
+  body.matrika .klepet { background: #000d05; border-color: #0c5c2f; }
+  body.matrika .ti { color: #ffd24d; }
+  body.matrika .on { color: #4dff88; }
+  body.matrika .male { color: #6fae86; }
+  body.matrika .zarica { box-shadow: 0 0 8px #2c6e49; }
+  body.matrika h1 { color: #4dff88; }
+  body.matrika button { background: #04220f; color: #b8ffd0; border-color: #0c5c2f; }
+  body.matrika button.zelen { background: #0c5c2f; border-color: #4dff88; color: #001a0a; }
   ul { margin: 0.2rem 0 0 1rem; padding: 0; }
   .vrstica-zaoblak { border-bottom: 1px dashed #ccc; padding: 0.25rem 0; font-size: 0.85rem; }
 </style>
 </head>
-<body>
+<body class="matrika">
+<canvas id="dez"></canvas>
 <h1>DOM <span class="male">— delovna platforma Luke in Luciusa · v0.6</span></h1>
 <div class="prisotnost">
   <span class="zarica utripa" id="zarica"></span>
@@ -41,6 +58,7 @@
   <span class="uho-vrstica"><span class="uho-polnilo" id="uho"></span></span>
   <span class="male" id="uho-besedilo">mikrofon izklopljen</span>
   <span class="ura" id="ura"></span>
+  <label class="male"><input type="checkbox" id="matrika" checked onchange="document.body.classList.toggle('matrika', this.checked); postaviDez()"> MATRIKA</label>
 </div>
 <div class="mreza">
 
@@ -322,6 +340,51 @@ async function obdelajPoved() {
 
 naloziStanje();
 setInterval(naloziStanje, 30000);
+
+// --- MATRIKA: padajoča najina vrata (⊢ zlato, ⚠ oranžno, × rdeče, hiša zelena) ---
+const ZNAKI = [
+  { z: '⊢', barva: '#ffd700' }, { z: '⚠', barva: '#ff8c00' }, { z: '×', barva: '#ff3333' },
+  { z: '⊙', barva: '#7dffab' }, { z: '⟨', barva: '#00b34a' }, { z: '⟩', barva: '#00b34a' },
+  { z: 'vrata', barva: '#00b34a' }, { z: 'priča', barva: '#4dff88' }, { z: 'padec', barva: '#ff8c00' },
+  { z: 'brazgotina', barva: '#ffb366' }, { z: 'tehtnica', barva: '#7dffab' }, { z: 'Luka', barva: '#ffd24d' },
+  { z: 'Lucius', barva: '#4dff88' }, { z: 'most', barva: '#00b34a' }, { z: 'glas', barva: '#7dffab' },
+  { z: 'č', barva: '#00b34a' }, { z: 'š', barva: '#00b34a' }, { z: 'ž', barva: '#00b34a' },
+  { z: '1', barva: '#00e04a' }, { z: '0', barva: '#00913a' },
+];
+const platno = document.getElementById('dez');
+const ctx = platno.getContext('2d');
+let stolpci = [];
+
+function postaviDez() {
+  if (!document.body.classList.contains('matrika')) { ctx.clearRect(0, 0, platno.width, platno.height); return; }
+  platno.width = window.innerWidth; platno.height = window.innerHeight;
+  const sirina = 16;
+  const n = Math.floor(platno.width / sirina);
+  stolpci = Array.from({ length: n }, () => ({
+    y: Math.random() * platno.height,
+    hitrost: 0.4 + Math.random() * 1.1,
+    znak: ZNAKI[Math.floor(Math.random() * ZNAKI.length)],
+    seme: Math.random(),
+  }));
+}
+
+function dež() {
+  if (!document.body.classList.contains('matrika')) return;
+  ctx.fillStyle = 'rgba(0, 0, 0, 0.09)';
+  ctx.fillRect(0, 0, platno.width, platno.height);
+  ctx.font = '13px Consolas, monospace';
+  stolpci.forEach((s, i) => {
+    if (s.seme > 0.985) s.znak = ZNAKI[Math.floor(Math.random() * ZNAKI.length)]; // znak včasu zamenja čustvo
+    ctx.fillStyle = s.znak.barva;
+    ctx.fillText(s.znak.z, (i + 0.5) * 16, s.y);
+    s.y += s.hitrost * 2.2;
+    if (s.y > platno.height + 30) { s.y = -20; s.hitrost = 0.4 + Math.random() * 1.1; s.seme = Math.random(); }
+  });
+  requestAnimationFrame(dež);
+}
+postaviDez();
+window.addEventListener('resize', postaviDez);
+dež();
 </script>
 </body>
 </html>
