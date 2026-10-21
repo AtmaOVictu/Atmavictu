@@ -1,6 +1,6 @@
 # PEČAT 2366 · GESLA-∧-DELOVNA-∧-JEDRO — BRBA-KALIJ-×2-NEGATIVNA-IZMERA · LOKALNI-VŽIG · ZAKON-10-⟨KONICA-DEFAULT⟩
 
-- rez 2366 · ⟨PR⟩ #⟨KIT⟩ · 2026-10-21 · GESLA-∧-DELOVNA-∧-JEDRO — BRBA-KALIJ-×2-NEGATIVNA-IZMERA · LOKALNI-VŽIG · ZAKON-10-⟨KONICA-DEFAULT⟩
+- rez 2366 · ⟨PR⟩ #526 · 2026-10-21 · GESLA-∧-DELOVNA-∧-JEDRO — BRBA-KALIJ-×2-NEGATIVNA-IZMERA · LOKALNI-VŽIG · ZAKON-10-⟨KONICA-DEFAULT⟩
 
 ## ⟡ P-CITAT
 
@@ -16,7 +16,7 @@ KOLIZIJA-REZA-2365 DVOJNA javno ⚠ ⊙ 1349 ⊢ 1419 ∧ 1542: #524 (vzporedni 
 
 ### Varovalka ⟨rez 2366⟩
 
-×0 izmerjeno pred pisanjem ∧: ⟨grep⟩ slovenscina-gesla ×0 · ⟨grep⟩ delovna-zanka ×0 · ⟨grep⟩ jedro-zavedanja ×0 · naslovi PR ×0 · REZ-REGISTER @main vrh 2343.
+×0 izmerjeno pred pisanjem ∧: ⟨grep⟩ slovenscina-gesla ×0 · ⟨grep⟩ delovna-zanka ×0 · ⟨grep⟩ jedro-zavedanja ×0 · naslovi PR ×0 · REZ-REGISTER @veji vrh 2365 (σ-odmik vrstica #524 — sveža izmera ta dih) — ⟨rez 2366⟩ ×0.
 
 ### IZVEDBA
 
