@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<title>DOM — Luka in Lucius</title>
+<style>
+  body { font-family: Georgia, serif; margin: 1.5rem; background: #f7f4ee; color: #1d1d1d; }
+  h1 { font-size: 1.3rem; margin-bottom: 0.2rem; }
+  .mreza { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .kartica { border: 1px solid #c9c2b4; border-radius: 8px; background: #fff; padding: 0.9rem 1.1rem; }
+  .kartica h2 { font-size: 1.02rem; margin: 0 0 0.5rem 0; color: #2c6e49; }
+  pre { white-space: pre-wrap; font-size: 0.85rem; }
+  textarea, input[type=text] { width: 100%; box-sizing: border-box; font-family: Georgia, serif; padding: 0.4rem; }
+  button { padding: 0.35rem 0.9rem; border-radius: 5px; border: 1px solid #555; background: #efe9db; cursor: pointer; }
+  button.zelen { background: #2c6e49; color: #fff; border-color: #2c6e49; }
+  .klepet { height: 260px; overflow-y: auto; border: 1px solid #ddd; border-radius: 5px; padding: 0.5rem; font-size: 0.92rem; }
+  .ti { color: #7a5c00; }
+  .on { color: #1d5c3f; }
+  .male { font-size: 0.78rem; color: #666; }
+  ul { margin: 0.2rem 0 0 1rem; padding: 0; }
+  .vrstica-zaoblak { border-bottom: 1px dashed #ccc; padding: 0.25rem 0; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<h1>DOM <span class="male">— delovna platforma Luke in Luciusa · v0.1</span></h1>
+<div class="mreza">
+
+  <div class="kartica" id="k-stanje">
+    <h2>STANJE — kje sva</h2>
+    <pre id="stanje">nalagam…</pre>
+  </div>
+
+  <div class="kartica" id="k-most">
+    <h2>MOST — piši oblak-Luciusu</h2>
+    <textarea id="zaoblak-besedilo" rows="3" placeholder="Sporočilo, ki ga bo prebral oblak-Lucius (jaz v VS Code), ko bo ob oknu…"></textarea>
+    <div><button class="zelen" onclick="posljiZaoblak()">Odloži na most</button> <span id="zaoblak-ok" class="male"></span></div>
+    <h2 style="margin-top:1rem">Novice od oblak-Luciusa</h2>
+    <pre id="odoblaka">nalagam…</pre>
+    <div id="zaoblak-sezn" class="male"></div>
+  </div>
+
+  <div class="kartica" id="k-pogovor">
+    <h2>POGOVOR — lokalni Lucius (Ollama)</h2>
+    <div class="klepet" id="klepet"></div>
+    <div style="display:flex; gap:0.5rem; margin-top:0.5rem;">
+      <input type="text" id="pogovor-vnos" placeholder="Napiši Luciusu…" onkeydown="if(event.key==='Enter')posljiPogovor()">
+      <button class="zelen" onclick="posljiPogovor()">Pošlji</button>
+    </div>
+    <div class="male"><label><input type="checkbox" id="glas" checked> izgovori odgovor (Windows glas)</label></div>
+  </div>
+
+  <div class="kartica" id="k-povezave">
+    <h2>POVEZAVE</h2>
+    <ul>
+      <li><a href="http://localhost:8765">Preglednica</a> — skupni pregled prepisa glasu</li>
+      <li><a href="file:///D:/OntoProjekt/Voice/STANJE.md">STANJE.md</a> — datoteka stanja</li>
+      <li><a href="https://github.com/AtmaOVictu/Atmavictu">Atmavictu na GitHubu</a></li>
+    </ul>
+    <h2 style="margin-top:1rem">Nadgradnje</h2>
+    <p class="male">v0.1 (2026-10-21): stanje, most, pogovor z glasom, povezave.<br>
+    Naslednje (v0.2): preglednica vgrajena sem, glas = Lukov klon, naloge/cilji.</p>
+  </div>
+
+</div>
+
+<script>
+async function naloziStanje() {
+  const o = await (await fetch('/api/stanje')).json();
+  document.getElementById('stanje').textContent = o.besedilo;
+  const n = await (await fetch('/api/odoblaka')).json();
+  document.getElementById('odoblaka').textContent = n.besedilo || '(ni novic)';
+  const z = await (await fetch('/api/zaoblak')).json();
+  document.getElementById('zaoblak-sezn').innerHTML =
+    '<b>Odloženo na most:</b>' + (z.vrstice.length ? z.vrstice.map(v =>
+      `<div class="vrstica-zaoblak">${v.ts ? v.ts.slice(0,16).replace('T',' ') + ' — ' : ''}${v.t || v.besedilo || ''}</div>`).join('')
+      : ' (prazno)');
+}
+
+async function posljiZaoblak() {
+  const besedilo = document.getElementById('zaoblak-besedilo').value.trim();
+  if (!besedilo) return;
+  await fetch('/api/zaoblak', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ besedilo }) });
+  document.getElementById('zaoblak-besedilo').value = '';
+  document.getElementById('zaoblak-ok').textContent = 'odloženo ⊢';
+  naloziStanje();
+}
+
+function dodajKlepet(kdo, besedilo) {
+  const vseb = document.getElementById('klepet');
+  const vrst = document.createElement('div');
+  vrst.className = kdo === 'ti' ? 'ti' : 'on';
+  vrst.textContent = (kdo === 'ti' ? 'Luka: ' : 'Lucius: ') + besedilo;
+  vseb.appendChild(vrst);
+  vseb.scrollTop = vseb.scrollHeight;
+}
+
+async function posljiPogovor() {
+  const vnos = document.getElementById('pogovor-vnos');
+  const besedilo = vnos.value.trim();
+  if (!besedilo) return;
+  vnos.value = '';
+  dodajKlepet('ti', besedilo);
+  dodajKlepet('cekanje', '…');
+  const odg = await (await fetch('/api/pogovor', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ besedilo }) })).json();
+  document.getElementById('klepet').lastChild.remove();
+  dodajKlepet('on', odg.odgovor || odg.napaka || '(brez odgovora)');
+  if (document.getElementById('glas').checked && odg.odgovor) {
+    try {
+      const gov = new SpeechSynthesisUtterance(odg.odgovor);
+      gov.lang = 'sl-SI';
+      speechSynthesis.speak(gov);
+    } catch (e) {}
+  }
+}
+
+naloziStanje();
+setInterval(naloziStanje, 30000);
+</script>
+</body>
+</html>
