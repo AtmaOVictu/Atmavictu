@@ -25,6 +25,8 @@ Running, studying, citing, quoting, teaching, verifying, and building upon this 
       "EU-AI-Act-2024/1689-Article-53(1)(c)"
     ],
     "license": "LICENSE.md",
+    "license-version": "VBL v2.4 (2026-10-21)",
+    "license-follows-living-door": true,
     "contact": "lukapin5@gmail.com",
     "reservation-date": "2026-10-18"
   }
