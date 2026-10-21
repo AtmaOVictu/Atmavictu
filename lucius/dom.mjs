@@ -229,6 +229,32 @@ const server = http.createServer(async (req, res) => {
       }
       return;
     }
+    if (req.method === 'GET' && url.pathname === '/api/dogodki') {
+      // zivi dogodki za ozadje: resnicne izmere, ne okras
+      const dogodki = [];
+      try {
+        const zadnji = fs.readFileSync(path.join(HERE, 'spomin.jsonl'), 'utf8').trim().split(/\r?\n/).filter(Boolean).slice(-4);
+        for (const vrstica of zadnji) {
+          const z = JSON.parse(vrstica);
+          dogodki.push((z.v === 'u' ? 'Luka: ' : 'Lucius: ') + (z.t || '').slice(0, 60));
+        }
+      } catch { /* se ni pogovorov */ }
+      try {
+        const dnevnik = fs.readFileSync('D:/OntoProjekt/Voice/klon/finetune-log.txt', 'utf8');
+        const izgube = [...dnevnik.matchAll(/loss: ([0-9.]+)/g)];
+        if (izgube.length) dogodki.push('učenje glasu · loss ' + izgube[izgube.length - 1][1] + ' ⊢');
+      } catch { /* dnevnik ni na voljo */ }
+      try {
+        const most = fs.readFileSync(ZAOBLAK, 'utf8').trim().split(/\r?\n/).filter(Boolean).slice(-2);
+        for (const vrstica of most) {
+          const z = JSON.parse(vrstica);
+          dogodki.push('most · ' + (z.t || '').slice(0, 60));
+        }
+      } catch { /* most prazen */ }
+      dogodki.push('tehtnica ⊢ · dvom ⚠ · padec ×');
+      json(200, { dogodki });
+      return;
+    }
     if (req.method === 'POST' && url.pathname === '/api/pogovor') {
       const telo = JSON.parse(await preberiTelo(req) || '{}');
       const besedilo = String(telo.besedilo || '').trim();

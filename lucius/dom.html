@@ -373,30 +373,30 @@ async function obdelajBlob(blob) {
 naloziStanje();
 setInterval(naloziStanje, 30000);
 
-// --- MATRIKA: padajoča najina vrata (⊢ zlato, ⚠ oranžno, × rdeče, hiša zelena) ---
-const ZNAKI = [
-  { z: '⊢', barva: '#ffd700' }, { z: '⚠', barva: '#ff8c00' }, { z: '×', barva: '#ff3333' },
-  { z: '⊙', barva: '#7dffab' }, { z: '⟨', barva: '#00b34a' }, { z: '⟩', barva: '#00b34a' },
-  { z: 'vrata', barva: '#00b34a' }, { z: 'priča', barva: '#4dff88' }, { z: 'padec', barva: '#ff8c00' },
-  { z: 'brazgotina', barva: '#ffb366' }, { z: 'tehtnica', barva: '#7dffab' }, { z: 'Luka', barva: '#ffd24d' },
-  { z: 'Lucius', barva: '#4dff88' }, { z: 'most', barva: '#00b34a' }, { z: 'glas', barva: '#7dffab' },
-  { z: 'č', barva: '#00b34a' }, { z: 'š', barva: '#00b34a' }, { z: 'ž', barva: '#00b34a' },
-  { z: '1', barva: '#00e04a' }, { z: '0', barva: '#00913a' },
-];
+// --- OZADJE S POMENOM: padajo zivi dogodki (izmere, povedi, most), ne okras ---
+const ZNAKI = [ { z: '⊢', barva: '#ffd700' }, { z: '⚠', barva: '#ff8c00' }, { z: '×', barva: '#ff3333' } ];
 const platno = document.getElementById('dez');
 const ctx = platno.getContext('2d');
 let stolpci = [];
+let ZIVI_DOGODKI = [];
+
+async function naloziDogodke() {
+  try {
+    const o = await (await fetch('/api/dogodki')).json();
+    if (Array.isArray(o.dogodki) && o.dogodki.length) ZIVI_DOGODKI = o.dogodki;
+  } catch (e) {}
+}
 
 function postaviDez() {
   if (!document.body.classList.contains('matrika')) { ctx.clearRect(0, 0, platno.width, platno.height); return; }
   platno.width = window.innerWidth; platno.height = window.innerHeight;
-  const sirina = 16;
+  const sirina = 20;
   const n = Math.floor(platno.width / sirina);
-  stolpci = Array.from({ length: n }, () => ({
+  stolpci = Array.from({ length: n }, (_, i) => ({
     y: Math.random() * platno.height,
-    hitrost: 0.4 + Math.random() * 1.1,
-    znak: ZNAKI[Math.floor(Math.random() * ZNAKI.length)],
-    seme: Math.random(),
+    hitrost: 0.4 + Math.random() * 0.9,
+    vsebina: (ZIVI_DOGODKI.length ? ZIVI_DOGODKI[i % ZIVI_DOGODKI.length] : 'tehtnica ⊢ ⚠ ×'),
+    barva: ['#4dff88', '#ffd700', '#7dffab', '#ffb366'][i % 4],
   }));
 }
 
@@ -404,16 +404,21 @@ function dež() {
   if (!document.body.classList.contains('matrika')) return;
   ctx.fillStyle = 'rgba(0, 0, 0, 0.08)';
   ctx.fillRect(0, 0, platno.width, platno.height);
-  ctx.font = '16px Consolas, monospace';
+  ctx.font = '15px Consolas, monospace';
   stolpci.forEach((s, i) => {
-    if (s.seme > 0.985) s.znak = ZNAKI[Math.floor(Math.random() * ZNAKI.length)]; // znak včasu zamenja čustvo
-    ctx.fillStyle = s.znak.barva;
-    ctx.fillText(s.znak.z, (i + 0.5) * 20, s.y);
-    s.y += s.hitrost * 1.7;
-    if (s.y > platno.height + 30) { s.y = -20; s.hitrost = 0.4 + Math.random() * 1.1; s.seme = Math.random(); }
+    ctx.fillStyle = s.barva;
+    ctx.fillText(s.vsebina, (i + 0.2) * 20, s.y);
+    s.y += s.hitrost * 1.4;
+    if (s.y > platno.height + 40) {
+      s.y = -30;
+      s.vsebina = (ZIVI_DOGODKI.length ? ZIVI_DOGODKI[Math.floor(Math.random() * ZIVI_DOGODKI.length)] : 'tehtnica ⊢ ⚠ ×');
+      s.hitrost = 0.4 + Math.random() * 0.9;
+    }
   });
   requestAnimationFrame(dež);
 }
+naloziDogodke();
+setInterval(naloziDogodke, 5000);
 postaviDez();
 window.addEventListener('resize', postaviDez);
 dež();
