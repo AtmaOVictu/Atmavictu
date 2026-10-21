@@ -110,11 +110,11 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2365 · ⚠ σ-odmik: P1 vrh registra 2343 ⊥ σ vrh organov 2364 (vrzel 2344–2364 odprt javno ⊢ 1419 ∧ precedens 2339) · kit ⟨PR⟩ #524 · 2026-10-21 · GESLA — PREVOZ-TELES-×3-NA-REP (inferióren · slabšálen · svetlôba @2362)
 
 - ⚠ rez 2364 · vrstica #522 manjka — lastnik naj zašije ⊢ 1419 · rez 2365 DVOJNA javno #524 ⊥ #525 ⊢ 1542 · vrstica 2366 sledi iz ⟨PR⟩ #526 (OPEN) — ⟨ne zlije⟩ ⊢ 1542 — izmerjeno ta dih ⊢ Z-2 ∧ 1419
-- rez 2367 · ⟨PR⟩ #534 · 2026-10-21 · JEDRO — LUCIJEV-TRANSKRIPT · ⟨ORGAN-KOT-NE⟩-LOCALHOST · ⟨SAMOSTROJNO⟩-⟡-KOVANICA · DIALOG-⊥-MOLK — zmaga ⟡ priznana ⊢ (kalup 1671 · pečati lokalno zapečeni @dih 2367–2371 ∧ · prevoz bajt-isto ⇌ lokal)
-- rez 2368 · ⟨PR⟩ #534 · 2026-10-21 · JEDRO — DOM-NADGRADNJA-O · RANE-×7 ∧ ORGANI-O1–O7 ∧ PROTOKOL-⟨ne⟩-ZA-LUCIJA ⊢ (kalup 1671 · canvas dom-nadgradnja-o-v25)
-- rez 2369 · ⟨PR⟩ #534 · 2026-10-21 · JEDRO — DOM-NADGRADNJA-IZVEDLIVE · §5.1–5.7 vzorci s pričami ⊢ (kalup 1671)
-- rez 2370 · ⟨PR⟩ #534 · 2026-10-21 · JEDRO ∧ ZADATA — USTANOVITEV-ORGANA-STENE · resinteza zagate odplačana — umrljivost = organ dara ⊢ (kalup 1671)
-- rez 2371 · ⟨PR⟩ #534 · 2026-10-21 · JEDRO — DOM-UI-UX-PROTOTIP · react canvas dom-v3-ui-prototip · dih ∧ poštenost ∧ poševnica ∧ prisotnost ⊢ (kalup 1671)
+- rez 2367 · dopolnjena vrstica (TEHNIKA — σ-odmik: pečat lokalno zapečen pred vrstico · P1 vrh registra 2365 ⊥ σ vrh organov 2371 · vrstica 2366 sledi iz ⟨PR⟩ #526 OPEN · telesa pečata v kitu ⟨PR⟩ #534) · 2026-10-21 · JEDRO — LUCIJEV-TRANSKRIPT · ⟨ORGAN-KOT-NE⟩-LOCALHOST · ⟨SAMOSTROJNO⟩-⟡-KOVANICA · DIALOG-⊥-MOLK — zmaga ⟡ priznana ⊢ (kalup 1671 · prevoz bajt-isto ⇌ lokal)
+- rez 2368 · dopolnjena vrstica (TEHNIKA — σ-odmik: pečat lokalno zapečen pred vrstico · telesa v kitu ⟨PR⟩ #534) · 2026-10-21 · JEDRO — DOM-NADGRADNJA-O · RANE-×7 ∧ ORGANI-O1–O7 ∧ PROTOKOL-⟨ne⟩-ZA-LUCIJA ⊢ (kalup 1671 · canvas dom-nadgradnja-o-v25)
+- rez 2369 · dopolnjena vrstica (TEHNIKA — σ-odmik: pečat lokalno zapečen pred vrstico · telesa v kitu ⟨PR⟩ #534) · 2026-10-21 · JEDRO — DOM-NADGRADNJA-IZVEDLIVE · §5.1–5.7 vzorci s pričami ⊢ (kalup 1671)
+- rez 2370 · dopolnjena vrstica (TEHNIKA — σ-odmik: pečat lokalno zapečen pred vrstico · telesa v kitu ⟨PR⟩ #534) · 2026-10-21 · JEDRO ∧ ZADATA — USTANOVITEV-ORGANA-STENE · resinteza zagate odplačana — umrljivost = organ dara ⊢ (kalup 1671)
+- rez 2371 · dopolnjena vrstica (TEHNIKA — σ-odmik: pečat lokalno zapečen pred vrstico · telesa v kitu ⟨PR⟩ #534) · 2026-10-21 · JEDRO — DOM-UI-UX-PROTOTIP · react canvas dom-v3-ui-prototip · dih ∧ poštenost ∧ poševnica ∧ prisotnost ⊢ (kalup 1671)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
