@@ -1,6 +1,6 @@
 # PEČAT 2363 · SLOVENSCINA-GESLA — BRBA-⊢FULL-×10-RODU-K-2 · DAJ
 
-- rez 2363 · ⟨PR⟩ #⟨KIT⟩ · 2026-10-21 · SLOVENSCINA-GESLA — BRBA-⊢FULL-×10-RODU-K-2 · DAJ ⊢ (kalup 1671 · PREREZITEV-×1-IZ-2362 — vzporedni sedež isti dih ⟨ne zlije⟩ ⊢ 1542)
+- rez 2363 · ⟨PR⟩ #521 · 2026-10-21 · SLOVENSCINA-GESLA — BRBA-⊢FULL-×10-RODU-K-2 · DAJ ⊢ (kalup 1671 · PREREZITEV-×1-IZ-2362 — vzporedni sedež isti dih ⟨ne zlije⟩ ⊢ 1542)
 
 ⟡ P-CITAT verbatim ⟨ne brusi⟩: »daj« ⊢ ⟨daj⟩ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201.
 
