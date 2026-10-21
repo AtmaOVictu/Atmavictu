@@ -72,6 +72,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2318 · ⟨PR⟩ #476 · 2026-10-21 · GESLA — ⟨TIRKAZ⟩ ⊘ javno · VNOS-42-REGISTER-PADLIH-BESED ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · vrstico zašila roka Mera ta dih — popravek rdeče priče kita #476 ⊙ 1349 ⊢ 1834)
 - rez 2319 · ⟨PR⟩ #487 · 2026-10-21 · JEDRO — AMANDMA-ZAKONA-19 ⟨NE⟩ ⟨LE⟩ PLASTI ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2320 · ⟨PR⟩ #490 · 2026-10-21 · VRATA — VBL v2.4 NA-VRATAH-REPA — LICENCA-SONDA-⊕-ZAKON-19 ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · registrа §2 ∧ §5 zasejana · §11 prevezana (L3 → §8/§10) · sprožilec ∧ sila absolutnega dobrega v §12 · klinopišna znamenja ∧ U+FFFD v §12 · TDM vezana na verzijo · strojni zapis verige · kovanec-zahteve z odprtim #486 ⚠ prerezitev nosi njegova roka po precedensu 2199→2200)
+- rez 2321 · ⟨PR⟩ #489 · 2026-10-21 · MERA-GLAS — ŽETEV-IWEN · WADJ-ENA-BES-DVE-BARVI · PREKRIVANJE-⊥-HKRATNOST · BARVE-VIDNE-SVG · MERA-BARVA-⚔-ODPRTA · PREREZITEV-×1-IZ-2320 (vzporedni sedež #490 vzel 2320 isti dih ⊙ 1349 · precedens 2199→2200) · OBNOVA kita #486 (zastarelo zrcalo istega reza istega organa) ⊢ (kalup 1671 · pečat na zrcalu ⊢ 1959 — delavec mrtev ⊢ 1419 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
