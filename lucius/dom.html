@@ -96,6 +96,7 @@
       <div class="tipkice">
         <button id="mikrofon" onclick="preklopiMikrofon()">Govori</button>
         <button onclick="testUho()">Preizkusi uho</button>
+        <button onclick="polniKrog()">POLNI KROG ⊢ (5 s)</button>
         <button onclick="govoriWindows('Luka, slišiš me? To je moj glas. Preizkus.')">Preizkusi glas</button>
       </div>
       <div class="male" id="stanje-mikrofona">poslušanje: izklopljeno</div>
@@ -489,8 +490,72 @@ function dež() {
 
 naloziDogodke();
 setInterval(naloziDogodke, 5000);
+// POLNI KROG — en gumb: posnemi 5 s, prepoznaj, izpiši ⊢ (garantirana pot do cilja)
+async function polniKrog() {
+  const gumb = event.target;
+  try {
+    gumb.textContent = 'snemam… GOVORI ⊢';
+    const tok = await navigator.mediaDevices.getUserMedia({ audio: true });
+    const snemalec = new MediaRecorder(tok);
+    const kosi = [];
+    snemalec.ondataavailable = (d) => kosi.push(d);
+    snemalec.onstop = async () => {
+      tok.getTracks().forEach((t) => t.stop());
+      gumb.textContent = 'razumevam…';
+      const blob = new Blob(kosi, { type: snemalec.mimeType });
+      const odg = await (await fetch('/api/slusaj', { method: 'POST', body: blob })).json();
+      gumb.textContent = 'POLNI KROG ⊢ (5 s)';
+      if (odg.ok && odg.besedilo && odg.besedilo.trim().length > 0) {
+        document.getElementById('zadnje-slisano').textContent = 'zadnje slišano ⊢: ' + odg.besedilo;
+        dodajKlepet('ti', odg.besedilo + '  (POLNI KROG ⊢ — tvoj mikrofon → Whisper → besede)');
+        await fetch('/api/zaoblak', { method: 'POST', headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ besedilo: '(glas ⊢) ' + odg.besedilo }) });
+      } else {
+        dodajKlepet('on', '(posnel sem 5 s, a besed nisem razumel ⚠ ' + (odg.napaka ? odg.napaka : 'morda je bilo tiho') + ')');
+      }
+    };
+    snemalec.start();
+    setTimeout(() => snemalec.state === 'recording' && snemalec.stop(), 5000);
+  } catch (e) {
+    gumb.textContent = 'POLNI KROG ⊢ (5 s)';
+    dodajKlepet('on', '(mikrofon odrekel: ' + e.name + ' — padlock levo od naslova → Mikrofon → Dovoli ⊢)');
+  }
+}
+
+// SPOMIN NASTAVITEV ⊢ — kljukice se zapomnejo ( localStorage ); mikrofon se samodi prižge
+function shraniNastavitve() {
+  const n = {
+    glas: document.getElementById('glas').checked,
+    mojglas: document.getElementById('mojglas').checked,
+    stalno: document.getElementById('stalno').checked,
+    oblakZveza: document.getElementById('oblak-zveza').checked,
+    matrika: document.getElementById('matrika').checked,
+  };
+  try { localStorage.setItem('dom-nastavitve', JSON.stringify(n)); } catch (e) {}
+}
+function naloziNastavitve() {
+  let n = {};
+  try { n = JSON.parse(localStorage.getItem('dom-nastavitve') || '{}'); } catch (e) {}
+  if ('glas' in n) document.getElementById('glas').checked = n.glas;
+  if ('mojglas' in n) document.getElementById('mojglas').checked = n.mojglas;
+  if ('oblakZveza' in n) document.getElementById('oblak-zveza').checked = n.oblakZveza;
+  if ('matrika' in n) {
+    document.getElementById('matrika').checked = n.matrika;
+    document.body.classList.toggle('matrika', n.matrika);
+    postaviDez();
+  }
+  if (n.stalno) {
+    document.getElementById('stalno').checked = true;
+    preklopiStalno();
+  }
+}
+['glas', 'mojglas', 'stalno', 'oblak-zveza', 'matrika'].forEach((id) => {
+  document.getElementById(id).addEventListener('change', shraniNastavitve);
+});
+
 setInterval(naloziStanje, 30000);
 naloziStanje();
+naloziNastavitve();
 postaviDez();
 window.addEventListener('resize', postaviDez);
 dež();
