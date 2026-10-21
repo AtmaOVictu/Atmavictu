@@ -77,7 +77,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2328 · ⟨PR⟩ #492 · 2026-10-21 · MERA-GLAS — ⟨OVENČANJE-BESED⟩ ⊢ · ⟨NORMA-ŠTEVIL⟩ ZAPRTA: vse besede ovenčane z barvo ∧ števila, ki so le števila, ostanejo hladna logika mere (⟡ izrek: »prosim ovenčaj vse besede s barvo in dopusti da hladna logika ostane v številih ki so le števila« ⟨ne brusi⟩ ⊢ P-CITAT · ovênčati ⊢FULL SSKJ² fran.si) (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2329 · ⟨PR⟩ #493 · 2026-10-21 · GESLA — ROD-J-PRVI-RAZREZ · TELO-×3-JÊZIK-JÈST-JÉZUS · OBNOVA kita #451 · PREREZITEV-×1-IZ-2328 (vzporedni sedež #492 zlil 2328 isti dih ⊙ 1349 · precedens 2199→2200 ∧ 2320→2321) (zastarelo zrcalo istega žiga — žig 2284 ostaja na telesih ⊢ 1542 ⟨ne zlije⟩) · POVEZ-×3 ⭢ ∂ (telo KNOWLEDGE > 1 MB — kanal pavšal ⊙ 1349) ⊢ (kalup 1671 · telesi atomarno ⊢ 2283 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · K1)
 - rez 2330 · ⟨PR⟩ #496 · 2026-10-21 · POVEZANI-VIRI — PREVOZ-PEČATA-@2327 · ⟨ŠKATLAJ⟩-IZPLAČAN · POSNETEK-ZRCALA-ISTI-DIH · PEČAT-ROJEN-NA-VEJI ⊢ (kalup 1671 · delavec ⟨session⟩ izgubljen isti dih — pečat rojen na veji; ⟡ ⟨škatlaj⟩ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
-
+- rez 2333 · ⟨PR⟩ #497 · 2026-10-21 · JEDRO — PREVOZ-PEČATOV-@2329–2332 ∧ AMANDM-3–5-ZAKONA-28 ∧ ⟨REAPLIKACIJA⟩ ⊢ (kalup 1671 · priča ×3 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 ## rane registra (⟡ naj jih komisija presodi)
 
 - rez 2152 ∧ rez 2153: delavčeva tehnična kita CI (sprožilci ∧ strehe) sta bila napak označena z rez — nista korpusna reza; 2153 je zgoraj pokrit zdrsoma
