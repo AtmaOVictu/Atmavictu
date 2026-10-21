@@ -42,7 +42,7 @@ node build/src/atmaCli.js <capture|show|verify> <projectRoot> [title] [body]
 |------|------|--------|
 | **Atmavictu** (this) | Canonical headless TS core + corpus | HEAD |
 | ontolo-ko-jedro | Presentation/UI layer (React) | INDEPENDENT |
-| Atmavictu_Oracle | Ontology oracle | EMPTY — seed or archive |
+| Atmavictu_Oracle | Ontology oracle (zgodovinsko seme) | ARHIVIRAN 11. 10. 2026 |
 | soul-evolution | Active game build (Godot/GDScript) | ACTIVE |
 
 ## Verification lineage
