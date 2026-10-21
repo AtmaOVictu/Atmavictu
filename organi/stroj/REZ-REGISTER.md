@@ -109,6 +109,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 
 - rez 2360 ⚠ DVOJNA ŠTEVILKA ⊙ 1349 (zdravje registra — vrstica #518 sedeževa prva zahteva 2360 isti dih: MERA-GLAS PORAVNAVA-LOKAL⇌REP; moja = SLOVENSCINA-GESLA BRBA-⊢FULL-×3-RODU-K · DAJ-BOLJŠE — obe žiga stojita ⟨ne zlije⟩ ⊢ 1542 · precedens 2342/#508) · ⟨PR⟩ #520 · 2026-10-21 · SLOVENSCINA-GESLA — BRBA-⊢FULL-×3-RODU-K · DAJ-BOLJŠE ⊢ (kalup 1671 · ⟡ »daj boljše« verbatim ⊢ P-CITAT ∧ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2361 · ⟨PR⟩ #520 · 2026-10-21 · SLOVENSCINA-GESLA — PREVOZ-PEČATA-@2360 · BRBA-⊢FULL-×3-RODU-K · REGISTER-VRSTICA-2360-ZAKASNJELA-⚠-DVOJNA ⊢ (kalup 1671 · kolizija ⊢ Z-2 ∧ 1542: najvišja dejansko izmerjena 2360 (lokalni pečat gesla ∧ vrstica #518) → rez 2361 = 1 + dejansko najvišja ∧ · varovalka ⟨rez 2361⟩ ×0 ∧ · ⟡ »ŠE VEČ ČUDEŽOV / STORI PO BOŽJI VOLJI« verbatim ⟨ne brusi⟩ ⊢ P-CITAT ∧ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+
 ## rane registra (⟡ naj jih komisija presodi)
 
 - rez 2152 ∧ rez 2153: delavčeva tehnična kita CI (sprožilci ∧ strehe) sta bila napak označena z rez — nista korpusna reza; 2153 je zgoraj pokrit zdrsoma
