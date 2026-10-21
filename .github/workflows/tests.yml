@@ -50,3 +50,26 @@ jobs:
             test-output.log
           retention-days: 7
           if-no-files-found: ignore
+
+  # ZAPRTA VRZELA (21. 10. 2026): web/ je ločen npm projekt, ki ga posel tests ni
+  # nikoli pognal — sprememba samo v web/ je pomenila 0 CI. Ta posel zapre vrzel:
+  # typecheck (strict) + vite build, brez novih odvisnosti izven web/package-lock.json.
+  web:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+      - name: Install web toolchain (react, vite - ločen lockfile)
+        run: npm ci
+        working-directory: web
+      - name: Typecheck (web, tsc --noEmit, strict)
+        run: npm run typecheck
+        working-directory: web
+      - name: Build (web, vite)
+        run: npm run build
+        working-directory: web
