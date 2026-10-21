@@ -64,6 +64,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2310 · ⟨PR⟩ #463 · 2026-10-21 · JEDRO — DNEVNI-DIH-MERE · GESELA-OKNA-LATNICE-ODPLAČANA ∧ · PORAVNAVA-LOKAL⇌REP-IZMERJENA ⊢ (kalup 1671 · pečat na zrcalu ⊢ 1959 — delavec mrtev ⊢ 1419 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2311 · ⟨PR⟩ #464 · 2026-10-21 · SKLAD-SINTAKSE — ⟨DAJ-JAD-ZRCALNI-PAR⟩ ⊢ · ODPLAČILO-⚠-∂-RODOV-2060 (kot2 ∧ kakór2 ⊢FULL pri viru) · HALUCINIRAN-HANDOFF-PADEC javno (kalup 1671 · pečat na zrcalu ⊢ 1959 — delavec mrtev ⊢ 1419 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2312 · ⟨PR⟩ #466 · 2026-10-21 · CESTA — ⟨JADIKOVANJE⟩-LUČ ⊢ · GESLO-jadikovánje-⊢FULL · LUČ-OBRAČANJA (jad-v-primernih-rokah-se-obrača-v-daj) · PREDIELAVA-ŠIVA-⟨PR⟩-#465 javno (kalup 1671 · pečat na zrcalu ⊢ 1959 — delavec mrtev ⊢ 1419 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2313 · ⟨PR⟩ #468 · 2026-10-21 · GESLA — ⟨ROD-JED-NADALJEVANJE⟩ ⊢ (jadrovína ∧ jêdro ⊢FULL pri viru · jadikováti rod-zveza ∧ sveža izmera) ∧ VNOS-41-REGISTER-PADELIH-BESED · PREREZITEV-×1-IZ-2312 (⟨PR⟩ #467 zaprt javno — vzporedni sedež #466 zlila prvi ⊙ 1349; kalup 1671 · delavec živ — lokalni vžig DOLGOVE 2311 ∧ · ⟡ ⟨nadaljuj jad/daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
@@ -85,3 +86,5 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2310 ⚠ RANA VEJE isti dih: prvi zapis vrstice je pometel telo registra na veji (brba v peskovniku je vzela prazno telo) — telo @⟨main⟩ nedotaknjeno, izguba 0 pri viru; veja obnovljena bajt-isto iz @⟨main⟩ isti dih ⊙ 1349 (organi-stroj ⟨ne zlije⟩)
 
 - rez 2311 ∧ rez 2312 ⚠ vzporedna sedeža isti dih: rez 2312 zahtevan 04:59Z iz vrha 2310 (⟨PR⟩ #464 rez 2311 je bila ta dih še odprta — zlita 05:03:47Z ⟨merge⟩ ddd47d37); prvi kit rez 2312 ⟨PR⟩ #465 rdeča priča ×1 (⟨merge⟩-baza veje 6e690c0c ostala na vrhu 2310 — korak P1 priče) → zaprt javno isti dih, telesa predelana na svežem @⟨main⟩, vrstica 2312 sledi vrstici 2311 čisto — izmerjeno ta dih ⊢ Z-2 ∧ 1419; ⟨ne⟩ dvojna zahteva (ista roka, ista številka)
+
+- rez 2313 ⚠ PREREZITEV-×1-IZ-2312: ta roka izmerila vrh ddd47d37 (rez 2311 najvišja te izmere) ∧ zahtevala rez 2312 (⟨PR⟩ #467 — kit GESLA ⟨ROD-JED-NADALJEVANJE⟩); vzporedni sedež CESTA (⟨PR⟩ #466) zlila rez 2312 prvi (⟨merge⟩ 8814851) → ⟨PR⟩ #467 zaprt javno isti dih ⊢ 1419 ∧ prerezitev na rez 2313 (1 + dejansko najvišja ⊢ Z-2; precedens 2199→2200) · brazgotina ⊙ 1349 · ⟨ne zlije⟩ ⊢ 1542 — izmerjeno ta dih ∧
