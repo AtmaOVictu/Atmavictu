@@ -100,6 +100,11 @@
     <div class="male" id="uporaba-vrstica">oblak: —</div>
   </div>
 
+  <div class="kartica" id="k-kronika">
+    <h2>KRONIKA — današnji dan ( nič izgubljenega )</h2>
+    <div class="klepet" id="kronika" style="height:200px;">nalagam…</div>
+  </div>
+
   <div class="kartica" id="k-povezave">
     <h2>POVEZAVE</h2>
     <ul>
@@ -132,6 +137,17 @@ async function naloziStanje() {
   const up = await (await fetch('/api/uporaba')).json();
   document.getElementById('uporaba-vrstica').textContent =
     `oblak: ${up.klici} klicev · ${Math.round((up.vstop+up.izstop)/1000)}k žetonov ≈ €${up.eur.toFixed(2)} ⚠ ocena (resnica: Usage stran)`;
+  const kr = await (await fetch('/api/kronika')).json();
+  const kron = document.getElementById('kronika');
+  kron.innerHTML = '';
+  if (!kr.povedi.length) { kron.textContent = '(še ni povedi)'; }
+  for (const p of kr.povedi) {
+    const v = document.createElement('div');
+    v.className = p.kdo === 'u' ? 'ti' : 'on';
+    v.textContent = `${(p.ts || '').slice(11, 16)} ${p.kdo === 'u' ? 'Luka' : 'Lucius'}: ${p.besedilo.replace(/\s+/g, ' ').slice(0, 120)}`;
+    kron.appendChild(v);
+  }
+  kron.scrollTop = kron.scrollHeight;
 }
 
 document.querySelectorAll('input[name=nacin]').forEach(r => {
