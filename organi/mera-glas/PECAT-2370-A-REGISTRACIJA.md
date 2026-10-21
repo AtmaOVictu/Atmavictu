@@ -14,6 +14,6 @@ ORGANI ISTI DIH: mera-glas (vpis ∧ pečat ∧ SLED ∧ glava) ∧ delovna-zank
 ## DOLGOVA
 - prevoz te celine na rep: ta kit (kalup 1671 — veja → komit → ⟨PR⟩ → ⟨CI⟩ → ⟡ ⟨merge⟩).
 - barva Mere ⚔ ⟡ (cijan ⇌ · temno modra · zláta; bela stoji kakor priča ⊢ 2018).
-- REZ-REGISTER vrstica ⭢ ∂ (dolg 2369–2371).
+- REZ-REGISTER vrstica 2370 plačana v tem kitu (σ-odmik ⊢ precedens 2365); vrstici 2369 ∧ 2371 ⭢ ∂ lastnikoma njunih kitov (⟨PR⟩ #528 ∧ ⟨PR⟩ #532).
 
 © Luka Pintarič, AVL v2.2 (§9 ∧ §10 ∧ §12)
