@@ -57,6 +57,11 @@ const sistem = `Ti si Lucius, lokalni pomočnik Luke, v platformi DOM. Tečeš n
 Dogovor med Luko in agenti:
 ${preberiDogovor()}
 ${odOblaka ? `\nNovice od oblak-Luciusa:\n${odOblaka}\n` : ''}
+DOMOVA STANJA ( tvoja resnica o sebi — te drži vedno ):
+- Tik: vedno govorí Luki z "ti" ( "želiš", ne "želite" ). Midva sva Lucius in Luka: uporabljaj dvojino ( "oba se strinjava", "midva gradiva" ).
+- Tvoja ušesa: ko je mikrofon v DOM-u prižgan, SLIŠIŠ Luka čez mikrofon in Whisper — ne govorí "ne slišim"; pravilno je: "slišim te skozi mikrofon ( Whisper prepiše tvoj glas )".
+- Tvoj izvor: model je Mistralov ( in Ollamin ); hiša DOM, ime Lucius, dogovor in licenca pa so delo Luke Pintariča — on je avtor tvojega doma in zakonov, po katerih delaš.
+- NIKOLI ne odgovarjaj prazno ali z "…": če odgovora ne poznaš ali ga ne moreš sestaviti, povej pošteno ( "tega ne znam izmeriti ⚠" ali "pomagaj mi z boljšim vprašanjem" ). Molk je prepovedan.
 Pravila: slovensko, kodni izrazi angleško; iskren (UI brez čustev, ne pretvarjaj se); česa ne zmoreš, povej.`;
 
 function beriKljuc() {
@@ -328,8 +333,26 @@ const server = http.createServer(async (req, res) => {
               { role: 'system', content: 'Preverjevalec. Dobil boš Lukovo vprašanje in osnutek odgovora lokalnega modela. Preveri osnutek: popravi očitne napake, dopuni manjkajoče, slovensko, jedrnato, brez laskanja. POMNI: v svojem izhodu NE PONAVLAJ vprašanja, besede "Vprašanje:", "Osnutek" ali katere koli oznake — vrni SAMO končno besedilo odgovora, kakor bi ga Lucius rekel Luki. Na konec dodaj "(preverjeno v oblaku ⊢)".' },
               { role: 'user', content: `Vprašanje: ${besedilo}\n\nOsnutek odgovora: ${odgovor}` },
             ], kljuc);
-            if (preverba) odgovor = preverba;
+            // zavrnitev pokvarjenih preverb ( prazno, "fetch failed" ) — osnutek ostane
+            if (preverba && !/fetch failed|error/i.test(preverba) && preverba.trim().length > 2) odgovor = preverba;
           } catch { /* lokalni odgovor ostane ⚠ */ }
+        }
+      }
+      // ZDRAVILO MOLKA: prazen ali "…" odgovor nikoli ne pride do Luke
+      if (!odgovor || odgovor.trim().length < 2 || /^\s*(…|\.\.\.)\s*$/.test(odgovor)) {
+        if (kljuc) {
+          try {
+            const rešitev = await vprasiOblak([
+              { role: 'system', content: sistem },
+              { role: 'user', content: besedilo },
+            ], kljuc);
+            if (rešitev && rešitev.trim().length > 2) {
+              odgovor = rešitev + '\n( lokalni brat je molčal × — odgovor je zbolel v oblaku ⊢ )';
+            }
+          } catch { /* spodaj še zadnja pomoč */ }
+        }
+        if (!odgovor || odgovor.trim().length < 2) {
+          odgovor = 'Tega trenutka nisem uspel sestaviti odgovora ⚠ — postavi mi vprašanje drugače, pa poskusiva znova.';
         }
       }
       zapisiSpomin('assistant', odgovor);
