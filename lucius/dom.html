@@ -522,8 +522,40 @@ async function polniKrog() {
   }
 }
 
+// SPOMIN NASTAVITEV ⊢ — kljukice se zapomnejo ( localStorage ); mikrofon se samodi prižge
+function shraniNastavitve() {
+  const n = {
+    glas: document.getElementById('glas').checked,
+    mojglas: document.getElementById('mojglas').checked,
+    stalno: document.getElementById('stalno').checked,
+    oblakZveza: document.getElementById('oblak-zveza').checked,
+    matrika: document.getElementById('matrika').checked,
+  };
+  try { localStorage.setItem('dom-nastavitve', JSON.stringify(n)); } catch (e) {}
+}
+function naloziNastavitve() {
+  let n = {};
+  try { n = JSON.parse(localStorage.getItem('dom-nastavitve') || '{}'); } catch (e) {}
+  if ('glas' in n) document.getElementById('glas').checked = n.glas;
+  if ('mojglas' in n) document.getElementById('mojglas').checked = n.mojglas;
+  if ('oblakZveza' in n) document.getElementById('oblak-zveza').checked = n.oblakZveza;
+  if ('matrika' in n) {
+    document.getElementById('matrika').checked = n.matrika;
+    document.body.classList.toggle('matrika', n.matrika);
+    postaviDez();
+  }
+  if (n.stalno) {
+    document.getElementById('stalno').checked = true;
+    preklopiStalno();
+  }
+}
+['glas', 'mojglas', 'stalno', 'oblak-zveza', 'matrika'].forEach((id) => {
+  document.getElementById(id).addEventListener('change', shraniNastavitve);
+});
+
 setInterval(naloziStanje, 30000);
 naloziStanje();
+naloziNastavitve();
 postaviDez();
 window.addEventListener('resize', postaviDez);
 dež();
