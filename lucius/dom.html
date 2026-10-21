@@ -17,12 +17,31 @@
   .ti { color: #7a5c00; }
   .on { color: #1d5c3f; }
   .male { font-size: 0.78rem; color: #666; }
+  /* prisotnost: zarica + uho */
+  .prisotnost { display: flex; align-items: center; gap: 0.6rem; padding: 0.4rem 0.6rem; margin-bottom: 0.8rem;
+                border: 1px solid #c9c2b4; border-radius: 8px; background: #fff; }
+  .zarica { width: 0.8rem; height: 0.8rem; border-radius: 50%; background: #2c6e49; display: inline-block; }
+  .zarica.utripa { animation: dih 2.2s ease-in-out infinite; }
+  .zarica.misli { background: #b35c00; animation: dih 0.7s ease-in-out infinite; }
+  .zarica.govori { background: #7a1f1f; animation: dih 0.4s ease-in-out infinite; }
+  @keyframes dih { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+  .uho-vrstica { height: 0.5rem; background: #e4ddcc; border-radius: 3px; overflow: hidden; flex: 1; }
+  .uho-polnilo { height: 100%; width: 0%; background: #9a927e; transition: width 0.1s linear; }
+  .uho-polnilo.slica { background: #2c6e49; }
+  .ura { font-variant-numeric: tabular-nums; color: #555; }
   ul { margin: 0.2rem 0 0 1rem; padding: 0; }
   .vrstica-zaoblak { border-bottom: 1px dashed #ccc; padding: 0.25rem 0; font-size: 0.85rem; }
 </style>
 </head>
 <body>
-<h1>DOM <span class="male">— delovna platforma Luke in Luciusa · v0.1</span></h1>
+<h1>DOM <span class="male">— delovna platforma Luke in Luciusa · v0.6</span></h1>
+<div class="prisotnost">
+  <span class="zarica utripa" id="zarica"></span>
+  <strong id="prisoten-besedilo">LUCIUS je prisoten</strong>
+  <span class="uho-vrstica"><span class="uho-polnilo" id="uho"></span></span>
+  <span class="male" id="uho-besedilo">mikrofon izklopljen</span>
+  <span class="ura" id="ura"></span>
+</div>
 <div class="mreza">
 
   <div class="kartica" id="k-stanje">
@@ -134,12 +153,15 @@ async function posljiPogovor() {
     // najprej poskusi z Lukovim klonom
     const r = await fetch('/api/izgovori', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ besedilo: besediloOdg }) });
     if (r.ok) {
+      porociStanje('govorim');
       const blob = await r.blob();
       new Audio(URL.createObjectURL(blob)).play();
     } else if (document.getElementById('glas').checked) {
+      porociStanje('govorim');
       govoriWindows(besediloOdg);
     }
   } else if (besediloOdg && document.getElementById('glas').checked) {
+    porociStanje('govorim');
     govoriWindows(besediloOdg);
   }
 }
@@ -194,7 +216,25 @@ const PRAG = 0.022;
 
 function porociStanje(besedilo) {
   document.getElementById('stanje-mikrofona').textContent = 'poslušanje: ' + besedilo;
+  const zarica = document.getElementById('zarica');
+  const prisoten = document.getElementById('prisoten-besedilo');
+  zarica.className = 'zarica';
+  if (besedilo.startsWith('govoriš') || besedilo.startsWith('misli')) {
+    zarica.classList.add('misli'); prisoten.textContent = 'LUCIUS posluša tebe';
+  } else if (besedilo.startsWith('razumevam')) {
+    zarica.classList.add('misli'); prisoten.textContent = 'LUCIUS razume';
+  } else if (besedilo.startsWith('govorim')) {
+    zarica.classList.add('govori'); prisoten.textContent = 'LUCIUS govori';
+  } else if (besedilo.startsWith('izklopljeno') || besedilo.startsWith('mikrofon')) {
+    zarica.classList.add('utripa'); prisoten.textContent = 'LUCIUS je prisoten (uho miruje)';
+  } else {
+    zarica.classList.add('utripa'); prisoten.textContent = 'LUCIUS posluša sobo';
+  }
 }
+
+setInterval(() => {
+  document.getElementById('ura').textContent = new Date().toLocaleTimeString('sl-SI');
+}, 1000);
 
 async function preklopiStalno() {
   if (document.getElementById('stalno').checked) {
@@ -229,9 +269,16 @@ function trenutnaGlasnost() {
 }
 
 function zankaStalnega() {
-  if (!stalnoVklopljeno || zaposken || !stalenMerilec) return;
-  const zdaj = Date.now();
+  if (!stalenMerilec) return;
   const glasnost = trenutnaGlasnost();
+  const uho = document.getElementById('uho');
+  const uhoB = document.getElementById('uho-besedilo');
+  if (!stalnoVklopljeno) { uho.style.width = '0%'; uhoB.textContent = 'mikrofon izklopljen'; return; }
+  uho.style.width = Math.min(100, Math.round(glasnost * 700)) + '%';
+  uho.classList.toggle('slica', glasnost > PRAG);
+  uhoB.textContent = glasnost > PRAG ? 'slišim te ⊢' : 'poslušam';
+  if (zaposken) return;
+  const zdaj = Date.now();
   if (!snemalecVedno && glasnost > PRAG) {
     pricneGovor = zdaj;
     snemalecVedno = new MediaRecorder(stalniTok);
@@ -265,7 +312,7 @@ async function obdelajPoved() {
   const odg = await (await fetch('/api/slusaj', { method: 'POST', body: blob })).json();
   if (!odg.ok || !odg.besedilo) { zaposken = false; porociStanje('poslušam…'); return; }
   dodajKlepet('ti', odg.besedilo);
-  porociStanje('mislí…');
+  porociStanje('misli…');
   const v = document.getElementById('pogovor-vnos');
   v.value = odg.besedilo;
   await posljiPogovor(); // posljiPogovor počisti vnos in pride do glasu
