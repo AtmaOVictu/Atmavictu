@@ -10,7 +10,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const ZASEBNO = ['odoblaka.md', 'spomin.jsonl', 'zaoblak.jsonl', 'slusaj-dnevnik.jsonl', 'nacin.txt', 'dom-log.txt', 'api-uporaba.jsonl', 'izmere-kroga.jsonl'];
+const ZASEBNO = ['odoblaka.md', 'spomin.jsonl', 'zaoblak.jsonl', 'slusaj-dnevnik.jsonl', 'nacin.txt', 'dom-log.txt', 'api-uporaba.jsonl', 'izmere-kroga.jsonl', 'srce.jsonl'];
 const CILJ = 'D:/OntoProjekt/varnostne-kopije-mosta';
 const TU = path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1'));
 
