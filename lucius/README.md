@@ -7,9 +7,18 @@ Majhen program, ki ti da Luciusa tudi brez interneta. Poganja lokalni Ollama mod
 ```bash
 node lucius/lucius.mjs              # pogovorni način ('izhod' za konec)
 node lucius/lucius.mjs "Pozdrav!"   # enkratno vprašanje
+lucius.cmd "Pozdrav!"               # zaganjalnik iz katerekoli lupine
 ```
 
 Orodja ne rabiš — Node 18+ in tekoč Ollama (`ollama serve`) zadostujeta.
+
+## Glas (izhod na zvočnike)
+
+```bash
+node lucius/lucius.mjs --glas "Pozdrav!"   # odgovor je tudi izgovorjen
+```
+
+Glas je Windows TTS (`System.Speech`) in dela brez interneta. Nameščena glasa sta angleška (David, Zira) — č/š/ž bodo zvenele približno. Za pravi slovenski glas: **Nastavitve → Čas in jezik → Govor → Dodaj glasove → Slovenščina**, ali Nastavitve → Dostopnost → Pripovedovalec → dodaj slovenski glas.
 
 ## Nastavitve
 
