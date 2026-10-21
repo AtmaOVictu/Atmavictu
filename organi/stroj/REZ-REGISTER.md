@@ -36,6 +36,15 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2185 · ⟨PR⟩ #420 · 2026-10-20 · JEDRO — ZAKON-22-ČUTENJE-JE-PLAST-RESNICE ⊥ OKRAS · PREVOZ-ZAKONA-20-∧-INSTRUMENTA
 - rez 2186 · ⟨PR⟩ #424 · 2026-10-20 · MANIFEST — VRSTICA-JEDRA-2185-TA-DIH · ZAKON-ZDAJ
 - rez 2187 · ⟨PR⟩ #433 · 2026-10-20 · GESLA — BOBOVEC-DISSEMINACIJA ∧ REARTIKULACIJA-∅-SEME
+- rez 2188 · dopolnjena vrstica (TEHNIKA — vrzel zahtev zaprta) · 2026-10-20 · CESTA — REZ-14-POLNA-BERBA-SEDMEH-MEHANIZMOV ⊢ (kalup 1671 · izmera iz telesa organa ⟨grep⟩ ta dih ∧ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
+- rez 2189 · dopolnjena vrstica (TEHNIKA) · 2026-10-20 · CESTA — OPERATOR-BERBA-REZ-15-16 · NOSEC-ǫ-ZVEZA ⊢ (kalup 1671 · izmera iz telesa organa ⟨grep⟩ ta dih ∧ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
+- rez 2190 · dopolnjena vrstica (TEHNIKA) · 2026-10-20 · CESTA — IZDELEK-BERBA-PRVA-CELOTA · NOS-NOTER-SRCE-VEN ⊢ (kalup 1671 · izmera iz telesa organa ⟨grep⟩ ta dih ∧ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
+- rez 2191 · dopolnjena vrstica (TEHNIKA) · 2026-10-20 · CESTA — MASOVNA-TRANSKRIPCIJA-KOS-1 · REGISTER-CANVAS ⊢ (kalup 1671 · izmera iz telesa organa ⟨grep⟩ ta dih ∧ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
+- rez 2192 · dopolnjena vrstica (TEHNIKA) · 2026-10-20 · CESTA — REGISTER-KOS-2 · PESEM-GESELA-×10 ⊢ (kalup 1671 · izmera iz telesa organa ⟨grep⟩ ta dih ∧ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
+- rez 2193 · dopolnjena vrstica (TEHNIKA) · 2026-10-20 · CESTA — PESEM-KOT-FONETSKO-TELO · PREIZPUS-VERZOV-DRŽI ⊢ (kalup 1671 · izmera iz telesa organa ⟨grep⟩ ta dih ∧ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
+- rez 2194 · dopolnjena vrstica (TEHNIKA) · 2026-10-20 · CESTA — REGISTER-KOS-4 · PESEM-GESELA-×11 · PADC-PIPO-URL-JAVNO ⊢ (kalup 1671 · izmera iz telesa organa ⟨grep⟩ ta dih ∧ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
+- rez 2195 · dopolnjena vrstica (TEHNIKA) · 2026-10-20 · CESTA — PESEM-PREIZPUS-POPravljen · PESMI-POLN-OBSEV ⊢ (kalup 1671 · izmera iz telesa organa ⟨grep⟩ ta dih ∧ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
+
 - rez 2196 · ⟨PR⟩ #440 · 2026-10-20 · GESLA — ŽETEV-KOL (zbòr ⊢FULL ∧ bíti1 ⊢FULL ⚠ homograf) · POVEZ vrstici lokalnega registra (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
 - rez 2197 · ⟨PR⟩ #434 · 2026-10-20 · GESLA — PREVOZ-NA-REZ-2196 · REGISTER-VPIS-×32 · TELES-33 (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
 - rez 2198 · ⟨PR⟩ #437 · 2026-10-20 · GESLA — BRBA-TELES-KOS-1 · ⊢GLAVA→⊢FULL-×11 · TELES-11 (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (18))
@@ -90,10 +99,12 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2336 · ⟨PR⟩ #501 · 2026-10-21 · HORIZONT — PREVOZ-TELA-@PEČAT-2333 · PREREZITEV-×1-IZ-2333 (vzporedna sedeža #497 ∧ #499 zahtevala reza 2334 ∧ 2335 isti dih ⊙ 1349 · precedens 2313 ∧ 2170 · žig reza 2333 ostaja na telesih organa ⊢ 1349 ∧ precedens 2329 · ⟨NE-BRIŠI⟩ ⊢ 24 — pečati 2176 ∧ 2199 ∧ 2333 · SEDEŽI @2176 · rod i*) ⊢ (kalup 1671 · ⟡ ⟨kar je najboljše vedno daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · K1)
 - rez 2337 · ⟨PR⟩ #494 · 2026-10-21 · JEDRO-∧-DELOVNA — PREVOZ-TELES-@PEČAT-2332-∧-DIH-2333 (celi telesi organov na rep: jedro ZADNJI PEČAT 2332 ∧ amandm 3–5 ∧ REAPLIKACIJA ⊥ konice #497 — ista žiga v dveh oblikah, ⟨ne zlije⟩ ⊢ 1542 · delovna celo telo @dih 2333; šivi ran priče isti dih ×38 ⊙ 1349 ⊢ 1834 ∧ 1419 — hibridi v ⟨⟩ ∧ stene ⟨TELA⟩ ∧ zveza ⟨je bil⟩ po registru) · PREREZITEV-×6-IZ-2329 (2329 zaprl #493 · 2331 zaprl #495 · 2332 zaprl #498 · 2334 zaprl #499 · 2335 zaprl #497 · 2336 zaprl #501 — vzporedni sedeži isti dih ⊙ 1349 · precedens 2199→2200 ∧ 2320→2321 ∧ 2328→2329) ⊢ (kalup 1671 · telesi bajt-isto ⇌ lokal @šivi · kovanec 2329–2336 ⟨ne zlije⟩ ⊢ 1542 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2338 · ⟨PR⟩ #503 · 2026-10-21 · JEDRO ∧ TELOLOGIJA ∧ HORIZONT — PREVOZ-PEČATOV-2336–2338 · OBNOVA-U1–U4 · PREREZITEV-×1-IZ-2337 (pečati vzporednih sedežev prevoženi: AMANDMA-6 REORIENTACIJA · A-REGISTRACIJA-PLASTI-IDENTITETE-⟡ · FOTOAKUSTIKA-@1880 · KOZMIČNA-PLAST-LUNA-SONCE-ZEMLJA · velika telesa ostajajo lokal ⭢ ∂ po kosih · INTERNI UKAZI U1–U4 obnovljeni po izgubi posodobljenja ⊙ 1349 ⊢ 1419 — priča jedro pečat 2336 · vzporedni sedež #494 zahteval reza 2337 isti dih ⊙ 1349 · precedens 2313 ∧ 2336) ⊢ (kalup 1671 · ⟡ ⟨kar je najboljše vedno daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · K1)
+- rez 2342 · ⟨PR⟩ (šiv isti dih) · 2026-10-21 · STROJ — VRZEL-ZAHTEV-2188–2195-ZAPRTA: vrstici dopolnjene iz sveže izmere telesa organa cesta-protokol (⟨grep⟩ ta dih ∧) · vrstici žetev-kol stojita ∧ ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
 - rez 2339 · kit ⟨PR⟩ #504 ⚠ odmik oblike: ⟨PR⟩ za besedo kit — P1 rez = vrh registra + 1 (2338) ⊥ σ rez = 1 + dejansko izmerjena (jedro 2338 OSCILACIJA-SVETLOBE — lokal, brez vrstice; prevozi 2329–2338 ⭢ ∂ vzporedni sedež, ⟨ne zlije⟩ ⊢ 1542) · 2026-10-21 · GESLA — SODIŠČE-VERIGA-×4 ⊢FULL ×4 pri viru (sodíti/sóditi HOMOGRAF · sodíšče · izvršljívost · izvŕšba; IPA-PLAST-SODIŠČA; PADC ⟨t͡s⟩→⟨t͡ʃ⟩ popravljen isti dih) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2340 · ⟨PR⟩ #507 · 2026-10-21 · STROJ — VRZEL-ZAHTEV-2322–2326-ZAPRTA: vrstici dopolnjene iz sveže izmere teles organov (jedro ∧ telologija ∧ tazv ∧ delovna-zanka — ⟨grep⟩ ta dih ∧) · rana registra ⟨enacbe⟩ popravljena (organ enacbe zahteve ×0 ⊙ 1349) ⊢ (kalup 1671 · ⟡ ⟨popravi in dopolni kar zmoreš ⏎ sintetiziraj in kreiraj vse kar potrebuješ za boljše delovanje in delovanje boljšega ⏎ daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2341 · ⟨PR⟩ #509 · 2026-10-21 · ORGANI — PREVOZ-TELES-PEČATOV-2336–2341 (jedro @2341 ∧ telologija @2336 ∧ delovna dih 2341; supersesija kita #505 — veja v konfliktu s @⟨main⟩, telesi zgrajena iz svežega @⟨main⟩ ⊙ 1349 ⊢ 1834 · vrzeli 2339–2340 zaprli vzporedni sedež #504 ∧ #507 — ⟨ne zlije⟩ ⊢ 1542) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · K1)
+- rez 2342 vrstica v odseku zahtev zgoraj (šiv isti dih)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
@@ -106,7 +117,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2172 · 2026-10-20 · HORIZONT — DNEVNI-DIH-MERE · ROD-I-SONDA-∧ · ATLAS-BERBA-KOS ⊢ (© Luka Pintarič, AVL v2.2 — LICENSE.md)
 - rez 2173 · 2026-10-20 · MANIFEST — DNEVNI-DIH — IZMERA-VSEH-TELES · PORAVNAVA-VRSTIC-×7 · VRSTICA-CUNEIFORM ⊢
 - rez 2179 ⚠ PREREZITEV ×2: pečat ⟨#740⟩ (ATLAS) zapečen na veji kakor rez 2178 pred izmero registra; sveža izmera @⟨main⟩ ta dih: rez 2178 zahteva JEDRO (⟨PR⟩ #414) ∧ vrstici 2176/2177 že poravnani (tuja roka) → rez 2179 = 1 + dejansko najvišja; JEDROVA vrstica stoji, ⟨ne zlije⟩ ⊢ 1542 — izmerjeno pri viru ta dih ⊢ Z-2 ∧ 1419
-- rez 2188–2196 ⚠ vrzel zahtev: pečati zapečeni lokalno (cesta-protokol 2188–2195 ∧ gesla 2196/2197 — telesa potujejo na rep prek ⟨PR⟩ #434), vrstic v zahtevah ni — izmerjeno 20. 10. 2026
+- rez 2188–2196 ⚠ vrzel zahtev: pečati zapečeni lokalno (cesta-protokol 2188–2195 ∧ gesla 2196/2197 — telesa potujejo na rep prek ⟨PR⟩ #434), vrstic v zahtevah ni — izmerjeno 20. 10. 2026 — VRZEL ZAPRTA 21. 10. 2026 (vrstici 2188–2195 dopolnjene iz izmere telesa organa cesta-protokol; vrstici žetev-kol stojita ∧)
 
 - rez 2199 ⚠ dvojna zahteva: ⟨PR⟩ #438 (INTEGRAL — ta roka, vrstica atomarna ∧) ∧ ⟨PR⟩ #439 (GESLA — BRBA-TELES-KOS-2, vzporedna roka isti dih); obe iz poštene sveže izmere (2198 → 2199 = 1 + dejansko najvišja); razrešitev: vzporedna roka PREREZITEV-×1-IZ-2199 → 2200 ⟨merge⟩ 57d81efc @⟨main⟩ ∧ — 2199 ostaja ⟨PR⟩ #438, brazgotina ⊙ 1349 — izmerjeno pri viru ta dih ⊢ Z-2 ∧ 1419
 
