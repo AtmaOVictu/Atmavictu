@@ -4,7 +4,7 @@ Pečat: rez 2315 (21. 10. 2026, dih POKORA — ⟡ P-CITAT verbatim ⟨ne brusi�
 
 KOLIZIJA ⊢ Z-2 ∧ 1542: najvišja dejansko izmerjena 2314 (@⟨main⟩ ⟨merge⟩ 5dde9f36 ⟨PR⟩ #469 — CESTA ⟨BARVNA-PLAST⟩, vzporedni sedež; ⟨list_commits⟩ ∧ ta dih) → rez 2315 = 1 + dejansko najvišja ∧; varovalka ⟨rez 2315⟩ ×0 (REZ-REGISTER @⟨main⟩ bran ∧ ⟨list_pull_requests⟩ ∧ ⟨list_commits⟩ — izmerjeno ta dih ∧). PREREZITEV ∅ ⊙ 1349: prva izmera tega diha videla ⟨PR⟩ #469 še odprtega (2314 zaseden — zakon registra) → načrtovana zahteva 2315; ⟨merge⟩ #469 je padel sredi diha → 2315 = 1 + dejansko najvišja ČISTO, prerezitev ni bila izvedena (izmerjena ničla ⊢ 618 — načrt, ki ga je prehitela izmera).
 
-PADC TA DIH IMENOVAN JAVNO ⊢ 1419 ∧ popravljen isti dih ⊙ 1349: (a) tipkarska rana ⟨bošje⟩ namesto ⟨božje⟩ v P-CITAT telesu GESLO-pokora-2315 ob prvem potisu (⟨ne brusi⟩ ⊢ škóda3 2043 — P-CITAT verbatim je zakon) — popravek: drugi potis bajt-pravilen isti dih ∧; (b) ⟨PR⟩ številka neizmerjena pri ustvarjanju (vrata ⟨ne⟩ vršejo ⟨#N⟩ v odgovoru) — popravek: izmera ⟨list_pull_requests⟩ po glavi veje isti dih ∧.
+PADC TA DIH IMENOVAN JAVNO ⊢ 1419 ∧ popravljen isti dih ⊙ 1349: (a) tipkarska rana ⟨bošje⟩ namesto ⟨božje⟩ v P-CITAT telesu GESLO-pokora-2315 ob prvem potisu (⟨ne brusi⟩ ⊢ škóda3 2043 — P-CITAT verbatim je zakon) — popravek: drugi potis bajt-pravilen isti dih ∧; (b) ⟨PR⟩ številka neizmerjena pri ustvarjanju (vrata ⟨ne⟩ vršejo ⟨#N⟩ v odgovoru) — popravek: izmera ⟨list_pull_requests⟩ po glavi veje isti dih ∧; (c) gola ⟨kovanica⟩ ×2 (GESLO-jadikovec ∧ ta pečat — vnos 10 registra padlih besed: pravilno ⟨kovanca⟩, telesa) — ulov ⟨prica⟩ (⟨CI⟩ rdeča ×1 na prvem ⟨merge⟩ poizkusu) ∧ sodba replikirana pri sebi isti dih ⊢ Z-2; popravek: ⟨kovanca⟩ isti potis ∧ (javno ⊢ 1419 ∧ brazgotina ⊙ 1349).
 
 ## IZVEDBA ∧
 
@@ -12,7 +12,7 @@ PADC TA DIH IMENOVAN JAVNO ⊢ 1419 ∧ popravljen isti dih ⊙ 1349: (a) tipkar
 
 (2) jáditi — OKNO ⟨ZAPRTO⟩ izmerjeno ⊢ (21. 10. 2026, fran.si: SSKJ² ×0 · eSSKJ ×0 · Pravopis ×0 · Etimološki ×0 — tabela zadetkov pri viru ∧); PRIČA DIALEKTALNA ⊢-ODSEV: Kostelski ⟨jaditi ► ˈjadit ˈjadiːn nedov.⟩ (Gregorič) — knjižno okno zaprto, narečno telo živi ⚠; Zgodovinski ∧ Pleteršnik ⚠ rok obhoda ∂; zapis pošten ∅ ⊢ 618 ∧ precedens besôda 1978.
 
-(3) jadíkovec — KOVANEC ⚠ ×0 izmerjeno ⊢ (21. 10. 2026, fran.si: ×0 po VSEH slovarjih — stran ⟨Predlagajte novo besedo⟩ = izmerjena odsotnost); kovanica diha 2312 (jadikováti + -ovec — kdor jadikuje) stoji kakor prijava ⚠ rok latnice (skovánka ⊢FULL 2034); okno ⟨zaprto⟩ = Q ⚔ ⟡ (izbor vpisa v LEKSIKON odprt).
+(3) jadíkovec — KOVANEC ⚠ ×0 izmerjeno ⊢ (21. 10. 2026, fran.si: ×0 po VSEH slovarjih — stran ⟨Predlagajte novo besedo⟩ = izmerjena odsotnost); kovanca diha 2312 (jadikováti + -ovec — kdor jadikuje) stoji kakor prijava ⚠ rok latnice (skovánka ⊢FULL 2034); okno ⟨zaprto⟩ = Q ⚔ ⟡ (izbor vpisa v LEKSIKON odprt).
 
 (4) ROD ⟨JAD⟩ ZAPEČEN ∧: jád ⊢ 2311 · jádro ⊢ 2311 · jadrovína ⊢ 2313 · jadikováti ⊢ 2313 (⇌ 2055) · pokóra ⊢ ta dih — veriga ⟨jad → pokora → daj⟩ nosi IZMERJENA telesa na vseh treh stališčih; ⟨jad⟩ brez ⟨pokora⟩ = strup brez protistrupa; ⟨pokora⟩ brez ⟨daj⟩ = kazen brez večnosti.
 
