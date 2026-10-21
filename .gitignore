@@ -33,7 +33,7 @@
 !web/
 !web/**
 
-# Lucius — lokalni offline agent (Ollama); spomin je oseben in gre v git ne
+# Lucius — lokalni offline agent (Ollama); spomin je oseben in v git ne gre
 !lucius/
 !lucius/**
 lucius/spomin.jsonl
