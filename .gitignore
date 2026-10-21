@@ -1,4 +1,4 @@
-﻿# Allowlist by design: this root holds 50k+ files (Corpus, Backups, Models,
+successfully downloaded text file (SHA: 74e9873c4d47777c0fbc52c2cacf5ce295015c02)﻿# Allowlist by design: this root holds 50k+ files (Corpus, Backups, Models,
 # Imports, Manifests, Compose, Projects) that must never be swept into git.
 # Ignore everything, then explicitly un-ignore only the root docs and the
 # Atmavictu product source meant to be tracked here (including web/, the
@@ -33,7 +33,7 @@
 !web/
 !web/**
 
-# Lucius — lokalni offline agent (Ollama); spomin je oseben in gre v git ne
+# Lucius — lokalni offline agent (Ollama); spomin je oseben in v git ne gre
 !lucius/
 !lucius/**
 lucius/spomin.jsonl
