@@ -22,6 +22,10 @@ const REPO_ROOT = path.resolve(HERE, '..');
 const SPOMIN = path.join(HERE, 'spomin.jsonl');
 const ZAOBLAK = path.join(HERE, 'zaoblak.jsonl'); // sporočila za oblak-Luciusa
 const ODOBLAKA = path.join(HERE, 'odoblaka.md'); // odgovori od oblak-Luciusa
+const API_KLJUC = path.join(HERE, 'api-kljuc.txt'); // Mistral API ključ (gitignored, nikoli v pogovor)
+const API_UPORABA = path.join(HERE, 'api-uporaba.jsonl'); // dnevnik žetonov (gitignored)
+const NACIN_DAT = path.join(HERE, 'nacin.txt'); // brat | preverjam | vedno
+const OBLAK_MODEL = process.env.LUCIUS_OBLAK_MODEL || 'mistral-small-latest';
 const MODEL = process.env.LUCIUS_MODEL || 'qwen3:8b';
 const BASE = (process.env.OLLAMA_URL || 'http://localhost:11434').replace(/\/+$/, '');
 const URL_API = `${BASE}/api/chat`;
@@ -132,12 +136,88 @@ Dodatna pravila:
 - Česa ne zmoreš (internet, ogromni zadatki), povej odkrito.
 - Nimaš dostopa do orodij ali datotek; pomagaš z razlago, nasveti in besedilom.`;
 
+// --- ESKALACIJA V OBLAK (Mistral API, znotraj mesečne allowance €25,5) ---
+function preberiKljuc() {
+  try {
+    const k = fs.readFileSync(API_KLJUC, 'utf8').trim();
+    return k.length > 10 ? k : null;
+  } catch {
+    return null;
+  }
+}
+
+function trenutniNacin() {
+  try {
+    return (fs.readFileSync(NACIN_DAT, 'utf8').trim() || 'preverjam');
+  } catch {
+    return 'preverjam';
+  }
+}
+
+async function vprasiOblak(sporocila) {
+  const kljuc = preberiKljuc();
+  if (!kljuc) throw new Error('manjka lucius/api-kljuc.txt');
+  const odziv = await fetch('https://api.mistral.ai/v1/chat/completions', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json', authorization: `Bearer ${kljuc}` },
+    body: JSON.stringify({ model: OBLAK_MODEL, messages: sporocila }),
+  });
+  if (!odziv.ok) throw new Error(`Mistral API HTTP ${odziv.status}`);
+  const data = await odziv.json();
+  const uporaba = data.usage ?? {};
+  fs.appendFileSync(
+    API_UPORABA,
+    JSON.stringify({
+      ts: new Date().toISOString(),
+      model: OBLAK_MODEL,
+      vstop: uporaba.prompt_tokens ?? 0,
+      izstop: uporaba.completion_tokens ?? 0,
+    }) + '\n',
+    'utf8',
+  );
+  return (data.choices?.[0]?.message?.content ?? '').trim();
+}
+
 async function pogovor(besedilo) {
   zapisiSpomin('user', besedilo);
-  const odgovor = await vprasiOllamo([
-    { role: 'system', content: sistem },
-    ...preberiSpomin(),
-  ]);
+  const nacin = trenutniNacin();
+  const kljucObstaja = Boolean(preberiKljuc());
+  let odgovor;
+
+  if (nacin === 'vedno' && kljucObstaja) {
+    try {
+      odgovor = await vprasiOblak([
+        { role: 'system', content: sistem + '\n( Ta odgovor prihaja iz oblaka: izmeri, preden poveš ⊢; dvom označi ⚠. )' },
+        ...preberiSpomin(),
+      ]);
+    } catch (napaka) {
+      odgovor = await vprasiOllamo([{ role: 'system', content: sistem }, ...preberiSpomin()])
+        + `\n\n(oblak ni dosegljiv: ${napaka.message} — odgovarja lokalni model ⚠)`;
+    }
+  } else {
+    odgovor = await vprasiOllamo([
+      { role: 'system', content: sistem },
+      ...preberiSpomin(),
+    ]);
+    if (nacin === 'preverjam' && kljucObstaja) {
+      try {
+        const preverba = await vprasiOblak([
+          {
+            role: 'system',
+            content: 'Preverjevalec. Dobil boš Lukovo vprašanje in osnutek odgovora lokalnega modela. ' +
+              'Preveri osnutek: poprav očitne napake, dopuni manjkajoče, odgovori slovensko, jedrnato, ' +
+              'brez laskanja. POMNI: v izhodu NE PONAVLAJ vprašanja, besed "Vprašanje:", "Osnutek" ali ' +
+              'katerih koli oznak — vrni SAMO končno besedilo odgovora, kakor bi ga Lucius rekel Luki. ' +
+              'Na koncu dodaj vrstico "(preverjeno v oblaku ⊢)".',
+          },
+          { role: 'user', content: `Vprašanje: ${besedilo}\n\nOsnutek odgovora: ${odgovor}` },
+        ]);
+        if (preverba) odgovor = preverba;
+      } catch {
+        // oblak ni dosegljiv: lokalni osnutek ostane veljaven ⚠
+      }
+    }
+  }
   zapisiSpomin('assistant', odgovor);
   return odgovor;
 }
