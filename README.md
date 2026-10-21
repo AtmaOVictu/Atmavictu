@@ -25,7 +25,7 @@ It is also the canonical home of the system's **corpus** — see
 
 ```sh
 npm install
-npm test          # 44 tests
+npm test          # 85 tests (⊢ izmera 21. 10. 2026)
 npm run typecheck
 node build/src/atmaCli.js <capture|show|verify> <projectRoot> [title] [body]
 ```
@@ -88,11 +88,19 @@ Trajni manifest hrani sled:
 
 To pomeni, da povezava med surovim vhodom in mestom v knjigi ni implicitna v UI-ju, ampak eksplicitna v lokalnem manifestu.
 
+## Lucius — lokalni offline agent (2026-10-21)
+
+- `lucius/lucius.mjs` — pogovorni agent na lokalni Ollami (privzeto `qwen3:8b`); bere dogovor iz korenskega `AGENTS.md`, spomin v `lucius/spomin.jsonl`.
+- Most do oblak-agentov je disk, ne omrežje: `--oblaku "…"` piše v `zaoblak.jsonl`, odgovori oblaka v `odoblaka.md`.
+- `--glas` (Windows TTS, offline), zaganjalnik `lucius.cmd`, izgradnja samostojnega `Lucius.exe` z `lucius/zgradi-exe.cmd` (Node SEA).
+- Podrobnosti: [lucius/README.md](lucius/README.md).
+
 ## Status repoja
 
 - contract-first
 - model + service + repository + CLI plast implementirana in testirana (glej `src/`, `npm test`)
 - lokalni UI workbench (Faza 2) je v izdelavi: Express API + React/Vite frontend, glej spodaj
+- lokalni Lucius offline agent (`lucius/`, 2026-10-21): Ollama + most do oblak-agentov prek diska, glej razdelek Lucius
 - brez Tauri implementacije v tej fazi
 - brez kopiranja vsebin iz `Library`
 
@@ -100,7 +108,7 @@ To pomeni, da povezava med surovim vhodom in mestom v knjigi ni implicitna v UI-
 
 - Faza 0: produktni scope, arhitekturni contract, minimalni manifest schema — DONE
 - Faza 1: model + service plast nad manifestom — DONE (`src/workbenchManifest.ts`, `src/workbenchManifestRepository.ts`, `src/atmaCli.ts`)
-- Faza 2: lokalni UI workbench nad zaklenjenim contractom — IN PROGRESS. Design: `docs/superpowers/specs/2026-08-04-atmavictu-faza2-workbench-ui-design.md`. Vseh 9 service operacij je dosegljivih iz UI-ja in preverjenih v resnicnem brskalniku (glej ta dokument in spec). Namerno se manjka: vizualno oblikovanje, konfigurabilna Knjiznica pot, drag-and-drop.
+- Faza 2: lokalni UI workbench nad zaklenjenim contractom — IN PROGRESS. Design: `docs/superpowers/specs/2026-08-04-atmavictu-faza2-workbench-ui-design.md`. Vseh 9 service operacij je dosegljivih iz UI-ja in preverjenih v resnicnem brskalniku (glej ta dokument in spec). Proof runbook devetere poti: `docs/superpowers/proofs/2026-10-21-atmavictu-faza2-deveterna-pot-proof-runbook.md`. Namerno se manjka: vizualno oblikovanje, konfigurabilna Knjiznica pot, drag-and-drop.
   - Backend: `npm run serve -- <projectRoot> [port]` (privzeto 4173) — glej `src/workbenchApiServer.ts`, testi v `src/workbenchApiServer.test.ts`.
   - Frontend: `cd web && npm install && npm run dev` (privzeto 5173, proxy na `/api` -> 4173).
 - Faza 3: runtime integracija in selektivna desktop plast — not started

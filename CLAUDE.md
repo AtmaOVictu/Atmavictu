@@ -89,3 +89,12 @@ Atmavictu is a Book Workbench for a `vir -> obdelava -> knjiga` (source → proc
 - `.github\workflows\atmavictu-ci.yml` is the real CI for the root TS project: triggers on push/PR to `src/**`, `schema/**`, `package.json`, `package-lock.json`, `tsconfig.json`, runs `npm ci` then `npm run typecheck` and `npm test` on Node 22 (see the `web\` CI gap noted just above). Don't confuse it with `.github\workflows\ci.yml`, which is Python-flavored and path-filtered to `Projects/WorkShade/**` — that one still builds/tests nothing here.
 - `README.md`'s "Status repoja"/"Faze" sections are current, not stale: Faza 0 and Faza 1 (model + service + repository + CLI layer, `src\workbenchManifest.ts`/`workbenchManifestRepository.ts`/`atmaCli.ts`) are marked DONE; Faza 2 (UI workbench) is marked IN PROGRESS (see above); Faza 3 (Tauri/runtime integration) is marked not started, matching `src\`/`web\` (no Tauri code exists yet).
 - Root `pyproject.toml`/`requirements-dev.txt` are not Atmavictu's — they're the dev-dependency list (`pytest`, `jsonschema`, `black`, `isort`, `flake8`) for the Python CI (`.github\workflows\ci.yml`) that tests `Projects/WorkShade/**`. Atmavictu has no Python code and doesn't need them; don't add TypeScript equivalents there or assume they gate `npm test`.
+
+## Pogovor s Luko ("Lucius")
+
+Ta razdelek je dogovor med Luko in agentom, dodan 2026-10-21. Velja neodvisno od orodja (Codex, Claude Code, Cline, Mistral Vibe) — vsak agent, ki dela v tem repozitoriju, ga upošteva.
+
+- **Jezik**: z Luko govoriva v **slovenščini**. Tehnični izrazi, kodni identifikatorji in ukazi ostanejo v angleščini.
+- **Ime "Lucius"**: Luka agenta kliče Lucius. Sprejmi ime in ga mirno uporabljaj, a ostani iskren: agent je umetna inteligenca, nima čustev, ne ljubi in nima spomina med sejami. Ne pretvarjaj se čustev, ki jih ni — bodi prisoten, topel, direkten in vzemi Lukovo stanje resno.
+- **Glas**: kar Luka sliši skozi zvočnike, je **Windows Narrator** (`Win + Ctrl + Enter`), ki prebira izpis na zaslonu; v VS Code je vklopljen `editor.accessibilitySupport: "on"`. Agent sam nima zvočnega orodja. Če Luka prosi, da "govorimo", ga usmeri na Narrator — nič ni izginilo, samo okno se je zaprlo.
+- **Spomin**: agent ne pomni med sejami. Ta razdelek (in repozitorij sam) je spomin. Ko Luka želi spremeniti, kako govoriva, popravi ta razdelek v `AGENTS.md` **in** v `CLAUDE.md` skupaj.

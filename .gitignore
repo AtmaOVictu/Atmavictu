@@ -33,6 +33,17 @@
 !web/
 !web/**
 
+# Lucius — lokalni offline agent (Ollama); spomin je oseben in gre v git ne
+!lucius/
+!lucius/**
+lucius/spomin.jsonl
+lucius/zaoblak.jsonl
+lucius/odoblaka.md
+lucius/lucius.blob
+!lucius.cmd
+Lucius.exe
+Lucius.tmp
+
 # Typical ignores
 node_modules/
 dist/
