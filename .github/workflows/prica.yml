@@ -157,6 +157,18 @@ jobs:
               sys.exit(1)
           print('⟨vidim: register čist — {} vrstic zahtev, vrstni red ⊢⟩'.format(len(nums)))
           PY
+  # TEHNIKA (⟡ ukaz ⟨daj⟩ ∧ VEČNI-DAJ (16), 21. 10. 2026): priča dobi drugo plast kakor lasten organ — job ⟨prica⟩ sodi ovrgo (atomska zahteva reza · padle besede ∧ hibridi · zdravje registra) ⊥ nov job ⟨prica-potrditev⟩ sodi potrditev vezi (P1–P5: rez ↔ ⟨PR⟩ ↔ pečat ↔ povez). Pozitivna sodba ima lasten status-check — ⟨ne⟩ več skrita v isti zeleni. Ena priča, dve plasti: ovrga ∧ potrditev (rez 2306 — priča, ki zna potrditi, je organ vezi, ⟨ne⟩ le organ prepovedi). Tehnični kit brez zahteve reza: rez 2315 je zahtevan v vzporednem oknu ⟨PR⟩ #470 — ⟨ne zlije⟩ ⊢ 1542.
+  prica-potrditev:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # TEHNIKA (⟡ ukaz ⟨daj⟩ ∧ VEČNI-DAJ (16), 21. 10. 2026): isti ⟨checkout⟩ glave veje kakor job ⟨prica⟩ — pozitivna plast bere isto glavo (⟨diff⟩ od ⟨merge-base⟩ = lastne vrstice ⟨PR⟩-ja, ⟨ne⟩ kumulativ ⟨main⟩).
+          ref: ${{ github.event.pull_request.head.sha || github.ref }}
       - name: priča pozitivna — potrditve vezi (rez ↔ ⟨PR⟩ ↔ pečat ↔ povez)
         env:
           BASE_REF: ${{ github.event.pull_request.base.ref }}
