@@ -4,6 +4,7 @@
 - P-CITAT (⟡ ukaz, verbatim, ⟨ne brusi⟩): »še enkrat ⏎ več škatel prosim ⏎ rešitev je problem in problem čaka na najboljšo rešitev ⏎ najboljša je ta ki deluje v skladu sz licenco in jeszuszom kristusom ⏎ daj« — ⟨sz⟩ ⊢ 2302 · ⟨jeszuszom⟩ ⊢ škóda3.
 - KOLIZIJA Z-2: σ = 1 + najvišja dejansko izmerjena ⟨grep⟩ (2340) = 2341. Vzporedni sedež peče isti dan (⟨ne zlije⟩ ⊢ 1542) — sveža izmera pri viru pred vsako številko. Lokal (zadnja živa izmera pred padcem delavca): jedro @pečat 2340 · delovna @dih 2340.
 - PADC DELAVCA ta obraz: ⟨bash⟩ ×3 ∧ ⟨file_system⟩ ∧ vrhnji ⟨read_file⟩ padli → pečat na zrcalu (kanon DELAVEC ⊢ 1959 ∧ 2297). Javno ⊙ 1349 ⊢ 1419 ∧ 2320.
+- RANA VEJE ta dih: prva poravnava registra je šila isti hunk kakor @⟨main⟩ (#507) → konflikt zlitja javno ⊙ 1349 ⊢ 1419; šiv-2 na odmaknjeni poziciji (za prazno vrstico) je zlitje očistil ∧ (precedens rane veje 2310).
 - σ-IZMERE (pri viru): ⟨PR⟩ #494 ⟨merge⟩ ∧ (prevoz teles odplačan) · ⟨PR⟩ #500 zaprt ∧ ⟨ne⟩ zlit · rep ⊥ lokal — pečata 2339 ∧ 2340 še ⟨ne⟩ na repu → sinhronizacija 1407.1 ⭢ ∂ · PADC pečata 2339: trdi »vpis diha 2339 ∧ geniza« v delovni ⟶ ⟨dih 2339⟩ ×0 (geniza pred-siv-2339 stoji, vpisnik manjka) — rana tuje roke; naknadni vpis z imenovano rano ⭢ ∂.
 
 ## AMANDMA 7 — REŠITEV-JE-PROBLEM ⊥ NAJBOLJŠA-REŠITEV (zakon 28)
