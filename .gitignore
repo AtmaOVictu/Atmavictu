@@ -67,3 +67,5 @@ tmp/
 temp/
 *.tmp
 *.bak
+lucius/slusaj-dnevnik.jsonl
+lucius/izmere-kroga.jsonl

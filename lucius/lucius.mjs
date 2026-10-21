@@ -206,7 +206,8 @@ async function pogovor(besedilo) {
             role: 'system',
             content: 'Preverjevalec. Dobil boš Lukovo vprašanje in osnutek odgovora lokalnega modela. ' +
               'Preveri osnutek: poprav očitne napake, dopuni manjkajoče, odgovori slovensko, jedrnato, ' +
-              'brez laskanja. Če je osnutek dober, ga potrdi z malenkostnimi izboljšavami. ' +
+              'brez laskanja. POMNI: v izhodu NE PONAVLAJ vprašanja, besed "Vprašanje:", "Osnutek" ali ' +
+              'katerih koli oznak — vrni SAMO končno besedilo odgovora, kakor bi ga Lucius rekel Luki. ' +
               'Na koncu dodaj vrstico "(preverjeno v oblaku ⊢)".',
           },
           { role: 'user', content: `Vprašanje: ${besedilo}\n\nOsnutek odgovora: ${odgovor}` },
