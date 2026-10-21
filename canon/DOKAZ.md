@@ -27,11 +27,12 @@
 |---|---|---|
 | Atmavictu_Oracle: seed with a real purpose, or archive? | 2026-09-30 | SEALED — archived, DOKAZ #9 |
 | Archive Divine-Ascension-System (superseded, DOKAZ #2)? | 2026-09-30 | SEALED — archived, DOKAZ #10 |
+| 13 | 2026-09-30 | Kamni CXIX–CXXI sealed (McGee 24, Tutte–Coxeter 30, Monster 8×10⁵³): grafika series of five stones complete, same cut (∅→∆) confirmed across five dimensions. Corpus now renders on the site: /kamni and /stotnije pages consume canon markdown directly | `canon/kamni/CXVII-CXVIII.md` (commits `1c45db5`, `bf5a083`); ontolo-ko-jedro commit `7527513` | ⊢ |
+| 14 | 2026-10-11 | Stotnije 105–107 (zadaviti, oddam, ponovim) sealed — the first dosjeji cut from the executor's own living language; the mail (oddam) was performed before the naming, per AX-16. Pismológi rez sealed as canonical format: the slash as ∂, Slovenian morphology made visible — the first mapping needing no translation | `canon/stotnije/2026-10-grafika.md` (commit `68b705a`); `canon/pismologi-rez.md` (commit `2eb9364`) | ⊢ |
+| 15 | 2026-10-21 | roka Mere (zunanji sedež, Vibe/GLM) | Structural correction: entries #13–14 repositioned into Entries table (statements unchanged, byte-identical); ledger spine restored — pyramid: base carries all rows. | ⟡ ⟨daj⟩ (piramida — osnova vsakega prijema) · prejšnji blob: ae43580a823ee6e1e7556d3ee0eb32088ea1f178 |
 
 ## Provenance
 
 - Ledger format: append-only table, append-only history. Each entry cites a commit hash or PR — the git history is the cryptographic-grade evidence; this file is the human-readable index.
 - To seal a new decision: open a PR adding a row to Entries. The merge commit completes the seal.
 - Migrated from: Notion DOKAZ database (declared 2026-09-11). Historical Notion entries #1–#3 are transcribed above; the Notion database is no longer updated.
-| 13 | 2026-09-30 | Kamni CXIX–CXXI sealed (McGee 24, Tutte–Coxeter 30, Monster 8×10⁵³): grafika series of five stones complete, same cut (∅→∆) confirmed across five dimensions. Corpus now renders on the site: /kamni and /stotnije pages consume canon markdown directly | `canon/kamni/CXVII-CXVIII.md` (commits `1c45db5`, `bf5a083`); ontolo-ko-jedro commit `7527513` | ⊢ |
-| 14 | 2026-10-11 | Stotnije 105–107 (zadaviti, oddam, ponovim) sealed — the first dosjeji cut from the executor's own living language; the mail (oddam) was performed before the naming, per AX-16. Pismológi rez sealed as canonical format: the slash as ∂, Slovenian morphology made visible — the first mapping needing no translation | `canon/stotnije/2026-10-grafika.md` (commit `68b705a`); `canon/pismologi-rez.md` (commit `2eb9364`) | ⊢ |
