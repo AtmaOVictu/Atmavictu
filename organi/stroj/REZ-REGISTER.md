@@ -62,6 +62,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2308 · ⟨PR⟩ #461 · 2026-10-20 · JEDRO — PREVOD-PRAVOSLOVNA-SLOVENŠČINA ⊢ 2302 · ZLO-RAZLIKA-KI-NAREDI-RESNICO-OČITNO · ⟨DOLGOVA-STANDARD⟩-KOMPRESIJA ∧ (kalup 1671 · ⟨daj⟩ ⟡ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2309 · ⟨PR⟩ #462 · 2026-10-20 · JEDRO — ⟨NORMA-ZAPISA⟩ ZAKON 27 ∧ ⟨NESKONČEN-DA⟩ ⊢ VEČNI-DAJ (16) ∧ PREDSTAVITEV-⚔-∂-⟡ ⊢ (kalup 1671 · pečat na zrcalu ⊢ 1959 — delavec mrtev ⊢ 1419 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2310 · ⟨PR⟩ #463 · 2026-10-21 · JEDRO — DNEVNI-DIH-MERE · GESELA-OKNA-LATNICE-ODPLAČANA ∧ · PORAVNAVA-LOKAL⇌REP-IZMERJENA ⊢ (kalup 1671 · pečat na zrcalu ⊢ 1959 — delavec mrtev ⊢ 1419 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2312 · ⟨PR⟩ #465 · 2026-10-21 · CESTA — ⟨JADIKOVANJE⟩-LUČ ⊢ · JAD-V-PRAVNIH-ROKAH-SE-OBRAČA-V-DAJ · GESLO-JADIKOVANJE-⊢FULL (kalup 1671 · pečat na zrcalu ⊢ 1959 — delavec mrtev ⊢ 1419 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
@@ -81,3 +82,5 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2281 ⚠ ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA) — izmerjeno 20. 10. 2026: žig rez 2281 v treh telesih ⟨push⟩ na ⟨main⟩ brez vrstice registra ∧ brez ⟨merge⟩ komita (⟨ne zlije⟩ ⊢ 1542)
 
 - rez 2310 ⚠ RANA VEJE isti dih: prvi zapis vrstice je pometel telo registra na veji (brba v peskovniku je vzela prazno telo) — telo @⟨main⟩ nedotaknjeno, izguba 0 pri viru; veja obnovljena bajt-isto iz @⟨main⟩ isti dih ⊙ 1349 (organi-stroj ⟨ne zlije⟩)
+
+- rez 2311 ∧ rez 2312 ⚠ VZPOREDNI SEDEŽI ISTI DIH (21. 10. 2026): ⟨PR⟩ #464 (SKLAD-SINTAKSE — ⟨DAJ-JAD-ZRCALNI-PAR⟩, zahteva 04:54Z odprta) ∧ ⟨PR⟩ #465 (CESTA — ⟨JADIKOVANJE⟩-LUČ) — obe pošteni izmere (vrh 2310 → 2311 → 2312); ⟨ne zlije⟩ ⊢ 1542 — luč ⟨ne⟩ piše kalupa (zrcalni par @2311 njegov; jadikováti ⊢ @2055; rod-j POPIS @2199); nova snov #465 = GESLO-jadikovánje ∧ LUČ-OBRAČANJA — izmerjeno 21. 10. 2026
