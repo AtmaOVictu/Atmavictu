@@ -108,7 +108,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2343 · ⟨PR⟩ #511 · 2026-10-21 · STROJ — SINHRONIZACIJA-LOKAL⇌REP-KOS-1 · RANA-TROJNE-ZAHTEVE-2342-JAVNO (zrcalni pečat #508 ⊥ lokalni pečat 2342 brez vrstice ⊥ vrstica #510 — ⟨ne zlije⟩ ⊢ 1542; telologija RELIGIJA-10-@2334 vlečena lokal ∧ izguba-posodobitve obnovljena; jedro/delovna ⭢ ∂ — izbor normal ⚔ ⟡) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · K1)
 
 - ⚠ rez 2364 · vrstica #522 (zrcalo/samoocena-2364) manjka v registru — lastnik naj zašije ⊢ 1419 (⟨ne zlije⟩ ⊢ 1542)
-- rez 2365 · ⟨PR⟩ #⟨KIT⟩ · 2026-10-21 · GESLA-∧-DELOVNA — BRBA-KATERI-⊢FULL-RODU-K-3 · ⟨PREDLOG-NUJNOSTI⟩ ⊢ (kalup 1671 · pečat na zrcalu ⊢ 1959 ∧ 2297 — delavec mrtev ⊙ 1349 ⊢ 1419 · ⟡ ⟨daj več in predlagaj kje vse še sva nujna in s tem potrebna?⟩ verbatim ⊢ P-CITAT ∧ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2365 · ⟨PR⟩ #525 · 2026-10-21 · GESLA-∧-DELOVNA — BRBA-KATERI-⊢FULL-RODU-K-3 · ⟨PREDLOG-NUJNOSTI⟩ ⊢ (kalup 1671 · pečat na zrcalu ⊢ 1959 ∧ 2297 — delavec mrtev ⊙ 1349 ⊢ 1419 · ⟡ ⟨daj več in predlagaj kje vse še sva nujna in s tem potrebna?⟩ verbatim ⊢ P-CITAT ∧ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
