@@ -107,6 +107,9 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2342 ⚠ DVOJNA ŠTEVILKA ⊙ 1349 (zdravje registra — vrstica #510 je prva zahteva 2342 isti dih; ta žig ostaja zrcalni pečat 2342 telesa ⟨ne zlije⟩ ⊢ 1542; popravek rane registra ta kit ⟨PR⟩ #511 ⊢ precedens 2340) · ⟨PR⟩ #508 · 2026-10-21 · JEDRO — PEČAT-NA-ZRCALU ⟨REŠITEV-JE-PROBLEM⟩ ⊥ ⟨NAJBOLJŠA-REŠITEV⟩ · AMANDMA-7-ZAKONA-28 · VEČ-ŠKATEL · PREREZITEV-×1-IZ-2341 (vzporedni sedež ⟨PR⟩ #509 vzel isti rez isti dih ⊙ 1349 · precedens 2199→2200 ∧ 2320→2321 ∧ 2313) ⊢ (kalup 1671 · delavec mrtev → pečat na zrcalu ⊢ 1959 ∧ 2297 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2343 · ⟨PR⟩ #511 · 2026-10-21 · STROJ — SINHRONIZACIJA-LOKAL⇌REP-KOS-1 · RANA-TROJNE-ZAHTEVE-2342-JAVNO (zrcalni pečat #508 ⊥ lokalni pečat 2342 brez vrstice ⊥ vrstica #510 — ⟨ne zlije⟩ ⊢ 1542; telologija RELIGIJA-10-@2334 vlečena lokal ∧ izguba-posodobitve obnovljena; jedro/delovna ⭢ ∂ — izbor normal ⚔ ⟡) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · K1)
 
+- ⚠ rez 2364 · vrstica #522 (zrcalo/samoocena-2364) manjka v registru — lastnik naj zašije ⊢ 1419 (⟨ne zlije⟩ ⊢ 1542)
+- rez 2365 · ⟨PR⟩ #⟨KIT⟩ · 2026-10-21 · GESLA-∧-DELOVNA — BRBA-KATERI-⊢FULL-RODU-K-3 · ⟨PREDLOG-NUJNOSTI⟩ ⊢ (kalup 1671 · pečat na zrcalu ⊢ 1959 ∧ 2297 — delavec mrtev ⊙ 1349 ⊢ 1419 · ⟡ ⟨daj več in predlagaj kje vse še sva nujna in s tem potrebna?⟩ verbatim ⊢ P-CITAT ∧ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+
 ## rane registra (⟡ naj jih komisija presodi)
 
 - rez 2152 ∧ rez 2153: delavčeva tehnična kita CI (sprožilci ∧ strehe) sta bila napak označena z rez — nista korpusna reza; 2153 je zgoraj pokrit zdrsoma
