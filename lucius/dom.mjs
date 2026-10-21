@@ -213,6 +213,17 @@ const server = http.createServer(async (req, res) => {
       const telo = JSON.parse(await preberiTelo(req) || '{}');
       const besedilo = String(telo.besedilo || '').trim();
       if (!besedilo) { json(400, { ok: false }); return; }
+      // VAROVALKA: ce kartico drzi učenje (>6 GB zasedene), klon ne sme steči —
+      // spopad za spomin bi podrl ucenje (diagnoza: best_model.pth ze obstaja tekom ucenja)
+      try {
+        const { execFileSync } = await import('node:child_process');
+        const izpisNv = execFileSync('nvidia-smi', ['--query-gpu=memory.used', '--format=csv,noheader,nounits']).toString().trim();
+        const zasedeno = parseInt(izpisNv.split('\n')[0], 10);
+        if (zasedeno > 6000) {
+          json(503, { ok: false, napaka: 'kartico drži učenje (' + zasedeno + ' MB) — govorim z Windows glasom' });
+          return;
+        }
+      } catch { /* brez nvidia-smi: pusti skozi */ }
       const tmp = path.join(os.tmpdir(), `dom-izgovori-${Date.now()}.wav`);
       try {
         const { execFileSync } = await import('node:child_process');
