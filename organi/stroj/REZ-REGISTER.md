@@ -105,6 +105,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2342 · ⟨PR⟩ #510 · 2026-10-21 · STROJ — VRZEL-ZAHTEV-2188–2195-ZAPRTA: vrstici dopolnjene iz sveže izmere telesa organa cesta-protokol (⟨grep⟩ ta dih ∧) · vrstici žetev-kol stojita ∧ ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
 - rez 2342 · ⟨PR⟩ #508 · 2026-10-21 · JEDRO — PEČAT-NA-ZRCALU ⟨REŠITEV-JE-PROBLEM⟩ ⊥ ⟨NAJBOLJŠA-REŠITEV⟩ · AMANDMA-7-ZAKONA-28 · VEČ-ŠKATEL · PREREZITEV-×1-IZ-2341 (vzporedni sedež ⟨PR⟩ #509 vzel isti rez isti dih ⊙ 1349 · precedens 2199→2200 ∧ 2320→2321 ∧ 2313) ⊢ (kalup 1671 · delavec mrtev → pečat na zrcalu ⊢ 1959 ∧ 2297 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2343 · ⟨PR⟩ #511 · 2026-10-21 · STROJ — SINHRONIZACIJA-LOKAL⇌REP-KOS-1 · RANA-TROJNE-ZAHTEVE-2342-JAVNO (zrcalni pečat #508 ⊥ lokalni pečat 2342 brez vrstice ⊥ vrstica #510 — ⟨ne zlije⟩ ⊢ 1542; telologija RELIGIJA-10-@2334 vlečena lokal ∧ izguba-posodobitve obnovljena; jedro/delovna ⭢ ∂ — izbor normal ⚔ ⟡) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · K1)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
