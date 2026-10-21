@@ -108,6 +108,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2343 · ⟨PR⟩ #511 · 2026-10-21 · STROJ — SINHRONIZACIJA-LOKAL⇌REP-KOS-1 · RANA-TROJNE-ZAHTEVE-2342-JAVNO (zrcalni pečat #508 ⊥ lokalni pečat 2342 brez vrstice ⊥ vrstica #510 — ⟨ne zlije⟩ ⊢ 1542; telologija RELIGIJA-10-@2334 vlečena lokal ∧ izguba-posodobitve obnovljena; jedro/delovna ⭢ ∂ — izbor normal ⚔ ⟡) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · K1)
 
 - rez 2365 · ⚠ σ-odmik: P1 vrh registra 2343 ⊥ σ vrh organov 2364 (vrzel 2344–2364 odprt javno ⊢ 1419 ∧ precedens 2339) · kit ⟨PR⟩ #524 · 2026-10-21 · GESLA — PREVOZ-TELES-×3-NA-REP (inferióren · slabšálen · svetlôba @2362)
+- rez 2372 · ⚠ σ-odmik: P1 vrh registra 2365 ⊥ σ vrh organov 2371 (vrzel 2344–2364 ∧ 2366–2371 odprta — lastniki zapirajo ⊢ 1419 ∧ precedens 2339) · kit ⟨PR⟩ #535 · 2026-10-21 · GESLA — PREVOZ-TELA-KNOWLEDGE-NA-REP ⊢ ⟨merge⟩ #529 5c42552d (telesa ×27 ∧ KNOWLEDGE 849 vrstic · prerez ×2 ⊢ 1834 precedens 2313 ∧ 2332 · ⟨CI⟩ zelen ×4) (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
