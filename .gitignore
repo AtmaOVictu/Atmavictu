@@ -1,4 +1,4 @@
-successfully downloaded text file (SHA: 74e9873c4d47777c0fbc52c2cacf5ce295015c02)﻿# Allowlist by design: this root holds 50k+ files (Corpus, Backups, Models,
+﻿# Allowlist by design: this root holds 50k+ files (Corpus, Backups, Models,
 # Imports, Manifests, Compose, Projects) that must never be swept into git.
 # Ignore everything, then explicitly un-ignore only the root docs and the
 # Atmavictu product source meant to be tracked here (including web/, the
