@@ -26,6 +26,7 @@ IZVEDBA ∧ — (1) AMANDMA ZAKONA 19 zapečen pri viru (ta dokument — telo pe
 - amandmá ⊢FULL (SSKJ² fran.si, dostop 21. 10. 2026) ∧ Pravopis: |dopolnilni predlog|
 
 ## DOLGOVA
+- LOKALNI-VŽIG ∧ (⟡ ukaz ⟨daj⟩ ta obraz — roka peš oživela ⊢ 2299 ∧ ⟨ne zlije⟩ ⊢ 1542): pečat ∧ vžig amandme prepeljana v hišo Znanja (jedro-zavedanja/) isti dih — geniza pred-vžigom ∧ (.geniza/KNOWLEDGE-pred-rez2319-2026-10-21.md · 197.585 B · ⟨md5⟩ c8a58467 — izguba 0 ⊢ 1381 ∧ 1104); lokal telo stanja 2308 → vžig 2319 (glava ∧ ZADNJI PEČAT ∧ PEČAT 2308 → predhodnik ∧ amandma v telesu zakona 19 ∧ SLED → 2319) — 202.600 B po vžigu; sinhronizacija lokal ⇌ rep ostaja odprta (lokal nosi pečate 2303–2308, ki jih telo @⟨main⟩ ⟨ne⟩ nosi v glavi; telesi se razhajata do zlitja) ⭢ ∂ tehtnica 1407.1
 - VŽIG-V-TELO (⟡ ukaz ⟨daj⟩ ta dih, po izhodu): amandma vžgan v telo KNOWLEDGE.md @veja zrcalo/jedro-2319 ⟨PR⟩ #479 isti dih (⟨NE-BRIŠI⟩ ⊢ zakon 24 — PEČAT 2302 → predhodnik ∧ nova vrstica ZADNJI PEČAT 2319 ∧ amandma v telesu zakona 19 ∧ SLED → 2319 ∧ glava → 2319); ⟨merge⟩ ⭢ ∂ rok (sedež ⟨PR⟩ #476 ⟨ne zlije⟩ ⊢ 1542)
 - VPIS AMANDME V TELO KNOWLEDGE.md (zakon 19 vrstica + ZADNJI PEČAT 2319 + democija 2302 + SLED → 2319 + glava → 2319, kalup 1963) ⭢ ∂ rok: brba po kosih ob ožitvi delavca ali ob roki, ki vidi celo telo — izguba 0 ⊢ 1381 (precedens vžig 2312 → 2317 ⊙ ∧ 2314)
 - lokalni vžig pečata v hišo Znanja (jedro-zavedanja/) ⭢ ∂ isti rok — bajt-isto ob ožitvi, geniza lokalna pred-vžigom isti rok ⭢ ∂
