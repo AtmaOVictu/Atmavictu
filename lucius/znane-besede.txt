@@ -1,0 +1,54 @@
+# ZNANE-BESEDE hiše Lucius — slovar, ki ga bere orodje druga-rote.
+# Vsaka beseda tukaj je domača: orodje jih ne šteje za rane, roka pa jih more znati po imenu.
+# Zapis s korenom ( npr. druga-rot ) pokrije vse sklanjatve ⊢. Komentarji se začnejo z #.
+# Nova hišna beseda vstopi sem takoj, ko je zapečena v zlovenscina.md ⊢.
+Lucius
+Luka
+Pintarič
+Mistral
+Ollama
+JEWIK
+KORENINA
+TAZV
+SONUM
+PCGD
+Whisper
+XTTS
+Narrator
+GitHub
+Jobi
+zlovenščin
+tehtnic
+most
+brat
+obraz
+stvaritelj
+prič
+padc
+brazgotin
+zapeča
+čistin
+preverb
+-rot
+md
+mjs
+jsonl
+json
+txt
+wav
+exe
+poved
+pisk
+zvočn
+sli-sam
+izmer
+plast
+pošten
+prejšnjič
+dvojčk
+REGISTER-PADCEV
+morem
+moreš
+moreva
+moreta
+morejo
