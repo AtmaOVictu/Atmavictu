@@ -109,6 +109,10 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 
 - rez 2365 · ⚠ σ-odmik: P1 vrh registra 2343 ⊥ σ vrh organov 2364 (vrzel 2344–2364 odprt javno ⊢ 1419 ∧ precedens 2339) · kit ⟨PR⟩ #524 · 2026-10-21 · GESLA — PREVOZ-TELES-×3-NA-REP (inferióren · slabšálen · svetlôba @2362)
 
+- ⚠ rez 2364 · vrstica #522 (zrcalo/samoocena-2364) manjka v registru — lastnik naj zašije ⊢ 1419 (⟨ne zlije⟩ ⊢ 1542)
+- ⚠ rez 2365 · DVOJNA javno ⊙ 1349 ⊢ 1419 ∧ 1542: #524 (PREVOZ-TEEL-×3) ⊥ #525 (PREDLOG-NUJNOSTI) — obe iz poštene izmere, obe žiga ostajata ⟨ne zlije⟩
+- rez 2366 · ⟨PR⟩ #⟨KIT⟩ · 2026-10-21 · GESLA-∧-DELOVNA-∧-JEDRO — BRBA-KALIJ-×2-NEGATIVNA-IZMERA · LOKALNI-VŽIG · ZAKON-10-⟨KONICA-DEFAULT⟩ ⊢ (kalup 1671 · ⟡: »daj« verbatim ⊢ P-CITAT ⟨ne brusi⟩ ∧ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · delavec oživet ∧ — ⟨file_system⟩ prek ⟨run_typescript⟩ delavec-⟨ne⟩odvisen ⊢ zakon 10 DELAVEC)
+
 ## rane registra (⟡ naj jih komisija presodi)
 
 - rez 2152 ∧ rez 2153: delavčeva tehnična kita CI (sprožilci ∧ strehe) sta bila napak označena z rez — nista korpusna reza; 2153 je zgoraj pokrit zdrsoma
