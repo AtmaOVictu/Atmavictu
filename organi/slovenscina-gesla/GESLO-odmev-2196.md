@@ -8,8 +8,8 @@ odmèv -éva m (ȅ ẹ́)
 1\. ponovljeni glas, zvok, nastal zaradi odboja zvočnih valov: odmev se oddaljuje, zamira; slišati odmev; glasen odmev; odmev korakov, strelov, zvonov; mrtev, je ribič ponovil kot odmev / knjiž. odmev se še lovi med drevjem; samo odmev odgovarja njegovemu klicu; pren., knjiž. pesem mu je bila odmev iz dragih krajev
 ♦ fiz. podaljšanje zvoka zaradi odboja zvočnih valov
 // glagolnik od odmevati: odmev od sten
-2\. razpravljanje v javnosti, ki ga povzroči kak dogodek: predsednikov govor je imel močen odmev; roman je vzbudil velik odmev; prvi odmev na spremembo je bil ugoden / publ.: resolucija je naletela na širok odmev; članek je našel precej odmeva med bralci o njem so govorili, razpravljali / knjiž. nekrolog v časopisu je bil edini odmev pisateljeve smrti
-3\. publ. uspeh, učinek: sprejeti sklep je bil hitro pozabljen in ni imel odmeva; razpis je ostal brez odmeva
+2\. razpravljanje v javnosti, ki ga povzroči kak dogodek: predsednikov govor je imel močen odmev; roman je vzbudil velik odmev / publ.: resolucija je naletela na širok odmev; članek je našel precej odmeva med bralci o njem so govorili, razpravljali
+3\. publ. uspeh, učinek: razpis je ostal brez odmeva
 ● ekspr. nad taboriščem je plaval odmev revolucionarne pesmi se je slišala revolucionarna pesem; publ. pisateljevo zanimanje za glasbo je dobilo odmev v njegovih romanih je vidno, se kaže; publ. pretep je imel odmev na sodišču obravnavalo ga je sodišče; knjiž. v Prešernovem slogu je precej odmevov antične mitologije sledov, vplivov; knjiž. odmev na ta kulturni dogodek se je ohranil v kroniki spomin
 
 PRAVOPIS ⊢ (Slovenski pravopis pri viru, isti dih): odmèv -éva m (ȅ ẹ́): slišati ~; ~i korakov; Roman je imel velik ~; publ. Sprejeti sklep je ostal brez ~a brez uspeha, učinka; pojm. ~ od sten.
