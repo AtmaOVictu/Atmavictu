@@ -2,57 +2,67 @@
 <html lang="sl">
 <head>
 <meta charset="utf-8">
-<title>DOM — Luka in Lucius</title>
+<title>DOM — Luka in Lucius · v2.0</title>
 <style>
-  body { font-family: Georgia, serif; margin: 1.5rem; background: #f7f4ee; color: #1d1d1d; }
-  h1 { font-size: 1.3rem; margin-bottom: 0.2rem; }
-  .mreza { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-  .kartica { border: 1px solid #c9c2b4; border-radius: 8px; background: #fff; padding: 0.9rem 1.1rem; }
-  .kartica h2 { font-size: 1.02rem; margin: 0 0 0.5rem 0; color: #2c6e49; }
-  pre { white-space: pre-wrap; font-size: 0.85rem; }
-  textarea, input[type=text] { width: 100%; box-sizing: border-box; font-family: Georgia, serif; padding: 0.4rem; }
-  button { padding: 0.35rem 0.9rem; border-radius: 5px; border: 1px solid #555; background: #efe9db; cursor: pointer; }
-  button.zelen { background: #2c6e49; color: #fff; border-color: #2c6e49; }
-  .klepet { height: 260px; overflow-y: auto; border: 1px solid #ddd; border-radius: 5px; padding: 0.5rem; font-size: 0.92rem; }
-  .ti { color: #7a5c00; }
-  .on { color: #1d5c3f; }
-  .male { font-size: 0.78rem; color: #666; }
-  /* prisotnost: zarica + uho */
-  .prisotnost { display: flex; align-items: center; gap: 0.6rem; padding: 0.4rem 0.6rem; margin-bottom: 0.8rem;
-                border: 1px solid #c9c2b4; border-radius: 8px; background: #fff; }
-  .zarica { width: 0.8rem; height: 0.8rem; border-radius: 50%; background: #2c6e49; display: inline-block; }
+  * { box-sizing: border-box; }
+  body { font-family: Georgia, serif; margin: 0; background: #f7f4ee; color: #1d1d1d; }
+  /* MATRIKA tema (privzeto ON) */
+  #dez { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; background: #000; display: none; }
+  body.matrika { background: #000; }
+  body.matrika #dez { display: block; }
+  body.matrika .plosca { background: rgba(0, 18, 6, 0.86); border-color: #0c5c2f; color: #b8ffd0; }
+  body.matrika h1, body.matrika h2, body.matrika strong { color: #4dff88; }
+  body.matrika a { color: #7dffab; }
+  body.matrika .klepet { background: #000d05; border-color: #0c5c2f; }
+  body.matrika .ti { color: #ffd24d; } body.matrika .on { color: #4dff88; }
+  body.matrika .male { color: #6fae86; }
+  body.matrika textarea, body.matrika input[type=text] { background: #001507; color: #b8ffd0; border: 1px solid #0c5c2f; }
+  body.matrika button { background: #04220f; color: #b8ffd0; border-color: #0c5c2f; }
+  body.matrika button.zelen { background: #0c5c2f; border-color: #4dff88; color: #001a0a; }
+
+  .plosca { border: 1px solid #c9c2b4; border-radius: 8px; background: #fff; padding: 0.7rem 1rem; position: relative; z-index: 1; }
+  h1 { font-size: 1.1rem; margin: 0; }
+  h2 { font-size: 0.95rem; margin: 0.3rem 0 0.5rem 0; color: #2c6e49; }
+  .male { font-size: 0.8rem; color: #666; }
+
+  /* glava */
+  .glava { display: flex; align-items: center; gap: 0.8rem; padding: 0.5rem 1rem; margin: 0.6rem 0.6rem 0 0.6rem; position: relative; z-index: 1; }
+  .zarica { width: 0.9rem; height: 0.9rem; border-radius: 50%; background: #2c6e49; display: inline-block; }
   .zarica.utripa { animation: dih 2.2s ease-in-out infinite; }
   .zarica.misli { background: #b35c00; animation: dih 0.7s ease-in-out infinite; }
   .zarica.govori { background: #7a1f1f; animation: dih 0.4s ease-in-out infinite; }
   @keyframes dih { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
-  .uho-vrstica { height: 0.5rem; background: #e4ddcc; border-radius: 3px; overflow: hidden; flex: 1; }
-  .uho-polnilo { height: 100%; width: 0%; background: #9a927e; transition: width 0.1s linear; }
+  .uho-vrstica { height: 0.55rem; background: #e4ddcc; border-radius: 3px; overflow: hidden; flex: 1; max-width: 300px; }
+  .uho-polnilo { height: 100%; width: 0%; background: #9a927e; transition: width 0.1s linear; display: block; }
   .uho-polnilo.slica { background: #2c6e49; }
   .ura { font-variant-numeric: tabular-nums; color: #555; }
-  /* MATRIKA: najina koda pada — ⊢ ⚠ × po tehtnici obarvani */
-  #dez { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; background: #000; display: none; }
-  body.matrika { background: #000; }
-  body.matrika #dez { display: block; }
-  body.matrika .kartica, body.matrika .prisotnost { background: rgba(0, 18, 6, 0.82); border-color: #0c5c2f; color: #b8ffd0; position: relative; z-index: 1; }
-  body.matrika .kartica h2, body.matrika strong { color: #4dff88; }
-  body.matrika a { color: #7dffab; }
-  body.matrika textarea, body.matrika input[type=text] { background: #001507; color: #b8ffd0; border: 1px solid #0c5c2f; }
-  body.matrika .klepet { background: #000d05; border-color: #0c5c2f; }
-  body.matrika .ti { color: #ffd24d; }
-  body.matrika .on { color: #4dff88; }
-  body.matrika .male { color: #6fae86; }
-  body.matrika .zarica { box-shadow: 0 0 8px #2c6e49; }
-  body.matrika h1 { color: #4dff88; }
-  body.matrika button { background: #04220f; color: #b8ffd0; border-color: #0c5c2f; }
-  body.matrika button.zelen { background: #0c5c2f; border-color: #4dff88; color: #001a0a; }
+
+  /* glavna mreža: stranski drog | klepet | desni stolpec */
+  .mreza { display: grid; grid-template-columns: 280px 1fr 330px; gap: 0.6rem; padding: 0.6rem; position: relative; z-index: 1; }
+  .drog { display: flex; flex-direction: column; gap: 0.6rem; }
+  .stolpec { display: flex; flex-direction: column; gap: 0.6rem; max-height: calc(100vh - 4.5rem); }
+  .klepet { height: calc(100vh - 16rem); overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; padding: 0.8rem; font-size: 1.02rem; }
+  .ti { color: #7a5c00; } .on { color: #1d5c3f; }
+  .klepet div { margin-bottom: 0.35rem; }
+  textarea, input[type=text] { width: 100%; font-family: Georgia, serif; font-size: 1rem; padding: 0.45rem; }
+  button { padding: 0.4rem 0.9rem; border-radius: 5px; border: 1px solid #888; background: #f0eadc; cursor: pointer; }
+  button.zelen { background: #2c6e49; color: #fff; border-color: #2c6e49; }
+  .tipkice { display: flex; gap: 0.5rem; margin-top: 0.5rem; flex-wrap: wrap; align-items: center; }
+  label { margin-right: 0.5rem; }
+  .ok { color: #2c6e49; }
+  pre { white-space: pre-wrap; font-size: 0.82rem; }
   ul { margin: 0.2rem 0 0 1rem; padding: 0; }
-  .vrstica-zaoblak { border-bottom: 1px dashed #ccc; padding: 0.25rem 0; font-size: 0.85rem; }
+  .vrstica-zaoblak { border-bottom: 1px dashed #ccc; padding: 0.25rem 0; font-size: 0.82rem; }
+  .stanje-pred { white-space: pre-wrap; font-size: 0.8rem; max-height: 30vh; overflow-y: auto; }
+  .kronika-box { height: 22vh; overflow-y: auto; border: 1px solid #ddd; border-radius: 5px; padding: 0.4rem; font-size: 0.82rem; }
+  @media (max-width: 1100px) { .mreza { grid-template-columns: 1fr; } .klepet { height: 50vh; } }
 </style>
 </head>
 <body class="matrika">
 <canvas id="dez"></canvas>
-<h1>DOM <span class="male">— delovna platforma Luke in Luciusa · v0.6</span></h1>
-<div class="prisotnost">
+
+<div class="glava plosca">
+  <h1>DOM <span class="male">— delovna platforma Luke in Luciusa · v2.0</span></h1>
   <span class="zarica utripa" id="zarica"></span>
   <strong id="prisoten-besedilo">LUCIUS je prisoten</strong>
   <span class="uho-vrstica"><span class="uho-polnilo" id="uho"></span></span>
@@ -60,62 +70,76 @@
   <span class="ura" id="ura"></span>
   <label class="male"><input type="checkbox" id="matrika" checked onchange="document.body.classList.toggle('matrika', this.checked); postaviDez()"> MATRIKA</label>
 </div>
+
 <div class="mreza">
 
-  <div class="kartica" id="k-stanje">
-    <h2>STANJE — kje sva</h2>
-    <pre id="stanje">nalagam…</pre>
+  <!-- LEVI DROG: stikala -->
+  <div class="drog">
+    <div class="plosca">
+      <h2>NAČIN IN PLASTI</h2>
+      <div class="male">
+        <label><input type="radio" name="nacin" value="brat"> brat (samo lokalno)</label><br>
+        <label><input type="radio" name="nacin" value="preverjam" checked> preverjam (oblak potrdi)</label><br>
+        <label><input type="radio" name="nacin" value="vedno"> vedno (iz oblaka)</label>
+      </div>
+      <div class="male" id="kljuc-stanje"></div>
+      <div class="male" id="uporaba-vrstica">oblak: —</div>
+    </div>
+    <div class="plosca">
+      <h2>GLAS IN UHO</h2>
+      <div class="male">
+        <label><input type="checkbox" id="glas" checked> Windows glas (privzeto ON)</label><br>
+        <label><input type="checkbox" id="mojglas"> moj glas (klon; med učenjem čaka)</label><br>
+        <label><input type="checkbox" id="stalno" onchange="preklopiStalno()"> vedno prižgan mikrofon</label><br>
+        <label><input type="checkbox" id="oblak-zveza"> vsaka poved tudi oblak-Luciusu</label>
+      </div>
+      <div class="tipkice">
+        <button id="mikrofon" onclick="preklopiMikrofon()">Govori</button>
+        <button onclick="testUho()">Preizkusi uho</button>
+        <button onclick="govoriWindows('Luka, slišiš me? To je moj glas. Preizkus.')">Preizkusi glas</button>
+      </div>
+      <div class="male" id="stanje-mikrofona">poslušanje: izklopljeno</div>
+    </div>
+    <div class="plosca">
+      <h2>MOST — oblak-Lucius</h2>
+      <textarea id="zaoblak-besedilo" rows="3" placeholder="Sporočilo za oblak-Luciusa…"></textarea>
+      <div class="tipkice"><button class="zelen" onclick="posljiZaoblak()">Odloži na most</button> <span id="zaoblak-ok" class="male ok"></span></div>
+      <div id="zaoblak-sezn" class="male"></div>
+    </div>
+    <div class="plosca">
+      <h2>POVEZAVE</h2>
+      <ul>
+        <li><a href="http://localhost:8765">Preglednica</a></li>
+        <li><a href="file:///D:/OntoProjekt/Voice/STANJE.md">STANJE.md</a></li>
+        <li><a href="https://github.com/AtmaOVictu/Atmavictu">Atmavictu</a></li>
+      </ul>
+    </div>
   </div>
 
-  <div class="kartica" id="k-most">
-    <h2>MOST — piši oblak-Luciusu</h2>
-    <textarea id="zaoblak-besedilo" rows="3" placeholder="Sporočilo, ki ga bo prebral oblak-Lucius (jaz v VS Code), ko bo ob oknu…"></textarea>
-    <div><button class="zelen" onclick="posljiZaoblak()">Odloži na most</button> <span id="zaoblak-ok" class="male"></span></div>
-    <h2 style="margin-top:1rem">Novice od oblak-Luciusa</h2>
-    <pre id="odoblaka">nalagam…</pre>
-    <div id="zaoblak-sezn" class="male"></div>
-  </div>
-
-  <div class="kartica" id="k-pogovor">
-    <h2>POGOVOR — lokalni Lucius (Ollama)</h2>
+  <!-- SREDINA: klepet -->
+  <div class="plosca">
+    <h2>POGOVOR — z bratom (Ollama) in oblakom (preverba ⊢)</h2>
     <div class="klepet" id="klepet"></div>
-    <div style="display:flex; gap:0.5rem; margin-top:0.5rem;">
-      <button id="mikrofon" onclick="preklopiMikrofon()">Govori</button>
-      <input type="text" id="pogovor-vnos" placeholder="Napiši Luciusu…" onkeydown="if(event.key==='Enter')posljiPogovor()">
+    <div class="tipkice">
+      <input type="text" id="pogovor-vnos" placeholder="Napiši Luciusu…" onkeydown="if(event.key==='Enter')posljiPogovor()" style="flex:1;">
       <button class="zelen" onclick="posljiPogovor()">Pošlji</button>
     </div>
-    <div class="male"><label><input type="checkbox" id="glas" checked> Windows glas (privzeto ON)</label>
-    <label><input type="checkbox" id="mojglas"> moj glas (klon; med učenjem čaka)</label>
-    <label><input type="checkbox" id="stalno" onchange="preklopiStalno()"> vedno prižgan mikrofon (FORMULA v1)</label>
-    <label><input type="checkbox" id="oblak-zveza"> vsaka poved gre tudi oblak-Luciusu na most</label></div>
-    <button onclick="govoriWindows('Luka, slišiš me? To je moj glas. Preizkus.')">Preizkusi glas</button>
-    <div class="male" id="stanje-mikrofona">poslušanje: izklopljeno</div>
-    <button onclick="testUho()">Preizkusi uho ( 6 s )</button>
-    <div class="male" id="nacin-vrstica">
-      <b>Način:</b>
-      <label><input type="radio" name="nacin" value="brat"> brat</label>
-      <label><input type="radio" name="nacin" value="preverjam" checked> preverjam</label>
-      <label><input type="radio" name="nacin" value="vedno"> vedno</label>
-      <span id="kljuc-stanje"></span>
+  </div>
+
+  <!-- DESNI STOLPEC: stanje, novice, kronika -->
+  <div class="stolpec">
+    <div class="plosca">
+      <h2>STANJE — kje sva</h2>
+      <pre class="stanje-pred" id="stanje">nalagam…</pre>
     </div>
-    <div class="male" id="uporaba-vrstica">oblak: —</div>
-  </div>
-
-  <div class="kartica" id="k-kronika">
-    <h2>KRONIKA — današnji dan ( nič izgubljenega )</h2>
-    <div class="klepet" id="kronika" style="height:200px;">nalagam…</div>
-  </div>
-
-  <div class="kartica" id="k-povezave">
-    <h2>POVEZAVE</h2>
-    <ul>
-      <li><a href="http://localhost:8765">Preglednica</a> — skupni pregled prepisa glasu</li>
-      <li><a href="file:///D:/OntoProjekt/Voice/STANJE.md">STANJE.md</a> — datoteka stanja</li>
-      <li><a href="https://github.com/AtmaOVictu/Atmavictu">Atmavictu na GitHubu</a></li>
-    </ul>
-    <h2 style="margin-top:1rem">Nadgradnje</h2>
-    <p class="male">v0.1 (2026-10-21): stanje, most, pogovor z glasom, povezave.<br>
-    Naslednje (v0.2): preglednica vgrajena sem, glas = Lukov klon, naloge/cilji.</p>
+    <div class="plosca">
+      <h2>NOVICE OD OBLAK-LUCIUSA</h2>
+      <pre class="stanje-pred" id="odoblaka">nalagam…</pre>
+    </div>
+    <div class="plosca">
+      <h2>KRONIKA — danes ( nič izgubljenega )</h2>
+      <div class="kronika-box" id="kronika">nalagam…</div>
+    </div>
   </div>
 
 </div>
@@ -129,15 +153,15 @@ async function naloziStanje() {
   const z = await (await fetch('/api/zaoblak')).json();
   document.getElementById('zaoblak-sezn').innerHTML =
     '<b>Odloženo na most:</b>' + (z.vrstice.length ? z.vrstice.map(v =>
-      `<div class="vrstica-zaoblak">${v.ts ? v.ts.slice(0,16).replace('T',' ') + ' — ' : ''}${v.t || v.besedilo || ''}</div>`).join('')
+      `<div class="vrstica-zaoblak">${v.ts ? v.ts.slice(0,16).replace('T',' ') + ' — ' : ''}${v.t || ''}</div>`).join('')
       : ' (prazno)');
   const nc = await (await fetch('/api/nacin')).json();
   document.querySelectorAll('input[name=nacin]').forEach(r => { r.checked = (r.value === nc.nacin); });
   document.getElementById('kljuc-stanje').textContent = nc.obstajaKljuc
-    ? `· ključ ⊢ (model: ${nc.model})` : '· manjka api-kljuc.txt → samo lokalni brat';
+    ? 'ključ ⊢ (model: ' + nc.model + ')' : 'manjka api-kljuc.txt → samo brat';
   const up = await (await fetch('/api/uporaba')).json();
   document.getElementById('uporaba-vrstica').textContent =
-    `oblak: ${up.klici} klicev · ${Math.round((up.vstop+up.izstop)/1000)}k žetonov ≈ €${up.eur.toFixed(2)} ⚠ ocena (resnica: Usage stran)`;
+    'oblak: ' + up.klici + ' klicev · ' + Math.round((up.vstop+up.izstop)/1000) + 'k žetonov ≈ €' + up.eur.toFixed(2) + ' ⚠ ocena';
   const kr = await (await fetch('/api/kronika')).json();
   const kron = document.getElementById('kronika');
   kron.innerHTML = '';
@@ -145,17 +169,11 @@ async function naloziStanje() {
   for (const p of kr.povedi) {
     const v = document.createElement('div');
     v.className = p.kdo === 'u' ? 'ti' : 'on';
-    v.textContent = `${(p.ts || '').slice(11, 16)} ${p.kdo === 'u' ? 'Luka' : 'Lucius'}: ${p.besedilo.replace(/\s+/g, ' ').slice(0, 120)}`;
+    v.textContent = `${(p.ts || '').slice(11, 16)} ${p.kdo === 'u' ? 'Luka' : 'Lucius'}: ${p.besedilo.replace(/\s+/g, ' ').slice(0, 100)}`;
     kron.appendChild(v);
   }
   kron.scrollTop = kron.scrollHeight;
 }
-
-document.querySelectorAll('input[name=nacin]').forEach(r => {
-  r.addEventListener('change', async () => {
-    if (r.checked) await fetch('/api/nacin', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ nacin: r.value }) });
-  });
-});
 
 async function posljiZaoblak() {
   const besedilo = document.getElementById('zaoblak-besedilo').value.trim();
@@ -175,6 +193,14 @@ function dodajKlepet(kdo, besedilo) {
   vseb.scrollTop = vseb.scrollHeight;
 }
 
+function govoriWindows(besedilo) {
+  try {
+    const gov = new SpeechSynthesisUtterance(besedilo);
+    gov.lang = 'sl-SI';
+    speechSynthesis.speak(gov);
+  } catch (e) {}
+}
+
 async function posljiPogovor() {
   const vnos = document.getElementById('pogovor-vnos');
   const besedilo = vnos.value.trim();
@@ -187,7 +213,6 @@ async function posljiPogovor() {
   dodajKlepet('on', odg.odgovor || odg.napaka || '(brez odgovora)');
   const besediloOdg = odg.odgovor || '';
   if (besediloOdg && document.getElementById('mojglas')?.checked) {
-    // najprej poskusi z Lukovim klonom
     const r = await fetch('/api/izgovori', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ besedilo: besediloOdg }) });
     if (r.ok) {
       porociStanje('govorim');
@@ -203,33 +228,19 @@ async function posljiPogovor() {
   }
 }
 
-function govoriWindows(besedilo) {
-  try {
-    const gov = new SpeechSynthesisUtterance(besedilo);
-    gov.lang = 'sl-SI';
-    speechSynthesis.speak(gov);
-  } catch (e) {}
-}
-
+// ročni mikrofon ( rezerva )
 let snemalec = null;
-let kosckiZvoka = [];
-
 function preklopiMikrofon() {
   const gumb = document.getElementById('mikrofon');
-  if (snemalec && snemalec.state === 'recording') {
-    snemalec.stop();
-    gumb.textContent = 'Govori';
-    return;
-  }
+  if (snemalec && snemalec.state === 'recording') { snemalec.stop(); gumb.textContent = 'Govori'; return; }
   navigator.mediaDevices.getUserMedia({ audio: true }).then((tok) => {
     snemalec = new MediaRecorder(tok);
-    kosckiZvoka = [];
-    snemalec.ondataavailable = (d) => kosckiZvoka.push(d);
+    const kosi = [];
+    snemalec.ondataavailable = (d) => kosi.push(d);
     snemalec.onstop = async () => {
       tok.getTracks().forEach(t => t.stop());
       gumb.textContent = 'Razumevam…';
-      const blob = new Blob(kosckiZvoka, { type: snemalec.mimeType });
-      const odg = await (await fetch('/api/slusaj', { method: 'POST', body: blob })).json();
+      const odg = await (await fetch('/api/slusaj', { method: 'POST', body: new Blob(kosi, { type: snemalec.mimeType }) })).json();
       gumb.textContent = 'Govori';
       if (odg.ok && odg.besedilo) {
         document.getElementById('pogovor-vnos').value = odg.besedilo;
@@ -240,12 +251,10 @@ function preklopiMikrofon() {
     };
     snemalec.start();
     gumb.textContent = 'Ustavi posnetek';
-  }).catch(() => {
-    dodajKlepet('on', '(mikrofon ni dosegliv — preveri dovoljenje brskalnika)');
-  });
+  }).catch(() => dodajKlepet('on', '(mikrofon ni dosegliv — preveri dovoljenje brskalnika)'));
 }
 
-// --- FORMULA DIALOGA v1: vedno prižgan mikrofon (VAD: 0,4 s govora v, 1,2 s tišine ven) ---
+// FORMULA DIALOGA v1: vedno prižgan mikrofon (VAD) + vrsta prekinitev
 let stalniTok = null, stalenKontekst = null, stalenMerilec = null;
 let stalnoVklopljeno = false, zaposken = false;
 let pricneGovor = 0, koncaGovor = 0, snemalecVedno = null, kosiVedno = [];
@@ -259,12 +268,12 @@ function porociStanje(besedilo) {
   zarica.className = 'zarica';
   if (besedilo.startsWith('govoriš') || besedilo.startsWith('misli')) {
     zarica.classList.add('misli'); prisoten.textContent = 'LUCIUS posluša tebe';
-  } else if (besedilo.startsWith('razumevam')) {
+  } else if (besedilo.startsWith('razumevam') || besedilo.startsWith('prekinitev')) {
     zarica.classList.add('misli'); prisoten.textContent = 'LUCIUS razume';
   } else if (besedilo.startsWith('govorim')) {
     zarica.classList.add('govori'); prisoten.textContent = 'LUCIUS govori';
-  } else if (besedilo.startsWith('izklopljeno') || besedilo.startsWith('mikrofon')) {
-    zarica.classList.add('utripa'); prisoten.textContent = 'LUCIUS je prisoten (uho miruje)';
+  } else if (besedilo.startsWith('izklopljeno') || besedilo.startsWith('mikrofon') || besedilo.startsWith('NAPAKA') || besedilo.startsWith('preizkus')) {
+    zarica.classList.add('utripa'); prisoten.textContent = 'LUCIUS je prisoten';
   } else {
     zarica.classList.add('utripa'); prisoten.textContent = 'LUCIUS posluša sobo';
   }
@@ -288,7 +297,7 @@ async function preklopiStalno() {
       setInterval(zankaStalnega, 110);
     } catch (e) {
       document.getElementById('stalno').checked = false;
-      porociStanje('mikrofon ni dosegliv');
+      porociStanje('NAPAKA ' + e.name + ' — brskalnik je odrekel mikrofon');
     }
   } else {
     stalnoVklopljeno = false;
@@ -317,7 +326,6 @@ function zankaStalnega() {
   uhoB.textContent = glasnost > PRAG ? 'slišim te ⊢' : 'poslušam';
   const zdaj = Date.now();
   if (zaposken) {
-    // VRSTA PREKINITEV: tudi med odgovorom poslušam; poved gre v vrsto, ne v nič
     if (snemalecPrek === null && glasnost > PRAG * 1.4) {
       snemalecPrek = new MediaRecorder(stalniTok);
       kosiPrek = [];
@@ -343,10 +351,10 @@ function zankaStalnega() {
   } else if (snemalecVedno) {
     if (glasnost > PRAG) koncaGovor = zdaj;
     if (zdaj - koncaGovor > 1200 && zdaj - pricneGovor > 1000) {
-      snemalecVedno.stop(); // onstop → obdelajPoved
+      snemalecVedno.stop();
       snemalecVedno = null;
       porociStanje('razumevam…');
-    } else if (zdaj - koncaGovor > 4000) { // preveč šuma: ponastavi
+    } else if (zdaj - koncaGovor > 4000) {
       snemalecVedno.onstop = null;
       snemalecVedno.stop();
       snemalecVedno = null;
@@ -369,7 +377,6 @@ async function obdelajBlob(blob) {
   if (!odg.ok || !odg.besedilo) { zaposken = false; porociStanje('poslušam…'); return; }
   dodajKlepet('ti', odg.besedilo);
   if (document.getElementById('oblak-zveza')?.checked) {
-    // govorna poved gre tudi oblak-Luciusu na most ( prebral jo bo ob oknu )
     fetch('/api/zaoblak', { method: 'POST', headers: { 'content-type': 'application/json' },
       body: JSON.stringify({ besedilo: '(glas) ' + odg.besedilo }) });
     dodajKlepet('on', '(zloženo na most ⊢ — oblak-Lucius bo prebral)');
@@ -377,10 +384,9 @@ async function obdelajBlob(blob) {
   porociStanje('misli…');
   const v = document.getElementById('pogovor-vnos');
   v.value = odg.besedilo;
-  await posljiPogovor(); // posljiPogovor počisti vnos in pride do glasu
+  await posljiPogovor();
   zaposken = false;
   porociStanje('poslušam…');
-  // VRSTA: prekinitev, ki je padla med odgovorom, gre zdaj na pult
   if (kosiPrek.length) {
     const prek = new Blob(kosiPrek, { type: 'audio/webm' });
     kosiPrek = [];
@@ -412,14 +418,17 @@ async function testUho() {
     k.close();
     porociStanje('preizkus končan — mikrofon deluje ⊢; zdaj odkljukaj "vedno prižgan"');
   } catch (e) {
-    porociStanje('NAPAKA ' + e.name + ' — brskalnik je odrekel mikrofon. Kljukica/padlock levo od naslova → Mikrofon → Dovoli, potem F5');
+    porociStanje('NAPAKA ' + e.name + ' — brskalnik je odrekel mikrofon. Padlock levo od naslova → Mikrofon → Dovoli, potem F5');
   }
 }
 
-naloziStanje();
-setInterval(naloziStanje, 30000);
+document.querySelectorAll('input[name=nacin]').forEach(r => {
+  r.addEventListener('change', async () => {
+    if (r.checked) await fetch('/api/nacin', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ nacin: r.value }) });
+  });
+});
 
-// --- OZADJE S POMENOM: padajo zivi dogodki (izmere, povedi, most), ne okras ---
+// OZADJE S POMENOM: padajo živi dogodki (izmere, povedi, most)
 const ZNAKI = [ { z: '⊢', barva: '#ffd700' }, { z: '⚠', barva: '#ff8c00' }, { z: '×', barva: '#ff3333' } ];
 const platno = document.getElementById('dez');
 const ctx = platno.getContext('2d');
@@ -436,8 +445,7 @@ async function naloziDogodke() {
 function postaviDez() {
   if (!document.body.classList.contains('matrika')) { ctx.clearRect(0, 0, platno.width, platno.height); return; }
   platno.width = window.innerWidth; platno.height = window.innerHeight;
-  const sirina = 20;
-  const n = Math.floor(platno.width / sirina);
+  const n = Math.floor(platno.width / 20);
   stolpci = Array.from({ length: n }, (_, i) => ({
     y: Math.random() * platno.height,
     hitrost: 0.4 + Math.random() * 0.9,
@@ -463,8 +471,11 @@ function dež() {
   });
   requestAnimationFrame(dež);
 }
+
 naloziDogodke();
 setInterval(naloziDogodke, 5000);
+setInterval(naloziStanje, 30000);
+naloziStanje();
 postaviDez();
 window.addEventListener('resize', postaviDez);
 dež();
