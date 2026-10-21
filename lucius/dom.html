@@ -84,10 +84,11 @@
       <input type="text" id="pogovor-vnos" placeholder="Napiši Luciusu…" onkeydown="if(event.key==='Enter')posljiPogovor()">
       <button class="zelen" onclick="posljiPogovor()">Pošlji</button>
     </div>
-    <div class="male"><label><input type="checkbox" id="glas" checked> Windows glas</label>
-    <label><input type="checkbox" id="mojglas"> moj glas (klon, ~10 s na odgovor)</label>
+    <div class="male"><label><input type="checkbox" id="glas" checked> Windows glas (privzeto ON)</label>
+    <label><input type="checkbox" id="mojglas"> moj glas (klon; med učenjem čaka)</label>
     <label><input type="checkbox" id="stalno" onchange="preklopiStalno()"> vedno prižgan mikrofon (FORMULA v1)</label>
     <label><input type="checkbox" id="oblak-zveza"> vsaka poved gre tudi oblak-Luciusu na most</label></div>
+    <button onclick="govoriWindows('Luka, slišiš me? To je moj glas. Preizkus.')">Preizkusi glas</button>
     <div class="male" id="stanje-mikrofona">poslušanje: izklopljeno</div>
     <button onclick="testUho()">Preizkusi uho ( 6 s )</button>
     <div class="male" id="nacin-vrstica">
