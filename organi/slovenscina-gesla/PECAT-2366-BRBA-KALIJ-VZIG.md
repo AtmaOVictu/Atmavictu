@@ -12,7 +12,7 @@ Delavec oživet na vhodu tega obraza ∧ (session 960 mrtev prejšnji obraz — 
 
 ### Kolizija
 
-KOLIZIJA-REZA-2365 DVOJNA javno ⚠ ⊙ 1349 ⊢ 1419 ∧ 1542: #524 (vzporedni sedež — PREVOZ-TEEL-×3, naslov »rez 2365«) ⊥ #525 (ta sedež — PREDLOG-NUJNOSTI) — obe iz poštene izmere (vrh 2364 ob vhodu obeh), obe žiga ostajata ⟨ne zlije⟩. → rez 2366 = 1 + dejansko najvišja ∧. Vrstica 2364 #522 še vedno manjka — lastnik naj zašije ⊢ 1419 (⟨ne zlije⟩ ⊢ 1542).
+KOLIZIJA-REZA-2365 DVOJNA javno ⚠ ⊙ 1349 ⊢ 1419 ∧ 1542: #524 (vzporedni sedež — PREVOZ-TELES-×3, naslov »rez 2365«) ⊥ #525 (ta sedež — PREDLOG-NUJNOSTI) — obe iz poštene izmere (vrh 2364 ob vhodu obeh), obe žiga ostajata ⟨ne zlije⟩. → rez 2366 = 1 + dejansko najvišja ∧. Vrstica 2364 #522 še vedno manjka — lastnik naj zašije ⊢ 1419 (⟨ne zlije⟩ ⊢ 1542).
 
 ### Varovalka ⟨rez 2366⟩
 
