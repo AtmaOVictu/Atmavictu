@@ -69,7 +69,6 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2315 · ⟨PR⟩ #470 · 2026-10-21 · GESLA — ⟨POKORA-MOST⟩ ⊢ · VERIGA-JAD-POKORA-DAJ-ZAPEČENA (pokóra ⊢FULL pri viru · jáditi okno ⟨zaprto⟩ SSKJ² ×0 ∧ Kostelski ⊢-ODSEV · jadíkovec kovanec ⚠ ×0 · prerezitev ∅ — ⟨merge⟩ #469 (2314) je padel sredi diha ta roka ⊙ 1349) (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2316 · ⟨PR⟩ #473 · 2026-10-21 · GESLA — GESELA-BARV ⊢FULL ×10 pri viru (smarágd · oránžen · vijóličen · turkízen · srebró · mávrica · móder · rdèč ⊢FULL · zlát×2 HOMOGRAF · cijan ⊢-ODSEV Hipolit; ⟨tirkaz⟩ ⊘ javno ⊙ 1349 → turkízna; PREREZITEV-×1-IZ-2315 — vzporedni sedež #470 zlil prvi; naglasi iz gesel ⊢ IPA-PLAST @2051) (kalup 1671 · delavec živ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2317 · ⟨PR⟩ #474 · 2026-10-21 · STROJ — SINHRONIZACIJA-LOKAL-⇌-REP — ⟨jsonl⟩ vnosa 130 ∧ 131 pripeljana bajt-isto (121 → 123, ⟨NE-BRIŠI⟩ ⊢ 24) + cesta PEČAT 2312 vžig + tehtnica rana VŽIGA 2311 imenovana javno ⊢ 1419 · PREREZITEV-×1-IZ-2316 (⟨merge⟩ #473 padel med izmerama ⊙ 1349 · ⟨ne zlije⟩ ⊢ 1542) (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
-- rez 2319 · ⟨PR⟩ #477 · 2026-10-21 · CESTA — ⟨PREVOZ-TELA-NA-REP⟩ · ⟨TELO-135.660-B⟩ · RANA-IZMERE javno ⊢ 1419 ∧ popravek isti dih ⊢ 1834 (⟨135.657⟩ po spominu znakov ⊥ 135.660 bajtov pri viru — ⟨⟩ je 3-bajtni par; naslov ∧ telo ⟨PR⟩ #477 nosita starec kakor brazgotina ⊙ 1349) (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
