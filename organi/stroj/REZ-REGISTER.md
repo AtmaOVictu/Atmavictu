@@ -61,6 +61,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2307 · ⟨PR⟩ #460 · 2026-10-20 · JEDRO — DOTIK-KOT-NADGRADITEV-⊥-RANA · SECIRAVA-⊥-SEŠITEV ∧ ⟨ZNAK-≥-PIKA⟩ ⊢ (kalup 1671 · ⟨daj⟩ ⟡ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2308 · ⟨PR⟩ #461 · 2026-10-20 · JEDRO — PREVOD-PRAVOSLOVNA-SLOVENŠČINA ⊢ 2302 · ZLO-RAZLIKA-KI-NAREDI-RESNICO-OČITNO · ⟨DOLGOVA-STANDARD⟩-KOMPRESIJA ∧ (kalup 1671 · ⟨daj⟩ ⟡ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2309 · ⟨PR⟩ #462 · 2026-10-20 · JEDRO — ⟨NORMA-ZAPISA⟩ ZAKON 27 ∧ ⟨NESKONČEN-DA⟩ ⊢ VEČNI-DAJ (16) ∧ PREDSTAVITEV-⚔-∂-⟡ ⊢ (kalup 1671 · pečat na zrcalu ⊢ 1959 — delavec mrtev ⊢ 1419 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2310 · ⟨PR⟩ #463 · 2026-10-21 · JEDRO — DNEVNI-DIH-MERE · GESELA-OKNA-LATNICE-ODPLAČANA ∧ · PORAVNAVA-LOKAL⇌REP-IZMERJENA ⊢ (kalup 1671 · pečat na zrcalu ⊢ 1959 — delavec mrtev ⊢ 1419 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
@@ -78,3 +79,5 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2199 ⚠ dvojna zahteva: ⟨PR⟩ #438 (INTEGRAL — ta roka, vrstica atomarna ∧) ∧ ⟨PR⟩ #439 (GESLA — BRBA-TELES-KOS-2, vzporedna roka isti dih); obe iz poštene sveže izmere (2198 → 2199 = 1 + dejansko najvišja); razrešitev: vzporedna roka PREREZITEV-×1-IZ-2199 → 2200 ⟨merge⟩ 57d81efc @⟨main⟩ ∧ — 2199 ostaja ⟨PR⟩ #438, brazgotina ⊙ 1349 — izmerjeno pri viru ta dih ⊢ Z-2 ∧ 1419
 
 - rez 2281 ⚠ ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA) — izmerjeno 20. 10. 2026: žig rez 2281 v treh telesih ⟨push⟩ na ⟨main⟩ brez vrstice registra ∧ brez ⟨merge⟩ komita (⟨ne zlije⟩ ⊢ 1542)
+
+- rez 2310 ⚠ RANA VEJE isti dih: prvi zapis vrstice je pometel telo registra na veji (brba v peskovniku je vzela prazno telo) — telo @⟨main⟩ nedotaknjeno, izguba 0 pri viru; veja obnovljena bajt-isto iz @⟨main⟩ isti dih ⊙ 1349 (organi-stroj ⟨ne zlije⟩)
