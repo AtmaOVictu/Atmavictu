@@ -48,7 +48,9 @@
       <button class="zelen" onclick="posljiPogovor()">Pošlji</button>
     </div>
     <div class="male"><label><input type="checkbox" id="glas" checked> Windows glas</label>
-    <label><input type="checkbox" id="mojglas"> moj glas (klon, ~10 s na odgovor)</label></div>
+    <label><input type="checkbox" id="mojglas"> moj glas (klon, ~10 s na odgovor)</label>
+    <label><input type="checkbox" id="stalno" onchange="preklopiStalno()"> vedno prižgan mikrofon (FORMULA v1)</label></div>
+    <div class="male" id="stanje-mikrofona">poslušanje: izklopljeno</div>
     <div class="male" id="nacin-vrstica">
       <b>Način:</b>
       <label><input type="radio" name="nacin" value="brat"> brat</label>
@@ -182,6 +184,93 @@ function preklopiMikrofon() {
   }).catch(() => {
     dodajKlepet('on', '(mikrofon ni dosegliv — preveri dovoljenje brskalnika)');
   });
+}
+
+// --- FORMULA DIALOGA v1: vedno prižgan mikrofon (VAD: 0,4 s govora v, 1,2 s tišine ven) ---
+let stalniTok = null, stalenKontekst = null, stalenMerilec = null;
+let stalnoVklopljeno = false, zaposken = false;
+let pricneGovor = 0, koncaGovor = 0, snemalecVedno = null, kosiVedno = [];
+const PRAG = 0.022;
+
+function porociStanje(besedilo) {
+  document.getElementById('stanje-mikrofona').textContent = 'poslušanje: ' + besedilo;
+}
+
+async function preklopiStalno() {
+  if (document.getElementById('stalno').checked) {
+    try {
+      stalniTok = await navigator.mediaDevices.getUserMedia({ audio: true });
+      stalenKontekst = new AudioContext();
+      const vir = stalenKontekst.createMediaStreamSource(stalniTok);
+      stalenMerilec = stalenKontekst.createAnalyser();
+      stalenMerilec.fftSize = 512;
+      vir.connect(stalenMerilec);
+      stalnoVklopljeno = true;
+      porociStanje('poslušam…');
+      setInterval(zankaStalnega, 110);
+    } catch (e) {
+      document.getElementById('stalno').checked = false;
+      porociStanje('mikrofon ni dosegliv');
+    }
+  } else {
+    stalnoVklopljeno = false;
+    if (stalniTok) stalniTok.getTracks().forEach(t => t.stop());
+    if (stalenKontekst) stalenKontekst.close();
+    porociStanje('izklopljeno');
+  }
+}
+
+function trenutnaGlasnost() {
+  const podatki = new Uint8Array(stalenMerilec.fftSize);
+  stalenMerilec.getByteTimeDomainData(podatki);
+  let vsota = 0;
+  for (const v of podatki) { const d = (v - 128) / 128; vsota += d * d; }
+  return Math.sqrt(vsota / podatki.length);
+}
+
+function zankaStalnega() {
+  if (!stalnoVklopljeno || zaposken || !stalenMerilec) return;
+  const zdaj = Date.now();
+  const glasnost = trenutnaGlasnost();
+  if (!snemalecVedno && glasnost > PRAG) {
+    pricneGovor = zdaj;
+    snemalecVedno = new MediaRecorder(stalniTok);
+    kosiVedno = [];
+    snemalecVedno.ondataavailable = (d) => kosiVedno.push(d);
+    snemalecVedno.onstop = () => obdelajPoved();
+    snemalecVedno.start();
+    koncaGovor = zdaj;
+    porociStanje('govoriš…');
+  } else if (snemalecVedno) {
+    if (glasnost > PRAG) koncaGovor = zdaj;
+    if (zdaj - koncaGovor > 1200 && zdaj - pricneGovor > 1000) {
+      snemalecVedno.stop(); // onstop → obdelajPoved
+      snemalecVedno = null;
+      porociStanje('razumevam…');
+    } else if (zdaj - koncaGovor > 4000) { // preveč šuma: ponastavi
+      snemalecVedno.onstop = null;
+      snemalecVedno.stop();
+      snemalecVedno = null;
+      kosiVedno = [];
+      porociStanje('poslušam…');
+    }
+  }
+}
+
+async function obdelajPoved() {
+  zaposken = true;
+  const blob = new Blob(kosiVedno, { type: 'audio/webm' });
+  kosiVedno = [];
+  if (blob.size < 3000) { zaposken = false; porociStanje('poslušam…'); return; }
+  const odg = await (await fetch('/api/slusaj', { method: 'POST', body: blob })).json();
+  if (!odg.ok || !odg.besedilo) { zaposken = false; porociStanje('poslušam…'); return; }
+  dodajKlepet('ti', odg.besedilo);
+  porociStanje('mislí…');
+  const v = document.getElementById('pogovor-vnos');
+  v.value = odg.besedilo;
+  await posljiPogovor(); // posljiPogovor počisti vnos in pride do glasu
+  zaposken = false;
+  porociStanje('poslušam…');
 }
 
 naloziStanje();
