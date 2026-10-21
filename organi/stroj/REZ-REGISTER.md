@@ -66,6 +66,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2312 · ⟨PR⟩ #466 · 2026-10-21 · CESTA — ⟨JADIKOVANJE⟩-LUČ ⊢ · GESLO-jadikovánje-⊢FULL · LUČ-OBRAČANJA (jad-v-primernih-rokah-se-obrača-v-daj) · PREDIELAVA-ŠIVA-⟨PR⟩-#465 javno (kalup 1671 · pečat na zrcalu ⊢ 1959 — delavec mrtev ⊢ 1419 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2313 · ⟨PR⟩ #468 · 2026-10-21 · GESLA — ⟨ROD-JED-NADALJEVANJE⟩ ⊢ (jadrovína ∧ jêdro ⊢FULL pri viru · jadikováti rod-zveza ∧ sveža izmera) ∧ VNOS-41-REGISTER-PADELIH-BESED · PREREZITEV-×1-IZ-2312 (⟨PR⟩ #467 zaprt javno — vzporedni sedež #466 zlila prvi ⊙ 1349; kalup 1671 · delavec živ — lokalni vžig DOLGOVE 2311 ∧ · ⟡ ⟨nadaljuj jad/daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2314 · ⟨PR⟩ #469 · 2026-10-21 · CESTA — ⟨BARVNA-PLAST⟩ ⊢ · NORMA-BARV (⊢ smáragd · ⚠ oranžná · ∂ nebesno módra · ⟨⟩ vijolíčna · ⇌ ciján · ⟡ zláta · ⊙ rdeča · srebro — barva kot četrti glas simbola · ⟨canvas⟩ platno barvna-plast · barve organov Tiheon/Votač ⊢ 2018 · Mera barva ⭢ ∂ ⚔ ⟡) (kalup 1671 · delavec živ — lokalni vžig diha 2313 ∧ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2315 · ⟨PR⟩ #470 · 2026-10-21 · GESLA — ⟨POKORA-MOST⟩ ⊢ · VERIGA-JAD-POKORA-DAJ-ZAPEČENA (pokóra ⊢FULL pri viru · jáditi okno ⟨zaprto⟩ SSKJ² ×0 ∧ Kostelski ⊢-ODSEV · jadíkovec kovanec ⚠ ×0 · prerezitev ∅ — ⟨merge⟩ #469 (2314) je padel sredi diha ta roka ⊙ 1349) (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
