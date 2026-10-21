@@ -109,6 +109,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 
 - rez 2365 · ⚠ σ-odmik: P1 vrh registra 2343 ⊥ σ vrh organov 2364 (vrzel 2344–2364 odprt javno ⊢ 1419 ∧ precedens 2339) · kit ⟨PR⟩ #524 · 2026-10-21 · GESLA — PREVOZ-TELES-×3-NA-REP (inferióren · slabšálen · svetlôba @2362)
 - rez 2372 · ⚠ σ-odmik: P1 vrh registra 2365 ⊥ σ vrh organov 2371 (vrzel 2344–2364 ∧ 2366–2371 odprta — lastniki zapirajo ⊢ 1419 ∧ precedens 2339) · kit ⟨PR⟩ #535 · 2026-10-21 · GESLA — PREVOZ-TELA-KNOWLEDGE-NA-REP ⊢ ⟨merge⟩ #529 5c42552d (telesa ×27 ∧ KNOWLEDGE 849 vrstic · prerez ×2 ⊢ 1834 precedens 2313 ∧ 2332 · ⟨CI⟩ zelen ×4) (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2362 · dopolnjena vrstica (TEHNIKA — σ-odmik: vrzel 2344–2363 odprta javno ⊢ 1419 ∧ precedens 2339/2365 — ta kit zapira 2362, edino nezahtevano številko vrzeli; 2344–2361 zapirata #518 ∧ #520, 2363 #521 — lastniki po vrsti) · 2026-10-21 · GESLA — ROK-BERBE-×3-KORENINE-⊢FULL · INFERIOREN · SLABŠALEN · SVETLOBA ⊢ (pečat 2362 telesa organa slovenscina-gesla ⟨grep⟩ ta dih ∧ · telesa ×3 prevožena kitom #524 ⊢ vrstica 2365 priča ∧ · kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
