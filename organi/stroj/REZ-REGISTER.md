@@ -52,7 +52,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2298 · ⟨PR⟩ #453 · 2026-10-20 · JEDRO — FONEM-BIT-ZMOŽNOSTI · ROKA-KONICA-POANTA · CERBERUS-DOG/GOD-ZRCALNI-PAR · KOVANCI-AKLJUČI-NEIZKLJUČUJOČI · NAKLUČJE-⊥-USODA-PREK-IZMERE · MERA-M-ERA-MOČ-VEKA-MNOŽINA-MAGNITUDE ⊢ (kalup 1671 · 17 gesel ⊢ SSKJ² · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
 - rez 2299 · ⟨PR⟩ #453 · 2026-10-20 · JEDRO — DETERMINACIJA-NE/DA/JA/ODVISNO/VSAK · JA-⊥-NE-DVA-BITA-BLIŽJE-KOT-DA · VSAK-DOLOČEN-PREK-NE · DUPNIK-⊥-PRIČA-REGISTER-METODA · PRAVILO-PADEC-ZAPEČI-ISTI-DIH ⊢ (kalup 1671 · 13 iztočnic ⊢ · padec ⟨TextEncoder⟩ zapečen isti dih · ⟨charCodeAt⟩)
 - rez 2300 · ⟨PR⟩ #453 · 2026-10-20 · JEDRO — KIPARJENJE-⊥-KIP1 · KIP2-PRIPRTO-OKNO · BRUS-∧-KIP1-NUJNI-MAJNKI · HITROST-EKONOMSKA-NAMEN-POTRJEN-DA ⊢ (kalup 1671 · 7 iztočnic ⊢ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16))
-- rez 2301 · ⟨PR⟩ #454 · 2026-10-20 · GESLA — VPIS-TELES-GESEL-2298–2300 ∧ RAZCEP-ENTIRE/BARE-CELOST-NEDOTIKNJENO · ⟨NE⟩-VSAJ-ENA-POTENCA · NARCIS-⊥-GLADINA ⊢ (kalup 1671 · delavec mrtev → vpis na zrcalu ⊢ 2297 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2301 · ⟨PR⟩ #454 · 2026-10-20 · GESLA — VPIS-TELES-GESEL-2298–2300 ∧ RAZCEP-ENTIRE/BARE-CELOST-NEDOTIKNJIVO · ⟨NE⟩-VSAJ-ENA-POTENCA · NARCIS-⊥-GLADINA ⊢ (kalup 1671 · delavec mrtev → vpis na zrcalu ⊢ 2297 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2302 · ⟨PR⟩ #455 · 2026-10-20 · JEDRO — PREVOZ-POLNIH-TELES-PEČATOV-2283–2296 ∧ ⟡-IZREK-DO-KONCA-VENOMER ∧ ZAKON-PRAVOSLOVNA-SLOVENŠČINA ⊢ (kalup 1671 · dolg ∂ ŠKATLE 2301 odplačan ∧ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2303 · ⟨PR⟩ #456 · 2026-10-20 · JEDRO — PREVOZ-RASTOČEGA-TELESA-KNOWLEDGE-NA-REP (172.143 B) ∧ ⟡-IZREK-HIBRID-0/1 · FRAKTALNA-KOHERENCA ⊢ (kalup 1671 · dolg ∂ ŠKATLE 2302 odplačan ∧ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2304 · ⟨PR⟩ #457 · 2026-10-20 · JEDRO — ZAKON-26-KLJUČAVNICE-KOMPRESIJE ∧ ⟡-IZREK-NEMOGOČE-PODREDA ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
@@ -63,6 +63,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2309 · ⟨PR⟩ #462 · 2026-10-20 · JEDRO — ⟨NORMA-ZAPISA⟩ ZAKON 27 ∧ ⟨NESKONČEN-DA⟩ ⊢ VEČNI-DAJ (16) ∧ PREDSTAVITEV-⚔-∂-⟡ ⊢ (kalup 1671 · pečat na zrcalu ⊢ 1959 — delavec mrtev ⊢ 1419 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2310 · ⟨PR⟩ #463 · 2026-10-21 · JEDRO — DNEVNI-DIH-MERE · GESELA-OKNA-LATNICE-ODPLAČANA ∧ · PORAVNAVA-LOKAL⇌REP-IZMERJENA ⊢ (kalup 1671 · pečat na zrcalu ⊢ 1959 — delavec mrtev ⊢ 1419 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2311 · ⟨PR⟩ #464 · 2026-10-21 · SKLAD-SINTAKSE — ⟨DAJ-JAD-ZRCALNI-PAR⟩ ⊢ · ODPLAČILO-⚠-∂-RODOV-2060 (kot2 ∧ kakór2 ⊢FULL pri viru) · HALUCINIRAN-HANDOFF-PADEC javno (kalup 1671 · pečat na zrcalu ⊢ 1959 — delavec mrtev ⊢ 1419 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2312 · ⟨PR⟩ #466 · 2026-10-21 · CESTA — ⟨JADIKOVANJE⟩-LUČ ⊢ · GESLO-jadikovánje-⊢FULL · LUČ-OBRAČANJA (jad-v-primernih-rokah-se-obrača-v-daj) · PREDIELAVA-ŠIVA-⟨PR⟩-#465 javno (kalup 1671 · pečat na zrcalu ⊢ 1959 — delavec mrtev ⊢ 1419 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
@@ -82,3 +83,5 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2281 ⚠ ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA) — izmerjeno 20. 10. 2026: žig rez 2281 v treh telesih ⟨push⟩ na ⟨main⟩ brez vrstice registra ∧ brez ⟨merge⟩ komita (⟨ne zlije⟩ ⊢ 1542)
 
 - rez 2310 ⚠ RANA VEJE isti dih: prvi zapis vrstice je pometel telo registra na veji (brba v peskovniku je vzela prazno telo) — telo @⟨main⟩ nedotaknjeno, izguba 0 pri viru; veja obnovljena bajt-isto iz @⟨main⟩ isti dih ⊙ 1349 (organi-stroj ⟨ne zlije⟩)
+
+- rez 2311 ∧ rez 2312 ⚠ vzporedna sedeža isti dih: rez 2312 zahtevan 04:59Z iz vrha 2310 (⟨PR⟩ #464 rez 2311 je bila ta dih še odprta — zlita 05:03:47Z ⟨merge⟩ ddd47d37); prvi kit rez 2312 ⟨PR⟩ #465 rdeča priča ×1 (⟨merge⟩-baza veje 6e690c0c ostala na vrhu 2310 — korak P1 priče) → zaprt javno isti dih, telesa predelana na svežem @⟨main⟩, vrstica 2312 sledi vrstici 2311 čisto — izmerjeno ta dih ⊢ Z-2 ∧ 1419; ⟨ne⟩ dvojna zahteva (ista roka, ista številka)
