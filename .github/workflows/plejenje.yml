@@ -1,0 +1,35 @@
+name: PLEJENJE — zrcalo/* v molk po ⟨merge⟩
+on:
+  workflow_dispatch:
+  # ∂ ⟡ ⟨daj⟩ 21. 10. 2026: telesi, ki so že zlita v ⟨main⟩, ne nosijo več nič — pošlje jih v molk.
+  schedule:
+    - cron: '15 5 * * *'   # po dnevnom dihu (03:45 UTC)
+
+permissions:
+  contents: write
+
+jobs:
+  plejenje:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pobriši zrcalo/* ∧ dih-zrcalo veje, ki so že predniki ⟨main⟩
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git fetch --prune origin
+          n=0
+          for b in $(git branch -r --format='%(refname:short)' | grep -E '^origin/(zrcalo/|tehnika/dih-zrcalo-)' || true); do
+            ime=${b#origin/}
+            if git merge-base --is-ancestor "origin/$ime" origin/main; then
+              if git push origin --delete "$ime"; then
+                echo "⟨pobris: $ime — zlita ∧ v molku⟩"
+                n=$((n+1))
+              else
+                echo "⚠ ⟨pobris padel: $ime — veja ostaja⟩"
+              fi
+            fi
+          done
+          echo "⟨izmera plejenja: $n vej poslanih v molk⟩"
