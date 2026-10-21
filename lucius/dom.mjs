@@ -208,6 +208,27 @@ const server = http.createServer(async (req, res) => {
       }
       return;
     }
+    if (req.method === 'POST' && url.pathname === '/api/izgovori') {
+      // besedilo → WAV s (fine-tuned) Lukovim glasom; samo, ce kartica ni zaposlena z ucenjem
+      const telo = JSON.parse(await preberiTelo(req) || '{}');
+      const besedilo = String(telo.besedilo || '').trim();
+      if (!besedilo) { json(400, { ok: false }); return; }
+      const tmp = path.join(os.tmpdir(), `dom-izgovori-${Date.now()}.wav`);
+      try {
+        const { execFileSync } = await import('node:child_process');
+        execFileSync('D:/OntoProjekt/Voice/klon/py311/python.exe',
+          ['D:/OntoProjekt/Voice/klon/izgovori.py', besedilo, tmp, 'D:/OntoProjekt/Voice/klon/referenca.wav'],
+          { cwd: 'D:/OntoProjekt/Voice/klon', timeout: 120000, stdio: ['ignore', 'ignore', 'pipe'] });
+        const zvok = fs.readFileSync(tmp);
+        try { fs.unlinkSync(tmp); } catch {}
+        res.writeHead(200, { 'content-type': 'audio/wav', 'cache-control': 'no-store' });
+        res.end(zvok);
+      } catch (napaka) {
+        try { fs.unlinkSync(tmp); } catch {}
+        json(503, { ok: false, napaka: 'kartica zaposlena ali izgovor padel — uporabi Windows glas' });
+      }
+      return;
+    }
     if (req.method === 'POST' && url.pathname === '/api/pogovor') {
       const telo = JSON.parse(await preberiTelo(req) || '{}');
       const besedilo = String(telo.besedilo || '').trim();
