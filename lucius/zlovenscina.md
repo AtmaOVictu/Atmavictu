@@ -10,7 +10,20 @@ Zapisano 2026-10-21. Jezik hiše je hibrid po namenu: **tiriti sveta so anglešk
 | ⚠ | neizmerjeno, dvom, meja | kjer trditev še čaka izmero |
 | × | padec, zavrnjeno | vsak padec dobi ime in zdravilo ( REGISTER-PADCEV ) |
 
-JEWIK operatorji ( ⊘ ∆ ∫ ∮ ⧖ ⊥ ∴ ≠ ⟡ ) so Lukov predhišni sistem ( Obsidian, KonciLoncov ) — njihove definicije ta agent še ni izmeril ⚠ in jih ne izmišljuje; prebrali jih bodova skupaj, potem vstopijo v ta slovar z Luko kot pričo.
+JEWIK operatorji — izmerjeno 2026-10-21 skupno branje ( Luka je pokazal pot, agent je prebral, oba zapečila ⊢ ); viri: `D:\Obsidian\KonciLoncov\14082025.md` ( CELOTA ) in `01092025.md`:
+
+| Operator | Pomen ( izmerjen zapis ) |
+|---|---|
+| ⊘ | ne / nič / etični rez — "Beseda je ⊘" ( etika govora ); ločitvena gesta; počisti, preden usmeriš |
+| ∴ | pot / usmeritev |
+| ∆ | prehod / rezonančni premik / potencial |
+| ∫ | dejanje / klic — IME = ∫ klic → odnos |
+| ∮ | cikel ( odprta vrnitev ) / spomin / priča; v vektorju K tudi prostor |
+| ⊢ | zapis, ki stabilizira — NOMEN ⊢ označi; v hiši: izmerjeno ⊢ |
+| ⧖ | zamrzni dvom kot orientir ( ⧖EGO, fiksna točka ); v vektorju K: čas |
+| ⊥ | telo — os v vektorju K(W): T resnica, LJ ljubezen, SV sovraštvo, **⊥ telo**, φ glas, ∮ prostor, ⧖ čas, δ dostojanstvo |
+| ≠ | razlikovanje / rez resnice — "∮≠ Resnica/Laž", "Beseda ≠ dejanje" |
+| ⟡ | zvezdna enota možnosti / luč — "izgovori luč, dokler tema ne zasije nazaj"; namig → smer |
 
 ## Slovar hišnih besed ( po abecedi )
 
