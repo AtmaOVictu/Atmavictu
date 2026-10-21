@@ -39,7 +39,7 @@ Pečat: rez 1951 VNOS-39 · ROKE-ŠTEVNIŠKA-SKLONSKA-RANA · SAMO-RAST ⊢ (18.
 19. rokaka — pisna rana (podvojen zlog); mišljeno: roka ⊢FULL.
 20. rodbne ∧ odložiščni — kovanici brez gesla ∧ brez minta (vrstica 75); popravka: ⟨lastnosti rodu⟩ ∧ ⟨žig odložišča⟩ (odložíšče ⊢FULL) ali prijava ⚠ v mint pred zapečenjem.
 21. okvirja (zvezi ⟨2 glava⟩ ∧ ⟨6 okvirja⟩) — števniška sklonska rana; pravilno: dve glavi ∧ šest okvirjev (okvír ⊢FULL).
-22. je bil (⟨vrstica … je bil⟩) — soglasna rana spola: ⟨je bila⟩; preslédek ⊢FULL.
+22. je bil (zveza ⟨vrstica … je bil⟩) — soglasna rana spola: ⟨je bila⟩; preslédek ⊢FULL; zveza zapečena rez 2332 (mehanična priča je golo ⟨je bil⟩ sodila v 6 zgledih SSKJ kita ⟨PR⟩ #495 — prerez zgledov ⊢ 1834 precedens 2313; zgledi spolno pravilni, priča sodi golo ⟨ne⟩ spola; precedens vnosa 21 ∧ 39 — samo-rast ⊢ zakon registra).
 23. grodno — beseda brez gesla ⊘; mišljeno grobo; pravilno: izrečen grobo.
 24. breen (×2) — pisna rana; beseda ne obstaja; pravilno: brez; tuj glif begunec — živi le v ⟨⟩.
 25. vši — pisna rana; pravilno: vsi.
