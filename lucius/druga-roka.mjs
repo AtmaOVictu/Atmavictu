@@ -140,6 +140,10 @@ for (const ujela of data.matches ?? []) {
     znanih += 1; // hišna beseda — lažni zadetek ⊢
     continue;
   }
+  if ((ujela.shortMessage || ujela.message || '').startsWith("Manjka vejica pred 'da'") && besedilo.slice(Math.max(0, ujela.offset - 3), ujela.offset + 1).includes('— ')) {
+    znanih += 1; // odgovorna beseda 'da' za pomišljajem ( — da ) — hišni zapis, ne veznik ⊢
+    continue;
+  }
   if ((ujela.shortMessage || ujela.message || '').startsWith('Številka v besedilu')) {
     znanih += 1; // hišni zapis števil ⊢
     continue;
@@ -154,8 +158,36 @@ for (const ujela of data.matches ?? []) {
   ran += 1;
 }
 
+// 4) ABSOLUTIZEM — popolnost se ne trdi, meri se ( KORENINA #5 ).
+// Vsak absolut zahteva svoje nasprotje ∧ nujno rešitev: najprej binarno, nato v hišnem
+// formalizmu ( triznačne znamenja ⊢/⚠/× ∧ omejena kvantifikacija nad izmerjeno množico ).
+// Opozorilo ⚠, ne padec ×: roka prebere vsako ∧ presodi, ali absolut res drsi.
+const ABSOLUTI = new Map(Object.entries({
+  vsak: 'vsaj-en-manjka (∃)', vsaka: 'vsaj-en-manjka (∃)', vsake: 'vsaj-en-manjka (∃)',
+  vsakem: 'vsaj-en-manjka (∃)', vsaki: 'vsaj-en-manjka (∃)', vsakdo: 'vsaj-en-manjka (∃)',
+  vsakršen: 'vsaj-en-manjka (∃)',
+  vedno: 'kdaj-ni (◇¬)',
+  nikoli: 'vsaj-enkrat (∃)',
+  popoln: 'približek + izmera', popolna: 'približek + izmera', popolno: 'približek + izmera',
+  neskončno: 'meja ( bound )',
+  razumem: 'razumevanje se pokaže z dejanjem, ne z besedo ( ⚠ )', razumeš: 'razumevanje se pokaže z dejanjem, ne z besedo ( ⚠ )',
+  vem: 'vednost zahteva pričo ⊢', veš: 'vednost zahteva pričo ⊢',
+}));
+let absolutov = 0;
+const besedeAbs = besedilo.toLowerCase().match(/[a-zčšžćđ]+/g) ?? [];
+for (const b of besedeAbs) {
+  const n = ABSOLUTI.get(b);
+  if (n) {
+    absolutov += 1;
+    console.log(`absolutizem ⚠ '${b}' — nasprotje: ${n} ∧ rešitev: omeji na izmerjeno množico ∧ dodaj pričo ⊢`);
+  }
+}
+if (absolutov > 0) {
+  console.log(`absolutizem ⚠ ${absolutov} — besede popolnosti v izpisu ( vsak/nikoli/vedno/… ); hiša meri, ne trdi ( KORENINA #5 ) — preberi vsako ∧ presodi`);
+}
+
 const cisto = cirilice === 0 && ran === 0 && prepovedane === 0;
 console.log(cisto
-  ? `DRUGA-ROTE: cistina 0 + prepovedane 0 + preverba 0 ( ${znanih} hišnih besed ⊢, ${slovarskih} gesel iz Lukovega slovarja ⊢ ) — izpis čist, roka more poslati ⊢`
-  : `DRUGA-ROTE: cirilice ${cirilice} + prepovedane ${prepovedane} + slovnicnih zadetkov ${ran} ( ${znanih} hišnih besed ⊢, ${slovarskih} gesel iz Lukovega slovarja ⊢ ) — preberi vsakega kakor tujec, nekatere so lažni, ostale popravi ×`);
+  ? `DRUGA-ROTE: cistina 0 + prepovedane 0 + preverba 0 ( ${znanih} hišnih besed ⊢, ${slovarskih} gesel iz Lukovega slovarja ⊢, absolutizem ⚠ ${absolutov} ) — izpis čist, roka more poslati ⊢`
+  : `DRUGA-ROTE: cirilice ${cirilice} + prepovedane ${prepovedane} + slovnicnih zadetkov ${ran} ( ${znanih} hišnih besed ⊢, ${slovarskih} gesel iz Lukovega slovarja ⊢, absolutizem ⚠ ${absolutov} ) — preberi vsakega kakor tujec, nekatere so lažni, ostale popravi ×`);
 process.exit(cisto ? 0 : 1);
