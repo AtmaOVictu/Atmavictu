@@ -27,3 +27,5 @@ RANA javno ⊙ 1349 ⊢ 1419 ∧ 1834 isti dih: priča-potrditev P1 slapa točka
 - ⟨berba pulza⟩ @06:00 22. 10. ⭢ DNEVNI-DIH taskId 62c336e2
 
 ORGANI ISTI DIH: jedro (prevoz ∧ register ∧ pečat ∧ geniza ×2) — horizont ∧ vsi ostali NEDOTIKNJENI ⊢ 1963.
+
+RANA-VRAT javno ⊙ 1349 ⊢ 1419 ∧ 1834 isti dih: tek ⟨prica⟩ @a3b52c6 08:45Z padel v 6 s — ⟨prica-potrditev⟩ ∧ web ∧ tests (24) isti tek zeleni ×3 ∧ simulacija vseh treh plasti ovrge pri viru čista (⟨naslov⟩ brez zahteve reza ∧ ⟨diff⟩ organov čist po registru padlih besed ∧ zdravje registra 132 vrstic ⊢) → padec vrata, ⟨ne⟩ rana repa — ta šit sproža re-tek priče ⭢ ∂.
