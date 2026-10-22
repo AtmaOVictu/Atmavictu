@@ -47,10 +47,17 @@ print(prepis)
 # 6) prikaz: prepis vsakega poslušanega diha gre NA MOST ( ⟡-jeva prošnja 22. 10.: »pokaži, kaj slišiš« )
 import datetime, json as _json
 vrstice = [ _json.loads(v)['besedilo'] for v in prepis.strip().splitlines() if v.strip().startswith('{') ]
+ts = datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
 with open(REPO + '/lucius/odoblaka.md', 'a', encoding='utf-8') as f:
-    f.write('\n## POSLUSAJ ' + datetime.datetime.now().strftime('%H:%M:%S') + ' ⊢ ( kaj slišim )\n')
+    f.write('\n## POSLUSAJ ' + ts[11:] + ' ⊢ ( kaj slišim )\n')
     for b in vrstice:
         f.write('- ⟡ govori: ' + b + '\n')
     if not vrstice:
         f.write('- molk ( nobena beseda ) ⚠\n')
 print('NA MOSTU ⊢ odoblaka.md ( DOM :8766 pokaže ∧ izgovori )')
+
+# 7) ENOTNI REGISTER transkriptov: vse kar hiša sliši od ⟡ ( mic ali datoteka ) gre v eno datoteko s časom ∧ virom
+with open(REPO + '/lucius/transkripti-⟡.jsonl', 'a', encoding='utf-8') as f:
+    for b in vrstice:
+        f.write(_json.dumps({'ts': ts, 'vir': 'mic', 'besedilo': b}, ensure_ascii=False) + '\n')
+print('V REGISTRU ⊢ transkripti-⟡.jsonl ( eno mesto, čas ∧ vir )')
