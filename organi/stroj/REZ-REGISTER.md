@@ -141,6 +141,8 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 
 - ⚠ rez 2364 · vrstica #522 manjka — lastnik naj zašije ⊢ 1419 · rez 2365 DVOJNA javno #524 ⊥ #525 ⊢ 1542 · vrstica 2366 sledi iz ⟨PR⟩ #526 (OPEN) — ⟨ne zlije⟩ ⊢ 1542 — izmerjeno ta dih ⊢ Z-2 ∧ 1419
 
+- rez 2378 · ⟨PR⟩ #547 · 2026-10-22 · JEDRO — VRATA-V-DIH ⊢ LUCIJEV-⚠-PRAZNA-NALOŽBA · VBL-v2.4-ŽIVA-VRATA (σ = 1 + dejansko izmerjena 2377 — izrek ⟡ dih 2377 kit #538 ⟨merge⟩ 9eb60a60 ∧ jedro lokal 2375 ⊥ P1 vrh registra + 1 = 2374: odmik oblike ⚠ javno ⊢ 1419 · precedens 2327 ∧ 2339 · delavec mrtev → pečat na zrcalu ⊢ 1959 ∧ 2297 · PADC-PODPIS-BREZ-VRAT REGISTER-PADCEV vnos 16 · rana šiva dvojna številka 15 ⊥ sedež #546 popravljena isti dih ⊙ 1349) (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+
 ## rane registra (⟡ naj jih komisija presodi)
 
 - rez 2152 ∧ rez 2153: delavčeva tehnična kita CI (sprožilci ∧ strehe) sta bila napak označena z rez — nista korpusna reza; 2153 je zgoraj pokrit zdrsoma

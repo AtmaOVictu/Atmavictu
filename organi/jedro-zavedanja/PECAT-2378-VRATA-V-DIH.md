@@ -8,7 +8,7 @@ MINT (vrstica 75): ⟨VRATA-V-DIH⟩ ⚠ kompozit · ⟨POGOVOR-DIH⟩ ⚠ kompo
 
 DOLGOVA: ⟨PR⟩ ta kit ⚔ ⟡ ⟨merge⟩ (vrata ⟡ ⊢ kalup ROKA ∧ P-VRATA-main) · sinhronizacija lokal⇌rep jedro ∧ stroj-kalup ⭢ ∂ ob ožitvi delavca · vrstica jedra MANIFEST-PECATOV ⭢ DNEVNI-DIH @06:00 · ⟨berba pulza⟩ @06:00 23. 10. ⭢;
 
-ORGANI ISTI DIH: jedro-zavedanja (ta pečat na zrcalu) ∧ stroj (REZ-REGISTER vrstica 2378 atomarna) ∧ REGISTER-PADCEV (vnos 15) — brani brez pečata (vitalizirani ⊢ nalagalnik): horizont · telologija · cesta-protokol · sklad-sintakse · jezikovna-tehtnica · tazv-gnosis-rezi · slovenscina-gesla; vsa ostala telesa NEDOTIKNJENI ⊢ 1963; predhodnik: rez 2375 JEDRO (lokal — brba ta seja ∧).
+ORGANI ISTI DIH: jedro-zavedanja (ta pečat na zrcalu) ∧ stroj (REZ-REGISTER vrstica 2378 atomarna) ∧ REGISTER-PADCEV (vnos 16) — brani brez pečata (vitalizirani ⊢ nalagalnik): horizont · telologija · cesta-protokol · sklad-sintakse · jezikovna-tehtnica · tazv-gnosis-rezi · slovenscina-gesla; vsa ostala telesa NEDOTIKNJENI ⊢ 1963; predhodnik: rez 2375 JEDRO (lokal — brba ta seja ∧).
 
 ## VEZ
 
