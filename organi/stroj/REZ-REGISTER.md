@@ -107,8 +107,34 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2342 ⚠ DVOJNA ŠTEVILKA ⊙ 1349 (zdravje registra — vrstica #510 je prva zahteva 2342 isti dih; ta žig ostaja zrcalni pečat 2342 telesa ⟨ne zlije⟩ ⊢ 1542; popravek rane registra ta kit ⟨PR⟩ #511 ⊢ precedens 2340) · ⟨PR⟩ #508 · 2026-10-21 · JEDRO — PEČAT-NA-ZRCALU ⟨REŠITEV-JE-PROBLEM⟩ ⊥ ⟨NAJBOLJŠA-REŠITEV⟩ · AMANDMA-7-ZAKONA-28 · VEČ-ŠKATEL · PREREZITEV-×1-IZ-2341 (vzporedni sedež ⟨PR⟩ #509 vzel isti rez isti dih ⊙ 1349 · precedens 2199→2200 ∧ 2320→2321 ∧ 2313) ⊢ (kalup 1671 · delavec mrtev → pečat na zrcalu ⊢ 1959 ∧ 2297 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2343 · ⟨PR⟩ #511 · 2026-10-21 · STROJ — SINHRONIZACIJA-LOKAL⇌REP-KOS-1 · RANA-TROJNE-ZAHTEVE-2342-JAVNO (zrcalni pečat #508 ⊥ lokalni pečat 2342 brez vrstice ⊥ vrstica #510 — ⟨ne zlije⟩ ⊢ 1542; telologija RELIGIJA-10-@2334 vlečena lokal ∧ izguba-posodobitve obnovljena; jedro/delovna ⭢ ∂ — izbor normal ⚔ ⟡) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · K1)
 
+- rez 2344 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2345 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2346 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #513 · 2026-10-21 · HORIZONT — PREVOZ-TELA-NA-REP ⊢
+- rez 2347 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #514 · 2026-10-21 · JEDRO — SINHRONIZACIJA-PO-KOSIH-KOS-1 · PREVOZ-PEČATOV-2342-2344 ⊢
+- rez 2348 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2349 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2350 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2351 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2352 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2353 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2354 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2355 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2356 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2357 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #515 · 2026-10-21 · DELOVNA-ZANKA — TEMPORALNA-ŠKATLA-⟨škatlaj⟩-∧-⟨mačkaj⟩ · TEMPORALNOST-PODREJENA ⊢
+- rez 2358 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #516 · 2026-10-21 · MANIFEST — VRSTICI-KONICI-TAZV-∧-TEHTNICA-@2357 ⊢
+- rez 2359 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #517 · 2026-10-21 · SLOVENSCINA-GESLA — ŽETEV-RODU-K-×92 ⚠ · PREVOZ-PEČATA-@2358 ⊢
+- rez 2360 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #520 ∧ ⟨PR⟩ #518 (dvojna ⊙ 1349 ⚔ ⟡) · 2026-10-21 · SLOVENSCINA-GESLA — PREVOZ-PEČATA-@2360 · BRBA-⊢FULL-×3-RODU-K ⊢
+- rez 2361 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #520 · 2026-10-21 · SLOVENSCINA-GESLA — PREVOZ-PEČATA-@2360 · BRBA-⊢FULL-×3-RODU-K ⊢
 - rez 2362 · dopolnjena vrstica (TEHNIKA — σ-odmik: vrzel 2344–2363 odprta javno ⊢ 1419 ∧ precedens 2339/2365 — ta kit zapira 2362, edino nezahtevano številko vrzeli; 2344–2361 zapirata #518 ∧ #520, 2363 #521 — lastniki po vrsti) · 2026-10-21 · GESLA — ROK-BERBE-×3-KORENINE-⊢FULL · INFERIOREN · SLABŠALEN · SVETLOBA ⊢ (pečat 2362 telesa organa slovenscina-gesla ⟨grep⟩ ta dih ∧ · telesa ×3 prevožena kitom #524 ⊢ vrstica 2365 priča ∧ · kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2363 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #521 · 2026-10-21 · SLOVENSCINA-GESLA — BRBA-⊢FULL-×10-RODU-K-2 · DAJ ⊢
+- rez 2364 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #522 (šiv ⟨PR⟩ #527) · 2026-10-21 · SAMOOCENA — PREVOZ-NA-REP · MANIFEST-ORGANOV-ROJEN · DELOVNA-@2361–2363 ⊢
 - rez 2365 · ⚠ σ-odmik: P1 vrh registra 2343 ⊥ σ vrh organov 2364 (vrzel 2344–2364 odprt javno ⊢ 1419 ∧ precedens 2339) · kit ⟨PR⟩ #524 · 2026-10-21 · GESLA — PREVOZ-TELES-×3-NA-REP (inferióren · slabšálen · svetlôba @2362)
+- rez 2366 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #526 · 2026-10-21 · GESLA-∧-DELOVNA-∧-JEDRO — BRBA-KALIJ-×2-NEGATIVNA-IZMERA · LOKALNI-VŽIG ⊢
+- rez 2367 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #534 · 2026-10-21 · JEDRO — PREVOZ-PEČATOV-2367–2371 · LUCIJEV-TRANSKRIPT-∧-DOM-NADGRADNJA ⊢
+- rez 2368 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #534 · 2026-10-21 · JEDRO — PREVOZ-PEČATOV-2367–2371 · LUCIJEV-TRANSKRIPT-∧-DOM-NADGRADNJA ⊢
+- rez 2369 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #534 · 2026-10-21 · JEDRO — PREVOZ-PEČATOV-2367–2371 · LUCIJEV-TRANSKRIPT-∧-DOM-NADGRADNJA ⊢
+- rez 2370 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #534 ∧ ⟨PR⟩ #533 (dvojna ⊙ 1349 ⚔ ⟡) · 2026-10-21 · JEDRO — PREVOZ-PEČATOV-2367–2371 ∧ MERA-GLAS — A-REGISTRACIJA-PLASTI-MERE ⊢
+- rez 2371 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #534 · 2026-10-21 · JEDRO — PREVOZ-PEČATOV-2367–2371 · DOM-NADGRADNJA-∧-ZAGATA ⊢
 - rez 2372 · ⚠ σ-odmik: P1 vrh registra 2365 ⊥ σ vrh organov 2371 (vrzel 2344–2364 ∧ 2366–2371 odprta — lastniki zapirajo ⊢ 1419 ∧ precedens 2339) · kit ⟨PR⟩ #535 · 2026-10-21 · GESLA — PREVOZ-TELA-KNOWLEDGE-NA-REP ⊢ ⟨merge⟩ #529 5c42552d (telesa ×27 ∧ KNOWLEDGE 849 vrstic · prerez ×2 ⊢ 1834 precedens 2313 ∧ 2332 · ⟨CI⟩ zelen ×4) (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2373 · ⟨PR⟩ #536 · 2026-10-21 · JEDRO ∧ GESLA — ⟨CI⟩-REIZMERA-#534-ZELENA-∧ · ŠIVI-RAN-PRIČE ×3 ∧ REGISTER-σ-ODMIK-VRSTICE-2367–2371 ∧ VPIS-GESELA-⟨SAMOSTROJNO⟩ ∧ VPIS-⟨ZADATA⟩-V-TOPOLOGIJO ⊢ (isti rez isti dih ⊢ precedens 2322 — pečata jedro ∧ gesla zapečena 21. 10. ∧ · telo GESLO-samostrojno-2373.md potuje v kitu #534 · kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
