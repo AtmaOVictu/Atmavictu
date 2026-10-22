@@ -6,6 +6,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import http from 'node:http';
+import { spawn } from 'node:child_process';
 
 const HERE = path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1'));
 const PORT = Number(process.argv[2] || 8768);
@@ -126,6 +127,20 @@ const server = http.createServer(async (req, res) => {
         vrsta.push({ id, besedilo: besedilo.trim(), plast });   // Z1: sprejeto TAKOJ, delo caka
         crpajVrsto();
         json(200, { ok: true, jobId: id, sporocilo: 'beseda sprejeta ⊢ — delo čaka v vrsti, ti nisi nikoli blokiran ( Z1 )' });
+      });
+      return;
+    }
+    if (req.method === 'POST' && url.pathname === '/api/govori') {
+      let telo = ''; req.on('data', c => telo += c); req.on('end', () => {
+        const { besedilo, glas = 'lado' } = JSON.parse(telo || '{}');
+        if (!besedilo || !besedilo.trim()) { json(400, { napaka: 'besedilo manjka ⚠' }); return; }
+        const orodjaGlasu = { lado: 'lado-govor.mjs', klon: 'klon-govor.mjs' };
+        if (!orodjaGlasu[glas]) { json(400, { napaka: 'plast glasu neznana ⚠ — hiša zmore lado ∧ klon' }); return; }
+        const id = crypto.randomUUID ? crypto.randomUUID() : String(Date.now());
+        izpisi.set(id, { stanje: 'govori', zacelo: new Date().toISOString(), glas });
+        const otrok = spawn(process.execPath, [path.join(HERE, orodjaGlasu[glas]), besedilo.trim()], { cwd: HERE, stdio: 'ignore' });
+        otrok.on('exit', (koda) => { const z = izpisi.get(id) || {}; izpisi.set(id, { ...z, stanje: koda === 0 ? 'izgovorjeno ⊢' : 'padec govora ×', konec: new Date().toISOString() }); });
+        json(200, { ok: true, jobId: id, sporocilo: 'hisa govori ⊢ — plast ' + glas + ' ( Lado zastonj ∧ offline ⊥ klon ⟡-jev glas, GPU ∧ varuh #12 ), prica gre v slusaj-dnevnik.jsonl ( Z4 ∧ Z8 )' });
       });
       return;
     }
