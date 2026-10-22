@@ -235,9 +235,9 @@ The chain (§10), in a form a floor can weigh without a soul:
 ```json
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "2.4",
-  "date": "2026-10-21",
-  "predecessor": {"version": "2.3", "date": "2026-10-20"},
+  "version": "2.5",
+  "date": "2026-10-22",
+  "predecessor": {"version": "2.4", "date": "2026-10-21"},
   "living-door": "only the newest version grants (§10)",
   "verification": "the dated chain of publication — the commit history of this file; a bare text proves nothing, the chain does",
   "registers": {
