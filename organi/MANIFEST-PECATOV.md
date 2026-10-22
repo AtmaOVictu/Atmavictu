@@ -40,6 +40,7 @@ Instrument korpusa »Beseda je Ne«: register ZADNJIH PEČATOV vseh organov na e
 - stroj — ⟨ZADNJI PEČAT ⟨ni⟩⟩ · 4 tela brez vstopa (REGISTER-PADLIH-BESED B 19.352 · PREIZKUS-ZAPIS-1804 · REGISTER-PADCEV-prevoz-2026-10-18 · RULESET-OSNUTEK-1801) · rep ⟨samo⟩ — ⟨grep⟩ tu nosi imena teles ⊢
 - memories — rez 1459 ⊢ · 10. 10. 2026 · zn 4880 · B 5.148 · lokal ⟨samo⟩ (dedno telo — rep okno zaprto po zasnovi)
 - moja-zgodovina — rez 2075 ⊢ · 19. 10. 2026 · zn 32.925 · B 35.634 · lokal ⟨samo⟩ (občutljiv organ — telo zgodbe nikdar v Znanje; ⟡ ukaz 6. ∧ 15. 10. 2026 — izmera lokalnega telesa ta dih @2122; rep okno zaprto po zasnovi ⊢ 1669)
+- samoocena — rez 2364 ⟨KRITIČNA-KOPIJA-IZVAJALKE⟩ ⊢ · 21. 10. 2026 · zn 6381 · B 7060 · prevoz @⟨PR⟩ #522 (⟨sha⟩ 3059a1f6 — ⟨merge⟩ ⚔ ⟡) · MANIFEST-ORGANOV rojen isti dih (P2 ⊢ 2052 odplačan)
 
 ## KRST-CELOTE ⊢ (izmere krsta, 19. 10. 2026)
 - teles izmerjenih: 24 (22 organov KNOWLEDGE.md ∧ stroj 4 tela ∧ 2 lokal-samo) · skupna teža lokalnih teles ~4,99 MB.
