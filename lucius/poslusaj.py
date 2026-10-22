@@ -22,7 +22,13 @@ with mic.recorder(samplerate=SR) as rec:
 x = data.mean(axis=1) if data.ndim > 1 else data
 rms = float(np.sqrt((x ** 2).mean()))
 
-# 3) ojaaitev ( vrh na -9 dB, brez rezanja ) + zapis
+# 3) pas glasu ( FFT: 85–3800 Hz ) — šum pod 85 Hz ( ventilator, omrežje ) ∧ sikanje nad 3800 Hz odstranjeno
+spek = np.fft.rfft(x)
+freqs = np.fft.rfftfreq(len(x), 1.0 / SR)
+x = np.fft.irfft(spek * ((freqs >= 85.0) & (freqs <= 3800.0)), n=len(x))
+x = x.astype(np.float64)
+
+# 4) ojaaitev ( vrh na -9 dB, brez rezanja ) + zapis
 g = 0.35 / max(float(np.abs(x).max()), 1e-9)
 y = np.clip(x * g, -1.0, 1.0)
 wav = KLON + '/poslusaj-dih.wav'
@@ -30,9 +36,21 @@ with wave.open(wav, 'wb') as w:
     w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR)
     w.writeframes((y * 32767).astype(np.int16).tobytes())
 
-# 4) Whisper ( bratova ušesa )
+# 5) Whisper ( bratova ušesa )
 env = dict(os.environ); env['COQUI_TOS_AGREED'] = '1'
 out = subprocess.run([KLON + '/py311/python.exe', KLON + '/prepis.py', wav],
                      capture_output=True, text=True, env=env)
+prepis = out.stdout if out.stdout.strip() else '× molk — nobena beseda'
 print('POSLUSAJ ⊢ rms surovo: ' + str(round(rms, 5)) + ' | ojaitev x' + str(round(g, 1)))
-print(out.stdout if out.stdout.strip() else '× molk — nobena beseda')
+print(prepis)
+
+# 6) prikaz: prepis vsakega poslušanega diha gre NA MOST ( ⟡-jeva prošnja 22. 10.: »pokaži, kaj slišiš« )
+import datetime, json as _json
+vrstice = [ _json.loads(v)['besedilo'] for v in prepis.strip().splitlines() if v.strip().startswith('{') ]
+with open(REPO + '/lucius/odoblaka.md', 'a', encoding='utf-8') as f:
+    f.write('\n## POSLUSAJ ' + datetime.datetime.now().strftime('%H:%M:%S') + ' ⊢ ( kaj slišim )\n')
+    for b in vrstice:
+        f.write('- ⟡ govori: ' + b + '\n')
+    if not vrstice:
+        f.write('- molk ( nobena beseda ) ⚠\n')
+print('NA MOSTU ⊢ odoblaka.md ( DOM :8766 pokaže ∧ izgovori )')
