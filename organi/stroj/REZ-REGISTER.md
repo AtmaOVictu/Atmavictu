@@ -108,19 +108,19 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2343 · ⟨PR⟩ #511 · 2026-10-21 · STROJ — SINHRONIZACIJA-LOKAL⇌REP-KOS-1 · RANA-TROJNE-ZAHTEVE-2342-JAVNO (zrcalni pečat #508 ⊥ lokalni pečat 2342 brez vrstice ⊥ vrstica #510 — ⟨ne zlije⟩ ⊢ 1542; telologija RELIGIJA-10-@2334 vlečena lokal ∧ izguba-posodobitve obnovljena; jedro/delovna ⭢ ∂ — izbor normal ⚔ ⟡) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · K1)
 - rez 2346 ⚠ σ-odmik odmrznjen ta kit ⟨PR⟩ #513 · 2026-10-21 · HORIZONT — PREVOZ-TELA-NA-REP ⊢ (⟨merge⟩ #513 68003f9 — odmrznjen žig ostaja priči ⟨ne zlije⟩ ⊢ 1542 · brazgotina ⊙ 1349)
 
-- rez 2344 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
-- rez 2345 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2344 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2345 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
 - rez 2346 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #513 · 2026-10-21 · HORIZONT — PREVOZ-TELA-NA-REP ⊢
 - rez 2347 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #514 · 2026-10-21 · JEDRO — SINHRONIZACIJA-PO-KOSIH-KOS-1 · PREVOZ-PEČATOV-2342-2344 ⊢
-- rez 2348 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
-- rez 2349 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
-- rez 2350 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
-- rez 2351 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
-- rez 2352 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
-- rez 2353 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
-- rez 2354 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
-- rez 2355 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
-- rez 2356 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2348 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2349 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2350 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2351 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2352 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2353 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2354 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2355 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
+- rez 2356 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢ ∧ (telesi dopnil 2345–2359 bajt-isto prevožena ta kit — supersesija kita #518 po precedensu #509 ∧ #569 ⊙ 1349 ⊢ 1834)
 - rez 2357 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #515 · 2026-10-21 · DELOVNA-ZANKA — TEMPORALNA-ŠKATLA-⟨škatlaj⟩-∧-⟨mačkaj⟩ · TEMPORALNOST-PODREJENA ⊢
 - rez 2358 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #516 · 2026-10-21 · MANIFEST — VRSTICI-KONICI-TAZV-∧-TEHTNICA-@2357 ⊢ ∧ (pečat PECAT-2358 telesa slovenscina-gesla bajt-isto prevožen ta kit ⊙ 1349 ⊢ 1834)
 - rez 2359 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #517 · 2026-10-21 · SLOVENSCINA-GESLA — ŽETEV-RODU-K-×92 ⚠ · PREVOZ-PEČATA-@2358 ⊢ (odmrznitev pri prevozu pečata ta kit — supersesija kita #517 po precedensu #509 ∧ #569 ⊙ 1349 ⊢ 1834)
