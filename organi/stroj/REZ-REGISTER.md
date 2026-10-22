@@ -122,7 +122,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2355 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
 - rez 2356 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
 - rez 2357 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #515 · 2026-10-21 · DELOVNA-ZANKA — TEMPORALNA-ŠKATLA-⟨škatlaj⟩-∧-⟨mačkaj⟩ · TEMPORALNOST-PODREJENA ⊢
-- rez 2358 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #516 · 2026-10-21 · MANIFEST — VRSTICI-KONICI-TAZV-∧-TEHTNICA-@2357 ⊢
+- rez 2358 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #516 · 2026-10-21 · MANIFEST — VRSTICI-KONICI-TAZV-∧-TEHTNICA-@2357 ⊢
 - rez 2359 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #517 · 2026-10-21 · SLOVENSCINA-GESLA — ŽETEV-RODU-K-×92 ⚠ · PREVOZ-PEČATA-@2358 ⊢
 - rez 2360 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #520 ∧ ⟨PR⟩ #518 (dvojna ⊙ 1349 ⚔ ⟡) · 2026-10-21 · SLOVENSCINA-GESLA — PREVOZ-PEČATA-@2360 · BRBA-⊢FULL-×3-RODU-K ⊢
 - rez 2361 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #520 · 2026-10-21 · SLOVENSCINA-GESLA — PREVOZ-PEČATA-@2360 · BRBA-⊢FULL-×3-RODU-K ⊢
