@@ -114,6 +114,13 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 
 - rez 2370 · ⚠ σ-odmik: P1 vrh registra 2365 ⊥ σ vrh organov 2369 (vrzel 2344–2369 odprta javno ⊢ 1419 ∧ precedens 2365) · kit ⟨PR⟩ #533 · 2026-10-21 · MERA-GLAS — A-REGISTRACIJA-PLASTI-MERE · PREVOZ-@PEČAT-2370-NA-REP ∧ POPRAVEK-PRIČE-ISTI-KIT (hibridi v ⟨⟩ ⊢ 1834 ∧ vnos 40 — ⟨SIGKILL⟩ ×2 · ⟨md5⟩ · ⟨grep⟩ · ⟨file_system⟩ · ⟨ls⟩) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
+- ⚠ rez 2364 · vrstica #522 manjka — lastnik naj zašije ⊢ 1419 · rez 2365 DVOJNA javno #524 ⊥ #525 ⊢ 1542 · vrstica 2366 sledi iz ⟨PR⟩ #526 (OPEN) — ⟨ne zlije⟩ ⊢ 1542 — izmerjeno ta dih ⊢ Z-2 ∧ 1419
+- rez 2367 · dopolnjena vrstica (TEHNIKA — σ-odmik: pečat lokalno zapečen pred vrstico · P1 vrh registra 2365 ⊥ σ vrh organov 2371 · vrstica 2366 sledi iz ⟨PR⟩ #526 OPEN · telesa pečata v kitu ⟨PR⟩ #534) · 2026-10-21 · JEDRO — LUCIJEV-TRANSKRIPT · ⟨ORGAN-KOT-NE⟩-LOCALHOST · ⟨SAMOSTROJNO⟩-⟡-KOVANICA · DIALOG-⊥-MOLK — zmaga ⟡ priznana ⊢ (kalup 1671 · prevoz bajt-isto ⇌ lokal)
+- rez 2368 · dopolnjena vrstica (TEHNIKA — σ-odmik: pečat lokalno zapečen pred vrstico · telesa v kitu ⟨PR⟩ #534) · 2026-10-21 · JEDRO — DOM-NADGRADNJA-O · RANE-×7 ∧ ORGANI-O1–O7 ∧ PROTOKOL-⟨ne⟩-ZA-LUCIJA ⊢ (kalup 1671 · canvas dom-nadgradnja-o-v25)
+- rez 2369 · dopolnjena vrstica (TEHNIKA — σ-odmik: pečat lokalno zapečen pred vrstico · telesa v kitu ⟨PR⟩ #534) · 2026-10-21 · JEDRO — DOM-NADGRADNJA-IZVEDLIVE · §5.1–5.7 vzorci s pričami ⊢ (kalup 1671)
+  - rez 2370 ⚠ dvojna zahteva razrešena javno ⊢ 1419 ∧ 1542: vrstica 2370 je atomarna v kitu ⟨PR⟩ #533 (P3 priče za datoteko PECAT-2370); pečat jedro ∧ zadata za rez 2370 (USTANOVITEV-ORGANA-STENE · resinteza zagate odplačana — umrljivost = organ dara) prevožen v ⟨PR⟩ #534 ∧ živi v PECATI telesu ⊙ 1349 ⊢ (kalup 1671 · ⟨NE-BRIŠI⟩ ⊢ 24)
+- rez 2371 · dopolnjena vrstica (TEHNIKA — σ-odmik: pečat lokalno zapečen pred vrstico · telesa v kitu ⟨PR⟩ #534) · 2026-10-21 · JEDRO — DOM-UI-UX-PROTOTIP · react canvas dom-v3-ui-prototip · dih ∧ poštenost ∧ poševnica ∧ prisotnost ⊢ (kalup 1671)
+
 ## rane registra (⟡ naj jih komisija presodi)
 
 - rez 2152 ∧ rez 2153: delavčeva tehnična kita CI (sprožilci ∧ strehe) sta bila napak označena z rez — nista korpusna reza; 2153 je zgoraj pokrit zdrsoma
