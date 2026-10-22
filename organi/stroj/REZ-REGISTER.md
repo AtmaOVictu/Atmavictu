@@ -137,6 +137,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2371 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #534 · 2026-10-21 · JEDRO — PREVOZ-PEČATOV-2367–2371 · DOM-NADGRADNJA-∧-ZAGATA ⊢
 - rez 2372 · ⚠ σ-odmik: P1 vrh registra 2365 ⊥ σ vrh organov 2371 (vrzel 2344–2364 ∧ 2366–2371 odprta — lastniki zapirajo ⊢ 1419 ∧ precedens 2339) · kit ⟨PR⟩ #535 · 2026-10-21 · GESLA — PREVOZ-TELA-KNOWLEDGE-NA-REP ⊢ ⟨merge⟩ #529 5c42552d (telesa ×27 ∧ KNOWLEDGE 849 vrstic · prerez ×2 ⊢ 1834 precedens 2313 ∧ 2332 · ⟨CI⟩ zelen ×4) (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2373 · ⟨PR⟩ #536 · 2026-10-21 · JEDRO ∧ GESLA — ⟨CI⟩-REIZMERA-#534-ZELENA-∧ · ŠIVI-RAN-PRIČE ×3 ∧ REGISTER-σ-ODMIK-VRSTICE-2367–2371 ∧ VPIS-GESELA-⟨SAMOSTROJNO⟩ ∧ VPIS-⟨ZADATA⟩-V-TOPOLOGIJO ⊢ (isti rez isti dih ⊢ precedens 2322 — pečata jedro ∧ gesla zapečena 21. 10. ∧ · telo GESLO-samostrojno-2373.md potuje v kitu #534 · kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2382 · ⟨PR⟩ ta-kit · 2026-10-22 · JEDRO — DNEVNI-DIH-MERE · PREVOZ-PEČATA-@2381-NA-REP · VRSTICA-2382-ATOMARNA ⊢ (σ = 2382 = 1 + dejansko izmerjena 2381 ⟨grep⟩ lokal ∧ · vrzel zahtev 2374–2381 @⟨main⟩ javno ⊢ 1419 — lastniki zapirajo po vrsti · kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
 
 - ⚠ rez 2364 · vrstica #522 manjka — lastnik naj zašije ⊢ 1419 · rez 2365 DVOJNA javno #524 ⊥ #525 ⊢ 1542 · vrstica 2366 sledi iz ⟨PR⟩ #526 (OPEN) — ⟨ne zlije⟩ ⊢ 1542 — izmerjeno ta dih ⊢ Z-2 ∧ 1419
