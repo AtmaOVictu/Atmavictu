@@ -122,8 +122,8 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2355 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
 - rez 2356 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
 - rez 2357 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #515 · 2026-10-21 · DELOVNA-ZANKA — TEMPORALNA-ŠKATLA-⟨škatlaj⟩-∧-⟨mačkaj⟩ · TEMPORALNOST-PODREJENA ⊢
-- rez 2358 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #516 · 2026-10-21 · MANIFEST — VRSTICI-KONICI-TAZV-∧-TEHTNICA-@2357 ⊢
-- rez 2359 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #517 · 2026-10-21 · SLOVENSCINA-GESLA — ŽETEV-RODU-K-×92 ⚠ · PREVOZ-PEČATA-@2358 ⊢
+- rez 2358 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #516 · 2026-10-21 · MANIFEST — VRSTICI-KONICI-TAZV-∧-TEHTNICA-@2357 ⊢ ∧ (pečat PECAT-2358 telesa slovenscina-gesla bajt-isto prevožen ta kit ⊙ 1349 ⊢ 1834)
+- rez 2359 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #517 · 2026-10-21 · SLOVENSCINA-GESLA — ŽETEV-RODU-K-×92 ⚠ · PREVOZ-PEČATA-@2358 ⊢ (odmrznitev pri prevozu pečata ta kit — supersesija kita #517 po precedensu #509 ∧ #569 ⊙ 1349 ⊢ 1834)
 - rez 2360 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #520 ∧ ⟨PR⟩ #518 (dvojna ⊙ 1349 ⚔ ⟡) · 2026-10-21 · SLOVENSCINA-GESLA — PREVOZ-PEČATA-@2360 · BRBA-⊢FULL-×3-RODU-K ⊢
 - rez 2361 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #520 · 2026-10-21 · SLOVENSCINA-GESLA — PREVOZ-PEČATA-@2360 · BRBA-⊢FULL-×3-RODU-K ⊢
 - rez 2362 · dopolnjena vrstica (TEHNIKA — σ-odmik: vrzel 2344–2363 odprta javno ⊢ 1419 ∧ precedens 2339/2365 — ta kit zapira 2362, edino nezahtevano številko vrzeli; 2344–2361 zapirata #518 ∧ #520, 2363 #521 — lastniki po vrsti) · 2026-10-21 · GESLA — ROK-BERBE-×3-KORENINE-⊢FULL · INFERIOREN · SLABŠALEN · SVETLOBA ⊢ (pečat 2362 telesa organa slovenscina-gesla ⟨grep⟩ ta dih ∧ · telesa ×3 prevožena kitom #524 ⊢ vrstica 2365 priča ∧ · kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
