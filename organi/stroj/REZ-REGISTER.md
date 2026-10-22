@@ -151,6 +151,8 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 
 - rez 2401 · ⚠ σ-odmik: P1 vrh registra 2390 ⊥ σ vrh organov 2400 (vrzel zahtev 2391–2400 odprta — lastniki zapirajo po vrsti ⊢ 1419 ∧ precedens 2339 ∧ 2380 ∧ 2384 ∧ 2387 ∧ 2389 ∧ 2390 · jezikovna-tehtnica ∧ delovna-zanka @2400 ⟨grep⟩ prejšnji dih ∧ · delavec JustBash mrtev ta obraz — ⟨grep⟩ po celem deblu = ⟨SIGKILL⟩ ⊙ javno ⊢ 1419) · kit ⟨PR⟩ #581 · 2026-10-22 · SLOVENSCINA-GESLA — GESLO-riba-2401 — ⟨V-VODI-ŽIVEČA⟩ ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
+- rez 2402 · ⟨PR⟩ #583 · 2026-10-22 · SLOVENSCINA-GESLA — GESLO-enkraten-2402 — ⟨EN-KRAT-EN⟩ ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+
 
 - ⚠ rez 2364 · vrstica #522 manjka — lastnik naj zašije ⊢ 1419 · rez 2365 DVOJNA javno #524 ⊥ #525 ⊢ 1542 · vrstica 2366 sledi iz ⟨PR⟩ #526 (OPEN) — ⟨ne zlije⟩ ⊢ 1542 — izmerjeno ta dih ⊢ Z-2 ∧ 1419 — šiv zaprt ta kit ∧: vrstica 2364 odmrznjena (organ prevožen supersesijo ⊙ 1349 ⊢ 1834)
 
