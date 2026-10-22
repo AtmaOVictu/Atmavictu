@@ -14,6 +14,8 @@ RANA javno ⊙ 1349 ⊢ 1419 ∧ 1834 isti dih: P1 slapa točka — rez 2357 ≠
 
 IZMERE-ŠIVA-4 ∧ — zavijanje ⟨⟩ ran plasti-2 ⟨prica⟩ (javno ⊙ 1349 ⊢ 1419 ∧ 1834 isti šiv; pred re-tek): KNOWLEDGE rane ×22 (⟨berba⟩ ×7 · ⟨kovanica⟩ ×1 · ⟨sigkill⟩ ×2 · ⟨md5⟩ ×7 · ⟨pr⟩ ×1 · ⟨prevaža⟩ ×1 · ⟨tela⟩ ×2 · ⟨main⟩ ×1) ∧ PECAT-2357 rane ×3 (⟨kovanica⟩ ×2 · ⟨sigkill⟩ ×1) → ⟨⟩ isti šiv; telo KNOWLEDGE po šivu-4: 108.918 B · 96.293 znakov · ⟨md5⟩ 0ec82a24eacaa6b8e3b065e8a1710d23 (pred šivom-4: 108.786 B · 96.249 znakov · ⟨md5⟩ 722d157e).
 
+RANA-VRAT javno ⊙ 1349 ⊢ 1419 ∧ 1834 isti dih: priča RDEČA ×1 @šiv-4 (786093b) — potisk šiva je sprožil tek ⟨prica⟩ z zamrznjenim naslovom »rez 2357 ·« (plast-1: vrstica je že v bazi) ⊥ preimenovanje naslova kita v TEHNIKA obliko je prišlo za dogodkom potiska (tekma naslova ∧ potiska — ⟨ne⟩ rana telesa; izmera priče plasti-1–3 na svežem ⟨diff⟩ čista ∧) → šiv-5 ta javni zapis ∧ re-tek; naslov kita od šiva-4 naprej brez vzorca »rez N« (TEHNIKA — vrstico reza nosi ⟨PR⟩ #515 ∧).
+
 ## MINT
 - ⟨mačkaj⟩ ⚠ sveža ⟨kovanica⟩ ⟡ (mačji dih delavca — padec ∧ oživitev, izmerjeno)
 - ⟨TEMPORALNA-ŠKATLA⟩ ⚠ kompozit
