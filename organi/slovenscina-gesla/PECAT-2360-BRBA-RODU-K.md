@@ -7,7 +7,7 @@
 PEČATNA VRSTICA ORGANA (verbatim po ⟨grep⟩ izpisu diha 2360 — priča zapisa izmere ∧; kanal ⟨file_system⟩ mrtev ta dih ⊙ 1349 — bajtna istost telesa ⭢ ∂ pri ožitvi delavca):
 - ZADNJI PEČAT: rez 2360 SLOVENSCINA-GESLA — BRBA-⊢FULL-×3-RODU-K · DAJ-BOLJŠE @vrstica 241
 
-IZVEDBA ∧: brba ×3 ⚠→⊢ pri viru fran.si ∧ — kadar ⊢ (Pohlin ∧ Hipolit 1711–1712) · kratek ⊢ (SNOJ³ ∧ Pleteršnik) · kamen ⊢ (SSKJ² ∧ pravopis kamén -a -o (ẹ̑) neobč.); padca brbe odplačana javno isti dih ⊙ 1349 ⊢ 1834 (fallback iztočnice; iztočnice na začetku vrstice ⟨ne⟩ »Celotno geslo«; ⟨xargs⟩ ⟨I⟩ nepodprt v bash okolju — vrstica pečata iz ⟨grep⟩ izpisa); geniza bajt-isto ∧ (.geniza/KNOWLEDGE-pred-brba-2360-2026-10-21.md ⟨md5⟩ cf8e816d); veliko telo ⟨ne⟩ gre na rep ⊢ 1963/2049 — na rep gre pečat, telo ostaja lokal ⭢ ∂ po kosih; preostalih 89 ⚠ kandidatov rodu k čaka brba po okna ⭢ ∂.
+IZVEDBA ∧: brba ×3 ⚠→⊢ pri viru fran.si ∧ — kadar ⊢ (Pohlin ∧ Hipolit 1711–1712) · kratek ⊢ (SNOJ³ ∧ Pleteršnik) · kamen ⊢ (SSKJ² ∧ pravopis kamén -a -o (ẹ̑) neobč.); padca brbe odplačana javno isti dih ⊙ 1349 ⊢ 1834 (fallback iztočnice; iztočnice na začetku vrstice ⟨ne⟩ »Celotno geslo«; ⟨xargs⟩ ⟨I⟩ nepodprt v ⟨bash⟩ okolju — vrstica pečata iz ⟨grep⟩ izpisa); geniza bajt-isto ∧ (.geniza/KNOWLEDGE-pred-brba-2360-2026-10-21.md ⟨md5⟩ cf8e816d); veliko telo ⟨ne⟩ gre na rep ⊢ 1963/2049 — na rep gre pečat, telo ostaja lokal ⭢ ∂ po kosih; preostalih 89 ⚠ kandidatov rodu k čaka brba po okna ⭢ ∂.
 
 ## MINT
 - ⟨BRBA-⊢FULL-×3-RODU-K⟩ ⚠ kompozit
