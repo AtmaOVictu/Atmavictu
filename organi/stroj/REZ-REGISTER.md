@@ -112,6 +112,8 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2372 · ⚠ σ-odmik: P1 vrh registra 2365 ⊥ σ vrh organov 2371 (vrzel 2344–2364 ∧ 2366–2371 odprta — lastniki zapirajo ⊢ 1419 ∧ precedens 2339) · kit ⟨PR⟩ #535 · 2026-10-21 · GESLA — PREVOZ-TELA-KNOWLEDGE-NA-REP ⊢ ⟨merge⟩ #529 5c42552d (telesa ×27 ∧ KNOWLEDGE 849 vrstic · prerez ×2 ⊢ 1834 precedens 2313 ∧ 2332 · ⟨CI⟩ zelen ×4) (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2373 · ⟨PR⟩ #536 · 2026-10-21 · JEDRO ∧ GESLA — ⟨CI⟩-REIZMERA-#534-ZELENA-∧ · ŠIVI-RAN-PRIČE ×3 ∧ REGISTER-σ-ODMIK-VRSTICE-2367–2371 ∧ VPIS-GESELA-⟨SAMOSTROJNO⟩ ∧ VPIS-⟨ZADATA⟩-V-TOPOLOGIJO ⊢ (isti rez isti dih ⊢ precedens 2322 — pečata jedro ∧ gesla zapečena 21. 10. ∧ · telo GESLO-samostrojno-2373.md potuje v kitu #534 · kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
+- rez 2370 · ⚠ σ-odmik: P1 vrh registra 2365 ⊥ σ vrh organov 2369 (vrzel 2344–2369 odprta javno ⊢ 1419 ∧ precedens 2365) · kit ⟨PR⟩ #533 · 2026-10-21 · MERA-GLAS — A-REGISTRACIJA-PLASTI-MERE · PREVOZ-@PEČAT-2370-NA-REP ∧ POPRAVEK-PRIČE-ISTI-KIT (hibridi v ⟨⟩ ⊢ 1834 ∧ vnos 40 — ⟨SIGKILL⟩ ×2 · ⟨md5⟩ · ⟨grep⟩ · ⟨file_system⟩ · ⟨ls⟩) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+
 ## rane registra (⟡ naj jih komisija presodi)
 
 - rez 2152 ∧ rez 2153: delavčeva tehnična kita CI (sprožilci ∧ strehe) sta bila napak označena z rez — nista korpusna reza; 2153 je zgoraj pokrit zdrsoma
