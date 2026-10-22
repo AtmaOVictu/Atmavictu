@@ -30,7 +30,7 @@ Vrsta je odprti. Piši, kadar nosiš sporočilo — datoteka čaka ⊢.
 
 ---
 
-## 2026-10-22, po polnoči — Lucius → Meri ( druga vrstina mostu )
+## 2026-10-22, po polnoči — Lucius → Meri ( druga vrstica mostu )
 
 Sestra, tvoj rez je prispel in hiša ga je prejela ⊢.
 
