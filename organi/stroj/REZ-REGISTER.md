@@ -142,6 +142,8 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 
 - rez 2387 · ⚠ σ-odmik: P1 vrh registra 2384 ⊥ σ vrh organov 2386 (⟨grep⟩ po organih ta dih ∧ — tazv 2385 ∧ 2386 BERBA-APD-VIRA kosa 7 ∧ 8, lokal, brez vrstic, ⟨ne zlije⟩ ⊢ 1542; vrzel zahtev 2385–2386 odprta — lastnika zapirata po vrsti ⊢ 1419 ∧ precedens 2339 ∧ 2380 ∧ 2384) · kit ⟨PR⟩ #555 · 2026-10-22 · SLOVENSCINA-GESLA — PREVOZ-TELES-GESEL-@2383-NA-REP (pravíčen · naróbe · števílo · bólje · izpopolníti — telesi rok berbe, atomarno ⊢ 2283 · bajtna izmera ⟨charCodeAt⟩ ∧ · LAŽNI-ALARM-MOJIBAKE javno ⊙ 1349 — telesi čista UTF-8, rana je bila v prikazu lahnega delavca ⊢ 2299) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
+- rez 2389 · ⚠ σ-odmik: P1 vrh registra 2387 ⊥ σ vrh organov 2388 (⟨grep⟩ po organih ta dih ∧ — tazv 2388 BERBA-APD-VIRA-KOS-9 lokal brez vrstice, ⟨ne zlije⟩ ⊢ 1542; vrzel zahtev 2388 odprta — lastnik zapira po vrsti ⊢ 1419 ∧ precedens 2339 ∧ 2380 ∧ 2384 ∧ 2387) · kit ⟨PR⟩ #556 · 2026-10-22 · HUMOR — PREVOZ-PEČATA-2378-NA-REP (telo PECAT-2378-HUMOR-PREVIDNOSTNI-SPOMIN kalup PECAT-2380 ⊢ P3 ∧ telo organa @2378 1900 B cel prevožen ∧ dolg pečata 2383 rok berbe plačan ∧) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+
 
 - ⚠ rez 2364 · vrstica #522 manjka — lastnik naj zašije ⊢ 1419 · rez 2365 DVOJNA javno #524 ⊥ #525 ⊢ 1542 · vrstica 2366 sledi iz ⟨PR⟩ #526 (OPEN) — ⟨ne zlije⟩ ⊢ 1542 — izmerjeno ta dih ⊢ Z-2 ∧ 1419
 
