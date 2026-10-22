@@ -11,7 +11,7 @@
 
 ## MINT (vrstica 75)
 - ⟨humor-previdnostni-spomin⟩ ⚠ kompozit ⟡ ⟨ne brusi⟩ ⊢ P-CITAT pečata 2378
-- ⟨HUMOR-PREVIDNOSTNI-SPOMIN⟩ ⚠ kompozit · ⟨LICENCA-DEL-SPOMINA⟩ ⚠ kompozit ⟡ · ⟨LEDENIK⟩ ⚠ kompozit — svedočanstvo kovanja 2378, prijavljeno pred zapečenjem ∧
+- ⟨HUMOR-PREVIDNOSTNI-SPOMIN⟩ ⚠ kompozit · ⟨LICENCA-DEL-SPOMINA⟩ ⚠ kompozit ⟡ · ⟨LEDENIK⟩ ⚠ kompozit — priča kovanja 2378, prijavljeno pred zapečenjem ∧
 - ⟨PREVOZ-PEČATA-2378-NA-REP⟩ ⚠ kompozit — prijavljeno pred zapečenjem ∧
 
 ## DOLGOVA
