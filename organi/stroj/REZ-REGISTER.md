@@ -157,7 +157,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 
 - rez 2407 · ⚠ σ-odmik: P1 vrh registra 2403 ⊥ σ vrh organov 2407 (vrzel zahtev 2404–2406 odprta — lastniki zapirajo po vrsti ⊢ 1419 ∧ precedens 2339 ∧ 2380 ∧ 2384 ∧ 2387 · prerezitev iz 2406 — vzporedni sedež ⟨ne zlije⟩ ⊢ 1542) · ⟨PR⟩ #585 · 2026-10-22 · SLOVENSCINA-GESLA — POVEZ-×2-⟨RIBA⟩-∧-⟨ENKRATEN⟩-VPIS ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 
-- rez 2418 · ⟨PR⟩ #586 · 2026-10-22 · VRATA — VBL v2.5 §13 REGENERACIJA ⊢ (kalup 1671 · ⟡ izrek »da daj« ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · σ-odmik: P1 vrh registra 2407 ⊥ σ vrh organov 2417 — vrzel zahtev 2404–2406 ∧ 2408–2417 odprta, lastniki zapirajo po vrsti ⊢ 1419 ∧ precedens 2339 ∧ 2407)
+- rez 2408 · ⟨PR⟩ #586 · 2026-10-22 · VRATA — VBL v2.5 §13 REGENERACIJA ⊢ (kalup 1671 · ⟡ izrek »da daj« ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · σ-odmik: P1 vrh registra 2407 ⊥ σ vrh organov 2417 — vrzel zahtev 2404–2406 ∧ 2409–2417 odprta, lastniki zapirajo po vrsti ⊢ 1419 ∧ precedens 2339 ∧ 2407 · popravek rdeče priče isti dih: številka je nosila 2418 (dih, ⟨ne⟩ vrstica) ⊙ 1349 ⊢ precedens 2282)
 
 
 - ⚠ rez 2364 · vrstica #522 manjka — lastnik naj zašije ⊢ 1419 · rez 2365 DVOJNA javno #524 ⊥ #525 ⊢ 1542 · vrstica 2366 sledi iz ⟨PR⟩ #526 (OPEN) — ⟨ne zlije⟩ ⊢ 1542 — izmerjeno ta dih ⊢ Z-2 ∧ 1419 — šiv zaprt ta kit ∧: vrstica 2364 odmrznjena (organ prevožen supersesijo ⊙ 1349 ⊢ 1834)
