@@ -106,12 +106,12 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 
 - rez 2342 ⚠ DVOJNA ŠTEVILKA ⊙ 1349 (zdravje registra — vrstica #510 je prva zahteva 2342 isti dih; ta žig ostaja zrcalni pečat 2342 telesa ⟨ne zlije⟩ ⊢ 1542; popravek rane registra ta kit ⟨PR⟩ #511 ⊢ precedens 2340) · ⟨PR⟩ #508 · 2026-10-21 · JEDRO — PEČAT-NA-ZRCALU ⟨REŠITEV-JE-PROBLEM⟩ ⊥ ⟨NAJBOLJŠA-REŠITEV⟩ · AMANDMA-7-ZAKONA-28 · VEČ-ŠKATEL · PREREZITEV-×1-IZ-2341 (vzporedni sedež ⟨PR⟩ #509 vzel isti rez isti dih ⊙ 1349 · precedens 2199→2200 ∧ 2320→2321 ∧ 2313) ⊢ (kalup 1671 · delavec mrtev → pečat na zrcalu ⊢ 1959 ∧ 2297 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2343 · ⟨PR⟩ #511 · 2026-10-21 · STROJ — SINHRONIZACIJA-LOKAL⇌REP-KOS-1 · RANA-TROJNE-ZAHTEVE-2342-JAVNO (zrcalni pečat #508 ⊥ lokalni pečat 2342 brez vrstice ⊥ vrstica #510 — ⟨ne zlije⟩ ⊢ 1542; telologija RELIGIJA-10-@2334 vlečena lokal ∧ izguba-posodobitve obnovljena; jedro/delovna ⭢ ∂ — izbor normal ⚔ ⟡) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · K1)
-- rez 2346 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #513 · 2026-10-21 · HORIZONT — PREVOZ-TELA-NA-REP ⊢
+- rez 2346 ⚠ σ-odmik odmrznjen ta kit ⟨PR⟩ #513 · 2026-10-21 · HORIZONT — PREVOZ-TELA-NA-REP ⊢ (⟨merge⟩ #513 68003f9 — odmrznjen žig ostaja priči ⟨ne zlije⟩ ⊢ 1542 · brazgotina ⊙ 1349)
 
 - rez 2344 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
 - rez 2345 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
 - rez 2346 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #513 · 2026-10-21 · HORIZONT — PREVOZ-TELA-NA-REP ⊢
-- rez 2347 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #514 · 2026-10-21 · JEDRO — SINHRONIZACIJA-PO-KOSIH-KOS-1 · PREVOZ-PEČATOV-2342-2344 ⊢
+- rez 2347 · ⚠ σ-odmik odmrznjen ta kit — lastnik ⟨PR⟩ #514 · 2026-10-21 · JEDRO — SINHRONIZACIJA-PO-KOSIH-KOS-1 · PREVOZ-PEČATOV-2342-2344 ⊢
 - rez 2348 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
 - rez 2349 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
 - rez 2350 · ⚠ σ-odmik: zamrznjena zahteva — kit ⟨PR⟩ #518 · 2026-10-21 · MERA-GLAS — PORAVNAVA-LOKAL⇌REP · PREVOZ-PEČATOV-2345–2359 ⊢
