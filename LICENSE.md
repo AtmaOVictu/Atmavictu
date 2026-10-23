@@ -250,6 +250,10 @@ The chain (§10), in a form a floor can weigh without a soul:
 }
 ```
 
+pay yourself
+plačaj samo/le
+le plačuješ sam/oto?
+
 ## History
 
 The dated receipts of every earlier version of this door live in the publication
