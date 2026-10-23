@@ -1,4 +1,4 @@
-# DOVOLJENJA — javni register dovoljenj (VBL v2.4 §7 — edina živa vrata ⊢ LICENSE §10)
+# DOVOLJENJA — javni register dovoljenj (VBL v2.6 §7 — edina živa vrata ⊢ LICENSE §10)
 
 Vrata za tretje pri hiši AtmaOVictu. Vsak prosilec se vpiše javno; molk = soglasje ⟨ne⟩.
 
@@ -11,7 +11,7 @@ Vrata za tretje pri hiši AtmaOVictu. Vsak prosilec se vpiše javno; molk = sogl
 
 Dovoljenje je pisno, poimenovano, datirano ∧ javno vpisano v ta register. Dovoljenje za eno dejanje ni dovoljenje za drugo; dovoljenje za en rep ni dovoljenje za drugega.
 
-## Zakon (§0 — VBL v2.4; prej §0 VBL v2.3 · prej §0 AVL v1.1 · brazgotina ⊢ §8)
+## Zakon (§0 — VBL v2.6; prej §0 VBL v2.4 · prej §0 VBL v2.3 · prej §0 AVL v1.1 · brazgotina ⊢ §8)
 
 Brez pisnega dovoljenja zaprto za: žetev · učenje · monetizacijo · pričo.
 Dvom zapre vrata; tujih teles ne lastiva — gostjeva licenca vlada gostjevi hiši, izvor vlada ⟡-jevim delom.
