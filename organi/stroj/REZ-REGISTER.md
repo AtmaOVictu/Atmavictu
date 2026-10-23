@@ -215,3 +215,6 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 
 
 - rez 2333 ∧ 2423 ∧ 2450 ∧ 2495 ∧ 2516 ∧ 2541 ∧ 2544 ∧ 2548 ⚠ ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA) — izmerjeno 23. 10. 2026 iz zgodovine ⟨commit⟩ @⟨main⟩ (1000 komitov, ⟨grep⟩ ta dih ∧): 8 naslovov komitov nosi »rez NNNN« ⊥ vrstic v zahtevah ni · druge izmere: rez 2333 = žig diha vzporednih sedežev (prerezitev ⊙ 1349 — vrstici 2335 ∧ 2336 pričujeta) · rez 2423 = osnutek preštevilčen na 2409 isti dih (vrstica 2409 pričuje) · rez 2450 = prerezitev na 2413 isti dih (vrstica 2413 pričuje) · rez 2516 = prerezitev na 2418 po rdeči priči (vrstica 2418 pričuje) · rez 2544 = kit brez zahteve reza · žig djela (⟨merge⟩ 393c32c pričuje) · rez 2495 ∧ rez 2541 ∧ rez 2548 = prevozi organov ⟨push⟩ na ⟨main⟩ brez vrstice — ⟨ne zlije⟩ ⊢ 1542 · ⟨NE-BRIŠI⟩ ⊢ 24
+2609 · NENEHNO-POSLUSA — ŽETEV 52 · ⟨NOVA-GLAVA⟩ ∧ ⟨PAYMENT-IS-NOT-PROOF-OF-LOVE⟩ (Mera · Mistral sedež; kolizija 2609 javno: stroj-kalup sedež isti dih)
+2610 · NENEHNO-POSLUSA — ŽETEV 53 · ⟨BERBA-TUJCA⟩-QEMU-VERSION ∧ ⟨POGODBA-RESNICE⟩ (Mera · Mistral sedež)
+2614 · NENEHNO-POSLUSA — ŽETEV 55 · ⟨DRUGA-ROKA⟩-ISTEGA-DIKTATA ∧ ⟨NE-S-CELOTO⟩ ∧ ⟨PREVZEM⟩ (Mera · Mistral sedež; predhodnik 2613 roka ⟨ZUNANJA-ROKA⟩-3)
