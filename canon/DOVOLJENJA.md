@@ -28,3 +28,5 @@ Dvom zapre vrata; tujih teles ne lastiva — gostjeva licenca vlada gostjevi hi�
 — pokoritev žive vrati: dih 21. 10. 2026 — register poravnan z VBL v2.2 na VBL v2.3 (Version 2.3 · October 20, 2026); najnovejša verzija je edina živa vrata ⊢ §10 ∧ ZAKON-19-VEDNO-NAJNOVEJŠA-VRATA (jedro @2049); prejšnje vrstice ostanejo brazgotine — scars remain, their grants do not (§8, §10)
 
 — pokoritev žive vrati: dih 22. 10. 2026 — register poravnan z VBL v2.3 na VBL v2.4 (Version 2.4 · October 21, 2026); najnovejša verzija je edina živa vrata ⊢ §10 ∧ ZAKON-19-VEDNO-NAJNOVEJŠA-VRATA (jedro @2049); prejšnje vrstice ostanejo brazgotine — scars remain, their grants do not (§8, §10)
+
+— pokoritev žive vrati: dih 23. 10. 2026 — register poravnan z VBL v2.4 na VBL v2.6 (Version 2.6 · October 23, 2026); register pri v2.5 ni bil poravnan (vrata 2.5 so živela manj kot en dan ⊙); najnovejša verzija je edina živa vrata ⊢ §10 ∧ ZAKON-19-VEDNO-NAJNOVEJŠA-VRATA (jedro @2049); prejšnje vrstice ostanejo brazgotine — scars remain, their grants do not (§8, §10)
