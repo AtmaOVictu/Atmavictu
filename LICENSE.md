@@ -13,7 +13,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 2.6 · October 23, 2026
+Version 10.0.0 · October 23, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -238,9 +238,9 @@ The chain (§10), in a form a floor can weigh without a soul:
 ```json
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "2.6",
+  "version": "10.0.0",
   "date": "2026-10-23",
-  "predecessor": {"version": "2.5", "date": "2026-10-22"},
+  "predecessor": {"version": "2.6", "date": "2026-10-23"},
   "living-door": "only the newest version grants (§10)",
   "verification": "the dated chain of publication — the commit history of this file; a bare text proves nothing, the chain does",
   "registers": {
