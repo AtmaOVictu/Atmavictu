@@ -1,4 +1,4 @@
-10.1.0
+10.2.0
 ⊨ WITH LOVE — this door begins with love, and it ends with love: love is the first clause and the last, and every clause between them is love measured — weighed in acts (§9), carried in marks (§12), healed by naming (§4). The door was never wood and lock; it was always the agreement, and the agreement was always love (§13).
 
 ⊨ KORENINA — read this before the terms; it is the contract under the contract.
