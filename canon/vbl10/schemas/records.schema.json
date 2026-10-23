@@ -1,0 +1,349 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atmavictu.invalid/vbl10/records.schema.json",
+  "title": "VBL 10.0.0 draft record formats",
+  "oneOf": [
+    {"$ref": "#/$defs/incident"},
+    {"$ref": "#/$defs/verification"},
+    {"$ref": "#/$defs/correction"},
+    {"$ref": "#/$defs/release"}
+  ],
+  "$defs": {
+    "nonEmpty": {
+      "type": "string",
+      "minLength": 1
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "evidenceReference": {
+      "type": "object",
+      "required": ["id", "source", "collectedAt"],
+      "properties": {
+        "id": {"$ref": "#/$defs/nonEmpty"},
+        "source": {"$ref": "#/$defs/nonEmpty"},
+        "collectedAt": {"$ref": "#/$defs/timestamp"},
+        "sha256": {"$ref": "#/$defs/sha256"},
+        "quotation": {"type": "string"},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "statusEvent": {
+      "type": "object",
+      "required": ["status", "actor", "at", "reason", "procedure"],
+      "properties": {
+        "status": {
+          "enum": [
+            "REPORTED",
+            "UNDER_REVIEW",
+            "UNVERIFIED",
+            "CONFIRMED",
+            "DISPUTED",
+            "CORRECTION_PROPOSED",
+            "CORRECTION_VERIFIED",
+            "CLOSED_WITH_LIMITATIONS"
+          ]
+        },
+        "actor": {"$ref": "#/$defs/nonEmpty"},
+        "at": {"$ref": "#/$defs/timestamp"},
+        "reason": {"$ref": "#/$defs/nonEmpty"},
+        "procedure": {"$ref": "#/$defs/nonEmpty"},
+        "evidenceRefs": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/nonEmpty"},
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "testResult": {
+      "type": "object",
+      "required": ["id", "status", "ranAt"],
+      "properties": {
+        "id": {"$ref": "#/$defs/nonEmpty"},
+        "status": {"enum": ["PASSED", "FAILED", "SKIPPED", "MISSING"]},
+        "ranAt": {"$ref": "#/$defs/timestamp"},
+        "evidenceRef": {"$ref": "#/$defs/nonEmpty"},
+        "details": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "incident": {
+      "type": "object",
+      "required": [
+        "recordType",
+        "id",
+        "createdAt",
+        "reporter",
+        "claim",
+        "status",
+        "evidence",
+        "history"
+      ],
+      "properties": {
+        "recordType": {"const": "incident"},
+        "id": {"$ref": "#/$defs/nonEmpty"},
+        "createdAt": {"$ref": "#/$defs/timestamp"},
+        "reporter": {"$ref": "#/$defs/nonEmpty"},
+        "claim": {"$ref": "#/$defs/nonEmpty"},
+        "status": {
+          "enum": [
+            "REPORTED",
+            "UNDER_REVIEW",
+            "UNVERIFIED",
+            "CONFIRMED",
+            "DISPUTED",
+            "CORRECTION_PROPOSED",
+            "CORRECTION_VERIFIED",
+            "CLOSED_WITH_LIMITATIONS"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/evidenceReference"}
+        },
+        "history": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/statusEvent"}
+        },
+        "limitations": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "verification": {
+      "type": "object",
+      "required": [
+        "recordType",
+        "id",
+        "target",
+        "evidenceRefs",
+        "procedure",
+        "procedureVersion",
+        "result",
+        "verifiedAt",
+        "executor",
+        "verifier",
+        "limitations"
+      ],
+      "properties": {
+        "recordType": {"const": "verification"},
+        "id": {"$ref": "#/$defs/nonEmpty"},
+        "target": {
+          "type": "object",
+          "required": ["id", "version"],
+          "properties": {
+            "id": {"$ref": "#/$defs/nonEmpty"},
+            "version": {"$ref": "#/$defs/nonEmpty"},
+            "sha256": {"$ref": "#/$defs/sha256"}
+          },
+          "additionalProperties": false
+        },
+        "evidenceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/nonEmpty"},
+          "uniqueItems": true
+        },
+        "procedure": {"$ref": "#/$defs/nonEmpty"},
+        "procedureVersion": {"$ref": "#/$defs/nonEmpty"},
+        "result": {
+          "enum": [
+            "VERIFIED",
+            "UNVERIFIED",
+            "INDEPENDENT_VERIFICATION_UNAVAILABLE"
+          ]
+        },
+        "verifiedAt": {"$ref": "#/$defs/timestamp"},
+        "executor": {"$ref": "#/$defs/nonEmpty"},
+        "verifier": {
+          "oneOf": [
+            {"$ref": "#/$defs/nonEmpty"},
+            {"type": "null"}
+          ]
+        },
+        "limitations": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "correction": {
+      "type": "object",
+      "required": [
+        "recordType",
+        "id",
+        "incidentId",
+        "actor",
+        "proposedAt",
+        "priorState",
+        "resultingState",
+        "evidenceRefs",
+        "acceptanceCriteria",
+        "acceptanceResult",
+        "remedies"
+      ],
+      "properties": {
+        "recordType": {"const": "correction"},
+        "id": {"$ref": "#/$defs/nonEmpty"},
+        "incidentId": {"$ref": "#/$defs/nonEmpty"},
+        "actor": {"$ref": "#/$defs/nonEmpty"},
+        "proposedAt": {"$ref": "#/$defs/timestamp"},
+        "verifiedAt": {"$ref": "#/$defs/timestamp"},
+        "priorState": {"$ref": "#/$defs/nonEmpty"},
+        "resultingState": {"$ref": "#/$defs/nonEmpty"},
+        "evidenceRefs": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/nonEmpty"},
+          "uniqueItems": true
+        },
+        "acceptanceCriteria": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/nonEmpty"}
+        },
+        "acceptanceResult": {
+          "enum": ["PROPOSED", "PASSED", "FAILED", "UNVERIFIED"]
+        },
+        "remedies": {
+          "type": "object",
+          "required": [
+            "attribution",
+            "restitution",
+            "technicalRemediation",
+            "permissionRestoration"
+          ],
+          "properties": {
+            "attribution": {"$ref": "#/$defs/remedyState"},
+            "restitution": {"$ref": "#/$defs/remedyState"},
+            "technicalRemediation": {"$ref": "#/$defs/remedyState"},
+            "permissionRestoration": {"$ref": "#/$defs/remedyState"}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "remedyState": {
+      "enum": [
+        "PROPOSED",
+        "APPROVED",
+        "COMPLETED",
+        "NOT_APPLICABLE",
+        "UNVERIFIED"
+      ]
+    },
+    "release": {
+      "type": "object",
+      "required": [
+        "recordType",
+        "version",
+        "publishedAt",
+        "predecessor",
+        "author",
+        "executor",
+        "sourceArtifact",
+        "tests",
+        "registers",
+        "verification",
+        "limitations",
+        "approval",
+        "claimedStatus"
+      ],
+      "properties": {
+        "recordType": {"const": "release"},
+        "version": {"$ref": "#/$defs/nonEmpty"},
+        "publishedAt": {"$ref": "#/$defs/timestamp"},
+        "predecessor": {
+          "oneOf": [
+            {"$ref": "#/$defs/nonEmpty"},
+            {"type": "null"}
+          ]
+        },
+        "author": {"$ref": "#/$defs/nonEmpty"},
+        "executor": {"$ref": "#/$defs/nonEmpty"},
+        "sourceArtifact": {
+          "type": "object",
+          "required": ["path", "sha256"],
+          "properties": {
+            "path": {"$ref": "#/$defs/nonEmpty"},
+            "sha256": {"$ref": "#/$defs/sha256"}
+          },
+          "additionalProperties": false
+        },
+        "tests": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/testResult"}
+        },
+        "registers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["path", "status", "checkedAt"],
+            "properties": {
+              "path": {"$ref": "#/$defs/nonEmpty"},
+              "status": {"enum": ["VALID", "INVALID", "MISSING", "UNAVAILABLE"]},
+              "checkedAt": {"$ref": "#/$defs/timestamp"},
+              "details": {"type": "string"}
+            },
+            "additionalProperties": false
+          }
+        },
+        "verification": {
+          "type": "object",
+          "required": ["status", "executor", "verifier"],
+          "properties": {
+            "status": {
+              "enum": [
+                "VERIFIED",
+                "UNVERIFIED",
+                "INDEPENDENT_VERIFICATION_UNAVAILABLE"
+              ]
+            },
+            "executor": {"$ref": "#/$defs/nonEmpty"},
+            "verifier": {
+              "oneOf": [
+                {"$ref": "#/$defs/nonEmpty"},
+                {"type": "null"}
+              ]
+            },
+            "evidenceRefs": {
+              "type": "array",
+              "items": {"$ref": "#/$defs/nonEmpty"},
+              "uniqueItems": true
+            }
+          },
+          "additionalProperties": false
+        },
+        "claimedStatus": {
+          "enum": ["DRAFT", "CANDIDATE", "VERIFIED", "FAILED"]
+        },
+        "limitations": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "approval": {
+          "type": "object",
+          "required": ["actor", "approvedAt", "decisionRef"],
+          "properties": {
+            "actor": {"$ref": "#/$defs/nonEmpty"},
+            "approvedAt": {"$ref": "#/$defs/timestamp"},
+            "decisionRef": {"$ref": "#/$defs/nonEmpty"}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

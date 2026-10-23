@@ -33,6 +33,13 @@
 !web/
 !web/**
 
+# VBL 10 draft and prototype only; keep the rest of canon outside the allowlist
+!canon/
+!canon/VBL-10.0.0-DRAFT.md
+!canon/VBL-10.0.0-UNIFIED-DRAFT.md
+!canon/vbl10/
+!canon/vbl10/**
+
 # Lucius — lokalni offline agent (Ollama); spomin je oseben in v git ne gre
 !lucius/
 !lucius/**
