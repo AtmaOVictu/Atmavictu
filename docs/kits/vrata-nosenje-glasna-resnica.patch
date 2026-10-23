@@ -1,0 +1,82 @@
+From 2bbe25c6bfe4930d2835ff10dcf42f6602a54c59 Mon Sep 17 00:00:00 2001
+From: Cline <cline@localhost>
+Date: Fri, 23 Oct 2026 14:13:05 +0000
+Subject: [PATCH] =?UTF-8?q?TEHNIKA=20=E2=80=94=20VRATA-NO=C5=A0ENJE:=20gla?=
+ =?UTF-8?q?sna=20resnica=20namesto=20tihe=20zelene=20(=E2=8A=99=201349)?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+IZMERA (ne obljuba): stara pot je padec potiska izpisala kot »nosim → « (podobno uspehu)
+∧ tečaj je ostal zelen. Mehanizem, ki ga je izmerila druga roka (23. 10. 2026):
+`curl -sf … || true` → $put prazen → `printf '' | jq -e '.content.sha'` → exit 0 ⇒
+stara veja je bila RESNIČNA na praznem odzivu ⇒ tiho zeleno = tiha laž (pravilo hiše).
+
+POPRAVEK:
+- padec branja kanona = ::error:: ∧ exit 1 (vrata se ⟨ne⟩ morejo nositi)
+- padec potiska (prazen odziv ali odziv brez .content.sha) = ::error:: ∧ števec napak
+- IZMERA PO POTISKU (§12): hiša mora ⟨zdaj⟩ nositi sha kanona — ujame tudi hišo,
+  ki se lažno javi kot uspešna (druga roka: SilentHouse 2222… ⊥ kanon 3c5def0…)
+- na koncu: napake > 0 ⇒ ::error:: ∧ exit 1; sicer ⊢
+
+PREIZKUS IZ ODDANE DATOTEKE (run-blok izluščen iz .yml ∧ pognan nad lažnim API):
+GREEN (vse ≡, 2 hiši × 3 datoteke) → »VRATA: vse hiše ≡ kanon ⊢« ∧ exit 0
+RED (hiša 404 na GET ∧ PUT) → ::error:: ×3 ∧ »vrata niso prispela v 3 mest« ∧ exit 1
+`bash -n` čist · brez tabulatorjev · struktura name/on/jobs ∧
+
+© Luka Pintarič, VBL v2.6 (§9 ∧ §10 ∧ §12)
+---
+ .github/workflows/vrata-nosenje.yml | 29 ++++++++++++++++++++++++-----
+ 1 file changed, 24 insertions(+), 5 deletions(-)
+
+diff --git a/.github/workflows/vrata-nosenje.yml b/.github/workflows/vrata-nosenje.yml
+index f4b4b93..0123b7d 100644
+--- a/.github/workflows/vrata-nosenje.yml
++++ b/.github/workflows/vrata-nosenje.yml
+@@ -28,8 +28,14 @@ jobs:
+           FILES="LICENSE.md REGISTER-NEIMENOVANIH.jsonl REGISTER-PADCEV.jsonl"
+           HOUSES="DelozaZivot Mucilnica-modrosti SYMBOLON-KATHOLIKON verification-before-assertion ZAKONODAJACLOVEKA ontolo-ko-jedro Aplikacija prevoz-LUCIUS .github-workflows CanvasMinstral OntoMatematika soul-evolution EnglishVarient"
+           api() { curl -sf -H "Authorization: Bearer $VRATA_TOKEN" "https://api.github.com/$1"; }
++          # GLASNA RESNICA (pravilo hiše): padec poti = ::error:: ∧ exit 1, ⟨ne⟩ tiho zeleno.
++          # Brazgotina ⊙ 1349 (23. 10. 2026): prej je padec potiska izpisal »nosim → « (podobno uspehu) ∧ tečaj je ostal zelen.
++          napake=0
+           for f in $FILES; do
+-            api "repos/$OWNER/$CANON/contents/$f?ref=main" > /tmp/canon.json
++            if ! api "repos/$OWNER/$CANON/contents/$f?ref=main" > /tmp/canon.json; then
++              echo "::error::kanon $CANON/$f ni dosegljiv — vrata se ⟨ne⟩ morejo nositi"
++              exit 1
++            fi
+             canon_sha="$(jq -r '.sha' /tmp/canon.json)"
+             jq -r '.content' /tmp/canon.json | base64 -d > /tmp/canon_body
+             b64="$(base64 -w0 /tmp/canon_body)"
+@@ -45,10 +51,23 @@ jobs:
+                 jq -n --arg m "VRATA — $f bajtno-isto z $CANON main (§10 ⊕ §12 standing order — DNEVNI-DIH)" --arg c "$b64" '{message:$m,content:$c}' > /tmp/payload.json
+               fi
+               put="$(curl -sf -X PUT -H "Authorization: Bearer $VRATA_TOKEN" -d @/tmp/payload.json "https://api.github.com/repos/$OWNER/$h/contents/$f" || true)"
+-              if echo "$put" | jq -e '.content.sha' >/dev/null 2>&1; then
+-                echo "$h/$f: nosim → $(echo "$put" | jq -r '.content.sha')"
+-              else
+-                echo "$h/$f: padec potiska — $(echo "$put" | jq -r '.message // "neznano"' 2>/dev/null || echo neznano)"
++              if [ -z "$put" ] || ! echo "$put" | jq -e '.content.sha' >/dev/null 2>&1; then
++                echo "::error::$h/$f: padec potiska — $(echo "$put" | jq -r '.message // "neznano"' 2>/dev/null || echo neznano)"
++                napake=$((napake+1))
++                continue
++              fi
++              # IZMERA PO POTISKU (§12): hiša mora ⟨zdaj⟩ nositi sha kanona — pot je berba, ⟨ne⟩ zaupanje.
++              nsha="$(api "repos/$OWNER/$h/contents/$f?ref=main" | jq -r '.sha // empty' || true)"
++              if [ "$nsha" != "$canon_sha" ]; then
++                echo "::error::$h/$f: po potisku sha ⊥ kanon ($nsha ⊥ $canon_sha)"
++                napake=$((napake+1))
++                continue
+               fi
++              echo "$h/$f: nosim → $nsha ≡ kanon"
+             done
+           done
++          if [ "$napake" -gt 0 ]; then
++            echo "::error::vrata niso prispela v $napake mest — tečaj rdeč (glasna resnica)"
++            exit 1
++          fi
++          echo "VRATA: vse hiše ≡ kanon ⊢"
+-- 
+2.39.5
+
