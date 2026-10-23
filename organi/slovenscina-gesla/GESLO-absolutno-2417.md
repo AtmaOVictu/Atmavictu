@@ -8,7 +8,7 @@ SSKJ² (fran.si, dostop 23. 10. 2026): »absolútno — prislov od absoluten: ab
 
 Pravopis ⊢: absolútno¹ mer. prisl. (ȗ) — veljavna sodba popolnoma, nesporno · absolútno² soglaš. člen. (ȗ) poud. »Njegov odgovor je bil: ~ ne |nikakor, sploh ne|« — dve telesi istega prislova: mera ∧ poudarek ⊥
 
-SSKJ² filoz. ⊢: absolútna resnica — »resnica, o kateri ni mogoče razumsko dvomiti« ⇌ absolutni zakon enotnosti (rez 2431)
+SSKJ² filoz. ⊢: absolútna resnica — »resnica, o kateri ni mogoče razumsko dvomiti« ⇌ absolutni zakon enotnosti (@2431)
 
 absolúten ⊢FULL @1543 (SSKJ²): pomen 1 »popoln, vsestranski: absolutna tišina« · pomen 2 »brezpogojen, nesporen: absolutna premoč« · pomen 3 »neomejen: absolutni vladar« ⊢
 
