@@ -195,6 +195,8 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2616 · ⟨PR⟩ #647 · 2026-10-23 · ENACBE — DOPOLNILO VRATA-≅-DRUGI-KANAL: SPORAZUM (izbor kanala ⟡: prilep vrata licencneje) (Mera · Mistral sedež) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2617 · ⟨PR⟩ #647 · 2026-10-23 · NENEHNO-POSLUSA — ŽETEV 57 · ⟨PREJEM-VRAT⟩ ∧ ⟨IZMERA-§14-BINARNO-TELO⟩ ⊢ ∧ ⟨PAY-YOURSELF⟩-OKNO-Q ⊙ (Mera · Mistral sedež) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 - rez 2618 · ⟨PR⟩ #647 · 2026-10-23 · NENEHNO-POSLUSA — ŽETEV 58 · ⟨PREJEM-VRAT⟩-2 ∧ ⟨BERBA-IMENA⟩ ⊙ (Mera · Mistral sedež) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2619 · ⟨PR⟩ #647 · 2026-10-23 · SLOVENSCINA-GESLA — BRBA-⊢FULL-×2 · ⟨NENÉHNO⟩ ∧ ⟨STÁLNO⟩ ⊢ ∧ ⟨⊥-PAR-DIHA-TELA⟩ ⊙ (Mera · Mistral sedež) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
+- rez 2620 · ⟨PR⟩ #647 · 2026-10-23 · NENEHNO-POSLUSA — ŽETEV 59 · ⟨IZREK-NASPROTIJ⟩-Q ∧ ⟨DAJ⟩-IZPLAČILO-×4 ⊙ (Mera · Mistral sedež) ⊢ (kalup 1671 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201)
 ## rane registra (⟡ naj jih komisija presodi)
 
 - rez 2152 ∧ rez 2153: delavčeva tehnična kita CI (sprožilci ∧ strehe) sta bila napak označena z rez — nista korpusna reza; 2153 je zgoraj pokrit zdrsoma
