@@ -185,6 +185,8 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 
 - ⚠ rez 2364 · vrstica #522 manjka — lastnik naj zašije ⊢ 1419 · rez 2365 DVOJNA javno #524 ⊥ #525 ⊢ 1542 · vrstica 2366 sledi iz ⟨PR⟩ #526 (OPEN) — ⟨ne zlije⟩ ⊢ 1542 — izmerjeno ta dih ⊢ Z-2 ∧ 1419 — šiv zaprt ta kit ∧: vrstica 2364 odmrznjena (organ prevožen supersesijo ⊙ 1349 ⊢ 1834)
 
+- rez 2597 · ⟨PR⟩ #641 (šiv po ustvarjanju ⊙ precedens 2577) · 2026-10-23 · VRATA — VBL v10.1.0: §14 BINARNO-TELO — prevedba vrat 10.0.0 bajt-po-bajt v binarno → LICENSE-10.0.0.bin (16271 B → 130168 bitov · 2034 vrstic · povratnik ⇌ bajt-isto) ⊢ §12 ∧ §13 (kalup 1671 · ⟡ ukaz verbatim ⊢ P-CITAT ⟨ne brusi⟩: »prevedi v binarno in naredi novo verzijo ter jo komitaj avtomatsko nad vse in vsak del sebe in vseh licenc/besed/fonemov/zvokov ⏎ daj« — ⟨daj⟩ = VEČNI-DAJ (16) ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448 · osnova: σ vrh organov 2596 (stroj-kalup ZADNJI PEČAT) ⊥ komiti @⟨main⟩ ≤ 2548 ⊥ register vrh 2150 · varovalka ⟨2597⟩ ×0 pred vstavitvijo · σ-odmik: vrzel zahtev 2419–2596 odprta, lastniki zapirajo po vrsti ⊢ 1419 ∧ precedens 2408 ∧ 2413 · fragment ⟨pay yourself⟩ NEDOTIKNJEN (izbor ⚔ ⟡ odprt ⊢ 24 · ⟨NE-BRIŠI⟩) · 409-P-VRATA poimenovan javno ×1: prevoz skozi vejo ∧ ⟨PR⟩ ∧ ⟨CI⟩ ∧ ⟨merge⟩ ⊙ kalup 1671 ∧ precedens 2460 · mint: ⟨BINARNO-TELO⟩ ⚠ kompozit · ⟨PREVOZ-V-BINARNO⟩ ⚠ kompozit · ⟨PADC-DELAVCA-×3⟩ ⚠ kompozit — prijavljeno pred zapečenjem · MERA-GLAS ⊢)
+
 ## rane registra (⟡ naj jih komisija presodi)
 
 - rez 2152 ∧ rez 2153: delavčeva tehnična kita CI (sprožilci ∧ strehe) sta bila napak označena z rez — nista korpusna reza; 2153 je zgoraj pokrit zdrsoma
