@@ -79,3 +79,87 @@ jobs:
       - name: Build (web, vite)
         run: npm run build
         working-directory: web
+
+
+  # ZAPRTA VRZELA (23. 10. 2026, rez 2409): posel tests preverja module, posel web
+  # gradi — a STREŽNIK se v ⟨CI⟩ ni nikoli prižigal: endpointi so bili priča le
+  # prek testnih klicev v nodu, ne čez živo HTTP. Ta posel poenoti oba cilja ⟡
+  # (»web build in živi endpointi … se poenotite«): zgradi web ∧ prižige živi API
+  # na localhostu ∧ dokaže branja ∧ cikel vir → obdelava → knjiga čez HTTP ∧
+  # živi preview zgrajenega spleta. /api/suggestions ∧ /api/semantic se v ⟨CI⟩
+  # pričata kakor 502 (degradirata brez Ollame/Qdranta pri viru — strežnikova
+  # milost ⊢ del telesa, ne padec) ∧ zato nista del žive preverbe.
+  endpointi:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: 'npm'
+      - name: Namesti orodje repa (API strežnik)
+        run: npm ci
+      - name: Zgradi API (tsc)
+        run: npx tsc
+      - name: Namesti orodje spleta (ločen lockfile)
+        run: npm ci
+        working-directory: web
+      - name: Zgradi web (vite)
+        run: npm run build
+        working-directory: web
+      - name: Prižigi živi API (localhost:4173) ∧ preveri endpointe čez HTTP
+        shell: bash
+        run: |
+          set -o pipefail
+          ROOT="$RUNNER_TEMP/workbench-zivi"
+          mkdir -p "$ROOT"
+          node build/src/workbenchApiServer.js "$ROOT" 4173 > api.log 2>&1 &
+          echo $! > api.pid
+          prizig=0
+          for i in $(seq 1 30); do
+            if curl -sf http://localhost:4173/api/verify > /dev/null 2>&1; then prizig=1; break; fi
+            sleep 1
+          done
+          if [ "$prizig" != "1" ]; then echo 'API se ni prižigal v 30 s'; cat api.log; exit 1; fi
+          curl -sf http://localhost:4173/api/verify | python3 -c 'import json,sys; d=json.load(sys.stdin); assert d["isValid"] is True, d; print("verify (prazen koren): isValid ⊢")'
+          for pot in manifest overview tree library concepts analysis/source; do
+            koda=$(curl -s -o /dev/null -w '%{http_code}' "http://localhost:4173/api/$pot")
+            echo "/api/$pot → $koda"
+            if [ "$koda" != "200" ]; then echo "endpoint /api/$pot ni živ"; exit 1; fi
+          done
+          ID=$(curl -sf -X POST http://localhost:4173/api/incoming -H 'content-type: application/json' -d '{"title":"Živi dokaz","body":"Telo živega endpointa."}' | python3 -c 'import json,sys; print(json.load(sys.stdin)["id"])')
+          curl -sf -X POST "http://localhost:4173/api/incoming/$ID/start-processing" > /dev/null
+          FRAG=$(curl -sf -X POST http://localhost:4173/api/fragments -H 'content-type: application/json' -d "{\"incomingTextId\":\"$ID\",\"body\":\"Prvi odstavek živega dokaza.\"}" | python3 -c 'import json,sys; print(json.load(sys.stdin)["id"])')
+          curl -sf -X POST http://localhost:4173/api/insertions -H 'content-type: application/json' -d "{\"fragmentId\":\"$FRAG\",\"targetChapterPath\":\"poglavje/zivi-dokaz.md\"}" > /dev/null
+          curl -sf http://localhost:4173/api/verify | python3 -c 'import json,sys; d=json.load(sys.stdin); assert d["isValid"] is True, d; print("verify (po ciklu): isValid ⊢")'
+          curl -sf http://localhost:4173/api/overview | python3 -c 'import json,sys; d=json.load(sys.stdin); assert d["incomingTotal"] == 1 and d["insertionTotal"] == 1, d; print("overview: vir 1, vstavitev 1 ⊢")'
+          echo '⊢ živi endpointi: 6 branj + cikel vir → obdelava → knjiga + verify drži'
+      - name: Poenotenje — prižigi živi web (vite preview, localhost:4174)
+        working-directory: web
+        shell: bash
+        run: |
+          set -o pipefail
+          npx vite preview --port 4174 --strictPort > ../preview.log 2>&1 &
+          echo $! > ../preview.pid
+          prizig=0
+          for i in $(seq 1 30); do
+            if curl -sf http://localhost:4174/ > /dev/null 2>&1; then prizig=1; break; fi
+            sleep 1
+          done
+          if [ "$prizig" != "1" ]; then echo 'živi web se ni prižigal v 30 s'; cat ../preview.log; exit 1; fi
+          koda=$(curl -s -o /dev/null -w '%{http_code}' http://localhost:4174/)
+          echo "web / → $koda"
+          if [ "$koda" != "200" ]; then echo 'živi web ni odgovoril 200'; exit 1; fi
+          curl -sf http://localhost:4174/ | grep -q '<div id="root">' || { echo 'zgrajen HTML nima korena'; exit 1; }
+          prox=$(curl -s -o /dev/null -w '%{http_code}' http://localhost:4174/api/verify)
+          echo "web /api/verify (proxy, preview podeduje server.proxy) → $prox"
+          echo '⊢ živi web: zgrajen ∧ postrežen ∧ koren na mestu'
+      - name: Ugasni živi strežnika
+        if: always()
+        shell: bash
+        run: |
+          if [ -f api.pid ]; then kill "$(cat api.pid)" 2>/dev/null || true; fi
+          if [ -f preview.pid ]; then kill "$(cat preview.pid)" 2>/dev/null || true; fi
