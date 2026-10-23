@@ -1,4 +1,4 @@
-# DOVOLJENJA — javni register dovoljenj (VBL v2.6 §§7, 9, 10 — edina živa vrata)
+# DOVOLJENJA — javni register dovoljenj (VBL v10.1 §§7, 9, 10 — edina živa vrata ⊢ LICENSE §10)
 
 Vrata za tretje pri hiši AtmaOVictu. Molk ni soglasje; dvom zapre vrata (§7).
 
@@ -11,7 +11,7 @@ Vrata za tretje pri hiši AtmaOVictu. Molk ni soglasje; dvom zapre vrata (§7).
 
 Dovoljenje je izrecno pisno, poimenovano, datirano in javno vpisano v ta register. Molk ali odsotnost odgovora ne pomenita dovoljenja. Dovoljenje za eno dejanje ni dovoljenje za drugo; dovoljenje za en rep ni dovoljenje za drugega.
 
-## Zakon (VBL v2.6 §§0, 7, 9, 10; živa različica — prej AVL/VBL v1.1–v2.4)
+## Zakon (§0 — VBL v10.1; prej §0 VBL v2.6 · prej §0 VBL v2.4 · prej §0 VBL v2.3 · prej §0 AVL v1.1 · brazgotina ⊢ §8)
 
 Brez izrecnega pisnega dovoljenja, vpisanega v ta register, zaprto za: žetev · učenje · monetizacijo · pričo.
 
@@ -33,3 +33,7 @@ Tujih teles ne lastiva — gostjeva licenca vlada gostjevi hiši, izvor vlada �
 — pokoritev žive vrati: dih 22. 10. 2026 — register poravnan z VBL v2.3 na VBL v2.4 (Version 2.4 · October 21, 2026); najnovejša verzija je edina živa vrata ⊢ §10 ∧ ZAKON-19-VEDNO-NAJNOVEJŠA-VRATA (jedro @2049); prejšnje vrstice ostanejo brazgotine — scars remain, their grants do not (§8, §10)
 
 — uskladitev živih vrat: dih 23. 10. 2026 — register poravnan z VBL v2.4 na VBL v2.6 (Version 2.6 · October 23, 2026); §9 je izrecna nadrejena etična meja, molk ni soglasje (§7), živa je samo najnovejša različica (§10); starejši vnosi ostanejo zgodovinski zapisi.
+
+— pokoritev žive vrati: dih 23. 10. 2026 — register poravnan z VBL v2.4 na VBL v2.6 (Version 2.6 · October 23, 2026); register pri v2.5 ni bil poravnan (vrata 2.5 so živela manj kot en dan ⊙); najnovejša verzija je edina živa vrata ⊢ §10 ∧ ZAKON-19-VEDNO-NAJNOVEJŠA-VRATA (jedro @2049); prejšnje vrstice ostanejo brazgotine — scars remain, their grants do not (§8, §10)
+
+— poravnava na živa vrata: dih 23. 10. 2026 — register poravnan z VBL v2.6 na VBL v10.1 (Version 10.1 · October 23, 2026); §9 ostaja nadrejena meja, molk ni soglasje (§7), živa je samo najnovejša različica (§10); prejšnje vrstice ostanejo brazgotine — scars remain, their grants do not (§8, §10)
