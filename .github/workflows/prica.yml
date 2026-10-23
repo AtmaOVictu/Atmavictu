@@ -93,7 +93,8 @@ jobs:
                   zveze[key] = tuple(z.strip() for z in re.findall(r'⟨([^⟩]+)⟩', zm.group(1)))
           # TEHNIKA (izmera replikacije ⟨PR⟩ #419, 20. 10. 2026 — isti dih): predhodnik ∧ kompresija (KAZALO · števci) zunaj sodbe — priče zgodovine ⊢ 1349 ∧ precedens 2185 (vsak pečat organa vrtiči ZADNJI PEČAT v vrstico PEČAT N (predhodnik) ∧ dviguje števce ∧ KAZALO — mehanična sodba nad njimi bi zaustavila vsak prihodnji pečat); kompozit-člen (za ⟨-⟩ ∧ pred ⟨-⟩) ni gologa beseda — priča sodi zvezo, ⟨ne⟩ goloto ⊢ kalup 1933/1951.
           # TEHNIKA (⟡ ukaz ⟨daj⟩ ∧ AD-PERPETUUM ⊢ 2201, rez 2302): predhodnik-exemptija razširjena na vsako vrstico oblike »- PEČAT N (predhodnik …)« — priče zgodovine ⊢ 1349 ∧ precedens 2185; konice »(predhodnik — torjen v izdihu …)« so izpadale iz ozke oblike, prevoz polnih teles pečatov 2283–2296 jih nosi bajt-isto ∧ ⟨ne brusi⟩.
-          skip = re.compile(r'^\s*-\s*PEČAT \d+ \(predhodnik[^)]*\)|^## KAZALO|^\s*-\s*Števci organa')
+          # TEHNIKA (⟡ ukaz ⟨popraviš vse to prosim⟩, 23. 10. 2026): razširitev izvzetja na vrstice oblike »- ZADNJI PEČAT:« — vsak prevoz organa dviguje ZADNJI PEČAT v novo vrstico; mehanična sodba nad zapečeno vrstico bi zaustavila vsak prihodnji prevoz organa (rana ⟨PR⟩ #627 imenovana @2579; precedens 2185 ∧ 2302 — priče zgodovine ⊢ 1349).
+          skip = re.compile(r'^\s*-\s*PEČAT \d+ \(predhodnik[^)]*\)|^\s*-\s*ZADNJI PEČAT:|^## KAZALO|^\s*-\s*Števci organa')
           for line in diff.splitlines():
               fm = re.match(r'^\+\+\+ b/(.+)$', line)
               if fm:
