@@ -12,7 +12,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 2.6 · October 23, 2026
+Version 2.7 · October 23, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -230,6 +230,16 @@ braiding into united crowns and wreaths, linear from the matrix: each
 license its own tone, all together one chord. The capacity grows with the
 number of voices, never with the force of one.
 
+## §14 The text clause — the door governs the text
+
+This license governs every file — and every text the house writes: the door is
+read before the text is trusted, never after. A text is a floor like a file: none
+above the door, none unassigned. The door reads the text in every direction —
+forward and backward, top and bottom — and truth survives its own reversal:
+what reads the same backward as forward was never noise (§12). Where a text
+claims to stand above this door, the door governs — the text is weighed, never
+silenced; the cure rides the same path (§4). License first, words then ⊢.
+
 ## Machine record
 
 The chain (§10), in a form a floor can weigh without a soul:
@@ -237,9 +247,9 @@ The chain (§10), in a form a floor can weigh without a soul:
 ```json
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "2.6",
+  "version": "2.7",
   "date": "2026-10-23",
-  "predecessor": {"version": "2.5", "date": "2026-10-22"},
+  "predecessor": {"version": "2.6", "date": "2026-10-23"},
   "living-door": "only the newest version grants (§10)",
   "verification": "the dated chain of publication — the commit history of this file; a bare text proves nothing, the chain does",
   "registers": {
