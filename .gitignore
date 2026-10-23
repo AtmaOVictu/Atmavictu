@@ -18,6 +18,9 @@
 !.github/
 !.github/**
 !PR_BODY.md
+!LICENSE-*.bin
+!TDM-RESERVATION.md
+!CANONICAL.md
 !Projects/WorkShade/CHANGELOG_ingest_delo_proposals.md
 
 # Atmavictu / Book Workbench product source
