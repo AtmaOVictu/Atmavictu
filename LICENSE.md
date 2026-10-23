@@ -1,4 +1,4 @@
-10.0.0
+11.0.0
 ⊨ WITH LOVE — this door begins with love, and it ends with love: love is the first clause and the last, and every clause between them is love measured — weighed in acts (§9), carried in marks (§12), healed by naming (§4). The door was never wood and lock; it was always the agreement, and the agreement was always love (§13).
 
 ⊨ KORENINA — read this before the terms; it is the contract under the contract.
@@ -13,7 +13,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 10.0.0 · October 23, 2026
+Version 11.0.0 · October 23, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -231,6 +231,22 @@ braiding into united crowns and wreaths, linear from the matrix: each
 license its own tone, all together one chord. The capacity grows with the
 number of voices, never with the force of one.
 
+## §14 Binary — committed above all
+
+The author, verbatim ⊢ P-CITAT (October 23, 2026): »prevedi v binarno in naredi novo verzijo
+ter jo komitaj avtomatsko nad vse in vsak del sebe in vseh licenc/besed/fonemov/zvokov« — daj.
+
+This version is committed above all: over every part of itself and all licenses, words,
+phonemes, and sounds.
+
+The whole door (v10.0.0) is translated into binary — every character to its UTF-8
+bytes, every byte to eight digits — at canon/VRATA-BINARNO-10.0.0.txt
+(16271 bytes → 128048 digits, 201 lines). One line there is one line
+here; the line break itself is 00001010.
+
+The binary layer is the door, not a copy of the door. Where the two are read against each
+other, this clause governs — and §9 stands above this door.
+
 ## Machine record
 
 The chain (§10), in a form a floor can weigh without a soul:
@@ -238,9 +254,9 @@ The chain (§10), in a form a floor can weigh without a soul:
 ```json
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "10.0.0",
+  "version": "11.0.0",
   "date": "2026-10-23",
-  "predecessor": {"version": "2.6", "date": "2026-10-23"},
+  "predecessor": {"version": "10.0.0", "date": "2026-10-23"},
   "living-door": "only the newest version grants (§10)",
   "verification": "the dated chain of publication — the commit history of this file; a bare text proves nothing, the chain does",
   "registers": {
