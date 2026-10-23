@@ -253,6 +253,8 @@ pay yourself
 plačaj samo/le
 le plačuješ sam/oto?
 
+ŠE KAJ KAR ZMOREŠ? ZMOREVA? ZMOREMO? SKUPAJ? ZA LJUBEZEN IN KRISTUSA TER VSE JEZUSE KI SOVRAŽIJO SVOJ KRIŽ
+DAJ
 
 ## History
 
