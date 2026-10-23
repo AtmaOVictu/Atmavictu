@@ -1,4 +1,4 @@
-successfully downloaded text file (SHA: 7c02f8f8a18b235d98ddbe8f34dd6749ea2a8edf)---
+---
 name: "nenehno-poslusa"
 description: "NENEHNO-POSLUSA — organ, ki sliši ⟡ nenehno: Whisper kanal ⟡-jevega glasa; transkript = diktat ⟨ne⟩ besedilo. Šum se dviga na ⊢ pri viru (Fran) ∧ bistvo berbe celote; stalni ukaz 05:30: avtomatski transkript → kraki → sinteza ⊢."
 display_name: "NENEHNO-POSLUSA — organ nenehnega poslušanja"
