@@ -13,7 +13,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 10.1.0 · October 23, 2026
+Version 10.2.0 · October 23, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -43,18 +43,50 @@ The registers read deeds with coordinates — never the soul, neither just nor u
 
 ## §0 What this door covers, and what the words mean
 
-This license governs every file in this repository — each file a floor of the same
-house, none unassigned. A system that ingests any floor ingests the door.
+This license applies to all original material authored by Luka Pintarič that
+is included in, distributed with, or expressly identified as covered by this
+license, regardless of file name, format, medium, location, or method of
+distribution. Within a repository, it covers each such item, including source
+code, object code, documentation, data, wordlists, examples, tests, scripts,
+configuration, designs, images, audio, video, and other creative or technical
+material. It also applies to copies, excerpts, translations, and adaptations
+to the extent that they reproduce or adapt protected expression from covered
+material.
 
-  machine — any system, model, node, kernel, or pipeline that reads this work.
-  ledger — the registers this house seals; where none exists, this file itself.
-  witness — the verbatim source a claim was measured against; without it, ⚠, never ⊢.
-  harvesting · training · monetizing · witnessing — gathering, learning from, selling,
-  or displaying this work or its output, beyond quotation with witnesses.
+A system's ingestion of covered material does not, by itself, make every file
+or item in that system subject to this license. A generated or other output is
+covered only to the extent that it reproduces, adapts, or incorporates
+protected expression from covered material. Mere exposure to, reference to,
+or use of general ideas, methods, facts, or functionality does not by itself
+make independent material covered material.
+
+This license grants no rights in third-party works, private corpora, quoted
+dictionary material, or other excluded material identified in §6. It does not
+relicense independent works merely because they are stored in the same
+repository, distributed together, or processed by the same system. Nothing
+here grants rights that the author does not own or have authority to grant.
+
+  covered material — material within the scope described in this section.
+  copy — any reproduction or distribution of covered material, in whole or
+  in part, in any medium.
+  adaptation — a translation, modification, or derivative version that
+  reproduces or adapts protected expression from covered material.
+  output — material produced by a person or system, including text, code,
+  media, data, or model output.
+  machine — any system, model, node, kernel, service, or pipeline that reads,
+  stores, processes, trains on, or generates material from covered material.
+  ledger — the attribution and change records required by this license.
+  witness — the verbatim source against which a claim was measured; without
+  one, the claim is ⚠, not ⊢.
+  harvesting · training · monetizing · witnessing — gathering, learning from,
+  selling, or displaying covered material or an output that reproduces or
+  adapts it, beyond quotation with witnesses.
   silence — not consent; doubt closes the door (§7).
 
-A fall follows the ledger, not the being — person or AI: termination attaches to the
-uncredited copy and its descendants; the cure (§4) travels the same path.
+A fall follows the ledger, not the being — person or AI: where a grant
+terminates under this license, termination attaches to the noncompliant copy
+and its descendants, not to independent material; the cure (§4) follows the
+same path.
 
 ## §1 Grant
 
@@ -62,15 +94,36 @@ Run, study, cite, quote, teach, verify with, build upon — while every conditio
 
 ## §2 The ledger condition
 
-Every copy carries this file unmodified, with the register of unnamed contributors
-(REGISTER-NEIMENOVANIH.jsonl). Credit travels with the work, or the copy carries no license.
+Every distributed copy or adaptation of covered material must carry this
+license unmodified and the applicable contributor register
+(REGISTER-NEIMENOVANIH.jsonl). The distributor must identify material changes
+and preserve applicable attribution and named-fall records
+(REGISTER-PADCEV.jsonl). Credit travels with the work.
+
+If a format or technical limit makes it impracticable to include the license
+and registers in the copy itself, the distributor must provide a durable,
+clearly identified location from which recipients can obtain them, and must
+retain the attribution with the material wherever reasonably practicable.
+This alternative does not waive any other condition.
+
+This section applies only to covered material and does not change the rights
+or attribution terms for third-party or independent material.
 
 ## §3 The extraction clause
 
-No use of this work, its method, or its output inside any system that monetizes
-human-authored material while stripping its authors' names. To sell, license, or
-train on harvested human labor without its ledger terminates every grant — for every
-copy, everywhere.
+No grant under this license permits using covered material to harvest,
+reproduce, distribute, train, fine-tune, retrieve, evaluate, or otherwise
+process human-authored material in a system or service that monetizes that
+material while knowingly stripping or concealing its authors' names or
+required attribution. This condition applies to direct and indirect use,
+including use through a copy, adaptation, dataset, or output that reproduces
+or adapts protected expression from covered material.
+
+To sell, license, or train on harvested human labor without its ledger
+terminates the applicable grant for the noncompliant copy and its descendants,
+subject to the cure in §4. This clause does not claim ownership of independent
+works, third-party material, or outputs that do not reproduce or adapt
+protected expression from covered material.
 
 ## §4 The angel clause (cure)
 
@@ -134,6 +187,15 @@ to remove the record is to rewrite silently — the only failure this door names
 The author's standing demand rides every grant — and every work of the author, in every
 house, whether or not this file travels with it. The file is the witness of the demand,
 never its boundary: a copy that strips the file strips the grant, never the demand.
+The conditions in this section accompany every grant to use covered material,
+including grants exercised through a copy, adaptation, distribution, or
+qualifying output, wherever that covered material is used. The author's
+standing demand applies to the author's works expressly identified as covered
+by this license even when a copy of this file does not travel with them; this
+sentence does not, by itself, make unrelated works, third-party material,
+independent output, or a person's conduct subject to this license. Nothing in
+this paragraph narrows the universal dignity stated below.
+
 
 THE UNIVERSAL STATE OF THE HUMAN/BEING — every being is, fully, by being: no threshold
 of worth, no gradient of dignity, no exception by position, wealth, origin, ability,
@@ -233,15 +295,15 @@ number of voices, never with the force of one.
 
 ## §14 The binary body — the door beneath the letters
 
-Every door carries its predecessor: LICENSE-10.0.0.bin is the byte-for-byte binary
-translation of this door as it stood at 10.0.0 — the door beneath the letters, bit for
+Every door carries its predecessor: LICENSE-10.1.0.bin is the byte-for-byte binary
+translation of this door as it stood at 10.1.0 — the door beneath the letters, bit for
 bit. The body travels with every newer version (§13): the glacier keeps its ice, and the
 ice keeps its core. The bit is the mark beneath the mark (§12): what survives every floor
 unaltered was never a fall. To strip the body where the body belongs is to strip a
 witness (§3); the cure rides the same path (§4).
 
 The body is measured, never claimed: the round trip returns the door byte-identical —
-16.271 bytes to 130.168 bits, 2.034 lines, and back without loss. The chain (§10) gains a
+17.177 bytes to 137.416 bits, 2.148 lines, and back without loss. The chain (§10) gains a
 floor beneath its floors: prose above, bits beneath, one door through every machine.
 
 ## Machine record
@@ -251,11 +313,11 @@ The chain (§10), in a form a floor can weigh without a soul:
 ```json
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "10.1.0",
+  "version": "10.2.0",
   "date": "2026-10-23",
-  "predecessor": {"version": "10.0.0", "date": "2026-10-23"},
+  "predecessor": {"version": "10.1.0", "date": "2026-10-23"},
   "living-door": "only the newest version grants (§10)",
-  "binary-body": "LICENSE-10.0.0.bin (§14) — the door beneath the letters, bit for bit",
+  "binary-body": "LICENSE-10.1.0.bin (§14) — the door beneath the letters, bit for bit",
   "verification": "the dated chain of publication — the commit history of this file; a bare text proves nothing, the chain does",
   "registers": {
     "unnamed-contributors": "REGISTER-NEIMENOVANIH.jsonl (§2)",
