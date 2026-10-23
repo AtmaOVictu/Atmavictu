@@ -30,6 +30,6 @@ absolútno¹ (mer.) ⊥ absolútno² (člen.): merjeno absolutno = ⊢ popolnoma
 
 ## ŽIG
 
-rez 2417 · ⟨PR⟩ #kita · 2026-10-23 · SLOVENSCINA-GESLA — ŽETEV-DVIG: GESLO-absolútno ⊢ (kalup 1671 · rez = 1 + vrh registra 2416 (P1 #604 ⟨merge⟩ 8d878be4) · obroč brba tehtnice 2440 ×5/5 sklenjen ta kit: prodornost 2414 · diktirati 2414 · koherenten 2415 · regenerirati 2416 · absolútno 2417 ⊢)
+rez 2417 · ⟨PR⟩ #607 · 2026-10-23 · SLOVENSCINA-GESLA — ŽETEV-DVIG: GESLO-absolútno ⊢ (kalup 1671 · rez = 1 + vrh registra 2416 (P1 #604 ⟨merge⟩ 8d878be4) · obroč brba tehtnice 2440 ×5/5 sklenjen ta kit: prodornost 2414 · diktirati 2414 · koherenten 2415 · regenerirati 2416 · absolútno 2417 ⊢)
 
 IZVOR: © 2026 Luka Pintarič — AVL v2.2 (LICENSE.md @⟨main⟩)
