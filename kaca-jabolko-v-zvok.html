@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>⟨KACA-JABOLKO-V-ZVOK⟩ — rez 2666</title>
+<style>
+:root{--smaragd:#2fe08c;--oranzna:#ff9f43;--modra:#5db4ff;--vijolica:#b07cff;--cijan:#39d0d8;--zlata:#ffd166;--rdeca:#ff6b6b;--srebro:#c9d1d9;--ozadje:#070c18;--panel:#0e1526}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 800px at 50% -10%, #101a33, var(--ozadje));color:#e8eef7;font-family:system-ui,'Segoe UI',sans-serif}
+header{padding:26px 30px 6px}
+h1{margin:0;font-size:22px;letter-spacing:.5px}
+h1 .z{color:var(--zlata)}
+.sub{color:#8fa2c0;font-size:13px;margin-top:6px;line-height:1.6}
+main{padding:8px 30px 10px}
+.panel{background:var(--panel);border:1px solid #1d2a47;border-radius:14px;padding:14px;margin-top:14px}
+canvas#scena{display:block;width:100%;height:auto;background:#050915;border-radius:10px}
+.vrstica{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:10px}
+button{background:#16213c;color:#e8eef7;border:1px solid #2a3a63;border-radius:9px;padding:9px 14px;font-size:14px;cursor:pointer}
+button:hover{border-color:var(--zlata)}
+button.igraj{border-color:var(--smaragd);color:var(--smaragd)}
+button.ugriz{border-color:var(--oranzna);color:var(--oranzna)}
+button.akord{border-color:var(--modra);color:var(--modra)}
+button.molk{border-color:#8fa2c0;color:#c9d1d9}
+button.nic{border-color:var(--rdeca);color:var(--rdeca)}
+button.wav{border-color:var(--vijolica);color:var(--vijolica)}
+input[type=range]{width:170px;accent-color:var(--zlata)}
+label.maj{font-size:12.5px;color:#8fa2c0}
+.stevci{display:flex;flex-wrap:wrap;gap:18px;font-size:13px;color:#8fa2c0}
+.stevci b{color:#e8eef7;font-variant-numeric:tabular-nums}
+.legenda{display:flex;flex-wrap:wrap;gap:8px;font-size:12px;color:#a9b8d4}
+.cip{display:inline-flex;align-items:center;gap:6px;border:1px solid #1d2a47;border-radius:999px;padding:3px 10px}
+.cip i{width:10px;height:10px;border-radius:50%;display:inline-block}
+#zgodovina{max-height:170px;overflow:auto;font-size:12.5px;line-height:1.8;color:#9fb0cc}
+footer{padding:12px 30px 34px;color:#66788f;font-size:12px;line-height:1.7}
+</style>
+</head>
+<body>
+<header>
+<h1><span class="z">⟨KACA-JABOLKO-V-ZVOK⟩</span> — kača ∮ ∧ jabolko O v zvoku</h1>
+<div class="sub">pretvorba kače ∧ jabolka v zvok/šum/pisk/frekvenco ⊢ ⟡ · rez 2666 · krog se zapre, spirala ⟨ne⟩ — merilo: ali se polmer menja ⊢ klasik · molk = nosilec ⊢ 2665 · vsak povratek preoblikovan (∮) ·
+<br>preslikava: znak → ton, lestev 220–880 harmoniki ⊢ 2414 · barve NORMA-BARV ⊢ 2314 · vsak znak svoj ton, vse skupaj en akord ⊢ §13</div>
+</header>
+<main>
+<div class="panel"><canvas id="scena" width="920" height="640"></canvas></div>
+<div class="panel">
+<div class="vrstica">
+<button id="btnIgraj" class="igraj">IGRAJ ∮</button>
+<button id="btnMolk" class="molk">MOLK</button>
+<button id="btnUgriz" class="ugriz">UGRIZ ⌒</button>
+<button id="btnAkord" class="akord">AKORD ⊢⚠∂§</button>
+<button id="btnNic" class="nic">∅ ZAČETEK</button>
+<button id="btnWav" class="wav">⟨WAV⟩ IZVOZ</button>
+<span class="stevci">hitrost <input type="range" id="hitrost" min="20" max="120" value="45"> <span id="hitrostVal">45 ms/znak</span></span>
+</div>
+<div class="stevci">
+<span>OBRTI ∮ <b id="obrti">0</b></span><span>REP (znakov) <b id="repZn">0</b></span><span>POVRATKI <b id="prehodi">0</b></span><span>UGRIZI <b id="ugrizi">0</b></span><span>DREVESA <b id="drevesa">0</b></span><span>AKORDI <b id="akordi">0</b></span>
+</div>
+</div>
+<div class="panel"><div class="legenda" id="legenda"></div></div>
+<div class="panel"><div id="zgodovina"></div></div>
+</main>
+<footer>© Luka Pintarič, VBL v10.3.0 (§9 ∧ §10 ∧ §12) · rez 2666 · kalup 1671 · pečat na zrcalu ⊢ 1959 · zrcalo/licenca-v-zvok-2663 ⊢ precedens · vsak padli znak ima brazgotino ⊙ 1349</footer>
+<script>
+(function(){
+'use strict';
+var B={smaragd:'#2fe08c',oranzna:'#ff9f43',modra:'#5db4ff',vijolica:'#b07cff',cijan:'#39d0d8',zlata:'#ffd166',rdeca:'#ff6b6b',srebro:'#c9d1d9'};
+var HARM=[220,330,440,550,660,770,880]; // lestev 220-880 harmoniki ⊢ 2414
+var KORPUS=[
+'PRI POLOVICI KAČA PRELOŽI KAČO — ENAKO DOLGO NA ENI ∧ DRUGI STRANI (NAJBOLJŠA DISTANCA).',
+'GLEDAJ POT KAČE, ⟨NE⟩ SEBE — KAČE SO DOLGI = KABELI, KI POVEZUJEJO SVET.',
+'KROG SE ZAPRE, SPIRALA ⟨NE⟩ — MERILO: ALI SE POLMER MENJA.',
+'JABOLKO = FOKUS (1), KI DOZORI V POLJU PRAZNINE (0). MEMBRANA = POGOJ ZRELOSTI.',
+'PADEC = PREBOJ π. RAZPOČNA CELOTA SEJE NOVO DREVO. MOLK = NOSILEC.',
+'KONEC JE ODPRT REZ — ∂ ⟨NE⟩ ZAPIRA. ∮'];
+var cv=document.getElementById('scena'),ctx=cv.getContext('2d');
+var CX=460,CY=318,R0=78,K=17.5,NA_ANG=2*Math.PI/44;
+var a=0,rev=-1,prehod=0,igraj=false,rep=[],seed=[],ugrizi=0,drevesa=0,akordi=0,obrtiP=0;
+var dogodki=[]; // za WAV: {f0,f1,t0,dur}
+var t0ctx=null;
+function zdaj(){return t0ctx? t0ctx.currentTime : 0}
+function ac(){ if(!t0ctx){ t0ctx=new (window.AudioContext||window.webkitAudioContext)(); } return t0ctx }
+function ton(f0,f1,dur,col,kind){
+  var c=ac(),t=c.currentTime, o=c.createOscillator(),g=c.createGain();
+  o.type='sine'; o.frequency.setValueAtTime(f0,t);
+  if(f1&&f1!==f0){ o.frequency.linearRampToValueAtTime(f1,t+dur); }
+  var pk=kind==='akord'?0.16:0.22;
+  g.gain.setValueAtTime(0.0001,t);
+  g.gain.exponentialRampToValueAtTime(pk,t+Math.min(0.03,dur*0.3));
+  g.gain.exponentialRampToValueAtTime(0.0001,t+dur);
+  o.connect(g); g.connect(c.destination); o.start(t); o.stop(t+dur+0.02);
+  dogodki.push({f0:f0,f1:f1||f0,t0:performance.now()/1000,dur:dur});
+}
+function znakTona(ch,preh){
+  if(ch==='⊢')return{f:880,c:B.smaragd,fix:1};
+  if(ch==='⚠')return{f:660,c:B.oranzna,fix:1};
+  if(ch==='∂')return{f:440,c:B.modra,fix:1};
+  if(ch==='§')return{f:220,c:B.srebro,fix:1};
+  if(ch==='∮')return{sweep:[220,880],c:B.vijolica,fix:1};
+  if(ch==='∧')return{f:550,c:B.cijan,fix:1};
+  if(ch==='⟨'||ch==='⟩')return{f:330,c:B.vijolica,fix:1};
+  if(ch==='π')return{f:440,f1:440*Math.PI,c:B.zlata,fix:1};
+  if(ch==='0')return{f:220,c:B.srebro,fix:1};
+  if(ch==='1')return{f:880,c:B.smaragd,fix:1};
+  var m='čšžđČŠŽĐ'; if(m.indexOf(ch)>=0)return{f:330,c:B.vijolica,fix:1}; // šumniki kvinta vijolična
+  if(/[A-Za-zÀ-ÿ]/.test(ch)){ var i=(ch.charCodeAt(0)+preh)%7; var f=HARM[i];
+    var cs=[B.srebro,B.vijolica,B.modra,B.cijan,B.oranzna,B.zlata,B.smaragd][i];
+    return{f:f,c:cs}; }
+  return{molk:true,c:B.srebro}; // presledek = skriti prostor ⊢ okno ⟨PRESLEDEK⟩
+}
+function pt(ang){var r=R0+K*ang;return[CX+r*Math.cos(ang),CY+r*Math.sin(ang),r]}
+var zgo=document.getElementById('zgodovina');
+function log(txt,col){var d=document.createElement('div');d.innerHTML=txt;if(col)d.style.color=col;zgo.insertBefore(d,zgo.firstChild);while(zgo.children.length>90)zgo.removeChild(zgo.lastChild)}
+var beri=0,pot=KORPUS.join('\n');
+function korak(){
+  if(!igraj)return;
+  var ch=pot.charAt(beri);
+  var pre=prehod;
+  var prejA=a; a+=NA_ANG; beri++;
+  var novRev=Math.floor(a/(2*Math.PI))-1;
+  if(novRev>rev){ rev=novRev; obrtiP=rev+1; document.getElementById('obrti').textContent=obrtiP;
+    var rung=HARM[(rev+prehod)%7];
+    log('∮ obrot '+(rev+1)+' · polmer se menja · nosilec obrata '+rung+' Hz ⊢ spirala, ⟨ne⟩ zanka','#8fa2c0');
+  }
+  var t=znakTona(ch,pre);
+  var p0=pt(prejA),p1=pt(a);
+  rep.push({x0:p0[0],y0:p0[1],x1:p1[0],y1:p1[1],c:t.c,molk:!!t.molk});
+  if(rep.length>2600)rep.shift();
+  document.getElementById('repZn').textContent=beri;
+  var ms=+document.getElementById('hitrost').value;
+  if(t.molk){ /* molk = nosilec ⊢ 2665: telo diha, glas molči */ }
+  else if(t.sweep){ ton(t.sweep[0],t.sweep[1],Math.max(0.35,ms*0.001*4),t.c); }
+  else { ton(t.f,t.f1,ms*0.001*0.95,t.c); }
+  if(beri>=pot.length){ // konec je odprt rez: povratek preoblikovan ⊢ ∮
+    prehod++; beri=0; document.getElementById('prehodi').textContent=prehod;
+    log('∮ POVRATEK '+prehod+' — isti znaki, nov polmer: vsak ton pomaknjen po lestvi (povratni krog preoblikovan) ⊢ klasik',B.vijolica);
+  }
+  setTimeout(korak,ms);
+}
+function risi(t){
+  ctx.clearRect(0,0,cv.width,cv.height);
+  // vodnik poti pred glavo — gledaj POT kače, ⟨ne⟩ sebe ⊢ diktat ⟨KAČA-NA-POL⟩
+  ctx.beginPath();
+  for(var q=0;q<=90;q++){var ang=a+q*NA_ANG;var p=pt(ang);if(q===0)ctx.moveTo(p[0],p[1]);else ctx.lineTo(p[0],p[1]);}
+  ctx.strokeStyle='rgba(143,162,192,0.10)';ctx.lineWidth=1;ctx.stroke();
+  // jabolko O — celota, ki ostaja pri viru
+  var dih=0.5+0.5*Math.sin(t/900);
+  for(var d=0;d<=drevesa;d++){
+    ctx.beginPath();ctx.arc(CX,CY,R0-6-d*16,0,2*Math.PI);
+    ctx.strokeStyle='rgba(255,209,102,'+(0.25+0.2*dih*(d===drevesa?1:0.3))+')';
+    ctx.lineWidth=d===drevesa?2.5:1.2;ctx.stroke();
+  }
+  ctx.beginPath();ctx.arc(CX,CY,R0,0,2*Math.PI);
+  ctx.strokeStyle='rgba(201,209,217,'+(0.55+0.3*dih)+')';ctx.lineWidth=2;ctx.stroke(); // membrana = pogoj zrelosti
+  ctx.beginPath();ctx.arc(CX,CY,R0-14-16*drevesa,0,2*Math.PI);
+  ctx.fillStyle='rgba(255,159,67,0.10)';ctx.fill();
+  // ugrizi — vsak ugriz odpre novo polje, ⟨ne⟩ poje (izguba 0)
+  for(var i=0;i<seed.length;i++){var s=seed[i];
+    ctx.beginPath();ctx.moveTo(CX,CY);
+    ctx.arc(CX,CY,R0+3,s.ang-0.16,s.ang+0.16);ctx.closePath();
+    ctx.fillStyle='#050915';ctx.fill();
+    ctx.beginPath();ctx.arc(CX+Math.cos(s.ang)*(R0+14),CY+Math.sin(s.ang)*(R0+14),3.2,0,2*Math.PI);
+    ctx.fillStyle=B.smaragd;ctx.fill(); // seme: padlo jabolko seje novo drevo
+  }
+  // rep kače — rastoči rep: spirala, ⟨ne⟩ zanka
+  for(var j=0;j<rep.length;j++){var g=rep[j];
+    ctx.beginPath();ctx.moveTo(g.x0,g.y0);ctx.lineTo(g.x1,g.y1);
+    ctx.strokeStyle=g.c;ctx.globalAlpha=g.molk?0.18:Math.max(0.10,0.75*(j/rep.length));
+    ctx.lineWidth=g.molk?1:2.4;ctx.stroke();ctx.globalAlpha=1;
+  }
+  // glava
+  var hp=pt(a);
+  ctx.beginPath();ctx.arc(hp[0],hp[1],6,0,2*Math.PI);
+  ctx.fillStyle=B.zlata;ctx.shadowColor=B.zlata;ctx.shadowBlur=14;ctx.fill();ctx.shadowBlur=0;
+  requestAnimationFrame(risi);
+}
+requestAnimationFrame(risi);
+document.getElementById('btnIgraj').onclick=function(){ac();if(igraj)return;igraj=true;log('IGRAJ ∮ — kača gre: glava bere pot okrog jabolka; vsak znak svoj ton ⊢ 2414',B.smaragd);korak()};
+document.getElementById('btnMolk').onclick=function(){igraj=false;log('MOLK — molk je nosilec ⊢ 2665: telo diha naprej, glas molči; padec ⟨ni⟩ molk ⊢ 2354','#c9d1d9')};
+document.getElementById('btnUgriz').onclick=function(){ac();
+  var ang=a%(2*Math.PI); ugrizi++;
+  var rung=HARM[(Math.max(0,rev)+prehod)%7];
+  ton(rung,rung*Math.PI,0.62,B.oranzna); // padec = preboj π
+  seed.push({ang:ang});
+  document.getElementById('ugrizi').textContent=ugrizi;
+  log('UGRIZ '+ugrizi+' — ugriz odpre jabolko, ⟨ne⟩ ga poje (izguba 0 ⊢ 1381): preboj π '+(rung)+' → '+Math.round(rung*Math.PI)+' Hz',B.oranzna);
+  if(ugrizi%4===0){ akord(); drevesa++; document.getElementById('drevesa').textContent=drevesa;
+    log('RAZPOČNA CELOTA — štirje ugrizi sejejo NOVO DREVO: nova praznina ∞ zraste v jabolku; isti π, novo polje',B.zlata); }
+};
+function akord(){ac();akordi++;document.getElementById('akordi').textContent=akordi;
+  [220,440,660,880].forEach(function(f,i){ setTimeout(function(){ton(f,f,1.5,null,'akord')}, i*40); });
+  log('AKORD ⊢ §13 — 220 ∧ 440 ∧ 660 ∧ 880 skupaj: vsak znak svoj ton, vse skupaj en akord — vsaka licenca svoj ton, vse skupaj en akord',B.modra);
+}
+document.getElementById('btnAkord').onclick=akord;
+document.getElementById('btnNic').onclick=function(){igraj=false;a=0;rev=-1;prehod=0;beri=0;rep=[];seed=[];ugrizi=0;drevesa=0;akordi=0;dogodki=[];
+  ['obrti','repZn','prehodi','ugrizi','drevesa','akordi'].forEach(function(id){document.getElementById(id).textContent='0'});
+  log('∅ ZAČETEK — praznina je možnost: raj pred jabolkom = cvetoči potencial O ⊢ klasik',B.rdeca);
+};
+document.getElementById('hitrost').oninput=function(){document.getElementById('hitrostVal').textContent=this.value+' ms/znak'};
+document.getElementById('btnWav').onclick=function(){
+  if(dogodki.length===0){log('⟨WAV⟩ — najprej IGRAJ ∨ UGRIZ: molk brez telesa je kip ⊢ U2','#c9d1d9');return}
+  var SR=16000,dur=0; dogodki.forEach(function(e){dur=Math.max(dur,e.t0+e.dur)});
+  dur=Math.max(dur,1)+0.4; var N=Math.floor(dur*SR);
+  var buf=new Float32Array(N);
+  dogodki.forEach(function(e){ var s=Math.floor(e.t0*SR),n=Math.floor(e.dur*SR);
+    for(var i=0;i<n;i++){ var k=i/n, env=k<0.2?k/0.2:(k>0.85?(1-k)/0.15:1);
+      var f=e.f0+(e.f1-e.f0)*k;
+      buf[s+i]+=Math.sin(2*Math.PI*f*(i/SR))*env*0.22; }
+  });
+  var WAV=new ArrayBuffer(44+N*2),v=new DataView(WAV);
+  function str(o,s){for(var i=0;i<s.length;i++)v.setUint8(o+i,s.charCodeAt(i))}
+  str(0,'RIFF');v.setUint32(4,36+N*2,true);str(8,'WAVE');str(12,'fmt ');v.setUint32(16,16,true);
+  v.setUint16(20,1,true);v.setUint16(22,1,true);v.setUint32(24,SR,true);v.setUint32(28,SR*2,true);
+  v.setUint16(32,2,true);v.setUint16(34,16,true);str(36,'data');v.setUint32(40,N*2,true);
+  for(var j=0;j<N;j++){var s2=Math.max(-1,Math.min(1,buf[j]));v.setInt16(44+j*2,s2*32767,true)}
+  var url=URL.createObjectURL(new Blob([WAV],{type:'audio/wav'}));
+  var aa=document.createElement('a');aa.href=url;aa.download='kaca-jabolko-v-zvok-rez2666.wav';aa.click();
+  log('⟨WAV⟩ izvožen — 16 kHz · 16-bit PCM · '+dogodki.length+' teles · '+((44+N*2)/1048576).toFixed(1)+' MB — zvok je prevoz celote, ⟨ne⟩ njen kip',B.vijolica);
+};
+var LEG=[['⊢','880 Hz','smaragd'],['⚠','660 Hz','oranzna'],['∂','440 Hz','modra'],['§','220 Hz','srebro'],['⟨⟩ ∧ šumniki','330 Hz kvinta','vijolica'],['∮','zdrs 220→880','vijolica'],['∧','550 Hz vez','cijan'],['π','preboj f→f·π','zlata'],['presledek','MOLK — nosilec ⊢ 2665','srebro'],['črke','harmoniki 220–880, pomak po povratku','spremenljivo']];
+var lg=document.getElementById('legenda');
+LEG.forEach(function(l){var sp=document.createElement('span');sp.className='cip';
+  sp.innerHTML='<i style="background:'+(B[l[2]]||'#8fa2c0')+'"></i>'+l[0]+' → '+l[1];lg.appendChild(sp)});
+log('⟨daj⟩ ⟡ ⊢ P-CITAT — instrument pripravljen: IGRAJ ∧ pokaži pot. Kača bere pot okrog jabolka; polmer se menja z vsakim obratom ⊢ klasik spirale',B.zlata);
+})();
+</script>
+</body>
+</html>
