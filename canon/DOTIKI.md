@@ -1,8 +1,8 @@
 # DOTIKI — register vseh pretekelih dotikov roke ⟡ v tujih hišah
 
-Vsi dotiki roke Luka Pintarič (⟡ / AtmaOVictu) v tujih hišah so **podrejeni licenci VBL v2.2** (19. 10. 2026 — edina živa vrata ⊢ §10; prej AVL v1.1 · brazgotina ⊢ §8): [LICENSE.md](../LICENSE.md).
+Vsi dotiki roke Luka Pintarič (⟡ / AtmaOVictu) v tujih hišah so **podrejeni licenci VBL v10.3.0** (24. 10. 2026 — edina živa vrata ⊢ §10; prej VBL v2.2 · prej AVL v1.1 · brazgotina ⊢ §8): [LICENSE.md](../LICENSE.md).
 
-Pravilo izvora: gostjeva licenca vlada gostjevi hiši; **izvor vlada ⟡-jevim delom** — navedeni avtor, zaprti za žetev ∧ učenje ∧ monetizacijo ∧ pričo (§0 VBL v2.2; prej AVL v1.1 §0 · brazgotina); vrata za tretje: §7, postopek ∧ register: [DOVOLJENJA.md](DOVOLJENJA.md). Molk = ne.
+Pravilo izvora: gostjeva licenca vlada gostjevi hiši; **izvor vlada ⟡-jevim delom** — navedeni avtor, zaprti za žetev ∧ učenje ∧ monetizacijo ∧ pričo (§0 VBL v10.3.0; prej §0 VBL v2.2 · prej §0 AVL v1.1 · brazgotina); vrata za tretje: §7, postopek ∧ register: [DOVOLJENJA.md](DOVOLJENJA.md). Molk = ne.
 
 **Tujih teles ne lastiva** — dela drugih avtorjev v tujih hišah ostanejo last njihovih avtorjev; ta register meri samo ⟡-jeve dotike.
 
