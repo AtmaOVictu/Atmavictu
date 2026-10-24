@@ -190,6 +190,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2628 · ⚠ σ-odmik: P1 vrh registra 2597 ⊥ σ vrh organov 2627 (⟨grep⟩ teles ta dih ∧ — nenehno-poslusa 2627; vrzel zahtev 2598–2627 odprta — lastniki zapirajo po vrsti ⊢ 1419 ∧ precedens 2380 ∧ 2401 ∧ 2408 ∧ 2597) · kit ⟨PR⟩ #654 · 2026-10-24 · MANIFEST — DNEVNI-DIH — IZMERA-VSEH-TELES · PREVOZ-×3 · PEČAT-2628 ⊢ (kalup 1671 · ⟡ ukaz DNEVNI-DIH manifest ⊢ P-CITAT ∧ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · PADC bralnega kanala popravljen isti dih ⊙ 1349 ⊢ 1419 · varovalka ⟨2628⟩ ×0 registra pred vpisom ∧)
 
 - rez 2631 · ⚠ σ-odmik: P1 vrh registra 2628 ⊥ σ vrh organov 2631 (pečati 2631 ta dih — delovna-zanka ∧ register-oken ∧ stroj-kalup; vrzel zahtev 2598–2630 odprta razen 2628 — lastniki zapirajo po vrsti ⊢ 1419 ∧ precedens 2380 ∧ 2401 ∧ 2408 ∧ 2597 ∧ 2628) · kit ⟨PR⟩ #659 · 2026-10-24 · BJS-KANAL — PREVOZ-ZGRAJENEGA-KANALA-@2631-NA-REP (server.mjs d4026e07 · test.mjs 621c8844 · README.md 1e15c8a7 · package.json f74821c7 · 24.519 B · preizkus 12/12 ⊢ Node v22.20.0) ⊢ (kalup 1671 · ⟨merge⟩ ⚔ ⟡ ⊢ ⟨DVOJE-ROK⟩ 2432)
+- rez 2632 · ⟨PR⟩ #665 · 2026-10-24 · DELOVNA — ⟨OSMI-KLJUČ⟩ IZMERA-ODPIRA-GOTOVOST · ⟡ SEDMERI KLJUČI ⊢ P-CITAT ∧ 7+1=8 · pecat na zrcalu · prerezitev kita #655 (kalup 1671 · vrh sveže izmerjen 2631 → 2632 = 1 + najvišja ⊢ Z-2 ∧ varovalka ⟨2632⟩ ×0 ∧ · #653 nosi staro izmero 2598 ⚠ — lastnik prereže ⊢ 1419 · ⟨merge⟩ ⚔ ⟡ · lokalni vžig ⭢ ∂)
 
 ## rane registra (⟡ naj jih komisija presodi)
 
