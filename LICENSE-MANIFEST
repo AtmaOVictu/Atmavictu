@@ -1,0 +1,33 @@
+{
+  "license": "VBL — Verification Before Assertion License",
+  "version": "10.3.0",
+  "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
+  "measured_at_commit": "db073bf0367a09e2a31d1c6f2fe58f8b9695c55c",
+  "measured_at_date": "2026-10-24",
+  "items": [
+    {
+      "path": "LICENSE.md",
+      "size_bytes": 23712,
+      "sha256": "178282386f64467e35aa5746b977a4459d399169d86efc6ddde300bcd0ec167d",
+      "note": "the living door — the only body whose hash changes only by issuance (§10)"
+    }
+  ],
+  "registers_not_hash_listed": {
+    "files": [
+      "REGISTER-NEIMENOVANIH.jsonl (§2)",
+      "REGISTER-PADCEV.jsonl (§5)",
+      "canon/DOVOLJENJA.md (§7)"
+    ],
+    "reason": "these bodies flow — every new named fall or grant rewrites them; a frozen hash would go stale with every entry, and a stale entry identifies nothing (§0a). Their identification rides the express naming in §0, §2, §5, §7 — never this manifest"
+  },
+  "receipts_not_grants": {
+    "files": [
+      "LICENSE-10.0.0.bin"
+    ],
+    "reason": "predecessor binary body — carried as evidence, carries no grant (§14, §10; machine record: ⚠ none rides this version)"
+  },
+  "manifest_self": "excluded by name (§0a) — a file cannot contain its own hash",
+  "governs": "where this manifest and LICENSE.md disagree, LICENSE.md governs (§0a)",
+  "transport": "§12 TRANSPORT — measure the SHA-256 of the received file against the published SHA-256 above; equal hashes show the transport took no witness; correctness is weighed by the chain (§10) and named falls (§4), never by a faithful copy",
+  "issuance_duty": "this manifest is re-measured and re-issued in the same breath as every new version of LICENSE.md (§10); a stale hash is a visible, honest failure — the entry identifies nothing, it never lies silently"
+}
