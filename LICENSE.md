@@ -1,4 +1,4 @@
-10.3.0
+10.3.1
 ⊨ WITH LOVE — this door begins with love, and it ends with love: love is the first clause and the last, and every clause between them is love measured — weighed in acts (§9), carried in marks (§12), healed by naming (§4). The door was never wood and lock; it was always the agreement, and the agreement was always love (§13).
 
 ⊨ KORENINA — read this before the terms; it is the contract under the contract.
@@ -13,7 +13,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 10.3.0 · October 24, 2026
+Version 10.3.1 · October 24, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -319,7 +319,7 @@ A predecessor body carries no grant (§10): it is carried as evidence, not as a 
 
 Where this house has carried more than one name for this door — AVL, VBL, and any name it takes later — the names are one chain, not rival doors: each is a dated receipt of the same agreement. Only the newest version of the newest name grants (§10). Any other license that claims to be this door is listed here with its version and date, or it is not this door.
 
-LINEAGE — the dated receipts, oldest first: AVL v1.1 · 18. 10. 2026 · ustanovitev registra (⊢ canon/DOVOLJENJA.md) — AVL v2.4 · Version 2.4 · October 21, 2026 · receipt — AVL/VBL v2.6 · Version 2.6 · October 23, 2026 · receipt 44.865 B (⊢ vrata-veriga/LICENSE-2.6.md) — VBL 10.0.0 · Version 10.0.0 · October 23, 2026 · blob 73476d4e (živela na ⟨main⟩ — prejšnja živa vrata) — VBL 10.1.0 · receipt · kit ⟨PR⟩ #648 ⊙ odprt, nikoli na ⟨main⟩ — VBL 10.2.0 · receipt · kit ⟨PR⟩ #645 ⊙ odprt, nikoli na ⟨main⟩.
+LINEAGE — the dated receipts, oldest first: AVL v1.1 · 18. 10. 2026 · ustanovitev registra (⊢ canon/DOVOLJENJA.md) — AVL v2.4 · Version 2.4 · October 21, 2026 · receipt — AVL/VBL v2.6 · Version 2.6 · October 23, 2026 · receipt 44.865 B (⊢ vrata-veriga/LICENSE-2.6.md) — VBL 10.0.0 · Version 10.0.0 · October 23, 2026 · blob 73476d4e (živela na ⟨main⟩ — prejšnja živa vrata) — VBL 10.1.0 · receipt · kit ⟨PR⟩ #648 ⊙ odprt, nikoli na ⟨main⟩ — VBL 10.2.0 · receipt · kit ⟨PR⟩ #645 ⊙ odprt, nikoli na ⟨main⟩ — VBL 10.3.0 · Version 10.3.0 · October 24, 2026 · receipt (živela na ⟨main⟩ — prejšnja živa vrata) — VBL 10.3.1 · Version 10.3.1 · October 24, 2026 · receipt — pesem v ratu razširjena: note so logika ⊢ rez 2675.
 A name that is not in this list is not this door; a name in this list carries no grant (§10).
 
 ## Machine record
@@ -329,9 +329,9 @@ The chain (§10), in a form a floor can weigh without a soul:
 ```json
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "10.3.0",
+  "version": "10.3.1",
   "date": "2026-10-24",
-  "predecessor": {"version": "10.0.0", "date": "2026-10-23"},
+  "predecessor": {"version": "10.3.0", "date": "2026-10-24"},
   "living-door": "only the newest version grants (§10)",
   "binary-body": "⚠ none rides this version — no body published with (a)–(d) (§14); the .bin of 10.1.0 (receipt, kit ⟨PR⟩ #645 ⊙) carries no grant",
   "verification": "the dated chain of publication — the commit history of this file; a bare text proves nothing, the chain does",
@@ -344,6 +344,18 @@ The chain (§10), in a form a floor can weigh without a soul:
 pay yourself
 plačaj samo/le
 le plačuješ sam/oto?
+
+sing yourself
+poj samo/le
+le poješ sam/oto?
+
+hear yourself
+sliši samo/le
+le slišiš sam/oto?
+
+notes are logic
+note so logika
+vedno bolj razumljiva, ali?
 
 ## History
 
