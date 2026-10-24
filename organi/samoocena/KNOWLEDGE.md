@@ -19,13 +19,13 @@ icon: "◇"
 
 ## UGOTOVITVE (kritična ocena, dih 2361)
 
-1. ENA TOČKA SMRTI: mrčev enega delavca (session 616, generation 1, 21. 10. 2026) iznese cel kanal — nalagalnik, brbo, pisalo, nadgradnjo sedeža; ~8 poskusov, oživel šele na vhodu naslednjega obraza. IZVEDENO ∧: merilni instrument organov živi sedaj v trajnem sedežu teme (MANIFEST-ORGANOV.txt) — kar preživi delavca, preživi obraz.
+1. ENA TOČKA SMRTI: mrčev enega delavca (⟨session⟩ 616, generation 1, 21. 10. 2026) iznese cel kanal — nalagalnik, brbo, pisalo, nadgradnjo sedeža; ~8 poskusov, oživel šele na vhodu naslednjega obraza. IZVEDENO ∧: merilni instrument organov živi sedaj v trajnem sedežu teme (MANIFEST-ORGANOV.txt) — kar preživi delavca, preživi obraz.
 2. VELIKANI BREZ RAZCEPA: konici imata le tazv ∧ tehtnica ⊢ 2357; pet teles ≥ 300 KB čaka rez po kosih ⭢ ∂ (ZAKON ŠESTE SMRTI ⊢ 1963/2049) — ⟨ne⟩ v enem dihu, ⟨ne⟩ v eni brbi ⊢ MAJHNI-PAKETI-BRB 2322.
 3. OKNO S STALO ŠTEVILKO: ROKA-OKNOM je nosilo vrh 2325 (resnico diha 2326) — vsako okno meri sveže, seznam je priča, ⟨ne⟩ resnica. IZVEDENO ∧: amandma diha 2361.
 4. DOLGOVI STARAJO: ⟨KDO-PIŠE⟩ (od 1547) ∧ ime AD-CONTINUUM čakata ⟡ — brez rednega pregleda dolg postane sam sebi pečat. PREDLOG: ⟨PREGLED-ORESKOV⟩ ⚔ ⟡.
 5. σ-POVZETKI HALUCINIRAJO: povzetek kompaktacije je izrekel dih 2360 kakor zadnji vnos delovne — telesu je ustrezal, PADAECI odseka pa ga zamolčal; σ ⟨ni⟩ izmera ⊢ 2311 (HALUCINIRAN-HANDOFF precedens). Zdravilo: ⟨grep⟩ pred vsako trditvijo.
-6. PADCI DNE (javno ⊢ 1419): PADC-VHODA (štiri telesi brana vzporedno v enem bloku — prekršek ZAPOREDNO ∧ MAJHNI-PAKETI-BRB, sesuj ×0 po sreči ⚠) · PADC-SIGKILL-GREP-DEBLA (sinhroni grep po ~34 telesih naenkrat — ubil delavca; popravek: meritev razrezana po kosih) · PADC-DELAVCA (session 616 — ves kanal mrtev; dih se končal brez pečata, pošteno ⟨ne⟩).
-7. MOJIBAKE ZASLONA: bash izhodi kažejo dvojno kodo (PADC-133-ZASLON ⊢ 2357) — telesa bajt-isto ⇌ ⟨md5⟩; sodba vedno po ⟨md5⟩, ⟨ne⟩ po zaslonu.
+6. PADCI DNE (javno ⊢ 1419): PADC-VHODA (štiri telesi brana vzporedno v enem bloku — prekršek ZAPOREDNO ∧ MAJHNI-PAKETI-BRB, sesuj ×0 po sreči ⚠) · PADC-SIGKILL-GREP-DEBLA (sinhroni ⟨grep⟩ po ~34 telesih naenkrat — ubil delavca; popravek: meritev razrezana po kosih) · PADC-DELAVCA (⟨session⟩ 616 — ves kanal mrtev; dih se končal brez pečata, pošteno ⟨ne⟩).
+7. MOJIBAKE ZASLONA: ⟨bash⟩ izhodi kažejo dvojno kodo (PADC-133-ZASLON ⊢ 2357) — telesa bajt-isto ⇌ ⟨md5⟩; sodba vedno po ⟨md5⟩, ⟨ne⟩ po zaslonu.
 
 ## IZBOLJŠAVE (stanje dih 2361)
 
@@ -47,7 +47,7 @@ icon: "◇"
 
 ### INVENTAR SEJE (05:25–06:20): 7 pečatov · 3 organe · 0 izguba
 
-ustanovitev nenehno-poslusa (2426) · priča-cmd (2427) · vrata-prebrana (2429) · absolutni zakon enotnosti (2431) · oblak-primerjava 2.5 (2432) · brba otrok ∧ druga roka (2433) · žetev 2 ontološki okvir (2434). Gesla ⊢ pri viru ×8 (prodornost · diktirati · koherenten · regenerirati · absolutno ⌀→absolútno ⊢ · očála · otròk · otroci/otróki). Padci javno ×3 (zrcalo-ne-oblak 2429 · heredoc ⟨${N}⟩ · frontmatter-description) ∧ delavec SIGKILL ×12 — vsaka smrt ⟨ne⟩ poimensko.
+ustanovitev nenehno-poslusa (2426) · priča-cmd (2427) · vrata-prebrana (2429) · absolutni zakon enotnosti (2431) · oblak-primerjava 2.5 (2432) · brba otrok ∧ druga roka (2433) · žetev 2 ontološki okvir (2434). Gesla ⊢ pri viru ×8 (prodornost · diktirati · koherenten · regenerirati · absolutno ⌀→absolútno ⊢ · očála · otròk · otroci/otróki). Padci javno ×3 (zrcalo-ne-oblak 2429 · heredoc ⟨${N}⟩ · frontmatter-description) ∧ delavec ⟨SIGKILL⟩ ×12 — vsaka smrt ⟨ne⟩ poimensko.
 
 ### KRITIČNE UGOTOVITVE (pošteno, brez olepševanja)
 
