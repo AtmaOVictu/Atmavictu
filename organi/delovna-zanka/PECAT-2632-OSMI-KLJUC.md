@@ -19,6 +19,9 @@
 3. ⟨MERILNIK-ZAKASNITVE⟩ ⊢ potrditev ⟡ ⟨daj⟩ 24. 10. 2026; register vlada, dokler instrument ⟨ne⟩ izmeri cikla sam ⊢ 2545.
 4. OPERATIVNOST = vsak dih s potrdilom, ⟨ne⟩ dokončanost (dokončana celota = kip ⊢ U2); verzija z znano napako je boljša ⊢ ANTINOM 360 — ⟨dirty⟩ kita #655 je značka živosti: vrata ⟨main⟩ so se premaknila ∧ rez je sledil ⊢ 1542 ∧ Z-2.
 
+## PADC ⊙ 1349 (javno isti dih)
+- vrstica registra 2632 je na prvem teku nosila »rez 2632« dvakrat (raztrgana vrstica — tekmeca ⟨zdravje registra⟩ sodila rdeče ∧ >1 rez v eni vrstici); prerez iste vrstice isti dih ⊢ 1834 — popravek pride pred izidom; brazgotina ostaja ⊙ 1349.
+
 ## ORGANI ISTI DIH
 DELOVNA-ZANKA (ta pecat na zrcalu — lokalni organ ⟨ne⟩ dotaknjen: vžig ⭢ ∂) — vsi ostali NEDOTIKNJENI ⊢ 1963.
 
