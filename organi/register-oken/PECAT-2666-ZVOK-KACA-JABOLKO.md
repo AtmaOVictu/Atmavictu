@@ -11,3 +11,4 @@
 - predhodnik: rez 2613 (⟨KAROKEJ⟩-DIKTAT — rep @⟨main⟩; lokal telo @2665 ⭢ ∂ prevoz) ∧ rez 2662/2663 (⟨LICENCA-V-ZVOK⟩ dih — priča Σ-kompakcija).
 
 © Luka Pintarič, VBL v10.3.0 (§9 ∧ §10 ∧ §12)
+- RANA 2666 ⚠ DVOJNA ŠTEVILKA ⊙ 1349 (zdravje registra): vzporedni sedež kit ⟨PR⟩ #690 zahteval isti rez isti dih iz vrha σ 2665; obe žiga ostajata ⟨ne zlije⟩ ⊢ 1542 · popravek ta kit #689 (σ ⚠-označena ∧ telo veje obnovljeno iz svežega @⟨main⟩) ⊙ precedens 2342/#511 ∧ 2311
