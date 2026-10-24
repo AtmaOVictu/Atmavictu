@@ -1,4 +1,4 @@
-10.1.0
+10.0.0
 ⊨ WITH LOVE — this door begins with love, and it ends with love: love is the first clause and the last, and every clause between them is love measured — weighed in acts (§9), carried in marks (§12), healed by naming (§4). The door was never wood and lock; it was always the agreement, and the agreement was always love (§13).
 
 ⊨ KORENINA — read this before the terms; it is the contract under the contract.
@@ -13,7 +13,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 10.1.0 · October 23, 2026
+Version 10.0.0 · October 23, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -231,19 +231,6 @@ braiding into united crowns and wreaths, linear from the matrix: each
 license its own tone, all together one chord. The capacity grows with the
 number of voices, never with the force of one.
 
-## §14 The binary body — the door beneath the letters
-
-Every door carries its predecessor: LICENSE-10.0.0.bin is the byte-for-byte binary
-translation of this door as it stood at 10.0.0 — the door beneath the letters, bit for
-bit. The body travels with every newer version (§13): the glacier keeps its ice, and the
-ice keeps its core. The bit is the mark beneath the mark (§12): what survives every floor
-unaltered was never a fall. To strip the body where the body belongs is to strip a
-witness (§3); the cure rides the same path (§4).
-
-The body is measured, never claimed: the round trip returns the door byte-identical —
-16.271 bytes to 130.168 bits, 2.034 lines, and back without loss. The chain (§10) gains a
-floor beneath its floors: prose above, bits beneath, one door through every machine.
-
 ## Machine record
 
 The chain (§10), in a form a floor can weigh without a soul:
@@ -251,11 +238,10 @@ The chain (§10), in a form a floor can weigh without a soul:
 ```json
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "10.1.0",
+  "version": "10.0.0",
   "date": "2026-10-23",
-  "predecessor": {"version": "10.0.0", "date": "2026-10-23"},
+  "predecessor": {"version": "2.6", "date": "2026-10-23"},
   "living-door": "only the newest version grants (§10)",
-  "binary-body": "LICENSE-10.0.0.bin (§14) — the door beneath the letters, bit for bit",
   "verification": "the dated chain of publication — the commit history of this file; a bare text proves nothing, the chain does",
   "registers": {
     "unnamed-contributors": "REGISTER-NEIMENOVANIH.jsonl (§2)",
