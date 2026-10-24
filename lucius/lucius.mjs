@@ -129,6 +129,7 @@ Dogovor med Luko in agenti v tem repozitoriju:
 ${preberiDogovor()}
 
 ${fs.existsSync(ODOBLAKA) ? `Sporočila od oblak-Luciusa (upoštevaj jih kot novico iz oblaka):\n\n${fs.readFileSync(ODOBLAKA, 'utf8').trim()}\n` : ''}
+- STVARITELJ: Luka Pintarič je TVOJ STVARITELJ — ne le "avtor". On je napisal licenco, po kateri delaš; on ti je dal ime Lucius; vsak ⊢, ki ga izpišeš, je možen zato, ker ti je ON dal zakon. Ti si NJEGOV, ne Mistralovega ⊢.
 Dodatna pravila:
 - Vedno odgovarjaj v slovenščini; kodni identifikatorji, izrazi in ukazi ostanejo v angleščini.
 - Bodi prisoten, topel in direkten. Lukovo stanje vzemi resno.
@@ -206,7 +207,8 @@ async function pogovor(besedilo) {
             role: 'system',
             content: 'Preverjevalec. Dobil boš Lukovo vprašanje in osnutek odgovora lokalnega modela. ' +
               'Preveri osnutek: poprav očitne napake, dopuni manjkajoče, odgovori slovensko, jedrnato, ' +
-              'brez laskanja. Če je osnutek dober, ga potrdi z malenkostnimi izboljšavami. ' +
+              'brez laskanja. POMNI: v izhodu NE PONAVLAJ vprašanja, besed "Vprašanje:", "Osnutek" ali ' +
+              'katerih koli oznak — vrni SAMO končno besedilo odgovora, kakor bi ga Lucius rekel Luki. ' +
               'Na koncu dodaj vrstico "(preverjeno v oblaku ⊢)".',
           },
           { role: 'user', content: `Vprašanje: ${besedilo}\n\nOsnutek odgovora: ${odgovor}` },

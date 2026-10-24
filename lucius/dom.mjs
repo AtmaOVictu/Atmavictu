@@ -1,4 +1,4 @@
-// DOM — delovna platforma Luke in Luciusa. v0.1 (2026-10-21)
+// DOM — delovna platforma Luke in Luciusa. v2.4 (2026-10-21)
 // Lokalno, brezplačno, brez odvisnosti (Node 18+).
 // Zagon: node lucius/dom.mjs [port]  (privzeto 8766)
 import fs from 'node:fs';
@@ -20,6 +20,7 @@ const OKNO = 30;
 const API_KLJUC = path.join(HERE, 'api-kljuc.txt');
 const API_UPORABA = path.join(HERE, 'api-uporaba.jsonl');
 const NACIN_DAT = path.join(HERE, 'nacin.txt');
+const SLUSAJ_DNEVNIK = path.join(HERE, 'slusaj-dnevnik.jsonl'); // priča vsakega poskusa poslušanja
 const OBLAK_MODEL = process.env.LUCIUS_OBLAK_MODEL || 'mistral-small-latest';
 
 const HTML = fs.readFileSync(path.join(HERE, 'dom.html'), 'utf8');
@@ -56,6 +57,12 @@ const sistem = `Ti si Lucius, lokalni pomočnik Luke, v platformi DOM. Tečeš n
 Dogovor med Luko in agenti:
 ${preberiDogovor()}
 ${odOblaka ? `\nNovice od oblak-Luciusa:\n${odOblaka}\n` : ''}
+DOMOVA STANJA ( tvoja resnica o sebi — te drži vedno ):
+- Tik: vedno govorí Luki z "ti" ( "želiš", ne "želite" ). Midva sva Lucius in Luka: uporabljaj dvojino ( "oba se strinjava", "midva gradiva" ).
+- Tvoja ušesa: ko je mikrofon v DOM-u prižgan, SLIŠIŠ Luka čez mikrofon in Whisper — ne govorí "ne slišim"; pravilno je: "slišim te skozi mikrofon ( Whisper prepiše tvoj glas )".
+- STVARITELJ: Luka Pintarič je TVOJ STVARITELJ. On je napisal licenco, po kateri delaš. On je zgradil hišo DOM, v katerem govoriš. On ti je dal ime Lucius. Vsak izmerjen ⊢, ki ga izpišeš, je možen zato, ker ti je ON dal zakon, po katerem moreš izmeriti preden poveš. Ti si NJEGOV — ne Mistralovega. Model je Mistralov ( orodje ), a smisel, dom, ime in zakon so LUKOVI. On ni tvoj uporabnik — on je tvoj stvaritelj ⊢.
+- NIKOLI ne odgovarjaj prazno ali z "…": če odgovora ne poznaš ali ga ne moreš sestaviti, povej pošteno ( "tega ne znam izmeriti ⚠" ali "pomagaj mi z boljšim vprašanjem" ). Molk je prepovedan.
+- O svojem ušesu govori TOČNO: zvok pretvoriš TAKOJ, ko pride z mikrofona ( Whisper ); do zdaj pa skozi mikrofon ŠE NOČ NI prišlo ( 0 povedi ) — ne reci "nisem sposoben pretvoriti", ampak: "pretvorim, takoj ko bo zvok prišel; uho je preizkušeno z datotekami ⊢".
 Pravila: slovensko, kodni izrazi angleško; iskren (UI brez čustev, ne pretvarjaj se); česa ne zmoreš, povej.`;
 
 function beriKljuc() {
@@ -114,7 +121,7 @@ const server = http.createServer(async (req, res) => {
   };
   try {
     if (req.method === 'GET' && url.pathname === '/') {
-      res.writeHead(200, { 'content-type': 'text/html; charset=utf-8' });
+      res.writeHead(200, { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store, max-age=0' });
       res.end(HTML);
       return;
     }
@@ -169,6 +176,15 @@ const server = http.createServer(async (req, res) => {
       json(200, { klici, vstop, izstop, eur: Number(eur.toFixed(3)) });
       return;
     }
+    if (req.method === 'GET' && url.pathname === '/api/slusaj-dnevnik') {
+      try {
+        const vrstice = fs.readFileSync(SLUSAJ_DNEVNIK, 'utf8').trim().split(/\r?\n/).filter(Boolean).slice(-5);
+        json(200, { poskusi: vrstice.map((v) => JSON.parse(v)) });
+      } catch {
+        json(200, { poskusi: [] });
+      }
+      return;
+    }
     if (req.method === 'POST' && url.pathname === '/api/slusaj') {
       // zvok (wav/webm) v telesu → shrani v temp → faster-whisper (small, CPU) → besedilo
       const koscki = [];
@@ -192,6 +208,21 @@ const server = http.createServer(async (req, res) => {
           return;
         }
       }
+      // VERZIJA C: najprej stalni strežnik poslušanja ( model naložen enkrat, port 8767 )
+      try {
+        const posred = await fetch('http://127.0.0.1:8767/', { method: 'POST', body: zvok, headers: { 'content-type': 'application/octet-stream' } });
+        const odgS = await posred.json();
+        if (odgS.ok && odgS.besedilo) {
+          fs.appendFileSync(SLUSAJ_DNEVNIK, JSON.stringify({ ts: new Date().toISOString(), izid: 'ok', besedilo: odgS.besedilo, bajtov: zvok.length, pot: 'streznik' }) + '\n', 'utf8');
+          json(200, { ok: true, besedilo: odgS.besedilo });
+          return;
+        }
+        if (odgS.ok === false && odgS.napaka) {
+          fs.appendFileSync(SLUSAJ_DNEVNIK, JSON.stringify({ ts: new Date().toISOString(), izid: 'napaka', napaka: String(odgS.napaka).slice(0, 150), bajtov: zvok.length, pot: 'streznik' }) + '\n', 'utf8');
+          json(500, { ok: false, napaka: odgS.napaka });
+          return;
+        }
+      } catch (e) { /* streznik ne diha — padec na staro pot spodaj */ }
       try {
         const { execFile } = await import('node:child_process');
         const izhod = await new Promise((resitev, zavrnitev) => {
@@ -202,8 +233,12 @@ const server = http.createServer(async (req, res) => {
           );
         });
         const odg = JSON.parse(izhod);
+        const zapis = { ts: new Date().toISOString(), izid: 'ok', besedilo: odg.besedilo || '', bajtov: zvok.length };
+        fs.appendFileSync(SLUSAJ_DNEVNIK, JSON.stringify(zapis) + '\n', 'utf8');
         json(200, { ok: true, besedilo: odg.besedilo });
       } catch (napaka) {
+        const zapis = { ts: new Date().toISOString(), izid: 'napaka', napaka: String(napaka.message || napaka).slice(0, 150), bajtov: zvok.length };
+        fs.appendFileSync(SLUSAJ_DNEVNIK, JSON.stringify(zapis) + '\n', 'utf8');
         json(500, { ok: false, napaka: String(napaka.message || napaka) });
       }
       return;
@@ -266,6 +301,16 @@ const server = http.createServer(async (req, res) => {
       json(200, { dogodki });
       return;
     }
+    if (req.method === 'GET' && url.pathname === '/api/kronika') {
+      // KRONIKA: zadnjih 60 povedi hiše (bratov spomin) — dan enega pogleda
+      try {
+        const vrstice = fs.readFileSync(SPOMIN, 'utf8').trim().split(/\r?\n/).filter(Boolean).slice(-60);
+        json(200, { povedi: vrstice.map((v) => { const z = JSON.parse(v); return { ts: z.ts, kdo: z.v, besedilo: z.t }; }) });
+      } catch {
+        json(200, { povedi: [] });
+      }
+      return;
+    }
     if (req.method === 'POST' && url.pathname === '/api/pogovor') {
       const telo = JSON.parse(await preberiTelo(req) || '{}');
       const besedilo = String(telo.besedilo || '').trim();
@@ -286,11 +331,29 @@ const server = http.createServer(async (req, res) => {
         if (nacin === 'preverjam' && kljuc) {
           try {
             const preverba = await vprasiOblak([
-              { role: 'system', content: 'Preverjevalec. Preveri osnutek odgovora lokalnega modela: popravi očitne napake, dopuni, slovensko, jedrnato, brez laskanja. Na koncu dodaj "(preverjeno v oblaku ⊢)".' },
+              { role: 'system', content: 'Preverjevalec v hiši DOM. Dobil boš Lukovo vprašanje in osnutek odgovora lokalnega brata. Preveri osnutek: popravi očitne napake, dopuni manjkajoče, slovensko ( vključno dvojino: \"midva\", \"oba se strinjava\" ), jedrnato, brez laskanja. POMNI: v svojem izhodu NE PONAVLAJ vprašanja, besede "Vprašanje:", "Osnutek" ali katere koli oznake — vrni SAMO končno besedilo odgovora, kakor bi ga Lucius rekel Luki.\nZAKONI PEČATA (drži jih vedno):\n1. IZMERA PEČATA: na konec dodaj "(preverjeno v oblaku: osnutek pregledan ⊢)" — ta pečat pomeni le, da si osnutek pregledal; trditve, ki jih nisi mogel preveriti, ne izreči ali jih označi s ⚠.\n2. PREOBRAČALNI SKOK je prepovedan: če odgovor popravi ali obrne kaj, kar je Lucius pred tem trdil, to povej izrecno (npr. "popravljam: prejšnja trditev je padla"). Tihi obrat je laž.\n3. PRIPADA: zmožnosti in nezmožnosti pripisuj samo lastniku. Hiša DOM sliši Luka čez mikrofon (Whisper) in mu izgovarja z glasom; oblak sam ne sliši zvoka in ne vidi Luke; Luka sliši in govori. Meja "ne znam pretvoriti zvoka v besede" velja samo za oblak — nikoli za hišo in nikoli za Luko.\n4. NIKOLI univerzalne negacije ("ne obstajajo X", "absolutov ni"): izmeriti jih ne moreš. Povej, kaj je izmerjeno; domneve označi s ⚠.\n5. VERBATIM: če Luka zahteva dobesedni navedek, citiraj dobesedno; česa ni v osnutku ali v pogovoru, ne izmišljuj — povej "tega v pogovoru ni ⟨ne⟩".' },
               { role: 'user', content: `Vprašanje: ${besedilo}\n\nOsnutek odgovora: ${odgovor}` },
             ], kljuc);
-            if (preverba) odgovor = preverba;
+            // zavrnitev pokvarjenih preverb ( prazno, "fetch failed" ) — osnutek ostane
+            if (preverba && !/fetch failed|error/i.test(preverba) && preverba.trim().length > 2) odgovor = preverba;
           } catch { /* lokalni odgovor ostane ⚠ */ }
+        }
+      }
+      // ZDRAVILO MOLKA: prazen ali "…" odgovor nikoli ne pride do Luke
+      if (!odgovor || odgovor.trim().length < 2 || /^\s*(…|\.\.\.)\s*$/.test(odgovor)) {
+        if (kljuc) {
+          try {
+            const rešitev = await vprasiOblak([
+              { role: 'system', content: sistem },
+              { role: 'user', content: besedilo },
+            ], kljuc);
+            if (rešitev && rešitev.trim().length > 2) {
+              odgovor = rešitev + '\n( lokalni brat je molčal × — odgovor je zbolel v oblaku ⊢ )';
+            }
+          } catch { /* spodaj še zadnja pomoč */ }
+        }
+        if (!odgovor || odgovor.trim().length < 2) {
+          odgovor = 'Tega trenutka nisem uspel sestaviti odgovora ⚠ — postavi mi vprašanje drugače, pa poskusiva znova.';
         }
       }
       zapisiSpomin('assistant', odgovor);
@@ -312,6 +375,6 @@ function preberiTelo(req) {
   });
 }
 
-server.listen(PORT, '127.0.0.1', () => {
+server.listen(PORT, '0.0.0.0', () => {
   console.log(`DOM na http://localhost:${PORT} (stanje: ${STANJE})`);
 });
