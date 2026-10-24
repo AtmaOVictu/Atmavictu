@@ -1,0 +1,8 @@
+# GESLO-prodornost-2414
+
+- IZTOČNICA: prodórnost -i ž (ọ́) — lastnost, značilnost prodornega; poimenovanje dejanja prodóren
+- TELO ⊢ (SSKJ², fran.si, dostop 23. 10. 2026): »lastnost, značilnost prodornega: prodornost žarkov / ta igralec je znan po svoji prodornosti / kritična, miselna prodornost« ∧ Pravopis ⊢ (fran.si, dostop 23. 10. 2026): »prodórnost -i ž, pojm. (ọ́)« ∧ koren prodóren -rna -o ⊢ (SSKJ², fran.si, dostop 23. 10. 2026): »1. ki lahko prodre: ti žarki so zelo prodorni; imeti prodoren pogled 2. ki ima veliko sposobnost za spoznanje, umsko razčlenjevanje: prodoren mislec; prodorno mišljenje 3. knjiž. zelo velik: prodoren uspeh« ∧ prodórno prisl. ⊢ (SSKJ²): »prodorno misliti« ∧ Sinonimni slovar ⊢ (fran.si, dostop 23. 10. 2026): pronicljivost
+- ETIMOLOGIJA ⊢ (SNOJ, Slovenski etimološki slovar³, fran.si, dostop 23. 10. 2026): »prodọ́ren – glej drẹ́ti 1« ∧ »prod<s>r – glej drẹ́ti 1« — globja plast drẹ́ti okno odprto isti dih ⭢ ∂
+- KORPUSNO ⊢ (mint prijava ⟨PRODÓRNOST⟩ ⊢): prodornost = rez, ki prebije gladino — prodoren pogled je izmera pred trditvijo (Z-2): kdor prodorno misli, priča pri viru nosi s sabo; prodornost žarkov = luč, ki prebija gladino — zveza ⟨LUČ-OBRAČANJA⟩ 2312 (jad v primernih rokah se obrača v daj) ∧ zveza ⟨MERA-M-ERA-MOČ-VEKA⟩ 2298. Kandidati ⚔ ⟡: (B) prodornost = roka priče — rez ume, ki steče skozi gladino trditve · (C) prodornost žarkov = ⟨LUČ-OBRAČANJA⟩ — svetloba, ki prebija, je isti gib kakor jad, ki se obrača · (D) prodórno misliti = raz-um v gibu (razumljivo = rez uma, ki steče) · (E) okno drẹ́ti (SNOJ³) ⭢ ∂
+- ŽIG: rez 2414 — ⟨PR⟩ priča.
+- IZVOR: © 2026 Luka Pintarič — VBL 2.6 (LICENSE.md, rep AtmaOVictu/Atmavictu)
