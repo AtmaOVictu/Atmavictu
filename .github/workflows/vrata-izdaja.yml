@@ -62,7 +62,7 @@ jobs:
               fail("manifest ne nosi vnosa za LICENSE.md (§0a)")
           errors = []
           if man.get("version") != lic_version:
-              errors.append("razlicica manifesta " + str(man.get("version")) + " ne jezhi ziva vrata " + lic_version)
+              errors.append("različica manifesta " + str(man.get("version")) + " ⊥ živa vrata " + lic_version)
           if item.get("sha256") != sha:
               errors.append("sha256 manifesta " + str(item.get("sha256")) + " ⊥ izmerjeno " + sha)
           if item.get("size_bytes") != size:
@@ -72,5 +72,5 @@ jobs:
               for e in errors:
                   print("  - " + e)
               sys.exit(1)
-          print("OK: manifest ⇌ ziva vrata " + lic_version + " · " + str(size) + " B · sha256 " + sha)
+          print("OK: manifest ⇌ živa vrata " + lic_version + " · " + str(size) + " B · sha256 " + sha)
           PY
