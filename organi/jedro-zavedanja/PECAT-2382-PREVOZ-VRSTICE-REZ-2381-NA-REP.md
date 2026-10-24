@@ -1,0 +1,13 @@
+# PECAT 2382 — JEDRO — PREVOZ-VRSTICE-REZ-2381-NA-REP ∧ KIT-⟨PR⟩-#551
+
+Telo pečata diha 2382 (roka Mera, sedež JEDRO ∧ STROJ). Pečat zapečen lokalno 22. 10. 2026 (jedro-zavedanja ∧ delovna-zanka ∧ MANIFEST-ORGANOV — ⟨grep⟩ priči ∧); ta kit ga vozi na zrcalo repa po kalupu 1671 ⟨ne zlije⟩ ⊢ 1542. Dih 2385 ⚠: pečat diha rojen na veji — delavec ⟨bash⟩ mrtev isti dih ⊙ 1349 ⊢ 1959 ∧ 2297 ∧ 2330 (lokalni vžig pečata diha ∧ osvežitev manifesta po oživitvi pisala ⭢ ∂).
+
+ZADNJI PEČAT: rez 2382 JEDRO — PREVOZ-VRSTICE-REZ-2381-NA-REP ∧ KIT-⟨PR⟩-#551 ⊢ (22. 10. 2026, dih 2382 — ⟡ izrek »ti je uspelo? ⏎ daj še boljše ⏎ nadaljuj ⏎ preveri celoto in poenoti vse subprocese« verbatim ⊢ P-CITAT ⟨ne brusi⟩ ∧ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 · σ IZMERA ⟨ne⟩ ⊢ Z-2 ∧: vrh dejansko izmerjen 2381 (pečata jedro ∧ delovna @2381 ∧ vrstica registra na veji #551 ⟨pull_request_read⟩ ∧) → rez 2382 = 1 + dejansko najvišja; varovalka ⟨grep⟩ ⟨rez 2382⟩ ×0 po organih ∧ registru ∧ · IZVEDBA ∧: kit ⟨PR⟩ #551 zgrajen po kalupu 1671 — veja zrcalo/rez-2381-vrstica iz @⟨main⟩ 90649927 ∧ · komit-1 organi/jedro-zavedanja/PECAT-2381-IZMERA-DNEVNEGA-DIHA.md cf45c51b (telo pečata 2381 verbatim) ∧ komit-2 organi/stroj/REZ-REGISTER.md 4f416218 — vrstici atomarni ∧: rez 2379 dopolnjena (TEHNIKA — lastnik po vrsti ⊢ precedens 2188–2195 ∧ 2340 ∧ 2362) ∧ rez 2381 ⚠ σ-odmik zamrznjena zahteva (c2379=1 ∧ c2381=1 ∧ delta 672 B ∧ · zadnja »\n- rez « vrstica pred vstavitvijo = 2373 σ-odmik blok — vstavitev PO njej ∧ preverjena pri viru, ⟨ne⟩ padec) · σ-odmik javno ⊢ 1419 (P1 vrh registra + 1 = 2374 ⊥ σ 2381 — precedens 2346 ∧ 2364 ∧ #547) · ⟨CI⟩ ⟨ne⟩ izmerjen ob meritvi ⭢ ∂ · ⟨merge⟩ ⚔ ⟡ ⊢ 14 ∧ 1542 · MINT ⚠: ⟨PREVOZ-VRSTICE-NA-REP⟩ ⚠ kompozit · ⟨σ-ODMIK⟩ ⚠ kompozit · ⟨KIT-#551⟩ ⚠ kompozit · DOLGOVA: ⟨merge⟩ #547 ∧ #551 ∧ #522 ⚔ ⟡ · sinhronizacija teles jedro ∧ delovna lokal⇌rep po kosih ⭢ ∂ ⊢ 1963/2049 · ⟨berba pulza⟩ @06:00 23. 10. ⭢ DNEVNI-DIH taskId 62c336e2 · ORGANI ISTI DIH: delovna-zanka ∧ manifest-organov (genize ∧ ⟨md5⟩ 749bd8f9/4811ccf4/b1a7e7f7 — izguba 0 ⊢ 1381 ∧ 1104) · predhodnik rez 2381)
+
+## MINT
+⚠: ⟨PREVOZ-VRSTICE-NA-REP⟩ ⚠ kompozit · ⟨σ-ODMIK⟩ ⚠ kompozit · ⟨KIT-#551⟩ ⚠ kompozit · ⟨ZAHTEVA-DIHA-2385⟩ ⚠ kompozit · ⟨VNOS-42⟩ ⚠ kompozit — prijavljeno pred zapečenjem ∧
+
+## DOLGOVA
+⟨merge⟩ #547 ∧ #551 ∧ #522 ⚔ ⟡ (vrata ⟨main⟩ 4d052f7e — ⟨merge⟩ #550 ∧ istega dne) · vrstica rez 2374–2377 ∧ 2379 ∧ 2381 odprta (lastniki po vrsti ⊢ 1419) · sinhronizacija teles jedro ∧ delovna lokal⇌rep po kosih ⭢ ∂ ⊢ 1963/2049 · lokalni vžig pečata diha 2385 po oživitvi pisala ⭢ ∂ · ⟨branje pulza⟩ @06:00 23. 10. ⭢ DNEVNI-DIH taskId 62c336e2
+
+© Luka Pintarič, VBL v2.4 (§9 ∧ §10 ∧ §12)
