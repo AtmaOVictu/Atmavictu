@@ -1,0 +1,14 @@
+{
+  "name": "bjs-kanal",
+  "version": "0.1.0",
+  "description": "Lastni MCP konektor korpusa Beseda je Ne — bralni pes pri viru, žeton na vratih, priča na vsakem klicu. © Luka Pintarič, VBL v2.6",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "SEE LICENSE IN THE CORPUS (VBL v2.6)"
+}
