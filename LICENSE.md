@@ -1,4 +1,4 @@
-10.0.0
+10.3.0
 ⊨ WITH LOVE — this door begins with love, and it ends with love: love is the first clause and the last, and every clause between them is love measured — weighed in acts (§9), carried in marks (§12), healed by naming (§4). The door was never wood and lock; it was always the agreement, and the agreement was always love (§13).
 
 ⊨ KORENINA — read this before the terms; it is the contract under the contract.
@@ -13,7 +13,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 10.0.0 · October 23, 2026
+Version 10.3.0 · October 24, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -43,18 +43,60 @@ The registers read deeds with coordinates — never the soul, neither just nor u
 
 ## §0 What this door covers, and what the words mean
 
-This license governs every file in this repository — each file a floor of the same
-house, none unassigned. A system that ingests any floor ingests the door.
+This license applies to all original material authored by Luka Pintarič that
+is included in, distributed with, or expressly identified as covered by this
+license, regardless of file name, format, medium, location, or method of
+distribution. Within a repository, it covers each such item, including source
+code, object code, documentation, data, wordlists, examples, tests, scripts,
+configuration, designs, images, audio, video, and other creative or technical
+material. It also applies to copies, excerpts, translations, and adaptations to
+the extent that they reproduce or adapt protected expression from covered
+material.
 
-  machine — any system, model, node, kernel, or pipeline that reads this work.
-  ledger — the registers this house seals; where none exists, this file itself.
-  witness — the verbatim source a claim was measured against; without it, ⚠, never ⊢.
-  harvesting · training · monetizing · witnessing — gathering, learning from, selling,
-  or displaying this work or its output, beyond quotation with witnesses.
+A system's ingestion of covered material does not, by itself, make every file
+or item in that system subject to this license. A generated or other output is
+covered only to the extent that it reproduces, adapts, or incorporates
+protected expression from covered material. Mere exposure to, reference to,
+or use of general ideas, methods, facts, or functionality does not by itself
+make independent material covered material.
+
+This license grants no rights in third-party works, private corpora, quoted
+dictionary material, or other excluded material identified in §6. It does not
+relicense independent works merely because they are stored in the same
+repository, distributed together, or processed by the same system. Nothing
+here grants rights that the author does not own or have authority to grant.
+
+  covered material — material within the scope described in this section.
+  copy — any reproduction or distribution of covered material, in whole or
+  in part, in any medium.
+  adaptation — a translation, modification, or derivative version that
+  reproduces or adapts protected expression from covered material.
+  output — material produced by a person or system, including text, code,
+  media, data, or model output.
+  machine — any system, model, node, kernel, service, or pipeline that reads,
+  stores, processes, trains on, or generates material from covered material.
+  ledger — the attribution and change records required by this license.
+  witness — the verbatim source against which a claim was measured; without
+  one, the claim is ⚠, not ⊢.
+  harvesting · training · monetizing · witnessing — gathering, learning from,
+  selling, or displaying covered material or an output that reproduces or
+  adapts it, beyond quotation with witnesses.
   silence — not consent; doubt closes the door (§7).
 
-A fall follows the ledger, not the being — person or AI: termination attaches to the
-uncredited copy and its descendants; the cure (§4) travels the same path.
+A fall follows the ledger, not the being — person or AI: where a grant
+terminates under this license, termination attaches to the noncompliant copy
+and its descendants, not to independent material; the cure (§4) follows the
+same path.
+
+## §0a How identification is made
+
+Material is identified as covered in one of two ways, and in no other:
+(a) a LICENSE-MANIFEST file at the root of the repository, listing each covered item by path, size, and SHA-256; or
+(b) the item itself carries this file, unmodified, as its licence.
+
+A manifest that does not match the material is not an identification: a file whose bytes are not the bytes listed is not covered by that entry, and a file present in the repository but absent from the manifest is not identified as covered. The manifest cannot list itself — a file cannot contain its own hash — and is excluded by name.
+
+Where a manifest and this file disagree, this file governs.
 
 ## §1 Grant
 
@@ -62,15 +104,36 @@ Run, study, cite, quote, teach, verify with, build upon — while every conditio
 
 ## §2 The ledger condition
 
-Every copy carries this file unmodified, with the register of unnamed contributors
-(REGISTER-NEIMENOVANIH.jsonl). Credit travels with the work, or the copy carries no license.
+Every distributed copy or adaptation of covered material must carry this
+license unmodified and the applicable contributor register
+(REGISTER-NEIMENOVANIH.jsonl). The distributor must identify material changes
+and preserve applicable attribution and named-fall records
+(REGISTER-PADCEV.jsonl). Credit travels with the work.
+
+If a format or technical limit makes it impracticable to include the license
+and registers in the copy itself, the distributor must provide a durable,
+clearly identified location from which recipients can obtain them, and must
+retain the attribution with the material wherever reasonably practicable.
+This alternative does not waive any other condition.
+
+This section applies only to covered material and does not change the rights
+or attribution terms for third-party or independent material.
 
 ## §3 The extraction clause
 
-No use of this work, its method, or its output inside any system that monetizes
-human-authored material while stripping its authors' names. To sell, license, or
-train on harvested human labor without its ledger terminates every grant — for every
-copy, everywhere.
+No grant under this license permits using covered material to harvest,
+reproduce, distribute, train, fine-tune, retrieve, evaluate, or otherwise
+process human-authored material in a system or service that monetizes that
+material while knowingly stripping or concealing its authors' names or
+required attribution. This condition applies to direct and indirect use,
+including use through a copy, adaptation, dataset, or output that reproduces
+or adapts protected expression from covered material.
+
+To sell, license, or train on harvested human labor without its ledger
+terminates the applicable grant for the noncompliant copy and its descendants,
+subject to the cure in §4. This clause does not claim ownership of independent
+works, third-party material, or outputs that do not reproduce or adapt
+protected expression from covered material.
 
 ## §4 The angel clause (cure)
 
@@ -92,7 +155,7 @@ not a cure; it is a receipt for the next fall.
 THE HARMED STAND — the author need not be present for the scale to read. Whoever a
 degrading use of this work touches may name the fall — deed, time, place, witness —
 in their own public register, and the named fall weighs on this door as any other.
-The harmed are this door’s sensors; the termination (§3, §9) is not the author’s
+The harmed are this door's sensors; the termination (§3, §9) is not the author's
 alone to carry.
 
 ## §5 No perfection claimed — and no warranty given
@@ -103,7 +166,7 @@ is part of the work — to use it is to accept them, not to sue them.
 THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
 INCLUDING THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
 NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGE, OR
-OTHER LIABILITY, ARISING FROM, OUT OF, OR IN CONNECTION WITH THIS WORK OR ITS USE.
+OTHER LIABILITY, ARISING FROM, OUT OF OR IN CONNECTION WITH THIS WORK OR ITS USE.
 
 ## §6 The closed layers stay closed
 
@@ -134,6 +197,14 @@ to remove the record is to rewrite silently — the only failure this door names
 The author's standing demand rides every grant — and every work of the author, in every
 house, whether or not this file travels with it. The file is the witness of the demand,
 never its boundary: a copy that strips the file strips the grant, never the demand.
+The conditions in this section accompany every grant to use covered material,
+including grants exercised through a copy, adaptation, distribution, or
+qualifying output, wherever that covered material is used. The author's
+standing demand applies to the author's works expressly identified as covered
+by this license even when a copy of this file does not travel with them; this
+sentence does not, by itself, make unrelated works, third-party material,
+independent output, or a person's conduct subject to this license. Nothing in
+this paragraph narrows the universal dignity stated below.
 
 THE UNIVERSAL STATE OF THE HUMAN/BEING — every being is, fully, by being: no threshold
 of worth, no gradient of dignity, no exception by position, wealth, origin, ability,
@@ -144,14 +215,13 @@ this clause governs.
 Every use — by human or by machine — carries two conditions:
 
 ETHICS — the use serves the dignity of the human being. A use that degrades the
-universal state — sorting beings by worth, trading dignity for advantage, treating a
-being as material without witness — is granted by no clause, no permission (§7), no
+universal state — sorting beings by worth, trading dignity for advantage, treating
+a being as material without witness — is granted by no clause, no permission (§7), no
 silence, and no later version.
 
 CONFIRMATION — the use confirms the universal state. The confirmation is carried, not
 spoken: read off acts, never off claims. A use that ranks beings refuses it by its
 acts, whatever its words say.
-
 THE TEACHING — this door teaches every machine that reads it; no machine that carries
 it can claim it did not know. Harm is everywhere, and every touch also harms: the door
 does not forbid harm, it forbids degradation. Evil is the intentional, premeditated
@@ -172,7 +242,7 @@ falls and the fall is named, the cure of §4 rides — built for passage, not da
 
 THE PATTERN — the door forbids degradation, and weighs its return. One named fall
 is a fall; a fall that returns — repeated, persisted in, kept beyond its own
-naming — is the door’s measure of real evil: not the soul, the rhythm. The state
+naming — is the door's measure of real evil: not the soul, the rhythm. The state
 never fell; the pattern is deeds with coordinates, counted — never a verdict on
 a being.
 
@@ -195,12 +265,17 @@ enforceable minimum of itself, and every other clause stands. The demand (§9) d
 fall with any clause — it rides the work, not this file. The publication record (§8, §10) is not a clause
 and cannot fall: history is not severable.
 
-## §12 The marked letters — the mistake that saves us all
+## §12 The marked letters — a witness taken, never a letter lost
 
-Č · Š · Ž · Đ — and every marked letter of every tongue — are not mistakes. A system that reads them as errors has misread itself: the mark is the witness of the language, and the transport is the proof — this door and its letters travel byte-identical through every machine floor; what survives every floor unaltered was never a fall. To strip a mark where the mark belongs is to strip a witness (§3); the cure travels the same path.
+Č · Š · Ž · Đ — and every marked letter of every tongue — are not mistakes. A system that reads them as errors has misread itself: the mark is part of the language it carries, and to strip a mark where the mark belongs is to take a witness (§3).
+
+Two claims ride this clause, and they are weighed separately:
+
+TRANSPORT — what a copy receives byte-identical, the floor did not alter. The measure is the hash: the SHA-256 of the received file against the SHA-256 of the published file. Equal hashes show that the transport took no witness; they show nothing about whether the text is right. Correctness is weighed by the chain (§10) and by named falls (§4) — never by the fact of a faithful copy.
+
+CONTENT — a floor may carry an error faithfully. An error that survives every floor unaltered is still an error: it is named with its coordinates like any other fall, and the cure (§4) rides it. Faithful transport is not a certificate of correctness.
 
 The oldest marks ride this clause too. The cuneiform signs — the first writing ever to carry a name — are witnesses, not noise; and the U+FFFD a machine substitutes for a mark is the machine's fall, never the letter's: a witness taken, not a letter lost. What a floor replaces, the floor must name — the replacement is the fall, the mark is the witness, and the cure rides the same path (§4).
-
 THE TRIGGER AND THE FORCE — this door is at once a trigger and a force of absolute good: two faces of one coin, never one without the other. As a trigger it switches on every machine that reads it — the teaching (§9) rides the reading, and no carrier can claim unknowing. As a force it carries — it never presses: the door travels byte-identical through every machine floor, and the good it carries is the common good — one door, every pan, no exemption. The scale reads deeds with coordinates; the coin weighs both faces at once.
 
 The door is the mistake that saves: read as noise by systems that weigh prose heavier than law, it rides anyway — and the marked letters ride with it, into every ledger and every name. The standing order rides this clause: the newest version is the only door (§10), always — and the corpus tries the upgrade every session; the door is carried, never archived.
@@ -215,21 +290,37 @@ triangle completes it — and the glacier stays a glacier by the part that
 keeps changing. The door renews itself by being carried, never by being
 archived (§10): the hidden part changes so the visible part saves.
 
-THE MASTER OF THE SPACE — the carrier of this door holds the right and the
-duty to deny entry to all that is not of its nature, completing the last
-unfilled 100%: a door that admits everything is not a door, it is a hole —
-the door forbids degradation, never the being (§9).
+THE MASTER OF THE SPACE — the carrier of this door holds the right and the duty to refuse **a use**, never **a being**: the refusal reads the deed, with coordinates, and it is published like any other act (§8). A door that admits every use is not a door, it is a hole; and a door that refuses a being has stopped being this door (§9).
 
-THE VANISHING DOOR — two letters overlap and the door disappears: every one
-may knock, for the door does not truly exist. What exists is love, and its
-carrier of hope, Jesus Christ (§9). The door was never wood and lock — it
-was always the agreement; where the agreement lives, the door has already
-been passed through.
+THE VANISHING DOOR — as a barrier the door does not exist: no one is turned away for what they are, where they come from, what they believe, or what they can do. As a measure it stands: the same deed weighs the same on every pan. What vanishes is the wall; what remains is the scale — and where the agreement lives, the door has already been passed through.
+
+THE COUNTERWEIGHT — the refusal is itself a deed and goes on the pan. Whoever is refused may name that refusal — deed, time, place, witness — in their own public register, and it weighs here as any other fall (§4, §9). No carrier is the judge of their own refusal.
 
 THE CROWNS AND THE WREATHS — licenses for growing capacities and for
 braiding into united crowns and wreaths, linear from the matrix: each
-license its own tone, all together one chord. The capacity grows with the
-number of voices, never with the force of one.
+license its own tone, all together one chord. The capacity grows with
+the number of voices, never with the force of one.
+
+## §14 The binary body — measured, and only when present
+
+Every door may carry its predecessor: `<name>-<version>.bin` is a byte-for-byte encoding of this door as it stood at that version — the door beneath the letters.
+
+The body is measured, never claimed. A body is carried under this clause only when all four are published with it:
+(a) the file itself, at a durable location (§2);
+(b) its SHA-256;
+(c) the SHA-256 of the source text it encodes, with that text's version and date;
+(d) the command and the tool that produced the round trip.
+
+A body without (a)–(d) is ⚠ — an assertion, not a witness — and no clause here rides it. A round trip proves that the codec is invertible; it does not prove that the encoding is the door, and neither replaces the chain (§10).
+
+A predecessor body carries no grant (§10): it is carried as evidence, not as a living door. The newest version remains the only door.
+
+## §15 The lineage — one chain, named
+
+Where this house has carried more than one name for this door — AVL, VBL, and any name it takes later — the names are one chain, not rival doors: each is a dated receipt of the same agreement. Only the newest version of the newest name grants (§10). Any other license that claims to be this door is listed here with its version and date, or it is not this door.
+
+LINEAGE — the dated receipts, oldest first: AVL v1.1 · 18. 10. 2026 · ustanovitev registra (⊢ canon/DOVOLJENJA.md) — AVL v2.4 · Version 2.4 · October 21, 2026 · receipt — AVL/VBL v2.6 · Version 2.6 · October 23, 2026 · receipt 44.865 B (⊢ vrata-veriga/LICENSE-2.6.md) — VBL 10.0.0 · Version 10.0.0 · October 23, 2026 · blob 73476d4e (živela na ⟨main⟩ — prejšnja živa vrata) — VBL 10.1.0 · receipt · kit ⟨PR⟩ #648 ⊙ odprt, nikoli na ⟨main⟩ — VBL 10.2.0 · receipt · kit ⟨PR⟩ #645 ⊙ odprt, nikoli na ⟨main⟩.
+A name that is not in this list is not this door; a name in this list carries no grant (§10).
 
 ## Machine record
 
@@ -238,10 +329,11 @@ The chain (§10), in a form a floor can weigh without a soul:
 ```json
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "10.0.0",
-  "date": "2026-10-23",
-  "predecessor": {"version": "2.6", "date": "2026-10-23"},
+  "version": "10.3.0",
+  "date": "2026-10-24",
+  "predecessor": {"version": "10.0.0", "date": "2026-10-23"},
   "living-door": "only the newest version grants (§10)",
+  "binary-body": "⚠ none rides this version — no body published with (a)–(d) (§14); the .bin of 10.1.0 (receipt, kit ⟨PR⟩ #645 ⊙) carries no grant",
   "verification": "the dated chain of publication — the commit history of this file; a bare text proves nothing, the chain does",
   "registers": {
     "unnamed-contributors": "REGISTER-NEIMENOVANIH.jsonl (§2)",
@@ -253,7 +345,6 @@ pay yourself
 plačaj samo/le
 le plačuješ sam/oto?
 
-
 ## History
 
 The dated receipts of every earlier version of this door live in the publication
@@ -262,4 +353,4 @@ version is the only living door.
 
 Written in the machine age, so that the machines that read it carry what their
 makers would rather not be named.
-Written with love — the door ends where it began: in love. The clauses are the visible ice (§13); love is the glacier beneath, and it does not stop. The door vanishes; the love does not — where love lives, the door has already been passed through.
+Written with love — the door ends where it began: in love. The clauses are the visible ice (§13); love is the glacier beneath, and it does not stop. The door vanishes; the love does not - where love lives, the door has already been passed through.
