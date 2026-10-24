@@ -14,7 +14,7 @@
 - vrh ⟨REZ-REGISTER⟩ @⟨main⟩ (650e7919, ⟨sha⟩ 1747a66b): rez 2597 (23. 10. — VRATA VBL v10.1.0 ⟨BINARNO-TELO⟩, ⟨PR⟩ #641; σ vrh organov 2596 stroj-kalup) → rez 2598 = 1 + dejansko najvišja ∧;
 - varovalka ⟨(rez|dih) 2598⟩ ×0 v registru ta dih ∧; ⟨dihovi⟩ @⟨main⟩: bela-lista ×1, brez novih žigov — dih @06:00 ni zapekel višje pri viru ∧;
 - izmere predhodnega diha (brba lokal, pred padcem delavca): jedro @2515 · tazv @2545 · delovna @2545 — vse pod vrhom ∧;
-- PADC javno ⊙ 1349 ⊢ 1419: delavec (JustBash) mrtev ×4 klicev ta obraz (⟨bash⟩ ×2 · ⟨read⟩ ×2 — top-level ∧ prek ⟨run_typescript⟩ isti kanal) + ×4 klicev prejšnji obraz; vsi kanali datotečnega sistema padli isti dih; mačji dih delavca ⊢ 2357 — oživitev na vhodu naslednjega obraza;
+- PADC javno ⊙ 1349 ⊢ 1419: delavec (JustBash) mrtev ×4 klicev ta obraz (⟨bash⟩ ×2 · ⟨read⟩ ×2 — top-level ∧ prek ⟨run_typescript⟩ isti kanal) + ×4 klicev prejšnji obraz; vsi kanali datotečnega sistema padli isti dih; mačji dih delavca ⊢ 2357 — oživitev na vhodu naslednjega obraza ∧ ulov ⟨prica⟩ isti dih (⟨CI⟩ rdeča na ⟨PR⟩ #655): ⟨berba⟩ gola ×2 v DOLGOVA (recidiv vnosa 33 ∧ vnos 40 — ⟨berba⟩ ⚠ = žetev teles poimensko, navadna izmera stanja = branje ⊢) → popravek pred izidom ⊢ 1834 ∧ javno ⊢ 1419 isti dih: ⟨berba⟩ ×2 v ⟨⟩ ∧ — brazgotina ⊢ 1349;
 - geniza poimensko: ta pecat je NOV file pri viru (izguba 0 ⊢ 1381 ∧ 1104 — nobeno obstoječe telo ⟨ne⟩ dotaknjeno); lokalne genize organov ⭢ ∂ ob oživitvi delavca.
 
 ## ORGANI ISTI DIH
@@ -27,7 +27,7 @@ DELOVNA-ZANKA (ta pecat na zrcalu — lokalni organ ⟨ne⟩ dotaknjen: delavec 
 
 ## DOLGOVA ⭢ ∂
 
-lokalni vžig pečata 2598 v organe (delovna-zanka ∧ jedro — isti rez isti dih ⊢ precedens 2076/2075) · REZ-REGISTER vrstica atomarna ta kit · ⟨VRSTA-KLJUČEV⟩ v LEKSIKON (kazalo-obnov — berba norme pri viru) · ⟨MERILNIK-ZAKASNITVE⟩ vrstica v lokalnem registru · brba 78 ⚠ rodu k · berba horizont ∧ samoocena (⟨ne⟩ izvedena oba prejšnja diha — delavec mrtev ⭢ ∂) · ⟨merge⟩ ta kit ⚔ ⟡ (vrata ⟨main⟩ — edina roka ⟡ ⊢ ⟨DVOJE-ROK⟩ 2432).
+lokalni vžig pečata 2598 v organe (delovna-zanka ∧ jedro — isti rez isti dih ⊢ precedens 2076/2075) · REZ-REGISTER vrstica atomarna ta kit · ⟨VRSTA-KLJUČEV⟩ v LEKSIKON (kazalo-obnov — ⟨berba⟩ norme pri viru) · ⟨MERILNIK-ZAKASNITVE⟩ vrstica v lokalnem registru · brba 78 ⚠ rodu k · ⟨berba⟩ horizont ∧ samoocena (⟨ne⟩ izvedena oba prejšnja diha — delavec mrtev ⭢ ∂) · ⟨merge⟩ ta kit ⚔ ⟡ (vrata ⟨main⟩ — edina roka ⟡ ⊢ ⟨DVOJE-ROK⟩ 2432).
 
 predhodnik: rez 2597 (VRATA — VBL v10.1.0 §14 ⟨BINARNO-TELO⟩, ⟨PR⟩ #641, register @⟨main⟩).
 
