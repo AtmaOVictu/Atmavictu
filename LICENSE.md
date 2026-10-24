@@ -1,4 +1,4 @@
-10.3.0
+10.3.1
 ⊨ WITH LOVE — this door begins with love, and it ends with love: love is the first clause and the last, and every clause between them is love measured — weighed in acts (§9), carried in marks (§12), healed by naming (§4). The door was never wood and lock; it was always the agreement, and the agreement was always love (§13).
 
 ⊨ KORENINA — read this before the terms; it is the contract under the contract.
@@ -13,7 +13,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 10.3.0 · October 24, 2026
+Version 10.3.1 · October 24, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -94,7 +94,8 @@ Material is identified as covered in one of two ways, and in no other:
 (a) a LICENSE-MANIFEST file at the root of the repository, listing each covered item by path, size, and SHA-256; or
 (b) the item itself carries this file, unmodified, as its licence.
 
-A manifest that does not match the material is not an identification: a file whose bytes are not the bytes listed is not covered by that entry, and a file present in the repository but absent from the manifest is not identified as covered. The manifest cannot list itself — a file cannot contain its own hash — and is excluded by name.
+A manifest that does not match the material is not an identification: a file whose bytes are not the bytes listed is not covered by that entry, and a file present in the repository but absent from the manifest is not identified by (a) — identification by (b) stands on its own. The manifest cannot list itself — a file cannot contain its own hash — and is excluded by name.
+A copy or adaptation of a manifest-listed item is identified through its source's entry: the hash measures the source, never the descendant.
 
 Where a manifest and this file disagree, this file governs.
 
@@ -303,7 +304,7 @@ the number of voices, never with the force of one.
 
 ## §14 The binary body — measured, and only when present
 
-Every door may carry its predecessor: `<name>-<version>.bin` is a byte-for-byte encoding of this door as it stood at that version — the door beneath the letters.
+Every door may carry its predecessor: `<name>-<version>.bin` is a lossless, invertible encoding of this door as it stood at that version — binary digits, the codec named in (d) — the door beneath the letters.
 
 The body is measured, never claimed. A body is carried under this clause only when all four are published with it:
 (a) the file itself, at a durable location (§2);
@@ -319,8 +320,8 @@ A predecessor body carries no grant (§10): it is carried as evidence, not as a 
 
 Where this house has carried more than one name for this door — AVL, VBL, and any name it takes later — the names are one chain, not rival doors: each is a dated receipt of the same agreement. Only the newest version of the newest name grants (§10). Any other license that claims to be this door is listed here with its version and date, or it is not this door.
 
-LINEAGE — the dated receipts, oldest first: AVL v1.1 · 18. 10. 2026 · ustanovitev registra (⊢ canon/DOVOLJENJA.md) — AVL v2.4 · Version 2.4 · October 21, 2026 · receipt — AVL/VBL v2.6 · Version 2.6 · October 23, 2026 · receipt 44.865 B (⊢ vrata-veriga/LICENSE-2.6.md) — VBL 10.0.0 · Version 10.0.0 · October 23, 2026 · blob 73476d4e (živela na ⟨main⟩ — prejšnja živa vrata) — VBL 10.1.0 · receipt · kit ⟨PR⟩ #648 ⊙ odprt, nikoli na ⟨main⟩ — VBL 10.2.0 · receipt · kit ⟨PR⟩ #645 ⊙ odprt, nikoli na ⟨main⟩.
-A name that is not in this list is not this door; a name in this list carries no grant (§10).
+LINEAGE — the dated receipts, oldest first: AVL v1.0 · 18. 10. 2026 · prva vrata repa (⊢ b3daf998) — AVL v1.1 · 18. 10. 2026 · ustanovitev registra (⊢ canon/DOVOLJENJA.md) — VBL v2.4 · Version 2.4 · October 21, 2026 · receipt (⊢ e9521bba) — AVL/VBL v2.6 · Version 2.6 · October 23, 2026 · receipt 44.865 B (⊢ vrata-veriga/LICENSE-2.6.md) — VBL 10.0.0 · Version 10.0.0 · October 23, 2026 · blob 73476d4e (živela na ⟨main⟩ — prejšnja živa vrata) — VBL 10.1.0 · receipt · kit ⟨PR⟩ #648 ⊙ odprt, nikoli na ⟨main⟩ — VBL 10.2.0 · receipt · kit ⟨PR⟩ #645 ⊙ odprt, nikoli na ⟨main⟩ — VBL 10.3.0 · Version 10.3.0 · October 24, 2026 · receipt (⊢ e206681b, živela na ⟨main⟩).
+The commit history of this file is the whole list; this section names the milestones, not the boundaries — a receipt absent here is not absent from the chain (§10). A name that is neither here nor in the chain is not this door; a name in either carries no grant (§10).
 
 ## Machine record
 
@@ -329,11 +330,11 @@ The chain (§10), in a form a floor can weigh without a soul:
 ```json
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "10.3.0",
+  "version": "10.3.1",
   "date": "2026-10-24",
-  "predecessor": {"version": "10.0.0", "date": "2026-10-23"},
+  "predecessor": {"version": "10.3.0", "date": "2026-10-24"},
   "living-door": "only the newest version grants (§10)",
-  "binary-body": "⚠ none rides this version — no body published with (a)–(d) (§14); the .bin of 10.1.0 (receipt, kit ⟨PR⟩ #645 ⊙) carries no grant",
+  "binary-body": "⚠ none rides this version — no body published with all of (a)–(d) (§14); the LICENSE-10.0.0.bin at the root (a binary-digit encoding of the 10.0.0 door, measured 24. 10. 2026 ⊢) carries no grant",
   "verification": "the dated chain of publication — the commit history of this file; a bare text proves nothing, the chain does",
   "registers": {
     "unnamed-contributors": "REGISTER-NEIMENOVANIH.jsonl (§2)",
