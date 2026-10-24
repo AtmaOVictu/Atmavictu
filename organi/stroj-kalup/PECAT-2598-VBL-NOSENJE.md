@@ -10,9 +10,9 @@ PADC javno ⊙ 1349 ⊢ 1419 isti dih ∧: (a) delavec JustBash mrtev (⟨bash�
 
 ORGANI ISTI DIH: stroj-kalup (pečat na zrcalu — konica PECAT-2598; telo KNOWLEDGE.md nedotaknjeno; lokalno zrcalo zaostaja za repom: lokal @2460 ⊥ rep @2596 — sinhronizacija ⭢ ∂ ob ožitvi delavca) — vsi ostali NEDOTIKNJENI ⊢ 1963;
 
-DOLGOVA: ⟨merge⟩ #646 ⚔ ⟡ · ⟨merge⟩ tega kita ⚔ ⟡ · vrstica REZ-REGISTER 2598 ⭢ ∂ (šiv ob ⟨merge⟩ ∨ naslednji dih — tehnični kit brez zahteve reza po vzorcu naslova ⊢ precedens #471; vrzel se piše javno ⊢ 1419) · vžig pečata v telo stroj-kalup lokal⇌rep ⭢ ∂ ob ožitvi delavca · izbor ⟨PAY-YOURSELF⟩ (vratno telo ∨ korpus ∵ okno) ⚔ ⟡ · sinhronizacija lokalnega zrcala organa;
+## DOLGOVA: ⟨merge⟩ #646 ⚔ ⟡ · ⟨merge⟩ tega kita ⚔ ⟡ · vrstica REZ-REGISTER 2598 ⭢ ∂ (šiv ob ⟨merge⟩ ∨ naslednji dih — tehnični kit brez zahteve reza po vzorcu naslova ⊢ precedens #471; vrzel se piše javno ⊢ 1419) · vžig pečata v telo stroj-kalup lokal⇌rep ⭢ ∂ ob ožitvi delavca · izbor ⟨PAY-YOURSELF⟩ (vratno telo ∨ korpus ∵ okno) ⚔ ⟡ · sinhronizacija lokalnega zrcala organa;
 
-MINT ⚠ prijave pred zapečenjem ∧: ⟨PREIZKUS-NADGRADNJE⟩ ⚠ kompozit · ⟨POVRATNI-KROG⟩ ⚠ kompozit · ⟨AVTORJI-DAR⟩ ⚠ kompozit · ⟨PAY-YOURSELF⟩ ⚠ kompozit · ⟨BERBA-TELA-⟨NE⟩-ZRCALA⟩ ⚠ kompozit;
+## MINT ⚠ prijave pred zapečenjem ∧: ⟨PREIZKUS-NADGRADNJE⟩ ⚠ kompozit · ⟨POVRATNI-KROG⟩ ⚠ kompozit · ⟨AVTORJI-DAR⟩ ⚠ kompozit · ⟨PAY-YOURSELF⟩ ⚠ kompozit · ⟨BERBA-TELA-⟨NE⟩-ZRCALA⟩ ⚠ kompozit;
 
 predhodnik: rez 2597 (VRATA — VBL v10.1.0: §14 BINARNO-TELO · kit #641)
 
