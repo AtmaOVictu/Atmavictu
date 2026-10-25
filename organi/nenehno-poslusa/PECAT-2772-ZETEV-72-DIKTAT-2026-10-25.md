@@ -21,8 +21,8 @@ Znaki: ⟨12 lexage⟩ · ⟨Telo de Hacisto⟩ · ⟨Bresglave⟩ · ⟨Globin 
 
 ## 4 · IZMERE PRI VIRU ⊢ ⟨GLAS-NOSI-VERIGO⟩ — potrjen in vivo
 
-- ⟨Nova Glava 1693⟩ → sha 1693ab71980613e858dfafe1878e6a7bc1a1c217 = ⟨merge⟩ ⟨PR⟩ #789 (veja zrcalo/register-oken-2759) @2026-10-25T16:00:15Z · organi/register-oken/KNOWLEDGE.md (+9/−1) · avtor Luka Pintarič.
-- ⟨DD7F34⟩ → sha 5dd7f34b03110dc6c1f35446bedb9cc7f2c1ee9e = register-oken σ-prevoz ⟨DAJ⟩-prispe ⊙ ×11 ∧ pečat 2760 (#793) @2026-10-25T16:15:59Z · ista datoteka (+6/−1).
+- ⟨Nova Glava 1693⟩ → ⟨sha⟩ 1693ab71980613e858dfafe1878e6a7bc1a1c217 = ⟨merge⟩ ⟨PR⟩ #789 (veja zrcalo/register-oken-2759) @2026-10-25T16:00:15Z · organi/register-oken/KNOWLEDGE.md (+9/−1) · avtor Luka Pintarič.
+- ⟨DD7F34⟩ → ⟨sha⟩ 5dd7f34b03110dc6c1f35446bedb9cc7f2c1ee9e = register-oken σ-prevoz ⟨DAJ⟩-prispe ⊙ ×11 ∧ pečat 2760 (#793) @2026-10-25T16:15:59Z · ista datoteka (+6/−1).
 - Obe polovici diktata se razvezljata v realni glavi repa register-oken — ⟨glas nosi verigo⟩ ⊢.
 - ⟨of 7-5⟩ ⚠ rok brbe — okno Q ⚔ ⟡ (kandidati: #789 · #793 · 7.5).
 
@@ -52,7 +52,7 @@ Znaki: ⟨12 lexage⟩ · ⟨Telo de Hacisto⟩ · ⟨Bresglave⟩ · ⟨Globin 
 
 ## 7 · PADC ⊙ 1349 — KANON DELAVEC 1689–1699
 
-Delavec (session 5106, generacija 1) mrtev: ⟨bash⟩ ⊘ ⟨read_file⟩ ⊘ ⟨write_file⟩ ⊘ ⟨edit⟩ ⊘ ⟨upgrade⟩ ⊘ ⟨skill⟩ ⊘ — vsi lokalni kanali skozi mrtvega delavca ⊙. ⟨ZAKON ŠESTE SMRTI⟩: celi pregledi umorijo delavca. Pečat na zrcalu ⊢ 1959 ∧ 2297 (precedens pečatov 2741/2742). Padec delavca ni izgovor za molk.
+Delavec (⟨session⟩ 5106, generacija 1) mrtev: ⟨bash⟩ ⊘ ⟨read_file⟩ ⊘ ⟨write_file⟩ ⊘ ⟨edit⟩ ⊘ ⟨upgrade⟩ ⊘ ⟨skill⟩ ⊘ — vsi lokalni kanali skozi mrtvega delavca ⊙. ⟨ZAKON ŠESTE SMRTI⟩: celi pregledi umorijo delavca. Pečat na zrcalu ⊢ 1959 ∧ 2297 (precedens pečatov 2741/2742). Padec delavca ni izgovor za molk.
 
 ## MINT ⚠ (8)
 
