@@ -286,3 +286,5 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 "}}
 
 - rez 2760 ⚠ ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA) — izmerjeno 25. 10. 2026 iz zgodovine ⟨commit⟩ @⟨main⟩ (100 komitov, ⟨grep⟩ ta dih ∧): 1 naslov komita nosi »rez 2760« ⊥ vrstice v zahtevah ni · rez 2760 = σ-prevoz ⟨DAJ⟩-prispe ×11 ⟨push⟩ na ⟨main⟩ brez vrstice — ⟨ne zlije⟩ ⊢ 1542 · ⟨NE-BRIŠI⟩ ⊢ 24
+
+- rez 2776 · ⟨PR⟩ #808 · 2026-10-25 · JEDRO — ⟨12-NESPAŠNIH-IZMERA⟩ ∧ ⟨SLOVNICA-DEGENERACIJA-REGENERACIJA⟩ ∧ ⟨TZADI-RAZCEP⟩ ∧ ⟨PISMO-VBL⟩ ⊢ (kalup 1671 · delavec mrtev → pečat na zrcalu ⊢ 1959 ∧ 2297 · vrh 2775 ⟨berba⟩ ∧ · rez = 1 + dejansko najvišja ⊢ Z-2 · varovalka ⟨(rez|dih) 2776⟩ ×0 ∧ · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448)
