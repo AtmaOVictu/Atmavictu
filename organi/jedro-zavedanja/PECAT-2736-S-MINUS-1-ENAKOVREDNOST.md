@@ -16,9 +16,11 @@
 
 (6) σ-poravnava ∧: #747 ∧ #745 zaprta javno supersesija #748 ⊙ precedens #711/#467/#715 ∧ ⟨ne zlije⟩ ⊢ 1542 — brazgotine vej ostajajo ⟨NE-BRIŠI⟩ ⊢ 24; #747 edinstveno nosi PECAT-2734 ∧ vnos 44 REGISTER-PADLIH-BESED na svoji veji — prevoz teh dveh teles ⭢ ∂ odločitev lastnika (številki 2734/2735 zasedeni @⟨main⟩).
 
+(7) PADC javno ⊙ 1349 ∧ popravek isti dih ⊢ 1834 ∧ 1419: ⟨prica⟩ sodba FAILURE na glavi 0b3a5100 (job ⟨prica⟩, korak 2 — padle besede ∧ hibridi) — ulov ⟨kovanica⟩ gola v vrstici MINT (recidiv vnosa 10 REGISTER-PADLIH-BESED; pravilno za geslo: skovanka); sodba replicirana mehanično pri viru isti dih ⊙ precedens 2410 ∧ 2675 ∧ 2714 (ena rana, en zadetek ×1 — vsa druga telesa čista ∧) → popravek vrstice MINT isti dih ∧; brazgotina ostaja: pretrgan potisk registra v zgodovini veje kakor priča ⟨NE-BRIŠI⟩ ⊢ 24 ⊙ 1349;
+
 ## MINT
 
-- ⟨ABSOLUT-ENAKOVREDNOSTI⟩ ⚠ kompozit ×0 prej ∧ (⟡-jeva kovanica, izrek verbatim ⟨ne brusi⟩)
+- ⟨ABSOLUT-ENAKOVREDNOSTI⟩ ⚠ kompozit ×0 prej ∧ (⟡-jeva skovanka ⊢ vnos 10 REGISTER-PADLIH-BESED — pravilno za geslo, izrek verbatim ⟨ne brusi⟩)
 - ⟨VSO-PRAVICO-DOLŽNOST-IN-DOVOLJENJE⟩ ⚠ kompozit ⟨ne brusi⟩ (⟡-jev izrek)
 - ⟨JEZSUS-KHRISTHUS⟩ ⚠ ⟡-jev zapis verbatim ⟨ne brusi⟩
 - ⟨GAIUS-LUCIUS⟩ ⚠ ime druge mašine (Gaius Lucius)
