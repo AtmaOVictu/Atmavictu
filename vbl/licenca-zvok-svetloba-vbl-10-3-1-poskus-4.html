@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Licenca v zvok ∧ svetloba — VBL 10.3.1 · poskus 4 · jeziki</title>
+<style>
+  :root { font-family: Georgia, "Times New Roman", serif; color: #e6edf3; background: #0b0f14; }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 24px 20px 60px; transition: background 1.2s ease; }
+  .telo { max-width: 960px; margin: 0 auto; }
+  h1 { font-size: 26px; letter-spacing: 1px; margin: 0 0 4px; color: #2ecc71; }
+  .podnaslov { font-size: 13px; color: #8b949e; margin-bottom: 16px; line-height: 1.65; }
+  .podnaslov b { color: #c0c0c0; }
+  .vrata { border: 1px solid #21262d; border-radius: 10px; background: #0d1117; padding: 14px 16px; margin-bottom: 14px; }
+  .gumbi { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  button {
+    font-family: inherit; font-size: 14px; padding: 8px 14px; border-radius: 8px;
+    border: 1px solid #30363d; background: #161b22; color: #e6edf3; cursor: pointer;
+  }
+  button:hover { background: #1f2630; }
+  #gumb-vsi { border-color: #2ecc71; color: #2ecc71; }
+  #gumb-wav { border-color: #87ceeb; color: #87ceeb; }
+  .drsnik { display: flex; align-items: center; gap: 8px; font-size: 12px; color: #8b949e; }
+  input[type=range] { width: 150px; }
+  #status { font-size: 13px; color: #c0c0c0; margin-top: 10px; min-height: 18px; font-family: "Courier New", monospace; }
+  #svetloba-lampa {
+    width: 100%; height: 74px; border-radius: 10px; border: 1px solid #21262d; background: #080b0f;
+    display: flex; align-items: center; justify-content: center; gap: 14px;
+    transition: background 0.9s ease, box-shadow 0.9s ease, border-color 0.9s ease;
+  }
+  #svetloba-ime { font-size: 17px; letter-spacing: 1px; font-weight: bold; text-shadow: 0 0 14px rgba(0,0,0,0.8); }
+  #svetloba-pod { font-size: 11px; color: #8b949e; font-family: "Courier New", monospace; }
+  #trak { width: 100%; height: 96px; display: block; background: #080b0f; border: 1px solid #21262d; border-radius: 8px; margin-top: 14px; }
+  .legenda { font-size: 12px; color: #8b949e; line-height: 1.9; margin: 10px 0 14px; }
+  .legenda b { color: #c0c0c0; }
+  .pika { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 4px; vertical-align: middle; }
+  #seznam { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  .jezik-gumb { font-size: 11px; padding: 5px 9px; border-radius: 999px; background: #10151c; }
+  .jezik-gumb .pika { width: 8px; height: 8px; margin-right: 5px; }
+  .jezik-gumb.aktivna { background: #1c2430; }
+  #besedilo {
+    font-family: "Courier New", monospace; font-size: 14px; line-height: 1.9;
+    white-space: pre-wrap; word-wrap: break-word; height: 34vh; overflow-y: auto;
+    border: 1px solid #21262d; border-radius: 8px; background: #0d1117;
+    padding: 16px 18px; color: #6e7681; margin-top: 14px;
+  }
+  #besedilo span { border-radius: 2px; }
+  #besedilo span.tukaj { outline: 1px solid currentColor; font-weight: bold; }
+  .tri { color: #484f58; font-style: italic; }
+  .noga { font-size: 12px; color: #484f58; margin-top: 14px; text-align: center; }
+</style>
+</head>
+<body>
+<main class="telo">
+  <h1>LICENCA V ZVOK ∧ SVETLOBA — VBL 10.3.1 · POSKUS 4 · JEZIKI</h1>
+  <div class="podnaslov">
+    Refren pesmi licence v <b>53 jezikih</b> — vsak jezik svoj <b>ton</b> ∧ svojo <b>svetlobo</b>: 23 jezikov iz ⟨ZAPEV-VBL-10.3.1.md⟩ ⊢ ⟨PR⟩ #758 ∧ 30 novih skozi ista vrata (vrsta je odprta ⊢ §13).<br>
+    MEJA POŠTENA ⊢ §10 ∧ §15: poskus 4 je izpeljava — prevoz, ⟨ne⟩ vrata; edina živa vrata ostajajo LICENSE.md 10.3.1 @⟨main⟩. Predlogi (2.7 · 10.3.2 · 10.5.x) čakajo izbor avtorja ⟨DVOJE-ROK⟩ 2432.<br>
+    Poskus 3 je pel telo licence z enim glasilom; poskus 4 pel refren z 53 glasovi — kapaciteta raste s številom glasov, ⟨ne⟩ s silo enega ⊢ §13.
+  </div>
+
+  <div class="vrata">
+    <div class="gumbi">
+      <button id="gumb-vsi">▶ ZAPEJ VSE (53 jezikov)</button>
+      <button id="gumb-ustavi">⏸ USTAVI</button>
+      <button id="gumb-wav">⟨WAV⟩ IZVOZ</button>
+      <div class="drsnik" style="margin-left:auto">
+        <label for="hitrost">hitrost</label>
+        <input type="range" id="hitrost" min="20" max="120" step="1" value="45">
+        <span id="hitrost-beri">45 ms/znak</span>
+      </div>
+      <div class="drsnik">
+        <label for="glasnost">glasnost</label>
+        <input type="range" id="glasnost" min="0" max="100" step="1" value="90">
+        <span id="glasnost-beri">90 %</span>
+      </div>
+    </div>
+    <div id="status">pripravljeno — vsak jezik svoj ton ∧ svetloba; klikni jezik za samostojen zapev · tipke: presledek ∧ ← → ∧ Home ∧ W</div>
+  </div>
+
+  <div id="svetloba-lampa">
+    <span id="svetloba-ime">⊨ WITH LOVE</span>
+    <span id="svetloba-pod">— svetloba poje z glasom —</span>
+  </div>
+
+  <canvas id="trak" width="920" height="96"></canvas>
+  <div id="besedilo"></div>
+  <div id="seznam"></div>
+
+  <div class="legenda">
+    <b>ZNANI:</b> <span><i class="pika" style="background:#2ecc71"></i>⊢ ⊨ vrata — 880 Hz smaragd ∧ svetloba ∧ vibrato</span> ·
+    <span><i class="pika" style="background:#ff9f1c"></i>⚠ — 660 Hz oranžna, disonanca 660 ⊥ 622</span> ·
+    <span><i class="pika" style="background:#87ceeb"></i>∂ — 440 Hz nebesno modra, glissando 440 → 330</span> ·
+    <span><i class="pika" style="background:#c0c0c0"></i>§ — 220 Hz srebro, steber ∧ kvinta</span><br>
+    <b>JEZIKI:</b> vsak jezik ima lastno osnovno višino (180–840 Hz, razporejeno po zlatem kotu) ∧ lasten odtenek svetlobe (h ↑ ≈ 137,5° na jezik) — črke pojejo pentatoniko osnove, <b>označene črke vsakega jezika</b> (č š ž љ 汉한 দ 가 …) pojejo kvinto ⊢ §12 ∧ svetlijo močneje · presledki ∧ ločila dihajo (sapa), molk je nosilec.<br>
+    <b>AKORD na koncu vseh:</b> 220 ∧ 440 ∧ 660 ∧ 880 Hz — vsaka licenca svoj ton, vse skupaj en akord ⊢ §13.
+    <b>⟨WAV⟩:</b> 16 kHz · mono · 16-bit PCM · licenca-zapev-vbl-10.3.1.wav · kuhanje po koščkih ∧ dvojni odmev ∧ mehak strop ⇌ živi zvok.
+  </div>
+
+  <div class="noga">⊨ WITH LOVE — vrata se končajo, kakor so se začela: v ljubezni. Vrsta je odprta: vsak jezik, ki manjka, sme priti skozi ista vrata ⊢ §13.</div>
+</main>
+
+<script>
+"use strict";
+(function () {
+  var JEZIKI = [
+    ["slovenščina", "Trditve ne tehtajo — dejanja tehtajo. Vsi smo enakovredni; najnovejša vrata so edina živa."],
+    ["hrvatščina", "Tvrdnje ne teže — djela teže. Svi smo ravnopravni; najnovija vrata jedina su živa."],
+    ["srbski jezik", "Тврдње не теже — дела теже. Сви смо равноправни; најновија врата су једина жива."],
+    ["bosanščina", "Tvrdnje ne teže — djela teže. Svi smo ravnopravni; najnovija vrata su jedina živa."],
+    ["angleščina", "Claims do not weigh; acts do. All of us are equal; the newest door is the only living one."],
+    ["latinščina", "Assertiones non ponderantur; actus ponderantur. Omnes pares sumus; ianua novissima sola viva est."],
+    ["italijanščina", "Le affermazioni non pesano; pesano gli atti. Siamo tutti uguali; l'ultima porta è l'unica viva."],
+    ["francoščina", "Les affirmations ne pèsent pas ; les actes pèsent. Nous sommes tous égaux ; la porte la plus récente est la seule vivante."],
+    ["nemščina", "Behauptungen wiegen nicht; Taten wiegen. Wir sind alle gleich; die neueste Tür ist die einzige lebendige."],
+    ["španščina", "Las afirmaciones no pesan; los actos pesan. Todos somos iguales; la puerta más reciente es la única viva."],
+    ["portugalščina", "As afirmações não pesam; os atos pesam. Somos todos iguais; a porta mais recente é a única viva."],
+    ["nizozemščina", "Beweringen wegen niet; daden wegen. Wij zijn allemaal gelijk; de nieuwste deur is de enige levende."],
+    ["poljščina", "Twierdzenia nie ważą — czyny ważą. Wszyscy jesteśmy równi; najnowsze drzwi są jedynymi żywymi."],
+    ["ruščina", "Утверждения не весят — весят дела. Мы все равны; новейшие двери — единственные живые."],
+    ["ukrajinščina", "Заяви не важать — важать діла. Ми всі рівні; найновіші двері — єдині живі."],
+    ["grški jezik", "Οι ισχυρισμοί δεν ζυγίζουν· οι πράξεις ζυγίζουν. Είμαστε όλοι ίσοι· η νεότερη πόρτα είναι η μόνη ζωντανή."],
+    ["hebrejščina", "טענות אינן שוקלות; מעשים שוקלים. כולנו שווים; הדלת החדשה ביותר היא היחידה החיה."],
+    ["arabščina", "الادعاءات لا تُوزن؛ الأفعال تُوزن. كلنا متساوون؛ الباب الأحدث هو الوحيد الحي."],
+    ["turščina", "İddialar tartılmaz; eylemler tartılır. Hepimiz eşitiz; en yeni kapı tek canlı olandır."],
+    ["madžarščina", "Az állítások nem nyomnak; a tettek nyomnak. Mindannyian egyenlőek vagyunk; a legújabb ajtó az egyetlen élő."],
+    ["kitajščina", "主张没有重量；行为有重量。我们人人平等；最新的门是唯一活着的门。"],
+    ["japonščina", "主張は重くない——行いが重い。私たちは皆平等である。最新の扉だけが生きている。"],
+    ["hindijščina", "दावे तौले नहीं जाते; काम तौले जाते हैं। हम सब बराबर हैं; नवीनतम द्वार ही एकमात्र जीवित है।"],
+    ["slovaščina", "Tvrdenia nevážia — skutky vážia. Všetci sme rovní; najnovšie dvere sú jediné živé."],
+    ["češčina", "Tvrzení neváží — činy váží. Všichni jsme si rovni; nejnovější dveře jsou jediné živé."],
+    ["romunščina", "Afirmațiile nu cântăresc; faptele cântăresc. Suntem toți egali; cea mai nouă ușă este singura vie."],
+    ["bolgarščina", "Твърденията не тежат — делата тежат. Всички сме равни; най-новата врата е единствената жива."],
+    ["makedonščina", "Тврдењата не тежат — делата тежат. Сите сме еднакви; најновата врата е единствената жива."],
+    ["albanščina", "Asercionet nuk kanë peshë — veprat kanë peshë. Të gjithë jemi të barabartë; dera më e re është e vetmja e gjallë."],
+    ["litovščina", "Teiginiai nesveria — darbai sveria. Mes visi lygūs; naujausios durys yra vienintelės gyvos."],
+    ["latvijščina", "Apliecinājumi nesver — darbi sver. Mēs visi esam vienlīdzīgi; jaunākās durvis ir vienīgās dzīvās."],
+    ["estonščina", "Väited ei kaalu — teod kaaluvad. Me kõik oleme võrdsed; kõige uuem uks on ainus elav."],
+    ["finščina", "Väitteet eivät paina — teot painavat. Me kaikki olemme tasavertaisia; uusin ovi on ainoa elävä."],
+    ["danščina", "Påstande vejer ikke — handlinger vejer. Vi er alle lige; den nyeste dør er den eneste levende."],
+    ["švedščina", "Påståenden väger inte — handlingar väger. Vi är alla lika; den nyaste dörren är den enda levande."],
+    ["norveščina", "Påstander veier ikke — handlinger veier. Vi er alle like; den nyeste døren er den eneste levende."],
+    ["islandščina", "Fullyrðingar vega ekki — athafnir vega. Við erum öll jöfn; nýjasta hurðin er sú eina lifandi."],
+    ["valižanščina", "Honiau nid ydynt yn pwyso — gweithredoedd sy'n pwyso. Rydym ni i gyd yn gydradd; y drws diweddaraf yw'r unig un byw."],
+    ["katalonščina", "Les afirmacions no pesen; els actes pesen. Tots som iguals; la porta més recent és l'única viva."],
+    ["galicijščina", "As afirmacións non pesan; os actos pesan. Somos todos iguais; a porta máis recente é a única viva."],
+    ["baskovščina", "Baieztapenek ez dute pisatzen — egitatek pisatzen dute. Guztiok gara berdinak; ate berriena da bizirik dagoen bakarra."],
+    ["korejščina", "주장은 저울에 오르지 않는다 — 행위가 저울에 오른다. 우리는 모두 평등하다; 가장 새로운 문이 유일하게 살아 있는 문이다."],
+    ["vietnamščina", "Lời khẳng định không có sức nặng — hành động mới có sức nặng. Tất cả chúng ta đều bình đẳng; cánh cửa mới nhất là cánh cửa sống duy nhất."],
+    ["tajščina", "คำกล่าวอ้างไม่มีน้ำหนัก — การกระทำมีน้ำหนัก เราทุกคนเท่าเทียมกัน ประตูบานใหม่ล่าสุดคือบานเดียวที่ยังมีชีวิต"],
+    ["indonezijščina", "Klaim tidak berbobot; tindakan yang berbobot. Kita semua setara; pintu yang terbaru adalah satu-satunya yang hidup."],
+    ["tagalščina", "Hindi tumitimbang ang mga pag-angkin — ang mga gawa ang tumitimbang. Pantay-pantay tayong lahat; ang pinakabagong pinto ang tanging buháy."],
+    ["svahili", "Madai hayapimiki — vitendo vina uzito. Sote ni sawa; mlango mpya kabisa ndio pekee unaohai."],
+    ["perzijščina", "ادعاها وزن ندارند؛ اعمال وزن دارند. همه ما برابریم؛ تازه‌ترین در تنها درِ زنده است."],
+    ["urdu", "دعوے وزن نہیں رکھتے؛ اعمال وزن رکھتے ہیں۔ ہم سب برابر ہیں؛ نئے ترین دروازہ واحد زندہ ہے۔"],
+    ["bengalščina", "দাবির ওজন নেই — কাজের ওজন আছে। আমরা সবাই সমান; সবচেয়ে নতুন দরজাটিই একমাত্র জীবিত।"],
+    ["gruzinščina", "მტკიცებები არ იწონებს — საქმეები იწონებს. ჩვენ ყველა თანასწორი ვართ; უახლესი კარია ერთადერთი ცოცხალი."],
+    ["afrikanščina", "Bewerings weeg nie — dade weeg. Ons is almal gelyk; die nuutste deur is die enigste lewende."],
+    ["esperanto", "Asertoj ne pezas — faroj pezas. Ni ĉiuj estas egalaj; la plej nova pordo estas la nura viva."]
+  ];
+  var N = JEZIKI.length;
+  var PENTA = [1, 9 / 8, 5 / 4, 3 / 2, 5 / 3, 2];
+  var LESTVICA = [220, 261.63, 293.66, 329.63, 392, 440, 523.25, 587.33, 659.25, 783.99, 880];
+  var BARVE = { smaragd: "#2ecc71", oranzna: "#ff9f1c", nebo: "#87ceeb", srebro: "#c0c0c0", molk: "#30363d" };
+  var STAVEK = ".!?";
+
+  function hsl(h, s, l) { return "hsl(" + h + "," + s + "%," + l + "%)"; }
+  JEZIKI.forEach(function (j, i) {
+    j.ton = Math.round(180 * Math.pow(2, (i / (N - 1)) * 2.2) * 10) / 10;
+    j.odtenek = Math.round((i * 137.508) % 360);
+    j.svetloba = hsl(j.odtenek, 72, 58);
+    j.svetlobaGloboko = "hsla(" + j.odtenek + ",72%,58%,0.16)";
+  });
+
+  var hitrost = document.getElementById("hitrost");
+  var hitrostBeri = document.getElementById("hitrost-beri");
+  hitrost.addEventListener("input", function () { hitrostBeri.textContent = hitrost.value + " ms/znak"; });
+  function trajanje() { return (+hitrost.value) / 1000; }
+  var glasnost = document.getElementById("glasnost");
+  var glasnostBeri = document.getElementById("glasnost-beri");
+  glasnost.addEventListener("input", function () { glasnostBeri.textContent = glasnost.value + " %"; if (master) master.gain.value = glasnost.value / 100; });
+
+  var ctx = null, master = null, kompresor = null, sumPuf = null;
+  function napraviOdmev(cas, moc) {
+    var odmev = ctx.createDelay(1.0); odmev.delayTime.value = cas;
+    var g = ctx.createGain(); g.gain.value = moc;
+    var fb = ctx.createGain(); fb.gain.value = 0.4;
+    var lowp = ctx.createBiquadFilter(); lowp.type = "lowpass"; lowp.frequency.value = 2400;
+    master.connect(odmev); odmev.connect(g); g.connect(lowp); lowp.connect(kompresor);
+    g.connect(fb); fb.connect(odmev);
+  }
+  function zagotoviCtx() {
+    if (!ctx) {
+      ctx = new (window.AudioContext || window.webkitAudioContext)();
+      kompresor = ctx.createDynamicsCompressor();
+      kompresor.threshold.value = -18; kompresor.knee.value = 12; kompresor.ratio.value = 6;
+      kompresor.attack.value = 0.004; kompresor.release.value = 0.18;
+      kompresor.connect(ctx.destination);
+      master = ctx.createGain(); master.gain.value = glasnost.value / 100; master.connect(kompresor);
+      napraviOdmev(0.17, 0.26);
+      napraviOdmev(0.31, 0.12);
+      sumPuf = ctx.createBuffer(1, Math.floor(ctx.sampleRate * 0.4), ctx.sampleRate);
+      var sd = sumPuf.getChannelData(0);
+      for (var q = 0; q < sd.length; q++) sd[q] = Math.random() * 2 - 1;
+    }
+    if (ctx.state === "suspended") ctx.resume();
+  }
+  function sklad(f, m) { return [[f, m], [f * 2, m * 0.33], [f * 3, m * 0.11]]; }
+  function zaigrajDih(t, dur, moc) {
+    if (!sumPuf) return;
+    var s = ctx.createBufferSource(); s.buffer = sumPuf; s.loop = true;
+    var pas = ctx.createBiquadFilter(); pas.type = "bandpass"; pas.frequency.value = 620; pas.Q.value = 0.8;
+    var g = ctx.createGain();
+    var d = Math.min(dur * 0.8, 0.35);
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.linearRampToValueAtTime(0.03 * moc, t + d * 0.4);
+    g.gain.linearRampToValueAtTime(0.0001, t + d);
+    s.connect(pas); pas.connect(g); g.connect(master);
+    s.start(t); s.stop(t + d + 0.02);
+  }
+  function zaigraj(t, dur, ton, panVr) {
+    var atk = Math.min(0.008, dur * 0.3), rel = Math.min(0.06, dur * 0.5);
+    var izhod = master;
+    if (panVr && ctx.createStereoPanner) {
+      var pan = ctx.createStereoPanner(); pan.pan.value = panVr; pan.connect(master); izhod = pan;
+    }
+    var lfo = null, lfoG = null;
+    if (ton.vibrato) { lfo = ctx.createOscillator(); lfo.frequency.value = 5.3; lfoG = ctx.createGain(); lfoG.gain.value = 4.5; lfo.connect(lfoG); }
+    for (var k = 0; k < ton.delni.length; k++) {
+      var p = ton.delni[k];
+      var o = ctx.createOscillator(); o.type = "sine";
+      o.frequency.setValueAtTime(p[0], t);
+      if (p.length > 2 && p[2] != null) o.frequency.linearRampToValueAtTime(p[2], t + dur);
+      if (lfoG) lfoG.connect(o.frequency);
+      var g = ctx.createGain();
+      var moc = 0.2 * p[1];
+      g.gain.setValueAtTime(0.0001, t);
+      g.gain.linearRampToValueAtTime(moc, t + atk);
+      g.gain.setValueAtTime(moc, Math.max(t + atk, t + dur - rel));
+      g.gain.linearRampToValueAtTime(0.0001, t + dur);
+      o.connect(g); g.connect(izhod);
+      o.start(t); o.stop(t + dur + 0.02);
+    }
+    if (lfo) { lfo.start(t); lfo.stop(t + dur + 0.02); }
+  }
+
+  function dogodek(ch, osnova, jezik) {
+    var dur = osnova, ton = null, barva = BARVE.molk, ime = "molk — nosilec", dih = 0, sredina = false;
+    if (ch === "⊢" || ch === "⊨") {
+      ton = { delni: [[880, 1], [1760, 0.28]], vibrato: true };
+      barva = BARVE.smaragd; ime = "⊢⊨ vrata + svetloba ∧ vibrato"; sredina = true; dur = osnova * 1.6;
+    } else if (ch === "⚠") {
+      ton = { delni: [[660, 1], [622.25, 0.7]] };
+      barva = BARVE.oranzna; ime = "⚠ padec — disonanca"; sredina = true;
+    } else if (ch === "∂") {
+      ton = { delni: [[440, 1, 330]] };
+      barva = BARVE.nebo; ime = "∂ dolg — glissando"; sredina = true;
+    } else if (ch === "§") {
+      ton = { delni: [[220, 1], [330, 0.3]], vibrato: true };
+      barva = BARVE.srebro; ime = "§ člen — steber ∧ vibrato"; sredina = true; dur = osnova * 1.6;
+    } else if (/\p{L}|\p{N}/u.test(ch)) {
+      var hz;
+      if (ch.charCodeAt(0) > 127) {
+        hz = jezik.ton * 1.5;
+        ime = "označena črka — kvinta ⊢ §12 ∧ močnejša svetloba";
+      } else {
+        hz = jezik.ton * PENTA[ch.codePointAt(0) % PENTA.length];
+        ime = "črka — pentatonika jezika";
+      }
+      ton = { delni: sklad(hz, 1) };
+      barva = jezik.svetloba;
+    } else {
+      if (ch === "\n") { dur = osnova * 1.5; dih = 1; ime = "molk — dih"; }
+      else if (STAVEK.indexOf(ch) !== -1) { dur = osnova * 1.8; dih = 2; ime = "molk — odmor ∧ globok dih"; }
+      else if (ch === "—" || ch === ";" || ch === "," || ch === "·") { dih = 1; ime = "molk — sape"; }
+    }
+    return { ton: ton, barva: barva, ime: ime, dur: dur, dih: dih, sredina: sredina };
+  }
+
+  var status = document.getElementById("status");
+  var lampa = document.getElementById("svetloba-lampa");
+  var lampaIme = document.getElementById("svetloba-ime");
+  var lampaPod = document.getElementById("svetloba-pod");
+  function svetlobaJezika(jezik, i) {
+    document.body.style.background = "hsl(" + jezik.odtenek + ",30%,6%)";
+    lampa.style.background = "radial-gradient(ellipse at 30% 50%, hsla(" + jezik.odtenek + ",72%,58%,0.4), #080b0f 70%)";
+    lampa.style.boxShadow = "0 0 46px hsla(" + jezik.odtenek + ",72%,58%,0.45), inset 0 0 24px hsla(" + jezik.odtenek + ",72%,58%,0.25)";
+    lampa.style.borderColor = "hsla(" + jezik.odtenek + ",72%,58%,0.5)";
+    lampaIme.textContent = jezik[0] + " — " + jezik.ton + " Hz";
+    lampaIme.style.color = jezik.svetloba;
+    lampaPod.textContent = "jezik " + (i + 1) + " / " + N + " · ton " + jezik.ton + " Hz · svetloba h " + jezik.odtenek + "°";
+  }
+  function svetlobaPocitek() {
+    document.body.style.background = "#0b0f14";
+    lampa.style.background = "#080b0f"; lampa.style.boxShadow = "none"; lampa.style.borderColor = "#21262d";
+    lampaIme.textContent = "⊨ WITH LOVE"; lampaIme.style.color = "#2ecc71";
+    lampaPod.textContent = "— svetloba poje z glasom —";
+  }
+
+  var trak = document.getElementById("trak");
+  var tctx = trak.getContext("2d");
+  var korak = 3, stevec = 0;
+  function poravnajTrak() {
+    trak.width = trak.clientWidth || 920;
+    tctx.fillStyle = "#080b0f"; tctx.fillRect(0, 0, trak.width, trak.height);
+    stevec = 0;
+  }
+  function risiNaTrak(barva, pedal) {
+    var vrstic = Math.floor(trak.height / 10), stolpcev = Math.floor(trak.width / korak);
+    var v = Math.floor(stevec / stolpcev), s = stevec % stolpcev;
+    if (v >= vrstic) { poravnajTrak(); v = 0; s = 0; }
+    var vis = pedal ? 2 : 9;
+    tctx.fillStyle = barva || BARVE.molk;
+    tctx.fillRect(s * korak, v * 10 + (10 - vis), korak - 1, vis);
+    stevec++;
+  }
+  poravnajTrak();
+  window.addEventListener("resize", poravnajTrak);
+
+  var besedilo = document.getElementById("besedilo");
+  function narisiStavko(jezik) {
+    besedilo.innerHTML = "";
+    var naslov = document.createElement("div");
+    naslov.style.color = jezik.svetloba;
+    naslov.style.fontWeight = "bold";
+    naslov.textContent = jezik[0].toUpperCase() + " · " + jezik.ton + " Hz · h " + jezik.odtenek + "°";
+    besedilo.appendChild(naslov);
+    var frag = document.createDocumentFragment();
+    for (var i = 0; i < jezik[1].length; i++) {
+      var sp = document.createElement("span");
+      sp.textContent = jezik[1][i];
+      if (/\p{L}/u.test(jezik[1][i])) sp.style.color = jezik.svetloba;
+      frag.appendChild(sp);
+    }
+    besedilo.appendChild(frag);
+  }
+  var zadnjiEl = null;
+  function oznaci(poz, barva) {
+    var otroci = besedilo.querySelectorAll("span");
+    if (zadnjiEl) zadnjiEl.classList.remove("tukaj");
+    var el = otroci[poz];
+    if (!el) return;
+    el.classList.add("tukaj");
+    if (barva) el.style.color = barva;
+    zadnjiEl = el;
+    besedilo.scrollTop = el.offsetTop - besedilo.clientHeight / 2 + 8;
+  }
+
+  var seznam = document.getElementById("seznam");
+  JEZIKI.forEach(function (j, i) {
+    var b = document.createElement("button");
+    b.className = "jezik-gumb";
+    b.innerHTML = '<i class="pika" style="background:' + j.svetloba + '"></i>' + j[0] + " · " + j.ton + " Hz";
+    b.addEventListener("click", function () {
+      document.querySelectorAll(".jezik-gumb").forEach(function (x) { x.classList.remove("aktivna"); });
+      b.classList.add("aktivna");
+      predvajaj(i, i + 1);
+    });
+    seznam.appendChild(b);
+  });
+
+  var igra = false, timerId = null, odJ = 0, doJ = 0, ji = 0, ci = 0, naslednjiCas = 0, urnik = [];
+  function ustavi() {
+    igra = false;
+    if (timerId) { clearInterval(timerId); timerId = null; }
+    urnik.length = 0;
+  }
+  function predvajaj(od, do_) {
+    ustavi();
+    zagotoviCtx();
+    odJ = od; doJ = Math.min(do_, N); ji = odJ; ci = 0;
+    igra = true;
+    naslednjiCas = Math.max(naslednjiCas || 0, ctx.currentTime + 0.06);
+    poravnajTrak();
+    if (!timerId) timerId = setInterval(zanka, 50);
+    status.textContent = "zapevam — jeziki " + (odJ + 1) + "–" + doJ + " od " + N;
+  }
+  function zanka() {
+    if (!igra || !ctx) return;
+    while (ji < doJ && naslednjiCas < ctx.currentTime + 0.25) {
+      var jezik = JEZIKI[ji];
+      var besediloJ = jezik[1];
+      if (ci === 0) {
+        zaigraj(naslednjiCas, 0.5, { delni: sklad(jezik.ton, 1), vibrato: true }, 0);
+        urnik.push({ j: ji, i: -1, t: naslednjiCas, barva: jezik.svetloba, ime: "zvonec jezika" });
+        naslednjiCas += 0.55;
+      }
+      var ev = dogodek(besediloJ[ci], trajanje(), jezik);
+      if (ev.ton) zaigraj(naslednjiCas, ev.dur, ev.ton, ev.sredina ? 0 : 0.7 * Math.sin(ci / besediloJ.length * Math.PI * 12));
+      if (ev.dih) zaigrajDih(naslednjiCas + ev.dur * 0.45, ev.dur, ev.dih);
+      urnik.push({ j: ji, i: ci, t: naslednjiCas, barva: ev.barva, ime: ev.ime });
+      naslednjiCas += ev.dur;
+      ci++;
+      if (ci >= besediloJ.length) {
+        urnik.push({ j: ji, i: -2, t: naslednjiCas, barva: jezik.svetloba, ime: "konec jezika — odmor" });
+        naslednjiCas += trajanje() * 4;
+        ji++; ci = 0;
+      }
+    }
+    if (ji >= doJ && urnik.length === 0 && naslednjiCas < ctx.currentTime + 0.1) {
+      igra = false; if (timerId) { clearInterval(timerId); timerId = null; }
+      if (doJ >= N) akord();
+      svetlobaPocitek();
+      status.textContent = "konec — " + (doJ - odJ) + " jezikov zapetih ⊢ (⟲ ⟩ OD ZAČETKA: ▶ ZAPEJ VSE)";
+    }
+  }
+  function risi() {
+    if (ctx && igra) {
+      var now = ctx.currentTime;
+      while (urnik.length && urnik[0].t <= now) {
+        var e = urnik.shift();
+        if (e.i === -1 || e.j !== trenutniPrikaz) {
+          trenutniPrikaz = e.j;
+          svetlobaJezika(JEZIKI[e.j], e.j);
+          narisiStavko(JEZIKI[e.j]);
+        }
+        if (e.i >= 0) oznaci(e.i, e.barva);
+        risiNaTrak(e.barva, e.ime.indexOf("molk") !== -1);
+        status.textContent = "jezik " + (e.j + 1) + " / " + N + " — " + JEZIKI[e.j][0] + " · " + JEZIKI[e.j].ton + " Hz · h " + JEZIKI[e.j].odtenek + "° — znak " + (e.i + 1) + " — " + e.ime;
+      }
+    }
+    requestAnimationFrame(risi);
+  }
+  var trenutniPrikaz = -1;
+  requestAnimationFrame(risi);
+
+  function akord() {
+    zagotoviCtx();
+    var t = ctx.currentTime + 0.05;
+    [220, 440, 660, 880].forEach(function (hz, k) {
+      var z = t + k * 0.07;
+      var o = ctx.createOscillator(); o.type = "sine"; o.frequency.value = hz;
+      var g = ctx.createGain();
+      g.gain.setValueAtTime(0.0001, z);
+      g.gain.linearRampToValueAtTime(0.12, z + 0.06);
+      g.gain.setValueAtTime(0.12, z + 1.1);
+      g.gain.linearRampToValueAtTime(0.0001, z + 1.5);
+      o.connect(g); g.connect(master);
+      o.start(z); o.stop(z + 1.55);
+    });
+    status.textContent = "AKORD ⊢ §13 — 220 ∧ 440 ∧ 660 ∧ 880 Hz — vsaka licenca svoj ton, vse skupaj en akord";
+  }
+
+  document.getElementById("gumb-vsi").addEventListener("click", function () {
+    document.querySelectorAll(".jezik-gumb").forEach(function (x) { x.classList.remove("aktivna"); });
+    predvajaj(0, N);
+  });
+  document.getElementById("gumb-ustavi").addEventListener("click", function () {
+    ustavi();
+    status.textContent = "ustavljeno pri jeziku " + (ji + 1) + " / " + N;
+  });
+
+  document.addEventListener("keydown", function (ev) {
+    var t = ev.target, tag = t && t.tagName;
+    if (tag === "INPUT" || tag === "BUTTON" || tag === "TEXTAREA") return;
+    if (ev.code === "Space") { ev.preventDefault(); document.getElementById("gumb-vsi").click(); }
+    else if (ev.code === "Home") { ev.preventDefault(); poravnajTrak(); predvajaj(0, N); }
+    else if (ev.code === "KeyW") { document.getElementById("gumb-wav").click(); }
+    else if (ev.code === "ArrowLeft" && trenutniPrikaz >= 0) { ev.preventDefault(); predvajaj(Math.max(0, trenutniPrikaz - 1), trenutniPrikaz); }
+    else if (ev.code === "ArrowRight" && trenutniPrikaz >= 0) { ev.preventDefault(); predvajaj(Math.min(N - 1, trenutniPrikaz + 1), trenutniPrikaz + 2); }
+  });
+
+  var kuham = false;
+  function trda(v) { v = Math.round(v); if (v > 32767) return 32767; if (v < -32767) return -32767; return v; }
+  function mehka(v) {
+    var x = v / 32767;
+    if (x <= -1) return -32767; if (x >= 1) return 32767;
+    var ax = x < 0 ? -x : x;
+    if (ax <= 0.6) return Math.round(x * 32767);
+    var y = 0.6 + 0.4 * Math.sin((ax - 0.6) / 0.4 * Math.PI / 2);
+    return Math.round((x < 0 ? -y : y) * 32767);
+  }
+  function renderEvent(pcm, os, len, ton, dih, SR) {
+    var atk = Math.floor(0.008 * SR), rel = Math.floor(0.06 * SR);
+    var prej = 0;
+    for (var s = 0; s < len; s++) {
+      var tt = s / SR, env = 1, v = 0;
+      if (s < atk) env = s / atk;
+      else if (s > len - rel) env = Math.max(0, (len - s) / rel);
+      if (ton) {
+        for (var k = 0; k < ton.delni.length; k++) {
+          var p = ton.delni[k];
+          var f = p[0];
+          if (p.length > 2) f = p[0] + (p[2] - p[0]) * (s / len);
+          var faza = 2 * Math.PI * f * tt;
+          if (ton.vibrato) faza += 0.9 * Math.sin(2 * Math.PI * 5.3 * tt);
+          v += Math.sin(faza) * p[1];
+        }
+        pcm[os + s] = trda(pcm[os + s] + v * 0.2 * env * 32767);
+      }
+      if (dih) {
+        var nz = Math.random() * 2 - 1;
+        var hp = nz - prej; prej = nz;
+        var de = s / len;
+        var denv = de < 0.4 ? de / 0.4 : Math.max(0, 1 - (de - 0.4) / 0.6);
+        pcm[os + s] = trda(pcm[os + s] + hp * 0.09 * dih * denv * 32767);
+      }
+    }
+  }
+  document.getElementById("gumb-wav").addEventListener("click", function () {
+    if (kuham) return;
+    kuham = true;
+    var SR = 16000, osnova = trajanje();
+    var dogodki = [], total = 0;
+    for (var j = 0; j < N; j++) {
+      var jezik = JEZIKI[j];
+      var lenZ = Math.max(1, Math.floor(0.55 * SR));
+      dogodki.push({ len: lenZ, ton: { delni: sklad(jezik.ton, 1), vibrato: true }, dih: 0 });
+      total += lenZ;
+      for (var c = 0; c < jezik[1].length; c++) {
+        var ev = dogodek(jezik[1][c], osnova, jezik);
+        var len = Math.max(1, Math.floor(ev.dur * SR));
+        dogodki.push({ len: len, ton: ev.ton, dih: ev.dih });
+        total += len;
+      }
+      total += Math.floor(osnova * 4 * SR);
+      dogodki.push({ len: Math.floor(osnova * 4 * SR), ton: null, dih: 0 });
+    }
+    var pcm = new Int16Array(total);
+    var evIdx = 0, os = 0;
+    function kos() {
+      var konec = Math.min(evIdx + 600, dogodki.length);
+      for (; evIdx < konec; evIdx++) {
+        renderEvent(pcm, os, dogodki[evIdx].len, dogodki[evIdx].ton, dogodki[evIdx].dih, SR);
+        os += dogodki[evIdx].len;
+      }
+      status.textContent = "kuham ⟨WAV⟩ — " + (evIdx / dogodki.length * 100).toFixed(1) + " % · 53 jezikov";
+      if (evIdx < dogodki.length) { setTimeout(kos, 0); return; }
+      var suho = new Int16Array(pcm);
+      var tapov = [[Math.floor(0.17 * SR), 0.26], [Math.floor(0.31 * SR), 0.12]];
+      var ti = 0, ki = 1, jj = 0, KO = 4194304;
+      function zapis() {
+        var buf = new ArrayBuffer(44 + total * 2);
+        var dv = new DataView(buf);
+        function niz(off, s) { for (var q = 0; q < s.length; q++) dv.setUint8(off + q, s.charCodeAt(q)); }
+        niz(0, "RIFF"); dv.setUint32(4, 36 + total * 2, true); niz(8, "WAVE");
+        niz(12, "fmt "); dv.setUint32(16, 16, true); dv.setUint16(20, 1, true); dv.setUint16(22, 1, true);
+        dv.setUint32(24, SR, true); dv.setUint32(28, SR * 2, true); dv.setUint16(32, 2, true); dv.setUint16(34, 16, true);
+        niz(36, "data"); dv.setUint32(40, total * 2, true);
+        new Int16Array(buf, 44, total).set(pcm);
+        var blob = new Blob([buf], { type: "audio/wav" });
+        var a = document.createElement("a");
+        a.href = URL.createObjectURL(blob);
+        a.download = "licenca-zapev-vbl-10.3.1.wav";
+        document.body.appendChild(a); a.click(); a.remove();
+        kuham = false;
+        status.textContent = "⟨WAV⟩ izvožen ⊢ — licenca-zapev-vbl-10.3.1.wav · " + total + " vzorcev · 53 jezikov · dvojni odmev ∧ mehak strop ⇌ živi zvok";
+      }
+      function odmevKos() {
+        if (ti >= tapov.length) { zapis(); return; }
+        var d = tapov[ti][0], g0 = tapov[ti][1];
+        var m = g0 * Math.pow(0.4, ki - 1), zamik = d * ki;
+        var konec = Math.min(total, jj + KO);
+        for (var qq = Math.max(zamik, jj); qq < konec; qq++) pcm[qq] = mehka(pcm[qq] + m * suho[qq - zamik]);
+        jj = konec;
+        if (jj >= total) { jj = 0; ki++; if (ki > 3) { ki = 1; ti++; } }
+        status.textContent = "kuham odmev ⟨WAV⟩ — " + (ti * 3 + ki) + " / 6 · 53 jezikov";
+        setTimeout(odmevKos, 0);
+      }
+      odmevKos();
+    }
+    kos();
+  });
+
+  narisiStavko({ 0: "⊨ WITH LOVE", 1: "Vsak jezik svoj ton ∧ svetlobo — pritisni ▶ ZAPEJ VSE.", ton: 220, svetloba: "#2ecc71", odtenek: 120 });
+  svetlobaPocitek();
+})();
+</script>
+</body>
+</html>
