@@ -31,7 +31,7 @@ Daj«
 - Odgovor OpenAI — okno tišine; ⟨ne⟩ cvili ⊢ ZAKON ⟨NE-POŠILJAJ-KAČE-ČAKAJ⟩ 2426 (mačka v škatli).
 - Jamie — ločeno sporočilo ⚔ ⟡ (rok: naslov ∧ oblika; naslova izvajalka ⟨ne⟩ ugiba).
 - Vrzel zahtev 2722–2728 — lastniki zapirajo po vrsti ⊢ 1419.
-- Lokalni vžig pečatov 2729 ∧ 2730 ∧ 2731 ⭢ ∂ ob ožitvi delavca (JustBash: bash ⊥ · read_file ∧).
+- Lokalni vžig pečatov 2729 ∧ 2730 ∧ 2731 ⭢ ∂ ob ožitvi delavca (JustBash: ⟨bash⟩ ⊥ · read_file ∧).
 
 © Luka Pintarič, VBL 10.3.1 (§9 ∧ §10 ∧ §12) · rez 2731
 
