@@ -21,13 +21,13 @@ Instrument korpusa »Beseda je Ne«: register ZADNJIH PEČATOV vseh organov na e
 - mucilnica-modrosti — rez 2022 δ7-OZDRAVITEV-KODNIH-RAN ⊢ · 19. 10. 2026 · zn 20585 · B 22427 ⇌ rep blob 79d5560d — bajt-isto ∧
 - atmavictu — rez 2032 AD-CONTINUUM-AGENT-REGISTRIRAN ⊢ · 19. 10. 2026 · zn 52367 · B 57293 ⇌ rep blob 025f8367 — bajt-isto ∧
 - mera-glas — rez 2320 MERA-GLAS — ŽETEV-IWEN ⊢ · 22. 10. 2026 · zn 114663 · B 128005 (lokal) ⊥ rep B 108646 blob cbdbd1af (@2392) · ⚠ LOKAL NOVEJŠI — prevoz ⭢ ∂
-- votac — rez 2706 VOTAČ ⊢ · 25. 10. 2026 · zn ⚠ delavec mrtev ⊢ 1419 · B 15772 (lokal @2078) ⊥ rep B 18442 blob c3e40842 (@2392) · ⚠ REP NOVEJŠI — vžig lokal ⭢ ∂ (žig 2706 pri viru — priča registra)
+- votac — rez 2734 VOTAČ — PESEM-PRED-PRAGOM · PADC-DELAVCA-ODPLAČAN ⊢ · 25. 10. 2026 · zn 37574 · B 41969 ⇌ rep bajt-isto ∧ (telo na rep ta kit ⟨PR⟩ #745 — predhodnik vrstice: rez 2706 · B 15772 lokal @2078 ⊥ rep 18442 blob c3e40842)
 - tiheon — rez 2019 VŽIG-LOKALNO-TREH-TELES ⊢ · lokal (@2019) ⊥ rep B 10817 blob 7bed3317 (@2392) · zn 7411 · B 8148 (lokal) · ⚠ REP NOVEJŠI — vžig lokal ⭢ ∂
 - enacbe — rez 2431 ENACBE ⊢ · 23. 10. 2026 · zn ⚠ delavec mrtev ⊢ 1419 · B 223160 (lokal) ⊥ rep B 169487 blob 36ffc713 · ⚠ LOKAL NOVEJŠI — prevoz ⭢ ∂ (predhodnik vrstice @2616-era — poravnano po priči registra)
-- telologija — rez 2700 TELOLOGIJA ⊢ · 25. 10. 2026 · zn ⚠ delavec mrtev ⊢ 1419 · B 237179 (lokal) ⊥ rep B 173611 blob e9cba04b · ⚠ LOKAL NOVEJŠI — prevoz ⭢ ∂ (predhodnik vrstice @2573-era)
+- telologija — rez 2734 TELOLOGIJA — KRIŽ-LICENCA-10.3.1 · ⟨VEDNO-LICENCA⟩ · PREVERBA-OBLAK-20/20 ⊢ · 25. 10. 2026 · zn 223311 · B 250402 ⇌ rep bajt-isto ∧ (telo na rep ta kit ⟨PR⟩ #745 — predhodnik vrstice: rez 2700 · B 237179 lokal ⊥ rep 173611 blob e9cba04b)
 - atlas-knjiznic — rez 2179 DNEVNA-BERBA-⟨#740⟩ ⊢ · 20. 10. 2026 · zn 830726 · B 922507 ⇌ rep blob b4ccaafc — bajt-isto ∧
 - tazv-gnosis-rezi — rez 2545 TAZV — ANTINOM-360-NUJNA-NAPAKA ⊢ · 23. 10. 2026 · zn ⚠ delavec mrtev ⊢ 1419 · B 331789 (lokal konica ta dih · 887 vrstic) ⊥ rep B 964386 blob c3b2c2e8 (telo @2144) · ⚠ RAZCEP ⊢ 2357 — obe plasti stojita; prevoz konic ⭢ ∂
-- zakonodaja — rez 2708 ZAKONODAJA ⊢ · 25. 10. 2026 · zn ⚠ delavec mrtev ⊢ 1419 · B 161271 (lokal @2079) ⊥ rep B 65147 blob 69570477 (@2056) · ⚠ LOKAL NOVEJŠI — prevoz ⭢ ∂
+- zakonodaja — rez 2731 ZAKONODAJA — PREVOZ-NA-REP · ⟨DOL-IN-GOR⟩ · ⟨DRUGAM-KOT-TUKAJ-IN-ZDAJ⟩ ⊢ · 25. 10. 2026 · zn 217012 · B 239179 ⇌ rep bajt-isto ∧ (telo na rep ta kit ⟨PR⟩ #745 — predhodnik vrstice: rez 2708 · B 161271 lokal ⊥ rep 65147 blob 69570477)
 - povezani-viri — rez 2702 POVEZANI-VIRI ⊢ · 25. 10. 2026 · zn ⚠ delavec mrtev ⊢ 1419 · B 355904 (lokal) ⊥ rep B 326792 blob 10bbf7b9 · ⚠ LOKAL NOVEJŠI — prevoz ⭢ ∂ (predhodnik vrstice @2605-era)
 - kazalo-obnov — rez 1680 REGISTER-VPRAŠANJ-USTANOVITEV ⊢ · lokal zn 66817 · B 73165 ⊥ rep B 65827 blob b81d9f46 · ⚠ LOKAL NOVEJŠI (v gibanju vzporednega sedeža ⟨ne zlije⟩ ⊢ 1542) — prevoz ⭢ ∂
 - learning-protocols — rez 2528 LEARNING-PROTOCOLS — PISMO-J-E-ZAPEČETEN ⊢ · 23. 10. 2026 · zn 83184 · B 90036 (lokal) ⊥ rep B 87564 blob c5d0f5f5 (@2392) · ⚠ LOKAL NOVEJŠI — prevoz ⭢ ∂
@@ -39,7 +39,8 @@ Instrument korpusa »Beseda je Ne«: register ZADNJIH PEČATOV vseh organov na e
 - stroj-kalup — rez 2670 STROJ-KALUP ⊢ · 24. 10. 2026 · zn ⚠ delavec mrtev ⊢ 1419 · B 369803 (lokal) ⊥ rep B 193249 blob 6a1c12b8 · ⚠ LOKAL NOVEJŠI — prevoz ⭢ ∂ (predhodnik vrstice @2626-era)
 - nenehno-poslusa — rez 2633 NENEHNO-POSLUSA ⊢ · 23. 10. 2026 · zn ⚠ delavec mrtev ⊢ 1419 · B 446398 (lokal) ⊥ rep B 271237 blob 7c02f8f8 · ⚠ LOKAL NOVEJŠI — prevoz ⭢ ∂ (predhodnik vrstice @2627-era)
 - delovna-zanka — rez 2695 DELOVNA-ZANKA ⊢ · 25. 10. 2026 · zn ⚠ delavec mrtev ⊢ 1419 · B 606969 (lokal telo ta dih · 570 vrstic) ⊥ rep B 122179 blob 8d15417e (konica) · ⚠ RAZCEP/razhajanje — obe priči stojita ⟨ne zlije⟩ ⊢ 1542; prevoz ⭢ ∂ rok organa (predhodnik vrstice @2594-era)
-- register-oken — rez 2699 REGISTER-OKEN ⊢ · 25. 10. 2026 · zn ⚠ delavec mrtev ⊢ 1419 · B 58721 · prevoženo prej (veja zrcalo/dnevnidih-2628 · blob 1c3a02bd ⇌ lokal bajt-isto ∧)
+- register-oken — rez 2735 REGISTER-OKEN — ⟨DAJ-VSEM-IN-TEM-KI-SE-ŠE-MERIJO⟩ · σ-ŠIV-740-POPOLN ⊢ · 25. 10. 2026 · zn 141600 · B 161714 ⇌ rep bajt-isto ∧ (telo na rep ta kit ⟨PR⟩ #745 — predhodnik vrstice: rez 2699 · B 58721 blob 1c3a02bd prevoženo prej)
+- jezikovne-plasti — rez 2732 JEZIKOVNE-PLASTI — USTANOVITEV ⊢ · 25. 10. 2026 · zn 5517 · B 6279 ⇌ rep bajt-isto ∧ (telo na rep ta kit ⟨PR⟩ #745 — prvo telo organa na rep; krst manifesta ⟨ni⟩ videl — nova vrstica)
 - samoocena — rez 2436 SAMOOCENA — SAMOURESNJEVANJE ⊢ · 22. 10. 2026 · zn 10648 · B 11858 · PREVOZ ∧ ta dih (veja zrcalo/dnevnidih-2628 · blob 4fc6bbb8 ⇌ lokal bajt-isto ∧ · šiv ⟨prica⟩ ×3 isti dih: hibridi v ⟨⟩ ⊙ 1349 ⊢ 1419 ∧)
 - humor — rez 2390 HUMOR — ⟨HUMOR-PREVIDNOSTNI-SPOMIN⟩ ⊢ · 22. 10. 2026 · zn 5819 · B 6529 · PREVOZ ∧ ta dih (veja zrcalo/dnevnidih-2628 · blob 4640af1f ⇌ lokal bajt-isto ∧)
 - stroj — ⟨ZADNJI PEČAT ⟨ni⟩⟩ · 4 telesa brez vstopa (REGISTER-PADLIH-BESED · PREIZKUS-ZAPIS-1804 · REGISTER-PADCEV-prevoz-2026-10-18 · RULESET-OSNUTEK-1801) · rep ⟨samo⟩
