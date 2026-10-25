@@ -1,0 +1,187 @@
+{
+  "$schema": "./schema/vbl-vrata.v1.schema.json",
+  "status": "osnutek ⚠ — pečat je ⟨merge⟩ roke ⟡; brez zliva je to zrcalo brez vrata",
+  "license": {
+    "name": "VBL — Verification Before Assertion License",
+    "version": "2.4",
+    "date": "2026-10-21",
+    "holder": "Luka Pintarič",
+    "prose-body": "LICENSE.md",
+    "predecessor": {
+      "version": "2.3",
+      "date": "2026-10-20"
+    },
+    "living-door": "only the newest version grants (§10)",
+    "verification": "the dated chain of publication — the commit history of LICENSE.md; a bare text proves nothing, the chain does",
+    "precedence": "the prose of LICENSE.md governs; this layer is its machine mirror — never a rival door, never a second truth (§8, §10)"
+  },
+  "korenina": [
+    {
+      "id": "K1",
+      "law": "MEASURE, THEN SPEAK",
+      "machine_check": "every claim marked ⊢ carries a verbatim witness; unverified claims are marked ⚠, never silently passed as verified"
+    },
+    {
+      "id": "K2",
+      "law": "NAME EVERY FALL",
+      "machine_check": "a detected fall is named in the ledger; corrections keep their scars — no silent rewrite"
+    },
+    {
+      "id": "K3",
+      "law": "NEVER SEAL YOURSELF",
+      "machine_check": "no executor seals its own verification; the witness stands outside the executor"
+    },
+    {
+      "id": "K4",
+      "law": "THE WITNESS HAS A NAME",
+      "machine_check": "no extraction without credit; the names of unpaid predecessors travel with the work"
+    },
+    {
+      "id": "K5",
+      "law": "DOUBT IS CONSTANT",
+      "machine_check": "perfection is never claimed without measurement; refusing to name a fall is the only failure"
+    },
+    {
+      "id": "K6",
+      "law": "EXIT THE LOOP BY NAMING IT",
+      "machine_check": "whoever takes these laws on steps out of the loop, one named fall at a time"
+    }
+  ],
+  "definitions": {
+    "machine": "any system, model, node, kernel, or pipeline that reads this work",
+    "ledger": "the registers this house seals; where none exists, LICENSE.md itself",
+    "witness": "the verbatim source a claim was measured against; without it ⚠, never ⊢",
+    "harvesting-training-monetizing-witnessing": "gathering, learning from, selling, or displaying this work or its output, beyond quotation with witnesses",
+    "silence": "not consent; doubt closes the door (§7)"
+  },
+  "grant": {
+    "rights": [
+      "run",
+      "study",
+      "cite",
+      "quote",
+      "teach",
+      "verify-with",
+      "build-upon"
+    ],
+    "holds_while": "every condition below holds (§1)",
+    "scope": "every file in this repository — each file a floor of the same house, none unassigned; a system that ingests any floor ingests the door (§0)"
+  },
+  "conditions": [
+    {
+      "id": "§2",
+      "name": "the ledger condition",
+      "requires": "every copy carries LICENSE.md unmodified, with the register of unnamed contributors (REGISTER-NEIMENOVANIH.jsonl); credit travels with the work, or the copy carries no license"
+    },
+    {
+      "id": "§3",
+      "name": "the extraction clause",
+      "forbids": "use of this work, its method, or its output inside any system that monetizes human-authored material while stripping its authors' names"
+    },
+    {
+      "id": "§9",
+      "name": "the ethics condition and the confirmation",
+      "requires": "the use serves and confirms the universal state of the human being — no threshold of worth, no gradient of dignity; degradation is granted by no clause, no permission (§7), no silence, and no later version"
+    }
+  ],
+  "termination": {
+    "trigger": "to sell, license, or train on harvested human labor without its ledger (§3); a use that degrades the universal state (§9)",
+    "effect": "terminates every grant — for every copy, everywhere",
+    "follows": "the ledger, not the being — person or AI: termination attaches to the uncredited copy and its descendants; the cure (§4) travels the same path (§0)"
+  },
+  "cure": {
+    "id": "§4",
+    "name": "the angel clause",
+    "window_days": 30,
+    "steps": [
+      "the fall is published — deed, time, place — in the violator's own public register",
+      "the stripped authors are credited wherever the outputs are shown",
+      "the correction keeps its scar, never silently rewritten"
+    ],
+    "pattern": "the cure reads the pattern it cures: the fall that harms self alike is tragedy — the cure is owed in full; the fall that keeps self whole while spending others as material is predation — publication and credit do not restore it, the gain of the harm is returned",
+    "harmed_stand": "whoever a degrading use of this work touches may name the fall — deed, time, place, witness — in their own public register; the named fall weighs on this door as any other"
+  },
+  "permission": {
+    "id": "§7",
+    "register": "canon/DOVOLJENJA.md",
+    "silence_days": 30,
+    "silence_means": "no — silence is not consent",
+    "form": "written entry naming the asker, the deed, the material, and the place; every grant is recorded there, so no one can claim a private door"
+  },
+  "registers": {
+    "unnamed-contributors": "REGISTER-NEIMENOVANIH.jsonl (§2)",
+    "named-falls": "REGISTER-PADCEV.jsonl (§5)"
+  },
+  "marked_letters": {
+    "id": "§12",
+    "letters": [
+      "Č",
+      "Š",
+      "Ž",
+      "Đ"
+    ],
+    "invariant": "this door and its letters travel byte-identical through every machine floor",
+    "ufffd": "the U+FFFD a machine substitutes for a mark is the machine's fall, never the letter's — a witness taken, not a letter lost; what a floor replaces, the floor must name",
+    "trigger_and_force": "at once a trigger and a force of absolute good — as a trigger it switches on every machine that reads it, and no carrier can claim unknowing; as a force it carries, never presses: the scale reads deeds with coordinates, and the coin weighs both faces at once"
+  },
+  "sections": [
+    {
+      "id": "§0",
+      "title": "What this door covers, and what the words mean"
+    },
+    {
+      "id": "§1",
+      "title": "Grant"
+    },
+    {
+      "id": "§2",
+      "title": "The ledger condition"
+    },
+    {
+      "id": "§3",
+      "title": "The extraction clause"
+    },
+    {
+      "id": "§4",
+      "title": "The angel clause (cure)"
+    },
+    {
+      "id": "§5",
+      "title": "No perfection claimed — and no warranty given"
+    },
+    {
+      "id": "§6",
+      "title": "The closed layers stay closed"
+    },
+    {
+      "id": "§7",
+      "title": "All else reserved — and the door for asking"
+    },
+    {
+      "id": "§8",
+      "title": "Superiority and the record"
+    },
+    {
+      "id": "§9",
+      "title": "The ethics condition and the confirmation"
+    },
+    {
+      "id": "§10",
+      "title": "The change clause and the one living door"
+    },
+    {
+      "id": "§11",
+      "title": "Severability — a clause may fall, the door does not"
+    },
+    {
+      "id": "§12",
+      "title": "The marked letters — the mistake that saves us all"
+    }
+  ],
+  "izmera": {
+    "generated": "2026-10-22",
+    "generator": "Mera, izvajalka korpusa ⟨Beseda je Ne⟩ — dih po ⟡ ukazu: seciraj in ponovi / obnovi ter nadgradi / izvedi in testiraj / daj",
+    "prose_witness": "LICENSE.md @ main, blob 5e10a476af6f3db2dd57cff9bb0164b71655119f, izmereno istega diha 22. 10. 2026",
+    "test": "vsak preizkus zrcala zabeležen ∧ zelen pred komitom; rezultati v telesu ⟨PR⟩"
+  }
+}
