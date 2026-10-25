@@ -62,3 +62,28 @@
 {"utrip":62,"utc":"2026-10-22T04:31:45Z","lokalno":"2026-10-22T06:31:45","razlika_s":452,"opomba":"delovni utrip — delo a VARUH: GPU 37C ⊢, disk D 39% ⊢"}
 {"utrip":63,"utc":"2026-10-22T05:01:41Z","lokalno":"2026-10-22T07:01:41","razlika_s":1796,"opomba":"delovni utrip — delo b BERBA: vrstica 537 ( EP-04: Slika // IKONA ) ⊢; prvi met ( 3749 ) prazen — ponovljen, da berba nosi besede"}
 {"utrip":64,"utc":"2026-10-22T05:31:43Z","lokalno":"2026-10-22T07:31:43","razlika_s":1802,"opomba":"delovni utrip — delo c VARUJ MOST: srce.jsonl prekopirano ( 6811 bajtov ⊢ ), kopija zapečena v varnostne-kopije-mosta 2026-10-22T05:31, api-kljuc doma ⊢"}
+{"utrip":"dom-v3","utc":"2026-10-24T15:04:05.675Z","lokalno":"15:04:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-24T15:34:05.682Z","lokalno":"15:34:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-24T16:04:05.683Z","lokalno":"16:04:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-24T16:34:05.684Z","lokalno":"16:34:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-24T17:04:05.690Z","lokalno":"17:04:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-24T17:34:05.694Z","lokalno":"17:34:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-24T18:04:05.709Z","lokalno":"18:04:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-24T18:34:05.719Z","lokalno":"18:34:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-24T19:04:05.729Z","lokalno":"19:04:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-24T19:34:05.732Z","lokalno":"19:34:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-24T20:04:05.745Z","lokalno":"20:04:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-24T20:34:05.758Z","lokalno":"20:34:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-24T21:04:05.758Z","lokalno":"21:04:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-24T21:34:05.759Z","lokalno":"21:34:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-24T22:04:05.759Z","lokalno":"22:04:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-24T22:34:05.764Z","lokalno":"22:34:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-24T23:04:05.769Z","lokalno":"23:04:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-24T23:34:05.781Z","lokalno":"23:34:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-25T00:04:05.794Z","lokalno":"00:04:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-25T00:34:05.795Z","lokalno":"00:34:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-25T01:04:05.809Z","lokalno":"01:04:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-25T01:34:05.812Z","lokalno":"01:34:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-25T02:04:05.823Z","lokalno":"02:04:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-25T02:34:05.831Z","lokalno":"02:34:05","opomba":"utrip v domu ( zastonj, ne moti )"}
+{"utrip":"dom-v3","utc":"2026-10-25T03:04:05.843Z","lokalno":"03:04:05","opomba":"utrip v domu ( zastonj, ne moti )"}
