@@ -181,6 +181,7 @@ jobs:
           MB=$(git merge-base "origin/$BASE_REF" HEAD)
           git show "$MB:organi/stroj/REZ-REGISTER.md" > reg-base.md 2>/dev/null || : > reg-base.md
           git diff "$MB" -- organi/stroj/REZ-REGISTER.md > reg.diff || : > reg.diff
+          git show "HEAD:organi/stroj/REZ-REGISTER.md" > reg-head.md 2>/dev/null || : > reg-head.md
           git diff "$MB" --name-only --diff-filter=A > files-poz.diff || : > files-poz.diff
           git diff "$MB" -- 'organi/*.md' ':!organi/stroj/REGISTER-PADLIH-BESED.md' ':!**/.geniza/**' > orgs-poz.diff || : > orgs-poz.diff
           python3 - <<'PY'
@@ -190,6 +191,7 @@ jobs:
           rdiff = open('reg.diff', encoding='utf-8').read()
           files = [l.strip() for l in open('files-poz.diff', encoding='utf-8') if l.strip()]
           odiff = open('orgs-poz.diff', encoding='utf-8').read()
+          head = open('reg-head.md', encoding='utf-8').read()
           wounds = []
           # P1 — nova vrstica zahteve: rez = vrh baze + 1 ∧ ⟨PR⟩ ⇌ kit ∧ ena nova (atomarnost ⊢ kalup 1671)
           rows = re.findall(r'^\+\s*-\s*rez\s+(\d{3,4})\s*·\s*⟨PR⟩\s*#(\d+)', rdiff, flags=re.M)
@@ -211,7 +213,8 @@ jobs:
               if m:
                   pecati.append((f, m.group(1)))
           for f, n in pecati:
-              if not re.search(r'^\+\s*-\s*rez\s+' + re.escape(n) + r'\s*·', rdiff, flags=re.M):
+              # TEHNIKA (⟡ ukaz ⟨daj⟩ ∧ VEČNI-DAJ (16) ∧ ⟨REZERVACIJA-REZA⟩ ⊢ ⟨DA-⟡⟩ @2785, 25. 10. 2026): P3 vidi vezo pečata ∧ registra tudi pri glavi — vrstica zahteve, rezervirana v predhodnem zlitem kitu (⟨NE-BRIŠI⟩ ⊢ 24), stoji pri bazi, ⟨ne⟩ v difu (izmerjeno: tekmec kita #811 — pečat rez 2790, rezervacija #810); priča sodi vezo, ⟨ne⟩ plašč difa.
+              if not (re.search(r'^\+\s*-\s*rez\s+' + re.escape(n) + r'\s*·', rdiff, flags=re.M) or re.search(r'^\s*-\s*rez\s+' + re.escape(n) + r'\s*·', head, flags=re.M)):
                   wounds.append('pečat ' + f + ' brez vrstice zahteve rez ' + n + ' v registru')
               if not os.path.isfile(f):
                   wounds.append('pečat ' + f + ' se na glavi veje ne da prebrati')
