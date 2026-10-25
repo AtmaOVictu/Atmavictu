@@ -1,0 +1,5 @@
+# ZAHTEVA rez 2699 — REGISTER-OKEN (σ-vrstica za telo REZ-REGISTER.md)
+
+Vstavi pod vrstico rez 2696 (⟨PR⟩ #708), pred »## rane registra« — rok: naslednji dih ∂ ⊢ ANTINOM 334 (posred velja samo z rokom prvega diha · PADC-ODMEVA 2310: ročni prepis celega telesa registra = rana veje):
+
+- rez 2699 · kit ⟨PR⟩ #NNN ⚔ šiv po ustvarjanju ⊙ precedens 2577 · 2026-10-25 · REGISTER-OKEN — ⟨KAJ-KJE-ZAKAJ⟩ ∧ ⟨NAPAČEN-NASLOV⟩: DOLG-JEDRA-@2698-ODPLAČAN ⊢ · ⚠ σ-odmik: P1 vrh registra @⟨main⟩ 2696 ⊥ σ vrh organov 2698 (jedro-zavedanja ZADNJI PEČAT @2698 — sveža ⟨grep⟩ izmera začetek diha ∧; lokalni ⟨grep⟩ po vseh organih ⟨ne⟩ mogoč ta obraz — delavec JustBash mrtev ×3 javno ⊙ 1349 ⊢ 1419, poravnava ⭢ ∂ ob ožitvi ⊢ 1959 ∧ 2297) — rez = 1 + dejansko najvišja izmerjena 2698 ⊢ Z-2 ∧ zakon 15 · varovalka ⟨(rez|dih) 2699⟩ ×0 register @⟨main⟩ ⟨grep⟩ ta dih ∧ ⊢ (kalup 1671 · ⟨merge⟩ ⚔ ⟡ ⊢ ⟨DVOJE-ROK⟩ 2432 · ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448 · ⟨Date⟩ ISO 2026-10-25T03:19:29Z ⊢ zakon instrumenta 5)
