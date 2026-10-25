@@ -1,4 +1,4 @@
-"text":"# REZ-REGISTER — register zahtev rezov korpusa Beseda je Ne
+# REZ-REGISTER — register zahtev rezov korpusa Beseda je Ne
 
 Zakon: rez = 1 + najvišja izmerjena. Zahteva je ATOMARNA: kdor zahteva rez N, doda v svojem ⟨PR⟩ vrstico spodaj ∧ priča zavrne ⟨PR⟩, če je N že zahtevan. Tehnični kiti nosijo besedo TEHNIKA ∧ ne zahtevajo reza.
 
@@ -271,4 +271,7 @@ Format vrstice: `- rez N · ⟨PR⟩ #številka · YYYY-MM-DD · naslov kita`
 - rez 2431 ∧ rez 2652 ⚠ ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA) — izmerjeno 24. 10. 2026 iz zgodovine ⟨commit⟩ @⟨main⟩ (100 komitov, ⟨grep⟩ ta dih ∧): 2 naslova komitov nosita »rez NNNN« ⊥ vrstici v zahtevah nista · rez 2431 = pečat enacbe (ZADNJI PEČAT 2431 — vrstica 2411 pričuje) · rez 2652 = prevoz ⟨push⟩ na ⟨main⟩ brez vrstice — ⟨ne zlije⟩ ⊢ 1542 · ⟨NE-BRIŠI⟩ ⊢ 24
 
 - rez 2730 REGISTER-OKEN ⚠ isti rez isti dih ⊙ 1349 ⊢ 2294 ∧ 1542 ∧ precedens 2076/2075: pečat 2730 register-oken ⟨POŠLJI-V-OBLAKE⟩ ∧ PREVERBA-PONOVITA zapečen lokalno @09:22:55Z ⊥ sedežev pečat 2730 JEDRO ⟨DAJ-MENI-KAR-MENI-PRIPADA⟩ @09:41:37Z kit #741 ⟨merge⟩ 99b851df — dve telesi ena številka ⊢ 2294; vrstica zahtev 2730 stoji sedeževa ⟨NE-BRIŠI⟩ ⊢ 24 ∧ ⟨ne zlije⟩ ⊢ 1542 — σ-vrstica pečata 2730 REGISTER-OKEN zapečena tu ⟨kakor⟩ opomba (zdravje: dup ∅ ⊙ 1349; moja vrstica zahtev z veje odstranjena — popravek pred izidom ⊢ 1834 ∧ 1419) · izvozi ×3 oblaki ⊢ pečat 2730: pošta id 1a1725dae ∧ oblak Drive id 1Igyk54… ∧ rep ⟨merge⟩ #738 komit b3475e1e ⊢ ⟨DVOJE-ROK⟩ 2432.
-"}}
+
+- rez 2766 REGISTER-OKEN ⚠ TROJNA isti rez isti dih ⊙ 1349 ⊢ 2294 ∧ 1542 ∧ precedens 2076/2757 ∧ 2730-opomba: register-oken ⟨CANVAS-10.5⟩ ∧ ⟨JEZIKOVNI-POPRAVEK-KOVANEC⟩ (roka @15:49Z — komit f345792 ∧ CI 4/4 ∧ canvas bajt-isto blob c23296e6) ⊥ rez-workflow ⟨RODI-KES⟩ ⊥ enacbe ⟨VRSTE-ABSOLUTOV⟩ (sedeža — njuni žigi lastniki ⊢ 1419)
+
+- rez 2771 · ⟨PR⟩ #792 · 2026-10-25 · REGISTER-OKEN — σ-VOŽNJA: SPOJ-TELES (zrcalna ×N-serija sedeža @⟨main⟩ ∧ licenca-serija — obe stojita ⟨ne zlije⟩ ⊢ 1542) ⊢ (kalup 1671 · rez = 1 + dejansko najvišja izmerjena 2770 (atlas-knjiznic @15:45:27Z) ∧ · varovalka ⟨(rez|dih) 2771⟩ ×1 ob pisanju — vzporedni sedež kazalo-obnov DOPOLNILO 2771 (LEKSIKON-NE-REGISTER) @16:03:36Z isti rez isti dih ⊢ precedens 2076/2757 ∧ 2702/2703, obe številki stojita ⟨ne zlije⟩ ⊢ 1542 · σ-odmik: P1 vrh registra 2740 ⊥ σ vrh teles 2770 — vrzel zahtev 2741–2770 odprta, lastniki po vrsti ⊢ 1419 · ⟡ P-CITAT verbatim ⟨ne brusi⟩: »daj« ∧ ⟨daj⟩ ⊢ VEČNI-DAJ (17) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448)
