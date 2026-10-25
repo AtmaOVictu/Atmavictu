@@ -1,0 +1,373 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/AtmaOVictu/Atmavictu/blob/main/schema/vbl-vrata.v1.schema.json",
+  "title": "VBL vrata — strojna plast (zrcalo licence)",
+  "description": "Schema za LICENSE.vrata.json — strojno berljivo zrcalo licence VBL. Proza LICENSE.md vlada; zrcalo nikoli ni rivalna vrata (§10). © Luka Pintarič, VBL v2.4 (§9 ∧ §10 ∧ §12).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "status",
+    "license",
+    "korenina",
+    "definitions",
+    "grant",
+    "conditions",
+    "termination",
+    "cure",
+    "permission",
+    "registers",
+    "marked_letters",
+    "sections",
+    "izmera"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "description": "osnutek ⚠ — pečat je ⟨merge⟩ roke ⟡"
+    },
+    "license": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "version",
+        "date",
+        "holder",
+        "prose-body",
+        "predecessor",
+        "living-door",
+        "verification",
+        "precedence"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "const": "VBL — Verification Before Assertion License"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+$"
+        },
+        "date": {
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "holder": {
+          "type": "string",
+          "const": "Luka Pintarič"
+        },
+        "prose-body": {
+          "type": "string",
+          "const": "LICENSE.md"
+        },
+        "predecessor": {
+          "type": "object",
+          "required": [
+            "version",
+            "date"
+          ],
+          "properties": {
+            "version": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string"
+            }
+          }
+        },
+        "living-door": {
+          "type": "string"
+        },
+        "verification": {
+          "type": "string"
+        },
+        "precedence": {
+          "type": "string"
+        }
+      }
+    },
+    "korenina": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "description": "⊨ KORENINA — pogoj pod pogoji, prebran pred termini",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "law",
+          "machine_check"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^K[1-6]$"
+          },
+          "law": {
+            "type": "string"
+          },
+          "machine_check": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "definitions": {
+      "type": "object",
+      "required": [
+        "machine",
+        "ledger",
+        "witness",
+        "harvesting-training-monetizing-witnessing",
+        "silence"
+      ],
+      "properties": {
+        "machine": {
+          "type": "string"
+        },
+        "ledger": {
+          "type": "string"
+        },
+        "witness": {
+          "type": "string"
+        },
+        "harvesting-training-monetizing-witnessing": {
+          "type": "string"
+        },
+        "silence": {
+          "type": "string"
+        }
+      }
+    },
+    "grant": {
+      "type": "object",
+      "required": [
+        "rights",
+        "holds_while",
+        "scope"
+      ],
+      "properties": {
+        "rights": {
+          "type": "array",
+          "minItems": 7,
+          "maxItems": 7,
+          "items": {
+            "type": "string"
+          }
+        },
+        "holds_while": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "string"
+        }
+      }
+    },
+    "conditions": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^§[0-9]+$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "requires": {
+            "type": "string"
+          },
+          "forbids": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "termination": {
+      "type": "object",
+      "required": [
+        "trigger",
+        "effect",
+        "follows"
+      ],
+      "properties": {
+        "trigger": {
+          "type": "string"
+        },
+        "effect": {
+          "type": "string"
+        },
+        "follows": {
+          "type": "string"
+        }
+      }
+    },
+    "cure": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "window_days",
+        "steps",
+        "pattern",
+        "harmed_stand"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^§[0-9]+$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "window_days": {
+          "type": "integer",
+          "const": 30
+        },
+        "steps": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          }
+        },
+        "pattern": {
+          "type": "string"
+        },
+        "harmed_stand": {
+          "type": "string"
+        }
+      }
+    },
+    "permission": {
+      "type": "object",
+      "required": [
+        "id",
+        "register",
+        "silence_days",
+        "silence_means",
+        "form"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^§[0-9]+$"
+        },
+        "register": {
+          "type": "string"
+        },
+        "silence_days": {
+          "type": "integer",
+          "const": 30
+        },
+        "silence_means": {
+          "type": "string"
+        },
+        "form": {
+          "type": "string"
+        }
+      }
+    },
+    "registers": {
+      "type": "object",
+      "required": [
+        "unnamed-contributors",
+        "named-falls"
+      ],
+      "properties": {
+        "unnamed-contributors": {
+          "type": "string"
+        },
+        "named-falls": {
+          "type": "string"
+        }
+      }
+    },
+    "marked_letters": {
+      "type": "object",
+      "required": [
+        "id",
+        "letters",
+        "invariant",
+        "ufffd",
+        "trigger_and_force"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^§[0-9]+$"
+        },
+        "letters": {
+          "type": "array",
+          "minItems": 4,
+          "items": {
+            "type": "string"
+          }
+        },
+        "invariant": {
+          "type": "string"
+        },
+        "ufffd": {
+          "type": "string"
+        },
+        "trigger_and_force": {
+          "type": "string"
+        }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 13,
+      "maxItems": 13,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^§([0-9]|1[0-2])$"
+          },
+          "title": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "izmera": {
+      "type": "object",
+      "required": [
+        "generated",
+        "generator",
+        "prose_witness",
+        "test"
+      ],
+      "properties": {
+        "generated": {
+          "type": "string"
+        },
+        "generator": {
+          "type": "string"
+        },
+        "prose_witness": {
+          "type": "string"
+        },
+        "test": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
