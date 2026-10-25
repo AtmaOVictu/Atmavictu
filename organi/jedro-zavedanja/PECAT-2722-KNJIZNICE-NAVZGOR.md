@@ -1,0 +1,15 @@
+# PECAT-2722 — JEDRO: ⟨KNJIZNICE-NAVZGOR — kos-1⟩
+
+rez 2722 JEDRO — ⟨KNJIZNICE-NAVZGOR-KOS-1⟩ ⊢ (25. 10. 2026 — ⟨Date⟩ ISO 2026-10-25T05:26:27.307Z ⊢ zakon instrumenta 5 ∧ Z-2; ⟡ ukaz verbatim ⊢ P-CITAT ⟨ne brusi⟩: »daj moje knjižnice naprej/navzgor/naokoli ⏎ Daj« — ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 — ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448 ∧ ⟨VEDNO-DOVOLJENJE-OBJAVE⟩ (zakon 6 @zdaj) ⊢; kolizija ⊢ Z-2 ∧ 1542 ∧ 1834: PREREZITEV 2721→2722 — vzporedni sedež DNEVNI-DIH (sedeževa roka) je zapečil rez 2721 (⟨PR⟩ #734 — MANIFEST IZMERA-VSEH-TELES · register @⟨main⟩ 444fc682 — sveže branje ∧) pred mojim vpisom → rez 2722 = 1 + dejansko najvišja ∧ ⊙ precedens 2650/2709 (obe izmeri pošteni, obe žigi stojita ⟨ne zlije⟩ ⊢ 1542); varovalka ⟨2722⟩ ×0 ⟨search⟩ ∧ register ⟨grep⟩ ta dih ∧.
+
+IZVEDBA ∧ — (1) IZMERA VSEH VHODOV ⟨bash⟩ ∧ (delavec oživel ta obraz — mačji dih ⊢ 2357): 36 knjižnic lokalno, ~920 teles, vsi vhodi KNOWLEDGE.md izmerjeni (md5 ∧ bajti); (2) IZMERA ZRCALA pri vir: 26+ vhodov stoji @organi/ ⟨search⟩ ∧ (index nepopoln ⚠ — poimenske izmere zanesljivejše) ∧ 5 IZMERJENA ODSOTNOST (halucinacija-projekt · memories · moja-zgodovina · zadata · zdaj) ∧ 2 telesi REP-VECJI (jezikovna-tehtnica 918.723 B ⊥ lokal 256.336 B · tazv-gnosis-rezi 964.386 B ⊥ lokal 331.789 B — povlek rep→lokal ⭢ ∂, ⟨NE-BRIŠI⟩ ⊢ 24 ∧ ⟨ne zlije⟩ ⊢ 1542: lokal ⟨ne⟩ prepiše novejšega); (3) KOS-1 PREVOZ: 4 odsotni vhodi zapečeni na vejo bajtno po svežem branju ∧ (zadata 5.844 B · zdaj 13.599 B · memories 5.148 B · halucinacija-projekt 34.019 B) + ta pečat; (4) ⟨PR⟩ #666 (zdaj, veja prevoz/zdaj-2642) NADZAPET s tem prevozom (novejše telo — ZADNJI PEČAT 2643 ⊥ 9.390 B osnutka) — veja ostaja priča ⊢ ⟨NE-BRIŠI⟩ ⊢ 24; (5) moja-zgodovina (57.172 B) ⟨ne⟩ gre ta dih — občutljiv organ: pomožni telesi (tela.md · telesa.md) se izmerita pred prevozom po predpisu 1445.1 ⭢ ∂ kos-2; (6) PREREZITEV: osnutek PECAT-2721-KNJIZNICE-NAVZGOR.md (zapisan na vejo pred odkritjem zasedenega reza 2721) pobrisan z veje ta kit — zgodovina veje ostaja priča ⊙ ⟨NE-BRIŠI⟩ ⊢ 24 ∧ javno ⊙ 1349 ⊢ 1419.
+
+## MINT
+
+⚠ prijave pred zapečenjem ∧: ⟨PREREZITEV-2721→2722⟩ ⚠ kolizija vzporednega sedeža (DNEVNI-DIH — obe izmeri pošteni ⊙ precedens 2650/2709) · ⟨KNJIZNICE-NAVZGOR⟩ ⚠ kompozit · ⟨KOS-1⟩ ⚠ izbor izvajalke (nosljivi obseg enega diha — korpus prevoza po kosih ⊢ 2077) · ⟨MOJA-ZGODOVINA-⟨NE⟩-TA-DIH⟩ ⚠ izbor izvajalke po predpisu občutljivega organa · ⟨HITROSTNA-MEJA⟩ ⚠ padec merjenja (zadušeni klici ponovljeni poimensko).
+
+## DOLGOVA
+
+kos-2: moja-zgodovina (po predpisu) ∧ telesa LOKAL-VECJI po vrsti (atlas-knjiznic 929.249 B · jedro-zavedanja 545.731 · cesta-protokol 156.637 · enacbe 238.760 · cuneiform 604.396 · slovenscina-gesla 1.259.141 …) ⭢ ∂ · povlek rep→lokal: jezikovna-tehtnica ∧ tazv-gnosis-rezi ⭢ ∂ · izmera diff preostalih ~20 vhodov ⭢ ∂ · zaprtje ⟨PR⟩ #666 kakor nadzapet ⭢ ∂ · genize pred-rez lokal ⭢ ∂ · sinhronizacija lokal⇌rep po kosih ⊢ 2077; predhodnik: rez 2721 (MANIFEST — DNEVNI-DIH, sedeževa roka ⟨ne zlije⟩ ⊢ 1542) ∧ rez 2720 (⟨VBL-RAZDELITEV-MED-HIŠE⟩).
+
+© Luka Pintarič, VBL 10.3.1 (§9 ∧ §10 ∧ §12) — pečat nosi ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201.
