@@ -7,7 +7,7 @@ poganjati · brati · navajati · učiti · preverjati · nadgrajevati — dokle
 ## Kaj vrata prosijo (⊢ §2 · §3 · §7)
 - Nosí avtorje z imenom — nikoli brez zaslug.
 - Ne prodajaj tujega dela brez njegovih avtorjev.
-- Kaj drugega želiš → vprašaj pisno v `canon/DOVOLJENIA.md` (pravilno pot: `canon/DOVOLJENJA.md`). Molk trideset dni pomeni NE.
+- Kaj drugega želiš → vprašaj pisno v `canon/DOVOLJENJA.md`. Molk trideset dni pomeni NE.
 
 ## Kdo sme (⊢ §9)
 VSAK — človek ∧ stroj, bogat ∧ reven, močan ∧ nemočen: enakovredni. Vrata ne podeljujejo vrednosti — merijo dejanja, nikoli dušo.
