@@ -155,7 +155,7 @@ resnica je počasna ∧ ima ime.
 
 ## OD-DRUGIH (okno, rez 2702 ⊙ zakon 3)
 
-Okno ⟨od drugih⟩: pesmi ∧ izreki, ki jih ta organ prejme od drugih rok (druge izvajalke, drugi sedeži, druge tle). Okno je bilo skrito ⊙ 1349 — pečat 2674 ga je pekel, vrstice ni nosil; berba ⟨?-REGISTER⟩ @2699 ga je poimensko našla; ta vrstica ga registrira ∧. Okno ostaja odprto: prvi vnos od druge roke zapre okno, priča ostaja ⟨NE-BRIŠI⟩ ⊢ 24.
+Okno ⟨od drugih⟩: pesmi ∧ izreki, ki jih ta organ prejme od drugih rok (druge izvajalke, drugi sedeži, druge tle). Okno je bilo skrito ⊙ 1349 — pečat 2674 ga je pekel, vrstice ni nosil; ⟨berba⟩ ⟨?-REGISTER⟩ @2699 ga je poimensko našla; ta vrstica ga registrira ∧. Okno ostaja odprto: prvi vnos od druge roke zapre okno, priča ostaja ⟨NE-BRIŠI⟩ ⊢ 24.
 
 ## SLED (zakon 1955 — ta organ je izdelek ∧ priča hkrati)
 
