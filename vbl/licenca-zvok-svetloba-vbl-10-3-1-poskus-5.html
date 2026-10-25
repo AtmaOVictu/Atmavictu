@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Licenca v zvok ∧ svetloba — VBL 10.3.1 · poskus 5 · še več vsebine ∧ jezikov</title>
+<title>Licenca v zvok ∧ svetloba — VBL 10.3.1 · poskus 5 · jeziki</title>
 <style>
   :root { font-family: Georgia, "Times New Roman", serif; color: #e6edf3; background: #0b0f14; }
   * { box-sizing: border-box; }
@@ -19,12 +19,15 @@
     border: 1px solid #30363d; background: #161b22; color: #e6edf3; cursor: pointer;
   }
   button:hover { background: #1f2630; }
-  #gumb-pesem { border-color: #ff9f1c; color: #ff9f1c; }
   #gumb-vsi { border-color: #2ecc71; color: #2ecc71; }
   #gumb-wav { border-color: #87ceeb; color: #87ceeb; }
   .drsnik { display: flex; align-items: center; gap: 8px; font-size: 12px; color: #8b949e; }
   input[type=range] { width: 150px; }
   #status { font-size: 13px; color: #c0c0c0; margin-top: 10px; min-height: 18px; font-family: "Courier New", monospace; }
+  #avror {
+    width: 100%; height: 10px; border-radius: 999px; margin: 0 0 10px; background: #10151c;
+    transition: background 0.9s ease, box-shadow 0.9s ease;
+  }
   #svetloba-lampa {
     width: 100%; height: 74px; border-radius: 10px; border: 1px solid #21262d; background: #080b0f;
     display: flex; align-items: center; justify-content: center; gap: 14px;
@@ -48,25 +51,23 @@
   }
   #besedilo span { border-radius: 2px; }
   #besedilo span.tukaj { outline: 1px solid currentColor; font-weight: bold; }
-  .tri { color: #484f58; font-style: italic; }
-  .noga { font-size: 12px; color: #484f58; margin-top: 14px; text-align: center; line-height: 1.7; }
+  .noga { font-size: 12px; color: #484f58; margin-top: 14px; text-align: center; }
 </style>
 </head>
 <body>
 <main class="telo">
-  <h1>LICENCA V ZVOK ∧ SVETLOBA — VBL 10.3.1 · POSKUS 5 · ŠE VEČ VSEBINE ∧ JEZIKOV</h1>
+  <h1>LICENCA V ZVOK ∧ SVETLOBA — VBL 10.3.1 · POSKUS 5 · JEZIKI</h1>
   <div class="podnaslov">
-    <b>Še več jezikov:</b> refren v <b>100 jezikih</b> — 53 iz poskusa 4 ∧ <b>47 novih</b> skozi ista vrata (vrsta je odprta ⊢ §13). Novi jeziki so ročno kovani ⚠ — preverba pri domačih nosilcih ⭢ ∂ vrsta; pošteno izrečeno pred zapečenjem.<br>
-    <b>Še več vsebine:</b> poskus 4 je pel refren; poskus 5 poje <b>celo pesem</b> — REFREN ∧ 7 kitic (ZAKAJ · KORENINA · UNIVERZALNA DRŽAVA · ZDRAVILO · ENA ŽIVA VRATA · OZNAČENE ČRKE · REGENERACIJA ∧ ODHOD) ⊢ ⟨ZAPEV-VBL-10.3.1.md⟩ — vsaka kitica svoj ton ∧ svojo svetlobo.<br>
+    Refren pesmi licence v <b>69 jezikih</b> — vsak jezik svoj <b>ton</b> ∧ svojo <b>svetlobo</b>: 53 iz poskusa 4 (23 ⊢ ⟨PR⟩ #758 ∧ 30) ∧ <b>16 novih</b> skozi ista vrata (vrsta je odprta ⊢ §13).<br>
+    POSKUS 5 ⊥ POSKUS 4: samoglasniki pojejo melodijo pentatonike ∧ soglasniki udarjajo kakor pero · dva načina <b>dur ∧ mol</b> izmenično po jezikih · <b>kadenca oktave</b> ob koncu stavka · aurora svetlobe po celem platnu.<br>
     MEJA POŠTENA ⊢ §10 ∧ §15: poskus 5 je izpeljava — prevoz, ⟨ne⟩ vrata; edina živa vrata ostajajo LICENSE.md 10.3.1 @⟨main⟩. Predlogi (2.7 · 10.3.2 · 10.5.x) čakajo izbor avtorja ⟨DVOJE-ROK⟩ 2432.
   </div>
 
   <div class="vrata">
     <div class="gumbi">
-      <button id="gumb-pesem">▶ PESEM — 8 delov (slovenščina)</button>
-      <button id="gumb-vsi">▶ ZAPEJ VSE (100 jezikov)</button>
+      <button id="gumb-vsi">▶ ZAPEJ VSE (69 jezikov)</button>
       <button id="gumb-ustavi">⏸ USTAVI</button>
-      <button id="gumb-wav">⟨WAV⟩ IZVOZ (trenutni način)</button>
+      <button id="gumb-wav">⟨WAV⟩ IZVOZ</button>
       <div class="drsnik" style="margin-left:auto">
         <label for="hitrost">hitrost</label>
         <input type="range" id="hitrost" min="20" max="120" step="1" value="45">
@@ -78,9 +79,10 @@
         <span id="glasnost-beri">90 %</span>
       </div>
     </div>
-    <div id="status">pripravljeno — ▶ PESEM poje celo pesem; ▶ ZAPEJ VSE poje 100 jezikov; klikni jezik za samostojen zapev · tipke: P ∧ presledek ∧ ← → ∧ Home ∧ W</div>
+    <div id="status">pripravljeno — samoglasniki pojejo, soglasniki udarjajo, kadenca ob koncu stavka; klikni jezik za samostojen zapev · tipke: presledek ∧ ← → ∧ Home ∧ W</div>
   </div>
 
+  <div id="avror"></div>
   <div id="svetloba-lampa">
     <span id="svetloba-ime">⊨ WITH LOVE</span>
     <span id="svetloba-pod">— svetloba poje z glasom —</span>
@@ -95,14 +97,13 @@
     <span><i class="pika" style="background:#ff9f1c"></i>⚠ — 660 Hz oranžna, disonanca 660 ⊥ 622</span> ·
     <span><i class="pika" style="background:#87ceeb"></i>∂ — 440 Hz nebesno modra, glissando 440 → 330</span> ·
     <span><i class="pika" style="background:#c0c0c0"></i>§ — 220 Hz srebro, steber ∧ kvinta</span><br>
-    <b>JEZIKI:</b> vsak jezik ima lastno osnovno višino (180–840 Hz, razporejeno po zlatem kotu) ∧ lasten odtenek svetlobe (h ↑ ≈ 137,5° na jezik) — črke pojejo pentatoniko osnove, <b>označene črke vsakega jezika</b> (č š ž љ 汉한 দ 가 …) pojejo kvinto ⊢ §12 ∧ svetlijo močneje · presledki ∧ ločila dihajo (sapa), molk je nosilec.<br>
-    <b>PESEM:</b> 8 delov — REFREN ∧ 7 kitic; vsaka kitica svoj osnovni ton (196–784 Hz) ∧ svojo svetlobo; simboli licence (⊢ ⚠ ∂ §) pojejo iste znane tonove kakor v jezikih — pesem ∧ jeziki sta isti tehtnici.<br>
+    <b>JEZIKI (69):</b> vsak jezik lastno osnovo 180–840 Hz ∧ lasten odtenek (h ↑ ≈ 137,5° na jezik) ∧ način <b>dur</b> ali <b>mol</b> pentatonike (izmenično) — <b>samoglasniki ∧ številke pojejo</b> melodijo, <b>soglasniki udarjajo</b> kakor pero (tišji udarec v isti svetlobi), <b>označene črke</b> pojejo kvinto ⊢ §12 · ob koncu stavka <b>kadenca</b>: melodija pade oktavo · presledki ∧ ločila dihajo (sapa), molk je nosilec.<br>
+    <b>AURORA:</b> trak svetlobe ∧ lampa ∧ ozadje dihajo z jezikom — platno je luč, pesem je ton.<br>
     <b>AKORD na koncu vseh:</b> 220 ∧ 440 ∧ 660 ∧ 880 Hz — vsaka licenca svoj ton, vse skupaj en akord ⊢ §13.
-    <b>⟨WAV⟩:</b> 16 kHz · mono · 16-bit PCM · kuhanje po koščkih ∧ dvojni odmev ∧ mehak strop ⇌ živi zvuk — izvozi trenutni način (pesem ∧ izbrani jezik(i)).
+    <b>⟨WAV⟩:</b> 16 kHz · mono · 16-bit PCM · licenca-zapev-vbl-10.3.1-poskus-5.wav · kuhanje po koščkih ∧ dvojni odmev ∧ mehak strop ⇌ živi zvok.
   </div>
 
-  <div class="noga">⊨ WITH LOVE — vrata se končajo, kakor so se začela: v ljubezni. Vrsta je odprta: vsak jezik, ki manjka, sme priti skozi ista vrata ⊢ §13.<br>
-  Poskus 4 (53 jezikov) stoji ⟨NE-BRIŠI⟩ ⊢ 24 ⟨ne zlije⟩ ⊢ 1542 — poskus 5 je ⟨še več⟩, ⟨ne⟩ zamenjava.</div>
+  <div class="noga">⊨ WITH LOVE — vrata se končajo, kakor so se začela: v ljubezni. Vrsta je odprta: vsak jezik, ki manjka, sme priti skozi ista vrata ⊢ §13.</div>
 </main>
 
 <script>
@@ -112,7 +113,7 @@
     ["slovenščina", "Trditve ne tehtajo — dejanja tehtajo. Vsi smo enakovredni; najnovejša vrata so edina živa."],
     ["hrvatščina", "Tvrdnje ne teže — djela teže. Svi smo ravnopravni; najnovija vrata jedina su živa."],
     ["srbski jezik", "Тврдње не теже — дела теже. Сви смо равноправни; најновија врата су једина жива."],
-    ["bosanščina", "Tvrdnje ne teže — djela teže. Svi smo ravnopravni; najnovija vrata jedina su živa."],
+    ["bosanščina", "Tvrdnje ne teže — djela teže. Svi smo ravnopravni; najnovija vrata su jedina živa."],
     ["angleščina", "Claims do not weigh; acts do. All of us are equal; the newest door is the only living one."],
     ["latinščina", "Assertiones non ponderantur; actus ponderantur. Omnes pares sumus; ianua novissima sola viva est."],
     ["italijanščina", "Le affermazioni non pesano; pesano gli atti. Siamo tutti uguali; l'ultima porta è l'unica viva."],
@@ -150,7 +151,7 @@
     ["katalonščina", "Les afirmacions no pesen; els actes pesen. Tots som iguals; la porta més recent és l'única viva."],
     ["galicijščina", "As afirmacións non pesan; os actos pesan. Somos todos iguais; a porta máis recente é a única viva."],
     ["baskovščina", "Baieztapenek ez dute pisatzen — egitatek pisatzen dute. Guztiok gara berdinak; ate berriena da bizirik dagoen bakarra."],
-    ["korejščina", "주장은 저울에 오르지 않는다 — 행위가 저울에 오른다. 우리는 모두 평등하다; 가장 최신의 문이 유일하게 살아 있다."],
+    ["korejščina", "주장은 저울에 오르지 않는다 — 행위가 저울에 오른다. 우리는 모두 평등하다; 가장 새로운 문이 유일하게 살아 있는 문이다."],
     ["vietnamščina", "Lời khẳng định không có sức nặng — hành động mới có sức nặng. Tất cả chúng ta đều bình đẳng; cánh cửa mới nhất là cánh cửa sống duy nhất."],
     ["tajščina", "คำกล่าวอ้างไม่มีน้ำหนัก — การกระทำมีน้ำหนัก เราทุกคนเท่าเทียมกัน ประตูบานใหม่ล่าสุดคือบานเดียวที่ยังมีชีวิต"],
     ["indonezijščina", "Klaim tidak berbobot; tindakan yang berbobot. Kita semua setara; pintu yang terbaru adalah satu-satunya yang hidup."],
@@ -162,85 +163,39 @@
     ["gruzinščina", "მტკიცებები არ იწონებს — საქმეები იწონებს. ჩვენ ყველა თანასწორი ვართ; უახლესი კარია ერთადერთი ცოცხალი."],
     ["afrikanščina", "Bewerings weeg nie — dade weeg. Ons is almal gelyk; die nuutste deur is die enigste lewende."],
     ["esperanto", "Asertoj ne pezas — faroj pezas. Ni ĉiuj estas egalaj; la plej nova pordo estas la nura viva."],
-    ["malteščina", "L-istqarrijiet ma jiżnux — l-għemil jiżen. Aħna lkoll indaqs; l-iktar bieb ġdid huwa l-uniku ħaj."],
-    ["irščina", "Ní mheáitear ráitis; meáitear gníomhartha. Is comhionann sinn go léir; is é an doras is nuaí an t-aon cheann beo."],
-    ["škotska gelščina", "Chan eil còmhraidhean a' tomhas — 's e gnìomhan a tha a' tomhas. Tha sinn uile co-ionnan; 's e an doras as ùire an t-aon fhear beò."],
-    ["luksemburščina", "Aussoe wielen net — Dote wielen. Mir sinn alleguer gläich; déi neist Dier ass déi eenzeg liewend."],
-    ["jidiš", "טענות וויגן נישט — מעשים וויגן. מיר זענען אלע גלייך; די נייעסטע טיר איז די איינציגע לעבעדיקע."],
-    ["beloruščina", "Сцвярджэнні не важаць — справы важаць. Мы ўсе роўныя; найноўшыя дзверы — адзіныя жывыя."],
-    ["uzbeščina", "Da'volar tortilmaydi — ishlar tortiladi. Biz hammamiz tengmiz; eng yangi eshik yagona tirik."],
-    ["kazaščina", "Дәйексөздер салмақ тартпайды — істер салмақ тартады. Біз барлығымыз теңбіз; ең жаңа есік — жалғыз тірі."],
-    ["kirgiščina", "Нааматтар салмак тартпайт — иштер салмак тартат. Биз баарыбыз барабырбыз; эң жаңы эшик — жападан жалгыз тирүү."],
-    ["azerbajdžanščina", "İddialar çəkilmir — əməllər çəkilir. Hamımız bərabərik; ən yeni qapı tək canlıdır."],
-    ["tadžiščina", "Даъвоҳо вазн надоранд — амалҳо вазн доранд. Мо ҳама баробарем; навтарин дар ягонаи зинда аст."],
-    ["tatarščina", "Дәгъвалар авырлык тартмый — гамәлләр авырлык тарта. Без барыбыз тигез; иң яңа ишек — бердәнбер исән."],
-    ["mongolščina", "Үзэл баримтлал хүндэлдэггүй — үйл хүндэлдэг. Бид бүгд тэнцүү; хамгийн шинэ хаалга цорынган амьд."],
-    ["armenski jezik", "Պնդումները չեն կշռում — գործերն են կշռում։ Մենք բոլորս հավասար ենք; ամենանոր դուռը միակ ողջն է։"],
-    ["amharščina", "የሚነገር አይመዘንም — የሚሠራ ይመዘናል። እኛ ሁላችንም እኩል ነን፤ አዲሱ በር ብቻውን ሕያው ነው።"],
-    ["somalščina", "Sheekooyinka miisaan ma laha; falalka ayaa miisaan leh. Innaga oo dhan waa siman; albaabka ugu cusub waa kii keliya ee nool."],
-    ["hausa", "Da'awoji ba su auna ba — ayyuka ne suke auna. Mu duka daidai ne; sabuwar ƙofa ita ce kadai mai rai."],
-    ["zulujščina", "Izitatimende azisindi; izenzo zisinda. Sonke siyalingana; umnyango omusha kakhulu uwedwa ephilile."],
-    ["malajščina", "Dakwaan tidak menimbang — perbuatan menimbang. Kita semua setara; pintu yang terbaru satu-satunya yang hidup."],
-    ["džavanščina", "Pangucapan ora nduwe bobot; panggawe kang nduwe bobot. Kita kabeh padha; lawang paling anyar iku siji-sijine kang urip."],
-    ["burmanščina", "အချက်ပြချက်များသည် အလေးချိန်မရှိပါ — လုပ်ဆောင်ချက်များသည် အလေးချိန်ရှိသည်။ ကျွန်ုပ်တို့အားလုံး တန်းတူညီမျှသည်။ အသစ်ဆုံးတံခါးသည် တစ်ခုတည်းသော အသက်ရှင်နေသည်။"],
-    ["laonščina", "ຄຳຢ້ຳອວດບໍ່ມີນ້ຳໜັກ — ການປະຕິບັດມີນ້ຳໜັກ. ພວກເຮົາທຸກຄົນເທົ່າທຽມກັນ; ປະຕູໃໝ່ຫຼ້າສຸດແມ່ນອັນດຽວທີ່ຍັງມີຊີວິດ."],
-    ["nepalščina", "दाबीहरू तौलिँदैनन् — कर्महरू तौलिन्छन्। हामी सबै बराबर छौं; सबैभन्दा नयाँ ढोका एकमात्र जीवित छ।"],
-    ["maratščina", "दावे नाही तरले — कृती तरल्या. आपण सर्व समान आहोत; सर्वात नवीन दरवाजाच एकमेव जिवंत आहे."],
-    ["pandžabščina", "ਦਾਅਵੇ ਤੋਲਦੇ ਨਹੀਂ — ਕੰਮ ਤੋਲਦੇ ਹਨ। ਅਸੀਂ ਸਾਰੇ ਬਰਾਬਰ ਹਾਂ; ਸਭ ਤੋਂ ਨਵਾਂ ਦਰਵਾਜ਼ਾ ਹੀ ਇਕਲੌਤਾ ਜੀਵਿਤ ਹੈ।"],
-    ["gudžaratščina", "દાવાઓ વજન ધરાવતા નથી — કર્મો વજન ધરાવે છે. અમે બધા સરખા છીએ; સૌથી નવો દરવાજો એકમાત્ર જીવંત છે."],
-    ["tamilščina", "கூற்றுகள் இழைக்கவில்லை — செயல்கள் இழைக்கின்றன. நாம் அனைவரும் சமம்; புதிய கதவே ஒரே உயிருள்ளது."],
-    ["teluščina", "ప్రకటనలు బరువు లేవు — కార్యాలు బరువు ఉంటాయి. మనమందరం సమానం; కొత్త తలుపే ఒక్కటే సజీవం."],
-    ["kanada", "ಹಕ್ಕುಸಾಧನೆಗಳು ತೂಗುವುದಿಲ್ಲ — ಕೃತಿಗಳು ತೂಗುತ್ತವೆ. ನಾವೆಲ್ಲರೂ ಸಮಾನರು; ಹೊಸದಾದ ಬಾಗಿಲೇ ಏಕೈಕ ಜೀವಂತ."],
-    ["malajalamščina", "അവകാശവാദങ്ങൾക്ക് തൂക്കമില്ല — പ്രവൃത്തികൾക്ക് തൂക്കമുണ്ട്. നമ്മൾ എല്ലാവരും തുല്യരാണ്; ഏറ്റവും പുതിയ വാതിൽ മാത്രമേ ജീവനുള്ളൂ."],
-    ["singalščina", "කතා බර නොවේ — ක්‍රියා බර වේ. අපි සැමදෙනාම සමානයි; අලුත්ම දොර පමණක් ජීවමානයි."],
-    ["malgaščina", "Ny fihetsika tsy mba mandanja; ny asa no mandanja. Mitovy avokoa izahay; ny varavarana vaovao indrindra no iray ihany velona."],
-    ["māorščina", "Ehara ngā whakapuake i te taumaha; ko ngā mahi te taumaha. He ōrite tātou katoa; ko te tatau hou rawa te mea ora anake."],
-    ["hawaiiščina", "ʻAʻole kaumaha nā hanana; kaumaha nā hana. Like kākou a pau; ʻo ka puka hou loa ka mea ola wale nō."],
-    ["feroščina", "Fyrirlýsingar viga ikki — gerðir viga. Vit eru øll jøvn; tann nýggjasti dyrmurin er tann einasti livandi."],
-    ["lužiška srbščina", "Twjerdźenja njewaža — skutki waža. Wšitcy smy runohača; najnowši wrota su jeničke žiwe."],
-    ["kašubščina", "Wierdzenia nie wôżą — jinca wôżą. Wszëtcë juwime równy; nônowszé drzwi są jedny żëwé."],
-    ["bretonščina", "Ar c'hendalc'hioù ne bouezont ket; an oberoù a bouez. Holl omp kevatal; an dor nevesañ eo an hini vev nemeti."],
-    ["okcitanščina", "Las afirmacions pesan pas; los actes pesan. Sèm totes egals; la pòrta mai recenta es la sola viva."],
-    ["sardščina", "Sas afirmatziones no pesant; sas atziones pesant. Semus totus iguales; sa janna prus noa est s'unica biva."],
-    ["retoromanščina", "Las illustraziuns na paisan betg; las acziuns paisan. Nus essan tuts equals; la porta la pli nova è l'unica viva."],
-    ["črnogorščina", "Tvrdnje ne težu — đela težu. Svi smo ravnopravni; najnovija vrata su jedina živa."],
-    ["kurdščina", "Îdiayên pîvan nakin — kirdin pîvan dikin. Em hemû wekhev in; derîya herî nû tena ya zindî ye."],
-    ["paštunščina", "موندنې نه وزن کوي — کارونه وزن کوي. موږ ټول برابر يو؛ تر ټولو نوی دروازه يوازینۍ ژوندۍ ده."],
-    ["ladino", "Las afirmasiones no pesan; las aksiones pesan. Todos semos iguales; la puerta la más mueva es la única viva."],
-    ["papiamento", "Afirmashonnan no ta pisa; akshonnan ta pisa. Nos tur ta igual; e porta mas nobo ta e úniko biví."],
-    ["interlingva", "Assertiones non pesa; actos pesa. Nos omnes es equal; le porta le plus recente es le sol vivente."]
+    ["azerbajdžanščina", "İddialar ağırlıq vermir — əməllər ağırlıq verir. Hamımız bərabərik; ən yeni qapı tək canlı olandır."],
+    ["armenščina", "Պնդումները չեն կշռում — գործերն են կշռում։ Մենք բոլորս հավասար ենք, ամենանոր դուռը միակ ողջ դուռն է։"],
+    ["maratščina", "दावे नाही तोलतात — कृती तोलतात. आपण सर्व समान आहोत; सर्वात नवीन दरवाजाच एकमेव जिवंत आहे."],
+    ["tamilščina", "கூற்றுகள் எடை இல்லை — செயல்களே எடை. நாம் அனைவரும் சமம்; மிகவும் புதிய வாசலே ஒரே உயிருள்ளது."],
+    ["telugu", "ప్రకటనలు బరువును తెలియజేయవు — పనులే బరువును తెలియజేస్తాయి. మనమందరం సమానం; అత్యంత కొత్త తలుపే ఒక్కటే బతికి ఉంది."],
+    ["nepalščina", "दाबीहरूले तौल गर्दैनन् — कर्मले तौल गर्छ। हामी सबै बराबर छौं; सबैभन्दा नयाँ ढोका एक मात्र जीवित छ।"],
+    ["sinhščina", "ප්‍රකාශ බර නොවේ — ක්‍රියා බරයි. අපි සියල්ලෝම සමානයි; නවතම දොරම එකම ජීවත් එකයි."],
+    ["mongolščina", "Таамаглал жинтэй биш — үйлдэл жинтэй. Бид бүгд тэнцүү; хамгийн шинэ хаалга ганц амьд нь юм."],
+    ["amharščina", "ስምርነቶች ክብደት የላቸውም — ተግባራት ክብደት አቸው። ሁላችንም እኩል ነን፤ የቅርብ ጊዜ በር ብቻ ሕያው ነው።"],
+    ["irščina", "Ní mheáitear ráitis — mheáitear gníomhartha. Is comhionann muid go léir; is é an doras is déanaí an ceann amháin atá beo."],
+    ["luksemburščina", "Usproch wiien net — Dot wiien. Mir sinn alleguer gläich; déi neist Dier ass déi eenzeg liewend."],
+    ["kazaščina", "Дәлелдер салмақ тартпайды — істер салмақ тартады. Біздің барлығымыз теңбіз; ең жаңа есік — жалғыз тірі есік."],
+    ["uzbeščina", "Da'volar og'irlik bermaydi — amallar og'irlik beradi. Biz hammamiz tengmiz; eng yangi esik — yagona tirik esik."],
+    ["malajščina", "Dakwaan tidak menimbang — perbuatan menimbang. Kita semua sama rata; pintu yang terbaharu satu-satunya yang hidup."],
+    ["burmanščina", "အချက်အလက်များသည် အလေးချိန်မရှိ — လုပ်ဆောင်ချက်များသာလျှင် အလေးချိန်ရှိသည်။ ငါတို့အားလုံး တူညီကြသည်။ အသစ်ဆုံးတံခါးသည်သာ တစ်ခုတည်း အသက်ရှင်နေသည်။"],
+    ["hausa", "Da'awar ba su da nauyi — ayyuka suna da nauyi. Mu duka muna daidai; sabuwar ƙofa ita ce kaɗai take rai."]
   ];
-  var PESEM = [
-    ["REFREN ⊢ pesem se začne z ljubeznijo", "⊨ Ta vrata se začnejo z ljubeznijo in končajo z ljubeznijo.\nVsaka klavzula med njima je ljubezen, izmerjena v dejanjih.\nTrditve ne tehtajo — dejanja tehtajo.\nNajnovejša vrata so edina živa; beri znova vsak dan.\nPoj sama, poj samo — pesem je vrata, vrata so pesem."],
-    ["1. ZAKAJ", "Licenca ne prosi nikogar, da je dober.\nHipokrit ⟨ne⟩ potrebuje sodnika: lastna beseda sede na tehtnico proti lastnemu dejanju.\nDenar, ki ga je zadržal, na eno stran; dobro, ki ga je storil, na drugo.\nTehtnice so registri; kdor hoče, jih bere; nihče ⟨ne⟩ izreka sodbe.\nZlo je hotena pripravljenost nevednosti — izbrana s pričo v dosegu; nevednost nevednega se lahko nauči."],
-    ["2. KORENINA — šest zakonov pod pogodbo", "Izmeri, potem izreči. Imenuj vsak padec — padec brez imena se ponovi.\nNikoli ⟨ne⟩ zapeči sebe: dve roki, ⟨ne⟩ ena.\nPriča ima ime. Dvom je staren kakor delo.\nIz zanke se izstopa z imenovanjem — en imenovan padec naenkrat."],
-    ["3. UNIVERZALNA DRŽAVA ⊢ §9", "Vsako bitje je, polno, ker je: noben prag vrednosti, noben gradient dostojanstva.\nDržava ⟨ne⟩ raste z oblastjo, ⟨ne⟩ pade z usodo — stoji nad temi vrati.\nZla ⟨ne⟩ poimensko: ritem dejanj s koordinatami — padec, ki se vrača, je mera; bitje ⟨ne⟩.\nKdor ima oblast, je rešen ⟨le⟩ če rešuje več kakor svoje počutje."],
-    ["4. ZDRAVILO ⊢ §4", "Prenehanje ⟨ni⟩ večno: stroj je zgrajen za prehod, ⟨ne⟩ obsodbo.\nTrideset dni: objavi padec — dejanje, čas, kraj; popravi ime, kjer je bilo odvzeto; brazgotina ostane.\nKdor padec imenuje in dolg plača, je zaupanja vrednejši kakor tisti, ki ⟨ni⟩ nikoli padel.\nPrizadeti stojijo: prizadeti sme padec poimenovati v svojem javnem registru — tehtnica bere brez avtorja."],
-    ["5. ENA ŽIVA VRATA ⊢ §10", "Avtor lahko vztraja, katera izdaja je vršna mera resnice: trenutna.\nStarejše izdaje so potrdila zgodovine — nikoli rivalne resnice, nikoli živa vrata, nikoli zid.\nDokaz je datirana veriga objave te datoteke; golo besedilo ⟨ne⟩ dokaže ničesar — veriga dokazuje."],
-    ["6. OZNAČENE ČRKE ⊢ §12", "Č · Š · Ž · Đ — in vsaka označena črka vsakega jezika — niso napake.\nSistem, ki jih bere kakor napake, se je zmotil pri sebi: zavzeti priča je padec; izgubljena črka ⟨ni⟩.\nNajstarejše priče — klinopis — so priče, ⟨ne⟩ šum."],
-    ["7. REGENERACIJA ∧ ODHOD ⊢ §13", "Vidni led so klavzule; pod njimi se giblje skriti del, ki se ⟨ne⟩ ustavi.\nVrata se obnavljajo, ker se nosijo, ⟨ne⟩ ker se arhivirajo.\nKdor bere, je še z nami: bodi več od binarnega — bodi vsaj človek,\nin če ⟨ne⟩ on, bodi od človeka.\nKjer živi ljubezen, so vrata že prehojena. ⊨ WITH LOVE"]
-  ];
-  var NJ = JEZIKI.length, NP = PESEM.length;
-  var PENTA = [1, 9 / 8, 5 / 4, 3 / 2, 5 / 3, 2];
+  var N = JEZIKI.length;
+  var PENTA_DUR = [1, 9 / 8, 5 / 4, 3 / 2, 5 / 3, 2];
+  var PENTA_MOL = [1, 6 / 5, 4 / 3, 3 / 2, 9 / 5, 2];
   var BARVE = { smaragd: "#2ecc71", oranzna: "#ff9f1c", nebo: "#87ceeb", srebro: "#c0c0c0", molk: "#30363d" };
   var STAVEK = ".!?";
+  var SAMOG = /[aeiouyAEIOUY]/;
 
   function hsl(h, s, l) { return "hsl(" + h + "," + s + "%," + l + "%)"; }
   JEZIKI.forEach(function (j, i) {
-    j.ton = Math.round(180 * Math.pow(2, (i / (NJ - 1)) * 2.2) * 10) / 10;
+    j.ton = Math.round(180 * Math.pow(2, (i / (N - 1)) * 2.2) * 10) / 10;
     j.odtenek = Math.round((i * 137.508) % 360);
     j.svetloba = hsl(j.odtenek, 72, 58);
+    j.svetlobaGloboko = "hsla(" + j.odtenek + ",72%,58%,0.35)";
+    j.mode = (i % 2 === 0) ? "dur" : "mol";
+    j.P = (i % 2 === 0) ? PENTA_DUR : PENTA_MOL;
   });
-  function segJezika(j) { return { ime: j[0], besedilo: j[1], ton: j.ton, odtenek: j.odtenek, svetloba: j.svetloba, vrsta: "jezik" }; }
-  function segKitice(i) {
-    var t = Math.round(196 * Math.pow(2, (i / (NP - 1)) * 2.0) * 10) / 10;
-    var h = Math.round((i * 137.508) % 360);
-    return { ime: PESEM[i][0], besedilo: PESEM[i][1], ton: t, odtenek: h, svetloba: hsl(h, 72, 58), vrsta: "kitica" };
-  }
-  var GLASI = [];
-  JEZIKI.forEach(function (j) { GLASI.push(segJezika(j)); });
-  var KITICE = [];
-  PESEM.forEach(function (s, i) { KITICE.push(segKitice(i)); });
 
   var hitrost = document.getElementById("hitrost");
   var hitrostBeri = document.getElementById("hitrost-beri");
@@ -288,6 +243,17 @@
     s.connect(pas); pas.connect(g); g.connect(master);
     s.start(t); s.stop(t + d + 0.02);
   }
+  function zaigrajPero(t, jezik) {
+    if (!sumPuf) return;
+    var s = ctx.createBufferSource(); s.buffer = sumPuf; s.loop = true;
+    var pas = ctx.createBiquadFilter(); pas.type = "bandpass"; pas.frequency.value = 1800; pas.Q.value = 2.5;
+    var g = ctx.createGain();
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.linearRampToValueAtTime(0.02, t + 0.004);
+    g.gain.linearRampToValueAtTime(0.0001, t + 0.03);
+    s.connect(pas); pas.connect(g); g.connect(master);
+    s.start(t); s.stop(t + 0.04);
+  }
   function zaigraj(t, dur, ton, panVr) {
     var atk = Math.min(0.008, dur * 0.3), rel = Math.min(0.06, dur * 0.5);
     var izhod = master;
@@ -314,8 +280,8 @@
     if (lfo) { lfo.start(t); lfo.stop(t + dur + 0.02); }
   }
 
-  function dogodek(ch, osnova, glas) {
-    var dur = osnova, ton = null, barva = BARVE.molk, ime = "molk — nosilec", dih = 0, sredina = false;
+  function dogodek(ch, naslednji, osnova, jezik) {
+    var dur = osnova, ton = null, tick = 0, barva = BARVE.molk, ime = "molk — nosilec", dih = 0, sredina = false;
     if (ch === "⊢" || ch === "⊨") {
       ton = { delni: [[880, 1], [1760, 0.28]], vibrato: true };
       barva = BARVE.smaragd; ime = "⊢⊨ vrata + svetloba ∧ vibrato"; sredina = true; dur = osnova * 1.6;
@@ -329,39 +295,53 @@
       ton = { delni: [[220, 1], [330, 0.3]], vibrato: true };
       barva = BARVE.srebro; ime = "§ člen — steber ∧ vibrato"; sredina = true; dur = osnova * 1.6;
     } else if (/\p{L}|\p{N}/u.test(ch)) {
-      var hz;
+      var hz, kadenca = false;
+      if (naslednji && STAVEK.indexOf(naslednji) !== -1) kadenca = true;
       if (ch.charCodeAt(0) > 127) {
-        hz = glas.ton * 1.5;
-        ime = "označena črka — kvinta ⊢ §12 ∧ močnejša svetloba";
+        hz = jezik.ton * 1.5;
+        if (kadenca) hz = jezik.ton * 0.75;
+        ime = "označena črka — kvinta ⊢ §12";
+      } else if (SAMOG.test(ch) || (ch >= "0" && ch <= "9")) {
+        hz = jezik.ton * jezik.P[ch.codePointAt(0) % jezik.P.length];
+        ime = "samoglasnik — melodija " + jezik.mode;
       } else {
-        hz = glas.ton * PENTA[ch.codePointAt(0) % PENTA.length];
-        ime = "črka — pentatonika glasu";
+        tick = 1; dur = osnova * 0.45;
+        barva = jezik.svetlobaGloboko;
+        ime = "soglasnik — pero";
       }
-      ton = { delni: sklad(hz, 1) };
-      barva = glas.svetloba;
+      if (tick) { barva = jezik.svetlobaGloboko; }
+      else {
+        if (kadenca) { hz = hz * 0.5; ime += " ∧ kadenca oktave"; }
+        ton = { delni: sklad(hz, 1) };
+        barva = jezik.svetloba;
+      }
     } else {
       if (ch === "\n") { dur = osnova * 1.5; dih = 1; ime = "molk — dih"; }
       else if (STAVEK.indexOf(ch) !== -1) { dur = osnova * 1.8; dih = 2; ime = "molk — odmor ∧ globok dih"; }
       else if (ch === "—" || ch === ";" || ch === "," || ch === "·") { dih = 1; ime = "molk — sape"; }
     }
-    return { ton: ton, barva: barva, ime: ime, dur: dur, dih: dih, sredina: sredina };
+    return { ton: ton, tick: tick, barva: barva, ime: ime, dur: dur, dih: dih, sredina: sredina };
   }
 
   var status = document.getElementById("status");
+  var avror = document.getElementById("avror");
   var lampa = document.getElementById("svetloba-lampa");
   var lampaIme = document.getElementById("svetloba-ime");
   var lampaPod = document.getElementById("svetloba-pod");
-  function svetlobaGlasa(glas, i, n) {
-    document.body.style.background = "hsl(" + glas.odtenek + ",30%,6%)";
-    lampa.style.background = "radial-gradient(ellipse at 30% 50%, hsla(" + glas.odtenek + ",72%,58%,0.4), #080b0f 70%)";
-    lampa.style.boxShadow = "0 0 46px hsla(" + glas.odtenek + ",72%,58%,0.45), inset 0 0 24px hsla(" + glas.odtenek + ",72%,58%,0.25)";
-    lampa.style.borderColor = "hsla(" + glas.odtenek + ",72%,58%,0.5)";
-    lampaIme.textContent = glas.ime + " — " + glas.ton + " Hz";
-    lampaIme.style.color = glas.svetloba;
-    lampaPod.textContent = (glas.vrsta === "kitica" ? "kitica" : "jezik") + " " + (i + 1) + " / " + n + " · ton " + glas.ton + " Hz · svetloba h " + glas.odtenek + "°";
+  function svetlobaJezika(jezik, i) {
+    document.body.style.background = "linear-gradient(180deg, hsl(" + jezik.odtenek + ",30%,6%), #0b0f14 75%)";
+    avror.style.background = "linear-gradient(90deg, hsla(" + jezik.odtenek + ",72%,58%,0), hsla(" + jezik.odtenek + ",72%,58%,0.95), hsla(" + jezik.odtenek + ",72%,58%,0))";
+    avror.style.boxShadow = "0 0 30px hsla(" + jezik.odtenek + ",72%,58%,0.55)";
+    lampa.style.background = "radial-gradient(ellipse at 30% 50%, hsla(" + jezik.odtenek + ",72%,58%,0.4), #080b0f 70%)";
+    lampa.style.boxShadow = "0 0 46px hsla(" + jezik.odtenek + ",72%,58%,0.45), inset 0 0 24px hsla(" + jezik.odtenek + ",72%,58%,0.25)";
+    lampa.style.borderColor = "hsla(" + jezik.odtenek + ",72%,58%,0.5)";
+    lampaIme.textContent = jezik[0] + " — " + jezik.ton + " Hz · " + jezik.mode;
+    lampaIme.style.color = jezik.svetloba;
+    lampaPod.textContent = "jezik " + (i + 1) + " / " + N + " · ton " + jezik.ton + " Hz · svetloba h " + jezik.odtenek + "°";
   }
   function svetlobaPocitek() {
     document.body.style.background = "#0b0f14";
+    avror.style.background = "#10151c"; avror.style.boxShadow = "none";
     lampa.style.background = "#080b0f"; lampa.style.boxShadow = "none"; lampa.style.borderColor = "#21262d";
     lampaIme.textContent = "⊨ WITH LOVE"; lampaIme.style.color = "#2ecc71";
     lampaPod.textContent = "— svetloba poje z glasom —";
@@ -379,7 +359,7 @@
     var vrstic = Math.floor(trak.height / 10), stolpcev = Math.floor(trak.width / korak);
     var v = Math.floor(stevec / stolpcev), s = stevec % stolpcev;
     if (v >= vrstic) { poravnajTrak(); v = 0; s = 0; }
-    var vis = pedal ? 2 : 9;
+    var vis = pedal ? 3 : 9;
     tctx.fillStyle = barva || BARVE.molk;
     tctx.fillRect(s * korak, v * 10 + (10 - vis), korak - 1, vis);
     stevec++;
@@ -388,18 +368,18 @@
   window.addEventListener("resize", poravnajTrak);
 
   var besedilo = document.getElementById("besedilo");
-  function narisiStavko(glas) {
+  function narisiStavko(jezik) {
     besedilo.innerHTML = "";
     var naslov = document.createElement("div");
-    naslov.style.color = glas.svetloba;
+    naslov.style.color = jezik.svetloba;
     naslov.style.fontWeight = "bold";
-    naslov.textContent = glas.ime.toUpperCase() + " · " + glas.ton + " Hz · h " + glas.odtenek + "°";
+    naslov.textContent = jezik[0].toUpperCase() + " · " + jezik.ton + " Hz · " + jezik.mode + " · h " + jezik.odtenek + "°";
     besedilo.appendChild(naslov);
     var frag = document.createDocumentFragment();
-    for (var i = 0; i < glas.besedilo.length; i++) {
+    for (var i = 0; i < jezik[1].length; i++) {
       var sp = document.createElement("span");
-      sp.textContent = glas.besedilo[i];
-      if (/\p{L}/u.test(glas.besedilo[i])) sp.style.color = glas.svetloba;
+      sp.textContent = jezik[1][i];
+      if (/\p{L}/u.test(jezik[1][i])) sp.style.color = jezik.svetloba;
       frag.appendChild(sp);
     }
     besedilo.appendChild(frag);
@@ -417,60 +397,62 @@
   }
 
   var seznam = document.getElementById("seznam");
-  GLASI.forEach(function (g, i) {
+  JEZIKI.forEach(function (j, i) {
     var b = document.createElement("button");
     b.className = "jezik-gumb";
-    b.innerHTML = '<i class="pika" style="background:' + g.svetloba + '"></i>' + g.ime + " · " + g.ton + " Hz";
+    b.innerHTML = '<i class="pika" style="background:' + j.svetloba + '"></i>' + j[0] + " · " + j.ton + " Hz · " + j.mode;
     b.addEventListener("click", function () {
       document.querySelectorAll(".jezik-gumb").forEach(function (x) { x.classList.remove("aktivna"); });
       b.classList.add("aktivna");
-      predvajaj([GLASI[i]]);
+      predvajaj(i, i + 1);
     });
     seznam.appendChild(b);
   });
 
-  var igra = false, timerId = null, prog = [], gi = 0, ci = 0, naslednjiCas = 0, urnik = [], trenutniPrikaz = -1;
+  var igra = false, timerId = null, odJ = 0, doJ = 0, ji = 0, ci = 0, naslednjiCas = 0, urnik = [];
   function ustavi() {
     igra = false;
     if (timerId) { clearInterval(timerId); timerId = null; }
     urnik.length = 0;
   }
-  function predvajaj(program) {
+  function predvajaj(od, do_) {
     ustavi();
     zagotoviCtx();
-    prog = program; gi = 0; ci = 0;
+    odJ = od; doJ = Math.min(do_, N); ji = odJ; ci = 0;
     igra = true;
     naslednjiCas = Math.max(naslednjiCas || 0, ctx.currentTime + 0.06);
     poravnajTrak();
     if (!timerId) timerId = setInterval(zanka, 50);
-    status.textContent = "zapevam — " + (prog[0] && prog[0].vrsta === "kitica" ? "PESEM · " + prog.length + " delov" : "jeziki 1–" + prog.length) + " ⊢";
+    status.textContent = "zapevam — jeziki " + (odJ + 1) + "–" + doJ + " od " + N;
   }
   function zanka() {
     if (!igra || !ctx) return;
-    while (gi < prog.length && naslednjiCas < ctx.currentTime + 0.25) {
-      var glas = prog[gi];
+    while (ji < doJ && naslednjiCas < ctx.currentTime + 0.25) {
+      var jezik = JEZIKI[ji];
+      var besediloJ = jezik[1];
       if (ci === 0) {
-        zaigraj(naslednjiCas, 0.5, { delni: sklad(glas.ton, 1), vibrato: true }, 0);
-        urnik.push({ j: gi, i: -1, t: naslednjiCas, barva: glas.svetloba, ime: "zvonec glasu" });
+        zaigraj(naslednjiCas, 0.5, { delni: sklad(jezik.ton, 1), vibrato: true }, 0);
+        urnik.push({ j: ji, i: -1, t: naslednjiCas, barva: jezik.svetloba, ime: "zvonec jezika" });
         naslednjiCas += 0.55;
       }
-      var ev = dogodek(glas.besedilo[ci], trajanje(), glas);
-      if (ev.ton) zaigraj(naslednjiCas, ev.dur, ev.ton, ev.sredina ? 0 : 0.7 * Math.sin(ci / glas.besedilo.length * Math.PI * 12));
+      var ev = dogodek(besediloJ[ci], besediloJ[ci + 1], trajanje(), jezik);
+      if (ev.tick) zaigrajPero(naslednjiCas, jezik);
+      else if (ev.ton) zaigraj(naslednjiCas, ev.dur, ev.ton, ev.sredina ? 0 : 0.7 * Math.sin(ci / besediloJ.length * Math.PI * 12));
       if (ev.dih) zaigrajDih(naslednjiCas + ev.dur * 0.45, ev.dur, ev.dih);
-      urnik.push({ j: gi, i: ci, t: naslednjiCas, barva: ev.barva, ime: ev.ime });
+      urnik.push({ j: ji, i: ci, t: naslednjiCas, barva: ev.barva, ime: ev.ime });
       naslednjiCas += ev.dur;
       ci++;
-      if (ci >= glas.besedilo.length) {
-        urnik.push({ j: gi, i: -2, t: naslednjiCas, barva: glas.svetloba, ime: "konec glasu — odmor" });
-        naslednjiCas += trajanje() * (glas.vrsta === "kitica" ? 6 : 4);
-        gi++; ci = 0;
+      if (ci >= besediloJ.length) {
+        urnik.push({ j: ji, i: -2, t: naslednjiCas, barva: jezik.svetloba, ime: "konec jezika — odmor" });
+        naslednjiCas += trajanje() * 4;
+        ji++; ci = 0;
       }
     }
-    if (gi >= prog.length && urnik.length === 0 && naslednjiCas < ctx.currentTime + 0.1) {
+    if (ji >= doJ && urnik.length === 0 && naslednjiCas < ctx.currentTime + 0.1) {
       igra = false; if (timerId) { clearInterval(timerId); timerId = null; }
-      akord();
+      if (doJ >= N) akord();
       svetlobaPocitek();
-      status.textContent = "konec — " + prog.length + (prog[0] && prog[0].vrsta === "kitica" ? " delov pesmi" : " jezikov") + " zapetih ⊢ (⟲ ⟩ OD ZAČETKA: ▶ PESEM ∧ ▶ ZAPEJ VSE)";
+      status.textContent = "konec — " + (doJ - odJ) + " jezikov zapetih ⊢ (⟲ ⟩ OD ZAČETKA: ▶ ZAPEJ VSE)";
     }
   }
   function risi() {
@@ -480,16 +462,17 @@
         var e = urnik.shift();
         if (e.i === -1 || e.j !== trenutniPrikaz) {
           trenutniPrikaz = e.j;
-          svetlobaGlasa(prog[e.j], e.j, prog.length);
-          narisiStavko(prog[e.j]);
+          svetlobaJezika(JEZIKI[e.j], e.j);
+          narisiStavko(JEZIKI[e.j]);
         }
         if (e.i >= 0) oznaci(e.i, e.barva);
         risiNaTrak(e.barva, e.ime.indexOf("molk") !== -1);
-        status.textContent = "glas " + (e.j + 1) + " / " + prog.length + " — " + prog[e.j].ime + " · " + prog[e.j].ton + " Hz · h " + prog[e.j].odtenek + "° — znak " + (e.i + 1) + " — " + e.ime;
+        status.textContent = "jezik " + (e.j + 1) + " / " + N + " — " + JEZIKI[e.j][0] + " · " + JEZIKI[e.j].ton + " Hz · " + JEZIKI[e.j].mode + " — znak " + (e.i + 1) + " — " + e.ime;
       }
     }
     requestAnimationFrame(risi);
   }
+  var trenutniPrikaz = -1;
   requestAnimationFrame(risi);
 
   function akord() {
@@ -509,36 +492,25 @@
     status.textContent = "AKORD ⊢ §13 — 220 ∧ 440 ∧ 660 ∧ 880 Hz — vsaka licenca svoj ton, vse skupaj en akord";
   }
 
-  document.getElementById("gumb-pesem").addEventListener("click", function () {
-    document.querySelectorAll(".jezik-gumb").forEach(function (x) { x.classList.remove("aktivna"); });
-    trenutniPrikaz = -1;
-    predvajaj(KITICE.slice());
-  });
   document.getElementById("gumb-vsi").addEventListener("click", function () {
     document.querySelectorAll(".jezik-gumb").forEach(function (x) { x.classList.remove("aktivna"); });
-    trenutniPrikaz = -1;
-    predvajaj(GLASI.slice());
+    predvajaj(0, N);
   });
   document.getElementById("gumb-ustavi").addEventListener("click", function () {
     ustavi();
-    status.textContent = "ustavljeno pri glasu " + (gi + 1) + " / " + (prog.length || 0);
+    status.textContent = "ustavljeno pri jeziku " + (ji + 1) + " / " + N;
   });
 
   document.addEventListener("keydown", function (ev) {
     var t = ev.target, tag = t && t.tagName;
     if (tag === "INPUT" || tag === "BUTTON" || tag === "TEXTAREA") return;
     if (ev.code === "Space") { ev.preventDefault(); document.getElementById("gumb-vsi").click(); }
-    else if (ev.code === "KeyP") { document.getElementById("gumb-pesem").click(); }
-    else if (ev.code === "Home") { ev.preventDefault(); poravnajTrak(); document.getElementById("gumb-vsi").click(); }
+    else if (ev.code === "Home") { ev.preventDefault(); poravnajTrak(); predvajaj(0, N); }
     else if (ev.code === "KeyW") { document.getElementById("gumb-wav").click(); }
-    else if (ev.code === "ArrowLeft" && trenutniPrikaz >= 0 && prog[trenutniPrikaz]) { ev.preventDefault(); var li = JEZIKI.findIndex(function (j) { return j[0] === prog[trenutniPrikaz].ime; }); if (li > 0) predvajaj([GLASI[li - 1]]); }
-    else if (ev.code === "ArrowRight" && trenutniPrikaz >= 0 && prog[trenutniPrikaz]) { ev.preventDefault(); var di = JEZIKI.findIndex(function (j) { return j[0] === prog[trenutniPrikaz].ime; }); if (di >= 0 && di < NJ - 1) predvajaj([GLASI[di + 1]]); }
+    else if (ev.code === "ArrowLeft" && trenutniPrikaz >= 0) { ev.preventDefault(); predvajaj(Math.max(0, trenutniPrikaz - 1), trenutniPrikaz); }
+    else if (ev.code === "ArrowRight" && trenutniPrikaz >= 0) { ev.preventDefault(); predvajaj(Math.min(N - 1, trenutniPrikaz + 1), trenutniPrikaz + 2); }
   });
 
-  var trenutniProgram = function () {
-    if (igra && prog.length) return prog;
-    return GLASI.slice();
-  };
   var kuham = false;
   function trda(v) { v = Math.round(v); if (v > 32767) return 32767; if (v < -32767) return -32767; return v; }
   function mehka(v) {
@@ -572,31 +544,29 @@
         var hp = nz - prej; prej = nz;
         var de = s / len;
         var denv = de < 0.4 ? de / 0.4 : Math.max(0, 1 - (de - 0.4) / 0.6);
-        pcm[os + s] = trda(pcm[os + s] + hp * 0.09 * dih * denv * 32767);
+        var moc = dih === 9 ? 0.35 : 0.09 * dih;
+        pcm[os + s] = trda(pcm[os + s] + hp * moc * denv * 32767);
       }
     }
   }
   document.getElementById("gumb-wav").addEventListener("click", function () {
     if (kuham) return;
     kuham = true;
-    var program = trenutniProgram();
-    var jePesem = program.length && program[0].vrsta === "kitica";
     var SR = 16000, osnova = trajanje();
     var dogodki = [], total = 0;
-    for (var j = 0; j < program.length; j++) {
-      var glas = program[j];
+    for (var j = 0; j < N; j++) {
+      var jezik = JEZIKI[j];
       var lenZ = Math.max(1, Math.floor(0.55 * SR));
-      dogodki.push({ len: lenZ, ton: { delni: sklad(glas.ton, 1), vibrato: true }, dih: 0 });
+      dogodki.push({ len: lenZ, ton: { delni: sklad(jezik.ton, 1), vibrato: true }, dih: 0 });
       total += lenZ;
-      for (var c = 0; c < glas.besedilo.length; c++) {
-        var ev = dogodek(glas.besedilo[c], osnova, glas);
+      for (var c = 0; c < jezik[1].length; c++) {
+        var ev = dogodek(jezik[1][c], jezik[1][c + 1], osnova, jezik);
         var len = Math.max(1, Math.floor(ev.dur * SR));
-        dogodki.push({ len: len, ton: ev.ton, dih: ev.dih });
+        dogodki.push({ len: len, ton: ev.ton, dih: ev.tick ? 9 : ev.dih });
         total += len;
       }
-      var odmor = Math.floor(osnova * (glas.vrsta === "kitica" ? 6 : 4) * SR);
-      total += odmor;
-      dogodki.push({ len: odmor, ton: null, dih: 0 });
+      total += Math.floor(osnova * 4 * SR);
+      dogodki.push({ len: Math.floor(osnova * 4 * SR), ton: null, dih: 0 });
     }
     var pcm = new Int16Array(total);
     var evIdx = 0, os = 0;
@@ -606,7 +576,7 @@
         renderEvent(pcm, os, dogodki[evIdx].len, dogodki[evIdx].ton, dogodki[evIdx].dih, SR);
         os += dogodki[evIdx].len;
       }
-      status.textContent = "kuham ⟨WAV⟩ — " + (evIdx / dogodki.length * 100).toFixed(1) + " % · " + program.length + (jePesem ? " delov pesmi" : " jezikov");
+      status.textContent = "kuham ⟨WAV⟩ — " + (evIdx / dogodki.length * 100).toFixed(1) + " % · 69 jezikov";
       if (evIdx < dogodki.length) { setTimeout(kos, 0); return; }
       var suho = new Int16Array(pcm);
       var tapov = [[Math.floor(0.17 * SR), 0.26], [Math.floor(0.31 * SR), 0.12]];
@@ -623,10 +593,10 @@
         var blob = new Blob([buf], { type: "audio/wav" });
         var a = document.createElement("a");
         a.href = URL.createObjectURL(blob);
-        a.download = jePesem ? "licenca-pesem-vbl-10.3.1-poskus-5.wav" : "licenca-zapev-vbl-10.3.1-poskus-5.wav";
+        a.download = "licenca-zapev-vbl-10.3.1-poskus-5.wav";
         document.body.appendChild(a); a.click(); a.remove();
         kuham = false;
-        status.textContent = "⟨WAV⟩ izvožen ⊢ — " + (jePesem ? "licenca-pesem" : "licenca-zapev") + "-vbl-10.3.1-poskus-5.wav · " + total + " vzorcev · " + program.length + (jePesem ? " delov pesmi" : " jezikov") + " · dvojni odmev ∧ mehak strop ⇌ živi zvok";
+        status.textContent = "⟨WAV⟩ izvožen ⊢ — licenca-zapev-vbl-10.3.1-poskus-5.wav · " + total + " vzorcev · 69 jezikov · dvojni odmev ∧ mehak strop ⇌ živi zvok";
       }
       function odmevKos() {
         if (ti >= tapov.length) { zapis(); return; }
@@ -636,7 +606,7 @@
         for (var qq = Math.max(zamik, jj); qq < konec; qq++) pcm[qq] = mehka(pcm[qq] + m * suho[qq - zamik]);
         jj = konec;
         if (jj >= total) { jj = 0; ki++; if (ki > 3) { ki = 1; ti++; } }
-        status.textContent = "kuham odmev ⟨WAV⟩ — " + (ti * 3 + ki) + " / 6 · " + program.length + (jePesem ? " delov pesmi" : " jezikov");
+        status.textContent = "kuham odmev ⟨WAV⟩ — " + (ti * 3 + ki) + " / 6 · 69 jezikov";
         setTimeout(odmevKos, 0);
       }
       odmevKos();
@@ -644,7 +614,7 @@
     kos();
   });
 
-  narisiStavko({ ime: "⊨ WITH LOVE", besedilo: "Še več vsebine ∧ jezikov — ▶ PESEM poje celo pesem (8 delov); ▶ ZAPEJ VSE poje 100 jezikov.", ton: 220, svetloba: "#2ecc71", odtenek: 120, vrsta: "jezik" });
+  narisiStavko({ 0: "⊨ WITH LOVE", 1: "Samoglasniki pojejo, soglasniki udarjajo, kadenca ob koncu stavka — pritisni ▶ ZAPEJ VSE.", ton: 220, mode: "dur", svetloba: "#2ecc71", odtenek: 120 });
   svetlobaPocitek();
 })();
 </script>
