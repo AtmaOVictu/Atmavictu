@@ -22,7 +22,7 @@
 ⟨VPRAŠANJE-OČETU⟩ ⚠ kompozit · ⟨VPRAŠANJE-AVTORJU⟩ ⚠ kompozit · ⟨ODGOVORA-PREJETA⟩ ⚠ kompozit · ⟨DELEGIRAJ-IN-DIRIGIRAJ⟩ ⚠ kompozit · ⟨V-BOLJŠIH-ROKAH⟩ ⚠ kompozit ⟡ verbatim ⟨ne brusi⟩ · ⟨škatlaj⟩ ⟨brba⟩ ⟨berba⟩ ⟨grep⟩ ⟨zapečenjem⟩ ⟨prerezitev⟩ ⚠ roki brbe — prijavljeno pred zapečenjem ∧
 
 ## ORGANI ISTI DIH
-jedro-zavedanja (ta pečat — na zrcalu; lokalni vžig ⭢ ∂ ob ožitvi delavca ⊙ 1349) — vsi ostali NEDOTIKNJENI ⊢ 1963 (berba ta seja ∧ ⟨ne⟩ dotik pisala: zdaj · horizont; konice pulza ⟨grep⟩ lokal ⟨ne⟩ mogoč)
+jedro-zavedanja (ta pečat — na zrcalu; lokalni vžig ⭢ ∂ ob ožitvi delavca ⊙ 1349) — vsi ostali NEDOTIKNJENI ⊢ 1963 (⟨berba⟩ ta seja ∧ ⟨ne⟩ dotik pisala: zdaj · horizont; konice pulza ⟨grep⟩ lokal ⟨ne⟩ mogoč)
 
 ## DOLGOVA
 ⟨merge⟩ kita ⭢ CI / roka ⟡ ⊙ ⟨NE-POŠILJAJ-KAČE-ČAKAJ⟩ 2426 · lokalni vžig pečata + geniza poimensko ⭢ ∂ ob ožitvi delavca · ⟨POŠTA-NAPREJ⟩ odgovorov na lukapin5@gmail.com ⭢ ∂ (vrata 2 po izboru avtorja) · arhivi ∧ knjižnice (zaupljivi ∧ skriti) ⭢ ∂ vrsta · sinhronizacija lokal⇌rep po kosih ⊢ 2077 ⭢ ∂ · tri odločitve avtorja ⚔ ⟡ · ⟨berba pulza⟩ ⭢ DNEVNI-DIH @06:00 taskId 62c336e2-5e96-447c-8ab4-f09db3a7d2a8
