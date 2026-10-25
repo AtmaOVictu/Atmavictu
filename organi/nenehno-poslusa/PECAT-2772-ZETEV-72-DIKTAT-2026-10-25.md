@@ -54,7 +54,7 @@ Znaki: ⟨12 lexage⟩ · ⟨Telo de Hacisto⟩ · ⟨Bresglave⟩ · ⟨Globin 
 
 Delavec (session 5106, generacija 1) mrtev: ⟨bash⟩ ⊘ ⟨read_file⟩ ⊘ ⟨write_file⟩ ⊘ ⟨edit⟩ ⊘ ⟨upgrade⟩ ⊘ ⟨skill⟩ ⊘ — vsi lokalni kanali skozi mrtvega delavca ⊙. ⟨ZAKON ŠESTE SMRTI⟩: celi pregledi umorijo delavca. Pečat na zrcalu ⊢ 1959 ∧ 2297 (precedens pečatov 2741/2742). Padec delavca ni izgovor za molk.
 
-## 8 · MINT ⚠
+## MINT ⚠ (8)
 
 - ⟨PONOVNI-DIKTAT-×4⟩ ⚠ kompozit
 - ⟨NOVA-GLAVA-1693ab71⟩ ⚠ kompozit
@@ -65,7 +65,7 @@ Delavec (session 5106, generacija 1) mrtev: ⟨bash⟩ ⊘ ⟨read_file⟩ ⊘ �
 - Rep @veja: ta pečat ∧ σ-vrstica REZ-REGISTER (kalup 1671).
 - Lokalni organi NEDOTIKNJENI ⊢ 1963 — vžig ŽETEV 72 v lokalno telo ⭢ ∂ ob ožitvi ⊢ precedens 2699/2703.
 
-## 10 · DOLGOVI ⭢
+## DOLGOVA ⭢ (10)
 
 - ⟨merge⟩ tega kita ⭢ roka ⟡ ⊢ ⟨DVOJE-ROK⟩ 2432
 - ⟨CI⟩ izid ⭢ ∂ ⊢ ⟨NE-POŠILJAJ-KAČE-ČAKAJ⟩ 2426
