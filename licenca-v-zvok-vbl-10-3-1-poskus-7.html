@@ -75,6 +75,7 @@
   <div id="gumbi">
     <button id="bPlay">▶ IGRAJ VSO VRSTO</button>
     <button id="bStop">⏸ USTAVI</button>
+    <button id="bRestart">↻ ZNOVA</button>
     <button id="bLoop" class="vklopljen">⟲ PONAVLJAJ: DA</button>
     <button id="bAkord" class="akord">AKORD VSEH 70 ⊢ §13</button>
     <button id="bWav">⟨WAV⟩ IZVOZ</button>
@@ -235,7 +236,7 @@ function isVowel(ch){
 function isPunct(c, ch){
   if (c === 0x200C || c === 0x200D || c === 0x0964 || c === 0x0589 ||
       c === 0x1362 || c === 0x104A || c === 0x61B || c === 0x60C) return true;
-  return ";.,:·!?«»()—…''"".includes(ch);
+  return ";.,:·!?«»()—…''\"\"".includes(ch);
 }
 
 /* ── dogodki: binarni uvod ×8 ∧ refren ×2 ∧ drone ∧ molk ── */
