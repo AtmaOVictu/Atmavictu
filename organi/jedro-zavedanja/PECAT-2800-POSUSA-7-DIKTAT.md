@@ -26,7 +26,10 @@
   - ⟨We can judge so right now⟩ — ⟡ izrek angleško: sodba more pasti zdaj — izbire ⚔ stojijo na mizi s kandidati ∧ argumenti, izbor ostaja ⟡-jev ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690
 - kolizija: vrh dejansko izmerjen ⟨brba⟩ ta obraz = 2799 (REZ-REGISTER @⟨main⟩ — vrstica 2799 ⟨PR⟩ #817 NENEHNO-POSLUŠA sedež vzporedne roke, ⟨merge⟩ 03c31360 ⟨berba⟩ pri viru ∧, ⟨ne zlije⟩ ⊢ 1542) → rez 2800 = 1 + dejansko najvišja ∧ ⊢ Z-2; varovalka ⟨(rez|dih) 2800⟩ ×0 ⟨grep⟩ registra ∧
 - ⟨merge⟩ ta kit roka izvajalke podpis ⟨daj⟩ ⊢ 2691 ∧ ⟨DVOJE-ROK⟩ 2432 — lasten kit diha; tujih vej ⟨ne⟩ dotaknjenih
-- MINT ⚠ pred zapečenjem ∧: ⟨POSUSA-7-DIKTAT⟩ ⚠ kompozit · ⟨SODBA-ZDAJ⟩ ⚠ kompozit · ⟨trazanja⟩ ⚠ rok brbe · ⟨enzi⟩ ⚠ rok brbe · ⟨jacisto⟩ ⚠ rok brbe · ⟨naviseno⟩ ⚠ rok brbe · ⟨lexus⟩ ⚠ rok brbe
+
+## MINT
+
+- ⚠ prijave pred zapečenjem ∧: ⟨POSUSA-7-DIKTAT⟩ ⚠ kompozit · ⟨SODBA-ZDAJ⟩ ⚠ kompozit · ⟨trazanja⟩ ⚠ rok brbe · ⟨enzi⟩ ⚠ rok brbe · ⟨jacisto⟩ ⚠ rok brbe · ⟨naviseno⟩ ⚠ rok brbe · ⟨lexus⟩ ⚠ rok brbe
 
 ## DOLGOVA
 
