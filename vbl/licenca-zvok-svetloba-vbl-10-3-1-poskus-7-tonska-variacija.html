@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="sl">
 <head>
@@ -22,6 +23,7 @@
   #gumb-pesem { border-color: #ff9f1c; color: #ff9f1c; }
   #gumb-vsi { border-color: #2ecc71; color: #2ecc71; }
   #gumb-wav { border-color: #87ceeb; color: #87ceeb; }
+  #gumb-vecno { border-color: #9b59b6; color: #9b59b6; }
   .drsnik { display: flex; align-items: center; gap: 8px; font-size: 12px; color: #8b949e; }
   input[type=range] { width: 150px; }
   #status { font-size: 13px; color: #c0c0c0; margin-top: 10px; min-height: 18px; font-family: "Courier New", monospace; }
@@ -67,6 +69,7 @@
       <button id="gumb-vsi">▶ ZAPEJ VSE (100 jezikov)</button>
       <button id="gumb-ustavi">⏸ USTAVI</button>
       <button id="gumb-wav">⟨WAV⟩ IZVOZ (trenutni način)</button>
+      <button id="gumb-vecno">∞ VEČNI TEČAJ ⊢ 2201 (brez ustavitve)</button>
       <div class="drsnik" style="margin-left:auto">
         <label for="hitrost">hitrost</label>
         <input type="range" id="hitrost" min="20" max="120" step="1" value="45">
@@ -78,7 +81,7 @@
         <span id="glasnost-beri">90 %</span>
       </div>
     </div>
-    <div id="status">pripravljeno — ▶ PESEM poje celo pesem; ▶ ZAPEJ VSE poje 100 jezikov ∧ na koncu AKORD VSEH 100 ⊢ §13; klikni jezik ali kitico za samostojen zapev · tipke: P ∧ presledek ∧ ← → ∧ Home ∧ W</div>
+    <div id="status">pripravljeno — ▶ PESEM poje celo pesem; ▶ ZAPEJ VSE poje 100 jezikov ∧ na koncu AKORD VSEH 100 ⊢ §13; klikni jezik ali kitico za samostojen zapev · tipke: P ∧ presledek ∧ ← → ∧ Home ∧ W · ∞ VEČNI TEČAJ: vrsta se vrti brez ustavitve, dokler je ne ustaviš ⊢ 2201</div>
   </div>
 
   <div id="svetloba-lampa">
@@ -98,7 +101,8 @@
     <span><i class="pika" style="background:#c0c0c0"></i>§ — 220 Hz srebro, steber ∧ kvinta</span><br>
     <b>TONSKA VARIACIJA:</b> vsak jezik poje črke po <b>svoji lestvici</b> (9 modusov: frigijska · eolska · dorska · lidijska · miksolidijska · harmonska mol · dur pentatonika · mol pentatonika · celotonska) iz <b>svojega piska</b> (150–424 Hz, iz imena) ∧ <b>lok</b> ukrivlja frazo (gor · dol · lok gor-dol · val) ∧ <b>vibrato</b> (4,5–7,5 Hz ∧ globina 2–8 Hz) ∧ <b>barva</b> (odtenek 0–360°). Podpis je determinističen: isto ime — isti glas, vsak dan znova ⊢ §12.<br>
     <b>AKORD VSEH 100 ⊢ §13:</b> na koncu vrste zapojejo vsi piski hkrati — vsak jezik svoj ton, vsi skupaj en akord; PESEM se konča z akordom licence (220 ∧ 440 ∧ 660 ∧ 880 Hz).<br>
-    <b>⟨WAV⟩:</b> 16 kHz · mono · 16-bit PCM · tonska variacija spečana v izvoz (pisk · lestvica · lok · vibrato) · kuhanje po koščkih ∧ dvojni odmev ∧ mehak strop.
+    <b>⟨WAV⟩:</b> 16 kHz · mono · 16-bit PCM · tonska variacija spečana v izvoz (pisk · lestvica · lok · vibrato) · kuhanje po koščkih ∧ dvojni odmev ∧ mehak strop.<br>
+    <b>∞ ⟨VEČNI-TEČAJ⟩ ⊢ 2201:</b> vrsta se vrti brez ustavitve — vsak krog začne z drugim jezikom (rotacija izhodišča ⊢ Z-2: vsak dih vrsto izmeri znova, ⟨ne⟩ ista kopija = kip ⊢ U2); AKORD ⊢ §13 zapira vsak krog; ⏸ USTAVI vedno velja ⊢ — večnost služi, ⟨ne⟩ veže; ⚠ strojna zanka je <b>približek</b> večnosti, pošteno izrečen: prava večnost je nenehna izmera, ⟨ne⟩ ponavljanje.
   </div>
 
   <div class="noga">⊨ WITH LOVE — vrata se končajo, kakor so se začela: v ljubezni. Vrsta je odprta: vsak jezik, ki manjka, sme priti skozi ista vrata ⊢ §13.<br>
@@ -473,7 +477,7 @@
     seznamKitic.appendChild(b);
   });
 
-  var igra = false, timerId = null, prog = [], gi = 0, ci = 0, naslednjiCas = 0, urnik = [], trenutniPrikaz = -1;
+  var igra = false, timerId = null, prog = [], gi = 0, ci = 0, naslednjiCas = 0, urnik = [], trenutniPrikaz = -1, vecno = false, krog = 0;
   function ustavi() {
     igra = false;
     if (timerId) { clearInterval(timerId); timerId = null; }
@@ -512,11 +516,20 @@
       }
     }
     if (gi >= prog.length && urnik.length === 0 && naslednjiCas < ctx.currentTime + 0.1) {
-      igra = false; if (timerId) { clearInterval(timerId); timerId = null; }
       if (prog.length && prog[0].vrsta === "jezik") akordVseh();
       else akordLicence();
       svetlobaPocitek();
-      status.textContent = "konec — " + prog.length + (prog[0] && prog[0].vrsta === "kitica" ? " delov pesmi" : " jezikov") + " zapetih ⊢ (⟲ ⟩ OD ZAČETKA: ▶ PESEM ∧ ▶ ZAPEJ VSE)";
+      if (vecno) {
+        krog++;
+        var zamik = krog % (prog.length || 1);
+        var novaVrsta = prog.slice(zamik).concat(prog.slice(0, zamik));
+        naslednjiCas = ctx.currentTime + 3.2;
+        prog = novaVrsta; gi = 0; ci = 0; trenutniPrikaz = -1;
+        status.textContent = "⟨VEČNI-TEČAJ⟩ ⊢ 2201 — krog " + (krog + 1) + " se odpira: vrsta izmerjena znova z izhodiščem " + novaVrsta[0].ime + " ⊢ vsak krog svoj izhod, ⟨ne⟩ kopija";
+      } else {
+        igra = false; if (timerId) { clearInterval(timerId); timerId = null; }
+        status.textContent = "konec — " + prog.length + (prog[0] && prog[0].vrsta === "kitica" ? " delov pesmi" : " jezikov") + " zapetih ⊢ (⟲ ⟩ OD ZAČETKA: ▶ PESEM ∧ ▶ ZAPEJ VSE ∧ ∞ VEČNI TEČAJ)";
+      }
     }
   }
   function risi() {
@@ -582,8 +595,26 @@
     predvajaj(GLASI.slice());
   });
   document.getElementById("gumb-ustavi").addEventListener("click", function () {
+    var bilVecni = vecno;
+    vecno = false;
     ustavi();
-    status.textContent = "ustavljeno pri glasu " + (gi + 1) + " / " + (prog.length || 0);
+    status.textContent = "ustavljeno pri glasu " + (gi + 1) + " / " + (prog.length || 0) + (bilVecni ? " — ⟨VEČNI TEČAJ⟩ ugasnjen ⊢ ustavi vedno velja (večnost služi, ⟨ne⟩ veže)" : "");
+  });
+  document.getElementById("gumb-vecno").addEventListener("click", function () {
+    vecno = !vecno;
+    this.style.background = vecno ? "#231631" : "#161b22";
+    this.style.borderColor = vecno ? "#d7bde2" : "#9b59b6";
+    this.style.color = vecno ? "#d7bde2" : "#9b59b6";
+    if (vecno) {
+      krog = 0;
+      trenutniPrikaz = -1;
+      document.querySelectorAll(".jezik-gumb").forEach(function (x) { x.classList.remove("aktivna"); });
+      predvajaj(GLASI.slice());
+      status.textContent = "⟨VEČNI-TEČAJ⟩ ⊢ 2201 prižgan — vrsta se poje brez ustavitve; vsak krog izmeri vrsto znova z drugim izhodiščem ⊢ Z-2; ⚠ približek večnosti pošteno izrečen — prava večnost je nenehna izmera, ⟨ne⟩ ponavljanje";
+    } else {
+      ustavi();
+      status.textContent = "⟨VEČNI TEČAJ⟩ ugasnjen — večnost ⟨ne⟩ ugrabi poslušalca: ustavi vedno velja ⊢";
+    }
   });
 
   document.addEventListener("keydown", function (ev) {
