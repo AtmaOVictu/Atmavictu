@@ -21,10 +21,10 @@ Instrument korpusa »Beseda je Ne«: register ZADNJIH PEČATOV vseh organov na e
 - mucilnica-modrosti — rez 2022 δ7-OZDRAVITEV-KODNIH-RAN ⊢ · 19. 10. 2026 · zn 20585 · B 22427 ⇌ rep blob 79d5560d — bajt-isto ∧
 - atmavictu — rez 2032 AD-CONTINUUM-AGENT-REGISTRIRAN ⊢ · 19. 10. 2026 · zn 52367 · B 57293 ⇌ rep blob 025f8367 — bajt-isto ∧
 - mera-glas — rez 2320 MERA-GLAS — ŽETEV-IWEN ⊢ · 22. 10. 2026 · zn 114663 · B 128005 (lokal) ⊥ rep B 108646 blob cbdbd1af (@2392) · ⚠ LOKAL NOVEJŠI — prevoz ⭢ ∂
-- votac — rez 2734 VOTAČ — PESEM-PRED-PRAGOM · PADC-DELAVCA-ODPLAČAN ⊢ · 25. 10. 2026 · zn 37574 · B 41969 ⇌ rep bajt-isto ∧ (telo na rep ta kit ⟨PR⟩ #745 — predhodnik vrstice: rez 2706 · B 15772 lokal @2078 ⊥ rep 18442 blob c3e40842)
+- votac — rez 2734 VOTAČ — PESEM-PRED-PRAGOM · PADC-DELAVCA-ODPLAČAN ⊢ · 25. 10. 2026 · zn 37576 · B 41975 ⇌ rep bajt-isto ∧ (telo na rep ta kit ⟨PR⟩ #745 — predhodnik vrstice: rez 2706 · B 15772 lokal @2078 ⊥ rep 18442 blob c3e40842)
 - tiheon — rez 2019 VŽIG-LOKALNO-TREH-TELES ⊢ · lokal (@2019) ⊥ rep B 10817 blob 7bed3317 (@2392) · zn 7411 · B 8148 (lokal) · ⚠ REP NOVEJŠI — vžig lokal ⭢ ∂
 - enacbe — rez 2431 ENACBE ⊢ · 23. 10. 2026 · zn ⚠ delavec mrtev ⊢ 1419 · B 223160 (lokal) ⊥ rep B 169487 blob 36ffc713 · ⚠ LOKAL NOVEJŠI — prevoz ⭢ ∂ (predhodnik vrstice @2616-era — poravnano po priči registra)
-- telologija — rez 2734 TELOLOGIJA — KRIŽ-LICENCA-10.3.1 · ⟨VEDNO-LICENCA⟩ · PREVERBA-OBLAK-20/20 ⊢ · 25. 10. 2026 · zn 223311 · B 250402 ⇌ rep bajt-isto ∧ (telo na rep ta kit ⟨PR⟩ #745 — predhodnik vrstice: rez 2700 · B 237179 lokal ⊥ rep 173611 blob e9cba04b)
+- telologija — rez 2734 TELOLOGIJA — KRIŽ-LICENCA-10.3.1 · ⟨VEDNO-LICENCA⟩ · PREVERBA-OBLAK-20/20 ⊢ · 25. 10. 2026 · zn 223335 · B 250474 ⇌ rep bajt-isto ∧ (telo na rep ta kit ⟨PR⟩ #745 — predhodnik vrstice: rez 2700 · B 237179 lokal ⊥ rep 173611 blob e9cba04b)
 - atlas-knjiznic — rez 2179 DNEVNA-BERBA-⟨#740⟩ ⊢ · 20. 10. 2026 · zn 830726 · B 922507 ⇌ rep blob b4ccaafc — bajt-isto ∧
 - tazv-gnosis-rezi — rez 2545 TAZV — ANTINOM-360-NUJNA-NAPAKA ⊢ · 23. 10. 2026 · zn ⚠ delavec mrtev ⊢ 1419 · B 331789 (lokal konica ta dih · 887 vrstic) ⊥ rep B 964386 blob c3b2c2e8 (telo @2144) · ⚠ RAZCEP ⊢ 2357 — obe plasti stojita; prevoz konic ⭢ ∂
 - zakonodaja — rez 2731 ZAKONODAJA — PREVOZ-NA-REP · ⟨DOL-IN-GOR⟩ · ⟨DRUGAM-KOT-TUKAJ-IN-ZDAJ⟩ ⊢ · 25. 10. 2026 · zn 217012 · B 239179 ⇌ rep bajt-isto ∧ (telo na rep ta kit ⟨PR⟩ #745 — predhodnik vrstice: rez 2708 · B 161271 lokal ⊥ rep 65147 blob 69570477)
