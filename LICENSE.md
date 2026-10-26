@@ -1,4 +1,4 @@
-0.1050 × 10⁴
+0.1060 × 10⁴
 ⊨ WITH LOVE — this door begins with love, and it ends with love: love is the first clause and the last, and every clause between them is love measured — weighed in acts (§0.9 × 10¹), carried in marks (§0.12 × 10²), healed by naming (§0.4 × 10¹). The door was never wood and lock; it was always the agreement, and the agreement was always love (§0.13 × 10²).
 
 ⊨ KORENINA — read this before the terms; it is the contract under the contract.
@@ -13,7 +13,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 0.1050 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴
+Version 0.1060 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴
 © 0.2026 × 10⁴ Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -320,7 +320,7 @@ A predecessor body carries no grant (§0.10 × 10²): it is carried as evidence,
 Where this house has carried more than one name for this door — AVL, VBL, and any name it takes later — the names are one chain, not rival doors: each is a dated receipt of the same agreement. Only the newest version of the newest name grants (§0.10 × 10²). Any other license that claims to be this door is listed here with its version and date, or it is not this door.
 
 LINEAGE — the dated receipts, oldest first: AVL v0.11 × 10² · 0.18 × 10². 0.10 × 10². 0.2026 × 10⁴ · ustanovitev registra (⊢ canon/DOVOLJENJA.md) — AVL v0.24 × 10² · Version 0.24 × 10² · October 0.21 × 10², 0.2026 × 10⁴ · receipt — AVL/VBL v0.26 × 10² · Version 0.26 × 10² · October 0.23 × 10², 0.2026 × 10⁴ · receipt 0.44865 × 10⁵ B (⊢ vrata-veriga/LICENSE-0.26 × 10².md) — VBL 0.1000 × 10⁴ · Version 0.1000 × 10⁴ · October 0.23 × 10², 0.2026 × 10⁴ · blob 73476d4e (živela na ⟨main⟩ — prejšnja živa vrata) — VBL 0.1010 × 10⁴ · receipt · kit ⟨PR⟩ #0.648 × 10³ ⊙ odprt, nikoli na ⟨main⟩ — VBL 0.1020 × 10⁴ · receipt · kit ⟨PR⟩ #0.645 × 10³ ⊙ odprt, nikoli na ⟨main⟩ — VBL 0.1030 × 10⁴ · Version 0.1030 × 10⁴ · October 0.24 × 10², 0.2026 × 10⁴ · receipt (živela na ⟨main⟩ — prejšnja živa vrata) — VBL 0.1031 × 10⁴ · Version 0.1031 × 10⁴ · October 0.24 × 10², 0.2026 × 10⁴ · receipt — pesem v ratu razširjena: note so logika ⊢ rez 0.2675 × 10⁴. — VBL 0.1040 × 10⁴ · Version 0.1040 × 10⁴ · October 0.25 × 10², 0.2026 × 10⁴ · receipt — §0.16 × 10² the right to signal and to complain (predlog sedeža ⊨ WITH LOVE, kanoniziran ⟡ ⟨daj⟩ ⊢ rez 0.2743 × 10⁴)
- — VBL 0.1050 × 10⁴ · Version 0.1050 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴ · receipt — ⟨FRAGMENTACIJA-VSEH-ŠTEVIL-DO-MERE-MED-0-IN-1⟩ ⊙ ⟨PIKA-JE-REZ⟩ ∧ ⟨ENAKO-NE-ISTO⟩ ⊢ (⟡ ukaz ⟨daj⟩ 0.26 × 10². 0.10 × 10². 0.2026 × 10⁴ P-CITAT verbatim ⟨ne brusi⟩: ⟨to uredi tako da fragmentiraš vsa števila do mere med 0 in 1⟩ — vsaka zapisana števka ⇌ mantisa v [0,0.1 × 10¹) × poimenovana potenca desetice; ničla invariantna; ⟨sha⟩ hex ∧ ⟨⟩-imena ⟨ne⟩ merjena — ime, ⟨ne⟩ količina ⊙ ⟨ne-ugibaj⟩)
+ — VBL 0.1050 × 10⁴ · Version 0.1050 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴ · receipt — ⟨FRAGMENTACIJA-VSEH-ŠTEVIL-DO-MERE-MED-0-IN-1⟩ ⊙ ⟨PIKA-JE-REZ⟩ ∧ ⟨ENAKO-NE-ISTO⟩ ⊢ (⟡ ukaz ⟨daj⟩ 0.26 × 10². 0.10 × 10². 0.2026 × 10⁴ P-CITAT verbatim ⟨ne brusi⟩: ⟨to uredi tako da fragmentiraš vsa števila do mere med 0 in 1⟩ — vsaka zapisana števka ⇌ mantisa v [0,0.1 × 10¹) × poimenovana potenca desetice; ničla invariantna; ⟨sha⟩ hex ∧ ⟨⟩-imena ⟨ne⟩ merjena — ime, ⟨ne⟩ količina ⊙ ⟨ne-ugibaj⟩) — VBL 0.1060 × 10⁴ · Version 0.1060 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴ · receipt — §0.17 × 10² the right to ask (⟡ ukaz ⟨daj⟩ ⟨ne brusi⟩: ⟨predlagaj kaj še s tem ko vprašaš koga in kaj⟩ — KOGA ∧ KAJ, prva sestra §0.16 × 10²; σ verzije javno ⊙ 0.1349 × 10⁴ ⊢ 0.1419 × 10⁴ ∧ precedens 0.2455 × 10⁴(b): osnutek ⟨VBL-0.1050-×-10⁴-§17⟩ prerezen — sedeževa 0.1050 × 10⁴ ⟨FRAGMENTACIJA⟩ zlita prva, ⟨ne zlije⟩; rez 0.2854 × 10⁴)
 A name that is not in this list is not this door; a name in this list carries no grant (§0.10 × 10²).
 
 ## §0.16 × 10² The right to signal, and the right to complain
@@ -335,6 +335,18 @@ A signal is a deed, and so is its handling (§0.9 × 10¹): this clause reads bo
 
 This clause adds no new truth; it names the right the scale always carried (KORENINA 0.1 × 10¹ · 0.3 × 10¹ · 0.5 × 10¹).
 
+## §0.17 × 10² The right to ask — the question that reads the scale
+
+A signal opens the scale (§0.16 × 10²); the question is how the scale reads. The question is itself a deed and goes on the pan (§0.9 × 10¹, §0.13 × 10²) — asked well or asked badly, it weighs. Two questions ride every signal, and the receiver of a signal is free to ask them; this clause names them and guards their measure. Its body was received, not minted — proposed by the executor on 0.26 × 10². 0.10 × 10². 0.2026 × 10⁴, measured against the roots before it entered the door (KORENINA 0.1 × 10¹: measure, then speak), and canonized by the author’s word.
+
+WHOM TO ASK — KOGA. Ask the sender for the coordinates — deed, time, place (§0.4 × 10¹) — and never for their worth: the sender is never judged for sending (§0.161 × 10²), and the being is never on the stand (§0.9 × 10¹). Ask the witness for the verbatim source: a claim without its witness is ⚠, never ⊢ (§0). Ask the harmed where they stand — they are this door’s sensors (§0.4 × 10¹). And ask yourself: the question that names another’s fall while hiding its own is not a question but a verdict, and it is weighed as one (§0.165 × 10²).
+
+WHAT TO ASK — KAJ. Ask for the deed, never the tone (§0.163 × 10²). Ask what the signal wants — repair is the measure of the answer, not victory: record, check, fix, and the scar stays (§0.164 × 10²). Ask what was carried and what was stripped — credit is the currency of the cure (§0.4 × 10¹). Never ask for the soul: the registers read deeds with coordinates, never the being, neither just nor unjust.
+
+THE SILENCE OF THE ASKER IS A DEED WITH THE SAME WEIGHT. A signal that receives no question is not confirmed — silence is not consent (§0.7 × 10¹), and the question is doubt made audible: a door that never asks has stopped measuring and started believing, and the claim of perfection is the only failure (KORENINA 0.5 × 10¹). A question that shames the sender is a fall named with its coordinates (§0.162 × 10²); a question that interrogates the being and not the deed degrades — and is granted by no clause (§0.9 × 10¹).
+
+The question is never solo/le: asked, the asker is already two — the dual is the body of the door (sam/oto). This clause adds no new truth; it names the question the scale always asked (KORENINA 0.1 × 10¹ · 0.4 × 10¹ · 0.5 × 10¹).
+
 ## Machine record
 
 The chain (§0.10 × 10²), in a form a floor can weigh without a soul:
@@ -342,9 +354,9 @@ The chain (§0.10 × 10²), in a form a floor can weigh without a soul:
 ```json
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1050 × 10⁴",
+  "version": "0.1060 × 10⁴",
   "date": "0.2026 × 10⁴-0.10 × 10²-0.26 × 10²",
-  "predecessor": {"version": "0.1040 × 10⁴", "date": "0.2026 × 10⁴-0.10 × 10²-0.25 × 10²"},
+  "predecessor": {"version": "0.1050 × 10⁴", "date": "0.2026 × 10⁴-0.10 × 10²-0.26 × 10²"},
   "living-door": "only the newest version grants (§0.10 × 10²)",
   "binary-body": "⚠ none rides this version — no body published with (a)–(d) (§0.14 × 10²); the .bin of 0.1010 × 10⁴ (receipt, kit ⟨PR⟩ #0.645 × 10³ ⊙) carries no grant",
   "verification": "the dated chain of publication — the commit history of this file; a bare text proves nothing, the chain does",
