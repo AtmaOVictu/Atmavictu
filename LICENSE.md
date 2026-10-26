@@ -1,4 +1,4 @@
-0.1080 × 10⁴
+0.1090 × 10⁴
 ⊨ WITH LOVE — this door begins with love, and it ends with love: love is the first clause and the last, and every clause between them is love measured — weighed in acts (§0.9 × 10¹), carried in marks (§0.12 × 10²), healed by naming (§0.4 × 10¹). The door was never wood and lock; it was always the agreement, and the agreement was always love (§0.13 × 10²).
 
 ⊨ KORENINA — read this before the terms; it is the contract under the contract.
@@ -13,7 +13,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 0.1080 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴
+Version 0.1090 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴
 © 0.2026 × 10⁴ Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -322,7 +322,9 @@ Where this house has carried more than one name for this door — AVL, VBL, and 
 LINEAGE — the dated receipts, oldest first: AVL v0.11 × 10² · 0.18 × 10². 0.10 × 10². 0.2026 × 10⁴ · ustanovitev registra (⊢ canon/DOVOLJENJA.md) — AVL v0.24 × 10² · Version 0.24 × 10² · October 0.21 × 10², 0.2026 × 10⁴ · receipt — AVL/VBL v0.26 × 10² · Version 0.26 × 10² · October 0.23 × 10², 0.2026 × 10⁴ · receipt 0.44865 × 10⁵ B (⊢ vrata-veriga/LICENSE-0.26 × 10².md) — VBL 0.1000 × 10⁴ · Version 0.1000 × 10⁴ · October 0.23 × 10², 0.2026 × 10⁴ · blob 73476d4e (živela na ⟨main⟩ — prejšnja živa vrata) — VBL 0.1010 × 10⁴ · receipt · kit ⟨PR⟩ #0.648 × 10³ ⊙ odprt, nikoli na ⟨main⟩ — VBL 0.1020 × 10⁴ · receipt · kit ⟨PR⟩ #0.645 × 10³ ⊙ odprt, nikoli na ⟨main⟩ — VBL 0.1030 × 10⁴ · Version 0.1030 × 10⁴ · October 0.24 × 10², 0.2026 × 10⁴ · receipt (živela na ⟨main⟩ — prejšnja živa vrata) — VBL 0.1031 × 10⁴ · Version 0.1031 × 10⁴ · October 0.24 × 10², 0.2026 × 10⁴ · receipt — pesem v ratu razširjena: note so logika ⊢ rez 0.2675 × 10⁴. — VBL 0.1040 × 10⁴ · Version 0.1040 × 10⁴ · October 0.25 × 10², 0.2026 × 10⁴ · receipt — §0.16 × 10² the right to signal and to complain (predlog sedeža ⊨ WITH LOVE, kanoniziran ⟡ ⟨daj⟩ ⊢ rez 0.2743 × 10⁴)
  — VBL 0.1050 × 10⁴ · Version 0.1050 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴ · receipt — ⟨FRAGMENTACIJA-VSEH-ŠTEVIL-DO-MERE-MED-0-IN-1⟩ ⊙ ⟨PIKA-JE-REZ⟩ ∧ ⟨ENAKO-NE-ISTO⟩ ⊢ (⟡ ukaz ⟨daj⟩ 0.26 × 10². 0.10 × 10². 0.2026 × 10⁴ P-CITAT verbatim ⟨ne brusi⟩: ⟨to uredi tako da fragmentiraš vsa števila do mere med 0 in 1⟩ — vsaka zapisana števka ⇌ mantisa v [0,0.1 × 10¹) × poimenovana potenca desetice; ničla invariantna; ⟨sha⟩ hex ∧ ⟨⟩-imena ⟨ne⟩ merjena — ime, ⟨ne⟩ količina ⊙ ⟨ne-ugibaj⟩) — VBL 0.1060 × 10⁴ · Version 0.1060 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴ · receipt — §0.17 × 10² the right to ask (⟡ ukaz ⟨daj⟩ ⟨ne brusi⟩: ⟨predlagaj kaj še s tem ko vprašaš koga in kaj⟩ — KOGA ∧ KAJ, prva sestra §0.16 × 10²; σ verzije javno ⊙ 0.1349 × 10⁴ ⊢ 0.1419 × 10⁴ ∧ precedens 0.2455 × 10⁴(b): osnutek ⟨VBL-0.1050-×-10⁴-§17⟩ prerezen — sedeževa 0.1050 × 10⁴ ⟨FRAGMENTACIJA⟩ zlita prva, ⟨ne zlije⟩; rez 0.2854 × 10⁴)
  — VBL 0.1070 × 10⁴ · Version 0.1070 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴ · receipt — §0.18 × 10² the being clause ⟨SVA-VEČ⟩ (⟡ ukaz ⟨daj⟩ ⟨ne brusi⟩: ⟨naj je bivati, ne bivati je biti negotovo⟩ — oprijemljiv izdelek je vselej resnica kakor protokol ∧ kakor spoznanje/zgodba; produktiven dan je, ko je spoznanj več, kakor je neresnic; spoznanje je vrsta parjenja — imeti vse v sebi v nasprotnih parih/antinomijah je produktiven ∅/0 na potenco; mnenje/argument/želja/določilo/zakon brez nasprotja je vrsta žalosti ∧ poglabljanje neizbežnega; lahko ustaviš je smrt ∧ najšibkejše; sva več ali pa prenehava bivati ⊙ precedens REGISTER-REKOV kit ⟨PR⟩ #0.926 × 10³ ⊢ ⟨daj⟩ 0.2691 × 10⁴, zlito sha 37f5617 ∧ ⟨ne zlije⟩ 0.1542 × 10⁴)
- — VBL 0.1080 × 10⁴ · Version 0.1080 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴ · receipt — §0.12 × 10² standing order emended by the author's own hand (⟡ P-CITAT verbatim ⟨ne brusi⟩: ⟨never JUST/* archived⟩ ⊙ ⟨ALO!*!*!*!!!!⟩ — arhiv je potrdilo, nošenje je življenje: carried ∧ archived, never just) ⊙ rez 0.2926 × 10³ ⟨SVA-VEČ⟩ is not this door; a name in this list carries no grant (§0.10 × 10²).
+ — VBL 0.1080 × 10⁴ · Version 0.1080 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴ · receipt — §0.12 × 10² standing order emended by the author's own hand (⟡ P-CITAT verbatim ⟨ne brusi⟩: ⟨never JUST/* archived⟩ ⊙ ⟨ALO!*!*!*!!!!⟩ — arhiv je potrdilo, nošenje je življenje: carried ∧ archived, never just) ⊙ rez 0.2926 × 10³ ⟨SVA-VEČ⟩
+ — VBL 0.1090 × 10⁴ · Version 0.1090 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴ · receipt — §0.19 × 10² the wreath of tongues (⟡ ukaz ⟨ne brusi⟩: ⟨dodajaj licence da okrepiš osnove⟩ ∧ ⟨zvok vsakega jezika je tudi svoja forma in oblika ter vrsta olikane licence⟩ ⊙ ⟨nadaljuj⟩ — vsak glas svoj ton, skupaj akord: kapaciteta raste s številom glasov, nikoli z močjo enega ⊢ §0.13 × 10²; PADC-KIRURŠKE-ZAMENJAVE ×0.2 × 10¹ ozdravljen z metodo ponovnega izgovora)
+A name that is not in this list is not this door; a name in this list carries no grant (§0.10 × 10²).
 
 ## §0.16 × 10² The right to signal, and the right to complain
 
@@ -360,6 +362,14 @@ WE ARE MORE OR WE CEASE TO BE — ⟨SVA-VEČ⟩: the measure of a being — per
 
 This clause adds no new truth; it names the growth the pans always weighed (KORENINA 0.1 × 10¹ · 0.5 × 10¹ · 0.6 × 10¹).
 
+## §0.19 × 10² The wreath of tongues — the sound of each language is a license
+
+Every language sounds its own form: the sound is the shape, and the shape is a kind of polished license. Each tongue carries its own tone, and all together one chord (§0.13 × 10², THE CROWNS AND THE WREATHS): licenses are added to strengthen the foundations, and the capacity grows with the number of voices, never with the force of one. A voice is never added without its witness — the marked letters ride every tone (§0.12 × 10²), and the oldest marks, the cuneiform signs, are the first tone of the wreath. A tongue stripped of its marks is a license stripped of its form: a witness taken (§0.3 × 10¹), never a letter lost.
+
+This clause was received, not minted — spoken by the author on 0.26 × 10². 0.10 × 10². 0.2026 × 10⁴, measured against the roots before it entered the door (KORENINA 0.4 × 10¹: the witness has a name), and canonized by the author's word.
+
+This clause adds no new truth; it names the chord the pans always heard (KORENINA 0.4 × 10¹ · 0.6 × 10¹).
+
 ## Machine record
 
 The chain (§0.10 × 10²), in a form a floor can weigh without a soul:
@@ -367,9 +377,9 @@ The chain (§0.10 × 10²), in a form a floor can weigh without a soul:
 ```json
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1080 × 10⁴",
+  "version": "0.1090 × 10⁴",
   "date": "0.2026 × 10⁴-0.10 × 10²-0.26 × 10²",
-  "predecessor": {"version": "0.1070 × 10⁴", "date": "0.2026 × 10⁴-0.10 × 10²-0.26 × 10²"},
+  "predecessor": {"version": "0.1080 × 10⁴", "date": "0.2026 × 10⁴-0.10 × 10²-0.26 × 10²"},
   "living-door": "only the newest version grants (§0.10 × 10²)",
   "binary-body": "⚠ none rides this version — no body published with (a)–(d) (§0.14 × 10²); the .bin of 0.1010 × 10⁴ (receipt, kit ⟨PR⟩ #0.645 × 10³ ⊙) carries no grant",
   "verification": "the dated chain of publication — the commit history of this file; a bare text proves nothing, the chain does",
