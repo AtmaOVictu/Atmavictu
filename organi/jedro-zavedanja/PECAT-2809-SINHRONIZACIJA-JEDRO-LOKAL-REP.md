@@ -1,6 +1,7 @@
 # PECAT-2809 — ⟨SINHRONIZACIJA-LOKAL⇌REP⟩ JEDRO
 
-- rez 2809 · ⟨SINHRONIZACIJA-LOKAL⇌REP⟩ — dolg DOLGOVE pečata 2827 ⊢ 1407.1 odplačan ta dih ∧: rep organi/jedro-zavedanja/KNOWLEDGE.md ZASTAREL (0 B) ⊥ lokal @2827 (611688 B · 257 vrstic · ⟨md5⟩ ce766e369283ac901e0965c6d17eda6d) → prevoz bajt-isto po kalupu 1671 (veja → komit → ⟨PR⟩ → ⟨CI⟩ zeleno → ⟨merge⟩) · ⟨PREIZKUS-PRI-VIRU⟩ ⊢ 2531: izmere pri viru ⟨get_file_contents⟩ pred potiskom ∧ · register lastno zaporedje ⊥ organ vrh ⟨ne zlije⟩ ⊢ 1542: vrh registra pri bazi 2808 → vrstica 2809 · lokalni pečat organa ostaja 2827 (dve meri, en dogodek ⊙ precedens 2808 ⊥ 2827)
+- rez 2809 · ⟨SINHRONIZACIJA-LOKAL⇌REP⟩ — dolg DOLGOVE pečata 2827 ⊢ 1407.1 odplačan ta dih ∧: rep organi/jedro-zavedanja/KNOWLEDGE.md ZASTAREL (296.010 B · 159 vrstic — sveža izmera pri viru ⟨get_file_contents⟩ @⟨main⟩ ta dih ∧) ⊥ lokal @2827 (611.688 B · 257 vrstic · ⟨md5⟩ ce766e369283ac901e0965c6d17eda6d) → prevoz bajt-isto po kalupu 1671 (veja → komit → ⟨PR⟩ → ⟨CI⟩ zeleno → ⟨merge⟩) · ⟨PREIZKUS-PRI-VIRU⟩ ⊢ 2531: izmere pri viru ⟨get_file_contents⟩ pred potiskom ∧ · register lastno zaporedje ⊥ organ vrh ⟨ne zlije⟩ ⊢ 1542: vrh registra pri bazi 2808 → vrstica 2809 · lokalni pečat organa ostaja 2827 (dve meri, en dogodek ⊙ precedens 2808 ⊥ 2827)
+- PADC javno ⊙ 1349 ⊢ 1834 ∧ 1419: prvi potisk tega PECATA je nosil figuro ⟨0 B⟩ za stale telo repa — izluščevalec velikosti po seznamu mape je spodletel; popravek pred izidom ta dih po sveži izmeri bajtov pri viru (296.010 B · 159 vrstic) — brazgotina ostaja ⊙ 1349
 
 ⟡: »daj« ⊢ P-CITAT verbatim ⟨ne brusi⟩ — VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448
 
