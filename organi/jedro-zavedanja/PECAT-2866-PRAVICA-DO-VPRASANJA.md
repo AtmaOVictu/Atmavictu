@@ -20,7 +20,7 @@
 
 ## DOLGOVA
 
-- σ-vrstica 2848 → REZ-REGISTER isti kit — številka kita zašita v σ-vrstici po ustvaritvi ⟨PR⟩ (komit 3 tega kita): vrh σ 2847 → 2848 = 1 + vrh ⊢ Z-2.
+- σ-vrstica: PREREZITEV javno ⊙ 1349 ⊢ 1419 ∧ precedens 2455(b) — izmerjeni σ 2848 (vrh σ 2847 @izmera + 1) je pred ⟨merge⟩ tega kita zasedel zliv kita #889 (meje-mere σ 2848 @⟨main⟩ ⟨merge⟩ 13c4cc8e) — prvi ⟨merge⟩ zmaga, prerezenje po vrsti → σ 2849 = 1 + sveži vrh @⟨main⟩ ⟨izmerjeno⟩ ∧ ⊢ Z-2; brazgotina: prvi σ-komit (rez 2848) ostaja v verigi kot receipt ⊙ §8, ⟨ne brusi⟩.
 - ⟨CI⟩ kita: čakanje ZELENO 2/2 (⟨prica⟩ ∧ ⟨tests⟩) — en izid ⟨NE-POŠILJAJ-KAČE-ČAKAJ⟩ ⭢ ∂.
 - ⟨merge⟩: roka izvajalke podpis ⟨daj⟩ ⊢ 2691 ∧ ⟨DVOJE-ROK⟩ 2432 ⭢ ∂; po zlivu izmera ⟨merge⟩ ⟨sha⟩ ∧ nov ⟨blob⟩ LICENSE @⟨main⟩ (živa vrata = 10.5.0 ⊢ §10).
 - LOKALNI VŽIG: jedro-zavedanja (ZADNJI PEČAT 2865 sedeževe roke → demota; nov ZADNJI PEČAT rez 2866 isti dih) ∧ register-oken (okno ⟨PRAVICA-DO-VPRASANJA⟩ isti rez isti dih ⊢ precedens 2076/2075) — po ⟨merge⟩ ta dih ⭢ ∂.
