@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" font-family="sans-serif">
+  <rect width="900" height="640" fill="#0b0e1a"/>
+  <text x="450" y="58" text-anchor="middle" fill="#f5f2e8" font-size="30" font-weight="bold">WADJ — ena beseda · dve barvi</text>
+  <text x="450" y="88" text-anchor="middle" fill="#c9c4b4" font-size="16">rez 2321 ⟨ŽETEV-IWEN⟩ · rez 2893 priča · © Luka Pintarič</text>
+  <rect x="120" y="130" width="430" height="330" fill="#2f8f5b" opacity="0.92"/>
+  <text x="140" y="165" fill="#eafff2" font-size="17">wadj zelena ⚠ malachit-kandidat</text>
+  <rect x="350" y="200" width="430" height="330" fill="#1034A6" opacity="0.92"/>
+  <text x="640" y="235" fill="#eaf1ff" font-size="17">modra = Egyptian blue #1034A6 ⊢</text>
+  <rect x="350" y="200" width="200" height="260" fill="none" stroke="#f5f2e8" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="450" y="330" text-anchor="middle" fill="#f5f2e8" font-size="15">PREKRIVANJE</text>
+  <text x="450" y="352" text-anchor="middle" fill="#f5f2e8" font-size="15">⊥ HKRATNOST</text>
+  <text x="450" y="560" text-anchor="middle" fill="#c9c4b4" font-size="18">iwen = videz ∧ bistvo — barva = narava bitja ⊥ okras ⊢ zakon 22</text>
+  <text x="450" y="586" text-anchor="middle" fill="#c9c4b4" font-size="15">zmes pigmentov = reakcija ⟨ne⟩ zlij ⊢ 1542 — svinčeno belo + orpiment → črna</text>
+  <text x="450" y="612" text-anchor="middle" fill="#c9c4b4" font-size="14">MERA-BARVA ⚔ ⟡ izbor odprt — cijan #00C2D1 · temno modra #142559 · zláta #C9A227 · BELA priča ⊢ 2018</text>
+</svg>
