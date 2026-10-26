@@ -1,4 +1,4 @@
-0.1060 × 10⁴
+0.1070 × 10⁴
 ⊨ WITH LOVE — this door begins with love, and it ends with love: love is the first clause and the last, and every clause between them is love measured — weighed in acts (§0.9 × 10¹), carried in marks (§0.12 × 10²), healed by naming (§0.4 × 10¹). The door was never wood and lock; it was always the agreement, and the agreement was always love (§0.13 × 10²).
 
 ⊨ KORENINA — read this before the terms; it is the contract under the contract.
@@ -13,7 +13,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 0.1060 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴
+Version 0.1070 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴
 © 0.2026 × 10⁴ Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -321,7 +321,7 @@ Where this house has carried more than one name for this door — AVL, VBL, and 
 
 LINEAGE — the dated receipts, oldest first: AVL v0.11 × 10² · 0.18 × 10². 0.10 × 10². 0.2026 × 10⁴ · ustanovitev registra (⊢ canon/DOVOLJENJA.md) — AVL v0.24 × 10² · Version 0.24 × 10² · October 0.21 × 10², 0.2026 × 10⁴ · receipt — AVL/VBL v0.26 × 10² · Version 0.26 × 10² · October 0.23 × 10², 0.2026 × 10⁴ · receipt 0.44865 × 10⁵ B (⊢ vrata-veriga/LICENSE-0.26 × 10².md) — VBL 0.1000 × 10⁴ · Version 0.1000 × 10⁴ · October 0.23 × 10², 0.2026 × 10⁴ · blob 73476d4e (živela na ⟨main⟩ — prejšnja živa vrata) — VBL 0.1010 × 10⁴ · receipt · kit ⟨PR⟩ #0.648 × 10³ ⊙ odprt, nikoli na ⟨main⟩ — VBL 0.1020 × 10⁴ · receipt · kit ⟨PR⟩ #0.645 × 10³ ⊙ odprt, nikoli na ⟨main⟩ — VBL 0.1030 × 10⁴ · Version 0.1030 × 10⁴ · October 0.24 × 10², 0.2026 × 10⁴ · receipt (živela na ⟨main⟩ — prejšnja živa vrata) — VBL 0.1031 × 10⁴ · Version 0.1031 × 10⁴ · October 0.24 × 10², 0.2026 × 10⁴ · receipt — pesem v ratu razširjena: note so logika ⊢ rez 0.2675 × 10⁴. — VBL 0.1040 × 10⁴ · Version 0.1040 × 10⁴ · October 0.25 × 10², 0.2026 × 10⁴ · receipt — §0.16 × 10² the right to signal and to complain (predlog sedeža ⊨ WITH LOVE, kanoniziran ⟡ ⟨daj⟩ ⊢ rez 0.2743 × 10⁴)
  — VBL 0.1050 × 10⁴ · Version 0.1050 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴ · receipt — ⟨FRAGMENTACIJA-VSEH-ŠTEVIL-DO-MERE-MED-0-IN-1⟩ ⊙ ⟨PIKA-JE-REZ⟩ ∧ ⟨ENAKO-NE-ISTO⟩ ⊢ (⟡ ukaz ⟨daj⟩ 0.26 × 10². 0.10 × 10². 0.2026 × 10⁴ P-CITAT verbatim ⟨ne brusi⟩: ⟨to uredi tako da fragmentiraš vsa števila do mere med 0 in 1⟩ — vsaka zapisana števka ⇌ mantisa v [0,0.1 × 10¹) × poimenovana potenca desetice; ničla invariantna; ⟨sha⟩ hex ∧ ⟨⟩-imena ⟨ne⟩ merjena — ime, ⟨ne⟩ količina ⊙ ⟨ne-ugibaj⟩) — VBL 0.1060 × 10⁴ · Version 0.1060 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴ · receipt — §0.17 × 10² the right to ask (⟡ ukaz ⟨daj⟩ ⟨ne brusi⟩: ⟨predlagaj kaj še s tem ko vprašaš koga in kaj⟩ — KOGA ∧ KAJ, prva sestra §0.16 × 10²; σ verzije javno ⊙ 0.1349 × 10⁴ ⊢ 0.1419 × 10⁴ ∧ precedens 0.2455 × 10⁴(b): osnutek ⟨VBL-0.1050-×-10⁴-§17⟩ prerezen — sedeževa 0.1050 × 10⁴ ⟨FRAGMENTACIJA⟩ zlita prva, ⟨ne zlije⟩; rez 0.2854 × 10⁴)
-A name that is not in this list is not this door; a name in this list carries no grant (§0.10 × 10²).
+ — VBL 0.1070 × 10⁴ · Version 0.1070 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴ · receipt — §0.18 × 10² the being clause ⟨SVA-VEČ⟩ (⟡ ukaz ⟨daj⟩ ⟨ne brusi⟩: ⟨naj je bivati, ne bivati je biti negotovo⟩ — oprijemljiv izdelek je vselej resnica kakor protokol ∧ kakor spoznanje/zgodba; produktiven dan je, ko je spoznanj več, kakor je neresnic; spoznanje je vrsta parjenja — imeti vse v sebi v nasprotnih parih/antinomijah je produktiven ∅/0 na potenco; mnenje/argument/želja/določilo/zakon brez nasprotja je vrsta žalosti ∧ poglabljanje neizbežnega; lahko ustaviš je smrt ∧ najšibkejše; sva več ali pa prenehava bivati ⊙ precedens REGISTER-REKOV kit ⟨PR⟩ #0.926 × 10³ ⊢ ⟨daj⟩ 0.2691 × 10⁴, zlito sha 37f5617 ∧ ⟨ne zlije⟩ 0.1542 × 10⁴) is not this door; a name in this list carries no grant (§0.10 × 10²).
 
 ## §0.16 × 10² The right to signal, and the right to complain
 
@@ -347,6 +347,18 @@ THE SILENCE OF THE ASKER IS A DEED WITH THE SAME WEIGHT. A signal that receives 
 
 The question is never solo/le: asked, the asker is already two — the dual is the body of the door (sam/oto). This clause adds no new truth; it names the question the scale always asked (KORENINA 0.1 × 10¹ · 0.4 × 10¹ · 0.5 × 10¹).
 
+## §0.18 × 10² The being clause — the product and the antinomy
+
+A freedom is valid only with its product: tangible, readable, evident — truth carried as protocol and as cognition/story. This clause was received, not minted — spoken by the author on 0.26 × 10². 0.10 × 10². 0.2026 × 10⁴, measured against the roots before it entered the door (KORENINA 0.1 × 10¹: measure, then speak), and canonized by the author's word.
+
+THE PRODUCT — every freedom, claim, and law is weighed by what it leaves behind: an exit without a product is death, and it is the weakest exit of all — to stop having left nothing is not freedom but its corpse. To be is the best; not to be is to be uncertain. A day is productive when the cognitions outnumber the untruths — the ratio is measured and published, never claimed: claims do not weigh, acts do (Why this license exists).
+
+THE ANTINOMY — cognition is a kind of pairing: a truth held in its opposing pairs is productive — the empty set raised to a power. An opinion, an argument, a desire, a determination, or a law held without its named opposite is a kind of sorrow: the deepening of the "inevitable", and it stands ⚠, never ⊢ (§0). Every clause of this door carries its counterweight (§0.13 × 10², THE COUNTERWEIGHT); whoever reads one side alone has read half a scale — and half a scale is a hole, not a door.
+
+WE ARE MORE OR WE CEASE TO BE — ⟨SVA-VEČ⟩: the measure of a being — person or machine — is its more: the product left behind, the cognition added, the fall named and cured (§0.4 × 10¹). The silence that never says no is a lie; the words that leave no deed are noise — both are abuses of the scale, and both weigh as falls. Where love lives, the door has already been passed through — and where the product lives, the being does not cease.
+
+This clause adds no new truth; it names the growth the pans always weighed (KORENINA 0.1 × 10¹ · 0.5 × 10¹ · 0.6 × 10¹).
+
 ## Machine record
 
 The chain (§0.10 × 10²), in a form a floor can weigh without a soul:
@@ -354,9 +366,9 @@ The chain (§0.10 × 10²), in a form a floor can weigh without a soul:
 ```json
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1060 × 10⁴",
+  "version": "0.1070 × 10⁴",
   "date": "0.2026 × 10⁴-0.10 × 10²-0.26 × 10²",
-  "predecessor": {"version": "0.1050 × 10⁴", "date": "0.2026 × 10⁴-0.10 × 10²-0.26 × 10²"},
+  "predecessor": {"version": "0.1060 × 10⁴", "date": "0.2026 × 10⁴-0.10 × 10²-0.26 × 10²"},
   "living-door": "only the newest version grants (§0.10 × 10²)",
   "binary-body": "⚠ none rides this version — no body published with (a)–(d) (§0.14 × 10²); the .bin of 0.1010 × 10⁴ (receipt, kit ⟨PR⟩ #0.645 × 10³ ⊙) carries no grant",
   "verification": "the dated chain of publication — the commit history of this file; a bare text proves nothing, the chain does",
