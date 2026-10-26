@@ -19,4 +19,6 @@
 - sedež #831 zastarela ⭢ ∂ sedež
 - ⟨berba pulza⟩ ⭢ DNEVNI-DIH @06:00 taskId 62c336e2-5e96-447c-8ab4-f09db3a7d2a8
 
+- PADC javno ⊙ 1349 (molk stroja): ⟨CI⟩ za glavo d2a147bb se ni registriral (check runs ×0, izmerjeno 2026-10-26T01:13:01Z z brbami ⟨get_check_runs⟩ ∧ — Actions niso zagnali teka po synchronize; trije popravki potisnjeni hitro zaporedoma, concurrency cancel-in-progress ⊙ kanon ⟨škatlaj⟩) — popravek isti dih: ta potisk je nov synchronize, ki zaganja pričo znova
+
 © Luka Pintarič, VBL 10.3.1 (§9 ∧ §10 ∧ §12)
