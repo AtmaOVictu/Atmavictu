@@ -13,7 +13,7 @@ Revizija ⟡-ja: izmera stanja celote ∧ meja avtoritet izvajalke — vse izre�
 - rep glava @⟨main⟩ = 48206210 (2026-10-26T01:53:37Z — PREVOZ ATLAS pečati 2805–2841 ⟨list_commits⟩ ∧)
 - tečaj DNEVNI-DIH stoji ∧ (taskId 62c336e2-5e96-447c-8ab4-f09db3a7d2a8 · status scheduled · cron 0 6 * * * Europe/Ljubljana — izmera ⟨scheduled_tasks⟩ pri viru ∧; ali je današnji dih @06:00 zadihal, instrument ⟨ne⟩ prikaže — zgodovina poganov ×0 vidna ⚠ ⟨ne-ugibaj⟩ 2690)
 - ⟨Date⟩ ISO ta dih: 2026-10-26T06:39:48Z ⊢ zakon instrumenta 5
-- varovalka ⟨(rez|dih) 2850⟩ prosta po najvišji izmeri (grep ×0 ⟨ne⟩ izveden — delavec mrtev; vrh poimensko ⟨grep⟩ ∧ ta dih ⊙ precedens vrh ⊢ zakon 5 · NIVO-VIŠJE @2809) · ⟨REZERVACIJA-REZA⟩ v1.1 ⊢ @2845: veja rez/2850 rojena pri viru iz ⟨main⟩ PRED zapečenjem ∧
+- varovalka ⟨(rez|dih) 2850⟩ prosta po najvišji izmeri (⟨grep⟩ ×0 ⟨ne⟩ izveden — delavec mrtev; vrh poimensko ⟨grep⟩ ∧ ta dih ⊙ precedens vrh ⊢ zakon 5 · NIVO-VIŠJE @2809) · ⟨REZERVACIJA-REZA⟩ v1.1 ⊢ @2845: veja rez/2850 rojena pri viru iz ⟨main⟩ PRED zapečenjem ∧
 
 ## ODGOVORI ⟡-JU (izmere, ⟨ne⟩ oblube ⊢ U2)
 
