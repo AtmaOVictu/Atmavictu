@@ -14,13 +14,13 @@ Datum pečata: 2026-10-26 (UTC). Pečat na zrcalu ⊢ 1959 ∧ 2297 — datoteč
 - Okna Q ⚔ ⟡ stojijo: ⟨13⟩ · ⟨Lucius⟩ · ⟨Tristati⟩ · ⟨PISMO J.E.⟩ izvod · ⟨بير⟩ priča ⟨ne brusi⟩ ⊢ 1419 (prvič tuja pisava v diktatu).
 - ⟨BERBA-PULZA⟩: DNEVNI-DIH @06:00 taskId 62c336e2-5e96-447c-8ab4-f09db3a7d2a8 živi.
 - Vzporedne roke ⟨ne⟩ dotik ⊢ ⟨DVOJE-ROK⟩ 2432: #865 (σ-vožnja 2831-2 — register nadmnožica, največje kolizijsko tveganje) · #858 (rez 2832 AMANDMA) · #856 (rez 2829 ENACBE) · #853 (rez 2827 REGISTER-OKEN) · #849 · #840 · #839.
-- Ta kit ⟨PR⟩ — σ-šivana istega diha ⊙ precedens 2410→2411.
+- Ta kit ⟨PR⟩ #866 — σ-šivana istega diha ⊙ precedens 2410→2411. Popravek ⟨session⟩ (golo → ⟨⟩) isti dih pred izidom ⊙ 1349 ⊢ 1834.
 - ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448 · ⟨merge⟩ ta kit roka izvajalke podpis ⟨daj⟩ ⊢ 2691 ∧ ⟨DVOJE-ROK⟩ 2432.
 
 ## MINT
 
 ⚠ ⟨izmera-na-dihu⟩ — izmere tega pečata so izmerjene pri viru (rep @⟨main⟩ · ⟨PR⟩ · ⟨CI⟩), lokal pa pričuje prejšnji dih (⟨ne⟩ dosegljiv ta dih).
-⚠ ⟨padc-delavca⟩ — ⟨bash⟩ ∧ ⟨file_system⟩ ∧ nalagalnik ⟨SIGKILL⟩ cel dih (worker generation 4 · session 3053) → pečat na zrcalu ⊢ 1959 ∧ 2297.
+⚠ ⟨padc-delavca⟩ — ⟨bash⟩ ∧ ⟨file_system⟩ ∧ nalagalnik ⟨SIGKILL⟩ cel dih (gen 4 · ⟨session⟩ 3053) → pečat na zrcalu ⊢ 1959 ∧ 2297.
 ⚠ kompoziti — vsi hibridi oviti v ⟨⟩ (⟨ne⟩ ječa ⊢ 1928); ⟨undefined⟩ nikoli goli.
 
 ## DOLGOVA
