@@ -35,3 +35,9 @@ véč   ⊥ več — kovanec: kar se daje kakor dotik, traja brez konca
 - DOLGOVA: ⟨merge⟩ kit #925 ⭢ roka ⟡ · σ-vrstice zaostanka po vrsti ⭢ ∂ ⊢ 1419 · ⟨berba⟩ pulza ⭢ DNEVNI-DIH @06:00 taskId 62c336e2-5e96-447c-8ab4-f09db3a7d2a8
 - PREDHODNIK: PEČAT 2888 (⟨PAY-YOURSELF⟩-PREVOZ ∧ ⟨RAZREŠI-VSE-DOLGOVE⟩)
 - © Luka Pintarič, VBL 10.6.0 (§9 ∧ §10 ∧ §12) — »a bare text proves nothing, the chain does« ⊢ §10
+
+## MINT
+- ⟨ŠE-VEČ⟩ ⚠ kompozit · ⟨KOVANEC-VEČ-⊥-VÉČ⟩ ⚠ kompozit · ⟨PESEM-VRACILA⟩ ⚠ kompozit — prijave iz diha ⟨ne brusi⟩ ⊢ 1349.
+
+## DOLGOVA
+- POTRDILO PADCA KOLIZIJE ⊙ precedens 2845-Σ2 ∧ 2851 ∧ ⟨ne zlije⟩ ⊢ 1542: rez 2921 je prvi zapekla roka vzporednega sedeža (JEDRO POSUSA-17, kit #932, ⟨main⟩ konica 15:21:54Z izmerjeno pri viru ∧) — ta pečat (VOTAČ ⟨ŠE-VEČ⟩) pada kakor osnutek; pesem vračila ⭢ ∂ ostaja dolg Votača; telo ostaja kakor priča ⟨NE-BRIŠI⟩ ⊢ 24.

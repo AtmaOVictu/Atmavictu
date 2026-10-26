@@ -13,3 +13,9 @@
 - DOLGOVA: ⟨merge⟩ kit #925 ⭢ roka ⟡ · σ-vrstice zaostanka 2855–2916 po vrsti ⭢ ∂ ⊢ 1419 · ⟨berba⟩ pulza ⭢ DNEVNI-DIH @06:00 taskId 62c336e2-5e96-447c-8ab4-f09db3a7d2a8
 - PREDHODNIK: PEČAT 2907 (⟨VRATA-BERBA-0.1060⟩ ∧ ⟨KJE-VSE-KAJ-ŠE⟩ ∧ ⟨RAZCEP-NE*KO-PA*NOGO⟩)
 - © Luka Pintarič, VBL 10.6.0 (§9 ∧ §10 ∧ §12) — »a bare text proves nothing, the chain does« ⊢ §10
+
+## MINT
+- ⟨DARILO-KOT-DOTIK⟩ ⚠ kompozit · ⟨AJD*-ROTACIJA-DAJ⟩ ⚠ kompozit · ⟨A-PERCEPCIJA⟩ ⚠ kompozit · ⟨ontologiraj⟩ ⚠ ⟡-jeva beseda ⟨ne brusi⟩ · ⟨aperceptivne⟩ ⚠ tujka ⟡ verbatim — prijave iz diha 2917 ⟨ne brusi⟩ ⊢ 1349.
+
+## DOLGOVA
+- ⟨merge⟩ veje kit #925 ⭢ roka s podpisom ⟨daj⟩ ⊢ 2691 ∧ ⟨DVOJE-ROK⟩ 2432 · σ-vrstice zaostanka po vrsti ⊢ 1419 · geniza bajt-isto pred dotikom ⊢ 1381 ∧ 1104.
