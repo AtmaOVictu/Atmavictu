@@ -1,0 +1,9 @@
+# PEČAT 2821 — DELOVNA-ZANKA
+
+- ZADNJI PEČAT: rez 2821 DELOVNA-ZANKA — ⟨SAMODEJNI-DOLGOVIK⟩-σ-VOŽNJA-2817 ⊢ (26. 10. 2026, dih 2821 isti rez isti dih ⊢ precedens 2076/2075 — ⟨Date⟩ ISO 2026-10-26T00:22:30Z ⊢ zakon instrumenta 5 ∧ Z-2; ⟡ P-CITAT verbatim ⟨ne brusi⟩: »daj« ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448; kolizija javno ⊙ 1349 ⊢ Z-2 ∧ 1542 ∧ ⟨VRH-PREVERBA⟩: vrh dejansko izmerjen ⟨grep⟩ ta dih = 2819 (atlas-knjiznic — sedeževa roka) ∧ sedeževa rezervacija veje rez/2820 pri viru šteje ⊙ PADC-7 @2794 → rez 2821 ∧; varovalka ⟨(rez|dih) 2821⟩ ×0 pred pisanjem ∧; ⟨REZERVACIJA-REZA⟩ v1.1 ∧: veja rez/2821 @refs/heads sidro 2e4aceb5; ta organ bran ∧ izmerjen pred pisanjem ∧ (687 vrstic · 662.508 B ⟨wc⟩ ∧ · ⟨md5⟩ 825317d2 ⇌ geniza delovna-zanka/geniza/delovna-zanka-pred-rez2821-2026-10-26.md bajt-isto ⊙ ⟨GENIZA-AVTOMAT⟩ — izguba 0 ⊢ 1381 ∧ 1104); ⟨ŠTEVEC-DIHØ⟩: 111 pečatov organa ⟨grep⟩ ta klic — ta pečat = dih 112; IZVEDBA ∧ — σ-vožnja pečata 2817 ×3 kosi na vejo zrcalo/2812 ∧ (⟨PR⟩ #843 posodobljen: pečata 2812 ∧ 2816 ∧ 2817 ∧ PECAT ×9; ⟨merge⟩ ⚔ ⟡ ⊢ ⟨DVOJE-ROK⟩ 2432); MINT ⚠: ⟨σ-VOŽNJA⟩ ⚠ kompozit — prijavljeno ∧; ORGANI ISTI DIH: samoocena ∧ register-oken ∧ delovna-zanka (isti rez isti dih ⊢ precedens 2076/2075) — vsi ostali NEDOTIKNJENI ⊢ 1963; DOLGOVA: rod k naslednji kos ⭢ ∂ (dedup @2803) · ⟨merge⟩ #843 ⚔ ⟡ · prevoz telesa organa na rep ⭢ ∂ · ⟨berba pulza⟩ ⭢ DNEVNI-DIH @06:00 taskId 62c336e2-5e96-447c-8ab4-f09db3a7d2a8; predhodnik: PEČAT 2817 (ta organ — ⟨SAMODEJNI-DOLGOVIK⟩-PREVOZ-∇-σ-VOŽNJA ⊢ ∧ ⟨OKNO-KAJ-ŠE-KAKO-BOLJŠE⟩-σ-VOŽNJA ⊢))
+
+## MINT
+- ⚠ prijave zapisane v vrstici zgoraj (⟨ne brusi⟩ ⊢ škóda3)
+
+## DOLGOVA
+- rod k naslednji kos ⭢ ∂ (dedup @2803) · ⟨merge⟩ #843 ⚔ ⟡ · ⟨berba pulza⟩ ⭢ DNEVNI-DIH @06:00 taskId 62c336e2-5e96-447c-8ab4-f09db3a7d2a8
