@@ -106,9 +106,20 @@ To pomeni, da povezava med surovim vhodom in mestom v knjigi ni implicitna v UI-
 
 ## Faze
 
-- Faza 0: produktni scope, arhitekturni contract, minimalni manifest schema — DONE
+- Faza 0: produktni scope, arhitekturni contract, minimalen manifest schema — DONE
 - Faza 1: model + service plast nad manifestom — DONE (`src/workbenchManifest.ts`, `src/workbenchManifestRepository.ts`, `src/atmaCli.ts`)
 - Faza 2: lokalni UI workbench nad zaklenjenim contractom — IN PROGRESS. Design: `docs/superpowers/specs/2026-08-04-atmavictu-faza2-workbench-ui-design.md`. Vseh 9 service operacij je dosegljivih iz UI-ja in preverjenih v resnicnem brskalniku (glej ta dokument in spec). Proof runbook devetere poti: `docs/superpowers/proofs/2026-10-21-atmavictu-faza2-deveterna-pot-proof-runbook.md`. Namerno se manjka: vizualno oblikovanje, konfigurabilna Knjiznica pot, drag-and-drop.
   - Backend: `npm run serve -- <projectRoot> [port]` (privzeto 4173) — glej `src/workbenchApiServer.ts`, testi v `src/workbenchApiServer.test.ts`.
   - Frontend: `cd web && npm install && npm run dev` (privzeto 5173, proxy na `/api` -> 4173).
 - Faza 3: runtime integracija in selektivna desktop plast — not started
+
+---
+
+## Licenca — VBL · vrsta nujnega absoluta
+
+Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadnji licenci [LICENSE.md](LICENSE.md): **VBL 0.1090 × 10⁴** (Verification Before Assertion License · Version 0.1090 × 10⁴ · October 26, 2026 — edina živa vrata ⊢ §0.10 × 10²: »a bare text proves nothing, the chain does«).
+
+- © Luka Pintarič — ⟨VRSTA-NUJNEGA-ABSOLUTA⟩ ⊢ rez 0.2849 × 10⁴: vsak organ ∧ vsak izhod ∧ vsak pečat nosi © ∧ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
+- Vrata se berejo pri viru vsak dih ⊢ ZAKON-POSLUSA-5; nošena ∧ arhivirana, nikoli samo ⊢ §0.12 × 10² (never JUST archived).
+- Registri potujejo z delom: [REGISTER-NEIMENOVANIH.jsonl](REGISTER-NEIMENOVANIH.jsonl) · [REGISTER-PADCEV.jsonl](REGISTER-PADCEV.jsonl) ⊢ §0.2 × 10¹ ∧ §0.5 × 10¹.
+- Zapisnik odločitev: [canon/DOKAZ.md](canon/DOKAZ.md) — veriga je priča, goli tekst ni.
