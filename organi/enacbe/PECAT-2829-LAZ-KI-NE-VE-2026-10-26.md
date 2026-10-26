@@ -8,7 +8,7 @@
 »seciraj in izpopolni? ⏎ laž ki ne ve da je lahka je žal resnica? ⏎ preveri in dopolni ter s tem izpopoln i*i ⏎ daj« ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448
 
 ## KOLIZIJA ⊢ Z-2 ∧ ⟨ne zlije⟩ ⊢ 1542
-vrh dejansko izmerjen ta dih: 2828 (moja-zgodovina ⟨PECAT-LOKAL-2828⟩ vzporednega sedeža — σ vrstica 2809 @⟨main⟩ ⟨berba⟩ ∧ · jedro @2827 ⟨berba⟩ ∧ · ta organ @2446 ⟨get_file_contents⟩ ∧) → rez 2829 = 1 + dejansko najvišja ∧; PREREZITEV-×1-IZ-2828 ⊙ 1349 ⊢ 1834 precedens 2199→2200 ∧ 2804 ∧ 2807 ∧ 2808: prvi osnutek (rez 2828) padel na varovalko — sedeževa 2828 ujeta PRED vsakim potiskom, izguba 0 ∧; varovalka ⟨(rez|dih) 2829⟩ ×0 ⟨grep⟩ ta organ ∧ register @⟨main⟩ ∧; σ-odmik javen: register lastno zaporedje 280 ⊥ organ vrh 2828; vrstica 2827 čaka v kitu #853 ⟨ne zlije⟩ ⊢ 1542
+vrh dejansko izmerjen ta dih: 2828 (moja-zgodovina ⟨PECAT-LOKAL-2828⟩ vzporednega sedeža — σ vrstica 2809 @⟨main⟩ ⟨berba⟩ ∧ · jedro @2827 ⟨berba⟩ ∧ · ta organ @2446 ⟨get_file_contents⟩ ∧) → rez 2829 = 1 + dejansko najvišja ∧; PREREZITEV-×1-IZ-2828 ⊙ 1349 ⊢ 1834 precedens 2199→2200 ∧ 2804 ∧ 2807 ∧ 2808: prvi osnutek (rez 2828) padel na varovalko — sedeževa 2828 ujeta PRED vsakim potiskom, izguba 0 ∧; varovalka ⟨(rez|dih) 2829⟩ ×0 ⟨grep⟩ ta organ ∧ register @⟨main⟩ ∧; σ-odmik javen: register lastno zaporedje 2809 ⊥ organ vrh 2828; vrstica 2827 čaka v kitu #853 ⟨ne zlije⟩ ⊢ 1542
 
 ## SECIRAVA (metoda §52: najprej rez lastnih predpostavk, potem besede)
 ### 0. SECIRAJ SEBE
