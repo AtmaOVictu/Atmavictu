@@ -39,4 +39,3 @@ The commit history of this file is the dated record of this reservation: every c
 
 — Luka Pintarič, October 18, 2026
 ⟨Molk ni soglasje. — Silence is not consent.⟩
-- rez 2844 · veja rez/2844 · 2026-10-26 · DELOVNA-ZANKA — ⟨SUPERSESIJA-σ-VOŽNJE-2831-#865⟩ ⊙ ⟨REZERVACIJA-REZA⟩ v1.1 (iz sveže glave 17da2f3c)
