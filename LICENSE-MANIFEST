@@ -1,14 +1,14 @@
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "10.3.0",
+  "version": "10.3.1",
   "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
-  "measured_at_commit": "db073bf0367a09e2a31d1c6f2fe58f8b9695c55c",
+  "measured_at_commit": "a534e97a7a5d745f29e6551d8d4f1ca5f0fb4885",
   "measured_at_date": "2026-10-24",
   "items": [
     {
       "path": "LICENSE.md",
-      "size_bytes": 23712,
-      "sha256": "178282386f64467e35aa5746b977a4459d399169d86efc6ddde300bcd0ec167d",
+      "size_bytes": 24105,
+      "sha256": "5021544c967e32a2798112dd4d04b7ce1177684f583ad3aa4567754cb0bb8e17",
       "note": "the living door — the only body whose hash changes only by issuance (§10)"
     }
   ],
