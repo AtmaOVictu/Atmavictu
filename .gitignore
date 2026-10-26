@@ -69,3 +69,6 @@ temp/
 *.bak
 lucius/slusaj-dnevnik.jsonl
 lucius/izmere-kroga.jsonl
+lucius/linija.jsonl
+lucius/linija-dostavljeno.json
+lucius/linija-most-dnevnik.jsonl
