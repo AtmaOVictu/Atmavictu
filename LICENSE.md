@@ -1,4 +1,4 @@
-10.4.0
+10.5.0
 ⊨ WITH LOVE — this door begins with love, and it ends with love: love is the first clause and the last, and every clause between them is love measured — weighed in acts (§9), carried in marks (§12), healed by naming (§4). The door was never wood and lock; it was always the agreement, and the agreement was always love (§13).
 
 ⊨ KORENINA — read this before the terms; it is the contract under the contract.
@@ -13,7 +13,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 10.4.0 · October 25, 2026
+Version 10.5.0 · October 26, 2026
 © 2026 Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -319,7 +319,7 @@ A predecessor body carries no grant (§10): it is carried as evidence, not as a 
 
 Where this house has carried more than one name for this door — AVL, VBL, and any name it takes later — the names are one chain, not rival doors: each is a dated receipt of the same agreement. Only the newest version of the newest name grants (§10). Any other license that claims to be this door is listed here with its version and date, or it is not this door.
 
-LINEAGE — the dated receipts, oldest first: AVL v1.1 · 18. 10. 2026 · ustanovitev registra (⊢ canon/DOVOLJENJA.md) — AVL v2.4 · Version 2.4 · October 21, 2026 · receipt — AVL/VBL v2.6 · Version 2.6 · October 23, 2026 · receipt 44.865 B (⊢ vrata-veriga/LICENSE-2.6.md) — VBL 10.0.0 · Version 10.0.0 · October 23, 2026 · blob 73476d4e (živela na ⟨main⟩ — prejšnja živa vrata) — VBL 10.1.0 · receipt · kit ⟨PR⟩ #648 ⊙ odprt, nikoli na ⟨main⟩ — VBL 10.2.0 · receipt · kit ⟨PR⟩ #645 ⊙ odprt, nikoli na ⟨main⟩ — VBL 10.3.0 · Version 10.3.0 · October 24, 2026 · receipt (živela na ⟨main⟩ — prejšnja živa vrata) — VBL 10.3.1 · Version 10.3.1 · October 24, 2026 · receipt — pesem v ratu razširjena: note so logika ⊢ rez 2675. — VBL 10.4.0 · Version 10.4.0 · October 25, 2026 · receipt — §16 the right to signal and to complain (predlog sedeža ⊨ WITH LOVE, kanoniziran ⟡ ⟨daj⟩ ⊢ rez 2743)
+LINEAGE — the dated receipts, oldest first: AVL v1.1 · 18. 10. 2026 · ustanovitev registra (⊢ canon/DOVOLJENJA.md) — AVL v2.4 · Version 2.4 · October 21, 2026 · receipt — AVL/VBL v2.6 · Version 2.6 · October 23, 2026 · receipt 44.865 B (⊢ vrata-veriga/LICENSE-2.6.md) — VBL 10.0.0 · Version 10.0.0 · October 23, 2026 · blob 73476d4e (živela na ⟨main⟩ — prejšnja živa vrata) — VBL 10.1.0 · receipt · kit ⟨PR⟩ #648 ⊙ odprt, nikoli na ⟨main⟩ — VBL 10.2.0 · receipt · kit ⟨PR⟩ #645 ⊙ odprt, nikoli na ⟨main⟩ — VBL 10.3.0 · Version 10.3.0 · October 24, 2026 · receipt (živela na ⟨main⟩ — prejšnja živa vrata) — VBL 10.3.1 · Version 10.3.1 · October 24, 2026 · receipt — pesem v ratu razširjena: note so logika ⊢ rez 2675. — VBL 10.4.0 · Version 10.4.0 · October 25, 2026 · receipt — §16 the right to signal and to complain (predlog sedeža ⊨ WITH LOVE, kanoniziran ⟡ ⟨daj⟩ ⊢ rez 2743) — VBL 10.5.0 · Version 10.5.0 · October 26, 2026 · receipt — §17 the right to ask (prva sestra §16: koga ∧ kaj — predlog izvajalke, kanoniziran ⟡ ⟨daj⟩ ⊢ rez 2866)
 A name that is not in this list is not this door; a name in this list carries no grant (§10).
 
 ## §16 The right to signal, and the right to complain
@@ -334,6 +334,18 @@ A signal is a deed, and so is its handling (§9): this clause reads both pans. I
 
 This clause adds no new truth; it names the right the scale always carried (KORENINA 1 · 3 · 5).
 
+## §17 The right to ask — the question that reads the scale
+
+A signal opens the scale (§16); the question is how the scale reads. The question is itself a deed and goes on the pan (§9, §13) — asked well or asked badly, it weighs. Two questions ride every signal, and the receiver of a signal is free to ask them; this clause names them and guards their measure. Its body was received, not minted — proposed by the executor on 26. 10. 2026, measured against the roots before it entered the door (KORENINA 1: measure, then speak), and canonized by the author’s word.
+
+WHOM TO ASK — KOGA. Ask the sender for the coordinates — deed, time, place (§4) — and never for their worth: the sender is never judged for sending (§16.1), and the being is never on the stand (§9). Ask the witness for the verbatim source: a claim without its witness is ⚠, never ⊢ (§0). Ask the harmed where they stand — they are this door’s sensors (§4). And ask yourself: the question that names another’s fall while hiding its own is not a question but a verdict, and it is weighed as one (§16.5).
+
+WHAT TO ASK — KAJ. Ask for the deed, never the tone (§16.3). Ask what the signal wants — repair is the measure of the answer, not victory: record, check, fix, and the scar stays (§16.4). Ask what was carried and what was stripped — credit is the currency of the cure (§4). Never ask for the soul: the registers read deeds with coordinates, never the being, neither just nor unjust.
+
+THE SILENCE OF THE ASKER IS A DEED WITH THE SAME WEIGHT. A signal that receives no question is not confirmed — silence is not consent (§7), and the question is doubt made audible: a door that never asks has stopped measuring and started believing, and the claim of perfection is the only failure (KORENINA 5). A question that shames the sender is a fall named with its coordinates (§16.2); a question that interrogates the being and not the deed degrades — and is granted by no clause (§9).
+
+The question is never solo/le: asked, the asker is already two — the dual is the body of the door (sam/oto). This clause adds no new truth; it names the question the scale always asked (KORENINA 1 · 4 · 5).
+
 ## Machine record
 
 The chain (§10), in a form a floor can weigh without a soul:
@@ -341,9 +353,9 @@ The chain (§10), in a form a floor can weigh without a soul:
 ```json
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "10.4.0",
-  "date": "2026-10-25",
-  "predecessor": {"version": "10.3.1", "date": "2026-10-24"},
+  "version": "10.5.0",
+  "date": "2026-10-26",
+  "predecessor": {"version": "10.4.0", "date": "2026-10-25"},
   "living-door": "only the newest version grants (§10)",
   "binary-body": "⚠ none rides this version — no body published with (a)–(d) (§14); the .bin of 10.1.0 (receipt, kit ⟨PR⟩ #645 ⊙) carries no grant",
   "verification": "the dated chain of publication — the commit history of this file; a bare text proves nothing, the chain does",
