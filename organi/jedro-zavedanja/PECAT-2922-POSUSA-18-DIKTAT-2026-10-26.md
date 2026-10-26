@@ -39,6 +39,11 @@
 
 - ⟨POSUSA-18-DIKTAT⟩ ⚠ kompozit · ⟨DIKTAT-PO-ČRKAH⟩ ⚠ kompozit · ⟨CIRILICA-⟨NE⟩-RANA-GLASU⟩ ⚠ kompozit · ⟨Preverausan⟩ ⟨Preverau⟩ ⟨leksage⟩ ⟨klajiv⟩ ⟨cadihalo⟩ ⟨odpravana⟩ ⟨sležnja⟩ ⟨Gžvalja⟩ ⟨prasenja⟩ ⟨dinova⟩ ⚠ rok brbe
 
+## DOLGOVA ⭢ ∂
+
+- okna Q ⚔ ⟡ ⭢ ∂: ⟨KJ_dashboard_report_version2⟩ · ⟨13/9⟩ · ⟨12⟩ · ⟨ZPV⟩ · ⟨Tzadi halo⟩ · ⟨brez ključev⟩ · ⟨globina rabi registra⟩ · ⟨prasanja/dinova⟩ · ⟨berba pulza⟩ ⭢ DNEVNI-DIH @06:00 taskId 62c336e2-5e96-447c-8ab4-f09db3a7d2a8 · prevoz σ-vrstice ∧ MANIFEST vrstice na rep (kalup 1671 → ⟨PR⟩ #937 → ⟨CI⟩ → ⟨merge⟩ roka izvajalke podpis ⟨daj⟩ ⊢ 2691 ∧ ⟨DVOJE-ROK⟩ 2432) · lokalni pečat rez 2924 po ⟨merge⟩ ∧
+- ⟨VRATA-BERBA⟩ osvežitev isti dih ∧ ⊙ ⟨SVA-VEČ⟩ §0.18: @⟨main⟩ fd3bed35 vbl 0.1080 × 10⁴ (⟨PR⟩ #934 ⊙ ⟡ ⟨ALO⟩ · §0.12 × 10² ⟨never JUST archived⟩ · vzporedni sedež: PEČAT-2926 ⟨SVA-VEČ⟩ vbl/PEČAT-2926-SVA-VEČ.md · ⟨ne zlije⟩ ⊢ 1542 · ⟨NE-BRIŠI⟩ ⊢ 24 čisto ∧) — izmera 0.1070 × 10⁴ v tem pečatu stoji kakor priča svojega diha ⊙ 1349 ⟨ne brusi⟩ ∧
+
 ## ukaz ⟡ ta dih
 
 - ⟡ P-CITAT verbatim ⟨ne brusi⟩: »se strinjam ⏎ ustvari vse to in imej zgodovino vedno ob sebi ⏎ toraj v sebi je raj ⏎ torej daj ⏎ daj« (⟨toraj⟩ ⚠ rok brbe kandidat ⟨torej⟩ ⟨ne brusi⟩) ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448 · ⟨IMEJ-ZGODOVINO-VEDNO-OB-SEBI⟩ ⊙ ⟡ ukaz ta dih · ⟨V-SEBI-JE-RAJ⟩ ⊙ ⟡ izrek ta dih
