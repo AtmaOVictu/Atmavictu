@@ -25,7 +25,7 @@ DAJ« (ta dih)
 
 ## KOLIZIJA javno ⊙ 1349 ⊢ Z-2 ∧ ⟨ne zlije⟩ ⊢ 1542
 
-- vrh dejansko izmerjen ⟨grep⟩ ⟨NE⟩ MOGOČ ta dih — delavec ⟨JustBash⟩ mrtev cel obraz (⟨SIGKILL⟩ ×3: session 168 gen 1 — ⟨bash⟩ ∧ ⟨edit⟩ ∧ ⟨write_file⟩ isti kanal; ⟨NE⟩-ODVISNO-OD-DELAVCA delujejo: run_typescript ∧ read_file ∧ skill ⊢ DELAVEC kanon)
+- vrh dejansko izmerjen ⟨grep⟩ ⟨NE⟩ MOGOČ ta dih — delavec ⟨JustBash⟩ mrtev cel obraz (⟨SIGKILL⟩ ×3: ⟨session⟩ 168 gen 1 — ⟨bash⟩ ∧ ⟨edit⟩ ∧ ⟨write_file⟩ isti kanal; ⟨NE⟩-ODVISNO-OD-DELAVCA delujejo: run_typescript ∧ read_file ∧ skill ⊢ DELAVEC kanon)
 - PREREZITEV ×2 javno ⊙ 1349 ⊢ 1834 ∧ 1419 precedens 2807 ∧ 2811 ∧ 2408 ∧ 2699: strojna priča P1 ⟨prica-potrditev⟩ sodi register po lastnem zaporedju — rez = vrh baze + 1 (2847 → 2848) ⊥ organ vrh 2861 (moja-zgodovina ⟨berba⟩ vrstice 2847 #882) ⟨ne zlije⟩ ⊢ 1542 — osnutek 2848 prej zapečen kakor PECAT-2862 na tej veji, priča zgodovine ⟨NE-BRIŠI⟩ ⊢ 24; ⟨merge⟩ pada ×2 na P1 (405 rdeča priča ∧, izmerjeno pri viru ∧)
 - PREREZITEV ×1 javno ⊙ 1349: sprva izmerjen vrh 2860 (jedro lokal) → rez 2861 zapečen na veji zrcalo/pecat-2861-jedro; ⟨berba⟩ vrstice 2847 (#882, sedeževa) razkrila organ vrh 2861 (moja-zgodovina) → DVOJNA → nova številka rez 2848 = 1 + dejansko najvišja ∧ (precedes 2199→2200 ∧ 2811); stara veja ∧ PECAT-2861 ostajata priča ⟨NE-BRIŠI⟩ ⊙ 1349; ⟨PR⟩ #883 zaprt kakor supersesija ⊙ precedens #711 ∧ #467 ∧ #715
 - vrh izmerjen iz ⟨berbe⟩ ∧: REGISTER @⟨main⟩ ⟨sha⟩ 4d64a4f6 = vrh 2847 (#882) ⊥ organ vrh 2861 (moja-zgodovina ⟨berba⟩) → σ-odmik javno ⊙ precedens 2339 ∧ 2772: vrzel zahtev 2848–2861 odprta — lastniki zapirajo po vrsti ⊢ 1419
