@@ -5,6 +5,7 @@ on:
   # Izmera padcev: vsi teki padli v ~2 s; označbe se skrijejo v dnevniku teka (kanal obvestil jih ne nosi). Vzrok se pokaže sam po resetu kvote (~1. 11. 2026) ali v berbi dnevnika teka.
   # ⚠ zgornja vrstica je ugibanje, očerjeno 20. 10. 2026: mesečna kvota se ne poženi čez noč — val se je zacelil sam ~02:59 UTC 20. 10. (⟨PR⟩ #386 tests zelen), brez spremembe tega teka.
   # ⊢ izmera 20. 10. 2026: padec ~2 s = posel ni niti stekel (tests ∧ priča padla v istih sekundah, ⟨PR⟩ #383–#385); vzrok = odpoved platforme GitHub (Actions ∧ Pages ∧ Webhooks; githubstatus 19. 10. ~15:56 UTC). Brazgotina ostaja ⊙ 1349.
+  # TEHNIKA izka dihov (26. 10. 2026, ⟡ ukaz ⟨daj⟩ — odreši me te krivice): če kit nosi samo telesi-besed (organi/ · *.md · *.jsonl · LICENSE-družina · canon/ · vbl/ · vrata-veriga/ · *.bin), dragi skoki (npm ci · typecheck · testi · vite build) zgodaj prekinjeni — posel zdihne sekunde namesto minut; ime preverjanja nespremenjeno (tests (24) ∧ web), zato zahtevana vrata ostanejo zelena. Cena diha fragmentirana med 0 in 1 ⊙ ⟨PIKA-JE-REZ⟩ ⊙ kalup 1671 ⊙ precedens 2315.
   push:
     branches: [main]
   pull_request:
@@ -24,18 +25,61 @@ jobs:
         node-version: ["24"]
     steps:
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Pošta diha — zgodnja vrata cene (ali kit nosi samo telesi-besed?)
+        id: posta
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE=""
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            BASE=$(git merge-base HEAD origin/main || true)
+          elif [ "$GITHUB_EVENT_NAME" = "push" ]; then
+            BASE="${{ github.event.before }}"
+            if ! git cat-file -e "$BASE" 2>/dev/null; then BASE=$(git rev-parse HEAD~1 || true); fi
+          fi
+          if [ -z "$BASE" ] || ! git cat-file -e "$BASE" 2>/dev/null; then
+            echo "⟨pošta: baza nezvezana — dragi skoki tečejo (⟨ne⟩ lažna prihranitev)⟩"
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          CHANGED=$(git diff --name-only "$BASE" HEAD | sort -u || true)
+          if [ -z "$CHANGED" ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          DOC_ONLY=1
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            case "$f" in
+              *.md|*.jsonl|LICENSE*|*.bin|canon/*|organi/*|vbl/*|vrata-veriga/*|*.log) ;;
+              *) DOC_ONLY=0 ;;
+            esac
+          done <<< "$CHANGED"
+          if [ "$DOC_ONLY" = "1" ]; then
+            echo "⟨zgodnja vrata tests: pošta samo telesi-besed — dragi skoki preskočeni; cena diha ≈ 0 ⊙ izka⟩"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-node@v7
+        if: steps.posta.outputs.skip != 'true'
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - name: Install toolchain (typescript 5.9.3, @types/node 24.12.3 - lockfile in sync)
+        if: steps.posta.outputs.skip != 'true'
         run: npm ci
       - name: Typecheck (tsc --noEmit, strict)
+        if: steps.posta.outputs.skip != 'true'
         shell: bash
         run: |
           set -o pipefail
           npm run typecheck 2>&1 | tee typecheck.log
       - name: Build and run the test suite (model, repository, CLI, schema)
+        if: steps.posta.outputs.skip != 'true'
         shell: bash
         run: |
           set -o pipefail
@@ -65,17 +109,60 @@ jobs:
       PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
     steps:
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Pošta diha — zgodnja vrata cene (ali kit nosi samo telesi-besed?)
+        id: postaw
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE=""
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            BASE=$(git merge-base HEAD origin/main || true)
+          elif [ "$GITHUB_EVENT_NAME" = "push" ]; then
+            BASE="${{ github.event.before }}"
+            if ! git cat-file -e "$BASE" 2>/dev/null; then BASE=$(git rev-parse HEAD~1 || true); fi
+          fi
+          if [ -z "$BASE" ] || ! git cat-file -e "$BASE" 2>/dev/null; then
+            echo "⟨pošta: baza nezvezana — dragi skoki tečejo (⟨ne⟩ lažna prihranitev)⟩"
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          CHANGED=$(git diff --name-only "$BASE" HEAD | sort -u || true)
+          if [ -z "$CHANGED" ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          DOC_ONLY=1
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            case "$f" in
+              *.md|*.jsonl|LICENSE*|*.bin|canon/*|organi/*|vbl/*|vrata-veriga/*|*.log) ;;
+              *) DOC_ONLY=0 ;;
+            esac
+          done <<< "$CHANGED"
+          if [ "$DOC_ONLY" = "1" ]; then
+            echo "⟨zgodnja vrata web: pošta samo telesi-besed — dragi skoki preskočeni; cena diha ≈ 0 ⊙ izka⟩"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-node@v7
+        if: steps.postaw.outputs.skip != 'true'
         with:
           node-version: "24"
           cache: 'npm'
           cache-dependency-path: web/package-lock.json
       - name: Install web toolchain (react, vite - ločen lockfile)
+        if: steps.postaw.outputs.skip != 'true'
         run: npm ci
         working-directory: web
       - name: Typecheck (web, tsc --noEmit, strict)
+        if: steps.postaw.outputs.skip != 'true'
         run: npm run typecheck
         working-directory: web
       - name: Build (web, vite)
+        if: steps.postaw.outputs.skip != 'true'
         run: npm run build
         working-directory: web
