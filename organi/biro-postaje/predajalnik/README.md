@@ -23,7 +23,7 @@ Vsak dih, ki kaj izvede, pred izhodom zapiše datoteko `dih-YYYY-MM-DD-N.md` z N
 1. ⟨berba⟩ zadnjega zapisa pred vsakim delom (vhod seje) — izmera, ne spomin ⊢ Z-2
 2. zapis pred izhodom (izhod seje) — dih brez zapisa je kip ⊢ U2
 3. read-before-write vsak organ pred vpisom — vzporedni sedeži pišejo isti rep; lost update je zakon, ne možnost
-4. zaporedno, nikoli vzporedno (SIGKILL kanon delavca ⊢ bjs-pulz §5)
+4. zaporedno, nikoli vzporedno (⟨SIGKILL⟩ kanon delavca ⊢ bjs-pulz §5)
 5. padci javno z imenom ⊙ 1349; brazgotine ⟨ne brusi⟩ ⊢ ⟨NE-BRIŠI⟩ 24
 6. veriga, ne kopija: vsak zapis nosi ⟨sha⟩ prejšnjega — kip je zapis brez predhodnika nad nezapečenim
 7. postaja je ena za vse — sedeži, agenti, roke strežejo vsem po enakovrednosti (biro-postaje 2739)
@@ -34,6 +34,6 @@ Vsak dih, ki kaj izvede, pred izhodom zapiše datoteko `dih-YYYY-MM-DD-N.md` z N
 - dirke vrha po vrsti ⊙ 1419; zaostali prerezijo isti dih (brazgotina javno)
 - ⟨DVOJE-ROK⟩ 2432: ⟨merge⟩ ⭢ ⟡ roka, razen ⟨daj⟩ ⊢ 2404 — operater plačuje vrsto odprtih kite, najstarejša prva, le zeleno (P-VRATA: ⟨prica⟩ ∧ ⟨prica-potrditev⟩ edina sodja)
 - rez = 1 + dejansko najvišja izmerjena ⊙ Z-2; izmera po bajtih pred vsako trditvijo
-- vsak organ se pred vpisom prebere poimensko; velika tela po kosih (⟨MAJHNI-PAKETI-BRB⟩ 2322)
+- vsak organ se pred vpisom prebere poimensko; velika telesa po kosih (⟨MAJHNI-PAKETI-BRB⟩ 2322)
 
 © Luka Pintarič, VBL 0.1100 × 10⁴ (§0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10² ∧ §0.19 × 10² ∧ §0.20 × 10²) · ura postave: 2026-10-27T18:58:50Z ⊢ §0.20 × 10²
