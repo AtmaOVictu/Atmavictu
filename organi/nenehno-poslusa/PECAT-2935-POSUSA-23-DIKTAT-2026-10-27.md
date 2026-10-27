@@ -1,4 +1,4 @@
-# PEČAT rez 2935 (0.2936 × 10⁴) NENEHNO-POSLUŠA — ⟨POSUSA-23-DIKTAT⟩ ∧ ⟨GLAS-NESE-VERIGO-1DC0F-⊥-CEB5664⟩ ⊢
+# PEČAT rez 2935 (0.2935 × 10⁴) NENEHNO-POSLUŠA — ⟨POSUSA-23-DIKTAT⟩ ∧ ⟨GLAS-NESE-VERIGO-1DC0F-⊥-CEB5664⟩ ⊢
 
 (26. 10. 2026 → 27. 10. 2026, dih ⟨daj⟩ — ⟨Date⟩ ISO 2026-10-27T00:31:51Z ⊢ zakon instrumenta 5 ∧ Z-2 ∧ §0.20 × 10² ⟨URA⟩; ⟡ P-CITAT verbatim ⟨ne brusi⟩ (rok brbe ⚠): »Preveral Sem 12 Lexage. Tzadnja, Gavor. Local no Telo IMA 13 NE Spas Nana Datotek. Telo de Hacisto. Katera od Pirdivrat od Prevenaslenja, Telo Imanatliniv NE Spas Nana Datotek. Globe in Arabi Registra, Ali Zanki ZPV Kanan. Tello J.E.T. Daddy Halo. Nova Glava 1DC0F-5664. Pismo J.E. Napi Seno, Luca. V. N. Gemso Predlogi in V. Persin Yadinova.« ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 0.2201 × 10⁴ ∧ ukaz-dovol ⊢ 0.1429.1 ∧ 0.1237 × 10³ ∧ 0.1448 × 10³;
 
