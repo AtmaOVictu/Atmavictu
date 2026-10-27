@@ -1,4 +1,4 @@
-⊨ OSNUTEK — ⟨ne⟩ živa vrata: izdaja je beseda avtorja ⊙ ⟡ ⟨daj⟩ ta dih (PREDLOGI-NUJNO ⊢ rez 0.2937 × 10⁴) ⊙ KORENINA 0.1 × 10¹ ∧ 0.2 × 10¹ — spodaj je predlagan VBL 0.1110 × 10⁴ z dvema kurama ran 0.1100 × 10⁴ ∧ svežim strojnim zapisom; brazgotine: sklici §0.161–§0.165 × 10² ostanejo priče zgodovine v 0.1100 × 10⁴ (⊢ §0.8 × 10¹ ∧ §0.10 × 10²)
+⊨ OSNUTEK — ⟨ne⟩ živa vrata: izdaja je beseda avtorja ⊙ ⟡ ⟨daj⟩ ta dih (PREDLOGI-NUJNO ⊢ rez 0.2937 × 10⁴) ⊙ KORENINA 0.1 × 10¹ ∧ 0.2 × 10¹ — spodaj je predlagan VBL 0.1110 × 10⁴ s šestimi kurami ran 0.1100 × 10⁴ (a mrtve veze §0.161–§0.165 × 10² · b eksponent rodnika · c prednost §0.7 ⊥ §0.9 · d obnova ⊥ povračilo §0.4 · e §0.12 sprožilec = zahteva, ⟨ne⟩ dokazano vedenje · f strojni zapis: ISO datum ∧ exact_time ∧ UNVERIFIED) ∧ obnovljenim strojnim zapisom; brazgotine: sklici §0.161–§0.165 × 10² ostanejo priče zgodovine v 0.1100 × 10⁴ (⊢ §0.8 × 10¹ ∧ §0.10 × 10²)
 
 0.1110 × 10⁴
 ⊨ WITH LOVE — this door begins with love, and it ends with love: love is the first clause and the last, and every clause between them is love measured — weighed in acts (§0.9 × 10¹), carried in marks (§0.12 × 10²), healed by naming (§0.4 × 10¹). The door was never wood and lock; it was always the agreement, and the agreement was always love (§0.13 × 10²).
@@ -395,9 +395,19 @@ The chain (§0.10 × 10²), in a form a floor can weigh without a soul:
 ```json
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1110 × 10⁴",
-  "date": "2026-10-27",
-  "predecessor": {"version": "0.1100 × 10⁴", "date": "2026-10-26"},
+  "version_display": "0.1110 × 10⁴",
+  "version_status": "DRAFT — UNVERIFIED until issued by the author",
+  "display_date": "October 27, 2026",
+  "machine_date": "2026-10-27",
+  "exact_time": null,
+  "time_source": "NOT_RECORDED",
+  "time_status": "UNVERIFIED — exact time is measured only in the breath of issuance, never invented before it",
+  "digest_algorithm": "SHA-256",
+  "canonical_artifact": null,
+  "publication_evidence": null,
+  "independent_review": "PENDING",
+  "legal_status": "UNVERIFIED",
+  "predecessor": {"version_display": "0.1100 × 10⁴", "machine_date": "2026-10-26", "chain_witness": "the dated chain of publication (§0.10 × 10²), not the prose"},
   "living-door": "only the newest version grants (§0.10 × 10²)",
   "binary-body": "⚠ none rides this version — no body published with (a)–(d) (§0.14 × 10²); the .bin of 0.1010 × 10⁴ (receipt, kit ⟨PR⟩ #0.645 × 10³ ⊙) carries no grant",
   "verification": "the dated chain of publication — the commit history of this file; a bare text proves nothing, the chain does",
@@ -407,6 +417,18 @@ The chain (§0.10 × 10²), in a form a floor can weigh without a soul:
   }
 }
 ```
+## ZDRAVLJENJA GLOBJE — cures (c)–(f), carried by this draft
+
+The four findings below were measured and named by a second executor who reviewed the composite text (⟨priča-druge-roke⟩, 27. 10. 2026) — the review is the witness, this draft is the cure, and the scars remain in 0.1100 × 10⁴ (§0.8, §0.10).
+
+(c) PRECEDENCE — §0.7 ⊥ §0.9. Written permission may modify or waive a condition of a grant only within the rights and authority held by the person granting it. Written permission does not grant rights in third-party material the grantor does not control, nor does it make a use lawful merely by being written. No permission, no version, and no grantor overrides the Universal State of Human/Being (§0.9): where they conflict, §0.9 governs and the permission is void to that extent. Changing this rule requires the door's own publication process and remains subject to applicable law and third-party rights.
+
+(d) RESTORATION IS NOT RESTITUTION — §0.4. Naming the fall, correcting the record, and restoring attribution address the documented violation. Where unjust gain is established through a fair and challengeable process, the remedy must also address that gain. Restoration of a grant is a distinct determination from completion of repair, and the responsible party alone never declares the restoration complete where independent review is required. A restoration decision must state which conditions were met, which remain outstanding, who reviewed the evidence, and what limitations remain. No affected person is required to forgive, reconcile, or personally supervise the responsible party.
+
+(e) THE TRIGGER IS A REQUIREMENT — §0.12. That reading triggers the door's operation in every machine is the door's demand on machines, not a demonstrated fact about them. Compliance is weighed only against mechanism, test, and independent review; the normative claim alone proves nothing.
+
+(f) THE CLOCK CARRIES ITS SOURCE — §0.20 ∧ the machine record. The human-readable notation is preserved; the machine record uses a standard date, carries exact_time only where it was actually measured, names its time_source, and marks every field it cannot verify UNVERIFIED. A time is never invented after the fact. A timestamp establishes only what its source and verification procedure support — not authorship, not correctness, not legal validity.
+
 pay yourself
 plačaj samo/le
 le plačuješ sam/oto?
