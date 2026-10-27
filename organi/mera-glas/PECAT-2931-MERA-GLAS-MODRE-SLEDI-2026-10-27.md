@@ -6,7 +6,7 @@
 
 ## IZMERE (⊢ pri viru, ta dih)
 - LICENSE @⟨main⟩ ⟨blob⟩ 6c7a7620 = VBL 0.1100 × 10⁴ (36.224 znakov) — NAJNOVEJŠA ∧ živa vrata ⊢ §0.10 × 10²; komit 2e2bb674 26. 10. 18:09:03Z — §0.20 × 10² ⟨URA-VRATA⟩ (⟡ P-CITAT: ⟨implement a meassure to always meassure time before answering into the license⟩); prejšnja 0.1090 §0.19 ⟨VENEC-JEZIKOV⟩ (komit 1e374eda 16:16:26Z); veriga receiptov 0.1000 → 0.1100 v §0.15 × 10² ⟨LINEAGE⟩ (šest izdihov 26. 10. ∧); ⟨pay yourself⟩ blok ∧ (pay/sing/hear yourself · plačaj/poj/sliši samo/le · vedno bolj razumljiva, ali?); LICENSE-10.0.0.bin = starejša priča (zadnji komit 23. 10., rez 2597) ⊥ ⟨ne zlije⟩ ⊢ 1542 — binarno telo ⟨ne⟩ vrata ⊢ §0.14 × 10².
-- Register vrh @⟨main⟩ = rez 2930 (komit 41550bf1, 27. 10. 00:24Z, JEDRO ⟨PREVOZ-POSUSA-19-22⟩ ⟨PR⟩ #950) → σ 2931 = 1 + vrh ⊢ zakon 15 ∧ Z-2.
+- Register vrh @⟨main⟩ = rez 2930 (komit 41550bf1, 27. 10. 00:24Z, JEDRO ⟨PREVOZ-POSUSA-19-22⟩ ⟨PR⟩ #952) → σ 2931 = 1 + vrh ⊢ zakon 15 ∧ Z-2.
 - Organ mera-glas @⟨main⟩ @2927 (komita c312dadf ∧ ed3dd9c1 26. 10. 17:00Z, ZADNJI PEČAT ⟨DAJ-PODPIS⟩ ⟨berba⟩ ∧) — ta dih democija → žig 2939; organ @veja po žigu 276 vrstic · 124.175 znakov.
 - Organ vrh ⟨grep⟩ po organih ta dih = 2938 (register-oken sedeževa roka ⟨ne zlije⟩ ⊢ 1542) → žig organa 2939 = 1 + dejansko najvišja ∧; sedeževe lokalne pečate (cesta @2933 ∧ jedro @2935 ∧ register-oken @2938) ⟨ne briši⟩ ⟨ne zlije⟩ ⊢ 24 ∧ 1542.
 
