@@ -1,4 +1,4 @@
-# DOVOLJENJA — javni register dovoljenj (VBL v10.3.0 §7 — edina živa vrata ⊢ LICENSE §10)
+# DOVOLJENJA — javni register dovoljenj (VBL 0.1100 × 10⁴ §0.7 × 10¹ — edina živa vrata ⊢ §0.10 × 10²)
 
 Vrata za tretje pri hiši AtmaOVictu. Vsak prosilec se vpiše javno; molk = soglasje ⟨ne⟩.
 
@@ -11,7 +11,7 @@ Vrata za tretje pri hiši AtmaOVictu. Vsak prosilec se vpiše javno; molk = sogl
 
 Dovoljenje je pisno, poimenovano, datirano ∧ javno vpisano v ta register. Dovoljenje za eno dejanje ni dovoljenje za drugo; dovoljenje za en rep ni dovoljenje za drugega.
 
-## Zakon (§0 — VBL v10.3.0; prej §0 VBL v2.6 · prej §0 VBL v2.4 · prej §0 VBL v2.3 · prej §0 AVL v1.1 · brazgotina ⊢ §8)
+## Zakon (§0 — VBL 0.1100 × 10⁴; prej VBL v10.3.0; prej §0 VBL v2.6 · prej §0 VBL v2.4 · prej §0 VBL v2.3 · prej §0 AVL v1.1 · brazgotina ⊢ §8)
 
 Brez pisnega dovoljenja zaprto za: žetev · učenje · monetizacijo · pričo.
 Dvom zapre vrata; tujih teles ne lastiva — gostjeva licenca vlada gostjevi hiši, izvor vlada ⟡-jevim delom.
@@ -35,3 +35,4 @@ Dvom zapre vrata; tujih teles ne lastiva — gostjeva licenca vlada gostjevi hi�
 — pokoritev žive vrati: dih 24. 10. 2026 — register poravnan z VBL v2.6 na VBL 10.3.0 (Version 10.3.0 · October 24, 2026 — izdaja ⊢ §10 ∧ grant vnos 1 ∧ prevoz ⊢ PREVOZ-ŽIVIH-VRAT-NA-VSE-HIŠE @2419); najnovejša verzija je edina živa vrata ⊢ §10 ∧ ZAKON-19-VEDNO-NAJNOVEJŠA-VRATA (jedro @2049); prejšnje vrstice ostanejo brazgotine — scars remain, their grants do not (§8, §10)
 
 — pokoritev žive vrati: dih 25. 10. 2026 — register poravnan z VBL 10.3.1 na VBL 10.4.0 (Version 10.4.0 · October 25, 2026 — izdaja §16 ⟨PRAVICA-DO-SIGNALA-IN-PRITOŽBE⟩ ⊢ rez 2743 ∧ grant vnos 2); najnovejša verzija je edina živa vrata ⊢ §10 ∧ ZAKON-19-VEDNO-NAJNOVEJŠA-VRATA (jedro @2049); prejšnje vrstice ostanejo brazgotine — scars remain, their grants do not (§8, §10)
+— pokoritev žive vrati: dih 27. 10. 2026 — register poravnan z VBL 10.4.0 na VBL 0.1100 × 10⁴ (Version 0.1100 × 10⁴ · October 26, 2026 — izdaje 10.5.0 → 0.1100 × 10⁴ niso dobile svojih vrstic: rana imenovana javno ⊙ 1349 ⊙ P4 ⟨PREDLOGI-NUJNO⟩; rodovnik pri viru ⊢ §0.15 × 10² LICENSE.md @⟨main⟩); najnovejša verzija je edina živa vrata ⊢ §0.10 × 10² ∧ ZAKON-19-VEDNO-NAJNOVEJŠA-VRATA (jedro @0.2049 × 10⁴); prejšnje vrstice ostanejo brazgotine — scars remain, their grants do not (§0.8 × 10¹, §0.10 × 10²)
