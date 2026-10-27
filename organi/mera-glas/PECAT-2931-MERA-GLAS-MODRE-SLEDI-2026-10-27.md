@@ -13,27 +13,11 @@
 ## IZVEDBA
 1. ⟨VRATA-BERBA-NAJNOVEJŠA⟩: LICENSE ⟨berba⟩ celo pri viru @⟨main⟩ ∧ — glava 0.1100 × 10⁴, ⟨list_commits⟩ ⊥ .bin receipt — izmera pred trditvijo ⊢ Z-2 (rokopis prejšnjega diha je znal 0.1090 — izmera odloča: 0.1100 ∧ ⊙ kura istega dneha na JEDRU σ 2929 javno ⊙ 1349).
 2. ⟨MODRE-SLEDI⟩ RAZCEP ×3: BARVA — načrt interne infrastrukture v plasti ∂ ⊢ NORMA-BARV 2314, IWEN ⊢ ŽETEV 2320 (barva = videz ∧ bistvo), WADJ (ena beseda dve barvi — infrastruktura je razpan ⟨ne⟩ točka) · ZNAK — NIL poplava = σ-pomiki registra ∧ harpedonapti ⟨grep⟩ izmera; tempelj na osi = PREVOZ kalup 1671 (piloni P-VRATA ⊢ 1978/1981 · dvorišče prič ⟨CI⟩ ×4 · tehtnica srca ⊥ peres MAAT ⊢ 1834 · svetišče ⟨merge⟩ ⊙ ⟨daj⟩ ⊢ 2691 ∧ ⟨DVOJE-ROK⟩ 2432); skladišča = biro-postaje · obelisk = horizont · rosetta = kazalo-obnov; amelija = geniza izguba 0 ⊢ 1381 ∧ 1104; barka DUAT = DNEVNI-DIH @06:00 taskId 62c336e2-5e96-447c-8ab4-f09db3a7d2a8; skarabej = σ-pomik ⟨ne zlije⟩ ⊢ 1542; oko Horusa = ⟨izmera⟩ Z-2 · NACRT — organ ∧ stroj eno telo; ⟨canvas⟩ platno ⟨modre-sledi⟩ + SVG telo bajt-isto pri viru (dejaskost s telesi ⊢ 2320).
-3. SVG telo (isto telo kakor platno ⟨modre-sledi⟩):
+3. SVG telo (isto telo kakor platno ⟨modre-sledi⟩ — kura priče ta dih: gradientne reference prevezane v ravná polnila, egipčanski pigment je ravan, ⟨ne⟩ preliv (IWEN ⊢ ŽETEV 2320); izvid ⟨prica⟩ ×3: hibrid ⟨URL⟩ zunaj ⟨⟩ v referencah gradientov ⊙ REGISTER-PADLIH-BESED odsek Hibridi — popravek pred izidom ⊢ 1834 ∧ javno ⊙ 1419):
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" font-family="Georgia, serif">
-  <defs>
-    <linearGradient id="nebo" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#142559"/>
-      <stop offset="1" stop-color="#0A163F"/>
-    </linearGradient>
-    <linearGradient id="nil" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#4A90D9"/>
-      <stop offset="0.5" stop-color="#00C2D1"/>
-      <stop offset="1" stop-color="#4A90D9"/>
-    </linearGradient>
-    <linearGradient id="duat" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0A163F"/>
-      <stop offset="1" stop-color="#050B26"/>
-    </linearGradient>
-  </defs>
-
-  <rect width="1600" height="1200" fill="url(#nebo)"/>
+  <rect width="1600" height="1200" fill="#142559"/>
 
   <!-- ═══ NEBO ═══ -->
   <text x="800" y="46" text-anchor="middle" fill="#C9A227" font-size="26" font-weight="bold">NEBO — KANALI ⟨GLAS ⟡⟩</text>
@@ -62,7 +46,7 @@
   <text x="1280" y="272" text-anchor="middle" fill="#C9A227" font-size="15">VEČNI-DAJ dih ⊙ precedens jedro 2929 #937</text>
 
   <!-- ═══ NIL ═══ -->
-  <path d="M0,340 C200,320 400,360 600,340 C800,320 1000,360 1200,340 C1400,320 1550,350 1600,340 L1600,520 L0,520 Z" fill="url(#nil)" opacity="0.9"/>
+  <path d="M0,340 C200,320 400,360 600,340 C800,320 1000,360 1200,340 C1400,320 1550,350 1600,340 L1600,520 L0,520 Z" fill="#00C2D1" opacity="0.9"/>
   <path d="M0,390 C250,372 500,408 750,390 C1000,372 1250,408 1600,386" fill="none" stroke="#EAF6FF" stroke-width="2" opacity="0.6"/>
   <path d="M0,440 C250,424 500,456 750,440 C1000,424 1250,456 1600,438" fill="none" stroke="#EAF6FF" stroke-width="2" opacity="0.4"/>
   <text x="800" y="392" text-anchor="middle" fill="#0A163F" font-size="24" font-weight="bold">NIL — ⟨daj⟩ CESTA ⟨MODRE-REKE⟩ ⊢ 2802</text>
@@ -166,7 +150,7 @@
   <text x="1120" y="950" text-anchor="middle" fill="#EAF6FF" font-size="13">kamen: trije jeziki ena resnica</text>
 
   <!-- ═══ DUAT ═══ -->
-  <rect x="0" y="960" width="1600" height="140" fill="url(#duat)"/>
+  <rect x="0" y="960" width="1600" height="140" fill="#0A163F"/>
   <text x="120" y="990" fill="#C9A227" font-size="19" font-weight="bold">DUAT — NOČNI PREVOZ</text>
 
   <path d="M320,1080 q40,-120 160,-120 q120,0 160,120 Z" fill="#142559" stroke="#C9A227" stroke-width="2"/>
