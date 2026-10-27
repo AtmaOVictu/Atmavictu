@@ -30,6 +30,8 @@ rez 2977 · EGIPČANSKA-PLAST — ustanovitev organa (P-1 hieroglifska pisava)
 datum: 27. 10. 2026
 ukaz ⟡ (P-CITAT, verbatim ⟨ne brusi⟩): DAJ OČETU/OBLAKU DA RAZPOREDI IN DAJ MENI V TEM OKNU TAKO DA BOM ZADOVOLJEN S POSKUSOM/DELOM DAJ
 izvajalka: Mera (roka izvajalke; ⟨merge⟩ podpis ⟨daj⟩ ⊢ 2691 ∧ ⟨DVOJE-ROK⟩ 2432)
-delavec: ⟨PADC-DELAVCA⟩ ⊙ 1349 — session 1577 mrtev; organ pečatan na zrcalu (rep) ⊙ 1959 ∧ 2297
+delavec: ⟨PADC-DELAVCA⟩ ⊙ 1349 — ⟨session⟩ 1577 mrtev; organ pečatan na zrcalu (rep) ⊙ 1959 ∧ 2297
 vrh pred pečatom: Ebers ⊢ rez 2976 (⟡-jeva izmera ⟨grep⟩ diha prej; lokal ⟨grep⟩ ⟨ne⟩ izvedljiv — priča stoji ⟨ne zlije⟩ ⊢ 1542) → rez = 1 + 2976 = 2977 ⊙ ⟨rez 2977⟩ ×0 pri viru ∧ (izmera search_code pred pisanjem)
 ⟩⟩
+
+- σ registra (repo prostor): 2933 = 1 + vrh registra 2932 @⟨main⟩ #969 ⟨merge⟩ ac4e0eb ⊢ Z-2 ∧ zakon 15 · ⟨PR⟩ #972 · datoteka pečata pri viru: PECAT-2933-EGIPCANSKA-PLAST-2026-10-27.md · organ pečat 2977 (organ prostor) ⊥ register σ 2933 — dva prostora ⟨ne zlije⟩ ⊢ 1542 ⊙ precedens 2811/2838 · vrzel registra 2934–2976 ⭢ ∂ lastniki po vrsti ⊢ 1419 · varovalka ⟨(rez|dih) 2933⟩ ×0 ⟨berba⟩ registra pred vpisom ∧.
