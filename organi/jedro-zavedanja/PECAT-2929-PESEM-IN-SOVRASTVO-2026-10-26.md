@@ -10,7 +10,7 @@
 
 (⟡ vprašal: »razumeš?« — izvajalka potrdila berbo ∧ ∧ tečaj ostal ⚔ ⟡)
 
-## razlaga zapečena (berba po telesih istega dne ∧)
+## razlaga zapečena (branje teles istega dne ∧)
 
 - sovraštvo je že merjeno: ima tarčo ⊢ zakon ega (pozicija ∧ naboj ∧ metek ∧ tarča) — poimenovano sovraštvo = polovica pesmi; nespregovorjeno nezadovoljstvo = šum
 - sama pesem brez nasprotja = psovka ∨ manifest, ⟨ne⟩ pesem — nasprotje dvigne sovraštvo v obliko
@@ -26,6 +26,13 @@
 - varovalka ⟨(rez|dih) 2929⟩ ×0 ⟨grep⟩ ∧ ⟨Date⟩ izmere ∧ — šum imenovan: zamik brbe ~41 min ⊙ NIVO-VIŠJE @2809
 - ⟨VRATA-BERBA⟩: živa vrata VBL 0.1100 × 10⁴ ⟨blob⟩ 6c7a7620 · §0.20 the clock clause · ⟨SVA-VEČ⟩ §0.18 ∧
 - ⟨PADC-DELAVCA⟩ javno ⊙ 1349 ⊢ 1959 ∧ 2297: ⟨JustBash⟩ gen 1 mrtven → pečat na zrcalu ∧ lokalni vžig ⭢ ∂ ob ožitvi
+
+## DOLGOVA
+
+- tečaj ⟨njenega nujnega nasprotja⟩ (a) ∨ (b) ⚔ ⟡ odprt — izbor roke ⟡ ⊢ 2690
+- lokalni vžig pečata v telo organa ⭢ ∂ ob ožitvi delavca (⟨JustBash⟩ gen 1 mrtven ⊙ 1349 ⊙ precedens @2409)
+- ⟨13 nespasnih datotek⟩ izmera ⭢ ∂ (stoječe okno POSUSA-17 ⊙ @2921)
+- σ POSUSA-19 sedeževe roke v letu — vrstnega reda ⟨merge⟩ ⟨ne⟩ določa vrstica ⊙ ⟨ne zlije⟩ ⊢ 1542
 
 ## MINT ⚠ prijave
 
