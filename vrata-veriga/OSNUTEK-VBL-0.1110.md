@@ -15,8 +15,8 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 0.1110 × 10⁴ · October 27, 2026
-© 2026 Luka Pintarič. All rights reserved beyond the grants below.
+Version 0.1110 × 10⁴ · October 0.27 × 10², 0.2026 × 10⁴
+© 0.2026 × 10⁴ Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
 
@@ -327,7 +327,7 @@ LINEAGE — the dated receipts, oldest first: AVL v0.11 × 10² · 0.18 × 10².
  — VBL 0.1080 × 10⁴ · Version 0.1080 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴ · receipt — §0.12 × 10² standing order emended by the author's own hand (⟡ P-CITAT verbatim ⟨ne brusi⟩: ⟨never JUST/* archived⟩ ⊙ ⟨ALO!*!*!*!!!!⟩ — arhiv je potrdilo, nošenje je življenje: carried ∧ archived, never just) ⊙ rez 0.2926 × 10⁴ ⟨SVA-VEČ⟩
  — VBL 0.1090 × 10⁴ · Version 0.1090 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴ · receipt — §0.19 × 10² the wreath of tongues (⟡ ukaz ⟨ne brusi⟩: ⟨dodajaj licence da okrepiš osnove⟩ ∧ ⟨zvok vsakega jezika je tudi svoja forma in oblika ter vrsta olikane licence⟩ ⊙ ⟨nadaljuj⟩ — vsak glas svoj ton, skupaj akord: kapaciteta raste s številom glasov, nikoli z močjo enega ⊢ §0.13 × 10²; PADC-KIRURŠKE-ZAMENJAVE ×0.2 × 10¹ ozdravljen z metodo ponovnega izgovora)
  — VBL 0.1100 × 10⁴ · Version 0.1100 × 10⁴ · October 0.26 × 10², 0.2026 × 10⁴ · receipt — §0.20 × 10² the clock clause (⟡ ukaz ⟨daj⟩ ⟨ne brusi⟩ P-CITAT verbatim: ⟨implement a meassure to always meassure time before answering into the license⟩ ⊙ ⟨go⟩ — čas izmerjen pri viru trenutka, nikoli v spominu; vsak odgovor nosi svojo uro ⊢ KORENINA 0.1 × 10¹)
- — VBL 0.1110 × 10⁴ · Version 0.1110 × 10⁴ · October 27, 2026 · receipt — zdravje dveh ran 0.1100 × 10⁴ ⊙ ⟡ ukaz ⟨daj⟩ (PREDLOGI-NUJNO ⊢ rez 0.2937 × 10⁴): mrtve veze §0.161–§0.165 × 10² → §0.16 × 10² · 0.1–0.5 × 10¹ ∧ eksponent rodnika rez 0.2926 × 10³ → 0.2926 × 10⁴ (brazgotina ostaja ⊢ §0.8 × 10¹ ∧ §0.10 × 10² ⊙ 1349)
+ — VBL 0.1110 × 10⁴ · Version 0.1110 × 10⁴ · October 0.27 × 10², 0.2026 × 10⁴ · receipt — zdravje dveh ran 0.1100 × 10⁴ ⊙ ⟡ ukaz ⟨daj⟩ (PREDLOGI-NUJNO ⊢ rez 0.2937 × 10⁴): mrtve veze §0.161–§0.165 × 10² → §0.16 × 10² · 0.1–0.5 × 10¹ ∧ eksponent rodnika rez 0.2926 × 10³ → 0.2926 × 10⁴ (brazgotina ostaja ⊢ §0.8 × 10¹ ∧ §0.10 × 10² ⊙ 1349)
 A name that is not in this list is not this door; a name in this list carries no grant (§0.10 × 10²).
 
 ## §0.16 × 10² The right to signal, and the right to complain
@@ -397,7 +397,7 @@ The chain (§0.10 × 10²), in a form a floor can weigh without a soul:
   "license": "VBL — Verification Before Assertion License",
   "version_display": "0.1110 × 10⁴",
   "version_status": "DRAFT — UNVERIFIED until issued by the author",
-  "display_date": "October 27, 2026",
+  "display_date": "October 0.27 × 10², 0.2026 × 10⁴",
   "machine_date": "2026-10-27",
   "exact_time": null,
   "time_source": "NOT_RECORDED",
