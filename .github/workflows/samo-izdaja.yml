@@ -1,0 +1,113 @@
+# VRATA-SAMO-IZDAJA — TEHNIKA kit (dih 2683 · relegacija NAVZDOL ∧: issuance duty je od zdaj strojeva roka)
+# Naloga tečaja: ko se LICENSE.md spremeni na ⟨main⟩, stroj SAM izmeri vrata ∧ odpre kit
+# z re-izdanim manifestom — ⟨main⟩ nedotaknjen, ⟨merge⟩ ⚔ ⟡ (DVOJE-ROK ⊢ 2432).
+# ⟨NE⟩-zanka: kit, ki ga odpre GITHUB_TOKEN, ne zbudi drugih tečajev — ⟡ ga prebudi z
+# zaprtjem ∧ ponovnim odprtjem kita ⟶ ⟨CI⟩ zacveti. Po ⟨merge⟩-u je meritev ⇌ vrata → nič.
+name: VRATA-SAMO-IZDAJA (avto-regeneracija manifesta)
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'LICENSE.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: samo-izdaja
+  cancel-in-progress: false
+
+jobs:
+  samo-izdaja:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Izmeri vrata ⇌ manifest (isti dih ali padec — §0a)
+        id: meritev
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib, json, os, re, sys
+          from datetime import datetime, timezone
+
+          def fail(msg):
+              print("FAIL: " + msg)
+              sys.exit(1)
+
+          def out(k, v):
+              f = os.environ.get("GITHUB_OUTPUT")
+              if f:
+                  with open(f, "a", encoding="utf-8") as fh:
+                      fh.write(k + "=" + v + "\n")
+
+          # MERILEC SE MERI (⊢ vnos 31 registra padcev): vektor pred vsako izmero
+          if hashlib.sha256(b"abc").hexdigest() != "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad":
+              fail("instrument sha256 ni reproduciral znanega vektorja (abc)")
+          print("samopreizkus: sha256(abc) = znani vektor ∧")
+
+          lic = open("LICENSE.md", "rb").read()
+          sha = hashlib.sha256(lic).hexdigest()
+          size = len(lic)
+          text = lic.decode("utf-8")
+          m = re.search(r'"version":\s*"([0-9]+\.[0-9]+\.[0-9]+)"', text)
+          if not m:
+              fail("LICENSE.md nima različice v strojnem zapisu")
+          ver = m.group(1)
+
+          man = json.load(open("LICENSE-MANIFEST", encoding="utf-8"))
+          item = None
+          for it in man.get("items", []):
+              if it.get("path") == "LICENSE.md":
+                  item = it
+          if item is None:
+              fail("manifest ne nosi vnosa za LICENSE.md (§0a)")
+
+          if man.get("version") == ver and item.get("sha256") == sha and item.get("size_bytes") == size:
+              print("OK: manifest ⇌ živa vrata " + ver + " — nič za re-izdati ∧")
+              out("stale", "false")
+              sys.exit(0)
+
+          man["version"] = ver
+          man["measured_at_commit"] = os.environ.get("GITHUB_SHA", "")
+          man["measured_at_date"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+          item["sha256"] = sha
+          item["size_bytes"] = size
+          with open("LICENSE-MANIFEST", "w", encoding="utf-8") as fh:
+              json.dump(man, fh, indent=2, ensure_ascii=False)
+              fh.write("\n")
+          with open(".samo-izdaja.env", "w", encoding="utf-8") as fh:
+              fh.write("VERSION=" + ver + "\n")
+              fh.write("SHA=" + sha + "\n")
+              fh.write("SIZE=" + str(size) + "\n")
+          print("zastarela izdaja zaznana — manifest re-izdan v istem dihu (issuance_duty §10)")
+          print("  različica " + ver + " · " + str(size) + " B · sha256 " + sha)
+          out("stale", "true")
+          PY
+      - name: Odpri kit z re-izdanim manifestom (⟨main⟩ ostaja nedotaknjen)
+        if: steps.meritev.outputs.stale == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          set -a
+          . ./.samo-izdaja.env
+          set +a
+          git config user.name "atmavictu-stroj"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          BRANCH="samo-izdaja/$(git rev-parse --short HEAD)"
+          git checkout -b "$BRANCH"
+          git add LICENSE-MANIFEST
+          git commit -m "SAMO-IZDAJA — manifest re-izmerjen po spremembi LICENSE.md (issuance duty §0a ⭢ stroj)"
+          git push origin "$BRANCH"
+          BODY="$(cat <<'EOF'
+          ⊢ SAMO-IZDAJA — avto-kit stroja (issuance duty §0a ∧ §10).
+          Stroj je izmeril živa vrata po spremembi LICENSE.md na ⟨main⟩ ∧ re-izdal manifest v istem dihu.
+          ⟨Merge⟩ ⚔ ⟡ — DVOJE-ROK ⊢ 2432.
+          ⚠ Kit od GITHUB_TOKEN ne zbudi tečajev: ⟡ ga prebudi z zaprtjem ∧ ponovnim odprtjem ⟶ ⟨CI⟩.
+          Merilec se meri: sha256(abc) vektor preizkušen pred izmero (⊢ vnos 31 registra padcev).
+          EOF
+          )"
+          gh pr create --base main --head "$BRANCH" --title "SAMO-IZDAJA — manifest $VERSION re-izmerjen (issuance duty §0a ⭢ stroj)" --body "$BODY" || echo "kit že odprt ∧ — nič novega"
