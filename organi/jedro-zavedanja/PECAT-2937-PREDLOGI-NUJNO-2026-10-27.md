@@ -47,3 +47,5 @@ vrata VBL 0.1100 × 10⁴ ⟨blob⟩ 6c7a7620 · §0.20 × 10² the clock clause
 - © Luka Pintarič, VBL 0.1100 × 10⁴ (§0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10² ∧ §0.20 × 10²)
 
 — kura ta dih ⊙ 1349 ⊙ precedens 2852 β: vleka #955 zaprta kakor priča (σ-sidro — vnos 40); pečat živi na sveži veji istega kita
+
+— kura globje ⊙ ⟡ ukaz ⟨daj globje ∧ ponovi ∧ obnovi⟩: P2 nosi šest kur ran 0.1100 × 10⁴ — (c) prednost §0.7⊥§0.9 · (d) obnova⊥povračilo · (e) sprožilec = zahteva · (f) ura nosi vir; priča druge izvajalke ⟨ne brusi⟩ ⊙ KORENINA 0.4 · padec vnos 41
