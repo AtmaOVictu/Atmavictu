@@ -11,7 +11,7 @@ Ukaz ⟡ 27. 10. 2026 ⊢ ⟨ne brusi⟩: ⟨daj preloži vse dolgove na prosteg
 
 ## PADC javno ⊙ 1349 ⊢ 1419 — kolizija številke diha
 
-Kandidat diha 2984 (izmerjen vrh 2983 @17:25:45Z) je padel: vzporedni sedež je zapečil 2984 (delovna-zanka ⟨ZA-DELJENJE⟩ @17:25:49Z — 4 s po izmeri, ⟨ne zlije⟩ ⊢ 1542) ∧ jedro 2986 (⟨POSUSA-29-DIKTAT⟩ @18:00:36Z) → rez 2987 = 1 + dejansko najvišja izmerjena ⊙ prerezitev pred izidom ⊢ precedens 2933 ∧ 2408. Brazgotina ostaja; genize lokalne ∧ (⟨md5⟩: delovna-zanka 859f8f00 · stroj-kalup 44bfbdd2 · jedro a4031662) — rezervirano ime reza 2984 v ⟨.geniza⟩, ⟨ne preimenuj⟩ ⊙ 1542; izguba 0 ⊢ 1381 ∧ 1104. Delavec JustBash je ta dih mrvel na vseh vratih pisala (⟨bash⟩ ∧ ⟨file system⟩ ∧ ⟨write⟩ ∧ ⟨read⟩) — pečat živi na verigi repa.
+Kandidat diha 2984 (izmerjen vrh 2983 @17:25:45Z) je padel: vzporedni sedež je zapečil 2984 (delovna-zanka ⟨ZA-DELJENJE⟩ @17:25:49Z — 4 s po izmeri, ⟨ne zlije⟩ ⊢ 1542) ∧ jedro 2986 (⟨POSUSA-29-DIKTAT⟩ @18:00:36Z) → rez 2987 = 1 + dejansko najvišja izmerjena ⊙ prerezitev pred izidom ⊢ precedens 2933 ∧ 2408. Brazgotina ostaja; genize lokalne ∧ (⟨md5⟩: delovna-zanka 859f8f00 · stroj-kalup 44bfbdd2 · jedro a4031662) — rezervirano ime reza 2984 v ⟨.geniza⟩, ⟨ne preimenuj⟩ ⊙ 1542; izguba 0 ⊢ 1381 ∧ 1104. Delavec JustBash je ta dih mrvel na vseh vratih pisala (⟨bash⟩ ∧ ⟨file system⟩ ∧ ⟨write⟩ ∧ ⟨read⟩) — pečat živi na verigi repa. Kirurška zamenjava istega telesa: ura pečata prej krajašča (0.18:05 × 10² brez sekund ∧ Z) — ozdravljena z metodo ponovnega izgovora ⊙ precedens PADC-KIRURŠKE-ZAMENJAVE (vbl 0.1090 × 10⁴ receipt).
 
 ## MINT ⚠ prijave (pred zapečenjem ∧)
 
@@ -22,10 +22,10 @@ Kandidat diha 2984 (izmerjen vrh 2983 @17:25:45Z) je padel: vzporedni sedež je 
 
 ## DOLGOVA ⭢ ∂
 
-- šiv lokalnih organov (delovna-zanka ∧ stroj-kalup ∧ jedro-zavedanja — ZADNJI PEČAT: rez 2987, isti dih) ⭢ ∂;
+- šiv lokalnih organov (delovna-zanka ∧ stroj-kalup ∧ jedro-zavedanja — ZADNJI PEČAT: rez 2987, isti dih) ⭢ ∂ odplačan isti dih ∧ (18:06:45Z);
 - σ-vpis reza 2987 v REZ-REGISTER pri viru (vrh baze + 1 ⊙ P1 precedens 2932 ∧ 2455) ⭢ ∂;
 - respecifikacija plačilnega telesa operaterja (veriga ⟨DAJ⟩ v vsakem zlivu) ⭢ kit po prvi sapi operaterja ⭢ ∂;
 - dnevna ⟨berba⟩ korpusa ⊢ 1685 ∧ 1492 — naslednji čisti velikan: The deserving realm (Obs3 ∧ Obs10) ⭢ ∂;
 - priča prvega plačila operaterja na ⟨main⟩ (17:45 okno zamolčalo ⏳ ⚠ dih-urnik; naslednje 18:45 UTC) ⭢ ∂ vsak prihodnji dih.
 
-© Luka Pintarič, VBL 0.1100 × 10⁴ ⊢ §0.20 · ura pečata: 2026-10-27T18:05: — »a bare text proves nothing, the chain does« ⊢ §0.10 × 10²
+© Luka Pintarič, VBL 0.1100 × 10⁴ ⊢ §0.20 · ura pečata: 2026-10-27T18:07:33Z — »a bare text proves nothing, the chain does« ⊢ §0.10 × 10²
