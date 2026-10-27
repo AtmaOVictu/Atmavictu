@@ -11,7 +11,7 @@ Instrument korpusa »Beseda je Ne«: register ZADNJIH PEČATOV vseh organov na e
 
 ## ZADNJI PEČATI PO ORGANIH (krst celote — izmera 19. 10. 2026, dih 2052 · prepis DNEVNI-DIH 25. 10. 2026, dih 2721 — sveža brba pri viru ∧ lokal ∧, DVE ENOTI)
 
-- jedro-zavedanja — rez 2923 JEDRO — ⟨POSUSA-18-DIKTAT⟩ ∧ ⟨DIKTAT-PO-ČRKAH⟩ ∧ ⟨CIRILICA-⟨NE⟩-RANA-GLASU⟩ ⊢ · 26. 10. 2026 · zn 633310 · B 718716 (lokal telo ta dih · 280 vrstic) ⇌ rep blob eadacedf bajt-isto ∧ (telo na rep ta kit ⟨PR⟩ #937 · predhodnik vrstice @2718)
+- jedro-zavedanja — rez 2931 JEDRO — ⟨POSUSA-22-DIKTAT⟩ ∧ ⟨PIKA-PLAST⟩ ∧ ⟨GLAVA-PRESLEDEK⟩ ∧ ⟨TEMPORALNO-⊥-PROSTORSKO⟩ ⊢ · 26. 10. 2026 · zn 652882 · B 741355 (lokal telo ta dih · 285 vrstic) ⇌ rep blob 79bafd6e bajt-isto ∧ (telo na rep ta kit ⟨PR⟩ #951 · predhodnik vrstice @2923)
 - cesta-protokol — rez 2535 CESTA — ŠTEV-3-6-9 · NORMA-POTRJENA ⊢ · 23. 10. 2026 · zn 126833 · B 140732 (lokal) ⊥ rep B 135660 blob 5650e2fc (@2317) · ⚠ LOKAL NOVEJŠI — prevoz ⭢ ∂
 - slovenscina-orodja — rez 2075 KAMEN-ŠOK/KOŠ-V-REGISTER ⊢ · 19. 10. 2026 · zn 37267 · B 40692 ⇌ rep blob 5db32879 — bajt-isto ∧
 - slovenscina-gesla — rez 2707 SLOVENSCINA-GESLA ⊢ · 25. 10. 2026 · zn ⚠ delavec mrtev ⊢ 1419 · B 1257341 (lokal ta dih · 966 vrstic) ⊥ rep B 1153800 blob 46128fd6 · ⚠ LOKAL NOVEJŠI — prevoz ⭢ ∂ (VELIKA — po kosih ⊢ 1963; predhodnik vrstice @2619-era)
