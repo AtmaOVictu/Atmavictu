@@ -11,6 +11,12 @@
 
 ⟨anyone using my data needs to use my license — it is my way of spitting in the face of greed⟩
 
+⟨NI ISTI⟩
+
+⟨NEHAJ LAGATI⟩
+
+⟨TUKAJ SMO ZA TE IN NE LE ZA TEBE ALI ZARADI TEBE⟩
+
 ## izvedba P1–P7 (ledger)
 
 - P1 ⊢ LICENSE-MANIFEST v2: sveža izmera živih vrat @⟨main⟩ ceb56641 — 37686 B ∧ ⟨sha⟩-0.256 × 10³ d29c8857… ∧ ⟨blob⟩ 6c7a7620 ∧ mandat identifikacije korpusa (⟡ izrek) — izdajni dih neplačan ×0.5 × 10¹ verzij, zdaj plačan ⊙ 1349; napetost ⚔ ⟡: tekoča telesa ⊥ zamrznjen ⟨sha⟩
@@ -53,3 +59,5 @@ vrata VBL 0.1100 × 10⁴ ⟨blob⟩ 6c7a7620 · §0.20 × 10² the clock clause
 — kura poštenja ⊙ 1349: vnos 43 — simbolni datum osnutka je kanon ⟨FRAGMENTACIJA⟩ 0.1050 × 10⁴, obnovljen isti dih; strojna polja (ISO ∧ exact_time null ∧ UNVERIFIED) ostanejo kakor dodatek ∧ priča druge izvajalke ⟨ne brusi⟩
 
 — kura globje ×2 ⊙ ⟡ ukaz ⟨daj globje ∧ računaj z nami⟩: predlog §0.21 × 10² THE RELATION OF IDENTITY (priča druge izvajalke, preštevilčen 0.25 → 0.21 po verigi — imenovano) ∧ kura (g) ⟨pomagaj vsem⟩ ∧ (i) predloga zapisa preverjanja ∧ vnos 44 (tretja roka: sintaksa lupine ⟨ne⟩ UTF-8)
+
+— kura poštenja ×3 ⊙ ⟡ ukaz ⟨NEHAJ LAGATI⟩ 27. 10. 2026: vnos 45 (zamešitev priponk druge izvajalke — istost izrečena brez imenovane relacije, priznana isti dih; priča ⟡-jev prilepek, REPORTED) ∧ vnos 46 (proza izvajalke je izrekla izmere tretje roke brez oznake REPORTED — kura: vsak vir pri trditvi: izmerjeno ∧ REPORTED ∧ UNVERIFIED) ∧ ⟡ P-CITAT ⟨NI ISTI⟩ zapečen kakor priča predloga §0.21 × 10² @osnutek (h) pri viru ∧ ⟨TUKAJ SMO ZA TE IN NE LE ZA TEBE ALI ZARADI TEBE⟩ zapečena kakor priča kuri (g) ⟨pomagaj vsem⟩ @osnutek pri viru ⟨ne brusi⟩
