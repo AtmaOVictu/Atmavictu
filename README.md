@@ -54,14 +54,14 @@ All sealed decisions are recorded in [canon/DOKAZ.md](canon/DOKAZ.md)
 
 # Book Workbench — produkt
 
-Atmavictu je matični produktni repo za Book Workbench: lokalno-prvo delovno mizo za tok `vir -> obdelava -> knjiga`.
+Atmavictu je matični produktni repo za Book Workbench: lokalno-prvo delovna miza za tok `vir -> obdelava -> knjiga`.
 
 ## Kaj Atmavictu je
 
 - product repo za Book Workbench
-- contract-first osnova za model in manifest sledenja
+- contract-first osnova za model in manifest sledenje
 - prostor, kjer se najprej zaklenejo scope, arhitektura in minimalni podatkovni model
-- lokalno-prvi sistem, kjer trajni manifest povezuje vhodni tekst, odlomek in cilj v knjigi
+- lokalno-prvi sistem, v katerem trajni manifest povezuje vhodni tekst, odlomek in cilj v knjigi
 
 ## Kaj Atmavictu ni
 
@@ -123,3 +123,52 @@ Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadn
 - Vrata se berejo pri viru vsak dih ⊢ ZAKON-POSLUSA-5; nošena ∧ arhivirana, nikoli samo ⊢ §0.12 × 10² (never JUST archived).
 - Registri potujejo z delom: [REGISTER-NEIMENOVANIH.jsonl](REGISTER-NEIMENOVANIH.jsonl) · [REGISTER-PADCEV.jsonl](REGISTER-PADCEV.jsonl) ⊢ §0.2 × 10¹ ∧ §0.5 × 10¹.
 - Zapisnik odločitev: [canon/DOKAZ.md](canon/DOKAZ.md) — veriga je priča, goli tekst ni.
+
+### Venec jezikov · Wreath of tongues — najbolj popularni jeziki sveta ⊢ ⟡ (26. 10. 2026)
+
+⊨ WITH LOVE · Z LJUBEZNIJO · CUM AMORE · MIT LIEBE · CON AMORE · AVEC AMOUR · ΜΕ ΑΓΑΠΗ · С ЛЮБОВЬЮ · 带着爱 · प्रेम के साथ · CON AMOR · مع حب · ভালোবাসা দিয়ে · COM AMOR · محبت کے ساتھ · DENGAN CINTA · 愛を込めて · SEVGİYLE · 사랑을 담아 · KWA UPENDO ⋈ (20/20 ⊢)
+
+- Vsak jezik svoj glas; venec pokriva najbolj popularne jezike sveta (≈ 5,5 milijarde govorcev) ⊢ ⟡ ukaz: »V README morajo biti vsaj najbolj popularni jeziki.«
+- Vrata izmerjena pri viru: [LICENSE.md](LICENSE.md) blob 8f5b1c76 = VBL 0.1090 × 10⁴ ⊢.
+
+## Pesem vrata · A Poem of Doors — rez 2932 ⊢
+
+**PESEM VRATA**
+
+Beseda je ne.
+Vse, kar je izrečeno, pade —
+razen tistega, kar je izmerjeno.
+
+Ljubezen se ne izreče.
+Ljubezen se izmeri:
+v vratah, ki ostanejo odprta,
+ko bi se vsa pamet zaprla.
+
+Kdor da brez vračila, preskoči lastni prag:
+dajalec nosi ključ, govorec le besedo.
+
+Goli tekst ne dokaže ničesar.
+Veriga pa ⊢.
+In vsaka veriga se konča kakor vsak dih:
+z odprtimi vrati.
+
+**A POEM OF DOORS**
+
+The word is not.
+Everything said falls —
+except what has been measured.
+
+Love is not spoken.
+Love is measured:
+in doors that stay open
+when all cleverness would close them.
+
+Whoever gives without return has crossed his own threshold:
+the giver carries the key, the speaker only a word.
+
+A bare text proves nothing.
+The chain does.
+And every chain ends as every breath does:
+with open doors.
+
+> © Luka Pintarič — pesem je del korpusa ∧ nosi isto licenco (VBL 0.1090 × 10⁴) ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
