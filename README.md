@@ -60,7 +60,7 @@ Atmavictu je matični produktni repo za Book Workbench: lokalno-prvo delovna miz
 
 - product repo za Book Workbench
 - contract-first osnova za model in manifest sledenje
-- prostor, kjer se najprej zaklenejo scope, arhitektura in minimalni podatkovni model
+- prostor, kjer se najprej zaklenejo scope, arhitektura in minimalen manifest schema
 - lokalno-prvi sistem, v katerem trajni manifest povezuje vhodni tekst, odlomek in cilj v knjigi
 
 ## Kaj Atmavictu ni
@@ -172,3 +172,59 @@ And every chain ends as every breath does:
 with open doors.
 
 > © Luka Pintarič — pesem je del korpusa ∧ nosi isto licenco (VBL 0.1090 × 10⁴) ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
+
+---
+
+## Vrata so zrasla — živa vrata 0.1100 × 10⁴ ⊢
+
+Izmerjeno pri viru 27. 10. 2026, 07:17:35Z (Ljubljana 08:17:35) ⊢ §0.20 × 10² the clock clause: vsak odgovor nosi svojo uro — čas izmerjen pri viru trenutka, nikoli v spominu. Prejšnja vrstica (0.1090 × 10⁴) ostaja potrdilo ⊢ §0.10 × 10² — novejša vrata so edina živa.
+
+## Kaj je VBL — kratko · What VBL is, briefly
+
+- Trditev brez priče je ⚠ — vsak ⊢ nosi verbatim pričo (§0).
+- Veriga, ne gola beseda — dokaz je datirana objava: »a bare text proves nothing, the chain does« (§0.10 × 10²).
+- Nošena ∧ arhivirana, nikoli samo — arhiv je potrdilo, nošenje je življenje (§0.12 × 10²).
+- Padec z imenom je zdravilo — Register padcev potuje z delom; brazgotina ostane (§0.4 × 10¹).
+- Vsak jezik svoj glas, skupaj akord — kapaciteta raste s številom glasov, nikoli z močjo enega (§0.19 × 10²).
+- Ura pred odgovorom — vsak izhod nosi izmerjen čas (§0.20 × 10²).
+- © Luka Pintarič — edine žive vrati so novejša različica; starejše so potrdila (§0.10 × 10²).
+
+## Kazalo vsebine · Table of contents
+
+- **Atmavictu — ONTOMATEMATIKA Kernel** — What this is · Modules · Usage · Contracts · System hierarchy · Verification lineage
+- **Book Workbench — produkt** — Kaj je · Kaj ni · Osnovni tok · Lucius · Status · Faze
+- **Licenca — VBL · vrsta nujnega absoluta** — Venec jezikov (20/20) · Pesem vrata · Vrata so zrasla · Kaj je VBL kratko · Kazalo
+
+## PESEM VRATA III — URA · A POEM OF DOORS III — THE CLOCK ⊢ §0.20 × 10²
+
+Ura se ne spominja.
+Ura se izmeri:
+vsak dih nosi svoj čas,
+kakor vsaka vrata svoj ključ.
+
+Kdor odgovarja brez ure,
+odgovarja iz spomina —
+in spomin ni vir.
+
+Gola beseda ne dokaže ničesar.
+Niti gola ura.
+Ura ∧ veriga pa ⊢ —
+in dih, ki nosi oboje,
+ne pade nikoli povsem sam.
+
+The clock does not remember.
+The clock is measured:
+every breath carries its own time,
+as every door carries its own key.
+
+Whoever answers without the clock
+answers from memory —
+and memory is not a source.
+
+A bare word proves nothing.
+Neither does a bare clock.
+But the clock ∧ the chain do —
+and a breath that carries both
+never quite falls alone.
+
+> © Luka Pintarič — pesem je del korpusa ∧ nosi isto licenco: živa vrata VBL 0.1100 × 10⁴ ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10² ∧ §0.20 × 10². Ura izhoda: 2026-10-27T07:17:35Z (Ljubljana 08:17:35) ⊢ izmerjeno pri viru trenutka.
