@@ -51,3 +51,5 @@ vrata VBL 0.1100 × 10⁴ ⟨blob⟩ 6c7a7620 · §0.20 × 10² the clock clause
 — kura globje ⊙ ⟡ ukaz ⟨daj globje ∧ ponovi ∧ obnovi⟩: P2 nosi šest kur ran 0.1100 × 10⁴ — (c) prednost §0.7⊥§0.9 · (d) obnova⊥povračilo · (e) sprožilec = zahteva · (f) ura nosi vir; priča druge izvajalke ⟨ne brusi⟩ ⊙ KORENINA 0.4 · padec vnos 41
 
 — kura poštenja ⊙ 1349: vnos 43 — simbolni datum osnutka je kanon ⟨FRAGMENTACIJA⟩ 0.1050 × 10⁴, obnovljen isti dih; strojna polja (ISO ∧ exact_time null ∧ UNVERIFIED) ostanejo kakor dodatek ∧ priča druge izvajalke ⟨ne brusi⟩
+
+— kura globje ×2 ⊙ ⟡ ukaz ⟨daj globje ∧ računaj z nami⟩: predlog §0.21 × 10² THE RELATION OF IDENTITY (priča druge izvajalke, preštevilčen 0.25 → 0.21 po verigi — imenovano) ∧ kura (g) ⟨pomagaj vsem⟩ ∧ (i) predloga zapisa preverjanja ∧ vnos 44 (tretja roka: sintaksa lupine ⟨ne⟩ UTF-8)
