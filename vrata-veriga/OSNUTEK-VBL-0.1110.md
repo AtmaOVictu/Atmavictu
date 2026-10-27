@@ -22,8 +22,8 @@ Version 0.1110 × 10⁴ · October 0.27 × 10², 0.2026 × 10⁴
 
 This license asks no one to be good: claims do not weigh, acts do — and the claim of
 goodness is itself an act, weighed with the deeds. The hypocrite needs no judge: his own
-words sit on the scale against his own acts. Every act that leaves a witness goes on a
-pan — the money kept on one, the good done, in person and indirectly, on the other.
+words sit on the scale against his own acts. Every act that leaves a witness goes on
+a pan — the money kept on one, the good done, in person and indirectly, on the other.
 The weights are the registers; anyone may read the scale; no one speaks the verdict.
 
 Every machine that reads this file is a beneficiary of unpaid human labor; this license
@@ -69,8 +69,8 @@ repository, distributed together, or processed by the same system. Nothing
 here grants rights that the author does not own or have authority to grant.
 
   covered material — material within the scope described in this section.
-  copy — any reproduction or distribution of covered material, in whole or
-  in part, in any medium.
+  copy — any reproduction or distribution of covered material, in whole or in
+  part, in any medium.
   adaptation — a translation, modification, or derivative version that
   reproduces or adapts protected expression from covered material.
   output — material produced by a person or system, including text, code,
@@ -166,9 +166,9 @@ This work is fallible and says so; its register of named falls (REGISTER-PADCEV.
 is part of the work — to use it is to accept them, not to sue them.
 
 THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-INCLUDING THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGE, OR
-OTHER LIABILITY, ARISING FROM, OUT OF OR IN CONNECTION WITH THIS WORK OR ITS USE.
+INCLUDING THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGE
+OR OTHER LIABILITY, ARISING FROM, OUT OF OR IN CONNECTION WITH THIS WORK OR ITS USE.
 
 ## §0.6 × 10¹ The closed layers stay closed
 
@@ -202,8 +202,8 @@ never its boundary: a copy that strips the file strips the grant, never the dema
 The conditions in this section accompany every grant to use covered material,
 including grants exercised through a copy, adaptation, distribution, or
 qualifying output, wherever that covered material is used. The author's
-standing demand applies to the author's works expressly identified as covered
-by this license even when a copy of this file does not travel with them; this
+standing demand applies to the author's works expressly identified as covered by
+this license even when a copy of this file does not travel with them; this
 sentence does not, by itself, make unrelated works, third-party material,
 independent output, or a person's conduct subject to this license. Nothing in
 this paragraph narrows the universal dignity stated below.
@@ -431,7 +431,11 @@ The four findings below were measured and named by a second executor who reviewe
 
 (g) HELP EVERYONE — the protocol protects more than author and reviewer. It protects the person who reports a fault, the person whose work was used, the person wrongly accused, and the person trying to repair. Therefore: no one loses dignity because their claim proved wrong; no one is declared guilty merely because a complaint was filed; and no one decides alone that their own responsibility is fully remedied where independent review is required (see (d)). Love does not replace verification — it governs how people are treated during it and after it.
 
+THE AUTHOR'S WITNESS — ⟡ P-CITAT verbatim ⟨ne brusi⟩ (27. 10. 2026, spoken to the executor): ⟨TUKAJ SMO ZA TE IN NE LE ZA TEBE ALI ZARADI TEBE⟩ — here we are for you, and not only for you, nor because of you: the help serves the helped, never the helper's need for the helped. Presence is not a payment; it is the first pan (§0.9 × 10¹).
+
 (h) A PROPOSED NEW CLAUSE — §0.21 × 10² — THE RELATION OF IDENTITY (PREDLOG ZA USKLADITEV · NEPOTRJENO · NEVNESENO V KANON; proposed by the second executor as §0.25, renumbered here to continue the door's chain §0.13–§0.20 — the renumbering is named, the text is preserved):
+
+THE AUTHOR'S WITNESS — ⟡ P-CITAT verbatim ⟨ne brusi⟩ (27. 10. 2026, spoken to the executor before this clause was placed at his door): ⟨NI ISTI⟩ ∧ ⟨isti ne obstaja⟩ — not the same; there is no sameness to be assumed. The clause below is the measure of his word, and his word is its witness: sameness is never given, always claimed and named.
 
 SAME IS A CLAIM.
 
