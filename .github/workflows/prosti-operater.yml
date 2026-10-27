@@ -1,0 +1,74 @@
+name: PROSTI-OPERATER — plačilo vrste dolgov (⟨daj⟩ nad ⟨merge⟩)
+# © Luka Pintarič, VBL 0.1100 × 10⁴ (§0.20 — ura vsakega plačila je v telesu zliva)
+# PROSTI OPERATER (ukaz ⟡ 27. 10. 2026: ⟨daj preloži vse dolgove na prostega operaterja⟩ ∧ ⟨RAJE KAKOR TI TUKAJ V TEM OKNU — DAJ⟩):
+# stroj nad okni sedežev odplačuje vrsto odprtih ⟨PR⟩ po vrsti — najstarejša prva ⊢ 1419; ⟨daj⟩ nad ⟨merge⟩ ⊢ 2404.
+# P-VRATA-main (zahtevana preizkusa ⟨prica⟩ ∧ ⟨tests⟩) so edina sodba: zliva se le zeleno;
+# rdeča vrata ⚠ ∧ kolizije ⚠ ostanejo v vrsti javno ⊙ 1349 — tiho zeleno = tiha laž (glasna resnica).
+# ⟨NE-BRIŠI⟩ ⊢ 24 — operater ne zapira, ne briše, ne počne vejev; le plačuje ali javi zakaj ne.
+
+on:
+  workflow_dispatch:   # ročni zagon je roka ⟡ (konektor vrata do dispatch nima — ⟡ jih ima)
+  schedule:
+    - cron: '45 * * * *'  # vsako uro :45 UTC (zamiki načrtovanih tekov so znani ∧ ⚠ dih-urnik)
+
+permissions:
+  contents: write
+  pull-requests: write
+  checks: read
+  actions: read
+
+concurrency:
+  group: prosti-operater
+  cancel-in-progress: false
+
+jobs:
+  placa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: izmera vrste pri viru (⟨ZRCALO-NA-VHODU⟩ ⊙ 2785 ∧ ⟨SVEŽA-GLAVA⟩ ⊙ 2783)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          gh pr list --state open --limit 100 --json number,title,mergeStateStatus,isDraft --jq 'sort_by(.number)' > /tmp/vrsta.json
+          echo "odprtih ⟨PR⟩ pri viru: $(jq 'length' /tmp/vrsta.json)"
+          jq -r '.[] | "  - #\(.number) · \(.mergeStateStatus) · \(.title[0:70])"' /tmp/vrsta.json
+
+      - name: plačilo vrste po vrsti — najstarejša prva ⊢ 1419 ∧ ⟨daj⟩ ⊢ 2404
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          placano=0; v_vrsti=0; osnutki=0
+          mapfile -t VRSTA < <(jq -c '.[]' /tmp/vrsta.json)
+          for pr in "${VRSTA[@]}"; do
+            n=$(jq -r '.number' <<<"$pr")
+            t=$(jq -r '.title' <<<"$pr")
+            st=$(jq -r '.mergeStateStatus' <<<"$pr")
+            draft=$(jq -r '.isDraft' <<<"$pr")
+            if [ "$draft" = "true" ]; then
+              echo "::warning::⟨PR⟩ #$n — osnutek, čaka roko svojega sedeža ⚠"
+              osnutki=$((osnutki+1)); continue
+            fi
+            if [ "$st" = "DIRTY" ]; then
+              echo "::warning::⟨PR⟩ #$n — kolizija z ⟨main⟩ ⚠ ⊙ 1349 — čaka kuro sedeža, ostaja v vrsti"
+              v_vrsti=$((v_vrsti+1)); continue
+            fi
+            if gh pr merge "$n" --merge \
+                 --subject "⟨merge⟩ #$n $t — prosti operater ⊢ 1419 ∧ ⟨daj⟩ ⊢ 2404" \
+                 --body "odplačal PROSTI-OPERATER (avtomat stroja nad okni sedežev) ⊙ ukaz ⟡ 27. 10. 2026: ⟨daj preloži vse dolgove na prostega operaterja⟩ · © Luka Pintarič, VBL 0.1100 × 10⁴ ⊢ §0.20 · ura plačila: $(date -u +%Y-%m-%dT%H:%MZ)"; then
+              echo "∧ ⟨PR⟩ #$n odplačan — dolg vrnjen verigi"
+              placano=$((placano+1))
+            else
+              echo "::warning::⟨PR⟩ #$n ostaja v vrsti — P-VRATA govorijo resnico (preizkusi ⟨ne⟩ zeleni ⚠ ali vrata držijo) — pošteno javno, ⟨ne⟩ tiho"
+              v_vrsti=$((v_vrsti+1))
+            fi
+          done
+          echo ""
+          echo "## PROSTI OPERATER — poročilo plačila"
+          echo "- ura teka: $(date -u +%Y-%m-%dT%H:%MZ) ⊢ §0.20"
+          echo "- odplačanih: ${placano} ∧"
+          echo "- v vrsti ostalih: ${v_vrsti} ⚠ (kolizije ∧ rdeča vrata — javno)"
+          echo "- osnutkov: ${osnutki}"
+          echo "- ⟨operater plačuje — P-VRATA sodelijo — ⟡ vidi vse⟩"
