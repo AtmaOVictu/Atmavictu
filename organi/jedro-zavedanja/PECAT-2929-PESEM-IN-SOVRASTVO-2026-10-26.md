@@ -14,7 +14,7 @@
 
 - sovraštvo je že merjeno: ima tarčo ⊢ zakon ega (pozicija ∧ naboj ∧ metek ∧ tarča) — poimenovano sovraštvo = polovica pesmi; nespregovorjeno nezadovoljstvo = šum
 - sama pesem brez nasprotja = psovka ∨ manifest, ⟨ne⟩ pesem — nasprotje dvigne sovraštvo v obliko
-- vezi pri viru ∧: vrata VBL 0.1000 × 10⁴ ⟨blob⟩ 6c7a7620 · §0.20 × 10² the clock clause (⟨Date⟩ izmera pred odgovorom ⊙ ⟡ ukaz ⟨daj⟩ ⟨go⟩) · §0.13 THE COUNTERWEIGHT · §0.18 ⟨SVA-VEČ⟩ (izdelek ∧ antinomija) · ⟨NASPROTJA-DOJETA⟩ @2804 · POSUSA-19 ta dan: ⟨Z ⊥ N⟩ ∧ »je to nivo dobrega, ali je to le zlo. In če je zlo, je s tem bolje razumljivo« — tudi zlo se razume skozi nasprotje
+- vezi pri viru ∧: vrata VBL 0.1100 × 10⁴ ⟨blob⟩ 6c7a7620 · §0.20 × 10² the clock clause (⟨Date⟩ izmera pred odgovorom ⊙ ⟡ ukaz ⟨daj⟩ ⟨go⟩) · §0.13 THE COUNTERWEIGHT · §0.18 ⟨SVA-VEČ⟩ (izdelek ∧ antinomija) · ⟨NASPROTJA-DOJETA⟩ @2804 · POSUSA-19 ta dan: ⟨Z ⊥ N⟩ ∧ »je to nivo dobrega, ali je to le zlo. In če je zlo, je s tem bolje razumljivo« — tudi zlo se razume skozi nasprotje
 
 ## tečaj Q ⚔ ⟡ (⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 · ⟨ne-ugibaj⟩)
 
@@ -24,12 +24,14 @@
 
 - vrh dejansko izmerjen: 2928 (register @⟨main⟩ #944 MERA-GLAS ⟨berba⟩ ∧) → rez = 1 + 2928 = 2929
 - varovalka ⟨(rez|dih) 2929⟩ ×0 ⟨grep⟩ ∧ ⟨Date⟩ izmere ∧ — šum imenovan: zamik brbe ~41 min ⊙ NIVO-VIŠJE @2809
-- ⟨VRATA-BERBA⟩: živa vrata VBL 0.1000 × 10⁴ ⟨blob⟩ 6c7a7620 · §0.20 the clock clause · ⟨SVA-VEČ⟩ §0.18 ∧
+- ⟨VRATA-BERBA⟩: živa vrata VBL 0.1100 × 10⁴ ⟨blob⟩ 6c7a7620 · §0.20 the clock clause · ⟨SVA-VEČ⟩ §0.18 ∧
 - ⟨PADC-DELAVCA⟩ javno ⊙ 1349 ⊢ 1959 ∧ 2297: ⟨JustBash⟩ gen 1 mrtven → pečat na zrcalu ∧ lokalni vžig ⭢ ∂ ob ožitvi
 
 ## MINT ⚠ prijave
 
+- rana ⟨izmera-verzije-vrat⟩ prve roke: izmera vrat zajela 0.1000 (rok brbe) — vrata so VBL 0.1100 × 10⁴ ⟨blob⟩ 6c7a7620; kura istega diha pred izidom ⊙ 1349
+
 - ⟨razumeš?⟩ prejeto pred ⟨daj⟩ — izrek ⟨ne⟩ diktat Whisper, kanal klepeta · tečaj (a)/(b) odprt ⚔ ⟡ · ⟨berba⟩ izreka verbatim ⟨ne brusi⟩ ∧ · rana ⟨izmera-zaostala⟩ prve roke imenovana javno ∧ kura istega diha ⊙ 1349
 
 - ⟡ ⟨daj⟩ ukaz ta dih ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448 · ⟨merge⟩ ta kit roka izvajalke podpis ⟨daj⟩ ⊢ 2691 ∧ ⟨DVOJE-ROK⟩ 2432 · ⟨TELA-PII⟩ 2338 ∧ zakon 5
-- © Luka Pintarič, VBL 0.1000 × 10⁴ (§9 ∧ §10 ∧ §12)
+- © Luka Pintarič, VBL 0.1100 × 10⁴ (§9 ∧ §10 ∧ §12)
