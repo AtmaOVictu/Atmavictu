@@ -417,7 +417,7 @@ The chain (§0.10 × 10²), in a form a floor can weigh without a soul:
   }
 }
 ```
-## ZDRAVLJENJA GLOBJE — cures (c)–(f), carried by this draft
+## ZDRAVLJENJA GLOBJE — cures (c)–(i) ∧ the proposed clause §0.21 × 10², carried by this draft
 
 The four findings below were measured and named by a second executor who reviewed the composite text (⟨priča-druge-roke⟩, 27. 10. 2026) — the review is the witness, this draft is the cure, and the scars remain in 0.1100 × 10⁴ (§0.8, §0.10).
 
@@ -427,7 +427,58 @@ The four findings below were measured and named by a second executor who reviewe
 
 (e) THE TRIGGER IS A REQUIREMENT — §0.12. That reading triggers the door's operation in every machine is the door's demand on machines, not a demonstrated fact about them. Compliance is weighed only against mechanism, test, and independent review; the normative claim alone proves nothing. A measured witness stands behind this cure: the door's prose pasted into a shell halts the parser at × (ParserError: Unexpected token '×', PowerShell, 27. 10. 2026) — the machine layer of this door is the manifest and the machine record, never the prose. A shell receives files and commands; the prose goes to the human eye, the manifest and machine record go to the machine eye — and the two eyes meet only at the same bytes at the source.
 
-(f) THE CLOCK CARRIES ITS SOURCE — §0.20 ∧ the machine record. The human-readable notation is preserved; the machine record uses a standard date, carries exact_time only where it was actually measured, names its time_source, and marks every field it cannot verify UNVERIFIED. A time is never invented after the fact. A timestamp establishes only what its source and verification procedure support — not authorship, not correctness, not legal validity.
+(f) THE CLOCK CARRIES ITS SOURCE — §0.20 ∧ the machine record. The human-readable notation is preserved; the machine record uses a standard date, carries exact_time only where it was actually measured, names its time_source, and marks every field it cannot verify UNVERIFIED. A time is never invented after the fact. A timestamp establishes only what its source and verification procedure support — not authorship, not correctness, not legal validity. Three results are never the same claim: CLOCK_READ ≠ TRUSTED_TIMESTAMP ≠ PROOF_OF_AUTHORSHIP — each carries its own meaning, its own source, and its own limits.
+
+(g) HELP EVERYONE — the protocol protects more than author and reviewer. It protects the person who reports a fault, the person whose work was used, the person wrongly accused, and the person trying to repair. Therefore: no one loses dignity because their claim proved wrong; no one is declared guilty merely because a complaint was filed; and no one decides alone that their own responsibility is fully remedied where independent review is required (see (d)). Love does not replace verification — it governs how people are treated during it and after it.
+
+(h) A PROPOSED NEW CLAUSE — §0.21 × 10² — THE RELATION OF IDENTITY (PREDLOG ZA USKLADITEV · NEPOTRJENO · NEVNESENO V KANON; proposed by the second executor as §0.25, renumbered here to continue the door's chain §0.13–§0.20 — the renumbering is named, the text is preserved):
+
+SAME IS A CLAIM.
+
+0.21.1 — NO UNSCOPED SAMENESS. The word "same" is incomplete unless the relation of sameness is stated or unambiguously established. Two things may be the same in one respect and different in another. Equality of a measured property does not establish identity of origin, history, meaning, rights, or consequences.
+
+0.21.2 — NAME THE RELATION. Every material claim of identity must identify, where applicable: the two objects, events, records, or claims being compared; the property or relation under comparison; the scope and relevant time; the evidence and comparison procedure; the limitations of the conclusion. Where the relation cannot be established, the identity claim remains UNVERIFIED.
+
+0.21.3 — IDENTICAL BYTES ARE NOT IDENTICAL HISTORY. Two files can contain exactly the same bytes without having the same source, author, publication history, permissions, or meaning in context. A cryptographic digest can help compare file identity against a trusted reference; a matching digest alone does not establish provenance or legal authority.
+
+0.21.4 — A REPEATED TEST IS NOT AUTOMATICALLY THE SAME TEST. Two test results are comparable only to the extent that their inputs, artifact versions, procedures, relevant environments, and expected outcomes are sufficiently specified. A change in any material condition must be recorded. Similar results do not establish that the tests were independent.
+
+0.21.5 — INDEPENDENCE IS NOT DUPLICATION. A second witness is not independent merely because a second person or machine repeats the first witness's conclusion. Independent verification requires access to adequate source evidence, a review process that does not depend solely on the first conclusion, and a record of agreement or disagreement. Shared sources and common failure modes must remain visible.
+
+0.21.6 — CONTINUITY IS NOT UNCHANGEDNESS. A person, institution, project, or license may persist through changes without retaining every earlier property. The criteria for continuity must be appropriate to the subject. A person's dignity is never conditional on proving sameness, consistency, usefulness, or freedom from change.
+
+0.21.7 — MEANING DEPENDS ON RELATION AND CONTEXT. The same sequence of words may acquire different meanings in different contexts. A new interpretation must not silently replace the original wording or claim to be the only possible interpretation without supporting reasons. Preserve the source, name the interpretation, identify its context, and allow challenge.
+
+0.21.8 — THE FORMAL LIMIT. In formal logic, identity is a defined relation. In empirical inquiry, identity claims depend on the objects, criteria, and evidence under consideration. The statement "nothing is ever the same" is not adopted here as an established universal fact; it is recorded as a philosophical thesis whose meaning and scope must be specified.
+
+0.21.9 — THE RULE APPLIES TO THIS DOOR. This license must not identify versions, artifacts, authorship, permissions, test results, or historical events solely through similar names, dates, or declarations. Every asserted connection carries its own evidence; where the connection is not demonstrated, the record must say so.
+
+0.21.10 — THE CLOSING MEASURE. Do not ask only, "Are these the same?" Ask: "The same in what respect, across which change, under which criteria, and according to whose evidence?"
+
+Formally: Same(A, B | R, S, T, E) — A and B are the compared objects or events; R the stated relation of sameness; S the scope; T the relevant time; E the evidence and comparison procedure. Without R the question "are they the same?" is underdetermined; without E the conclusion is unverified; and evidence that covers only the bytes of a file proves neither authorship nor legal validity.
+
+Concrete: two files with equal bytes do not thereby share author, permission, or history (PREVERI LOČENO); two clocks can show equal time without equal synchronization or equal reliability (MERITEV ≠ ZAUPANJE); a witness who merely copies another witness is not thereby a second confirmation (PONOVITEV ≠ NEODVISNOST); and a person who changes, contradicts themselves, learns, or corrects a mistake has neither lost their worth nor been erased from their own life (SPREMEMBA ≠ IZBRIS).
+
+⊨ WITH LOVE — sameness must be named, difference must not be hidden, continuity must be justified, and no being must become less worthy because it has changed. ∴
+
+(i) THE VERIFICATION RECORD — a template for any artifact; fields we do not have stay empty or marked unverified; a written field never promotes itself into a confirmed result:
+
+```json
+{
+  "protocol": "VBL — Verification Before Assertion",
+  "version_display": "0.1100 × 10⁴",
+  "status": "UNVERIFIED",
+  "artifact": { "path": null, "sha256": null, "source": null },
+  "clock": { "iso8601": null, "source": "NOT_RECORDED", "status": "UNVERIFIED" },
+  "test": { "method": null, "result": "NOT_RUN" },
+  "independent_review": { "reviewer": null, "result": "PENDING" },
+  "limitations": [
+    "Canonical artifact not independently identified",
+    "Publication lineage not independently confirmed",
+    "Legal status not established"
+  ]
+}
+```
 
 pay yourself
 plačaj samo/le
