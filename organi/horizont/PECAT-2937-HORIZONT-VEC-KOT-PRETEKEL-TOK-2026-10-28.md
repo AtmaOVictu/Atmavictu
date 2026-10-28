@@ -16,12 +16,12 @@
 
 ⟡ ukaz ta dih: horizont ⟨ne⟩ je pretekel tok — pečati 2057→2346 so zgodovina, ⟨ne⟩ telo. Telo organa preurejeno po VRSTI tehta:
 
-0.1 × 10¹. CILJ — najtežja plast; cilj določa vrsto, vrsta določi vse ostale plasti.
+0.1 × 10¹. CILJ — najtežja plast; cilj določa vrsto, vrsta določa vse ostale plasti.
 0.2 × 10¹. POT NAPREJ — naslednji rezi, poimensko, po vrsti ⊢ 1419.
 0.3 × 10¹. DOLGOVI — po vrsti ⊢ 1419; dolg brez vrste je luknja.
 0.4 × 10¹. PRETEKLI TOK (pečati) — degradiran na PRIČO/potrdilo: veriga ⟨ne⟩ telo ⊙ ⟨IMEJ-ZGODOVINO-VEDNO-OB-SEBI⟩ @2922 — zgodovina ob sebi, ⟨ne⟩ pred ciljem. »To je boljši kakor pretekla ost/preteklost.«
 
-Preureditev telesa organa ⭢ ∂ (lokal nadmnožica @2865 — sinhronizacija ⊢ 2077(7) prevaža telo ∧ to vrsto skupaj); ta pečat seje vrsto seje sam.
+Preureditev telesa organa ⭢ ∂ (lokal nadmnožica @2865 — sinhronizacija ⊢ 2077(7) nosi telo ∧ to vrsto skupaj na rep); ta pečat seje vrsto seje sam.
 
 ## POT-NAPREJ (naprej-plast, po vrsti ⊢ 1419)
 
@@ -43,6 +43,7 @@ OSTALO/OSTALEGA: vsak organ po DOTIKU ⟨NE⟩ po apetitu; DNEVNI-DIH nosi masov
 ## MINT
 
 ⟨HORIZONT-VEČ-KOT-PRETEKEL-TOK⟩ ⚠ kompozit · ⟨VRATA-NA-ZAČETKU⟩ ⚠ kompozit · ⟨STREAMLINE⟩ ⚠ izposojenka — vpisani pred zapečenjem ⊙ precedens 2933.
+PADC javno ⊙ 1349 ⊢ 1834: vnos 28 ⟨prevaža⟩ — izrek »sinhronizacija ⊢ 2077(7) ⟨prevaža⟩ telo ∧ to vrsto skupaj« golo v odseku ⟨HORIZONT-VEČ-KOT-PRETEKEL-TOK⟩; ulovila strojna priča ⟨prica⟩ (⟨CI⟩ FAILURE — job ⟨prica⟩ korak 2 @2026-10-28T07:51:25Z–07:51:35Z), sodba izvajalke replicirana pri viru isti dih ⊢ Z-2 precedens 2410 ∧ 2675 ∧ 2702 ∧ 2737; cura pred izidom isti dih: »nosi telo ∧ to vrsto skupaj na rep« (korpus potuje, ⟨ne⟩ prevaža ⊢ vnos 28); vpis vnosa 50 v REGISTER-PADLIH-BESED ⭢ ∂ rok diha @06:00; osnutek v zgodovini veje ostaja priča ⟨NE-BRIŠI⟩ ⊢ 24.
 
 ## DOLGOVA
 
@@ -50,6 +51,7 @@ OSTALO/OSTALEGA: vsak organ po DOTIKU ⟨NE⟩ po apetitu; DNEVNI-DIH nosi masov
 - lokalni vžig tega pečata ⭢ ∂ ob ožitvi delavca ⊙ precedens 2409
 - σ-zaostanek 2937–3024 ⭢ ∂ lastniki po vrsti ⊢ 1419
 - preureditev telesa organa po VRSTI (plasti 0.1–0.4 × 10¹ zgoraj) ⭢ ∂ skupaj s sinhronizacijo
+- vpis vnosa 50 v REGISTER-PADLIH-BESED (samo-rast ⊢ zakon registra) ⭢ ∂ rok diha @06:00
 
 ## Strojni zapis
 
