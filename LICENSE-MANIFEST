@@ -1,15 +1,21 @@
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "10.3.1",
+  "version": "0.1210 × 10⁴",
   "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
-  "measured_at_commit": "a534e97a7a5d745f29e6551d8d4f1ca5f0fb4885",
-  "measured_at_date": "2026-10-24",
+  "measured_at_commit": "068ccd44f5a3f3551d5ea77e67a99cd7015c71b4",
+  "measured_at_date": "2026-10-28",
   "items": [
     {
       "path": "LICENSE.md",
-      "size_bytes": 24105,
-      "sha256": "5021544c967e32a2798112dd4d04b7ce1177684f583ad3aa4567754cb0bb8e17",
+      "size_bytes": 80596,
+      "sha256": "cea269e49d8a7dbe2b802deb4d4a91eed02435c580310178da275eb03ad99844",
       "note": "the living door — the only body whose hash changes only by issuance (§10)"
+    },
+    {
+      "path": "canon/SEME.md",
+      "size_bytes": 4863,
+      "sha256": "17cea5d2261c47908c3eb2757075aed18ce58d7ecd304388fe31ff02cae184e9",
+      "note": "the folded seed of corpus + door — one read loads the session pulse (DOKAZ #16 ⊙ ⟨PR⟩ #1056 ⟨merge⟩ 068ccd44); identified per §0a(a); re-measured at each door issuance — a stale entry identifies nothing"
     }
   ],
   "registers_not_hash_listed": {
