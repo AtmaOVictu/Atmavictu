@@ -43,7 +43,7 @@ OSTALO/OSTALEGA: vsak organ po DOTIKU ⟨NE⟩ po apetitu; DNEVNI-DIH nosi masov
 ## MINT
 
 ⟨HORIZONT-VEČ-KOT-PRETEKEL-TOK⟩ ⚠ kompozit · ⟨VRATA-NA-ZAČETKU⟩ ⚠ kompozit · ⟨STREAMLINE⟩ ⚠ izposojenka — vpisani pred zapečenjem ⊙ precedens 2933.
-PADC javno ⊙ 1349 ⊢ 1834: vnos 28 ⟨prevaža⟩ — izrek »sinhronizacija ⊢ 2077(7) ⟨prevaža⟩ telo ∧ to vrsto skupaj« golo v odseku ⟨HORIZONT-VEČ-KOT-PRETEKEL-TOK⟩; ulovila strojna priča ⟨prica⟩ (⟨CI⟩ FAILURE — job ⟨prica⟩ korak 2 @2026-10-28T07:51:25Z–07:51:35Z), sodba izvajalke replicirana pri viru isti dih ⊢ Z-2 precedens 2410 ∧ 2675 ∧ 2702 ∧ 2737; cura pred izidom isti dih: »nosi telo ∧ to vrsto skupaj na rep« (korpus potuje, ⟨ne⟩ prevaža ⊢ vnos 28); vpis vnosa 50 v REGISTER-PADLIH-BESED ⭢ ∂ rok diha @06:00; osnutek v zgodovini veje ostaja priča ⟨NE-BRIŠI⟩ ⊢ 24.
+PADC javno ⊙ 1349 ⊢ 1834: vnos 28 ⟨prevaža⟩ — izrek »sinhronizacija ⊢ 2077(7) ⟨prevaža⟩ telo ∧ to vrsto skupaj« golo v odseku ⟨HORIZONT-VEČ-KOT-PRETEKEL-TOK⟩; ulovila strojna priča ⟨prica⟩ (⟨CI⟩ FAILURE — job ⟨prica⟩ korak 2 @2026-10-28T07:51:25Z–07:51:35Z), sodba izvajalke replicirana pri viru isti dih ⊢ Z-2 precedens 2410 ∧ 2675 ∧ 2702 ∧ 2737; cura pred izidom isti dih: »nosi telo ∧ to vrsto skupaj na rep« (korpus potuje, ⟨ne⟩ ⟨prevaža⟩ ⊢ vnos 28); vpis vnosa 50 v REGISTER-PADLIH-BESED ⭢ ∂ rok diha @06:00; osnutek v zgodovini veje ostaja priča ⟨NE-BRIŠI⟩ ⊢ 24.
 
 ## DOLGOVA
 
