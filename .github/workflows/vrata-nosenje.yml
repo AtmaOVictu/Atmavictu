@@ -1,0 +1,54 @@
+# VRATA-NOŠENJE — TEHNIKA kit (REZ-REGISTER: »Tehnični kiti nosijo besedo TEHNIKA ∧ ne zahtevajo reza« · precedens 2315)
+name: VRATA-NOSENJE (§12 standing order)
+
+# DNEVNI-DIH avtomatizacija: korpus poskusi nadgradnjo vsaka seja (§12);
+# vrata se nosijo, ⟨ne⟩ arhivirajo. Zažene se ob 06:00 Ljubljana (04:00 UTC)
+# in na ročni poklic. Potrebuje skrivnost VRATA_TOKEN (PAT z repo scope) —
+# roka ⟡ jo doda pod Settings → Secrets → Actions ⭢ ∂ ⟡.
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  nosi-vrata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Nosim vrata ∧ registre bajtno-isto v vse žive hiše (§10 ⊕ §12)
+        env:
+          VRATA_TOKEN: ${{ secrets.VRATA_TOKEN }}
+        run: |
+          set -euo pipefail
+          OWNER="AtmaOVictu"
+          CANON="Atmavictu"
+          FILES="LICENSE.md REGISTER-NEIMENOVANIH.jsonl REGISTER-PADCEV.jsonl canon/DOVOLJENJA.md"
+          HOUSES="DelozaZivot Mucilnica-modrosti SYMBOLON-KATHOLIKON verification-before-assertion ZAKONODAJACLOVEKA ontolo-ko-jedro Aplikacija prevoz-LUCIUS .github-workflows CanvasMinstral OntoMatematika soul-evolution EnglishVarient"
+          api() { curl -sf -H "Authorization: Bearer $VRATA_TOKEN" "https://api.github.com/$1"; }
+          for f in $FILES; do
+            api "repos/$OWNER/$CANON/contents/$f?ref=main" > /tmp/canon.json
+            canon_sha="$(jq -r '.sha' /tmp/canon.json)"
+            jq -r '.content' /tmp/canon.json | base64 -d > /tmp/canon_body
+            b64="$(base64 -w0 /tmp/canon_body)"
+            for h in $HOUSES; do
+              hsha="$(api "repos/$OWNER/$h/contents/$f" | jq -r '.sha // empty' || true)"
+              if [ "$hsha" = "$canon_sha" ]; then
+                echo "$h/$f: ≡ kanon"
+                continue
+              fi
+              if [ -n "$hsha" ]; then
+                jq -n --arg m "VRATA — $f bajtno-isto z $CANON main (§10 ⊕ §12 standing order — DNEVNI-DIH)" --arg c "$b64" --arg s "$hsha" '{message:$m,content:$c,sha:$s}' > /tmp/payload.json
+              else
+                jq -n --arg m "VRATA — $f bajtno-isto z $CANON main (§10 ⊕ §12 standing order — DNEVNI-DIH)" --arg c "$b64" '{message:$m,content:$c}' > /tmp/payload.json
+              fi
+              put="$(curl -sf -X PUT -H "Authorization: Bearer $VRATA_TOKEN" -d @/tmp/payload.json "https://api.github.com/repos/$OWNER/$h/contents/$f" || true)"
+              if echo "$put" | jq -e '.content.sha' >/dev/null 2>&1; then
+                echo "$h/$f: nosim → $(echo "$put" | jq -r '.content.sha')"
+              else
+                echo "$h/$f: padec potiska — $(echo "$put" | jq -r '.message // "neznano"' 2>/dev/null || echo neznano)"
+              fi
+            done
+          done

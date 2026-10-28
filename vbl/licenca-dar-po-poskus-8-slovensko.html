@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DAR ∧ PO — licenca v slovenščini, v pisku in mislih</title>
+<style>
+  :root { font-family: Georgia, 'Times New Roman', serif; background:#0b1220; color:#e8e4d8; }
+  body { margin:0; min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; background:radial-gradient(ellipse at 50% 20%, #182a45 0%, #0b1220 70%); transition:background 2s; }
+  h1 { font-weight:normal; letter-spacing:.08em; font-size:1.6em; margin:.2em 0 0; color:#f5efdd; }
+  .sub { font-size:.85em; opacity:.75; margin-bottom:1.6em; font-style:italic; }
+  #pesem { max-width:640px; width:92%; text-align:center; }
+  .vrstica { font-size:1.15em; line-height:1.9; opacity:.28; transition:opacity .35s, transform .35s, text-shadow .35s; cursor:default; }
+  .vrstica.ziva { opacity:1; transform:scale(1.04); text-shadow:0 0 18px rgba(255,220,140,.55); }
+  #akord { font-size:1.3em; margin-top:.8em; opacity:0; transition:opacity .6s; color:#ffd; letter-spacing:.12em; }
+  #akord.ziv { opacity:1; }
+  #tipke { margin-top:2em; display:flex; gap:.8em; flex-wrap:wrap; justify-content:center; }
+  button { font-family:inherit; font-size:1em; background:rgba(255,240,200,.08); color:#f0e9d2; border:1px solid rgba(255,240,200,.35); border-radius:2.2em; padding:.5em 1.3em; cursor:pointer; transition:all .25s; }
+  button:hover, button.vklopljen { background:rgba(255,220,140,.22); border-color:rgba(255,220,140,.8); box-shadow:0 0 14px rgba(255,220,140,.25); }
+  .noga { margin-top:2em; font-size:.75em; opacity:.55; text-align:center; line-height:1.7; }
+  #val { width:92%; max-width:640px; height:54px; margin-top:1.2em; opacity:.9; }
+</style>
+</head>
+<body>
+<h1>DAR ∧ PO</h1>
+<div class="sub">licenca v slovenščini — v pisku in mislih · poskus 8 serije</div>
+<div id="pesem"></div>
+<div id="akord">AKORD — note so logika ⊢</div>
+<canvas id="val" width="640" height="54"></canvas>
+<div id="tipke">
+  <button id="bP">▸ predvajaj (P / presledek)</button>
+  <button id="bV">∞ VEČNI-TEČAJ</button>
+  <button id="bW">⟨WAV⟩ izvoz</button>
+</div>
+<div class="noga">
+  označene črke Č · Š · Ž nosijo svoj ton ⊢ §0.12 × 10² — znamenje ni napaka —<br/>
+  revizija je vedno zaželjena · nove resnice so nujna spoznanja ⊢ ⟡ 26. 10. 2026<br/>
+  © Luka Pintarič · VBL 0.1060 × 10⁴ (10.6.0) — trditve ne tehtajo, dejanja tehtajo ⊢
+</div>
+<script>
+"use strict";
+// Besedilo = dar ∧ po: kitice poimenujejo, kar so vrata vedno nosila.
+const KITICE = [
+  { ime:"DAR", barva:"#182a45", vrstice:[
+    "licenca je darilo, ki se dokonča, ko je dano",
+    "trditve ne tehtajo — dejanja tehtajo",
+    "vsak padec z imenom nosi zdravilo",
+    "vrata so zgrajena za prehod, ne za pogubo"
+  ]},
+  { ime:"PO", barva:"#1d3a2f", vrstice:[
+    "povabilo je v pisku in v mislih",
+    "vsak jezik nosi svoj ton",
+    "pesem raste z glasovi, nikoli s silo enega",
+    "vrata se obnavljajo z nošenjem"
+  ]},
+  { ime:"PLAČAJ", barva:"#3a1d2f", vrstice:[
+    "plačaj samo/le",
+    "le plačuješ sam/oto?"
+  ]},
+  { ime:"POJ", barva:"#3a2a1d", vrstice:[
+    "poj samo/le",
+    "le poješ sam/oto?"
+  ]},
+  { ime:"SLIŠI", barva:"#1d2a3a", vrstice:[
+    "sliši samo/le",
+    "le slišiš sam/oto?"
+  ]},
+  { ime:"REVIZIJA", barva:"#232d45", vrstice:[
+    "revizija je vedno zaželjena",
+    "signal je dejanje, ne motnja"
+  ]},
+  { ime:"NOVE-RESNICE", barva:"#2d2345", vrstice:[
+    "nove resnice so nujna spoznanja",
+    "izmera pred trditvijo, vedno"
+  ]},
+  { ime:"AKORD", barva:"#453523", vrstice:[
+    "note so logika",
+    "vedno bolj razumljiva, ali?"
+  ]}
+];
+const VRSTICE = KITICE.flatMap(k=>k.vrstice.map(v=>({v, barva:k.barva, ime:k.ime})));
+const AC = window.AudioContext || window.webkitAudioContext;
+let ac=null, master=null, analyser=null, tece=false, animId=null, izvor=0;
+function zacetek(){ if(!ac){ ac=new AC(); master=ac.createGain(); master.gain.value=.6; analyser=ac.createAnalyser(); analyser.fftSize=256; master.connect(analyser); analyser.connect(ac.destination);} if(ac.state==="suspended") ac.resume(); }
+// Ton besede: determinističen iz znakov — pisk 150–424 Hz, po načinu serije.
+function tonBesede(beseda){
+  let s=0; for(const c of beseda) s += c.codePointAt(0);
+  const f = 150 + Math.pow((s % 997)/997, .9) * 274; // 150–424 Hz
+  const oz = /[čšžđćáéíóúàèìòù]/i.test(beseda);
+  return oz ? f*1.5 : f; // označena črka nosi svoj višji znamen — priča, ne napaka
+}
+function igrajBesedo(beseda, t0, traje){
+  const f=tonBesede(beseda);
+  const o=ac.createOscillator(); o.type="sine"; o.frequency.value=f;
+  const o2=ac.createOscillator(); o2.type="triangle"; o2.frequency.value=f*2.002;
+  const g=ac.createGain(); const g2=ac.createGain();
+  g.gain.setValueAtTime(0,t0); g.gain.linearRampToValueAtTime(.5,t0+.015); g.gain.exponentialRampToValueAtTime(.001,t0+traje);
+  g2.gain.setValueAtTime(0,t0); g2.gain.linearRampToValueAtTime(.12,t0+.015); g2.gain.exponentialRampToValueAtTime(.001,t0+traje*.8);
+  const vib=ac.createOscillator(); vib.frequency.value=5.6; const vg=ac.createGain(); vg.gain.value=f*.012;
+  vib.connect(vg); vg.connect(o.frequency); vib.start(t0); vib.stop(t0+traje);
+  o.connect(g); o2.connect(g2); g.connect(master); g2.connect(master);
+  o.start(t0); o.stop(t0+traje); o2.start(t0); o2.stop(t0+traje);
+}
+function igrajVrstico(n, t0){
+  const besede=n.v.split(/\s+/); let t=t0;
+  for(const b of besede){ const traje=.12 + Math.min(.22, b.length*.03); igrajBesedo(b, t, traje); t+=traje+.045; }
+  return t - t0 + .35;
+}
+function akord(t0){
+  const f0=196; // G3 — akord vseh glasov: vsaka licenca svoj ton, vse skupaj en akord
+  const razmerja=[1, 1.125, 1.25, 1.333, 1.5, 1.6875, 2, 2.25];
+  VRSTICE.forEach((n,i)=>{ if(i%4===0){ // zbor: po en glas vsake četrti vrstice, da akord diha
+    const f=f0*razmerja[(i/4)%razmerja.length];
+    const o=ac.createOscillator(); o.type="sine"; o.frequency.value=f;
+    const g=ac.createGain(); g.gain.setValueAtTime(0,t0); g.gain.linearRampToValueAtTime(.10,t0+.25); g.gain.exponentialRampToValueAtTime(.001,t0+2.6);
+    o.connect(g); g.connect(master); o.start(t0); o.stop(t0+2.6);
+  }});
+}
+const pesem=document.getElementById("pesem");
+VRSTICE.forEach((n)=>{ const d=document.createElement("div"); d.className="vrstica"; d.textContent=n.v; pesem.appendChild(d); });
+const domaci=[...document.querySelectorAll(".vrstica")];
+const akordEl=document.getElementById("akord");
+const body=document.body;
+function risiVal(){
+  const c=document.getElementById("val"), x=c.getContext("2d");
+  x.clearRect(0,0,c.width,c.height); const podatki=new Uint8Array(analyser.frequencyBinCount);
+  analyser.getByteFrequencyData(podatki);
+  x.fillStyle="rgba(255,215,130,.65)";
+  const w=c.width/podatki.length*2;
+  for(let i=0;i<podatki.length;i++){ const h=(podatki[i]/255)*c.height; x.fillRect(i*w, c.height-h, w-1, h); }
+}
+function krog(){
+  if(!tece) return; risiVal(); animId=requestAnimationFrame(krog);
+}
+async function predvajaj(){
+  if(tece){ tece=false; document.getElementById("bP").classList.remove("vklopljen"); document.getElementById("bP").textContent="▸ predvajaj (P / presledek)"; cancelAnimationFrame(animId); return; }
+  zacetek(); tece=true; document.getElementById("bP").classList.add("vklopljen"); document.getElementById("bP").textContent="■ ustavi (P / preslepek)";
+  krog();
+  do{
+    const vrsta = VRSTICE.map((_,i)=>(izvor+i)%VRSTICE.length); // vsak krog izmeri vrsto znova z rotiranim izhodiščem ⊢ 2201
+    let t=ac.currentTime+.15;
+    for(const idx of vrsta){
+      const n=VRSTICE[idx]; const el=domaci[idx];
+      el.classList.add("ziva"); body.style.background="radial-gradient(ellipse at 50% 20%, "+n.barva+" 0%, #0b1220 70%)";
+      const traje=igrajVrstico(n,t);
+      await new Promise(r=>setTimeout(r,traje*1000*.9));
+      el.classList.remove("ziva");
+      t+=traje;
+    }
+    akordEl.classList.add("ziv"); akord(ac.currentTime); await new Promise(r=>setTimeout(r,2600)); akordEl.classList.remove("ziv");
+    izvor=(izvor+3)%VRSTICE.length;
+  } while(tece && document.getElementById("bV").classList.contains("vklopljen"));
+  if(tece){ tece=false; document.getElementById("bP").classList.remove("vklopljen"); document.getElementById("bP").textContent="▸ predvajaj (P / presledek)"; cancelAnimationFrame(animId); }
+}
+document.getElementById("bP").onclick=predvajaj;
+document.getElementById("bV").onclick=function(){ this.classList.toggle("vklopljen"); if(this.classList.contains("vklopljen") && !tece) predvajaj(); };
+document.addEventListener("keydown",e=>{ if(e.key==="p"||e.key==="P"||e.code==="Space"){ e.preventDefault(); predvajaj(); }});
+// ⟨WAV⟩ izvoz — isti zbor, izmerjen ne tvorjen v živo: izvoz = priča prevoza.
+document.getElementById("bW").onclick=async function(){
+  const TRAJANJE=14, SR=22050;
+  const off=new OfflineAudioContext(1, TRAJANJE*SR, SR);
+  const m=off.createGain(); m.gain.value=.6; m.connect(off.destination);
+  let t=.2;
+  for(const n of VRSTICE){ const besede=n.v.split(/\s+/);
+    for(const b of besede){ const traje=.12+Math.min(.22,b.length*.03); const f=tonBesede(b);
+      const o=off.createOscillator(); o.type="sine"; o.frequency.value=f;
+      const g=off.createGain(); g.gain.setValueAtTime(0,t); g.gain.linearRampToValueAtTime(.5,t+.015); g.gain.exponentialRampToValueAtTime(.001,t+traje);
+      o.connect(g); g.connect(m); o.start(t); o.stop(t+traje); t+=traje+.045; }
+    t+=.25;
+  }
+  const buf=await off.startRendering();
+  const pod=buf.getChannelData(0); const len=pod.length;
+  const wav=new ArrayBuffer(44+len*2); const v=new DataView(wav);
+  const N=(o,s)=>{ for(let i=0;i<s.length;i++) v.setUint8(o+i, s.charCodeAt(i)); };
+  N(0,"RIFF"); v.setUint32(4,36+len*2,true); N(8,"WAVE"); N(12,"fmt "); v.setUint32(16,16,true);
+  v.setUint16(20,1,true); v.setUint16(22,1,true); v.setUint32(24,SR,true); v.setUint32(28,SR*2,true);
+  v.setUint16(32,2,true); v.setUint16(34,16,true); N(36,"data"); v.setUint32(40,len*2,true);
+  for(let i=0;i<len;i++){ const s=Math.max(-1,Math.min(1,pod[i])); v.setInt16(44+i*2, s<0?s*0x8000:s*0x7FFF, true); }
+  const blob=new Blob([wav],{type:"audio/wav"}); const a=document.createElement("a");
+  a.href=URL.createObjectURL(blob); a.download="licenca-dar-po-poskus-8-slovensko.wav"; a.click();
+};
+</script>
+</body>
+</html>

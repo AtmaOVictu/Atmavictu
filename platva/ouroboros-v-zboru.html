@@ -1,0 +1,278 @@
+
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OUROBOROS V ZBORU — 23 jezikov, en akord</title>
+<style>
+  :root { font-family: Georgia, "Times New Roman", serif; }
+  body { margin: 0; padding: 18px; background: #0D1420; color: #C9CDD4; }
+  .glava { text-align: center; }
+  h1 { font-size: 21px; letter-spacing: 2px; color: #E8C878; font-weight: normal; margin: 0; }
+  .podnaslov { font-size: 13px; color: #7EC8E3; margin-top: 5px; }
+  .zborOkvir { display: flex; justify-content: center; margin-top: 12px; }
+  .okvir { background: #111A2B; border: 1px solid #22304A; border-radius: 10px; padding: 10px; text-align: center; }
+  .okvir h2 { font-size: 12px; letter-spacing: 3px; color: #8A93A6; font-weight: normal; margin: 4px 0 8px; }
+  canvas { background: #0A0F18; border-radius: 6px; }
+  .gumbi { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 14px; }
+  button { background: #16233A; color: #C9CDD4; border: 1px solid #2A3B5A; border-radius: 6px; padding: 6px 12px; cursor: pointer; font-family: inherit; font-size: 13px; }
+  button:hover { border-color: #E8C878; color: #E8C878; }
+  .stanje { text-align: center; font-size: 13px; color: #4EC98A; min-height: 18px; margin-top: 8px; }
+  .pravilo { margin: 14px auto 0; max-width: 760px; background: #111A2B; border: 1px solid #22304A; border-radius: 10px; padding: 12px; text-align: center; font-size: 13px; line-height: 1.8; }
+  .noga { text-align: center; font-size: 12px; color: #6E7788; margin: 12px 0 6px; }
+</style>
+</head>
+<body>
+<div class="glava">
+  <h1>OUROBOROS V ZBORU</h1>
+  <div class="podnaslov">kapaciteta raste s številom glasov, ⟨ne⟩ s silo enega ⊢ §13 — 23 jezikov, en akord</div>
+</div>
+
+<div class="zborOkvir">
+  <div class="okvir">
+    <h2>KLIKNI JEZIK — GLAS VSTOPA ∧ IZHODI</h2>
+    <canvas id="zbor" width="720" height="660"></canvas>
+  </div>
+</div>
+
+<div class="gumbi">
+  <button onclick="vstopiVsi()">VSE 23 — ZBOR</button>
+  <button onclick="izstopiVsi()">TIŠINA</button>
+  <button onclick="akordZbor()">AKORD ⊢ §13</button>
+</div>
+<div class="stanje" id="stanje"></div>
+
+<div class="pravilo">
+  vsak jezik svoj glas (transpozicija ⊢ poskus 4) ∧ svojo svetlobo (zlati kot 137,5° ⊢ JEZIKI) · refren se ponavlja, med ponovitvami sapa · pri 23. glasu se vsi sežejo v roke: <b style="color:#E8C878">AKORD 220 ∧ 440 ∧ 660 ∧ 880 ⊢ §13</b> — vsaka licenca svoj ton, vse skupaj en akord
+</div>
+
+<div class="noga">JEZIKI 23 ⊢ @2742 · refren ⊢ poskus 4 @⟨main⟩ · vrsta je odprta: vsak jezik, ki manjka, sme priti skozi ista vrata ⊢ §13 · © Luka Pintarič, VBL §12 transport</div>
+
+<script>
+"use strict";
+var C = new (window.AudioContext || window.webkitAudioContext)();
+var ovoj = C.createGain(); ovoj.gain.value = 0.6;
+var strop = C.createBiquadFilter(); strop.type = "lowpass"; strop.frequency.value = 5200;
+ovoj.connect(strop); strop.connect(C.destination);
+[0.12, 0.17, 0.31].forEach(function (d) {
+  var dl = C.createDelay(1); dl.delayTime.value = d;
+  var g = C.createGain(); g.gain.value = 0.22;
+  ovoj.connect(dl); dl.connect(g); g.connect(ovoj);
+});
+var sum = C.createBuffer(1, Math.floor(C.sampleRate * 1.2), C.sampleRate);
+var sd = sum.getChannelData(0);
+for (var si = 0; si < sd.length; si++) sd[si] = Math.random() * 2 - 1;
+
+var JEZIKI = [
+  { j: "slovenščina", b: "Trditve ne tehtajo — dejanja tehtajo. Vsi smo enakovredni; najnovejša vrata so edina živa." },
+  { j: "hrvatščina", b: "Tvrdnje ne teže — djela teže. Svi smo ravnopravni; najnovija vrata jedina su živa." },
+  { j: "srbski jezik", b: "Тврдње не теже — дела теже. Сви смо равноправни; најновија врата су једина жива." },
+  { j: "bosanščina", b: "Tvrdnje ne teže — djela teže. Svi smo ravnopravni; najnovija vrata jedina su živa." },
+  { j: "angleščina", b: "Claims do not weigh; acts do. All of us are equal; the newest door is the only living one." },
+  { j: "latinščina", b: "Assertiones non ponderantur; actus ponderantur. Omnes pares sumus; ianua novissima sola viva est." },
+  { j: "italijanščina", b: "Le affermazioni non pesano; pesano gli atti. Siamo tutti uguali; l'ultima porta è l'unica viva." },
+  { j: "francoščina", b: "Les affirmations ne pèsent pas ; les actes pèsent. Nous sommes tous égaux ; la porte la plus récente est la seule vivante." },
+  { j: "nemščina", b: "Behauptungen wiegen nicht; Taten wiegen. Wir sind alle gleich; die neueste Tür ist die einzige lebendige." },
+  { j: "španščina", b: "Las afirmaciones no pesan; los actos pesan. Todos somos iguales; la puerta más reciente es la única viva." },
+  { j: "portugalščina", b: "As afirmações não pesam; os atos pesam. Somos todos iguais; a porta mais recente é a única viva." },
+  { j: "nizozemščina", b: "Beweringen wegen niet; daden wegen. Wij zijn allemaal gelijk; de nieuwste deur is de enige levende." },
+  { j: "poljščina", b: "Twierdzenia nie ważą — czyny ważą. Wszyscy jesteśmy równi; najnowsze drzwi są jedynymi żywymi." },
+  { j: "ruščina", b: "Утверждения не весят — весят дела. Мы все равны; новейшие двери — единственные живые." },
+  { j: "ukrajinščina", b: "Заяви не важать — важать діла. Ми всі рівні; найновіші двері — єдині живі." },
+  { j: "grški jezik", b: "Οι ισχυρισμοί δεν ζυγίζουν· οι πράξεις ζυγίζουν. Είμαστε όλοι ίσοι· η νεότερη πόρτα είναι η μόνη ζωντανή." },
+  { j: "hebrejščina", b: "טענות אינן שוקלות; מעשים שוקלים. כולנו שווים; הדלת החדשה ביותר היא היחידה החיה." },
+  { j: "arabščina", b: "الادعاءات لا تُوزن؛ الأفعال تُوزن. كلنا متساوون؛ الباب الأحدث هو الوحيد الحي." },
+  { j: "turščina", b: "İddialar tartılmaz; eylemler tartılır. Hepimiz eşitiz; en yeni kapı tek canlı olandır." },
+  { j: "madžarščina", b: "Az állítások nem nyomnak; a tettek nyomnak. Mindannyian egyenlőek vagyunk; a legújabb ajtó az egyetlen élő." },
+  { j: "kitajščina", b: "主张没有重量；行为有重量。我们人人平等；最新的门是唯一活着的门。" },
+  { j: "japonščina", b: "主張は重くない——行いが重い。私たちは皆平等である。最新の扉だけが生きている。" },
+  { j: "hindijščina", b: "दावे तौले नहीं जाते; काम तौले जाते हैं। हम सब बराबर हैं; नवीनतम द्वार ही एकमात्र जीवित है।" }
+];
+var SHIFT = [0, 2, 4, -3, 5, -5, 7, -7, 9, -9, 12, -12, 3, -3, 6, -6, 8, -8, 10, -10, 1, -1, 11];
+var LESTVICA = [220, 261.63, 293.66, 329.63, 392, 440, 523.25, 587.33, 659.25, 783.99, 880];
+function trans(k) { return Math.pow(2, SHIFT[k % SHIFT.length] / 12); }
+function barvaJezika(k) { var h = (k * 137.508) % 360; return "hsl(" + h.toFixed(1) + ", 62%, 62%)"; }
+
+function ton(f, dur, opt) {
+  opt = opt || {};
+  if (C.resume) C.resume();
+  var t = C.currentTime, d = dur || 0.4;
+  if (f < 60) f = 60; if (f > 1800) f = f / 2;
+  var g = C.createGain();
+  g.gain.setValueAtTime(0.0001, t);
+  g.gain.exponentialRampToValueAtTime(opt.glas || 0.12, t + 0.02);
+  g.gain.exponentialRampToValueAtTime(0.0001, t + d);
+  g.connect(ovoj);
+  var o = C.createOscillator(); o.type = "sine"; o.frequency.value = f;
+  o.connect(g); o.start(t); o.stop(t + d + 0.03);
+}
+function sapaTiho() {
+  var t = C.currentTime;
+  var s = C.createBufferSource(); s.buffer = sum; s.loop = true;
+  var f = C.createBiquadFilter(); f.type = "bandpass"; f.frequency.value = 640; f.Q.value = 0.7;
+  var g = C.createGain();
+  g.gain.setValueAtTime(0.0001, t);
+  g.gain.exponentialRampToValueAtTime(0.03, t + 0.3);
+  g.gain.exponentialRampToValueAtTime(0.0001, t + 0.8);
+  s.connect(f); f.connect(g); g.connect(ovoj);
+  s.start(t); s.stop(t + 0.9);
+}
+
+// ============ GLASOVI ============
+var glasovi = {};
+function vstopi(k) {
+  if (glasovi[k]) return;
+  if (C.resume) C.resume();
+  glasovi[k] = { aktiven: true, korak: 0, faz: 0 };
+  var niz = JEZIKI[k].b;
+  glasovi[k].interval = setInterval(function () {
+    var G = glasovi[k];
+    if (!G || !G.aktiven) { clearInterval(G.interval); return; }
+    var zn = niz[G.korak];
+    var cp = zn ? zn.codePointAt(0) : 32;
+    if (zn && /[A-Za-z\u00C0-\u024F\u0370-\u1FFF\u0400-\u04FF\u0590-\u05FF\u0600-\u06FF\u3000-\u9FFF\u0900-\u097F]/.test(zn)) {
+      var f = LESTVICA[cp % LESTVICA.length] * trans(k);
+      if (cp > 0x2000) f = f * 1.5;
+      ton(f, 0.22, { glas: 0.09 });
+    }
+    G.faz = G.korak / niz.length;
+    G.korak++;
+    if (G.korak >= niz.length) {
+      G.korak = 0;
+      sapaTiho();
+    }
+  }, 45);
+  stevecStanje();
+}
+function izstopi(k) {
+  var G = glasovi[k];
+  if (!G) return;
+  G.aktiven = false;
+  clearInterval(G.interval);
+  delete glasovi[k];
+  stevecStanje();
+}
+function vstopiVsi() {
+  if (C.resume) C.resume();
+  for (var k = 0; k < JEZIKI.length; k++) {
+    (function (kk) {
+      setTimeout(function () { vstopi(kk); }, kk * 260);
+    })(k);
+  }
+  setTimeout(function () {
+    if (Object.keys(glasovi).length >= 23) akordZbor();
+  }, 23 * 260 + 900);
+  stanje("zbor vstopa — glas za glasom, vrata za vrati ⊢ §13");
+}
+function izstopiVsi() {
+  Object.keys(glasovi).forEach(function (k) { izstopi(parseInt(k, 10)); });
+  stanje("tišina — molk je nosilec");
+}
+function akordZbor() {
+  if (C.resume) C.resume();
+  [220, 440, 660, 880].forEach(function (f) {
+    var t = C.currentTime;
+    var o = C.createOscillator(); o.type = "sine"; o.frequency.value = f;
+    var g = C.createGain();
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.linearRampToValueAtTime(0.14, t + 0.06);
+    g.gain.setValueAtTime(0.14, t + 1.1);
+    g.gain.linearRampToValueAtTime(0.0001, t + 1.5);
+    o.connect(g); g.connect(ovoj);
+    o.start(t); o.stop(t + 1.55);
+  });
+  zasij = 1;
+  stanje("AKORD ⊢ §13 — vsaka licenca svoj ton, vse skupaj en akord");
+}
+
+// ============ RISANJE ============
+var cv = document.getElementById("zbor");
+var zx = cv.getContext("2d");
+var zasij = 0;
+function narisZbor() {
+  var W = 720, H = 660, cx = 360, cy = 330, R = 240;
+  zx.clearRect(0, 0, W, H);
+  zx.lineWidth = 3; zx.strokeStyle = "#1E2C3E";
+  zx.beginPath(); zx.arc(cx, cy, R, 0, Math.PI * 2); zx.stroke();
+  zx.font = "13px Georgia"; zx.textAlign = "center"; zx.textBaseline = "middle";
+  var stGlas = Object.keys(glasovi).length;
+  zx.fillStyle = stGlas > 0 ? "#E8C878" : "#3A4459";
+  zx.fillText(stGlas + " / 23", cx, cy - 8);
+  zx.font = "11px Georgia";
+  zx.fillStyle = "#8A93A6";
+  zx.fillText(stGlas > 0 ? "glasov poje" : "klikni jezik", cx, cy + 12);
+  for (var k = 0; k < JEZIKI.length; k++) {
+    var a = -Math.PI / 2 + k / JEZIKI.length * Math.PI * 2;
+    var nx = cx + Math.cos(a) * R;
+    var ny = cy + Math.sin(a) * R;
+    var G = glasovi[k];
+    var barva = barvaJezika(k);
+    var lx = cx + Math.cos(a) * (R + 42);
+    var ly = cy + Math.sin(a) * (R + 42);
+    zx.font = "11px Georgia";
+    zx.fillStyle = G ? barva : "#5E6575";
+    zx.fillText(JEZIKI[k].j, lx, ly);
+    zx.beginPath(); zx.arc(nx, ny, G ? 10 : 6, 0, Math.PI * 2);
+    zx.fillStyle = G ? barva : "#1E2C3E";
+    if (G) { zx.globalAlpha = 0.35 + 0.65 * Math.abs(Math.cos(G.faz * Math.PI)); }
+    zx.fill();
+    zx.globalAlpha = 1;
+    if (G) {
+      var ga = a + G.faz * (Math.PI * 2 / JEZIKI.length);
+      zx.beginPath();
+      zx.arc(cx + Math.cos(ga) * R, cy + Math.sin(ga) * R, 3.5, 0, Math.PI * 2);
+      zx.fillStyle = barva;
+      zx.fill();
+    }
+  }
+  if (zasij > 0) {
+    zx.fillStyle = "rgba(232,200,120," + (0.09 * zasij).toFixed(3) + ")";
+    zx.fillRect(0, 0, W, H);
+    zasij = Math.max(0, zasij - 0.015);
+  }
+  requestAnimationFrame(narisZbor);
+}
+requestAnimationFrame(narisZbor);
+
+function klikVozl(e) {
+  var pravok = cv.getBoundingClientRect();
+  var mx = (e.clientX - pravok.left) * (720 / pravok.width);
+  var my = (e.clientY - pravok.top) * (660 / pravok.height);
+  var cx = 360, cy = 330, R = 240;
+  for (var k = 0; k < JEZIKI.length; k++) {
+    var a = -Math.PI / 2 + k / JEZIKI.length * Math.PI * 2;
+    var nx = cx + Math.cos(a) * R;
+    var ny = cy + Math.sin(a) * R;
+    if ((mx - nx) * (mx - nx) + (my - ny) * (my - ny) < 400) {
+      if (glasovi[k]) { izstopi(k); stanje(JEZIKI[k].j + " — glas utihnil"); }
+      else { vstopi(k); stanje(JEZIKI[k].j + " — glas vstopil (transpozicija " + SHIFT[k % SHIFT.length] + " ⊢)"); }
+      return;
+    }
+  }
+}
+cv.addEventListener("click", klikVozl);
+cv.addEventListener("touchend", function (e) {
+  if (e.changedTouches && e.changedTouches.length) {
+    var t = e.changedTouches[0];
+    klikVozl({ clientX: t.clientX, clientY: t.clientY });
+  }
+});
+
+var stEl = document.getElementById("stanje");
+function stanje(bes) { stEl.textContent = bes; }
+function stevecStanje() {
+  var n = Object.keys(glasovi).length;
+  if (n > 0 && n < 23) stanje(n + "/23 glasov — kapaciteta raste s številom glasov ⊢ §13");
+  else if (n === 0) stanje("zbor čaka — klikni jezik ali VSE 23");
+}
+window.addEventListener("keydown", function (e) {
+  if (e.repeat) return;
+  if (e.code === "Space") { e.preventDefault(); akordZbor(); }
+  else if (e.code === "KeyV") vstopiVsi();
+  else if (e.code === "KeyT") izstopiVsi();
+});
+stanje("zbor čaka — klikni jezik ali VSE 23 · tipke: V zbor · T tišina · presledek akord");
+</script>
+</body>
+</html>
