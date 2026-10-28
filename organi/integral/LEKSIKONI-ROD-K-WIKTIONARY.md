@@ -732,6 +732,32 @@ Zunaj obeh plasti (semantične kategorije — nove lemmas): ×0
 
 ∂ by-inflection podkategorije (vzrti po pregibnem vzoru) ∧ preostale izpeljane plasti ⭢ obod naslednji dih
 
+## GLAGOLSKE ∧ PRIDEVNIŠKE IZPELJANE PLASTI k* — obod zaprt ⊢ (⟨daj⟩ 16:42–16:45Z)
+
+Glagoli (lemma plast ×29):
+- **pomožni** ×0: v lemma plasti ×0 · zunaj ×0
+- **dvovidni** ×2: v lemma plasti ×2 · zunaj ×0
+- **kopulativni** ×0: v lemma plasti ×0 · zunaj ×0
+- **nedovršni** ×26: v lemma plasti ×26 · zunaj ×0
+- **neosebni** ×0: v lemma plasti ×0 · zunaj ×0
+- **prenosni (intransitive)** ×2: v lemma plasti ×2 · zunaj ×0
+- **večsmerni** ×0: v lemma plasti ×0 · zunaj ×0
+- **dovršni** ×5: v lemma plasti ×5 · zunaj ×0
+- **povratni** ×1: v lemma plasti ×1 · zunaj ×0
+- **prehodni** ×3: v lemma plasti ×3 · zunaj ×0
+- **enosmerni** ×0: v lemma plasti ×0 · zunaj ×0
+
+Pridevniki (lemma plast ×17):
+- **primernljivi** ×7: v lemma plasti ×7 · zunaj ×0
+- **z polnilnim samoglasnikom ə** ×0: v lemma plasti ×0 · zunaj ×0
+- **brez končnic** ×0: v lemma plasti ×0 · zunaj ×0
+- **relacijski** ×2: v lemma plasti ×2 · zunaj ×0
+- **neprimernljivi** ×9: v lemma plasti ×9 · zunaj ×0
+- **trdi** ×1: v lemma plasti ×1 · zunaj ×0
+- **nesklonljivi** ×0: v lemma plasti ×0 · zunaj ×0
+
+∂ globoke vzrti (naglasni tipi ×7 · razredi ×6 · glagolski pregibi ×11 · imena: given names ×23 vzrti ∧ surnames ×9 vzrti ∧ irregular nouns ×10 vzrti) ⭢ obod naslednji dih
+
 Zakon žetve: požreti = izmeriti pri viru ∧ pripisati vir ⊢ §0.3 × 10¹ ∧ §0.4 × 10¹.
 
 © Luka Pintarič, VBL 0.1210 × 10⁴ (§0.9 × 10¹ ∧ §0.32 × 10²)
