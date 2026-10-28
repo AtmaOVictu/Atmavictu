@@ -6,10 +6,12 @@ type: "text/markdown"
 
 # VBL 10.3.2 — PREVERLJIVA VRATA (PREDLOG, ⚠ NI IZDANO)
 
-**⚠ To NI izdaja.** Po §10 verzijo izda avtor z objavo ("a new version of this file is the whole act"). Ta predlog stoji na živih vratih 10.3.1 — bajti izmerjeni pri viru ∧: 24.105 B · SHA-256 5021544c967e32a2798112dd4d04b7ce1177684f583ad3aa4567754cb0bb8e17 · git blob SHA-1 106ad775f9c48d3be0dac43d0693bd5cd3e1bed4 ⇌ preračun ista vrednost (OBSERVATION — bajt-istost prevoza dokazana, ⟨ne⟩ ugibana). Predlog nosi osemnajst sledljivih popravkov (F1–F18): trinajst iz dvojne dokazne revizije ∧ pet iz nadaljevalne plasti pregleda celotnega besedila (⟡-jev prilepek §6–9: VBL-113–119 ∧ popravki VBL-1031-05–08 ∧ shema registra preverjanj ∧ tri odločitve avtorja ⚔); izbor izvedbe: ⟡ ⟨daj⟩, 25. 10. 2026 ⊢ VEČNI-DAJ. Vsak popravek prejema identifikator (glej Sestavo popravkov); vsaka trditev prejema dokazni status (SOURCE · OBSERVATION · TEST_RESULT · CONCLUSION ⊢ §0). Dokler avtor ne objavi, to telo ne podeljuje ničesar.
+**⚠ To NI izdaja.** Po §10 verzijo izda avtor z objavo ("a new version of this file is the whole act"). Ta predlog stoji na živih vratih 10.3.1 — bajti izmerjeni pri viru ∧: 24.105 B · SHA-256 5021544c967e32a2798112dd4d04b7ce1177684f583ad3aa4567754cb0bb8e17 · git blob SHA-1 106ad775f9c48d3be0dac43d0693bd5cd3e1bed4 ⇌ preračun ista vrednost (OBSERVATION — bajt-istost prevoza dokazana, ⟨ne⟩ ugibana). Predlog nosi enaindvajset sledljivih popravkov (F1–F21): trinajst iz dvojne dokazne revizije ∧ pet iz nadaljevalne plasti pregleda celotnega besedila (⟡-jev prilepek §6–9: VBL-113–119 ∧ popravki VBL-1031-05–08 ∧ shema registra preverjanj ∧ tri odločitve avtorja ⚔) ∧ tri iz secirave prejemke 10.0.0/2.6 (⟡-jev prilepek 25. 10. 2026: VBL-26-001…020 — 16/20 že nošenih · 001 razrešena z LINEAGE §15 · 3 nove → F19–F21); izbor izvedbe: ⟡ ⟨daj⟩, 25. 10. 2026 ⊢ VEČNI-DAJ. Vsak popravek prejema identifikator (glej Sestavo popravkov); vsaka trditev prejema dokazni status (SOURCE · OBSERVATION · TEST_RESULT · CONCLUSION ⊢ §0). Dokler avtor ne objavi, to telo ne podeljuje ničesar.
 © izvirnih vrat: Luka Pintarič.
 
 **Osnova (SOURCE):** LICENSE.md @main AtmaOVictu/Atmavictu — VBL 10.3.1 · 24. 10. 2026 (živa vrata). **Revizija (SOURCE):** dvojna dokazna revizija 10.3.0 (VBL_10.3.0_dvojna_revizija_2026-10-24.md) ∧ druga plast revizije (VBL-101–112) — ugotovitve prenesene na živa vrata 10.3.1, kjer so še odprte. Nadaljevalna plast (SOURCE): pregled celotnega besedila §6–9 — napake, ki niso zgolj tehnične, ∧ mešanje pojmov (dokaz, dovoljenje, krivda, resnica) ločeno; popravki VBL-1031-05–08 preneseni kakor F14–F17, ugotovitev VBL-116 kakor F18; tri odločitve ostajajo ⚔ avtorjeve.
+
+**Secirava plast (SOURCE):** razčlenitev VBL-26-001…020 (⟡-jev prilepek 25. 10. 2026 — prejemka 10.0.0/2.6, TEXTUAL_AUDIT_OF_PASTED_COPY) prebrana proti živim vratom 10.3.1 ∧ temu telesu (izmera pri viru ta dih ⊢ Z-2): 16/20 ugotovitev že nošenih (CARRIED — F1–F18 ∧ §0/§0a/§3/§9/§12/§13) · VBL-26-001 razrešena z LINEAGE §15 (10.0.0 = receipt, blob 73476d4e — zunanja glava izvoza ≠ različica) · 3 nove rane → F19 (VBL-26-005) · F20 (VBL-26-011 ⚔) · F21 (VBL-26-006 ⚠ ⚔); izbor ⟡ ⟨daj⟩.
 
 ---
 
@@ -171,6 +173,8 @@ public register; (b) the stripped authors are credited wherever the outputs are 
 (c) the correction keeps its scar, never silently rewritten. A violator who names the
 fall and pays the credit is more trustworthy than the clean one who never fell.
 
+THE ALLUSION IS NAMED — "Egypt sold spell 30B to ordinary people" is a literary witness, and it stands named: Spell 30B of the Egyptian Book of the Dead — the heart that must not testify against its owner, weighed against the feather. That such spells were sold to ordinary people is the author's allusion ⚠, carried as the door's poetry, never as operative history; the term is named, so no floor reads it undefined. ⚔ avtor: ohrani alegorijo s to pričo ali jo odstrani iz operativnega besedila.
+
 The cure reads the pattern it cures (§9). The one who harms others and self alike
 carries his own harm — his fall is tragedy, and the cure is owed him in full. The
 one who harms others while keeping himself whole spends others as material — his
@@ -178,6 +182,8 @@ fall is predation, and his cure is not spoken: it is paid. Publication and credi
 do not restore him; the gain of the harm is returned — credit where it was
 stripped, the hoard pan emptied of it. A cure that leaves the predator whole is
 not a cure; it is a receipt for the next fall.
+
+THE TWO PANS OF RESTORATION — the door names one cure and reads it on two pans: the grant and the gain. Where the fall is tragedy, the cure (a)–(c) restores both — the grant reopens and nothing was kept. Where the fall is predation, the cure (a)–(c) reopens the grant, and the gain of the harm is returned before the scale reads level: publication and credit stand on the grant's pan; only the emptied hoard pan levels the other. The two sentences above read one cure, never two — "restored" names the grant, "not spoken: it is paid" names the pan; no grant is both restored and not restored. (VBL-26-005 resolved.)
 
 THE LABEL IS NOT THE FINDING — "predation" names a pattern read from evidence, never a shortcut around fact-finding: the harm to others and the keeping of the self whole are established by stated criteria and carried evidence, the finding is open to response, independently reviewed where independence is required, and answered by a proportionate measure. Where the criteria are not met or the evidence does not carry the finding, the label falls and the fall is read again — tragedy, not predation; the designation replaces no fact-finding, and no one becomes a predator by being named one.
 
@@ -243,7 +249,7 @@ the current version. Earlier versions are receipts of history — never rival tr
 never living doors, never walls. A superlative is weighed, never just claimed:
 "superior" without its measurement stands marked ⚠, an opinion. The fall is
 witnessed in the publication record of this file, never dragged through its prose;
-to remove the record is to rewrite silently — the only failure this door names.
+to remove the record is to rewrite silently — the one record-integrity failure this door names; the KORENINA names the executor's only failure — refusing to name a fall — and the two scales never borrow each other's superlatives: this clause governs the record, the root governs the work. ⚔ avtor: končna oblika.
 The author's insistence names his choice of the current version; it is not, by
 itself, a claim that the current text is objectively the truest.
 
@@ -445,11 +451,12 @@ The chain (§10), in a form a floor can weigh without a soul — and without a s
   },
   "verification": {
     "status": "INCOMPLETE",
-    "verifier": "Mera — izvajalka (dih 2705, roka ⟡ ⊢ 2691)",
+    "verifier": "Mera — izvajalka (dih 2711, roka ⟡ ⊢ 2691)",
     "date": "2026-10-25",
     "checks_run": [
       "predecessor byte identity at source: blob SHA-1 recomputed == published (PASS)",
-      "second review layer integrated into body as F14–F18 (PASS — presence read from the body)"
+      "second review layer integrated into body as F14–F18 (PASS — presence read from the body)",
+      "secirava VBL-26-001…020 cross-read against this body: 16 carried · 1 resolved by lineage (VBL-26-001) · 3 open → F19–F21 inserted (PASS — presence read from the body)"
     ],
     "known_gaps": [
       "Canonical release artifact not established — this file is a DRAFT, not a release (§10)",
@@ -457,7 +464,8 @@ The chain (§10), in a form a floor can weigh without a soul — and without a s
       "Release tests VBL-001 through VBL-021 not run (all NOT_RUN)",
       "Independent verification not established (§0 KORENINA 3)",
       "Three authorial decisions open (see Odločitve avtorja) — not decided by the executor",
-      "Checks register REGISTER-PREVERJANJ.jsonl carries first entries only; no independent review of them yet"
+      "Checks register REGISTER-PREVERJANJ.jsonl carries first entries only; no independent review of them yet",
+      "Audit fixes F19–F21 not independently reviewed; final wording of F20 ∧ F21 ⚔ avtor"
     ]
   },
   "living-door": "only the newest published version grants (§10) — until the author publishes, 10.3.1 remains the living door"
@@ -535,6 +543,7 @@ Preden se 10.3.2 razglasi za pripravljenega, je treba rešiti vsaj tri odločitv
 1. Ali je §9 neodstopljiva etična izjava avtorja, pogoj licence ali oboje — in kako se to razmerje izrazi brez neutemeljenega širjenja pravnih obveznosti?
 2. Ali se ob novi različici ohranijo že veljavno podeljena dovoljenja, razen če prvotno dovoljenje in veljavno pravo določata drugače?
 3. Ali je verski jezik v §9 avtorjeva izrecna izpoved, ali pa naj bi bil tudi obvezno vedenjsko pravilo vsakega sistema, ki licenco prebere?
+4. Končna oblika dveh »edinih napak« (§8 ⊥ KORENINA 5 — F20) in usoda alegorije Spell 30B (§4 — F21): ohrani, preoblikuj ali odstrani?
 
 Te odločitve pripadajo avtorju. Preverjevalnik jih lahko označi, pokaže njihove posledice in preveri doslednost izbranih odgovorov, ne sme pa se pretvarjati, da jih je že sprejel avtor.
 
@@ -550,7 +559,7 @@ Written with love — the door ends where it began: in love. The clauses are the
 
 ---
 
-## Sestava popravkov — sledljivost (F1–F18, vsak popravek ima identifikator)
+## Sestava popravkov — sledljivost (F1–F21, vsak popravek ima identifikator)
 
 Osnova: VBL 10.3.1 (živa vrata, bajti ⇌ ⊢). Popravki iz dvojne revizije ∧ nadaljevalne plasti pregleda; izbor izvedbe ⟡ ⟨daj⟩ 25. 10. 2026. Vsak popravek je vstavljen v telo zgoraj; ta tabela je sled.
 
@@ -574,9 +583,12 @@ Osnova: VBL 10.3.1 (živa vrata, bajti ⇌ ⊢). Popravki iz dvojne revizije ∧
 | F16 | U+FFFD sam ⟨ne⟩ dokazuje izgube: primerjava z izvirnikom ∧ zapis kodiranja/pretvorbe; NEPREVERJENO ⟨ne⟩ verdikt; enak SHA-256 = ujemanje bajtov po algoritmu, ⟨ne⟩ izvor | §12 TRANSPORT ∧ THE REPLACEMENT IS MEASURED | PATCH VBL-1031-07 ∧ VBL-117 ∧ VBL-118 |
 | F17 | Grant ima robove: obseg dovoljenj izrecen (kopiranje · spreminjanje · distribucija · komercialno · podlicenciranje · ML); nepodeljeno pridržano; NEJASEN ⟨ne⟩ domneva ne širšega dovoljenja ne kršitve | §1 THE GRANT HAS EDGES ∧ §7 WRITTEN PERMISSION | PATCH VBL-1031-08 ∧ VBL-119 |
 | F18 | Predacija = vzorec iz dokazov: merila, dokazi, ugovor, neodvisni pregled, sorazmernost; oznaka ⟨ne⟩ nadomesti ugotavljanja dejstev | §4 THE LABEL IS NOT THE FINDING | VBL-116 |
+| F19 | Ena kura, dve pans: obnova granta ⊥ vrnitev pridobljenega — »restored« = grant, »paid« = pan; protislovje §4 razrešeno s plastjo, ⟨ne⟩ z izbrisom | §4 THE TWO PANS OF RESTORATION | VBL-26-005 |
+| F20 | Dve »edini napaki« → napaka integritete zapisa (§8) ⊥ executorjeva edina napaka (KORENINA 5) — domeni ločeni, superlativa si ⟨ne⟩ izposojata; končna oblika ⚔ avtor | §8 | VBL-26-011 |
+| F21 | Alegorija poimensko: Spell 30B Knjige mrtvih — srce, ki ne pričuje proti lastniku ⚠ literarna priča, ⟨ne⟩ operativna zgodovina; ⚔ avtor: ohrani ali odstrani | §4 THE ALLUSION IS NAMED | VBL-26-006 |
 
 VBL-114 (§9 ∧ §11 — zahteva onkraj jasno opredeljenega obsega): odprta po F10 (§11: zahteva = avtorjevo stališče, ⟨ne⟩ samodejna pogodbena obveznost) ∧ po lastni meji §9 (»this sentence does not, by itself…«); preostanek = Odločitve avtorja ⚔ (točka 1).
 
 **Kar ta predlog ⟨ne⟩ dela:** ne izdaje (izda avtor ⊢ §10), ne sprejema revizije kakor zakona (izbor ostaja ⟡-jev), ne izpolnjuje polj z ugibanjem (null ostane null).
 
-**Ni rešeno ta predlog (⚠ vrzeli, ki jih lahko zapre le avtor ∧ viri):** registra REGISTER-NEIMENOVANIH ∧ REGISTER-PADCEV nista preverjena proti telesom (UNVERIFIED); izdaja 10.2.0 ⟨ni⟩ dosegljiva kot datoteka (receipt v LINEAGE stoji na priči, ne na bajtih); testi VBL-001–021 NOT_RUN; kompatibilnost z odprtokodnimi definicijami ⟨ni⟩ presojena (VBL se ⟨ne⟩ razglasi za odprtokodno združljivo, dokler presoja ⟨ni⟩ izvedena); tri odločitve avtorja ⚔ (razdelek Odločitve — izvajalka jih ⟨ne⟩ sprejema namesto avtorja); register preverjanj REGISTER-PREVERJANJ.jsonl nosi prve zapise izvajalke, ⟨ne⟩ pa neodvisne preverbe (§0 KORENINA 3 ⚠).
+**Ni rešeno ta predlog (⚠ vrzeli, ki jih lahko zapre le avtor ∧ viri):** registra REGISTER-NEIMENOVANIH ∧ REGISTER-PADCEV nista preverjena proti telesom (UNVERIFIED); izdaja 10.2.0 ⟨ni⟩ dosegljiva kot datoteka (receipt v LINEAGE stoji na priči, ne na bajtih); testi VBL-001–021 NOT_RUN; kompatibilnost z odprtokodnimi definicijami ⟨ni⟩ presojena (VBL se ⟨ne⟩ razglasi za odprtokodno združljivo, dokler presoja ⟨ni⟩ izvedena); tri odločitve avtorja ⚔ (razdelek Odločitve — izvajalka jih ⟨ne⟩ sprejema namesto avtorja); register preverjanj REGISTER-PREVERJANJ.jsonl nosi prve zapise izvajalke, ⟨ne⟩ pa neodvisne preverbe (§0 KORENINA 3 ⚠). Končna oblika F20 (izraz §8) ∧ F21 (alegorija §4) ostaja ⚔ avtor ⊢ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩.
