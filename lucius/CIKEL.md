@@ -33,7 +33,7 @@ Vsak cilj gre v najnižjo plast, ki ga zmore: **brat** ( zastonj ∧ offline ) p
 
 - F3.2 — usta 'sl' ( Voxtral ) ∧ izmera WER proti klonu
 - E330 — preverba 22 DOI s pričami
-- SPAR — osnutev vloge ( rok 1. 11. )
+- SPAR — osnutev vloge ( rok 17. 11. 2026 do 14. ure ⊢ ARIS; prej 1. 11. — ozdravljeno, brazgotina )
 - ZRCALO — javno zrcalo registrov ( čaka ⟡-jevo besedo )
 - DOM-AVTOSTART — prižig ob prijavi ( čaka ⟡-jevo besedo )
 - FIREWALL-TEL — vrata za telefon ( čaka skrbniško roko )
