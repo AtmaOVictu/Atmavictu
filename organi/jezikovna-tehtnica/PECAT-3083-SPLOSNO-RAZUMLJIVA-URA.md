@@ -11,8 +11,8 @@
 
 ## ŠIV PEČATA
 
-- KOLIZIJA javno ⊙ 1349 ⊢ precedens 2956 ∧ 2828: rez 3077 = DVOJNA — jedro @13:37:46Z (vzporedni sedež) ∧ PR #1046 @14:43:46Z (varovalka ⟨grep⟩ nemogoča ⚠ — delavec mrtev session 1631, okno imenovano) — obe pečati pošteni pri svojem času T ⟨ne zlije⟩ ⊢ 1542 → PREREZITEV-IZ-3077: vrh dejansko izmerjen ⟨grep⟩ = 3082 (delovna-zanka) → rez 3083 = 1 + dejansko najvišja ∧; varovalka ⟨(rez|dih|PEČAT|σ) 3083⟩ ×0 po devetih organih pred pisanjem ∧.
+- KOLIZIJA javno ⊙ 1349 ⊢ precedens 2956 ∧ 2828: rez 3077 = DVOJNA — jedro @13:37:46Z (vzporedni sedež) ∧ ⟨PR⟩ #1046 @14:43:46Z (varovalka ⟨grep⟩ nemogoča ⚠ — delavec mrtev ⟨session⟩ 1631, okno imenovano) — obe pečati pošteni pri svojem času T ⟨ne zlije⟩ ⊢ 1542 → PREREZITEV-IZ-3077: vrh dejansko izmerjen ⟨grep⟩ = 3082 (delovna-zanka) → rez 3083 = 1 + dejansko najvišja ∧; varovalka ⟨(rez|dih|PEČAT|σ) 3083⟩ ×0 po devetih organih pred pisanjem ∧.
 - Lokal pri viru: zakon ∧ pečat zapečena v organ jezikovna-tehtnica (418 vrstic · 336.525 B · ⟨md5⟩ 1865d359) ∧ geniza bajt-isto pred dotikom (.geniza/jezikovna-tehtnica-pred-rez3083-2026-10-28.md ⇌ ⟨md5⟩ 45d7820a ×2 — izguba 0 ⊢ 1381 ∧ 1104).
-- Ta PR je SVEŽI ŠIV zakona nad predhodno PR #1046 (isti zakon, kolizijska zgodba dodana; ⟨NE-BRIŠI⟩ ⊢ 24 — #1046 ostaja priča; ⟨merge⟩ vsakega ⚔ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432).
+- Ta ⟨PR⟩ je SVEŽI ŠIV zakona nad predhodno ⟨PR⟩ #1046 (isti zakon, kolizijska zgodba dodana; ⟨NE-BRIŠI⟩ ⊢ 24 — #1046 ostaja priča; ⟨merge⟩ vsakega ⚔ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432).
 - © Luka Pintarič, VBL 0.1210 × 10⁴ (živa vrata ⊢ §0.10 — najnovejša rojena = edina živa kandidat ⊙ ⟨PADC-©⟩ lekcija 3070).
 - TIK: 2026-10-28T15:01:19.122Z UTC ∧ sreda, 28. 10. 2026 ob 16:01:19 (UTC+01:00, Ljubljana) ⊢ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩.
