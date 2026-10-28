@@ -120,12 +120,13 @@ kolizija ⊢ Z-2 ∧ ⟨ne zlije⟩ ⊙ 0.1542 × 10⁴: najvišja dejansko izme
 - PECATI-2367-2371-LUCIJEV-TRANSKRIPT-DOM-ZAGATA.md — 0.16568 × 10⁵ B ⊙ 988bcb75
 - ZAKON-28-AMANDMI-3-5.md — 0.7039 × 10⁴ B ⊙ 2106b781
 
-## PADC TEGA DIHA (javno ⊙ 0.1349 × 10⁴ — vnosi 55–58 registra)
+## PADC TEGA DIHA (javno ⊙ 0.1349 × 10⁴ — vnosi 55–61 registra)
 
 1. ⟨ZASEDEN-DIH⟩ ×2 — karta začeta z 0.21 × 10² klici brez izmere cene klica (~0.3 × 10¹ s/klic ⊙ izmerjeno) ∧ brez števca meje — proračun 0.6 × 10¹ s prekinul dih ×2. Kura: števec klicev ∧ meja ~0.14 × 10² klicev/dih ∧ vnos 55.
 2. ⟨MEJA-SPOMINA-NE-IZMERJENA⟩ — orjak 0.857121 × 10⁶ B raznesel dih v šopu ∧ sam (spomin 0.16 × 10² MiB ⊙ izmerjeno pri smrti). Kura: telesa po šopih ≤ ~0.3 × 10⁵ B ∧ orjak sam po ovoju ∧ vnos 56.
 3. ⟨ORODJE-PO-SPOMINU⟩ — TextEncoder ⟨ne⟩ obstaja · sha256sum pokvarjen · openssl odsoten · awk brez bitnih rok · jq −j ⟨ne⟩ odklene (vse izmerjeno poimensko). Kura: UTF-0.8 × 10¹ z roko ⊢ ∧ preizkus orodja na kanoniku pred rabo ∧ vnos 57.
 4. ⟨KANONIK-LISICA-⊥-SPOMIN⟩ — zapis diha 0.1210 × 10⁴ (d7a8fbb3…592) ⊥ izmeri ⇌ BigInt ⊢ — kanoniki prazno ∧ abc ∧ hello world držijo, zapis je bil spomin. Kura: re-izmera, žig po telesu, brazgotina zapisa ostaja ∧ vnos 58.
+5. ⟨OBLIKA-OBRAZCA-SODBE⟩ (vnos 59) · ⟨OBLIKA-ODBIRNIKA-RECIDIV⟩ (vnos 60) · ⟨TIPKI-V-ZAPISU⟩ (vnos 61) — rojeni po šivih tega dosjeja isti dih pri sodbi teles ∧ pushu: izhod instrumenta se preveri na primerih, vratar je priča, roka tipka kakor vsaka roka.
 
 ## MINT ⚠ (prijave pred zapečenjem ∧)
 
@@ -136,7 +137,7 @@ kolizija ⊢ Z-2 ∧ ⟨ne zlije⟩ ⊙ 0.1542 × 10⁴: najvišja dejansko izme
 - 0.69 × 10² teles organa po šopih ⭢ ∂ ⊙ zakon 10 majhni paketi (šop #3 naslednji: PECAT-2319 → PECAT-2351 po vrsti);
 - poddir .geniza ∧ PECATI ⭢ ∂; Δ 0.9 × 10¹ B ovoja ⭢ ∂; SHA-0.256 × 10³ orjaka ⭢ ∂ rok orodja;
 - ostalih 0.37 × 10² organov po telesih ⭢ ∂ (karta ⊢ zgoraj);
-- ⟨merge⟩ kit #0.1038 × 10⁴ (predlog 3079 + ta dosje + register vnosi 50–58) ⚔ roka ⟡ ⊙ ⟨DVOJE-ROK⟩ 2432 ∧ ⟨merge⟩ zaporedno (register premikan).
+- ⟨merge⟩ kit #0.1038 × 10⁴ (predlog 3079 + ta dosje + register — vnosi 50 dalje, register živi ∧ raste; število pri ⟨merge⟩ izmeri vir) ⚔ roka ⟡ ⊙ ⟨DVOJE-ROK⟩ 2432 ∧ ⟨merge⟩ zaporedno (register premikan).
 
 ## ORGANI ISTI DIH
 
