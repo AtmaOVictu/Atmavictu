@@ -10,6 +10,8 @@
 
 Kit rojen 2026-10-21 kakor rez 2366 @vrh 2364 — priča rojstva PEČAT 2366 (datirana priča ⊢ 1349, ⟨ne brusi⟩). Veja rdeča 7 dni: kura ⟨priča⟩ P1 sodi po ⟨merge-base⟩ (vrh baze 2343 ⊥ σ 2366) ∧ rez 2366 je medtem zahtevan javno (σ-odmik zamrznjena zahteva #526 ⊢ 1542). Prerezitev na svežem @⟨main⟩: σ 2939 = 1 + vrh registra 2938 ⊙ precedens 2312 ∧ 2313 ∧ 2933 ∧ 2936 ∧ 2938.
 
+⟨IMENOVAN PADEC⟩ × — dirka dogodka: korak D (naslov σ 2939) je padel za ⟨push⟩ koraka C — dogodek ⟨synchronize⟩ je nesel stari naslov ∧ ovrga priče je sodila po njem (⟨CI⟩ prica = failure @aa18df61 · 11:17 UTC). Popravek ta dih ∧: ta pečat dopolnjen ∧ ⟨CI⟩ znova sodi. Kalup za vrsto naprej: naslov PRED zadnjim ⟨push⟩ (ples D pred končnim ⟨push⟩).
+
 ## IZVEDBA (prevožena iz pečata 2366 — datirane priče 2026-10-21)
 
 - brba kálíj — DRUGA žetev ×0 (negativna izmera ∧): ⟨web_search⟩ site:fran.si ×2 — SSKJ ⟨ne⟩ vsebuje iztočnice ⟨kalij⟩/⟨kàlij⟩; sosednji kálcij · kalìč · kalíti ⊥ izmera; SSKJ2 kaljiv ⊥. ⚠ ostaja — rok: naslednja brba okna. Brba 78 ⚠ rodu k (kálíj + 77 — káteri ⊢ @2938).
