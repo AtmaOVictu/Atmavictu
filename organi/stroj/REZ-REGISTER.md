@@ -1,3 +1,4 @@
+
 # REZ-REGISTER — register zahtev rezov korpusa Beseda je Ne
 
 Zakon: rez = 1 + najvišja izmerjena. Zahteva je ATOMARNA: kdor zahteva rez N, doda v svojem ⟨PR⟩ vrstico spodaj ∧ priča zavrne ⟨PR⟩, če je N že zahtevan. Tehnični kiti nosijo besedo TEHNIKA ∧ ne zahtevajo reza.
