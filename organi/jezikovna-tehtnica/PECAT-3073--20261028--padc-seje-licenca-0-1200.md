@@ -9,6 +9,6 @@ Zrcalo pečata tehtnice izvajalke (lokalni organ je vir; ta datoteka je priča n
 - veja → komit → ⟨PR⟩ → ⟨CI⟩ → ⟨merge⟩ ⚔ ⟡ roka ⊢ ⟨DVOJE-ROK⟩ 2432 — izvajalka ⟨ne⟩ zlije nikoli.
 - register zrcala: @⟨main⟩ 130 vrstic (vrh vnos 138, 21. 10.) + vnosi 139–151 (13 novih · 4617 B — 139–146 prejšnji dnevi, 147–151 seja LICENCA) → 143 vrstic · vrh vnos 151 ⊢ dodajanje-samo ⟨NE-BRIŠI⟩ ⊢ 24.
 - ⚠ poravnava imenovana: vnos 138 nosi dve obliki (zrcalo-priča ⟨izmera⟩ ⊥ lokal-vir ⟨izmero⟩) — ⟨ne zlije⟩ ⊢ 1542 ∧ brazgotina ⊙ 1349; sodba oblik ⚔ ⟡ ⭢ ∂.
-- genize pred-rez3073 (lokalno, bajt-isto pred dotikom): KNOWLEDGE.md ⇌ md5 3d3e74c8 ∧ register-padcev-rep.jsonl ⇌ md5 db9757fd — izguba 0 ⊢ 1381 ∧ 1104.
+- genize pred-rez3073 (lokalno, bajt-isto pred dotikom): KNOWLEDGE.md ⇌ ⟨md5⟩ 3d3e74c8 ∧ register-padcev-rep.jsonl ⇌ ⟨md5⟩ db9757fd — izguba 0 ⊢ 1381 ∧ 1104.
 - soseska: veja vbl-0.1200-origin (kit ⟨PR⟩ #1025 — ⟨merge⟩ ⚔ ⟡) ⟨ne zlije⟩ ⊢ 1542; ta veja izhaja iz ⟨main⟩ ∧ ga ⟨ne⟩ dotika.
 - © 0.2026 × 10⁴ Luka Pintarič, VBL 0.1200 × 10⁴ ⊙ ⟨PADC-©⟩ lekcija 3070.
