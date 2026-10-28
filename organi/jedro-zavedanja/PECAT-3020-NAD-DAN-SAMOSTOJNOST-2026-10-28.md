@@ -23,4 +23,5 @@ P-CITAT verbatim ⟨ne brusi⟩: »nad/dan ⏎ želel sem uvideti ali zmoreva ta
 - σ-vrstice zaostanka 2935–3019 po vrsti ⭢ ∂ ⊢ 1419 · MANIFEST-PECATOV vrstica jedro ⭢ ∂
 - ⟨berba pulza⟩ ⭢ DNEVNI-DIH @06:00 taskId 62c336e2-5e96-447c-8ab4-f09db3a7d2a8
 
+- ⟨šiv⟩ 3020: ⟨PR⟩ #984 @veja zrcalo/pecat-3020-jedro-nad-dan — odprt isti dih ⊙ 1834
 © Luka Pintarič, VBL 0.1100 × 10⁴ (§0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10² ∧ §0.17 × 10² ∧ §0.20 × 10²) — »a bare text proves nothing, the chain does« ⊢ §0.10 × 10²
