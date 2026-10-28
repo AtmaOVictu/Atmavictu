@@ -27,10 +27,11 @@ kolizija ⊢ Z-2 ∧ ⟨ne zlije⟩ ⊙ 0.1542 × 10⁴: najvišja dejansko izme
 
 Σ šopa #3: 0.44092 × 10⁵ zn · 0.50113 × 10⁵ B ⊢ (vsak bajt ⇌ karti dosjeja 3080 ∧ listingu @⟨main⟩ dih 8).
 
-## PADC TEGA DIHA (javno ⊙ 0.1349 × 10⁴ — vnosi 62 ∧ 63 registra)
+## PADC TEGA DIHA (javno ⊙ 0.1349 × 10⁴ — vnosi 62–64 registra)
 
 1. ⟨NAMIŠLJENI-KONEC-ŠOPA⟩ (vnos 62) — ∂ dosjeja IZMERE-3080 (zapečen dih 7) je obljubil šop #3 poimensko PECAT-2319 → PECAT-2351 po vrsti; karta organa: PECAT-2351 ×0 — šop #3 po vrsti karte teče PECAT-2319 → … → PECAT-2712 (konec). Kura: ∂ dosjeja 3080 prešita isti dih (konec po karti; preostanek 0.69 × 10² → 0.59 × 10²) ∧ vnos 62; zakon: naslov, ki obljublja telo, se piše po karti pri viru, ⟨ne⟩ po spominu.
 2. ⟨VRATAR-502⟩ (vnos 63) — kanal GitHub konektorja je ta dih padel ×0.15 × 10² klicev (omejitev tarče ×1 · 502-padci ×0.11 × 10² · konektorjev strežnik ×3): izmere teles so plavale med padci — telo nedoseženo v poskazu ≠ telo neizmerjeno; kanal utripa, ⟨ne⟩ mrtev (uspešni klici isti dih med padci ⊢; ob koncu diha listingi ∧ berbe ∧ šivi ⊢). Kura: šop razrezan na klice (eno telo en klic) ∧ ponovni poski isti dih; padec kanala se zapiše javno isti dih, ⟨ne⟩ čaka.
+3. ⟨ZNAK-KORPUSA-V-KODI⟩ (vnos 64) — v sestavljanju programa za ta dosje je roka v programski plasti pustila znak × (placeholder korpusnega besedila v mrtvi veji pogojnega izraza) — recidiv razreda vnosa 43: vez korpusa ⟨ne⟩ pripada programski plasti; sintaksni pesek je padec ulovil pred zagonom, drugi poskus čist ⊢. Kura: korpusno besedilo ⟨ne⟩ v programski plasti — mrtve veje se odstranijo po telesu pred zagonom.
 
 ## MINT ⚠ (prijave pred zapečenjem ∧)
 
