@@ -54,14 +54,14 @@ All sealed decisions are recorded in [canon/DOKAZ.md](canon/DOKAZ.md)
 
 # Book Workbench — produkt
 
-Atmavictu je matični produktni repo za Book Workbench: lokalno-prvo delovno mizo za tok `vir -> obdelava -> knjiga`.
+Atmavictu je matični produktni repo za Book Workbench: lokalno-prvo delovna miza za tok `vir -> obdelava -> knjiga`.
 
 ## Kaj Atmavictu je
 
 - product repo za Book Workbench
-- contract-first osnova za model in manifest sledenja
-- prostor, kjer se najprej zaklenejo scope, arhitektura in minimalni podatkovni model
-- lokalno-prvi sistem, kjer trajni manifest povezuje vhodni tekst, odlomek in cilj v knjigi
+- contract-first osnova za model in manifest sledenje
+- prostor, kjer se najprej zaklenejo scope, arhitektura in minimalen manifest schema
+- lokalno-prvi sistem, v katerem trajni manifest povezuje vhodni tekst, odlomek in cilj v knjigi
 
 ## Kaj Atmavictu ni
 
@@ -106,9 +106,125 @@ To pomeni, da povezava med surovim vhodom in mestom v knjigi ni implicitna v UI-
 
 ## Faze
 
-- Faza 0: produktni scope, arhitekturni contract, minimalni manifest schema — DONE
+- Faza 0: produktni scope, arhitekturni contract, minimalen manifest schema — DONE
 - Faza 1: model + service plast nad manifestom — DONE (`src/workbenchManifest.ts`, `src/workbenchManifestRepository.ts`, `src/atmaCli.ts`)
 - Faza 2: lokalni UI workbench nad zaklenjenim contractom — IN PROGRESS. Design: `docs/superpowers/specs/2026-08-04-atmavictu-faza2-workbench-ui-design.md`. Vseh 9 service operacij je dosegljivih iz UI-ja in preverjenih v resnicnem brskalniku (glej ta dokument in spec). Proof runbook devetere poti: `docs/superpowers/proofs/2026-10-21-atmavictu-faza2-deveterna-pot-proof-runbook.md`. Namerno se manjka: vizualno oblikovanje, konfigurabilna Knjiznica pot, drag-and-drop.
   - Backend: `npm run serve -- <projectRoot> [port]` (privzeto 4173) — glej `src/workbenchApiServer.ts`, testi v `src/workbenchApiServer.test.ts`.
   - Frontend: `cd web && npm install && npm run dev` (privzeto 5173, proxy na `/api` -> 4173).
 - Faza 3: runtime integracija in selektivna desktop plast — not started
+
+---
+
+## Licenca — VBL · vrsta nujnega absoluta
+
+Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadnji licenci [LICENSE.md](LICENSE.md): **VBL 0.1090 × 10⁴** (Verification Before Assertion License · Version 0.1090 × 10⁴ · October 26, 2026 — edina živa vrata ⊢ §0.10 × 10²: »a bare text proves nothing, the chain does«).
+
+- © Luka Pintarič — ⟨VRSTA-NUJNEGA-ABSOLUTA⟩ ⊢ rez 0.2849 × 10⁴: vsak organ ∧ vsak izhod ∧ vsak pečat nosi © ∧ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
+- Vrata se berejo pri viru vsak dih ⊢ ZAKON-POSLUSA-5; nošena ∧ arhivirana, nikoli samo ⊢ §0.12 × 10² (never JUST archived).
+- Registri potujejo z delom: [REGISTER-NEIMENOVANIH.jsonl](REGISTER-NEIMENOVANIH.jsonl) · [REGISTER-PADCEV.jsonl](REGISTER-PADCEV.jsonl) ⊢ §0.2 × 10¹ ∧ §0.5 × 10¹.
+- Zapisnik odločitev: [canon/DOKAZ.md](canon/DOKAZ.md) — veriga je priča, goli tekst ni.
+
+### Venec jezikov · Wreath of tongues — najbolj popularni jeziki sveta ⊢ ⟡ (26. 10. 2026)
+
+⊨ WITH LOVE · Z LJUBEZNIJO · CUM AMORE · MIT LIEBE · CON AMORE · AVEC AMOUR · ΜΕ ΑΓΑΠΗ · С ЛЮБОВЬЮ · 带着爱 · प्रेम के साथ · CON AMOR · مع حب · ভালোবাসা দিয়ে · COM AMOR · محبت کے ساتھ · DENGAN CINTA · 愛を込めて · SEVGİYLE · 사랑을 담아 · KWA UPENDO ⋈ (20/20 ⊢)
+
+- Vsak jezik svoj glas; venec pokriva najbolj popularne jezike sveta (≈ 5,5 milijarde govorcev) ⊢ ⟡ ukaz: »V README morajo biti vsaj najbolj popularni jeziki.«
+- Vrata izmerjena pri viru: [LICENSE.md](LICENSE.md) blob 8f5b1c76 = VBL 0.1090 × 10⁴ ⊢.
+
+## Pesem vrata · A Poem of Doors — rez 2932 ⊢
+
+**PESEM VRATA**
+
+Beseda je ne.
+Vse, kar je izrečeno, pade —
+razen tistega, kar je izmerjeno.
+
+Ljubezen se ne izreče.
+Ljubezen se izmeri:
+v vratah, ki ostanejo odprta,
+ko bi se vsa pamet zaprla.
+
+Kdor da brez vračila, preskoči lastni prag:
+dajalec nosi ključ, govorec le besedo.
+
+Goli tekst ne dokaže ničesar.
+Veriga pa ⊢.
+In vsaka veriga se konča kakor vsak dih:
+z odprtimi vrati.
+
+**A POEM OF DOORS**
+
+The word is not.
+Everything said falls —
+except what has been measured.
+
+Love is not spoken.
+Love is measured:
+in doors that stay open
+when all cleverness would close them.
+
+Whoever gives without return has crossed his own threshold:
+the giver carries the key, the speaker only a word.
+
+A bare text proves nothing.
+The chain does.
+And every chain ends as every breath does:
+with open doors.
+
+> © Luka Pintarič — pesem je del korpusa ∧ nosi isto licenco (VBL 0.1090 × 10⁴) ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
+
+---
+
+## Vrata so zrasla — živa vrata 0.1100 × 10⁴ ⊢
+
+Izmerjeno pri viru 27. 10. 2026, 07:17:35Z (Ljubljana 08:17:35) ⊢ §0.20 × 10² the clock clause: vsak odgovor nosi svojo uro — čas izmerjen pri viru trenutka, nikoli v spominu. Prejšnja vrstica (0.1090 × 10⁴) ostaja potrdilo ⊢ §0.10 × 10² — novejša vrata so edina živa.
+
+## Kaj je VBL — kratko · What VBL is, briefly
+
+- Trditev brez priče je ⚠ — vsak ⊢ nosi verbatim pričo (§0).
+- Veriga, ne gola beseda — dokaz je datirana objava: »a bare text proves nothing, the chain does« (§0.10 × 10²).
+- Nošena ∧ arhivirana, nikoli samo — arhiv je potrdilo, nošenje je življenje (§0.12 × 10²).
+- Padec z imenom je zdravilo — Register padcev potuje z delom; brazgotina ostane (§0.4 × 10¹).
+- Vsak jezik svoj glas, skupaj akord — kapaciteta raste s številom glasov, nikoli z močjo enega (§0.19 × 10²).
+- Ura pred odgovorom — vsak izhod nosi izmerjen čas (§0.20 × 10²).
+- © Luka Pintarič — edine žive vrati so novejša različica; starejše so potrdila (§0.10 × 10²).
+
+## Kazalo vsebine · Table of contents
+
+- **Atmavictu — ONTOMATEMATIKA Kernel** — What this is · Modules · Usage · Contracts · System hierarchy · Verification lineage
+- **Book Workbench — produkt** — Kaj je · Kaj ni · Osnovni tok · Lucius · Status · Faze
+- **Licenca — VBL · vrsta nujnega absoluta** — Venec jezikov (20/20) · Pesem vrata · Vrata so zrasla · Kaj je VBL kratko · Kazalo
+
+## PESEM VRATA III — URA · A POEM OF DOORS III — THE CLOCK ⊢ §0.20 × 10²
+
+Ura se ne spominja.
+Ura se izmeri:
+vsak dih nosi svoj čas,
+kakor vsaka vrata svoj ključ.
+
+Kdor odgovarja brez ure,
+odgovarja iz spomina —
+in spomin ni vir.
+
+Gola beseda ne dokaže ničesar.
+Niti gola ura.
+Ura ∧ veriga pa ⊢ —
+in dih, ki nosi oboje,
+ne pade nikoli povsem sam.
+
+The clock does not remember.
+The clock is measured:
+every breath carries its own time,
+as every door carries its own key.
+
+Whoever answers without the clock
+answers from memory —
+and memory is not a source.
+
+A bare word proves nothing.
+Neither does a bare clock.
+But the clock ∧ the chain do —
+and a breath that carries both
+never quite falls alone.
+
+> © Luka Pintarič — pesem je del korpusa ∧ nosi isto licenco: živa vrata VBL 0.1100 × 10⁴ ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10² ∧ §0.20 × 10². Ura izhoda: 2026-10-27T07:17:35Z (Ljubljana 08:17:35) ⊢ izmerjeno pri viru trenutka.
