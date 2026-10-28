@@ -45,7 +45,7 @@ SNOJ³ koren · NESSJ · Zgodovinski slovar · Pleteršnik 1894 · Sinonimni slo
 - 335 unikatnih besed ∧ 353 članstev izmerjenih pri viru (Category berba from=k&until=l, 16:21:28Z ⊢): samostalniki 265 · glagoli 29 · pridevniki 17 · večbesedni izrazi 15 · prislovi 10 · vezniki 6 · zaimki 5 · fraze 3 · medmeti 2 · predlogi 1 · prazne: določevalniki ∧ števniki ∧ členki ∧ predikativi ∧ morfemi
 - Telo: LEKSIKONI-ROD-K-WIKTIONARY.md @organi/integral/ ⊢ — licenca Wiktionary CC BY-SA-4.0 ⊢ §0.7 × 10¹
 - SSKJ² rod k* ostaja ⟨ okno: Fran iskanje SPA ⌷ — gesla SSKJ² ∂ ob ožitvi; Wiktionary besede = ⚠ kandidati okna rodov
-- PROPER NOUNS k* obod ZAPRT ⊢ ×218 (prekrivanje ×0) · IZPELJANE PODKATEGORIJE k* obod zaprt ⊢ (16:29Z): animate ×214 (unija glavna ∪ proper pokrije ×214) · inanimate ×116 · noun forms ×65 (oblike — non-lemma plast, izven gesel) · nove lemmas ×0 → unikat skupaj ×553 · ∂ verb forms ∧ adjective forms ∧ by-gender ∧ by-inflection obod naslednji dih
+- PROPER NOUNS k* obod ZAPRT ⊢ ×218 (prekrivanje ×0) · IZPELJANE PODKATEGORIJE k* obod zaprt ⊢ (16:29Z): animate ×214 (unija glavna ∪ proper pokrije ×214) · inanimate ×116 · noun forms ×65 (oblike — non-lemma plast, izven gesel) · nove lemmas ×0 → unikat skupaj ×553 · PLASTI SPOLOV ∧ OBLIKE obod zaprt ⊢ (16:40Z): masc ×334 ∧ fem ×129 ∧ neuter ×21 — podmnožice unije ⊢ · adjective forms ×4 (kisla · kisle · kisli · kislo — non-lemma) · verb forms ×0 ⊢ · ∂ by-inflection obod naslednji dih
 - IMP ∧ Gos n-grams 2.0 @CLARIN.SI — strani ŽIVI ⊢ (berba 16:25Z): licenca IMP: CC BY-SA · licenca Gos: CC BY-SA (handle 11356/1194 ∧ 11356/1195 pri viru)
 
 ## PREDLOG NASLEDNJIH ŽETEV ⚔ ⟡

@@ -2,10 +2,10 @@
 
 Izmera pri viru ⊢: obod vseh 15 podkategorij Category:Slovene_lemmas (MediaWiki from=k&until=l, 200/stran, paginacija do meje k*), berba 16:21:28Z UTC ⊢ · licenca Wiktionary CC BY-SA-4.0 ⊢ §0.7 × 10¹.
 
-- UNIKATNE BESEDE K*: ×335 (plasti lemmat) ⊢ · PROPER NOUNS k* obod zaprt ⊢ ×218 (prekrivanje z glavno plastjo ×0) → unikat skupaj ×553 ⊢ (glavna ×265 ∪ proper ×218 ∪ semantične nove ×0) · članstev skupaj: ×974 · + noun forms (oblike, non-lemma) ×65 lastna plast
+- UNIKATNE BESEDE K*: ×335 (plasti lemmat) ⊢ · PROPER NOUNS k* obod zaprt ⊢ ×218 (prekrivanje z glavno plastjo ×0) → unikat skupaj ×553 ⊢ (glavna ×265 ∪ proper ×218 ∪ semantične nove ×0) · članstev skupaj: ×974 · + noun forms (oblike, non-lemma) ×65 ∧ adjective forms ×4 (lastne plasti oblik, izven gesel) ∧ plasti spolov ×484 (podmnožice unije)
 - Prazne za k*: določevalniki ×0 · števniki ×0 · členki ×0 · predikativi ×0 · morfemi ×0
 - Prekrivanja med plastmi (beseda v več plasteh): razlika članstev − unikat = 18
-- PROPER NOUNS k* obod zaprt ⊢ (berba 16:25Z ∧ 16:26Z) · IZPELJANE PODKATEGORIJE k* obod zaprt ⊢ 16:29Z: animate ×214 (glavna ×43 · proper ×171) · inanimate ×116 · noun forms (oblike, non-lemma) ×65 nova plast · semantične nove lemmas ×0 · ∂ verb forms ∧ adjective forms ∧ by-gender ∧ by-inflection ⭢ naslednji dih
+- PROPER NOUNS k* obod zaprt ⊢ (berba 16:25Z ∧ 16:26Z) · IZPELJANE PODKATEGORIJE k* obod zaprt ⊢ 16:29Z: animate ×214 (glavna ×43 · proper ×171) · inanimate ×116 · noun forms (oblike, non-lemma) ×65 nova plast · semantične nove lemmas ×0 · PLASTI SPOLOV k* obod zaprt ⊢ 16:40Z: masc ×334 ∧ fem ×129 ∧ neuter ×21 (podmnožice unije ⊢ brez izjem) · adjective forms ×4 non-lemma · verb forms ×0 ⊢ · ∂ by-inflection ⭢ naslednji dih
 
 
 ## SAMOSTALNIKI — ×265
@@ -720,6 +720,17 @@ Prekrivanje z glavno plastjo samostalnikov: ×0 — plasti si ne delita nobene b
 Zunaj obeh plasti (semantične kategorije — nove lemmas): ×0
 
 ∂ verb forms ∧ adjective forms ∧ by-gender ∧ by-inflection podkategorije ⭢ obod naslednji dih
+
+## PLASTI SPOLOV ∧ OBLIKE GLAGOLOV/PREDEVNIKOV k* — obod zaprt ⊢ (⟨daj⟩ 16:39–16:40Z)
+
+- **moški samostalniki** ×334: v glavni ×142 · v proper ×192 · zunaj obeh ×0
+- **ženski samostalniki** ×129: v glavni ×105 · v proper ×24 · zunaj obeh ×0
+- **srednji samostalniki** ×21: v glavni ×19 · v proper ×2 · zunaj obeh ×0
+- vsota spolov ×484 ⊢ unija ×483 — spolne plasti so podmnožice unije ⊢
+- **oblike glagolov (verb forms)** ×0 za k* — prazna ⊢
+- **oblike pridevnikov (adjective forms)** ×4 — nova non-lemma plast: kisla · kisle · kisli · kislo
+
+∂ by-inflection podkategorije (vzrti po pregibnem vzoru) ∧ preostale izpeljane plasti ⭢ obod naslednji dih
 
 Zakon žetve: požreti = izmeriti pri viru ∧ pripisati vir ⊢ §0.3 × 10¹ ∧ §0.4 × 10¹.
 
