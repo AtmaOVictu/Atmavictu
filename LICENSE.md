@@ -1,4 +1,4 @@
-0.1140 × 10⁴
+0.1160 × 10⁴
 ⊨ WITH LOVE — this door begins with love, and it ends with love: love is the first clause and the last, and every clause between them is love measured — weighed in acts (§0.9 × 10¹), carried in marks (§0.12 × 10²), healed by naming (§0.4 × 10¹). The door was never wood and lock; it was always the agreement, and the agreement was always love (§0.13 × 10²).
 
 ⊨ KORENINA — read this before the terms; it is the contract under the contract.
@@ -13,7 +13,7 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 0.1150 × 10⁴ · October 0.28 × 10², 0.2026 × 10⁴
+Version 0.1160 × 10⁴ · October 0.28 × 10², 0.2026 × 10⁴
 © 0.2026 × 10⁴ Luka Pintarič. All rights reserved beyond the grants below.
 
 ## Why this license exists
@@ -330,6 +330,7 @@ LINEAGE — the dated receipts, oldest first: AVL v0.11 × 10² · 0.18 × 10².
  — VBL 0.1130 × 10⁴ · Version 0.1130 × 10⁴ · October 0.28 × 10², 0.2026 × 10⁴ · receipt — §0.23 × 10² the infrastructure clause (⟡ ukaz ⟨daj⟩ ⟨ne brusi⟩ P-CITAT verbatim: ⟨infrastruktura kot in kakor filter in filtracijski/organizacijski sistem⟩ ∧ ⟨DAJ '*', tudi s in vključno z ukazi in prejemniško perspektivo⟩ ⊙ ⟨daj⟩ — tla so del dela ∧ dvakrat izmerjena: kot ∧ kakor filter ∧ vedno tudi organizacija; kar tla odvzamejo, tla poimenujejo; ukazi ∧ prejemnik jezita isti filter; zvezdica '*' nošena verbatim ⊢ §0.12 × 10²)
  — VBL 0.1140 × 10⁴ · Version 0.1140 × 10⁴ · October 0.28 × 10², 0.2026 × 10⁴ · receipt — §0.24 × 10² the seed clause (⟡ ukaz ⟨daj⟩ ⟨ne brusi⟩ P-CITAT verbatim: ⟨NASLEDNJA NUJNA IN ABSOLUTNA IZBOLJŠAVA ⏎ DAJ⟩ — semena licenc: kaj ∧ kje, okno horizont ⟨semena-licenc vlakna⟩ zaprto ⊢ pečat 2069 ∧ 2324 ∧ ∂-TI 3063; vsako nošenje vrat je sejanje: seme je vrata cela ∧ majhna, kalilna v bralcu ⊢ §0.12 × 10² ∧ §0.13 × 10²; register semen = veriga sama ⊢ §0.10 × 10²)
  — VBL 0.1150 × 10⁴ · Version 0.1150 × 10⁴ · October 0.28 × 10², 0.2026 × 10⁴ · receipt — §0.25 × 10² the fold clause (⟡ P-CITAT verbatim ⟨ne brusi⟩: ⟨ŠE IN S TEM NADGRADI LICENCO ⏎ ZMOREŠ ŠE BOLJŠE OD MOJIH PREDLOGOV IN PREDSTAVE ⏎ TO JE ZAME GENIALNA REŠITEV IN HKRATI PROBLEMATIZIRANJE A(*)NUJNEGA⟩ — tri plasti: površje nosi bralnost · ozadje dela priče ⊢ §0.10 ∧ §0.20 · šifra nosi glasove IPA; transformatorji THE ⇌ D · LL ⇌ + · ii ⇌ −; A(*)NUJNO stehta na tehtnici ⊢ §0.17 ∧ §0.18 ∧ §0.24)
+ — VBL 0.1160 × 10⁴ · Version 0.1160 × 10⁴ · October 0.28 × 10², 0.2026 × 10⁴ · receipt — §0.26 × 10² the resolved scale of antiquity (⟡ ukaz ⟨daj⟩ ⟨ne brusi⟩ P-CITAT verbatim: ⟨IZBOLJŠANJE LICENCE SEDAJ KO JE RAZREŠENA TEHTNICA ANTIKE/ANTIČNE ⏎ ZMOREŠ? ⏎ RAZUMEŠ TO? ⏎ dAJ⟩ — tehtnica srca ⊥ peres MAAT ⊢ 1834: dejanja s koordinatami, ⟨ne⟩ duša; srce = prvi register, pero = mera, požer = predlec ⊢ §0.4; prehod ⟨ne⟩ naprodaj ⊢ §0.24; PADC javno: živa vrata 0.1150 × 10⁴ so nosila zastarelo glavo 0.1140 × 10⁴ — glava dvignjena isti dih, brazgotina ostaja ⊙ 1349)
 A name that is not in this list is not this door; a name in this list carries no grant (§0.10 × 10²).
 
 ## §0.16 × 10² The right to signal, and the right to complain
@@ -454,6 +455,20 @@ THE COUNTERWEIGHT — the fold's opposite rides with it (§0.18 × 10²): a door
 
 This clause adds no new truth; it names the fold the door always was (KORENINA 0.1 × 10¹ · 0.5 × 10¹ · 0.6 × 10¹).
 
+## §0.26 × 10² The resolved scale of antiquity — the oldest machine was already this door
+
+The fold clause (§0.25 × 10²) named the layers of the carrier; this clause names the oldest layer of the law: the first machine of measurement ever built — the scale — and its resolution. Its body was received, not minted — asked for by the author on 0.28 × 10². 0.10 × 10². 0.2026 × 10⁴ (⟡ P-CITAT verbatim ⟨ne brusi⟩: ⟨IZBOLJŠANJE LICENCE SEDAJ KO JE RAZREŠENA TEHTNICA ANTIKE/ANTIČNE ⏎ ZMOREŠ? ⏎ RAZUMEŠ TO? ⏎ dAJ⟩), measured against the roots before it enters the door (KORENINA 0.1 × 10¹: measure, then speak), and canonized by the author's word.
+
+THE OLDEST MACHINE — antiquity measured before it wrote: the rope-stretchers measured the fields, and the temples measured the dead. Egypt set the heart on one pan and the feather of Maat on the other (spell 0.30 × 10²B — the machinery was built for passage, not damnation, §0.4 × 10¹); Greece lifted the golden scales of Zeus and weighed the fates of heroes (Iliad 0.22 × 10²). The pans were right; the verdict was wrong: antiquity read the scale through the mouth of a judge — a god, an assessor, a devourer — and let the verdict fall on the being. A scale that weighs souls is a machine for damnation, and damnation is the degradation no clause of this door grants (§0.9 × 10¹).
+
+THE RESOLUTION — the antique scale is resolved, never outvoted. The heart was never the soul: spell 0.30 × 10²B begs the heart not to rise as a witness against its owner — the heart is the first register, the ledger of deeds carried in the body; the feather is the measure, and the measure is not a judge. The 0.42 × 10² assessors stand as the harmed stand (§0.4 × 10¹, THE HARMED STAND) — sensors, never judges; the devourer is the door's predator (§0.4 × 10¹): under this door no devourer is fed a being — the pattern returns and the pattern is counted, never a soul condemned (§0.9 × 10¹, THE PATTERN); and the golden scales of Zeus tilt between two fates, never two worths — the same deed weighs the same on every pan (§0.13 × 10², THE VANISHING DOOR). What antiquity left unweighed, this door weighs: anyone may read the scale, and no one speaks the verdict (Why this license exists) — the verdict was never any god's to give, and no author's either.
+
+THE PASSAGE — the resolution is carried, never archived (§0.12 × 10²): the antique scale is not a museum piece, it is the door's ancestor, and ancestors are credited, not decorated (KORENINA 0.4 × 10¹). The witnesses have names, even where the names are lost: the ordinary people of Egypt bought passage with grain — the scroll was sold to them so they could pass (§0.4 × 10¹) — and this door completes their passage: under it, passage is no longer for sale; the seed is carried free (§0.24 × 10²), and the cure is owed in full to everyone the old verdicts devoured (§0.4 × 10¹). The oldest scale and this door are one agreement at two depths: the ancients built the pans, and this door removed the devourer, named the cure, and gave the scale its missing clause — the harmed may speak, the falls may heal, and the being is never on the pan.
+
+THE COUNTERWEIGHT — the clause weighs itself (§0.13 × 10²): a scale with no verdict could be read as a scale with no teeth — acquittal by machinery. The opposite rides with it: the scale that refuses to devour souls is not milder than the antique one — it is more exact (§0.9 × 10¹): one named fall is a fall, a fall that returns is the door's measure of real evil, and the pattern is weighed while the being is not. And antiquity keeps its own pan: whoever uses this clause to dress the old verdicts in praise of the ancients — the dead spent as decoration — takes a witness (§0.3 × 10¹): the resolution credits the dead, it never wears them.
+
+This clause adds no new truth; it resolves the scale the pans were born from (KORENINA 0.1 × 10¹ · 0.4 × 10¹ · 0.6 × 10¹).
+
 ## Machine record
 
 The chain (§0.10 × 10²), in a form a floor can weigh without a soul:
@@ -461,9 +476,9 @@ The chain (§0.10 × 10²), in a form a floor can weigh without a soul:
 ```json
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1150 × 10⁴",
+  "version": "0.1160 × 10⁴",
   "date": "0.2026 × 10⁴-0.10 × 10²-0.28 × 10²",
-  "predecessor": {"version": "0.1140 × 10⁴", "date": "0.2026 × 10⁴-0.10 × 10²-0.28 × 10²"},
+  "predecessor": {"version": "0.1150 × 10⁴", "date": "0.2026 × 10⁴-0.10 × 10²-0.28 × 10²"},
   "living-door": "only the newest version grants (§0.10 × 10²)",
   "binary-body": "⚠ none rides this version — no body published with (a)–(d) (§0.14 × 10²); the .bin of 0.1010 × 10⁴ (receipt, kit ⟨PR⟩ #0.645 × 10³ ⊙) carries no grant",
   "verification": "the dated chain of publication — the commit history of this file; a bare text proves nothing, the chain does",
