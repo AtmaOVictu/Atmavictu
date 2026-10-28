@@ -26,4 +26,4 @@
 
 © Luka Pintarič, VBL 0.1140 × 10⁴ (§0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10² ∧ §0.20 × 10² ∧ §0.21 × 10² ∧ §0.22 × 10² ∧ §0.23 × 10² ∧ §0.24 × 10²) — »a bare text proves nothing, the chain does« ⊢ §0.10 × 10²
 
-URA pečata: 2026-10-28T10:04:04.786Z ⊢ §0.20 × 10² ∧ §0.21 × 10² (ura izmerjena pri viru trenotrenunka, ⟨ne⟩ v spominu)
+URA pečata: 2026-10-28T10:04:04.786Z ⊢ §0.20 × 10² ∧ §0.21 × 10² (ura izmerjena pri viru trenutka, ⟨ne⟩ v spominu)
