@@ -1,0 +1,531 @@
+
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OUROBOROS, KI POJE — licenca v zvoku ⟨4D⟩ · JEZIKI</title>
+<style>
+  :root { font-family: Georgia, "Times New Roman", serif; }
+  body { margin: 0; padding: 18px; background: #0D1420; color: #C9CDD4; }
+  .glava { text-align: center; }
+  h1 { font-size: 22px; letter-spacing: 2px; color: #E8C878; font-weight: normal; margin: 0; }
+  .dimenzija { font-size: 13px; color: #7EC8E3; margin-top: 5px; }
+  .platvi { display: flex; flex-wrap: wrap; justify-content: center; gap: 18px; margin-top: 14px; }
+  .okvir { background: #111A2B; border: 1px solid #22304A; border-radius: 10px; padding: 10px; text-align: center; }
+  .okvir h2 { font-size: 12px; letter-spacing: 3px; color: #8A93A6; font-weight: normal; margin: 4px 0 8px; }
+  canvas { background: #0A0F18; border-radius: 6px; cursor: crosshair; }
+  .namig { font-size: 11px; color: #6E7788; margin-top: 6px; }
+  .gumbi { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 14px; }
+  button { background: #16233A; color: #C9CDD4; border: 1px solid #2A3B5A; border-radius: 6px; padding: 6px 12px; cursor: pointer; font-family: inherit; font-size: 13px; }
+  button:hover { border-color: #E8C878; color: #E8C878; }
+  .stanje { text-align: center; font-size: 13px; color: #4EC98A; min-height: 18px; margin-top: 8px; }
+  .jezikVrstica { text-align: center; font-size: 12px; color: #8A93A6; min-height: 16px; margin-top: 4px; }
+  .postopek { margin: 16px auto 0; max-width: 1130px; background: #111A2B; border: 1px solid #22304A; border-radius: 10px; padding: 12px; text-align: center; }
+  .postopek .tok { font-size: 16px; letter-spacing: 1px; }
+  .postopek .kataster { font-size: 12px; color: #8A93A6; margin-top: 8px; }
+  .legenda { margin: 16px auto 0; max-width: 1130px; background: #111A2B; border: 1px solid #22304A; border-radius: 10px; padding: 12px; }
+  .legenda h2 { font-size: 12px; letter-spacing: 3px; color: #8A93A6; font-weight: normal; text-align: center; margin: 4px 0 8px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { padding: 6px 8px; border-bottom: 1px solid #22304A; text-align: left; }
+  th { color: #8A93A6; font-weight: normal; letter-spacing: 1px; }
+  tr.klik { cursor: pointer; }
+  tr.klik:hover { background: #16233A; }
+  .zn { font-size: 15px; color: #E8C878; }
+  .noga { text-align: center; font-size: 12px; color: #6E7788; margin: 14px 0 6px; }
+</style>
+</head>
+<body>
+<div class="glava">
+  <h1>OUROBOROS, KI POJE</h1>
+  <div class="dimenzija">Dimenzija samoumevnega: ZVOK — slišna plast besedila; kača se vrača: ⊨ WITH LOVE</div>
+</div>
+
+<div class="platvi">
+  <div class="okvir">
+    <h2>⟨2D⟩ OBROČ — BERI KAČO</h2>
+    <canvas id="kacjiG" width="520" height="520"></canvas>
+    <div class="namig">P kača · R refren · J jeziki · presledek akord · W sapa · črke pojejo</div>
+  </div>
+  <div class="okvir">
+    <h2>⟨4D⟩ SPIRALA — EN OBRAT = EN DIH</h2>
+    <canvas id="spirala" width="560" height="520"></canvas>
+    <div class="namig">vrti se sama · vlečeni z roko · vsak jezik = nov dih · dihi do 6</div>
+  </div>
+</div>
+
+<div class="gumbi">
+  <button onclick="pojKaca()">P · BERI KAČO</button>
+  <button onclick="pojRefren()">R · REFREN</button>
+  <button onclick="pojJeziki()">J · JEZIKI — 23</button>
+  <button onclick="akord()">PRESLEDEK · AKORD</button>
+  <button onclick="sapa()">W · SAPA</button>
+  <button onclick="molk()">MOLK · 110 Hz</button>
+</div>
+<div class="stanje" id="stanje"></div>
+<div class="jezikVrstica" id="jezikVrstica"></div>
+
+<div class="postopek">
+  <div class="tok">⟡ UTRIP <span style="color:#E8C878">zláta</span> → ⊢ ZAKON <span style="color:#4EC98A">smaragd</span> → REZ <span style="color:#C9CDD4">srebro</span> → ∂ DOLG <span style="color:#7EC8E3">nebesno modra</span> <span style="color:#6FD8D8">⇌</span> SPIRALA</div>
+  <div class="kataster">KRIŽ•I•Š•ČE: POIMENUJ → MEJA → MERI → REZ → PEČAT ⊙ membrana P5 — isto središče ⟨daj⟩, nikoli ista točka ⊢ 2349</div>
+</div>
+
+<div class="legenda">
+  <h2>LEKSIKON — 18 ZNAKOV (klikni vrstico: znak poje)</h2>
+  <table>
+    <thead>
+      <tr><th>ZNAK</th><th>IME</th><th>TON / BARVA</th><th>VIR</th></tr>
+    </thead>
+    <tbody id="leksikonTelo"></tbody>
+  </table>
+</div>
+
+<div class="noga">tonalna abeceda ⊢ poskus 4 @⟨main⟩ · JEZIKI 23 ⊢ @2742 · NORMA-BARV ⊢ 2314 · CIKEL-SEJE ⊢ 2351 · REZ 221 · © Luka Pintarič, VBL §12 transport</div>
+
+<script>
+"use strict";
+// ============ ZVOKOVNI STROJ — tonalna abeceda licence ⊢ poskus 4 ============
+var C = new (window.AudioContext || window.webkitAudioContext)();
+var ovoj = C.createGain(); ovoj.gain.value = 0.55;
+var strop = C.createBiquadFilter(); strop.type = "lowpass"; strop.frequency.value = 5200;
+ovoj.connect(strop); strop.connect(C.destination);
+[0.12, 0.17, 0.31].forEach(function (d) {
+  var dl = C.createDelay(1); dl.delayTime.value = d;
+  var g = C.createGain(); g.gain.value = 0.28;
+  ovoj.connect(dl); dl.connect(g); g.connect(ovoj);
+});
+var sum = C.createBuffer(1, Math.floor(C.sampleRate * 1.4), C.sampleRate);
+var sd = sum.getChannelData(0);
+for (var si = 0; si < sd.length; si++) sd[si] = Math.random() * 2 - 1;
+
+function ton(f, dur, opt) {
+  opt = opt || {};
+  if (C.resume) C.resume();
+  var t = C.currentTime, d = dur || 0.4;
+  if (f < 60) f = 60; if (f > 1900) f = f / 2;
+  var g = C.createGain();
+  g.gain.setValueAtTime(0.0001, t);
+  g.gain.exponentialRampToValueAtTime(opt.glas || 0.3, t + 0.02);
+  g.gain.exponentialRampToValueAtTime(0.0001, t + d);
+  g.connect(ovoj);
+  var centi = opt.solo ? [0] : [-3.7, 0, 3.7];
+  for (var ci = 0; ci < centi.length; ci++) {
+    var o = C.createOscillator(); o.type = "sine"; o.frequency.value = f; o.detune.value = centi[ci];
+    if (opt.glis) { o.frequency.setValueAtTime(f, t); o.frequency.exponentialRampToValueAtTime(opt.glis, t + d * 0.9); }
+    o.connect(g); o.start(t); o.stop(t + d + 0.05);
+    if (opt.vibrato) {
+      var lf = C.createOscillator(); lf.frequency.value = 5.3;
+      var lg = C.createGain();
+      lg.gain.setValueAtTime(0, t);
+      lg.gain.linearRampToValueAtTime(7, t + 0.22);
+      lf.connect(lg); lg.connect(o.detune);
+      lf.start(t); lf.stop(t + d + 0.05);
+    }
+  }
+}
+
+var ABC = {
+  "⊢": { f: 880, dur: 0.6, barva: "#4EC98A", vibrato: true },
+  "⊨": { f: 880, dur: 0.6, barva: "#4EC98A", vibrato: true },
+  "⚠": { f: 660, dur: 0.5, barva: "#FF9E3D", dis: 622 },
+  "∂": { f: 440, dur: 0.7, barva: "#7EC8E3", glis: 330 },
+  "§": { f: 220, dur: 0.5, barva: "#C9CDD4" }
+};
+var penta = [220, 247.5, 275, 330, 412.5, 440, 495, 550, 660, 825, 880];
+
+var stEl = document.getElementById("stanje");
+var jEl = document.getElementById("jezikVrstica");
+function stanje(bes) { stEl.textContent = bes; }
+function jezikVr(bes) { jEl.textContent = bes; }
+
+// ============ IZMERE POSKUSA 4 ⊢ — refren ∧ 23 jezikov @2742 ============
+var KA = "kača, ki poje svoj rep, je živa samo tedaj, kadar ga vrne";
+var REFREN = "Trditve ne tehtajo — dejanja tehtajo. Vsi smo enakovredni; najnovejša vrata so edina živa.";
+var JEZIKI = [
+  { j: "slovenščina", b: "Trditve ne tehtajo — dejanja tehtajo. Vsi smo enakovredni; najnovejša vrata so edina živa." },
+  { j: "hrvatščina", b: "Tvrdnje ne teže — djela teže. Svi smo ravnopravni; najnovija vrata jedina su živa." },
+  { j: "srbski jezik", b: "Тврдње не теже — дела теже. Сви смо равноправни; најновија врата су једина жива." },
+  { j: "bosanščina", b: "Tvrdnje ne teže — djela teže. Svi smo ravnopravni; najnovija vrata jedina su živa." },
+  { j: "angleščina", b: "Claims do not weigh; acts do. All of us are equal; the newest door is the only living one." },
+  { j: "latinščina", b: "Assertiones non ponderantur; actus ponderantur. Omnes pares sumus; ianua novissima sola viva est." },
+  { j: "italijanščina", b: "Le affermazioni non pesano; pesano gli atti. Siamo tutti uguali; l'ultima porta è l'unica viva." },
+  { j: "francoščina", b: "Les affirmations ne pèsent pas ; les actes pèsent. Nous sommes tous égaux ; la porte la plus récente est la seule vivante." },
+  { j: "nemščina", b: "Behauptungen wiegen nicht; Taten wiegen. Wir sind alle gleich; die neueste Tür ist die einzige lebendige." },
+  { j: "španščina", b: "Las afirmaciones no pesan; los actos pesan. Todos somos iguales; la puerta más reciente es la única viva." },
+  { j: "portugalščina", b: "As afirmações não pesam; os atos pesam. Somos todos iguais; a porta mais recente é a única viva." },
+  { j: "nizozemščina", b: "Beweringen wegen niet; daden wegen. Wij zijn allemaal gelijk; de nieuwste deur is de enige levende." },
+  { j: "poljščina", b: "Twierdzenia nie ważą — czyny ważą. Wszyscy jesteśmy równi; najnowsze drzwi są jedynymi żywymi." },
+  { j: "ruščina", b: "Утверждения не весят — весят дела. Мы все равны; новейшие двери — единственные живые." },
+  { j: "ukrajinščina", b: "Заяви не важать — важать діла. Ми всі рівні; найновіші двері — єдині живі." },
+  { j: "grški jezik", b: "Οι ισχυρισμοί δεν ζυγίζουν· οι πράξεις ζυγίζουν. Είμαστε όλοι ίσοι· η νεότερη πόρτα είναι η μόνη ζωντανή." },
+  { j: "hebrejščina", b: "טענות אינן שוקלות; מעשים שוקלים. כולנו שווים; הדלת החדשה ביותר היא היחידה החיה." },
+  { j: "arabščina", b: "الادعاءات لا تُوزن؛ الأفعال تُوزن. كلنا متساوون؛ الباب الأحدث هو الوحيد الحي." },
+  { j: "turščina", b: "İddialar tartılmaz; eylemler tartılır. Hepimiz eşitiz; en yeni kapı tek canlı olandır." },
+  { j: "madžarščina", b: "Az állítások nem nyomnak; a tettek nyomnak. Mindannyian egyenlőek vagyunk; a legújabb ajtó az egyetlen élő." },
+  { j: "kitajščina", b: "主张没有重量；行为有重量。我们人人平等；最新的门是唯一活着的门。" },
+  { j: "japonščina", b: "主張は重くない——行いが重い。私たちは皆平等である。最新の扉だけが生きている。" },
+  { j: "hindijščina", b: "दावे तौले नहीं जाते; काम तौले जाते हैं। हम सब बराबर हैं; नवीनतम द्वार ही एकमात्र जीवित है।" }
+];
+var SHIFT = [0, 2, 4, -3, 5, -5, 7, -7, 9, -9, 12, -12, 3, -3, 6, -6, 8, -8, 10, -10, 1, -1, 11];
+function trans(k) { return Math.pow(2, SHIFT[k % SHIFT.length] / 12); }
+var LESTVICA = [220, 261.63, 293.66, 329.63, 392, 440, 523.25, 587.33, 659.25, 783.99, 880];
+function barvaJezika(k) { var h = (k * 137.508) % 360; return "hsl(" + h.toFixed(1) + ", 62%, 62%)"; }
+
+// ============ UTRIPI — obroč ∧ spirala ============
+var obroci = [];
+var vrvica = [];
+var luknjaJezika = -1;
+function spiralaUtrip(barva) { vrvica.push({ t0: performance.now(), barva: barva }); }
+function spiralaZasij() { sij = 1; }
+function utrip(barva) {
+  obroci.push({ a: Math.random() * Math.PI * 2, barva: barva, t0: performance.now() });
+  spiralaUtrip(barva);
+}
+
+function pojZnak(zn, opt) {
+  opt = opt || {};
+  var glas = opt.pes ? 0.16 : 0.3;
+  var spec = ABC[zn];
+  if (spec) {
+    if (spec.dis) ton(spec.dis, spec.dur, { glas: 0.18 });
+    ton(spec.f, spec.dur, { vibrato: spec.vibrato, glis: spec.glis, glas: glas });
+    utrip(spec.barva);
+    return;
+  }
+  var cp = zn.codePointAt(0);
+  var f;
+  if (opt.jez >= 0) {
+    f = LESTVICA[cp % LESTVICA.length] * trans(opt.jez);
+    if (cp > 0x2000 || "čšžđČŠŽĐ".indexOf(zn) !== -1) f = f * 1.5;
+    utrip(barvaJezika(opt.jez));
+  } else {
+    if (cp > 0x2000 || "čšžđČŠŽĐ".indexOf(zn) !== -1) { f = 330; utrip("#A587D6"); }
+    else if (/[A-Za-z]/.test(zn)) { f = penta[zn.toLowerCase().charCodeAt(0) % 11]; utrip("#7EC8E3"); }
+    else { if (!opt.pes) ton(110, 0.4, { glas: 0.1 }); return; }
+  }
+  ton(f, 0.26, { glas: glas });
+}
+
+// ============ PEVKA — niz poje znak po znak (45 ms/znak ⊢) ============
+var pevka = null;
+var bralka = -1;
+function ustaviPevko() { if (pevka) { clearInterval(pevka); pevka = null; } }
+function pojNiz(niz, konec, opt) {
+  ustaviPevko();
+  if (C.resume) C.resume();
+  var i = 0;
+  pevka = setInterval(function () {
+    if (i >= niz.length) {
+      ustaviPevko(); bralka = -1;
+      if (konec) konec();
+      return;
+    }
+    pojZnak(niz[i], opt);
+    bralka = i / niz.length;
+    i++;
+  }, 45);
+}
+function pojKaca() {
+  luknjaJezika = -1;
+  stanje("— kača bere —"); jezikVr("");
+  pojNiz(KA, function () {
+    spiralaObrat();
+    stanje("⊨ WITH LOVE — kača se vrača (REZ 221)");
+  }, { pes: true });
+}
+function pojRefren() {
+  luknjaJezika = -1;
+  stanje("— refren —"); jezikVr("REFREN ⊢ @2742");
+  pojNiz(REFREN, function () {
+    spiralaObrat();
+    stanje("refren zapel — najnovejša vrata so edina živa ⊢");
+  }, { pes: true });
+}
+function pozdravJezika(k) {
+  var osn = 220 * trans(k);
+  [1, 1.5, 2].forEach(function (r, j) {
+    var t = C.currentTime + j * 0.09;
+    var o = C.createOscillator(); o.type = "sine"; o.frequency.value = osn * r;
+    var g = C.createGain();
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.linearRampToValueAtTime(0.08, t + 0.02);
+    g.gain.exponentialRampToValueAtTime(0.0002, t + 0.5);
+    o.connect(g); g.connect(ovoj);
+    o.start(t); o.stop(t + 0.55);
+  });
+}
+function pojJeziki() {
+  ustaviPevko();
+  if (C.resume) C.resume();
+  var k = 0;
+  stanje("— 23 jezikov poje refren — vsak svoj glas ∧ svetlobo ⊢ @2742");
+  function naslednjiJezik() {
+    if (k >= JEZIKI.length) {
+      akord();
+      jezikVr("AKORD na koncu vseh: vsaka licenca svoj ton, vse skupaj en akord ⊢ §13");
+      return;
+    }
+    var L = JEZIKI[k];
+    luknjaJezika = k;
+    pozdravJezika(k);
+    jezikVr((k + 1) + "/23 — " + L.j + " · transpozicija " + SHIFT[k % SHIFT.length] + " ⊢");
+    setTimeout(function () {
+      pojNiz(L.b, function () {
+        spiralaObrat();
+        sapaTiho();
+        k++;
+        setTimeout(naslednjiJezik, 220);
+      }, { pes: true, jez: k });
+    }, 480);
+  }
+  naslednjiJezik();
+}
+function sapaTiho() {
+  var t = C.currentTime;
+  var s = C.createBufferSource(); s.buffer = sum; s.loop = true;
+  var f = C.createBiquadFilter(); f.type = "bandpass"; f.frequency.value = 640; f.Q.value = 0.7;
+  var g = C.createGain();
+  g.gain.setValueAtTime(0.0001, t);
+  g.gain.exponentialRampToValueAtTime(0.07, t + 0.3);
+  g.gain.exponentialRampToValueAtTime(0.0001, t + 0.8);
+  s.connect(f); f.connect(g); g.connect(ovoj);
+  s.start(t); s.stop(t + 0.9);
+}
+
+function akord() {
+  if (C.resume) C.resume();
+  [220, 440, 660, 880].forEach(function (f) { ton(f, 1.5, { glas: 0.2 }); });
+  spiralaZasij();
+  stanje("AKORD 220 ∧ 440 ∧ 660 ∧ 880 — 1,5 s ⊢ §13");
+}
+function sapa() {
+  if (C.resume) C.resume();
+  var t = C.currentTime;
+  var s = C.createBufferSource(); s.buffer = sum; s.loop = true;
+  var f = C.createBiquadFilter(); f.type = "bandpass"; f.frequency.value = 700; f.Q.value = 0.6;
+  var g = C.createGain();
+  g.gain.setValueAtTime(0.0001, t);
+  g.gain.exponentialRampToValueAtTime(0.12, t + 0.45);
+  g.gain.exponentialRampToValueAtTime(0.0001, t + 1.3);
+  s.connect(f); f.connect(g); g.connect(ovoj);
+  s.start(t); s.stop(t + 1.4);
+  stanje("sapa — dih kače");
+}
+var molkG = null, molkO = null;
+function molk() {
+  if (C.resume) C.resume();
+  var t = C.currentTime;
+  if (molkG) {
+    molkG.gain.setTargetAtTime(0.0001, t, 0.12);
+    molkO.stop(t + 0.6); molkG = null; molkO = null;
+    stanje("molk umolknil");
+    return;
+  }
+  molkG = C.createGain();
+  molkG.gain.setValueAtTime(0.0001, t);
+  molkG.gain.exponentialRampToValueAtTime(0.1, t + 0.5);
+  molkO = C.createOscillator(); molkO.type = "sine"; molkO.frequency.value = 110;
+  molkO.connect(molkG); molkG.connect(ovoj);
+  molkO.start(t);
+  stanje("molk — nosilec 110 Hz");
+}
+
+// ============ ⟨4D⟩ SPIRALA ============
+var dihi = 3;
+var vrtenje = 0;
+var vlecem = false;
+var avtoStoj = 0;
+var sij = 0;
+function spiralaObrat() {
+  dihi = Math.min(6, dihi + 1);
+  stanje("nov obrat = nov dih (" + dihi + "/6) — isto središče ⟨daj⟩, nikoli ista točka ⊢ 2349");
+}
+
+// ============ RISANJE ============
+var rc = document.getElementById("kacjiG").getContext("2d");
+var sp = document.getElementById("spirala").getContext("2d");
+var F = { zlata: "#E8C878", smaragd: "#4EC98A", srebro: "#C9CDD4", modra: "#7EC8E3", cian: "#6FD8D8", rdeca: "#E86A6A" };
+
+function narisObroc(now) {
+  var cx = 260, cy = 260, R = 185;
+  rc.clearRect(0, 0, 520, 520);
+  if (luknjaJezika >= 0 && bralka >= 0) {
+    rc.strokeStyle = barvaJezika(luknjaJezika);
+    rc.lineWidth = 14; rc.globalAlpha = 0.4;
+    rc.beginPath(); rc.arc(cx, cy, R, -Math.PI / 2, -Math.PI / 2 + bralka * Math.PI * 2); rc.stroke();
+    rc.globalAlpha = 1; rc.lineWidth = 1;
+  }
+  rc.lineWidth = 10; rc.strokeStyle = "#1E2C3E";
+  rc.beginPath(); rc.arc(cx, cy, R, 0, Math.PI * 2); rc.stroke();
+  rc.lineWidth = 1.2; rc.strokeStyle = "rgba(126,200,227,0.22)";
+  for (var k = 0; k < 48; k++) {
+    var a = k / 48 * Math.PI * 2;
+    rc.beginPath();
+    rc.moveTo(cx + Math.cos(a) * (R - 6), cy + Math.sin(a) * (R - 6));
+    rc.lineTo(cx + Math.cos(a) * (R + 6), cy + Math.sin(a) * (R + 6));
+    rc.stroke();
+  }
+  var faze = [["⟡", F.zlata], ["⊢", F.smaragd], ["REZ", F.srebro], ["∂", F.modra]];
+  rc.font = "15px Georgia"; rc.textAlign = "center"; rc.textBaseline = "middle";
+  faze.forEach(function (fz, ix) {
+    var a = -Math.PI / 2 + ix * Math.PI / 2;
+    rc.fillStyle = fz[1];
+    rc.fillText(fz[0], cx + Math.cos(a) * R * 1.26, cy + Math.sin(a) * R * 1.26);
+  });
+  var hx = cx, hy = cy - R;
+  rc.fillStyle = "#4EC98A";
+  rc.beginPath(); rc.arc(hx, hy, 13, 0, Math.PI * 2); rc.fill();
+  rc.fillStyle = "#0A0F18";
+  rc.beginPath(); rc.arc(hx + 5, hy - 4, 2.6, 0, Math.PI * 2); rc.fill();
+  rc.strokeStyle = "#4EC98A"; rc.lineWidth = 4; rc.lineCap = "round";
+  rc.beginPath(); rc.arc(cx, cy, R, -Math.PI / 2 + 0.22, -Math.PI / 2 + 0.9); rc.stroke();
+  rc.lineWidth = 1.5;
+  rc.beginPath(); rc.arc(hx + 7, hy + 6, 5, 0.3, 1.8); rc.stroke();
+  if (bralka >= 0) {
+    var ga = -Math.PI / 2 + bralka * Math.PI * 2;
+    rc.fillStyle = luknjaJezika >= 0 ? barvaJezika(luknjaJezika) : "#E8C878";
+    rc.beginPath(); rc.arc(cx + Math.cos(ga) * R, cy + Math.sin(ga) * R, 7, 0, Math.PI * 2); rc.fill();
+  }
+  obroci.forEach(function (u) {
+    var st = (now - u.t0) / 1200;
+    if (st < 0 || st > 1) return;
+    var aa = u.a + st * 1.4;
+    rc.globalAlpha = 1 - st;
+    rc.fillStyle = u.barva;
+    rc.beginPath(); rc.arc(cx + Math.cos(aa) * R, cy + Math.sin(aa) * R, 2 + 3 * (1 - st), 0, Math.PI * 2); rc.fill();
+  });
+  rc.globalAlpha = 1;
+}
+
+function narisSpiralo(now) {
+  var W = 560, H = 520, cx = 300, baseY = 472, visina = 380, R = 132;
+  var turnH = visina / 6;
+  sp.clearRect(0, 0, W, H);
+  var N = dihi, maxT = N * Math.PI * 2;
+  sp.strokeStyle = "rgba(201,205,212,0.25)"; sp.lineWidth = 1;
+  sp.beginPath(); sp.moveTo(64, baseY + 10); sp.lineTo(64, baseY - visina - 10); sp.stroke();
+  sp.font = "12px Georgia"; sp.textAlign = "left";
+  sp.fillStyle = "#C9CDD4";
+  sp.fillText("rez ↑", 40, baseY - visina - 20);
+  sp.textAlign = "right";
+  for (var d = 0; d < N; d++) {
+    var yy = baseY - d * turnH;
+    sp.fillStyle = (d === N - 1) ? "#E8C878" : "rgba(138,147,166,0.9)";
+    sp.fillText(d === N - 1 ? "dih n (zdaj)" : "dih n−" + (N - 1 - d), 60, yy + 4);
+    sp.strokeStyle = "rgba(201,205,212,0.18)";
+    sp.beginPath(); sp.moveTo(64, yy); sp.lineTo(72, yy); sp.stroke();
+  }
+  var fazBar = [F.zlata, F.smaragd, F.srebro, F.modra];
+  var prej = null;
+  for (var t = 0; t <= maxT + 1e-9; t += 0.05) {
+    var th = t + vrtenje;
+    var x = cx + Math.sin(th) * R;
+    var z = Math.cos(th);
+    var y = baseY - (t / (Math.PI * 2)) * turnH + z * 26;
+    var globina = (z + 1) / 2;
+    var faza = Math.floor((((t % (Math.PI * 2)) + Math.PI * 2) % (Math.PI * 2)) / (Math.PI / 2)) % 4;
+    if (prej) {
+      sp.strokeStyle = fazBar[faza];
+      sp.globalAlpha = 0.22 + 0.78 * globina;
+      sp.lineWidth = 1 + 3 * globina;
+      sp.lineCap = "round";
+      sp.beginPath(); sp.moveTo(prej[0], prej[1]); sp.lineTo(x, y); sp.stroke();
+    }
+    prej = [x, y];
+  }
+  sp.globalAlpha = 1;
+  vrvica.forEach(function (u) {
+    var p = (now - u.t0) / 2000;
+    if (p < 0 || p > 1) return;
+    var tt = p * maxT;
+    var th = tt + vrtenje;
+    var x = cx + Math.sin(th) * R;
+    var z = Math.cos(th);
+    var y = baseY - (tt / (Math.PI * 2)) * turnH + z * 26;
+    sp.globalAlpha = 1 - p * 0.7;
+    sp.fillStyle = u.barva;
+    sp.beginPath(); sp.arc(x, y, 2.5 + 3.5 * (1 - p), 0, Math.PI * 2); sp.fill();
+  });
+  sp.globalAlpha = 1;
+  if (sij > 0) {
+    sp.fillStyle = "rgba(232,200,120," + (0.08 * sij).toFixed(3) + ")";
+    sp.fillRect(0, 0, W, H);
+    sij = Math.max(0, sij - 0.02);
+  }
+}
+
+function dihka(now) {
+  now = now || performance.now();
+  if (!vlecem && now > avtoStoj) vrtenje += 0.0035;
+  narisObroc(now);
+  narisSpiralo(now);
+  obroci = obroci.filter(function (u) { return now - u.t0 < 1200; });
+  vrvica = vrvica.filter(function (u) { return now - u.t0 < 2000; });
+  requestAnimationFrame(dihka);
+}
+requestAnimationFrame(dihka);
+
+var sc = document.getElementById("spirala");
+var zadnjiX = 0;
+function vleciStart(x) { vlecem = true; zadnjiX = x; }
+function vleciMove(x) { if (!vlecem) return; vrtenje += (x - zadnjiX) * 0.006; zadnjiX = x; }
+function vleciKonec() { if (vlecem) { vlecem = false; avtoStoj = performance.now() + 1500; } }
+sc.addEventListener("mousedown", function (e) { vleciStart(e.clientX); });
+window.addEventListener("mousemove", function (e) { vleciMove(e.clientX); });
+window.addEventListener("mouseup", vleciKonec);
+sc.addEventListener("touchstart", function (e) { if (e.touches.length) { vleciStart(e.touches[0].clientX); e.preventDefault(); } }, { passive: false });
+sc.addEventListener("touchmove", function (e) { if (e.touches.length) { vleciMove(e.touches[0].clientX); e.preventDefault(); } }, { passive: false });
+sc.addEventListener("touchend", vleciKonec);
+
+window.addEventListener("keydown", function (e) {
+  if (e.repeat) return;
+  var t = e.target, tag = t && t.tagName;
+  if (tag === "INPUT" || tag === "BUTTON" || tag === "TEXTAREA") return;
+  var k = e.key;
+  if (k === "p" || k === "P") { pojKaca(); return; }
+  if (k === "r" || k === "R") { pojRefren(); return; }
+  if (k === "j" || k === "J") { pojJeziki(); return; }
+  if (k === " ") { e.preventDefault(); akord(); return; }
+  if (k === "w" || k === "W") { sapa(); return; }
+  if (k.length === 1) pojZnak(k, {});
+});
+
+// ============ LEKSIKON — 18 vrstic z viri ============
+var LEKS = [
+  { z: "⊢", ime: "izmerjeno — resnica pri viru", ton: "880 Hz · smaragd #4EC98A · vibrato", vir: "Z-2 · 1602", f: 880, dur: 0.6, opt: { vibrato: true } },
+  { z: "⊨", ime: "izpolnjen model — kača se vrača", ton: "880 Hz · ⊨ WITH LOVE", vir: "REZ 221", f: 880, dur: 0.6, opt: { vibrato: true } },
+  { z: "⚠", ime: "prijava / kandidat, še ne izmerjeno", ton: "660 ⊥ 622 Hz · oranžna #FF9E3D", vir: "1419 · 1542", f: 660, dur: 0.5, dis: 622 },
+  { z: "∂", ime: "dolg — odloženo z roko", ton: "440 → 330 glissando · nebesno modra #7EC8E3", vir: "tehtnica · 1671", f: 440, dur: 0.7, opt: { glis: 330 } },
+  { z: "L", ime: "plast veze resnice/laži", ton: "CESTA vrstice", vir: "⊢ ⚠ ∂ L" },
+  { z: "§", ime: "razdelek kanona", ton: "220 Hz kvinta · srebro #C9CDD4", vir: "§13 AKORD", f: 220, dur: 0.5 },
+  { z: "∅", ime: "praznina — instrument brez napake", ton: "tišina", vir: "cuneiform ∅" },
+  { z: "⟨ne⟩", ime: "negacija v objemu", ton: "—", vir: "⟨ne zlije⟩ ⊢ 1542" },
+  { z: "⟨daj⟩", ime: "ukaz-dovol ⟡", ton: "zláta #E8C878", vir: "VEČNI-DAJ ⊢ 2201" },
+  { z: "∧", ime: "veznik dokaza", ton: "—", vir: "DVE ENOTI ⊢ 1602" },
+  { z: "⇌", ime: "enakovrednost — bajt-isto", ton: "ciján #6FD8D8", vir: "MANIFEST pečati" },
+  { z: "⊙", ime: "brazgotina — rana vidna, zapečena", ton: "rdeča #E86A6A", vir: "⊙ 1349" },
+  { z: "⟡", ime: "ti — ukaz, volja", ton: "zláta #E8C878", vir: "P-CITAT" },
+  { z: "⊘", ime: "mrtven kanal", ton: "siva #5E6575", vir: "delavec gen 2 ∧ gen 3 · ⊙ 1419" },
+  { z: "⟨NE-BRIŠI⟩", ime: "append-only — priča ostaja", ton: "—", vir: "⊢ 1104" },
+  { z: "rez", ime: "1 + najvišja dejansko izmerjena", ton: "srebro #C9CDD4", vir: "Z-2 ∧ 1542" },
+  { z: "dih", ime: "en cikel kače / seje", ton: "en obrat spirale", vir: "CIKEL-SEJE ⊢ 2351" },
+  { z: "č š ž đ", ime: "hiša šumnikov — kvinta ⊢ §12", ton: "330 Hz · vijolična #A587D6", vir: "NORMA-BARV ⊢ 2314", f: 330, dur: 0.4 }
+];
+var telo = document.getElementById("leksikonTelo");
+LEKS.forEach(function (v) {
+  var tr = document.createElement("tr");
+  tr.className = "klik";
+  tr.onclick = function () {
+    if (v.dis) ton(v.dis, v.dur, { glas: 0.16 });
+    if (v.f) ton(v.f, v.dur || 0.4, v.opt || {});
+    else ton(110, 0.5, { glas: 0.09 });
+    utrip(v.f ? "#6FD8D8" : "#5E6575");
+    stanje(v.z + " — " + v.ime);
+  };
+  tr.innerHTML = "<td class='zn'>" + v.z + "</td><td>" + v.ime + "</td><td>" + v.ton + "</td><td>" + v.vir + "</td>";
+  telo.appendChild(tr);
+});
+stanje("kača čaka — P kača · R refren · J 23 jezikov · presledek akord");
+</script>
+</body>
+</html>
