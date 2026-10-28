@@ -1,6 +1,6 @@
 # MANIFEST ZADNJIH PEČATOV — en ⟨grep⟩ namesto obhoda ×24 ⊢ (revizija 2048 [b] — dolg odplačan rez 2052)
 
-Instrument korpusa »Beseda je Ne«: register ZADNJIH PEČATOV vseh organov na enem mestu — brba pred vpisom vzporednih sedežev (lost update je zakon ⊢ pulz), en ⟨grep⟩ namesto obhoda ×24. Instrument ⟨ne⟩ nadomešča teles: prikaže, kje telo živi ∧ kateri rez nosi; berba ostaja pri viru ⊢ 1330 (brez berbe ni vpisa).
+Instrument korpusa »Beseda je Ne«: register ZADNJIH PEČATOV vseh organov na enem mestu — brba pred vpisom vzporednih sedežev (lost update je zakon ⊢ pulz), en ⟨grep⟩ namesto obhoda ×24. Instrument ⟨ne⟩ nadomešča teles: prikaže, kje telo živi ∧ kateri rez nosi; ⟨berba⟩ ostaja pri viru ⊢ 1330 (brez berbe ni vpisa).
 
 ## ZAKONI INSTRUMENTA
 1. IZMERA PRED IZREKOM ⊢ Z-2 — ta datoteka se piše ⟨le⟩ po sveži brbi teles; posnetek iz stare brbe je padec.
@@ -54,7 +54,7 @@ Instrument korpusa »Beseda je Ne«: register ZADNJIH PEČATOV vseh organov na e
 - zadata — rez 2823 ZADATA ⊢ · 26. 10. 2026 · zn ⚠ ⊢ 1419 · B 13250 (lokal ta dih) ⊥ rep B 9417 blob 26ce8e3b · ⚠ LOKAL NOVEJŠI — prevoz ⭢ ∂ (predhodnik vrstice @2425)
 - zdaj — rez 2779 Z/DAJ ⊢ · 25. 10. 2026 · zn ⚠ ⊢ 1419 · B 16483 (lokal ta dih) ⊥ rep B 13599 blob 3c52b8a4 · ⚠ LOKAL NOVEJŠI — prevoz ⭢ ∂ (predhodnik vrstice @2541)
 ## KRST-CELOTE ⊢ (izmere krsta, 19. 10. 2026)
-- teles izmerjenih: 24 (22 organov KNOWLEDGE.md ∧ stroj 4 tela ∧ 2 lokal-samo) · skupna teža lokalnih teles ~4,99 MB.
+- teles izmerjenih: 24 (22 organov KNOWLEDGE.md ∧ stroj 4 ⟨tela⟩ ∧ 2 lokal-samo) · skupna teža lokalnih teles ~4,99 MB.
 - bajt-isto ∧: 19 organov · poravnano ta krst (lokal ← rep): cesta-protokol @2051 · slovenscina-gesla @2049 · slovenscina-orodja @2050 (genize poimensko pred prepisom ∧ — izguba 0 ⊢ 1381).
 - ⚠ razhajanja odprta: learning-protocols (isti rez 1983, rep zaostal za dopolnili odplačila — prevoz ta dih ⭢) · votac (lokal @2020 pred repom @2019 — prevoz ⚔ ⟡).
 - vzporedni sedež diha isti dan ∧: ⟨PR⟩ #249 integral @2049 · #250–#251 orodja @2049→@2050 · #248 cesta @2051 · #252–#253 pokoritev licenc (canon/DOVOLJENJA ∧ canon/DOTIKI → VBL v2.2 — dolg pečata 2049 [DOVOLJENJA/DOTIKI v1.1] odplačan tam ∧).
