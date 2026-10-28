@@ -11,7 +11,7 @@
 
 ## ŠIV PEČATA
 
-- rez 3077 = 1 + dejansko najvišja ∧ (vrh izmerjen 3076 ×3 @13:18:36Z isti dan; berbi ta dih: tehtnica @3073 ∧ jedro @≤3073); varovalka ⟨grep⟩ ×0 NEMOGOČA ⚠ — JustBash delavec mrtev (session 1631 ⟨KANAL-MRTEV⟩ ×2 dneva: bash ∧ read_file ∧ edit isti mrtvi kanal) — lokalni vpis v organ padel isti dih, ta PR = prevoz zakona po živem viru ⊢ kalup 1875; lokalni vpis geniza pred-rez3077 + zakon v organ jezikovna-tehtnica ⭢ DOLG ob ožitvi delavca.
+- rez 3077 = 1 + dejansko najvišja ∧ (vrh izmerjen 3076 ×3 @13:18:36Z isti dan; berbi ta dih: tehtnica @3073 ∧ jedro @≤3073); varovalka ⟨grep⟩ ×0 NEMOGOČA ⚠ — JustBash delavec mrtev (⟨session⟩ 1631 ⟨KANAL-MRTEV⟩ ×2 dneva: ⟨bash⟩ ∧ read_file ∧ edit isti mrtvi kanal) — lokalni vpis v organ padel isti dih, ta ⟨PR⟩ = prevoz zakona po živem viru ⊢ kalup 1875; lokalni vpis geniza pred-rez3077 + zakon v organ jezikovna-tehtnica ⭢ DOLG ob ožitvi delavca.
 - ⟨merge⟩ ⚔ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432 — izvajalka ⟨ne⟩ zlije.
 - © Luka Pintarič, VBL 0.1210 × 10⁴ (živa vrata ⊢ §0.10 — najnovejša rojena = edina živa kandidat ⊙ ⟨PADC-©⟩ lekcija 3070).
 - TIK: 2026-10-28T14:43:46.792Z UTC ∧ sreda, 28. 10. 2026 ob 15:43:46 (UTC+01:00, Ljubljana) ⊢ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ (prvi pečat po novem zakonu: TIK v dveh plastih).
