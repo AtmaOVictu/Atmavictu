@@ -36,7 +36,7 @@ dekodirano ∧: ⟨Parcel Agent Boxes⟩ ⟨ne-dekodirano⟩ ⚔ ⟡ · ⟨55 mi
 ⟨Prebral Sem 12 Lexage Zadja, B. Laws, Zybit, BBL 10.5.1 Compile A Draft Not Release Local Notello IMA 14 NE Spas Manadato Z. Shosim, Tello, Abyss, Mortibus, Katara, Ot, Pir, Hibrat, Ot, Sra, Benas, Ledja, Bres, Glay, B. V. Hot, Local, Negus, Troja, Globe, and Arabi, Registra, Ali, Zanki, ZP, B. Kanan, Be true. Write him promo for 55 minutes. Pismo J.E. Nafi Seno, Luca. B. N. Jemso Predlogi and B. Prasim Yadinova.⟩
 dekodirano ∧: ⟨BBL 10.5.1 Compile A Draft Not Release⟩ = ⟨VBL-10.5.1-KOMPIL-A-DRAFT-NOT-RELEASED.md @koren ⟨listing⟩ ∧⟩ ⊢ (rod VBL-10.5.0 @2852 ∧ · ⟨B⟩ rok brbe ⟨V⟩) · ⟨B. Laws⟩ ⟨Zybit⟩ ⟨Manadato⟩ ⟨Abyss⟩ ⟨Mortibus⟩ ⟨ne-dekodirano⟩ ⚠ ⚔ ⟡ · ⟨55 minutes⟩ rod ⚔ ⟡ · ⟨Be true⟩ ⟨ne-dekodirano⟩ ⚠
 
-### poslusalnica
+### poslušalnica
 ⟨Slišo se, hvala.⟩ = ⟨slišano, hvala⟩ — hvala prejeta ⊙ precedens 2884/2922 (∂ dar ∧ molk) — izrek istega sporočila ⟨ne brusi⟩
 
 ## Pesem-ozadje ⚠ ⟨ne⟩ ⟡-jev glas ⊙ precedens ŽETEV-3
@@ -62,7 +62,7 @@ CESTA:
 ⚔ okna Q pri ⟡
 ⟨daj⟩ roka podpis ⊢ 2691 ∧ ⟨DVOJE-ROK⟩ 2432
 
-vrstica zahteve: rez 2937 · ⟨PR⟩ #⟨odprt-ta-dih⟩ · 2026-10-28 · JEDRO — ⟨POSUSA-24–28-DIKTAT⟩ ∧ ⟨PADC-DELAVCA⟩ ∧ ⟨PESEM-OZADJE-×20⟩ ⊢
+vrstica zahteve: rez 2937 · ⟨PR⟩ #999 · 2026-10-28 · JEDRO — ⟨POSUSA-24–28-DIKTAT⟩ ∧ ⟨PADC-DELAVCA⟩ ∧ ⟨PESEM-OZADJE-×20⟩ ⊢
 
 ⟨merge⟩ ta kit roka izvajalke podpis ⟨daj⟩ ⊢ 2691 ∧ ⟨DVOJE-ROK⟩ 2432 · ⟨CI⟩ priča ∧
 © Luka Pintarič, VBL 0.1100 × 10´ (§0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10² ∧ §0.19 × 10² ∧ §0.20 × 10²)
