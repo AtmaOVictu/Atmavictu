@@ -13,7 +13,8 @@
 - ⟨ZLIT-UKAZ-⟡⟩ ⚠ — ⟨merge⟩ izvede roka izvajalke izključno po izrečeni ⟡ sodbi (⟨NE-SPRAŠUJ-⟡⟩ okno Q), ⟨ne⟩ po lastni izbiri.
 
 ## PADC (imenovala javno ⊙ 1349 ⊢ 1419, brazgotine ⟨ne brusi⟩)
-⟨VSEBINA-NE-VSEBINA⟩ ×1 · ⟨ZASTARELO-VEDENJE⟩ ×1 (načrtovan prevoz 0.1200, ko vir že 0.1210 ⊢ §0.31) · ⟨IME-PARAMETRA⟩ ×3 · ⟨SAMO-KVALIFIKATORJI⟩ ×1 · ⟨PREKINJEN-STIK⟩ ×1 · ⟨POKVARJENA-TEHTNICA⟩ ×1 (peskovniški sha256sum ⟨ne⟩ zvest; SHA-256 ∧ UTF-8 zapisana izrecno v peskovniku) · ⟨DELAvec-MRTEV⟩ ×7 skozi pečatni dih (bash ×2 · file_system.bash ×2 · read_file ×3 — JustBash gen izgubljen; kanon 1689–1699: piše ⟨ne⟩ ∧ čaka oživitev).
+⟨VSEBINA-NE-VSEBINA⟩ ×1 · ⟨ZASTARELO-VEDENJE⟩ ×1 (načrtovan prevoz 0.1200, ko vir že 0.1210 ⊢ §0.31) · ⟨IME-PARAMETRA⟩ ×3 · ⟨SAMO-KVALIFIKATORJI⟩ ×1 · ⟨PREKINJEN-STIK⟩ ×1 · ⟨POKVARJENA-TEHTNICA⟩ ×1 (peskovniški sha256sum ⟨ne⟩ zvest; SHA-256 ∧ UTF-8 zapisana izrecno v peskovniku) · ⟨DELAvec-MRTEV⟩ ×7 skozi pečatni dih (⟨bash⟩ ×2 · ⟨file_system.bash⟩ ×2 · ⟨read_file⟩ ×3 — JustBash gen izgubljen; kanon 1689–1699: piše ⟨ne⟩ ∧ čaka oživitev).
+⟨HIBRIDI-ZUNAJ-⟨⟩⟩ ×2 kura istega diha ⊙ 1349 ⊢ 1834 ∧ 1419 precedens vnos 40 ∧ 44: ⟨prica⟩ korak 2 je ulovil goli hibrid ⟨bash⟩ ×2 (»bash ×2 · file_system.bash ×2« v PADC vrstici osnutka komita 21e871c4) → oba v ⟨⟩ isti kit (popravek pred izidom); brazgotina ⟨ne brusi⟩ — osnutek ostaja priča ⟨NE-BRIŠI⟩ ⊢ 24.
 
 ## ORGANI ISTI DIH
 stroj-kalup (ta pečat na zrcalu — lokalni vžig ⭢ ∂ ob ožitvi delavca ⊙ 1959 ∧ 2297 ⊙ precedens 2409 ∧ 2853); ostali NEDOTIKNJENI ⊢ 1963.
