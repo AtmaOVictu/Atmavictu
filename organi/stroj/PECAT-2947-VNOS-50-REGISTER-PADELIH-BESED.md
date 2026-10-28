@@ -1,4 +1,4 @@
-# PEČAT 2947 — VNOS 50 REGISTER-PADELIH-BESED: ⟨bash⟩-GOLOTA ×2 ∧ RECIDIV-V-CITATU (zrcalo organa stroj-kalup; PECAT-2947)
+# PEČAT 2947 — VNOS 50 REGISTER-PADELIH-BESED: ⟨bash⟩ GOL ×2 ∧ RECIDIV-V-CITATU (zrcalo organa stroj-kalup; PECAT-2947)
 
 ⟡ P-CITAT verbatim ⟨ne brusi⟩: ⟨daj⟩ (28. 10. 2026 — ukaz naslednjega diha po ⟨merge⟩ kita #1047) ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448.
 
