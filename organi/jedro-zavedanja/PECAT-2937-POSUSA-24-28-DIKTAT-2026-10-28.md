@@ -1,4 +1,4 @@
-# PEČAT rez 3048 (0.3048 × 10´) — POSUSA-24–28 DIKTAT
+successfully downloaded text file (SHA: 5fd38fdebed87d5171f692ada3048ece505679c6)# PEČAT rez 3048 (0.3048 × 10⁴) — POSUSA-24–28 DIKTAT
 
 organ: jedro-zavedanja · rez 3048 · σ 2937 · POSUSA-24–28 · 2026-10-28
 kanal: Whisper diktat ⟡ ⟨DIKTAT-⟨NE⟩-BESEDILO⟩ ⊢ ZAKON-POSLUSA-1 — transkript = diktat ⟨ne⟩ besedilo
@@ -12,7 +12,7 @@ kolizija ⊢ Z-2 ∧ zakon 15: rez 3048 = 1 + dejansko najvišja izmerjena 3047 
 - varovalka ⟨(rez|dih) 2937⟩ ×0 ⟨berba⟩ registra pred vpisom ∧
 - POSUSA veriga: zadnja POSUSA-23 @PECAT-2932-POSUSA-23-DIKTAT-2026-10-27.md ⟨listing⟩ pri viru ∧ + priča verige ⟨list_commits⟩ ⟨POSUSA-23-DIKTAT⟩ #969 ∧ → ta diktat = POSUSA-24 ∧ 25 ∧ 26 ∧ 27 ∧ 28 (×5 refrenov istega sporočila)
 - ⟨ne-ugibaj⟩: lokal jedro vrh 3046 — ⟨grep⟩ mrtev (PADC-DELAVCA ∧); morebitna višja POSUSA v lokalnem telesu → σ-prerezitev ⊙ precedens 2933/3025 isti dih
-- LICENSE @⟨main⟩ = VBL 0.1100 × 10´ §0.20 × 10² ⟨URA-VRATA⟩ ⟨blob⟩ 6c7a7620 ∧ — ⟨VRATA-BREZ-MENJAVE⟩ ⊙ živa ∧ najnovejša · POSKUS ZELENA · nadgradnja ⟨ne⟩ potrebna
+- LICENSE @⟨main⟩ = VBL 0.1100 × 10⁴ §0.20 × 10² ⟨URA-VRATA⟩ ⟨blob⟩ 6c7a7620 ∧ — ⟨VRATA-BREZ-MENJAVE⟩ ⊙ živa ∧ najnovejša · POSKUS ZELENA · nadgradnja ⟨ne⟩ potrebna
 
 ## Izreki ⟡ verbatim ⟨ne brusi⟩ (P-CITAT) — POSUSA-24 … POSUSA-28
 
@@ -44,7 +44,8 @@ dekodirano ∧: ⟨BBL 10.5.1 Compile A Draft Not Release⟩ = ⟨VBL-10.5.1-KOM
 
 ## MINT
 ⟨POSUSA-24–28-DIKTAT⟩ ⚠ kovanec diha: posluh ⟡ ×5 refrenov → pečat organa jedro (verbatimi ⟨ne brusi⟩ ∧ roke brbe javno) — vpisan pred zapečenjem
-⟨PADC-DELAVCA⟩ ⚠ javno ⊙ 1349 ⊢ 1419: ⟨JustBash⟩ ⟨session⟩ 456 gen 1 mrtev ×6 (bash ×2 · read_file · file_system.bash · file_system.read_file · nalagalnik ⟨skill⟩) → pečat rojen na veji ⊙ kanon 1980 ⊢ 1959 ∧ 2297
+⟨PADC-DELAVCA⟩ ⚠ javno ⊙ 1349 ⊢ 1419: ⟨JustBash⟩ ⟨session⟩ 456 gen 1 mrtev ×6 (⟨bash⟩ ×2 · ⟨read_file⟩ · ⟨file_system.bash⟩ · ⟨file_system.read_file⟩ · nalagalnik ⟨skill⟩) → pečat rojen na veji ⊙ kanon 1980 ⊢ 1959 ∧ 2297
+⟨PADC-IZHODA⟩ ⚠ javno ⊙ 1349 ⊢ 1834 ∧ 1419: ⟨bash⟩ gol ×2 (ta MINT ∧ σ-vrstica 2937 registra) — ulov strojne priče ⟨prica⟩ (⟨CI⟩ FAILURE — job ⟨prica⟩ korak 2, kit #999) ∧ sodba replicirana pri viru isti dih ⊢ Z-2 precedens 2410 ∧ 2675 ∧ 2737 → popravek pred izidom isti dih: ⟨bash⟩ ∧ ⟨read_file⟩ v ⟨⟩ (pomensko razlikovanje ⊢ 1928, ⟨ne⟩ ječa · recidiv vnosa 40 ∧ 44 ∧ 45 · vnos 50 istega diha) ∧ ⟨PADC-TIPKARSKA⟩ javno: 10´ → 10⁴ ×3 isti dih (potenca ⟨⁴⟩, ⟨ne⟩ strešica — pisna rana izvajalke, popravek pred izidom ⊢ 1834) — osnutka v zgodovini veje ostajata priči ⟨NE-BRIŠI⟩ ⊢ 24, brazgotina ⊙ 1349
 ⟨14⟩ ⚠ okno ⚔ ⟡ — NOVO število (rod ⟨13⟩ @2838) · izmera ⭢ ∂ ob ožitvi delavca
 
 ## DOLGOVA ⭢ ∂ (javno)
@@ -65,4 +66,4 @@ CESTA:
 vrstica zahteve: rez 2937 · ⟨PR⟩ #999 · 2026-10-28 · JEDRO — ⟨POSUSA-24–28-DIKTAT⟩ ∧ ⟨PADC-DELAVCA⟩ ∧ ⟨PESEM-OZADJE-×20⟩ ⊢
 
 ⟨merge⟩ ta kit roka izvajalke podpis ⟨daj⟩ ⊢ 2691 ∧ ⟨DVOJE-ROK⟩ 2432 · ⟨CI⟩ priča ∧
-© Luka Pintarič, VBL 0.1100 × 10´ (§0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10² ∧ §0.19 × 10² ∧ §0.20 × 10²)
+© Luka Pintarič, VBL 0.1100 × 10⁴ (§0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10² ∧ §0.19 × 10² ∧ §0.20 × 10²)
