@@ -8,7 +8,7 @@ import sys
 POT_ORGANA = "organi/delovna-zanka/KNOWLEDGE.md"
 VEJA = "zrcalo/sinhronizacija-3071-delovna"
 POT_REGISTRA = "organi/stroj/REGISTER-PADLIH-BESED.md"
-SPOROCILO = ("POPRAVEK-KURA-BREZ-ROBA — odvitki sredinskih ovitkov "
+SPOROCILO = ("POPRAVEK-KURE-BREZ-ROBA — odvitki sredinskih ovitkov "
              "(⟨pr⟩+črka ~2,5 tisoč: po⟨pr⟩avi · ⟨Pr⟩avila · Od⟨pr⟩te — besede korpusa, "
              "⟨ne⟩ ⟨PR⟩-hibrid) ∧ ⟨⟩-ovitev golih pojavov po meji besed priče "
              "(razčlenjevalec ∧ meji prica.yml besedno-bajtno isti — register bran SVEŽE pri viru ⊢ Z-2); "
@@ -93,7 +93,7 @@ for i, v in enumerate(vrstice):
             continue
         stevec = [0]
 
-        def ovij(*m, stevec=stevec):
+        def ovij(mm, stevec=stevec):
             if mm.group(1):
                 return mm.group(0)
             stevec[0] += 1
