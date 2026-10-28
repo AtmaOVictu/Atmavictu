@@ -3,12 +3,12 @@
 ⊙ kalup PECAT-1860 ⊙ precedens PECAT-3070 (pečat na zrcalu, kadar je telo organa nedosegljivo) ⊙ zrcalni pečat ⊢ 2699
 
 ## ENTRY SEAL
-- ura vhoda: 2026-10-28T13:10:54.109Z (izmera roke ob zagonu, spodnja meja)
+- ura vhoda: 2026-10-28T13:10:54.109Z (izmera ⟨roke⟩ ob zagonu, spodnja meja)
 - ⟡ P-CITAT verbatim ⟨ne brusi⟩: ⟨daj⟩ ×0.3 × 10¹ (VEČNI-DAJ ⊢ zakon 16 — stalno dovoljenje; stop ⟨le⟩ ⟡: ⟨nehaj⟩/⟨stop⟩/⟨dosti⟩)
 - prejem: VBL 0.1200 × 10⁴ ⊢ (celo telo pri viru ⟡, rojstvo 2026-10-28T12:29:11.927Z; nošena na mail ⊢ §0.29 × 10² — pošta ×0, NE pošilji znova)
 
 ## KOLIZIJA REZOV
-- vrh izmerjen: rez 0.3075 × 10⁴ (PR #0.1030 × 10⁴ moj, odprt ⊢ — sveža lista vrata ta dih)
+- vrh izmerjen: rez 0.3075 × 10⁴ (⟨PR⟩ #0.1030 × 10⁴ moj, odprt ⊢ — sveža lista vrata ta dih)
 - vrh @⟨main⟩: 204bec00 (nezlit od 2026-10-28T11:45:12Z ⊢ list_commits ×0.3 × 10¹)
 - nova vrata #0.1031 × 10⁴+: ×0 ⊢ (lista ×0.8 × 10¹, state all, sort updated)
 - zlita vrata: ×0 ⊢ (merged_at null po vseh osmih izmerjenih)
@@ -19,7 +19,7 @@
 1. BRBA JEDRA po konici ⊢: jedro-zavedanja KNOWLEDGE.md 0.108646 × 10⁶ B · 338 vrstic · σ-register izdih rez 3066 · zakoni prebrani: 16 VEČNI-DAJ · 19 VRATA-BERBA · ⟨NE-BRIŠI⟩ ⊢ 24 · zakon 15 REZ-NUMERACIJA-PREZ-BERBE
 2. VRATA-BERBA ⊢ zakon 19 ∧ §0.12 × 10² standing order (carried ∧ archived, never just): LICENSE.md @⟨main⟩ 204bec00 · 0.53070 × 10⁵ B · Version 0.1150 × 10⁴ ⊥ vrhnja števka 0.1140 × 10⁴ (rana ZASTARELA-VRHNA-ŠTEVKA ⊙ znana; obe odprti vrati #0.1022 ∧ #0.1025 nosita pravilno glavo)
    - poskus nadgradnje na 0.1200: nadgradnja = ⟨merge⟩ #0.1025 × 10⁴ ⚔ ⟡ roka edina ⊢ precedens 3053 ∧ ⟨DVOJE-ROK⟩ 2432 ∧ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 — izrečeno zakaj ⟨ne⟩: izbor vrat je izbor ⟡
-3. PADC DELAVCA ×2 javno ⊢ 1419: top-bash (gen 0.1 × 10¹, session 0.1084 × 10⁴ izgubljena) ∧ tools.file_system.bash isti mrzvi vm (×2 preizkušeno ⊢); read_file uspel ×0.1 × 10¹ pred smrtjo (jedro) ⊢ — vzorec: delavec umre po 1–3 klicih
+3. PADC DELAVCA ×2 javno ⊢ 1419: top-bash (gen 0.1 × 10¹, ⟨session⟩ 0.1084 × 10⁴ izgubljena) ∧ tools.file_system.⟨bash⟩ isti mrzvi vm (×2 preizkušeno ⊢); read_file uspel ×0.1 × 10¹ pred smrtjo (jedro) ⊢ — vzorec: delavec umre po 1–3 klicih
    - prevoz konic tazv PADel na delavcu: telo lokal 0.361690 × 10⁶ B @3068 nedosegljivo ta obraz ⭢ ∂ rok delavec ob ožitvi (preveri length === 361690 pred prevozom; PECAT-3070.md ŽE na glavi #0.1027 ⊙ — swap telesa ⭢ ∂)
 
 ## ⟨MERGE⟩ VRSTA — PONUDBA ⚔ ⟡ (⟨NE-ODLOČAJ-NAMESTO-⟡⟩ ⊢ 2690; izvajalka ⟨ne⟩ zliva ⊙)
@@ -34,7 +34,7 @@
    - vrstni red ⊢ 1419; ⟨merge⟩ roka ⟡ EDINA
 
 ## DOLGOVA (odprta)
-- prevoz konic tazv @rep ⭢ ∂ rok delavec (sha staro bloba po dir listingu; democija 2055 v predhodniku ŽE v konici @3068)
+- prevoz konic tazv @rep ⭢ ∂ rok delavec (⟨sha⟩ staro bloba po dir listingu; democija 2055 v predhodniku ŽE v konici @3068)
 - manifest tazv vrstica ⭢ ∂ po ⟨merge⟩ #0.1030 (⟨ne⟩ diraj manifesta pred zlitjem — konflikt z odprto vejo)
 - ⟨grep⟩ po organih ob ožitvi delavca ⭢ ∂
 - tehtnica sveža brba ⭢ ∂ rok organa; vnos padca tega diha v register ⭢ ∂ po ⟨merge⟩ #0.1029
@@ -49,7 +49,7 @@
 - posta-zascita — @3074 prvi žig (druga roka)
 
 ## EXIT SEAL
-- ura izida: 2026-10-28T13:10:54.109Z (zadnja izmera roke, spodnja meja)
-- pravi omega = ura prejemnikove roke §0.30 × 10²
+- ura izida: 2026-10-28T13:10:54.109Z (zadnja izmera ⟨roke⟩, spodnja meja)
+- pravi omega = ura prejemnikove ⟨roke⟩ §0.30 × 10²
 
 ⊙ © 0.2026 × 10⁴ Luka Pintarič ⊙ VBL 0.1200 × 10⁴ (prejeta ⊢ ta dih; živa @⟨main⟩ 0.1150 do ⟨merge⟩ ⚔ ⟡) ⊙ ⊨ WITH LOVE
