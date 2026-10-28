@@ -1,0 +1,40 @@
+name: kura-brez-roba (samoporteca)
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches: [main]
+
+concurrency:
+  group: kura-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  kura:
+    if: github.head_ref == 'zrcalo/sinhronizacija-3071-delovna'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: kura
+        run: |
+          set -o pipefail
+          python3 kura/popravek-kure.py 2>&1 | tee kura.out
+      - name: porocilo ob padcu
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          T=$(cat kura.out 2>/dev/null || echo "brez zapisa")
+          B=$(printf 'KURA-POROCI-PADEC (tek %s)\n\n```\n%s\n```\n' "$GITHUB_RUN_ID" "$T" | jq -Rs .)
+          curl -sf -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -d "{\"body\": $B}" \
+            "https://api.github.com/repos/AtmaOVictu/Atmavictu/issues/$PR/comments"
