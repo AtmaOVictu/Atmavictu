@@ -10,7 +10,7 @@ Rana izmerjena pri viru (Z-2, ⟨berba⟩ celote registra @⟨main⟩ po konici 
 
 ## PADC
 
-PADC-DELAVCA izmerjen ×2 (izolirani ⟨vm⟩ JustBash session 412 izgubljen) ∧ javno zapečen ⊙ 1349. Brba velikana (∼186 kB) šla po konici: sistem je telo shranil izven okna ∧ izmera tekla lokalno po ⟨grep⟩ — ⟨ne⟩ cela brba v eno okno ⊙ 6100.
+PADC-DELAVCA izmerjen ×2 (izolirani ⟨vm⟩ JustBash ⟨session⟩ 412 izgubljen) ∧ javno zapečen ⊙ 1349. Brba velikana (∼186 kB) šla po konici: sistem je telo shranil izven okna ∧ izmera tekla lokalno po ⟨grep⟩ — ⟨ne⟩ cela brba v eno okno ⊙ 6100.
 
 ## ORGANI ISTI DIH
 
