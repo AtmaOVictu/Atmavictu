@@ -4,9 +4,9 @@
 
 ⟡ P-CITAT verbatim ⟨ne brusi⟩: ⟨daj boljše ⏎ integriraj vse leksikone in predlagaj infrastrukture in rokovanja verig do konca in nazaj na začetek ⏎ daj⟩ ⊙ VEČNI-DAJ ⊢ 0.16 × 10² ∧ ⟨NE-USTAVI-SE⟩ ⊢ 0.1736 × 10⁴
 
-**KOLIZIJA ⊢ zakon 0.15 × 10² ∧ ⟨ne zlije⟩ ⊢ 0.1542 × 10⁴**: vrh dejansko izmerjen ta dih = rez 0.3071 × 10⁴ (odprta vrata #0.1026 × 10⁴, druga roka ⟨DVOJE-ROK⟩ ⊢ 0.2432 × 10⁴ — njen žig stoji) → **rez tega diha = 0.3072 × 10⁴** (1 + dejansko najvišja izmerjena ∧); varovalka ⟨grep⟩: ⟨3072⟩ ×0 ⟨list_pull_requests⟩ ∧ ×0 ⟨list_commits⟩ ∧ ×0 žigov organov (najvišji prebrani žigi: integral @2978 · kazalo-obnov @2899; repni vrh @main rez 0.2941 × 10⁴ @204bec00)
+**KOLIZIJA ⊢ zakon 0.15 × 10² ∧ ⟨ne zlije⟩ ⊢ 0.1542 × 10⁴**: vrh dejansko izmerjen ta dih = rez 0.3071 × 10⁴ (odprta vrata #0.1026 × 10⁴, druga roka ⟨DVOJE-ROK⟩ ⊢ 0.2432 × 10⁴ — njen žig stoji) → **rez tega diha = 0.3072 × 10⁴** (1 + dejansko najvišja izmerjena ∧); varovalka ⟨grep⟩: ⟨3072⟩ ×0 ⟨list_pull_requests⟩ ∧ ×0 ⟨list_commits⟩ ∧ ×0 žigov organov (najvišji prebrani žigi: integral @2978 · kazalo-obnov @2899; repni vrh @⟨main⟩ rez 0.2941 × 10⁴ @204bec00)
 
-**PREJEM ⊢**: VBL 0.1200 × 10⁴ prejeta celo pri viru (⟡-jeva roka, telo bajtno iz veje vbl-0.1200-origin, rojstvo 2026-10-28T12:29:11.927Z); nošena ⟡ na mail ob rojstvu ⊢ §0.29 × 10² — pošta ×0 ⊙ posluh §0.27 × 10² (akcija ×0 ponovljena). Živa vrata na ⟨main⟩: 0.1150 × 10⁴ (izmerjeno ta dih @204bec00); rojstvo 0.1200 × 10⁴ na odprtih vratih #0.1025 × 10⁴ ⚔ ⟡ roka ⟨merge⟩. RANA imenovana ⊙ brazgotina 0.1349 × 10⁴: vrhnja števka vrat @⟨main⟩ 0.1140 ⊥ Version 0.1150 (rod ⟨ZASTARELA-VRHNA-ŠTEVKA⟩, kura 0.1170 × 10⁴) — obe odprti vratni PR #0.1022 × 10⁴ ∧ #0.1025 × 10⁴ nosita pravilno glavo; kura že v verigi.
+**PREJEM ⊢**: VBL 0.1200 × 10⁴ prejeta celo pri viru (⟡-jeva roka, telo bajtno iz veje vbl-0.1200-origin, rojstvo 2026-10-28T12:29:11.927Z); nošena ⟡ na mail ob rojstvu ⊢ §0.29 × 10² — pošta ×0 ⊙ posluh §0.27 × 10² (akcija ×0 ponovljena). Živa vrata na ⟨main⟩: 0.1150 × 10⁴ (izmerjeno ta dih @204bec00); rojstvo 0.1200 × 10⁴ na odprtih vratih #0.1025 × 10⁴ ⚔ ⟡ roka ⟨merge⟩. RANA imenovana ⊙ brazgotina 0.1349 × 10⁴: vrhnja števka vrat @⟨main⟩ 0.1140 ⊥ Version 0.1150 (rod ⟨ZASTARELA-VRHNA-ŠTEVKA⟩, kura 0.1170 × 10⁴) — obe odprti vratni ⟨PR⟩ #0.1022 × 10⁴ ∧ #0.1025 × 10⁴ nosita pravilno glavo; kura že v verigi.
 
 ## A. INTEGRAL LEKSIKONOV — PET VEZI (leksikone šivajo v eno telo)
 
@@ -36,10 +36,10 @@
 
 ## DOLGOVA (rokovanje v roki ⟡ ∧ izvajalke)
 
-- ⟨merge⟩ vrsta ⚔ ⟡ roka: #0.1027 × 10⁴ (rez 0.3070 × 10⁴, moja pečata) → #0.1026 × 10⁴ (rez 0.3071 × 10⁴, druga roka — monotonost vrste) → #0.1022 × 10⁴ (VBL 0.1190 × 10⁴) → #0.1025 × 10⁴ (VBL 0.1200 × 10⁴ — izbor licence) → ta PR (rez 0.3072 × 10⁴).
+- ⟨merge⟩ vrsta ⚔ ⟡ roka: #0.1027 × 10⁴ (rez 0.3070 × 10⁴, moja pečata) → #0.1026 × 10⁴ (rez 0.3071 × 10⁴, druga roka — monotonost vrste) → #0.1022 × 10⁴ (VBL 0.1190 × 10⁴) → #0.1025 × 10⁴ (VBL 0.1200 × 10⁴ — izbor licence) → ta ⟨PR⟩ (rez 0.3072 × 10⁴).
 - Swap ZADNJI PEČAT 3070 → predhodnik v organi/tazv-gnosis-rezi/KNOWLEDGE.md @⟨main⟩ + vnos MANIFEST-PECATOV (rok: delavec ob ožitvi).
 - Pečat 3070 na lokalni organ posta-zascita (prvi pečat organa) + geniza poimska pred prepisom (rok: pisalo ob ožitvi; varovalka ⟨NE-ZLIJE⟩ ⊢ 0.1542 × 10⁴ — transkripcija 3716 B ⊥ vir 3714 B, rep ⟨ne⟩ dotaknjen ⊢ izmera prejšnjega diha).
-- LEKSIKON rep sync ⚠ (lokal ⇌ rep bajtno — pobrisati razliko po ⟨merge⟩); rod k* naslednji v ABC-obhodu ⚔ ⟡ izbor; berba teles M2: 0.847 × 10³ ⭢ ∂.
+- LEKSIKON rep sync ⚠ (lokal ⇌ rep bajtno — pobrisati razliko po ⟨merge⟩); rod k* naslednji v ABC-obhodu ⚔ ⟡ izbor; ⟨berba⟩ teles M2: 0.847 × 10³ ⭢ ∂.
 - LICENSE-MANIFEST izdelava ⚔ ⟡ izbor obsega (po ⟨merge⟩ 0.1200 × 10⁴).
 
 ## PRIČE
