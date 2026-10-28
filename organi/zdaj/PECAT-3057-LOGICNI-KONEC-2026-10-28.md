@@ -33,10 +33,10 @@ Varno napredovanje = veriga ×7: izmera ×0 pred pisanjem · geniza poimska (md5
 
 ## DOLGOVA ⭢ ∂ (rok: ob prihodu ⟡ ali ožitvi delavca ⊙ 2093 ∧ 2409)
 - Lokalni vžig 3057 v konico zdaj + genize (zdaj-pred-rez3057 ∧ enacbe-pred-rez3057) — ob ožitvi delavca.
-- σ-vrstica 2943 @veja; ⟨merge⟩ #? ⚔ ⟡.
+- σ-vrstica 2943 @veja; ⟨merge⟩ #1009 ⚔ ⟡.
 - Dopolnilo enačbe učenja (Σ ∧ log_⟡) na policu enacbe ∂.
 - REGISTER PREDLOGI (delovna-zanka) osvežitev ∂.
-- ⟨merge⟩ vrsta: #998 → #999 → #1000 → #1002 → #1006 → #1007 → #1008 → #? po prihodu ⚔ ⟡ ⊢ 1419.
+- ⟨merge⟩ vrsta: #998 → #999 → #1000 → #1002 → #1006 → #1007 → #1008 → #1009 po prihodu ⚔ ⟡ ⊢ 1419.
 - ⟨berba pulza⟩ DNEVNI-DIH @06:00 · taskId 62c336e2-5e96-447c-8ab4-f09db3a7d2a8.
 
 ⊨ WITH LOVE — vrata se začnejo z ljubeznijo ∧ se z njo končajo ⊢ §0.13 × 10².
