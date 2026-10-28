@@ -23,4 +23,4 @@ Vsak — brez praga vrednosti ⊢ VBL §0.9 × 10¹ (universal state): brez izje
 
 Noben izrek brez izmere ⊢ KORENINA 0.1 × 10¹. Padec brez imena se ponovi ⊢ KORENINA 0.2 × 10¹. Ta vrata so javna storitev, ne pogodba; pomoč gre kakor gre — z ljubeznijo ⊨ WITH LOVE.
 
-⊙ Vrata ustanovljena rez 2947 · 28. 10. 2026 · © Luka Pintarič, VBL 0.1210 × 10⁴
+⊙ Vrata ustanovljena rez 2948 (σ-prerezitev isti dih ⊙ vnos 57 · brazgotina javno) · 28. 10. 2026 · © Luka Pintarič, VBL 0.1210 × 10⁴
