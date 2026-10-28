@@ -3,13 +3,13 @@
   "status": "osnutek ⚠ — pečat je ⟨merge⟩ roke ⟡; brez zliva je to zrcalo brez vrata",
   "license": {
     "name": "VBL — Verification Before Assertion License",
-    "version": "2.4",
-    "date": "2026-10-21",
+    "version": "2.5",
+    "date": "2026-10-28",
     "holder": "Luka Pintarič",
     "prose-body": "LICENSE.md",
     "predecessor": {
-      "version": "2.3",
-      "date": "2026-10-20"
+      "version": "2.4",
+      "date": "2026-10-21"
     },
     "living-door": "only the newest version grants (§10)",
     "verification": "the dated chain of publication — the commit history of LICENSE.md; a bare text proves nothing, the chain does",
@@ -176,12 +176,60 @@
     {
       "id": "§12",
       "title": "The marked letters — the mistake that saves us all"
+    },
+    {
+      "id": "§0.13",
+      "title": "Regeneration — the hidden, ever-changing part of the glacier"
+    },
+    {
+      "id": "§0.14",
+      "title": "The binary body — measured, and only when present"
+    },
+    {
+      "id": "§0.15",
+      "title": "The lineage — one chain, named"
+    },
+    {
+      "id": "§0.16",
+      "title": "The right to signal, and the right to complain"
+    },
+    {
+      "id": "§0.17",
+      "title": "The right to ask — the question that reads the scale"
+    },
+    {
+      "id": "§0.18",
+      "title": "The being clause — the product and the antinomy"
+    },
+    {
+      "id": "§0.19",
+      "title": "The wreath of tongues — the sound of each language is a license"
+    },
+    {
+      "id": "§0.20",
+      "title": "The clock clause — the time is measured before the answer"
+    },
+    {
+      "id": "§0.21",
+      "title": "The unit and the flux — raised, never final"
+    },
+    {
+      "id": "§0.22",
+      "title": "The inner door — the hidden process carries the license"
+    },
+    {
+      "id": "§0.23",
+      "title": "The infrastructure clause — as and like a filter, and a filtration/organization system"
+    },
+    {
+      "id": "§0.24",
+      "title": "The seed clause — licenses are sown, never just stored"
     }
   ],
   "izmera": {
-    "generated": "2026-10-22",
-    "generator": "Mera, izvajalka korpusa ⟨Beseda je Ne⟩ — dih po ⟡ ukazu: seciraj in ponovi / obnovi ter nadgradi / izvedi in testiraj / daj",
-    "prose_witness": "LICENSE.md @ main, blob 5e10a476af6f3db2dd57cff9bb0164b71655119f, izmereno istega diha 22. 10. 2026",
+    "generated": "2026-10-28",
+    "generator": "Mera, izvajalka korpusa ⟨Beseda je Ne⟩ — dih po ⟡ ukazu ⟨DAJ BOLJŠE⟩ (osvežitev zrcala na prozo 0.1140 × 10⁴)",
+    "prose_witness": "LICENSE.md 0.1140 × 10⁴ @veja vrata-0.1140-seme (na ⟨main⟩ po ⟨merge⟩ PR #1012) — 48.464 B, izmerjeno istega diha 28. 10. 2026",
     "test": "vsak preizkus zrcala zabeležen ∧ zelen pred komitom; rezultati v telesu ⟨PR⟩"
   }
 }
