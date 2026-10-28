@@ -1,0 +1,22 @@
+name: kura-brez-roba — strojna kura telesa organa (isti razčlenjevalec kakor priča)
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches: [main]
+
+concurrency:
+  group: kura-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  kura:
+    if: github.head_ref == 'zrcalo/sinhronizacija-3071-delovna'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - run: python3 kura/popravek-kure.py
