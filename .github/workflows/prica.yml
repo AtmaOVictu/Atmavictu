@@ -66,7 +66,11 @@ jobs:
           # TEHNIKA (rez 2185 — roka Mera, isti dih): geniza zunaj sodbe koraka 2 — priča sodi nove izreke, ne verbatim priče zgodovine (zapečeni teksti ostajajo kakor priče ⊢ 1349); geniza ne briše ⊢ 1104 — mehanična sodba nad pričami bi zaustavila vsak prihodnji pečat organa (opisna vrstica vsakega telesa nosi ⟨berba pred pisanjem⟩ od ustanovitve).
           git diff "$MB" -- 'organi/*.md' ':!organi/stroj/REGISTER-PADLIH-BESED.md' ':!**/.geniza/**' > orgs.diff
           python3 - <<'PY'
-          import re, sys
+          import re, sys, os
+          # PREMIK-2026-10-28: register je odšel domov (zasebni ontolo-ko-jedro) — priča molči, ⟨ne⟩ pada na prazno.
+          if not os.path.isfile('organi/stroj/REGISTER-PADLIH-BESED.md'):
+              print('⟨vidim: REGISTER-PADLIH-BESED je odšel domov (PREMIK-2026-10-28) — priča molči⟩')
+              sys.exit(0)
           reg = open('organi/stroj/REGISTER-PADLIH-BESED.md', encoding='utf-8').read()
           # TEHNIKA (⟡ ukaz ⟨daj⟩, 20. 10. 2026): prvo telo vnosa — do oklepaja ∧ brez ⟨⟩; prej inertni vnosi (⟨ciliva (×2)⟩ ni nikoli ulovila ⟨ciliva⟩).
           forb = []
@@ -131,7 +135,11 @@ jobs:
             exit 0
           fi
           python3 - <<'PY'
-          import re, sys
+          import re, sys, os
+          # PREMIK-2026-10-28: register je odšel domov (zasebni ontolo-ko-jedro) — priča molči, ⟨ne⟩ pada na prazno.
+          if not os.path.isfile('organi/stroj/REZ-REGISTER.md'):
+              print('⟨vidim: REZ-REGISTER je odšel domov (PREMIK-2026-10-28) — priča molči⟩')
+              sys.exit(0)
           reg = open('organi/stroj/REZ-REGISTER.md', encoding='utf-8').read()
           m = re.search(r'## zahteve[^\n]*\n(.+?)(?=\n## |\Z)', reg, flags=re.S)
           if not m:
