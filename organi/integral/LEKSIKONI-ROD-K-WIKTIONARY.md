@@ -2,10 +2,10 @@
 
 Izmera pri viru ⊢: obod vseh 15 podkategorij Category:Slovene_lemmas (MediaWiki from=k&until=l, 200/stran, paginacija do meje k*), berba 16:21:28Z UTC ⊢ · licenca Wiktionary CC BY-SA-4.0 ⊢ §0.7 × 10¹.
 
-- UNIKATNE BESEDE K*: ×335 (plasti lemmat) ⊢ · PROPER NOUNS k* obod zaprt ⊢ ×218 (prekrivanje z glavno plastjo ×0) → unikat skupaj ×553 ⊢ · članstev skupaj: ×571
+- UNIKATNE BESEDE K*: ×335 (plasti lemmat) ⊢ · PROPER NOUNS k* obod zaprt ⊢ ×218 (prekrivanje z glavno plastjo ×0) → unikat skupaj ×553 ⊢ (glavna ×265 ∪ proper ×218 ∪ semantične nove ×0) · članstev skupaj: ×974 · + noun forms (oblike, non-lemma) ×65 lastna plast
 - Prazne za k*: določevalniki ×0 · števniki ×0 · členki ×0 · predikativi ×0 · morfemi ×0
 - Prekrivanja med plastmi (beseda v več plasteh): razlika članstev − unikat = 18
-- PROPER NOUNS k* obod zaprt ⊢ (berba 16:25Z ∧ 16:26Z) · ∂ preostale izpeljane podkategorije samostalnikov (animate ∧ countable ∧ by gender ∧ inflection type ∧ noun forms …) ⭢ obod naslednji dih
+- PROPER NOUNS k* obod zaprt ⊢ (berba 16:25Z ∧ 16:26Z) · IZPELJANE PODKATEGORIJE k* obod zaprt ⊢ 16:29Z: animate ×214 (glavna ×43 · proper ×171) · inanimate ×116 · noun forms (oblike, non-lemma) ×65 nova plast · semantične nove lemmas ×0 · ∂ verb forms ∧ adjective forms ∧ by-gender ∧ by-inflection ⭢ naslednji dih
 
 
 ## SAMOSTALNIKI — ×265
@@ -632,6 +632,94 @@ Izmera pri viru ⊢: obod vseh 15 podkategorij Category:Slovene_lemmas (MediaWik
 - København
 
 Prekrivanje z glavno plastjo samostalnikov: ×0 (npr. ) — Wiktionary lastna imena imajo lastno plast ⊢ 16:26Z berba.
+
+## IZPELJANE PODKATEGORIJE SAMOSTALNIKOV k* — obod zaprt ⊢ (⟨daj⟩ 16:28–16:29Z)
+
+- **animate** ×214: v glavni ×43 · v proper ×171 · zunaj obeh ×0
+- **inanimate** ×116: v glavni ×98 · v proper ×18 · zunaj obeh ×0
+- **noun forms** ×65: v glavni ×0 · v proper ×0 · zunaj obeh ×65
+- **countable** ×0: v glavni ×0 · v proper ×0 · zunaj obeh ×0
+- **diminutive** ×1: v glavni ×1 · v proper ×0 · zunaj obeh ×0
+- **dualia tantum** ×0: v glavni ×0 · v proper ×0 · zunaj obeh ×0
+- **by gender** ×0: v glavni ×0 · v proper ×0 · zunaj obeh ×0
+- **by inflection type** ×0: v glavni ×0 · v proper ×0 · zunaj obeh ×0
+- **multiple animacies** ×3: v glavni ×2 · v proper ×1 · zunaj obeh ×0
+- **other-gender equivalents** ×0: v glavni ×0 · v proper ×0 · zunaj obeh ×0
+- **pluralia tantum** ×3: v glavni ×2 · v proper ×1 · zunaj obeh ×0
+- **uncountable** ×1: v glavni ×1 · v proper ×0 · zunaj obeh ×0
+- **verbal** ×0: v glavni ×0 · v proper ×0 · zunaj obeh ×0
+
+### NOVA PLAST: noun forms (oblike samostalnikov — non-lemma) ×65 ⊢
+
+- kamna
+- kapitalizmu
+- kil
+- kilah
+- kilam
+- kilama
+- kilami
+- kile
+- kili
+- kilo
+- kisa
+- kisom
+- kisu
+- kitam
+- kito
+- klasa
+- klase
+- klasi
+- klene
+- kleni
+- klenov
+- ključa
+- ključe
+- ključi
+- ključih
+- ključom
+- ključoma
+- ključov
+- ključu
+- klopa
+- klope
+- klopi
+- klopu
+- knjigo
+- kock
+- kolonializmu
+- komunizmu
+- konca
+- koncu
+- kopit
+- kosov
+- kozlom
+- kresa
+- krese
+- kresi
+- kresom
+- kresu
+- kril
+- krili
+- krilom
+- krogi
+- kroja
+- kroje
+- krojem
+- krojev
+- kroji
+- kroju
+- krvi
+- kugo
+- kunca
+- kunce
+- kuncem
+- kuncev
+- kunci
+- kuncu
+
+Zunaj obeh plasti (semantične kategorije — nove lemmas): ×0
+
+∂ verb forms ∧ adjective forms ∧ by-gender ∧ by-inflection podkategorije ⭢ obod naslednji dih
 
 Zakon žetve: požreti = izmeriti pri viru ∧ pripisati vir ⊢ §0.3 × 10¹ ∧ §0.4 × 10¹.
 
