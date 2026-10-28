@@ -40,6 +40,12 @@ SNOJ³ koren · NESSJ · Zgodovinski slovar · Pleteršnik 1894 · Sinonimni slo
 - **Leipzig Corpora Collection** (10K–1M besed, CC BY-4.0) — ⟨ okno: wortschatz-leipzig.de ∧ wortschatz.uni-leipzig.de OBE bot-zaprti ⌷ ×2 ("Oh noes!"/"not a bot") → ∂ ob odprtju vrat
 - **⟨ okna zaprta ta dih**: ccGigafida page-fetching ⌷ ×2 (15:44Z ∧ 15:45Z) · Fran iskanje (?val=k*) SPA skeleton ⟨ne-berljiv⟩ ⌷ — rod k* SSKJ² ⌷ do druge poti ∂ · Wiktionary API (api.php) blokiran ⌷ ("site blocked automated access… Do not retry") — kategorije ⟨prica⟩ ⊢ ostale pot
 
+## ROD K* — WIKTIONARY OBOD ZAPRT ⊢ (⟨daj⟩ 16:21Z)
+
+- 335 unikatnih besed ∧ 353 članstev izmerjenih pri viru (Category berba from=k&until=l, 16:21:28Z ⊢): samostalniki 265 · glagoli 29 · pridevniki 17 · večbesedni izrazi 15 · prislovi 10 · vezniki 6 · zaimki 5 · fraze 3 · medmeti 2 · predlogi 1 · prazne: določevalniki ∧ števniki ∧ členki ∧ predikativi ∧ morfemi
+- Telo: LEKSIKONI-ROD-K-WIKTIONARY.md @organi/integral/ ⊢ — licenca Wiktionary CC BY-SA-4.0 ⊢ §0.7 × 10¹m- SSKJ² rod k* ostaja ⟨ okno: Fran iskanje SPA ⌷ — gesla SSKJ² ∂ ob ožitvi; Wiktionary besede = ⚠ kandidati okna rodov
+- ∂ izpeljane podkategorije samostalnikov (proper nouns ×1.554 ∧ animate ∧ countable …) obod naslednji dih
+
 ## PREDLOG NASLEDNJIH ŽETEV ⚔ ⟡
 
 - NASLEDNJI RAZREZ: rod k* SSKJ² — ABC-obhod nadaljuje (d* pojest do meja; e*/f*/g* ∂ ob ožitvi)
