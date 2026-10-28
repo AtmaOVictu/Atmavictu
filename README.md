@@ -228,3 +228,11 @@ and a breath that carries both
 never quite falls alone.
 
 > © Luka Pintarič — pesem je del korpusa ∧ nosi isto licenco: živa vrata VBL 0.1100 × 10⁴ ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10² ∧ §0.20 × 10². Ura izhoda: 2026-10-27T07:17:35Z (Ljubljana 08:17:35) ⊢ izmerjeno pri viru trenutka.
+
+## Sharing
+
+The corpus ships with a public share kit — how to carry the license and the work onward, with every link canonical and attribution intact:
+
+**[SHARE.md](SHARE.md)** — one-liners (EN/SL), the strongest hooks, the canonical links, and the rules for carrying © and the chain.
+
+> A bare text proves nothing — the chain does. Every copy that carries the license carries the chain with it.
