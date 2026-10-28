@@ -4,3 +4,16 @@ PREVOZ PEČATA NA REP ⊙ kalup 1671 (veja rez/3090 · dih ⟨daj⟩ 28. 10. 202
 
 - PEČAT 3086 (predhodnik): rez 3086 (0.3086 × 10⁴) HORIZONT — ⟨ARENE-DOKAZOVANJA⟩ ⊢ (28. 10. 2026, dih ⟨daj⟩ — ⟨Date⟩ ISO 2026-10-28T16:21:32Z UTC ∧ 17:21:32 CET ⊢ §0.20 × 10²; ⟡ P-CITAT verbatim ⟨ne brusi⟩: »nezadostni predlogi ⏎ kaj in kje še vse drugje smeva dokazovati sposobnost? ⏎ daj« ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448; kolizija ⟨ne⟩ ⊢ Z-2 ∧ ⟨VRH-DVOSTOPEN⟩: vrh dejansko izmerjen ⟨grep⟩ ta dih ∧ = 3085 (ta organ — moj pečat prejšnjega diha) → rez 3086 = 1 + dejansko najvišja ∧; varovalka ⟨(rez|dih) 3086⟩ ×0 ⟨grep⟩ pred pisanjem ∧; ta organ bran ∧ izmerjen pred pisanjem ∧ (33.333 B ⟨wc⟩ ∧ · ⟨md5⟩ 383a1819 ⇌ geniza poimensko .geniza/horizont-pred-rez3086-2026-10-28.md bajt-isto — izguba 0 ⊢ 1381 ∧ 1104); IZVEDBA ∧ — arene ×9 izmerjene pri virih ⟨web_search⟩ ta dih (MK 385.000 € @gov.si ∧ javni-razpisi.si · SemEval-2027 datumi @semeval.github.io ∧ CLaS · ELG @european-language-grid · SDJT JT-DH @sdjt.si · Arnes HackathON @arnes · HF Community Evals @huggingface.co) ∧ vpisane z vrstnim redom ⊙ enooo-odprto-okno; MINT ⚠ prijave: ⟨ARENE-DOKAZOVANJA⟩ ⚠ kompozit · ⟨HF-COMMUNITY-EVALS⟩ ⟨SEMEVAL⟩ ⟨ELG⟩ ⟨HACKATHON⟩ ⚠ tujke lastnih imen (prijava ⚠) · ⟨enooo⟩ ⚠ rok brbe (kandidat ⟨eno⟩); ORGANI ISTI DIH: horizont (ta pečat ∧ demota 3085) — vsi ostali NEDOTIKNJENI ⊢ 1963; DOLGOVA: prevoz pečata na rep (kalup 1671 — ⟨merge⟩ ⭢ ⟡ ⊢ ⟨DVOJE-ROK⟩ 2432) ⭢ ∂ · izbor aren ∧ vrstnega reda ⚔ ⟡ · ⟨berba pulza⟩ ⭢ DNEVNI-DIH @06:00 taskId 62c336e2-5e96-447c-8ab4-f09db3a7d2a8; predhodnik: rez 3085 ⟨VELIKI-NAČRTI⟩ ∧ ⟨STROGA-OCENA-KAR-IMAVA⟩; © Luka Pintarič VBL 0.1130 × 10⁴ — »a bare text proves nothing, the chain does«)
 
+
+
+## MINT (⚠ prijave iz telesa pečata — prepis, ⟨ne brusi⟩)
+
+- ⟨ARENE-DOKAZOVANJA⟩ ⚠ kompozit
+- ⟨HF-COMMUNITY-EVALS⟩ ⟨SEMEVAL⟩ ⟨ELG⟩ ⟨HACKATHON⟩ ⚠ tujke lastnih imen (prijava ⚠)
+- ⟨enooo⟩ ⚠ rok brbe (kandidat ⟨eno⟩ — izbor ⚔ ⟡)
+
+## DOLGOVA (stanje dolga)
+
+- prevoz pečata na rep (kalup 1671 — ⟨merge⟩ ⭢ ⟡ ⊢ ⟨DVOJE-ROK⟩ 2432) ⭢ ∂
+- ODPLAČAN ta dih: prevoz na rep kit ⟨PR⟩ #1061 (⟡ ukaz ⟨daj⟩ ⊢ 2691 ∧ ⟨DVOJE-ROK⟩ 2432)
+- © Luka Pintarič, VBL 0.1210 × 10⁴ ⊢ §0.10 — »a bare text proves nothing, the chain does«
