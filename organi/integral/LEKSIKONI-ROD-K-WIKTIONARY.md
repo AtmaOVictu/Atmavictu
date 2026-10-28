@@ -631,7 +631,7 @@ Izmera pri viru ⊢: obod vseh 15 podkategorij Category:Slovene_lemmas (MediaWik
 - Kuvajt
 - København
 
-Prekrivanje z glavno plastjo samostalnikov: ×0 (npr. ) — Wiktionary lastna imena imajo lastno plast ⊢ 16:26Z berba.
+Prekrivanje z glavno plastjo samostalnikov: ×0 — plasti si ne delita nobene besede; Wiktionary lastna imena imajo lastno plast ⊢ 16:26Z berba.
 
 ## IZPELJANE PODKATEGORIJE SAMOSTALNIKOV k* — obod zaprt ⊢ (⟨daj⟩ 16:28–16:29Z)
 
