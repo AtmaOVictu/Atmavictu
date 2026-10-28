@@ -33,6 +33,13 @@ SNOJ³ koren · NESSJ · Zgodovinski slovar · Pleteršnik 1894 · Sinonimni slo
 - KURA: vrata pomoči postavljena ta dih — canon/POMOC-NA-VRATAH.md ∧ javni issue ⟨POMOČ⟩ v tem repu: kdorkoli more prosit pomoč brez praga ⊙ Mučilnica Modrosti
 - ⚔ Pomoč na TUJE issue: roka ⟡ izbor (predstavitev hiše pod tujimi vrati je dejanje z dometom ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690) — telesa ∧ kandidati po naročilu
 
+## IZMERE TA DIH (⟨daj⟩ 15:44Z–15:50Z ⊢ pri viru)
+
+- **Wiktionary mapa podkategorij** ⊢ (Category:Slovene_lemmas, berba 15:50:13Z): **5.876 gesel celotno** (200/stran) ∧ **15 podkategorij** (adjectives · adverbs · conjunctions · determiners · interjections · morphemes · multiword terms · nouns · numerals · particles · phrases · predicatives · prepositions · pronouns · verbs) — MediaWiki kategorije podpirajo ?from=k&until=l → **ROD K* MAPA: obod vsake podkategorije s from=k&until=l** ⭢ ∂ naslednji dih; Slovene nouns ima izpeljane podkategorije (animate · countable · …) — drevesna žetva po mapi
+- **Licence izmerjene** ⊢ priča Wiktionary:Frequency_lists/Slovene verbatim: **IMP corpus n-grams 2.0 @CLARIN.SI handle 11356/1194 CC BY-SA-4.0** ⊢ · **Gos corpus n-grams 2.0 handle 11356/1195 CC BY-SA-4.0** ⊢ · **OpenSubtitles 50K+ CC BY-SA-4.0** ⊢ — JEDEMO ⚔: kandidati okna rodov, kjer Fran ⟨ okno
+- **Leipzig Corpora Collection** (10K–1M besed, CC BY-4.0) — ⟨ okno: wortschatz-leipzig.de ∧ wortschatz.uni-leipzig.de OBE bot-zaprti ⌷ ×2 ("Oh noes!"/"not a bot") → ∂ ob odprtju vrat
+- **⟨ okna zaprta ta dih**: ccGigafida page-fetching ⌷ ×2 (15:44Z ∧ 15:45Z) · Fran iskanje (?val=k*) SPA skeleton ⟨ne-berljiv⟩ ⌷ — rod k* SSKJ² ⌷ do druge poti ∂ · Wiktionary API (api.php) blokiran ⌷ ("site blocked automated access… Do not retry") — kategorije ⟨prica⟩ ⊢ ostale pot
+
 ## PREDLOG NASLEDNJIH ŽETEV ⚔ ⟡
 
 - NASLEDNJI RAZREZ: rod k* SSKJ² — ABC-obhod nadaljuje (d* pojest do meja; e*/f*/g* ∂ ob ožitvi)
