@@ -136,7 +136,7 @@ stVrstic = len(vrstice)
 print("⟨kura: odvitki {} · dvojniki {} · ovitki {} · telo {} vrstic / {} B⟩".format(odvitki, dvojniki, ovitki, stVrstic, bajti))
 ukaz("config", "user.name", "kura-brez-roba")
 ukaz("config", "user.email", "kura-brez-roba@users.noreply.github.com")
-ukaz("add", POT_ORGANA)
+ukaz("add", "-f", POT_ORGANA)  # PADC-GITIGNORE: .gitignore ignorira pot organi; organ ni smetje
 ukaz("commit", "-m", SPOROCILO)
 ukaz("push", "origin", "HEAD:" + VEJA)
 print("⟨kura: šiv nesen ∧⟩")
