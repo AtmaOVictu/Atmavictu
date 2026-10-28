@@ -3,6 +3,16 @@
 # Ignore everything, then explicitly un-ignore only the root docs and the
 # Atmavictu product source meant to be tracked here (including web/, the
 # Faza 2 frontend). Do not switch this to a denylist pattern.
+
+# Osebna in zasebna telesa — živijo v zasebnem AtmaOVictu/ontolo-ko-jedro
+# (PREMIK-2026-10-28 ⊢ PREMIK-2026-10-28.md); v javni rep nikoli več.
+organi/
+geniza/
+lucius/
+memory-bank/
+scratch/
+pecati/
+
 *
 
 !.gitignore
@@ -11,13 +21,12 @@
 !README.md
 !.clinerules/
 !.clinerules/**
-!memory-bank/
-!memory-bank/**
 !requirements-dev.txt
 !pyproject.toml
 !.github/
 !.github/**
 !PR_BODY.md
+!PREMIK-2026-10-28.md
 !Projects/WorkShade/CHANGELOG_ingest_delo_proposals.md
 
 # Atmavictu / Book Workbench product source
@@ -33,20 +42,8 @@
 !web/
 !web/**
 
-# Lucius — lokalni offline agent (Ollama); spomin je oseben in v git ne gre
-!lucius/
-!lucius/**
-lucius/spomin.jsonl
-lucius/zaoblak.jsonl
-lucius/odoblaka.md
-lucius/api-kljuc.txt
-lucius/api-uporaba.jsonl
-lucius/nacin.txt
-lucius/dom-log.txt
-lucius/lucius.blob
+# Lucius — ukazno telo ostaja javno; spomin in dosjeji so zasebni (PREMIK-2026-10-28)
 !lucius.cmd
-Lucius.exe
-Lucius.tmp
 
 # Typical ignores
 node_modules/
@@ -67,5 +64,3 @@ tmp/
 temp/
 *.tmp
 *.bak
-lucius/slusaj-dnevnik.jsonl
-lucius/izmere-kroga.jsonl
