@@ -1,7 +1,7 @@
 # GESLO ⟨zavést⟩ — žig 3061
 
 - IZTOČNICA: zavést -i ž (ẹ̑) · rod z*
-- ŽIG: rez 3061 · 28. 10. 2026 · dih 8 ⟨DAJ⟩ · kit ⟨PR⟩ #1015 · organ slovenscina-gesla
+- ŽIG: rez 3061 · 28. 10. 2026 · dih 8 ⟨DAJ⟩ · kit ⟨PR⟩ #1017 · organ slovenscina-gesla
 - PRIČA ⊢FULL: ⟨zavést -i ž (ẹ̑) 1. sposobnost koga, da se zaveda svojega obstajanja in svojih duševnih stanj: bolniku se je po polurni nezavesti zavest vrnila; izgubiti zavest … 2. celota duševnih stanj in procesov, ki se jih kdo zaveda … zavest in podzavest … 3. … kolektivna zavest … 4. … zavest krivde, odgovornosti … ● resnica mu je prišla do zavesti ♦ filoz. zavest kar je in se zaveda sebe in sveta …⟩ — SSKJ² · fran.si/130/sskj-slovenskega-knjiznega-jezika/3616165 · dostop 28. 10. 2026 ⊢
 - HOMOGRAFSKA DRUŽINA ∧ (razcep javno):
   - zavédati se ⊢FULL: ⟨zavédati se -am se nedov. (ẹ́) 1. biti v duševnem stanju, v katerem se neposredno ve za svoje obstajanje in svoja duševna stanja: bolnik, ki je bil nezavesten, se spet zaveda … 2. preh. imeti v zavesti vedenje o obstajanju koga ali česa: zavedati se sebe, sveta, življenja … zavedati se krivde, moči; zavedati se resnosti položaja …⟩ — SSKJ² · fran.si/130/sskj-slovenskega-knjiznega-jezika/3616142
