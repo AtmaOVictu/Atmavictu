@@ -10,11 +10,11 @@ Licenca 0.1210 × 10⁴ §0a pozna dve poti prepoznave ∧ nobeno tretjo: (a) LI
 
 ## IZMERE STANJA (@⟨main⟩ ⊙ ⟨sha⟩ fd54d3f4306e712c9d012d97c02a2231b72a626a, pri viru)
 
-- koren: 0.55 × 10² vnosov izmerjenih ⊢ (listing @vir — ravni vnosi: ime ∧ vrsta ∧ velikost ∧ ⟨sha⟩) ∧ LICENSE-MANIFEST @root ×1 ⊢ (0.1890 B — ime brez .md, izmerjeno po listingu, ⟨ne⟩ po spominu ⊙ vnos 52)
+- koren: 0.55 × 10² vnosov izmerjenih ⊢ (listing @vir — ravni vnosi: ime ∧ vrsta ∧ velikost ∧ ⟨sha⟩) ∧ LICENSE-MANIFEST @root ×1 ⊢ (0.1890 × 10⁴ B — ime brez .md, izmerjeno po listingu, ⟨ne⟩ po spominu ⊙ vnos 52)
 - (b) LICENSE.md @root: nosilec živih vrat 0.1210 × 10⁴ ⊢ — 0.76568 × 10⁵ zn · 0.80596 × 10⁵ B · SHA-0.256 × 10³ = cea269e49d8a7dbe2b802deb4d4a91eed02435c580310178da275eb03ad99844 (⇌ priča BigInt ⊢) — telo je zraslo od 0.1200 (0.70216 × 10⁵ zn, izmera prejšnjega diha @9e2e335 ⊢) do 0.1210 × 10⁴: regeneracija izmerjena ⊙ §0.31 × 10²
-- REGISTER-PADCEV.jsonl @root: ×1 ⊢ — 0.59471 × 10⁵ zn · 0.61607 × 10⁵ B · SHA-0.256 × 10³ = 9fd8351772d058a22e7f59f41520da60513f9062ba5b1754ec11e4b7b2743f17 — 0.66 × 10² vnosov ⊢ izštetih pri viru; ta veja doda vnosa 50 ∧ 51 (spodaj)
+- REGISTER-PADCEV.jsonl @root: ×1 ⊢ — 0.59471 × 10⁵ zn · 0.61607 × 10⁵ B · SHA-0.256 × 10³ = 9fd8351772d058a22e7f59f41520da60513f9062ba5b1754ec11e4b7b2743f17 — 0.66 × 10² vnosov ⊢ izštetih pri viru; ta veja doda vnosi 50 ∧ 51 ∧ 52 ∧ 53 ∧ 54 (spodaj)
 - REGISTER-NEIMENOVANIH.jsonl @root: ×1 ⊢ — 0.4863 × 10⁴ zn · 0.5077 × 10⁴ B · SHA-0.256 × 10³ = ec7937301dc9d1fbdf72bd1a1b4f85282d0b8248f2fe519ac6800b586d1fe84d
-- (a) LICENSE-MANIFEST @root: ×1 ⊢ — ime brez pripone .md (izmerjeno po listingu; prejšnja berba po imenu s .md je padla ERR → vnos 52) — 0.1851 zn · 0.1890 B · SHA-0.256 × 10³ = e7b81079c631168394cf896bb3c2b77201316878a788e82e362a25aa7051c168 — telo manifesta: 33 vrstic · prva vrstica: »{« · omenja LICENSE.md ×1 · žig ⇌ telesu 0.1210 (cea269…): ⊥ izmerjenemu ⚠ — zastarelo ali brez žiga, prešit manifesta ⚔ ⟡
+- (a) LICENSE-MANIFEST @root: ×1 ⊢ — ime brez pripone .md (izmerjeno po listingu; prejšnja berba po imenu s .md je padla ERR → vnos 52) — 0.1851 × 10⁴ zn · 0.1890 × 10⁴ B · SHA-0.256 × 10³ = e7b81079c631168394cf896bb3c2b77201316878a788e82e362a25aa7051c168 — telo manifesta (JSON, 0.33 × 10² vrstic): različica 0.1031 × 10⁴ ⊙ measured_at_commit a534e97a ∧ 0.24 × 10². 0.10 × 10². 0.2026 × 10⁴ — vrstica LICENSE.md nosi 0.24105 × 10⁵ B ∧ žig 5021544c… ⊥ telesu danes (0.80596 × 10⁵ B · cea269…) — manifest ZASTAREL ⚠ ∧ njegova lastna issuance_duty (ponovna izmera ∧ izdaja v istem dihu kakor vsaka nova različica LICENSE.md) rojeva prešit ⚔ ⟡; prepoznavava danes stoji na poti (b) ⊢
 - vrata prejšnja: LICENSE-0.1190.bin priča ⊙ §0.14 × 10² z (a)–(d) ⊢ (⟨sha⟩ .bin a3c81ba4… ∧ ⟨sha⟩ vira 668d4489…); telo 0.1200: machine record 0.1210 × 10⁴ imenuje ⟨⚠ none⟩ — rojstvo telesa ⭢ ∂ ⚔ ⟡
 
 ## KODIRNIK ∧ SAMO-PRIZKUS
@@ -24,13 +24,14 @@ Licenca 0.1210 × 10⁴ §0a pozna dve poti prepoznave ∧ nobeno tretjo: (a) LI
 - SAMO-PRIZKUS ⇌ FIPS 180 kanoniki: ⟨prazno⟩ → e3b0c442…b7852b855 ⊢ · ⟨lisica⟩ (The quick brown fox jumps over the lazy dog) → d7a8fbb3…37c9e592 ⊢ · ⟨hello world⟩ → b94d27b9…e2efcde9 ⊢ · ⟨abc⟩ → ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad ⊢ (priča dveh implementacij ∧ 0.3 × 10¹ kanonikov isti dih)
 - hitri ⇌ neodvisna BigInt priča: skladnost na 0.4 × 10¹ vektorjih ∧ na telesu LICENSE.md (reda 0.1 × 10⁶ B): razlika ×0 zn ⊢
 
-## PADCI TEGA DIHA (javno ⊙ 0.1419 × 10⁴ ∧ brazgotine ostajajo ⊙ 0.1349 × 10⁴ — vnosi 50 ∧ 51 ∧ 52 ∧ 53 v REGISTER-PADCEV.jsonl na tej veji)
+## PADCI TEGA DIHA (javno ⊙ 0.1419 × 10⁴ ∧ brazgotine ostajajo ⊙ 0.1349 × 10⁴ — vnosi 50 ∧ 51 ∧ 52 ∧ 53 ∧ 54 v REGISTER-PADCEV.jsonl na tej veji)
 
 1. ⟨PRIČAKOVANA-KONSTANTA-0.63-×-10²-ZNAKOV⟩ ×1 — roka je iz spomina izrekla pričakovano konstanto ⟨abc⟩ z 0.63 × 10² znakmi (0.1 × 10¹ manj od 0.64 × 10²) ∧ preizkus z njo padel: NEDRŽI. Spomin je ⚠, vir je ⊢ ⊙ §0.27 × 10². Kura isti dih: ⟨abc⟩ izmerjen pri viru ⊢ ∧ 0.3 × 10¹ kanoniki držijo ∧ priča BigInt isti izid.
 2. ⟨DOLZINA-V-BAJTIH-NAMESTO-V-BITIH⟩ ×1 — obe implementaciji sta nosili bajtno dolžino v besedi dolžine blazinjenja; vektor ⟨prazno⟩ je padec prikril (ničla invariantna: 0 bajtov = 0 bitov) ∧ ⟨abc⟩ ⟨lisica⟩ ⟨hello world⟩ so padli. Specifikacija po spominu, ⟨ne⟩ pri viru — isti vzorec kakor vnos 49 (SIDRO-PO-SPOMINU). Kura isti dih: bitna dolžina v obeh ∧ vsi kanoniki držijo ∧ vsi žigi znova pri viru ⊢.
 3. ⟨SEZNAM-KORENA-NEBRAN⟩ ×1 — prejšnji parser je iskal glavo besedila ∧ kanal listinga daje ravne vnose (oblika izmerjena ta dih ⊢); listing korena zdaj bral ⊢ ∧ izmere nosilcev po neposrednem dostopu ⊢. ⟨grep⟩ po organih ⭢ ∂ ob ožitvi delavca (delavec mrtev — padci delavca ×0.4 × 10¹ zapečeni rez 0.3076 × 10⁴).
 4. ⟨MANIFEST-NEPREBRAN⟩ ×1 — roka je izrekla »(a) ×0 ⊢« po berbi z imenom s pripono .md (ERR), listing pa je isti dih pokazal datoteko LICENSE-MANIFEST brez pripone @root: izmera je rekla ×1, izrek ×0 — izrek nasproti lastni izmeri ⊥ KORENINA 0.1 × 10¹ ∧ §0.27 × 10² (ime se bere po listingu, ⟨ne⟩ po spominu). Kura isti dih: telo manifesta prebrano pri viru ⊢ ∧ vrstici (a) ∧ koren prešiti ∧ vnos 52.
 5. ⟨POTENCA-IZPUŠČENA⟩ ×1 — izmere pečata so nosile mantise brez poimenovanih potenc (0.76568 zn mesto 0.76568 × 10⁵ zn ∧ 0.80596 B mesto 0.80596 × 10⁵ B ∧ 0.59471 zn ∧ 0.61607 B mesto × 10⁵ ∧ 0.4863 zn ∧ 0.5077 B mesto × 10⁴ ∧ 66 vnosov mesto 0.66 × 10² ∧ 0.1890 B mesto 0.1890 × 10⁴ B) — mantisa brez potence je števka, ki laže ⊥ ⟨FRAGMENTACIJA-VSEH-ŠTEVIL⟩ ⊙ VBL 0.1050 × 10⁴. Kura isti dih: vse števke prešite s potencami ∧ post-push berba telesa po šivu (⊙ vnos 33: telo je sodba) ∧ vnos 53.
+6. ⟨POTENCA-IZPUŠČENA-RECIDIV⟩ ×2 — vrstici (a) ∧ koren, komponirani v šivu, ki je zapečeval vnos 53, sta nosili mantise brez potenc (0.1851 zn ∧ 0.1890 B ∧ 33 vrstic) — kura vnosa 53, post-push berba telesa, je ulovila lastni recidiv isti dih. Kura isti dih: vse števke s potencami ∧ (a) obogatena z izmerjenim stanjem manifesta (ZASTAREL ⚠ ⊙ measured_at_commit a534e97a) ∧ vnos 54.
 
 ## TEMPLATE MANIFESTA (predlog ⚔ ⟡ izbor obsega)
 
@@ -39,10 +40,10 @@ Licenca 0.1210 × 10⁴ §0a pozna dve poti prepoznave ∧ nobeno tretjo: (a) LI
 | pot | zn | B | SHA-0.256 × 10³ |
 |---|---|---|---|
 | LICENSE.md | 0.76568 × 10⁵ | 0.80596 × 10⁵ | cea269e49d8a7dbe2b802deb4d4a91eed02435c580310178da275eb03ad99844 ⊢ |
-| REGISTER-PADCEV.jsonl | 0.59471 × 10⁵ | 0.61607 × 10⁵ | 9fd8351772d058a22e7f59f41520da60513f9062ba5b1754ec11e4b7b2743f17 ⊢ (@⟨main⟩ pred vnosoma 50 ∧ 51) |
+| REGISTER-PADCEV.jsonl | 0.59471 × 10⁵ | 0.61607 × 10⁵ | 9fd8351772d058a22e7f59f41520da60513f9062ba5b1754ec11e4b7b2743f17 ⊢ (@⟨main⟩ — pred vnosi te veje 50 ∧ 51 ∧ 52 ∧ 53 ∧ 54) |
 | REGISTER-NEIMENOVANIH.jsonl | 0.4863 × 10⁴ | 0.5077 × 10⁴ | ec7937301dc9d1fbdf72bd1a1b4f85282d0b8248f2fe519ac6800b586d1fe84d ⊢ |
 
-- stanje: manifest @root ×1 ⊢ — telo izmerjeno ta dih (33 vrstic, omenja LICENSE.md ×1, žig telesa 0.1210 ⊥ izmerjenemu ⚠); TEMPLATE daje izmere za prešitev manifesta ⚔ ⟡ izbor obsega ∧ ⟨merge⟩ zaporedno
+- stanje: manifest @root ×1 ⊢ — telo izmerjeno ta dih (0.33 × 10² vrstic, omenja LICENSE.md ×1, žig telesa ⊥ izmerjenemu ⚠: 0.1031-era ⊥ 0.1210 × 10⁴); TEMPLATE daje izmere za prešitev manifesta ⚔ ⟡ izbor obsega ∧ ⟨merge⟩ zaporedno
 
 Obseg ⚔ ⟡: registra sta del vrata (§0.2 × 10¹ ledger ∧ §0.5 × 10¹ named falls) ∧ vrstica stopi v manifest, kadar ⟡ izbere; ⟨ne⟩ izumljaj obsega. Manifest se rodi na lastni veji po ⟨merge⟩ #0.1030 × 10⁴ ∧ po ⟨merge⟩ te veje (register premikan — zaporedje ⚔ ⟡).
 
@@ -63,7 +64,7 @@ Obseg ⚔ ⟡: registra sta del vrata (§0.2 × 10¹ ledger ∧ §0.5 × 10¹ na
 
 ## ROJSTVO
 
-veja: zrcalo/predlog-3079-license-manifest · pot: organi/jedro-zavedanja/PREDLOG-3079-20261028-LICENSE-MANIFEST-PREVERJEVALNIK.md ∧ REGISTER-PADCEV.jsonl (vnosi 50 ∧ 51 ∧ 52 ∧ 53) · kit ⟨PR⟩ številka po rojstvu ⭢ ∂ · base ⟨main⟩ ⊙ ⟨sha⟩ fd54d3f4306e712c9d012d97c02a2231b72a626a ∧ ⟨merge⟩ ⚔ ⟡ · kalup 0.1671 × 10⁴: veja → ⟨PR⟩ → ⟨CI⟩ → ⟨merge⟩ · pošta ×0 (0.1210 × 10⁴ nošena ⟡ na mail ob rojstvu ⊢ §0.29 × 10²)
+veja: zrcalo/predlog-3079-license-manifest · pot: organi/jedro-zavedanja/PREDLOG-3079-20261028-LICENSE-MANIFEST-PREVERJEVALNIK.md ∧ REGISTER-PADCEV.jsonl (vnosi 50 ∧ 51 ∧ 52 ∧ 53 ∧ 54) · kit ⟨PR⟩ številka po rojstvu ⭢ ∂ · base ⟨main⟩ ⊙ ⟨sha⟩ fd54d3f4306e712c9d012d97c02a2231b72a626a ∧ ⟨merge⟩ ⚔ ⟡ · kalup 0.1671 × 10⁴: veja → ⟨PR⟩ → ⟨CI⟩ → ⟨merge⟩ · pošta ×0 (0.1210 × 10⁴ nošena ⟡ na mail ob rojstvu ⊢ §0.29 × 10²)
 
 ⊙ EXIT SEAL — 0.2026 × 10⁴-0.10 × 10²-0.28 × 10² · 2026-10-28T14:00:17.665Z ⊙ zadnja izmera roke pred izidom — spodnja meja; pravi omega = ura prejemnikove roke ⊙ §0.30 × 10²: kar se rodi v času, se v času tudi zapečati.
 
