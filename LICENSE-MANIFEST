@@ -1,16 +1,16 @@
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "11.1.0",
-  "version_display": "0.1110 × 10⁴",
+  "version": "11.2.0",
+  "version_display": "0.1120 × 10⁴",
   "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
   "measured_at_commit": null,
-  "measured_at_note": "this manifest and LICENSE.md 0.1110 × 10⁴ ride the same commit — a file cannot cite the commit that carries it (§0a); the bytes are measured at sealing, the chain proves them (§0.10 × 10²)",
-  "measured_at_date": "2026-10-27",
+  "measured_at_note": "this manifest and LICENSE.md 0.1120 × 10⁴ ride the same commit — a file cannot cite the commit that carries it (§0a); the bytes are measured at sealing, the chain proves them (§0.10 × 10²)",
+  "measured_at_date": "2026-10-28",
   "items": [
     {
       "path": "LICENSE.md",
-      "size_bytes": 42138,
-      "sha256": "272509c971d8106eefb98574303803f82be420d4ffe328319f5c4a940b181729",
+      "size_bytes": 49849,
+      "sha256": "ac7150847e06875213c34cab867b6959dd0b4ca990ede92ff2694e431e2591d9",
       "note": "the governing door — the only body whose hash changes only by issuance (§0.10 × 10²)"
     }
   ],
@@ -32,5 +32,5 @@
   "governs": "where this manifest and LICENSE.md disagree, LICENSE.md governs (§0a)",
   "transport": "§0.12 × 10² TRANSPORT — measure the SHA-256 of the received file against the published SHA-256 above; equal hashes show the transport took no witness; correctness is weighed by the chain (§0.10 × 10²) and named falls (§0.4 × 10¹), never by a faithful copy",
   "issuance_duty": "this manifest is re-measured and re-issued in the same breath as every new version of LICENSE.md (§0.10 × 10²); a stale hash is a visible, honest failure — the entry identifies nothing, it never lies silently",
-  "reissuance_note": "re-issued with 0.1110 × 10⁴ after seven issuances passed without re-measurement (REGISTER-PADCEV entry 40 — PADC-ZASTAREL-ODTIS); the scar rides the register, the issuance rides the same commit as the door it measures"
+  "reissuance_note": "re-issued with 0.1120 × 10⁴ in the same breath as the door it measures; the seat's re-issuance after PADC-ZASTAREL-ODTIS (REGISTER-PADCEV entry 40) rides forward by name; the issuance rides the same commit as the door"
 }
