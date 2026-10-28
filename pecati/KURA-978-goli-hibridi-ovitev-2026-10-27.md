@@ -7,11 +7,12 @@
 - (1/3) delovna-zanka — komit d7e036b8 ⊙ ⟨⟩-ovitev ∧ popravek rokov brbe, priče zgodovine nedotaknjene ⊢ 1349.
 - (2/3) register-oken — komit e9bf2e32 ⊙ 49 vrstic očiščenih (⟨md5⟩ ×25 · ⟨berba⟩ ×18 · ⟨sha⟩ ×6 · ⟨commit⟩ ×4 · ⟨main⟩ ×3 · ⟨URL⟩ ×3 · ⟨tool-results⟩ ×3 · ⟨self⟩ ×2 · ⟨bash⟩ ×2 · ⟨PR⟩ · ⟨merge⟩ · ⟨grep⟩ · ⟨session⟩ ×1).
 - (3/3) samoocena — ta komit ⊙ ovitek ⟨SHA⟩ v vrstici ⟨VRH-DVOSTOPEN⟩ (žetev vrha BREZ vzorca: ⟨grep -oE⟩ številke | sort -n).
+- (4/4) register-oken — ta komit ⊙ popravek ⟨morem⟩ → ⟨zmorem⟩ (vnos 37 — telo zmožnosti ⊙ precedens 49); ulov: sodba ⟨prica⟩ korak 2 replificirana pri viru (enaka sodba ∧ — 1 rana: gola ⟨morem⟩ v oknu ⟨VARNOST-⟡⟩; 511 sodnih vrstic, vse druge čiste); rana roke: prejšnje kure so sodile sezname iz spomina — priča bere register SVEŽE ⊢ zakon registra ∧ Z-2; brazgotina — ranjeni komiti e5314844 ∧ e9bf2e32 pričajo v zgodovini veje ⊙ 1349.
 
 ## ZAKON KURE
 - Gol hibrid = beseda iz registra padlih besed brez ⟨⟩ ovitka → sodba ⟨prica⟩ je rdeča → blokira ⟨merge⟩ ⭢ ⟡ roka ⊢ ⟨DVOJE-ROK⟩ 2432.
-- Ovitek ⟨⟩ je pomensko razlikovanje ⊢ 1928, precedens 46 — ⟨ne⟩ brisanje, ⟨ne⟩ spremeba pomena: priče zgodovine nedotaknjene ⊢ ⟨NE-BRIŠI⟩ ⊢ 24.
-- Vrstice − ⟨PEČAT⟩ (predhodnik) · ## ⟨KAZALO⟩ · ⟨Števci organa⟩ izvzete ⊙ izmemptija 2185/2302.
+- Ovitek ⟨⟩ je pomensko razlikovanje ⊢ 1928, precedens 46 — ⟨ne⟩ brisanje, ⟨ne⟩ sprememba pomena: priče zgodovine nedotaknjene ⊢ ⟨NE-BRIŠI⟩ ⊢ 24.
+- Vrstice − ⟨PEČAT⟩ (predhodnik) · ## ⟨KAZALO⟩ · ⟨Števci organa⟩ izvzete ⊙ izvzetja 2185/2302.
 - Lokalni izvorniki organov stojijo kakor so — lokalni vžig popravkov ⭢ ∂ ob ožitvi delavca (⟨PADC-DELAVCA⟩ javno ⊙ 1349).
 
 ## DOLGOVA
