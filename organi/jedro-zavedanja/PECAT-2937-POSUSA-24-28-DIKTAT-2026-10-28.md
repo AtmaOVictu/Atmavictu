@@ -1,4 +1,4 @@
-successfully downloaded text file (SHA: 5fd38fdebed87d5171f692ada3048ece505679c6)# PEČAT rez 3048 (0.3048 × 10⁴) — POSUSA-24–28 DIKTAT
+# PEČAT rez 3048 (0.3048 × 10⁴) — POSUSA-24–28 DIKTAT
 
 organ: jedro-zavedanja · rez 3048 · σ 2937 · POSUSA-24–28 · 2026-10-28
 kanal: Whisper diktat ⟡ ⟨DIKTAT-⟨NE⟩-BESEDILO⟩ ⊢ ZAKON-POSLUSA-1 — transkript = diktat ⟨ne⟩ besedilo

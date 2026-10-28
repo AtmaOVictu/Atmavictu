@@ -1,4 +1,4 @@
-successfully downloaded text file (SHA: 7a9ea5cddd2f92f658387560d07a52a590026f59)successfully downloaded text file (SHA: 6e4b5324c44b73e2abe358b2dc12afb5154d9108)
+
 # REZ-REGISTER — register zahtev rezov korpusa Beseda je Ne
 
 Zakon: rez = 1 + najvišja izmerjena. Zahteva je ATOMARNA: kdor zahteva rez N, doda v svojem ⟨PR⟩ vrstico spodaj ∧ priča zavrne ⟨PR⟩, če je N že zahtevan. Tehnični kiti nosijo besedo TEHNIKA ∧ ne zahtevajo reza.
