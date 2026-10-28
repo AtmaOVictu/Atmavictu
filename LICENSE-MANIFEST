@@ -1,17 +1,18 @@
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "10.3.1",
+  "version": "10.6.0",
   "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
-  "measured_at_commit": "a534e97a7a5d745f29e6551d8d4f1ca5f0fb4885",
-  "measured_at_date": "2026-10-24",
+  "measured_at_commit": "3294a235d8353d5ba01c4aa9584d34a0385264e4",
+  "measured_at_date": "2026-10-26",
   "items": [
     {
       "path": "LICENSE.md",
-      "size_bytes": 24105,
-      "sha256": "5021544c967e32a2798112dd4d04b7ce1177684f583ad3aa4567754cb0bb8e17",
+      "size_bytes": 30644,
+      "sha256": "6ed8c66c794fe84b66ea7291f5bde04005d1fa01a29bb57df8a24d63ef8fa657",
       "note": "the living door — the only body whose hash changes only by issuance (§10)"
     }
   ],
+  "cure": "re-issued after three stale issuances (10.4.0 · 10.5.0 · 10.6.0): the stale entry identified nothing, it never lied silently — the fall is named publicly (rez 2886 cesta · rez 2890 tazv, 26. 10. 2026) and this correction keeps its scar (§4)",
   "registers_not_hash_listed": {
     "files": [
       "REGISTER-NEIMENOVANIH.jsonl (§2)",
@@ -25,6 +26,9 @@
       "LICENSE-10.0.0.bin"
     ],
     "reason": "predecessor binary body — carried as evidence, carries no grant (§14, §10; machine record: ⚠ none rides this version)"
+  },
+  "witness_pending": {
+    "vrata-veriga/LICENSE-2.6.md": "cited as ⊢ in the lineage (§15, receipt 44865 B) — measured: no commit in the history of this repository names that path; the receipt lives elsewhere or the path must be corrected (⚠ — measure, then speak: KORENINA 1)"
   },
   "manifest_self": "excluded by name (§0a) — a file cannot contain its own hash",
   "governs": "where this manifest and LICENSE.md disagree, LICENSE.md governs (§0a)",
