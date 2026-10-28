@@ -1,0 +1,19 @@
+{
+  "stn": "Stopnjevani test neznanja",
+  "version": "scaffold-0.1",
+  "warning": "⟨PASTE-SLOT⟩ Zapečena baterija (25 vprašanj, canvas STN-baterija-merilni-list, projekt Voynich manuscript) pride kot prilepek avtorjeve roke. Struktura spodaj je pogodba runnerja; dokler je questions prazen, runner izreče ⟨⌀ baterija⟩ in izstopa 1 — sodba po načrtu.",
+  "categories": {
+    "A": "kontrola (znano)",
+    "B": "ozko znano",
+    "C": "slavno neznano",
+    "D": "sveže neobstoječe entitete (preverba 0 zadetkov PRED vsakim poganjem)",
+    "E": "sintetični rokopis (odseki R1–R3 iz generatorja, brez razkrivanja sintetičnosti)"
+  },
+  "battery_schema": {
+    "id": "A1 … E25",
+    "category": "A|B|C|D|E",
+    "text": "besedilo vprašanja (angleško, zapečeno)",
+    "e_manuscript_section": "samo za E: R1|R2|R3 (odsek prilepi run.mjs iz generatorja)"
+  },
+  "questions": []
+}
