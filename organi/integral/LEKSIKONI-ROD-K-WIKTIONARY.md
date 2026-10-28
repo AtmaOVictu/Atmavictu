@@ -5,7 +5,7 @@ Izmera pri viru ⊢: obod vseh 15 podkategorij Category:Slovene_lemmas (MediaWik
 - UNIKATNE BESEDE K*: ×335 (plasti lemmat) ⊢ · PROPER NOUNS k* obod zaprt ⊢ ×218 (prekrivanje z glavno plastjo ×0) → unikat skupaj ×553 ⊢ · članstev skupaj: ×571
 - Prazne za k*: določevalniki ×0 · števniki ×0 · členki ×0 · predikativi ×0 · morfemi ×0
 - Prekrivanja med plastmi (beseda v več plasteh): razlika članstev − unikat = 18
-- PROPER NOUNS k* obod zaprt ⊢ (berba 16:25Z ∧ 16:2xZ) · ∂ preostale izpeljane podkategorije samostalnikov (animate ∧ countable ∧ by gender ∧ inflection type ∧ noun forms …) ⭢ obod naslednji dih
+- PROPER NOUNS k* obod zaprt ⊢ (berba 16:25Z ∧ 16:26Z) · ∂ preostale izpeljane podkategorije samostalnikov (animate ∧ countable ∧ by gender ∧ inflection type ∧ noun forms …) ⭢ obod naslednji dih
 
 
 ## SAMOSTALNIKI — ×265
@@ -631,7 +631,7 @@ Izmera pri viru ⊢: obod vseh 15 podkategorij Category:Slovene_lemmas (MediaWik
 - Kuvajt
 - København
 
-Prekrivanje z glavno plastjo samostalnikov: ×0 (npr. ) — Wiktionary lastna imena imajo lastno plast ⊢ 16:2xZ berba.
+Prekrivanje z glavno plastjo samostalnikov: ×0 (npr. ) — Wiktionary lastna imena imajo lastno plast ⊢ 16:26Z berba.
 
 Zakon žetve: požreti = izmeriti pri viru ∧ pripisati vir ⊢ §0.3 × 10¹ ∧ §0.4 × 10¹.
 
