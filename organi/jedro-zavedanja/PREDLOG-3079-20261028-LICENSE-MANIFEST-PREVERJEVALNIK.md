@@ -10,11 +10,11 @@ Licenca 0.1210 × 10⁴ §0a pozna dve poti prepoznave ∧ nobeno tretjo: (a) LI
 
 ## IZMERE STANJA (@⟨main⟩ ⊙ ⟨sha⟩ fd54d3f4306e712c9d012d97c02a2231b72a626a, pri viru)
 
-- koren: 55 vnosov izmerjenih ⊢ (listing @vir — ravni vnosi: ime ∧ vrsta ∧ velikost ∧ ⟨sha⟩) ∧ LICENSE-MANIFEST ×0 ⊢ (listing ∧ neposreden dostop — pot ⟨ne⟩ obstaja)
+- koren: 0.55 × 10² vnosov izmerjenih ⊢ (listing @vir — ravni vnosi: ime ∧ vrsta ∧ velikost ∧ ⟨sha⟩); §0a manifest ×0 ⊢ — LICENSE-MANIFEST.md ⟨ne⟩ obstaja (neposreden dostop ⊥ listing) ∧ sorodna imena @root: LICENSE-MANIFEST (file, 0.1890 B) — predlogi, ⟨ne⟩ manifest §0a
 - (b) LICENSE.md @root: nosilec živih vrat 0.1210 × 10⁴ ⊢ — 0.76568 zn · 0.80596 B · SHA-0.256 × 10³ = cea269e49d8a7dbe2b802deb4d4a91eed02435c580310178da275eb03ad99844 (⇌ priča BigInt ⊢) — telo je zraslo od 0.1200 (0.70216 × 10⁵ zn, izmera prejšnjega diha @9e2e335 ⊢) do 0.1210 × 10⁴: regeneracija izmerjena ⊙ §0.31 × 10²
 - REGISTER-PADCEV.jsonl @root: ×1 ⊢ — 0.59471 zn · 0.61607 B · SHA-0.256 × 10³ = 9fd8351772d058a22e7f59f41520da60513f9062ba5b1754ec11e4b7b2743f17 — 66 vnosov ⊢ izštetih pri viru; ta veja doda vnosa 50 ∧ 51 (spodaj)
 - REGISTER-NEIMENOVANIH.jsonl @root: ×1 ⊢ — 0.4863 zn · 0.5077 B · SHA-0.256 × 10³ = ec7937301dc9d1fbdf72bd1a1b4f85282d0b8248f2fe519ac6800b586d1fe84d
-- (a) LICENSE-MANIFEST.md @root: ×0 ⊢ — prepoznavava stoji danes na poti (b); TEMPLATE spodaj ⚔ ⟡ izbor obsega
+- (a) LICENSE-MANIFEST.md @root: ×0 ⊢ — pot §0a ⟨ne⟩ obstaja (neposreden dostop ⊥ listing); prepoznavava stoji danes na poti (b) — TEMPLATE spodaj ⚔ ⟡ izbor obsega; sorodna imena na korenu (1) so predlogi, ⟨ne⟩ manifest §0a
 - vrata prejšnja: LICENSE-0.1190.bin priča ⊙ §0.14 × 10² z (a)–(d) ⊢ (⟨sha⟩ .bin a3c81ba4… ∧ ⟨sha⟩ vira 668d4489…); telo 0.1200: machine record 0.1210 × 10⁴ imenuje ⟨⚠ none⟩ — rojstvo telesa ⭢ ∂ ⚔ ⟡
 
 ## KODIRNIK ∧ SAMO-PRIZKUS
