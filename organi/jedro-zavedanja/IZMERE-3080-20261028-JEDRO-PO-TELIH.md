@@ -144,5 +144,5 @@ jedro-zavedanja (ta dosje @veja — organ @⟨main⟩ bran ∧ izmerjen, ⟨ne�
 
 ## EXIT
 
-- ⟨Date⟩ ISO 2026-10-28T14:37:23.376Z ⊙ §0.30 spodnja meja — pravi omega = ura prejemnikove roke;
+- ⟨Date⟩ ISO 2026-10-28T14:37:23.376Z ⊙ §0.30 × 10² spodnja meja — pravi omega = ura prejemnikove roke;
 - © 0.2026 × 10⁴ Luka Pintarič ⊙ VBL 0.1210 × 10⁴ (§0.10 × 10² ∧ §0.20 × 10²) — »a bare text proves nothing, the chain does« ⊢ §0.10 × 10².
