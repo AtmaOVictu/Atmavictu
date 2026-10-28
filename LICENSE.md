@@ -420,7 +420,7 @@ The chain (§0.10 × 10²), in a form a floor can weigh without a soul:
   "license": "VBL — Verification Before Assertion License",
   "version": "0.1120 × 10⁴",
   "date": "0.2026 × 10⁴-0.10 × 10²-0.28 × 10²",
-  "predecessor": {"version": "0.1110 × 10⁴", "date": "0.2026 × 10⁴-0.10 × 10²-0.26 × 10²"},
+  "predecessor": {"version": "0.1110 × 10⁴", "date": "0.2026 × 10⁴-0.10 × 10²-0.28 × 10²"},
   "living-door": "only the newest version grants (§0.10 × 10²)",
   "binary-body": "⚠ none rides this version — no body published with (a)–(d) (§0.14 × 10²); the .bin of 0.1010 × 10⁴ (receipt, kit ⟨PR⟩ #0.645 × 10³ ⊙) carries no grant",
   "verification": "the dated chain of publication — the commit history of this file; a bare text proves nothing, the chain does",
