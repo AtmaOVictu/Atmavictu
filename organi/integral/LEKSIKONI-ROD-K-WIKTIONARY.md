@@ -2,10 +2,10 @@
 
 Izmera pri viru ⊢: obod vseh 15 podkategorij Category:Slovene_lemmas (MediaWiki from=k&until=l, 200/stran, paginacija do meje k*), berba 16:21:28Z UTC ⊢ · licenca Wiktionary CC BY-SA-4.0 ⊢ §0.7 × 10¹.
 
-- UNIKATNE BESEDE K*: ×335 ⊢ · članstev skupaj: ×353
+- UNIKATNE BESEDE K*: ×335 (plasti lemmat) ⊢ · PROPER NOUNS k* obod zaprt ⊢ ×218 (prekrivanje z glavno plastjo ×0) → unikat skupaj ×553 ⊢ · članstev skupaj: ×571
 - Prazne za k*: določevalniki ×0 · števniki ×0 · členki ×0 · predikativi ×0 · morfemi ×0
 - Prekrivanja med plastmi (beseda v več plasteh): razlika članstev − unikat = 18
-- ∂ izpeljane podkategorije samostalnikov (proper nouns ×1.554 ∧ animate ∧ countable ∧ by gender ∧ inflection type …) ⭢ obod naslednji dih
+- PROPER NOUNS k* obod zaprt ⊢ (berba 16:25Z ∧ 16:2xZ) · ∂ preostale izpeljane podkategorije samostalnikov (animate ∧ countable ∧ by gender ∧ inflection type ∧ noun forms …) ⭢ obod naslednji dih
 
 
 ## SAMOSTALNIKI — ×265
@@ -410,6 +410,228 @@ Izmera pri viru ⊢: obod vseh 15 podkategorij Category:Slovene_lemmas (MediaWik
 ## Morfemi — ×0
 
 
+## LASTNA IMENA (PROPER NOUNS) — ×218 ⊢
+
+- Kairo
+- Kaja
+- Kajdiž
+- Kalifornija
+- Kambodža
+- Kamčatka
+- Kamerun
+- Kamnik
+- Kanada
+- Karel
+- Karelija
+- Karničnik
+- Kartagina
+- Kaspijsko jezero
+- Kastelic
+- Kata
+- Katalonija
+- Katar
+- Katja
+- Kavčič
+- Kavkaz
+- Kavkler
+- Kavnik
+- Kavran
+- Kavs
+- Kazahstan
+- Keber
+- Kegl
+- Kejžar
+- Kek
+- Kekec
+- Kelbič
+- Kelc
+- Kenija
+- Kenk
+- Kep
+- Kepic
+- Kerčmar
+- Kerec
+- Kerin
+- Kern
+- Kernjak
+- Kersnik
+- Kerševan
+- Kert
+- Kervina
+- Ketiš
+- Kežman
+- Kic
+- Kidrič
+- Kijev
+- Kikec
+- Kikelj
+- Kilar
+- Kimovec
+- Kink
+- Kirar
+- Kirbiš
+- Kirgizistan
+- Kirič
+- Kirm
+- Kirn
+- Kiseljak
+- Kisovec
+- Kišek
+- Kitajska
+- Kladivar
+- Kladnik
+- Klajderič
+- Klajnšek
+- Klajžar
+- Klakočer
+- Klančar
+- Klančič
+- Klančišar
+- Klančnik
+- Klanšek
+- Klarič
+- Klasinc
+- Klavdija
+- Klavs
+- Kleč
+- Klemar
+- Klemen
+- Klemenc
+- Klemenčič
+- Kleopatra
+- Klepec
+- Klinar
+- Klinc
+- Kline
+- Klobčar
+- Klobučar
+- Klokočovnik
+- Klopčič
+- Klun
+- Kmet
+- Knavs
+- Knep
+- Knez
+- Knežar
+- Knuplež
+- Kobal
+- Koban
+- Kobarid
+- Kobentar
+- Koblar
+- Kobolt
+- Kocbek
+- Kocen
+- Kocet
+- Kocijan
+- Kociper
+- Kocjan
+- Kocjančič
+- Kockar
+- Kocman
+- Kocmur
+- Kocmut
+- Kocutar
+- Kocuvan
+- Kočar
+- Kočevar
+- Kočevje
+- Kočiš
+- Kočnik
+- Kodarin
+- Kodek
+- Kodelja
+- Koder
+- Kodrič
+- Kodrun
+- Kofol
+- Kogej
+- Kogelnik
+- Kogler
+- Koglot
+- Kogoj
+- Kogovšek
+- Kohek
+- Kojc
+- Kojzek
+- Kok
+- Kokalj
+- Kokaš
+- Kokelj
+- Kokol
+- Kokole
+- Kokolj
+- Kokot
+- Kolander
+- Kolbezen
+- Kolbl
+- Kolednik
+- Kolenc
+- Koler
+- Koletnik
+- Koležnik
+- Kolman
+- Kolmanič
+- Kolovrat
+- Kolšek
+- Koltaj
+- Kolumbija
+- Komac
+- Koman
+- Komatar
+- Komel
+- Komori
+- Koper
+- Kopina
+- Kopitar
+- Koreja
+- Koren
+- Kornelija
+- Korošec
+- Koroška
+- Korun
+- Korzika
+- Kostanjšek
+- Kostarika
+- Košaki
+- Košir
+- Kotnik
+- Kovač
+- Kovačič
+- Kozamernik
+- Kozelj
+- Kozlar
+- Kozma
+- Kozorog
+- Kozovinc
+- Krajnc
+- Krakov
+- Kralj
+- Kramžar
+- Kranj
+- Kranjc
+- Krapež
+- Kravos
+- Krč
+- Krčmar
+- Krečič
+- Kredar
+- Kreta
+- Krim
+- Kristus
+- Kroflič
+- Krško
+- Kržišnik
+- Ksenija
+- Kuba
+- Kučan
+- Kuk
+- Kurdistan
+- Kurtič
+- Kuvajt
+- København
+
+Prekrivanje z glavno plastjo samostalnikov: ×0 (npr. ) — Wiktionary lastna imena imajo lastno plast ⊢ 16:2xZ berba.
 
 Zakon žetve: požreti = izmeriti pri viru ∧ pripisati vir ⊢ §0.3 × 10¹ ∧ §0.4 × 10¹.
 
