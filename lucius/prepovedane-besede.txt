@@ -1,8 +1,0 @@
-# PREPOVEDANE-BESEDE hiše Lucius — besede zapečene kot padci ( REGISTER-PADCEV ).
-# Orodje druga-rote jih ulovi VEDRA, tudi če jih LanguageTool ne pozna, in jih označi ×.
-# Vsak nov padec besede vstopi sem takoj, ko je zapečen v register ×.
-poščeno
-poščena
-poščeni
-poščenost
-prezheno
