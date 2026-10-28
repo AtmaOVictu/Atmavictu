@@ -134,7 +134,7 @@ kolizija ⊢ Z-2 ∧ ⟨ne zlije⟩ ⊙ 0.1542 × 10⁴: najvišja dejansko izme
 
 ## ∂ OSTATEK
 
-- 0.69 × 10² teles organa po šopih ⭢ ∂ ⊙ zakon 10 majhni paketi (šop #3 naslednji: PECAT-2319 → PECAT-2351 po vrsti);
+- 0.59 × 10² teles organa po šopih ⭢ ∂ ⊙ zakon 10 majhni paketi (šop #3 plačan dih 8 ⊢ — PECAT-2319 → PECAT-2712 po vrsti karte, dosje IZMERE-3081; prejšnji zapis koncev PECAT-2351 ×0 na karti ⊙ vnos 62);
 - poddir .geniza ∧ PECATI ⭢ ∂; Δ 0.9 × 10¹ B ovoja ⭢ ∂; SHA-0.256 × 10³ orjaka ⭢ ∂ rok orodja;
 - ostalih 0.37 × 10² organov po telesih ⭢ ∂ (karta ⊢ zgoraj);
 - ⟨merge⟩ kit #0.1038 × 10⁴ (predlog 3079 + ta dosje + register — vnosi 50 dalje, register živi ∧ raste; število pri ⟨merge⟩ izmeri vir) ⚔ roka ⟡ ⊙ ⟨DVOJE-ROK⟩ 2432 ∧ ⟨merge⟩ zaporedno (register premikan).
