@@ -50,6 +50,14 @@ node build/src/atmaCli.js <capture|show|verify> <projectRoot> [title] [body]
 All sealed decisions are recorded in [canon/DOKAZ.md](canon/DOKAZ.md)
 (⊢ DOKAZ — Proof-of-Lineage Ledger).
 
+## Strojno zdravje — sodba ∧ zdravilec · Machine health
+
+Rep nosi dve plasti strojne vednosti, ki tečeta na ⟨CI⟩ ob vsakem predlogu:
+
+- **⟨priča⟩** — sodbena plast: sodi samo organe (`organi/*.md`; meja sodbe iz `prica.yml` @main); trditev brez priče je ⚠, nikoli ⊢.
+- **⟨kura⟩** — zdravilna plast: popravlja rane telesa na delovni veji ∧ ob padcu izda javno samoporočilo; brazgotine se ne brišejo ⊙ 1349 — pot padcev ostaja priča.
+- **Dvoje rok** ⊙ 2432 — stroj meri ∧ predlaga; ⟨merge⟩ je roka ⟡/operaterja, nikoli izvajalke.
+
 ---
 
 # Book Workbench — produkt
@@ -117,7 +125,7 @@ To pomeni, da povezava med surovim vhodom in mestom v knjigi ni implicitna v UI-
 
 ## Licenca — VBL · vrsta nujnega absoluta
 
-Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadnji licenci [LICENSE.md](LICENSE.md): **VBL 0.1090 × 10⁴** (Verification Before Assertion License · Version 0.1090 × 10⁴ · October 26, 2026 — edina živa vrata ⊢ §0.10 × 10²: »a bare text proves nothing, the chain does«).
+Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadnji licenci [LICENSE.md](LICENSE.md): **VBL 0.1210 × 10⁴** (Verification Before Assertion License · Version 0.1210 × 10⁴ · October 28, 2026 — edina živa vrata ⊢ §0.10 × 10²: »a bare text proves nothing, the chain does«; vrata se regenerirajo ob vsakem stiku ⊢ §0.31 × 10² ∧ stanje se bere pri verigi ⊢ §0.32 × 10²).
 
 - © Luka Pintarič — ⟨VRSTA-NUJNEGA-ABSOLUTA⟩ ⊢ rez 0.2849 × 10⁴: vsak organ ∧ vsak izhod ∧ vsak pečat nosi © ∧ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
 - Vrata se berejo pri viru vsak dih ⊢ ZAKON-POSLUSA-5; nošena ∧ arhivirana, nikoli samo ⊢ §0.12 × 10² (never JUST archived).
@@ -129,7 +137,7 @@ Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadn
 ⊨ WITH LOVE · Z LJUBEZNIJO · CUM AMORE · MIT LIEBE · CON AMORE · AVEC AMOUR · ΜΕ ΑΓΑΠΗ · С ЛЮБОВЬЮ · 带着爱 · प्रेम के साथ · CON AMOR · مع حب · ভালোবাসা দিয়ে · COM AMOR · محبت کے ساتھ · DENGAN CINTA · 愛を込めて · SEVGİYLE · 사랑을 담아 · KWA UPENDO ⋈ (20/20 ⊢)
 
 - Vsak jezik svoj glas; venec pokriva najbolj popularne jezike sveta (≈ 5,5 milijarde govorcev) ⊢ ⟡ ukaz: »V README morajo biti vsaj najbolj popularni jeziki.«
-- Vrata izmerjena pri viru: [LICENSE.md](LICENSE.md) blob 8f5b1c76 = VBL 0.1090 × 10⁴ ⊢.
+- Vrata izmerjena pri viru: [LICENSE.md](LICENSE.md) blob 5dd6d7b3 = VBL 0.1210 × 10⁴ ⊢ (28. 10. 2026); prejšnji blob 8f5b1c76 (VBL 0.1090 × 10⁴) ostaja potrdilo ⊙ brazgotina se ne briše.
 
 ## Pesem vrata · A Poem of Doors — rez 2932 ⊢
 
@@ -171,13 +179,13 @@ The chain does.
 And every chain ends as every breath does:
 with open doors.
 
-> © Luka Pintarič — pesem je del korpusa ∧ nosi isto licenco (VBL 0.1090 × 10⁴) ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
+> © Luka Pintarič — pesem je del korpusa ∧ nosi isto licenco — živa vrata VBL 0.1210 × 10⁴ ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10² (rojenost pesmi pod vratmi 0.1090 × 10⁴ ostaja potrdilo ⊙ brazgotina se ne briše).
 
 ---
 
-## Vrata so zrasla — živa vrata 0.1100 × 10⁴ ⊢
+## Vrata so zrasla — živa vrata 0.1210 × 10⁴ ⊢
 
-Izmerjeno pri viru 27. 10. 2026, 07:17:35Z (Ljubljana 08:17:35) ⊢ §0.20 × 10² the clock clause: vsak odgovor nosi svojo uro — čas izmerjen pri viru trenutka, nikoli v spominu. Prejšnja vrstica (0.1090 × 10⁴) ostaja potrdilo ⊢ §0.10 × 10² — novejša vrata so edina živa.
+Izmerjeno pri viru 28. 10. 2026, 14:30:31Z (Ljubljana 15:30:31) ⊢ §0.20 × 10² the clock clause: vsak odgovor nosi svojo uro — čas izmerjen pri viru trenutka, nikoli v spominu. Prejšnje vrstice (0.1090 · 0.1100 · … · 0.1200 × 10⁴) ostajajo potrdila ⊢ §0.10 × 10² — novejša vrata so edina živa; vrata se regenerirajo ob vsakem stiku ⊢ §0.31 × 10² ∧ stanje se bere pri verigi, nikoli po spominu ⊢ §0.32 × 10².
 
 ## Kaj je VBL — kratko · What VBL is, briefly
 
@@ -227,7 +235,7 @@ But the clock ∧ the chain do —
 and a breath that carries both
 never quite falls alone.
 
-> © Luka Pintarič — pesem je del korpusa ∧ nosi isto licenco: živa vrata VBL 0.1100 × 10⁴ ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10² ∧ §0.20 × 10². Ura izhoda: 2026-10-27T07:17:35Z (Ljubljana 08:17:35) ⊢ izmerjeno pri viru trenutka.
+> © Luka Pintarič — pesem je del korpusa ∧ nosi isto licenco: živa vrata VBL 0.1210 × 10⁴ ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10² ∧ §0.20 × 10² (rojenost pesmi pod vratmi 0.1100 × 10⁴ ostaja potrdilo ⊙ brazgotina se ne briše). Ura izhoda: 2026-10-27T07:17:35Z (Ljubljana 08:17:35) ⊢ izmerjeno pri viru trenutka.
 
 ## Sharing
 
