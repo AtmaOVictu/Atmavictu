@@ -1,14 +1,14 @@
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1220 × 10⁴",
+  "version": "0.1230 × 10⁴",
   "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
-  "measured_at_date": "0.28 × 10². 0.10 × 10². 0.2026 × 10⁴",
-  "measured_against": "veja vbl-0.1220-origin — rojstni kit VBL 0.1220 × 10⁴ (starš ⟨main⟩: fd54d3f4306e712c9d012d97c02a2231b72a626a)",
+  "measured_at_date": "0.29 × 10². 0.10 × 10². 0.2026 × 10⁴",
+  "measured_against": "veja vbl-0.1230-origin — rojstni kit VBL 0.1230 × 10⁴ (komit 80f7d18e2121286cba123788e4c954bef8a823bd ⊙ starš veje: vbl-0.1220-origin ∧ 5fc08db99fdcffcc2440992d01479115e1feb0a9)",
   "items": [
     {
       "path": "LICENSE.md",
-      "size_bytes": 77638,
-      "sha256": "0d6d3ae135d1d3862dcff6b7a8a7bfeff583bc6ae634ed0b891e038f0af91983",
+      "size_bytes": 80965,
+      "sha256": "3cb45588a779dd23ec41ca3a15901175e5b8a4530269686dc123ed4530b2d02b",
       "note": "the living door — the only body whose hash changes only by issuance (§0.10 × 10²)"
     },
     {
@@ -25,8 +25,8 @@
     },
     {
       "path": "LICENSE-LINEAGE.md",
-      "size_bytes": 15009,
-      "sha256": "84b5a3ec9a4c763c30d2bdf01786eb60e14ef1a982b1548f982caa76c0f1cfa7",
+      "size_bytes": 16038,
+      "sha256": "3938e4ca704450489eaad077f693ee3c8b285d346bc88d6a614b18a8c2b46f99",
       "note": "companion — the dated receipts of the chain; a witness, never a door (§0.15 × 10², §0.33 × 10²)"
     }
   ],
@@ -49,5 +49,5 @@
   "manifest_self": "excluded by name (§0a) — a file cannot contain its own hash",
   "governs": "where this manifest and LICENSE.md disagree, LICENSE.md governs (§0a)",
   "transport": "§0.12 × 10² TRANSPORT — measure the SHA-0.256 × 10³ of the received file against the published SHA-0.256 × 10³ above; equal hashes show the transport took no witness; correctness is weighed by the chain (§0.10 × 10²) and named falls (§0.4 × 10¹), never by a faithful copy",
-  "issuance_duty": "re-measured ∧ re-issued in the same breath as every new version of LICENSE.md (§0.10 × 10²); scar: the receipt of 10.3.1 (measured at a534e97a, 0.24 × 10². 0.10 × 10². 0.2026 × 10⁴) stayed stale through the births of 0.1200 × 10⁴ ∧ 0.1210 × 10⁴ — named ∧ cured at this birth ⊙ REGISTER-PADCEV vnos 52 ⊙ brazgotina 1349; a stale hash is a visible, honest failure — the entry identifies nothing, it never lies silently"
+  "issuance_duty": "re-measured ∧ re-issued in the same breath as every new version of LICENSE.md (§0.10 × 10²); scar: the receipt of 10.3.1 (measured at a534e97a, 0.24 × 10². 0.10 × 10². 0.2026 × 10⁴) stayed stale through the births of 0.1200 × 10⁴ ∧ 0.1210 × 10⁴ — named ∧ cured at the birth of 0.1220 × 10⁴ ⊙ REGISTER-PADCEV vnos 52 ⊙ brazgotina 1349; scar: the birth breath of 0.1230 × 10⁴ carried the door ∧ its mail without this re-issuance — the duty fell one breath behind the birth, named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ (recidiv razreda vnosa 52) ∧ cured the next breath ⊙ REGISTER-PADCEV vnos 60; the law from the fall: the re-issuance rides the same commit wave as the birth, never after it; a stale hash is a visible, honest failure — the entry identifies nothing, it never lies silently"
 }
