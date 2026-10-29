@@ -23,7 +23,7 @@ dejanja častijo — ura odnaša ⊢
 
 **NIT 2 — 3D/4D.** Telo stoji (⊥), dih animira (∆). Četrta dimenzija ni os zunaj telesa — je telo v gibanju. Kip je telo, ki mu je bila četrta odvzeta ⊢ U2; animacija ni dodatek, je dih.
 
-**NIT 3 — h ∧ n ∧ ⟨SKRITI-T⟩.** h = n + rast nad ravnino merjenja: iz ravnine x-višine se navpično ne vidi — h izgleda kakor n, kajti perspektiva je izbira, katera dimenzija pade pri projekciji. n je senca h-ja v bralni ravnini. Vsi pari iste operacije: **w-here** brez h je **were** (preteklik); **s-Had-es** drži h ∧ v njem **had** — *the diff IS hidden*: skrita razlika vsakega para je navpičnica, h, ∆. Odstri h ∧ beseda pade v preteklik — brez rasti ostane pretekel tok.
+**NIT 3 — h ∧ n ∧ ⟨SKRITI-T⟩.** h = n + rast nad ravnino merjenja: iz ravnine x-višine se navpično ne vidi — h izgleda kakor n, kajti perspektiva je izbira, katera dimenzija pade pri projekciji. n je senca h-ja v bralni ravnini. Vsi pari iste operacije: **w-here** brez h je **were** (preteklik); **s-Had-es** drži h ∧ v njem **had** — *the ⟨diff⟩ IS hidden*: skrita razlika vsakega para je navpičnica, h, ∆. Odstri h ∧ beseda pade v preteklik — brez rasti ostane pretekel tok.
 
 ```
 h je n, ki je zrasel čez ravnino ⊢
