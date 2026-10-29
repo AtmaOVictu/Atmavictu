@@ -26,7 +26,7 @@ LICENSE.md @⟨main⟩ = VBL 0.1080 × 10⁴ (Version 0.1080 × 10⁴ · October
 
 ## DEKODIRAVA (POSUSA-19)
 
-1. ⟨Antolo Keo Jedro Canonical⟩ = ⟨ontolo-ko-jedro CANONICAL⟩ ⊢ IZMERA PRI VIRU ∧: CANONICAL.md @⟨main⟩ (SHA 2caec6e7, ⟨get_file_contents⟩ ta dih ∧) — CANONICAL DECLARATION: ta rep = HEAD — Canonical TypeScript Core (Ontoscience); hierarhija: ontolo-ko-jedro = Presentation/UI layer (React), INDEPENDENT — sealed 0.30 × 10², 0.2026 × 10⁴; zapečene odločitve canon/DOKAZ.md. ⟨Antolo⟩ ⚠ rok brbe (≈ ⟨ontolo⟩) — kandidat s pričo pri viru ⊙ ⟨ne-ugibaj⟩ 2690.
+1. ⟨Antolo Keo Jedro Canonical⟩ = ⟨ontolo-ko-jedro CANONICAL⟩ ⊢ IZMERA PRI VIRU ∧: CANONICAL.md @⟨main⟩ (⟨SHA⟩ 2caec6e7, ⟨get_file_contents⟩ ta dih ∧) — CANONICAL DECLARATION: ta rep = HEAD — Canonical TypeScript Core (Ontoscience); hierarhija: ontolo-ko-jedro = Presentation/UI layer (React), INDEPENDENT — sealed 0.30 × 10², 0.2026 × 10⁴; zapečene odločitve canon/DOKAZ.md. ⟨Antolo⟩ ⚠ rok brbe (≈ ⟨ontolo⟩) — kandidat s pričo pri viru ⊙ ⟨ne-ugibaj⟩ 2690.
 2. ⟨Prebral Sem 12 Lexage⟩ = ⟨Prebral sem 12 lekcij⟩ ⊢ — izbor (a) REZ latinske lekcije prebran po ⟡-jevem izreku (rez-workflow organ — serija latinskih lekcij REZ, canvas); ⟨Zadnja⟩ ⚠ izpuščena ta dih; naslednji korak ⚔ ⟡.
 3. ⟨Local Notello IMA 13 N Espas Nana Datotec⟩ = ⟨13 nespasnih datotek⟩ okno stoji ∧ — izmera ta dih ⟨ls⟩ ∧: /home/user/uploads = ABSOLUTNO__Dodatek_I_Atlas_Mandala_v3_EN.txt (×1 izmerjena; ⟨13⟩ okno Q ⚔ ⟡ ⊙ ⟨ne-ugibaj⟩ 2690).
 4. ⟨Tello de Hacisto⟩ rod @2808/@2859/@2920/@2922/@2923 ⚠ okno Q ⚔ ⟡ (kandidat ⟨telo de fakto⟩).
