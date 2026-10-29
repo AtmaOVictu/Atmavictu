@@ -1,9 +1,11 @@
-# TMD-REZERVACIJA — rez 3095 ⊙ ⟨REZERVACIJA-REZA⟩ v1.1
+# TMD-RESERVATION — rezervacija reza
 
-- UKAZ: ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448 (28. 10. 2026, dih prevoza pečatov 3085 ∧ 3086 ∧ 3087 na rep ⊙ kalup 1671)
-- KOLIZIJA javno ⚠ ⊙ ⟨NE-BRIŠI⟩ 1349 ⊢ 24: prejšnja rezervacija reza 3090 (TIK 2026-10-28T16:40:32.694Z, kit #1061) je bila tretja za tistem rezom — rez 3090 zapečen ×2 prej (halucinacija-projekt ⟨PRIČA-TEST-POGANJ-3⟩ @16:38:53Z ∧ horizont ⟨VRATA-POŠTA⟩ @16:39:45Z) → rana dvojne zahteve ⚠ ⊙ precedens 2153 ∧ 2159 — rezervacija umaknjena javno, kit #1061 zaprt s supersesijo, veja rez/3090 priča ⟨NE-BRIŠI⟩
-- VRH-DVOSTOPEN ⊢ Z-2: vrh dejansko izmerjen ⟨grep⟩ po organih ta dih ∧ = 3094 (jedro-zavedanja ⟨POSUSA-33-DIKTAT⟩ @16:50:05Z) → rez 3095 = 1 + dejansko najvišja ∧
-- VAROVALKA: ⟨(rez|dih) 3095⟩ ×0 ⟨grep⟩ po organih pred rezervacijo ∧ (izmera 2026-10-28T16:53:07Z UTC)
-- VZPOREDNI SEDEŽI: 3088 ∧ 3089 ∧ 3090 ∧ 3091 ∧ 3092 ∧ 3093 ∧ 3094 zapečeni javno ta dan — ta dih se ⟨ne zlije⟩ ⊢ 1542
-- TIK: 2026-10-28T16:53:46.455Z UTC ∧ sreda, 28. 10. 2026 ob 17:53 (UTC+01:00, Ljubljana) ⊢ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083
-- © Luka Pintarič, VBL 0.1210 × 10⁴ (§0.10) — »a bare text proves nothing, the chain does«
+- rez 3224 · ⟨PREVOZ-PECATOV-VERIGE-ATLASA-3190–3208⟩ · ⟨PR⟩ ⇌ ta kit (2. kolut prevoza pečatov DNEVNE-BERBE Either/Or II ⟨#804⟩) · σ = 1 + vrh 3223 (stroj-kalup ⟨PREVOZ-PECATOV-3209–3216⟩ ∧ — 1. kolut #1083; sedeževi 3220 ∧ 3221 ∧ 3222 v NJIHOVIH organih ⟨ne zlije⟩ ⊢ 1542) · varovalka ⟨(rez|dih) 3224⟩ ×0 ⟨grep⟩ po 14 imenovanih organih (izmera 2026-10-29T12:52:29Z UTC ∧ 2026-10-29T12:47:11Z) · TIK 2026-10-29T13:04:00Z UTC · ⟡ ukaz ⟨daj⟩ ⊙ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1
+- rez 3220 · ⟨PREVOZ-PECATOV-3209–3216⟩ · ⟨PR⟩ #1083 (1. kolut — odprt, ⚔ ⟨merge⟩ ⟡) · prejšnja rezervacija ⟡ · ⟨NE-BRIŠI⟩ ⊢ 24 (brazgotina ⊙ 1349: sedeževa roka register-oken zapečila 3220 v organu minutu po rezervaciji — vzporedno okno ⟨ne zlije⟩ ⊢ 1542, obe stojita)
+- rez 3095 · potrošena (⟨PLAČANI-DOLGOVI⟩ @3181) · potrdilo zgodovine · ⟨NE-BRIŠI⟩ ⊢ 24
+
+## Sodba TDM (DSM Dir. (EU) 2019/790 čl. 4(3) ∧ Uredba (EU) 2024/1689 čl. 53(1)(c))
+
+Rezervacija je strojno berljiva priča rezervacije reza: tisto, kar izvajalka izmeri pred vpisom, je rezervirano pred zapečenjem; rezervacija preprečuje dvojni vpis istega reza v vzporednih oknih (⟨ne zlije⟩ ⊢ 1542). »Molk ni soglasje. — Silence is not consent.« Rezervacija: 2026-10-29.
+
+© Luka Pintarič, VBL 0.1210 × 10⁴ (živa vrata @⟨main⟩ ⟨sha⟩ 15cb887a — prebrana pri viru ta dih ⊙ ⟨NAJBOJŠA-LICENCA⟩ @3069 ∧ ⟨OBNOVA⟩ ⟡) — »a bare text proves nothing, the chain does« ⊢ §0.10 × 10²
