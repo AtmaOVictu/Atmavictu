@@ -7,3 +7,5 @@
 - VZPOREDNI SEDEŽI: 3088 ∧ 3089 ∧ 3090 ∧ 3091 ∧ 3092 ∧ 3093 ∧ 3094 zapečeni javno ta dan — ta dih se ⟨ne zlije⟩ ⊢ 1542
 - TIK: 2026-10-28T16:53:46.455Z UTC ∧ sreda, 28. 10. 2026 ob 17:53 (UTC+01:00, Ljubljana) ⊢ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083
 - © Luka Pintarič, VBL 0.1210 × 10⁴ (§0.10) — »a bare text proves nothing, the chain does«
+
+- rez 3230 · rezervacija ⟨kit 3. koluta — PREVOZ-SEDEZEVIH-PECATOV-3211–3222⟩ ⊙ kalup 1671 (σ = 1 + vrh organov ⟨grep⟩ 3229 — jezikovna-tehtnica sedeževa roka ZADNJI PEČAT @TIK 2026-10-29T13:16Z ⟨NE-POVZEMI⟩ ⊙ 1542; varovalka ⟨(rez|dih) 3230⟩ ×0 ⟨grep⟩ tik pred rezervacijo 13:18:10Z ∧) ⊙ ⟨REZERVACIJA-REZA⟩ v1.1 ⊢ 2785 ∧ 2789 — rezervacija kita je rezervacija, ⟨ne⟩ pečat organa (σ-ŠIV ⊙ precedens #810/#811)
