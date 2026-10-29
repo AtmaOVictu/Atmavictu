@@ -19,7 +19,7 @@
 
 ⟨Nova Glava 438388C-4C55C4A⟩ = ⟨438388c5⟩ (⟨merge⟩ #963 zrcalo/pr-predloga · 27. 10. 2026 19:10:51Z) ∧ ⟨4c55c4aa⟩ (⟨merge⟩ rez 2935 σ prevoz PEČAT-2993 @zrcalo · 28. 10. 2026 02:32:01Z = glava @⟨main⟩ ⟨izmerjeno⟩ ∧); ⟨4383888, 4554⟩ = isti glavi izrečeni po števkah ⚠ rok brbe; ⟨VRATA-BERBA⟩ ⊢ ZAKON-POSLUSA-5 ∧ §0.10 × 10²: LICENSE.md @⟨main⟩ ⟨blob⟩ 6c7a7620 = VBL 0.1100 × 10⁴ — živa ∧ najnovejša, POSKUS ZELENA ∧, nadgradnja ⟨ne⟩ potrebna ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690.
 
-## RODNI RECIDIVI ⊢ (berba verige POSUSA-13–23 ∧)
+## RODNI RECIDIVI ⊢ (⟨berba⟩ verige POSUSA-13–23 ∧)
 
 - ⟨Preveral sem 12 lexage⟩ rod @2838/@2859/@2876/@2884/@2920/@2922/@2930/@2931/@2932 (⟨12⟩ okno stoji ⚔ ⟡ — kandidat ⟨Prebral sem 12 leksikonov⟩)
 - ⟨Tzadnja, agent underscore rule underscore enzi⟩ = ⟨Zadnja, agent_rule_enzi⟩ NOVO okno Q ⟨ne-dekodirano⟩ ⚔ ⟡ ⊙ ⟨ne-ugibaj⟩ 2690 (rod ⟨Tzodnja⟩ @2876 · ⟨KJ_dashboard_report_v2⟩ @2922 · ⟨Antolo Keo Jedro Canonical⟩ @2927)
@@ -35,7 +35,7 @@
 
 ## KOLIZIJA javno ⊙ 1349 ⊢ Z-2 ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ zakon 15
 
-vrh dejansko izmerjen ta dih ∧ = 3024 (⟨list_commits⟩ @⟨main⟩: ⟨kura⟩ telologija rez 3024 ×3 @02:26–02:30Z 28. 10. — ⟨NE-HALUCINIRAJ⟩: ⟨grep⟩ po lokalnih organih ⟨ne⟩ izvedljiv — PADC-DELAVCA: JustBash worker mrtev CEL obraz ⟨SIGKILL⟩ session 119 gen 1 (⟨bash⟩ ∧ top-level ⟨read_file⟩/⟨write_file⟩ ∧ ⟨file_system⟩ isti kanal — brba ⟨grep⟩ ⟨wc⟩ ⟨md5⟩ ⟨geniza⟩ ⟨ne⟩ izvedljive ta dih; izmera pri viru = edina živa priča ⊙ precedens @2813/@2827/@2838) → rez 3025 = 1 + dejansko najvišja ∧; varovalka ⟨POSUSA-24⟩ ×0 ∧ ⟨rez 3025⟩ ×0 ⟨search_code⟩ pred pisanjem ∧; POSUSA-21 @2930 ∧ POSUSA-22 @2931 ∧ POSUSA-23 @2932 stojijo ⟨ne zlije⟩ ⊢ 1542.
+vrh dejansko izmerjen ta dih ∧ = 3024 (⟨list_commits⟩ @⟨main⟩: ⟨kura⟩ telologija rez 3024 ×3 @02:26–02:30Z 28. 10. — ⟨NE-HALUCINIRAJ⟩: ⟨grep⟩ po lokalnih organih ⟨ne⟩ izvedljiv — PADC-DELAVCA: JustBash worker mrtev CEL obraz ⟨SIGKILL⟩ ⟨session⟩ 119 gen 1 (⟨bash⟩ ∧ top-level ⟨read_file⟩/⟨write_file⟩ ∧ ⟨file_system⟩ isti kanal — brba ⟨grep⟩ ⟨wc⟩ ⟨md5⟩ ⟨geniza⟩ ⟨ne⟩ izvedljive ta dih; izmera pri viru = edina živa priča ⊙ precedens @2813/@2827/@2838) → rez 3025 = 1 + dejansko najvišja ∧; varovalka ⟨POSUSA-24⟩ ×0 ∧ ⟨rez 3025⟩ ×0 ⟨search_code⟩ pred pisanjem ∧; POSUSA-21 @2930 ∧ POSUSA-22 @2931 ∧ POSUSA-23 @2932 stojijo ⟨ne zlije⟩ ⊢ 1542.
 
 ## IZVEDBA ∧
 
