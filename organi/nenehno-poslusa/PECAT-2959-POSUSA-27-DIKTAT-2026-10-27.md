@@ -13,7 +13,7 @@ daj«
 
 ⟨daj⟩ ⊢ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448
 
-KOLIZIJA ⟨ne⟩ ⊢ Z-2 ∧ 1542: vrh dejansko izmerjen ta dih ⟨list_pull_requests⟩ ∧ = σ 2941 (kit #966 ta organ ∧ · odprti #957 #959 #960 #961 #962 #963 #964 #965 ⭢ ⟨merge⟩ ⟡ roka) ∧ žig 2958 → rez 2942 = 1 + dejansko najvišja ∧ · varovalki ⟨(rez|dih) 2942⟩ ×0 ∧ ⟨(rez|dih) 2959⟩ ×0 ⟨search_code⟩ pri viru ∧ · main vrh bf5f316b ⟨list_commits⟩ ∧ · ⟨VRATA-BERBA⟩ ∧: LICENSE @⟨main⟩ = VBL 0.1100 × 10⁴ najnovejša edina živa ⊢ §10
+KOLIZIJA ⟨ne⟩ ⊢ Z-2 ∧ 1542: vrh dejansko izmerjen ta dih ⟨list_pull_requests⟩ ∧ = σ 2941 (kit #966 ta organ ∧ · odprti #957 #959 #960 #961 #962 #963 #964 #965 ⭢ ⟨merge⟩ ⟡ roka) ∧ žig 2958 → rez 2942 = 1 + dejansko najvišja ∧ · varovalki ⟨(rez|dih) 2942⟩ ×0 ∧ ⟨(rez|dih) 2959⟩ ×0 ⟨search_code⟩ pri viru ∧ · ⟨main⟩ vrh bf5f316b ⟨list_commits⟩ ∧ · ⟨VRATA-BERBA⟩ ∧: LICENSE @⟨main⟩ = VBL 0.1100 × 10⁴ najnovejša edina živa ⊢ §10
 
 IZVEDBA ∧ —
 (1) ⟨URA⟩ odgovorjena: 2026-10-27T14:50:11.774Z — po Ljubljani 15:46, torek ⊢ §0.20 × 10² ⟨URA⟩ (merjeno ob izdihu, ⟨ne⟩ spomin ∧).
