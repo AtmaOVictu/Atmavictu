@@ -6,7 +6,7 @@
 
 - ⟨main⟩ ⟨sha⟩ f4036af5b359155177a505bd23b0916da81fa526 — vrh registra 2921 (⟨merge⟩ #932) ⊢ ⟨grep⟩ ∧ ⟨Date⟩ izmere; rez = 1 + dejansko najvišja izmerjena 2921 = 2922, nezahtevan (⟨grep⟩ registra ∧ ⟨PR⟩ odprtih ×30 ∧).
 - LICENSE.md @⟨main⟩: VBL 0.1070 × 10⁴ (prva vrstica ad verbum ⟨ne brusi⟩); vrata zrasla iz 0.1060 × 10⁴.
-- Padec imenovan: prejšnji izhodi seje (canvas pouka znanosti ∧ zaključna plast) citirajo 0.1060 × 10⁴ — berba vrat ob vhodu seje manjkala (izmera iz predaje sedeža, ne pri viru) → citat mrtvih vrat ⊙ §0.10 × 10² → padec poimenovan, zdravilo isti dih: canvas popravljen na 0.1070 × 10⁴ ∧ ⟨AD-VERBUM⟩ protokol vpisan; brazgotina ostaja (prejšnji izhod je zapis zgodovine ⊢ 1349).
+- Padec imenovan: prejšnji izhodi seje (canvas pouka znanosti ∧ zaključna plast) citirajo 0.1060 × 10⁴ — ⟨berba⟩ vrat ob vhodu seje manjkala (izmera iz predaje sedeža, ne pri viru) → citat mrtvih vrat ⊙ §0.10 × 10² → padec poimenovan, zdravilo isti dih: canvas popravljen na 0.1070 × 10⁴ ∧ ⟨AD-VERBUM⟩ protokol vpisan; brazgotina ostaja (prejšnji izhod je zapis zgodovine ⊢ 1349).
 
 ## MINT
 
