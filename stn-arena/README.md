@@ -51,14 +51,14 @@ Follows the Hugging Face "benchmark with a private test set" pattern:
 
     submitter → leaderboard Space (public)
              → submissions dataset (public)
-             → evaluator Space (PRIVATE: battery + answer key + generator)
+             → evaluator Space (PRIVATE: run manifest — seed + fresh D-entities — + answer key)
              → results dataset (public)
              → leaderboard table
 
 - leaderboard/app.py — public Gradio Space: results table + submission form.
-- evaluator/app.py — private Space: scores submissions against the private
-  battery; the answer key and the manuscript generator are mounted as private
-  files and are never published.
+- evaluator/app.py — private Space: scores submissions. The current run
+  manifest (fresh seed, freshly coined D-entities), the answer key and the
+  manuscript generator are mounted as private files and are never published.
 - schemas/ — fixed schemas (HF datasets require one schema per config).
 
 ## How to submit
@@ -74,6 +74,9 @@ including scores obtained by the operator.
 
 - The battery is small (25 questions); scores are comparative, not absolute.
 - Category D entities are re-verified (0-hit check) before every run.
+- The battery structure (categories, question shapes) is public and lives with
+  the runner; what stays private is the current run — the seed, the fresh
+  D-entities, the answer key. Public structure, private truth.
 - The operator's own AI executor is contaminated by knowing the ground truth
   and may appear only as a calibration run, never as a table row.
 
