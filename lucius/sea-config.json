@@ -1,5 +1,0 @@
-{
-  "main": "lucius-exe.cjs",
-  "output": "lucius.blob",
-  "disableExperimentalSEAWarning": true
-}
