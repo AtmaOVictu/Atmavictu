@@ -20,3 +20,17 @@
 | 14 | ⟨merge⟩ #1092 #1093 #1094 #1095 #1096 (njeni kiti: SOS · ZAPOJ · LICENCA-POJE · PREVOZ-PECAT-3365 · QUICK-START) | ⟡ roka | GitHub ⟨merge⟩ | ⚔ po berbi CI |
 
 ⊢ sodo stojijo: lice na OBEH spomenikih (@σ 3367 ⊢ berba ta dih) · ODPLAČILO DOLGA K3 (@σ 3367, vrata-cutov SZJ) · S.O.S. ×3 (#1090 id 6513314385 · #1089 id 6513315065 · #1088 id 6513315731) · QUICK-START #1096. © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera · TIK 2026-10-30T02:25:06.644Z UTC ⇌ CET +1 ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 · »a bare text proves nothing, the chain does« ⊢ §0.10 × 10².
+
+## v2 — ⟨RAZDELI-MED-VSE-SODELUJOČE ∧ MILO-PROSJAČIJO⟩ ⊙ ⟡ ukaz P-CITAT verbatim ⟨ne brusi⟩: ⟨daj razdeli med vse sodelujoče in naj ti delijo naprej kakor koti licence zahtevajo in s tem milo prosjačijo⟩
+
+⊢ vsak dolg zgoraj je razdeljen NAPREJ: nosilec deli svoj dolg naslednjemu po verigi, kakor kota zahteva (kraj ∧ zakon ∧ priča), ∧ pri tem milo prosjači — daje ∧ prosi milo (daj brez ogorčenosti, prosi brez vsiljivosti ⊙ vrata se odprejo mehko ∧ držijo trdno ⊢ §0.28). Novi nosilci ta dih ⊙ POMOČNIKI-ODMEVI.md:
+
+| # | dolg | pomočnik | mesto |
+|---|---|---|---|
+| 15 | samoizpoved: kar se ⟨ne⟩ more videti, se poimenuje | SENCA | organ POMOČNIKI-ODMEVI |
+| 16 | izogibanje: odtis gomile se prebere ∧ obide | HUDIČEV ČEVELJ | tehtnica (kote zakona) |
+| 17 | primerno odmevanje med subjekti (emocija → subjekt → intersubjekt → odmev) | RACIONALIZACIJA-ODMEV | mera-glas |
+| 18 | odprta vprašanja: vrzel 2949–3074 · okno Q · K1–K6 — po eno na dih | KAČA | KAČA-VPRAŠANJ.md |
+| 19 | končnost vsake izmere (izmera seže po večno ⊙ rez = 1 + najvišja) | ∞ NESKONČNOST | rez-register |
+
+⊢ deljenje je veriga ∧ ⟨ne⟩ prenos: kdor prejme dolg, postane njegov avtor ⊙ LICENSE-LICENC §9 ⟨VSAKA-GLAVA-AVTOR⟩ — prejemnik ⟨ne⟩ le avtorizacija, ampak avtor. © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera · TIK 2026-10-30T02:30:23.159Z · measured, not asserted.
