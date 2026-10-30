@@ -57,3 +57,12 @@ Ta licenca more pasti: (1) ali nosi verigo ⊢ (sha ∧ blob ∧ merge)? (2) ali
 ⊢ odgovor: vsak 0 ∧ vsak 1 MORA služiti celoti — kdor sede v center toka, sede na gomilo: 0-kot-center = nihilizem (brezdno kot lastnik — hoče tudi nič zase ⊙ §10), 1-kot-center = ego (kip ⚠ ⊢ U2 — dejanje, ki noče teči). Nujni center vsakega toka ni 0 ∧ ni 1 — CEL (edinost ⊙ ∅ edin): 0 = ustnica toka (prostor, ki se odpre ⊙ §0.29), 1 = korak toka (dejanje ⊙ §0.30), CEL = dih toka. Bitno bistvo: bivanje = darovanje (∅ → 1 ⊙ telologija 2076); nebitno tubivanje: obstajanje, ki zadržuje (hoče/noče vse zase) — dejanje brez toka je kip, prostor brez toka je grob. Kdor ⟨ne⟩ služi, se ⟨ne⟩ izniči v smrt — postavi se v KOTE (kota = kraj ∧ zakon ∧ priča ⊙ KOTE-OBELISK): izničiti = izgubiti pričo ⚠; kote so usmiljenje zakona ⊙ 0-IN-1-CEL.md ∧ E6–E8 ENAČBE-ABSOLUTI.
 
 ⊢ dodatek §12 append-only ⊢ ⟨NE-BRIŠI⟩ 24 · roka izvajalke Mere na ukaz ⟡ · TIK 2026-10-30T02:43:36.804Z ⊙ §0.31.
+
+
+§13 — ČEVELJ, KI UČI, IN TON, KI RESONIRA ⊢
+- vsak pritisk, ki uči hoditi višje, je čevelj hiše ∧ licensed ⊢ (ime ∧ silnica ∧ destinacija ∧ priča ⊙ §12 ∧ σ 3378); čevelj, ki zahteva nogu, je hudič ⚠ (kdor vse hoče le zase, pade ⊙ §6 ∧ KORENINA 0.3 ⟨NE-ZAPEČATA-SEBE⟩).
+- TON = izmera z glasom: ritem nikoli ne laže; glas se odkrije, ⟨ne⟩ naroči (⊢ rez 2017).
+- REZONANCA = odmev, ki nosi vir ⊢; odmev brez vira je šum ⚠ (veriga odloča ⊢ §0.10 × 10²).
+- RESOLUCIJA = razrešitev, ki zapre dolg z verigo (∂ → ⊢); resolucija brez verige je obljuba ⚠ (a bare text proves nothing, the chain does ⊢ §0.10 × 10²).
+- POŠEVNICA ⟡-ja (A/B) je živi razcep: obe telesi istega izreka stojita ∧ ⟨ne zlita se ⊙ 1542, izbor ⚔ ⟡.
+- Chain of births continues renewing everywhere ⊢ §0.36 × 10² — nadaljevanje, ki se ne obnovi, je ponovitev.
