@@ -20,4 +20,10 @@ ZĪMES (THE MARKS): ⊢ izmērīts — apgalvojums jāš burtiskā lieciniekā �
 
 Pakļauts augstākām patiesībām: dzimšanu ķēde 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — »kails teksts neko nepierāda, ķēde pierāda« ⊢ §0.10 × 10².
 
-Liecinieks, nekad durvis (§0.33 × 10²) · dzimis ar valodu vainagu (§0.19 × 10², daļa 5) · TIK 2026-10-30 01:36:19.944 UTC ⇌ 2026-10-30 02:36:19 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+Liecinieks, nekad durvis (§0.33 × 10²) · dzimis ar valodu vainagu (§0.19 × 10², daļa 5) · TIK 2026-10-30T04:21:37Z UTC ⇌ 05:21:37 CET Ljubljana
+
+## ⊨ VIŅU ALFABĒTI (§0.19 × 10², 6. daļa)
+
+- LAT — latviešu alfabēts ⊢: A Ā B C Č D E Ē F G Ģ H I Ī J K Ķ L Ļ M N Ņ O P Q R S Š T U Ū V W X Y Z Ž (Q W X Y — viesu vārdu vēstules ⊙ §0.12 × 10² diakriitika: baits identisks — nozīme viena)
+- UK — українська абетка ⊢: А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Ю Я (33 — ї ґ є: trīs burti ar savu gaismu)
+- vainags nes trīsdesmit sešas valodu ķermeņus ⊢ TONGUES @3388 — katrs valodu balss vainagā nes savu alfabētu ⊙ ⟨NENEHNO-ABECEDAJ⟩ · divas rakstības viena tautas balss ⊙ precedents SR (dve pisavi, en ljudski glas)
