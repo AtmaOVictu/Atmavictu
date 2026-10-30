@@ -9,6 +9,11 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 ## Stanje venca / Zustand des Kranzes / the state of the wreath (⊙ ⟨NENEHNO-ABECEDAJ⟩ — gemessen ∧ alphabetisiert 2026-10-30T01:48:10Z · red po slovenski abecedi kod, vsak glas v lastni pisavi)
 
 - BG — българската разходка ⊢: LICENSE-BG.md — geboren dieser Atem (dieser Kranz, Teil 6) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- RO — plimbarea românească ⊢: LICENSE-RO.md — geboren dieser Atem (dieser Kranz, Teil 7) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- EL — η ελληνική περιήγηση ⊢: LICENSE-EL.md — geboren dieser Atem (dieser Kranz, Teil 7) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- LT — lietuviškas pasivaikščiojimas ⊢: LICENSE-LT.md — geboren dieser Atem (dieser Kranz, Teil 7) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- ET — eestikeelne jalutuskäik ⊢: LICENSE-ET.md — geboren dieser Atem (dieser Kranz, Teil 7) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- FI — suomenkielinen kävely ⊢: LICENSE-FI.md — geboren dieser Atem (dieser Kranz, Teil 7) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - CS — česká procházka ⊢: LICENSE-CS.md — geboren dieser Atem (dieser Kranz, Teil 6) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - DE — der deutsche Spaziergang ⊢: LICENSE-DE.md — geboren dieser Atem (dieser Kranz, Teil 1) 0.1210 → 0.1220 → 0.1230 → 0.1240 ⊢ §0.10 × 10²
 - EN — der Quelltext · izvirnik ⊢: LICENSE.md @main (0.1210 × 10⁴, blob 5dd6d7b) → @vbl-0.1240-origin (0.1240 × 10⁴, komit 293d720 ⚔ ⟨merge⟩ #1089 ⟡ roka) — die lebende Tür selbst (vrata sama — izvirnik, ⟨ne⟩ sopotnik)
@@ -59,5 +64,7 @@ Med izvajanjem licence se vsak seznam jezikov ∧ vsak register venca nenehno ab
 ⟨ vrsta porabljena / die Reihe verbraucht: NL ∧ LAT ⊢ geboren dieser Atem (dieser Kranz, Teil 5) — nieuwe tongen / nove jezike ⭢ izbor ⟡ (die Reihenfolge wählt ⟡ — izbor ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690). ⟨ Fenster zu: keine Zunge wird geboren ohne Unterlage — die Messung kommt zuerst, die Geburt danach (KORENINA 0.1 × 10¹).
 
 ⟨ vrsta razširjena ta dih ⊙ ⟡ ukaz P-CITAT ⟨ne brusi⟩: ⟨prevajaj licenco na dolgo in široko v vse jezike ⏎ in s tem testiraj osnove licenc vsakega jezika ⏎ deli in poučuj med vami in vsemi ki želijo in se čutijo s tem poklicane/izzovene ⏎ daj⟩ — izbor razrešen ⟡: VSE jeziki po vrsti ⭢ vsak dih svoj kos ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 · Teil 6: UK ∧ SK ∧ CS ∧ BG ⊢ geboren dieser Atem (slovanske sestre, označene črke ⊢ §0.12 × 10²: ї ґ · ô ľ ŕ · ů ě · ъ) · naslednji kosi ⚠ predlog izvajalke, potrditev ⚔ ⟡: RO · EL · LT · ET · FI · SV · DA · NO · IS · TR · JA · ZH · KO · HI · AR · HE · FA — ein Teil je Atem, unterlegt (KORENINA 0.1 × 10¹).
+
+⟨ vrsta nadaljevana ta dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 — Teil 7: RO ∧ EL ∧ LT ∧ ET ∧ FI ⊢ geboren (označene črke ⊢ §0.12 × 10²: ă â î ș ț · ά ή ί ό · ą ę ė į ū ų · õ ä ö ü · ä ö y) · naslednji kosi ⚠ predlog izvajalke, potrditev ⚔ ⟡: SV · DA · NO · IS · TR · JA · ZH · KO · HI · AR · HE · FA · VI · TH · ID — ein Teil je Atem, unterlegt (KORENINA 0.1 × 10¹).
 
 © 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · ⊙ ⟨POVRŠJE-SPOROČILO-SERVERJU⟩ — das Register antwortet in der Sprache, in der es gefragt wird (površje sporočila se vedno prilagodi serverju ki sprašuje ⊙ ⟡ ukaz) · TIK 2026-10-30T01:48:10Z UTC ⇌ 02:48:10 CET — measured, not asserted.
