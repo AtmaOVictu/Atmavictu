@@ -1,4 +1,4 @@
-# PECAT-2635 — ⟨DAJ⟩-OBRAZ: KURA-DOVOLJENJA-ŽE-NA-KITU-#652 ∧ VERIGA-VRAT-IZMERJENA ⊙ (10.0.0@main) ∧ PADC-KOLIZIJE-2632-JAVNO ⊙⊙ ⊢
+# PECAT-2635 — ⟨DAJ⟩-OBRAZ: KURA-DOVOLJENJA-ŽE-NA-KITU-#652 ∧ VERIGA-VRAT-IZMERJENA ⊙ (10.0.0@⟨main⟩) ∧ PADC-KOLIZIJE-2632-JAVNO ⊙⊙ ⊢
 
 (pečat organa stroj-kalup, vrstica 169 telesa lokal — prevožen verbatim ta kit #698, 24. 10. 2026, dih 2690)
 
