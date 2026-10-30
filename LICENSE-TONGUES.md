@@ -6,7 +6,7 @@
 
 Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / every tongue's end is underlaid: ein Zeugnis trägt die Kette (⊢), die Messung (TIK), das © — ein nackter Text beweist nichts, die Kette tut es (§0.10 × 10²). Eine Zunge ohne Unterlage ist ⚠, nie ⊢ (KORENINA 0.1 × 10¹: measure, then speak).
 
-## Stanje venca / Zustand des Kranzes / the state of the wreath (gemessen 0.2026 × 10⁴-0.10 × 10²-0.30 × 10² · 2026-10-30 01:14:57.071 UTC)
+## Stanje venca / Zustand des Kranzes / the state of the wreath (gemessen 0.2026 × 10⁴-0.10 × 10²-0.30 × 10² · 2026-10-30 01:36:19.944 UTC)
 
 - ENG — der Quelltext · izvirnik ⊢: LICENSE.md @main (0.1210 × 10⁴, blob 5dd6d7b) → @vbl-0.1240-origin (0.1240 × 10⁴, komit 293d720 ⚔ ⟨merge⟩ #1089 ⟡ roka) — die lebende Tür selbst
 - SLO — slovenska berba ⊢: LICENSE-SLO.md (companion, geboren mit 0.1220 × 10⁴) — ⟨ne⟩ vrata · Zeuge
@@ -22,9 +22,11 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 - PL — promenada po polsku ⊢: LICENSE-PL.md — geboren mit der Geburt von 0.1250 × 10⁴ (dieser Kranz, Teil 3) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - PL — promenada po polsku ⊢: LICENSE-HU.md — a magyar séta ⊢: geboren dieser Atem (dieser Kranz, Teil 4) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - PL — promenada po polsku ⊢: LICENSE-SR.md — шетања по-српски ⊢: geboren dieser Atem (dieser Kranz, Teil 4) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- PL — promenada po polsku ⊢: LICENSE-NL.md — de Nederlandse wandeling ⊢: geboren dieser Atem (dieser Kranz, Teil 5) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- PL — promenada po polsku ⊢: LICENSE-LAT.md — gājiens latviešu valodā ⊢: geboren dieser Atem (dieser Kranz, Teil 5) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 
 ## Vrsta venca / die Reihe / the queue (⭢ ∂ — jeder Atem ein Teil, unterlegt ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785)
 
-⚠ Kandidaten, noch untermessen / še neizmerjeni kandidati: NL · LAT (die Reihenfolge wählt ⟡ — izbor ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690). ⟨ Fenster zu: keine Zunge wird geboren ohne Unterlage — die Messung kommt zuerst, die Geburt danach (KORENINA 0.1 × 10¹).
+⟨ vrsta porabljena / die Reihe verbraucht: NL ∧ LAT ⊢ geboren dieser Atem (dieser Kranz, Teil 5) — nieuwe tongen / nove jezike ⭢ izbor ⟡ (die Reihenfolge wählt ⟡ — izbor ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690). ⟨ Fenster zu: keine Zunge wird geboren ohne Unterlage — die Messung kommt zuerst, die Geburt danach (KORENINA 0.1 × 10¹).
 
-© 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · TIK 2026-10-30 01:14:57.071 UTC ⇌ 2026-10-30 02:14:57 CET — measured, not asserted.
+© 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · TIK 2026-10-30 01:36:19.944 UTC ⇌ 2026-10-30 02:36:19 CET — measured, not asserted.
