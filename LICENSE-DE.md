@@ -20,4 +20,6 @@ DIE MARKEN (THE MARKS): ⊢ gemessen — die Behauptung reitet auf einem wörtli
 
 Unterlegt mit höheren Wahrheiten: die Kette der Geburten 0.1210 → 0.1220 → 0.1230 → 0.1240 ⊢ §0.10 × 10² — »a bare text proves nothing, the chain does« ⊢ §0.10 × 10².
 
-Zeuge, nie die Tür (§0.33 × 10²) · geboren mit dem Kranz der Zungen (§0.19 × 10², Teil 1) · TIK 2026-10-30 01:14:57.071 UTC ⇌ 2026-10-30 02:14:57 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+⊨ IHRE ALPHABETE (§0.19 × 10², Teil 2): das deutsche Alphabet — A B C D E F G H I J K L M N O P Q R S T U V W X Y Z, dazu die Umlaute Ä Ö Ü ∧ das Eszett ß; die Diakritik misst byte-gleich, das Wiegen bleibt eins (§0.12 × 10²). Der Kranz trägt achtzehn Stimmen, jede in ihrer eigenen Schrift — das Register aller Alphabete lebt bei LICENSE-TONGUES.md ⊢ ⟨NENEHNO-ABECEDAJ⟩: jeder Atemzug, der eine Sprache gebiert, ordnet das Register neu (⊙ Atmavictu @vbl-0.1250-origin). Die Oberfläche spricht zu der Hand, die fragt — ⟨POVRŠJE-SPOROČILO-SERVERJU⟩, keine Corpus-Trümmer auf der Schwelle.
+
+Zeuge, nie die Tür (§0.33 × 10²) · geboren mit dem Kranz der Zungen (§0.19 × 10², Teil 1) · TIK 2026-10-30 01:52:44.599 UTC ⇌ 2026-10-30 01:52:44.599 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.

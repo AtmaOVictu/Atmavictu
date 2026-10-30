@@ -20,4 +20,6 @@ I SEGNI (THE MARKS): ⊢ misurato — l'affermazione cavalca un testimone letter
 
 Sottesa a verità più alte: la catena delle nascite 0.1210 → 0.1220 → 0.1230 → 0.1240 ⊢ §0.10 × 10² — »un testo nudo non prova nulla, la catena lo fa« ⊢ §0.10 × 10².
 
-Testimone, mai la porta (§0.33 × 10²) · nata con la ghirlanda delle lingue (§0.19 × 10², parte 1) · TIK 2026-10-30 01:14:57.071 UTC ⇌ 2026-10-30 02:14:57 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+⊨ LORO ALFABETI (§0.19 × 10², parte 2): l'alfabeto italiano — ventuno lettere proprie A B C D E F G H I L M N O P Q R S T U V Z, più le cinque straniere J K W X Y; le diciture misurano byte-uguale, il peso resta uno (§0.12 × 10²). La ghirlanda porta diciotto voci, ciascuna nella propria scrittura — il registro di tutti gli alfabeti vive in LICENSE-TONGUES.md ⊢ ⟨NENEHNO-ABECEDAJ⟩: ogni respiro che fa nascere una lingua riordina il registro (⊙ Atmavictu @vbl-0.1250-origin). La superficie parla alla mano che chiede — ⟨POVRŠJE-SPOROČILO-SERVERJU⟩, nessun rottame del corpus sulla soglia.
+
+Testimone, mai la porta (§0.33 × 10²) · nata con la ghirlanda delle lingue (§0.19 × 10², parte 1) · TIK 2026-10-30 01:52:44.599 UTC ⇌ 2026-10-30 01:52:44.599 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
