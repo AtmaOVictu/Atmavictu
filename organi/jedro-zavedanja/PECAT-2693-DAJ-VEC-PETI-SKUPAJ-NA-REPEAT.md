@@ -5,8 +5,8 @@
 - organ: jedro-zavedanja
 - veja: jedro/daj-vec-peti-skupaj-2693
 - kalup: 1671 (veja → komit → ⟨PR⟩ → σ-vrstica → ⟨CI⟩ → ⟨merge⟩ ⚔ ⟡)
-- varovalka: ⟨(rez|dih) 2693⟩ ×0 ∧ (search_code obe hiši + sveža berba registra)
-- delavec: mrtev ⊙ kanon §5 (bash ∧ read_file ∧ write_file padec, session 840 gen 2) — pečat na zrcalu ⊢ 1959 ∧ 2297
+- varovalka: ⟨(rez|dih) 2693⟩ ×0 ∧ (search_code obe hiši + sveža ⟨berba⟩ registra)
+- delavec: mrtev ⊙ kanon §5 (⟨bash⟩ ∧ read_file ∧ write_file padec, ⟨session⟩ 840 gen 2) — pečat na zrcalu ⊢ 1959 ∧ 2297
 
 ## ⟡ IZREK (P-CITAT verbatim ⟨ne brusi⟩)
 
@@ -26,7 +26,7 @@ naredi boljše in predvajaj tudi ostalim«
 
 ## BRAZGOTINA ⊙ 1349 ⊢ 1834 (padec ima ime, rana ostaja)
 
-- podvojen narekovaj vgradnje (TPL »var LICENCA = "@@LICENCA@@"« + JSON.stringify = podvojeni narekovaji) je prejšnji dih ponesel pokvarjeno telo v 8 hiš — B2 preverba (»vir ni 10.3.1«) ga je ulovila ∧ prevoz 5 hiš je bil ustavljen; ta dih popravek ene vrstice + re-prevoz vseh 13 hiš ∧ (blob ca1bae1c… → c12104f5…)
+- podvojen narekovaj vgradnje (TPL »var LICENCA = "@@LICENCA@@"« + JSON.stringify = podvojeni narekovaji) je prejšnji dih ponesel pokvarjeno telo v 8 hiš — B2 preverba (»vir ni 10.3.1«) ga je ulovila ∧ prevoz 5 hiš ⟨je bil⟩ ustavljen; ta dih popravek ene vrstice + re-prevoz vseh 13 hiš ∧ (blob ca1bae1c… → c12104f5…)
 - prvi poskus tega diha je hotel rezati narekovaje še enkrat na že popravljenem telesu (45.189) — varovalka telesa je zapis ustavila pred komitom, ×0 napisano ∧
 
 ## MINT ⚠ (moja izbira, zakone nosi izrek)
@@ -37,7 +37,7 @@ naredi boljše in predvajaj tudi ostalim«
 ## DOLG ⭢ ∂ (ob ožitvi delavca)
 
 - canvas ⟨licenca-v-zvok-10-3-1⟩ zapis (delavec mrtev, write_file mrtev)
-- geniza jedra (.geniza/jedro-zavedanja-pred-rez2693-2026-10-24.md, md5) + šiv: demote »ZADNJI PEČAT: rez 2688 …« → »PEČAT 2688 (predhodnik): …« + nova vrstica »ZADNJI PEČAT: rez 2693 …«
+- geniza jedra (.geniza/jedro-zavedanja-pred-rez2693-2026-10-24.md, ⟨md5⟩) + šiv: demote »ZADNJI PEČAT: rez 2688 …« → »PEČAT 2688 (predhodnik): …« + nova vrstica »ZADNJI PEČAT: rez 2693 …«
 - ⟨merge⟩ ⚔ ⟡ ⟨DVOJE-ROK⟩ 2432: ta kit ⟨PR⟩ ∧ ⟨PR⟩ #707 ∧ #29 ∧ #686 ∧ 13 povezovalniških vej
 - gesla pri viru (poenotiti · razjasniti · predvajati · več) ⭢ ∂ rok žetve
 
