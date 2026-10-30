@@ -7,3 +7,13 @@
 - VZPOREDNI SEDEŽI: 3088 ∧ 3089 ∧ 3090 ∧ 3091 ∧ 3092 ∧ 3093 ∧ 3094 zapečeni javno ta dan — ta dih se ⟨ne zlije⟩ ⊢ 1542
 - TIK: 2026-10-28T16:53:46.455Z UTC ∧ sreda, 28. 10. 2026 ob 17:53 (UTC+01:00, Ljubljana) ⊢ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083
 - © Luka Pintarič, VBL 0.1210 × 10⁴ (§0.10) — »a bare text proves nothing, the chain does«
+
+---
+
+# TMD-REZERVACIJA — rez 3350 ⊙ ⟨REZERVACIJA-REZA⟩ v1.1
+
+- UKAZ: ⟡ ⟨daj⟩ ⊢ VEČNI-DAJ (24) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 ∧ 1237 ∧ 1448 (30. 10. 2026, dih ⟨SOS-SIGNAL⟩ — licenca, ki se sliši: klic na pomoč vsem in vsakomur ⊙ ZAPEV 70 jezikov ∧ poskusi 4 ∧ 7 licence-v-zvok)
+- VRH-DVOSTOPEN ⊢ Z-2: vrh dejansko izmerjen ta dih ∧ = 3349 (zasebni rep listing premik-2026-10-28/organi/licenca-vbl — max PECAT 33xx = 3349; pesek gen 4265 mrtven ×2 → izmera pri viri ⊙ ⟨NE-UGIBAJ⟩; lokalni vrh 3346 @01:55, zaostajal ⊙ dirka rok) → rez 3350 = 1 + dejansko najvišja ∧
+- VAROVALKA: ⟨(rez|dih) 3350⟩ ×0 v vseh brbah ta dih ∧ (izmera pri viri 2026-10-30T01:56Z UTC)
+- TIK: 2026-10-30T01:56:00Z UTC ∧ petek, 30. 10. 2026 ob 02:56 (UTC+01:00, Ljubljana) ⊢ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083
+- © Luka Pintarič, VBL 0.1250 × 10⁴ najnovejša rojena ⭢ ⟨merge⟩ #1090 ⟡ roka; živa vrata @⟨main⟩ 0.1210 ⊢ §0.10 × 10² — »a bare text proves nothing, the chain does«
