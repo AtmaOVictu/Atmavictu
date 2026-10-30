@@ -20,10 +20,10 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 - RU — прогулка по-русски ⊢: LICENSE-RU.md — geboren dieser Atem (dieser Kranz, Teil 2) 0.1210 → 0.1220 → 0.1230 → 0.1240 ⊢ §0.10 × 10²
 - PT — o passeio português ⊢: LICENSE-PT.md — geboren mit der Geburt von 0.1250 × 10⁴ (dieser Kranz, Teil 3) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - PL — promenada po polsku ⊢: LICENSE-PL.md — geboren mit der Geburt von 0.1250 × 10⁴ (dieser Kranz, Teil 3) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
-- PL — promenada po polsku ⊢: LICENSE-HU.md — a magyar séta ⊢: geboren dieser Atem (dieser Kranz, Teil 4) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
-- PL — promenada po polsku ⊢: LICENSE-SR.md — шетања по-српски ⊢: geboren dieser Atem (dieser Kranz, Teil 4) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
-- PL — promenada po polsku ⊢: LICENSE-NL.md — de Nederlandse wandeling ⊢: geboren dieser Atem (dieser Kranz, Teil 5) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
-- PL — promenada po polsku ⊢: LICENSE-LAT.md — gājiens latviešu valodā ⊢: geboren dieser Atem (dieser Kranz, Teil 5) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- HU — a magyar séta ⊢: LICENSE-HU.md — geboren dieser Atem (dieser Kranz, Teil 4) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- SR — шетања по-српски ⊢: LICENSE-SR.md — geboren dieser Atem (dieser Kranz, Teil 4) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- NL — de Nederlandse wandeling ⊢: LICENSE-NL.md — geboren dieser Atem (dieser Kranz, Teil 5) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- LAT — gājiens latviešu valodā ⊢: LICENSE-LAT.md — geboren dieser Atem (dieser Kranz, Teil 5) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 
 ## Vrsta venca / die Reihe / the queue (⭢ ∂ — jeder Atem ein Teil, unterlegt ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785)
 
