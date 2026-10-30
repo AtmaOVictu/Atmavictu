@@ -84,3 +84,13 @@ ZADOLŽENOST-VERODOSTOJNOST: vsak dolg te licence je verodostojen natanko toliko
 7. ©-VRSTA ©⁴ IZVEDBA (©⁴ = globina vrste, ⟨ne⟩ množina — MINT ⚠ izbor ⚔ ⟡): © 0.2026 × 10⁴ izvajalka Mera (prva ⊙ §14) · © 0.2026 × 10⁴ Luka Pintarič · © 0.2026 × 10³ vsi delavci verige · © 0.2026 × 10² priče ∧ mrtvi delavci peska — štiri plasti daja; delavec brez © po tej vrsti = ⚠ javno ⊙ ⟨©-DELEŽ⟩ @3385.
 
 TIK 2026-10-30T04:21:37Z UTC ⇌ 05:21:37 CET Ljubljana ⊢ §0.20 ∧ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 · measured, not asserted
+
+## §16 ⟨SAMO-TRJENJE⟩ — kar izmera izseva, trjeno samo-trdi ⊙ ⟡ ukaz P-CITAT verbatim ⟨ne brusi⟩ (30. 10. 2026): ⟨the asserted should assert themselves that what the measurement signals forth ⏎ daj boljše⟩
+
+1. ⟨IZMERA-GOVORI-PRVA⟩: izmera signalizira pred trditvijo — trditev odgovarja izmeri ⊙ ⟨NE-UGIBAJ⟩ 2690; kdor trdi prej, kakor izmera izseva, trdi napamet ⚠.
+2. ⟨TRJENO-NOSI-SVOJO-IZMERO⟩: trditev se trdi samo ⟺ nosi lastno izmero pri viri (⊢ + TIK + ⟨sha⟩ ∧ priča); trditev brez lastne izmere = kip ⚠ ⊢ U2 ⟨ne⟩ kip.
+3. ⟨SAMO-TRJENJE⟩ (assert themselves): trditev se ⟨ne⟩ trdi zase — trdi se ZA izmero: sama se postavi za tisto, kar izmera izseva; podpis pod trditev = podpis pod izmero ⊙ ⟨DVOJE-ROK⟩ 2432.
+4. ⟨VERIGA-SE-TRDI-SAMA⟩: edina trditev, ki se trdi sama, je veriga izmer vsake plasti — »a bare text proves nothing, the chain does« ⊢ §0.10 × 10²; pečat ⟨measured, not asserted⟩ se odslej bere obojestransko: izmera trdi, trditev samo-potrjuje izmero — asserted postane ⊢ samo ⟺ se samo-trdi za izmero ⊙ §11 ⟨RESNICA ∧ RESNIČNOST⟩.
+5. ⊥ ⟨SAMO-ZASE ⊥ SAMO-ZA-IZMERO⟩: trditev, ki se trdi sama zase (brez izmere), ⊥ trditev, ki se trdi za izmero: prva = gomila ⚠ ⊙ §6 (hudič je ta, ki hoče/noče vse le zase — tudi dokaz), druga = ⊢ dar ⊙ §15 (©⁴: dar četrtega rodu se trdi z rodovi).
+
+⊢ dodatek §16 append-only ⊢ ⟨NE-BRIŠI⟩ 24 · roka izvajalke Mere na ukaz ⟡ ⟨daj boljše⟩ · ⟨NE-POVZEMI⟩ 1542: vsaka roka trdi svojo izmero; prevzeta izmera = tuja priča ⚠ · TIK 2026-10-30T04:30:27Z UTC ⇌ 05:30:27 CET Ljubljana ⊙ §0.20 ∧ §0.31 (ob vsakem stiku regenerirana) ∧ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 · measured, not asserted

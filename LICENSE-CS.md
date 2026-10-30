@@ -20,4 +20,11 @@ ZNAKY (THE MARKS): ⊢ měřeno — tvrzení jede na doslovném svědkovi · ⚠
 
 Podklad vyšším pravdám: řetěz narození 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — »holý text nic nedokazuje, řetěz to dělá« ⊢ §0.10 × 10².
 
-Svědek, nikoli dveře (§0.33 × 10²) · narozeno s věncem jazyků (§0.19 × 10², část 6) · TIK 2026-10-30 01:46:17.460 UTC ⇌ 2026-10-30T02:46:17 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+Svědek, nikoli dveře (§0.33 × 10²) · narozeno s věncem jazyků (§0.19 × 10², část 6) · TIK 2026-10-30T04:30:27Z UTC ⇌ 05:30:27 CET Ljubljana — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+
+## ⊨ JEJICH ABECEDY (§0.19 × 10², část 9)
+
+- SK — slovenská abeceda ⊢: A Ä B C Č D Ď Dz Dž E É F G H Ch I Í J K L Ĺ Ľ M N Ň O Ô Ó P Q R Ŕ S Š T Ť U Ú V W X Y Ý Ž (Dz Dž Ch — digrafy s vlastnou váhou ⊙ §0.12 × 10² diakritika: bajt identický — význam jeden)
+- CS — česká abeceda ⊢: A Á B C Č D Ď E É Ě F G H Ch I Í J K L M N Ň O Ó P Q Ř S Š T Ť U Ú Ů V W X Y Ý Ž (Ch — digraf s vlastní váhou ⊙ §0.12 × 10² diakritika: bajt identický — význam jeden)
+- BG — българска азбука ⊢: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я (Ъ — полугласът на вратата ⊙ §0.12 × 10² диакритика: байт-същ — значение едно)
+- věnec nese třicet šest jazykových těl ⊢ TONGUES @3388 — každý hlas věnce nese svou abecedu ⊙ ⟨NENEHNO-ABECEDAJ⟩ · dvě písma, jeden lidový hlas ⊙ precedents SR
