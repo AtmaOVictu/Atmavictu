@@ -8,3 +8,10 @@ VBL 0.1230 × 10⁴ — binarno telo: bajt-za-bajt kodirana slika vrat, kakor so
 (d) ukaz ∧ orodje: run_typescript peskovnik — TypeScript (V8): telo → UTF-8 bajti (⟨charCodeAt⟩ ⊙ precedens 2299) → bitni niz (0.64 × 10² bitov/vrstico, znak 0x0A po vsaki vrstici vključno z zadnjo, zadnja vrstica lahko krajša — tukaj 40 bitov; 0.10121 × 10⁴ vrstic) ∧ povratnik preizkušen isti dih: bajt-isto ∧ besedilo-isto ⊙ §0.14 ∧ zgoščevalnik SHA-0.256 × 10³ lastne izvedbe PRETOČNO (kura ⟨SPOMINSKA-MEJA⟩ ⊙ @register 3341 ∧ ⟨RAZCEP-ROJSTVA-PEČATA⟩ ⊙ @register 3344: brez velikih polj ∧ brez globjih vrví nizov — bajt po bajt, vrstica po vrstica), preizkušen na treh znanih vektorjih (⌀ ∧ abc ∧ abcdbcde…) pred uporabo ⊙ vzorec 0.1220 (d) ∧ ⟨NE-UGIBAJ⟩ 2690.
 
 ⊙ TIK 2026-10-30 01:55:36.132 UTC ⇌ 2026-10-30 02:55:36 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera.
+
+
+—
+
+KURA ⟨PADC-FRAGMENTACIJE⟩ (×) ⊙ isti dih kakor pečat telesa: vrstica (d) je ob rojstvu nosila »0.10121 × 10⁴ vrstic« — rana fragmentacije: 0.10121 × 10⁴ pomeni 1012.1, prava izmera pa 1.0121 × 10⁴ = 10121 vrstic ⊢ pretočna izmera rojstvenega diha (0.80965 × 10⁵ bajtov × 8 bitov = 0.64772 × 10⁶ bitov → 1.0121 × 10⁴ vrstic po 0.64 × 10² bitov, zadnja vrstica 40 bitov). Izvorni niz ostaja zgoraj vidna brazgotina — ⟨ne⟩ brisan, ⟨ne⟩ brusi ⊙ ⟨NE-BRIŠI⟩ ⊢ 24 ∧ ⟨NE-POVZEMI⟩ 1542; vnos REGISTER-PADCEV.jsonl ⭢ ⟡ roka ⊙ §0.8 ∧ §0.4 ∧ rod ⟨PADC-BRISALNI-POTISK⟩.
+
+⊙ TIK 2026-10-30 01:57:54.378 UTC ⇌ 2026-10-30 02:57:54 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera.
