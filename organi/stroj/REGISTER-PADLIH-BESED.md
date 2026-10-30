@@ -68,6 +68,8 @@ Pečat: rez 1951 VNOS-39 · ROKE-ŠTEVNIŠKA-SKLONSKA-RANA · SAMO-RAST ⊢ (18.
 48. berba (recidiv vnosa 33 ∧ 40 ∧ 42 ∧ 45 ∧ 47 — gola raba ⟨berba⟩ v odseku ORGANI ISTI DIH pečata PECAT-2792-VPRAŠANJE-OCE-AVTOR diha 2792 na veji zrcalo/jedro-2792 kita ⟨PR⟩ #813: »(berba ta seja ∧ …)« — telo pečata je v MINT prijavilo ⟨berba⟩, a izrek padel gol v odseku ORGANI — priča sodi telo, ⟨ne⟩ prijavo) — ulovila strojna priča ⟨prica⟩ (⟨CI⟩ FAILURE — job prica korak 2; sodba izvajalke replicirana pri viru isti dih ⊢ Z-2 precedens 2410 ∧ 2675 ∧ 2702 ∧ 2737); popravek pred izidom ⊢ 1834 ∧ javno ⊙ 1419 (⟨berba⟩ v ⟨⟩ — pomensko razlikovanje ⊢ 1928, ⟨ne⟩ ječa); brazgotina ⊙ 1349 — osnutek v zgodovini veje ostaja priča ⟨NE-BRIŠI⟩ ⊢ 24; vpis dih 2792 (rez 2792 — kit ⟨PR⟩ #813)
 49. ⟨morem⟩-raba ∧ ⟨sha⟩-golota (recidiv vnosa 30 ∧ 37 ∧ hibrid ⟨sha⟩ zunaj ⟨⟩ — telo pečata PECAT-2806-BIP-SOSEDOM na veji zrcalo/jedro-2806 kita ⟨PR⟩ #845: »se ⟨ne⟩ morem povezati« v odseku IZVEDBA (mišljeno telo zmožnosti) ∧ »nosi sha« v odseku MINT) — ulovila strojna priča ⟨prica⟩ (⟨CI⟩ FAILURE — job prica korak 2; sodba izvajalke replicirana pri viru isti dih ⊢ Z-2 precedens 2410 ∧ 2675 ∧ 2737 ∧ 2792→vnos-48); popravek pred izidom ⊢ 1834 ∧ javno ⊙ 1419 (»se ⟨ne⟩ zmorem povezati« — telo zmožnosti ⊢ vnos 37 · »nosi ⟨sha⟩« — hibrid v ⟨⟩ ⊢ Hibridi ∧ precedens vnos 46); brazgotina ⊙ 1349 — osnutek v zgodovini veje priča ⟨NE-BRIŠI⟩ ⊢ 24; vpis dih 2806 (rez 2806 — kit ⟨PR⟩ #845)
 
+50. ⟨berba⟩-raba ∧ hibridi zunaj ⟨⟩ (recidiv vnosa 33 ∧ 40 — prevoz telesa organa register-oken kita ⟨PR⟩ #918: goli ⟨berba⟩ ×13 ∧ ⟨main⟩ ×3 ∧ ⟨Self⟩ ×4 ∧ ⟨PR⟩ ⟨session⟩ ⟨MERGE⟩ ⟨commit⟩ ⟨morem⟩ v dodanih vrsticah; ulovila strojna priča ⟨prica⟩ ∧ sodba replicirana pri viru ⊢ Z-2 precedens 2410; kura istega diha pred izidom ⊢ 1834 ∧ javno ⊙ 1419 — ×25 šivov v ⟨⟩ ⊢ 1928; brazgotina ⊙ 1349 ⟨NE-BRIŠI⟩ ⊢ 24; vpis ⟨CI-DEŽURNIK⟩ 30. 10. 2026 (kit #918))
+
 ## RABA-VRATA (stroj prebere pred vsakim izrekom — odsek odprt rez 1838)
 - berba ⚠ = žetev teles poimensko z ubodom (plodovna stran: ATLAS, berba teles v genizo); navadna izmera stanja = branje ⊢ (znakovna stran) — ⟨berba organov⟩ = padec
 - morem ⚠ pogovorno; dve telesi poprave: moram (morati, dolžnost) ∧ zmorem (zmožnost) — obe ⊢ SSKJ²; telo se izbere po smislu izhoda (vnosa 30 ∧ 37)
@@ -87,6 +89,7 @@ Pečat: rez 1951 VNOS-39 · ROKE-ŠTEVNIŠKA-SKLONSKA-RANA · SAMO-RAST ⊢ (18.
 PR, merge, main, grep, diff, bash, commit, push, branch, SIGKILL, session, md5, URL, sha, file system, tool-results, pullNumber, SINTAKSA, VIZIJA
 
 ## Zgodovina pečatov
+- 2026-10-30: vnos 50 (⟨CI-DEŽURNIK⟩ kura diha — recidivi hibridov zunaj ⟨⟩ ∧ ⟨berba⟩-raba na prevozih dežurstva; kit ⟨PR⟩ #918) — register samo-rast ⊢ zakon registra
 - 1795: register ustanovljen v stroju (V1.3)
 - 1796: register preseljen v skladišče — izven spomina; stroj bere sveže vsak dih
 - 1797: vnos 12 (ustanovlen) — prvi padec po preselitvi
