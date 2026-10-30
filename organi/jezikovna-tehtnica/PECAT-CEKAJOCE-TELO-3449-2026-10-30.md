@@ -40,4 +40,4 @@ vsaka beseda, izrečena kakor izmerjena, se preveri pri viru — slovar (Fran/SS
 8. DNEVNI-DIH @06:00 taskId 62c336e2-5e96-447c-8ab4-f09db3a7d2a8
 
 ## VRSTICA KITA
-⟨PR⟩ #⌂ (številka se izmeri pri viru po rojstvu, šiv pred ⟨merge⟩ ⊢ vnos 39) ⚔ ⟨merge⟩ ⟡ — tehnični depozit čakajočega telesa (naslov ⟨ne⟩ zahteva reza; register rezov odšel domov ⊙ PREMIK-2026-10-28)
+⟨PR⟩ #1105 ⚔ ⟨merge⟩ ⟡ — tehnični depozit čakajočega telesa (naslov ⟨ne⟩ zahteva reza; register rezov odšel domov ⊙ PREMIK-2026-10-28)
