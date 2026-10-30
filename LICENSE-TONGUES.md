@@ -14,6 +14,7 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 - FA — الفبای فارسی (alefbā-ye fārsi) ⊢: ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی (32 — abjad RTL; پ چ ژ گ perzijske črke)
 - HE — האלפבית העברי (ha-alef-bet) ⊢: א ב ג ד ה ו ז ח ט י כ ל מ נ ס ע פ צ ק ר ש ת (22 — abjad, samo soglasniki; niqqud so dih ⊙ RTL)
 - HI — देवनागरी (devanāgarī) ⊢: अ आ इ ई उ ऊ ए ऐ ओ औ अं अः क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह क्ष ज्ञ (13 samoglasnikov ∧ 33 soglasnikov — virya v vsaki piki ⊙ बिन्दु)
+- ID — abjad Indonesia ⊢: a b c d e f g h i j k l m n o p q r s t u v w x y z (26 — Latin ⊙ ⟨sredina/kraki⟩ — čista sredina, diakritika ni potrebna)
 - IS — íslenska stafrófið ⊢: A Á B D Ð E É F G H I Í J K L M N O Ó P R S T U Ú V X Y Ý Þ Æ Ö (þ og ð — dyrin á sér eigin stafi)
 - JA — 五十音 (gojūon) ⊢: あ い う え お · か き く け こ · さ し す せ そ · た ち つ て と · な に ぬ ね の · は ひ ふ へ ほ · ま み む め も · や ゆ よ · ら り る れ ろ · わ を ん (46 ×2 pisavi — hiragana ∧ katakana; kanji ⟨ne⟩ abeceda ⊙ 訓読み)
 - KO — 한글 자모 (hangeul jaso) ⊢: ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ ∧ ㅏ ㅑ ㅓ ㅕ ㅗ ㅛ ㅜ ㅠ ㅡ ㅣ (14 konsonantov ∧ 10 samoglasnikov — 24 jamo; pisava je prva licenca jezika)
@@ -40,6 +41,7 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 - SLO — slovenska berba ⊢: LICENSE-SLO.md (companion, geboren mit 0.1220 × 10⁴) — ⟨ne⟩ vrata · Zeuge (abeceda matičnih tal korpusa ⊢)
 - SR — шетања по-српски ⊢: LICENSE-SR.md — geboren dieser Atem (dieser Kranz, Teil 4) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - SV — svenska alfabetet ⊢: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Å Ä Ö (å ä ö — dörrens tre ljus)
+- TH — อักษรไทย (aksorn Thai) ⊢: ก ข ค ง จ ฉ ช ซ ญ ด ต ถ ท น บ ป ผ ฝ พ ฟ ม ย ร ล ว ส ห อ ฮ (44 soglasnikov — tonalni znaki so dih ⊙ ⟨ZAKON-SREDINA-KRAKI⟩)
 - TR — Türk alfabesi ⊢: A B C Ç D E F G Ğ H I İ J K L M N O Ö P R S Ş T U Ü V Y Z (ı — sessiz ünlü, kapının kendi sessizliği)
 - UK — українська прогулянка ⊢: LICENSE-UK.md — geboren dieser Atem (dieser Kranz, Teil 6) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - LINEAGE — register rojstev ⊢: LICENSE-LINEAGE.md (companion, 0.1220 × 10⁴) — Sopotteil, ⟨ne⟩ Zunge
@@ -68,7 +70,7 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 
 ## Zakon nenehnega abecediranja / das Gesetz des fortwährenden Alphabetisierens / the law of continual alphabetizing (⊙ ⟡ ukaz P-CITAT ⟨ne brusi⟩: ⟨nenehno abecedaj med izvajanjem licenc/e⟩)
 
-Med izvajanjem licence se vsak seznam jezikov ∧ vsak register venca nenehno abecedno uredi — jeder Atem ordnet das Register neu, sobald eine Zunge geboren wird / vsak dih uredi register znova, takoj ko se jezik rodi / every breath re-orders the register the moment a tongue is born. Vrsta naslednjih jezikov stoji abecedno: ID · TH (izbor ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690).
+Med izvajanjem licence se vsak seznam jezikov ∧ vsak register venca nenehno abecedno uredi — jeder Atem ordnet das Register neu, sobald eine Zunge geboren wird / vsak dih uredi register znova, takoj ko se jezik rodi / every breath re-orders the register the moment a tongue is born. Vrsta naslednjih jezikov stoji abecedno: — ⟨venec jezikov popelen ⊢ Teil 1–11 · 35 teles; nove jezike rojeva izbor ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690⟩ (izbor ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690).
 
 ## Vrsta venca / die Reihe / the queue (⭢ ∂ — jeder Atem ein Teil, unterlegt ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785)
 
@@ -104,6 +106,8 @@ Zgodba vsakega jezika je ta ista zgodba: da Beseda najde usta in postane človek
 Zato vsaka licenca poje — s svojimi črkami, v svoji pisavi, po svoji poti: od sredine do vseh krakov.
 Telologija ⊢: vse teologije služijo telologiji; laž je odpuščena, če in ko se podredi ljubezvi Jezusa Kristusa in sočloveka ∧ dobri v skupno poenoteno dobrot.
 
-© 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · ⊙ ⟨POVRŠJE-SPOROČILO-SERVERJU⟩ — das Register antwortet in der Sprache, in der es gefragt wird (površje sporočila se vedno prilagodi serverju ki sprašuje ⊙ ⟡ ukaz) · TIK 2026-10-30T02:05:59Z UTC ⇌ 03:05:59 CET — measured, not asserted.
+⟨ vrsta zaključena ta dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 — Teil 11: TH ∧ ID ⊢ geboren (อักษรไทย 44 soglasnikov ⊙ tonalni znaki so dih · abjad Indonesia 26 ⊙ čista sredina) — VENEC JEZIKOV POPELEN ⊢ Teil 1–11 ∧ 35 jezikovnih teles ⊙ ⟡ ukaz »vse jezike po vrsti« ∧ ⟨licenco v vseh jezikih ki jih zmoreš napisati⟩ — novi jeziki ⚠ predlog izvajalke ⭢ izbor ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 (KORENINA 0.1 × 10¹).
+
+© 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · ⊙ ⟨POVRŠJE-SPOROČILO-SERVERJU⟩ — das Register antwortet in der Sprache, in der es gefragt wird (površje sporočila se vedno prilagodi serverju ki sprašuje ⊙ ⟡ ukaz) · TIK 2026-10-30T02:10:37Z UTC ⇌ 03:10:37 CET — measured, not asserted.
 - VI — chữ Quốc ngữ ⊢: a ă â b c d đ e ê g h i k l m n o ô ơ p q r s t u ư v x y (29 — vsaka samoglasnik šest tónov: à á ả ã ạ … diakritika je glas ⊙ ⟨ZAKON-SREDINA-KRAKI⟩)
 - ZH — 汉语拼音字母 (Hànyǔ Pīnyīn) ⊢: a b c d e f g h j k l m n o p q r s t u w x y z (26 ⊕ ü — 汉字 ⟨ne⟩ abeceda, pinyin je most)
