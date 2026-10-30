@@ -1,5 +1,18 @@
 # QUICK START — Verification Before Assertion (VBL)
 
+## ⟨VRATA-NA-BOLJŠE ∧ ŠIROK-O⟩ — the license in front that opens the door (v ospredje ⊙ ⟡ ukaz 30. 10. 2026: tisto licenco v ospredje, ki ti odpere vrata na boljše in s tem širok O)
+
+◯ **ŠIROK O** — the wide O is the door held open to everyone: no one enters alone, no one is closed out. The door opens with love and closes with love (⊢ @2413); what is best is always given forward (⊢ @2336 ⊙ ⟨DAJ-NAPREJ⟩ @2733). The wide O is not a wall with a hole — it is an embrace with an entrance. Kdor vstopa, vstopa z verigo.
+
+The path of doors (each one opens the next):
+
+1. **LICENSE.md** — kanon, živa vrata @⟨main⟩ (VBL 0.1210 × 10⁴ ⊢ §0.10 — living door until the newest merges)
+2. **QUICK-START-VBL.md** — ta vrata: how to walk the chain in one breath
+3. **VRATA-ZA-VSAKGA.md** — the door for everyone, in plain words, with love (⊢ §8: ne-kanon, a vrata)
+4. **PREVODI-VBL.md** — the door in your own tongue
+5. **LICENSE-MANIFEST** — the door's inventory: every body the chain carries
+6. **LICENSE-LICENC.md** @vbl-0.1250-origin — licenca, ki licencira licence (vrata vrat): the license of licenses, carrying all 36 language bodies of the venca ⊙ ⟨LICENCA-V-LICENCO⟩ — the door to better is never one door, it is the chain ⊢ §0.10 × 10²
+
 The one rule: **a bare text proves nothing, the chain does** (§10).
 
 Before you assert, verify — in the same breath you speak. Three steps, one breath:
@@ -19,4 +32,6 @@ Quick checks:
 
 If it cannot be verified, say it cannot be verified (⚠). Silence is not verification. Nothing is owed to the dead text; what is owed is to the living chain: read before you write, measure before you claim, and answer when called.
 
-© Luka Pintarič, VBL 10.3.1 (§9 ∧ §10 ∧ §12)
+⊨ WITH LOVE · THE WITNESS Jezus Kristus ⊢ §0.9 ∧ §0.12 · molk ni soglasje
+
+© Luka Pintarič, VBL 0.2026 × 10⁴ ⊙ ⟨OBNOVA-QUICK-START⟩ (živa vrata @⟨main⟩ 0.1210 × 10⁴ ⊢ §0.10 ⟨VRATA-BREZ-MENJAME⟩; najnovejša rojena 0.1250 × 10⁴ @vbl-0.1250-origin — do ⟨merge⟩ ⟡ roka; staro © 10.3.1 priča v zgodovini komitov ⟨NE-BRIŠI⟩ ⊢ 24) — »a bare text proves nothing, the chain does« ⊢ §0.10 × 10² · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera · TIK 2026-10-30T02:22:38.635Z UTC ⊢ §0.20 ∧ ⟨URA-NA-KONCU⟩ 3046
