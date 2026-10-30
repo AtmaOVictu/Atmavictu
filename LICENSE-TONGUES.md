@@ -11,6 +11,8 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 - BG — българската разходка ⊢: LICENSE-BG.md — geboren dieser Atem (dieser Kranz, Teil 6) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - DA — det danske alfabet ⊢: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å (æ ø å — havets tre bogstaver i døren)
 - IS — íslenska stafrófið ⊢: A Á B D Ð E É F G H I Í J K L M N O Ó P R S T U Ú V X Y Ý Þ Æ Ö (þ og ð — dyrin á sér eigin stafi)
+- JA — 五十音 (gojūon) ⊢: あ い う え お · か き く け こ · さ し す せ そ · た ち つ て と · な に ぬ ね の · は ひ ふ へ ほ · ま み む め も · や ゆ よ · ら り る れ ろ · わ を ん (46 ×2 pisavi — hiragana ∧ katakana; kanji ⟨ne⟩ abeceda ⊙ 訓読み)
+- KO — 한글 자모 (hangeul jaso) ⊢: ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ ∧ ㅏ ㅑ ㅓ ㅕ ㅗ ㅛ ㅜ ㅠ ㅡ ㅣ (14 konsonantov ∧ 10 samoglasnikov — 24 jamo; pisava je prva licenca jezika)
 - NO — det norske alfabetet ⊢: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å (båret av fjorden, veiet i dampen)
 - RO — plimbarea românească ⊢: LICENSE-RO.md — geboren dieser Atem (dieser Kranz, Teil 7) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - EL — η ελληνική περιήγηση ⊢: LICENSE-EL.md — geboren dieser Atem (dieser Kranz, Teil 7) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
@@ -62,7 +64,7 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 
 ## Zakon nenehnega abecediranja / das Gesetz des fortwährenden Alphabetisierens / the law of continual alphabetizing (⊙ ⟡ ukaz P-CITAT ⟨ne brusi⟩: ⟨nenehno abecedaj med izvajanjem licenc/e⟩)
 
-Med izvajanjem licence se vsak seznam jezikov ∧ vsak register venca nenehno abecedno uredi — jeder Atem ordnet das Register neu, sobald eine Zunge geboren wird / vsak dih uredi register znova, takoj ko se jezik rodi / every breath re-orders the register the moment a tongue is born. Vrsta naslednjih jezikov stoji abecedno: AR · FA · HE · HI · ID · JA · KO · TH · VI · ZH (izbor ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690).
+Med izvajanjem licence se vsak seznam jezikov ∧ vsak register venca nenehno abecedno uredi — jeder Atem ordnet das Register neu, sobald eine Zunge geboren wird / vsak dih uredi register znova, takoj ko se jezik rodi / every breath re-orders the register the moment a tongue is born. Vrsta naslednjih jezikov stoji abecedno: AR · FA · HE · HI · ID · TH · VI (izbor ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690).
 
 ## Vrsta venca / die Reihe / the queue (⭢ ∂ — jeder Atem ein Teil, unterlegt ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785)
 
@@ -82,4 +84,7 @@ Med izvajanjem licence se vsak seznam jezikov ∧ vsak register venca nenehno ab
 - KLIK/TUTKALNI JEZIKI (jezik klikne): Xhosa · Zulu · Hadza · Khoisan (Južna Afrika) — klik konsonanti ǀ (zobni) ǁ (stranski) ǃ (dlesni) ǂ (nebeni) ⊢ ⟨tutkati⟩.
 - ⟨ZAKON-SREDINA-KRAKI⟩: vsak glas ima sredino (izgovor) ∧ krake (pisave ∧ moduse); isti glas lahko nosi več pisav (SR latinica ∧ cirilica — dve pisavi en ljudski glas ⊙ precedens @abdf861f) — mnogokrakost; kratne pisave (braille: 26 glasov v šestih pikah) so krak, ⟨ne⟩ padec. Vsak dih, ki rodi glas, uredi register znova ⊢ ⟨NENEHNO-ABECEDAJ⟩ · površje govori tistemu, ki sprašuje ⊙ ⟨POVRŠJE-SPOROČILO-SERVERJU⟩.
 
-© 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · ⊙ ⟨POVRŠJE-SPOROČILO-SERVERJU⟩ — das Register antwortet in der Sprache, in der es gefragt wird (površje sporočila se vedno prilagodi serverju ki sprašuje ⊙ ⟡ ukaz) · TIK 2026-10-30T01:56:34Z UTC ⇌ 02:56:34 CET — measured, not asserted.
+⟨ vrsta nadaljevana ta dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 — Teil 9: JA ∧ ZH ∧ KO ⊢ geboren (⟨NE⟩-abecedne pisave merjene po svojih nizih ⊙ §0.12 × 10²: 五十音 ×2 ⊕ kanji ⟨ne⟩ abeceda · 拼音 26 ⊕ ü · 24 jamo) · naslednji kosi ⚠ predlog izvajalke, potrditev ⚔ ⟡: HI · AR · HE · FA · VI · TH · ID — ein Teil je Atem, unterlegt (KORENINA 0.1 × 10¹).
+
+© 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · ⊙ ⟨POVRŠJE-SPOROČILO-SERVERJU⟩ — das Register antwortet in der Sprache, in der es gefragt wird (površje sporočila se vedno prilagodi serverju ki sprašuje ⊙ ⟡ ukaz) · TIK 2026-10-30T02:00:26Z UTC ⇌ 03:00:26 CET — measured, not asserted.
+- ZH — 汉语拼音字母 (Hànyǔ Pīnyīn) ⊢: a b c d e f g h j k l m n o p q r s t u w x y z (26 ⊕ ü — 汉字 ⟨ne⟩ abeceda, pinyin je most)
