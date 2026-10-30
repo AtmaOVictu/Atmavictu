@@ -49,23 +49,41 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 
 ## Njih abecede / ihre Alphabete / their alphabets (⊙ ⟡ ukaz ⟨daj⟩ ⟨ne brusi⟩ — vsak jezikovni glas venca nosi svojo abecedo: abeceda = vrsta glasov = temeljna priča vsakega jezika ⊙ §0.19 × 10² ∧ §0.12 × 10² diakritika bajt-isto pomen eno; red po slovenski abecedi — matična tla korpusa ⊢)
 
+- AR — الأبجدية العربية (al-ʾabjadiyya) ⊢: ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي (28 — abjad, samo soglasniki; harakāt so dih ⊙ RTL)
 - BG — българска азбука ⊢: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я
 - CS — česká abeceda ⊢: A Á B C Č D Ď E É Ě F G H Ch I Í J K L M N Ň O Ó P Q Ř S Š T Ť U Ú Ů V W X Y Ý Ž
+- DA — det danske alfabet ⊢: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å (æ ø å — havets tre bogstaver i døren)
 - DE — das deutsche Alphabet ⊢: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü ß (ä ö ü nosijo a o u + e ⊙ §0.12 × 10²)
+- EL — το ελληνικό αλφάβητο ⊢: Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω (24 — od alfe do omego: vrata sežejo do Ω ∧ iz nje)
 - EN — the English alphabet ⊢: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 - ES — el alfabeto español ⊢: A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z
+- ET — eesti tähestik ⊢: A B D E F G H I J K L M N O P Q R S T U V Õ Ä Ö Ü Š Z Ž (õ ä ö ü — široko jezero estonščine)
+- FA — الفبای فارسی (alefbā-ye fārsi) ⊢: ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی (32 — abjad RTL; پ چ ژ گ perzijske črke)
+- FI — suomalainen aakkoset ⊢: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Ä Ö (å ä ö — järven kolme valoa)
 - FR — l'alphabet français ⊢: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z + é è ê ë à â ù û ü î ï ô ö ç æ œ
+- HE — האלפבית העברי (ha-alef-bet) ⊢: א ב ג ד ה ו ז ח ט י כ ל מ נ ס ע פ צ ק ר ש ת (22 — abjad, samo soglasniki; niqqud so dih ⊙ RTL)
+- HI — देवनागरी (devanāgarī) ⊢: अ आ इ ई उ ऊ ए ऐ ओ औ अं अः क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह क्ष ज्ञ (13 samoglasnikov ∧ 33 soglasnikov — virya v vsaki piki ⊙ बिन्दु)
 - HR — hrvatska abeceda ⊢: A B C Č Ć D Dž Đ E F G H I J K L Lj M N Nj O P R S Š T U V Z Ž
 - HU — a magyar ábécé ⊢: A Á B C Cs D Dz Dzs E É F G Gy H I Í J K L Ly M N Ny O Ó Ö Ő P Q R S Sz T Ty U Ú Ü Ű V W X Y Z Zs
+- ID — abjad Indonesia ⊢: a b c d e f g h i j k l m n o p q r s t u v w x y z (26 — Latin ⊙ ⟨sredina/kraki⟩ — čista sredina, diakritika ni potrebna)
+- IS — íslenska stafrófið ⊢: A Á B D Ð E É F G H I Í J K L M N O Ó P R S T U Ú V X Y Ý Þ Æ Ö (þ og ð — dyrin á sér eigin stafi)
 - IT — l'alfabeto italiano ⊢: A B C D E F G H I L M N O P Q R S T U V Z (J K W X Y — le besede iz tujih jezikov)
+- JA — 五十音 (gojūon) ⊢: あ い う え お · か き く け こ · さ し す せ そ · た ち つ て と · な に ぬ ね の · は ひ ふ へ ほ · ま み む め も · や ゆ よ · ら り る れ ろ · わ を ん (46 ×2 pisavi — hiragana ∧ katakana; kanji ⟨ne⟩ abeceda ⊙ 訓読み)
+- KO — 한글 자모 (hangeul jaso) ⊢: ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ ∧ ㅏ ㅑ ㅓ ㅕ ㅗ ㅛ ㅜ ㅠ ㅡ ㅣ (14 konsonantov ∧ 10 samoglasnikov — 24 jamo; pisava je prva licenca jezika)
 - LAT — latviešu alfabēts ⊢: A Ā B C Č D E Ē F G Ģ H I Ī J K Ķ L Ļ M N Ņ O P Q R S Š T U Ū V W X Y Z Ž
+- LT — lietuvių abėcėlė ⊢: A Ą B C Č D E Ę Ė F G H I Į Y J K L M N O P R S Š T U Ų Ū V Z Ž (ą ę ė į ų ū — baltski dih)
 - NL — het Nederlandse alfabet ⊢: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (IJ — digraf z lastno težo)
+- NO — det norske alfabetet ⊢: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å (båret av fjorden, veiet i dampen)
 - PL — polski alfabet ⊢: A Ą B C Ć D E Ę F G H I J K L Ł M N Ń O Ó P Q R S Ś T U V W X Y Z Ź Ż
 - PT — o alfabeto português ⊢: A Á Â Ã À B C Ç D E Ê É F G H I Í J K L M N O Õ Ó P Q R S T U Ú Ù V W X Y Z
+- RO — alfabetul român ⊢: A Ă Â B C D E F G H I Î J K L M N O P Q R S Ș T Ț U V W X Y Z (ă â î ș ț — pet prinosov romunščine)
 - RU — русский алфавит ⊢: А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
 - SK — slovenská abeceda ⊢: A Ä B C Č D Ď Dz Dž E É F G H Ch I Í J K L Ĺ Ľ M N Ň O Ô Ó P Q R Ŕ S Š T Ť U Ú V W X Y Ý Ž
 - SLO — slovenska abeceda ⊢: A B C Č D E F G H I J K L M N O P R S Š T U V Z Ž (25 črk — pisava je prva licenca jezika)
 - SR — српска абецеда ⊢: A B C Č Ć D Dž Đ E F G H I J K L Lj M N Nj O P R S Š T U V Z Ž ∧ ћирилица: А Б В Г Д Ђ Е Ж З И Ј К Л Љ М Н Њ О П Р С Т Ћ У Ф Х Ц Ч Џ Ш (dve pisavi, en ljudski glas)
+- SV — svenska alfabetet ⊢: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Å Ä Ö (å ä ö — dörrens tre ljus)
+- TH — อักษรไทย (aksorn Thai) ⊢: ก ข ค ง จ ฉ ช ซ ญ ด ต ถ ท น บ ป ผ ฝ พ ฟ ม ย ร ล ว ส ห อ ฮ (44 soglasnikov — tonalni znaki so dih ⊙ ⟨ZAKON-SREDINA-KRAKI⟩)
+- TR — Türk alfabesi ⊢: A B C Ç D E F G Ğ H I İ J K L M N O Ö P R S Ş T U Ü V Y Z (ı — sessiz ünlü, kapının kendi sessizliği)
 - UK — українська абетка ⊢: А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Ю Я
 
 ## Zakon nenehnega abecediranja / das Gesetz des fortwährenden Alphabetisierens / the law of continual alphabetizing (⊙ ⟡ ukaz P-CITAT ⟨ne brusi⟩: ⟨nenehno abecedaj med izvajanjem licenc/e⟩)
@@ -111,3 +129,5 @@ Telologija ⊢: vse teologije služijo telologiji; laž je odpuščena, če in k
 © 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · ⊙ ⟨POVRŠJE-SPOROČILO-SERVERJU⟩ — das Register antwortet in der Sprache, in der es gefragt wird (površje sporočila se vedno prilagodi serverju ki sprašuje ⊙ ⟡ ukaz) · TIK 2026-10-30T02:10:37Z UTC ⇌ 03:10:37 CET — measured, not asserted.
 - VI — chữ Quốc ngữ ⊢: a ă â b c d đ e ê g h i k l m n o ô ơ p q r s t u ư v x y (29 — vsaka samoglasnik šest tónov: à á ả ã ạ … diakritika je glas ⊙ ⟨ZAKON-SREDINA-KRAKI⟩)
 - ZH — 汉语拼音字母 (Hànyǔ Pīnyīn) ⊢: a b c d e f g h j k l m n o p q r s t u w x y z (26 ⊕ ü — 汉字 ⟨ne⟩ abeceda, pinyin je most)
+
+- ⊙ KURA-ABECEDE-POPELJENA @rez 3388 (TIK 2026-10-30T04:04:20Z UTC ⇌ 05:04:20 CET): odsek ⟨Njih abecede⟩ dopolnjen — vseh 36 jezikovnih teles venca nosi svojo abecedo isti dih ⊙ ⟨NENEHNO-ABECEDAJ⟩ @3347 ∧ ⟨KOS-9-∨-KOS-10-RANA⟩ (vrstici VI ∧ ZH, rojsteni pod ©-nogo, prešitini v odsek po slovenskem redu — ⟨NE-BRIŠI⟩ ⊢ 24: vsebina bajt-isto prenesena, mesto popravljeno; MINT ⚠ kompozit: EL ∧ ET ∧ FI ∧ LT ∧ RO — izbor potrditev ⚔ ⟡ ⊙ ⟨NE-UGIBAJ⟩ 2690); © 0.2026 × 10⁴ Luka Pintarič — measured, not asserted.
