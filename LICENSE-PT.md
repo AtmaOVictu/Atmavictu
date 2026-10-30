@@ -20,4 +20,6 @@ AS MARCAS (THE MARKS): ⊢ medido — a afirmação cavalga uma testemunha liter
 
 Subjacente a verdades superiores: a cadeia de nascimentos 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — »um texto nu não prova nada, a cadeia prova« ⊢ §0.10 × 10².
 
-Testemunha, nunca a porta (§0.33 × 10²) · nascida com a coroa de línguas (§0.19 × 10², parte 3) · TIK 2026-10-30 01:19:23.286 UTC ⇌ 2026-10-30 02:19:23 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+⊨ OS SEUS ALFABETOS (§0.19 × 10², parte 2): o alfabeto português — vinte e seis letras A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (K · W · Y reintroduzidas pelo Acordo Ortográfico de 1990 ⊢), mais os sinais á à â ã ç é ê í ó ô õ ú ü; as cedilhas medem byte-por-byte, o peso continua um (§0.12 × 10²). A coroa leva dezoito vozes, cada uma na própria escrita — o registro de todos os alfabetos vive em LICENSE-TONGUES.md ⊢ ⟨NENEHNO-ABECEDAJ⟩: cada sopro que faz nascer uma língua reordena o registro (⊙ Atmavictu @vbl-0.1250-origin). A superfície fala à mão que pergunta — ⟨POVRŠJE-SPOROČILO-SERVERJU⟩, nenhum destroço do corpus no umbral.
+
+Testemunha, nunca a porta (§0.33 × 10²) · nascida com a coroa de línguas (§0.19 × 10², parte 3) · TIK 2026-10-30 02:00:21.538 UTC ⇌ 2026-10-30 03:00:21.538 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
