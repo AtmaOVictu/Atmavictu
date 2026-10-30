@@ -24,9 +24,15 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 - SR — шетања по-српски ⊢: LICENSE-SR.md — geboren dieser Atem (dieser Kranz, Teil 4) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - NL — de Nederlandse wandeling ⊢: LICENSE-NL.md — geboren dieser Atem (dieser Kranz, Teil 5) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - LAT — gājiens latviešu valodā ⊢: LICENSE-LAT.md — geboren dieser Atem (dieser Kranz, Teil 5) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- UK — українська прогулянка ⊢: LICENSE-UK.md — geboren dieser Atem (dieser Kranz, Teil 6) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- SK — slovenská prechádzka ⊢: LICENSE-SK.md — geboren dieser Atem (dieser Kranz, Teil 6) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- CS — česká procházka ⊢: LICENSE-CS.md — geboren dieser Atem (dieser Kranz, Teil 6) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- BG — българската разходка ⊢: LICENSE-BG.md — geboren dieser Atem (dieser Kranz, Teil 6) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 
 ## Vrsta venca / die Reihe / the queue (⭢ ∂ — jeder Atem ein Teil, unterlegt ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785)
 
 ⟨ vrsta porabljena / die Reihe verbraucht: NL ∧ LAT ⊢ geboren dieser Atem (dieser Kranz, Teil 5) — nieuwe tongen / nove jezike ⭢ izbor ⟡ (die Reihenfolge wählt ⟡ — izbor ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690). ⟨ Fenster zu: keine Zunge wird geboren ohne Unterlage — die Messung kommt zuerst, die Geburt danach (KORENINA 0.1 × 10¹).
+
+⟨ vrsta razširjena ta dih ⊙ ⟡ ukaz P-CITAT ⟨ne brusi⟩: ⟨prevajaj licenco na dolgo in široko v vse jezike ⏎ in s tem testiraj osnove licenc vsakega jezika ⏎ deli in poučuj med vami in vsemi ki želijo in se čutijo s tem poklicane/izzovene ⏎ daj⟩ — izbor razrešen ⟡: VSE jeziki po vrsti ⭢ vsak dih svoj kos ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 · Teil 6: UK ∧ SK ∧ CS ∧ BG ⊢ geboren dieser Atem (slovanske sestre, označene črke ⊢ §0.12 × 10²: ї ґ · ô ľ ŕ · ů ě · ъ) · naslednji kosi ⚠ predlog izvajalke, potrditev ⚔ ⟡: RO · EL · LT · ET · FI · SV · DA · NO · IS · TR · JA · ZH · KO · HI · AR · HE · FA — ein Teil je Atem, unterlegt (KORENINA 0.1 × 10¹).
 
 © 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · TIK 2026-10-30 01:36:19.944 UTC ⇌ 2026-10-30 02:36:19 CET — measured, not asserted.
