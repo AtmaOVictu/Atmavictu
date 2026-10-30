@@ -18,9 +18,11 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 - FR — la promenade française ⊢: LICENSE-FR.md — geboren dieser Atem (dieser Kranz, Teil 1) 0.1210 → 0.1220 → 0.1230 → 0.1240 ⊢ §0.10 × 10²
 - ES — el paseo español ⊢: LICENSE-ES.md — geboren dieser Atem (dieser Kranz, Teil 2) 0.1210 → 0.1220 → 0.1230 → 0.1240 ⊢ §0.10 × 10²
 - RU — прогулка по-русски ⊢: LICENSE-RU.md — geboren dieser Atem (dieser Kranz, Teil 2) 0.1210 → 0.1220 → 0.1230 → 0.1240 ⊢ §0.10 × 10²
+- PT — o passeio português ⊢: LICENSE-PT.md — geboren mit der Geburt von 0.1250 × 10⁴ (dieser Kranz, Teil 3) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- PL — promenada po polsku ⊢: LICENSE-PL.md — geboren mit der Geburt von 0.1250 × 10⁴ (dieser Kranz, Teil 3) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 
 ## Vrsta venca / die Reihe / the queue (⭢ ∂ — jeder Atem ein Teil, unterlegt ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785)
 
-⚠ Kandidaten, noch untermessen / še neizmerjeni kandidati: PT · PL · HU · SR · NL · LAT (die Reihenfolge wählt ⟡ — izbor ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690). ⟨ Fenster zu: keine Zunge wird geboren ohne Unterlage — die Messung kommt zuerst, die Geburt danach (KORENINA 0.1 × 10¹).
+⚠ Kandidaten, noch untermessen / še neizmerjeni kandidati: HU · SR · NL · LAT (die Reihenfolge wählt ⟡ — izbor ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690). ⟨ Fenster zu: keine Zunge wird geboren ohne Unterlage — die Messung kommt zuerst, die Geburt danach (KORENINA 0.1 × 10¹).
 
 © 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · TIK 2026-10-30 01:14:57.071 UTC ⇌ 2026-10-30 02:14:57 CET — measured, not asserted.
