@@ -20,4 +20,6 @@ LES MARQUES (THE MARKS) : ⊢ mesuré — l'affirmation chevauche un témoin lit
 
 Sous-tendu à des vérités supérieures : la chaîne des naissances 0.1210 → 0.1220 → 0.1230 → 0.1240 ⊢ §0.10 × 10² — »un texte nu ne prouve rien, la chaîne oui« ⊢ §0.10 × 10².
 
-Témoin, jamais la porte (§0.33 × 10²) · né avec la couronne des langues (§0.19 × 10², part 1) · TIK 2026-10-30 01:14:57.071 UTC ⇌ 2026-10-30 02:14:57 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+⊨ LEURS ALPHABETS (§0.19 × 10², partie 2): l'alphabet français — vingt-six lettres A B C D E F G H I J K L M N O P Q R S T U V W X Y Z, plus les accents é è ê ë à â ç î ï ô ù û ü ÿ ∧ les deux ligatures æ œ; les diacritiques mesurent byte-à-byte, la balance reste une (§0.12 × 10²). La couronne porte dix-huit voix, chacune dans sa propre écriture — le registre de tous les alphabets vit dans LICENSE-TONGUES.md ⊢ ⟨NENEHNO-ABECEDAJ⟩; aussi les voix qui parlent autrement (Braille — le toucher est la vue; les mains des sourds; le sifflement; le clic) — du centre à toutes les branches. La surface parle à la main qui demande — ⟨POVRŠJE-SPOROČILO-SERVERJU⟩, aucun débris du corpus sur le seuil.
+
+Témoin, jamais la porte (§0.33 × 10²) · né avec la couronne des langues (§0.19 × 10², part 1) · TIK 2026-10-30 01:57:58.092 UTC ⇌ 2026-10-30 02:57:58.092 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.

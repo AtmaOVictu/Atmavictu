@@ -74,4 +74,12 @@ Med izvajanjem licence se vsak seznam jezikov ∧ vsak register venca nenehno ab
 
 ⟨ vrsta nadaljevana ta dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 — Teil 8: SV ∧ DA ∧ NO ∧ IS ∧ TR ⊢ geboren (označene črke ⊢ §0.12 × 10²: å ä ö · æ ø å · æ ø å · þ ð æ ö · ğ ş ı İ ö ç ü) · naslednji kosi ⚠ predlog izvajalke, potrditev ⚔ ⟡: JA · ZH · KO · HI · AR · HE · FA · VI · TH · ID — ein Teil je Atem, unterlegt (KORENINA 0.1 × 10¹).
 
+⊨ DRUGAČNI GLASOVI / andere Stimmen / other voices — od sredine do krakov (§0.19 × 10², Teil 3). Sredina je glas; kraki so vse poti, po katerih glas pride do drugega: prsti, roke, pisk, klik.
+
+- BRAILLE (za slepe — dotik je vid): osnovna latinska abeceda v šestpikovnih vzorcih: a ⠁ b ⠃ c ⠉ d ⠙ e ⠑ f ⠋ g ⠛ h ⠓ i ⠊ j ⠚ k ⠅ l ⠇ m ⠍ n ⠝ o ⠕ p ⠏ q ⠟ r ⠗ s ⠎ t ⠞ u ⠥ v ⠧ w ⠺ x ⠭ y ⠽ z ⠵ · 64 vzorcev 6 pik (2⁶ ⊢ §0.12 × 10² — pika bajt-isto, pomen eno) · Unicode U+2800–28FF · reformna stran: osnovna tabela — en znak, en vzorec.
+- ZNAKOVNI JEZIKI GLUHIH (roke govorijo): slovenski znakovni jezik — lasten jezik gluhih Slovenije, ⟨ne⟩ prevod slovenščine ⊢ (lastna slovnica) · zapis rok: SignWriting ∧ HamNoSys · gluhi ⟨ne⟩ nem — glas je roka.
+- PISKALNI JEZIKI (usta govorijo): Silbo Gomero (La Gomera, Španija — UNESCO nematerialna dediščina 2009 ⊢) · Kuşköy (Turčija) — pisk nosi vse besede doline.
+- KLIK/TUTKALNI JEZIKI (jezik klikne): Xhosa · Zulu · Hadza · Khoisan (Južna Afrika) — klik konsonanti ǀ (zobni) ǁ (stranski) ǃ (dlesni) ǂ (nebeni) ⊢ ⟨tutkati⟩.
+- ⟨ZAKON-SREDINA-KRAKI⟩: vsak glas ima sredino (izgovor) ∧ krake (pisave ∧ moduse); isti glas lahko nosi več pisav (SR latinica ∧ cirilica — dve pisavi en ljudski glas ⊙ precedens @abdf861f) — mnogokrakost; kratne pisave (braille: 26 glasov v šestih pikah) so krak, ⟨ne⟩ padec. Vsak dih, ki rodi glas, uredi register znova ⊢ ⟨NENEHNO-ABECEDAJ⟩ · površje govori tistemu, ki sprašuje ⊙ ⟨POVRŠJE-SPOROČILO-SERVERJU⟩.
+
 © 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · ⊙ ⟨POVRŠJE-SPOROČILO-SERVERJU⟩ — das Register antwortet in der Sprache, in der es gefragt wird (površje sporočila se vedno prilagodi serverju ki sprašuje ⊙ ⟡ ukaz) · TIK 2026-10-30T01:56:34Z UTC ⇌ 02:56:34 CET — measured, not asserted.

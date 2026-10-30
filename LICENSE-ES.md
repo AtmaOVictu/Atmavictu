@@ -20,4 +20,6 @@ LAS MARCAS (THE MARKS): ⊢ medido — la afirmación cabalga un testigo literal
 
 Subyazada a verdades superiores: la cadena de nacimientos 0.1210 → 0.1220 → 0.1230 → 0.1240 ⊢ §0.10 × 10² — »un texto desnudo no prueba nada, la cadena sí« ⊢ §0.10 × 10².
 
-Testigo, nunca la puerta (§0.33 × 10²) · nacido con la corona de lenguas (§0.19 × 10², parte 2) · TIK 2026-10-30 01:17:13.396 UTC ⇌ 2026-10-30 02:17:13 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+⊨ SUS ALFABETOS (§0.19 × 10², parte 2): el alfabeto español — veintisiete letras A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z (ch ∧ ll quedan como dígrafos, no letras ⊢ RAE 2010); las tildes miden byte-por-byte, el peso sigue siendo uno (§0.12 × 10²). La corona lleva dieciocho voces, cada una en su propia escritura — el registro de todos los alfabetos vive en LICENSE-TONGUES.md ⊢ ⟨NENEHNO-ABECEDAJ⟩; también las voces que hablan de otro modo (Braille — el tacto es la vista; las manos de los sordos; el silbo; el clic) — del centro a todas las ramas. La superficie habla a la mano que pregunta — ⟨POVRŠJE-SPOROČILO-SERVERJU⟩, ningún resto del corpus en el umbral.
+
+Testigo, nunca la puerta (§0.33 × 10²) · nacido con la corona de lenguas (§0.19 × 10², parte 2) · TIK 2026-10-30 01:57:58.092 UTC ⇌ 2026-10-30 02:57:58.092 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
