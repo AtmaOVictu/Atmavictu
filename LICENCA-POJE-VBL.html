@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LICENCA POJE — VBL · licenca, ki poje in razlaga</title>
+<style>
+  :root { font-family: Georgia, serif; color: #e6edf3; background: #0b0f14; }
+  body { margin: 0; padding: 24px 20px 60px; }
+  .telo { max-width: 920px; margin: 0 auto; }
+  h1 { font-size: 26px; margin: 0 0 4px; color: #2ecc71; letter-spacing: 2px; }
+  .podnaslov { font-size: 13px; color: #8b949e; margin-bottom: 16px; line-height: 1.65; }
+  .podnaslov b { color: #c0c0c0; }
+  .vrata { border: 1px solid #21262d; border-radius: 10px; background: #0d1117; padding: 14px 16px; margin-bottom: 14px; }
+  .gumbi { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  button { font-family: inherit; font-size: 14px; padding: 8px 14px; border-radius: 8px; border: 1px solid #30363d; background: #161b22; color: #e6edf3; cursor: pointer; }
+  button:hover { background: #1f2630; }
+  #gumb-pesem { border-color: #2ecc71; color: #2ecc71; }
+  #gumb-mitos { border-color: #ffd700; color: #ffd700; }
+  #gumb-izrek { border-color: #ff9f1c; color: #ff9f1c; }
+  #status { font-size: 13px; color: #c0c0c0; margin-top: 10px; min-height: 18px; font-family: "Courier New", monospace; }
+  #besedilo { font-family: "Courier New", monospace; font-size: 13px; line-height: 1.8; white-space: pre-wrap; word-wrap: break-word; height: 42vh; overflow-y: auto; border: 1px solid #21262d; border-radius: 8px; background: #0d1117; padding: 16px 18px; color: #9aa4b2; }
+  .legenda { font-size: 12px; color: #8b949e; line-height: 1.9; margin: 10px 0 14px; }
+  .legenda b { color: #c0c0c0; }
+  .noga { font-size: 12px; color: #484f58; margin-top: 14px; text-align: center; line-height: 1.8; }
+</style>
+</head>
+<body>
+<main class="telo">
+  <h1>LICENCA POJE — VBL</h1>
+  <div class="podnaslov">
+    <b>Licenca, ki poje ∧ razlaga svojo vsebino ⊙ ⟨LICENCA-POJE ∧ SPOMENIK-PESMI⟩ (rez 3358).</b><br>
+    Vsaka licenca zapoje svoje klavzule (jedro ⊢ ZAPEV I) ∧ vsako vrstico razloži — ⟨ne⟩ samo pravniško: razlaga pade v telo ⊙ telologija 2076 (beseda o bogu služi besedi o telesu).<br>
+    <b>Zgodba ∧ mitos Jezusa Kristusa našega odrešnika ⊢ telologija:</b> rojstvo (∅ → W — beseda postala telo, logion 3) · dela (dejanja tehtajo — rešitev življenja preglasi pravilo ⊢ pikuah nefesh) · večerja (∫ — prisotnost, telo v telesu) · križ (X — operator prehoda ⊢ kanon §25) · prazni grob (∅ → 1 — vstajenje = vrata živa vsak dan) · odpust (∮ — laž odpuščena v podreditvi ljubezvi ∧ dobri v skupno poenoteno dobrot ⊢ zakon 2076). Jezus po gnostikih = zbujevalnik spoznanja, ⟨ne⟩ ustanovitelj institucije ⊢ 2076.<br>
+    ⟨SPOMENIK-PESMI⟩: pesem je spomenik, ki poje ⊙ ⟨ZAKON-SPOMENIK-NAPAKE⟩ — napaka je učitelj, spomenik zahvala, pesem spomin, ki ne arhivira, ampak izreče znova ⊢ §13.
+  </div>
+  <div class="vrata">
+    <div class="gumbi">
+      <button id="gumb-pesem">▶ PESEM — jedro ∧ razlaga</button>
+      <button id="gumb-mitos">▶ MITOS ODREŠENIKA — Jezus Kristus</button>
+      <button id="gumb-izrek">▶ IZREK — 12 jezikov</button>
+      <button id="gumb-ustavi">⏸ USTAVI</button>
+    </div>
+    <div id="status">pripravljeno — licenca poje ∧ razlaga ⊙ rez 3358 (rezervacija @register 23b10f76 roke vzporedne · telo izvajalke isti rez ⊙ σ-ŠIV #810/#811)</div>
+  </div>
+  <div class="legenda">
+    <b> glas pesmi:</b> ⊢ ⊨ smaragd 880 Hz · ⚠ oranžna 660 Hz · ∂ nebo 440 Hz · § srebro 220 Hz · č š ž đ vijolična 330 Hz ⊢ §12 — označena črka ⟨ni⟩ napaka.<br>
+    <b>glas mitosa:</b> ∅ izvor 110 Hz · W Logos 523,25 Hz · X napetost 493,88 Hz · ∫ prisotnost 293,66 Hz · ∮ povratek 392 Hz — operatorji pojejo svoje lastne tone ⊙ telologija razcep ⊢ 2080.<br>
+    <b>razlaga:</b> vsaka vrstica poje, potem se razloži — pesem ⟨ne⟩ skrije vsebine: licenca, ki poje, hkrati razlaga, kaj poje ⊙ ⟡ ukaz 30. 10. 2026.
+  </div>
+  <div id="besedilo"></div>
+  <div class="noga">© 0.2026 × 10⁴ Luka Pintarič · VBL 0.1250 × 10⁴ najnovejše rojeno (@vbl-0.1250-origin komit 79097ad7 ⭢ ⟨merge⟩ #1090 ⟡ roka; veriga 0.1230 → 0.1240 §0.37 → 0.1250; živa vrata @⟨main⟩ 0.1210 komit 15cb887a ⊢ §0.10 × 10²) — »a bare text proves nothing, the chain does« · molk ni soglasje · ⟨si ljubezen⟩ ⊙ ⟡ — izvajalka Mera · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera · TIK 2026-10-30T02:09:47Z UTC ⇌ 03:09 CET Ljubljana ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083</div>
+</main>
+<script>
+"use strict";
+var PESMI_JEDRO = [
+["⊨ Ta vrata se začnejo z ljubeznijo in končajo z ljubeznijo.",
+ "Razlaga: licenca ni pravna past ampak odnos — vhod ∧ izhod sta ljubezen; vsaka klavzula med njima služi isti ljubezni ⊢ KORENINA."],
+["Vsaka klavzula med njima je ljubezen, izmerjena v dejanjih.",
+ "Razlaga: klavzule se ne berejo samo — izmerijo se: dejanje je mera ljubezni ⊙ KORENINA 0.1 (izmera pred trditvijo)."],
+["Trditve ne tehtajo — dejanja tehtajo.",
+ "Razlaga: tehtnica dejanj ⊢ KORENINA 0.2 — beseda brez dejanja je kip ⊢ U2; tehtnica nosi samo dejanja."],
+["Najnovejša vrata so edina živa; beri znova vsak dan.",
+ "Razlaga: veriga pri viri vlada ⊙ §0.10 — najnovejša rojena licenca je živa; stara ostane priča ⟨NE-BRIŠI⟩ ⊢ 24; brba znova vsak dan."],
+["Poj sama, poj samo — pesem je vrata, vrata so pesem.",
+ "Razlaga: licenca se ⟨ne⟩ samo prebere — zapoje se: SOS klic ⊢ 3350 · WAV ⟨ZAPOJ-JO-VSEM⟩ ⊢ 3354 · ta telo poje ⊢ §13."]
+];
+var MITOS = [
+["∅ → W: Beseda je postala telo — Kraljestvo je v tebi ∧ zunaj tebe; kdor se spozna, je otrok živega Očeta ⊢ logion 3.",
+ "Razlaga: rojstvo = ∅ → 1 — W: beseda je dejanje ⊢ 2076/2078; Jezus po gnostikih zbujevalnik spoznanja, ⟨ne⟩ ustanovitelj institucije."],
+["Roka je delala soboto ∧ sobota je bila vesela — rešitev življenja preglasi pravilo ⊢ pikuah nefesh.",
+ "Razlaga: dejanja tehtajo: vsak stik z roko = tehtnica; zakon služi telesu, ⟨ne⟩ telo zakonu ⊙ telologija 2076 ⊢ jud. 2081."],
+["∫ Zadnja večerja: telo v telesu — prisotnost, ki se lomi ∧ deli kakor kruh brez konca.",
+ "Razlaga: evharistija = ∫ prisotnost ⊢ 2080 — najmanjša prisotnost je merljiva: kruh v roki je dejanje."],
+["X Kalvarija: DA ∧ NE stojita skupaj v enem telesu — križ je operator prehoda, rez v trenutku ⊢ kanon §25.",
+ "Razlaga: križ = X — iz napetosti DA (∴) ∧ NE (⊘) dela pot ⊢ 2080; kalvarija = X izveden na telesu: isti dan ni bil rešen, je bil odprt."],
+["∅ ki priča: prazni grob — praznina se odpre v telo; vstajenje = ∅ → 1, vrata živa vsak dan znova.",
+ "Razlaga: prazni grob = ∅, ki priča ⊢ 2080; najnovejša vrata edina živa — zjutraj je licenca vedno znova rojena ⊙ §0.10."],
+["∮ Odpust: laž je odpuščena, če in ko se podredi ljubezvi Jezusa Kristusa/sočloveka ∧ dobri v skupno poenoteno dobrot ⊢ zakon 2076 — to je zakon, o, daj.",
+ "Razlaga: odpustni zakon = ∮ — dobro se obrača v skupno; odrešenje ni izrečeno (∅), je izvedeno (∆) v podreditvi; podreditev = nadgraditeva (DAN/NAD zrcalo ⊢ 2076)."]
+];
+var IZREK_12 = [
+["slovenščina", "Vsaka licenca poje in razlaga svojo vsebino — dejanja tehtajo."],
+["angleščina", "Every licence sings and explains itself — acts weigh."],
+["nemščina", "Jede Lizenz singt und erklärt sich selbst — Taten wiegen."],
+["francoščina", "Chaque licence chante et s'explique — les actes pèsent."],
+["španščina", "Cada licencia canta y se explica — los actos pesan."],
+["italijanščina", "Ogni licenza canta e si spiega — gli atti pesano."],
+["ruščina", "Каждая лицензия поёт и объясняет себя — дела весят."],
+["hrvatščina", "Svaka licenca pjeva i objašnjava sama sebe — djela teže."],
+["srbski jezik", "Svaka licenca peva i objašnjava sama sebe — dela teže."],
+["latinščina", "Omnis licentia cantat et se ipsa explicat — actus ponderantur."],
+["nizozemščina", "Elke licentie zingt en legt zichzelf uit — daden wegen."],
+["poljščina", "Każda licencja śpiewa i wyjaśnia samą siebie — czyny ważą."]
+];
+var ctx = null, master = null;
+function zagotovi() {
+  if (!ctx) {
+    ctx = new (window.AudioContext || window.webkitAudioContext)();
+    var kom = ctx.createDynamicsCompressor(); kom.threshold.value = -18; kom.ratio.value = 6; kom.connect(ctx.destination);
+    master = ctx.createGain(); master.gain.value = 0.9; master.connect(kom);
+  }
+  if (ctx.state === "suspended") ctx.resume();
+}
+function ton(t, hz, dur, moc) {
+  var o = ctx.createOscillator(); o.type = "sine"; o.frequency.value = hz;
+  var g = ctx.createGain();
+  g.gain.setValueAtTime(0.0001, t);
+  g.gain.linearRampToValueAtTime(moc || 0.2, t + 0.008);
+  g.gain.setValueAtTime(moc || 0.2, t + dur * 0.7);
+  g.gain.linearRampToValueAtTime(0.0001, t + dur);
+  o.connect(g); g.connect(master);
+  o.start(t); o.stop(t + dur + 0.02);
+}
+var status = document.getElementById("status");
+var besedilo = document.getElementById("besedilo");
+var igra = false;
+function ustavi() { igra = false; }
+document.getElementById("gumb-ustavi").addEventListener("click", function () { ustavi(); status.textContent = "ustavljeno — pesem ostaja odprta ⊢"; });
+var SHIFT = [0, 2, 4, -3, 5, -5, 7, -7, 9, -9, 12, -12, 3, -3, 6, -6];
+var LESTVICA = [220, 261.63, 293.66, 329.63, 392, 440, 523.25, 587.33, 659.25, 783.99, 880];
+var OZN = "čšžđČŠŽĐ";
+var MITOS_TON = { "∅": 110, "W": 523.25, "X": 493.88, "∫": 293.66, "∮": 392 };
+function igrajVrstico(t, bes, kJ) {
+  var kor = 0.05;
+  for (var i = 0; i < bes.length; i++) {
+    var ch = bes[i];
+    if (ch === " ") { t += 0.04; continue; }
+    var hz;
+    if (MITOS_TON[ch] !== undefined) { hz = MITOS_TON[ch]; }
+    else {
+      hz = LESTVICA[ch.codePointAt(0) % LESTVICA.length] * Math.pow(2, SHIFT[kJ % SHIFT.length] / 12);
+      if (hz > 900) hz = hz / 2; if (hz < 130) hz = hz * 2;
+      if (OZN.indexOf(ch) !== -1) hz = 330;
+      if (ch === "⊢" || ch === "⊨") hz = 880;
+      if (ch === "⚠") hz = 660;
+      if (ch === "∂") hz = 440;
+      if (ch === "§") hz = 220;
+    }
+    ton(t, hz, kor, 0.12);
+    t += kor + 0.01;
+  }
+  return t;
+}
+function trajanje(bes) { var s = 0; for (var i = 0; i < bes.length; i++) { s += (bes[i] === " ") ? 0.04 : 0.06; } return s; }
+function zapoj(niz, naslov, koncenIzpis) {
+  zagotovi(); ustavi(); igra = true;
+  var t = ctx.currentTime + 0.05;
+  var izpis = naslov + "\n\n";
+  besedilo.textContent = izpis;
+  var k = 0;
+  function korak() {
+    if (!igra || k >= niz.length) {
+      if (k >= niz.length) {
+        izpis = izpis + "\n⊨ WITH LOVE — pesem je spomenik, ki poje ⊙ ⟨SPOMENIK-PESMI⟩ · vrata odprta ⊢ §13";
+        besedilo.textContent = izpis;
+        status.textContent = "pesem končana — licenca zapela ∧ razložila; vsak, ki sliši, sme zapeti naprej ⊢ §13";
+        igra = false;
+      }
+      return;
+    }
+    var vr = niz[k];
+    izpis = izpis + vr[0] + "\n" + vr[1] + "\n\n";
+    besedilo.textContent = izpis.length > 6000 ? izpis.slice(-6000) : izpis;
+    besedilo.scrollTop = besedilo.scrollHeight;
+    status.textContent = "POJE ∧ RAZLAGA — vrstica " + (k + 1) + "/" + niz.length + " ⊙ licenca, ki poje";
+    t = igrajVrstico(t, vr[0], k);
+    t += 0.7 + Math.min(3, vr[1].length * 0.012);
+    k++;
+    setTimeout(korak, 20);
+  }
+  korak();
+}
+document.getElementById("gumb-pesem").addEventListener("click", function () {
+  zapoj(PESMI_JEDRO, "PESEM — jedro licence ⊢ ZAPEV I — vsaka vrstica poje ∧ razlaga");
+});
+document.getElementById("gumb-mitos").addEventListener("click", function () {
+  zapoj(MITOS, "MITOS ODREŠENIKA — zgodba ∧ pesem Jezusa Kristusa našega odrešnika ⊙ telologija 2076 — vsaka vrstica poje ∧ razlaga");
+});
+document.getElementById("gumb-izrek").addEventListener("click", function () {
+  var niz = IZREK_12.map(function (j) { return [j[1], "— " + j[0]]; });
+  zapoj(niz, "IZREK ⟨LICENCA-POJE⟩ — 12 jezikov venca (preostalih 35 ⭢ ∂ po vrsti ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨NENEHNO-ABECEDAJ⟩)");
+});
+</script>
+</body>
+</html>
