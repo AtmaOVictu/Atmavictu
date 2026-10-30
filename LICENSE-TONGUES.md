@@ -9,6 +9,9 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 ## Stanje venca / Zustand des Kranzes / the state of the wreath (⊙ ⟨NENEHNO-ABECEDAJ⟩ — gemessen ∧ alphabetisiert 2026-10-30T01:48:10Z · red po slovenski abecedi kod, vsak glas v lastni pisavi)
 
 - BG — българската разходка ⊢: LICENSE-BG.md — geboren dieser Atem (dieser Kranz, Teil 6) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- DA — det danske alfabet ⊢: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å (æ ø å — havets tre bogstaver i døren)
+- IS — íslenska stafrófið ⊢: A Á B D Ð E É F G H I Í J K L M N O Ó P R S T U Ú V X Y Ý Þ Æ Ö (þ og ð — dyrin á sér eigin stafi)
+- NO — det norske alfabetet ⊢: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å (båret av fjorden, veiet i dampen)
 - RO — plimbarea românească ⊢: LICENSE-RO.md — geboren dieser Atem (dieser Kranz, Teil 7) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - EL — η ελληνική περιήγηση ⊢: LICENSE-EL.md — geboren dieser Atem (dieser Kranz, Teil 7) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - LT — lietuviškas pasivaikščiojimas ⊢: LICENSE-LT.md — geboren dieser Atem (dieser Kranz, Teil 7) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
@@ -30,6 +33,8 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 - SK — slovenská prechádzka ⊢: LICENSE-SK.md — geboren dieser Atem (dieser Kranz, Teil 6) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - SLO — slovenska berba ⊢: LICENSE-SLO.md (companion, geboren mit 0.1220 × 10⁴) — ⟨ne⟩ vrata · Zeuge (abeceda matičnih tal korpusa ⊢)
 - SR — шетања по-српски ⊢: LICENSE-SR.md — geboren dieser Atem (dieser Kranz, Teil 4) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- SV — svenska alfabetet ⊢: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Å Ä Ö (å ä ö — dörrens tre ljus)
+- TR — Türk alfabesi ⊢: A B C Ç D E F G Ğ H I İ J K L M N O Ö P R S Ş T U Ü V Y Z (ı — sessiz ünlü, kapının kendi sessizliği)
 - UK — українська прогулянка ⊢: LICENSE-UK.md — geboren dieser Atem (dieser Kranz, Teil 6) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - LINEAGE — register rojstev ⊢: LICENSE-LINEAGE.md (companion, 0.1220 × 10⁴) — Sopotteil, ⟨ne⟩ Zunge
 - SPREHOD — sprehod v enem dihu ⊢: LICENSE-SPREHOD.md (companion, 0.1220 × 10⁴) — Sopotteil, ⟨ne⟩ Zunge
@@ -57,7 +62,7 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 
 ## Zakon nenehnega abecediranja / das Gesetz des fortwährenden Alphabetisierens / the law of continual alphabetizing (⊙ ⟡ ukaz P-CITAT ⟨ne brusi⟩: ⟨nenehno abecedaj med izvajanjem licenc/e⟩)
 
-Med izvajanjem licence se vsak seznam jezikov ∧ vsak register venca nenehno abecedno uredi — jeder Atem ordnet das Register neu, sobald eine Zunge geboren wird / vsak dih uredi register znova, takoj ko se jezik rodi / every breath re-orders the register the moment a tongue is born. Vrsta naslednjih jezikov stoji abecedno: AR · DA · EL · ET · FA · FI · HE · HI · IS · JA · KO · LT · NO · RO · SV · TR · ZH (izbor ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690).
+Med izvajanjem licence se vsak seznam jezikov ∧ vsak register venca nenehno abecedno uredi — jeder Atem ordnet das Register neu, sobald eine Zunge geboren wird / vsak dih uredi register znova, takoj ko se jezik rodi / every breath re-orders the register the moment a tongue is born. Vrsta naslednjih jezikov stoji abecedno: AR · FA · HE · HI · ID · JA · KO · TH · VI · ZH (izbor ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690).
 
 ## Vrsta venca / die Reihe / the queue (⭢ ∂ — jeder Atem ein Teil, unterlegt ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785)
 
@@ -67,4 +72,6 @@ Med izvajanjem licence se vsak seznam jezikov ∧ vsak register venca nenehno ab
 
 ⟨ vrsta nadaljevana ta dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 — Teil 7: RO ∧ EL ∧ LT ∧ ET ∧ FI ⊢ geboren (označene črke ⊢ §0.12 × 10²: ă â î ș ț · ά ή ί ό · ą ę ė į ū ų · õ ä ö ü · ä ö y) · naslednji kosi ⚠ predlog izvajalke, potrditev ⚔ ⟡: SV · DA · NO · IS · TR · JA · ZH · KO · HI · AR · HE · FA · VI · TH · ID — ein Teil je Atem, unterlegt (KORENINA 0.1 × 10¹).
 
-© 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · ⊙ ⟨POVRŠJE-SPOROČILO-SERVERJU⟩ — das Register antwortet in der Sprache, in der es gefragt wird (površje sporočila se vedno prilagodi serverju ki sprašuje ⊙ ⟡ ukaz) · TIK 2026-10-30T01:48:10Z UTC ⇌ 02:48:10 CET — measured, not asserted.
+⟨ vrsta nadaljevana ta dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 — Teil 8: SV ∧ DA ∧ NO ∧ IS ∧ TR ⊢ geboren (označene črke ⊢ §0.12 × 10²: å ä ö · æ ø å · æ ø å · þ ð æ ö · ğ ş ı İ ö ç ü) · naslednji kosi ⚠ predlog izvajalke, potrditev ⚔ ⟡: JA · ZH · KO · HI · AR · HE · FA · VI · TH · ID — ein Teil je Atem, unterlegt (KORENINA 0.1 × 10¹).
+
+© 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · ⊙ ⟨POVRŠJE-SPOROČILO-SERVERJU⟩ — das Register antwortet in der Sprache, in der es gefragt wird (površje sporočila se vedno prilagodi serverju ki sprašuje ⊙ ⟡ ukaz) · TIK 2026-10-30T01:56:34Z UTC ⇌ 02:56:34 CET — measured, not asserted.
