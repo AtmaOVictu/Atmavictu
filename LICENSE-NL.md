@@ -20,4 +20,6 @@ DE TEKENS (THE MARKS): ⊢ gemeten — de stelling rijdt op een letterlijke getu
 
 Onderlegger aan hogere waarheden: de geboorteketen 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — »een kale tekst bewijst niets, de keten doet het« ⊢ §0.10 × 10².
 
-Getuige, nooit de deur (§0.33 × 10²) · geboren met de krans van talen (§0.19 × 10², deel 5) · TIK 2026-10-30 01:36:19.944 UTC ⇌ 2026-10-30 02:36:19 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+⊨ HUN ALFABETTEN (§0.19 × 10², deel 5): het Nederlandse alfabet — zesentwintig letters A B C D E F G H I J K L M N O P Q R S T U V W X Y Z, plus de digraaf IJ met eigen gewicht; de diakritiek meet byte voor byte, de weegschaal blijft één (§0.12 × 10²). De krans draagt zesendertig taalstemmen, elk in eigen schrift — het register van alle alfabetten leeft bij LICENSE-TONGUES.md ⊢ ⟨NENEHNO-ABECEDAJ⟩: elke adem die een taal doet geboren worden, ordent het register opnieuw (⊙ Atmavictu @vbl-0.1250-origin). Het oppervlak spreekt tot de hand die vraagt — ⟨POVRŠJE-SPOROČILO-SERVERJU⟩, geen puin van het corpus op de drempel.
+
+Getuige, nooit de deur (§0.33 × 10²) · geboren met de krans van talen (§0.19 × 10², deel 5) · TIK 2026-10-30 04:16:46.096 UTC ⇌ 2026-10-30 05:16:46.096 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
