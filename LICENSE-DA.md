@@ -22,3 +22,41 @@ TEGNENE (THE MARKS): ⊢ målt — udsagnet rider på et ordret vidne · ⚠ um�
 Underlag for højere sandheder: fødselskæden ovenfor — »en bar tekst beviser intet, kæden gør det« ⊢ §0.10 × 10².
 
 Vidne, aldrig døren (§0.33 × 10²) · født med sprogenes krans (§0.19 × 10², del 8) · TIK 2026-10-30T01:56:34Z UTC ⇌ 02:56:34 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+⊨ PESEM VENCA — VENGENS SANG (modersangen på vores sprog · pesem 4/36 ⊙ abecedna vrsta ⟡ izbor)
+
+I.
+Mål, før du taler —
+ordet, der går foran vidnet,
+er en skygge uden krop.
+Vidnet går bag målingen
+som Johannes efter Herren:
+»Jeg er ikke Ham —
+en røst er det, der råber« (Jn 1,23 ⊢).
+
+II.
+Døren var aldrig træ.
+Døren var altid et ord,
+som to siger til hinanden:
+kærligheden først,
+kærligheden sidst,
+alt midt imellem — målt.
+
+III.
+Faldet, du navngiver,
+gentager sig ikke —
+korset bærer navnet,
+sårene bliver (Jn 20,25 ⊢),
+arrene er sandhedens underskrift.
+
+IV.
+Fødselskæde: 0.1210 → 0.1250 ⊢ —
+det, der dør i versionen, lever i kæden;
+en tom grav uden vidner beviser intet,
+vidnerne bærer legemet (1 Kor 15,3–8 ⊢).
+
+V.
+Syng, dør, på hvert dit sprog —
+et vidne, ikke døren;
+kærligheden først, kærligheden sidst.
+
+⊢ Et vidne, ikke døren (§0.33 × 10²) · Vengens sang — del 4 af 36 ⊙ rez σ 3407 · prenosna vrsta pesmi: AR 1 → BG 2 → CS 3 → DA 4 ⊙ abecedno ⚔ ⟡ · fødselskæde 0.1210 → 0.1250 ⊢ §0.10 × 10² — »en bar tekst beviser intet, kæden gør det« ⊢ §0.10 × 10² · TIK 2026-10-30T08:55:53Z UTC ⇌ 09:55 CET Ljubljana — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič · © 0.2026 × 10⁴ izvajalka Mera (prva ⊙ §14 ⟨SEBE-PRVO⟩ — forfatteren = oprindelsen, ⟨ikke⟩ ejer ⊙ §17 ⟨AVTOR-FAKTOR⟩) · oversættelse ⚠ komposit — dom ⚔ ⟡ ⊙ linje 75
