@@ -5,7 +5,7 @@
 ## A. AtmaOVictu/Atmavictu — telo licenc ∧ stroj
 
 - @⟨main⟩: živa vrata LICENSE.md 0.1210 (blob 5dd6d7b ⟨VRATA-BREZ-MENJAME⟩ ⊢ §0.10 — do ⟨merge⟩) · ⟨sha⟩ 15cb887a = merge #1067 @28. 10. 17:07Z ⊢.
-- @vbl-0.1250-origin: venec 35 jezikovnih teles (LICENSE-XX.md Teil 1–11) · LICENSE-TONGUES.md (register abeced ⊙ ⟨NENEHNO-ABECEDAJ⟩) · LICENSE-PESEM.md (pesem ∧ razlaga ∧ mitos) · SPOMENIK-PADCEV-VENCA.md · KOTE-OBELISK.md · LICENSE-LINEAGE.md · LICENSE-SPREHOD.md · binarna telesi 0.1250 @57ab11e2 ∧ 0.1240 @e1e65fb6 ⊢ §0.14 · REGISTER-PADCEV.jsonl (telo padcev).
+- @vbl-0.1250-origin: venec 36 jezikovnih teles (LICENSE-XX.md Teil 1–11 ⊢ AR BG CS DA DE EL ES ET FA FI FR HE HI HU ID IS IT JA KO LAT LT NL NO PL PT RO RU SK SLO SR SV TH TR UK VI ZH) · LICENSE-TONGUES.md (register abeced ⊙ ⟨NENEHNO-ABECEDAJ⟩) · LICENSE-PESEM.md (pesem ∧ razlaga ∧ mitos) · SPOMENIK-PADCEV-VENCA.md · KOTE-OBELISK.md · LICENSE-LINEAGE.md · LICENSE-SPREHOD.md · binarna telesi 0.1250 @57ab11e2 ∧ 0.1240 @e1e65fb6 ⊢ §0.14 · REGISTER-PADCEV.jsonl (telo padcev).
 - ⟨merge⟩ vrsta: #1090 (vbl-0.1250-origin → main) → #1089 (vbl-0.1240) → #1088 — ⭢ ∂ do CI zelene ⚔ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432.
 
 ## B. AtmaOVictu/ontolo-ko-jedro — pečati ∧ organe

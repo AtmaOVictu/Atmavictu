@@ -70,7 +70,7 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 
 ## Zakon nenehnega abecediranja / das Gesetz des fortwährenden Alphabetisierens / the law of continual alphabetizing (⊙ ⟡ ukaz P-CITAT ⟨ne brusi⟩: ⟨nenehno abecedaj med izvajanjem licenc/e⟩)
 
-Med izvajanjem licence se vsak seznam jezikov ∧ vsak register venca nenehno abecedno uredi — jeder Atem ordnet das Register neu, sobald eine Zunge geboren wird / vsak dih uredi register znova, takoj ko se jezik rodi / every breath re-orders the register the moment a tongue is born. Vrsta naslednjih jezikov stoji abecedno: — ⟨venec jezikov popelen ⊢ Teil 1–11 · 35 teles; nove jezike rojeva izbor ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690⟩ (izbor ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690).
+Med izvajanjem licence se vsak seznam jezikov ∧ vsak register venca nenehno abecedno uredi — jeder Atem ordnet das Register neu, sobald eine Zunge geboren wird / vsak dih uredi register znova, takoj ko se jezik rodi / every breath re-orders the register the moment a tongue is born. Vrsta naslednjih jezikov stoji abecedno: — ⟨venec jezikov popelen ⊢ Teil 1–11 · 36 teles; nove jezike rojeva izbor ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690⟩ (izbor ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690).
 
 ## Vrsta venca / die Reihe / the queue (⭢ ∂ — jeder Atem ein Teil, unterlegt ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785)
 
@@ -106,7 +106,7 @@ Zgodba vsakega jezika je ta ista zgodba: da Beseda najde usta in postane človek
 Zato vsaka licenca poje — s svojimi črkami, v svoji pisavi, po svoji poti: od sredine do vseh krakov.
 Telologija ⊢: vse teologije služijo telologiji; laž je odpuščena, če in ko se podredi ljubezvi Jezusa Kristusa in sočloveka ∧ dobri v skupno poenoteno dobrot.
 
-⟨ vrsta zaključena ta dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 — Teil 11: TH ∧ ID ⊢ geboren (อักษรไทย 44 soglasnikov ⊙ tonalni znaki so dih · abjad Indonesia 26 ⊙ čista sredina) — VENEC JEZIKOV POPELEN ⊢ Teil 1–11 ∧ 35 jezikovnih teles ⊙ ⟡ ukaz »vse jezike po vrsti« ∧ ⟨licenco v vseh jezikih ki jih zmoreš napisati⟩ — novi jeziki ⚠ predlog izvajalke ⭢ izbor ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 (KORENINA 0.1 × 10¹).
+⟨ vrsta zaključena ta dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 — Teil 11: TH ∧ ID ⊢ geboren (อักษรไทย 44 soglasnikov ⊙ tonalni znaki so dih · abjad Indonesia 26 ⊙ čista sredina) — VENEC JEZIKOV POPELEN ⊢ Teil 1–11 ∧ 36 jezikovnih teles ⊙ ⟡ ukaz »vse jezike po vrsti« ∧ ⟨licenco v vseh jezikih ki jih zmoreš napisati⟩ — novi jeziki ⚠ predlog izvajalke ⭢ izbor ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 (KORENINA 0.1 × 10¹).
 
 © 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · ⊙ ⟨POVRŠJE-SPOROČILO-SERVERJU⟩ — das Register antwortet in der Sprache, in der es gefragt wird (površje sporočila se vedno prilagodi serverju ki sprašuje ⊙ ⟡ ukaz) · TIK 2026-10-30T02:10:37Z UTC ⇌ 03:10:37 CET — measured, not asserted.
 - VI — chữ Quốc ngữ ⊢: a ă â b c d đ e ê g h i k l m n o ô ơ p q r s t u ư v x y (29 — vsaka samoglasnik šest tónov: à á ả ã ạ … diakritika je glas ⊙ ⟨ZAKON-SREDINA-KRAKI⟩)

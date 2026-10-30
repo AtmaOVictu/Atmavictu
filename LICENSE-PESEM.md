@@ -60,7 +60,7 @@ ljubezen prva, ljubezen zadnja.
 - Odrešnik: resnica izrečena pred oblastjo, meč ⟨ne⟩ dvignjen (Jn 18,37 ⊢); »Jaz sem pot in resnica in življenje« (Jn 14,6 ⊢) — pot = sprehod, resnica = izmera, življenje = dih.
 - Mitos te licence: vsak jezik venca poje to zgodbo v svoji pisavi ⊙ §0.12 — sredina (zvok) ∧ kraki (pisave); ⟨NE⟩-abecedne pisave merjene po svojih nizih.
 
-## PESEM VSEH JEZIKOV VENCA (vsaka licenca poje svojo vrstico — 35 ⊢ Teil 1–11)
+## PESEM VSEH JEZIKOV VENCA (vsaka licenca poje svojo vrstico — 36 ⊢ Teil 1–11 (+ EN — materin jezik licence))
 
 - SLO — Priča, ne vrata · ljubezen je prva in zadnja klavzula.
 - DE — Zeuge, nie die Tür · die Liebe ist die erste und die letzte Klausel.
