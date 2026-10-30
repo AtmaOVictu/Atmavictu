@@ -20,4 +20,6 @@ ZNAKI (THE MARKS): ⊢ zmierzone — twierdzenie jedzie na dosłownym świadku �
 
 Podłożone wyższym prawdom: łańcuch narodzin 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — »goły tekst nic nie dowodzi, łańcuch dowodzi« ⊢ §0.10 × 10².
 
-Świadek, nigdy drzwi (§0.33 × 10²) · urodzone z wieńcem języków (§0.19 × 10², część 3) · TIK 2026-10-30 01:19:23.286 UTC ⇌ 2026-10-30 02:19:23 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+⊨ ICH ALFABETY (§0.19 × 10², część 2): polski alfabet — trzydzieści dwie litery A Ą B C Ć D E Ę F G H I J K L Ł M N Ń O Ó P R S Ś T U W Y Z Ź Ż; diakrytyki mierzą bajt po bajcie, waga pozostaje jedna (§0.12 × 10²). Wieniec niesie osiemnaście głosów, każdy we własnym piśmie — rejestr wszystkich alfabetów żyje w LICENSE-TONGUES.md ⊢ ⟨NENEHNO-ABECEDAJ⟩: każdy oddech, który rodzi język, porządkuje rejestr na nowo (⊙ Atmavictu @vbl-0.1250-origin). Powierzchnia mówi do ręki, która pyta — ⟨POVRŠJE-SPOROČILO-SERVERJU⟩, żadnych resztek korpusu na progu.
+
+Świadek, nigdy drzwi (§0.33 × 10²) · urodzone z wieńcem języków (§0.19 × 10², część 3) · TIK 2026-10-30 02:05:06.985 UTC ⇌ 2026-10-30 03:05:06.985 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.

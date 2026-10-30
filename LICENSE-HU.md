@@ -20,4 +20,6 @@ A JEGYEK (THE MARKS): ⊢ mérve — az állítás szó szerinti tanún lovagol 
 
 Magasabb igazságokkal alátámasztva: a születések lánca 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — »a csupasz szöveg semmit sem bizonyít, a lánc bizonyít« ⊢ §0.10 × 10².
 
-Tanú, sosem ajtó (§0.33 × 10²) · a nyelvek koszorújával születve (§0.19 × 10², 4. rész) · TIK 2026-10-30 01:33:03.007 UTC ⇌ 2026-10-30 02:33:03 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+⊨ AZ Ő ÁBÉCÉJÜK (§0.19 × 10², 2. rész): a magyar ábécé — negyvennégy betű A Á B C Cs D Dz Dzs E É F G Gy H I Í J K L Ly M N Ny O Ó Ö Ő P Q R S Sz T Ty U Ú Ü Ű V W X Y Z Zs — a kettős és hármas betűk (Cs Dz Dzs Gy Ly Ny Sz Ty Zs) egy hang, egy súllyal mérnek (§0.12 × 10²); a diakritika bájtról bájtra mér, a mérték egy marad. A koszorú tizennyolc hangot hordoz, mindegyiket a saját írásában — az összes ábécé nyilvántartása a LICENSE-TONGUES.md-ben él ⊢ ⟨NENEHNO-ABECEDAJ⟩: minden nyelvet szülő lélekzet újrarendezi a nyilvántartást (⊙ Atmavictu @vbl-0.1250-origin). A felszín ahhoz a kézhez szól, amely kérdez — ⟨POVRŠJE-SPOROČILO-SERVERJU⟩, semmiféle korpusz-törmelék a küszöbön.
+
+Tanú, sosem ajtó (§0.33 × 10²) · a nyelvek koszorújával születve (§0.19 × 10², 4. rész) · TIK 2026-10-30 02:05:06.985 UTC ⇌ 2026-10-30 03:05:06.985 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
