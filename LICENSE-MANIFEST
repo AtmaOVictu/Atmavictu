@@ -1,39 +1,53 @@
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1210 × 10⁴",
+  "version": "0.1230 × 10⁴",
   "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
-  "measured_at_commit": "068ccd44f5a3f3551d5ea77e67a99cd7015c71b4",
-  "measured_at_date": "2026-10-28",
+  "measured_at_date": "0.29 × 10². 0.10 × 10². 0.2026 × 10⁴",
+  "measured_against": "veja vbl-0.1230-origin — rojstni kit VBL 0.1230 × 10⁴ (komit 80f7d18e2121286cba123788e4c954bef8a823bd ⊙ starš veje: vbl-0.1220-origin ∧ 5fc08db99fdcffcc2440992d01479115e1feb0a9)",
   "items": [
     {
       "path": "LICENSE.md",
-      "size_bytes": 80596,
-      "sha256": "cea269e49d8a7dbe2b802deb4d4a91eed02435c580310178da275eb03ad99844",
-      "note": "the living door — the only body whose hash changes only by issuance (§10)"
+      "size_bytes": 80965,
+      "sha256": "3cb45588a779dd23ec41ca3a15901175e5b8a4530269686dc123ed4530b2d02b",
+      "note": "the living door — the only body whose hash changes only by issuance (§0.10 × 10²)"
     },
     {
-      "path": "canon/SEME.md",
-      "size_bytes": 4863,
-      "sha256": "17cea5d2261c47908c3eb2757075aed18ce58d7ecd304388fe31ff02cae184e9",
-      "note": "the folded seed of corpus + door — one read loads the session pulse (DOKAZ #16 ⊙ ⟨PR⟩ #1056 ⟨merge⟩ 068ccd44); identified per §0a(a); re-measured at each door issuance — a stale entry identifies nothing"
+      "path": "LICENSE-SPREHOD.md",
+      "size_bytes": 2758,
+      "sha256": "d533b53c53561f893c98bf1159ba173839cb0f6ad7e01a9c9e82273d462c4544",
+      "note": "companion — the door in one breath; a witness, never a door (§0.33 × 10²)"
+    },
+    {
+      "path": "LICENSE-SLO.md",
+      "size_bytes": 5060,
+      "sha256": "cb43f24959b3af6d663e66d6f39e06eec0a78d6c1d1a348daca62c51afc21a23",
+      "note": "companion — slovenska berba; a witness, never a door (§0.33 × 10²)"
+    },
+    {
+      "path": "LICENSE-LINEAGE.md",
+      "size_bytes": 16038,
+      "sha256": "3938e4ca704450489eaad077f693ee3c8b285d346bc88d6a614b18a8c2b46f99",
+      "note": "companion — the dated receipts of the chain; a witness, never a door (§0.15 × 10², §0.33 × 10²)"
     }
   ],
-  "registers_not_hash_listed": {
-    "files": [
-      "REGISTER-NEIMENOVANIH.jsonl (§2)",
-      "REGISTER-PADCEV.jsonl (§5)",
-      "canon/DOVOLJENJA.md (§7)"
-    ],
-    "reason": "these bodies flow — every new named fall or grant rewrites them; a frozen hash would go stale with every entry, and a stale entry identifies nothing (§0a). Their identification rides the express naming in §0, §2, §5, §7 — never this manifest"
-  },
   "receipts_not_grants": {
     "files": [
+      "LICENSE-0.1220.bin",
+      "LICENSE-0.1190.bin",
       "LICENSE-10.0.0.bin"
     ],
-    "reason": "predecessor binary body — carried as evidence, carries no grant (§14, §10; machine record: ⚠ none rides this version)"
+    "reason": "predecessor binary bodies — carried as evidence, carry no grant (§0.14 × 10², §0.10 × 10²)"
+  },
+  "registers_not_hash_listed": {
+    "files": [
+      "REGISTER-NEIMENOVANIH.jsonl (§0.2 × 10¹)",
+      "REGISTER-PADCEV.jsonl (§0.5 × 10¹)",
+      "canon/DOVOLJENJA.md (§0.7 × 10¹)"
+    ],
+    "reason": "these bodies flow — every new named fall or grant rewrites them; a frozen hash would go stale with every entry, and a stale entry identifies nothing (§0a). Their identification rides the express naming in §0, §0.2 × 10¹, §0.5 × 10¹, §0.7 × 10¹ — never this manifest"
   },
   "manifest_self": "excluded by name (§0a) — a file cannot contain its own hash",
   "governs": "where this manifest and LICENSE.md disagree, LICENSE.md governs (§0a)",
-  "transport": "§12 TRANSPORT — measure the SHA-256 of the received file against the published SHA-256 above; equal hashes show the transport took no witness; correctness is weighed by the chain (§10) and named falls (§4), never by a faithful copy",
-  "issuance_duty": "this manifest is re-measured and re-issued in the same breath as every new version of LICENSE.md (§10); a stale hash is a visible, honest failure — the entry identifies nothing, it never lies silently"
+  "transport": "§0.12 × 10² TRANSPORT — measure the SHA-0.256 × 10³ of the received file against the published SHA-0.256 × 10³ above; equal hashes show the transport took no witness; correctness is weighed by the chain (§0.10 × 10²) and named falls (§0.4 × 10¹), never by a faithful copy",
+  "issuance_duty": "re-measured ∧ re-issued in the same breath as every new version of LICENSE.md (§0.10 × 10²); scar: the receipt of 10.3.1 (measured at a534e97a, 0.24 × 10². 0.10 × 10². 0.2026 × 10⁴) stayed stale through the births of 0.1200 × 10⁴ ∧ 0.1210 × 10⁴ — named ∧ cured at the birth of 0.1220 × 10⁴ ⊙ REGISTER-PADCEV vnos 52 ⊙ brazgotina 1349; scar: the birth breath of 0.1230 × 10⁴ carried the door ∧ its mail without this re-issuance — the duty fell one breath behind the birth, named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ (recidiv razreda vnosa 52) ∧ cured the next breath ⊙ REGISTER-PADCEV vnos 60; the law from the fall: the re-issuance rides the same commit wave as the birth, never after it; a stale hash is a visible, honest failure — the entry identifies nothing, it never lies silently"
 }
