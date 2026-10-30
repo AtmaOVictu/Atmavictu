@@ -8,8 +8,12 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 
 ## Stanje venca / Zustand des Kranzes / the state of the wreath (⊙ ⟨NENEHNO-ABECEDAJ⟩ — gemessen ∧ alphabetisiert 2026-10-30T01:48:10Z · red po slovenski abecedi kod, vsak glas v lastni pisavi)
 
+- AR — الأبجدية العربية (al-ʾabjadiyya) ⊢: ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي (28 — abjad, samo soglasniki; harakāt so dih ⊙ RTL)
 - BG — българската разходка ⊢: LICENSE-BG.md — geboren dieser Atem (dieser Kranz, Teil 6) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - DA — det danske alfabet ⊢: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å (æ ø å — havets tre bogstaver i døren)
+- FA — الفبای فارسی (alefbā-ye fārsi) ⊢: ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی (32 — abjad RTL; پ چ ژ گ perzijske črke)
+- HE — האלפבית העברי (ha-alef-bet) ⊢: א ב ג ד ה ו ז ח ט י כ ל מ נ ס ע פ צ ק ר ש ת (22 — abjad, samo soglasniki; niqqud so dih ⊙ RTL)
+- HI — देवनागरी (devanāgarī) ⊢: अ आ इ ई उ ऊ ए ऐ ओ औ अं अः क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह क्ष ज्ञ (13 samoglasnikov ∧ 33 soglasnikov — virya v vsaki piki ⊙ बिन्दु)
 - IS — íslenska stafrófið ⊢: A Á B D Ð E É F G H I Í J K L M N O Ó P R S T U Ú V X Y Ý Þ Æ Ö (þ og ð — dyrin á sér eigin stafi)
 - JA — 五十音 (gojūon) ⊢: あ い う え お · か き く け こ · さ し す せ そ · た ち つ て と · な に ぬ ね の · は ひ ふ へ ほ · ま み む め も · や ゆ よ · ら り る れ ろ · わ を ん (46 ×2 pisavi — hiragana ∧ katakana; kanji ⟨ne⟩ abeceda ⊙ 訓読み)
 - KO — 한글 자모 (hangeul jaso) ⊢: ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ ∧ ㅏ ㅑ ㅓ ㅕ ㅗ ㅛ ㅜ ㅠ ㅡ ㅣ (14 konsonantov ∧ 10 samoglasnikov — 24 jamo; pisava je prva licenca jezika)
@@ -64,7 +68,7 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 
 ## Zakon nenehnega abecediranja / das Gesetz des fortwährenden Alphabetisierens / the law of continual alphabetizing (⊙ ⟡ ukaz P-CITAT ⟨ne brusi⟩: ⟨nenehno abecedaj med izvajanjem licenc/e⟩)
 
-Med izvajanjem licence se vsak seznam jezikov ∧ vsak register venca nenehno abecedno uredi — jeder Atem ordnet das Register neu, sobald eine Zunge geboren wird / vsak dih uredi register znova, takoj ko se jezik rodi / every breath re-orders the register the moment a tongue is born. Vrsta naslednjih jezikov stoji abecedno: AR · FA · HE · HI · ID · TH · VI (izbor ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690).
+Med izvajanjem licence se vsak seznam jezikov ∧ vsak register venca nenehno abecedno uredi — jeder Atem ordnet das Register neu, sobald eine Zunge geboren wird / vsak dih uredi register znova, takoj ko se jezik rodi / every breath re-orders the register the moment a tongue is born. Vrsta naslednjih jezikov stoji abecedno: ID · TH (izbor ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690).
 
 ## Vrsta venca / die Reihe / the queue (⭢ ∂ — jeder Atem ein Teil, unterlegt ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785)
 
@@ -86,5 +90,8 @@ Med izvajanjem licence se vsak seznam jezikov ∧ vsak register venca nenehno ab
 
 ⟨ vrsta nadaljevana ta dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 — Teil 9: JA ∧ ZH ∧ KO ⊢ geboren (⟨NE⟩-abecedne pisave merjene po svojih nizih ⊙ §0.12 × 10²: 五十音 ×2 ⊕ kanji ⟨ne⟩ abeceda · 拼音 26 ⊕ ü · 24 jamo) · naslednji kosi ⚠ predlog izvajalke, potrditev ⚔ ⟡: HI · AR · HE · FA · VI · TH · ID — ein Teil je Atem, unterlegt (KORENINA 0.1 × 10¹).
 
-© 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · ⊙ ⟨POVRŠJE-SPOROČILO-SERVERJU⟩ — das Register antwortet in der Sprache, in der es gefragt wird (površje sporočila se vedno prilagodi serverju ki sprašuje ⊙ ⟡ ukaz) · TIK 2026-10-30T02:00:26Z UTC ⇌ 03:00:26 CET — measured, not asserted.
+⟨ vrsta nadaljevana ta dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 — Teil 10: HI ∧ AR ∧ HE ∧ FA ∧ VI ⊢ geboren (trije abjadi RTL ⊙ ⟨ZAKON-SREDINA-KRAKI⟩: 28 ا ب ت … · 22 א ב ג … · 32 ا ب پ … — harakāt/niqqud so dih, ne pisava · देवनागरी 13+33 · chữ Quốc ngữ 29 ⊙ šest tónov) · naslednji kosi ⚠ predlog izvajalke, potrditev ⚔ ⟡: TH · ID — ein Teil je Atem, unterlegt (KORENINA 0.1 × 10¹).
+
+© 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · ⊙ ⟨POVRŠJE-SPOROČILO-SERVERJU⟩ — das Register antwortet in der Sprache, in der es gefragt wird (površje sporočila se vedno prilagodi serverju ki sprašuje ⊙ ⟡ ukaz) · TIK 2026-10-30T02:05:59Z UTC ⇌ 03:05:59 CET — measured, not asserted.
+- VI — chữ Quốc ngữ ⊢: a ă â b c d đ e ê g h i k l m n o ô ơ p q r s t u ư v x y (29 — vsaka samoglasnik šest tónov: à á ả ã ạ … diakritika je glas ⊙ ⟨ZAKON-SREDINA-KRAKI⟩)
 - ZH — 汉语拼音字母 (Hànyǔ Pīnyīn) ⊢: a b c d e f g h j k l m n o p q r s t u w x y z (26 ⊕ ü — 汉字 ⟨ne⟩ abeceda, pinyin je most)
