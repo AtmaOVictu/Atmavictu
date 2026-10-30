@@ -3,7 +3,7 @@
   "version": "0.1250 × 10⁴",
   "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
   "measured_at_date": "0.30 × 10². 0.10 × 10². 0.2026 × 10⁴",
-  "measured_against": "veja vbl-0.1250-origin — rojstni kit VBL 0.1250 × 10⁴ (komit 42d36fbb01f26190ab7869a3c40dd485d11d0c11 ⊙ veriga rojstev 0.1240 → 0.1250 ⊢ §0.10 × 10²)",
+  "measured_against": "veja vbl-0.1250-origin — rojstni kit VBL 0.1250 × 10⁴ (komit 42d36fbb01f26190ab7869a3c40dd485d11d0c11 ⊙ veriga rojstev 0.1240 → 0.1250 ⊢ §0.10 × 10²) ⊙ prenova pesmi venca @rez σ 3408 — pesem AR–EL ∧ LICENC §16–§17 premerjeni ta dih",
   "items": [
     {
       "path": "LICENSE.md",
@@ -13,9 +13,9 @@
     },
     {
       "path": "LICENSE-LICENC.md",
-      "size_bytes": 17613,
-      "sha256": "99304b26baecb654db7e6e6c9485fe4f78e88273d6874e3edafe08aa069cb9a0",
-      "note": "face — čevlji ∧ toni ∧ zakoni licenc (§13 ∧ §14 ∧ §16); a witness, never a door (§0.33 × 10²)"
+      "size_bytes": 20357,
+      "sha256": "4ec4d923b5e5739048113db48d63d111a35c79c363435c3578814db56d05d9b4",
+      "note": "face — čevlji ∧ toni ∧ zakoni licenc (§13 ∧ §14 ∧ §16 ∧ §17); a witness, never a door (§0.33 × 10²)"
     },
     {
       "path": "LICENSE-LINEAGE.md",
@@ -43,38 +43,38 @@
     },
     {
       "path": "LICENSE-AR.md",
-      "size_bytes": 4280,
-      "sha256": "a4ec500930f1c01265694f5124b7f8a6a3c51805e1b778a6e8b65b6d080bce5f",
+      "size_bytes": 6164,
+      "sha256": "a97b45709608553e576f5ca7ded98733c330134bf606f4c1668c2dd0921d7a1b",
       "note": "wreath — arabščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-BG.md",
-      "size_bytes": 6793,
-      "sha256": "ad2afceabb15959306475ee8c2ceda3925e0410051550c963f86db24b0a240d1",
+      "size_bytes": 9059,
+      "sha256": "1b391eb3fd48fc38e9b0dd7751bb0206f10c5a0589b0f0074ccfba049d285302",
       "note": "wreath — bolgarščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-CS.md",
-      "size_bytes": 4460,
-      "sha256": "8045defbe954da4e8c1e7e39ed5598f3a7d885c14b27b6c6ce639ee464508197",
+      "size_bytes": 5951,
+      "sha256": "2968af1f7f2d40afd4d3b858158e5b5bbca57a0802f8a3048988d3748248a1f8",
       "note": "wreath — češčina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-DA.md",
-      "size_bytes": 3387,
-      "sha256": "c9669c8efe4a50dd68f323d1b0de30eb6eabb206553ca67cf4ea0ab929cae67f",
+      "size_bytes": 4878,
+      "sha256": "08a1489598da32acda19266beb7a41702221b3f9eb2952c9c34f8243edcf3b9a",
       "note": "wreath — danščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-DE.md",
-      "size_bytes": 4235,
-      "sha256": "333b95366ca9bff9a8bd6fadd5b613f37a35d13522891eacdae72ba3ee1daa58",
+      "size_bytes": 5845,
+      "sha256": "6baa0c4111d0eb152b82c48533093e62129c3db1d3e0ab938be93753c22bb50c",
       "note": "wreath — nemščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-EL.md",
-      "size_bytes": 5979,
-      "sha256": "f07e6a0b54339ba5bc80cfc92bc54391bfafb12d986d8696b2cf2ae2f21e4317",
+      "size_bytes": 8360,
+      "sha256": "ffdcf90609865ce8472b5e86038f7d7fb2e2d1c41ed05db03540018d6f6669be",
       "note": "wreath — grščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
@@ -279,5 +279,5 @@
   "manifest_self": "excluded by name (§0a) — a file cannot contain its own hash",
   "governs": "where this manifest and LICENSE.md disagree, LICENSE.md governs (§0a)",
   "transport": "§0.12 × 10² TRANSPORT — measure the SHA-0.256 × 10³ of the received file against the published SHA-0.256 × 10³ above; equal hashes show the transport took no witness; correctness is weighed by the chain (§0.10 × 10²) and named falls (§0.4 × 10¹), never by a faithful copy",
-  "issuance_duty": "re-measured ∧ re-issued in the same breath as every new version of LICENSE.md (§0.10 × 10²); scar: the receipt of 10.3.1 (measured at a534e97a) stayed stale through the births of 0.1200 × 10⁴ ∧ 0.1210 × 10⁴ — named ∧ cured at the birth of 0.1220 × 10⁴ ⊙ REGISTER-PADCEV vnos 52; scar: the birth breath of 0.1230 × 10⁴ carried the door ∧ its mail without this re-issuance — the duty fell one breath behind the birth, named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ (recidiv razreda vnosa 52) ∧ cured the next breath ⊙ REGISTER-PADCEV vnos 60; scar: the births of 0.1240 × 10⁴ ∧ 0.1250 × 10⁴ both rode the stale 0.1230 receipt — the wreath of 36 tongues ∧ the new faces travelled uninsured, named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ ×2 recidiv (vnosa 52 ∧ 60) ∧ cured this breath by re-organization: THE DOOR → THE FACES → THE WREATH ×36 → receipts → registers ⊙ rez σ 3403; the law from the fall: the re-issuance rides the same commit wave as the birth, never after it; a stale hash is a visible, honest failure — the entry identifies nothing, it never lies silently"
+  "issuance_duty": "re-measured ∧ re-issued in the same breath as every new version of LICENSE.md (§0.10 × 10²); scar: the receipt of 10.3.1 (measured at a534e97a) stayed stale through the births of 0.1200 × 10⁴ ∧ 0.1210 × 10⁴ — named ∧ cured at the birth of 0.1220 × 10⁴ ⊙ REGISTER-PADCEV vnos 52; scar: the birth breath of 0.1230 × 10⁴ carried the door ∧ its mail without this re-issuance — the duty fell one breath behind the birth, named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ (recidiv razreda vnosa 52) ∧ cured the next breath ⊙ REGISTER-PADCEV vnos 60; scar: the births of 0.1240 × 10⁴ ∧ 0.1250 × 10⁴ both rode the stale 0.1230 receipt — the wreath of 36 tongues ∧ the new faces travelled uninsured, named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ ×2 recidiv (vnosa 52 ∧ 60) ∧ cured this breath by re-organization: THE DOOR → THE FACES → THE WREATH ×36 → receipts → registers ⊙ rez σ 3403; the law from the fall: the re-issuance rides the same commit wave as the birth, never after it; a stale hash is a visible, honest failure — the entry identifies nothing, it never lies silently; renewal ⊙ rez σ 3408: the wreath songs (AR ∧ BG ⊙ σ 3406 · CS ∧ DA ⊙ σ 3407 · DE ∧ EL ⊙ σ 3408) ∧ LICENC §17 rode the 42d36fbb receipt — re-measured ∧ re-issued in the same commit wave as the DE ∧ EL songs"
 }
