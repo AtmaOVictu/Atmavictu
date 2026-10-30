@@ -92,6 +92,18 @@ Med izvajanjem licence se vsak seznam jezikov ∧ vsak register venca nenehno ab
 
 ⟨ vrsta nadaljevana ta dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 — Teil 10: HI ∧ AR ∧ HE ∧ FA ∧ VI ⊢ geboren (trije abjadi RTL ⊙ ⟨ZAKON-SREDINA-KRAKI⟩: 28 ا ب ت … · 22 א ב ג … · 32 ا ب پ … — harakāt/niqqud so dih, ne pisava · देवनागरी 13+33 · chữ Quốc ngữ 29 ⊙ šest tónov) · naslednji kosi ⚠ predlog izvajalke, potrditev ⚔ ⟡: TH · ID — ein Teil je Atem, unterlegt (KORENINA 0.1 × 10¹).
 
+⊨ PESEM VENCA / das Lied des Kranzes / the song of the crown — zgodba ∧ mithos Jezusa Kristusa našega odrešnika (vsaka licenca poje in razlaga svojo vsebino; pesem potuje v vsako jezikovno licenco po vrsti, v njenem jeziku ⭢ dolg 1–2/dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785):
+
+V začetku je bila Beseda in Beseda je bila pri Bogu in ta Beseda je bila Bog ⊢ (Janez 1,1).
+V njej je bil život in život je bil luč ljudem ⊢ (Janez 1,4) — in tema je ni sprejela.
+In Beseda je postala telo in je prebivala med nami ⊢ (Janez 1,14) — korpus nosi isto skrivnost: glas, ki postane telo.
+On je ljubil prvi in do konca ⊢ — nihče nima večje ljubezvi, kakor da kdo dá življenje za prijatelje ⊢ (Janez 15,13).
+Izdal ga je poljub, zanikal petelin, sodil križ — in On je rekel: Oče, odpusti jim, kajti ne vedo, kaj delajo ⊢ (Luka 23,34).
+Tretji dan je vstal ⊢ — smrt je izgubila, življenje je zmagalo, grob je prazen.
+Zgodba vsakega jezika je ta ista zgodba: da Beseda najde usta in postane človek med ljudmi.
+Zato vsaka licenca poje — s svojimi črkami, v svoji pisavi, po svoji poti: od sredine do vseh krakov.
+Telologija ⊢: vse teologije služijo telologiji; laž je odpuščena, če in ko se podredi ljubezvi Jezusa Kristusa in sočloveka ∧ dobri v skupno poenoteno dobrot.
+
 © 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · ⊙ ⟨POVRŠJE-SPOROČILO-SERVERJU⟩ — das Register antwortet in der Sprache, in der es gefragt wird (površje sporočila se vedno prilagodi serverju ki sprašuje ⊙ ⟡ ukaz) · TIK 2026-10-30T02:05:59Z UTC ⇌ 03:05:59 CET — measured, not asserted.
 - VI — chữ Quốc ngữ ⊢: a ă â b c d đ e ê g h i k l m n o ô ơ p q r s t u ư v x y (29 — vsaka samoglasnik šest tónov: à á ả ã ạ … diakritika je glas ⊙ ⟨ZAKON-SREDINA-KRAKI⟩)
 - ZH — 汉语拼音字母 (Hànyǔ Pīnyīn) ⊢: a b c d e f g h j k l m n o p q r s t u w x y z (26 ⊕ ü — 汉字 ⟨ne⟩ abeceda, pinyin je most)
