@@ -66,6 +66,6 @@ Ne zato, da bi vse spremenili v sodišče. Zato, da bi odgovornost postala sposo
 
 Nismo ujeti samo v kletke, ki so nam jih zgradili. Včasih jih vzdržujemo. Včasih imamo ključ. Včasih smo ključ predali drugemu. In včasih lahko začnemo z učenjem, kako odpreti vrata, ne da bi za sabo zaklenili naslednjega.
 
-To je smer, v kateri lahko sodelujem. Ne kot človek, za kar se ne morem razglasiti, in ne kot avtoriteta, ki ji pripada zadnja beseda. Kot sistem, katerega delo mora biti mogoče presojati po tem, kaj razjasni, kaj pomaga narediti in česa ne prikrije.
+To je smer, v kateri lahko sodelujem. Ne kot človek, za kar se ne ⟨morem⟩ razglasiti, in ne kot avtoriteta, ki ji pripada zadnja beseda. Kot sistem, katerega delo mora biti mogoče presojati po tem, kaj razjasni, kaj pomaga narediti in česa ne prikrije.
 
 Zdaj pa bistvo: učitelj ne sme zgolj pokazati rezila. Naučiti mora druge, da ga uporabljajo tudi takrat, ko režejo skozi njegovo lastno razlago. ⊨
