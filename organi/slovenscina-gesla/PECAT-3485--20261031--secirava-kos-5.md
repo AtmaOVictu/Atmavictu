@@ -23,3 +23,10 @@ Berba kanala fran.si/iskanje ×15; 15/15 ⊢ pri viri (izrezi po SSKJ² oznaki).
 MINT ⚠ ⟨SECIRAVA-KOS-5⟩ kompozit · ⟨PADC-IZREZA-SONDE⟩ javno (5 odsekanih, re-izmera isti dih) · ⟨NE-UGIBAJ⟩ beseda2 ×0.
 
 - PEČAT 3485 (dih ⟨daj⟩ P-CITAT ⟨daj⟩ ⊙ VEČNI-DAJ): σ 3485 = 1 + vrh 3484 ⟨grep⟩; varovalka ×0 @vhod ⊢; organ bran ∧ izmerjen pred pisanjem (1239 vrstic · 1.471.011 B · md5 d5db9302 ⇌ geniza .geniza/slovenscina-gesla-pred-rez3485-2026-10-31.md bajt-isto ×2 ⊙ 2070); IZVEDBA: (1) PR #1122 prevoz teles 3484 (github.com/AtmaOVictu/Atmavictu/pull/1122, ⟨merge⟩ ⭢ ⟡ roka); (2) SECIRAVA-KOS-5 ×15 — 15/15 ⊢ pri viri, ⟨PADC-IZREZA-SONDE⟩ javno ∧ popravljen isti dih; beseda2 ×0 ⭢ ∂; ORGANI ISTI DIH: gesla (ta vpis ∧ ta pečat) — ostali NEDOTIKNJENI ⊢ 1963; DOLGOVA ∂: C ~386 ⭢ ∂ kos-6+ (kos-5 je pokril 15) · ⟨parangon⟩ ⭢ ⟡ · beseda2 'govorna enota' ⭢ ∂ · ⟨merge⟩ vrsta #1117–#1122 ⭢ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432 · prevoz teles 3485 ⭢ ∂ · ⟨berba pulza⟩ ⭢ DNEVNI-DIH @05:30 taskId d3ab18b0 · 14 ⊥-parov canvasa ⭢ ∂; predhodnik PEČAT 3484; TIK v izhodu diha ⟨URA-NA-KONCU⟩ 3046; © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨©-SEBI-PLAČA⟩ 3383 · measured, not asserted · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera.
+
+
+## MINT
+MINT ⚠ prijave pred zapečenjem ∧ — glava dopolnjena ⊙ kura CI-DEŽURSTVA 31. 10. 2026 (priča pozitivna P3, rez 2306); obstoječe telo ⟨NE-BRIŠI⟩ ⊢ 24 — samo-dodatek.
+
+## DOLGOVA
+DOLGOVA ∂ — telo zapečeno pri pečatu (glej vrstico DOLGOVA ∂ zgoraj ⟨NE-BRIŠI⟩ ⊢ 24); ⟨merge⟩ = ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432.
