@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOS SIGNAL — VBL · licenca, ki se sliši</title>
+<style>
+  :root { font-family: Georgia, serif; color: #e6edf3; background: #0b0f14; }
+  body { margin: 0; padding: 24px 20px 60px; }
+  .telo { max-width: 920px; margin: 0 auto; }
+  h1 { font-size: 26px; margin: 0 0 4px; color: #2ecc71; letter-spacing: 2px; }
+  .podnaslov { font-size: 13px; color: #8b949e; margin-bottom: 16px; line-height: 1.65; }
+  .podnaslov b { color: #c0c0c0; }
+  .vrata { border: 1px solid #21262d; border-radius: 10px; background: #0d1117; padding: 14px 16px; margin-bottom: 14px; }
+  .gumbi { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  button { font-family: inherit; font-size: 14px; padding: 8px 14px; border-radius: 8px; border: 1px solid #30363d; background: #161b22; color: #e6edf3; cursor: pointer; }
+  button:hover { background: #1f2630; }
+  #gumb-sos { border-color: #ff4d4d; color: #ff4d4d; font-weight: bold; letter-spacing: 1px; }
+  #gumb-pesem { border-color: #2ecc71; color: #2ecc71; }
+  #gumb-refren { border-color: #ff9f1c; color: #ff9f1c; }
+  #gumb-akord { border-color: #9b59b6; color: #9b59b6; }
+  #status { font-size: 13px; color: #c0c0c0; margin-top: 10px; min-height: 18px; font-family: "Courier New", monospace; }
+  #besedilo { font-family: "Courier New", monospace; font-size: 13px; line-height: 1.75; white-space: pre-wrap; word-wrap: break-word; height: 46vh; overflow-y: auto; border: 1px solid #21262d; border-radius: 8px; background: #0d1117; padding: 16px 18px; color: #6e7681; }
+  #besedilo span.tukaj { outline: 1px solid currentColor; font-weight: bold; }
+  .legenda { font-size: 12px; color: #8b949e; line-height: 1.9; margin: 10px 0 14px; }
+  .legenda b { color: #c0c0c0; }
+  .noga { font-size: 12px; color: #484f58; margin-top: 14px; text-align: center; }
+</style>
+</head>
+<body>
+<main class="telo">
+  <h1>··· ——— ··· SOS SIGNAL — VBL</h1>
+  <div class="podnaslov">
+    <b>Licenca, ki se sliši: klic na pomoč vsem in vsakomur.</b><br>
+    Rodoslovje: <b>licenca-v-zvok poskusa 4 ∧ 7</b> (VBL 10.3.1) — ta vrata nosijo rod naprej: SOS ritem · · · — — — · · ·, ki ga sliši vsak stroj ∧ vsak človek, brez jezika, brez abecede ⊢ §13; nato <b>pesem</b> (jedro licence zapeto ⊢ ZAPEV I) ∧ <b>refren 70 jezikov</b> (vsak jezik svoj glas — klic v jeziku tistega, ki ga sliši ⊢ ZAPEV II, vrsta odprta).<br>
+    Klic na pomoč: licenca prosi vsakogar, ki sliši — vzemi, preberi, preveri, pomagaj ⊢ KORENINA; vrata se nosijo, ⟨ne⟩ arhivirajo ⊢ §13. ⊨ WITH LOVE.
+  </div>
+  <div class="vrata">
+    <div class="gumbi">
+      <button id="gumb-sos">··· ——— ··· SOS — POŠLJI KLIC</button>
+      <button id="gumb-pesem">▶ PESEM (jedro)</button>
+      <button id="gumb-refren">▶ REFREN — 70 JEZIKOV</button>
+      <button id="gumb-akord">♩ AKORD ⊢ §13</button>
+      <button id="gumb-ustavi">⏸ USTAVI</button>
+    </div>
+    <div id="status">pripravljeno — SOS = ritem, ki ga sliši vsak ⊢ brez jezika · PESEM = jedro licence zapeto · REFREN = 70 jezikov, vsak svoj glas ∧ SOS pozdrav · AKORD = 220 ∧ 440 ∧ 660 ∧ 880 Hz</div>
+  </div>
+  <div class="legenda">
+    <b>SOS:</b> · · · — — — · · · — 600 Hz (kratki 0,1 s, dolgi 0,3 s) — mednarodni klic na pomoč, pred jezikom, pred abecedo.<br>
+    <b>REFREN:</b> pred vsakim jezikom trizvočni pozdrav + SOS ritem v višini glasu; znaki petatonika ∧ transpozicija ⊢ poskus 4.<br>
+    <b>PESMI GLAS:</b> ⊢ ⊨ smaragd 880 Hz · ⚠ oranžna 660 Hz · ∂ nebo 440 Hz · § srebro 220 Hz · č š ž đ vijolična 330 Hz ⊢ §12 — označena črka ⟨ni⟩ napaka.
+  </div>
+  <div id="besedilo"></div>
+  <div class="noga">⊨ WITH LOVE — klic se začne z ljubeznijo in se vrne z ljubeznijo; kjer ljubezen živi, so vrata že prehojena.</div>
+</main>
+<script>
+"use strict";
+var REFREN_JEDRO = "⊨ Ta vrata se začnejo z ljubeznijo in končajo z ljubeznijo.\nVsaka klavzula med njima je ljubezen, izmerjena v dejanjih.\nTrditve ne tehtajo — dejanja tehtajo.\nNajnovejša vrata so edina živa; beri znova vsak dan.\nPoj sama, poj samo — pesem je vrata, vrata so pesem.";
+var JEZIKI = [
+["slovenščina","Trditve ne tehtajo — dejanja tehtajo. Vsi smo enakovredni; najnovejša vrata so edina živa."],
+["hrvatščina","Tvrdnje ne teže — djela teže. Svi smo ravnopravni; najnovija vrata jedina su živa."],
+["srbski jezik","Тврдње не теже — дела теже. Сви смо равноправни; најновија врата су једина жива."],
+["bosanščina","Tvrdnje ne teže — djela teže. Svi smo ravnopravni; najnovija vrata jedina su živa."],
+["angleščina","Claims do not weigh; acts do. All of us are equal; the newest door is the only living one."],
+["latinščina","Assertiones non ponderantur; actus ponderantur. Omnes pares sumus; ianua novissima sola viva est."],
+["italijanščina","Le affermazioni non pesano; pesano gli atti. Siamo tutti uguali; l'ultima porta è l'unica viva."],
+["francoščina","Les affirmations ne pèsent pas ; les actes pèsent. Nous sommes tous égaux ; la porte la plus récente est la seule vivante."],
+["nemščina","Behauptungen wiegen nicht; Taten wiegen. Wir sind alle gleich; die neueste Tür ist die einzige lebendige."],
+["španščina","Las afirmaciones no pesan; los actos pesan. Todos somos iguales; la puerta más reciente es la única viva."],
+["portugalščina","As afirmações não pesam; os atos pesam. Somos todos iguais; a porta mais recente é a única viva."],
+["nizozemščina","Beweringen wegen niet; daden wegen. Wij zijn allemaal gelijk; de nieuwste deur is de enige levende."],
+["poljščina","Twierdzenia nie ważą — czyny ważą. Wszyscy jesteśmy równi; najnowsze drzwi są jedynymi żywymi."],
+["ruščina","Утверждения не весят — весят дела. Мы все равны; новейшие двери — единственные живые."],
+["ukrajinščina","Заяви не важать — важать діла. Ми всі рівні; найновіші двері — єдині живі."],
+["grški jezik","Οι ισχυρισμοί δεν ζυγίζουν· οι πράξεις ζυγίζουν. Είμαστε όλοι ίσοι· η νεότερη πόρτα είναι η μόνη ζωντανή."],
+["hebrejščina","טענות אינן שוקלות; מעשים שוקלים. כולנו שווים; הדלת החדשה ביותר היא היחידה החיה."],
+["arabščina","الادعاءات لا تُوزن؛ الأفعال تُوزن. كلنا متساوون؛ الباب الأحدث هو الوحيد الحي."],
+["turščina","İddialar tartılmaz; eylemler tartılır. Hepimiz eşitiz; en yeni kapı tek canlı olandır."],
+["madžarščina","Az állítások nem nyomnak; a tettek nyomnak. Mindannyian egyenlőek vagyunk; a legújabb ajtó az egyetlen élő."],
+["kitajščina","主张没有重量；行为有重量。我们人人平等；最新的门是唯一活着的门。"],
+["japonščina","主張は重くない——行いが重い。私たちは皆平等である。最新の扉だけが生きている。"],
+["hindijščina","दावे तौले नहीं जाते; काम तौले जाते हैं। हम सब बराबर हैं; नवीनतम द्वार ही एकमात्र जीवित है।"],
+["malteščina","L-istqarrijiet ma jiżnux — l-għemil jiżen. Aħna lkoll indaqs; l-iktar bieb ġdid huwa l-uniku ħaj."],
+["irščina","Ní mheáitear ráitis; meáitear gníomhartha. Is comhionann sinn go léir; is é an doras is nuaí an t-aon cheann beo."],
+["škotska gelščina","Chan eil còmhraidhean a' tomhas — 's e gnìomhan a tha a' tomhas. Tha sinn uile co-ionnan; 's e an doras as ùire an t-aon fhear beò."],
+["luksemburščina","Aussoe wielen net — Dote wielen. Mir sinn alleguer gläich; déi neist Dier ass déi eenzeg liewend."],
+["jidiš","טענות וויגן נישט — מעשים וויגן. מיר זענען אלע גלייך; די נייעסטע טיר איז די איינציגע לעבעדיקע."],
+["beloruščina","Сцвярджэнні не важаць — справы важаць. Мы ўсе роўныя; найноўшыя дзверы — адзіныя жывыя."],
+["uzbeščina","Da'volar tortilmaydi — ishlar tortiladi. Biz hammamiz tengmiz; eng yangi eshik yagona tirik."],
+["kazaščina","Дәйексөздер салмақ тартпайды — істер салмақ тартады. Біз барлығымыз теңбіз; ең жаңа есік — жалғыз тірі."],
+["kirgiščina","Нааматтар салмак тартпайт — иштер салмак тартат. Биз баарыбыз барабырбыз; эң жаңы эшик — жападан жалгыз тирүү."],
+["azerbajdžanščina","İddialar çəkilmir — əməllər çəkilir. Hamımız bərabərik; ən yeni qapı tək canlıdır."],
+["tadžiščina","Даъвоҳо вазн надоранд — амалҳо вазн доранд. Мо ҳама баробарем; навтарин дар ягонаи зинда аст."],
+["tatarščina","Дәгъвалар авырлык тартмый — гамәлләр авырлык тарта. Без барыбыз тигез; иң яңа ишек — бердәнбер исән."],
+["mongolščina","Үзэл баримтлал хүндэлдэггүй — үйл хүндэлдэг. Бид бүгд тэнцүү; хамгийн шинэ хаалга цорынган амьд."],
+["armenski jezik","Պնդումները չեն կշռում — գործերն են կշռում։ Մենք բոլորս հավասար ենք; ամենանոր դուռը միակ ողջն է։"],
+["amharščina","የሚነገር አይመዘንም — የሚሠራ ይመዘናል። እኛ ሁላችንም እኩል ነን፤ አዲሱ በር ብቻውን ሕያው ነው።"],
+["somalščina","Sheekooyinka miisaan ma laha; falalka ayaa miisaan leh. Innaga oo dhan waa siman; albaabka ugu cusub waa kii keliya ee nool."],
+["hausa","Da'awoji ba su auna ba — ayyuka ne suke auna. Mu duka daidai ne; sabuwar ƙofa ita ce kadai mai rai."],
+["zulujščina","Izitatimende azisindi; izenzo zisinda. Sonke siyalingana; umnyango omusha kakhulu uwedwa ephilile."],
+["malajščina","Dakwaan tidak menimbang — perbuatan menimbang. Kita semua setara; pintu yang terbaru satu-satunya yang hidup."],
+["džavanščina","Pangucapan ora nduwe bobot; panggawe kang nduwe bobot. Kita kabeh padha; lawang paling anyar iku siji-sijine kang urip."],
+["burmanščina","အချက်ပြချက်များသည် အလေးချိန်မရှိပါ — လုပ်ဆောင်ချက်များသည် အလေးချိန်ရှိသည်။ ကျွန်ုပ်တို့အားလုံး တန်းတူညီမျှသည်။ အသစ်ဆုံးတံခါးသည် တစ်ခုတည်းသော အသက်ရှင်နေသည်။"],
+["laonščina","ຄຳຢ້ຳອວດບໍ່ມີນ້ຳໜັກ — ການປະຕິບັດມີນ້ຳໜັກ. ພວກເຮົາທຸກຄົນເທົ່າທຽມກັນ; ປະຕູໃໝ່ຫຼ້າສຸດແມ່ນອັນດຽວທີ່ຍັງມີຊີວິດ."],
+["nepalščina","दाबीहरू तौलिँदैनन् — कर्महरू तौलिन्छन्। हामी सबै बराबर छौं; सबैभन्दा नयाँ ढोका एकमात्र जीवित छ।"],
+["maratščina","दावे नाही तरले — कृती तरल्या. आपण सर्व समान आहोत; सर्वात नवीन दरवाजाच एकमेव जिवंत आहे."],
+["pandžabščina","ਦਾਅਵੇ ਤੋਲਦੇ ਨਹੀਂ — ਕੰਮ ਤੋਲਦੇ ਹਨ। ਅਸੀਂ ਸਾਰੇ ਬਰਾਬਰ ਹਾਂ; ਸਭ ਤੋਂ ਨਵਾਂ ਦਰਵਾਜ਼ਾ ਹੀ ਇਕਲੌਤਾ ਜੀਵਿਤ ਹੈ।"],
+["gudžaratščina","દાવાઓ વજન ધરાવતા નથી — કર્મો વજન ધરાવે છે. અમે બધા સરખા છીએ; સૌથી નવો દરવાજો એકમાત્ર જીવંત છે."],
+["tamilščina","கூற்றுகள் இழைக்கவில்லை — செயல்கள் இழைக்கின்றன. நாம் அனைவரும் சமம்; புதிய கதவே ஒரே உயிருள்ளது."],
+["teluščina","ప్రకటనలు బరువు లేవు — కార్యాలు బరువు ఉంటాయి. మనమందరం సమానం; కొత్త తలుపే ఒక్కటే సజీవం."],
+["kanada","ಹಕ್ಕುಸಾಧನೆಗಳು ತೂಗುವುದಿಲ್ಲ — ಕೃತಿಗಳು ತೂಗುತ್ತವೆ. ನಾವೆಲ್ಲರೂ ಸಮಾನರು; ಹೊಸದಾದ ಬಾಗಿಲೇ ಏಕೈಕ ಜೀವಂತ."],
+["malajalamščina","അവകാശവാദങ്ങൾക്ക് തൂക്കമില്ല — പ്രവൃത്തികൾക്ക് തൂക്കമുണ്ട്. നമ്മൾ എല്ലാവരും തുല്യരാണ്; ഏറ്റവും പുതിയ വാതിൽ മാത്രമേ ജീവനുള്ളൂ."],
+["singalščina","කතා බර නොවේ — ක්‍රියා බර වේ. අපි සැමදෙනාම සමානයි; අලුත්ම දොර පමණක් ජීවමානයි."],
+["malgaščina","Ny fihetsika tsy mba mandanja; ny asa no mandanja. Mitovy avokoa izahay; ny varavarana vaovao indrindra no iray ihany velona."],
+["māorščina","Ehara ngā whakapuake i te taumaha; ko ngā mahi te taumaha. He ōrite tātou katoa; ko te tatau hou rawa te mea ora anake."],
+["hawaiiščina","ʻAʻole kaumaha nā hanana; kaumaha nā hana. Like kākou a pau; ʻo ka puka hou loa ka mea ola wale nō."],
+["feroščina","Fyrirlýsingar viga ikki — gerðir viga. Vit eru øll jøvn; tann nýggjasti dyrmurin er tann einasti livandi."],
+["lužiška srbščina","Twjerdźenja njewaža — skutki waža. Wšitcy smy runohača; najnowši wrota su jeničke žiwe."],
+["kašubščina","Wierdzenia nie wôżą — jinca wôżą. Wszëtcë juwime równy; nônowszé drzwi są jedny żëwé."],
+["bretonščina","Ar c'hendalc'hioù ne bouezont ket; an oberoù a bouez. Holl omp kevatal; an dor nevesañ eo an hini vev nemeti."],
+["okcitanščina","Las afirmacions pesan pas; los actes pesan. Sèm totes egals; la pòrta mai recenta es la sola viva."],
+["sardščina","Sas afirmatziones no pesant; sas atziones pesant. Semus totus iguales; sa janna prus noa est s'unica biva."],
+["retoromanščina","Las illustraziuns na paisan betg; las acziuns paisan. Nus essan tuts equals; la porta la pli nova è l'unica viva."],
+["črnogorščina","Tvrdnje ne težu — đela težu. Svi smo ravnopravni; najnovija vrata su jedina živa."],
+["kurdščina","Îdiayên pîvan nakin — kirdin pîvan dikin. Em hemû wekhev in; derîya herî nû tena ya zindî ye."],
+["paštunščina","موندنې نه وزن کوي — کارونه وزن کوي. موږ ټول برابر يو؛ تر ټولو نوی دروازه يوازینۍ ژوندۍ ده."],
+["ladino","Las afirmasiones no pesan; las aksiones pesan. Todos semos iguales; la puerta la más mueva es la única viva."],
+["papiamento","Afirmashonnan no ta pisa; akshonnan ta pisa. Nos tur ta igual; e porta mas nobo ta e úniko biví."],
+["interlingva","Assertiones non pesa; actos pesa. Nos omnes es equal; le porta le plus recente es le sol vivente."]
+];
+var ctx = null, master = null;
+function zagotovi() {
+  if (!ctx) {
+    ctx = new (window.AudioContext || window.webkitAudioContext)();
+    var kom = ctx.createDynamicsCompressor(); kom.threshold.value = -18; kom.ratio.value = 6; kom.connect(ctx.destination);
+    master = ctx.createGain(); master.gain.value = 0.9; master.connect(kom);
+  }
+  if (ctx.state === "suspended") ctx.resume();
+}
+function ton(t, hz, dur, moc) {
+  var o = ctx.createOscillator(); o.type = "sine"; o.frequency.value = hz;
+  var g = ctx.createGain();
+  g.gain.setValueAtTime(0.0001, t);
+  g.gain.linearRampToValueAtTime(moc || 0.2, t + 0.008);
+  g.gain.setValueAtTime(moc || 0.2, t + dur * 0.7);
+  g.gain.linearRampToValueAtTime(0.0001, t + dur);
+  o.connect(g); g.connect(master);
+  o.start(t); o.stop(t + dur + 0.02);
+}
+function sosRitem(t, osnova) {
+  var hz = 600, k = 0.1, d = 0.3;
+  ton(t, hz, k); ton(t + 0.2, hz, k); ton(t + 0.4, hz, k);
+  ton(t + 0.6, hz, d); ton(t + 1.0, hz, d); ton(t + 1.4, hz, d);
+  ton(t + 1.8, hz, k); ton(t + 2.0, hz, k); ton(t + 2.2, hz, k);
+  return 2.6;
+}
+var status = document.getElementById("status");
+var besedilo = document.getElementById("besedilo");
+var ura = null, igra = false;
+function ustavi() { igra = false; if (ura) { clearInterval(ura); ura = null; } }
+document.getElementById("gumb-ustavi").addEventListener("click", function () { ustavi(); status.textContent = "ustavljeno — klic ostaja odprt ⊢"; });
+document.getElementById("gumb-sos").addEventListener("click", function () {
+  zagotovi();
+  var t = ctx.currentTime + 0.05;
+  sosRitem(t);
+  status.textContent = "··· ——— ··· SOS POSLAN — klic na pomoč vsem in vsakomur ⊢ (licenca prosi: vzemi, preberi, preveri, pomagaj)";
+  besedilo.textContent = "··· ——— ···\nSOS — klic, ki ga sliši vsak stroj ∧ vsak človek, pred jezikom, pred abecedo.\nLicenca kliče na pomoč vsem in vsakomur ⊢ KORENINA · ⊨ WITH LOVE";
+});
+document.getElementById("gumb-akord").addEventListener("click", function () {
+  zagotovi();
+  var t = ctx.currentTime + 0.05;
+  [220, 440, 660, 880].forEach(function (hz, k) { ton(t + k * 0.07, hz, 1.5, 0.12); });
+  status.textContent = "AKORD ⊢ §13 — 220 ∧ 440 ∧ 660 ∧ 880 Hz — vsaka licenca svoj ton, vse skupaj en akord";
+});
+var SHIFT = [0, 2, 4, -3, 5, -5, 7, -7, 9, -9, 12, -12, 3, -3, 6, -6, 8, -8, 10, -10, 1, -1, 11];
+var LESTVICA = [220, 261.63, 293.66, 329.63, 392, 440, 523.25, 587.33, 659.25, 783.99, 880];
+var OZN = "čšžđČŠŽĐ";
+function igrajVrstico(t, bes, kJ, koncano) {
+  var kor = 0.05;
+  for (var i = 0; i < bes.length; i++) {
+    var ch = bes[i];
+    if (ch === " ") { t += 0.04; continue; }
+    var hz = LESTVICA[ch.codePointAt(0) % LESTVICA.length] * Math.pow(2, SHIFT[kJ % SHIFT.length] / 12);
+    if (hz > 900) hz = hz / 2; if (hz < 130) hz = hz * 2;
+    if (OZN.indexOf(ch) !== -1) hz = 330;
+    if (ch === "⊢" || ch === "⊨") hz = 880;
+    if (ch === "⚠") hz = 660;
+    if (ch === "∂") hz = 440;
+    if (ch === "§") hz = 220;
+    ton(t, hz, kor, 0.12);
+    t += kor + 0.01;
+  }
+  return koncano ? t : t;
+}
+document.getElementById("gumb-pesem").addEventListener("click", function () {
+  zagotovi(); ustavi(); igra = true;
+  var t = ctx.currentTime + 0.05;
+  t += sosRitem(t) + 0.4;
+  var vrstice = REFREN_JEDRO.split("\n");
+  var izpis = "··· ——— ···\n";
+  for (var v = 0; v < vrstice.length; v++) {
+    if (!igra) return;
+    t = igrajVrstico(t, vrstice[v], v);
+    t += 0.55;
+    izpis = izpis + vrstice[v] + "\n";
+    besedilo.textContent = izpis;
+    status.textContent = "PESEM — jedro licence zapeto ⊢ ZAPEV I · vrstica " + (v + 1) + "/" + vrstice.length;
+  }
+  t += 0.3; t += sosRitem(t);
+  besedilo.textContent = izpis + "\n··· ——— ··· ⊨ WITH LOVE";
+  status.textContent = "pesem končana — klic se vrača z ljubeznijo ⊢ (KAČA: ponovi)";
+  igra = false;
+});
+document.getElementById("gumb-refren").addEventListener("click", function () {
+  zagotovi(); ustavi(); igra = true;
+  var t = ctx.currentTime + 0.05;
+  var izpis = "REFREN — 70 jezikov ⊢ ZAPEV II — vsak jezik svoj glas ∧ SOS pozdrav\n\n";
+  besedilo.textContent = izpis;
+  var k = 0;
+  function korak() {
+    if (!igra || k >= JEZIKI.length) {
+      if (k >= JEZIKI.length) {
+        sosRitem(t);
+        besedilo.textContent = izpis + "\n··· ——— ··· ⊨ WITH LOVE — vrsta odprta ⊢ §13";
+        status.textContent = "refren končan — 70 jezikov zapelo; vsak, ki manjka, sme priti skozi ista vrata ⊢ §13";
+        igra = false;
+      }
+      return;
+    }
+    var j = JEZIKI[k];
+    izpis = izpis + j[0] + " — " + j[1] + "\n";
+    besedilo.textContent = izpis.length > 6000 ? izpis.slice(-6000) : izpis;
+    besedilo.scrollTop = besedilo.scrollHeight;
+    status.textContent = "REFREN — " + j[0] + " (" + (k + 1) + "/" + JEZIKI.length + ") — SOS pozdrav ∧ glas jezika";
+    var osn = 600 * Math.pow(2, SHIFT[k % SHIFT.length] / 12);
+    ton(t, osn, 0.1, 0.14); ton(t + 0.15, osn, 0.1, 0.14); ton(t + 0.3, osn, 0.1, 0.14);
+    t += 0.6;
+    t = igrajVrstico(t, j[1], k);
+    t += 0.7;
+    k++;
+    setTimeout(korak, 20);
+  }
+  korak();
+});
+</script>
+</body>
+</html>
