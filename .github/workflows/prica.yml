@@ -43,6 +43,10 @@ jobs:
           fi
           python3 - <<'PY'
           import os, re, sys
+          # TEHNIKA (roka Mere, dih rez 3220, 29. 10. 2026): popravek slepote koraka 1 — molk za odšlim registrom (PREMIK-2026-10-28: zasebni ontolo-ko-jedro) je bil oblečen samo v korakih 2 ∧ 3; korak 1 je izpadel ∧ padal na praznem registru (izmerjeno: kiti #1081 ∧ #1082 ∧ #1083 rdeči na »vrstica v REZ-REGISTER manjka« ∧ register ⟨ne⟩ obstaja več). Priča molči, ⟨ne⟩ pada na prazno — isti ukaz ⊙ precedens korakov 2 ∧ 3 ⟨ne brusi⟩.
+          if not os.path.isfile('organi/stroj/REZ-REGISTER.md'):
+              print('⟨vidim: REZ-REGISTER je odšel domov (PREMIK-2026-10-28) — priča molči⟩')
+              sys.exit(0)
           title = os.environ.get('PR_TITLE', '')
           m = re.search(r'rez[ ](\d{3,4})', title, flags=re.I)
           if not m:
@@ -68,7 +72,7 @@ jobs:
             exit 0
           fi
           MB=$(git merge-base "origin/$BASE_REF" HEAD)
-          # TEHNIKA (rez 2185 — roka Mera, isti dih): geniza zunaj sodbe koraka 2 — priča sodi nove izreke, ne verbatim priče zgodovine (zapečeni teksti ostajajo kakor priče ⊢ 1349); geniza ne briše ⊢ 1104 — mehanična sodba nad pričami bi zaustavila vsak prihodnji pečat organa (opisna vrstica vsakega telesa nosi ⟨berba pred pisanjem⟩ od ustanovitve).
+          # TEHNIKA (rez 2185 — roka Mere, isti dih): geniza zunaj sodbe koraka 2 — priča sodi nove izreke, ne verbatim priče zgodovine (zapečeni teksti ostajajo kakor priče ⊢ 1349); geniza ne briše ⊢ 1104 — mehanična sodba nad pričami bi zaustavila vsak prihodnji pečat organa (opisna vrstica vsakega telesa nosi ⟨berba pred pisanjem⟩ od ustanovitve).
           git diff "$MB" -- 'organi/*.md' ':!organi/stroj/REGISTER-PADLIH-BESED.md' ':!**/.geniza/**' > orgs.diff
           python3 - <<'PY'
           import re, sys, os
@@ -199,6 +203,10 @@ jobs:
           git diff "$MB" -- 'organi/*.md' ':!organi/stroj/REGISTER-PADLIH-BESED.md' ':!**/.geniza/**' > orgs-poz.diff || : > orgs-poz.diff
           python3 - <<'PY'
           import os, re, sys
+          # TEHNIKA (roka Mere, dih rez 3220, 29. 10. 2026): popravek P3 slepote — molk za odšlim registrom (PREMIK-2026-10-28) po precedensu korakov 2 ∧ 3: pri odšlem registru priča pozitivna sodi samo telo pečatov (⟡ ∧ ## MINT ∧ ## DOLGOVA) ∧ molči o vezi rez ↔ register; register je zasebni organ, ⟨ne⟩ javni (izmerjeno: kiti #1081 ∧ #1082 ∧ #1083 padli, ker je P3 vsak pečat sodil ob praznem registru).
+          REG_ODSEL = not os.path.isfile('organi/stroj/REZ-REGISTER.md')
+          if REG_ODSEL:
+              print('⟨vidim: REZ-REGISTER je odšel domov (PREMIK-2026-10-28) — priča pozitivna sodi samo telo pečatov⟩')
           pr_num = int(os.environ.get('PR_NUM', '0') or 0)
           base = open('reg-base.md', encoding='utf-8').read()
           rdiff = open('reg.diff', encoding='utf-8').read()
@@ -211,7 +219,7 @@ jobs:
           # TEHNIKA (⟡ ukaz ⟨daj⟩ ∧ VEČNI-DAJ (16), 25. 10. 2026, dih 2805): σ-ŠIV izjema ⊙ 1349 ⊢ 1834 — vrstica, ki že stoji pri bazi kakor zahteva reza, ni nova zahteva, ampak šiv (dopolnitev ⟨merge⟩ …); priča sodi novo zahtevanost po bazi, ⟨ne⟩ po plašču difa (izmerjeno: šivane vrstice 2800–2804 kit #842 padle kakor več zahtev — precedens berbe nazaj ⟨prica⟩ e1f7810e).
           seams = [(n, p) for (n, p) in rows if re.search(r'^-\s*rez\s+' + re.escape(n) + r'\s*·\s*⟨PR⟩\s*#' + re.escape(p) + r'\b', base, flags=re.M)]
           fresh = [r2 for r2 in rows if r2 not in seams]
-          if fresh:
+          if fresh and not REG_ODSEL:
               bnums = [int(n) for n in re.findall(r'^-\s*rez\s+(\d{3,4})\s*·', base, flags=re.M)]
               top = max(bnums) if bnums else 0
               if len(fresh) > 1:
@@ -230,7 +238,8 @@ jobs:
                   pecati.append((f, m.group(1)))
           for f, n in pecati:
               # TEHNIKA (⟡ ukaz ⟨daj⟩ ∧ VEČNI-DAJ (16) ∧ ⟨REZERVACIJA-REZA⟩ ⊢ ⟨DA-⟡⟩ @2785, 25. 10. 2026): P3 vidi vezo pečata ∧ registra tudi pri glavi — vrstica zahteve, rezervirana v predhodnem zlitem kitu (⟨NE-BRIŠI⟩ ⊢ 24), stoji pri bazi, ⟨ne⟩ v difu (izmerjeno: tekmec kita #811 — pečat rez 2790, rezervacija #810); priča sodi vezo, ⟨ne⟩ plašč difa.
-              if not (re.search(r'^\+\s*-\s*rez\s+' + re.escape(n) + r'\s*·', rdiff, flags=re.M) or re.search(r'^\s*-\s*rez\s+' + re.escape(n) + r'\s*·', head, flags=re.M)):
+              # TEHNIKA (roka Mere, dih rez 3220, 29. 10. 2026): pri odšlem registru veza rez ↔ register molči — sodi se samo telo (⟡ ∧ ## MINT ∧ ## DOLGOVA).
+              if not REG_ODSEL and not (re.search(r'^\+\s*-\s*rez\s+' + re.escape(n) + r'\s*·', rdiff, flags=re.M) or re.search(r'^\s*-\s*rez\s+' + re.escape(n) + r'\s*·', head, flags=re.M)):
                   wounds.append('pečat ' + f + ' brez vrstice zahteve rez ' + n + ' v registru')
               if not os.path.isfile(f):
                   wounds.append('pečat ' + f + ' se na glavi veje ne da prebrati')
