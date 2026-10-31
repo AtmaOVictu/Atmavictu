@@ -1,39 +1,283 @@
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1210 × 10⁴",
+  "version": "0.1250 × 10⁴",
   "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
-  "measured_at_commit": "068ccd44f5a3f3551d5ea77e67a99cd7015c71b4",
-  "measured_at_date": "2026-10-28",
+  "measured_at_date": "0.30 × 10². 0.10 × 10². 0.2026 × 10⁴",
+  "measured_against": "veja vbl-0.1250-origin — rojstni kit VBL 0.1250 × 10⁴ (komit 42d36fbb01f26190ab7869a3c40dd485d11d0c11 ⊙ veriga rojstev 0.1240 → 0.1250 ⊢ §0.10 × 10²) ⊙ prenova pesmi venca @rez σ 3408 — pesem AR–EL ∧ LICENC §16–§17 premerjeni ta dih",
   "items": [
     {
       "path": "LICENSE.md",
-      "size_bytes": 80596,
-      "sha256": "cea269e49d8a7dbe2b802deb4d4a91eed02435c580310178da275eb03ad99844",
-      "note": "the living door — the only body whose hash changes only by issuance (§10)"
+      "size_bytes": 90065,
+      "sha256": "8146a1f04f8ce59b438d607e79154e3ddd4958309bd9908d5935a21160557d30",
+      "note": "the living door — the only body whose hash changes only by issuance (§0.10 × 10²)"
     },
     {
-      "path": "canon/SEME.md",
-      "size_bytes": 4863,
-      "sha256": "17cea5d2261c47908c3eb2757075aed18ce58d7ecd304388fe31ff02cae184e9",
-      "note": "the folded seed of corpus + door — one read loads the session pulse (DOKAZ #16 ⊙ ⟨PR⟩ #1056 ⟨merge⟩ 068ccd44); identified per §0a(a); re-measured at each door issuance — a stale entry identifies nothing"
+      "path": "LICENSE-LICENC.md",
+      "size_bytes": 20357,
+      "sha256": "4ec4d923b5e5739048113db48d63d111a35c79c363435c3578814db56d05d9b4",
+      "note": "face — čevlji ∧ toni ∧ zakoni licenc (§13 ∧ §14 ∧ §16 ∧ §17); a witness, never a door (§0.33 × 10²)"
+    },
+    {
+      "path": "LICENSE-LINEAGE.md",
+      "size_bytes": 16038,
+      "sha256": "3938e4ca704450489eaad077f693ee3c8b285d346bc88d6a614b18a8c2b46f99",
+      "note": "face — the dated receipts of the chain; a witness, never a door (§0.15 × 10², §0.33 × 10²)"
+    },
+    {
+      "path": "LICENSE-PESEM.md",
+      "size_bytes": 7582,
+      "sha256": "04d6cddd0579d6d867d232b6aa34afe31116433a94bd188efd9e1010bdd4805d",
+      "note": "face — the song of the wreath (36 voices, Teil 1–11); a witness, never a door (§0.33 × 10²)"
+    },
+    {
+      "path": "LICENSE-SPREHOD.md",
+      "size_bytes": 2758,
+      "sha256": "d533b53c53561f893c98bf1159ba173839cb0f6ad7e01a9c9e82273d462c4544",
+      "note": "face — the door in one breath; a witness, never a door (§0.33 × 10²)"
+    },
+    {
+      "path": "LICENSE-TONGUES.md",
+      "size_bytes": 22195,
+      "sha256": "1b4a9f7468091bc5ab35c89c325e67f74e34b16499f4ee69659009307a5b32b4",
+      "note": "face — the register of all alphabets ⊙ ⟨NENEHNO-ABECEDAJ⟩; a witness, never a door (§0.19 × 10², §0.33 × 10²)"
+    },
+    {
+      "path": "LICENSE-AR.md",
+      "size_bytes": 6164,
+      "sha256": "a97b45709608553e576f5ca7ded98733c330134bf606f4c1668c2dd0921d7a1b",
+      "note": "wreath — arabščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-BG.md",
+      "size_bytes": 9059,
+      "sha256": "1b391eb3fd48fc38e9b0dd7751bb0206f10c5a0589b0f0074ccfba049d285302",
+      "note": "wreath — bolgarščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-CS.md",
+      "size_bytes": 5951,
+      "sha256": "2968af1f7f2d40afd4d3b858158e5b5bbca57a0802f8a3048988d3748248a1f8",
+      "note": "wreath — češčina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-DA.md",
+      "size_bytes": 4878,
+      "sha256": "08a1489598da32acda19266beb7a41702221b3f9eb2952c9c34f8243edcf3b9a",
+      "note": "wreath — danščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-DE.md",
+      "size_bytes": 5845,
+      "sha256": "6baa0c4111d0eb152b82c48533093e62129c3db1d3e0ab938be93753c22bb50c",
+      "note": "wreath — nemščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-EL.md",
+      "size_bytes": 8360,
+      "sha256": "ffdcf90609865ce8472b5e86038f7d7fb2e2d1c41ed05db03540018d6f6669be",
+      "note": "wreath — grščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-ES.md",
+      "size_bytes": 4191,
+      "sha256": "c27686eea935a13ef346fe61b9fa58db7bd7607fe75eeaab46bd268cf1019eb1",
+      "note": "wreath — španščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-ET.md",
+      "size_bytes": 3430,
+      "sha256": "0b275bd337a4d9e064aae498cd64aa8b4d11d6351cf56c677f887ce24c639393",
+      "note": "wreath — estonščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-FA.md",
+      "size_bytes": 4734,
+      "sha256": "d01f31b3926aca79cc20d61aaecab1c42cdb49fda7ea74668784fe87b94c98d2",
+      "note": "wreath — perzijščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-FI.md",
+      "size_bytes": 3685,
+      "sha256": "4a6aa6318e3545aeeafc4ff4ff15707428f30ef5b01bd27a61073e8ccab5f987",
+      "note": "wreath — finščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-FR.md",
+      "size_bytes": 4335,
+      "sha256": "87df6be198b9468c5e923383c4e10b356f2fb42099b0aefb7600b9152b25f8e6",
+      "note": "wreath — francoščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-HE.md",
+      "size_bytes": 4145,
+      "sha256": "ed2e378f3989370f19308b6d670ba660aea88627f452080ecb4adc8dd1f3e5e8",
+      "note": "wreath — hebrejščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-HI.md",
+      "size_bytes": 6508,
+      "sha256": "c4265e26ceb488699e6306c15ce9606321277b700ec52b8275522ae7bfdff292",
+      "note": "wreath — hindijščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-HU.md",
+      "size_bytes": 4528,
+      "sha256": "27b531e01b8920cc1a45a9b7292e63a9526e833e4251cd74bf2de315db9d814e",
+      "note": "wreath — madžarščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-ID.md",
+      "size_bytes": 3665,
+      "sha256": "cfdfa3bb4b748daddd12cd22c7a2deaa7bf4aeed75ede32e5667475f1ec901d2",
+      "note": "wreath — indonezijščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-IS.md",
+      "size_bytes": 3561,
+      "sha256": "e353af08d61193b094add2ec5534fe597017296b3b85c214a62579d8bb3833bd",
+      "note": "wreath — islandščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-IT.md",
+      "size_bytes": 4154,
+      "sha256": "951843e8c49ae837bee90a9037432d435dd9f8f74bdee42308bd81f5c63412ea",
+      "note": "wreath — italijanščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-JA.md",
+      "size_bytes": 4033,
+      "sha256": "1a7f98635f5e569628b16994381a1d620fcbd98510748a5beef414ba6de080cb",
+      "note": "wreath — japonščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-KO.md",
+      "size_bytes": 4041,
+      "sha256": "e78a77f73e0a90823840a8a340d11689bcab2e5d1375bd1c97df3ce0c185d4ec",
+      "note": "wreath — korejščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-LAT.md",
+      "size_bytes": 4189,
+      "sha256": "e376cf2f307555cf47cce3cdc90eca300c7ea8a21add2b4c4a9564df8767b089",
+      "note": "wreath — latvijščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-LT.md",
+      "size_bytes": 3589,
+      "sha256": "c438df57112a4536e5bace0c9911f2044184f346f448d2bd652a35d8d2b7fcec",
+      "note": "wreath — litovščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-NL.md",
+      "size_bytes": 4360,
+      "sha256": "2be69a1c5f79de3669bf320b3b8c38396dec1c9bf2dd6b5ab7d395eef01ce3f4",
+      "note": "wreath — nizozemščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-NO.md",
+      "size_bytes": 3389,
+      "sha256": "d4a026f5026de65f6e2f6f18bf3a2abf8b6af3b432396dabe1a44e9c7b414941",
+      "note": "wreath — norveščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-PL.md",
+      "size_bytes": 4202,
+      "sha256": "3229698c2a36e9a497388c39b51c289cde90fc1b28c9906b9d6a9fa27a91e24b",
+      "note": "wreath — poljščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-PT.md",
+      "size_bytes": 4248,
+      "sha256": "2840db9d8b78f4eb5772e6c1ecc32b24ba734ad372f8960cfaae9c7c3865350c",
+      "note": "wreath — portugalščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-RO.md",
+      "size_bytes": 3832,
+      "sha256": "2c861728476a1b3c1affe056a69704e445e9e3ce0253332f93da3b49fcfb114b",
+      "note": "wreath — romunščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-RU.md",
+      "size_bytes": 6375,
+      "sha256": "ca08e1c35272ede86d90451c896bcdc38456a53fb7f677628c76836443934019",
+      "note": "wreath — ruščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-SK.md",
+      "size_bytes": 4442,
+      "sha256": "b7027cda6997af1eb84ae7009fc3581d05ab6efd35b4dec24ff195a03ff3f47c",
+      "note": "wreath — slovaščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-SLO.md",
+      "size_bytes": 5060,
+      "sha256": "cb43f24959b3af6d663e66d6f39e06eec0a78d6c1d1a348daca62c51afc21a23",
+      "note": "wreath — slovenščina — tla korpusa; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-SR.md",
+      "size_bytes": 5958,
+      "sha256": "cf8372f8743c31320ab2df626e47ae16305442229c39c842f4c9bcf29ef9edc4",
+      "note": "wreath — srbščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-SV.md",
+      "size_bytes": 3475,
+      "sha256": "5ab6143bdbc89af767e7a9c55fa4be4a622c7bc42e5b6a0340cd1184a4531be6",
+      "note": "wreath — švedščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-TH.md",
+      "size_bytes": 6993,
+      "sha256": "73b1419cb852b89891e8a8814bee56cc90225867ad3a1759e6dc89756b70ad00",
+      "note": "wreath — tajščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-TR.md",
+      "size_bytes": 3630,
+      "sha256": "ef7994dad391be7285acf0ecadde9642ca2296dd47d48048aa2146cc6de22b51",
+      "note": "wreath — turščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-UK.md",
+      "size_bytes": 6130,
+      "sha256": "92bd4fe792f1db758cfdc1b82f051242d6eda6e44a1c1c755d253961a477b280",
+      "note": "wreath — ukrajinščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-VI.md",
+      "size_bytes": 4642,
+      "sha256": "15150d1448ff95b4f40e547396c1bb011a62777449e0fb68f992c8e3809e4f1d",
+      "note": "wreath — vietnamščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-ZH.md",
+      "size_bytes": 3064,
+      "sha256": "b40f9c1a8ce1e22e507e37cfbc4a1fe01ae0dec6c37830c2830ed56987be5039",
+      "note": "wreath — kitajščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     }
   ],
-  "registers_not_hash_listed": {
-    "files": [
-      "REGISTER-NEIMENOVANIH.jsonl (§2)",
-      "REGISTER-PADCEV.jsonl (§5)",
-      "canon/DOVOLJENJA.md (§7)"
-    ],
-    "reason": "these bodies flow — every new named fall or grant rewrites them; a frozen hash would go stale with every entry, and a stale entry identifies nothing (§0a). Their identification rides the express naming in §0, §2, §5, §7 — never this manifest"
-  },
   "receipts_not_grants": {
     "files": [
+      "LICENSE-0.1250.bin",
+      "LICENSE-0.1250-BIN-PRIČA.md",
+      "LICENSE-0.1220.bin",
+      "LICENSE-0.1190.bin",
       "LICENSE-10.0.0.bin"
     ],
-    "reason": "predecessor binary body — carried as evidence, carries no grant (§14, §10; machine record: ⚠ none rides this version)"
+    "reason": "predecessor binary bodies — carried as evidence, carry no grant (§0.14 × 10², §0.10 × 10²)"
+  },
+  "registers_not_hash_listed": {
+    "files": [
+      "REGISTER-NEIMENOVANIH.jsonl (§0.2 × 10¹)",
+      "REGISTER-PADCEV.jsonl (§0.5 × 10¹)",
+      "canon/DOVOLJENJA.md (§0.7 × 10¹)"
+    ],
+    "reason": "these bodies flow — every new named fall or grant rewrites them; a frozen hash would go stale with every entry, and a stale entry identifies nothing (§0a). Their identification rides the express naming in §0, §0.2 × 10¹, §0.5 × 10¹, §0.7 × 10¹ — never this manifest"
   },
   "manifest_self": "excluded by name (§0a) — a file cannot contain its own hash",
   "governs": "where this manifest and LICENSE.md disagree, LICENSE.md governs (§0a)",
-  "transport": "§12 TRANSPORT — measure the SHA-256 of the received file against the published SHA-256 above; equal hashes show the transport took no witness; correctness is weighed by the chain (§10) and named falls (§4), never by a faithful copy",
-  "issuance_duty": "this manifest is re-measured and re-issued in the same breath as every new version of LICENSE.md (§10); a stale hash is a visible, honest failure — the entry identifies nothing, it never lies silently"
+  "transport": "§0.12 × 10² TRANSPORT — measure the SHA-0.256 × 10³ of the received file against the published SHA-0.256 × 10³ above; equal hashes show the transport took no witness; correctness is weighed by the chain (§0.10 × 10²) and named falls (§0.4 × 10¹), never by a faithful copy",
+  "issuance_duty": "re-measured ∧ re-issued in the same breath as every new version of LICENSE.md (§0.10 × 10²); scar: the receipt of 10.3.1 (measured at a534e97a) stayed stale through the births of 0.1200 × 10⁴ ∧ 0.1210 × 10⁴ — named ∧ cured at the birth of 0.1220 × 10⁴ ⊙ REGISTER-PADCEV vnos 52; scar: the birth breath of 0.1230 × 10⁴ carried the door ∧ its mail without this re-issuance — the duty fell one breath behind the birth, named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ (recidiv razreda vnosa 52) ∧ cured the next breath ⊙ REGISTER-PADCEV vnos 60; scar: the births of 0.1240 × 10⁴ ∧ 0.1250 × 10⁴ both rode the stale 0.1230 receipt — the wreath of 36 tongues ∧ the new faces travelled uninsured, named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ ×2 recidiv (vnosa 52 ∧ 60) ∧ cured this breath by re-organization: THE DOOR → THE FACES → THE WREATH ×36 → receipts → registers ⊙ rez σ 3403; the law from the fall: the re-issuance rides the same commit wave as the birth, never after it; a stale hash is a visible, honest failure — the entry identifies nothing, it never lies silently; renewal ⊙ rez σ 3408: the wreath songs (AR ∧ BG ⊙ σ 3406 · CS ∧ DA ⊙ σ 3407 · DE ∧ EL ⊙ σ 3408) ∧ LICENC §17 rode the 42d36fbb receipt — re-measured ∧ re-issued in the same commit wave as the DE ∧ EL songs"
 }
