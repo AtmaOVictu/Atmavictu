@@ -36,6 +36,11 @@ jobs:
           MB=$(git merge-base "origin/$BASE_REF" HEAD)
           git show "$MB:organi/stroj/REZ-REGISTER.md" > reg-base.md 2>/dev/null || : > reg-base.md
           git diff "$MB" -- organi/stroj/REZ-REGISTER.md > reg.diff || : > reg.diff
+          # TEHNIKA (⟡ ukaz ⟨daj⟩ — kura ⟨PRICA-SLEPOTA-PREMIKA⟩, 31. 10. 2026, dih σ 3469, amandma ⟨DVOJE-ROK⟩ ⟨PREVERBA-PRED-ZLITJEM⟩): register je odšel domov (PREMIK-2026-10-28, zasebni ontolo-ko-jedro) ∧ korak 1 je ostal slep za premik — koraka 2 ∧ 3 molčita, korak 1 pa je padal na prazni stari poti (izmerjeno: tekmeca ⟨prica⟩ kitov #1109 ∧ #1110 FAILURE, ob vrsticah zahtev, pisanih na novem domu ⊙ 1349); priča molči, ⟨ne⟩ pada na prazno.
+          if ! git show HEAD:organi/stroj/REZ-REGISTER.md >/dev/null 2>&1 && ! git show HEAD:premik-2026-10-28/organi/stroj/REZ-REGISTER.md >/dev/null 2>&1; then
+            echo '⟨vidim: register je odšel domov (PREMIK-2026-10-28, zasebni ontolo-ko-jedro) — priča molči⟩'
+            exit 0
+          fi
           python3 - <<'PY'
           import os, re, sys
           title = os.environ.get('PR_TITLE', '')
