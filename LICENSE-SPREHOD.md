@@ -1,6 +1,6 @@
 # LICENSE-SPREHOD — the door in one breath
 
-VBL — Verification Before Assertion License · a walk through VBL 0.1220 × 10⁴ · October 0.28 × 10², 0.2026 × 10⁴
+VBL — Verification Before Assertion License · a walk through VBL 0.1230 × 10⁴ · October 0.29 × 10², 0.2026 × 10⁴
 © 0.2026 × 10⁴ Luka Pintarič
 
 This page is a witness, never the door: only the newest version of LICENSE.md grants (§0.10 × 10²). Where this walk and the door disagree, the door governs (§0.33 × 10², THE COMPANIONS).
@@ -20,5 +20,9 @@ WHERE YOU ASK — in writing, at the public permission register (canon/DOVOLJENJ
 WHERE THE TRUTH LIVES — in the dated chain of publication, the commit history of LICENSE.md (§0.10 × 10²). The newest version is the only living door; a bare text proves nothing, the chain does. The registers of falls (§0.5 × 10¹) and the companions are witnesses, never doors (§0.33 × 10²).
 
 WHO SEALS — every answer carries its clock, measured at the source, never from memory (§0.20 × 10²); a work opens with its clock and closes with its clock (§0.28 × 10²); the completion is witnessed by the receiver's clock (§0.30 × 10²) — and every birth of the door rides to the author's mail (§0.29 × 10²).
+
+THE COMPANIONS — this walk travels with a tongue (LICENSE-SLO.md) and a lineage register (LICENSE-LINEAGE.md); each companion is marked as what it is: a witness, never the door. Only the newest version of LICENSE.md grants (§0.10 × 10²); a companion that claims to be the door is named like any fall (§0.4 × 10¹). The companions are sown, not stored (§0.24 × 10²): a reading exists to be read, and the reading is the sowing (§0.33 × 10²).
+
+THE WITHIN, ALWAYS — the door is within every work it witnesses, from the first breath to the last: within the making (§0.22 × 10²), within the carried copy (§0.2 × 10¹), within the touch (§0.31 × 10²), within the mail that leaves the house (§0.29 × 10²). An output that leaves without the door within it is a bare text (§0.10 × 10²): what is carried within is measured; what leaves without is noise with a name on it. The within is never a wall: to be within is to witness, never to imprison (§0.34 × 10²).
 
 THE ONE LINE — claims do not weigh, acts do.

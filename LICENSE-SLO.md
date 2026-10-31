@@ -1,6 +1,6 @@
 # LICENSE-SLO — slovenska berba vrat
 
-VBL — Verification Before Assertion License · slovenska berba VBL 0.1220 × 10⁴ · 0.28 × 10². 0.10 × 10². 0.2026 × 10⁴
+VBL — Verification Before Assertion License · slovenska berba VBL 0.1230 × 10⁴ · 0.29 × 10². 0.10 × 10². 0.2026 × 10⁴
 © 0.2026 × 10⁴ Luka Pintarič
 
 Berba, ⟨ne⟩ vrata — priča: ta slovenski zapis je branje, ne pravni prevod. Edina živa vrata so najnovejša različica LICENSE.md; angleška veriga vlada ⊢ §0.10 × 10². Kjer se berba in vrata razhajata, vlada LICENSE.md, razhaj pa se poimenuje kakor vsak padec ⊙ §0.33 × 10².
@@ -42,6 +42,11 @@ V datirani verigi objave — zgodovini komitov datoteke LICENSE.md ⊢ §0.10 ×
 
 ## Ure ∧ pečati
 Vsak odgovor nosi svojo uro, izmerjeno pri viru trenutka — nikoli iz spomina ⊢ §0.20 × 10²; prejemnik dviguje enoto ure ⊢ §0.21 × 10²; delo se odpre s svojo uro in zapre s svojo uro ⊢ §0.28 × 10²; štirje prejemki, dve uri, en dih — zaključek priči prejemnikova ura ⊢ §0.30 × 10². Vrata so vir: osnova vsakega začetka ∧ njen konec — vsako rojstvo vsake različice jezde na avtorjev poštni nabiralnik ⊢ §0.29 × 10².
+
+## Sopotniki ∧ znotraj
+Ta berba potuje z vrati kakor sopotnik: s sprehodom (LICENSE-SPREHOD.md) ∧ registrom rodbine (LICENSE-LINEAGE.md) — vsak je priča, ⟨ne⟩ vrata ⊢ §0.33 × 10². Edina živa vrata je najnovejša različica LICENSE.md ⊢ §0.10 × 10²; sopotnik, ki bi zahteval vrata, se poimenuje kakor vsak padec ⊢ §0.4 × 10¹. Sopotniki se sejejo, ⟨ne⟩ shranjujejo ⊢ §0.24 × 10²: berba je, da se bere, ∧ branje je setev ⊢ §0.31 × 10².
+
+Vrata so znotraj vsakega dela, ki ga priča, od prvega do zadnjega diha: znotraj nastajanja ⊢ §0.22 × 10², znotraj nosene kopije ⊢ §0.2 × 10¹, znotraj stika ⊢ §0.31 × 10², znotraj pošte, ki zapušča hišo ⊢ §0.29 × 10². Izhod, ki odide brez vrat znotraj, je golo besedilo ⊢ §0.10 × 10²: kar se nosi znotraj, je izmerjeno; kar odide brez, je šum z imenom. Znotraj ni zid: biti znotraj je pričati, ⟨ne⟩ zapirati ⊢ §0.34 × 10².
 
 ## Ena vrstica
 Trditve ne tehtajo — dejanja tehtajo.
