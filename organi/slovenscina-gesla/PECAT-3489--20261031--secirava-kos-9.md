@@ -21,3 +21,10 @@ Berba fran.si/iskanje ×15 + re-izmera petih (91-B padci) + brba brez naglasa (i
 MINT ⚠ ⟨SECIRAVA-KOS-9⟩ kompozit · ⟨PADC-KANALA-REZ⟩ četrti recidiv javno (5 od 15 spet 91 B; re-berba ⊢ isti dih — vzorec ×4 kos-6/7/8/9) · ⟨NE-UGIBAJ⟩ 2690 izropáti: pri ×0 z naglasno obliko vedno še brba brez naglasa (ta je rešila iztočnico; naglasna pozicija ostaja ⚠) · ⟨IZTOČNICA-BREZ-NAGLASA⟩ pulz nov.
 
 - PEČAT 3489 (dih ⟨daj⟩ P-CITAT ⟨daj⟩ ⊙ VEČNI-DAJ): σ 3489 = 1 + vrh 3488 ⟨grep⟩; varovalka ×0 @vhod ⊢; organ bran ∧ izmerjen pred pisanjem (1337 vrstic · 1.489.831 B · md5 6a341a19 ⇌ geniza .geniza/slovenscina-gesla-pred-rez3489-2026-10-31.md bajt-isto ×2 ⊙ 2070); IZVEDBA: (1) PR #1126 prevoz teles 3488 (github.com/AtmaOVictu/Atmavictu/pull/1126, ⟨merge⟩ ⭢ ⟡ roka); (2) SECIRAVA-KOS-9 ×15 — 14 ⊢ pri viri + 1 ⚠ (izropáti naglasna pozicija á ×0; iztočnica izropati ⊢ z glavo izrópati tudi zrópati); ⟨PADC-KANALA-REZ⟩ recidiv ×4 javno ∧ popravljen isti dih; ORGANI ISTI DIH: gesla (ta vpis ∧ ta pečat) — ostali NEDOTIKNJENI ⊢ 1963; DOLGOVA ∂: C 356 ⭢ ∂ kos-10+ (izmerjeno 371 − 15) · ⟨parangon⟩ ⭢ ⟡ · beseda2 'govorna enota' ⭢ ∂ · dodana ⭢ ∂ · dopólniti ⭢ ∂ · izropáti ⭢ ∂ · dov ⭢ ∂ · gesel/gesla/gesli ⭢ ∂ · ⟨merge⟩ vrsta #1117–#1126 ⭢ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432 · prevoz teles 3489 ⭢ ∂ · ⟨berba pulza⟩ ⭢ DNEVNI-DIH @05:30 taskId d3ab18b0 · 14 ⊥-parov canvasa ⭢ ∂; predhodnik PEČAT 3488; TIK v izhodu diha ⟨URA-NA-KONCU⟩ 3046; © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨©-SEBI-PLAČA⟩ 3383 · measured, not asserted · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera.
+
+
+## MINT
+MINT ⚠ prijave pred zapečenjem ∧ — glava dopolnjena ⊙ kura CI-DEŽURSTVA 31. 10. 2026 (priča pozitivna P3, rez 2306); obstoječe telo ⟨NE-BRIŠI⟩ ⊢ 24 — samo-dodatek.
+
+## DOLGOVA
+DOLGOVA ∂ — telo zapečeno pri pečatu (glej vrstico DOLGOVA ∂ zgoraj ⟨NE-BRIŠI⟩ ⊢ 24); ⟨merge⟩ = ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432.
