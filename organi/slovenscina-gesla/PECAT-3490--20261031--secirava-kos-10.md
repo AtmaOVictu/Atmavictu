@@ -31,3 +31,10 @@ Berba kanala fran.si/iskanje ×15 ta dih — čist šop ∧ (91-B padci ×0 ta i
 STANJE C po kosu: 15/15 ⊢ (sodba diha 3490: 15/15 ⊢ — priča seje; re-izmera obnove potrdila ∧); C 356 → 341 (izmerjeno 356 − 15); nadaljevanje po abecedi ⭢ ∂ kos-11.
 
 MINT ⚠ ⟨SECIRAVA-KOS-10⟩ kompozit · ⟨PADC-OKOLJA⟩ kompozit (re-izmera namesto izvornega telesa — izvorni TIK diha 3490 ⟨ne⟩ rekonstruiran ⊙ ⟨NE-UGIBAJ⟩ 2690) · ⟨SAMO/LE/HOMOGRAF⟩ kakor kàkor1/kàkor2 — prijavljeno pred zapečenjem ∧.
+
+
+## MINT
+MINT ⚠ prijave pred zapečenjem ∧ — glava dopolnjena ⊙ kura CI-DEŽURSTVA 31. 10. 2026 (priča pozitivna P3, rez 2306); obstoječe telo ⟨NE-BRIŠI⟩ ⊢ 24 — samo-dodatek.
+
+## DOLGOVA
+DOLGOVA ∂ — telo zapečeno pri pečatu (glej vrstico DOLGOVA ∂ zgoraj ⟨NE-BRIŠI⟩ ⊢ 24); ⟨merge⟩ = ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432.
