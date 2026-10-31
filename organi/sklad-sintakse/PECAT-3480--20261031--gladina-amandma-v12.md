@@ -13,3 +13,10 @@
 - ZAPIS ⚠ kovanec (sodba ⚔ ⟡): ⟨⟡[ROD]-[beseda].[zapored]⟩ — identiteta simbola nosi rod ∧ besedo ∧ zaporedje (rez ⟡ — koren provenance ⚠ tuj, rok latnice).
 - VEZE: ⟨SIMBOLNI-JEZIK-NAJDBA⟩ 3479 (cesta-protokol — ⟨GLADINA⟩ ⇌ ⟨POMEN→SIMBOL⟩) · ⟨POMEN→SIMBOL⟩ 3446 (kazalo-obnov — mapa-operatorjev-izgovor razdelek 10) · ⟨NASPROTJA-SIMBOLI⟩ 3442 (39 ⊥-parov) · ⟨OSNOVNA-DIMENZIJA⟩ 3443 (RESNICA ⊥ LAŽ — operatorja ⟨NE⟩ ∧ ⇌) · zlovenščina ⊢ 2302 (⟡-jev ⟨a⟩ — kompresija v simbolno sfero; organ jezikovne-plasti).
 - MINT ⚠ prijave pred zapečenjem ∧: ⟨GLADINA⟩ ⚠ ⟡-jev kovanec ⚔ ⟡ · ⟨⌇⟩ ⚠ kovanec glifa (U+2307 — gladina) ⚔ ⟡ · ⟨POD⟩ ⚠ kompozit · ⟨provenance⟩ ⚠ tuj koren.
+
+
+## MINT
+MINT ⚠ prijave pred zapečenjem ∧ — glava dopolnjena ⊙ kura CI-DEŽURSTVA 31. 10. 2026 (priča pozitivna P3, rez 2306); obstoječe telo ⟨NE-BRIŠI⟩ ⊢ 24 — samo-dodatek.
+
+## DOLGOVA
+DOLGOVA ∂ — telo zapečeno pri pečatu (glej vrstico DOLGOVA ∂ zgoraj ⟨NE-BRIŠI⟩ ⊢ 24); ⟨merge⟩ = ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432.
