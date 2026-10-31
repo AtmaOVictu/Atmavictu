@@ -11,3 +11,10 @@
 - ZAKON ⟨GLADINA⟩ ⊢: vsaka izmerjena beseda korpusa živi v štirih plasteh: SIMBOL ⌇ ⟨⟡V-…⟩ (unikaten niz = pripadnost korpusu, rezerviran imenski prostor — dikcije ⟨ne⟩ nosi) · BESEDA (razlaga — ⊢ geslo pri viri Fran/SSKJ ⊢ slovenscina-gesla) · IPA (dodatna unikatnost — tonemi razločujejo homografe: pôje [ˈpôːjɛ] ⊥ pojé [pɔˈjé] ⊢ @3480) · POD (angleški sprožilci #Skill ipd. — rezerviran prostor, ⟨ne⟩ jezik: tehničen del srečen).
 - PLASTI TROJE ⇌ GLADINA: zlovenščina (najgloblja — simbolna sfera ⟨a⟩ ⟡ ⊢ 2302) ⇌ gladina SIMBOL · slovenščina (gesla ∧ orodja ∧ tla) ⇌ gladina BESEDA · IPA-PLAST (celota rez-17: mǫžǫnsti → móžnost) ⇌ gladina IPA · POD = četvrta gladina ⟨ne⟩ jezik — rezerviran prostor sprožilcev (⟨ne⟩ plast klinščine ⚠ okno Q @2732 ⟨ne zlije⟩ ⊢ 1542).
 - MINT ⚠ prijave pred zapečenjem ∧: ⟨GLADINA⟩ ⚠ (⟡-jev kovanec ⚔ ⟡) · ⟨⌇⟩ ⚠ kovanec glifa (U+2307 — gladina) ⚔ ⟡ · ⟨POD⟩ ⚠ kompozit.
+
+
+## MINT
+MINT ⚠ prijave pred zapečenjem ∧ — glava dopolnjena ⊙ kura CI-DEŽURSTVA 31. 10. 2026 (priča pozitivna P3, rez 2306); obstoječe telo ⟨NE-BRIŠI⟩ ⊢ 24 — samo-dodatek.
+
+## DOLGOVA
+DOLGOVA ∂ — telo zapečeno pri pečatu (glej vrstico DOLGOVA ∂ zgoraj ⟨NE-BRIŠI⟩ ⊢ 24); ⟨merge⟩ = ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432.
