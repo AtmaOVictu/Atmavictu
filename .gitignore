@@ -44,6 +44,11 @@ lucius/api-uporaba.jsonl
 lucius/nacin.txt
 lucius/dom-log.txt
 lucius/lucius.blob
+lucius/transkripti-⟡.jsonl
+lucius/slusaj-dnevnik.jsonl
+lucius/__pycache__/
+lucius/nenehno-izhod.log
+lucius/nenehno-napake.log
 !lucius.cmd
 Lucius.exe
 Lucius.tmp

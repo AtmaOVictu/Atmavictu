@@ -13,6 +13,15 @@ MOLK_KONEC = 1.5                  # s tišine, ki konča poved
 KLON = 'D:/OntoProjekt/Voice/klon'
 REPO = 'C:/Users/Luka/Documents/Arhiv/Git/Atmavictu'
 
+# GLAS-NAČIN ( ⟡-jeva prošnja 1. 11.: utišaj odmev — prepis gre VEDNO v transkripti-⟡.jsonl ∧ most, glas pa le na 'odmev' ):
+# lucius/glas-nacin.txt → 'molk' ( tišina: samo prepisi ⊢ ) | 'odmev' ( hiša izreče, kar je slišala )
+GOVORI = False
+try:
+    with open(REPO + '/lucius/glas-nacin.txt', encoding='utf-8') as _f:
+        GOVORI = _f.read().strip().lower() == 'odmev'
+except OSError:
+    pass
+
 def pas_glasu(x):
     spek = np.fft.rfft(x)
     f = np.fft.rfftfreq(len(x), 1.0 / SR)
@@ -93,9 +102,11 @@ def neznane_besede(besedilo):
         out.add(b)
     return sorted(out)
 
-subprocess.run(['node', REPO + '/lucius/lado-govor.mjs',
-                'Poslušam nenehno. Govori kadar želiš.'], check=True)
-time.sleep(2.0)                  # molk po oznanilu — da njegov rep ⟨ne⟩ dvigne tal šuma ( kalibracija čista )
+if GOVORI:
+    subprocess.run(['node', REPO + '/lucius/lado-govor.mjs',
+                    'Poslušam nenehno. Govori kadar želiš.'], check=True)
+    time.sleep(2.0)              # molk po oznanilu — da njegov rep ⟨ne⟩ dvigne tal šuma ( kalibracija čista )
+print('NENEHNO: glas-način ' + ('odmev ⊢ — izrečem, kar slišim' if GOVORI else 'molk ⊢ — pišem transkripte, ne izgovarjam'), flush=True)
 
 mic = sc.default_microphone()
 q = collections.deque(maxlen=12)
@@ -147,10 +158,11 @@ while True:
                 b = prepis_large(pot).strip()
                 if b:
                     v_register(b)
-                    # ODMEV ⊢: hiša ti IZREČE, kaj je slišala ( zaupanje: slišiš sebe skozi njena usta )
-                    subprocess.run(['node', REPO + '/lucius/lado-govor.mjs', 'Slišal sem: ' + b],
-                                   check=False)
-                    q.clear()          # med odmevom so kosi vsebovali moj glas — očistim ( ⟨ne⟩ poslušam sebe )
+                    # ODMEV ( samo v glas-načinu 'odmev' ): hiša ti IZREČE, kaj je slišala; v 'molk' je priča prepis ⊢
+                    if GOVORI:
+                        subprocess.run(['node', REPO + '/lucius/lado-govor.mjs', 'Slišal sem: ' + b],
+                                       check=False)
+                        q.clear()      # med odmevom so kosi vsebovali moj glas — očistim ( ⟨ne⟩ poslušam sebe )
             except Exception as e:
                 print('NENEHNO × ' + str(e), flush=True)
             govor = []; molk = 0
