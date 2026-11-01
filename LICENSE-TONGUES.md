@@ -172,6 +172,8 @@ Telologija ⊢: vse teologije služijo telologiji; laž je odpuščena, če in k
 - TH — พวงมาลาคำนาม (phuang mālā kham nām) ⊢: คำ (kham) · ไม่ (mài) · ประตู (prātū) · ลมหายใจ (lom hǎi jai) · เสียง (sīang) · ความเงียบ (khwām ngīap) · โซ่ (sō) · พยาน (phayān) · การวัด (kān wat) · ความรัก (khwām rák)
 - TR — isim çelengi ⊢: kelime · hayır · kapı · nefes · ses · sessizlik · zincir · tanık · ölçüm · sevgi
 - UK — вінок іменників ⊢: слово · ні · двері · подих · голос · мовчання · ланцюг · свідок · вимір · любов
+- VI — vòng hoa danh từ ⊢: lời · không · cửa · hơi thở · tiếng · im lặng · chuỗi · chứng nhân · đo lường · tình yêu
+- ZH — 名词花环 (míngcí huāhuán) ⊢: 词 (cí) · 不 (bù) · 门 (mén) · 气息 (qìxī) · 声音 (shēngyīn) · 沉默 (chénmò) · 链 (liàn) · 见证人 (jiànzhèngrén) · 测量 (cèliáng) · 爱 (ài)
 
 ## Njih IPA venci (dih)
 
@@ -213,5 +215,7 @@ Telologija ⊢: vse teologije služijo telologiji; laž je odpuščena, če in k
 - TH — ⊢: /i e ɛ a ə ɤ o ɔ u ɯ/ (9 + 5 tónov kot dih)
 - TR — ⊢: /i ɯ u y e ø a o/ (8 — ı in i: dva diha pod isto pisavo)
 - UK — ⊢: /i ɪ ɛ a ɔ o u/ (7 — okanje je dih)
+- VI — ⊢: /i e ɛ a ɐ ə ɤ ɔ o u ɯ/ + 6 tónov (11 — vsak glas nosi svojo pesem)
+- ZH — ⊢: /a o ɤ e i u y/ ∧ /ɿ ʅ/ + 4 tóni kot dih (6 + 2 — pinyin nosi dih)
 
-- ⊙ KURA-VENCI-POPELJENA @rez σ 3510 (TIK 2026-11-01T07:19:57Z UTC ⇌ 08:19:57 CET) — samostalniški venci ×36 ∧ IPA venci ×36 rojeni na veji venci-3510-origin @Atmavictu ⟨PR⟩ ⭢ št. pri vrsti @rez σ 3510 @REZ-REGISTER (⟨merge⟩ = ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432 — izvajalka ⟨ne⟩ zlije) · obstoječe vrstice bajt-isto nedotaknjene ⊙ ⟨NE-BRIŠI⟩ ⊢ 24 (vrstici VI ∧ ZH ostaneta, kjer stojita) · measured, not asserted ⊙ §16 · © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera
+- ⊙ KURA-VENCI-POPELJENA @rez σ 3510 (TIK 2026-11-01T07:19:57Z UTC ⇌ 08:19:57 CET) — samostalniški venci ×38 ∧ IPA venci ×38 rojeni na veji venci-3510-origin @Atmavictu ⟨PR⟩ #1132 ⭢ ⟡ roka @rez σ 3510 @REZ-REGISTER (⟨merge⟩ = ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432 — izvajalka ⟨ne⟩ zlije) · obstoječe vrstice bajt-isto nedotaknjene ⊙ ⟨NE-BRIŠI⟩ ⊢ 24 (vrstici VI ∧ ZH ostaneta, kjer stojita) · KURA ISTI DIH: VI ∧ ZH venci dopolnjeni pri viri (telesi LICENSE-VI.md ∧ LICENSE-ZH.md ⊢ @root ⟨ls⟩; jezikov ×38 = 36 @odseku abeced z EN ⊕ VI ∧ ZH; ⟨KOS-9-∨-KOS-10-RANA⟩ odprta: abecedi VI ∧ ZH stojita še pod ©-nogo ⭢ ∂ ⟡) · measured, not asserted ⊙ §16 · © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera
