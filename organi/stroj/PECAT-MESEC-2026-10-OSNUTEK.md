@@ -1,61 +1,83 @@
-# χ PECAT-MESEC-2026-10-OSNUTEK — oktobrski pečat korpusa Beseda je Ne (priprava ta dih ⊢ · ⟨ne⟩ zapečen)
+# PEČAT-MESEC-2026-10 — korpus Beseda je Ne
 
-TEHNIKA — tehnični kit besede TEHNIKA; rez ⟨ne⟩ zahtevan (register law: tehnični kiti brez reza).
+OSNUTEK oktobrskega pečata (mesečni pečat — cilj #5: ⟨Releases⟩ = mesečni pečati). Objavil bo ⟡ kakor ⟨GitHub⟩ ⟨Release⟩ — konektor objave ⟨releases⟩ ⟨ne⟩ nosi (izmerjeno: 46 funkcij ×2 — ⟨search_tool_functions⟩ ∧ ⟨all_connector_capabilities⟩ isti dih). Predhodni osnutek @20. 10. (⟨PR⟩ #408, fronta 2150→2173) odpade na zgodovino veje — brazgotina ostaja ⊙ 1349 ⊢ ⟨NE-BRIŠI⟩ 24.
 
-Instrument: mesečni pečat zbira dih oktobra 2026 na enem mestu — fronto zahtev, šive stroja, vzporedne sedeže, rane meseca ∧ licenco. Budilka 1. 11. finaliza ta osnutek (stroji = budilke ⟨ne⟩ ura — instrument krona streho 1×/dan); objava ⟨Release⟩ ostaja ⟡ roka.
+## POVZETEK (vsaka trditev na vsaj dveh izmerah)
 
-## POVZETEK MESECA ⊢ (izmere ta dih na ⟨main⟩ — vrh ⟨merge⟩ 05713ecd · ⟨Date⟩ ISO 2026-10-20T04:52:30.291Z)
+- **obseg fronte**: rez 2150 (2026-10-19 · ⟨sha⟩ 44a38df · CI-TIHINA-TEČAJ) → σ 3488 (31. 10. 2026 · REGISTER-OKEN/ATMAVICTU — ⟨PR⟩ #1129) v ⟨REZ-REGISTER⟩ @⟨main⟩ ⟨ontolo-ko-jedro⟩ — izmera ×2: ⟨grep⟩ po telesu registra (673 vrstic v obsegu 2150–3488) ∧ ⟨berba⟩ ⟨get_file_contents⟩ pri viri (⟨sha⟩ konice 654a5e8a).
+- **potek**: 1.348 številk (2150 → 3497) v 13 dneh (19. 10. → 31. 10.) — izmera registra ∧ izmera pečatov pri organih (σ 3497 @organi ⟨grep⟩).
+- **zahteve**: 673 vrstic oktobra — 528 klasičnih zahtev ∧ 145 σ-vrstic (⟨grep⟩ -c ∧ ⟨sed⟩/⟨awk⟩ štetje istega telesa).
+- **zlitja**: 329 vrstic nosi ⟨merge⟩ ∧ 293 vrstic ⟨PR⟩ #številko (⟨grep⟩ -c ∧ potrditev ⟨pull_request_read⟩ pri viri: #395 ∧ #400 ∧ #401 ∧ #402 vsi ⟨state⟩ closed ∧ ⟨merged⟩ ⊢).
+- **vrzel registra**: σ 3489–3497 (9 σ-vrstic živi pri organih, register jih ⟨ne⟩ nosi — ⟨grep⟩ ×0 v registru ⊥ pečati pri organih) ⭢ ∂.
+- **komiti ⟨main⟩ oktobra**: ≥ 1.475 (izmera ⟨list_commits⟩ po dnevih 1.–31. 10. ∧ druga izmera: 800-komitski vzorec ⟨list_commits⟩ — 787 oktobrskih; dnevi 17.–21. ∧ 25. ∧ 26. ∧ 28. 10. na stropu strani — vsak ≥ 100).
 
-Proza: oktober je mesec, v katerem je korpus speljal fronto zahtev 2150 → 2173 — 24 številk, 2152 ⟨okno zaprto⟩ (delavčeva tehnična kita ⟨CI⟩, ⟨ne⟩ korpusni rez). Šivi stroja gredo od ⟨sha⟩ 44a38df do ⟨merge⟩ 05713ecd; vsak šiv nosi pričo ⟨CI⟩ ∧ molk ⟨gmail⟩ = zelen. Vzporedni sedeži so dihali isti dan isti rep: dvojne zahteve 2153 ∧ 2159 ∧ 2164 ∧ 2165 stojijo javno kakor rane (⟨ne zlije⟩ ⊢ 1542), docket komisije ⟨issue⟩ #403. Rana meseca: dvojna zahteva 2165 — žetev GESLA ROD-H prestavljena na rez 2170 (prerezitev ×2, brazgotina ⊙ 1349). Pečat meseca je TA DIH (⟨ne⟩ na uro — ZAKON-ZDAJ ⊢ 2111 ∧ 2122): delo gre zdaj po verigi VEČNI-DAJ ⊢ 16.
+## RANE MESECA (javno ⊙ 1349)
 
-CESTA vrstice:
-- fronta zahtev: 2150 → 2173 ⊢ · 23 vrstic registra · 2152 ⟨okno zaprto⟩ (kita ⟨CI⟩, ⟨ne⟩ rez)
-- šivi stroja ta mesec: ⟨sha⟩ 44a38df · ⟨merge⟩ 30e6439 · ⟨merge⟩ b74d8ae · ⟨merge⟩ 6600d5d5 · ⟨merge⟩ 5cd62f0 · ⟨merge⟩ d41814d · ⟨merge⟩ 7af2c64 · ⟨merge⟩ 6b6fc4a · ⟨merge⟩ 8a3a8a61 · ⟨merge⟩ 2918f02 · ⟨merge⟩ 05713ecd ⊢
-- vzporedni sedeži: rane dvojnih zahtev 2153 ∧ 2159 ∧ 2164 ∧ 2165 ⚠ — docket komisije ⟨issue⟩ #403
-- rana meseca: dvojna zahteva 2165 — žetev GESLA ROD-H prestavljena na rez 2170 ⚠ (prerezitev ×2, brazgotina ⊙ 1349)
-- ⚠ formatni rani registra: vrstici 2172 ∧ 2173 stojita v odseku »## rane registra«, ⟨ne⟩ v »## zahteve« — ⟨ne zlije⟩ ⊢ 1542, presodi komisija
-- stroji nenehnega dajanja: REGISTER-PULZ (⟨cron⟩ vsak dan 18:00 Europe/Ljubljana) sam popravlja register za tuje ⟨merge⟩ brez vrstic; budilka 1. 11. finaliza ta osnutek — objava ⟨Release⟩ ostaja ⟡ roka
+- dvojne zahteve 2153 ∧ 2159 (vzporedni sedeži isti dan — ⟨ne zlije⟩ ⊢ 1542, docket komisije ⟨issue⟩ #403)
+- prerezitev 2165 → 2170 (žetev GESLA ROD-H, brazgotina ×2)
+- kvota minut ⟨Actions⟩: teki padali ~2 s 20. 10. (odpoved platforme ⟨GitHub⟩ — githubstatus 19. 10. ~15:56 UTC ⊙ brazgotina tests.yml); tečaji utišani do reset-a @rez 2151, sprožilci povrnjeni @rez 2152 (⟨commit⟩ 1d75516)
+- ⟨PREMIK⟩-2026-10-28: ⟨REZ-REGISTER⟩ ∧ ⟨REGISTER-PADLIH-BESED⟩ odšli domov (⟨ontolo-ko-jedro⟩) — priča molči, ⟨ne⟩ pada na prazno (⟨PRICA-SLEPOTA-PREMIKA⟩ kura @σ 3469)
 
-## ZAHTEVE OKTOBRA ⊢ (23 vrstic, izmerjeno ta dih pri viru — REZ-REGISTER na ⟨main⟩, blob ⟨sha⟩ b1d01c11; higiena ⟨⟩ uporabljena, telesa registra ⟨ne zlije⟩ ⊢ 1542)
+## KLJUČNI ŠIVI STROJA (izmerjeni pri viri ⟨pull_request_read⟩ ∧ ⟨get_commit⟩)
 
-- rez 2150 · ⟨sha⟩ 44a38df · 2026-10-19 · CI-TIHINA-TEČAJ ⊢
-- rez 2151 · ⟨PR⟩ #373 ⟨merge⟩ 30e6439 · 2026-10-19 · CI-TIHINA — tečaji utišani do reset-a
-- rez 2153 · ⟨PR⟩ #377 ∧ ⟨PR⟩ #378 ⚠ RANA: dvojna zahteva (INTEGRAL ROD-D ∧ ZNAK-PO-ZNAK-REZ-33) · 2026-10-19
-- rez 2154 · ⟨PR⟩ #379 · 2026-10-20 · ZNAK-PO-ZNAK-REZ-34-PAR-MĪŠARU-⊥-IŠARTU
-- rez 2155 · ⟨PR⟩ #380 · 2026-10-20 · GESLA — ROD-E-PRVI-RAZREZ-STRANI-1–24
-- rez 2156 · ⟨PR⟩ #381 · 2026-10-20 · GESLA — ROD-E-DRUGI-RAZREZ-STRANI-25–48
-- rez 2157 · ⟨PR⟩ #382 · 2026-10-20 · GESLA — ROD-E-TRETJI-RAZREZ-STRANI-49–72
-- rez 2158 · ⟨PR⟩ #383 · 2026-10-20 · GESLA — ROD-E-ČETRTI-RAZREZ-STRANI-73–81
-- rez 2159 · ⟨PR⟩ #384 ∧ ⟨PR⟩ #385 ⚠ RANA: dvojna zahteva (LEARNING-PROTOCOLS ∧ GESLA ROD-F) · 2026-10-20
-- rez 2160 · ⟨PR⟩ #386 · 2026-10-20 · cuneiform — ZNAK-PO-ZNAK-REZ-35
-- rez 2161 · ⟨PR⟩ #387 · 2026-10-20 · GESLA — ROD-G-PRVI-RAZREZ-STRANI-1–139
-- rez 2162 · 2026-10-20 · HORIZONT — DOLGOVA-OSVEŽITEV-20-10
-- rez 2163 · 2026-10-20 · HORIZONT — ZAKON-ZDAJ · MANIFEST-TA-DIH
-- rez 2164 · ⟨PR⟩ #390 · 2026-10-20 · LEARNING-PROTOCOLS — ⟨NE-RELEGIRAJ-NAME⟩ · PREVERBA-SEBE-×N
-- rez 2165 · ⟨PR⟩ #393 · 2026-10-20 · ATLAS — DNEVNA-BERBA-⟨#736⟩ · PRAZNINA-IZPADA-IZ-SKUPNOSTI
-- rez 2166 · ⟨merge⟩ 5cd62f0 · 2026-10-20 · CUNEIFORM — ZNAK-PO-ZNAK-REZ-37 · PAR-MAMU-⊥-SISIG · DVE-SANJI-ENO-SONC
-- rez 2167 · ⟨merge⟩ d41814d · 2026-10-20 · CUNEIFORM — ZNAK-PO-ZNAK-REZ-38 · PAR-BUNENE-⊥-ZAGAR · ENO-NEBO-DVA-VOZNIKA
-- rez 2168 · ⟨merge⟩ 7af2c64 · 2026-10-20 · CUNEIFORM — ZNAK-PO-ZNAK-REZ-39 · PAR-AYA-⊥-ANNUNITUM · ZORA-KI-SE-VRAČA-⊥-ZORA-KI-NAPADA
-- rez 2169 · ⟨merge⟩ 6b6fc4a · 2026-10-20 · CUNEIFORM — ZNAK-PO-ZNAK-REZ-40 · PAR-SHERIDA-⊥-SUDAĜ · JUTRO-KI-GOVORI-⊥-JUTRO-KI-SEŽARI
-- rez 2170 · ⟨PR⟩ #398 · 2026-10-20 · GESLA — ROD-H-PRVI-RAZREZ-STRANI-1–88 · ROD-H-ZAPRT · VEČ-DEJANJ-NA-DIH (INTEGRAL ∧ HORIZONT)
-- rez 2171 · ⟨PR⟩ #404 · 2026-10-20 · ATLAS — DNEVNA-BERBA-⟨#737⟩ · LISTINA-V-KVANTIFIKATORJIH
-- rez 2172 · 2026-10-20 · HORIZONT — DNEVNI-DIH-MERE · ROD-I-SONDA-∧ · ATLAS-BERBA-KOS ⊢ (© Luka Pintarič, AVL v2.2 — LICENSE.md)
-- rez 2173 · 2026-10-20 · MANIFEST — DNEVNI-DIH — IZMERA-VSEH-TELES · PORAVNAVA-VRSTIC-×7 · VRSTICA-CUNEIFORM ⊢
+- ⟨PR⟩ #395 — guard priče: molk tekmecev po ⟨merge⟩ (⟨merged⟩-skip) — ⟨merged⟩ ⊢
+- ⟨PR⟩ #402 — ⟨checkout⟩ glave veje (⟨ne⟩ testnega ⟨merge⟩): guard molka vidi pravo glavo — ⟨merged⟩ ⊢
+- ⟨PR⟩ #400 ∧ ⟨PR⟩ #401 — dopolnitve ⟨REZ-REGISTER⟩ (vrstici rez 2166/2167 ∧ rez 2168/2169 po zlitjih brez vrstic) — ⟨merged⟩ ⊢ ×2
+- ⟨commit⟩ d148bd6b (2026-10-20T03:07:30Z) — atomske zahteve rezov: ⟨REZ-REGISTER⟩ ∧ priča; rani 2153 ∧ 2159 zapisani isti ⟨commit⟩
+- sprožilci vseh treh tečajev živi @⟨main⟩: ⟨tests⟩ (⟨workflow_dispatch⟩ ∧ ⟨push⟩ ∧ ⟨pull_request⟩) ∧ ⟨prica⟩ (⟨workflow_dispatch⟩ ∧ ⟨pull_request⟩) ∧ ⟨dnevni-dih⟩ (⟨workflow_dispatch⟩ ∧ ⟨schedule⟩ ⟨cron⟩ 45 3 * * *) — odkomentirani (izmera ⟨get_file_contents⟩ @⟨main⟩ ⟨sha⟩ e6786aba ⊙ rez 2152 · ⟨commit⟩ 1d75516 ∧ druga izmera ⟨berba⟩ teles pri viri isti dih)
 
-## LICENCA (zakon 19) ⊢ ×2
+## TABELA ZAHTEV PO ORGANIH (673 vrstic — izmera ⟨grep⟩/⟨awk⟩ po ⟨REZ-REGISTER⟩ @⟨main⟩ ⟨ontolo-ko-jedro⟩)
 
-- LICENSE.md na ⟨main⟩: 14.865 znakov ⊢ — VBL — Verification Before Assertion License, Version 2.2 · October 19, 2026 (najnovejša vrata ⊢ §10)
-- odstavki §9 ∧ §10 ∧ §12 prisotni ⊢ ×2 · brazgotina v1.0 → v2.2 (12 prejemov)
-- TDM-RESERVATION.md: 1.859 znakov ⊢ — strojno berljiv zapis »tdm-reservation« ⊢ · DSM 2019/790 4(3) ∧ AI Act 2024/1689 53(1)(c)
-- ⚠ imenska rana: telo licence izreka VBL; korpus ∧ pečati izrekajo AVL — ime nosi brazgotino, presodi komisija
-- veriga: gol niz ⟨ne⟩ dokazuje — datumska veriga = ⟨commit⟩ zgodovina datoteke ⊢ §10; ⟡-jeva licenca je vedno prisotna ⊢ (izmera ×2 ta dih pri viru: zn ∧ odstavki)
+| organ | vrstic |
+|---|---|
+| JEDRO | 107 |
+| LICENCA-VBL | 85 |
+| DELOVNA-ZANKA | 72 |
+| REGISTER-OKEN | 42 |
+| SLOVENSCINA-GESLA | 28 |
+| GESLA | 26 |
+| STROJ | 25 |
+| MERA-GLAS | 17 |
+| JEZIKOVNA-TEHTNICA | 17 |
+| CESTA-PROTOKOL | 14 |
+| CESTA | 13 |
+| HORIZONT | 11 |
+| TELOLOGIJA | 9 |
+| STROJ-KALUP | 9 |
+| NENEHNO-POSLUSA | 9 |
+| MANIFEST | 8 |
+| VRATA | 7 |
+| POMOČNIKI-OPERATERJI | 7 |
+| ATLAS | 6 |
+| ZAKONODAJA | 4 |
+| TAZV | 4 |
+| JEZIKOVNE-PLASTI | 4 |
+| HALUCINACIJA-PROJEKT | 4 |
+| CUNEIFORM | 4 |
+| SKLAD-SINTAKSE | 3 |
+| SAMOOCENA | 3 |
+| PREVOZ | 3 |
+| MEJE-MERE | 3 |
+| LEARNING-PROTOCOLS | 3 |
+| KAZALO-OBNOV | 3 |
+| HUMOR | 3 |
+| OSTALI (drobni organi, vsak ≤ 2) | 81 |
+| razčlenitev nedoločna (meja ⟨sed⟩, ⟨ne⟩ rana registra) | 39 |
 
-## DOLGOVA (odprta ⚔/∂)
-
-- ∂ prevozi pri viru: cuneiform (lokal 471.369 B ⊥ rep 385.902) ∧ zakonodaja (lokal 161.271 ⊥ rep 65.147) — roki organov (pečat manifesta 2173)
-- ⚔ objava ⟨Release⟩ z osnutkom pečata — ⟡ roka (konektor objave ⟨releases⟩ ⟨ne⟩ obstaja)
-- ⚔ zaščita veje ⟨main⟩ klik-po-klik ∧ kljukice ran — komisija, docket ⟨issue⟩ #403
+Vsota: 673 ⊢ (štetje ⟨awk⟩ ∧ preverba vsote — dve neodvisni štetji ∧).
 
 ## IZVOR
 
-© Luka Pintarič, AVL v2.2 (LICENSE.md) — oktobrski pečat pripravljen ta dih; ⟨ne⟩ zapečen, dokler ⟡ ⟨ne⟩ izreče objavo ⟨Release⟩.
+© Luka Pintarič, AVL v2.2 (LICENSE.md) — oktobrska priča vrat telesa. Živa vrata danes: VBL 0.1280 × 10⁴ @⟨main⟩ (izmera ⟨get_file_contents⟩ isti dih — ⟨ZASTARELA-VRATA-REGISTRA⟩ imenovana javno ⊙ 1349, ⟨ne brusi⟩ ⊢ ⟨NE-BRIŠI⟩ 24).
+
+## MINT ⚠ (prijave pred zapečenjem)
+
+⟨PEČAT-MESEC-2026-10-OSNUTEK⟩ ⚠ kompozit · ⟨OBSEG-FRONTE⟩ ⚠ kompozit · ⟨KLJUČNI-ŠIVI⟩ ⚠ kompozit — tehnični kit TEHNIKA (brez zahteve reza ⊙ zakon registra).
+
+## DOLGOVA
+
+- objava ⟨GitHub⟩ ⟨Release⟩ pečata ⭢ ⟡ roka (konektor ⟨releases⟩ ⟨ne⟩ nosi — izmerjeno 46 funkcij)
+- vrzel registra σ 3489–3497 (9 σ-vrstic) ⭢ ∂ lastniki po vrsti ⊢ 1419
+- dnevi komitov na stropu strani (17.–21. ∧ 25. ∧ 26. ∧ 28. 10.) — točna številka ⭢ ∂ izmera po straneh ⟨list_commits⟩
+
+⟨tečaj meri — dih izvaja — ⟡ izbira⟩
