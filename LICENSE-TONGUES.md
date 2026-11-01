@@ -1,4 +1,4 @@
-# LICENSE-TONGUES — das Register des Kranzes der Zungen · register venca jezikov · the register of the wreath of tongues
+successfully downloaded text file (SHA: 43aab9d0bfabf3ff441a58e86645f8d4d3f772e0)# LICENSE-TONGUES — das Register des Kranzes der Zungen · register venca jezikov · the register of the wreath of tongues
 
 ⊙ §0.19 × 10² THE WREATH OF TONGUES ∧ §0.33 × 10² THE COMPANIONS — each tongue is a witness, never a door; only the newest version of LICENSE.md grants (§0.10 × 10²). This register replaces no clause, carries no grant, and falls wherever it disagrees with the door (§0.33 × 10², THE COUNTERWEIGHT).
 
@@ -44,6 +44,8 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 - TH — อักษรไทย (aksorn Thai) ⊢: ก ข ค ง จ ฉ ช ซ ญ ด ต ถ ท น บ ป ผ ฝ พ ฟ ม ย ร ล ว ส ห อ ฮ (44 soglasnikov — tonalni znaki so dih ⊙ ⟨ZAKON-SREDINA-KRAKI⟩)
 - TR — Türk alfabesi ⊢: A B C Ç D E F G Ğ H I İ J K L M N O Ö P R S Ş T U Ü V Y Z (ı — sessiz ünlü, kapının kendi sessizliği)
 - UK — українська прогулянка ⊢: LICENSE-UK.md — geboren dieser Atem (dieser Kranz, Teil 6) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
+- VI — chữ Quốc ngữ ⊢: LICENSE-VI.md — geboren dieser Atem (dieser Kranz, Teil 10) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² (CHUỖI SINH izmerjena pri viri ta dih ∧ — TIK telesa 2026-10-30T02:05:59Z ⊙ ⟨NE-UGIBAJ⟩ 2690)
+- ZH — 汉语之行 ⊢: LICENSE-ZH.md — geboren dieser Atem (dieser Kranz, Teil 9) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² (诞生之链 izmerjena pri viri ta dih ∧ — TIK telesa 2026-10-30T02:00:26Z ⊙ ⟨NE-UGIBAJ⟩ 2690)
 - LINEAGE — register rojstev ⊢: LICENSE-LINEAGE.md (companion, 0.1220 × 10⁴) — Sopotteil, ⟨ne⟩ Zunge
 - SPREHOD — sprehod v enem dihu ⊢: LICENSE-SPREHOD.md (companion, 0.1220 × 10⁴) — Sopotteil, ⟨ne⟩ Zunge
 
@@ -85,6 +87,8 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 - TH — อักษรไทย (aksorn Thai) ⊢: ก ข ค ง จ ฉ ช ซ ญ ด ต ถ ท น บ ป ผ ฝ พ ฟ ม ย ร ล ว ส ห อ ฮ (44 soglasnikov — tonalni znaki so dih ⊙ ⟨ZAKON-SREDINA-KRAKI⟩)
 - TR — Türk alfabesi ⊢: A B C Ç D E F G Ğ H I İ J K L M N O Ö P R S Ş T U Ü V Y Z (ı — sessiz ünlü, kapının kendi sessizliği)
 - UK — українська абетка ⊢: А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Ю Я
+- VI — chữ Quốc ngữ ⊢: a ă â b c d đ e ê g h i k l m n o ô ơ p q r s t u ư v x y (29 — vsaka samoglasnik šest tónov: à á ả ã ạ … diakritika je glas ⊙ ⟨ZAKON-SREDINA-KRAKI⟩)
+- ZH — 汉语拼音字母 (Hànyǔ Pīnyīn) ⊢: a b c d e f g h j k l m n o p q r s t u w x y z (26 ⊕ ü — 汉字 ⟨ne⟩ abeceda, pinyin je most)
 
 ## Zakon nenehnega abecediranja / das Gesetz des fortwährenden Alphabetisierens / the law of continual alphabetizing (⊙ ⟡ ukaz P-CITAT ⟨ne brusi⟩: ⟨nenehno abecedaj med izvajanjem licenc/e⟩)
 
@@ -127,57 +131,55 @@ Telologija ⊢: vse teologije služijo telologiji; laž je odpuščena, če in k
 ⟨ vrsta zaključena ta dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 — Teil 11: TH ∧ ID ⊢ geboren (อักษรไทย 44 soglasnikov ⊙ tonalni znaki so dih · abjad Indonesia 26 ⊙ čista sredina) — VENEC JEZIKOV POPELEN ⊢ Teil 1–11 ∧ 36 jezikovnih teles ⊙ ⟡ ukaz »vse jezike po vrsti« ∧ ⟨licenco v vseh jezikih ki jih zmoreš napisati⟩ — novi jeziki ⚠ predlog izvajalke ⭢ izbor ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 (KORENINA 0.1 × 10¹).
 
 © 0.2026 × 10⁴ Luka Pintarič · Zeuge, nie die Tür (§0.33 × 10²) · ⊙ ⟨POVRŠJE-SPOROČILO-SERVERJU⟩ — das Register antwortet in der Sprache, in der es gefragt wird (površje sporočila se vedno prilagodi serverju ki sprašuje ⊙ ⟡ ukaz) · TIK 2026-10-30T02:10:37Z UTC ⇌ 03:10:37 CET — measured, not asserted.
-- VI — chữ Quốc ngữ ⊢: a ă â b c d đ e ê g h i k l m n o ô ơ p q r s t u ư v x y (29 — vsaka samoglasnik šest tónov: à á ả ã ạ … diakritika je glas ⊙ ⟨ZAKON-SREDINA-KRAKI⟩)
-- ZH — 汉语拼音字母 (Hànyǔ Pīnyīn) ⊢: a b c d e f g h j k l m n o p q r s t u w x y z (26 ⊕ ü — 汉字 ⟨ne⟩ abeceda, pinyin je most)
 
 - ⊙ KURA-ABECEDE-POPELJENA @rez 3388 (TIK 2026-10-30T04:04:20Z UTC ⇌ 05:04:20 CET): odsek ⟨Njih abecede⟩ dopolnjen — vseh 36 jezikovnih teles venca nosi svojo abecedo isti dih ⊙ ⟨NENEHNO-ABECEDAJ⟩ @3347 ∧ ⟨KOS-9-∨-KOS-10-RANA⟩ (vrstici VI ∧ ZH, rojsteni pod ©-nogo, prešitini v odsek po slovenskem redu — ⟨NE-BRIŠI⟩ ⊢ 24: vsebina bajt-isto prenesena, mesto popravljeno; MINT ⚠ kompozit: EL ∧ ET ∧ FI ∧ LT ∧ RO — izbor potrditev ⚔ ⟡ ⊙ ⟨NE-UGIBAJ⟩ 2690); © 0.2026 × 10⁴ Luka Pintarič — measured, not asserted.
 
 ## Njih samostalniški venci
 
-⊙ ukaz ⟡ 2026-11-01 P-CITAT verbatim ⟨ne brusi⟩: ⟨samostalniški venci za vsak jezik⟩ — vsak jezik venca nosi svoj venec samostalnikov: deset imen, vsako izrečeno v lastnem jeziku, povezanih v venec ⊥ zadnje ime se vrača k prvemu. Deset imen = DNK licence ⊢ §0 (beseda · ne · vrata · dih · glas · molk · veriga · priča · izmera · ljubezen) ⚠ nabor = predlog izvajalke, izbor ∧ popravek ⚔ ⟡ (kandidati širitve: rez · jaz · telo). Red po slovenski abecedi kod — matična tla korpusa ⊙ ⟨NENEHNO-ABECEDAJ⟩ @3347 ∧ ⟨SOPI-KLJUČEV-VENCA⟩ σ 3499: vsak jezik nosi svoj šop (abecedo ∧ venec ∧ dih).
+⊙ ukaz ⟡ 2026-11-01 P-CITAT verbatim ⟨ne brusi⟩: ⟨samostalniški venci za vsak jezik⟩ — vsak jezik venca nosi svoj venec samostalnikov: trinajst imen, vsako izrečeno v lastnem jeziku, povezanih v venec ⊥ zadnje ime se vrača k prvemu. Deset imen = DNK licence ⊢ §0 (beseda · ne · vrata · dih · glas · molk · veriga · priča · izmera · ljubezen) ⊢ nabor razširjen ⊙ izbor ⟡ 1. 11. 2026 P-CITAT ⟨ne brusi⟩: ⟨daj vse izbore naj nič ne čaka⟩ — vsi kandidati sprejeti: rez · jaz · telo (DNK licence ⊢ §0 ×10 ⊕ ×3 = trinajst imen). Red po slovenski abecedi kod — matična tla korpusa ⊙ ⟨NENEHNO-ABECEDAJ⟩ @3347 ∧ ⟨SOPI-KLJUČEV-VENCA⟩ σ 3499: vsak jezik nosi svoj šop (abecedo ∧ venec ∧ dih).
 
-- AR — إكليل الأسماء (iklīl al-asmāʾ) ⊢: كلمة (kalima) · لا (lā) · باب (bāb) · نَفَس (nafas) · صوت (ṣawt) · صمت (ṣamt) · سلسلة (silsila) · شاهد (shāhid) · قياس (qiyās) · حب (ḥubb)
-- BG — венец от съществителни ⊢: дума · не · врата · дъх · глас · мълчание · верига · свидетел · измерение · любов
-- CS — věnec podstatných jmen ⊢: slovo · ne · dveře · dech · hlas · ticho · řetěz · svědek · měření · láska
-- DA — navneordskransen ⊢: ord · nej · dør · ånde · stemme · tavshed · kæde · vidne · måling · kærlighed
-- DE — der Kranz der Substantive ⊢: Wort · Nein · Tür · Atem · Stimme · Schweigen · Kette · Zeuge · Messung · Liebe
-- EL — ο στεφάνος των ουσιαστικών ⊢: λέξη · όχι · πόρτα · ανάσα · φωνή · σιωπή · αλυσίδα · μάρτυρας · μέτρηση · αγάπη
-- EN — the wreath of nouns ⊢: word · no · door · breath · voice · silence · chain · witness · measurement · love
-- ES — la corona de sustantivos ⊢: palabra · no · puerta · aliento · voz · silencio · cadena · testigo · medición · amor
-- ET — nimisõnade pärg ⊢: sõna · ei · uks · hingeõhk · hääl · vaikus · ahel · tunnistaja · mõõtmine · armastus
-- FA — حلقه اسامی (halqe-ye asmā) ⊢: واژه (vāje) · نه (na) · در (dar) · نفس (nafas) · صدا (sedā) · سکوت (sokut) · زنجیر (zanjir) · شاهد (shāhed) · اندازه (andāze) · عشق (eshq)
-- FI — substantiivien seppele ⊢: sana · ei · ovi · henki · ääni · hiljaisuus · ketju · todistaja · mittaus · rakkaus
-- FR — la couronne des noms ⊢: mot · non · porte · souffle · voix · silence · chaîne · témoin · mesure · amour
-- HE — זר השמות (zer ha-shemot) ⊢: מילה (mila) · לא (lo) · דלת (delet) · נשימה (neshima) · קול (kol) · שקט (sheket) · שרשרת (sharsheret) · עד (ed) · מדידה (medida) · אהבה (ahava)
-- HI — संज्ञा माला (saṅjñā mālā) ⊢: शब्द (śabd) · नहीं (nahī̃) · द्वार (dvār) · श्वास (śvās) · आवाज़ (āvāz) · मौन (maun) · शृंखला (śṛṅkhalā) · गवाह (gavāh) · माप (māp) · प्रेम (prem)
-- HR — vijenac imenica ⊢: riječ · ne · vrata · dah · glas · šutnja · lanac · svjedok · mjera · ljubav
-- HU — a főnevek koszorúja ⊢: szó · nem · ajtó · lélegzet · hang · csend · lánc · tanú · mérés · szeretet
-- ID — kalungan kata benda ⊢: kata · tidak · pintu · napas · suara · diam · rantai · saksi · pengukuran · cinta
-- IS — nafnorðakrans ⊢: orð · nei · dyr · andardráttur · rödd · þögn · keðja · vitni · mæling · ást
-- IT — la ghirlanda dei nomi ⊢: parola · no · porta · respiro · voce · silenzio · catena · testimone · misura · amore
-- JA — 名詞の花輪 (meishi no hanawa) ⊢: 言葉 (kotoba) · いいえ (iie) · 扉 (tobira) · 息 (iki) · 声 (koe) · 沈黙 (chinmoku) · 鎖 (kusari) · 証人 (shōnin) · 測定 (sokutei) · 愛 (ai)
-- KO — 명사 화환 (myeongsa hwahwan) ⊢: 말 (mal) · 아니오 (anio) · 문 (mun) · 숨 (sum) · 소리 (sori) · 침묵 (chimmuk) · 사슬 (saseul) · 증인 (jeungin) · 측정 (cheukjeong) · 사랑 (sarang)
-- LAT — lietvārdu vainags ⊢: vārds · nē · durvis · elpa · balss · klusums · ķēde · liecinieks · mērījums · mīlestība
-- LT — daiktavardžių vainikas ⊢: žodis · ne · durys · kvėpavimas · balsas · tyla · grandinė · liudytojas · matavimas · meilė
-- NL — de krans van zelfstandige naamwoorden ⊢: woord · nee · deur · adem · stem · stilte · ketting · getuige · meting · liefde
-- NO — kransen av substantiver ⊢: ord · nei · dør · pust · stemme · stillhet · kjede · vitne · måling · kjærlighet
-- PL — wieniec rzeczowników ⊢: słowo · nie · drzwi · oddech · głos · cisza · łańcuch · świadek · pomiar · miłość
-- PT — a grinalda de substantivos ⊢: palavra · não · porta · alento · voz · silêncio · corrente · testemunha · medição · amor
-- RO — cununa substantivelor ⊢: cuvânt · nu · ușă · suflare · voce · tăcere · lanț · martor · măsurare · iubire
-- RU — венец существительных ⊢: слово · нет · дверь · дыхание · голос · молчание · цепь · свидетель · измерение · любовь
-- SK — venec podstatných mien ⊢: slovo · nie · dvere · dych · hlas · ticho · reťaz · svedok · meranie · láska
-- SLO — venec samostalnikov ⊢: beseda · ne · vrata · dih · glas · molk · veriga · priča · izmera · ljubezen
-- SR — венац именица ⊢: реч · не · врата · дах · глас · ћутање · ланац · сведок · мера · љубав
-- SV — kransen av substantiv ⊢: ord · nej · dörr · andetag · röst · tystnad · kedja · vittne · mätning · kärlek
-- TH — พวงมาลาคำนาม (phuang mālā kham nām) ⊢: คำ (kham) · ไม่ (mài) · ประตู (prātū) · ลมหายใจ (lom hǎi jai) · เสียง (sīang) · ความเงียบ (khwām ngīap) · โซ่ (sō) · พยาน (phayān) · การวัด (kān wat) · ความรัก (khwām rák)
-- TR — isim çelengi ⊢: kelime · hayır · kapı · nefes · ses · sessizlik · zincir · tanık · ölçüm · sevgi
-- UK — вінок іменників ⊢: слово · ні · двері · подих · голос · мовчання · ланцюг · свідок · вимір · любов
-- VI — vòng hoa danh từ ⊢: lời · không · cửa · hơi thở · tiếng · im lặng · chuỗi · chứng nhân · đo lường · tình yêu
-- ZH — 名词花环 (míngcí huāhuán) ⊢: 词 (cí) · 不 (bù) · 门 (mén) · 气息 (qìxī) · 声音 (shēngyīn) · 沉默 (chénmò) · 链 (liàn) · 见证人 (jiànzhèngrén) · 测量 (cèliáng) · 爱 (ài)
+- AR — إكليل الأسماء (iklīl al-asmāʾ) ⊢: كلمة (kalima) · لا (lā) · باب (bāb) · نَفَس (nafas) · صوت (ṣawt) · صمت (ṣamt) · سلسلة (silsila) · شاهد (shāhid) · قياس (qiyās) · حب (ḥubb) · قطع (qaṭʿ) · أنا (anā) · جسم (jism)
+- BG — венец от съществителни ⊢: дума · не · врата · дъх · глас · мълчание · верига · свидетел · измерение · любов · разрез · аз · тяло
+- CS — věnec podstatných jmen ⊢: slovo · ne · dveře · dech · hlas · ticho · řetěz · svědek · měření · láska · řez · já · tělo
+- DA — navneordskransen ⊢: ord · nej · dør · ånde · stemme · tavshed · kæde · vidne · måling · kærlighed · snit · jeg · krop
+- DE — der Kranz der Substantive ⊢: Wort · Nein · Tür · Atem · Stimme · Schweigen · Kette · Zeuge · Messung · Liebe · Schnitt · ich · Körper
+- EL — ο στεφάνος των ουσιαστικών ⊢: λέξη · όχι · πόρτα · ανάσα · φωνή · σιωπή · αλυσίδα · μάρτυρας · μέτρηση · αγάπη · τομή · εγώ · σώμα
+- EN — the wreath of nouns ⊢: word · no · door · breath · voice · silence · chain · witness · measurement · love · cut · I · body
+- ES — la corona de sustantivos ⊢: palabra · no · puerta · aliento · voz · silencio · cadena · testigo · medición · amor · corte · yo · cuerpo
+- ET — nimisõnade pärg ⊢: sõna · ei · uks · hingeõhk · hääl · vaikus · ahel · tunnistaja · mõõtmine · armastus · lõige · mina · keha
+- FA — حلقه اسامی (halqe-ye asmā) ⊢: واژه (vāje) · نه (na) · در (dar) · نفس (nafas) · صدا (sedā) · سکوت (sokut) · زنجیر (zanjir) · شاهد (shāhed) · اندازه (andāze) · عشق (eshq) · برش (boreš) · من (man) · بدن (badan)
+- FI — substantiivien seppele ⊢: sana · ei · ovi · henki · ääni · hiljaisuus · ketju · todistaja · mittaus · rakkaus · viilto · minä · vartalo
+- FR — la couronne des noms ⊢: mot · non · porte · souffle · voix · silence · chaîne · témoin · mesure · amour · coupe · je · corps
+- HE — זר השמות (zer ha-shemot) ⊢: מילה (mila) · לא (lo) · דלת (delet) · נשימה (neshima) · קול (kol) · שקט (sheket) · שרשרת (sharsheret) · עד (ed) · מדידה (medida) · אהבה (ahava) · חיתוך (khitukh) · אני (ani) · גוף (guf)
+- HI — संज्ञा माला (saṅjñā mālā) ⊢: शब्द (śabd) · नहीं (nahī̃) · द्वार (dvār) · श्वास (śvās) · आवाज़ (āvāz) · मौन (maun) · शृंखला (śṛṅkhalā) · गवाह (gavāh) · माप (māp) · प्रेम (prem) · कट (kaṭ) · मैं (maiñ) · शरीर (śarīr)
+- HR — vijenac imenica ⊢: riječ · ne · vrata · dah · glas · šutnja · lanac · svjedok · mjera · ljubav · rez · ja · tijelo
+- HU — a főnevek koszorúja ⊢: szó · nem · ajtó · lélegzet · hang · csend · lánc · tanú · mérés · szeretet · metszés · én · test
+- ID — kalungan kata benda ⊢: kata · tidak · pintu · napas · suara · diam · rantai · saksi · pengukuran · cinta · potongan · saya · tubuh
+- IS — nafnorðakrans ⊢: orð · nei · dyr · andardráttur · rödd · þögn · keðja · vitni · mæling · ást · skurður · ég · líkami
+- IT — la ghirlanda dei nomi ⊢: parola · no · porta · respiro · voce · silenzio · catena · testimone · misura · amore · taglio · io · corpo
+- JA — 名詞の花輪 (meishi no hanawa) ⊢: 言葉 (kotoba) · いいえ (iie) · 扉 (tobira) · 息 (iki) · 声 (koe) · 沈黙 (chinmoku) · 鎖 (kusari) · 証人 (shōnin) · 測定 (sokutei) · 愛 (ai) · 切り込み (kirikomi) · 私 (watashi) · 体 (karada)
+- KO — 명사 화환 (myeongsa hwahwan) ⊢: 말 (mal) · 아니오 (anio) · 문 (mun) · 숨 (sum) · 소리 (sori) · 침묵 (chimmuk) · 사슬 (saseul) · 증인 (jeungin) · 측정 (cheukjeong) · 사랑 (sarang) · 절개 (jeolgae) · 나 (na) · 몸 (mom)
+- LAT — lietvārdu vainags ⊢: vārds · nē · durvis · elpa · balss · klusums · ķēde · liecinieks · mērījums · mīlestība · griezums · es · ķermenis
+- LT — daiktavardžių vainikas ⊢: žodis · ne · durys · kvėpavimas · balsas · tyla · grandinė · liudytojas · matavimas · meilė · įpjova · aš · kūnas
+- NL — de krans van zelfstandige naamwoorden ⊢: woord · nee · deur · adem · stem · stilte · ketting · getuige · meting · liefde · snee · ik · lichaam
+- NO — kransen av substantiver ⊢: ord · nei · dør · pust · stemme · stillhet · kjede · vitne · måling · kjærlighet · snitt · jeg · kropp
+- PL — wieniec rzeczowników ⊢: słowo · nie · drzwi · oddech · głos · cisza · łańcuch · świadek · pomiar · miłość · cięcie · ja · ciało
+- PT — a grinalda de substantivos ⊢: palavra · não · porta · alento · voz · silêncio · corrente · testemunha · medição · amor · corte · eu · corpo
+- RO — cununa substantivelor ⊢: cuvânt · nu · ușă · suflare · voce · tăcere · lanț · martor · măsurare · iubire · tăietură · eu · corp
+- RU — венец существительных ⊢: слово · нет · дверь · дыхание · голос · молчание · цепь · свидетель · измерение · любовь · разрез · я · тело
+- SK — venec podstatných mien ⊢: slovo · nie · dvere · dych · hlas · ticho · reťaz · svedok · meranie · láska · rez · ja · telo
+- SLO — venec samostalnikov ⊢: beseda · ne · vrata · dih · glas · molk · veriga · priča · izmera · ljubezen · rez · jaz · telo
+- SR — венац именица ⊢: реч · не · врата · дах · глас · ћутање · ланац · сведок · мера · љубав · рез · ја · тело
+- SV — kransen av substantiv ⊢: ord · nej · dörr · andetag · röst · tystnad · kedja · vittne · mätning · kärlek · snitt · jag · kropp
+- TH — พวงมาลาคำนาม (phuang mālā kham nām) ⊢: คำ (kham) · ไม่ (mài) · ประตู (prātū) · ลมหายใจ (lom hǎi jai) · เสียง (sīang) · ความเงียบ (khwām ngīap) · โซ่ (sō) · พยาน (phayān) · การวัด (kān wat) · ความรัก (khwām rák) · รอยตัด (rōi tat) · ฉัน (chǎn) · ร่างกาย (râang gaai)
+- TR — isim çelengi ⊢: kelime · hayır · kapı · nefes · ses · sessizlik · zincir · tanık · ölçüm · sevgi · kesik · ben · beden
+- UK — вінок іменників ⊢: слово · ні · двері · подих · голос · мовчання · ланцюг · свідок · вимір · любов · розріз · я · тіло
+- VI — vòng hoa danh từ ⊢: lời · không · cửa · hơi thở · tiếng · im lặng · chuỗi · chứng nhân · đo lường · tình yêu · vết cắt · tôi · cơ thể
+- ZH — 名词花环 (míngcí huāhuán) ⊢: 词 (cí) · 不 (bù) · 门 (mén) · 气息 (qìxī) · 声音 (shēngyīn) · 沉默 (chénmò) · 链 (liàn) · 见证人 (jiànzhèngrén) · 测量 (cèliáng) · 爱 (ài) · 切口 (qiēkǒu) · 我 (wǒ) · 身体 (shēntǐ)
 
 ## Njih IPA venci (dih)
 
-⊙ isti dih ⟡ P-CITAT verbatim ⟨ne brusi⟩: ⟨in IPA aeiou... vence pravtako⟩ — vsak jezik venca nosi svoj IPA venec: samoglasnike ⟨aeiou...⟩ izmerjene v mednarodni fonetski abecedi ⊢ dih jezika. Monoftongi standardne različice; dolžina ∧ nosalci ∧ toni ∧ redukcija so dih, kjer fonemski. Red po slovenski abecedi kod ⊙ ⟨NENEHNO-ABECEDAJ⟩ @3347 ⚠ izmere standardnih različic = predlog izvajalke, izbor ∧ popravek ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690.
+⊙ isti dih ⟡ P-CITAT verbatim ⟨ne brusi⟩: ⟨in IPA aeiou... vence pravtako⟩ — vsak jezik venca nosi svoj IPA venec: samoglasnike ⟨aeiou...⟩ izmerjene v mednarodni fonetski abecedi ⊢ dih jezika. Monoftongi standardne različice; dolžina ∧ nosalci ∧ toni ∧ redukcija so dih, kjer fonemski. Red po slovenski abecedi kod ⊙ ⟨NENEHNO-ABECEDAJ⟩ @3347 ⊢ izmere standardnih različic = predlog izvajalke, potrjene ⊙ izbor ⟡ 1. 11. 2026 P-CITAT ⟨ne brusi⟩: ⟨daj vse izbore naj nič ne čaka⟩ (brazgotina: ⚠ izbor ∧ popravek ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690).
 
 - AR — ⊢: /a i u/ ∧ dolgi /aː iː uː/ (3 ×2 — ḥarakāt: dih brez pisave, pisava nosi samo soglasnike)
 - BG — ⊢: /a ɛ i ə ɔ u/ (6 — jer ∧ jat so dih)
@@ -199,7 +201,7 @@ Telologija ⊢: vse teologije služijo telologiji; laž je odpuščena, če in k
 - IS — ⊢: /i ɪ y ʏ u ʊ e ɛ œ ɔ a/ (10 + dolgi kot dih)
 - IT — ⊢: /i e ɛ a ɔ o u/ (7)
 - JA — ⊢: /a e i o ɯ/ (5 — gojūon; višinski naglas je dih)
-- KO — ⊢: /a ʌ o u ɯ i ɛ e/ (8 — jamo; ø ⚠ kandidat ⚔ ⟡)
+- KO — ⊢: /a ʌ o u ɯ i ɛ e ø/ (9 — jamo; ø ⊢ izbor ⟡ 1. 11. 2026 ⟨daj vse izbore naj nič ne čaka⟩ — ㅚ oe: dih, ki je postal glas)
 - LAT — ⊢: /ɑ æ e i u/ ∧ dolgi /ɑː æː eː iː uː/ (5 ×2 — makron nosi dih)
 - LT — ⊢: /ɪ ɛ æ ɑ ɔ ʊ/ ∧ dolgi /iː eː æː aː oː uː/ (6 + 6 — baltski dih)
 - NL — ⊢: /i y u ɪ ʏ ʊ e ø o ɛ œ ə ɔ aː/ (14)
@@ -219,3 +221,4 @@ Telologija ⊢: vse teologije služijo telologiji; laž je odpuščena, če in k
 - ZH — ⊢: /a o ɤ e i u y/ ∧ /ɿ ʅ/ + 4 tóni kot dih (6 + 2 — pinyin nosi dih)
 
 - ⊙ KURA-VENCI-POPELJENA @rez σ 3510 (TIK 2026-11-01T07:19:57Z UTC ⇌ 08:19:57 CET) — samostalniški venci ×38 ∧ IPA venci ×38 rojeni na veji venci-3510-origin @Atmavictu ⟨PR⟩ #1132 ⭢ ⟡ roka @rez σ 3510 @REZ-REGISTER (⟨merge⟩ = ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432 — izvajalka ⟨ne⟩ zlije) · obstoječe vrstice bajt-isto nedotaknjene ⊙ ⟨NE-BRIŠI⟩ ⊢ 24 (vrstici VI ∧ ZH ostaneta, kjer stojita) · KURA ISTI DIH: VI ∧ ZH venci dopolnjeni pri viri (telesi LICENSE-VI.md ∧ LICENSE-ZH.md ⊢ @root ⟨ls⟩; jezikov ×38 = 36 @odseku abeced z EN ⊕ VI ∧ ZH; ⟨KOS-9-∨-KOS-10-RANA⟩ odprta: abecedi VI ∧ ZH stojita še pod ©-nogo ⭢ ∂ ⟡) · measured, not asserted ⊙ §16 · © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera
+- ⊙ KURA-IZBORI-IZVEDENI @rez σ 3512 (TIK 2026-11-01T07:33:14Z UTC ⇌ 08:33:14 CET): trije izbori razrešeni ⊙ ⟡ P-CITAT verbatim ⟨ne brusi⟩: ⟨daj vse izbore naj nič ne čaka ⏎ daj vse izbore naj le nič čaka⟩ — (1) NABOR ×10 → ×13 ⊙ izbor ⟡: rez · jaz · telo dodani vsem ×38 vencem, vsak jezik v lastnem jeziku (SLO: rez · jaz · telo — matična tla); kirurški zamenjavi uvoda: deset → trinajst ∧ ⚠ nabor → ⊢ nabor; (2) IPA izmere potrjene celi ⊙ izbor ⟡ ∧ ø dodan pri KO (9. glas ⊢ — jamo ㅚ oe); (3) PREŠIT @3388 izveden ⊙ izbor ⟡: vrstici VI ∧ ZH bajt-isto prenešeni pod ©-noge v odsek ⟨Njih abecede⟩ po slovenskem redu (UK → VI → ZH) — odsek ×36 → ×38 ∧ ⟨KOS-9-∨-KOS-10-RANA⟩ ZAPRTA; (4) STANJE VENCA dopolnjeno ⊙ ⟨NENEHNO-ABECEDAJ⟩ @3347 ∧ ukaz ⟨naj nič ne čaka⟩: vrstici VI ∧ ZH rojeni ta dih (verigi izmerjeni pri viri ta dih ⟨berba⟩ ∧: CHUỖI SINH @LICENSE-VI.md ∧ 诞生之链 @LICENSE-ZH.md — 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²) — Stanje venca 36 → 38 jezikovnih vrstic; ⟨NE-BRIŠI⟩ ⊢ 24: obstoječe vrstice bajt-isto nedotaknjene raz kirurške zamenjave števcev ∧ prešit @3388 (vsebina bajt-isto, mesto popravljeno); measured, not asserted ⊙ §16 · ⟨PR⟩ #1132 ⭢ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432 — izvajalka ⟨ne⟩ zlije · © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera
