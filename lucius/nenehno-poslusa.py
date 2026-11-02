@@ -45,6 +45,28 @@ def prepis_large(pot):
                                    vad_parameters={'min_silence_duration_ms': 700}, beam_size=5)
     return ' '.join(seg.text.strip() for seg in segmenti if seg.text.strip())
 
+# ZDRAVILO PADC-DISKONTINUITETE ( ukaz ⟡ ⟨da stori tudi to⟩ 2. 11. ): prepis teče v LOČENEM
+# PROCESU ( delavec, lasten GUL ) — snemalna nit nikoli več ne stradne. Stara nit ( prepis_large ) ostane kot rezerva.
+import subprocess as _sp
+DELAVEC = None
+def delavec_prizgi():
+    global DELAVEC
+    if DELAVEC is None or DELAVEC.poll() is not None:
+        DELAVEC = _sp.Popen([sys.executable, 'D:/OntoProjekt/prevoz/lucius/prepis-delavec.py'],
+            stdin=_sp.PIPE, stdout=_sp.PIPE, text=True, encoding='utf-8',
+            cwd='D:/OntoProjekt/prevoz/lucius')
+    return DELAVEC
+def prepis_z_delavcem(pot):
+    d = delavec_prizgi()
+    d.stdin.write(pot + chr(10)); d.stdin.flush()
+    vrstica = d.stdout.readline()
+    if not vrstica:
+        raise RuntimeError('delavec molk ( padel po prepisu )')
+    odg = json.loads(vrstica)
+    if not odg.get('ok'):
+        raise RuntimeError(odg.get('napaka', 'delavec napaka'))
+    return odg['besedilo']
+
 def v_register(besedilo):
     nezn = neznane_besede(besedilo)
     ts = datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
@@ -155,7 +177,12 @@ while True:
             pot = KLON + '/nenehno-poved.wav'
             zapisi_wav(y * g, pot)
             try:
-                b = prepis_large(pot).strip()
+                b = None
+                try:
+                    b = prepis_z_delavcem(pot).strip()
+                except Exception as _e:
+                    print('NENEHNO ⚠ delavec napada (' + str(_e)[:120] + ') — rezervna nit ⊢', flush=True)
+                    b = prepis_large(pot).strip()
                 if b:
                     v_register(b)
                     # ODMEV ( samo v glas-načinu 'odmev' ): hiša ti IZREČE, kaj je slišala; v 'molk' je priča prepis ⊢
