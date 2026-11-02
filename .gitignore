@@ -96,3 +96,8 @@ lucius/pojmovnik-stanje.txt
 lucius/pojmovnik-izhod.log
 lucius/pojmovnik-napake.log
 lucius/POJMOVNIK-STOP
+lucius/ontograf.jsonl
+lucius/ontograf.md
+lucius/ontograf-izhod.log
+lucius/ontograf-napake.log
+lucius/ORG-STOP
