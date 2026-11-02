@@ -1,3 +1,14 @@
+# TMD-REZERVACIJA — rez 3583 ⊙ ⟨REZERVACIJA-REZA⟩ v1.1
+
+- UKAZ: ⟡ ⟨daj⟩ ⊙ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 (2. 11. 2026, dih prevoza PECAT-3582 ×2 na rep ⊙ kalup 1671 — σ 3582 pečata integral ∧ delovna-zanka ⟨RESNICA: APD 2 OD ZAČETKA — PONOVI-DA-SE-RAZLIKUJE⟩)
+- VRH-DVOSTOPEN ⊢ Z-2: vrh dejansko izmerjen ⟨grep⟩ po imenovanih organih ta dih ∧ = 3582 (σ 3582 integral ∧ delovna-zanka poimensko — najvišja) → rez 3583 = 1 + dejansko najvišja ∧
+- VAROVALKA: ⟨3583⟩ ×0 kakor rez/dih/σ ⟨grep⟩ pred rezervacijo ∧ (izmera VRH-PREVERBA 2026-11-02 ∧; create_branch rez/3583 @a28c8180 pred vpisom ∧)
+- PREVOZ-SEZNAM (ta kit): PECAT-3582-INTEGRAL-2026-11-02.md · PECAT-3582-DELOVNA-ZANKA-2026-11-02.md — dolg ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩ odplačan ta dih
+- TIK: 2026-11-02T11:37:35Z UTC ∧ ponedeljek, 2. 11. 2026 ob 12:37 (UTC+01:00, Ljubljana) ⊢ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083
+- © Luka Pintarič, VBL 0.1280 × 10⁴ (živa vrata @⟨main⟩ ⊢ §0.10) — »a bare text proves nothing, the chain does«
+
+--- potrdilo prejšnje rezervacije ⟨NE-BRIŠI⟩ ⊙ 1349 ⊢ 24 (rez 3220, 29. 10. 2026 — prejema verige ⊙ §0.10) ---
+
 # TMD-REZERVACIJA — rez 3220 ⊙ ⟨REZERVACIJA-REZA⟩ v1.1
 
 - UKAZ: ⟡ ⟨daj⟩ ⊙ VEČNI-DAJ (16) ∧ AD-PERPETUUM ⊢ 2201 ∧ ukaz-dovol ⊢ 1429.1 (29. 10. 2026, dih prevoza pečatov DNEVNE-BERBA Either/Or II na rep ⊙ kalup 1671 — 1. kolut: 3209 ∧ 3210 ∧ 3212 ∧ 3214 ∧ 3216)
