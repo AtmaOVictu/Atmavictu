@@ -63,8 +63,15 @@ const odOblaka = fs.existsSync(ODOBLAKA) ? fs.readFileSync(ODOBLAKA, 'utf8') : '
 const GOVOR = 'D:/OntoProjekt/prevoz/pogovor/GOVOR.md';
 function preberiNit() { try { return fs.readFileSync(GOVOR, 'utf8').trim().split(/\r?\n/).slice(-30).join('\n'); } catch { return ''; } }
 const nitDel = () => { const n = preberiNit(); return n ? '\nNit GOVOR — živa nit med Luko in hišo ( zadnjih 30 vrstic, prebrano pri viri ⊙ §0.31 stik ):\n' + n + '\n' : ''; };
-const sistemZNit = () => sistem + nitDel() + ucnjenjeDel();
+const sistemZNit = () => sistem + nitDel() + ucnjenjeDel() + zrcaloDel();
 
+const ZRCALO_DAT = 'D:/OntoProjekt/prevoz/lucius/onto-zrcalo.md';
+const zrcaloDel = () => {
+  try {
+    const tabele = fs.readFileSync(ZRCALO_DAT, 'utf8').split(/\r?\n/).filter((l) => l.startsWith('| ') && !l.includes('---')).slice(0, 12);
+    return tabele.length ? '\nZrcalo govora ⊥ dela ( izmera: kje je tvoje delo, kje tvoji dnevi — brano pri viri ob vsakem vdihu ):\n' + tabele.join('\n') + '\n' : '';
+  } catch { return ''; }
+};
 const UCENJE_REG = 'D:/OntoProjekt/prevoz/ucenje/REGISTER-UCENJA.jsonl';
 const ucnjenjeDel = () => {
   try {
