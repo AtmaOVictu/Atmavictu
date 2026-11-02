@@ -153,4 +153,4 @@ const server = http.createServer(async (req, res) => {
     json(404, { napaka: 'vrata ne obstajajo ⚠' });
   } catch (e) { json(500, { napaka: String(e.message || e).slice(0, 200) }); }
 });
-server.listen(PORT, () => console.log(`DOM v3.1 ⊢ na vratih ${PORT} — brat v2.7 diha naprej na 8766 ( Z7: nobenega ubijanja )`));
+server.listen(PORT, '127.0.0.1', () => console.log(`DOM v3.1 ⊢ na vratih ${PORT} (samo 127.0.0.1 ⊙ PADC-ODPRTO-OKNO) — brat v2.7 diha naprej na 8766 ( Z7: nobenega ubijanja )`));

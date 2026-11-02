@@ -74,3 +74,9 @@ temp/
 *.bak
 lucius/slusaj-dnevnik.jsonl
 lucius/izmere-kroga.jsonl
+lucius/slusaj-streznik-izhod.log
+lucius/slusaj-streznik-napake.log
+lucius/dom-izhod.log
+lucius/dom-napake.log
+lucius/dom-v3-izhod.log
+lucius/dom-v3-napake.log

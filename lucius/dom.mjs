@@ -1,6 +1,13 @@
-// DOM — delovna platforma Luke in Luciusa. v2.4 (2026-10-21)
+// DOM — delovna platforma Luke in Luciusa. v2.5 (2026-11-02)
 // Lokalno, brezplačno, brez odvisnosti (Node 18+).
 // Zagon: node lucius/dom.mjs [port]  (privzeto 8766)
+// v2.5 ⊙ PADC popravki ( ukaz ⟡ 1. 11. "nadgradi vse aspekte" ):
+//   - PADC-ODPRTO-OKNO: posluša samo 127.0.0.1 ( prej 0.0.0.0 — most ∧ spomin so bili
+//     dosegljivi celemu lokalnemu omrežju × ); ščiti ⟡ in njegove podatke
+//   - PADC-MOLK-KOT-USPEH: prazen prepis nosi molk: true ( tišina ≠ uspeh ∧ ≠ napaka )
+//   - PADC-NAPACNA-DIAGNOZA-GPU: varovalka kartice pove resnico ( drži jo Whisper, ki
+//     posluša, ali učenje — prej je vedto rekla "učenje" )
+//   - PADC-TEŽKA-KRONIKA: vsaka poved kronike obrezana na 400 znakov ( prej 1 MB izhoda )
 import fs from 'node:fs';
 import os from 'node:os';
 import { fileURLToPath } from 'node:url';
@@ -214,7 +221,12 @@ const server = http.createServer(async (req, res) => {
         const odgS = await posred.json();
         if (odgS.ok && odgS.besedilo) {
           fs.appendFileSync(SLUSAJ_DNEVNIK, JSON.stringify({ ts: new Date().toISOString(), izid: 'ok', besedilo: odgS.besedilo, bajtov: zvok.length, pot: 'streznik' }) + '\n', 'utf8');
-          json(200, { ok: true, besedilo: odgS.besedilo });
+          json(200, { ok: true, besedilo: odgS.besedilo, molk: false });
+          return;
+        }
+        if (odgS.ok && odgS.besedilo === '') {   // PADC-MOLK-KOT-USPEH: tišina je molk, ne uspeh
+          fs.appendFileSync(SLUSAJ_DNEVNIK, JSON.stringify({ ts: new Date().toISOString(), izid: 'molk', besedilo: '', bajtov: zvok.length, pot: 'streznik' }) + '\n', 'utf8');
+          json(200, { ok: true, besedilo: '', molk: true });
           return;
         }
         if (odgS.ok === false && odgS.napaka) {
@@ -233,9 +245,9 @@ const server = http.createServer(async (req, res) => {
           );
         });
         const odg = JSON.parse(izhod);
-        const zapis = { ts: new Date().toISOString(), izid: 'ok', besedilo: odg.besedilo || '', bajtov: zvok.length };
+        const zapis = { ts: new Date().toISOString(), izid: odg.besedilo ? 'ok' : 'molk', besedilo: odg.besedilo || '', bajtov: zvok.length, pot: 'rezerva' };
         fs.appendFileSync(SLUSAJ_DNEVNIK, JSON.stringify(zapis) + '\n', 'utf8');
-        json(200, { ok: true, besedilo: odg.besedilo });
+        json(200, { ok: true, besedilo: odg.besedilo, molk: !odg.besedilo });
       } catch (napaka) {
         const zapis = { ts: new Date().toISOString(), izid: 'napaka', napaka: String(napaka.message || napaka).slice(0, 150), bajtov: zvok.length };
         fs.appendFileSync(SLUSAJ_DNEVNIK, JSON.stringify(zapis) + '\n', 'utf8');
@@ -255,7 +267,7 @@ const server = http.createServer(async (req, res) => {
         const izpisNv = execFileSync('nvidia-smi', ['--query-gpu=memory.used', '--format=csv,noheader,nounits']).toString().trim();
         const zasedeno = parseInt(izpisNv.split('\n')[0], 10);
         if (zasedeno > 6000) {
-          json(503, { ok: false, napaka: 'kartico drži učenje (' + zasedeno + ' MB) — govorim z Windows glasom' });
+          json(503, { ok: false, napaka: 'kartica zasedena (' + zasedeno + ' MB — drži jo Whisper, ki posluša, ali učenje) — govorim z Windows glasom' });
           return;
         }
       } catch { /* brez nvidia-smi: pusti skozi */ }
@@ -305,7 +317,7 @@ const server = http.createServer(async (req, res) => {
       // KRONIKA: zadnjih 60 povedi hiše (bratov spomin) — dan enega pogleda
       try {
         const vrstice = fs.readFileSync(SPOMIN, 'utf8').trim().split(/\r?\n/).filter(Boolean).slice(-60);
-        json(200, { povedi: vrstice.map((v) => { const z = JSON.parse(v); return { ts: z.ts, kdo: z.v, besedilo: z.t }; }) });
+        json(200, { povedi: vrstice.map((v) => { const z = JSON.parse(v); return { ts: z.ts, kdo: z.v, besedilo: (z.t || '').slice(0, 400) + ((z.t || '').length > 400 ? ' ⋯' : '') }; }) });
       } catch {
         json(200, { povedi: [] });
       }
@@ -375,6 +387,6 @@ function preberiTelo(req) {
   });
 }
 
-server.listen(PORT, '0.0.0.0', () => {
+server.listen(PORT, '127.0.0.1', () => {
   console.log(`DOM na http://localhost:${PORT} (stanje: ${STANJE})`);
 });
