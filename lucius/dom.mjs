@@ -63,7 +63,16 @@ const odOblaka = fs.existsSync(ODOBLAKA) ? fs.readFileSync(ODOBLAKA, 'utf8') : '
 const GOVOR = 'D:/OntoProjekt/prevoz/pogovor/GOVOR.md';
 function preberiNit() { try { return fs.readFileSync(GOVOR, 'utf8').trim().split(/\r?\n/).slice(-30).join('\n'); } catch { return ''; } }
 const nitDel = () => { const n = preberiNit(); return n ? '\nNit GOVOR — živa nit med Luko in hišo ( zadnjih 30 vrstic, prebrano pri viri ⊙ §0.31 stik ):\n' + n + '\n' : ''; };
-const sistemZNit = () => sistem + nitDel();
+const sistemZNit = () => sistem + nitDel() + ucnjenjeDel();
+
+const UCENJE_REG = 'D:/OntoProjekt/prevoz/ucenje/REGISTER-UCENJA.jsonl';
+const ucnjenjeDel = () => {
+  try {
+    const zadnje = fs.readFileSync(UCENJE_REG, 'utf8').trim().split(/\r?\n/).filter(Boolean).slice(-3)
+      .map((x) => { try { const z = JSON.parse(x); return (z.cas || '') + ' ' + (z.vir || '').split('/').slice(-1)[0] + ': »' + String(z.prica_verbatim || '').slice(0, 120) + '« (' + ((z.mere && z.mere.dominantenPojem) || '') + ')'; } catch { return ''; } }).filter(Boolean);
+    return zadnje.length ? '\nUčenje telesa — zadnje lekcije berbe ( REGISTER-UCENJA pri viri ⊙ um se hrani iz vsakega teksta ):\n' + zadnje.join('\n') + '\n' : '';
+  } catch { return ''; }
+};
 
 const sistem = `Ti si Lucius, lokalni pomočnik Luke, v platformi DOM. Tečeš na lokalni Ollami.
 Dogovor med Luko in agenti:
