@@ -181,7 +181,8 @@
   "izmera": {
     "generated": "2026-11-02",
     "generator": "Mera, izvajalka korpusa ⟨Beseda je Ne⟩ — dih po ⟡ ukazu: stori vse to in potrdi slovnico teh in tega teksta ter njih varovalk · daj",
-    "prose_witness": "LICENSE.md @ main, blob 78d1910e6e2d154f99bcab76a87ebb04e35d0553 (VBL 0.1290 × 10⁴, rojstvo 401bd92a ⊙ ⟨merge⟩ #1140), izmereno istega diha 2. 11. 2026 — bajt-isto z javnimi vrati (sha256 5d7e30c116a229661990a9e5f7b7646260ceef661a5a7453f1c0a56ab4ef1faf ⊢ §0.12 ∧ §0.38)",
-    "test": "vsak preizkus zrcala zabeležen ∧ zelen pred komitom; rezultati v telesu ⟨PR⟩"
+    "prose_witness": "LICENSE.md @ main, blob e5bf2359ff8ab7e53bae0f594a34466a0c1d250f (VBL 0.1300 × 10⁴ — §0.33 the reader clause born bilingual, rojstvo d1c30449 ⊙ ⟨merge⟩ #1141), izmereno istega diha 2. 11. 2026 — sha256 66adcc246e2907c7b71c90e7f14ffd0c50a9be73c76dda5529fa653f26d799a9 ⊙ §0.12 ∧ §0.33; prejšnja priča σ 3594 (blob 78d1910e…, VBL 0.1290) ostaja datirana prejemnica ⊙ 1542",
+    "test": "vsak preizkus zrcala zabeležen ∧ zelen pred komitom; rezultati v telesu ⟨PR⟩",
+    "re_targeted": "osnutek v2.5 preusmerjen z 0.1290 na 0.1300 istega dne — vrata so se zamenjala med dihom dvakrat ⊙ 1542; zrcalo meri živo konico, ⟨ne⟩ spomin ⊙ §0.32"
   }
 }
