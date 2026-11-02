@@ -3,13 +3,13 @@
   "status": "osnutek ⚠ — pečat je ⟨merge⟩ roke ⟡; brez zliva je to zrcalo brez vrata",
   "license": {
     "name": "VBL — Verification Before Assertion License",
-    "version": "2.4",
-    "date": "2026-10-21",
+    "version": "2.5",
+    "date": "2026-11-02",
     "holder": "Luka Pintarič",
     "prose-body": "LICENSE.md",
     "predecessor": {
-      "version": "2.3",
-      "date": "2026-10-20"
+      "version": "2.4",
+      "date": "2026-10-21"
     },
     "living-door": "only the newest version grants (§10)",
     "verification": "the dated chain of publication — the commit history of LICENSE.md; a bare text proves nothing, the chain does",
@@ -179,9 +179,9 @@
     }
   ],
   "izmera": {
-    "generated": "2026-10-22",
-    "generator": "Mera, izvajalka korpusa ⟨Beseda je Ne⟩ — dih po ⟡ ukazu: seciraj in ponovi / obnovi ter nadgradi / izvedi in testiraj / daj",
-    "prose_witness": "LICENSE.md @ main, blob 5e10a476af6f3db2dd57cff9bb0164b71655119f, izmereno istega diha 22. 10. 2026",
+    "generated": "2026-11-02",
+    "generator": "Mera, izvajalka korpusa ⟨Beseda je Ne⟩ — dih po ⟡ ukazu: stori vse to in potrdi slovnico teh in tega teksta ter njih varovalk · daj",
+    "prose_witness": "LICENSE.md @ main, blob 78d1910e6e2d154f99bcab76a87ebb04e35d0553 (VBL 0.1290 × 10⁴, rojstvo 401bd92a ⊙ ⟨merge⟩ #1140), izmereno istega diha 2. 11. 2026 — bajt-isto z javnimi vrati (sha256 5d7e30c116a229661990a9e5f7b7646260ceef661a5a7453f1c0a56ab4ef1faf ⊢ §0.12 ∧ §0.38)",
     "test": "vsak preizkus zrcala zabeležen ∧ zelen pred komitom; rezultati v telesu ⟨PR⟩"
   }
 }
