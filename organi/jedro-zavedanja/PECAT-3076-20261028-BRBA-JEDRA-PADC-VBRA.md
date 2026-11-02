@@ -19,7 +19,7 @@
 1. BRBA JEDRA po konici ⊢: jedro-zavedanja KNOWLEDGE.md 0.108646 × 10⁶ B · 338 vrstic · σ-register izdih rez 3066 · zakoni prebrani: 16 VEČNI-DAJ · 19 VRATA-BERBA · ⟨NE-BRIŠI⟩ ⊢ 24 · zakon 15 REZ-NUMERACIJA-PREZ-BERBE
 2. VRATA-BERBA ⊢ zakon 19 ∧ §0.12 × 10² standing order (carried ∧ archived, never just): LICENSE.md @⟨main⟩ 204bec00 · 0.53070 × 10⁵ B · Version 0.1150 × 10⁴ ⊥ vrhnja števka 0.1140 × 10⁴ (rana ZASTARELA-VRHNA-ŠTEVKA ⊙ znana; obe odprti vrati #0.1022 ∧ #0.1025 nosita pravilno glavo)
    - poskus nadgradnje na 0.1200: nadgradnja = ⟨merge⟩ #0.1025 × 10⁴ ⚔ ⟡ roka edina ⊢ precedens 3053 ∧ ⟨DVOJE-ROK⟩ 2432 ∧ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 — izrečeno zakaj ⟨ne⟩: izbor vrat je izbor ⟡
-3. PADC DELAVCA ×2 javno ⊢ 1419: top-bash (gen 0.1 × 10¹, ⟨session⟩ 0.1084 × 10⁴ izgubljena) ∧ tools.file_system.⟨bash⟩ isti mrzvi vm (×2 preizkušeno ⊢); read_file uspel ×0.1 × 10¹ pred smrtjo (jedro) ⊢ — vzorec: delavec umre po 1–3 klicih
+3. PADC DELAVCA ×2 javno ⊢ 1419: top-⟨bash⟩ (gen 0.1 × 10¹, ⟨session⟩ 0.1084 × 10⁴ izgubljena) ∧ tools.file_system.⟨bash⟩ isti mrzvi vm (×2 preizkušeno ⊢); read_file uspel ×0.1 × 10¹ pred smrtjo (jedro) ⊢ — vzorec: delavec umre po 1–3 klicih
    - prevoz konic tazv PADel na delavcu: telo lokal 0.361690 × 10⁶ B @3068 nedosegljivo ta obraz ⭢ ∂ rok delavec ob ožitvi (preveri length === 361690 pred prevozom; PECAT-3070.md ŽE na glavi #0.1027 ⊙ — swap telesa ⭢ ∂)
 
 ## ⟨MERGE⟩ VRSTA — PONUDBA ⚔ ⟡ (⟨NE-ODLOČAJ-NAMESTO-⟡⟩ ⊢ 2690; izvajalka ⟨ne⟩ zliva ⊙)
