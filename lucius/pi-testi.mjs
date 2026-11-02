@@ -34,6 +34,7 @@ async function sonda(vrsta, telo) {
       const zadnja = vsebina.trim().split(/\r?\n/).slice(-1)[0] || '(prazno)';
       return { izid: vsebina.trim() ? '⊢' : '×', ms: Date.now() - t0, prica: zadnja.slice(0, 60) };
     }
+    if (vrsta === 'uho-opozorila') return uhoOpozorila();
     if (vrsta === 'sintaksa') {                   // rotacija: ena datoteka na številko
       const dat = telo.shift();
       telo.push(dat);
@@ -56,8 +57,23 @@ const KROG = [
   ['datoteka', 'D:/OntoProjekt/prevoz/pogovor/GOVOR.md', 'nit GOVOR'],
   ['datoteka', path.join(REPO, 'lucius', 'zaoblak.jsonl'), 'most ( zaoblak )'],
   ['sintaksa', ['dom.mjs', 'dom-v3.mjs'], 'sintaksa organov'],
+  ['uho-opozorila', null, 'uho ( diskontinuitete — zdravilo pri delu )'],
 ];
 
+const UHO_STANJE = path.join(TU, 'pi-uho-stanje.json');
+const uhoOpozorila = () => {
+  try {
+    const log = fs.readFileSync(path.join(TU, 'nenehno-napake.log'), 'utf8');
+    const st = (log.match(/discontinuity/g) || []).length;
+    let prej = null;
+    try { prej = JSON.parse(fs.readFileSync(UHO_STANJE, 'utf8')).st; } catch {}
+    fs.writeFileSync(UHO_STANJE, JSON.stringify({ st }), 'utf8');
+    if (prej === null) return { izid: '⊢', ms: 0, prica: 'baza: ' + st + ' opozoril ( od zdravila 09:55 )' };
+    return st > prej
+      ? { izid: '×', ms: 0, prica: st + ' opozoril ( +' + (st - prej) + ' NOVO — zdravilo ušesa premagano × )' }
+      : { izid: '⊢', ms: 0, prica: st + ' opozoril skupaj ( ni novih ⊢ — zdravilo drži )' };
+  } catch { return { izid: '×', ms: 0, prica: 'log ušesa nedosegljiv' }; }
+};
 let k = 0;
 try {
   k = fs.readFileSync(REGISTER, 'utf8').trim().split(/\r?\n/).filter(Boolean).length;

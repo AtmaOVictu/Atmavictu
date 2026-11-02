@@ -17,7 +17,7 @@ const POVZETEK = path.join(TU, 'korpus-pojmovnik.md');
 const STANJE = path.join(TU, 'korpus-berba-stanje.json');
 const SEZNAM = path.join(TU, 'korpus-berba-seznam.json');
 const STOP = path.join(TU, 'BERBA-STOP');
-const NA_KROG = 25, ZAMIK_S = 60, NAJVEC_B = 512 * 1024;
+const NA_KROG = 25, ZAMIK_S = 60, NAJVEC_B = 2 * 1024 * 1024; // celotne datoteke ⊙ ⟡ 2. 11.
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // ONTOMATEMATIČNI SLOVAR — nosilec ⟡ ( priča: ONTOMATEMATIKA zaupanje ∧ definicija ⊢ )
@@ -33,19 +33,41 @@ const POJMI = [
 ];
 
 let seznam = [];
+const POJDI_SIDRO = 'pojdi(KORPUS);';
+const primezNovih = (obstojeciSeznam) => {
+  const stari = new Set(obstojeciSeznam);
+  const dodajIz = (mapa, globina) => {
+    try {
+      const pojdi2 = (m) => {
+        for (const ent of fs.readdirSync(m, { withFileTypes: true })) {
+          const p = path.join(m, ent.name);
+          if (ent.isDirectory()) { if (p.replace(/\\/g, '/').split('/').length <= globina) pojdi2(p); }
+          else if ((ent.name.toLowerCase().endsWith('.md') || ent.name.toLowerCase().endsWith('.txt')) && !stari.has(p)) { obstojeciSeznam.push(p); stari.add(p); }
+        }
+      };
+      pojdi2(mapa);
+    } catch {}
+  };
+  dodajIz('D:/AI/Corpus', 999);
+  dodajIz('D:/OntoProjekt/CanvasMinstral', 999);
+  dodajIz('D:/OntoProjekt/prevoz', 3);
+};
 if (fs.existsSync(SEZNAM)) {
   seznam = JSON.parse(fs.readFileSync(SEZNAM, 'utf8'));
+  primezNovih(seznam);
+  fs.writeFileSync(SEZNAM, JSON.stringify(seznam), 'utf8');
 } else {
   const pojdi = (mapa) => {
     let n = 0;
-    for (const v of fs.readdirSync(mapa, { withFileTypes: true })) {
-      const p = path.join(mapa, v.name);
-      if (v.isDirectory()) n += pojdi(p);
-      else if (v.name.toLowerCase().endsWith('.md')) { seznam.push(p); n++; }
+    for (const v2 of fs.readdirSync(mapa, { withFileTypes: true })) {
+      const p = path.join(mapa, v2.name);
+      if (v2.isDirectory()) n += pojdi(p);
+      else if (v2.name.toLowerCase().endsWith('.md')) { seznam.push(p); n++; }
     }
     return n;
   };
   pojdi(KORPUS);
+  primezNovih(seznam);
   fs.writeFileSync(SEZNAM, JSON.stringify(seznam), 'utf8');
 }
 
