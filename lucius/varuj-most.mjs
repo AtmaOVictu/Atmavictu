@@ -11,6 +11,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const ZASEBNO = ['odoblaka.md', 'spomin.jsonl', 'zaoblak.jsonl', 'slusaj-dnevnik.jsonl', 'nacin.txt', 'dom-log.txt', 'api-uporaba.jsonl', 'izmere-kroga.jsonl', 'srce.jsonl'];
+// ⟡-jev govor ( register govora ) živi v telesu od 2. 11. ⊙ PADC-IZGUBLJENI-TRANSKRIPTI — telo + knjižnica, če obstaja
+const TELO = 'D:/OntoProjekt/prevoz/lucius/';
+if (fs.existsSync(TELO + 'transkripti-⟡.jsonl')) ZASEBNO.push('transkripti-⟡.jsonl');
 const CILJ = 'D:/OntoProjekt/varnostne-kopije-mosta';
 const TU = path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1'));
 
@@ -20,7 +23,8 @@ fs.mkdirSync(mapa, { recursive: true });
 
 const porocilo = { cas: new Date().toISOString(), mapa, datoteke: [] };
 for (const ime of ZASEBNO) {
-  const iz = path.join(TU, ime);
+  let iz = path.join(TU, ime);
+  if (!fs.existsSync(iz) && fs.existsSync(path.join(TELO, ime))) iz = path.join(TELO, ime); // register govora živi v telesu ⊙ PADC-IZGUBLJENI-TRANSKRIPTI
   if (!fs.existsSync(iz)) { porocilo.datoteke.push({ ime, stanje: 'ne obstaja ( preskočeno ) ⚠' }); continue; }
   const velikost = fs.statSync(iz).size;
   fs.copyFileSync(iz, path.join(mapa, ime));

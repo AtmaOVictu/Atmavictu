@@ -48,7 +48,7 @@ def prepis_large(pot):
 def v_register(besedilo):
     nezn = neznane_besede(besedilo)
     ts = datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
-    with open(REPO + '/lucius/transkripti-⟡.jsonl', 'a', encoding='utf-8') as f:
+    with open('D:/OntoProjekt/prevoz/lucius/transkripti-⟡.jsonl', 'a', encoding='utf-8') as f:
         f.write(json.dumps({'ts': ts, 'vir': 'nenehno', 'besedilo': besedilo,
                             'neznane': nezn}, ensure_ascii=False) + '\n')
     with open(REPO + '/lucius/odoblaka.md', 'a', encoding='utf-8') as f:
