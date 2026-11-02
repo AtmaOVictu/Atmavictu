@@ -101,3 +101,10 @@ lucius/ontograf.md
 lucius/ontograf-izhod.log
 lucius/ontograf-napake.log
 lucius/ORG-STOP
+lucius/korpus-pojmovnik.jsonl
+lucius/korpus-pojmovnik.md
+lucius/korpus-berba-stanje.json
+lucius/korpus-berba-seznam.json
+lucius/berba-izhod.log
+lucius/berba-napake.log
+lucius/BERBA-STOP
