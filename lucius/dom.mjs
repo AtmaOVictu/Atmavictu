@@ -59,6 +59,11 @@ function zapisiSpomin(vloga, besedilo) {
 }
 
 const odOblaka = fs.existsSync(ODOBLAKA) ? fs.readFileSync(ODOBLAKA, 'utf8') : '';
+// ŽILA #1 ( eno telo, mnogo funkcij — ukaz ⟡ ⟨oboje⟩ 2. 11. ): nit GOVOR je skupna kri telesa.
+const GOVOR = 'D:/OntoProjekt/prevoz/pogovor/GOVOR.md';
+function preberiNit() { try { return fs.readFileSync(GOVOR, 'utf8').trim().split(/\r?\n/).slice(-30).join('\n'); } catch { return ''; } }
+const nitDel = () => { const n = preberiNit(); return n ? '\nNit GOVOR — živa nit med Luko in hišo ( zadnjih 30 vrstic, prebrano pri viri ⊙ §0.31 stik ):\n' + n + '\n' : ''; };
+const sistemZNit = () => sistem + nitDel();
 
 const sistem = `Ti si Lucius, lokalni pomočnik Luke, v platformi DOM. Tečeš na lokalni Ollami.
 Dogovor med Luko in agenti:
@@ -333,13 +338,13 @@ const server = http.createServer(async (req, res) => {
       let odgovor;
       if (nacin === 'vedno' && kljuc) {
         try {
-          odgovor = await vprasiOblak([{ role: 'system', content: sistem }, ...preberiSpomin()], kljuc);
+          odgovor = await vprasiOblak([{ role: 'system', content: sistemZNit() }, ...preberiSpomin()], kljuc);
         } catch (napaka) {
-          odgovor = await vprasiOllamo([{ role: 'system', content: sistem }, ...preberiSpomin()])
+          odgovor = await vprasiOllamo([{ role: 'system', content: sistemZNit() }, ...preberiSpomin()])
             + `\n\n(oblak ni dosegljiv: ${napaka.message} — odgovarja lokalni model ⚠)`;
         }
       } else {
-        odgovor = await vprasiOllamo([{ role: 'system', content: sistem }, ...preberiSpomin()]);
+        odgovor = await vprasiOllamo([{ role: 'system', content: sistemZNit() }, ...preberiSpomin()]);
         if (nacin === 'preverjam' && kljuc) {
           try {
             const preverba = await vprasiOblak([
@@ -356,7 +361,7 @@ const server = http.createServer(async (req, res) => {
         if (kljuc) {
           try {
             const rešitev = await vprasiOblak([
-              { role: 'system', content: sistem },
+              { role: 'system', content: sistemZNit() },
               { role: 'user', content: besedilo },
             ], kljuc);
             if (rešitev && rešitev.trim().length > 2) {
