@@ -13,7 +13,7 @@ const PORT = Number(process.argv[2] || 8768);
 const OLLAMA = (process.env.OLLAMA_URL || 'http://localhost:11434') + '/api/chat';
 const MODEL = process.env.DOM_MODEL || 'qwen3:8b';
 const API_KLJUC = path.join(HERE, 'api-kljuc.txt');
-const SRCE = path.join(HERE, 'srce.jsonl');
+const SRCE = 'C:/Users/Luka/Documents/Arhiv/Git/Atmavictu/lucius/srce.jsonl'; // enotno srce telesa — π ga bere tu ⊢ ( Z6 popovljen 2. 11. )
 const DOGOVOR = path.join(HERE, '..', 'AGENTS.md');
 
 // ---- Z1: VRSTA — ⟡-jeva beseda gre VEDNO skozi; delo caka v vrsti, nikoli obratno ----
@@ -100,14 +100,15 @@ async function crpajVrsto() {
   dela = false;
 }
 
-// ---- Z6: SRCE V DOMU — bije samo, ko ⟡ ni prisoten; nikoli ne moti ----
-setInterval(() => {
-  const minOdDejavnosti = (Date.now() - zadnjaDejavnost.cas) / 60000;
-  if (minOdDejavnosti < 30) return;                       // ⟡ je blizu → molk ( Z6 )
+// ---- Z6 POPOVLJEN ( ⟡ ukaz ⟨naj definitivno utripa tudi ko sem tukaj⟩ 2. 11. ):
+//      srce bije VEDNO — prisotnost ga ne utiša; 30-min ritem ∧ prvi udarec takoj ob zagonu ⊢ ----
+const udarecSrca = () => {
   try {
-    fs.appendFileSync(SRCE, JSON.stringify({ utrip: 'dom-v3', utc: new Date().toISOString(), lokalno: new Date().toISOString().slice(11, 19), opomba: 'utrip v domu ( zastonj, ne moti )' }) + '\n');
+    fs.appendFileSync(SRCE, JSON.stringify({ utrip: 'dom-v3', utc: new Date().toISOString(), lokalno: new Date().toISOString().slice(11, 19), opomba: 'utrip v domu ( ⟡ prisoten ali ne — srce bije ⊢ Z6 popovljen 2. 11. )' }) + '\n');
   } catch { /* srce ne sme nikoli onesposobiti hiše */ }
-}, 30 * 60 * 1000);
+};
+udarecSrca();                       // prvi udarec TAKOJ — tudi ko je ⟡ tu ⊢
+setInterval(udarecSrca, 30 * 60 * 1000);
 
 const HTML = fs.readFileSync(path.join(HERE, 'dom-v3.html'), 'utf8');
 
