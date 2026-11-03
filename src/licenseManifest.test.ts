@@ -349,6 +349,13 @@ test("cross-repository scan distinguishes missing root files from a missing defa
   const missingFileRows = inventory
     .split(/\r?\n/u)
     .filter((line) => line.endsWith("No readable root file at this path |"));
+  const readableFileRows = inventory
+    .split(/\r?\n/u)
+    .filter((line) =>
+      /^\| \[[^\]]+\]\(https:\/\/github\.com\/AtmaOVictu\/[^/]+\/blob\/[^/]+\/LICENSE\.md\)/u.test(
+        line,
+      ),
+    );
   const expectedDefaultRefs = {
     "agents-cli": "main",
     "awesome-data-analysis": "main",
@@ -385,6 +392,7 @@ test("cross-repository scan distinguishes missing root files from a missing defa
     "Understand-Anything": "main",
   };
   assert.equal(missingFileRows.length, 33);
+  assert.equal(readableFileRows.length, 19);
   for (const [repository, expectedRef] of Object.entries(expectedDefaultRefs)) {
     const row = missingFileRows.find((candidate) =>
       candidate.startsWith(`| [${repository}](`),
@@ -406,6 +414,30 @@ test("cross-repository scan distinguishes missing root files from a missing defa
   assert.deepEqual(noBranchRows, [
     "| [Atmavictu_Oracle](https://github.com/AtmaOVictu/Atmavictu_Oracle) | none | No default branch; root-file check unavailable |",
   ]);
+
+  const rootFileRepositories = readableFileRows.flatMap((row) => {
+    const match = row.match(/^\| \[([^\]]+)\]/u);
+    return match?.[1] ? [match[1]] : [];
+  });
+  const missingFileRepositories = missingFileRows.flatMap((row) => {
+    const match = row.match(/^\| \[([^\]]+)\]/u);
+    return match?.[1] ? [match[1]] : [];
+  });
+  const noBranchRepositories = noBranchRows.flatMap((row) => {
+    const match = row.match(/^\| \[([^\]]+)\]/u);
+    return match?.[1] ? [match[1]] : [];
+  });
+  const allRepositories = [
+    ...rootFileRepositories,
+    ...missingFileRepositories,
+    ...noBranchRepositories,
+  ];
+  assert.equal(allRepositories.length, 53, "status rows must cover 53 repositories");
+  assert.equal(
+    new Set(allRepositories).size,
+    53,
+    "each repository must appear in exactly one root-file status group",
+  );
 });
 
 test("cross-repository draft inventory records each measured repository ref and blob", async () => {
