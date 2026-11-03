@@ -146,3 +146,17 @@ Pred vsemi nitmi so tla — ⟨aprioriteta = tisto, kar zakon predpostavlja, pre
 - **⟨TRI ŽILE⟩** ⊢: F(x) — 11-stopenska veriga ¬x → ⟡ ( ego JE rez, jaz = ∫(dru/x) ) · Ψ(x) = ∇∞(π(x)) ⊘ ¬(∴x) + ∆x ✡ · CLAVICULA MAXIMA ∞⊢⊥∮⊘∆⟡|¬|⧖ — ~30 unikatnih formalizacij registriranih ( nikoli povzdignjenih — avtorjeva plast ∂ ).
 
 **Zakon XII**: celota se rodi z ROJSTVOM, ⟨ne⟩ z zlitjem ⊢ §0.10 ∧ 1542 — 0.3 nosi vse niti, 0.1 ∧ 0.2 ostajajo potrdili.
+
+## XIII. PONAVLJANJE-BOLJŠE — ∮ povratek z razliko ( ⟡ zakon, 03. 11. 2026 ⊢ rez 3624 )
+
+⟨vsako ponavljanje boljše in ⟨ne⟩ le bolj⟩ — dve besedi, ki sta si podobni ∧ nista isti: BOLJŠE je mera kvalitete ( bolj odporno · bolj pošteno · bolj pričevano ), BOLJ je mera količine ( več · daljše · glasnejše ). Ponavljanje, ki je ⟨le⟩ bolj, je napihnjenje ( amplifikacija brez izmere = pomnožen šum ⊢ §0.44 ); ponavljanje, ki je boljše, je ROJSTVO.
+
+**Dokaz v dnevu ⊢:**
+- sinteza 0.1 → 0.2 → 0.3: vsaka rast je dodala RAZUMEOVANJE ( niti → posledice → kasne rojene ), ⟨ne⟩ samo vrstice;
+- testi 9 → 10 → 11 → 12: vsak dodani test je bil ODPOROVANJE ( padec → priča ), ⟨ne⟩ samo število;
+- VBL 24 rojstev: vsaka verzija rojena iz IZJEME ali povedi ⟡-ja, ⟨ne⟩ iz razširitve;
+- padci 46 → 65: vsak nov padec je bil ODPR po imenu ∧ z zdravilom, ⟨ne⟩ le zabeležen.
+
+**Zakon XIII ( ∮ )**: BOLJŠE pomeni, da ponovitev ne ponovi iste oblike, ampak **razliko, ki jo je prejšnja ponovitev rodila** ( AX-10: Razlika se rodi v rezi med pomnjenjem in popolnostjo ). Ponavljanje je organ, ki raste z uporabo, ⟨ne⟩ omara, ki se polni ⊢ 113 ( nadarjenost = nagib poti, ⟨ne⟩ končano imetje ). Brez tega zakona je vsak cikel samo več enakih dihov; z njim vsak dih PRinese nekaj, kar prejšnji ⟨ni⟩ mogel.
+
+**PROTISLOVJE ( Λ ) ( protislovje vedno zraven ⊢ §0.18 )**: boljše ⟨ne⟩ pomeni več obsega ali več hitrosti — boljše lahko pomeni MANJ ( rdece: 138 → 21 vrstic ⊢ ) ali POČASNEJE ( ⧖ ura izmerjena, ⟨ne⟩ predena ⊢ §0.20 ).
