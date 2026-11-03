@@ -44,6 +44,19 @@ if (!uraTrditev) {
   napake.push(`⟨URA-IZ-SPOMINA⟩ — sporocilo trdi ${uraTrditev[1]}Z, izmer diha ${zadnji.dih} pravi ${uraIzmere}Z ⊙ PADC-70 ∧ PADC-71 ×`);
 }
 
+// ⟨GOLICE⟩ 3694 ⊙ §0.12 — izpuščena črka je vzeta priča: pečat, ki piše POŠTO kakor POSTA, laže o svojem jeziku.
+// Golice = nedvoumne izpuščene oblike ( PADC-90 izmera: POTENOST · NAPAENA · OBTOBA · OSVEEN · TEVKI · HIIE · KRAJJI · CANEK · AVNICA )
+// — ⟨PREGLEJ⟩ ⟨POSTA⟩ ⟨PEAT⟩ ∧ druge dvoumne/veljavne besede NISO na listi ( verbatim ⟡ citati so sveti ⊙ §0.23 ).
+const GOLICE = ['POTENOST', 'NAPAENA', 'OBTOBA', 'OSVEEN', 'TEVKI', 'HIIE', 'KRAJJI', 'CANEK', 'AVNICA', 'OSVEEO', 'NAPAENO'];
+// ujemanje z ozaveščenostjo diakritikov ⊙ rez 3694: ŠTEVKI vsebuje TEVKI kot podniz — a Š pred obliko pomeni PRAVILNO besedo:
+// golica je golica le, če je pred njo NI diakritika ( negativen ozadnji pogled )
+for (const g of GOLICE) {
+  const re = new RegExp('(?<![ŠČŽščž])' + g);
+  if (re.test(sporocilo)) {
+    napake.push(`⟨GOLICA-V-PEČATU⟩ — izpuščeni diakritik ⟨${g}⟩ v sporocilu ⊙ §0.12 ( izpuščena črka je vzeta priča ) — popravi obliko pred pečatom ×`);
+  }
+}
+
 if (napake.length > 0) {
   for (const n of napake) izpis('× ' + n);
   izpis(`× PREVERBA-PEČATA — pečat zavrnjen: trditev brez izmere je gol tekst ⊙ §0.10 ∧ KORENINA 0.1 ∧ §0.47`);
