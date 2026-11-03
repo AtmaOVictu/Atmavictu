@@ -7,6 +7,7 @@
     "typecheck": "tsc --noEmit",
     "test": "tsc && node --test \"build/src/*.test.js\"",
     "audit:license-inventory": "tsc && node build/src/licenseInventoryAudit.js",
+    "audit:license-paths": "tsc && node build/src/licensePathInventory.js",
     "atma": "node build/src/atmaCli.js",
     "proof:capture": "tsc && node build/src/captureIncomingTextProof.js",
     "serve": "tsc && node build/src/workbenchApiServer.js"

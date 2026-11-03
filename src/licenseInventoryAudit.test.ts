@@ -7,6 +7,7 @@ import {
   parsePinnedRepositoryFiles,
   parsePinnedRepositoryHeads,
 } from "./licenseInventoryAudit.js";
+import { findLicensePathCandidates } from "./licensePathInventory.js";
 
 const firstCommit = "a".repeat(40);
 const secondCommit = "b".repeat(40);
@@ -211,6 +212,28 @@ test("compareRepositoryFiles detects root and draft Git object drift", () => {
         expected: "no root LICENSE.md object",
         actual: firstCommit,
       },
+    ],
+  );
+});
+
+test("findLicensePathCandidates selects license-named files, not directories or source files", () => {
+  assert.deepEqual(
+    findLicensePathCandidates([
+      { path: "LICENSE.md", type: "blob" },
+      { path: "src/LICENCE-THIRD-PARTY.txt", type: "blob" },
+      { path: "vendor/package/COPYING", type: "blob" },
+      { path: "vendor/package/LICENSE.vrata.json", type: "blob" },
+      { path: "src/license.go", type: "blob" },
+      { path: "src/copyright_headers.py", type: "blob" },
+      { path: "src/licenseHeader.ts", type: "blob" },
+      { path: "LICENSES", type: "tree" },
+      { type: "blob" },
+    ]),
+    [
+      "LICENSE.md",
+      "src/LICENCE-THIRD-PARTY.txt",
+      "vendor/package/COPYING",
+      "vendor/package/LICENSE.vrata.json",
     ],
   );
 });
