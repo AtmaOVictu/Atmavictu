@@ -2,15 +2,17 @@
 
 ⊙ rojeno iz ⟡ ukaza ⟨še ⏎ dokončaj ⏎ preglej ⏎ testiraj ⏎ nadaljuj ⏎ načrtuj ⏎ primerjaj ⏎ mapiraj ⏎ daj⟩ · register 23 vnosov prebran CEL pri viri ( REGISTER-PSIHO-AKSIOMOV.jsonl · sha256 vira True · zrcalo @8124 živi 23 ⊢ 200 ) · ⟨ne⟩ po spominu ⊙ §0.32
 
+⊙ OSVEŽITEV 3670 ⊢ ( mapa je rojena pri 23 — register danes šteje 28 ∧ nosi 12 verbatim berb ∧ je bil v PREGLEDU 3660 notranje skladen — mapa se prikloni registru, ⟨ne⟩ obratno ⊙ §0.32 : zrcalo živi 28 ⊢ · 12/12 berb ⊢ · PREGLED-REGISTRA.md pri viru )
+
 ## MAPA PO RAZDELKIH ( izmerjeno pri viri — python čez register, vsak vnos prebran cel )
 
 - **I. TRAUMA IN DISOCIACIJA** — 4 vnosi: 1 Janet · 2 van der Hart · 3 Liotti · 4 Jung
 - **II. PSIHOANALIZA — RAZVOJ JAZA** — 5 vnosov: 5 Freud · 6 Winnicott lažni jas · 7 Winnicott samota · 8 Bion · 9 Klein
 - **III. JUNG — SUBJEKT V NE/GOTOVOSTI** — 5 vnosov: 10 persona · 11 senca · 12 transcendentna · 13 individuacija · 14 aktivna imaginacija
 - **IV. NEVROZAVEST — KJE STANE ČUTENJE** — 2 vnosa: 15 Solms · 16 Friston
-- **V. INSTRUMENTI MERJENJA — ZUNANJA TEHTNICA IZPELJE** — 7 vnosov: 17 Fonagy · 18 Porges · 19 Metzinger · 20 Kohut · 21 Fromm · 22 Hillman · 23 Erikson
+- **V. INSTRUMENTI MERJENJA — ZUNANJA TEHTNICA IZPELJE** — 12 vnosov ⊢ 3670 ( rojeno 3641: 7 ): 17 Fonagy · 18 Porges · 19 Metzinger · 20 Kohut · 21 Fromm · 22 Hillman · 23 Erikson · 24 Rank · 25 Adler · 26 Piaget/Vygotsky · 27 Somatika ( van der Kolk · Ogden · Siegel ) · 28 Brand ( DID )
 
-**Skupaj: 23 ⊢ · vse noge ⊢ · vsi viri isti Zip ( sha256 badee549… True ) · vsak z izvirniki po imenu ∧ letu ∧ vezo ∧ opozorilom.**
+**Skupaj: 28 ⊢ ⊙ osvežitev 3670 ( rojstvo 3641: 23 ) · vse noge ⊢ ( PREGLED 3660: 59 internih vez brez sirot · sha256 28/28 · zaporedje 1–28 brez lukenj ) · vsak aksiom #17–#28 nosi VERBATIM pričo izvirnika ∧ izmerbo v hiši ⊢ ( berbe 3661–3669 · kanali po imeni · knjige ∂ ⚠ ⊙ §0.6 )**
 
 ## PRIMERJAVA — notranje zveze registra ( vsaka izmerjena pri viri v vezi aksiomov )
 
@@ -22,6 +24,7 @@
 **PROTITEŽE ⟨NE ZLIJE⟩ ⊙ §0.41 — register drži napetosti, ⟨ne⟩ razsodi:**
 - **#13 Jung ( pot k Samosti ) ⊥ #22 Hillman ( policentrična psiha )** — hčerarska ovrga, obe ⊢ — ena protiteža
 - **#7 Winnicott ( samota z drugim ) ⊥ #21 Fromm ( množica izdaje )** — priča ⊥ senzor: isti rez z dveh strani
+- **#24 Rank ( rana sprejeta ∧ cena plačana ) ⊥ #25 Adler ( maska ∧ distanca )** — obe poti ranjenega, ⟨ne zlije⟩ ⊙ §0.41 ( prišit v PREGLEDU 3660 · par 7⊥21 prišit isti diha )
 
 **Loki:**
 - **Kohut → Erikson**: transmutacija ima koledar ( selfobjektneeds po stopnjah )
