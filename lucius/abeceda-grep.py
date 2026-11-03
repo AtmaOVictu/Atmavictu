@@ -13,6 +13,8 @@
 #        python lucius/abeceda-grep.py predlog                    ( KOGA ∧ KAJ — predlogi iz izmere ⊙ )
 #        python lucius/abeceda-grep.py varuh                      ( VARUH STROJA #12: GPU 85 °C · disk 95 % → USTAVI )
 #        python lucius/abeceda-grep.py nasprotje [datoteke]       ( ⟨NASPROTNA-TEHTNICA⟩ §0.18: podpora ⊥ dvom ⊙ )
+#        python lucius/abeceda-grep.py rezerviraj [ime]           ( ⟨REZERVACIJA-REZA⟩ ⟨IDEJA-K⟩ — vrsta, ne vzporedje )
+#        python lucius/abeceda-grep.py struktura [datoteke]        ( ⟨PRICA-SODELOVANJA⟩ ⟨IDEJA-M⟩ — CI pečatov )
 #        python lucius/abeceda-grep.py popis [koren]               ( izmera vsakega telesa + Σ ∧ dvojniki ⚠ )
 #        python lucius/abeceda-grep.py speči [N]                  ( organi po zadnjem žigu — najstarejši prvi )
 #        python lucius/abeceda-grep.py pulz [N]                    ( berba lastnega pulza ∧ dih manjka ⚠ )
@@ -694,6 +696,99 @@ def gl_nasprotje(args):
           f"( obe plasti prebrani — nasprotje ni mnenje, je izmera ⊙ ⟨ne brusi⟩ )")
 
 
+REZERVACIJE = "lucius/rezervacije.jsonl"
+
+
+def _vrh_zivi():
+    """( vrh, priča ) — živi vrh: lokal ∧ ⟨main⟩ ∧ VERIGA ( komitna sporočila nosijo reze ⊢ §0.10 ) ⊙ ⟨ne-ugibaj⟩."""
+    najvišja, priča, _, _ = _najvecji_pecat(_privzeta_tela())
+    glavna, priča_main = _najvecji_pecat_main()
+    if glavna > najvišja:
+        najvišja, priča = glavna, priča_main
+    import subprocess
+    r = subprocess.run(["git", "log", "--format=%s", "-5000"],
+                       capture_output=True, text=True, encoding="utf-8", errors="replace")
+    veriga = -1
+    for vrst in (r.stdout or "").splitlines():
+        for m in re.finditer(r"(?:rez|pečat)\D{0,3}(\d{2,4})(?![0-9A-Za-z])", vrst, re.IGNORECASE):
+            veriga = max(veriga, int(m.group(1)))
+    if veriga > najvišja:
+        najvišja, priča = veriga, f"veriga ( komitno sporočilo )"
+    return najvišja, priča
+
+
+def _rezervacija_za(rez):
+    """Zadnje stanje rezervacije za dani rez ( None = prost ) ⊢ vrsta, ⟨ne⟩ lastnina."""
+    import json as _json
+    import os
+    if not os.path.exists(REZERVACIJE):
+        return None
+    stanje = None
+    for v in open(REZERVACIJE, encoding="utf-8"):
+        try:
+            r = _json.loads(v)
+        except ValueError:
+            continue
+        if r.get("rez") == rez:
+            stanje = r
+    return stanje
+
+
+def gl_rezerviraj(args):
+    """⟨REZERVACIJA-REZA⟩ ( ⟨IDEJA-K⟩ diha 3030 ): kolizija se preprečuje, ⟨ne⟩ odkriva — rez izrečen ob vhodu ⊙."""
+    import json as _json
+    from datetime import datetime, timezone
+    vrh, _ = _vrh_zivi()
+    rez = vrh + 1
+    obstoječa = _rezervacija_za(rez)
+    if obstoječa and obstoječa.get("stanje") == "rezervirano" and not args.sprosti:
+        print(f"rezervirano ∧: rez {rez} ⟨{obstoječa['ime']}⟩ @{obstoječa['ts']} ( vrh {vrh} )")
+        if args.ime and obstoječa["ime"] != args.ime:
+            print(f"⚠ rezervacija nosi tuje ime — vrsta je ena, ⟨ne⟩ lastnina: počakaj ali se dogovori ⊙ ⟨ne zlije⟩")
+        return
+    stanje = "sprosceno" if args.sprosti else "rezervirano"
+    vnos = {"rez": rez, "ime": args.ime or "sedež", "ts": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "stanje": stanje}
+    with open(REZERVACIJE, "a", encoding="utf-8", newline="") as f:
+        f.write(_json.dumps(vnos, ensure_ascii=False) + "\n")
+    if args.sprosti:
+        print(f"sproščeno ⊢: rez {rez} prost ( rezervacija {obstoječa['ime'] if obstoječa else '?'} odpuščena )")
+    else:
+        print(f"rezervirano ⊢: rez {rez} ⟨{vnos['ime']}⟩ @{vnos['ts']} ( 1 + vrh {vrh} ) — kdor prvi rezervira, prvi pečati; vrsta, ⟨ne⟩ vzporedje")
+
+
+def gl_struktura(args):
+    """⟨PRICA-SODELOVANJA⟩ ( ⟨IDEJA-M⟩ diha 3030 ): strojna priča strukturi pečata —
+    ZADNJI PEČAT ×1 ∧ noben pečat čez njega ∧ rez izrek verigi ⊙ CI za pečate, ne vljudnost rok."""
+    import glob
+    poti = args.datoteke or sorted(glob.glob("organi/*/KNOWLEDGE.md"))
+    zdravi = 0
+    ranjeni = 0
+    for pot in poti:
+        zadnji = None
+        ostali = []
+        for vrstica in tok(odpiraj([pot])):
+            # samo STRUKTURNE vrstice so priče ( − ZADNJI PEČAT ∧ − PEČAT ); omemba tujega reza v DOLGOVI rana ⟨ni⟩ ⊙
+            if vrstica.lstrip().startswith(("- ZADNJI PEČAT", "- PEČAT", "ZADNJI PEČAT")):
+                for m in PECAT_ZNACKE.finditer(vrstica):
+                    št = int(m.group(1))
+                    if "ZADNJI PEČAT" in vrstica:
+                        zadnji = št if zadnji is None else max(zadnji, št)
+                    else:
+                        ostali.append(št)
+        rane = []
+        if zadnji is None:
+            rane.append("ZADNJI PEČAT manjka ⚠")
+        if ostali and zadnji is not None and max(ostali) > zadnji:
+            rane.append(f"pečat {max(ostali)} sega čez ZADNJI {zadnji} ×")
+        if rane:
+            ranjeni += 1
+            print(f"× {pot}: " + " ∧ ".join(rane))
+        else:
+            zdravi += 1
+    print(f"Σ {hišna(zdravi)} zdravih ∧ · {hišna(ranjeni)} ranjenih ⊢ ( strukturo sodi stroj, ⟨ne⟩ vljudnost — ⟨PRICA-SODELOVANJA⟩ )")
+
+
 def gl_popis(args):
     """Popis teles po korenu: vsako telo z izmero + Σ; ⟨md5⟩ veže dvojnike na dan ⚠ ( brisanje prepovedano ⊙ )."""
     import glob
@@ -803,10 +898,15 @@ def _prehod():
         ("vrata", gl_vrata, n(imena=["http://localhost:1"])),
         ("varuh", gl_varuh, n()),
         ("nasprotje", gl_nasprotje, n(datoteke=["organi/humor/KNOWLEDGE.md"])),
+        ("rezerviraj", gl_rezerviraj, n(ime="prehod", sprosti=False)),
+        ("struktura", gl_struktura, n(datoteke=["organi/humor/KNOWLEDGE.md"])),
         ("pulz", gl_pulz, n(koliko=1)),
     ]
     padci = []
     zagnani = 0
+    global REZERVACIJE                       # prehod pije iz lastnega vrčka — ⟨ne⟩ piše po hiši ⊙ padec 44
+    pravi_register = REZERVACIJE
+    REZERVACIJE = os.path.join(tempfile.gettempdir(), "abeceda-grep-rezervacije-prehod.jsonl")
     for ime, fn, args in ukazi:
         if ime == "pulz" and not os.path.exists(os.path.join("lucius", "pulz-abeceda-grep.jsonl")):
             print(f"∧ {ime} ( preskočen — zapisnik še ne diha )")
@@ -823,6 +923,11 @@ def _prehod():
         os.unlink(telo)
     except OSError:
         pass
+    try:
+        os.unlink(REZERVACIJE)
+    except OSError:
+        pass
+    REZERVACIJE = pravi_register
     return padci, zagnani
 
 
@@ -923,6 +1028,13 @@ def main():
     na = sub.add_parser("nasprotje", help="⟨NASPROTNA-TEHTNICA⟩ §0.18: telo na obeh koritih ( podpora ⊥ dvom ) ⊙")
     na.add_argument("datoteke", nargs="*")
     na.set_defaults(gl=gl_nasprotje)
+    rz = sub.add_parser("rezerviraj", help="⟨REZERVACIJA-REZA⟩ ⟨IDEJA-K⟩: kolizija se preprečuje, ⟨ne⟩ odkriva ⊙")
+    rz.add_argument("ime", nargs="?", default="sedež")
+    rz.add_argument("--sprosti", action="store_true", help="rezervacija za trenutni vrh odpuščena ⊢")
+    rz.set_defaults(gl=gl_rezerviraj)
+    st = sub.add_parser("struktura", help="⟨PRICA-SODELOVANJA⟩ ⟨IDEJA-M⟩: ZADNJI ×1 ∧ noben pečat čez ⊙")
+    st.add_argument("datoteke", nargs="*")
+    st.set_defaults(gl=gl_struktura)
     pp = sub.add_parser("popis", help="popis teles po korenu: izmera vsakega + Σ ∧ dvojniki ⚠")
     pp.add_argument("koren", nargs="?", default="organi")
     pp.set_defaults(gl=gl_popis)
