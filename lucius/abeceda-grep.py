@@ -168,6 +168,16 @@ def gl_grep(args):
         mera("vrstice")
     if args.stevske:
         print(zadetki)
+    # Σ-priča ( rez 3557 — prazno je dvoumno brez nje ⊙ audit žaljivosti 4 ):
+    # prazna berba je IZMERJENA, ⟨ne⟩ gluha — ∧ --imena maskira ⟨⟩-imena, torek
+    # vzorec, ki ⟨⟩-ime nosi, v --imena načinu ×0 PO NAČRTU — roka more vedeti.
+    nacin = ("--imena ( ⟨⟩-imena maskirana — vzorec z ⟨⟩ ne bo zadet )" if args.imena
+             else "--simboli" if args.simboli else "--stevila" if args.stevila
+             else "--hex" if args.hex else "plain")
+    opomba = (" ⚠ --imena maskira ⟨⟩-imena pred iskanjem — če iščeš ⟨ime⟩, uporabi brez --imena ⊙ ⟨ne-ugibaj⟩"
+              if args.imena and zadetki == 0 else "")
+    print(f"Σ grep: {zadetki} zadetkov · nacin {nacin} ⊢{opomba}",
+          file=sys.stderr)
 
 
 def gl_abeceda(args):
