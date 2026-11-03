@@ -3,9 +3,27 @@
 # Zagon: python lucius/ontogematria.py <beseda> | --vse | --korpus
 import sys, os, hashlib
 
-VIR = 'D:/GitD/CanvasMinstral/A4'
-KORPUSI = [('OPTIKON_full_export.txt', 'SLO'), ('OPTIKON_complete_EN.txt', 'EN')]
+VIR = 'D:/GitD/CanvasMinstral'
+KORPUSI = [('A4/OPTIKON_full_export.txt', 'SLO'), ('A4/OPTIKON_complete_EN.txt', 'EN')]
+NUJNOSTI_VIR = os.path.join(VIR, 'Obs11/beseda-je-ne-ontološki-sistem.md')  # 92 nujnosti ⊢ pri viru rez 3594
 STOLPCI = ['zven', 'smer', 'čustvo', 'funkcija']
+
+def beri_nujnosti():
+    """92 NUJNOSTI ( Beseda je ne — ontološki sistem Luka Pintarič, Obs11 pri viru ): beseda → fonetični rez ∧ pomen ∧ operator ∧ prehod."""
+    nuj = {}
+    try:
+        b = open(NUJNOSTI_VIR, 'rb').read()
+    except OSError:
+        return nuj, None
+    sha = hashlib.sha256(b).hexdigest()
+    import re
+    for vrst in b.decode('utf-8', errors='replace').splitlines():
+        delj = [c.strip() for c in vrst.strip().strip('|').split('|')]
+        if len(delj) == 6 and re.fullmatch(r'\d{3}', delj[0]):
+            nuj[delj[1].strip().lower()] = {
+                'st': delj[0], 'ime': delj[1], 'zven': delj[2], 'pomen': delj[3],
+                'operator': delj[4], 'prehod': delj[5]}
+    return nuj, {'sha256': sha, 'bajti': len(b), 'gesel': len(nuj)}
 
 def beri_korpus():
     gesla = {}
@@ -27,24 +45,37 @@ def izpis_znamenje():
 
 def main():
     gesla, priče = beri_korpus()
+    nujnosti, nuj_priča = beri_nujnosti()
     ukaz = ' '.join(sys.argv[1:])
     if ukaz == '--korpus':
         for ime, m in priče.items():
             print(f"⊙ {ime} ({m['jezik']}): {m['bajti']} B · sha256 {m['sha256'][:16]}…")
-        print(f"Σ {len(gesla)} gesel · {izpis_znamenje()}")
+        if nuj_priča:
+            print(f"⊙ beseda-je-ne-ontološki-sistem.md (NUJNOSTI): {nuj_priča['bajti']} B · sha256 {nuj_priča['sha256'][:16]}… · {nuj_priča['gesel']} fonetičnih rezov (telo nosi izvod s primeri, ⟨ne⟩ cel katalog 92 ⚠ pošteno)")
+        print(f"Σ {len(gesla)} gesel OPTIKON + {len(nujnosti)} nujnosti (izvod) · {izpis_znamenje()}")
         return
     if ukaz == '--vse':
         for g in sorted(gesla.values(), key=lambda x: x['beseda']):
             jeziki = [j for j in g if j in ('SLO', 'EN')]
             print(f"⊙ {g['beseda']} ({', '.join(jeziki)})")
-        print(f"Σ {len(gesla)} gesel · {izpis_znamenje()}")
+        for n in sorted(nujnosti.values(), key=lambda x: x['st']):
+            print(f"⊙ NUJNOST {n['st']} {n['ime']} — {n['pomen']} ({n['operator']})")
+        print(f"Σ {len(gesla)} + {len(nujnosti)} · {izpis_znamenje()}")
         return
     if not ukaz:
         print('Uporaba: python lucius/ontogematria.py <beseda> | --vse | --korpus')
         return
     b = ukaz.strip().lower()
+    if b in nujnosti:
+        n = nujnosti[b]
+        print(f"⊙ {n['ime']} — NUJNOST {n['st']} (Beseda je ne — ontološki sistem ⊢ pri viru):")
+        print(f"  zven: {n['zven']} · pomen: {n['pomen']} · operator: {n['operator']} · prehod: {n['prehod']}")
+        fonemi = [f for f in n['zven'].split('/') if f]
+        print(f"  [merjeno] črk {len(n['ime'])} · fonemov {len(fonemi)} ({', '.join(fonemi)}) ⊢")
+        print(izpis_znamenje() + ' ∧ korpus: nujnosti (izvod, Obs11)')
+        return
     if b not in gesla:
-        print(f"⚠ ⟨{ukaz}⟩ NI v korpusu OPTIKON ({len(gesla)} gesel) — zavrnitev: število izven izmerjenega je izum, ⟨ne⟩ meritev ⊙ §0.43 · ukaz: {ukaz!r} · orodje: lucius/ontogematria.py")
+        print(f"⚠ ⟨{ukaz}⟩ NI v korpusu OPTIKON ({len(gesla)} gesel) NE v 92 nujnostih — zavrnitev: število izven izmerjenega je izum, ⟨ne⟩ meritev ⊙ §0.43 · ukaz: {ukaz!r} · orodje: lucius/ontogematria.py")
         sys.exit(1)
     g = gesla[b]
     print(f"⊙ {g['beseda']} — OPTIKON (Word → Sound → Direction → Emotion → Function):")
