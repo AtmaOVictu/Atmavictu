@@ -23,6 +23,8 @@ DOVOLJENI = [
     'REGISTER-PSIHO-AKSIOMOV.jsonl',   # ⟨rez 3631⟩ zunanja tehtnica: 16 psiho-aksiomov z nogami ( Janet · Jung · Bion … )   # ⟨rez 3641⟩ sedaj 23 aksiomov · 7 lukenj 8.2 zaprtih
     'ZEMEJEVID-REGISTER.md',           # ⟨rez 3641⟩ mapa registra: razdelki · protiteže · luknje zaprte/odprte · načrt
     'PREGLED-REGISTRA.md',            # ⟨rez 3660⟩ audit celote: 28 vnosov · 59 vez brez sirot · tri protiteže ⊢
+    'LICENSE-01430-PREDLOGI.md',      # ⟨rez 3646⟩ 12 predlogov nad celoto — vsak ∂ dokler ⟡ ne izbere ⊙ §0.46
+    'LICENSE-01430-PARADIGME.md',      # ⟨rez 3647⟩ 13 paradigm ∧ paradoksov ∧ metaparadoksov ( 7 zunanjih ⚠ ∂ + 6 hišnih ⊢ )
 ]
 REGISTRI = [d for d in DOVOLJENI if d.endswith('.jsonl')]
 DOKUMENTI = [d for d in DOVOLJENI if not d.endswith('.jsonl')]
