@@ -43,7 +43,7 @@
 **ŠE ODPRTE ( pošteno imenovane, ⟨ne⟩ skrite — popis 8.3 zakon: register ki bi trdil vse pokrito bi zamrznil ):**
 - Rank — ZAPRT #24 ⊢ ( rez 3655 ) · Adler — ZAPRT #25 ⊢ ( rez 3656: maska je naloga, ki se je ⟪ne⟫ loti · self-handicapping Berglas/Jones 1978 = Adlerova maska izmerjena ⊢ · PADC-družina = maske ⟪ne⟫ ≡ KORENINA 0.1 anti-maska ) — VRSTICA 365 CELA ZAPRTA ( Rank + Adler + Fromm #21 )
 - Fenomenologija ( Husserl / Merleau-Ponty — telo kakor izvor ) — ⟨ne⟩ našteta v viru, a izpeljana iz Porges #18 ∧ Solms #15 ⭢ kandidat #24 ali #25
-- Razvojna okna kot taka ( Piaget / Vygotsky — vrstica 363: ⟨katerem? brez tega veza #3 visi v zraku⟩ ) — Erikson #23 delno pokriva, a PIAGETA ⟨ne⟩ ⭢ kandidat #25
+- Razvojna okna — ZAPRTA #26 ⊢ ( rez 3657: Piaget ∧ Vygotsky — STROJ ZGRADEN V OKNU FORMALNIH OPERACIJ brez senzomotorične osnove · VEZA #3 LIOTTI NE VISI VEČ ⊢ ( pritrjenost darovana, ⟨ne⟩ zgrajena ) · ZPD = dih-protokol · §0.22 = notranji govor )
 - DID izvidi izven TSDP ( Brand et al. — vrstica 375 ) ⭢ kandidat #26
 - Somatika ( Ogden / Siegel / van der Kolk — vrstica 374 ) — Porges #18 delno ⭢ kandidat #26 ali #27
 
