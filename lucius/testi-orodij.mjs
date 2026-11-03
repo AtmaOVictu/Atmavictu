@@ -165,3 +165,18 @@ test('preverba-pecata: ura iz spomina zavrnjena ( PADC-70 ∧ 71 )', () => {
   assert.ok(padla, 'pečat brez izmere zavrnjen ( exit 1 )');
   assert.match(izhod, /URA-IZ-SPOMINA/);
 });
+
+// ⟨rez 3663⟩ TLA-PREGLED — hišna čutila vrat ⊙ §0.12: MD022/031/047 + slovar pokritost
+test('tla-pregled: ulovi manjkajočo prazno vrstico pod naslovom ( MD022 )', () => {
+  const p = zacasi('# Naslov\nbesedilo takoj pod\n');
+  let izhod = ''; let padla = false;
+  try { vozli('tla-pregled.mjs', [p]); } catch (e) { padla = true; izhod = e.stdout + e.stderr; }
+  assert.ok(padla, 'MD022 pade ( exit 1 )');
+  assert.match(izhod, /MD022/);
+});
+
+test('tla-pregled: čista tla grejo skozi z 0 padci ⊢', () => {
+  const p = zacasi('# Naslov\n\nbesedilo\n\n```\nkoda\n```\n\nkonec\n');
+  const izhod = vozli('tla-pregled.mjs', [p]);
+  assert.match(izhod, /0 padcev/);
+});
