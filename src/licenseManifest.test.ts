@@ -201,7 +201,10 @@ test("cross-repository draft inventory distinguishes copies from a released lice
 
   assert.ok(draftStatus, "cross-repository release status must be documented");
   assert.match(draftStatus, /Atmavictu\/main.+VBL 0\.1410/u);
-  assert.match(draftStatus, /scan of all 53 organization repositories found 19 readable/u);
+  assert.match(
+    draftStatus,
+    /original scan found 19 readable root `LICENSE\.md` files among 53 organization repositories/u,
+  );
   assert.match(draftStatus, /fourteen Base64 files decode to byte-identical VBL 0\.1300 bodies/u);
   assert.match(draftStatus, /106,427 bytes/u);
   assert.match(draftStatus, /33 had no readable file/u);
@@ -371,6 +374,7 @@ test("cross-repository scan distinguishes missing root files from a missing defa
     );
   const expectedDefaultRefs = {
     "agents-cli": "main",
+    "alien-space-of-science": "main",
     "awesome-data-analysis": "main",
     "awesome-design-md": "main",
     "Claude-Code-Game-Studios": "main",
@@ -404,7 +408,7 @@ test("cross-repository scan distinguishes missing root files from a missing defa
     TradingAgents: "main",
     "Understand-Anything": "main",
   };
-  assert.equal(missingFileRows.length, 33);
+  assert.equal(missingFileRows.length, 34);
   assert.equal(readableFileRows.length, 19);
   for (const [repository, expectedRef] of Object.entries(expectedDefaultRefs)) {
     const row = missingFileRows.find((candidate) =>
@@ -448,11 +452,15 @@ test("cross-repository scan distinguishes missing root files from a missing defa
     ...missingFileRepositories,
     ...noBranchRepositories,
   ];
-  assert.equal(allRepositories.length, 53, "status rows must cover 53 repositories");
+  assert.equal(allRepositories.length, 54, "status rows must cover 54 repositories");
   assert.equal(
     new Set(allRepositories).size,
-    53,
+    54,
     "each repository must appear in exactly one root-file status group",
+  );
+  assert.match(
+    inventory,
+    /\| \[alien-space-of-science\]\(https:\/\/github\.com\/AtmaOVictu\/alien-space-of-science\/tree\/a55d660de75c99afe9e0948781cdb828fe3798eb\) \| `main` \| No readable root file at this path\s+\| `a55d660de75c99afe9e0948781cdb828fe3798eb` \|/u,
   );
 });
 

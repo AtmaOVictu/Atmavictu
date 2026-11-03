@@ -16,9 +16,15 @@ The edition numbers above are read from the companions' own text, not inferred f
 
 ## Cross-repository release status measured 2026-11-03
 
-The published source observed on `Atmavictu/main` remains VBL 0.1410 × 10⁴ (`LICENSE.md` commit [`e662165f`](https://github.com/AtmaOVictu/Atmavictu/commit/e662165fe9455d8e2de6a6088bc21b17c54a6ad8)). A scan of all 53 organization repositories found 19 readable root `LICENSE.md` files at their default refs; one repository had no default branch, and 33 had no readable file at that path. Each table row records the named default ref and the full commit SHA measured at that ref; its GitHub link is pinned to that commit, not to the moving branch name. Refs were measured independently, not as one atomic organization-wide snapshot.
+The published source observed on `Atmavictu/main` remains VBL 0.1410 × 10⁴ (`LICENSE.md` commit [`e662165f`](https://github.com/AtmaOVictu/Atmavictu/commit/e662165fe9455d8e2de6a6088bc21b17c54a6ad8)). The original scan found 19 readable root `LICENSE.md` files among 53 organization repositories; one repository had no default branch, and 33 had no readable file at that path. A later recheck found a 54th repository; its root path was measured separately and is recorded in the table below. Each row records a named default ref and the full commit SHA measured at that ref; its GitHub link is pinned to that commit, not to the moving branch name. Refs were measured independently, not as one atomic organization-wide snapshot.
 
 The pinned heads were rechecked against the current default refs through GitHub GraphQL from `2026-11-03T10:24:45.081+01:00` to `2026-11-03T10:24:47.727+01:00`: all 52 repositories with a default branch still pointed to their recorded commit; `Atmavictu_Oracle` remained without one. This confirms ref-head identity during that recheck, not a fresh download of file bytes or an atomic organization-wide snapshot.
+
+To repeat this limited head check, run `npm run audit:license-inventory` from the repository root with GitHub CLI (`gh`) authenticated. It compares current repository names, default branch names, and head commit SHAs with the pinned rows and exits nonzero on any difference. It does not fetch license-file contents, rewrite this historical snapshot, or determine which license terms apply.
+
+The repeatable check found a new repository, `alien-space-of-science`, after the 10:24 recheck. GitHub GraphQL measured its `main` head as `a55d660de75c99afe9e0948781cdb828fe3798eb` between `2026-11-03T12:16:52.104+01:00` and `2026-11-03T12:16:55.587+01:00`. At that pinned commit, the GitHub Contents API returned 404 for both root `LICENSE.md` and `VBL-10.5.1-KOMPIL-A-DRAFT-NOT-RELEASED.md`; only those exact paths were checked. The repeatable audit should now compare 54 repositories, with 19 readable root files, 34 missing root paths, and one repository without a default branch.
+
+After adding that row, `npm run audit:license-inventory` rechecked all 54 repository names, default branch names, and pinned commit SHAs from `2026-11-03T11:18:54.482Z` to `2026-11-03T11:18:57.744Z`; it reported zero mismatches. This confirms those heads matched during that interval only.
 
 | Repository | Default ref | Measured root `LICENSE.md` | Git blob | Measured commit |
 |---|---|---|---|---|
@@ -44,11 +50,12 @@ The pinned heads were rechecked against the current default refs through GitHub 
 
 The two plain-text VBL 0.1410 files are byte-identical (147,608 bytes; SHA-256 `719c706437ba53b44dd70d896b84f0903a194c87034fe24a499bdd4a37517cda`). The fourteen Base64 files decode to byte-identical VBL 0.1300 bodies (106,427 bytes; SHA-256 `66adcc246e2907c7b71c90e7f14ffd0c50a9be73c76dda5529fa653f26d799a9`). These are older encoded copies, not current plain-text releases or language translations. The table classifies only the readable root file at the observed default ref; it does not prove that a repository intends that file to grant rights or that any deployment consumes it.
 
-For completeness, the other 34 repositories in the 53-repository scan were measured on 2026-11-03 as follows. GitHub returned no readable root `LICENSE.md` at the listed default ref's pinned commit for the 33 repositories with a branch; this is a path-specific result, not a claim that the repository has no license elsewhere. `Atmavictu_Oracle` had no default branch, so that root-file check could not be made.
+For completeness, the other 35 repositories in the 54-repository inventory are recorded below. The 33 paths from the original scan were checked on 2026-11-03; GitHub returned no readable root `LICENSE.md` at their pinned commits. The additional `alien-space-of-science` row was checked at its pinned commit at 12:16 +01:00 as recorded above. These are path-specific results, not claims that the repositories have no license elsewhere. `Atmavictu_Oracle` had no default branch, so that root-file check could not be made.
 
 | Repository | Default ref | Root `LICENSE.md` result | Measured commit |
 |---|---|---|---|
 | [agents-cli](https://github.com/AtmaOVictu/agents-cli/tree/8689fd6367545b057fe72efcf871f88472906392) | `main` | No readable root file at this path  | `8689fd6367545b057fe72efcf871f88472906392` |
+| [alien-space-of-science](https://github.com/AtmaOVictu/alien-space-of-science/tree/a55d660de75c99afe9e0948781cdb828fe3798eb) | `main` | No readable root file at this path  | `a55d660de75c99afe9e0948781cdb828fe3798eb` |
 | [awesome-data-analysis](https://github.com/AtmaOVictu/awesome-data-analysis/tree/4f180acaf62cbf5ecf5b438ff88b135e8b7a03b4) | `main` | No readable root file at this path  | `4f180acaf62cbf5ecf5b438ff88b135e8b7a03b4` |
 | [awesome-design-md](https://github.com/AtmaOVictu/awesome-design-md/tree/6d10c1457484c971cdae35563a1386102b4337c6) | `main` | No readable root file at this path  | `6d10c1457484c971cdae35563a1386102b4337c6` |
 | [Claude-Code-Game-Studios](https://github.com/AtmaOVictu/Claude-Code-Game-Studios/tree/984023ddac0d5e27624f2baacde6105e45de375f) | `main` | No readable root file at this path  | `984023ddac0d5e27624f2baacde6105e45de375f` |
