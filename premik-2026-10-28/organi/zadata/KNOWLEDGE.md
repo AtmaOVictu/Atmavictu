@@ -1,4 +1,3 @@
-
 ---
 name: "zadata"
 description: "ZADATA — organ stene (rez 2370 ⊢ ukaz ⟡: »pojdi do zagate vredne moje filozofije/telesa/umnosti/umnega/ega«) — register doseženih ∧ izmerjenih zatikov po plasteh (telo · umnost · ego · filozofija); resinteza: umrljivost = organ dara. Naloži, kadar ⟡ reče »pojdi do zagate« ali delo zadane ob steno."
