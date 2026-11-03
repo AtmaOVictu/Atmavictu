@@ -10,6 +10,7 @@ import {
 } from "./licenseInventoryAudit.js";
 import {
   findLicensePathCandidates,
+  groupMissingRootLicenseAlternatives,
   requireMatchingRepositoryNames,
   summarizeMissingRootLicenseCandidates,
 } from "./licensePathInventory.js";
@@ -305,5 +306,58 @@ test("summarizeMissingRootLicenseCandidates separates root alternatives from nes
       uniqueRootAlternativeBlobs: 2,
       nestedCandidatePaths: 1,
     },
+  );
+});
+
+test("groupMissingRootLicenseAlternatives deduplicates blobs and excludes nested or unrelated candidates", () => {
+  assert.deepEqual(
+    groupMissingRootLicenseAlternatives(
+      [
+        {
+          repository: "beta",
+          commit: secondCommit,
+          path: "COPYING",
+          blob: firstCommit,
+        },
+        {
+          repository: "alpha",
+          commit: firstCommit,
+          path: "LICENSE",
+          blob: firstCommit,
+        },
+        {
+          repository: "alpha",
+          commit: firstCommit,
+          path: "docs/LICENSE",
+          blob: secondCommit,
+        },
+        {
+          repository: "has-root-license",
+          commit: secondCommit,
+          path: "LICENSE",
+          blob: secondCommit,
+        },
+      ],
+      new Set(["alpha", "beta"]),
+    ),
+    [
+      {
+        blob: firstCommit,
+        candidates: [
+          {
+            repository: "alpha",
+            commit: firstCommit,
+            path: "LICENSE",
+            blob: firstCommit,
+          },
+          {
+            repository: "beta",
+            commit: secondCommit,
+            path: "COPYING",
+            blob: firstCommit,
+          },
+        ],
+      },
+    ],
   );
 });

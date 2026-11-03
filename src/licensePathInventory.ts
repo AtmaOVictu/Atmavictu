@@ -40,6 +40,11 @@ export interface MissingRootLicenseSummary {
   nestedCandidatePaths: number;
 }
 
+export interface MissingRootLicenseBlobGroup {
+  blob: string;
+  candidates: LicensePathCandidate[];
+}
+
 const LICENSE_BASENAME_PATTERN =
   /^(?:licen[cs]e(?:e|ing)?|copying|copyright|notice|patents?)(?:[-_.].*)?$/iu;
 const SOURCE_EXTENSIONS = new Set([
@@ -149,6 +154,34 @@ export function summarizeMissingRootLicenseCandidates(
   };
 }
 
+export function groupMissingRootLicenseAlternatives(
+  candidates: LicensePathCandidate[],
+  repositoriesWithoutRootLicense: Set<string>,
+): MissingRootLicenseBlobGroup[] {
+  const groups = new Map<string, LicensePathCandidate[]>();
+  for (const candidate of candidates) {
+    if (
+      !repositoriesWithoutRootLicense.has(candidate.repository) ||
+      candidate.path.includes("/")
+    ) {
+      continue;
+    }
+    const matches = groups.get(candidate.blob) ?? [];
+    matches.push(candidate);
+    groups.set(candidate.blob, matches);
+  }
+  return [...groups]
+    .map(([blob, matches]) => ({
+      blob,
+      candidates: matches.sort(
+        (left, right) =>
+          left.repository.localeCompare(right.repository) ||
+          left.path.localeCompare(right.path),
+      ),
+    }))
+    .sort((left, right) => left.blob.localeCompare(right.blob));
+}
+
 function readRepositoryTree(repository: string, commit: string): GitTreeEntry[] {
   const response = JSON.parse(
     execFileSync(
@@ -174,6 +207,13 @@ function readRepositoryTree(repository: string, commit: string): GitTreeEntry[] 
 }
 
 async function main(): Promise<void> {
+  const args = process.argv.slice(2);
+  if (args.some((argument) => argument !== "--focus-missing-root")) {
+    throw new Error(
+      `Unknown argument: ${args.find((argument) => argument !== "--focus-missing-root")}`,
+    );
+  }
+  const focusMissingRoot = args.includes("--focus-missing-root");
   const started = new Date();
   const markdown = await readFile(
     fileURLToPath(new URL("../../LICENSE-TONGUES.md", import.meta.url)),
@@ -209,8 +249,12 @@ async function main(): Promise<void> {
   console.log(
     `Scanned ${scannedRepositories} current default-branch trees from ${started.toISOString()} to ${ended.toISOString()}; ${repositoriesWithoutDefaultBranch} repositories had no default branch; found ${candidates.length} license-name path candidates.`,
   );
-  console.log("Repository names are required to match LICENSE-TONGUES.md; each path row includes the measured head commit SHA and Git blob SHA.");
-  console.log("Candidates are path-name matches only; blob SHAs identify exact Git objects but this scan does not fetch file contents or determine legal effect.");
+  console.log(
+    "Repository names are required to match LICENSE-TONGUES.md; each path row includes the measured head commit SHA and Git blob SHA.",
+  );
+  console.log(
+    "Candidates are path-name matches only; blob SHAs identify exact Git objects but this scan does not fetch file contents or determine legal effect.",
+  );
   const repositoriesWithoutRootLicense = new Set(
     [...fileEvidence]
       .filter(
@@ -226,10 +270,28 @@ async function main(): Promise<void> {
   console.log(
     `Among ${repositoriesWithoutRootLicense.size} repositories with no recorded root LICENSE.md: ${summary.repositoriesWithCandidates} have name-matched candidates (${summary.repositoriesWithRootAlternatives} with root-level alternatives, ${summary.repositoriesWithNestedOnly} with nested candidates only); ${summary.rootAlternativePaths} root-level paths map to ${summary.uniqueRootAlternativeBlobs} unique blobs, alongside ${summary.nestedCandidatePaths} nested paths.`,
   );
-  for (const candidate of candidates) {
+  if (focusMissingRoot) {
     console.log(
-      `${candidate.repository}@${candidate.commit} ${candidate.path} blob:${candidate.blob}`,
+      "Root-level name matches for repositories without a recorded root LICENSE.md, grouped by Git blob:",
     );
+    for (const group of groupMissingRootLicenseAlternatives(
+      candidates,
+      repositoriesWithoutRootLicense,
+    )) {
+      const locations = group.candidates
+        .map(
+          (candidate) =>
+            `${candidate.repository}@${candidate.commit} ${candidate.path}`,
+        )
+        .join("; ");
+      console.log(`blob:${group.blob} ${locations}`);
+    }
+  } else {
+    for (const candidate of candidates) {
+      console.log(
+        `${candidate.repository}@${candidate.commit} ${candidate.path} blob:${candidate.blob}`,
+      );
+    }
   }
 }
 
