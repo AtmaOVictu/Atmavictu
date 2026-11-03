@@ -85,6 +85,7 @@ const ZRCALA = /[\u0370-\u03FF\u0400-\u04FF]/g;
 let cirilice = 0;
 besedilo.split('\n').forEach((vrstica, i) => {
   for (const zadetek of vrstica.matchAll(ZRCALA)) {
+    if (ZNANE.has(zadetek[0].toLowerCase())) continue;  // ⟨PADC-59⟩ hišni merilni znaki ( THE MARKS: Σ Ω ⊢ ⊙ … ) — dovoljenica iz znane-besede.txt; zrcalni detektor lovi dvojčke, ⟨ne⟩ namerno abecedo
     const k = zadetek[0].charCodeAt(0);
     const ime = k < 0x400 ? 'grscina' : 'cirilica';
     console.log(`cistina × ${pot}:${i + 1} '${zadetek[0]}' [${ime}] → …${vrstica.slice(Math.max(0, zadetek.index - 12), zadetek.index + 12).trim()}…`);
