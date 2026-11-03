@@ -224,22 +224,29 @@ test("compareRepositoryFiles detects root and draft Git object drift", () => {
 test("findLicensePathCandidates selects license-named files, not directories or source files", () => {
   assert.deepEqual(
     findLicensePathCandidates([
-      { path: "LICENSE.md", type: "blob" },
-      { path: "src/LICENCE-THIRD-PARTY.txt", type: "blob" },
-      { path: "vendor/package/COPYING", type: "blob" },
-      { path: "vendor/package/LICENSE.vrata.json", type: "blob" },
-      { path: "src/license.go", type: "blob" },
-      { path: "src/copyright_headers.py", type: "blob" },
-      { path: "src/licenseHeader.ts", type: "blob" },
+      { path: "LICENSE.md", sha: firstCommit, type: "blob" },
+      { path: "src/LICENCE-THIRD-PARTY.txt", sha: secondCommit, type: "blob" },
+      { path: "vendor/package/COPYING", sha: firstCommit, type: "blob" },
+      { path: "vendor/package/LICENSE.vrata.json", sha: secondCommit, type: "blob" },
+      { path: "src/license.go", sha: firstCommit, type: "blob" },
+      { path: "src/copyright_headers.py", sha: secondCommit, type: "blob" },
+      { path: "src/licenseHeader.ts", sha: firstCommit, type: "blob" },
       { path: "LICENSES", type: "tree" },
       { type: "blob" },
     ]),
     [
-      "LICENSE.md",
-      "src/LICENCE-THIRD-PARTY.txt",
-      "vendor/package/COPYING",
-      "vendor/package/LICENSE.vrata.json",
+      { path: "LICENSE.md", blob: firstCommit },
+      { path: "src/LICENCE-THIRD-PARTY.txt", blob: secondCommit },
+      { path: "vendor/package/COPYING", blob: firstCommit },
+      { path: "vendor/package/LICENSE.vrata.json", blob: secondCommit },
     ],
+  );
+});
+
+test("findLicensePathCandidates rejects candidate entries without a valid blob SHA", () => {
+  assert.throws(
+    () => findLicensePathCandidates([{ path: "LICENSE.md", type: "blob" }]),
+    /no valid blob SHA for LICENSE\.md/u,
   );
 });
 
@@ -282,10 +289,11 @@ test("summarizeMissingRootLicenseCandidates separates root alternatives from nes
   assert.deepEqual(
     summarizeMissingRootLicenseCandidates(
       [
-        { repository: "root-alt", commit: firstCommit, path: "LICENSE" },
-        { repository: "root-alt", commit: firstCommit, path: "COPYING" },
-        { repository: "nested-only", commit: secondCommit, path: "docs/LICENSE.txt" },
-        { repository: "has-root-license", commit: secondCommit, path: "LICENSE" },
+        { repository: "root-alt", commit: firstCommit, path: "LICENSE", blob: secondCommit },
+        { repository: "root-alt", commit: firstCommit, path: "COPYING", blob: firstCommit },
+        { repository: "root-alt", commit: firstCommit, path: "NOTICE", blob: firstCommit },
+        { repository: "nested-only", commit: secondCommit, path: "docs/LICENSE.txt", blob: firstCommit },
+        { repository: "has-root-license", commit: secondCommit, path: "LICENSE", blob: secondCommit },
       ],
       new Set(["root-alt", "nested-only"]),
     ),
@@ -293,7 +301,8 @@ test("summarizeMissingRootLicenseCandidates separates root alternatives from nes
       repositoriesWithCandidates: 2,
       repositoriesWithRootAlternatives: 1,
       repositoriesWithNestedOnly: 1,
-      rootAlternativePaths: 2,
+      rootAlternativePaths: 3,
+      uniqueRootAlternativeBlobs: 2,
       nestedCandidatePaths: 1,
     },
   );

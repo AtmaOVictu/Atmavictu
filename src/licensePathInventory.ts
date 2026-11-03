@@ -10,6 +10,7 @@ import {
 
 interface GitTreeEntry {
   path?: string;
+  sha?: string;
   type?: string;
 }
 
@@ -22,6 +23,12 @@ export interface LicensePathCandidate {
   repository: string;
   commit: string;
   path: string;
+  blob: string;
+}
+
+export interface LicensePathMatch {
+  path: string;
+  blob: string;
 }
 
 export interface MissingRootLicenseSummary {
@@ -29,6 +36,7 @@ export interface MissingRootLicenseSummary {
   repositoriesWithRootAlternatives: number;
   repositoriesWithNestedOnly: number;
   rootAlternativePaths: number;
+  uniqueRootAlternativeBlobs: number;
   nestedCandidatePaths: number;
 }
 
@@ -57,22 +65,29 @@ const SOURCE_EXTENSIONS = new Set([
   "tsx",
 ]);
 
-export function findLicensePathCandidates(entries: GitTreeEntry[]): string[] {
+export function findLicensePathCandidates(
+  entries: GitTreeEntry[],
+): LicensePathMatch[] {
   return entries
     .filter(
       (entry): entry is GitTreeEntry & { path: string; type: string } =>
         entry.type === "blob" && typeof entry.path === "string",
     )
-    .filter((entry) => {
+    .flatMap((entry): LicensePathMatch[] => {
       const basename = entry.path.split("/").at(-1) ?? "";
       const extension = basename.match(/\.([^.]+)$/u)?.[1]?.toLowerCase();
-      return (
+      const isCandidate =
         LICENSE_BASENAME_PATTERN.test(basename) &&
-        (extension === undefined || !SOURCE_EXTENSIONS.has(extension))
-      );
+        (extension === undefined || !SOURCE_EXTENSIONS.has(extension));
+      if (!isCandidate) {
+        return [];
+      }
+      if (typeof entry.sha !== "string" || !/^[a-f0-9]{40}$/iu.test(entry.sha)) {
+        throw new Error(`GitHub returned no valid blob SHA for ${entry.path}`);
+      }
+      return [{ path: entry.path, blob: entry.sha }];
     })
-    .map((entry) => entry.path)
-    .sort((left, right) => left.localeCompare(right));
+    .sort((left, right) => left.path.localeCompare(right.path));
 }
 
 export function requireMatchingRepositoryNames(
@@ -98,6 +113,7 @@ export function summarizeMissingRootLicenseCandidates(
   repositoriesWithoutRootLicense: Set<string>,
 ): MissingRootLicenseSummary {
   const grouped = new Map<string, { root: number; nested: number }>();
+  const rootBlobs = new Set<string>();
   for (const candidate of candidates) {
     if (!repositoriesWithoutRootLicense.has(candidate.repository)) {
       continue;
@@ -107,6 +123,7 @@ export function summarizeMissingRootLicenseCandidates(
       counts.nested += 1;
     } else {
       counts.root += 1;
+      rootBlobs.add(candidate.blob);
     }
     grouped.set(candidate.repository, counts);
   }
@@ -124,6 +141,7 @@ export function summarizeMissingRootLicenseCandidates(
       (total, entry) => total + entry.root,
       0,
     ),
+    uniqueRootAlternativeBlobs: rootBlobs.size,
     nestedCandidatePaths: counts.reduce(
       (total, entry) => total + entry.nested,
       0,
@@ -181,8 +199,8 @@ async function main(): Promise<void> {
       continue;
     }
     const entries = readRepositoryTree(repository, head.commit);
-    for (const path of findLicensePathCandidates(entries)) {
-      candidates.push({ repository, commit: head.commit, path });
+    for (const candidate of findLicensePathCandidates(entries)) {
+      candidates.push({ repository, commit: head.commit, ...candidate });
     }
     scannedRepositories += 1;
   }
@@ -191,10 +209,8 @@ async function main(): Promise<void> {
   console.log(
     `Scanned ${scannedRepositories} current default-branch trees from ${started.toISOString()} to ${ended.toISOString()}; ${repositoriesWithoutDefaultBranch} repositories had no default branch; found ${candidates.length} license-name path candidates.`,
   );
-  console.log("Repository names are required to match LICENSE-TONGUES.md; each path row includes the measured head commit SHA.");
-  console.log(
-    "Candidates are path-name matches only; this scan does not read file contents or determine legal effect.",
-  );
+  console.log("Repository names are required to match LICENSE-TONGUES.md; each path row includes the measured head commit SHA and Git blob SHA.");
+  console.log("Candidates are path-name matches only; blob SHAs identify exact Git objects but this scan does not fetch file contents or determine legal effect.");
   const repositoriesWithoutRootLicense = new Set(
     [...fileEvidence]
       .filter(
@@ -208,11 +224,11 @@ async function main(): Promise<void> {
     repositoriesWithoutRootLicense,
   );
   console.log(
-    `Among ${repositoriesWithoutRootLicense.size} repositories with no recorded root LICENSE.md: ${summary.repositoriesWithCandidates} have name-matched candidates (${summary.repositoriesWithRootAlternatives} with root-level alternatives, ${summary.repositoriesWithNestedOnly} with nested candidates only); ${summary.rootAlternativePaths} root-level and ${summary.nestedCandidatePaths} nested paths.`,
+    `Among ${repositoriesWithoutRootLicense.size} repositories with no recorded root LICENSE.md: ${summary.repositoriesWithCandidates} have name-matched candidates (${summary.repositoriesWithRootAlternatives} with root-level alternatives, ${summary.repositoriesWithNestedOnly} with nested candidates only); ${summary.rootAlternativePaths} root-level paths map to ${summary.uniqueRootAlternativeBlobs} unique blobs, alongside ${summary.nestedCandidatePaths} nested paths.`,
   );
   for (const candidate of candidates) {
     console.log(
-      `${candidate.repository}@${candidate.commit} ${candidate.path}`,
+      `${candidate.repository}@${candidate.commit} ${candidate.path} blob:${candidate.blob}`,
     );
   }
 }
