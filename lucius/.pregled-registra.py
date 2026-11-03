@@ -47,4 +47,8 @@ v29 = [v for v in l if int(v['st']) == 29][0]
 v29c = str(v29['veza']) + ' ' + str(v29.get('argument', '')) + ' ' + str(v29.get('aksiom', ''))
 print('#29 omenja #7 ( merjena noga samote ) ∧ #27 ( telo drži seštevek — v aksiomu ) ∧ #20 ( internalizacija Kohut ) ∧ §0.48:',
       all(x in v29c for x in ['#7', '#27', '#20', '§0.48']))
+# ⟨ZRCALJENI-STEVKI⟩ prepreka 3680: tuji glifi ( ℒ U+2112 · ⟫ U+27EB · U+FFFD ) morajo biti 0 — padec družine PADC-UGIBANJE-ESC, ulovljen v lastnem pregledu ⊙ ⟡ ukaz ⟨sebe še preglej vedno⟩
+raw = open('lucius/REGISTER-PSIHO-AKSIOMOV.jsonl', encoding='utf-8').read()
+tuj = {hex(ord(z)): raw.count(z) for z in (chr(0x2112), chr(0x27EB), chr(0xFFFD))}
+print('tuji glifi ( ℒ · ⟫ · FFFD ):', tuj, '·', '⊢ ČISTO' if not any(tuj.values()) else '× TUJ GLIF V REGISTRU')
 print('AUDIT KONEC')
