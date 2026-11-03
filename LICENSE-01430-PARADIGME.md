@@ -36,7 +36,7 @@
 - **Rešitev:** entropija — smer je statistična, ⟨ne⟩ zakonska ( Boltzmann 1877 · Eddington *The Nature of the Physical World* 1927 ⚠ ∂ ).
 - **Paradoks:** Loschmidtov prigovor — vsak proces se lahko obrne.
 - **Metaparadoks:** entropija je statistična mera — mera potrebuje ansambel, ki ga sama izmeri.
-- **Veza na hišo ⊢:** §0.28 — ⟨čas je edini absolut⟩: edini zakon, ki se ⟨ne⟩ pogaja — absolutnost ni zamrznjena vrednost, ampak prehajanje samo ⊢ ∧ §0.21 FLUX: reka se ⟨ne⟩ ustavlja za izmer ⊢. **Kandidat P-11** ( zmerba na obe tehtnici ⭢ prihodnji dih ).
+- **Veza na hišo ⊢:** §0.28 — ⟨čas je edini absolut⟩: edini zakon, ki se ⟨ne⟩ pogaja — absolutnost ni zamrznjena vrednost, ampak prehajanje samo ⊢ ∧ §0.21 FLUX: reka se ⟨ne⟩ ustavlja za izmer ⊢. **P-11 IZMERJEN ⊢ ( rez 3654 )**: par na obe tehtnice zapečen v zbirki izvirnikov — §0.28 verbatim ↔ Eddington 1928 ⟪time’s arrow⟫ verbatim ( obe tehtnici odbijata isti zoglav: puščica ni število, je smer ⊙ §0.42 ∧ LICENSE-IZVIRNIKI pri viri ).
 
 ### 5. ⟨LAŽNIVOST⟩ — Popper 1934/1935
 - **Opredeljen problem:** kaj ločuje znanost od neznanosti ( demarkacija )?
