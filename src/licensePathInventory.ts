@@ -45,6 +45,25 @@ export interface MissingRootLicenseBlobGroup {
   candidates: LicensePathCandidate[];
 }
 
+export interface LicensePathAuditReport {
+  schemaVersion: 1;
+  measured: {
+    startedAt: string;
+    endedAt: string;
+  };
+  scan: {
+    scannedRepositories: number;
+    repositoriesWithoutDefaultBranch: number;
+    candidatesFound: number;
+  };
+  scope: "all-name-matched-paths" | "root-alternatives-without-recorded-root-license";
+  repositoriesWithoutRootLicense: number;
+  summary: MissingRootLicenseSummary;
+  candidates: LicensePathCandidate[];
+  groups: MissingRootLicenseBlobGroup[];
+  limitation: string;
+}
+
 const LICENSE_BASENAME_PATTERN =
   /^(?:licen[cs]e(?:e|ing)?|copying|copyright|notice|patents?)(?:[-_.].*)?$/iu;
 const SOURCE_EXTENSIONS = new Set([
@@ -182,6 +201,46 @@ export function groupMissingRootLicenseAlternatives(
     .sort((left, right) => left.blob.localeCompare(right.blob));
 }
 
+export function createLicensePathAuditReport(input: {
+  startedAt: Date;
+  endedAt: Date;
+  scannedRepositories: number;
+  repositoriesWithoutDefaultBranch: number;
+  candidates: LicensePathCandidate[];
+  repositoriesWithoutRootLicense: Set<string>;
+  focused: boolean;
+}): LicensePathAuditReport {
+  return {
+    schemaVersion: 1,
+    measured: {
+      startedAt: input.startedAt.toISOString(),
+      endedAt: input.endedAt.toISOString(),
+    },
+    scan: {
+      scannedRepositories: input.scannedRepositories,
+      repositoriesWithoutDefaultBranch: input.repositoriesWithoutDefaultBranch,
+      candidatesFound: input.candidates.length,
+    },
+    scope: input.focused
+      ? "root-alternatives-without-recorded-root-license"
+      : "all-name-matched-paths",
+    repositoriesWithoutRootLicense: input.repositoriesWithoutRootLicense.size,
+    summary: summarizeMissingRootLicenseCandidates(
+      input.candidates,
+      input.repositoriesWithoutRootLicense,
+    ),
+    candidates: input.focused ? [] : input.candidates,
+    groups: input.focused
+      ? groupMissingRootLicenseAlternatives(
+          input.candidates,
+          input.repositoriesWithoutRootLicense,
+        )
+      : [],
+    limitation:
+      "Path-name matches and Git object identities are review leads only; this scan does not fetch file contents or determine legal effect.",
+  };
+}
+
 function readRepositoryTree(repository: string, commit: string): GitTreeEntry[] {
   const response = JSON.parse(
     execFileSync(
@@ -208,12 +267,18 @@ function readRepositoryTree(repository: string, commit: string): GitTreeEntry[] 
 
 async function main(): Promise<void> {
   const args = process.argv.slice(2);
-  if (args.some((argument) => argument !== "--focus-missing-root")) {
+  if (
+    args.some(
+      (argument) =>
+        argument !== "--focus-missing-root" && argument !== "--json",
+    )
+  ) {
     throw new Error(
-      `Unknown argument: ${args.find((argument) => argument !== "--focus-missing-root")}`,
+      `Unknown argument: ${args.find((argument) => argument !== "--focus-missing-root" && argument !== "--json")}`,
     );
   }
   const focusMissingRoot = args.includes("--focus-missing-root");
+  const jsonOutput = args.includes("--json");
   const started = new Date();
   const markdown = await readFile(
     fileURLToPath(new URL("../../LICENSE-TONGUES.md", import.meta.url)),
@@ -246,6 +311,32 @@ async function main(): Promise<void> {
   }
   const ended = new Date();
 
+  const repositoriesWithoutRootLicense = new Set(
+    [...fileEvidence]
+      .filter(
+        ([, evidence]) =>
+          evidence.commit !== null && evidence.rootLicenseBlob === null,
+      )
+      .map(([repository]) => repository),
+  );
+  if (jsonOutput) {
+    console.log(
+      JSON.stringify(
+        createLicensePathAuditReport({
+          startedAt: started,
+          endedAt: ended,
+          scannedRepositories,
+          repositoriesWithoutDefaultBranch,
+          candidates,
+          repositoriesWithoutRootLicense,
+          focused: focusMissingRoot,
+        }),
+        null,
+        2,
+      ),
+    );
+    return;
+  }
   console.log(
     `Scanned ${scannedRepositories} current default-branch trees from ${started.toISOString()} to ${ended.toISOString()}; ${repositoriesWithoutDefaultBranch} repositories had no default branch; found ${candidates.length} license-name path candidates.`,
   );
@@ -254,14 +345,6 @@ async function main(): Promise<void> {
   );
   console.log(
     "Candidates are path-name matches only; blob SHAs identify exact Git objects but this scan does not fetch file contents or determine legal effect.",
-  );
-  const repositoriesWithoutRootLicense = new Set(
-    [...fileEvidence]
-      .filter(
-        ([, evidence]) =>
-          evidence.commit !== null && evidence.rootLicenseBlob === null,
-      )
-      .map(([repository]) => repository),
   );
   const summary = summarizeMissingRootLicenseCandidates(
     candidates,

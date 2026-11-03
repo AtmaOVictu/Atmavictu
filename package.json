@@ -9,6 +9,7 @@
     "audit:license-inventory": "tsc && node build/src/licenseInventoryAudit.js",
     "audit:license-paths": "tsc && node build/src/licensePathInventory.js",
     "audit:license-paths:focused": "tsc && node build/src/licensePathInventory.js --focus-missing-root",
+    "audit:license-paths:focused:json": "tsc && node build/src/licensePathInventory.js --focus-missing-root --json",
     "atma": "node build/src/atmaCli.js",
     "proof:capture": "tsc && node build/src/captureIncomingTextProof.js",
     "serve": "tsc && node build/src/workbenchApiServer.js"

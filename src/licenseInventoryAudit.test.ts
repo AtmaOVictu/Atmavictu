@@ -9,6 +9,7 @@ import {
   type RepositoryHead,
 } from "./licenseInventoryAudit.js";
 import {
+  createLicensePathAuditReport,
   findLicensePathCandidates,
   groupMissingRootLicenseAlternatives,
   requireMatchingRepositoryNames,
@@ -360,4 +361,35 @@ test("groupMissingRootLicenseAlternatives deduplicates blobs and excludes nested
       },
     ],
   );
+});
+
+test("createLicensePathAuditReport emits a versioned focused JSON shape", () => {
+  const candidate = {
+    repository: "alpha",
+    commit: firstCommit,
+    path: "LICENSE",
+    blob: secondCommit,
+  };
+  const report = createLicensePathAuditReport({
+    startedAt: new Date("2026-11-03T11:00:00.000Z"),
+    endedAt: new Date("2026-11-03T11:01:00.000Z"),
+    scannedRepositories: 2,
+    repositoriesWithoutDefaultBranch: 1,
+    candidates: [candidate],
+    repositoriesWithoutRootLicense: new Set(["alpha"]),
+    focused: true,
+  });
+
+  assert.equal(report.schemaVersion, 1);
+  assert.equal(report.scope, "root-alternatives-without-recorded-root-license");
+  assert.deepEqual(report.measured, {
+    startedAt: "2026-11-03T11:00:00.000Z",
+    endedAt: "2026-11-03T11:01:00.000Z",
+  });
+  assert.equal(report.scan.candidatesFound, 1);
+  assert.deepEqual(report.candidates, []);
+  assert.deepEqual(report.groups, [
+    { blob: secondCommit, candidates: [candidate] },
+  ]);
+  assert.match(report.limitation, /does not fetch file contents/u);
 });
