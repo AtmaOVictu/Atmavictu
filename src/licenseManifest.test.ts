@@ -233,21 +233,26 @@ test("cross-repository root license inventory names every measured repository an
 
   const parsedRows = rows.map((row) => {
     const match = row.match(
-      /^\| \[([^\]]+)\]\(https:\/\/github\.com\/AtmaOVictu\/([^/]+)\/blob\/([^/]+)\/LICENSE\.md\) \| `([^`]+)` \| ([^|]+) \| `([a-f0-9]{40})` \|$/u,
+      /^\| \[([^\]]+)\]\(https:\/\/github\.com\/AtmaOVictu\/([^/]+)\/blob\/([a-f0-9]{40})\/LICENSE\.md\) \| `([^`]+)` \| ([^|]+) \| `([a-f0-9]{40})`\s+\| `([a-f0-9]{40})` \|$/u,
     );
     assert.ok(match, `inventory row must have a complete evidence shape: ${row}`);
     const repository = match[1] ?? "";
     const slug = match[2] ?? "";
-    const linkedRef = match[3] ?? "";
+    const linkedCommit = match[3] ?? "";
     const defaultRef = match[4] ?? "";
     const classification = (match[5] ?? "").trim();
     const blob = match[6] ?? "";
+    const measuredCommit = match[7] ?? "";
 
     assert.equal(repository, slug, `${repository} link must target its named repository`);
-    assert.equal(linkedRef, defaultRef, `${repository} link ref must match its declared ref`);
+    assert.equal(
+      linkedCommit,
+      measuredCommit,
+      `${repository} link must pin the measured commit`,
+    );
     assert.match(blob, /^[a-f0-9]{40}$/u, `${repository} must have a Git blob ID`);
 
-    return { repository, defaultRef, classification, blob };
+    return { repository, defaultRef, classification, blob, measuredCommit };
   });
 
   const expectedDefaultRefs = {
@@ -348,7 +353,11 @@ test("cross-repository scan distinguishes missing root files from a missing defa
 
   const missingFileRows = inventory
     .split(/\r?\n/u)
-    .filter((line) => line.endsWith("No readable root file at this path |"));
+    .filter((line) =>
+      /\| No readable root file at this path\s+\| `[a-f0-9]{40}` \|$/u.test(
+        line,
+      ),
+    );
   const readableFileRows = inventory
     .split(/\r?\n/u)
     .filter((line) =>
@@ -399,20 +408,23 @@ test("cross-repository scan distinguishes missing root files from a missing defa
     );
     assert.ok(row, `${repository} must be listed as missing a readable root file`);
     const match = row.match(
-      /^\| \[([^\]]+)\]\(https:\/\/github\.com\/AtmaOVictu\/([^/]+)\/tree\/([^)]*)\) \| `([^`]+)` \| No readable root file at this path \|$/u,
+      /^\| \[([^\]]+)\]\(https:\/\/github\.com\/AtmaOVictu\/([^/]+)\/tree\/([a-f0-9]{40})\) \| `([^`]+)` \| No readable root file at this path\s+\| `([a-f0-9]{40})` \|$/u,
     );
     assert.ok(match, `${repository} row must identify its measured default ref`);
     assert.equal(match[1], repository, "link label must match repository");
     assert.equal(match[2], repository, "link target must match repository");
-    assert.equal(match[3], expectedRef, `${repository} link ref`);
+    assert.match(match[3] ?? "", /^[a-f0-9]{40}$/u, `${repository} linked commit`);
     assert.equal(match[4], expectedRef, `${repository} declared default ref`);
+    assert.equal(match[3], match[5], `${repository} link must pin its measured commit`);
   }
 
   const noBranchRows = inventory
     .split(/\r?\n/u)
-    .filter((line) => line.includes("| none | No default branch; root-file check unavailable |"));
+    .filter((line) =>
+      line.includes("| none | No default branch; root-file check unavailable | none |"),
+    );
   assert.deepEqual(noBranchRows, [
-    "| [Atmavictu_Oracle](https://github.com/AtmaOVictu/Atmavictu_Oracle) | none | No default branch; root-file check unavailable |",
+    "| [Atmavictu_Oracle](https://github.com/AtmaOVictu/Atmavictu_Oracle) | none | No default branch; root-file check unavailable | none |",
   ]);
 
   const rootFileRepositories = readableFileRows.flatMap((row) => {
@@ -453,7 +465,11 @@ test("cross-repository draft inventory records each measured repository ref and 
 
   const draftRows = inventory
     .split(/\r?\n/u)
-    .filter((line) => line.includes("/VBL-10.5.1-KOMPIL-A-DRAFT-NOT-RELEASED.md)"));
+    .filter((line) =>
+      /\/blob\/[a-f0-9]{40}\/VBL-10\.5\.1-KOMPIL-A-DRAFT-NOT-RELEASED\.md\)/u.test(
+        line,
+      ),
+    );
   const rootLicenseRows = inventory
     .split(/\r?\n/u)
     .filter((line) =>
@@ -485,16 +501,17 @@ test("cross-repository draft inventory records each measured repository ref and 
     );
     assert.ok(row, `${repository} must appear in the draft inventory`);
     const match = row.match(
-      /^\| \[([^\]]+)\]\(https:\/\/github\.com\/AtmaOVictu\/([^/]+)\/blob\/([^/]+)\/([^)]*)\) \| `([^`]+)` \| `([^`]+)` \| `([a-f0-9]{40})` \|$/u,
+      /^\| \[([^\]]+)\]\(https:\/\/github\.com\/AtmaOVictu\/([^/]+)\/blob\/([a-f0-9]{40})\/([^)]*)\) \| `([^`]+)` \| `([^`]+)` \| `([a-f0-9]{40})`\s+\| `([a-f0-9]{40})` \|$/u,
     );
     assert.ok(match, `${repository} draft row must include path and blob evidence`);
     assert.equal(match[1], repository, "link label must match repository");
     assert.equal(match[2], repository, "link target must match repository");
-    assert.equal(match[3], expectedRef, `${repository} link must use its measured ref`);
+    assert.match(match[3] ?? "", /^[a-f0-9]{40}$/u, `${repository} linked commit`);
     assert.equal(match[4], "VBL-10.5.1-KOMPIL-A-DRAFT-NOT-RELEASED.md");
     assert.equal(match[5], expectedRef, `${repository} declared default ref`);
     assert.equal(match[6], "VBL-10.5.1-KOMPIL-A-DRAFT-NOT-RELEASED.md");
     assert.equal(match[7], "12bfaddf1fa471525ede7f99510eb93335cac994");
+    assert.equal(match[3], match[8], `${repository} link must pin its measured commit`);
   }
   assert.match(inventory, /52,169 bytes, SHA-256 `dac171ccf3d526b82a16ca28462002cc05c5d8b46e4d3dadfb1e3ace7e171d60`/u);
 
@@ -505,7 +522,9 @@ test("cross-repository draft inventory records each measured repository ref and 
     }),
   );
   const draftRootLicenseClasses = rootLicenseRows.flatMap((row) => {
-    const match = row.match(/^\| \[([^\]]+)\].+\| ([^|]+) \| `[a-f0-9]{40}` \|$/u);
+    const match = row.match(
+      /^\| \[([^\]]+)\].+\| ([^|]+) \| `[a-f0-9]{40}`\s+\| `[a-f0-9]{40}` \|$/u,
+    );
     return match?.[1] && match[2] && draftRepositories.has(match[1])
       ? [[match[1], match[2].trim()] as const]
       : [];
