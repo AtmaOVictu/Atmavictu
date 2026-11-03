@@ -1,4 +1,6 @@
 # VBL — VERIFICATION BEFORE ASSERTION LICENSE · LA PASSEGGIATA ITALIANA (la porta in un solo respiro)
+> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with living LICENSE.md VBL 0.1410 × 10⁴ or proposed 0.1420 × 10⁴. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
+
 
 Una lettura, mai una rivale (§0.33 × 10² THE COMPANIONS): questa lettura non sostituisce alcuna clausola, non porta alcuna concessione e cade ovunque sia in disaccordo con il corpo della porta — la copia trasportata rimane intera (§0.2 × 10¹). Solo la versione più recente di LICENSE.md concede (§0.10 × 10²). Un testimone, mai la porta.
 

@@ -17,6 +17,11 @@ interface LicenseManifest {
   };
 }
 
+interface LicenseMachineRecord {
+  version: string;
+  "publication-status": string;
+}
+
 test("license manifest identifies the exact bytes of every covered file", async () => {
   const repositoryRoot = fileURLToPath(new URL("../../", import.meta.url));
   const licenseUrl = new URL("../../LICENSE.md", import.meta.url);
@@ -39,6 +44,16 @@ test("license manifest identifies the exact bytes of every covered file", async 
     ?.match(/^\S+\s+×\s+\S+/u)?.[0];
   assert.ok(licenseVersion);
   assert.equal(manifest.version, licenseVersion);
+
+  const machineRecordMatch = licenseText.match(
+    /## Machine record\r?\n[\s\S]*?```json\r?\n([\s\S]*?)\r?\n```/u,
+  );
+  assert.ok(machineRecordMatch, "license machine record must contain JSON");
+  const machineRecordJson = machineRecordMatch[1];
+  assert.ok(machineRecordJson, "license machine record JSON must not be empty");
+  const machineRecord = JSON.parse(machineRecordJson) as LicenseMachineRecord;
+  assert.equal(machineRecord.version, licenseVersion);
+  assert.match(machineRecord["publication-status"], /branch edition/u);
 
   const realRepositoryRoot = await realpath(repositoryRoot);
   const realManifestPath = await realpath(fileURLToPath(manifestUrl));
@@ -135,6 +150,36 @@ test("license manifest identifies the exact bytes of every covered file", async 
         !actualRelativePath.startsWith(`..${sep}`) &&
         !isAbsolute(actualRelativePath),
       `${registerPath} must resolve inside the repository`,
+    );
+  }
+});
+
+test("historical language readings are labeled as abridged, not complete translations", async () => {
+  const repositoryRoot = fileURLToPath(new URL("../../", import.meta.url));
+  const tonguesText = await readFile(
+    new URL("../../LICENSE-TONGUES.md", import.meta.url),
+    "utf8",
+  );
+  const historicEditionRows = tonguesText
+    .split(/\r?\n/u)
+    .filter(
+      (line) =>
+        line.startsWith("| `LICENSE-") &&
+        line.includes("Historical abridged readings;"),
+    );
+  const historicEditionFiles = historicEditionRows.flatMap((line) =>
+      [...line.matchAll(/`(LICENSE-[A-Z-]+\.md)`/gu)].flatMap((match) =>
+        match[1] ? [match[1]] : [],
+      ),
+    );
+
+  assert.equal(historicEditionFiles.length, 35);
+  for (const file of historicEditionFiles) {
+    const text = await readFile(resolve(repositoryRoot, file), "utf8");
+    assert.match(
+      text,
+      /^> Edition status .*historical abridged reading; not a complete translation\./imu,
+      `${file} must disclose its historical abridged status`,
     );
   }
 });

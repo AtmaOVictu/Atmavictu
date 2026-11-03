@@ -1,4 +1,6 @@
 # VBL — VERIFICATION BEFORE ASSERTION LICENSE · Plimbarea românească (ușa într-o singură răsuflare)
+> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with living LICENSE.md VBL 0.1410 × 10⁴ or proposed 0.1420 × 10⁴. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
+
 
 O citire, niciodată o rivală (§0.33 × 10² THE COMPANIONS): această citire nu înlocuiește nicio clauză, nu poartă nicio permisiune și cade oriunde contrazice corpul ușii — copia purtată rămâne neatinsă (§0.2 × 10¹). Doar cea mai nouă versiune a LICENSE.md acordă (§0.10 × 10²). Martor, niciodată ușa.
 

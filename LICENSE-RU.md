@@ -1,4 +1,6 @@
 # VBL — VERIFICATION BEFORE ASSERTION LICENSE · ПРОГУЛКА ПО-РУССКИ (дверь в одном вдохе)
+> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with living LICENSE.md VBL 0.1410 × 10⁴ or proposed 0.1420 × 10⁴. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
+
 
 Чтение, никогда не соперник (§0.33 × 10² THE COMPANIONS): это чтение не заменяет ни одного пункта, не несёт никакого дозволения и падает всюду, где оно противоречит телу двери — переносимая копия остаётся целой (§0.2 × 10¹). Только новейшая версия LICENSE.md дозволяет (§0.10 × 10²). Свидетель, никогда не дверь.
 

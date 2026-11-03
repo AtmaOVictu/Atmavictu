@@ -1,4 +1,6 @@
 # VBL — VERIFICATION BEFORE ASSERTION LICENSE · Lietuviškas pasivaikščiojimas (durys vienu atsikvėpimu)
+> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with living LICENSE.md VBL 0.1410 × 10⁴ or proposed 0.1420 × 10⁴. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
+
 
 Skaitymas, niekada ne varžovas (§0.33 × 10² THE COMPANIONS): šis skaitymas nepakeičia jokios sąlygos, neneša jokio leidimo ir krinta visur, kur prieštarauja durų kūnui — nešama kopija lieka nepaliesta (§0.2 × 10¹). Tik naujausia LICENSE.md versija suteikia (§0.10 × 10²). Liudytojas, niekada ne durys.
 

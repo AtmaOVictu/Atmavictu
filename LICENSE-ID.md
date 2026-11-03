@@ -1,4 +1,6 @@
 # VBL — VERIFICATION BEFORE ASSERTION LICENSE · jalan-jalan berbahasa Indonesia (pintu dalam satu napas)
+> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with living LICENSE.md VBL 0.1410 × 10⁴ or proposed 0.1420 × 10⁴. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
+
 
 Satu bacaan, bukan pesaing selamanya (§0.33 × 10² THE COMPANIONS): bacaan ini tidak menggantikan satu pasal pun, tidak membawa izin apa pun, dan jatuh di setiap tempat ia bertentangan dengan tubuh pintu — salinan yang dibawa tetap utuh (§0.2 × 10¹). Hanya versi yang paling baru lahir dari LICENSE.md yang memberi izin (§0.10 × 10²). Saksi, bukan pintu selamanya.
 

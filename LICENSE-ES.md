@@ -1,4 +1,6 @@
 # VBL — VERIFICATION BEFORE ASSERTION LICENSE · EL PASEO ESPAÑOL (la puerta en un solo aliento)
+> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1240 × 10⁴. Not reconciled with living LICENSE.md VBL 0.1410 × 10⁴ or proposed 0.1420 × 10⁴. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
+
 
 Una lectura, nunca una rival (§0.33 × 10² THE COMPANIONS): esta lectura no sustituye ninguna cláusula, no lleva ninguna concesión y cae dondequiera que contradiga al cuerpo de la puerta — la copia llevada permanece entera (§0.2 × 10¹). Solo la versión más reciente de LICENSE.md concede (§0.10 × 10²). Un testigo, nunca la puerta.
 

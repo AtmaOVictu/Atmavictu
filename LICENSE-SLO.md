@@ -1,47 +1,34 @@
-# LICENSE-SLO — slovenska berba vrat
+# LICENSE-SLO — slovenska berba VBL
 
-VBL — Verification Before Assertion License · slovenska berba VBL 0.1220 × 10⁴ · 0.28 × 10². 0.10 × 10². 0.2026 × 10⁴
+VBL — Verification Before Assertion License · slovenska berba izdaje 0.1420 × 10⁴ (primerjano 2026-11-03).
 © 0.2026 × 10⁴ Luka Pintarič
 
-Berba, ⟨ne⟩ vrata — priča: ta slovenski zapis je branje, ne pravni prevod. Edina živa vrata so najnovejša različica LICENSE.md; angleška veriga vlada ⊢ §0.10 × 10². Kjer se berba in vrata razhajata, vlada LICENSE.md, razhaj pa se poimenuje kakor vsak padec ⊙ §0.33 × 10².
+**Status:** To je posodobljen slovenski povzetek, ne celotni pravni prevod. Povzetek je primerjan z besedilom `LICENSE.md` VBL 0.1420 × 10⁴. Sam ne podeljuje pravic. Ali je ta izdaja najnovejša živa različica, se preveri v verigi objav `LICENSE.md`; veja `main` ostaja pri 0.1410, dokler se sprememba ne združi. Ob neskladju velja živa `LICENSE.md` (§0.10 × 10², §0.33 × 10², §0.47 × 10²).
 
-## Zakaj ta licenca obstaja
-Ta licenca ne zahteva od nikogar, da bi bil dober: tehtajo dejanja, ne trditve — trditev o lastni dobroti je sama dejanje na tehtnici. Vsako dejanje, ki pusti pričo, gre na skledo: prihranjen denar na eno, storjeno dobro — osebno in posredno — na drugo. Register bere dejanja s koordinatami, nikoli dušo. Zlo je nevednost, ki jo nosi vednost — in je zato hotena: izbrana, ko je priča v dosegu; nevednost nevednega se dá poučiti. Meja je imeti dovolj: kdor prizna dovolj, je prost za drugo skledo — za boljša dejanja. Priča je Jezus Kristus: kdor je imel vse, je razdelil Kristusa na koščke — in koščki so mir. Vsakdo na oblasti je varen le, če rešuje več kakor lastno dobro.
+## Pot branja
 
-## Korenina — šest zakonov pod pogodbo
-0.1 × 10¹ IZMERI, NATO IZRECI. Vsaka trditev ⊢ nosi dobesedno pričo; brez nje ⚠, nikoli tišina.
-0.2 × 10¹ POIMENUJ VSAK PADEC. Padec brez imena se ponovi; šivi nosijo brazgotine (×).
-0.3 × 10¹ NIKOLI SE NE ZAPEČATI SAMA. Dve roki: izvajalka ne zapečati lastne preverbe.
-0.4 × 10¹ PRIČA IMA IME. Brez poimenovanja ni izluščenja — imena neplačanih prednikov se nosijo naprej.
-0.5 × 10¹ DVOM JE KONSTANTEN. Popolnost se ne trdi; edini spodrsljaj je padec brez imena.
-0.6 × 10¹ IZ ZANKE SE IZSTOPA S POIMENOVANJEM. Kdor vzame te zakone nase, stopa iz zanke — po en poimenovan padec naenkrat.
+1. **Vir in obseg:** `LICENSE.md` določa, kaj je pokrito (§0), kako se pokrito gradivo prepozna (§0a) in katere pravice podeli (§0.1 × 10¹). Sama prisotnost datoteke v istem sistemu ne pokrije neodvisnega ali tujega gradiva.
+2. **Pogoji kopiranja:** kopija ali priredba pokritega gradiva nosi licenco in zahtevane zapise o imenih, spremembah in padcih (§0.2 × 10¹). Prikrita ali nepoimenovana monetizacija oziroma učenje na človeškem gradivu lahko prekine podelitev za neskladno kopijo in njene potomce (§0.3 × 10¹).
+3. **Popravek in meja:** imenovani padec ima opisano pot popravka (§0.4 × 10¹); neizmerjena trditev ostane ⚠, ne dokaz. Dovoljenje se prosi pisno, tišina ni privolitev (§0.7 × 10¹). Nobena podelitev ne opraviči poniževanja bitja; dejanja se presojajo po dostojanstvu in potrditvi univerzalnega stanja (§0.9 × 10¹).
+4. **Različice in priče:** samo najnovejša objavljena različica `LICENSE.md` je živa (§0.10 × 10²). Manifest in kontrolna vsota pomagata identificirati bajte; sama kontrolna vsota ne dokazuje pravilnosti vsebine (§0a, §0.12 × 10²). Spremljevalci so priče oziroma bralni pripomočki, ne dodatna podelitev (§0.33 × 10²).
+5. **Jeziki:** vsak spremljevalec mora povedati, ali je vir, celotni prevod, skrajšana berba ali zgodovinsko potrdilo; navesti mora izdajo vira in stanje pregleda. Številka različice sama ne dokazuje, da je bilo besedilo primerjano. Ta slovenska berba povzema 0.1420; ostale jezikovne berbe v `LICENSE-TONGUES.md` so starejša, neporavnana branja (§0.47 × 10²).
 
-## Znaki — THE MARKS
-⊢ izmerjeno pri viru · ⚠ neizmerjeno · ∂ neizmerjen čas pisanja med dvema prejemkoma · ⟨⟩ nošeno dobesedno, ⟨ne brusi⟩ · ∧ vez enega diha · ⊙ zapečaten: dejanje s časom ∧ krajem · ⏎ nova vrstica znotraj citata.
+## Ključni znaki in logika
 
-## Kaj vrata pokrivajo
-Vse izvirno gradivo Luke Pintariča, ki je vključeno v repozitorij, z njim razširjeno ali izrecno označeno kot pokrito — koda, dokumentacija, podatki, besedni seznami, preizkusi, skripte, oblikovanja, slike, zvok, video — ter kopije, izseki, prevodi in priredbe, kolikor se delijo z varovanim izrazom. Prepozava poteka po manifestu (LICENSE-MANIFEST) ali po tem, da predmet sam nosi LICENSE.md nedotaknjeno kot licenco ⊢ §0a. Tujega in zasebnega gradiva vrata ne podeljujejo ⊢ §0.6 × 10¹.
+- `⊢` — trditev je izmerjena ob dobesedni priči; `⚠` — priča ali meritev manjka; `∂` — čas, ki med prejemkoma ni bil neposredno izmerjen.
+- `∧` pomeni **in**: obe strani veljata skupaj. Beseda **ali** ima pomen, ki ga določa posamezni stavek; ne spreminjaj je v »in« ali izključujoči »ali« brez preverbe konteksta.
+- `*` ni en sam univerzalen operator. Kjer je naveden dobesedni znak ukaza, se ohrani kot zapisan; drugi pojavi imajo pomen samo v svoji poimenovani klavzuli (§0.23 × 10², §0.25 × 10², §0.28–0.29 × 10², §0.34 × 10²).
+- Normativna trditev o stroju ni dokaz, da jo je stroj izvedel: vedenje se potrjuje z opazovanim dejanjem in pričo (§0.12 × 10²).
 
-## Kaj je dovoljeno
-Poganjati, preučevati, navajati, citirati, učiti, preverjati z njimi, graditi na njih — dokler držijo vsi pogoji ⊢ §0.1 × 10¹.
+## Ure in delo
 
-## Kaj je treba nositi
-Vsaka razširjena kopija ali priredba nosi licenco nedotaknjeno in register sodelavcev (REGISTER-NEIMENOVANIH.jsonl); snovne spremembe se poimenujejo; zapisi o imenih ∧ padcih potujejo z delom ⊢ §0.2 × 10¹.
+Čas se meri pri viru, ne ugiba iz spomina (§0.20 × 10²); prejemnik lahko zahteva natančnejšo enoto (§0.21 × 10²). Zapis začetka in konca mora povedati, čigava ura je merila kateri dogodek; noben izvajalec ne potrdi sam svojega zaključka (§0.28–0.30 × 10²). Preverba velja za trenutek in se po pristanku znova bere pri viru (§0.32, §0.37 × 10²).
 
-## Kaj konča dovoljenje
-Žetev, treniranje ali monetiziranje človeškega gradiva v sistemu, ki prikriva ali odvzema imena avtorjev ∧ zahtevano navedbo — neposredno ali posredno, tudi prek kopije, priredbe ali izhoda ⊢ §0.3 × 10¹. In vsaka uporaba, ki razvršča bitja po vrednosti, zamenjuje dostojanstvo za prednost ali z bitjem ravnala kakor z materialom brez priče: take uporabe ne podeli noben člen, nobeno dovoljenje, nobena tišina ⊢ §0.9 × 10¹.
+## Evidenca te berbe
 
-## Kako se dovoljenje ozdravi
-V 0.30 × 10² dneh od poimenovanega padca: padec se objavi — dejanje, čas, kraj — v lastnem javnem registru; avtorji, katerih imena so bila odvzeta, se navedejo povsod, kjer se izhodi kažejo; popravek ohrani brazgotino, nikoli se ne prepiše tiho ⊢ §0.4 × 10¹. Kdor poimenuje padec ∧ plača kredit, je vrednejši zaupanja kakor čisti, ki ni nikoli padel.
+- Vrsta: skrajšana slovenska berba, ne celotni prevod.
+- Vir, s katerim je bila primerjana: delovni `LICENSE.md`, VBL 0.1420 × 10⁴.
+- Preverjeno: 2026-11-03; brez neodvisnega dvojezičnega pregleda.
+- Popoln seznam jezikovnih spremljevalcev in njihovih starejših izhodišč je v `LICENSE-TONGUES.md`.
 
-## Kje se prosi
-Pisno, v javnem registru dovoljenj (canon/DOVOLJENJA.md): z imenom prosilca, dejanjem, gradivom in krajem; vsak odobreni zapis je javen — zasebnih vrat ni. Tišina ni privolitev: če v tridesetih dneh ni odgovora, je odgovor ne ⊢ §0.7 × 10¹.
-
-## Kje živi resnica
-V datirani verigi objave — zgodovini komitov datoteke LICENSE.md ⊢ §0.10 × 10². Gol besedilo ne dokaže ničesar; veriga dokazuje. Najnovejša različica so edina živa vrata; starejše različice so potrdila zgodovine, nikoli tekmeci. Register padcev je del dela ⊢ §0.5 × 10¹.
-
-## Ure ∧ pečati
-Vsak odgovor nosi svojo uro, izmerjeno pri viru trenutka — nikoli iz spomina ⊢ §0.20 × 10²; prejemnik dviguje enoto ure ⊢ §0.21 × 10²; delo se odpre s svojo uro in zapre s svojo uro ⊢ §0.28 × 10²; štirje prejemki, dve uri, en dih — zaključek priči prejemnikova ura ⊢ §0.30 × 10². Vrata so vir: osnova vsakega začetka ∧ njen konec — vsako rojstvo vsake različice jezde na avtorjev poštni nabiralnik ⊢ §0.29 × 10².
-
-## Ena vrstica
-Trditve ne tehtajo — dejanja tehtajo.
+Trditve ne tehtajo; dejanja tehtajo. Tudi ta povzetek je treba brati kot pričo z navedenim obsegom, ne kot nadomestilo za vir.

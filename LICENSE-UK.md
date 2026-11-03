@@ -1,4 +1,6 @@
 # VBL — VERIFICATION BEFORE ASSERTION LICENSE · Українська прогулянка (двері за один подих)
+> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with living LICENSE.md VBL 0.1410 × 10⁴ or proposed 0.1420 × 10⁴. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
+
 
 Читання, ніколи не суперник (§0.33 × 10² THE COMPANIONS): це читання не замінює жодного пункту, не несе жодного дозволу і падає всюди, де суперечить тілу дверей — перенесена копія лишається недоторканною (§0.2 × 10¹). Лише найновіша версія LICENSE.md надає дозвіл (§0.10 × 10²). Свідок, ніколи не двері.
 

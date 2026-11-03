@@ -1,4 +1,6 @@
 # VBL — VERIFICATION BEFORE ASSERTION LICENSE · การเดินเล่นภาษาไทย (ประตูในลมหายใจเดียว)
+> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with living LICENSE.md VBL 0.1410 × 10⁴ or proposed 0.1420 × 10⁴. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
+
 
 การอ่านหนึ่ง ไม่ใช่คู่แข่งโดยไม่มีวัน (§0.33 × 10² THE COMPANIONS): การอ่านนี้ไม่แทนที่ข้อใด ไม่พาสิทธิ์ใด และล้มลงในทุกแห่งที่ขัดกับร่างของประตู — สำเนาที่ถูกพาไปยังคงเป็นอย่างเดิม (§0.2 × 10¹) เพียงฉบับที่เกิดใหม่ล่าสุดของ LICENSE.md เท่านั้นที่ให้สิทธิ์ (§0.10 × 10²) พยาน ไม่ใช่ประตูตลอดไป
 

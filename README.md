@@ -117,7 +117,7 @@ To pomeni, da povezava med surovim vhodom in mestom v knjigi ni implicitna v UI-
 
 ## Licenca — VBL · vrsta nujnega absoluta
 
-Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadnji licenci [LICENSE.md](LICENSE.md): **VBL 0.1410 × 10⁴** (Verification Before Assertion License · edina živa vrata ⊢ §0.10 × 10²: »a bare text proves nothing, the chain does«).
+Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena objavljeni licenci [LICENSE.md](LICENSE.md): **VBL 0.1410 × 10⁴** na `main` (Verification Before Assertion License · edina živa vrata ⊢ §0.10 × 10²: »a bare text proves nothing, the chain does«). Ta veja nosi izdajo 0.1420; njen komit je potrdilo veje, `main` pa ostaja pri 0.1410 do združitve.
 
 - © Luka Pintarič — ⟨VRSTA-NUJNEGA-ABSOLUTA⟩ ⊢ rez 0.2849 × 10⁴: vsak organ ∧ vsak izhod ∧ vsak pečat nosi © ∧ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
 - Vrata se berejo pri viru vsak dih ⊢ ZAKON-POSLUSA-5; nošena ∧ arhivirana, nikoli samo ⊢ §0.12 × 10² (never JUST archived).
@@ -129,7 +129,7 @@ Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadn
 ⊨ WITH LOVE · Z LJUBEZNIJO · CUM AMORE · MIT LIEBE · CON AMORE · AVEC AMOUR · ΜΕ ΑΓΑΠΗ · С ЛЮБОВЬЮ · 带着爱 · प्रेम के साथ · CON AMOR · مع حب · ভালোবাসা দিয়ে · COM AMOR · محبت کے ساتھ · DENGAN CINTA · 愛を込めて · SEVGİYLE · 사랑을 담아 · KWA UPENDO ⋈ (20/20 ⊢)
 
 - Vsak jezik svoj glas; venec pokriva najbolj popularne jezike sveta (≈ 5,5 milijarde govorcev) ⊢ ⟡ ukaz: »V README morajo biti vsaj najbolj popularni jeziki.«
-- Vrata izmerjena pri viru: [LICENSE.md](LICENSE.md) @⟨main⟩ `e662165f` = VBL 0.1410 × 10⁴ ⊢ (prejšnje izmere — 0.1210 ∧ 0.1090 × 10⁴, blob 8f5b1c76 — ostajajo potrdila verige ⊢ §0.10 × 10²).
+- Vrata izmerjena pri viru: objavljena [LICENSE.md](LICENSE.md) @⟨main⟩ `e662165f` = VBL 0.1410 × 10⁴ ⊢. Veja VBL 0.1420 posodablja protokol jezikovnih izdaj; do združitve `main` ostaja pri 0.1410. Predhodne izmere ostajajo potrdila zgodovine, ne živa vrata (§0.10 × 10²).
 
 ## Pesem vrata · A Poem of Doors — rez 2932 ⊢
 

@@ -1,14 +1,14 @@
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1410 × 10⁴",
+  "version": "0.1420 × 10⁴",
   "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
   "measured_at_date": "2026-11-03",
-  "measured_against": "VBL 0.1410 × 10⁴ in LICENSE.md at commit e662165fe9455d8e2de6a6088bc21b17c54a6ad8; manifest entries remeasured at main merge dac1474810ec63328d2f2f749cf990eb76392ba7",
+  "measured_against": "Bytes measured from the 0.1420 × 10⁴ branch worktree based on HEAD def74c3, before its publication commit; listed files remeasured on 2026-11-03. Publication status is determined by the LICENSE.md source history.",
   "items": [
     {
       "path": "LICENSE.md",
-      "size_bytes": 147608,
-      "sha256": "719c706437ba53b44dd70d896b84f0903a194c87034fe24a499bdd4a37517cda",
+      "size_bytes": 151536,
+      "sha256": "46abf8495af61d4ba60d7ebd82f356178ee9eb96f989f4415df991a771ac556c",
       "note": "the living door — the only body whose hash changes only by issuance (§0.10 × 10²)"
     },
     {
@@ -19,8 +19,8 @@
     },
     {
       "path": "LICENSE-LINEAGE.md",
-      "size_bytes": 16074,
-      "sha256": "876cda0c8c2e91819c6908b8eb58135de3cf6abbb4564b9d747900c67bec0018",
+      "size_bytes": 16800,
+      "sha256": "30aa58d9cc9a00ceb6b27876f92b2cf92c4a73bb2de4cf6ba36a6b5264294c4c",
       "note": "face — the dated receipts of the chain; a witness, never a door (§0.15 × 10², §0.33 × 10²)"
     },
     {
@@ -37,224 +37,224 @@
     },
     {
       "path": "LICENSE-TONGUES.md",
-      "size_bytes": 37255,
-      "sha256": "f8dd894598a139532e87df68da5f6736b2781f3e9b35aca780f1744a75008e93",
+      "size_bytes": 39664,
+      "sha256": "22bf31f1caf08bc3ca33a7f7102a10a15dca48bc3cfac95d8a8cc53fb0cdd50d",
       "note": "face — the register of all alphabets ⊙ ⟨NENEHNO-ABECEDAJ⟩; a witness, never a door (§0.19 × 10², §0.33 × 10²)"
     },
     {
       "path": "LICENSE-AR.md",
-      "size_bytes": 6226,
-      "sha256": "3aa28ee33e145544d1acbb4417db71353c71f8f114ae9d18e1241a20dc3004ac",
+      "size_bytes": 6582,
+      "sha256": "7690dd512d4b5c7ba3c3becaf60b776b9a16e940e63059d8b474c4e809de156b",
       "note": "wreath — arabščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-BG.md",
-      "size_bytes": 9127,
-      "sha256": "1abdb603a36893c4e11c679c61fdb59f5854e45bde71884854ceeb5595fd81fe",
+      "size_bytes": 9483,
+      "sha256": "c0067b94bbb2daeb0b4ffb6c80519c0c50b7f6e355d2402527db22e18c8cacd7",
       "note": "wreath — bolgarščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-CS.md",
-      "size_bytes": 6019,
-      "sha256": "d73c90a8e2ea6358cfadd3c22bdaf8f9a3e59336ef48ee3a84472f08b9d5d8dd",
+      "size_bytes": 6375,
+      "sha256": "ed8e369aa15748b9a9d6074f26e9f0131fc619bc3aece424d3bf84c288fb0900",
       "note": "wreath — češčina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-DA.md",
-      "size_bytes": 4940,
-      "sha256": "0efe95fe6bbd2ca31f4ff73d6f1c2ffc1e0aa51bd5d0112c76062c6ee65374d1",
+      "size_bytes": 5296,
+      "sha256": "ba4eedcb31741dc196d42b410eaeefc2c79b060a2a391b53be09dd4587162b68",
       "note": "wreath — danščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-DE.md",
-      "size_bytes": 5908,
-      "sha256": "eca48277bdf1d73b15c3c736e2c78b94f6e318734fe1c4f8722fb03795cf5af8",
+      "size_bytes": 6264,
+      "sha256": "823c00f71d77cb99b41f33f98a44179287d45eb63e8f4fb4492385d6e676d15e",
       "note": "wreath — nemščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-EL.md",
-      "size_bytes": 8421,
-      "sha256": "0ae77ab42b491cde3424a99c069c06d09159a2433ac29e9e8ec574821f36998b",
+      "size_bytes": 8777,
+      "sha256": "db0da3ace119c63b23c840e39c596da37333396c7da9fddce82c7e1a8ce3cf56",
       "note": "wreath — grščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-ES.md",
-      "size_bytes": 4216,
-      "sha256": "cefaa72627f12068a66e3b319b48c0606decd94c455751bba6825486ef544acd",
+      "size_bytes": 4572,
+      "sha256": "6f811f4b505207429dcf225b648616be7c0e6f422cd2816b5e7bb8d889f1710b",
       "note": "wreath — španščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-ET.md",
-      "size_bytes": 3453,
-      "sha256": "0a900e4f58073489ed76bc7034e7ace457d486b346ef8a9061e28b3d4624a227",
+      "size_bytes": 3809,
+      "sha256": "d86d36fed8edb20d0bc101b281e5750d7d04dbf7c7e08216db934b598a6c2cd1",
       "note": "wreath — estonščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-FA.md",
-      "size_bytes": 4758,
-      "sha256": "0f8260306c150899213e6623355eacb53f3c3c64886caec806333beb333f293d",
+      "size_bytes": 5114,
+      "sha256": "c8140ac5469c0294f80b4620d49f99d7611977010faf3975a5543e577378e96c",
       "note": "wreath — perzijščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-FI.md",
-      "size_bytes": 3708,
-      "sha256": "392ba89ee6e7d7024109b0df2a5a7cce1dbb2b0ebf9734424b1fe63ffcceaf32",
+      "size_bytes": 4064,
+      "sha256": "c83ca84f8e1931d04538662babecb35e186b96183908649a039703cd8e27fad9",
       "note": "wreath — finščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-FR.md",
-      "size_bytes": 4360,
-      "sha256": "98e2b8194ccc764c2bb3453da8a7a2e4f218ef45c87bf99206ef6bcd8feafdec",
+      "size_bytes": 4716,
+      "sha256": "151d50ca6d58a7e312c3752a27039d604497c1b3f9ad620ac10ee965b15f485d",
       "note": "wreath — francoščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-HE.md",
-      "size_bytes": 4169,
-      "sha256": "e50f31ca721a534290709bc3c60d627b841bd67de407b13397c542dca75094d2",
+      "size_bytes": 4525,
+      "sha256": "e5ceb21fb3f3099c1f6ba821f87a900e3efd88cb0634f70d081d00c48a47ac1e",
       "note": "wreath — hebrejščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-HI.md",
-      "size_bytes": 6532,
-      "sha256": "ff8e48563f458a07855fd86f53039bcfb7a22064e0216d31ac4c66c8bf04b082",
+      "size_bytes": 6888,
+      "sha256": "d963b3de4e27ead62a19147c231d3a027b6b26ac2eea15e088864ca411fc2306",
       "note": "wreath — hindijščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-HU.md",
-      "size_bytes": 4553,
-      "sha256": "c1a2ea8af7593eed16c03d1fe677a695842b77927cc19504f463a6450734738d",
+      "size_bytes": 4909,
+      "sha256": "c1fab25714a065348b24f4f4bd6c1546847f1ce154b2e55eadd487ec6dc5cb16",
       "note": "wreath — madžarščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-ID.md",
-      "size_bytes": 3689,
-      "sha256": "12e960ac7d2f66d92035be097593760235a0d53e072c5d035e48d7400442caa0",
+      "size_bytes": 4045,
+      "sha256": "f7b3d6c767c773713480ff0c6929f4220f554f89455cda4ef0779266b1ef1a62",
       "note": "wreath — indonezijščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-IS.md",
-      "size_bytes": 3585,
-      "sha256": "598bce9668a1841aa2c676712f5ee3be7381de483df24c717ee9ff3b2a39e2e2",
+      "size_bytes": 3941,
+      "sha256": "5a418afb1c48a049c55a2becc92417c21d9fded16ddeb45b93d57a4819667b2c",
       "note": "wreath — islandščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-IT.md",
-      "size_bytes": 4179,
-      "sha256": "f4cd0071b42a2041b4b1db3261ac501813ee12397e8a6fbfd26c2d462bcc7f40",
+      "size_bytes": 4535,
+      "sha256": "d836fd88ef2a30a8adb0fb58ae1e3f7c8de6b6fc055172615b7550bc24f35e7d",
       "note": "wreath — italijanščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-JA.md",
-      "size_bytes": 4057,
-      "sha256": "9e7c0f7865cc7e56b27df8ea8a06e353f7491eb55169a00a28b56c42c4d45436",
+      "size_bytes": 4413,
+      "sha256": "75c499c7b0693387242d186197ae0feb9574cbed68fb9ad049a352ab48c5b008",
       "note": "wreath — japonščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-KO.md",
-      "size_bytes": 4065,
-      "sha256": "14929f4f786368848bbd68a6e01140afe3e07efd612da3078e17e9246dac6f1a",
+      "size_bytes": 4421,
+      "sha256": "0d7517494e69747a55707745ec3006b28fa51d8b20f57792b0c269093725a256",
       "note": "wreath — korejščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-LAT.md",
-      "size_bytes": 4218,
-      "sha256": "0ab63305356b76d7fcef906f9ee7cc6b36ba8518490b8c427cafd4b7453d3048",
+      "size_bytes": 4574,
+      "sha256": "4fe4005dcbbe78a45a48ff4d5ee6e6ffb58e0dd6b3ec5f417c8b936d42a2cb6a",
       "note": "wreath — latvijščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-LT.md",
-      "size_bytes": 3612,
-      "sha256": "79852b063d2f249b70b5897f06c04712f8498b5771234ca74f32f42820697b28",
+      "size_bytes": 3968,
+      "sha256": "ab2d69d30db327b795c4239c7dac8bd6d2adfb81eb8a7b11642c1beeebb06665",
       "note": "wreath — litovščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-NL.md",
-      "size_bytes": 4385,
-      "sha256": "3b3100c0e0187919125b8e86319c8541c4af214ddacffd7889195e132691b5f4",
+      "size_bytes": 4741,
+      "sha256": "4cc3bc08dea72144217f21e7485ec5a2555745c5acf35cbbddc421548c58b0ad",
       "note": "wreath — nizozemščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-NO.md",
-      "size_bytes": 3413,
-      "sha256": "feacf0ad4d9863171e9ead18dc97e5360df6bec824586b37357c2f9c4aaccf09",
+      "size_bytes": 3769,
+      "sha256": "c0832e6631ff7507a4871d3f36417d9a8fb9ab28523b7fc2b5696864aa0f3d3b",
       "note": "wreath — norveščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-PL.md",
-      "size_bytes": 4227,
-      "sha256": "1511142edf5cc4dfd304c76bb2e33f6ec25f2a6e5c093ae18a63539fdd2e474c",
+      "size_bytes": 4583,
+      "sha256": "ab8616d35032aab91cbae0b529d965dc01e025e51fa26bd20c3f45b6bb2718b4",
       "note": "wreath — poljščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-PT.md",
-      "size_bytes": 4273,
-      "sha256": "49a0df62d73b112e5674c8c90e1dd9cd78fe7034f284d591816f89e4457c0355",
+      "size_bytes": 4629,
+      "sha256": "9cb459a2a9f7fc7dd996214e45bd761ab551e8584de05c2443836240f9742018",
       "note": "wreath — portugalščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-RO.md",
-      "size_bytes": 3855,
-      "sha256": "eb4a77b73ffdf5b0ca6b5a0591bb7232fcc3c7d6b192842f44c2aaa0dd9f9ecb",
+      "size_bytes": 4211,
+      "sha256": "f36d19abeaae6cb1756f6307cb08a1fe3a11b0f827ae28cd3542de856a123dc0",
       "note": "wreath — romunščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-RU.md",
-      "size_bytes": 6400,
-      "sha256": "49c847111af3c01cf0a2fa47eccdd178c9590d173bb79e57fb642a4560b0fb91",
+      "size_bytes": 6756,
+      "sha256": "22789cedc775ca4544316fa118798ec1cae6649201151d8c38984c5fc9e1188c",
       "note": "wreath — ruščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-SK.md",
-      "size_bytes": 4472,
-      "sha256": "44bb45bfe84a2c465520a94f060ade2751093d07467d68380338fc7e9fd58e22",
+      "size_bytes": 4828,
+      "sha256": "30134613123c84dce9c80f3e7d40a0291249283dacc0087e05d23ed8a2e86084",
       "note": "wreath — slovaščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-SLO.md",
-      "size_bytes": 5107,
-      "sha256": "c4c0c022638c58bb4b59e07c6ce6e54024867c838c99be5f40f2af69050d53ec",
+      "size_bytes": 3783,
+      "sha256": "8c34dba9d75fa9d4ce87f06b74fe5d857ec245cca2b6371cb64abc171ec6bcd5",
       "note": "wreath — slovenščina — tla korpusa; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-SR.md",
-      "size_bytes": 5983,
-      "sha256": "0ce15dcbe0144077db1792a7f5630537876343c8146fd8ddbc8bdb48d9c7eff2",
+      "size_bytes": 6339,
+      "sha256": "e42b808987d7944dbc2cf58eb6effb63109a305b4946a29350ca2640fb990ab6",
       "note": "wreath — srbščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-SV.md",
-      "size_bytes": 3499,
-      "sha256": "e160dbc93c85176075d4779232170e25216109f7b40059655f5d69a0d6ae4b97",
+      "size_bytes": 3855,
+      "sha256": "6dfbc23a841848ea9c77d2efb586fd9d4a26c3a5defcbabc3ad69e666b80d931",
       "note": "wreath — švedščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-TH.md",
-      "size_bytes": 7017,
-      "sha256": "3bb06fc411603497d630b6262c8388d1468bd6e50ff61355334ec01dc91b7326",
+      "size_bytes": 7373,
+      "sha256": "12f5d91150ed8f2be9abdd3b12ff072945965163121e286516188b43bc794fda",
       "note": "wreath — tajščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-TR.md",
-      "size_bytes": 3654,
-      "sha256": "98da7cc0d08a6c77f0b03c2f84616a87b4263103d68bcb872b3898a0e0754578",
+      "size_bytes": 4010,
+      "sha256": "e6d7c3e775c4f8f1ef9e69a14a24e016175f1423dc050ba7f8cedb970d57d304",
       "note": "wreath — turščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-UK.md",
-      "size_bytes": 6159,
-      "sha256": "969f41e7843d9abfcd693e4d63d73c00c8cf9cbc6d18587589dfb10b4fd92d51",
+      "size_bytes": 6515,
+      "sha256": "d2b319b945b7356e5d28762af0ee4382d83aae0cabc4948fb0963e3b03f65923",
       "note": "wreath — ukrajinščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-VI.md",
-      "size_bytes": 4666,
-      "sha256": "8042b6a7dfd51faca9dee252f1bad4e4a2ba27e1e6124ea6d79201f8b92ea820",
+      "size_bytes": 5022,
+      "sha256": "df5fabb6335a6e8f12ea59cc1b9f90f92bf60bb23b60ae40883ef2630f825f9b",
       "note": "wreath — vietnamščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-ZH.md",
-      "size_bytes": 3088,
-      "sha256": "27b73491be2600d3165d7cef8ba141d9f972503640fd90ae61b275be4fec27b0",
+      "size_bytes": 3444,
+      "sha256": "5dc5413a029c11e9b14bf33d263b2d04fa5ecc52c7a04c6fee3d3d8d25735a59",
       "note": "wreath — kitajščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
     }
   ],

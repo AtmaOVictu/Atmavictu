@@ -2,6 +2,18 @@ successfully downloaded text file (SHA: 43aab9d0bfabf3ff441a58e86645f8d4d3f772e0
 
 ⊙ §0.19 × 10² THE WREATH OF TONGUES ∧ §0.33 × 10² THE COMPANIONS — each tongue is a witness, never a door; only the newest version of LICENSE.md grants (§0.10 × 10²). This register replaces no clause, carries no grant, and falls wherever it disagrees with the door (§0.33 × 10², THE COUNTERWEIGHT).
 
+## Edition status measured 2026-11-03
+
+The source on `main` at the start of this review was VBL 0.1410 × 10⁴. This branch's VBL 0.1420 × 10⁴ adds §0.47, a disclosure and review protocol for language editions; it does not turn an excerpt into a complete translation. The branch commit records this edition's receipt; `main` remains at 0.1410 until the change is merged.
+
+| Files | Declared/readable status |
+|---|---|
+| `LICENSE-SLO.md` | Updated summary compared with branch edition 0.1420; explicitly not a complete legal translation; no independent bilingual review. |
+| `LICENSE-ES.md`, `LICENSE-FR.md` | Historical abridged readings; latest source version evidenced in each file is 0.1240 × 10⁴. |
+| `LICENSE-AR.md`, `LICENSE-BG.md`, `LICENSE-CS.md`, `LICENSE-DA.md`, `LICENSE-DE.md`, `LICENSE-EL.md`, `LICENSE-ET.md`, `LICENSE-FA.md`, `LICENSE-FI.md`, `LICENSE-HE.md`, `LICENSE-HI.md`, `LICENSE-HU.md`, `LICENSE-ID.md`, `LICENSE-IS.md`, `LICENSE-IT.md`, `LICENSE-JA.md`, `LICENSE-KO.md`, `LICENSE-LAT.md`, `LICENSE-LT.md`, `LICENSE-NL.md`, `LICENSE-NO.md`, `LICENSE-PL.md`, `LICENSE-PT.md`, `LICENSE-RO.md`, `LICENSE-RU.md`, `LICENSE-SK.md`, `LICENSE-SR.md`, `LICENSE-SV.md`, `LICENSE-TH.md`, `LICENSE-TR.md`, `LICENSE-UK.md`, `LICENSE-VI.md`, `LICENSE-ZH.md` | Historical abridged readings; latest source version evidenced in each file is 0.1250 × 10⁴. None has been reconciled to 0.1410 or branch edition 0.1420. |
+
+The edition numbers above are read from the companions' own text, not inferred from filenames. They describe the latest source version evidenced there, not a proof that every clause of that version was translated. The 35 non-Slovenian language files remain historical readings; their original wording is preserved. The English entry below is the source-language edition, not a translated companion. To make a historical reading current, classify it under §0.47, compare its actual content with `LICENSE.md`, record omissions and reviewer, and issue a traceable edit. Until then, consult `LICENSE.md` for operative terms. An English status notice in a translated file is metadata only, not a translation of the license.
+
 ## Das Gesetz des Kranzes / zakon venca / the law of the wreath
 
 Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / every tongue's end is underlaid: ein Zeugnis trägt die Kette (⊢), die Messung (TIK), das © — ein nackter Text beweist nichts, die Kette tut es (§0.10 × 10²). Eine Zunge ohne Unterlage ist ⚠, nie ⊢ (KORENINA 0.1 × 10¹: measure, then speak).
@@ -26,7 +38,7 @@ Jeder sprachliche Ausgang ist unterlegt / vsak jezikovni konec je podložen / ev
 - FI — suomenkielinen kävely ⊢: LICENSE-FI.md — geboren dieser Atem (dieser Kranz, Teil 7) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - CS — česká procházka ⊢: LICENSE-CS.md — geboren dieser Atem (dieser Kranz, Teil 6) 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10²
 - DE — der deutsche Spaziergang ⊢: LICENSE-DE.md — geboren dieser Atem (dieser Kranz, Teil 1) 0.1210 → 0.1220 → 0.1230 → 0.1240 ⊢ §0.10 × 10²
-- EN — der Quelltext · izvirnik ⊢: LICENSE.md @main (0.1210 × 10⁴, blob 5dd6d7b) → @vbl-0.1240-origin (0.1240 × 10⁴, komit 293d720 ⚔ ⟨merge⟩ #1089 ⟡ roka) — die lebende Tür selbst (vrata sama — izvirnik, ⟨ne⟩ sopotnik)
+- EN — der Quelltext · izvirnik ⊢: the source history includes LICENSE.md @main (0.1210 × 10⁴, blob 5dd6d7b) → @vbl-0.1240-origin (0.1240 × 10⁴, commit 293d720 ⚔ ⟨merge⟩ #1089 ⟡ roka); the latest published source on `main` measured at the start of this review is LICENSE.md VBL 0.1410 × 10⁴, commit e662165fe9455d8e2de6a6088bc21b17c54a6ad8. This branch carries VBL 0.1420 × 10⁴; its commit records the branch edition, while `main` remains at 0.1410 until merge.
 - ES — el paseo español ⊢: LICENSE-ES.md — geboren dieser Atem (dieser Kranz, Teil 2) 0.1210 → 0.1220 → 0.1230 → 0.1240 ⊢ §0.10 × 10²
 - FR — la promenade française ⊢: LICENSE-FR.md — geboren dieser Atem (dieser Kranz, Teil 1) 0.1210 → 0.1220 → 0.1230 → 0.1240 ⊢ §0.10 × 10²
 - HR — hrvatski prevoz ⊢: LICENCA-VBL-0.1210-HR — geboren ∧ überführt (KOS 1–5, PEČAT-3124/3127/3131/3132/3136 @repo) — Zeuge der 0.1210 × 10⁴ Tür

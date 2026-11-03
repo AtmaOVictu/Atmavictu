@@ -1,4 +1,6 @@
 # VBL — VERIFICATION BEFORE ASSERTION LICENSE · LA PROMENADE FRANÇAISE (la porte en un seul souffle)
+> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1240 × 10⁴. Not reconciled with living LICENSE.md VBL 0.1410 × 10⁴ or proposed 0.1420 × 10⁴. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
+
 
 Une lecture, jamais une rivale (§0.33 × 10² THE COMPANIONS) : cette lecture ne remplace aucune clause, ne porte aucune concession et tombe partout où elle contredit le corps de la porte — la copie portée demeure entière (§0.2 × 10¹). Seule la version la plus récente de LICENSE.md accorde (§0.10 × 10²). Un témoin, jamais la porte.
 
