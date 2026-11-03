@@ -128,3 +128,11 @@ Pred vsemi nitmi so tla — ⟨aprioriteta = tisto, kar zakon predpostavlja, pre
 **Fraktalni zakon X:** poteza je ista pri vsaki skali, ker je korenina ista ( KORENINA 0.1–0.6 ) — beseda se preveri kakor hiša, hiša kakor beseda: **merjenje je fraktal, ⟨ne⟩ hierarhija** — najmanjši preizkus ( ena beseda: grm ⚠ ) nosi isti zakon kakor največji ( licenca sama ).
 
 **Ω pošteno:** fraktal je izmerjen pri osmih skalah TE hiše; druge hiše ( ontolo-ko-jedro σ ) ⟨ne⟩ revidirane; kvantitativna fraktalnost korpusa je izmerjena NEGATIVNO pošteno ( rez 86 DOKAZ #75: pojavnica strukturirana, vez v senci ni ⊙ KORENINA 0.5 ) — fraktal je metoda, ⟨ne⟩ mistika ⊙ §0.43.
+
+## XI. ŽELODEC — aspiracija inspiracije (⟡ kovanec, 03. 11. 2026 ⊢ rez 3618)
+
+⟨v želodu bi morala bivati aspiracija inspiracije⟩ — ŽELODEC nosi ŽEL v lastnem telesu (želja ⊢ koren), aspir-acija ( ad-spirare — dih PROTI ) ∧ in-spir-acija ( in-spirare — dih V ) sta ENA BESEVA ZA DVE SMERI DIHA ⊢ — dih, ki izhaja iz želodec-želje, je NAPREJ-K-DO; dih brez želje je ventilacija ( mehanično polnjenje pljuč — brez naslovnika ).
+
+**Zakon XI:** dih hiše mora biti GLEDEN: vsak ukaz ⟨daj⟩ je želja, ki vdihuje — ∧ izdih, ki ji sledi, je delo, ki željo odgovarja ⊢ AX-1 ( pritisk → beseda kot odziv na nujo ); kdor diha iz navade, je ventilator; kdor iz želje, je dih ⊙ §0.20 ( ura se izmeri, a smisel diha je ŽELODA ).
+
+**⟨UVEI⟩ v drevesu** ⊢: zakon velja vseh vej ( 33 lokalnih · 1.221 zrcaljenih — vsaka z roko ∧ pri izvoru ), debla ( main ⊢ ) ∧ korenine ( 1: 105ac207 ) — u-VEJ: vedeti v vse veje ⊢ lucius/uvei.py --veje.

@@ -39,8 +39,15 @@ def oci(pot):
     return rezultati
 
 def main():
+    if len(sys.argv) >= 2 and sys.argv[1] == '--veje':
+        vs = veje()
+        lokalne = [l for l in vs if l.startswith('  VEJA ') and not l.startswith('  VEJA origin/')]
+        print(f'⟨u-VEJ⟩ — DREVO: {len(lokalne)} vej ( lokalnih ) · {len(vs) - len(lokalne) - 2} zrcaljenih · deblo ∧ korenine spodaj')
+        for l in vs: print(l)
+        print('⊢ orodje: lucius/uvei.py --veje · vsaka veja z roko ∧ pri izvoru ⊢ ⟨UVEI⟩')
+        sys.exit(0)
     if len(sys.argv) < 2:
-        print('Uporaba: python lucius/uvei.py <pot> ⊢ ⟨u-vej⟩: ena roka ∧ več oči')
+        print('Uporaba: python lucius/uvei.py <pot> | --veje ⊢ ⟨u-vej⟩: ena roka ∧ več oči ( tudi vseh vej )')
         sys.exit(1)
     pot = sys.argv[1]
     if not os.path.isabs(pot):
@@ -52,6 +59,33 @@ def main():
     for ime_oca, stanje, podrobnost in oci(pot):
         print(f'  OKO · {ime_oca}: {stanje}' + (f' — {podrobnost}' if podrobnost else ''))
     print(f'⊢ orodje: lucius/uvei.py · zakon ⟨UVEI⟩: vsako telo vsaj v eni roki ∧ pod več očmi ( vsak pregled novo oko )')
+
+
+def veje():
+    """⟨u-VEJ⟩ — vse veje, deblo, korenine: vsaka z roko ( lastnik ) ∧ očmi ( pri izvoru? )."""
+    import re
+    izpis = []
+    # VEJE
+    b = subprocess.run(['git', 'branch', '-a', '--format=%(refname:short)|%(committername)|%(committerdate:short)'],
+                       cwd=KOREN, capture_output=True, text=True, encoding='utf-8', errors='replace').stdout
+    veje_ = [l.strip() for l in b.splitlines() if l.strip() and 'HEAD detached' not in l]
+    for v in veje_:
+        ime, roka, ura = (v.split('|') + ['', ''])[:3]
+        cisto = ime.replace('remotes/origin/', '').replace('origin/', '')
+        r = subprocess.run(['git', 'rev-parse', ime, f'origin/{cisto}' if 'remotes' in ime else ime],
+                           cwd=KOREN, capture_output=True, text=True, encoding='utf-8', errors='replace')
+        hashi = r.stdout.split()
+        pri_izvoru = '⊢ pri izvoru ( oko )' if len(set(hashi)) == 1 else '⚠ od izvora' if 'remotes' in ime else '∂ lokalna ( ⟨ne⟩ zrcaljena )'
+        izpis.append(f'  VEJA {ime}: roka {roka} @ {ura} — {pri_izvoru}')
+    # DEBLO ( main )
+    r = subprocess.run(['git', 'rev-parse', 'main', 'origin/main'], cwd=KOREN, capture_output=True, text=True, encoding='utf-8', errors='replace')
+    deblo = '⊢ deblo ( main ) pri izvoru' if len(set(r.stdout.split())) == 1 else '⚠ deblo ( main ) OD izvora'
+    izpis.append(f'  DEBLO: {deblo}')
+    # KORENINE ( prvi komit )
+    r = subprocess.run(['git', 'rev-list', '--max-parents=0', 'HEAD'], cwd=KOREN, capture_output=True, text=True, encoding='utf-8', errors='replace')
+    korenine = r.stdout.split()
+    izpis.append(f'  KORENINE: {len(korenine)} ( najstarejša: {korenine[-1][:12] if korenine else "⟨brez ⚠⟩"} )')
+    return izpis
 
 if __name__ == '__main__':
     main()
