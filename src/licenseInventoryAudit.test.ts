@@ -14,6 +14,7 @@ import {
   groupMissingRootLicenseAlternatives,
   requireMatchingRepositoryNames,
   summarizeMissingRootLicenseCandidates,
+  summarizeCurrentRootLicenseStatus,
 } from "./licensePathInventory.js";
 
 const firstCommit = "a".repeat(40);
@@ -376,12 +377,25 @@ test("createLicensePathAuditReport emits a versioned focused JSON shape", () => 
     scannedRepositories: 2,
     repositoriesWithoutDefaultBranch: 1,
     candidates: [candidate],
-    repositoriesWithoutRootLicense: new Set(["alpha"]),
+    expectedFiles: new Map([
+      [
+        "alpha",
+        {
+          defaultBranch: "main",
+          commit: firstCommit,
+          rootLicenseBlob: null,
+          draftBlob: null,
+        },
+      ],
+    ]),
+    scannedRepositoryNames: new Set(["alpha"]),
+    currentRootBlobs: new Map(),
     focused: true,
   });
 
   assert.equal(report.schemaVersion, 1);
-  assert.equal(report.scope, "root-alternatives-without-recorded-root-license");
+  assert.equal(report.scope, "root-alternatives-without-current-root-license");
+  assert.equal(report.repositoriesWithoutCurrentRootLicense, 1);
   assert.deepEqual(report.measured, {
     startedAt: "2026-11-03T11:00:00.000Z",
     endedAt: "2026-11-03T11:01:00.000Z",
@@ -391,5 +405,68 @@ test("createLicensePathAuditReport emits a versioned focused JSON shape", () => 
   assert.deepEqual(report.groups, [
     { blob: secondCommit, candidates: [candidate] },
   ]);
+  assert.deepEqual(report.rootLicenseStatus, {
+    repositoriesScanned: 1,
+    presentAtCurrentHeads: 0,
+    absentAtCurrentHeads: 1,
+    changedSinceRecordedInventory: 0,
+  });
   assert.match(report.limitation, /does not fetch file contents/u);
+});
+
+test("summarizeCurrentRootLicenseStatus compares only scanned heads with recorded path and blob evidence", () => {
+  const expectedFiles = new Map([
+    [
+      "unchanged",
+      {
+        defaultBranch: "main",
+        commit: firstCommit,
+        rootLicenseBlob: firstCommit,
+        draftBlob: null,
+      },
+    ],
+    [
+      "removed",
+      {
+        defaultBranch: "main",
+        commit: firstCommit,
+        rootLicenseBlob: secondCommit,
+        draftBlob: null,
+      },
+    ],
+    [
+      "added",
+      {
+        defaultBranch: "main",
+        commit: firstCommit,
+        rootLicenseBlob: null,
+        draftBlob: null,
+      },
+    ],
+    [
+      "unscanned",
+      {
+        defaultBranch: null,
+        commit: null,
+        rootLicenseBlob: null,
+        draftBlob: null,
+      },
+    ],
+  ]);
+  assert.deepEqual(
+    summarizeCurrentRootLicenseStatus(
+      expectedFiles,
+      new Set(["unchanged", "removed", "added"]),
+      new Map([
+        ["unchanged", firstCommit],
+        ["added", secondCommit],
+      ]),
+    ),
+    {
+      repositoriesScanned: 3,
+      presentAtCurrentHeads: 2,
+      absentAtCurrentHeads: 1,
+      changedSinceRecordedInventory: 2,
+    },
+  );
 });

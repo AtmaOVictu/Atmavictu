@@ -5,6 +5,7 @@ import {
   parsePinnedRepositoryFiles,
   parsePinnedRepositoryHeads,
   readRepositoryHeads,
+  type PinnedRepositoryFiles,
   type RepositoryHead,
 } from "./licenseInventoryAudit.js";
 
@@ -56,8 +57,14 @@ export interface LicensePathAuditReport {
     repositoriesWithoutDefaultBranch: number;
     candidatesFound: number;
   };
-  scope: "all-name-matched-paths" | "root-alternatives-without-recorded-root-license";
-  repositoriesWithoutRootLicense: number;
+  rootLicenseStatus: {
+    repositoriesScanned: number;
+    presentAtCurrentHeads: number;
+    absentAtCurrentHeads: number;
+    changedSinceRecordedInventory: number;
+  };
+  scope: "all-name-matched-paths" | "root-alternatives-without-current-root-license";
+  repositoriesWithoutCurrentRootLicense: number;
   summary: MissingRootLicenseSummary;
   candidates: LicensePathCandidate[];
   groups: MissingRootLicenseBlobGroup[];
@@ -201,15 +208,55 @@ export function groupMissingRootLicenseAlternatives(
     .sort((left, right) => left.blob.localeCompare(right.blob));
 }
 
+export function summarizeCurrentRootLicenseStatus(
+  expectedFiles: Map<string, PinnedRepositoryFiles>,
+  scannedRepositories: Set<string>,
+  currentRootBlobs: Map<string, string>,
+): LicensePathAuditReport["rootLicenseStatus"] {
+  let presentAtCurrentHeads = 0;
+  let changedSinceRecordedInventory = 0;
+  for (const repository of scannedRepositories) {
+    const recorded = expectedFiles.get(repository);
+    if (!recorded) {
+      throw new Error(`No recorded root-license evidence for ${repository}`);
+    }
+    const currentBlob = currentRootBlobs.get(repository) ?? null;
+    if (currentBlob !== null) {
+      presentAtCurrentHeads += 1;
+    }
+    if (recorded.rootLicenseBlob !== currentBlob) {
+      changedSinceRecordedInventory += 1;
+    }
+  }
+  return {
+    repositoriesScanned: scannedRepositories.size,
+    presentAtCurrentHeads,
+    absentAtCurrentHeads: scannedRepositories.size - presentAtCurrentHeads,
+    changedSinceRecordedInventory,
+  };
+}
+
 export function createLicensePathAuditReport(input: {
   startedAt: Date;
   endedAt: Date;
   scannedRepositories: number;
   repositoriesWithoutDefaultBranch: number;
   candidates: LicensePathCandidate[];
-  repositoriesWithoutRootLicense: Set<string>;
+  expectedFiles: Map<string, PinnedRepositoryFiles>;
+  scannedRepositoryNames: Set<string>;
+  currentRootBlobs: Map<string, string>;
   focused: boolean;
 }): LicensePathAuditReport {
+  const repositoriesWithoutCurrentRootLicense = new Set(
+    [...input.scannedRepositoryNames].filter(
+      (repository) => !input.currentRootBlobs.has(repository),
+    ),
+  );
+  const rootLicenseStatus = summarizeCurrentRootLicenseStatus(
+    input.expectedFiles,
+    input.scannedRepositoryNames,
+    input.currentRootBlobs,
+  );
   return {
     schemaVersion: 1,
     measured: {
@@ -221,23 +268,25 @@ export function createLicensePathAuditReport(input: {
       repositoriesWithoutDefaultBranch: input.repositoriesWithoutDefaultBranch,
       candidatesFound: input.candidates.length,
     },
+    rootLicenseStatus,
     scope: input.focused
-      ? "root-alternatives-without-recorded-root-license"
+      ? "root-alternatives-without-current-root-license"
       : "all-name-matched-paths",
-    repositoriesWithoutRootLicense: input.repositoriesWithoutRootLicense.size,
+    repositoriesWithoutCurrentRootLicense:
+      repositoriesWithoutCurrentRootLicense.size,
     summary: summarizeMissingRootLicenseCandidates(
       input.candidates,
-      input.repositoriesWithoutRootLicense,
+      repositoriesWithoutCurrentRootLicense,
     ),
     candidates: input.focused ? [] : input.candidates,
     groups: input.focused
       ? groupMissingRootLicenseAlternatives(
           input.candidates,
-          input.repositoriesWithoutRootLicense,
+          repositoriesWithoutCurrentRootLicense,
         )
       : [],
     limitation:
-      "Path-name matches and Git object identities are review leads only; this scan does not fetch file contents or determine legal effect.",
+      "Current root-path presence and Git object identities are measured at the scanned heads; path-name matches remain review leads only, and this scan does not fetch file contents or determine legal effect.",
   };
 }
 
@@ -295,6 +344,8 @@ async function main(): Promise<void> {
   );
 
   const candidates: LicensePathCandidate[] = [];
+  const currentRootBlobs = new Map<string, string>();
+  const scannedRepositoryNames = new Set<string>();
   let scannedRepositories = 0;
   let repositoriesWithoutDefaultBranch = 0;
   for (const head of currentHeads) {
@@ -304,6 +355,22 @@ async function main(): Promise<void> {
       continue;
     }
     const entries = readRepositoryTree(repository, head.commit);
+    scannedRepositoryNames.add(repository);
+    const rootLicenseEntry = entries.find(
+      (entry) =>
+        entry.path === "LICENSE.md" && entry.type === "blob",
+    );
+    if (rootLicenseEntry) {
+      if (
+        typeof rootLicenseEntry.sha !== "string" ||
+        !/^[a-f0-9]{40}$/iu.test(rootLicenseEntry.sha)
+      ) {
+        throw new Error(
+          `GitHub returned no valid root LICENSE.md blob SHA for ${repository}@${head.commit}`,
+        );
+      }
+      currentRootBlobs.set(repository, rootLicenseEntry.sha);
+    }
     for (const candidate of findLicensePathCandidates(entries)) {
       candidates.push({ repository, commit: head.commit, ...candidate });
     }
@@ -311,14 +378,6 @@ async function main(): Promise<void> {
   }
   const ended = new Date();
 
-  const repositoriesWithoutRootLicense = new Set(
-    [...fileEvidence]
-      .filter(
-        ([, evidence]) =>
-          evidence.commit !== null && evidence.rootLicenseBlob === null,
-      )
-      .map(([repository]) => repository),
-  );
   if (jsonOutput) {
     console.log(
       JSON.stringify(
@@ -328,7 +387,9 @@ async function main(): Promise<void> {
           scannedRepositories,
           repositoriesWithoutDefaultBranch,
           candidates,
-          repositoriesWithoutRootLicense,
+          expectedFiles: fileEvidence,
+          scannedRepositoryNames,
+          currentRootBlobs,
           focused: focusMissingRoot,
         }),
         null,
@@ -346,12 +407,25 @@ async function main(): Promise<void> {
   console.log(
     "Candidates are path-name matches only; blob SHAs identify exact Git objects but this scan does not fetch file contents or determine legal effect.",
   );
-  const summary = summarizeMissingRootLicenseCandidates(
-    candidates,
-    repositoriesWithoutRootLicense,
+  const rootLicenseStatus = summarizeCurrentRootLicenseStatus(
+    fileEvidence,
+    scannedRepositoryNames,
+    currentRootBlobs,
+  );
+  const repositoriesWithoutCurrentRootLicense = new Set(
+    [...scannedRepositoryNames].filter(
+      (repository) => !currentRootBlobs.has(repository),
+    ),
   );
   console.log(
-    `Among ${repositoriesWithoutRootLicense.size} repositories with no recorded root LICENSE.md: ${summary.repositoriesWithCandidates} have name-matched candidates (${summary.repositoriesWithRootAlternatives} with root-level alternatives, ${summary.repositoriesWithNestedOnly} with nested candidates only); ${summary.rootAlternativePaths} root-level paths map to ${summary.uniqueRootAlternativeBlobs} unique blobs, alongside ${summary.nestedCandidatePaths} nested paths.`,
+    `Current root LICENSE.md status: ${rootLicenseStatus.presentAtCurrentHeads} present, ${rootLicenseStatus.absentAtCurrentHeads} absent among ${rootLicenseStatus.repositoriesScanned} scanned repositories; ${rootLicenseStatus.changedSinceRecordedInventory} differ from recorded path/blob evidence.`,
+  );
+  const summary = summarizeMissingRootLicenseCandidates(
+    candidates,
+    repositoriesWithoutCurrentRootLicense,
+  );
+  console.log(
+    `Among ${repositoriesWithoutCurrentRootLicense.size} repositories with no current root LICENSE.md: ${summary.repositoriesWithCandidates} have name-matched candidates (${summary.repositoriesWithRootAlternatives} with root-level alternatives, ${summary.repositoriesWithNestedOnly} with nested candidates only); ${summary.rootAlternativePaths} root-level paths map to ${summary.uniqueRootAlternativeBlobs} unique blobs, alongside ${summary.nestedCandidatePaths} nested paths.`,
   );
   if (focusMissingRoot) {
     console.log(
@@ -359,7 +433,7 @@ async function main(): Promise<void> {
     );
     for (const group of groupMissingRootLicenseAlternatives(
       candidates,
-      repositoriesWithoutRootLicense,
+      repositoriesWithoutCurrentRootLicense,
     )) {
       const locations = group.candidates
         .map(
