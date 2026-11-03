@@ -20,11 +20,13 @@ The published source observed on `Atmavictu/main` remains VBL 0.1410 × 10⁴ (`
 
 The pinned heads were rechecked against the current default refs through GitHub GraphQL from `2026-11-03T10:24:45.081+01:00` to `2026-11-03T10:24:47.727+01:00`: all 52 repositories with a default branch still pointed to their recorded commit; `Atmavictu_Oracle` remained without one. This confirms ref-head identity during that recheck, not a fresh download of file bytes or an atomic organization-wide snapshot.
 
-To repeat this limited head check, run `npm run audit:license-inventory` from the repository root with GitHub CLI (`gh`) authenticated. It compares current repository names, default branch names, and head commit SHAs with the pinned rows and exits nonzero on any difference. It does not fetch license-file contents, rewrite this historical snapshot, or determine which license terms apply.
+To repeat this limited check, run `npm run audit:license-inventory` from the repository root with GitHub CLI (`gh`) authenticated. It compares current repository names, default branch names, and head commit SHAs with the pinned rows, then compares the recorded Git object IDs for root `LICENSE.md` files and the 14 draft copies at those pinned commits. It exits nonzero on any difference. It does not download file bytes, rewrite this historical snapshot, or determine which license terms apply.
 
 The repeatable check found a new repository, `alien-space-of-science`, after the 10:24 recheck. GitHub GraphQL measured its `main` head as `a55d660de75c99afe9e0948781cdb828fe3798eb` between `2026-11-03T12:16:52.104+01:00` and `2026-11-03T12:16:55.587+01:00`. At that pinned commit, the GitHub Contents API returned 404 for both root `LICENSE.md` and `VBL-10.5.1-KOMPIL-A-DRAFT-NOT-RELEASED.md`; only those exact paths were checked. The repeatable audit should now compare 54 repositories, with 19 readable root files, 34 missing root paths, and one repository without a default branch.
 
 After adding that row, `npm run audit:license-inventory` rechecked all 54 repository names, default branch names, and pinned commit SHAs from `2026-11-03T11:18:54.482Z` to `2026-11-03T11:18:57.744Z`; it reported zero mismatches. This confirms those heads matched during that interval only.
+
+The expanded audit rechecked the 54 repository heads and the recorded root-file/draft Git object IDs at their pinned commits from `2026-11-03T11:27:18.996Z` to `2026-11-03T11:27:24.266Z`. It found zero head mismatches, all 19 recorded root `LICENSE.md` blobs and 34 recorded root-path absences matched, and all 14 recorded draft blobs matched. This checks Git object IDs at the pinned commits; it does not download file contents or establish legal effect.
 
 | Repository | Default ref | Measured root `LICENSE.md` | Git blob | Measured commit |
 |---|---|---|---|---|

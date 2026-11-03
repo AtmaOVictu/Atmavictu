@@ -208,6 +208,10 @@ test("cross-repository draft inventory distinguishes copies from a released lice
   assert.match(draftStatus, /fourteen Base64 files decode to byte-identical VBL 0\.1300 bodies/u);
   assert.match(draftStatus, /106,427 bytes/u);
   assert.match(draftStatus, /33 had no readable file/u);
+  assert.match(
+    draftStatus,
+    /all 19 recorded root `LICENSE\.md` blobs and 34 recorded root-path absences matched, and all 14 recorded draft blobs matched/u,
+  );
   assert.match(draftStatus, /DRAFT · NOT RELEASED/u);
   assert.match(draftStatus, /52,169 bytes/u);
   assert.match(draftStatus, /SHA-256 `dac171ccf3d526b82a16ca28462002cc05c5d8b46e4d3dadfb1e3ace7e171d60`/u);
