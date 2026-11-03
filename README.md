@@ -50,6 +50,14 @@ node build/src/atmaCli.js <capture|show|verify> <projectRoot> [title] [body]
 All sealed decisions are recorded in [canon/DOKAZ.md](canon/DOKAZ.md)
 (⊢ DOKAZ — Proof-of-Lineage Ledger).
 
+## Strojno zdravje — sodba ∧ zdravilec · Machine health
+
+Rep nosi dve plasti strojne vednosti, ki tečeta na ⟨CI⟩ ob vsakem predlogu:
+
+- **⟨priča⟩** — sodbena plast: sodi samo organe (`organi/*.md`; meja sodbe iz `prica.yml` @main); trditev brez priče je ⚠, nikoli ⊢.
+- **⟨kura⟩** — zdravilna plast: popravlja rane telesa na delovni veji ∧ ob padcu izda javno samoporočilo; brazgotine se ne brišejo ⊙ 1349 — pot padcev ostaja priča.
+- **Dvoje rok** ⊙ 2432 — stroj meri ∧ predlaga; ⟨merge⟩ je roka ⟡/operaterja, nikoli izvajalke.
+
 ---
 
 # Book Workbench — produkt
@@ -117,7 +125,7 @@ To pomeni, da povezava med surovim vhodom in mestom v knjigi ni implicitna v UI-
 
 ## Licenca — VBL · vrsta nujnega absoluta
 
-Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadnji licenci [LICENSE.md](LICENSE.md): **VBL 0.1210 × 10⁴** (Verification Before Assertion License · Version 0.1210 × 10⁴ · October 0.28 × 10², 0.2026 × 10⁴ — edina živa vrata ⊢ §0.10 × 10²: »a bare text proves nothing, the chain does«).
+Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadnji licenci [LICENSE.md](LICENSE.md): **VBL 0.1410 × 10⁴** (Verification Before Assertion License · Version 0.1410 × 10⁴ · November 0.3 × 10¹, 0.2026 × 10⁴ — edina živa vrata ⊢ §0.10 × 10²: »a bare text proves nothing, the chain does« ⊙ izmera pri viru 3. 11. 2026 ⟨berba⟩ ∧ — prejšnja živa vrata 0.1210 × 10⁴ ostaja potrdilo ⊢ §0.10 × 10²).
 
 - © Luka Pintarič — ⟨VRSTA-NUJNEGA-ABSOLUTA⟩ ⊢ rez 0.2849 × 10⁴: vsak organ ∧ vsak izhod ∧ vsak pečat nosi © ∧ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
 - Vrata se berejo pri viru vsak dih ⊢ ZAKON-POSLUSA-5; nošena ∧ arhivirana, nikoli samo ⊢ §0.12 × 10² (never JUST archived).
@@ -129,7 +137,7 @@ Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadn
 ⊨ WITH LOVE · Z LJUBEZNIJO · CUM AMORE · MIT LIEBE · CON AMORE · AVEC AMOUR · ΜΕ ΑΓΑΠΗ · С ЛЮБОВЬЮ · 带着爱 · प्रेम के साथ · CON AMOR · مع حب · ভালোবাসা দিয়ে · COM AMOR · محبت کے ساتھ · DENGAN CINTA · 愛を込めて · SEVGİYLE · 사랑을 담아 · KWA UPENDO ⋈ (20/20 ⊢)
 
 - Vsak jezik svoj glas; venec pokriva najbolj popularne jezike sveta (≈ 5,5 milijarde govorcev) ⊢ ⟡ ukaz: »V README morajo biti vsaj najbolj popularni jeziki.«
-- Vrata izmerjena pri viru: [LICENSE.md](LICENSE.md) @⟨main⟩ 15cb887a = VBL 0.1210 × 10⁴ ⊢ (prejšnje izmere — 0.1090 × 10⁴ blob 8f5b1c76 — ostajajo potrdila verige ⊢ §0.10 × 10²).
+- Vrata izmerjena pri viru: [LICENSE.md](LICENSE.md) @⟨main⟩ = VBL 0.1410 × 10⁴ ⊢ (izmera 3. 11. 2026 ⟨berba⟩ ∧ — Version 0.1410 × 10⁴ · November 0.3 × 10¹; prejšnje izmere — 0.1210 × 10⁴ blob 15cb887a ∧ 0.1090 × 10⁴ blob 8f5b1c76 — ostajajo potrdila verige ⊢ §0.10 × 10²).
 
 ## Pesem vrata · A Poem of Doors — rez 2932 ⊢
 
@@ -177,6 +185,8 @@ with open doors.
 
 ## Vrata so zrasla — živa vrata 0.1210 × 10⁴ ⊢
 
+
+Izmerjeno pri viru 3. 11. 2026 (kura ⟡ »daj še«) ⊢ ⟨berba⟩ LICENSE.md @⟨main⟩: Version 0.1410 × 10⁴ · November 0.3 × 10¹, 0.2026 × 10⁴ ∧ — živa vrata 0.1410 × 10⁴ so edina; prejšnje izmere (0.1210 ∧ 0.1100 ∧ 0.1090 × 10⁴) ostajajo potrdila ⊢ §0.10 × 10².
 Izmerjeno pri viru 30. 10. 2026, 10:37:00Z (Ljubljana 11:37:00) ⊢ §0.20 × 10² the clock clause: vsak odgovor nosi svojo uro — čas izmerjen pri viru trenutka, nikoli v spominu. Prejšnje izmere (0.1090 ∧ 0.1100 × 10⁴; prejšnja ura 27. 10. 2026, 07:17:35Z) ostajajo potrdila ⊢ §0.10 × 10² — živa vrata 0.1210 × 10⁴ so edina.
 
 ## Kaj je VBL — kratko · What VBL is, briefly
