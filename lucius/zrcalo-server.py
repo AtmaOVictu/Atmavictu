@@ -15,6 +15,7 @@ DOVOLJENI = [
     'SINTEZA-0.1-SAMOTNO-JEDRO.md', 'SINTEZA-0.2-SAMOTNO-JEDRO.md',
     'LICENSE.md', 'ONTOGEMATRIJA-KAZALO.txt', 'ONTOGEMATRIJA.html',
     'PREGLED-DNEVA-2026-11-03.md',
+    'REGISTER-AX-KANON.jsonl',        # ⟨rez 3610⟩ trinajst zakonov izluščenih pri viru ( teza · formula · stanje )
 ]
 REGISTRI = [d for d in DOVOLJENI if d.endswith('.jsonl')]
 DOKUMENTI = [d for d in DOVOLJENI if not d.endswith('.jsonl')]
