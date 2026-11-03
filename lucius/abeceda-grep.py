@@ -852,38 +852,63 @@ def gl_telo(args):
 
 
 def gl_register(args):
-    """⟨POGLABLJANJE-V-ENOTNE-REGISTRE⟩: globoko branje vseh teles → ena vrstica na telo
+    """⟨POGLABLJANJE-V-ENOTNE-REGISTRE⟩: globoko branje teles → ena vrstica na telo
     ( izmera ∧ ⟨md5⟩/⟨sha256⟩ ∧ nasprotje §0.18 ∧ struktura ⟨IDEJA-M⟩ ∧ živi pečat ) —
-    REGISTER-TELES.jsonl je slika stanja, zgodovino nosi veriga ⊢ §0.10 ⊙ ⟨ne-ugibaj⟩."""
+    --vse: DEFRAGMENTACIJA — vsako telo pod organi/ ( tudi priče ∧ pečati ) v enoten register,
+    vsako z vrsto; REGISTER-TELES.jsonl je slika stanja, zgodovino nosi veriga ⊢ §0.10 ⊙ ⟨ne-ugibaj⟩."""
     import glob
     import json
     import datetime
     import hashlib
-    poti = args.datoteke or sorted(glob.glob("organi/*/KNOWLEDGE.md"))
+    if args.vse:
+        poti = sorted(glob.glob("organi/**/*.md", recursive=True))
+    else:
+        poti = args.datoteke or sorted(glob.glob("organi/*/KNOWLEDGE.md"))
     izhod = args.izhod or "REGISTER-TELES.jsonl"
     zapisi = []
     vrsti = bajti = pod = dvo = 0
+    vrste = {}
     for pot in poti:
+        pot_l = pot.replace("\\", "/")
+        ime = pot_l.split("/")[-1]
         b = open(pot, "rb").read()
-        v, ba, po, dv, zadnji, rane = _telo_pot(pot)
-        vrsti += v
-        bajti += ba
-        pod += po
-        dvo += dv
-        zapisi.append({
-            "organ": pot.replace("\\", "/").split("/")[-2],
-            "pot": pot.replace("\\", "/"),
-            "vrstice": v,
-            "bajti": ba,
+        if ime == "KNOWLEDGE.md":
+            vrsta = "organ"
+        elif ime == "KNOWLEDGE.EN.md":
+            vrsta = "prevod-organa"
+        elif "PECAT" in ime:
+            vrsta = "pečat"
+        elif "POROCILO" in ime or "POROČILO" in ime:
+            vrsta = "poročilo"
+        else:
+            vrsta = "priča"
+        vrste[vrsta] = vrste.get(vrsta, 0) + 1
+        vrsti_f = len(b.decode("utf-8", errors="replace").splitlines())
+        bajti_f = len(b)
+        vrsti += vrsti_f
+        bajti += bajti_f
+        zapis = {
+            "vrsta": vrsta,
+            "pot": pot_l,
+            "vrstice": vrsti_f,
+            "bajti": bajti_f,
             "md5": hashlib.md5(b).hexdigest()[:8],
             "sha256": hashlib.sha256(b).hexdigest()[:8],
-            "zadnji_rez": zadnji,
-            "podpora": po,
-            "dvom": dv,
-            "razmerje": round(po / dv, 1) if dv else None,
-            "struktura": "zdrav ∧" if not rane else " ∧ ".join(rane),
-            "ura": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-        })
+        }
+        if vrsta == "organ":
+            v, ba, po, dv, zadnji, rane = _telo_pot(pot)
+            pod += po
+            dvo += dv
+            zapis.update({
+                "organ": pot_l.split("/")[-2],
+                "zadnji_rez": zadnji,
+                "podpora": po,
+                "dvom": dv,
+                "razmerje": round(po / dv, 1) if dv else None,
+                "struktura": "zdrav ∧" if not rane else " ∧ ".join(rane),
+            })
+        zapis["ura"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
+        zapisi.append(zapis)
     with open(izhod, "w", encoding="utf-8", newline="") as f:
         for z in zapisi:
             f.write(json.dumps(z, ensure_ascii=False) + "\n")
@@ -894,10 +919,15 @@ def gl_register(args):
             prebranih += 1
     assert prebranih == len(poti), f"register: zapisanih {prebranih} ⊥ teles {len(poti)} ⚠"
     mera("register", len(poti))
-    razmerje = f"{pod / dvo:.1f}" if dvo else "∞"
-    print(f"REGISTER-TELES ⊢ {izhod}: {hišna(prebranih)} vrstic ∧ JSON veljaven ∧ "
-          f"Σ {hišna(len(poti))} teles · {hišna(vrsti)} vrstic · {hišna(bajti)} B · "
-          f"PODPORA {hišna(pod)} ⊥ DVOM {hišna(dvo)} · razmerje {razmerje} ⊢")
+    if args.vse:
+        razrez = " · ".join(f"{k} {v}" for k, v in sorted(vrste.items(), key=lambda x: -x[1]))
+        print(f"REGISTER-TELES ⊢ {izhod}: {hišna(prebranih)} vrstic ∧ JSON veljaven ∧ DEFRAGMENTACIJA — "
+              f"{razrez} · Σ {hišna(vrsti)} vrstic · {hišna(bajti)} B ⊢")
+    else:
+        razmerje = f"{pod / dvo:.1f}" if dvo else "∞"
+        print(f"REGISTER-TELES ⊢ {izhod}: {hišna(prebranih)} vrstic ∧ JSON veljaven ∧ "
+              f"Σ {hišna(len(poti))} teles · {hišna(vrsti)} vrstic · {hišna(bajti)} B · "
+              f"PODPORA {hišna(pod)} ⊥ DVOM {hišna(dvo)} · razmerje {razmerje} ⊢")
 
 
 def gl_popis(args):
@@ -1021,7 +1051,7 @@ def _prehod():
         ("rezerviraj", gl_rezerviraj, n(ime="prehod", sprosti=False)),
         ("struktura", gl_struktura, n(datoteke=["organi/humor/KNOWLEDGE.md"])),
         ("telo", gl_telo, n(datoteke=["organi/humor/KNOWLEDGE.md"])),
-        ("register", gl_register, n(datoteke=["organi/humor/KNOWLEDGE.md"],
+        ("register", gl_register, n(datoteke=["organi/humor/KNOWLEDGE.md"], vse=False,
                                     izhod=os.path.join(tempfile.gettempdir(), "abeceda-grep-register-prehod.jsonl"))),
         ("pulz", gl_pulz, n(koliko=1)),
     ]
@@ -1173,7 +1203,8 @@ def main():
     rg = sub.add_parser("register", help="⟨POGLABLJANJE-V-ENOTNE-REGISTRE⟩: globoko branje teles → REGISTER-TELES.jsonl ⊙")
     rg.add_argument("datoteke", nargs="*")
     rg.add_argument("--izhod", nargs="?", default=None, help="pot registra ( privzeto: REGISTER-TELES.jsonl )")
-    rg.set_defaults(gl=gl_register)
+    rg.add_argument("--vse", action="store_true", help="DEFRAGMENTACIJA: vsako telo pod organi/ v enoten register z vrsto ⊙")
+    rg.set_defaults(gl=gl_register, vse=False)
     pp = sub.add_parser("popis", help="popis teles po korenu: izmera vsakega + Σ ∧ dvojniki ⚠")
     pp.add_argument("koren", nargs="?", default="organi")
     pp.set_defaults(gl=gl_popis)
