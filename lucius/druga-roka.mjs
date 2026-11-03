@@ -1,6 +1,6 @@
-// DRUGA-ROTE — poizkus roke nad lastnim izpisom: čistina + preverba + leksikon v enem pregonu.
-// Zagon: node lucius/druga-rote.mjs <pot-do-datoteke>
-//        node lucius/druga-rote.mjs --slovar <beseda>   ( izpis gesla iz Lukovega slovarja )
+// DRUGA-ROKA — poizkus roke nad lastnim izpisom: čistina + preverba + leksikon v enem pregonu.
+// Zagon: node lucius/druga-roka.mjs <pot-do-datoteke>
+//        node lucius/druga-roka.mjs --slovar <beseda>   ( izpis gesla iz Lukovega slovarja )
 // Pomen ( REGISTER-PADCEV vnos 6 ): pravilo #2 velja brez izjeme tudi za
 // daljše izpise v pogovoru — vsak izpis, preden zapusti roko, gre skozi to.
 // Vnos 7 ( POŠČENO-TRETJIČ ): orodje bere hišni leksikon:
@@ -51,7 +51,7 @@ function geslo(beseda) {
 // --- Način --slovar: izpiši geslo in končaj ---
 if (process.argv[2] === '--slovar') {
   const b = process.argv[3];
-  if (!b) { console.error('Uporaba: node lucius/druga-rote.mjs --slovar <beseda>'); process.exit(1); }
+  if (!b) { console.error('Uporaba: node lucius/druga-roka.mjs --slovar <beseda>'); process.exit(1); }
   if (kazalo.size === 0) { console.error(`⚠ slovar nedosegljiv ( ${SLOVAR_MAPA} )`); process.exit(1); }
   const g = geslo(b);
   if (!g) { console.log(`SLOVAR: gesla '${b}' ni ( kazalo ima ${kazalo.size} gesel ) ⚠`); process.exit(1); }
@@ -63,7 +63,7 @@ if (process.argv[2] === '--slovar') {
 
 const pot = process.argv[2];
 if (!pot) {
-  console.error('Uporaba: node lucius/druga-rote.mjs <pot-do-datoteke> | --slovar <beseda>');
+  console.error('Uporaba: node lucius/druga-roka.mjs <pot-do-datoteke> | --slovar <beseda>');
   process.exit(1);
 }
 const besedilo = fs.readFileSync(pot, 'utf8');
@@ -188,6 +188,6 @@ if (absolutov > 0) {
 
 const cisto = cirilice === 0 && ran === 0 && prepovedane === 0;
 console.log(cisto
-  ? `DRUGA-ROTE: cistina 0 + prepovedane 0 + preverba 0 ( ${znanih} hišnih besed ⊢, ${slovarskih} gesel iz Lukovega slovarja ⊢, absolutizem ⚠ ${absolutov} ) — izpis čist, roka more poslati ⊢`
-  : `DRUGA-ROTE: cirilice ${cirilice} + prepovedane ${prepovedane} + slovnicnih zadetkov ${ran} ( ${znanih} hišnih besed ⊢, ${slovarskih} gesel iz Lukovega slovarja ⊢, absolutizem ⚠ ${absolutov} ) — preberi vsakega kakor tujec, nekatere so lažni, ostale popravi ×`);
+  ? `DRUGA-ROKA: cistina 0 + prepovedane 0 + preverba 0 ( ${znanih} hišnih besed ⊢, ${slovarskih} gesel iz Lukovega slovarja ⊢, absolutizem ⚠ ${absolutov} ) — izpis čist, roka more poslati ⊢`
+  : `DRUGA-ROKA: cirilice ${cirilice} + prepovedane ${prepovedane} + slovnicnih zadetkov ${ran} ( ${znanih} hišnih besed ⊢, ${slovarskih} gesel iz Lukovega slovarja ⊢, absolutizem ⚠ ${absolutov} ) — preberi vsakega kakor tujec, nekatere so lažni, ostale popravi ×`);
 process.exit(cisto ? 0 : 1);

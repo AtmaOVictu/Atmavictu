@@ -698,6 +698,9 @@ def gl_nasprotje(args):
 
 REZERVACIJE = "lucius/rezervacije.jsonl"
 
+VERIGA_REZ_RE = re.compile(r"(?:rez|pečat)\D{0,3}(\d{2,4})(?![0-9A-Za-z])", re.IGNORECASE)
+# ( golgi števec ⊙ PADC @3520: šteje se ⟨le⟩ rez|pečat, ⟨ne⟩ gole števke — velika števila so priče, ne pečati )
+
 
 def _vrh_zivi():
     """( vrh, priča ) — živi vrh: lokal ∧ ⟨main⟩ ∧ VERIGA ( komitna sporočila nosijo reze ⊢ §0.10 ) ⊙ ⟨ne-ugibaj⟩."""
@@ -710,7 +713,7 @@ def _vrh_zivi():
                        capture_output=True, text=True, encoding="utf-8", errors="replace")
     veriga = -1
     for vrst in (r.stdout or "").splitlines():
-        for m in re.finditer(r"(?:rez|pečat)\D{0,3}(\d{2,4})(?![0-9A-Za-z])", vrst, re.IGNORECASE):
+        for m in VERIGA_REZ_RE.finditer(vrst):
             veriga = max(veriga, int(m.group(1)))
     if veriga > najvišja:
         najvišja, priča = veriga, f"veriga ( komitno sporočilo )"
@@ -866,6 +869,15 @@ ZDRUŽI_PRIMERI = [  # inverz: mantisa × 10ⁿ -> slovenski zapis
 ]
 
 
+VERIGA_PRIMERI = [  # golgi števec ⊙ PADC @3520: gole števke brez rez|pečat ⟨ne⟩ štejejo nikoli
+    ("rez 3532 IZMERA-VSEH-TELES ⊢", 3532),
+    ("MANIFEST — izmera teles 1.735.520 B ∧ poravnava vrstic ×7", -1),
+    ("rez 2173 MANIFEST — 1.735.520 B", 2173),
+    ("rezervacija 5000 brez pečata", -1),
+    ("pečat 3530 → predhodnik ⊢", 3530),
+]
+
+
 def _prehod():
     """PREHOD — vsak ukaz enkrat ( zdravilo padca 39 kot zakon: def se ne pogrne več tiho ) ⊙.
     Vrne seznam padcev ( ime, napaka ); stdout vsakega ukaza se ujame, ne onesnaži zaslona."""
@@ -946,7 +958,16 @@ def gl_test(_args):
         else:
             padci += 1
             print(f"× [{ime}]\n  pričakovano: {pričakovano}\n  dobljeno:    {dobljeno}")
-    skupaj = len(PRIMERI) + len(ZDRUŽI_PRIMERI) + len(fips)
+    for telo, pričakovano in VERIGA_PRIMERI:
+        najden = -1
+        for m in VERIGA_REZ_RE.finditer(telo):
+            najden = max(najden, int(m.group(1)))
+        if najden == pričakovano:
+            print(f"∧ [veriga] {telo!r} -> {najden}")
+        else:
+            padci += 1
+            print(f"× [veriga] {telo!r}\n  pričakovano: {pričakovano!r}\n  dobljeno:    {najden!r}")
+    skupaj = len(PRIMERI) + len(ZDRUŽI_PRIMERI) + len(fips) + len(VERIGA_PRIMERI)
     for telo, pričakovano in PRIMERI:
         ECHO.clear()
         dobljeno = fragmentiraj_vrstico(telo + "\n").rstrip("\n")
