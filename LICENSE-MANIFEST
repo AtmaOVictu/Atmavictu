@@ -1,14 +1,14 @@
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1420 × 10⁴",
+  "version": "0.1430 × 10⁴",
   "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
   "measured_at_date": "0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴",
-  "measured_against": "LICENSE.md version 0.1420 × 10⁴ — living door, born readable (§0.33 × 10²); manifest re-issued in the same breath as the birth (rez σ 3408) ⊙ §0.10 × 10²; re-measured ∧ re-issued over the published byte stream (LF blobs of the chain — .gitattributes text=auto) this breath: the fall ⟨PADC-MANIFEST-DVOJEDNO⟩ (PADC-66) — the first issuance hashed the CRLF working tree while the chain publishes LF — named ∧ cured the same breath, scar kept",
+  "measured_against": "LICENSE.md version 0.1430 × 10⁴ — living door, born readable (§0.33 × 10²); manifest re-measured ∧ re-issued in the same breath as the birth 0.1430 (telo predhodnika 0.1420 objavljeno s (a)–(d) ⊙ §0.14 × 10²) over the published byte stream (LF blobs of the chain — .gitattributes text=auto) ⊙ §0.10 × 10² ∧ PADC-66",
   "items": [
     {
       "path": "LICENSE.md",
-      "size_bytes": 153835,
-      "sha256": "d3adda1775d14831c9c5fee328c6fd22b08c0ffbcf0880ec1d13ffcee13b0690",
+      "size_bytes": 155829,
+      "sha256": "b293078c15e339b1e1ef851992029751a9af4ea1e87b36324e8832bd57aac4e7",
       "note": "the living door — the only body whose hash changes only by issuance (§0.10 × 10²)"
     },
     {
@@ -268,9 +268,10 @@
       "LICENSE-0.1250-BIN-PRIČA.md",
       "LICENSE-0.1220.bin",
       "LICENSE-0.1190.bin",
-      "LICENSE-10.0.0.bin"
+      "LICENSE-10.0.0.bin",
+      "LICENSE-0.1420.b64"
     ],
-    "reason": "predecessor binary bodies — carried as evidence, carry no grant (§0.14 × 10², §0.10 × 10²)"
+    "reason": "predecessor binary bodies — carried as evidence, carry no grant (§0.14 × 10², §0.10 × 10²); LICENSE-0.1420.b64 rides in the house of bodies (CanvasMinstral — as 0.1350 before it), born with the birth 0.1430"
   },
   "registers_not_hash_listed": {
     "files": [
