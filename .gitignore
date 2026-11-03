@@ -78,3 +78,4 @@ lucius/.a1-*.txt
 !.markdownlint.json
 !.vscode/
 !.vscode/settings.json
+__pycache__/
