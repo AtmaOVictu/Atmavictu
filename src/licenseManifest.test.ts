@@ -188,3 +188,25 @@ test("historical language readings are labeled as abridged, not complete transla
     );
   }
 });
+
+test("cross-repository draft inventory distinguishes copies from a released license", async () => {
+  const tonguesText = await readFile(
+    new URL("../../LICENSE-TONGUES.md", import.meta.url),
+    "utf8",
+  );
+  const draftStatus = tonguesText.split(
+    "## Cross-repository release status measured 2026-11-03",
+    2,
+  )[1];
+
+  assert.ok(draftStatus, "cross-repository release status must be documented");
+  assert.match(draftStatus, /Atmavictu\/main.+VBL 0\.1410/u);
+  assert.match(draftStatus, /scan of all 53 organization repositories found 19 readable/u);
+  assert.match(draftStatus, /fourteen repositories carry an older VBL 0\.1300/u);
+  assert.match(draftStatus, /106,427 bytes/u);
+  assert.match(draftStatus, /33 had no readable file/u);
+  assert.match(draftStatus, /DRAFT · NOT RELEASED/u);
+  assert.match(draftStatus, /52,169 bytes/u);
+  assert.match(draftStatus, /SHA-256 `dac171ccf3d526b82a16ca28462002cc05c5d8b46e4d3dadfb1e3ace7e171d60`/u);
+  assert.match(draftStatus, /Identical copies prove byte identity.+not release/u);
+});

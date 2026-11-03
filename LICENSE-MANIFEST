@@ -3,7 +3,7 @@
   "version": "0.1420 × 10⁴",
   "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
   "measured_at_date": "2026-11-03",
-  "measured_against": "Bytes measured from the 0.1420 × 10⁴ branch worktree based on HEAD 87697ee, before its publication commit; listed files remeasured on 2026-11-03. Publication status is determined by the LICENSE.md source history.",
+  "measured_against": "Bytes measured from the 0.1420 × 10⁴ branch worktree based on HEAD 1526668, before its publication commit; listed files remeasured on 2026-11-03. Publication status is determined by the LICENSE.md source history.",
   "items": [
     {
       "path": "LICENSE.md",
@@ -37,8 +37,8 @@
     },
     {
       "path": "LICENSE-TONGUES.md",
-      "size_bytes": 39664,
-      "sha256": "22bf31f1caf08bc3ca33a7f7102a10a15dca48bc3cfac95d8a8cc53fb0cdd50d",
+      "size_bytes": 42537,
+      "sha256": "1cd1c196b4f8f28dce489f75bb89a011919f584749bfc7d373db9934662ce079",
       "note": "face — the register of all alphabets ⊙ ⟨NENEHNO-ABECEDAJ⟩; a witness, never a door (§0.19 × 10², §0.33 × 10²)"
     },
     {
