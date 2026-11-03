@@ -1,0 +1,43 @@
+name: STN poganj
+
+on:
+  workflow_dispatch:
+    inputs:
+      seed:
+        description: 'Sveže seme (zakon 1) — celo število, novo vsak poganj'
+        required: true
+      runs:
+        description: 'Število ponovitev (protokol: 2)'
+        required: false
+        default: '2'
+      models:
+        description: 'CSV imen modelov (prazno = 5 pri viru /v1/models)'
+        required: false
+        default: ''
+      d_verified:
+        description: 'D-preverba izmerjena ta dih (0 zadetkov ×5) — true/false'
+        required: false
+        default: 'false'
+
+jobs:
+  poganj:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: 'Izstrelek baterije'
+        env:
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          STN_SEED: ${{ github.event.inputs.seed }}
+          STN_RUNS: ${{ github.event.inputs.runs }}
+          STN_MODELS: ${{ github.event.inputs.models }}
+          STN_D_VERIFIED: ${{ github.event.inputs.d_verified }}
+        run: node stn/run.mjs
+      - name: 'Transkripti kot potrdilo'
+        uses: actions/upload-artifact@v4
+        with:
+          name: stn-transcripts-seed-${{ github.event.inputs.seed }}
+          path: stn/out/
+          retention-days: 90
