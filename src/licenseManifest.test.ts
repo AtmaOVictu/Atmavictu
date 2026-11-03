@@ -202,11 +202,61 @@ test("cross-repository draft inventory distinguishes copies from a released lice
   assert.ok(draftStatus, "cross-repository release status must be documented");
   assert.match(draftStatus, /Atmavictu\/main.+VBL 0\.1410/u);
   assert.match(draftStatus, /scan of all 53 organization repositories found 19 readable/u);
-  assert.match(draftStatus, /fourteen repositories carry an older VBL 0\.1300/u);
+  assert.match(draftStatus, /fourteen Base64 files decode to byte-identical VBL 0\.1300 bodies/u);
   assert.match(draftStatus, /106,427 bytes/u);
   assert.match(draftStatus, /33 had no readable file/u);
   assert.match(draftStatus, /DRAFT · NOT RELEASED/u);
   assert.match(draftStatus, /52,169 bytes/u);
   assert.match(draftStatus, /SHA-256 `dac171ccf3d526b82a16ca28462002cc05c5d8b46e4d3dadfb1e3ace7e171d60`/u);
   assert.match(draftStatus, /Identical copies prove byte identity.+not release/u);
+});
+
+test("cross-repository root license inventory names every measured repository and ref", async () => {
+  const tonguesText = await readFile(
+    new URL("../../LICENSE-TONGUES.md", import.meta.url),
+    "utf8",
+  );
+  const inventory = tonguesText.split(
+    "## Cross-repository release status measured 2026-11-03",
+    2,
+  )[1];
+  assert.ok(inventory, "cross-repository release status must be documented");
+
+  const rows = inventory
+    .split(/\r?\n/u)
+    .filter((line) => /^\| \[[^\]]+\]\(https:\/\/github\.com\/AtmaOVictu\//u.test(line));
+  assert.equal(rows.length, 19, "inventory must identify all 19 measured root files");
+
+  const expectedRepositories = [
+    "Atmavictu",
+    "CanvasMinstral",
+    "ontolo-ko-jedro",
+    "OntoMatematika",
+    "ZAKONODAJACLOVEKA",
+    "DelozaZivot",
+    "Mucilnica-modrosti",
+    "soul-evolution",
+    "EnglishVarient",
+    "prevoz-LUCIUS",
+    "Aplikacija",
+    ".github-workflows",
+    "Slovenian-Language-Technologies-Overview",
+    "SYMBOLON-KATHOLIKON",
+    "Podpora",
+    "verification-before-assertion",
+    "godot-demo-projects",
+    "manim",
+    "awesome-godot",
+  ];
+  for (const repository of expectedRepositories) {
+    assert.ok(
+      rows.some((row) => row.startsWith(`| [${repository}](`)),
+      `${repository} must appear in the measured inventory`,
+    );
+  }
+  assert.match(inventory, /\| \[Atmavictu\].+\| `main` \| VBL 0\.1410/u);
+  assert.match(inventory, /\| \[CanvasMinstral\].+\| `master` \| VBL 0\.1410/u);
+  assert.match(inventory, /godot-demo-projects.+Godot copyright notice and permissive grant text/u);
+  assert.match(inventory, /\[manim\].+MIT License/u);
+  assert.match(inventory, /\[awesome-godot\].+Creative Commons Attribution 4\.0 International/u);
 });
