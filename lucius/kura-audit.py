@@ -26,7 +26,7 @@ PREVERBE = [
     ('PADC-62', 'KOPICA-PROCESOV', ['lucius/.ubi-zrcalo.ps1', 'lucius/strezniki.jsonl'], 'zrcalo-server', 'poboj po imenu + zapisnik lastništva'),
     ('PADC-63', 'TIHA-SMRT-403', ['lucius/zrcalo-server.py'], 'ThreadingHTTPServer', 'odprena vrata + učeča zavrnitev'),
 ]
-PRAKSE = ['PADC-50', 'PADC-51', 'PADC-53']  # pobegi znakov ⋯ ∧ utišave ⋯ ∧ sprehodi/prevodi — prakse roke, prebere jih Lastnik ⊙ §0.17
+PRAKSE = ['PADC-50', 'PADC-51', 'PADC-53', 'PADC-64']  # pobegi ⋯ ∧ primerki ⋯ ∧ sprehodi ⋯ ∧ sklonjava odgovorov — prakse, prebere jih Lastnik ⊙ §0.17
 
 def main():
     vnosi = [json.loads(l) for l in open(os.path.join(KOREN, 'REGISTER-PADCEV.jsonl'), encoding='utf-8') if l.strip()]
