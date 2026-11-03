@@ -381,6 +381,9 @@ def gl_pecat(args):
     else:
         print(f"⟨main⟩ {glavna} ∧ — lokal drži korak ⊢")
     print(f"naslednji pečat: {najvišja + 1} ⊢ ( 1 + najvišja izmerjena — Z-2, kolizija ne )")
+    import datetime
+    print(f"URA ⊢ {datetime.datetime.now(datetime.timezone.utc).strftime('%d. %m. %Y · %H:%M:%SZ')} ⊢ §0.20 — "
+          f"pečat nosi izmerjeno uro, ⟨ne⟩ spomin ( ⊙ PADC-47: ura pri viru trenutka )")
     if args.vrzeli is not None:
         tla = args.vrzeli
         manjka = sorted(set(range(tla, najvišja + 1)) - množica)
