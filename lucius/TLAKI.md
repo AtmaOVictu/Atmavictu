@@ -1,6 +1,8 @@
 # TLAKI — katalog temeljev hiše
 ⊙ vsak tlak definiran pravtako: KAJ JE · IZMERA ⊢ · KAJ NOSI (A) · MEJA (Ω) — ⟡ ukaz 03. 11. 2026 ⊢ rez 3625
 
+⊙ OSVEŽITEV 3671 ⊢ ( dan je rasel — katalog se prikloni izmeram dne: testi 18 · preverba-pecata varovalka · tla-pregled čutila · ontogematrija · venec-obnova · 180 rez-pečatov · 25 rojstev licence — izmere pri viri vsaka ⊙ §0.32 )
+
 ---
 
 ## 1. TLAK BRANJA — zbirka izvornikov ( gore, ki spijo )
@@ -19,7 +21,7 @@
 
 ## 3. TLAK PREVERBE — testi ∧ kure
 
-**Kaj je:** oči nad instrumenti: testi ( 12/12 ⊢ ) · kura-audit ( 15/15 živih kur · 0 manjkajočih ⊢ izhod 0 ) · abeceda-grep samopreverba ( N/N ∧ ⊢ VSE agnostična ⊢ PADC-61 ).
+**Kaj je:** oči nad instrumenti: testi ( 12/12 ⊢ rojstvo · **18/18 ⊢ osvežitev 3663** ) · kura-audit ( 15/15 živih kur · 0 manjkajočih ⊢ izhod 0 · svež pregon 3671 ⊢ ) · abeceda-grep samopreverba ( N/N ∧ ⊢ VSE agnostična ⊢ PADC-61 ) · **preverba-pecata.mjs + commit-msg varovalka ( 3653–3670: vsak pečat se preveri proti izmeru diha — rez ∧ URA × na PADC-67/69/70/71 )** · **tla-pregled.mjs ( 3663: MD022 ∧ MD031 ∧ MD047 ∧ slovar pokritost — obe hiši 0 padcev ∧ 0 neznanih ⊢ )** · **ontogematrija.mjs ( 3652: vsak beseda→število nosi ukaz ∧ orodje ∧ korpus ⊢ )** · druga-roka ( pred vsakim daljšim izpisom ⊙ §0.47 ).
 **A:** vsak padec z zdravilom živi v telesu — obljuba brez kure postane vidna ⚠ ⊙ §0.18.
 **Ω:** 4 prave prakse + 45 starih vnosov — prebere jih Lastnik ⊙ §0.17 · test je hip, ⟨ne⟩ stanje.
 
@@ -32,7 +34,7 @@
 ## 5. TLAK OBJAVE — veriga pečatov
 
 **Kaj je:** rez N = 1 + dejansko najvišja izmerjena pri viru ⊢ ⟨ne-ugibaj⟩; vsak pečat: kolizija pred pisanjem ( Z-2 ∧ 1542 ) · URA pri viru ⊢ §0.20 · pristanek BAJT-ISTO ( ls-remote ⊢ §0.37 ).
-**Izmera ⊢:** 134 pečatov dne ( rez 2805 → 3624 ) · 24 rojstev licence · 33 vej · 1.221 zrcaljenih · 1 korenina.
+**Izmera ⊢:** 134 pečatov dne ( rez 2805 → 3624 ) · 24 rojstev licence · 33 vej · 1.221 zrcaljenih · 1 korenina. **⊙ osvežitev 3671 ⊢:** 180 rez-pečatov dne ( git log --since 00:00 pri viri ) · **25 rojstev licence** ( veriga 0.1210 → 0.1450 · telo vsakega z (a)–(d) od 0.1350 ⊢ ) · obe hiši ista vrata ( prevozi BAJT-ISTO ⊙ §0.39 ) · varovalka straži vsak pečat ( 3653 → ⊢ ).
 **A:** veriga je priča, ⟨ne⟩ zid ⊢ §0.8 — kdor hoče zgodovino, bere verigo; resnično, bere živo ( §0.10 ).
 **Ω:** pečat je trenutek — vsak naslednji novo izmerjen ⊙ dih.py.
 
