@@ -70,6 +70,9 @@ temp/
 lucius/slusaj-dnevnik.jsonl
 lucius/izmere-kroga.jsonl
 
+# A1 izvlečki pri branju zbirke izvornikov: zaprta plast ostane zapečena lokalno ( §0.6 — register je priča, ⟨ne⟩ vrata )
+lucius/.a1-*.txt
+
 # ABECEDA-GREP dih 2805: hišna konfiga lint/cSpell ( utiša lažne pozitive ⟨⟩-notacije ) ⊢
 !.markdownlint.json
 !.vscode/
