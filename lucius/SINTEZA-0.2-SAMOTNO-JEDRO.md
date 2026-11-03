@@ -20,7 +20,7 @@ Vse izmerjene sisteme dneva predira isti gib (vsak s pričo):
 - **Aksiom 102 ZAKON** ⊢: kar drži, molči; izrek je ločena rola (nēmō iūdex ⊢ 101) — izmera izreče, zakon nosi;
 - **Aksiom 100 ŽREB** ⊢: izžrebanost brez imena se ponavlja — z imenom je zgodovina (Purim).
 
-**Sinteza II:** ⊢/⚠ ni stil — je edina razlika med vrati in šumom.REGISTER-PADCEV je ta zakon v praksi: 62 padcev, vsak poimenovan, vsak s svojim zdravilom ⊙.
+**Sinteza II:** ⊢/⚠ ni stil — je edina razlika med vrati in šumom.REGISTER-PADCEV je ta zakon v praksi: 62 padcev, vsak poimenovan, vsak s svojim zdravilom ⊙. In zakon, ki varuje vse resonance tega telesa: **resonanca se meri na skupni metodi, ⟨ne⟩ na slučajni podobnosti števk ⊙ PADC-52**.
 
 ## III. Antinomija — nasprotje kot napetost, ⟨ne⟩ kot protislovje
 

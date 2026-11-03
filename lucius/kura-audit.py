@@ -10,9 +10,15 @@ def beri(pot):
     return open(os.path.join(KOREN, pot), encoding='utf-8', errors='replace').read()
 
 PREVERBE = [
+    ('PADC-46', 'ZASTARELA-TRDITEV', ['lucius/abeceda-grep.py'], 'ls-remote', 'pristanek prebere pri viru — zastareli pečat razkrit ob vsakem trku ⊢ §0.37'),
+    ('PADC-47', 'URA-IZ-SPOMINA', ['lucius/dih.py'], 'git', 'ura ∧ dih se merita pri viru ( dih.py meri rez iz git log, ⟨ne⟩ spomin ) ⊢ §0.20'),
+    ('PADC-48', 'KAŽE-V-DATOTEKO-KI-JE-NI', ['lucius/abeceda-grep.py'], 'VERIGA_PRIMERI', 'testi golgega števca rodili ob padcu'),
+    ('PADC-49', 'PIKA-TISOČIC', ['lucius/abeceda-grep.py'], 'fragmentiraj_vrstico', 'instrument meri celoto — fragmentiraj obvlada piko tisočic'),
+    ('PADC-52', 'LAŽNA-RESONANCA', ['lucius/SINTEZA-0.2-SAMOTNO-JEDRO.md'], 'PADC-52', 'zakon resonance-na-metodi nošen v telesu hiše'),
     ('PADC-54', 'LASTNA-DUŠILKA', ['lucius/abeceda-grep.py'], 'Σ grep:', 'Σ-priča (stderr) živi v instrumentu'),
     ('PADC-55', 'IMENA-MASKIRAJO', ['lucius/abeceda-grep.py'], 'maskira', 'opozorilo maskiranja imen živi'),
     ('PADC-56', 'AVTODETEKCIJA-PODREDA', ['lucius/abeceda-grep.py'], 'b64', 'b64 ukaz živi (vrstni red preveri preizkus)'),
+    ('PADC-57', 'KRAJ-⊥-POT', ['lucius/REGISTER-A1-PDF.jsonl'], 'D:/GitD', 'izvirniki ostanejo pri viru ( poti v registru kažejo na izvor ) ⊢ §0.6'),
     ('PADC-58', 'ODREZANA-PRIČA', ['lucius/abeceda-grep.py'], 'ranjeni_imena', 'povzetek PREVERBA imenuje ranjene'),
     ('PADC-59', 'BREZ-DRUGE-ROKE', ['lucius/znane-besede.txt', 'lucius/druga-roka.mjs'], '⊢', 'dovoljenica znakov v leksikonu ∧ druga roka prebere'),
     ('PADC-60', 'NEPOLN-POPIS', ['lucius/popis-zbirke.py'], 'MistralUpload', 'celoten seznam map (33) v popisu'),
@@ -20,8 +26,7 @@ PREVERBE = [
     ('PADC-62', 'KOPICA-PROCESOV', ['lucius/.ubi-zrcalo.ps1', 'lucius/strezniki.jsonl'], 'zrcalo-server', 'poboj po imenu + zapisnik lastništva'),
     ('PADC-63', 'TIHA-SMRT-403', ['lucius/zrcalo-server.py'], 'ThreadingHTTPServer', 'odprena vrata + učeča zavrnitev'),
 ]
-PRAKSE = ['PADC-46', 'PADC-47', 'PADC-48', 'PADC-49', 'PADC-50', 'PADC-51', 'PADC-52',
-          'PADC-53', 'PADC-57']  # prakse roke/spomina — stroj jih ⟨ne⟩ more preveriti ⭢ Lastnik
+PRAKSE = ['PADC-50', 'PADC-51', 'PADC-53']  # pobegi znakov ⋯ ∧ utišave ⋯ ∧ sprehodi/prevodi — prakse roke, prebere jih Lastnik ⊙ §0.17
 
 def main():
     vnosi = [json.loads(l) for l in open(os.path.join(KOREN, 'REGISTER-PADCEV.jsonl'), encoding='utf-8') if l.strip()]
