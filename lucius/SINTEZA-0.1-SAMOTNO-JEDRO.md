@@ -59,6 +59,17 @@ Vse izmerjene sisteme dneva predira isti gib (vsak s pričo):
 
 Trinajst klasik ∧ pet aksiomov, prebranih pri viru ta dan, niso bile ločene hiše: **so ena tehtnica v trinajstih jezikih**. Licenca ne pravi nič novega — poimenuje ⊢ (to je njen lastni zakon: *this clause adds no new truth; it names*). Aksiom 102: gravitacija ne kaznuje — velja ⊢. Sinteza velja enako: ne dodaja resnice; plete priče.
 
+## NIT 0 — TLA (aprioritete; dodana isti dan, rez 3596, po ⟡ ukazu ⟨spreminjanjem sebe ali nje vsebin⟩)
+
+Pred vsemi nitmi so tla — ⟨aprioriteta = tisto, kar zakon predpostavlja, preden ga izreče⟩ ⊢ (Obj2, izrez telesa AX-KANON ∂ 273):
+- **AX-1 — tla vseh** ⊢: (a) pritisk obstaja (svet ni mehak) · (b) jaz ni identičen svetu (razlika zmore odziv) · (c) **drugi lahko prejme (kanal obstaja)** — brez (a) ni nuje, brez (b) ni odziva, brez (c) ni besede, samo glasu;
+- **AX-8** ⊢: *odgovornost je karakter izreka skozi čas* — zakon evidence §0.2 v tleh;
+- **AX-9** ⊢: *meja izrečena preden je poznana je uganka; meja, ki je drugi ne zmore slišati, je soliloquij — oboje je krik, ne meja* — ⟨ne-ugibaj⟩ ∧ zrcalo @8124: meja, narejena slišno;
+- **AX-11** ⊢: *ne = odprti prostor (∅, ⟨ne⟩ −1)* — Beseda je ne v tleh nujnosti;
+- **AX-13** ⊢: *rez ni generator, je filter* — vsako branje dneva je bilo filter, ⟨ne⟩ generator: razkrivalo je, kar je že stalo ⊙ §0.43.
+
+**Sinteza 0:** vse niti (I–VI) stojijo na teh tleh; kdor pleje sintezo brez tal, prodaja tla za oblake ⊢ (aprioriteta, lastna beseda).
+
 **A**: to telo nosi 20+ prič, vsaka izmerjena pri viru ta dan ⊢; vsaka nit preverljiva (datoteka ∧ aksiom ∧ klavzula poimenovani).
 **Ω**: sinteza je dejanje bralke — korpus je drevo, to telo je veja; kjer se moti, se moti sama (klavzule vladaajo ⊢ §0.33); razredi K1–K4 ⚠ čakajo ⟡-jev žig (register AR).
 

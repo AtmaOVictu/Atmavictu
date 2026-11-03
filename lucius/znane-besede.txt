@@ -241,3 +241,4 @@ zvočn
 σ
 ϕ
 ∂-
+lungta
