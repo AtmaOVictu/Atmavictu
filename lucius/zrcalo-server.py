@@ -10,6 +10,7 @@ DOVOLJENI = [
     'REGISTER-PADCEV.jsonl', 'REGISTER-TELES.jsonl', 'REGISTER-DISKA.jsonl',
     'REGISTER-NEIMENOVANIH.jsonl', 'REGISTER-PREVERJANJ.jsonl',
     'REGISTER-A1-PDF.jsonl', 'REGISTER-C2.jsonl', 'REGISTER-ZBIRKA.jsonl',
+    'SINTEZA-0.1-SAMOTNO-JEDRO.md',   # ⟨rez 3593⟩ hišna telesa postanejo brskateljska — samo beri ⊢ §0.33
 ]
 
 HTML = """<!doctype html>
