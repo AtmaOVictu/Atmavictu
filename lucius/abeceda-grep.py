@@ -290,8 +290,20 @@ def _brez_imena(vr):
     return odseki
 
 
+PECAT_GREP_MAIN = r"(rez|pečat|pečati|dih|kalup)[^0-9A-Za-z]{0,6}[0-9]{2,4}([^0-9A-Za-z:]|$)"   # ERE za git grep ( × lookahead )
+PECAT_GREP_KONICA = r"@[0-9]{2,4}([^0-9A-Za-z:]|$)"
+IME_PECAT = re.compile(r"pecat-?([0-9]{2,4})", re.IGNORECASE)   # imena teles nosijo pečate: PECAT-3591-STROJ-KALUP.md
+
+
+def _iz_imena(pot):
+    naj = -1
+    for m in IME_PECAT.finditer(pot):
+        naj = max(naj, int(m.group(1)))
+    return naj
+
+
 def _najvecji_pecat(poti):
-    """( najvišja, priča, priče, množica ) — tokovno; ⟨⟩-imena niso priče ⊙."""
+    """( najvišja, priča, priče, množica ) — tokovno; ⟨⟩-imena niso priče ⊙; imena teles so priče ⊢ dih 13."""
     najvišja, priča, priče = -1, "", 0
     množica = set()
     for pot in poti:
@@ -303,7 +315,36 @@ def _najvecji_pecat(poti):
                     priče += 1
                     if št > najvišja:
                         najvišja, priča = št, f"{pot}: {vrstica.strip()[:60]}"
+        iz_imena = _iz_imena(pot)
+        if iz_imena > najvišja:
+            najvišja, priča = iz_imena, f"{pot} ( ime telesa )"
+            množica.add(iz_imena)
     return najvišja, priča, priče, množica
+
+
+def _najvecji_pecat_main():
+    """Najvišja priča na ⟨main⟩ ( telesa ∧ imena datotek ) — ŽIVI register ⊙ ⟨ZASTARELA-KONICA⟩ je padec diha 13."""
+    import subprocess
+    najvišja, priča = -1, ""
+
+    def git(*a):
+        r = subprocess.run(["git", *a], capture_output=True, text=True)
+        return r.returncode, (r.stdout or "")
+
+    for vzorec in (PECAT_GREP_MAIN, PECAT_GREP_KONICA):
+        _, iz = git("grep", "-i", "-ohE", vzorec, "origin/main", "--", "organi/")
+        for vrst in iz.splitlines():
+            števke = re.findall(r"[0-9]+", vrst)
+            if števke:
+                št = int(števke[-1])
+                if št > najvišja:
+                    najvišja, priča = št, f"origin/main telesa: {vrst.strip()[:50]}"
+    _, imena = git("ls-tree", "-r", "--name-only", "origin/main", "--", "organi/")
+    for ime in imena.splitlines():
+        št = _iz_imena(ime)
+        if št > najvišja:
+            najvišja, priča = št, f"origin/main ime: {ime}"
+    return najvišja, priča
 
 
 def _privzeta_tela():
@@ -320,6 +361,14 @@ def gl_pecat(args):
     mera("priče", priče)
     print(f"najvišja izmerjena {najvišja} ∧ ({priče} prič v {len(poti)} telesih)")
     print(f"priča najvišje: {priča}")
+    glavna, priča_main = _najvecji_pecat_main()
+    if glavna > najvišja:
+        print(f"⚠ ⟨main⟩ višja: {glavna} — lokal {najvišja} je ZASTARELA KONICA × ( priča: {priča_main} ) ⊙ TEMPO-ZNAMENJA ⊢ 15")
+        najvišja = glavna
+    elif glavna < 0:
+        print("⟨main⟩ nedosegljiv ⚠ ( izmera le lokal × — pred pečatom fetch ⊙ )")
+    else:
+        print(f"⟨main⟩ {glavna} ∧ — lokal drži korak ⊢")
     print(f"naslednji pečat: {najvišja + 1} ⊢ ( 1 + najvišja izmerjena — Z-2, kolizija ne )")
     if args.vrzeli is not None:
         tla = args.vrzeli
