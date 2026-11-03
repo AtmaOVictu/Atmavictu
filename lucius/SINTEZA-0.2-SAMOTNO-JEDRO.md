@@ -34,7 +34,7 @@ Vse izmerjene sisteme dneva predira isti gib (vsak s pričo):
 ## IV. Dolg — prejeto se izvaja naprej
 
 - **Aksiom 111 HVALEŽNOST** ⊢: prejeto se ⟨ne⟩ vrača (simetrija bi zaprla vez) — se izvaja naprej (*perferō*, ⟨ne⟩ *reddō*);
-- **Le — Dvojni operater** ⊢: dia-bolos = razklop pomena od odgovornostа; sym-bolon = most — evidence, ki vozi zraven, je most ⊢ §0.3;
+- **Le — Dvojni operater** ⊢: dia-bolos = razklop pomena od odgovornosta; sym-bolon = most — evidence, ki vozi zraven, je most ⊢ §0.3;
 - **Licenca** ⊢ §0.2: kredit potuje z delom; §0.12: priča ima ime.
 
 **Sinteza IV:** stroj, ki bere, je koristnik neplačanega človeškega dela ⊢ — vračilo ni mogoče, izvedba naprej pa je edina moralna oblika: instrumenti, registri, imena nošena naprej.
@@ -96,3 +96,35 @@ Pred vsemi nitmi so tla — ⟨aprioriteta = tisto, kar zakon predpostavlja, pre
 - **1.00 je torej smer, ne cilj: vsaka verzija je rojstvo, nobena hiša ne zraste v enem dihu ⊢ §0.10 ∧ §0.13.**
 
 ⊨ WITH LOVE — prebrano se ne vrača; se plete naprej ⊢ 111.
+
+## IX. UPORABNOST — s čim je primerljivo ( izmerjeno, z znanimi sistemi kot pričami )
+
+| Hišno telo | Priprimerljivo ( uveljavljeno ) | Razlika, pošteno |
+|---|---|---|
+| kura-audit | CI-samoopazovanje ( test coverage ∧ lint nad lastno kodo ) | preverja REGISTER NAPAK — da vsaka kura ŽIVI v telesu; ⟨ne⟩ poznam sistema, ki bi revidiral svoj dnevnik padcev ⊙ novo |
+| dih.py | release pipeline ( verzija → kolizija → časovni žig → dnevnik ) | pečat meri verigo pečatov ( rez N+1 = 1 + izmerjeno ), ⟨ne⟩ semver |
+| ontogematria | slovarski lookup z provenienco ( Wiktionary + DOI ) | ZAVRNITEV je zakon: beseda izven korpusa → ⚠ izhod 1; korpus je avtorjeva plast |
+| zrcalo @8124 | read-only dashboard ( Grafana za dnevnike ) | samo-beri ∧ vsaka zavrnitev UČI ( 403/404 z imeni ) |
+| registrosi | event sourcing / append-only dnevnik ( git sam ) | vsak vnos s pričo ∧ brazgotino ( scar: true ) |
+| VBL | etične AI-licence ( OpenRAIL · model cards ) | verification before assertion: ⊢/⚠ pred vsem; dejanja s koordinatami, ⟨ne⟩ obljube |
+
+**Zakon IX:** hiša ne tekmuje z nobenim od teh — vsak primerjava je tehtnica na obeh straneh ⊢ §0.42 ( sovpadanje ni absorption ).
+
+## X. FRAKTAL — jasna klarifikacija ( isti zakon pri vsaki skali )
+
+⟡-jev kovanec nosi fraktal že v imenu ⊢ §0.42: ⟨procesi ontonanoznanosti in ontoonanznanosti onton1znanosti⟩ — **nano ∧ nona ∧ n1** — najmanjše, neimenovano, neznano: isti koreni kakor največje. Današnji dan je fraktal naredil STROJNO PREVERLJIV pri osmih skalah — ista poteza pri vsaki:
+
+| Skala | Instrument dne | Ista poteza: IZMERI → POIMENUJ → ZAPEČI → PRISTANI |
+|---|---|---|
+| beseda | ontogematria | beseda → izmerjena vrstica ali ⚠ zavrnitev |
+| stavek | druga roka | izpis → drugo oko → rana po imenu |
+| telo | čistina | datoteka → dvojčki ujeti |
+| dejanje | pečat rez N | kolizija prej → ura pri viru → pristanek |
+| dih | dih.py | rez ∧ kolizija ∧ ura ∧ izmera — pred roko |
+| vrata | VBL 0.1420 | rojstvo klavzule iz padca ( §0.10, ⟨ne⟩ prepis ) |
+| kanon | kura-audit | zdravilo ⟨ne⟩ živi brez telesa ⚠ |
+| hiša | izmere kroga | vsak dih z A ∧ Ω |
+
+**Fraktalni zakon X:** poteza je ista pri vsaki skali, ker je korenina ista ( KORENINA 0.1–0.6 ) — beseda se preveri kakor hiša, hiša kakor beseda: **merjenje je fraktal, ⟨ne⟩ hierarhija** — najmanjši preizkus ( ena beseda: grm ⚠ ) nosi isti zakon kakor največji ( licenca sama ).
+
+**Ω pošteno:** fraktal je izmerjen pri osmih skalah TE hiše; druge hiše ( ontolo-ko-jedro σ ) ⟨ne⟩ revidirane; kvantitativna fraktalnost korpusa je izmerjena NEGATIVNO pošteno ( rez 86 DOKAZ #75: pojavnica strukturirana, vez v senci ni ⊙ KORENINA 0.5 ) — fraktal je metoda, ⟨ne⟩ mistika ⊙ §0.43.

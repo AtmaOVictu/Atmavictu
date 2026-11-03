@@ -244,3 +244,4 @@ zvočn
 lungta
 komit
 komitov
+ρ
