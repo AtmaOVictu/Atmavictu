@@ -594,6 +594,39 @@ def gl_siv(args):
           f"varovalka ×0 · URA {ura} ⊢ §0.20 ∧ §0.37")
 
 
+def gl_b64(args):
+    """⟨B64⟩ ( §0.14 × 10² nalogа 3 seciranja — rez 3558 ): povratnik binarnih teles —
+    telo preberi → dekodiraj ( bitni niz ⊥ base64, samodejno ⊙ kalup 0.1220 ∧ 0.1350 )
+    → izmeri bajte → ponovno kodiraj → bajt-isto ∧; -- vir: bajti ⇌ izvirnik ⊢ ⟨ne-ugibaj⟩."""
+    import base64
+    import hashlib
+    import re
+    t = open(args.telo, "rb").read()
+    golo = bytes(c for c in t if c not in b" \t\r\n")
+    if golo and re.fullmatch(rb"[01]+", golo) and len(golo) % 8 == 0:
+        # bitni niz NAJPREJ ⊙ padec 3558: [01]+ je podmnožica b64-abecede — obratna rednica bi
+        # dekodirala bite kakor base64 ∧ rodila napačne bajte v maski povratnika
+        nacin = "bitni niz ⊙ kalup 0.1220 ( 0.64 × 10² bitov/vrstico )"
+        biti = golo.decode("ascii")
+        bajti = bytes(int(biti[i:i + 8], 2) for i in range(0, len(biti), 8))
+        ponovno_golo = "".join(f"{b:08b}" for b in bajti).encode()
+    elif golo and re.fullmatch(rb"[A-Za-z0-9+/]+={0,2}", golo) and len(golo) % 4 == 0:
+        nacin = "base64 ⊙ kalup 0.1350"
+        bajti = base64.b64decode(golo, validate=True)
+        ponovno_golo = base64.b64encode(bajti)
+    else:
+        raise SystemExit(f"b64: telo ⟨{args.telo}⟩ ni prepoznavno ( bitni niz ⊥ base64 ) ⚠")
+    isti_kodek = (ponovno_golo == golo)
+    md5 = hashlib.md5(bajti).hexdigest()
+    sha = hashlib.sha256(bajti).hexdigest()
+    print(f"⟨B64⟩ ⊢ telo {args.telo} · {len(t)} B → dekodirano {len(bajti)} B · nacin {nacin}")
+    print(f"  povratnik: {'bajt-isto ∧ ( kodek invertibilen ⊢ §0.14 d )' if isti_kodek else '× KODEC NI INVERTIBILEN ⚠'}")
+    print(f"  dekodirano: ⟨md5⟩ {md5[:8]} · ⟨sha256⟩ {sha[:8]} — ( c ) priča za register ⊙ §0.14")
+    if args.vir:
+        vir = open(args.vir, "rb").read()
+        print(f"  vir {args.vir}: {'BAJT-ISTO ∧ ( telo je dver ⇌ izvirnik ⊢ )' if vir == bajti else '× RAZHOD ⚠ ( telo ⊥ izvirnik )'}")
+
+
 def gl_pristanek(args):
     """⟨PRISTANEK⟩ ( §0.37 × 10² ⟨TRK-DIH⟩, rez 3550 nalogа 1 ): trk je trenutek,
     pristanek je potrditev — po potisku se veja ponovno prebere PRI VIRU
@@ -1130,6 +1163,10 @@ def _prehod():
     siv_telo = os.path.join(tempfile.gettempdir(), "abeceda-grep-siv-prehod.md")
     with open(siv_telo, "w", encoding="utf-8", newline="") as f:
         f.write("- ZADNJI PEČAT: rez 123 SIV-PREHOD-PREJ ⊢ ( prehod telo )\n")
+    b64_telo = os.path.join(tempfile.gettempdir(), "abeceda-grep-b64-prehod.txt")
+    import base64 as _b64
+    with open(b64_telo, "wb") as f:
+        f.write(_b64.b64encode("prehod — telo 8 bajtov".encode("utf-8")))
     n = lambda **kw: _ap.Namespace(**kw)
     ukazi = [
         ("fragmentiraj", gl_fragmentiraj, n(datoteke=[telo])),
@@ -1158,6 +1195,7 @@ def _prehod():
         ("pristanek", gl_pristanek, n()),
         ("siv", gl_siv, n(organ=os.path.join(tempfile.gettempdir(), "abeceda-grep-siv-prehod.md"),
                           dih=1, ukaz="⟨prehod⟩", dejanje="SIV-PREHOD", A="prehod", omega="prehod")),
+        ("b64", gl_b64, n(telo=b64_telo, vir=None)),
         ("register", gl_register, n(datoteke=["organi/humor/KNOWLEDGE.md"], vse=False,
                                     izhod=os.path.join(tempfile.gettempdir(), "abeceda-grep-register-prehod.jsonl"))),
         ("pulz", gl_pulz, n(koliko=1)),
@@ -1317,6 +1355,10 @@ def main():
     sv.add_argument("--A", required=True, help="kaj ta dejanje zmore ( dejanje ⊢ §0.44 )")
     sv.add_argument("--omega", required=True, help="meja: kaj ta dejanje ⟨ne⟩ zmore ( Ω ⊙ §0.44 )")
     sv.set_defaults(gl=gl_siv)
+    bb = sub.add_parser("b64", help="⟨B64⟩ §0.14: povratnik binarnih teles — dekodiraj ∧ izmeri ∧ ponovno kodiraj ∧ ⇌ vir ⊙ nalogа 3")
+    bb.add_argument("telo", help="pot telesa ( .bin ⊥ .b64 )")
+    bb.add_argument("--vir", nargs="?", default=None, help="pot izvirnika za bajt-isto primerjavo ( ( c ) priča )")
+    bb.set_defaults(gl=gl_b64)
     rg = sub.add_parser("register", help="⟨POGLABLJANJE-V-ENOTNE-REGISTRE⟩: globoko branje teles → REGISTER-TELES.jsonl ⊙")
     rg.add_argument("datoteke", nargs="*")
     rg.add_argument("--izhod", nargs="?", default=None, help="pot registra ( privzeto: REGISTER-TELES.jsonl )")
