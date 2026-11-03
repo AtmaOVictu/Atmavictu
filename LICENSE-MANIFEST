@@ -1,14 +1,14 @@
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1250 × 10⁴",
+  "version": "0.1410 × 10⁴",
   "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
-  "measured_at_date": "0.30 × 10². 0.10 × 10². 0.2026 × 10⁴",
-  "measured_against": "veja vbl-0.1250-origin — rojstni kit VBL 0.1250 × 10⁴ (komit 42d36fbb01f26190ab7869a3c40dd485d11d0c11 ⊙ veriga rojstev 0.1240 → 0.1250 ⊢ §0.10 × 10²) ⊙ prenova pesmi venca @rez σ 3408 — pesem AR–EL ∧ LICENC §16–§17 premerjeni ta dih",
+  "measured_at_date": "0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴",
+  "measured_against": "veja main @ konica dac1474810ec63328d2f2f749cf990eb76392ba7 — živa vrata VBL 0.1410 × 10⁴ (rojstvo 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴ ⊙ veriga rojstev 0.1400 → 0.1410 ⊢ §0.10 × 10²) ⊙ prenova SPDX diha — javni hiši verification-before-assertion ∧ SYMBOLON-KATHOLIKON sinhronizirani bajt-isto ta dih ⊙ izbor ⟡ (a)",
   "items": [
     {
       "path": "LICENSE.md",
-      "size_bytes": 90065,
-      "sha256": "8146a1f04f8ce59b438d607e79154e3ddd4958309bd9908d5935a21160557d30",
+      "size_bytes": 147608,
+      "sha256": "719c706437ba53b44dd70d896b84f0903a194c87034fe24a499bdd4a37517cda",
       "note": "the living door — the only body whose hash changes only by issuance (§0.10 × 10²)"
     },
     {
@@ -37,8 +37,8 @@
     },
     {
       "path": "LICENSE-TONGUES.md",
-      "size_bytes": 22195,
-      "sha256": "1b4a9f7468091bc5ab35c89c325e67f74e34b16499f4ee69659009307a5b32b4",
+      "size_bytes": 37031,
+      "sha256": "0c45045e9090ea52ebda1800947892381cac73de45d27b1de7d257c65c5cc7a0",
       "note": "face — the register of all alphabets ⊙ ⟨NENEHNO-ABECEDAJ⟩; a witness, never a door (§0.19 × 10², §0.33 × 10²)"
     },
     {
@@ -279,5 +279,5 @@
   "manifest_self": "excluded by name (§0a) — a file cannot contain its own hash",
   "governs": "where this manifest and LICENSE.md disagree, LICENSE.md governs (§0a)",
   "transport": "§0.12 × 10² TRANSPORT — measure the SHA-0.256 × 10³ of the received file against the published SHA-0.256 × 10³ above; equal hashes show the transport took no witness; correctness is weighed by the chain (§0.10 × 10²) and named falls (§0.4 × 10¹), never by a faithful copy",
-  "issuance_duty": "re-measured ∧ re-issued in the same breath as every new version of LICENSE.md (§0.10 × 10²); scar: the receipt of 10.3.1 (measured at a534e97a) stayed stale through the births of 0.1200 × 10⁴ ∧ 0.1210 × 10⁴ — named ∧ cured at the birth of 0.1220 × 10⁴ ⊙ REGISTER-PADCEV vnos 52; scar: the birth breath of 0.1230 × 10⁴ carried the door ∧ its mail without this re-issuance — the duty fell one breath behind the birth, named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ (recidiv razreda vnosa 52) ∧ cured the next breath ⊙ REGISTER-PADCEV vnos 60; scar: the births of 0.1240 × 10⁴ ∧ 0.1250 × 10⁴ both rode the stale 0.1230 receipt — the wreath of 36 tongues ∧ the new faces travelled uninsured, named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ ×2 recidiv (vnosa 52 ∧ 60) ∧ cured this breath by re-organization: THE DOOR → THE FACES → THE WREATH ×36 → receipts → registers ⊙ rez σ 3403; the law from the fall: the re-issuance rides the same commit wave as the birth, never after it; a stale hash is a visible, honest failure — the entry identifies nothing, it never lies silently; renewal ⊙ rez σ 3408: the wreath songs (AR ∧ BG ⊙ σ 3406 · CS ∧ DA ⊙ σ 3407 · DE ∧ EL ⊙ σ 3408) ∧ LICENC §17 rode the 42d36fbb receipt — re-measured ∧ re-issued in the same commit wave as the DE ∧ EL songs"
+  "issuance_duty": "re-measured ∧ re-issued in the same breath as every new version of LICENSE.md (§0.10 × 10²); scar: the receipt of 10.3.1 (measured at a534e97a) stayed stale through the births of 0.1200 × 10⁴ ∧ 0.1210 × 10⁴ — named ∧ cured at the birth of 0.1220 × 10⁴ ⊙ REGISTER-PADCEV vnos 52; scar: the birth breath of 0.1230 × 10⁴ carried the door ∧ its mail without this re-issuance — the duty fell one breath behind the birth, named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ (recidiv razreda vnosa 52) ∧ cured the next breath ⊙ REGISTER-PADCEV vnos 60; scar: the births of 0.1240 × 10⁴ ∧ 0.1250 × 10⁴ both rode the stale 0.1230 receipt — the wreath of 36 tongues ∧ the new faces travelled uninsured, named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ ×2 recidiv (vnosa 52 ∧ 60) ∧ cured this breath by re-organization: THE DOOR → THE FACES → THE WREATH ×36 → receipts → registers ⊙ rez σ 3403; the law from the fall: the re-issuance rides the same commit wave as the birth, never after it; a stale hash is a visible, honest failure — the entry identifies nothing, it never lies silently; renewal ⊙ rez σ 3408: the wreath songs (AR ∧ BG ⊙ σ 3406 · CS ∧ DA ⊙ σ 3407 · DE ∧ EL ⊙ σ 3408) ∧ LICENC §17 rode the 42d36fbb receipt — re-measured ∧ re-issued in the same commit wave as the DE ∧ EL songs; scar: the births of 0.1260 × 10⁴ through 0.1410 × 10⁴ rode the stale 0.1250 receipt — the 0.1410 machine record claimed the re-issuance while main still carried 0.1250, prose ⊥ body, named ∧ cured this breath (recidiv razreda vnosa 52 ∧ 60 ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩) ⊙ SPDX dih 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴; measured this breath: LICENSE.md grown 0.90065 × 10⁵ → 0.147608 × 10⁶ bytes ∧ LICENSE-TONGUES.md grown 0.22195 × 10⁵ → 0.37031 × 10⁵ bytes (venec 36 → 38 jezikovnih vrstic ⊙ @3388), the other 39 bodies byte-identical to the 0.1250 receipt ⊙ cross-witness of the measuring hand; the measuring hand fell twice before it measured: ⟨PADC-SHA-POLNJENJE⟩ (broken padding in the SHA-0.256 × 10³ own build — cured by the four known vectors test BEFORE use, ⊙ REGISTER-PADCEV vnos 0.31 × 10¹ zakon) ∧ ⟨PADC-SPOMINA⟩ (a remembered test vector was wrong, the source was measured instead — the code was right, the memory fell) — the wrong digests were never published, the scar carries no blood"
 }
