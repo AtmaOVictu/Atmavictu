@@ -224,7 +224,11 @@ test("cross-repository root license inventory names every measured repository an
 
   const rows = inventory
     .split(/\r?\n/u)
-    .filter((line) => /^\| \[[^\]]+\]\(https:\/\/github\.com\/AtmaOVictu\//u.test(line));
+    .filter((line) =>
+      /^\| \[[^\]]+\]\(https:\/\/github\.com\/AtmaOVictu\/[^/]+\/blob\/[^/]+\/LICENSE\.md\)/u.test(
+        line,
+      ),
+    );
   assert.equal(rows.length, 19, "inventory must identify all 19 measured root files");
 
   const parsedRows = rows.map((row) => {
@@ -329,4 +333,56 @@ test("cross-repository root license inventory names every measured repository an
   );
   assert.match(inventory, /VBL 0\.1410 files are byte-identical \(147,608 bytes; SHA-256 `719c706437ba53b44dd70d896b84f0903a194c87034fe24a499bdd4a37517cda`\)/u);
   assert.match(inventory, /VBL 0\.1300 bodies \(106,427 bytes; SHA-256 `66adcc246e2907c7b71c90e7f14ffd0c50a9be73c76dda5529fa653f26d799a9`\)/u);
+});
+
+test("cross-repository draft inventory records each measured repository ref and blob", async () => {
+  const tonguesText = await readFile(
+    new URL("../../LICENSE-TONGUES.md", import.meta.url),
+    "utf8",
+  );
+  const inventory = tonguesText.split(
+    "## Cross-repository release status measured 2026-11-03",
+    2,
+  )[1];
+  assert.ok(inventory, "cross-repository release status must be documented");
+
+  const draftRows = inventory
+    .split(/\r?\n/u)
+    .filter((line) => line.includes("/VBL-10.5.1-KOMPIL-A-DRAFT-NOT-RELEASED.md)"));
+  const expectedDefaultRefs = {
+    Atmavictu: "main",
+    CanvasMinstral: "master",
+    "ontolo-ko-jedro": "main",
+    DelozaZivot: "main",
+    "SYMBOLON-KATHOLIKON": "main",
+    ZAKONODAJACLOVEKA: "main",
+    "verification-before-assertion": "main",
+    "Mucilnica-modrosti": "main",
+    OntoMatematika: "main",
+    "soul-evolution": "master",
+    Aplikacija: "main",
+    "prevoz-LUCIUS": "master",
+    EnglishVarient: "main",
+    ".github-workflows": "main",
+  };
+  assert.equal(draftRows.length, 14, "draft inventory must contain 14 repository rows");
+
+  for (const [repository, expectedRef] of Object.entries(expectedDefaultRefs)) {
+    const row = draftRows.find((candidate) =>
+      candidate.startsWith(`| [${repository}](`),
+    );
+    assert.ok(row, `${repository} must appear in the draft inventory`);
+    const match = row.match(
+      /^\| \[([^\]]+)\]\(https:\/\/github\.com\/AtmaOVictu\/([^/]+)\/blob\/([^/]+)\/([^)]*)\) \| `([^`]+)` \| `([^`]+)` \| `([a-f0-9]{40})` \|$/u,
+    );
+    assert.ok(match, `${repository} draft row must include path and blob evidence`);
+    assert.equal(match[1], repository, "link label must match repository");
+    assert.equal(match[2], repository, "link target must match repository");
+    assert.equal(match[3], expectedRef, `${repository} link must use its measured ref`);
+    assert.equal(match[4], "VBL-10.5.1-KOMPIL-A-DRAFT-NOT-RELEASED.md");
+    assert.equal(match[5], expectedRef, `${repository} declared default ref`);
+    assert.equal(match[6], "VBL-10.5.1-KOMPIL-A-DRAFT-NOT-RELEASED.md");
+    assert.equal(match[7], "12bfaddf1fa471525ede7f99510eb93335cac994");
+  }
+  assert.match(inventory, /52,169 bytes, SHA-256 `dac171ccf3d526b82a16ca28462002cc05c5d8b46e4d3dadfb1e3ace7e171d60`/u);
 });
