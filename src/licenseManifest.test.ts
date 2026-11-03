@@ -227,36 +227,106 @@ test("cross-repository root license inventory names every measured repository an
     .filter((line) => /^\| \[[^\]]+\]\(https:\/\/github\.com\/AtmaOVictu\//u.test(line));
   assert.equal(rows.length, 19, "inventory must identify all 19 measured root files");
 
-  const expectedRepositories = [
-    "Atmavictu",
-    "CanvasMinstral",
-    "ontolo-ko-jedro",
-    "OntoMatematika",
-    "ZAKONODAJACLOVEKA",
-    "DelozaZivot",
-    "Mucilnica-modrosti",
-    "soul-evolution",
-    "EnglishVarient",
-    "prevoz-LUCIUS",
-    "Aplikacija",
-    ".github-workflows",
-    "Slovenian-Language-Technologies-Overview",
-    "SYMBOLON-KATHOLIKON",
-    "Podpora",
-    "verification-before-assertion",
-    "godot-demo-projects",
-    "manim",
-    "awesome-godot",
-  ];
-  for (const repository of expectedRepositories) {
+  const parsedRows = rows.map((row) => {
+    const match = row.match(
+      /^\| \[([^\]]+)\]\(https:\/\/github\.com\/AtmaOVictu\/([^/]+)\/blob\/([^/]+)\/LICENSE\.md\) \| `([^`]+)` \| ([^|]+) \| `([a-f0-9]{40})` \|$/u,
+    );
+    assert.ok(match, `inventory row must have a complete evidence shape: ${row}`);
+    const repository = match[1] ?? "";
+    const slug = match[2] ?? "";
+    const linkedRef = match[3] ?? "";
+    const defaultRef = match[4] ?? "";
+    const classification = (match[5] ?? "").trim();
+    const blob = match[6] ?? "";
+
+    assert.equal(repository, slug, `${repository} link must target its named repository`);
+    assert.equal(linkedRef, defaultRef, `${repository} link ref must match its declared ref`);
+    assert.match(blob, /^[a-f0-9]{40}$/u, `${repository} must have a Git blob ID`);
+
+    return { repository, defaultRef, classification, blob };
+  });
+
+  const expectedDefaultRefs = {
+    Atmavictu: "main",
+    CanvasMinstral: "master",
+    "ontolo-ko-jedro": "main",
+    OntoMatematika: "main",
+    ZAKONODAJACLOVEKA: "main",
+    DelozaZivot: "main",
+    "Mucilnica-modrosti": "main",
+    "soul-evolution": "master",
+    EnglishVarient: "main",
+    "prevoz-LUCIUS": "master",
+    Aplikacija: "main",
+    ".github-workflows": "main",
+    "Slovenian-Language-Technologies-Overview": "main",
+    "SYMBOLON-KATHOLIKON": "main",
+    Podpora: "main",
+    "verification-before-assertion": "main",
+    "godot-demo-projects": "master",
+    manim: "master",
+    "awesome-godot": "master",
+  };
+  for (const [repository, expectedRef] of Object.entries(expectedDefaultRefs)) {
+    const row = parsedRows.find((candidate) => candidate.repository === repository);
     assert.ok(
-      rows.some((row) => row.startsWith(`| [${repository}](`)),
+      row,
       `${repository} must appear in the measured inventory`,
     );
+    assert.equal(row.defaultRef, expectedRef, `${repository} default ref`);
   }
-  assert.match(inventory, /\| \[Atmavictu\].+\| `main` \| VBL 0\.1410/u);
-  assert.match(inventory, /\| \[CanvasMinstral\].+\| `master` \| VBL 0\.1410/u);
-  assert.match(inventory, /godot-demo-projects.+Godot copyright notice and permissive grant text/u);
-  assert.match(inventory, /\[manim\].+MIT License/u);
-  assert.match(inventory, /\[awesome-godot\].+Creative Commons Attribution 4\.0 International/u);
+
+  const vbl1410 = parsedRows.filter((row) =>
+    row.classification.startsWith("VBL 0.1410"),
+  );
+  const vbl1300 = parsedRows.filter((row) =>
+    row.classification.startsWith("VBL 0.1300"),
+  );
+  const otherLicenses = parsedRows.filter(
+    (row) =>
+      !row.classification.startsWith("VBL 0.1410") &&
+      !row.classification.startsWith("VBL 0.1300"),
+  );
+  assert.equal(vbl1410.length, 2);
+  assert.equal(vbl1300.length, 14);
+  assert.equal(otherLicenses.length, 3);
+  assert.ok(
+    vbl1410.every(
+      (row) => row.classification === "VBL 0.1410 × 10⁴, plain text",
+    ),
+  );
+  assert.ok(
+    vbl1300.every(
+      (row) =>
+        row.classification === "VBL 0.1300 × 10⁴, Base64-encoded body",
+    ),
+  );
+  assert.deepEqual(
+    [...new Set(vbl1410.map((row) => row.blob))],
+    ["2c765280d0c732aa5a6169eea329ab67e97b5c60"],
+    "VBL 0.1410 copies must share the measured Git blob",
+  );
+  assert.deepEqual(
+    [...new Set(vbl1300.map((row) => row.blob))],
+    ["ed6da4abd8b7a61b066ec8be7dd9953c6c6aee9f"],
+    "VBL 0.1300 copies must share the measured Git blob",
+  );
+  assert.deepEqual(
+    otherLicenses.map((row) => [row.repository, row.classification, row.blob]),
+    [
+      [
+        "godot-demo-projects",
+        "Godot copyright notice and permissive grant text",
+        "05519693673e35cc80bba699e69af3de1d9886d7",
+      ],
+      ["manim", "MIT License", "376297d623856cb9a4807572add16920556550ab"],
+      [
+        "awesome-godot",
+        "Creative Commons Attribution 4.0 International",
+        "e655c6889fb244caa0284723bfe4f667b0701e5d",
+      ],
+    ],
+  );
+  assert.match(inventory, /VBL 0\.1410 files are byte-identical \(147,608 bytes; SHA-256 `719c706437ba53b44dd70d896b84f0903a194c87034fe24a499bdd4a37517cda`\)/u);
+  assert.match(inventory, /VBL 0\.1300 bodies \(106,427 bytes; SHA-256 `66adcc246e2907c7b71c90e7f14ffd0c50a9be73c76dda5529fa653f26d799a9`\)/u);
 });
