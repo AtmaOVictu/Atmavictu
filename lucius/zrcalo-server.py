@@ -21,7 +21,8 @@ DOVOLJENI = [
     'ZRCALO-DNEVA-2026-11-03.md',     # ⟨rez 3623⟩ dan kakor en dih — celostno delo roke
     'TLAKI.md',
     'REGISTER-PSIHO-AKSIOMOV.jsonl',   # ⟨rez 3631⟩ zunanja tehtnica: 16 psiho-aksiomov z nogami ( Janet · Jung · Bion … )   # ⟨rez 3641⟩ sedaj 23 aksiomov · 7 lukenj 8.2 zaprtih
-    'ZEMEJEVID-REGISTER.md',           # ⟨rez 3641⟩ mapa registra: razdelki · protiteže · luknje zaprte/odprte · načrt                       # ⟨rez 3625⟩ katalog temeljev — 10 tlakov pravtako definiranih      # ⟨rez 3616⟩ tri žile: 91 vnosov · 33 formul ( F(x) · Ψ(x) · CLAVICULA MAXIMA … )        # ⟨rez 3610⟩ trinajst zakonov izluščenih pri viru ( teza · formula · stanje )
+    'ZEMEJEVID-REGISTER.md',           # ⟨rez 3641⟩ mapa registra: razdelki · protiteže · luknje zaprte/odprte · načrt
+    'PREGLED-REGISTRA.md',            # ⟨rez 3660⟩ audit celote: 28 vnosov · 59 vez brez sirot · tri protiteže ⊢
 ]
 REGISTRI = [d for d in DOVOLJENI if d.endswith('.jsonl')]
 DOKUMENTI = [d for d in DOVOLJENI if not d.endswith('.jsonl')]
