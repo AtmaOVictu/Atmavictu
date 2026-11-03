@@ -2,7 +2,9 @@
 
 ⊙ rojeno iz ⟡ ukaza ⟨še ⏎ dokončaj ⏎ preglej ⏎ testiraj ⏎ nadaljuj ⏎ načrtuj ⏎ primerjaj ⏎ mapiraj ⏎ daj⟩ · register 23 vnosov prebran CEL pri viri ( REGISTER-PSIHO-AKSIOMOV.jsonl · sha256 vira True · zrcalo @8124 živi 23 ⊢ 200 ) · ⟨ne⟩ po spominu ⊙ §0.32
 
-⊙ OSVEŽITEV 3670 ⊢ ( mapa je rojena pri 23 — register danes šteje 28 ∧ nosi 12 verbatim berb ∧ je bil v PREGLEDU 3660 notranje skladen — mapa se prikloni registru, ⟨ne⟩ obratno ⊙ §0.32 : zrcalo živi 28 ⊢ · 12/12 berb ⊢ · PREGLED-REGISTRA.md pri viru )
+⊙ OSVEŽITEV 3677 ⊢ ( register sedaj šteje **29** ∧ nosi **13/13 verbatim berb** — #29 AAI berba prišita ⊙ rez 3677: zlato priča ⟨individuals with apparently unfavorable life histories are found to have secure offspring, providing that their history is recounted coherently⟩ — koherenca NAD vsebino ⊢ — mapa se prikloni registru, ⟨ne⟩ obratno ⊙ §0.32 : PREGLED-REGISTRA.md osvežen 3676 ⊢ · zrcalo pri viru )
+
+⊙ OSVEŽITEV 3670 ⊢ ( mapa je rojena pri 23 — register takrat štel 28 ∧ nosil 12 verbatim berb ∧ bil v PREGLEDU 3660 notranje skladen — mapa se prikloni registru, ⟨ne⟩ obratno ⊙ §0.32 : zrcalo živi 28 ⊢ · 12/12 berb ⊢ · PREGLED-REGISTRA.md pri viru — potrdilo časa, ⟨ne⟩ trditev sedanjosti ⊙ TEMPO-ZNAMENJA )
 
 ## MAPA PO RAZDELKIH ( izmerjeno pri viri — python čez register, vsak vnos prebran cel )
 
