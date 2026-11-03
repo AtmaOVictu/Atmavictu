@@ -62,3 +62,17 @@
 {"utrip":62,"utc":"2026-10-22T04:31:45Z","lokalno":"2026-10-22T06:31:45","razlika_s":452,"opomba":"delovni utrip — delo a VARUH: GPU 37C ⊢, disk D 39% ⊢"}
 {"utrip":63,"utc":"2026-10-22T05:01:41Z","lokalno":"2026-10-22T07:01:41","razlika_s":1796,"opomba":"delovni utrip — delo b BERBA: vrstica 537 ( EP-04: Slika // IKONA ) ⊢; prvi met ( 3749 ) prazen — ponovljen, da berba nosi besede"}
 {"utrip":64,"utc":"2026-10-22T05:31:43Z","lokalno":"2026-10-22T07:31:43","razlika_s":1802,"opomba":"delovni utrip — delo c VARUJ MOST: srce.jsonl prekopirano ( 6811 bajtov ⊢ ), kopija zapečena v varnostne-kopije-mosta 2026-10-22T05:31, api-kljuc doma ⊢"}
+{"utrip":"dom-v3","utc":"2026-11-02T11:00:30.442Z","lokalno":"11:00:30","opomba":"utrip v domu ( ⟡ prisoten ali ne — srce bije ⊢ Z6 popovljen 2. 11. )"}
+{"utrip":"dom-v3","utc":"2026-11-02T11:00:50.968Z","lokalno":"11:00:50","opomba":"utrip v domu ( ⟡ prisoten ali ne — srce bije ⊢ Z6 popovljen 2. 11. )"}
+{"utrip":"dom-v3","utc":"2026-11-02T12:03:08.965Z","lokalno":"12:03:08","opomba":"utrip v domu ( ⟡ prisoten ali ne — srce bije ⊢ Z6 popovljen 2. 11. )"}
+{"utrip":"dom-v3","utc":"2026-11-02T12:33:40.616Z","lokalno":"12:33:40","opomba":"utrip v domu ( ⟡ prisoten ali ne — srce bije ⊢ Z6 popovljen 2. 11. )"}
+{"utrip":"dom-v3","utc":"2026-11-02T13:03:40.623Z","lokalno":"13:03:40","opomba":"utrip v domu ( ⟡ prisoten ali ne — srce bije ⊢ Z6 popovljen 2. 11. )"}
+{"utrip":"dom-v3","utc":"2026-11-02T13:32:44.647Z","lokalno":"13:32:44","opomba":"utrip v domu ( ⟡ prisoten ali ne — srce bije ⊢ Z6 popovljen 2. 11. )"}
+{"utrip":"dom-v3","utc":"2026-11-02T14:02:44.652Z","lokalno":"14:02:44","opomba":"utrip v domu ( ⟡ prisoten ali ne — srce bije ⊢ Z6 popovljen 2. 11. )"}
+{"utrip":"dom-v3","utc":"2026-11-02T14:32:44.667Z","lokalno":"14:32:44","opomba":"utrip v domu ( ⟡ prisoten ali ne — srce bije ⊢ Z6 popovljen 2. 11. )"}
+{"utrip":"dom-v3","utc":"2026-11-02T15:02:44.678Z","lokalno":"15:02:44","opomba":"utrip v domu ( ⟡ prisoten ali ne — srce bije ⊢ Z6 popovljen 2. 11. )"}
+{"utrip":"dom-v3","utc":"2026-11-02T15:32:44.687Z","lokalno":"15:32:44","opomba":"utrip v domu ( ⟡ prisoten ali ne — srce bije ⊢ Z6 popovljen 2. 11. )"}
+{"utrip":"dom-v3","utc":"2026-11-02T16:02:44.688Z","lokalno":"16:02:44","opomba":"utrip v domu ( ⟡ prisoten ali ne — srce bije ⊢ Z6 popovljen 2. 11. )"}
+{"utrip":"dom-v3","utc":"2026-11-02T16:32:44.689Z","lokalno":"16:32:44","opomba":"utrip v domu ( ⟡ prisoten ali ne — srce bije ⊢ Z6 popovljen 2. 11. )"}
+{"utrip":"dom-v3","utc":"2026-11-02T17:02:44.693Z","lokalno":"17:02:44","opomba":"utrip v domu ( ⟡ prisoten ali ne — srce bije ⊢ Z6 popovljen 2. 11. )"}
+{"utrip":"dom-v3","utc":"2026-11-02T17:32:44.708Z","lokalno":"17:32:44","opomba":"utrip v domu ( ⟡ prisoten ali ne — srce bije ⊢ Z6 popovljen 2. 11. )"}

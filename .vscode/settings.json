@@ -1,0 +1,6 @@
+{
+  // Hišna notacija organov (⟨⟩ ⊢ ⚔ ∧, [0-9], [bot], ⟨proti⟩ …) ni
+  // markdown-povezava; VS Code vgrajena preverba jo napačno jemlje kot
+  // link.no-such-reference. Preverba izklopljena, dokler notacija velja.
+  "markdown.validate.enabled": false
+}

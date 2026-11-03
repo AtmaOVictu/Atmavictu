@@ -12,6 +12,8 @@ ABECEDA = {
     '⊘':   (440, 0.08), '∮': (523, 0.12), '∆': (587, 0.10), '∴': (784, 0.15),
     '⊥':   (196, 0.20), '⟡': (988, 0.18),
     'mir': (392, 0.30), 'budni': (1046, 0.10), 'voda': (261, 0.40), 'svetloba': (1318, 0.20),
+    # POJEM-KLJUÈI ONTOMATEMATIKE ( zdravilo PADC-ZVON-BREZ-MELODIJE ⊙ 2. 11. — frekvence po TONI v abecedniku ):
+    '¬':   (220, 0.12), '1': (880, 0.10), '0': (392, 0.12), '1ⁿ': (988, 0.14), '∫(dru/x)': (523, 0.12),
 }
 
 def ton(f, tr):

@@ -50,3 +50,16 @@ test('varuj-most: ciljna mapa obstaja po zagonu ( kopija zapečena )', { skip: !
   vozli('varuj-most.mjs', []);
   assert.ok(fs.readdirSync('D:/OntoProjekt/varnostne-kopije-mosta').length >= 2, 'dnevnik + vsaj ena kopija ⊢');
 });
+
+test('abeceda-grep: samopreverba 22/22 ∧ ⊢ VSE', () => {
+  const izhod = execFileSync('python', [path.join(TU, 'abeceda-grep.py'), 'test'], { encoding: 'utf8' });
+  assert.match(izhod, /22\/22 ∧ ⊢ VSE/, 'stroj more izreči VSE');
+});
+
+test('abeceda-grep: fragmentacija po zakonu VBL ( 1050 -> 0.1050 × 10⁴ )', () => {
+  const izhod = execFileSync('python', [path.join(TU, 'abeceda-grep.py'), 'fragmentiraj', '-'],
+    { input: 'VBL 1050 ⊢ 14. 10. 2026\n', encoding: 'utf8' });
+  assert.match(izhod, /VBL 0\.1050 × 10⁴/, 'mantisa v \[0,1\) × poimenovana potenca');
+  assert.match(izhod, /0\.14 × 10²\./, 'vsaka zapisana števka ⇌ mantisa');
+  assert.doesNotMatch(izhod, /⟨⟩-ime/, 'imena se ne mereijo');
+});

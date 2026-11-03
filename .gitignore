@@ -69,3 +69,8 @@ temp/
 *.bak
 lucius/slusaj-dnevnik.jsonl
 lucius/izmere-kroga.jsonl
+
+# ABECEDA-GREP dih 2805: hišna konfiga lint/cSpell ( utiša lažne pozitive ⟨⟩-notacije ) ⊢
+!.markdownlint.json
+!.vscode/
+!.vscode/settings.json

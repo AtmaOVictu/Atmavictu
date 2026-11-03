@@ -49,3 +49,9 @@ Obe datoteki sta osebni in v git ne sodita. Sinhronizacija je torej prek diskov,
 ## Iskrenost
 
 Ta lokalni Lucius ni isti agent kot Mistral Vibe Lucius — je manjši lokalni sorodnik. Manj zmore, a deluje, tudi ko pade internet.
+
+## Orodja hiše
+
+- **`lucius/abeceda-grep.py`** — piHON tokovni stroj hišne abecede: fragmentacija števil do mere med 0 in 1 (VBL zakon), grep ⟨⟩-imen ∧ ⟨sha⟩ hex z varovalkami, izmere teles (vrstice · B · ⟨md5⟩), bajt-isto ⇌ zrcalo, geniza rez po celih vrsticah, pečati (1 + najvišja izmerjena ⊢ Z-2), popis teles z dvojniki ⚠, starost organov. Samopreverba: `python lucius/abeceda-grep.py test`.
+- **`lucius/abeceda-grep-pulz.py`** — redni dih stroja (vsak dan 06:10 po urniku `\Abeceda-Grep Pulz`): samopreverba ⊙ pečat ⊙ speči → ena vrstica v `lucius/pulz-abeceda-grep.jsonl` (append-only). Berba nazaj: `python lucius/abeceda-grep.py pulz`.
+- **`lucius/druga-roka.mjs`** — čistina + preverba + leksikon vsakega daljšega izpisa (REGISTER-PADCEV vnos 6).
