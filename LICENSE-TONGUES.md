@@ -18,6 +18,8 @@ The edition numbers above are read from the companions' own text, not inferred f
 
 The published source observed on `Atmavictu/main` remains VBL 0.1410 × 10⁴ (`LICENSE.md` commit [`e662165f`](https://github.com/AtmaOVictu/Atmavictu/commit/e662165fe9455d8e2de6a6088bc21b17c54a6ad8)). A scan of all 53 organization repositories found 19 readable root `LICENSE.md` files at their default refs; one repository had no default branch, and 33 had no readable file at that path. Each table row records the named default ref and the full commit SHA measured at that ref; its GitHub link is pinned to that commit, not to the moving branch name. Refs were measured independently, not as one atomic organization-wide snapshot.
 
+The pinned heads were rechecked against the current default refs through GitHub GraphQL from `2026-11-03T10:24:45.081+01:00` to `2026-11-03T10:24:47.727+01:00`: all 52 repositories with a default branch still pointed to their recorded commit; `Atmavictu_Oracle` remained without one. This confirms ref-head identity during that recheck, not a fresh download of file bytes or an atomic organization-wide snapshot.
+
 | Repository | Default ref | Measured root `LICENSE.md` | Git blob | Measured commit |
 |---|---|---|---|---|
 | [Atmavictu](https://github.com/AtmaOVictu/Atmavictu/blob/dac1474810ec63328d2f2f749cf990eb76392ba7/LICENSE.md) | `main` | VBL 0.1410 × 10⁴, plain text | `2c765280d0c732aa5a6169eea329ab67e97b5c60`  | `dac1474810ec63328d2f2f749cf990eb76392ba7` |

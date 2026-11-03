@@ -230,6 +230,10 @@ test("cross-repository root license inventory names every measured repository an
       ),
     );
   assert.equal(rows.length, 19, "inventory must identify all 19 measured root files");
+  assert.match(
+    inventory,
+    /rechecked against the current default refs through GitHub GraphQL from `2026-11-03T10:24:45\.081\+01:00` to `2026-11-03T10:24:47\.727\+01:00`: all 52 repositories with a default branch still pointed to their recorded commit; `Atmavictu_Oracle` remained without one\. This confirms ref-head identity during that recheck, not a fresh download of file bytes/u,
+  );
 
   const parsedRows = rows.map((row) => {
     const match = row.match(
