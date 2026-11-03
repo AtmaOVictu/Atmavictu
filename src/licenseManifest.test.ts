@@ -335,6 +335,79 @@ test("cross-repository root license inventory names every measured repository an
   assert.match(inventory, /VBL 0\.1300 bodies \(106,427 bytes; SHA-256 `66adcc246e2907c7b71c90e7f14ffd0c50a9be73c76dda5529fa653f26d799a9`\)/u);
 });
 
+test("cross-repository scan distinguishes missing root files from a missing default branch", async () => {
+  const tonguesText = await readFile(
+    new URL("../../LICENSE-TONGUES.md", import.meta.url),
+    "utf8",
+  );
+  const inventory = tonguesText.split(
+    "## Cross-repository release status measured 2026-11-03",
+    2,
+  )[1];
+  assert.ok(inventory, "cross-repository release status must be documented");
+
+  const missingFileRows = inventory
+    .split(/\r?\n/u)
+    .filter((line) => line.endsWith("No readable root file at this path |"));
+  const expectedDefaultRefs = {
+    "agents-cli": "main",
+    "awesome-data-analysis": "main",
+    "awesome-design-md": "main",
+    "Claude-Code-Game-Studios": "main",
+    ComfyUI: "master",
+    cookbook: "main",
+    "creative-template": "main",
+    "deer-flow": "main",
+    "Divine-Ascension-System": "main",
+    "European-OpenLLM-Projects": "main",
+    godot: "master",
+    gpt4all: "main",
+    graphify: "v7",
+    "oh-my-pi": "main",
+    "ONL_FER_O_06_Advanced_HTML_and_CSS": "main",
+    "ONL_FER_O_06_ES6_React": "main",
+    "ONL_FER_O_06_Final_project": "main",
+    "ONL_FER_O_06_JavaScript": "main",
+    "ONL_FER_O_06_React": "main",
+    "ONL_FER_O_06_Sass_RWD": "main",
+    "open-webui": "main",
+    "platform-docs-public": "main",
+    PowerShell: "master",
+    pygame: "main",
+    qdrant: "master",
+    ragflow: "main",
+    RecursiveMAS: "main",
+    servers: "main",
+    superpowers: "main",
+    tauri: "dev",
+    "todo-app": "main",
+    TradingAgents: "main",
+    "Understand-Anything": "main",
+  };
+  assert.equal(missingFileRows.length, 33);
+  for (const [repository, expectedRef] of Object.entries(expectedDefaultRefs)) {
+    const row = missingFileRows.find((candidate) =>
+      candidate.startsWith(`| [${repository}](`),
+    );
+    assert.ok(row, `${repository} must be listed as missing a readable root file`);
+    const match = row.match(
+      /^\| \[([^\]]+)\]\(https:\/\/github\.com\/AtmaOVictu\/([^/]+)\/tree\/([^)]*)\) \| `([^`]+)` \| No readable root file at this path \|$/u,
+    );
+    assert.ok(match, `${repository} row must identify its measured default ref`);
+    assert.equal(match[1], repository, "link label must match repository");
+    assert.equal(match[2], repository, "link target must match repository");
+    assert.equal(match[3], expectedRef, `${repository} link ref`);
+    assert.equal(match[4], expectedRef, `${repository} declared default ref`);
+  }
+
+  const noBranchRows = inventory
+    .split(/\r?\n/u)
+    .filter((line) => line.includes("| none | No default branch; root-file check unavailable |"));
+  assert.deepEqual(noBranchRows, [
+    "| [Atmavictu_Oracle](https://github.com/AtmaOVictu/Atmavictu_Oracle) | none | No default branch; root-file check unavailable |",
+  ]);
+});
+
 test("cross-repository draft inventory records each measured repository ref and blob", async () => {
   const tonguesText = await readFile(
     new URL("../../LICENSE-TONGUES.md", import.meta.url),

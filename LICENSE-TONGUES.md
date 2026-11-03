@@ -42,6 +42,45 @@ The published source observed on `Atmavictu/main` remains VBL 0.1410 × 10⁴ (`
 
 The two plain-text VBL 0.1410 files are byte-identical (147,608 bytes; SHA-256 `719c706437ba53b44dd70d896b84f0903a194c87034fe24a499bdd4a37517cda`). The fourteen Base64 files decode to byte-identical VBL 0.1300 bodies (106,427 bytes; SHA-256 `66adcc246e2907c7b71c90e7f14ffd0c50a9be73c76dda5529fa653f26d799a9`). These are older encoded copies, not current plain-text releases or language translations. The table classifies only the readable root file at the observed default ref; it does not prove that a repository intends that file to grant rights or that any deployment consumes it.
 
+For completeness, the other 34 repositories in the 53-repository scan were measured on 2026-11-03 as follows. GitHub returned no readable root `LICENSE.md` at the listed default ref for the 33 repositories with a branch; this is a path-specific result, not a claim that the repository has no license elsewhere. `Atmavictu_Oracle` had no default branch, so that root-file check could not be made.
+
+| Repository | Default ref | Root `LICENSE.md` result |
+|---|---|---|
+| [agents-cli](https://github.com/AtmaOVictu/agents-cli/tree/main) | `main` | No readable root file at this path |
+| [awesome-data-analysis](https://github.com/AtmaOVictu/awesome-data-analysis/tree/main) | `main` | No readable root file at this path |
+| [awesome-design-md](https://github.com/AtmaOVictu/awesome-design-md/tree/main) | `main` | No readable root file at this path |
+| [Claude-Code-Game-Studios](https://github.com/AtmaOVictu/Claude-Code-Game-Studios/tree/main) | `main` | No readable root file at this path |
+| [ComfyUI](https://github.com/AtmaOVictu/ComfyUI/tree/master) | `master` | No readable root file at this path |
+| [cookbook](https://github.com/AtmaOVictu/cookbook/tree/main) | `main` | No readable root file at this path |
+| [creative-template](https://github.com/AtmaOVictu/creative-template/tree/main) | `main` | No readable root file at this path |
+| [deer-flow](https://github.com/AtmaOVictu/deer-flow/tree/main) | `main` | No readable root file at this path |
+| [Divine-Ascension-System](https://github.com/AtmaOVictu/Divine-Ascension-System/tree/main) | `main` | No readable root file at this path |
+| [European-OpenLLM-Projects](https://github.com/AtmaOVictu/European-OpenLLM-Projects/tree/main) | `main` | No readable root file at this path |
+| [godot](https://github.com/AtmaOVictu/godot/tree/master) | `master` | No readable root file at this path |
+| [gpt4all](https://github.com/AtmaOVictu/gpt4all/tree/main) | `main` | No readable root file at this path |
+| [graphify](https://github.com/AtmaOVictu/graphify/tree/v7) | `v7` | No readable root file at this path |
+| [oh-my-pi](https://github.com/AtmaOVictu/oh-my-pi/tree/main) | `main` | No readable root file at this path |
+| [ONL_FER_O_06_Advanced_HTML_and_CSS](https://github.com/AtmaOVictu/ONL_FER_O_06_Advanced_HTML_and_CSS/tree/main) | `main` | No readable root file at this path |
+| [ONL_FER_O_06_ES6_React](https://github.com/AtmaOVictu/ONL_FER_O_06_ES6_React/tree/main) | `main` | No readable root file at this path |
+| [ONL_FER_O_06_Final_project](https://github.com/AtmaOVictu/ONL_FER_O_06_Final_project/tree/main) | `main` | No readable root file at this path |
+| [ONL_FER_O_06_JavaScript](https://github.com/AtmaOVictu/ONL_FER_O_06_JavaScript/tree/main) | `main` | No readable root file at this path |
+| [ONL_FER_O_06_React](https://github.com/AtmaOVictu/ONL_FER_O_06_React/tree/main) | `main` | No readable root file at this path |
+| [ONL_FER_O_06_Sass_RWD](https://github.com/AtmaOVictu/ONL_FER_O_06_Sass_RWD/tree/main) | `main` | No readable root file at this path |
+| [open-webui](https://github.com/AtmaOVictu/open-webui/tree/main) | `main` | No readable root file at this path |
+| [platform-docs-public](https://github.com/AtmaOVictu/platform-docs-public/tree/main) | `main` | No readable root file at this path |
+| [PowerShell](https://github.com/AtmaOVictu/PowerShell/tree/master) | `master` | No readable root file at this path |
+| [pygame](https://github.com/AtmaOVictu/pygame/tree/main) | `main` | No readable root file at this path |
+| [qdrant](https://github.com/AtmaOVictu/qdrant/tree/master) | `master` | No readable root file at this path |
+| [ragflow](https://github.com/AtmaOVictu/ragflow/tree/main) | `main` | No readable root file at this path |
+| [RecursiveMAS](https://github.com/AtmaOVictu/RecursiveMAS/tree/main) | `main` | No readable root file at this path |
+| [servers](https://github.com/AtmaOVictu/servers/tree/main) | `main` | No readable root file at this path |
+| [superpowers](https://github.com/AtmaOVictu/superpowers/tree/main) | `main` | No readable root file at this path |
+| [tauri](https://github.com/AtmaOVictu/tauri/tree/dev) | `dev` | No readable root file at this path |
+| [todo-app](https://github.com/AtmaOVictu/todo-app/tree/main) | `main` | No readable root file at this path |
+| [TradingAgents](https://github.com/AtmaOVictu/TradingAgents/tree/main) | `main` | No readable root file at this path |
+| [Understand-Anything](https://github.com/AtmaOVictu/Understand-Anything/tree/main) | `main` | No readable root file at this path |
+| [Atmavictu_Oracle](https://github.com/AtmaOVictu/Atmavictu_Oracle) | none | No default branch; root-file check unavailable |
+
 A distinct VBL 10.5.1 “KOMPIL A” file was measured in 14 repositories. Its source commit in Atmavictu is [`53c8f090`](https://github.com/AtmaOVictu/Atmavictu/commit/53c8f0905cde5c50c84314311459881edfcd0d8a); the file labels itself “DRAFT · NOT RELEASED,” leaves its proposed release date and canonical source unassigned, and says legal review and independent verification were not performed. Its own stated predecessor (10.3.0) is also marked as needing exact-artifact verification. These are draft claims, not independently established release facts.
 
 The same file path and exact bytes were re-measured at the default refs of 14 repositories on 2026-11-03: 52,169 bytes, SHA-256 `dac171ccf3d526b82a16ca28462002cc05c5d8b46e4d3dadfb1e3ace7e171d60`, and shared Git blob `12bfaddf1fa471525ede7f99510eb93335cac994`. The per-repository evidence is:
