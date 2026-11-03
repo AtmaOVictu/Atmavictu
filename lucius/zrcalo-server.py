@@ -11,6 +11,7 @@ DOVOLJENI = [
     'REGISTER-NEIMENOVANIH.jsonl', 'REGISTER-PREVERJANJ.jsonl',
     'REGISTER-A1-PDF.jsonl', 'REGISTER-C2.jsonl', 'REGISTER-ZBIRKA.jsonl',
     'SINTEZA-0.1-SAMOTNO-JEDRO.md',   # ⟨rez 3593⟩ hišna telesa postanejo brskateljska — samo beri ⊢ §0.33
+    'SINTEZA-0.2-SAMOTNO-JEDRO.md',   # ⟨rez 3597⟩ živa vrata: 0.2; 0.1 ostaja potrdilo ⊢ §0.10
 ]
 
 HTML = """<!doctype html>
