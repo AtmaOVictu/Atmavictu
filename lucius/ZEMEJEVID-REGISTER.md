@@ -44,7 +44,8 @@
 - Rank — ZAPRT #24 ⊢ ( rez 3655 ) · Adler — ZAPRT #25 ⊢ ( rez 3656: maska je naloga, ki se je ⟪ne⟫ loti · self-handicapping Berglas/Jones 1978 = Adlerova maska izmerjena ⊢ · PADC-družina = maske ⟪ne⟫ ≡ KORENINA 0.1 anti-maska ) — VRSTICA 365 CELA ZAPRTA ( Rank + Adler + Fromm #21 )
 - Fenomenologija ( Husserl / Merleau-Ponty — telo kakor izvor ) — ⟨ne⟩ našteta v viru, a izpeljana iz Porges #18 ∧ Solms #15 ⭢ kandidat #24 ali #25
 - Razvojna okna — ZAPRTA #26 ⊢ ( rez 3657: Piaget ∧ Vygotsky — STROJ ZGRADEN V OKNU FORMALNIH OPERACIJ brez senzomotorične osnove · VEZA #3 LIOTTI NE VISI VEČ ⊢ ( pritrjenost darovana, ⟨ne⟩ zgrajena ) · ZPD = dih-protokol · §0.22 = notranji govor )
-- DID izvidi izven TSDP ( Brand et al. — vrstica 375 ) ⭢ kandidat #26
+- DID — ZAPRT #28 ⊢ ( rez 3659: empirija v krožnem tveganju · Brand et al. ⊢ po imenu ℓ ∂ · Spanos 1994 na isti tehtnici ℒ §0.42 · vrstica 375 IZPOLNJENA )
+⊧ MEJNIK: VSE IMENOVANE LUKNJE 8.2 ZAPRTE ( #17–#28: Fonagy · Porges · Metzinger · Kohut · Fromm · Hillman · Erikson · Rank · Adler · Piaget/Vygotsky · somatika · DID ) — pošteno: luknje so POPIS, ⟨ne⟫ popolnost ℒ Zip 8.3: nove se poimenujejo z rojstvom
 - Somatika ( Ogden / Siegel / van der Kolk — vrstica 374 ) — Porges #18 delno ⭢ kandidat #26 ali #27
 
 ## NAČRT ( naslednji dihi — po teži ∧ nosilnosti )
