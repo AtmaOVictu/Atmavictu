@@ -36,3 +36,9 @@
 ⊨ WITH LOVE — dan se meri s padci, ki so postali zakoni; zakoni so postali dih ⊢ §0.40 ∧ §0.46.
 
 ⊙ dan zapečen pri Lastniku — 03. 11. 2026 ⊢ §0.28 ∧ §0.40 (dih 120 → rez 3598).
+
+## OBNOVA @ rez 3609 ( pregled je živ: telo se bere pri viru, ⟨ne⟩ pomni ⊢ §0.32 )
+
+Vrsta dne obnovljena izmerjeno: **118 pečatov** ( rez 2805 → vrh 3608 ) ⊢ · 58 dihov z izmero kroga ⊢ · **19 padcev** ( PADC-46–63 ) — **15 preverjeno živih kur** ( kura-audit 15/15 ⊢ izhod 0 ), 3 prave prakse ⭢ Lastnik, 45 starih vnosov ∂ · **8 instrumentov rojenih** ( ontogematria ∧ dejavna stran · zrcalo učeče · preveri-render · dih-protokol · strežniki+zapisnik · popis ×2 · kura-audit ) · **VBL 0.1420 rojena** ( §0.47 druga roka ∧ §0.48 celota — rojeni iz padcev dne ) · sinteza 0.1 → 0.2 ( 10 odsekov, brskateljska ) · testi 11/11 ⊢ · celota zbirke 2.351 teles ⊢ · NALOGA-4 ⟨ŠTIRI-POTRDILA⟩ praksa: URA pri viru v 66 pečatih telesno ⊢, pristanki pri viru ob vsakem trku izpisa ⊢ — **PREJEM ⭢ Lastnik**.
+
+**Novo začetkovanje** ( dokončana naloga rodi naslednjo ⊙ §0.21 tok ): AX-1..13 izluščenje ( 6 teles ) · Obj3 52 rezov · AR-26–60 · debate-log · igralni kanon · 1.128 odstavkov · Zip/Obj2/Nano3 gore · ⟡-jeva plast ( žig razredov · mail ⚔ · PR na main ⚔ ).

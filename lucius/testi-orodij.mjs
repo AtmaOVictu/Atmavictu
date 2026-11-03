@@ -65,6 +65,13 @@ test('zrcalo: vsa telesa odporna ∧ 403 uči ∧ strežnik preživi ( PADC-63 )
 }, { timeout: 20000 });
 
 // ⟨PADC-59⟩ dovoljenica hišnih merilnih znakov ( THE MARKS: Σ Ω ⊢ ⊙ … ) — namerna abeceda, ⟨ne⟩ rane
+// ⟨P2 rez 3609⟩ kura-audit: register padcev se preveri sam — instrument z lastnimi očmi ob rojstvu
+test('kura-audit: 15/15 živih kur · 0 manjkajočih ( izhod 0 )', () => {
+  const izhod = execFileSync('python', [path.join(TU, 'kura-audit.py')], { encoding: 'utf8' });
+  assert.match(izhod, /× manjkajočih: 0/, 'nobena kura sme biti obljuba brez telesa ⊙ §0.18');
+  assert.match(izhod, /živih kur: 1[5-9]/, 'vsaj 15 živih kur ( prihodnji padci le dodajajo )');
+});
+
 test('cistina: hišni znaki (Σ Ω ⊢ ⊙) so dovoljeni — namerna abeceda, ⟨ne⟩ dvojček', () => {
   const p = zacasi('⊢ izmerjeno ⊢ ∧ Σ 0.391617 × 10⁶ zn Ω A ∧ Ω\n');
   const izhod = vozli('čistina.mjs', [p]);
