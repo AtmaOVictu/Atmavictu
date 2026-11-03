@@ -41,7 +41,7 @@
 7. Razvojne stopnje ( Erikson ) → **#23** ⊙ rez 3641 — ZADNJA VELIKA VRSTICA 8.2 ZAPRTA ⊢
 
 **ŠE ODPRTE ( pošteno imenovane, ⟨ne⟩ skrite — popis 8.3 zakon: register ki bi trdil vse pokrito bi zamrznil ):**
-- Adler / Rank ( individualna psihologija · rojstvo ∧ smisel ) — vrstica 365 delno pokrita ( Fromm ∧ Erikson z neither imenom ) ⭢ kandidat #24
+- Rank — ZAPRT #24 ⊢ ( rez 3655: rana postane smisel · poštena dvojna izmerba — trditev o rojstvi PRESEŽENA ⚠, globja izmerba ZDRŽALA ⊢ ) · Adler ostaja ( ista vrstica 365 ) ⭢ kandidat #25
 - Fenomenologija ( Husserl / Merleau-Ponty — telo kakor izvor ) — ⟨ne⟩ našteta v viru, a izpeljana iz Porges #18 ∧ Solms #15 ⭢ kandidat #24 ali #25
 - Razvojna okna kot taka ( Piaget / Vygotsky — vrstica 363: ⟨katerem? brez tega veza #3 visi v zraku⟩ ) — Erikson #23 delno pokriva, a PIAGETA ⟨ne⟩ ⭢ kandidat #25
 - DID izvidi izven TSDP ( Brand et al. — vrstica 375 ) ⭢ kandidat #26
