@@ -85,7 +85,8 @@ class Zrcalo(http.server.BaseHTTPRequestHandler):
     def poisci_telo(self, pot):
         """Normalizacija: odstrani poizvedbo ∧ končni poševnici; brez končnice → poišče ( .md · .txt · .html )."""
         pot = pot.split('?')[0].strip('/')
-        if not pot or pot in ('index.html', 'zrcalo'):
+        if not pot or pot in ('index', 'index.html', 'zrcalo'):
+            # ⟨NAPAČNA-SONDA⟩ 3678 ozdravljen: kazalo živi pri / ∧ /index.html — goli ⟨/index⟩ je padal v 403 ∧ lažno ⚠ v zemljevidu ( sonda je merila napačno pot, ⟨ne⟩ napačno telo ⊙ KORENINA 0.1 ) — alias prišit
             return ('INDEX', None)
         if pot in DOVOLJENI:
             return ('TELO', pot)
