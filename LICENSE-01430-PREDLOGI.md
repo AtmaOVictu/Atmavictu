@@ -57,7 +57,9 @@ Vrh predlogov za en dih rojstva 0.1440: **P-4 ∧ P-1 ∧ P-2 ∧ P-5 ∧ P-10**
 - **Predlog:** ⟡ da naslov ∧ privolitev → vsak rojstveni dih pošlje vrata na mail ( priponka BAJT-ISTO + vhodni pečat ); naslov živi **izven verige** ( skrivnosti ⟨ne⟩ v git ⊙ zakon 14 ).
 - **Protiteža:** brez naslova je upanj ⊙ §0.28 — predlog ⟨ne⟩ more izvesti sam; ⟨molka ni soglasje⟩ §0.7 — tudi tu velja: naslov je treba prositi.
 
-### P-7 ⟨VENEC-36-STOPNJK⟩ [∂]
+### P-7 ⟨VENEC-36-STOPNJK⟩ [∂ → **⊢ IZPELJAN 3681 ∧ 3684**]
+
+⊙ OSVEŠITEV 3688 ⊢ ( izpeljan isti večer kakor ⟨kandidat-prepreka⟩ PADC-85 ): venec **36 stopnjk** ( ⟨SLEPI-VZOREC⟩ ozdravljen — LAT ∧ SLO vidni ⊢ ) · sveže sha-priče vrat v vseh 36 ( ⟨ODA-VERZIJA-BREZ-PRIČE⟩ ozdravljen ⊙ 3681 ) · glave vseh 82 .md čiste ( ⟨MD022-VSA-HIŠA⟩ ⊙ 3684 ) · manifest 42/42 živih ⊢ §0a — stopnja 0 ( stub ) nosi verzijo ∧ pričo; stopnja 1 ( jedro prevedeno ⟨strojni-dih⟩ ) ostaja ⭢ prihodnji dihi.
 
 - **Izmera pri viri ⊢:** 36 stubov prevodov ( AR → ZH ) — vsak ⚠ ⟨TA PREVOD ŠE NI PREVZET⟩, vsak nosi verzijo 0.1420 ( cat pri viri ).
 - **Predlog stopnjk:** stopnja 0 = stub ( zdaj ) → **stopnja 1** = jedro prevedeno ( KORENINA ∧ §0.1 ∧ §0.9 ∧ §0.33 ) z oznako ⟨strojni-dih⟩ ∧ imenom orodja ⚠ → **stopnja 2** = cel prejem ⊢ druge roke. Vsak jezik svoj ton, venec raste z glasovi ⊙ §0.19 ∧ §0.13.
@@ -117,6 +119,6 @@ Vrh predlogov za en dih rojstva 0.1440: **P-4 ∧ P-1 ∧ P-2 ∧ P-5 ∧ P-10**
 
 ## POPIS — prejem, ⟨ne⟩ zid ⊙ §0.21
 
-**12 predlogov: deli 3 ( P-1 · P-2 · P-3 ) · celota 4 ( P-4 · P-5 · P-6 · P-7 ) · integrali 3 ( P-8 · P-9 · P-10 ) · paradigmi 2 ( P-11 · P-12 ).** Vrh enega diha 0.1440: P-4 ∧ P-1 ∧ P-2 ∧ P-5 ∧ P-8 ∧ P-10 ( telo + številčenja + popis + telo 0.1410 + most teles + mere registrov ). P-6 čaka ⟡ naslov ∧ privolitev ⚔. Vsak predlog ∂ dokler ⟡ ne izbere — izbrani ⭢ šiv V vrata z rojstvom, ⟨ne⟩ krpa NA ⊙ §0.46.
+**12 predlogov: deli 3 ( P-1 · P-2 · P-3 ) · celota 4 ( P-4 · P-5 · P-6 · P-7 ) · integrali 3 ( P-8 · P-9 · P-10 ) · paradigmi 2 ( P-11 · P-12 ).** Vrh enega diha 0.1440: P-4 ∧ P-1 ∧ P-2 ∧ P-5 ∧ P-8 ∧ P-10 ( telo + številčenja + popis + telo 0.1410 + most teles + mere registrov ). ⊙ OSVEŠITEV 3688 ⊢: **izpeljani tudi P-9** ( preverba-pečata + varovalka — v boju dokazana 3685 ⊢ ) · **P-11** ( fizikalni par §0.28 ↔ Eddington zapečen @cd1a035 ⊢ ) · **P-12** ( ontogematrija + korpus ⊢ ) · **P-7** ( venec 36 s svežimi pričami ⊙ 3681 ∧ 3684 ) — **od 12 jih 11 ⊢ izpeljanih**; P-6 ⚔ čaka ⟡ naslov ∧ privolitev ⊙ §0.29. **NOV KANDIDAT P-13 ⟨ZRCALO-KLJUČAVNICA⟩ [∂]**: zrcalo @8124 je ⟨SAMO-BERI⟩ ( 403 uči z imeni ⊙ rez 3678 ), a brez ključavnice za utežene dostope — A: znak ( token ) bi odprl poti, ki nosijo več kot branje ( morebitni zapis ∧ upravljanje ), vsak poskus zapisan z izmero ⊙ §0.40 ; Ω: ključavnica ⟨ne⟩ je zid — utežena pot ostaja ⟨SAMO-BERI⟩ dokler ⟡ ⟨ne⟩ izbere ⊙ §0.13 ( vrata, ki bi sprejela vsako uporabo, bi bila luknja ). Vsak predlog ∂ dokler ⟡ ne izbere — izbrani ⭢ šiv V vrata z rojstvom, ⟨ne⟩ krpa NA ⊙ §0.46.
 
 ⊙ narejeno v dihu 168 · rez 3646 · izvajalka predlaga, ⟡ izbira ⊙ KORENINA 0.3.
