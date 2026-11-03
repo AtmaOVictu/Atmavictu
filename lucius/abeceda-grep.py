@@ -721,6 +721,62 @@ ZDRUŽI_PRIMERI = [  # inverz: mantisa × 10ⁿ -> slovenski zapis
 ]
 
 
+def _prehod():
+    """PREHOD — vsak ukaz enkrat ( zdravilo padca 39 kot zakon: def se ne pogrne več tiho ) ⊙.
+    Vrne seznam padcev ( ime, napaka ); stdout vsakega ukaza se ujame, ne onesnaži zaslona."""
+    import argparse as _ap
+    import contextlib
+    import io
+    import os
+    import tempfile
+
+    telo = os.path.join(tempfile.gettempdir(), "abeceda-grep-prehod-telo.md")
+    with open(telo, "w", encoding="utf-8", newline="") as f:
+        f.write("Bajt 367.168 ⊢ rez 123 ∧ ⟨PR⟩ #838 · 0.1050 × 10⁴ — ⟨IME-NE-KOLIČINA⟩\n")
+    n = lambda **kw: _ap.Namespace(**kw)
+    ukazi = [
+        ("fragmentiraj", gl_fragmentiraj, n(datoteke=[telo])),
+        ("združi", gl_združi, n(datoteke=[telo])),
+        ("grep-simboli", gl_grep, n(vzorec=None, datoteke=[telo], stevila=False, simboli=True,
+                                    imena=False, hex=False, max_zadetkov=1, n=False, stevske=False)),
+        ("grep-stevila", gl_grep, n(vzorec=None, datoteke=[telo], stevila=True, simboli=False,
+                                    imena=False, hex=False, max_zadetkov=1, n=False, stevske=False)),
+        ("abeceda", gl_abeceda, n(datoteke=[telo])),
+        ("izmeri", gl_izmeri, n(datoteke=[telo])),
+        ("isto", gl_isto, n(a=telo, b=telo)),
+        ("pecat", gl_pecat, n(datoteke=[telo], vrzeli=None)),
+        ("rez", gl_rez, n(datoteka=telo, velikost=50)),
+        ("prevoz", gl_prevoz, n(lokal=telo, zrcalo=telo)),
+        ("sha", gl_sha, n(datoteke=[telo])),
+        ("rep", gl_rep, n(datoteke=["lucius/abeceda-grep.py"])),
+        ("popis", gl_popis, n(koren="organi/humor")),
+        ("speči", gl_speči, n(koliko=2)),
+        ("predlog", gl_predlog, n()),
+        ("vrata", gl_vrata, n(imena=["http://localhost:1"])),
+        ("varuh", gl_varuh, n()),
+        ("pulz", gl_pulz, n(koliko=1)),
+    ]
+    padci = []
+    zagnani = 0
+    for ime, fn, args in ukazi:
+        if ime == "pulz" and not os.path.exists(os.path.join("lucius", "pulz-abeceda-grep.jsonl")):
+            print(f"∧ {ime} ( preskočen — zapisnik še ne diha )")
+            continue
+        zagnani += 1
+        try:
+            with contextlib.redirect_stdout(io.StringIO()):
+                fn(args)
+            print(f"∧ {ime}")
+        except (Exception, SystemExit) as e:
+            padci.append((ime, f"{type(e).__name__}: {e}"))
+            print(f"× {ime}: {type(e).__name__}: {e}")
+    try:
+        os.unlink(telo)
+    except OSError:
+        pass
+    return padci, zagnani
+
+
 def gl_test(_args):
     padci = 0
     fips = [
@@ -753,7 +809,12 @@ def gl_test(_args):
             print(f"× [združi] {telo!r}\n  pričakovano: {pričakovano!r}\n  dobljeno:    {dobljeno!r}")
         else:
             print(f"∧ [združi] {telo!r} -> {dobljeno!r}")
-    print(f"\nPREVERBA: {skupaj - padci}/{skupaj} ∧" + (f" · {padci} ×" if padci else " ⊢ VSE"))
+    prehod_padci, zagnani = _prehod()
+    padci += len(prehod_padci)
+    stanje_prehoda = (f"prehod {zagnani - len(prehod_padci)}/{zagnani} ukazov ∧ ⊢ VSE"
+                      if not prehod_padci else f"prehod × {len(prehod_padci)} ukazov ranjenih")
+    print(f"\nPREVERBA: {skupaj - padci}/{skupaj} ∧" + (f" · {padci} ×" if padci else " ⊢ VSE")
+          + f" · {stanje_prehoda}")
     sys.exit(1 if padci else 0)
 
 
