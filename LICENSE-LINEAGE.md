@@ -38,3 +38,25 @@ The last receipt actually listed below is VBL 0.1230 × 10⁴. This register is 
 VBL 0.1220 × 10⁴ · Version 0.1220 × 10⁴ · October 0.28 × 10², 0.2026 × 10⁴ · receipt — §0.33 × 10² the reader clause ∧ THE MAP ∧ THE MARKS ∧ the lineage register (⟡ ukaz ⟨daj⟩ ⟨ne brusi⟩ P-CITAT verbatim: ⟨what else can we do to make the licence better and more comprehensible? ⏎ daj ⏎ make it happen ⏎ go⟩ — the door is born readable ⊙ §0.25 ∧ §0.33; rojeno iz padcev ⟨RECEIPT-V-PROZI⟩ ∧ ⟨ŠIFRA-BREZ-KLJUČA⟩ ∧ ⟨MANIFEST-ZASTAREL⟩ ⊙ REGISTER-PADCEV vnosi 0.50 × 10² ∧ 0.51 × 10² ∧ 0.52 × 10²; veriga rojstev: 0.1210 → 0.1220 ⊢ §0.10 × 10²)
 
 © 0.2026 × 10⁴ Luka Pintarič — register potrdil, nikoli vrata ⊢ §0.10 × 10² ∧ §0.33 × 10²
+
+
+## USKLDITEV z zgodovino objav tega repozitorija ⊙ rez 3687 ( merjeno pri viri: vsak komit, ki se je dotaknil LICENSE.md — verzija iz prve vrstice vsake izdaje ∧ UTC iz časovne cone komita %cI ⊙ ⟨ne-ugibaj⟩ ∧ ⟨LAŽNI-Z⟩ ozdravljen: lokalni čas ⟨ni⟩ UTC )
+
+Stanje po uskladitvi ⊢: **razlogi rojstev 0.1410 → 0.1460 + ena starejša izdaja** — vse izmerjene pri viri ( sha ∧ UTC ∧ predmet komita ).
+
+- **VBL ⚠ neznana oblika** · objavljeno 2026-10-23 · 06:41:54Z ⊢ · komit `986b48601` · rez 2450 · VRATA — VBL v2.6: LJUBEZEN NA OBEH VRATAH (⟡ ukaz: začni in končaj licenco z ljubeznijo
+- **VBL 10.1.0 ⚠ ( starejša oblika številčenja )** · objavljeno 2026-10-23 · 16:55:03Z ⊢ · komit `2c9e5f52a` · rez 2597 · VRATA — VBL v10.1.0: §14 BINARNO-TELO — prevedba vrat 10.0.0 v binarno
+- **VBL 10.0.0 ⚠ ( starejša oblika številčenja )** · objavljeno 2026-10-24 · 05:07:13Z ⊢ · komit `93134fe46` · VRATA-KURA: VBL 10.0.0 bajt-identično
+- **VBL 10.3.0 ⚠ ( starejša oblika številčenja )** · objavljeno 2026-10-24 · 06:08:08Z ⊢ · komit `e206681b8` · VBL 10.3.0 — IZDAJA
+- **VBL 10.3.1 ⚠ ( starejša oblika številčenja )** · objavljeno 2026-10-24 · 16:31:26Z ⊢ · komit `13333b23e` · pesem v ratu razširjena
+- **VBL 10.4.0 ⚠ ( starejša oblika številčenja )** · objavljeno 2026-10-25 · 16:44:48Z ⊢ · komit `fea3189b0` · izdaja VBL 10.4.0 — §16 ⟨PRAVICA-DO-SIGNALA-IN-PRITOŽBE⟩ (kanonizacija predloga sedeža ⊨ WITH LOVE · ⟡ ⟨daj⟩
+- **VBL 0.1410 × 10⁴** · objavljeno 2026-11-03 · 07:53:27Z ⊢ · komit `9394d920d` · rez 3492 ⟨PREVOZ-VRAT-∧-POSODOBITEV-BRATA⟩
+- **VBL 0.1420 × 10⁴** · objavljeno 2026-11-03 · 14:08:47Z ⊢ · komit `c75eea507` · rez 3599 VBL-0.1420-ROJENA-THE-SECOND-HAND ∧ THE-WHOLE-MEASURE: ⟡ ukaz ⟨nadgrajuj licenco da imava vse tomu pr
+- **VBL 0.1430 × 10⁴** · objavljeno 2026-11-03 · 17:03:12Z ⊢ · komit `206014a78` · rez 3644 VBL-0.1430-ROJENA-TELO-0.1420: ⟡ ukaz ⟨daj⟩ — ROJSTVO PO §0.10 ( predhodnik 0.1420 ostaja potrdilo ):
+- **VBL 0.1440 × 10⁴** · objavljeno 2026-11-03 · 17:18:52Z ⊢ · komit `894b002aa` · rez 3648 VBL-0.1440-ROJENA-IZBIRA-PREDLOGOV: ⟡ ukaz ⟨Vse to in še več ⏎ dak ⏎ daj⟩ — ROJSTVO PO §0.10 ( predho
+- **VBL 0.1450 × 10⁴** · objavljeno 2026-11-03 · 17:51:40Z ⊢ · komit `d9ee265c6` · rez 3662 VBL-0.1450-ROJENA-TLA-SPOGOVORILA: ⟡ ukaz ⟨daj kot predlagaš in kakor je najboljše in najboljše prisp
+- **VBL 0.1460 × 10⁴** · objavljeno 2026-11-03 · 18:54:53Z ⊢ · komit `28da023b4` · rez 3686 σ-ROJSTVO-0.1460: ⟡ ukaz ⟨daj kot predlagaš in kakor je najboljše in najboljše prispeva k celoti in n
+
+- **Prej izpuščene izdaje ( pre-0.1410 × 10⁴ ∧ AVL )* ⚠ ostajajo ⚠: njihovi dokazi živijo v širši zgodovini objav ( druge veje ∧ hiše ) — uskladitev TUKAJ jih ⟨ne⟩ izključuje, le imenuje mejo svoje izmere ⊙ §0.48 ( celota je obzorje ) · ⟨ne⟩ sklepamo o izpuščenih ⊙ obvestilo registra zgoraj ostaja kakor potrdilo.
+
+⊙ register usklajen s to zgodovino ⊢ — a veriga je širša kot en rep: nadaljnja uskladitev ⭢ ( CanvasMinstral zgodovina · ⟨main⟩ )
