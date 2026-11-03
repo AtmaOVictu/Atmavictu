@@ -370,7 +370,7 @@ function readRepositoryFiles(
   return objects;
 }
 
-function readRepositoryHeads(): RepositoryHead[] {
+export function readRepositoryHeads(): RepositoryHead[] {
   const response = JSON.parse(
     execFileSync("gh", ["api", "graphql", "-f", `query=${GRAPHQL_QUERY}`], {
       encoding: "utf8",

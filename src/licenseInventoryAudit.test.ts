@@ -6,8 +6,12 @@ import {
   compareRepositoryHeads,
   parsePinnedRepositoryFiles,
   parsePinnedRepositoryHeads,
+  type RepositoryHead,
 } from "./licenseInventoryAudit.js";
-import { findLicensePathCandidates } from "./licensePathInventory.js";
+import {
+  findLicensePathCandidates,
+  requireMatchingRepositoryNames,
+} from "./licensePathInventory.js";
 
 const firstCommit = "a".repeat(40);
 const secondCommit = "b".repeat(40);
@@ -235,5 +239,40 @@ test("findLicensePathCandidates selects license-named files, not directories or 
       "vendor/package/COPYING",
       "vendor/package/LICENSE.vrata.json",
     ],
+  );
+});
+
+test("requireMatchingRepositoryNames accepts moving heads but requires an exact repository set", () => {
+  const current: RepositoryHead[] = [
+    { name: "alpha", defaultBranch: "main", commit: secondCommit },
+    { name: "oracle", defaultBranch: null, commit: null },
+  ];
+  assert.deepEqual(
+    requireMatchingRepositoryNames(new Set(["alpha", "oracle"]), current),
+    current,
+  );
+  assert.throws(
+    () =>
+      requireMatchingRepositoryNames(new Set(["alpha", "oracle"]), [current[0]!]),
+    /missing: oracle; unexpected: none/u,
+  );
+  assert.throws(
+    () =>
+      requireMatchingRepositoryNames(
+        new Set(["alpha", "oracle"]),
+        [...current, { name: "new-repository", defaultBranch: "main", commit: firstCommit }],
+      ),
+    /missing: none; unexpected: new-repository/u,
+  );
+  assert.throws(
+    () =>
+      requireMatchingRepositoryNames(
+        new Set(["alpha"]),
+        [
+          current[0]!,
+          { name: "alpha", defaultBranch: "main", commit: firstCommit },
+        ],
+      ),
+    /duplicate repository names/u,
   );
 });

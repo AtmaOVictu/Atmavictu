@@ -1,7 +1,11 @@
 import { execFileSync } from "node:child_process";
 import { readFile } from "node:fs/promises";
 import { fileURLToPath, pathToFileURL } from "node:url";
-import { parsePinnedRepositoryHeads } from "./licenseInventoryAudit.js";
+import {
+  parsePinnedRepositoryHeads,
+  readRepositoryHeads,
+  type RepositoryHead,
+} from "./licenseInventoryAudit.js";
 
 interface GitTreeEntry {
   path?: string;
@@ -56,6 +60,24 @@ export function findLicensePathCandidates(entries: GitTreeEntry[]): string[] {
     .sort((left, right) => left.localeCompare(right));
 }
 
+export function requireMatchingRepositoryNames(
+  expectedNames: Set<string>,
+  current: RepositoryHead[],
+): RepositoryHead[] {
+  const actualNames = new Set(current.map((repository) => repository.name));
+  if (actualNames.size !== current.length) {
+    throw new Error("GitHub returned duplicate repository names");
+  }
+  const missing = [...expectedNames].filter((name) => !actualNames.has(name));
+  const unexpected = [...actualNames].filter((name) => !expectedNames.has(name));
+  if (missing.length > 0 || unexpected.length > 0) {
+    throw new Error(
+      `Repository set differs from LICENSE-TONGUES.md; missing: ${missing.join(", ") || "none"}; unexpected: ${unexpected.join(", ") || "none"}`,
+    );
+  }
+  return current;
+}
+
 function readRepositoryTree(repository: string, commit: string): GitTreeEntry[] {
   const response = JSON.parse(
     execFileSync(
@@ -90,11 +112,18 @@ async function main(): Promise<void> {
   if (heads.size !== 54) {
     throw new Error(`Expected 54 repository rows, found ${heads.size}`);
   }
+  const currentHeads = requireMatchingRepositoryNames(
+    new Set(heads.keys()),
+    readRepositoryHeads(),
+  );
 
   const candidates: Array<{ repository: string; commit: string; path: string }> = [];
   let scannedRepositories = 0;
-  for (const [repository, head] of heads) {
+  let repositoriesWithoutDefaultBranch = 0;
+  for (const head of currentHeads) {
+    const repository = head.name;
     if (head.commit === null) {
+      repositoriesWithoutDefaultBranch += 1;
       continue;
     }
     const entries = readRepositoryTree(repository, head.commit);
@@ -106,8 +135,9 @@ async function main(): Promise<void> {
   const ended = new Date();
 
   console.log(
-    `Scanned ${scannedRepositories} pinned repository trees from ${started.toISOString()} to ${ended.toISOString()}; found ${candidates.length} license-name path candidates.`,
+    `Scanned ${scannedRepositories} current default-branch trees from ${started.toISOString()} to ${ended.toISOString()}; ${repositoriesWithoutDefaultBranch} repositories had no default branch; found ${candidates.length} license-name path candidates.`,
   );
+  console.log("Repository names are required to match LICENSE-TONGUES.md; each path row includes the measured head commit SHA.");
   console.log(
     "Candidates are path-name matches only; this scan does not read file contents or determine legal effect.",
   );
