@@ -328,7 +328,8 @@ def _najvecji_pecat_main():
     najvišja, priča = -1, ""
 
     def git(*a):
-        r = subprocess.run(["git", *a], capture_output=True, text=True)
+        r = subprocess.run(["git", *a], capture_output=True, text=True,
+                           encoding="utf-8", errors="replace")   # git izdiha UTF-8; text=True brez encodinga na Windowsu tiho umre ⊙ padec 41
         return r.returncode, (r.stdout or "")
 
     for vzorec in (PECAT_GREP_MAIN, PECAT_GREP_KONICA):
@@ -498,7 +499,7 @@ def gl_rep(args):
     for pot in args.datoteke:
         blob = _blob_pot(pot)
         r = subprocess.run(["git", "rev-parse", "HEAD:" + pot.replace("\\", "/")],
-                           capture_output=True, text=True)
+                           capture_output=True, text=True, encoding="utf-8", errors="replace")
         rep = (r.stdout or "").strip()
         if r.returncode != 0 or not rep:   # rev-parse ob neznani poti IZPIŠE argument nazaj — sodi po kodi, ne po molku ⊙
             print(f"{pot}: ⟨blob⟩ {blob} · ni na repu ⚠ ( git rev-parse koda {r.returncode} — telo neznano ⟨main⟩ )")
