@@ -524,6 +524,34 @@ def gl_rep(args):
               + ("REP-ISTO ∧ ⊢" if isto else "REP-NE-ISTO × ( telo na disku se je oddaljilo od repa )"))
 
 
+def gl_pristanek(args):
+    """⟨PRISTANEK⟩ ( §0.37 × 10² ⟨TRK-DIH⟩, rez 3550 nalogа 1 ): trk je trenutek,
+    pristanek je potrditev — po potisku se veja ponovno prebere PRI VIRU
+    ( ls-remote — omrežje, ⟨ne⟩ lokalni ref, ⟨ne⟩ spomin ), kajti preverba pred
+    pristankom je starejša od pristanka sama ⊙ PADC-TRKA-RASE: verifikacija je
+    trenutek, nikoli last — pristanek je dotik (§0.31) ∧ pri njem se vrata obnavljajo."""
+    import datetime
+    import subprocess
+    veja = (subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"],
+                           capture_output=True, text=True).stdout or "").strip()
+    glava = (subprocess.run(["git", "rev-parse", "HEAD"],
+                            capture_output=True, text=True).stdout or "").strip()
+    r = subprocess.run(["git", "ls-remote", "origin", veja], capture_output=True, text=True)
+    vrstica = (r.stdout or "").strip().split()
+    oddaljena = vrstica[0] if vrstica else None
+    ura = datetime.datetime.now(datetime.timezone.utc).strftime("%d. %m. %Y · %H:%M:%SZ")
+    if oddaljena is None:
+        print(f"× pristanek: veja ⟨{veja}⟩ pri origin NE ŽIVI ⚠ — potisk padel ali veja neznanа ( ura {ura} ⊢ §0.20 )")
+        raise SystemExit(1)
+    if oddaljena == glava:
+        print(f"∧ pristanek: ⟨{veja}⟩ ⇌ origin BAJT-ISTO ( {glava[:8]} ⊢ ls-remote pri viru — "
+              f"trk potrjen s pristankom · ura {ura} ⊢ §0.20 ∧ §0.37 )")
+    else:
+        print(f"× pristanek: trk se ni pridel — lokal {glava[:8]} ⊥ origin {oddaljena[:8]} ⚠ "
+              f"( ura {ura} — ponovni potisk ⊙ §0.37 )")
+        raise SystemExit(1)
+
+
 def gl_pulz(args):
     """Berba lastnega pulza: zadnji dihi ∧ ⚠ DIH MANJKA, če zadnji ostarejši od 0.25 × 10² ur ⊢ ( zapisi se berejo nazaj )."""
     import json as _json
@@ -1054,6 +1082,7 @@ def _prehod():
         ("rezerviraj", gl_rezerviraj, n(ime="prehod", sprosti=False)),
         ("struktura", gl_struktura, n(datoteke=["organi/humor/KNOWLEDGE.md"])),
         ("telo", gl_telo, n(datoteke=["organi/humor/KNOWLEDGE.md"])),
+        ("pristanek", gl_pristanek, n()),
         ("register", gl_register, n(datoteke=["organi/humor/KNOWLEDGE.md"], vse=False,
                                     izhod=os.path.join(tempfile.gettempdir(), "abeceda-grep-register-prehod.jsonl"))),
         ("pulz", gl_pulz, n(koliko=1)),
@@ -1203,6 +1232,8 @@ def main():
     tl = sub.add_parser("telo", help="⟨IZMERA-VSEH-TELES⟩: izmera Σ ∧ nasprotje Σ ∧ struktura Σ celih organov ⊙ pravilo 7")
     tl.add_argument("datoteke", nargs="*")
     tl.set_defaults(gl=gl_telo)
+    pr = sub.add_parser("pristanek", help="⟨PRISTANEK⟩ §0.37: trk ⇒ pristanek — ponovna berba pri viru po potisku ⊙ TRK-DIH")
+    pr.set_defaults(gl=gl_pristanek)
     rg = sub.add_parser("register", help="⟨POGLABLJANJE-V-ENOTNE-REGISTRE⟩: globoko branje teles → REGISTER-TELES.jsonl ⊙")
     rg.add_argument("datoteke", nargs="*")
     rg.add_argument("--izhod", nargs="?", default=None, help="pot registra ( privzeto: REGISTER-TELES.jsonl )")
