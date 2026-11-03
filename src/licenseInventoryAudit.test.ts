@@ -11,6 +11,7 @@ import {
 import {
   findLicensePathCandidates,
   requireMatchingRepositoryNames,
+  summarizeMissingRootLicenseCandidates,
 } from "./licensePathInventory.js";
 
 const firstCommit = "a".repeat(40);
@@ -274,5 +275,26 @@ test("requireMatchingRepositoryNames accepts moving heads but requires an exact 
         ],
       ),
     /duplicate repository names/u,
+  );
+});
+
+test("summarizeMissingRootLicenseCandidates separates root alternatives from nested leads", () => {
+  assert.deepEqual(
+    summarizeMissingRootLicenseCandidates(
+      [
+        { repository: "root-alt", commit: firstCommit, path: "LICENSE" },
+        { repository: "root-alt", commit: firstCommit, path: "COPYING" },
+        { repository: "nested-only", commit: secondCommit, path: "docs/LICENSE.txt" },
+        { repository: "has-root-license", commit: secondCommit, path: "LICENSE" },
+      ],
+      new Set(["root-alt", "nested-only"]),
+    ),
+    {
+      repositoriesWithCandidates: 2,
+      repositoriesWithRootAlternatives: 1,
+      repositoriesWithNestedOnly: 1,
+      rootAlternativePaths: 2,
+      nestedCandidatePaths: 1,
+    },
   );
 });

@@ -26,6 +26,10 @@ For leads beyond the exact root path, run `npm run audit:license-paths`. It chec
 
 The separate head-and-object audit then rechecked all 54 repositories from `2026-11-03T11:39:55.900Z` to `2026-11-03T11:40:02.310Z`: zero repository/ref/commit mismatches, all 19 recorded root-file objects present and 34 recorded absences unchanged, and all 14 draft objects matched. This confirms those recorded identities during that interval; it does not make the path scan or the repository refs an atomic organization-wide snapshot.
 
+The focused summary added to `audit:license-paths` was measured again from `2026-11-03T11:46:26.333Z` to `2026-11-03T11:47:02.683Z`: among the 34 repositories whose recorded root `LICENSE.md` is absent, 23 had at least one path-name candidate (22 had a root-level alternative name and one had nested candidates only), accounting for 27 root-level and 134 nested candidate paths. These counts reduce the review queue; they do not establish that any candidate is the repository's operative license.
+
+The head-and-object audit repeated immediately afterward, from `2026-11-03T11:47:38.597Z` to `2026-11-03T11:47:43.803Z`, again found zero differences across all 54 repository heads, the 19 present/34 absent root-path records, and the 14 draft objects.
+
 The repeatable check found a new repository, `alien-space-of-science`, after the 10:24 recheck. GitHub GraphQL measured its `main` head as `a55d660de75c99afe9e0948781cdb828fe3798eb` between `2026-11-03T12:16:52.104+01:00` and `2026-11-03T12:16:55.587+01:00`. At that pinned commit, the GitHub Contents API returned 404 for both root `LICENSE.md` and `VBL-10.5.1-KOMPIL-A-DRAFT-NOT-RELEASED.md`; only those exact paths were checked. The repeatable audit should now compare 54 repositories, with 19 readable root files, 34 missing root paths, and one repository without a default branch.
 
 After adding that row, `npm run audit:license-inventory` rechecked all 54 repository names, default branch names, and pinned commit SHAs from `2026-11-03T11:18:54.482Z` to `2026-11-03T11:18:57.744Z`; it reported zero mismatches. This confirms those heads matched during that interval only.

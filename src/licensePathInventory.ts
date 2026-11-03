@@ -2,6 +2,7 @@ import { execFileSync } from "node:child_process";
 import { readFile } from "node:fs/promises";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import {
+  parsePinnedRepositoryFiles,
   parsePinnedRepositoryHeads,
   readRepositoryHeads,
   type RepositoryHead,
@@ -15,6 +16,20 @@ interface GitTreeEntry {
 interface GitTreeResponse {
   truncated?: boolean;
   tree?: GitTreeEntry[];
+}
+
+export interface LicensePathCandidate {
+  repository: string;
+  commit: string;
+  path: string;
+}
+
+export interface MissingRootLicenseSummary {
+  repositoriesWithCandidates: number;
+  repositoriesWithRootAlternatives: number;
+  repositoriesWithNestedOnly: number;
+  rootAlternativePaths: number;
+  nestedCandidatePaths: number;
 }
 
 const LICENSE_BASENAME_PATTERN =
@@ -78,6 +93,44 @@ export function requireMatchingRepositoryNames(
   return current;
 }
 
+export function summarizeMissingRootLicenseCandidates(
+  candidates: LicensePathCandidate[],
+  repositoriesWithoutRootLicense: Set<string>,
+): MissingRootLicenseSummary {
+  const grouped = new Map<string, { root: number; nested: number }>();
+  for (const candidate of candidates) {
+    if (!repositoriesWithoutRootLicense.has(candidate.repository)) {
+      continue;
+    }
+    const counts = grouped.get(candidate.repository) ?? { root: 0, nested: 0 };
+    if (candidate.path.includes("/")) {
+      counts.nested += 1;
+    } else {
+      counts.root += 1;
+    }
+    grouped.set(candidate.repository, counts);
+  }
+
+  const counts = [...grouped.values()];
+  const withRootAlternatives = counts.filter((entry) => entry.root > 0);
+  const nestedOnly = counts.filter(
+    (entry) => entry.root === 0 && entry.nested > 0,
+  );
+  return {
+    repositoriesWithCandidates: grouped.size,
+    repositoriesWithRootAlternatives: withRootAlternatives.length,
+    repositoriesWithNestedOnly: nestedOnly.length,
+    rootAlternativePaths: withRootAlternatives.reduce(
+      (total, entry) => total + entry.root,
+      0,
+    ),
+    nestedCandidatePaths: counts.reduce(
+      (total, entry) => total + entry.nested,
+      0,
+    ),
+  };
+}
+
 function readRepositoryTree(repository: string, commit: string): GitTreeEntry[] {
   const response = JSON.parse(
     execFileSync(
@@ -109,6 +162,7 @@ async function main(): Promise<void> {
     "utf8",
   );
   const heads = parsePinnedRepositoryHeads(markdown);
+  const fileEvidence = parsePinnedRepositoryFiles(markdown);
   if (heads.size !== 54) {
     throw new Error(`Expected 54 repository rows, found ${heads.size}`);
   }
@@ -117,7 +171,7 @@ async function main(): Promise<void> {
     readRepositoryHeads(),
   );
 
-  const candidates: Array<{ repository: string; commit: string; path: string }> = [];
+  const candidates: LicensePathCandidate[] = [];
   let scannedRepositories = 0;
   let repositoriesWithoutDefaultBranch = 0;
   for (const head of currentHeads) {
@@ -140,6 +194,21 @@ async function main(): Promise<void> {
   console.log("Repository names are required to match LICENSE-TONGUES.md; each path row includes the measured head commit SHA.");
   console.log(
     "Candidates are path-name matches only; this scan does not read file contents or determine legal effect.",
+  );
+  const repositoriesWithoutRootLicense = new Set(
+    [...fileEvidence]
+      .filter(
+        ([, evidence]) =>
+          evidence.commit !== null && evidence.rootLicenseBlob === null,
+      )
+      .map(([repository]) => repository),
+  );
+  const summary = summarizeMissingRootLicenseCandidates(
+    candidates,
+    repositoriesWithoutRootLicense,
+  );
+  console.log(
+    `Among ${repositoriesWithoutRootLicense.size} repositories with no recorded root LICENSE.md: ${summary.repositoriesWithCandidates} have name-matched candidates (${summary.repositoriesWithRootAlternatives} with root-level alternatives, ${summary.repositoriesWithNestedOnly} with nested candidates only); ${summary.rootAlternativePaths} root-level and ${summary.nestedCandidatePaths} nested paths.`,
   );
   for (const candidate of candidates) {
     console.log(
