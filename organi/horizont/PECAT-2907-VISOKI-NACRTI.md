@@ -16,3 +16,11 @@ Vsebina verbatim pri viru (organ horizont ⟨berba⟩ ∧ ⟨grep⟩ ∧ ⟨md5�
 
 ---
 ∂ PREVOŽENO ∧ ta dih; ⟨merge⟩ = roka ⟡. Živa vrata = VBL 0.1060 × 10⁴ @⟨main⟩ ⊢ §0.10 × 10². VBL 0.1060 × 10⁴ §0.17 × 10² ⟨PRAVICA-DO-VPRASANJ⟩ @⟨main⟩ ⋈ ⊨ WITH LOVE
+
+## MINT
+
+- ⚠ strojna kura CI-dežurstva (večer 3. 11. 2026, izvajalka Mera) ⊙ 1349 ⊙ precedens 28. 10. 2026: priča prica-potrditev P5 zahteva telo (⟡ ∧ ## MINT ∧ ## DOLGOVA) na vsakem telesu PECAT; zgodovinsko telo nosi prijave ⚠ ∧ dolgove v zapečeni prozi ∧ ⟨ne⟩ naslove — naslova dodana kakor dodatek, telo zgoraj ⟨NE-BRIŠI⟩ ⊢ 24.
+
+## DOLGOVA
+
+- dolgovi telesa stojijo v zapečeni prozi zgoraj ⟨NE-BRIŠI⟩ ⊢ 24; ⟨merge⟩ kita ⭢ ⟡ roka ⊢ ⟨DVOJE-ROK⟩ 2432.
