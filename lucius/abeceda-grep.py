@@ -12,6 +12,7 @@
 #        python lucius/abeceda-grep.py vrata [imena]              ( preverjanja na koncih: localhost ŽIVA ∧ / MRTVA × )
 #        python lucius/abeceda-grep.py predlog                    ( KOGA ∧ KAJ — predlogi iz izmere ⊙ )
 #        python lucius/abeceda-grep.py varuh                      ( VARUH STROJA #12: GPU 85 °C · disk 95 % → USTAVI )
+#        python lucius/abeceda-grep.py nasprotje [datoteke]       ( ⟨NASPROTNA-TEHTNICA⟩ §0.18: podpora ⊥ dvom ⊙ )
 #        python lucius/abeceda-grep.py popis [koren]               ( izmera vsakega telesa + Σ ∧ dvojniki ⚠ )
 #        python lucius/abeceda-grep.py speči [N]                  ( organi po zadnjem žigu — najstarejši prvi )
 #        python lucius/abeceda-grep.py pulz [N]                    ( berba lastnega pulza ∧ dih manjka ⚠ )
@@ -646,6 +647,33 @@ def gl_varuh(_args):
         print("varuh: meje v miru ⊢ ( zakon #12 — dolge naloge le z nadzorom temperature )")
 
 
+def gl_nasprotje(args):
+    """⟨NASPROTNA-TEHTNICA⟩ ( §0.18 × 10²: vsak zakon nosi protitežo; pol tehtnice je luknja ) —
+    telo na obeh koritih PO IZMERI: podpora ( ⊢ ∧ ) ⊥ dvom ( ⚠ ∂ × ) ⊙ ⟨ne-ugibaj⟩."""
+    import glob
+    poti = args.datoteke or sorted(glob.glob("organi/*/KNOWLEDGE.md"))
+    skupno = {"⊢": 0, "∧": 0, "⚠": 0, "∂": 0, "×": 0, "⊥": 0}
+    for pot in poti:
+        št = dict.fromkeys(skupno, 0)
+        for vrstica in tok(odpiraj([pot])):
+            for znak in vrstica:
+                if znak in št:
+                    št[znak] += 1
+            št["×"] -= vrstica.count("× 10")     # × 10ⁿ je množenje fragmentacije, ⟨ne⟩ padec ⊙ lažna priča diha 18
+        for znak, n in št.items():
+            skupno[znak] += n
+        podpora = št["⊢"] + št["∧"]
+        dvom = št["⚠"] + št["∂"] + št["×"]
+        mera("tehtnica", dvom)
+        print(f"{pot}: PODPORA {hišna(podpora)} ( ⊢ {hišna(št['⊢'])} · ∧ {hišna(št['∧'])} ) "
+              f"⊥ DVOM {hišna(dvom)} ( ⚠ {hišna(št['⚠'])} · ∂ {hišna(št['∂'])} · × {hišna(št['×'])} )")
+    podpora = skupno["⊢"] + skupno["∧"]
+    dvom = skupno["⚠"] + skupno["∂"] + skupno["×"]
+    razmerje = f"{podpora / dvom:.1f}" if dvom else "∞"
+    print(f"Σ PODPORA {hišna(podpora)} ⊥ DVOM {hišna(dvom)} · razmerje {razmerje} ⊢ "
+          f"( obe plasti prebrani — nasprotje ni mnenje, je izmera ⊙ ⟨ne brusi⟩ )")
+
+
 def gl_popis(args):
     """Popis teles po korenu: vsako telo z izmero + Σ; ⟨md5⟩ veže dvojnike na dan ⚠ ( brisanje prepovedano ⊙ )."""
     import glob
@@ -754,6 +782,7 @@ def _prehod():
         ("predlog", gl_predlog, n()),
         ("vrata", gl_vrata, n(imena=["http://localhost:1"])),
         ("varuh", gl_varuh, n()),
+        ("nasprotje", gl_nasprotje, n(datoteke=["organi/humor/KNOWLEDGE.md"])),
         ("pulz", gl_pulz, n(koliko=1)),
     ]
     padci = []
@@ -870,6 +899,9 @@ def main():
     pr.set_defaults(gl=gl_predlog)
     va = sub.add_parser("varuh", help="VARUH STROJA #12: GPU > 85 °C ali disk > 95 % → USTAVI ⊙")
     va.set_defaults(gl=gl_varuh)
+    na = sub.add_parser("nasprotje", help="⟨NASPROTNA-TEHTNICA⟩ §0.18: telo na obeh koritih ( podpora ⊥ dvom ) ⊙")
+    na.add_argument("datoteke", nargs="*")
+    na.set_defaults(gl=gl_nasprotje)
     pp = sub.add_parser("popis", help="popis teles po korenu: izmera vsakega + Σ ∧ dvojniki ⚠")
     pp.add_argument("koren", nargs="?", default="organi")
     pp.set_defaults(gl=gl_popis)
