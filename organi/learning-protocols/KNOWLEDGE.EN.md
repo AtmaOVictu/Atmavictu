@@ -5,6 +5,13 @@ description: English transcreation (gloss body) of Luka's durable learning and c
 
 # Learning Protocols — ENGLISH TRANSCREATION
 
+## Current state (STANJE-CESTA — updates since the gloss was written)
+
+- **Durable learning and communication preferences for Luka** — includes the etymology protocol and the inquiry patterns. The Slovenian body (KNOWLEDGE.md) is authoritative. <!-- confidence: rez 1452 -->
+- Current seal: **rez 3515 RESINTEZA-DOTIK-ORGANA** (2026-10-28, breath 38 — measure: 115 lines · 87,679 B · counterweight **4.7 ⊢ — the strongest ratio of the whole resinteza wave**: the protocols of learning carry doubt most lightly). <!-- confidence: rez 3515 -->
+- Sections of the Slovenian body: STANJE-CESTA · ZAKONI (full bodies in the geniza) · KAZALO (compressed tips — full names and headwords in the geniza) · ∂ ODPRTA (visible supply) · GENIZA (where the full bodies live — reachable, unseen) · PEČAT 1452 (decompression, 2026-10-10). <!-- confidence: section headers measured 2026-11-03 -->
+
+
 **Correspondence map:** all numbered laws preserved with their dates, sealer-stamps, and § references; Slovenian law-names kept verbatim with English gloss on first use; every absolute carries its own anti-totalization guard as in the original. **Ledger (compulsory categories):** Slovenian dual verbs of the working pair (`sva`, `imeva`) collapse to "we" in English — marked `[dual: collapsed]` where the pair-voice matters; Slovenian aspect pairs and the verbless absolutive style noted as `[aspect: paraphrased]` where they occurred.
 
 ## Etymology Protocol (Absolute)

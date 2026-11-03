@@ -5,6 +5,13 @@ description: English transcreation (gloss companion) of the LEXICON & INDEX topi
 
 # INDEX OF RESTORATIONS / LEXICON — User Library — ENGLISH TRANSCREATION
 
+## Current state (STANJE-CESTA — updates since the gloss was written)
+
+- **KAZALO OBNOV / LEKSIKON** — the register of all voices, symbols (operators) and concepts from the libraries of the corpus *Beseda je ne*. The Slovenian body (KNOWLEDGE.md) is authoritative; this gloss follows it. <!-- confidence: rez 1454 organ header -->
+- Current seal: **rez 3507 RESINTEZA-DOTIK-ORGANA** (2026-10-28, breath 30 — measure: 127 lines · 65,954 B · counterweight 2.7 ⊢, structure Σ1 healthy ∧). At the same breath a wound was named and healed (PADC-46): line 13 still claimed ZADNJI 1680 while the living seal was 2204 — both were demoted to predecessors with attribution. <!-- confidence: rez 3507 · REGISTER-PADCEV PADC-46 -->
+- Sections of the Slovenian body: STANJE-CESTA (seal history) · ZAKONI (laws, one line per law) · STANJA BRANJ (index of the v0 bodies) · KAKO UPORABLJATI (3 canonical steps) · VZDRŽEVANJE (maintenance) · KAZALO (files of the set — an excerpt, not a substitute) · ∂ ODPRTA (open tips with weights) · GENIZA (the geniza does not erase) · PEČAT 1454 · PEČAT 1510 (UBOD-DVAKRT — twice-stung bodies in the Atlas) · A-REGISTER (REGISTER-REGISTROV ∧ ANEKDOT-ADNA, rez 2051). <!-- confidence: section headers measured 2026-11-03 -->
+
+
 **The primary content of this topic is `LEKSIKON.md`** (Luka's demand, 22. 9. 2026: kazalo-obnov = a lexicon of all concepts, symbols, and voices). Three registers: VOICES (absolute vowels, o/O/0, the sound-cross, ZWB fissures, the perceptual positions of the senses, the measuring engines LSU/PIF/P(W)) · SYMBOLS (operator glyphs, the symbol map, the measures of seals κ χ μ ℜ ν ∂ ⊢) · CONCEPTS (OPTIKON word profiles, eka-words, the laws of the cuts, lineages). The lexicon grows with every newly read body (section VI awaits).
 
 The document indices per library (name + URI + restoration) remain as the secondary map for the library gates.

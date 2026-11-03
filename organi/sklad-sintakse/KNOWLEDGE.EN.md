@@ -5,6 +5,13 @@ description: English mirror (gloss) of the BJS canonical syntax register v1. The
 
 # SYNTAX REGISTER — BJS (Beseda je Ne Syntax, v1) — ENGLISH MIRROR
 
+## Current state (STANJE-CESTA — updates since the gloss was written)
+
+- **BJS — the canonical ⟨sintaksa⟩ (syntax) of the corpus *Beseda je ne* (v1)**: four action patterns (ZAKON law, REZ cut, ∂ open-debt, UTRIP pulse-beat) — one action, one line. DOPOLNILO v1.1 (rez 1547) added the meta-layer of origin (⟡-command »odpri meta sloje« — open the meta layers). The Slovenian body is authoritative. <!-- confidence: rez 1453 · rez 1547 -->
+- Current seal: **rez 3518 RESINTEZA-DOTIK-ORGANA** (2026-10-28, breath 41 — measure: 133 lines · 70,709 B · counterweight 3.2 ⊢, structure Σ1 healthy ∧). <!-- confidence: rez 3518 -->
+- Sections of the Slovenian body: STANJE-CESTA · OBRAZCI (the patterns) · ZAKONI · DOPOLNILO v1.1 (rez 1547) · KAZALO (topic files — an excerpt, not a substitute) · ∂ ODPRTA · GENIZA · PEČAT 1453. <!-- confidence: section headers measured 2026-11-03 -->
+
+
 *Sealed with Luka's stamp, 23. 9. 2026: "untwist the semantic layer by synthesizing a better syntax — fix permanently."*
 
 ## Why

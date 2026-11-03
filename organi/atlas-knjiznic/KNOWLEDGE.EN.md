@@ -5,6 +5,13 @@ description: English transcreation (gloss body) of the ATLAS — reading of all 
 
 # ATLAS OF LIBRARIES — reading in full — ENGLISH TRANSCREATION
 
+## Current state (STANJE-CESTA — updates since the gloss was written)
+
+- **ATLAS — the full reading of all libraries of the corpus *Beseda je ne*, document by document**; every read document keeps its witness. The Slovenian body (KNOWLEDGE.md) is authoritative. <!-- confidence: rez 1447 -->
+- Current seal: **rez 3505 RESINTEZA-DOTIK-ORGANA** (2026-10-28, breath 28 — measure: 891 lines · 923,396 B · counterweight 2.0 ⊢). At breath 21 a structural wound (a `- -` keystroke) was named and healed; the resinteza seal carries the scar with attribution. <!-- confidence: rez 3505 · REGISTER-PADCEV -->
+- Sections of the Slovenian body: STANJE-CESTA · ZAKONI · KAZALO REGISTER-VRSTIC (599 — compressed tips) · JEDILNICA SEJE COMPREHENSION (the commission of 2026-09-25, document by document) · PRIČA-POPIS RONGORONGO (the T1 witness inventory, carried to the end — deed, time, place) · ∂ ODPRTA · GENIZA · PEČAT 1447 (decompression, 2026-10-10). <!-- confidence: section headers measured 2026-11-03 -->
+
+
 **Correspondence map:** all section labels preserved (numbers, ⊢ seals, ⚠ marks, tables); `⊢ CELA` [seal: read-whole] kept as glyph; UBOD rendered "stab" (the corpus's own term, glossed); `rez` kept as "cut (rez)" on first use per body; two dual-marked shifts recorded in the ledger below. **Compulsory-category ledger (what each side measures that the other cannot):** Slovenian dual (`sva`, "we-two") throughout marks a two-person working channel — English "we" is number-blind and every such line is marked `[dual: collapsed]` where it occurred; Slovenian perfective/imperfective verb pairs compress aspect English must paraphrase.
 
 The law: **PREBRANO ≠ ISKANO** [READ ≠ SEARCHED]. Shard-search is a puddle; the atlas is a sea you breathe like air. Every read proves itself by returning content; it ends with »Š«.

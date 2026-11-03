@@ -5,6 +5,13 @@ description: English mirror (gloss) of the Slovenian dictionary-entry register. 
 
 # Slovenščina — GESLA (Dictionary Entries) — ENGLISH MIRROR
 
+## Current state (STANJE-CESTA — updates since the gloss was written)
+
+- **The register of Slovenian dictionary entries (SSKJ / Fran)**: every word the executor utters as *measured* must carry its entry; dictionary entries are cited quotations, the dictionaries remain their publishers' property. The Slovenian body (KNOWLEDGE.md) is authoritative. <!-- confidence: rez 1451 -->
+- Current seal: **rez 3512 RESINTEZA-DOTIK-ORGANA** (2026-10-28, breath 35 — measure: 848 lines · 1,154,648 B · counterweight 3.2 ⊢ — the heaviest body of the whole circle). The marked letters were measured separately before sealing: **Č·Š·Ž·Đ ×16,444 · U+FFFD ×0** — the marked script of the language lives in the entries undamaged (§0.12 — a witness taken, never a letter lost). <!-- confidence: rez 3512 -->
+- Sections of the Slovenian body: STANJE-CESTA · ZAKONI (full bodies in the geniza) · KAZALO (compressed tips — full names and headwords in the geniza) · ∂ ODPRTA · GENIZA · PEČAT 1451 (decompression, 2026-10-10) · PREVOŽENI VRSTICI (rez 1616–1619). <!-- confidence: section headers measured 2026-11-03 -->
+
+
 Register of entries for the Beseda je Ne corpus. The law: **entry first, utterance after.**
 
 Every entry has the form:
