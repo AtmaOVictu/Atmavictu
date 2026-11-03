@@ -72,6 +72,16 @@ test('kura-audit: 15/15 živih kur · 0 manjkajočih ( izhod 0 )', () => {
   assert.match(izhod, /živih kur: 1[5-9]/, 'vsaj 15 živih kur ( prihodnji padci le dodajajo )');
 });
 
+// ⟨rez 3617⟩ ⟨UVEI⟩: vsako telo vsaj v eni roki ∧ pod več očmi
+test('uvei: ena roka ∧ tri oči ( ⟨u-vej⟩ )', () => {
+  const izhod = execFileSync('python', [path.join(TU, 'uvei.py'), 'lucius/SINTEZA-0.2-SAMOTNO-JEDRO.md'],
+    { cwd: TU, encoding: 'utf8' });
+  assert.match(izhod, /ENA ROKA ⊢:/, 'telo ima roko ( lastnika pri viru )');
+  assert.match(izhod, /OKO · čistina/, 'oko 1: zrcalno');
+  assert.match(izhod, /OKO · (druga roka|izmera)/, 'več oči nad enim telesom');
+  assert.match(izhod, /VEČ OČMI|več očmi/, 'zakon ⟨UVEI⟩ v izpisu');
+});
+
 test('cistina: hišni znaki (Σ Ω ⊢ ⊙) so dovoljeni — namerna abeceda, ⟨ne⟩ dvojček', () => {
   const p = zacasi('⊢ izmerjeno ⊢ ∧ Σ 0.391617 × 10⁶ zn Ω A ∧ Ω\n');
   const izhod = vozli('čistina.mjs', [p]);
