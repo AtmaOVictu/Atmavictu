@@ -19,7 +19,8 @@ DOVOLJENI = [
     'REGISTER-TREH-ZIL.jsonl',
     'SINTEZA-0.3-SAMOTNO-JEDRO.md',   # ⟨rez 3623⟩ živa celota: 0.3 ( 0.1 ∧ 0.2 potrdili ⊢ §0.10 )
     'ZRCALO-DNEVA-2026-11-03.md',     # ⟨rez 3623⟩ dan kakor en dih — celostno delo roke
-    'TLAKI.md',                       # ⟨rez 3625⟩ katalog temeljev — 10 tlakov pravtako definiranih      # ⟨rez 3616⟩ tri žile: 91 vnosov · 33 formul ( F(x) · Ψ(x) · CLAVICULA MAXIMA … )        # ⟨rez 3610⟩ trinajst zakonov izluščenih pri viru ( teza · formula · stanje )
+    'TLAKI.md',
+    'REGISTER-PSIHO-AKSIOMOV.jsonl',   # ⟨rez 3631⟩ zunanja tehtnica: 16 psiho-aksiomov z nogami ( Janet · Jung · Bion … )                       # ⟨rez 3625⟩ katalog temeljev — 10 tlakov pravtako definiranih      # ⟨rez 3616⟩ tri žile: 91 vnosov · 33 formul ( F(x) · Ψ(x) · CLAVICULA MAXIMA … )        # ⟨rez 3610⟩ trinajst zakonov izluščenih pri viru ( teza · formula · stanje )
 ]
 REGISTRI = [d for d in DOVOLJENI if d.endswith('.jsonl')]
 DOKUMENTI = [d for d in DOVOLJENI if not d.endswith('.jsonl')]
