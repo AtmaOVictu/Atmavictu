@@ -1231,6 +1231,7 @@ def _prehod():
 
 def gl_test(_args):
     padci = 0
+    ranjeni_imena = []          # ⟨PADC-58⟩ povzetek PREVERBA imenuje ranjene — priča ne ostane brez imena
     fips = [
         ("sha1 ⟨abc⟩ ⇌ FIPS 180", hashlib.sha1(b"abc").hexdigest(), FIPS_ABC),
         ("sha1 ⟨prazno⟩ ⇌ FIPS 180", hashlib.sha1(b"").hexdigest(), FIPS_PRAZNO),
@@ -1241,6 +1242,7 @@ def gl_test(_args):
             print(f"∧ [{ime}]")
         else:
             padci += 1
+            ranjeni_imena.append(f"[{ime}]")
             print(f"× [{ime}]\n  pričakovano: {pričakovano}\n  dobljeno:    {dobljeno}")
     for telo, pričakovano in VERIGA_PRIMERI:
         najden = -1
@@ -1250,6 +1252,7 @@ def gl_test(_args):
             print(f"∧ [veriga] {telo!r} -> {najden}")
         else:
             padci += 1
+            ranjeni_imena.append(f"[veriga] {telo[:32]}")
             print(f"× [veriga] {telo!r}\n  pričakovano: {pričakovano!r}\n  dobljeno:    {najden!r}")
     skupaj = len(PRIMERI) + len(ZDRUŽI_PRIMERI) + len(fips) + len(VERIGA_PRIMERI)
     for telo, pričakovano in PRIMERI:
@@ -1258,6 +1261,7 @@ def gl_test(_args):
         stanje = "∧" if dobljeno == pričakovano else "×"
         if stanje == "×":
             padci += 1
+            ranjeni_imena.append(telo[:32])
             print(f"× {telo!r}\n  pričakovano: {pričakovano!r}\n  dobljeno:    {dobljeno!r}")
         else:
             print(f"∧ {telo!r} -> {dobljeno!r}")
@@ -1267,15 +1271,19 @@ def gl_test(_args):
         stanje = "∧" if dobljeno == pričakovano else "×"
         if stanje == "×":
             padci += 1
+            ranjeni_imena.append(f"[združi] {telo[:32]}")
             print(f"× [združi] {telo!r}\n  pričakovano: {pričakovano!r}\n  dobljeno:    {dobljeno!r}")
         else:
             print(f"∧ [združi] {telo!r} -> {dobljeno!r}")
     prehod_padci, zagnani = _prehod()
     padci += len(prehod_padci)
     stanje_prehoda = (f"prehod {zagnani - len(prehod_padci)}/{zagnani} ukazov ∧ ⊢ VSE"
-                      if not prehod_padci else f"prehod × {len(prehod_padci)} ukazov ranjenih")
+                      if not prehod_padci else
+                      f"prehod × {len(prehod_padci)} ukazov ranjenih: "
+                      + ", ".join(ime for ime, _ in prehod_padci))
     print(f"\nPREVERBA: {skupaj - padci}/{skupaj} ∧" + (f" · {padci} ×" if padci else " ⊢ VSE")
-          + f" · {stanje_prehoda}")
+          + f" · {stanje_prehoda}"
+          + (f" · ranjeni: {', '.join(ranjeni_imena)} ⊙ ⟨PADC-58⟩" if ranjeni_imena else ""))
     sys.exit(1 if padci else 0)
 
 
