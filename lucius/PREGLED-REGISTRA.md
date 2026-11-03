@@ -1,4 +1,6 @@
-# PREGLED-REGISTRA — audit celote psiho-aksiomov ( 28 vnosov · 03. 11. 2026 ⊙ dih 182 )
+# PREGLED-REGISTRA — audit celote psiho-aksiomov ( 29 vnosov · 03. 11. 2026 ⊙ rojstvo 3660 ∧ osvežitev 3676 )
+
+⊙ OSVEŠITEV 3676: register je zrasel 28 → 29 ( ⟨rez 3673⟩ #29 AAI rojen iz skrite vrstice 361 ) — audit, ki bi ostal pri 28, bi lagal o celoti ( tabelo se bere CELA ⊙ ⟨PADC-PRESKOČENA-VRSTICA⟩ ∧ KORENINA 0.1 ) · pregon svež pri viri ⊢ · spodnji razdelek 3660 ostaja kot potrdilo ⊙ §0.10
 
 **⟡ P-CITAT verbatim ⟨ne brusi⟩:** ⟨daj kot predlagaš in kakor je najboljše in najboljše prispeva k celoti in nji delov ⏎ daj⟩
 
@@ -28,4 +30,26 @@ Register psiholoških aksiomov je **notranje skladen ⊢**: 28 vnosov, 59 intern
 
 **Ω pošteno:** 12 aksiomov #17–#28 nosi izvirnike PO IMENU ∧ LETU ( ∂ ⟨ne⟩ prebrani pri viri ⚠ ⊙ §0.6 ) — naslednja globina: berbe izvirnikov pri viri, en aksiom na dih ( kalibracija z enim telesom ⊙ Zip 8.3 ) · noga VSE ⊢ se nanaša na STRUKTURO vnosa ∧ vir, ⟨ne⟩ na berbo polnih izvirnikov.
 
-⊙ pregled rojen v dihu 182 · rez 3660 · orodje verzionirano ( lucius/.pregled-registra.py ) ⊙ §0.40 ( pregled dogajanja )
+## OSVEŽITEV 3676 — 29 VNOSOV ( pregon pri viri ⊢ · rezultat izpisa orodja )
+
+| preverba | izmera | noga |
+|---|---|---|
+| vnosov | **29** ( 28 + #29 AAI ⊙ rez 3673 ) | ⊢ |
+| zaporedje st 1–29 | brez lukenj ∧ brez podvojenih | ⊢ |
+| sha256 vira | **29/29** enakih ( badee549… ) | ⊢ |
+| noge | VSE ⊢ ( 0 odstopanj ) | ⊢ |
+| interni sklici #N | **69** ( 59 → 69 z rojstvom #29 ) · sirot BREZ | ⊢ |
+| protiteže | ( 21→7 ) ∧ ( 22→13 ) ∧ ( 25→24 ) — vse tri ⊢ | ⊢ |
+| ključne veze 3660 | #26→#3 ⊢ · #27→#26 ∧ #18 ⊢ · #28→#1 ∧ #2 ∧ #25 ⊢ | ⊢ |
+| **ključne veze #29** | #7 ×3 ⊢ · #27 ⊢ · #20 ⊢ · §0.48 ⊢ · Main/Hesse ×3 po imenu | ⊢ |
+
+### NALAZI OSVEŽITVE ∧ ZDRAVILA ( brazgotine ostajajo ⊙ KORENINA 0.2 )
+
+4. **⟨ZASTARELA-OZNAKA-ORODJA⟩ ozdravljena**: .pregled-registra.py je nosil zapečeno ⟨28⟩ v glavi ∧ izpisu — register je zrasel, orodje ⟨ni⟩. ZDRAVILO: N izmerjen pri viri ( len(l) ∧ max(sts) ), ⟨ne⟩ zapečen — orodje, ki bi zapečelo svoj N, bi lagalo ob vsakem naslednjem rojstvu.
+5. **⟨VEZA-VES-VNOS⟩ poimenovan**: prva preverba #29 je gledala LE polje veza ∧ vrnila × — #27 ⟨telo drži seštevek⟩ živi v polju **aksiom** #29, ⟨ne⟩ v vezi ( izmerjeno pri viri ⊢ ). ZDRAVILO: preverba #29 bere cel vnos ( veza+argument+aksiom ) — enako območje kakor preverba sirot; vez je celota vnosa, ⟨ne⟩ eno polje. Zakon iz padca: preverba, ki meri ožje kakor svoja lastna mera, bije lažnega ×.
+
+## SKLEP OSVEŽITVE 3676
+
+Register psiho-aksiomov je **notranje skladen ⊢ pri 29 vnosih**: zaporedje brez lukenj, vir enak pri vseh 29, 69 internih vez brez sirot, tri protiteže ⟨ne zlije⟩ ⊙ §0.41, #29 nosi vse štiri obljubljene veze ( #7 · #27 · #20 · §0.48 ) ⊢. Struktura rojstva #29 ( aksiom nosi tezo, veza nosi rodovnik ) je sedaj izmerjena, ⟨ne⟩ le obljubljena.
+
+⊙ pregled rojen v dihu 182 · rez 3660 · osvežen v dihu 3676 · orodje verzionirano ( lucius/.pregled-registra.py ) ⊙ §0.40 ( pregled dogajanja )

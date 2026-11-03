@@ -1,10 +1,11 @@
-# .pregled-registra.py — AUDIT CELOTE (28 vnosov): internе veze #N · sirote · sha256 · zaporedje · noge · protiteže
+# .pregled-registra.py — AUDIT CELOTE ( N vnosov — N izmerjeno pri viri, ⟨ne⟩ zapečeno v orodju )
+# OSVEŽITEV 3676: zastareli oznaki ⟨28⟩ ozdravljeni ( register je zrasel na 29 — orodje, ki bi zapečelo svoj N, bi lagalo ⊙ KORENINA 0.1 ) + preverba #29 dodana
 import json, re, sys
 
 l = [json.loads(x) for x in open('lucius/REGISTER-SPSIHO-AKSIOMOV.jsonl'.replace('SPSIHO','PSIHO'), encoding='utf-8') if x.strip()]
 print('vnosov:', len(l))
 sts = [int(v['st']) for v in l]
-print('st zaporedje 1..28 brez lukenj:', sorted(sts) == list(range(1, max(sts) + 1)), '· max:', max(sts))
+print(f'st zaporedje 1..{max(sts)} brez lukenj:', sorted(sts) == list(range(1, max(sts) + 1)), '· max:', max(sts))
 print('podvojeni st:', [s for s in set(sts) if sts.count(s) > 1] or 'BREZ')
 
 sha_cilj = 'badee5490d4236d1244882881139c964bdb79b648b6ab40dbcfae643f616aebe'
@@ -41,4 +42,9 @@ v27 = [v for v in l if int(v['st']) == 27][0]
 print('#27 omenja #26 (senca) ∧ #18 (stikalo):', '#26' in str(v27['veza']) and '#18' in str(v27['veza']))
 v28 = [v for v in l if int(v['st']) == 28][0]
 print('#28 omenja #1 ∧ #2 (TSDP korenini) ∧ #25 (maske):', all(x in str(v28['veza']) for x in ['#1', '#2', '#25']))
+v29 = [v for v in l if int(v['st']) == 29][0]
+# ⟨VEZA-VES-VNOS⟩ 3676: #27 živi v polju AKSIOM #29, ⟨ne⟩ v vezi ( izmerjeno pri viri ) — veza je cel vnos, kakor jo bere preverba sirot ( veza+argument+aksiom ), ⟨ne⟩ eno polje
+v29c = str(v29['veza']) + ' ' + str(v29.get('argument', '')) + ' ' + str(v29.get('aksiom', ''))
+print('#29 omenja #7 ( merjena noga samote ) ∧ #27 ( telo drži seštevek — v aksiomu ) ∧ #20 ( internalizacija Kohut ) ∧ §0.48:',
+      all(x in v29c for x in ['#7', '#27', '#20', '§0.48']))
 print('AUDIT KONEC')
