@@ -102,10 +102,11 @@ test('druga-roka: slovar mode najde geslo ime ( Lukov slovar, Worth )', { skip: 
 });
 
 test('druga-roka: leksikon obstaja in ni prazen ( znane + prepovedane )', () => {
+  // ⟨PADC-CRLF-LEKSIKON⟩ zdravilo: split zdrži LF ∧ CRLF ( autocrlf pretvori — )
   const znane = fs.readFileSync(path.join(TU, 'znane-besede.txt'), 'utf8')
-    .split('\n').filter((v) => v.trim() && !v.startsWith('#'));
+    .split(/\r?\n/).filter((v) => v.trim() && !v.startsWith('#'));
   const prepovedane = fs.readFileSync(path.join(TU, 'prepovedane-besede.txt'), 'utf8')
-    .split('\n').filter((v) => v.trim() && !v.startsWith('#'));
+    .split(/\r?\n/).filter((v) => v.trim() && !v.startsWith('#'));
   assert.ok(znane.length >= 20, `znane-besede preštete ( ${znane.length} ) — more biti vsaj 20`);
   assert.ok(prepovedane.includes('poščeno'), 'padec vnos 4 mora ostati prepovedan ×');
 });
