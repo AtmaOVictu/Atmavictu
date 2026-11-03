@@ -65,6 +65,8 @@ The same file path and exact bytes were re-measured at the default refs of 14 re
 
 Identical copies prove byte identity at measurement, not release, authorship authority, review, or a grant. Do not treat VBL 10.5.1 as the living license or as a translation; only an intentional, evidenced publication in the canonical source history can change that status (§0.10 × 10², §0.47 × 10²).
 
+Comparing the two measured inventories at those refs: all 14 draft-copy repositories also have a root `LICENSE.md` in the first table — two are the VBL 0.1410 copies and twelve are the encoded VBL 0.1300 copies. The other two repositories with an encoded VBL 0.1300 root file, `Slovenian-Language-Technologies-Overview` and `Podpora`, are not in the measured draft-copy set. This is only a comparison of the listed files at their observed default refs, not evidence that the files are used together or that a draft supersedes a root license.
+
 Safe follow-up sequence: re-check each repository's current default ref and root-file blob before acting; determine whether the file is intended as a license, an encoded archival copy, or an unrelated project license; then propose changes only for repositories whose maintainers and intended licensing are established. Do not bulk-replace the older VBL copies or the three other license texts based only on this inventory.
 
 ## Das Gesetz des Kranzes / zakon venca / the law of the wreath

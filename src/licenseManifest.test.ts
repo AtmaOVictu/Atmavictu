@@ -349,6 +349,13 @@ test("cross-repository draft inventory records each measured repository ref and 
   const draftRows = inventory
     .split(/\r?\n/u)
     .filter((line) => line.includes("/VBL-10.5.1-KOMPIL-A-DRAFT-NOT-RELEASED.md)"));
+  const rootLicenseRows = inventory
+    .split(/\r?\n/u)
+    .filter((line) =>
+      /^\| \[[^\]]+\]\(https:\/\/github\.com\/AtmaOVictu\/[^/]+\/blob\/[^/]+\/LICENSE\.md\)/u.test(
+        line,
+      ),
+    );
   const expectedDefaultRefs = {
     Atmavictu: "main",
     CanvasMinstral: "master",
@@ -385,4 +392,43 @@ test("cross-repository draft inventory records each measured repository ref and 
     assert.equal(match[7], "12bfaddf1fa471525ede7f99510eb93335cac994");
   }
   assert.match(inventory, /52,169 bytes, SHA-256 `dac171ccf3d526b82a16ca28462002cc05c5d8b46e4d3dadfb1e3ace7e171d60`/u);
+
+  const draftRepositories = new Set(
+    draftRows.flatMap((row) => {
+      const match = row.match(/^\| \[([^\]]+)\]/u);
+      return match?.[1] ? [match[1]] : [];
+    }),
+  );
+  const draftRootLicenseClasses = rootLicenseRows.flatMap((row) => {
+    const match = row.match(/^\| \[([^\]]+)\].+\| ([^|]+) \| `[a-f0-9]{40}` \|$/u);
+    return match?.[1] && match[2] && draftRepositories.has(match[1])
+      ? [[match[1], match[2].trim()] as const]
+      : [];
+  });
+  assert.equal(draftRootLicenseClasses.length, 14);
+  assert.equal(
+    draftRootLicenseClasses.filter(([_, classification]) =>
+      classification.startsWith("VBL 0.1410"),
+    ).length,
+    2,
+  );
+  assert.equal(
+    draftRootLicenseClasses.filter(([_, classification]) =>
+      classification.startsWith("VBL 0.1300"),
+    ).length,
+    12,
+  );
+  assert.deepEqual(
+    rootLicenseRows.flatMap((row) => {
+      const match = row.match(/^\| \[([^\]]+)\]/u);
+      return match?.[1] &&
+        match[1] !== "Atmavictu" &&
+        match[1] !== "CanvasMinstral" &&
+        !draftRepositories.has(match[1]) &&
+        row.includes("VBL 0.1300")
+        ? [match[1]]
+        : [];
+    }),
+    ["Slovenian-Language-Technologies-Overview", "Podpora"],
+  );
 });
