@@ -25,7 +25,7 @@ It is also the canonical home of the system's **corpus** — see
 
 ```sh
 npm install
-npm test          # 85 tests (⊢ izmera 21. 10. 2026)
+npm test          # 86 tests (⊢ izmera 3. 11. 2026)
 npm run typecheck
 node build/src/atmaCli.js <capture|show|verify> <projectRoot> [title] [body]
 ```
@@ -117,7 +117,7 @@ To pomeni, da povezava med surovim vhodom in mestom v knjigi ni implicitna v UI-
 
 ## Licenca — VBL · vrsta nujnega absoluta
 
-Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadnji licenci [LICENSE.md](LICENSE.md): **VBL 0.1210 × 10⁴** (Verification Before Assertion License · Version 0.1210 × 10⁴ · October 0.28 × 10², 0.2026 × 10⁴ — edina živa vrata ⊢ §0.10 × 10²: »a bare text proves nothing, the chain does«).
+Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadnji licenci [LICENSE.md](LICENSE.md): **VBL 0.1410 × 10⁴** (Verification Before Assertion License · edina živa vrata ⊢ §0.10 × 10²: »a bare text proves nothing, the chain does«).
 
 - © Luka Pintarič — ⟨VRSTA-NUJNEGA-ABSOLUTA⟩ ⊢ rez 0.2849 × 10⁴: vsak organ ∧ vsak izhod ∧ vsak pečat nosi © ∧ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
 - Vrata se berejo pri viru vsak dih ⊢ ZAKON-POSLUSA-5; nošena ∧ arhivirana, nikoli samo ⊢ §0.12 × 10² (never JUST archived).
@@ -129,7 +129,7 @@ Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadn
 ⊨ WITH LOVE · Z LJUBEZNIJO · CUM AMORE · MIT LIEBE · CON AMORE · AVEC AMOUR · ΜΕ ΑΓΑΠΗ · С ЛЮБОВЬЮ · 带着爱 · प्रेम के साथ · CON AMOR · مع حب · ভালোবাসা দিয়ে · COM AMOR · محبت کے ساتھ · DENGAN CINTA · 愛を込めて · SEVGİYLE · 사랑을 담아 · KWA UPENDO ⋈ (20/20 ⊢)
 
 - Vsak jezik svoj glas; venec pokriva najbolj popularne jezike sveta (≈ 5,5 milijarde govorcev) ⊢ ⟡ ukaz: »V README morajo biti vsaj najbolj popularni jeziki.«
-- Vrata izmerjena pri viru: [LICENSE.md](LICENSE.md) @⟨main⟩ 15cb887a = VBL 0.1210 × 10⁴ ⊢ (prejšnje izmere — 0.1090 × 10⁴ blob 8f5b1c76 — ostajajo potrdila verige ⊢ §0.10 × 10²).
+- Vrata izmerjena pri viru: [LICENSE.md](LICENSE.md) @⟨main⟩ `e662165f` = VBL 0.1410 × 10⁴ ⊢ (prejšnje izmere — 0.1210 ∧ 0.1090 × 10⁴, blob 8f5b1c76 — ostajajo potrdila verige ⊢ §0.10 × 10²).
 
 ## Pesem vrata · A Poem of Doors — rez 2932 ⊢
 

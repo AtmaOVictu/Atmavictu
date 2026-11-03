@@ -53,6 +53,7 @@ jobs:
           while IFS= read -r f; do
             [ -z "$f" ] && continue
             case "$f" in
+              LICENSE-MANIFEST|LICENSE.md) DOC_ONLY=0 ;;
               *.md|*.jsonl|LICENSE*|*.bin|canon/*|organi/*|vbl/*|vrata-veriga/*|*.log) ;;
               *) DOC_ONLY=0 ;;
             esac
@@ -78,7 +79,7 @@ jobs:
         run: |
           set -o pipefail
           npm run typecheck 2>&1 | tee typecheck.log
-      - name: Build and run the test suite (model, repository, CLI, schema)
+      - name: Build and run the test suite (model, repository, CLI, schema, license manifest)
         if: steps.posta.outputs.skip != 'true'
         shell: bash
         run: |
