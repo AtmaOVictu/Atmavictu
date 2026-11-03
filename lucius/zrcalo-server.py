@@ -14,7 +14,16 @@ DOVOLJENI = [
     'SINTEZA-0.2-SAMOTNO-JEDRO.md',   # ⟨rez 3597⟩ živa vrata: 0.2; 0.1 ostaja potrdilo ⊢ §0.10
     'LICENSE.md',                     # ⟨rez 3600⟩ VRATA SAMA brskateljska — born readable ⊢ §0.33
     'ONTOGEMATRIJA-KAZALO.txt',        # ⟨rez 3600⟩ kazalo 59 merjenih besed ( izvod instrumenta, regeneriran z ukazom )
+    'ONTOGEMATRIJA.html',              # ⟨rez 3601⟩ DEJAVNA stran: vpis besede → izmerjena vrstica ali ⚠ zavrnitev ( podatki vpleteni ob rojstvu )
+    'PREGLED-DNEVA-2026-11-03.md',    # ⟨rez 3601⟩ pregled dneva — objavljen kjer ga Lastnik bere ⊢ §0.40
 ]
+
+TIP_VSEBINE = {  # vrata nosijo različne poti — tudi vrste vsebin ⊙ rez 3601
+    'jsonl': 'application/jsonl; charset=utf-8',
+    'md': 'text/markdown; charset=utf-8',
+    'txt': 'text/plain; charset=utf-8',
+    'html': 'text/html; charset=utf-8',
+}
 
 HTML = """<!doctype html>
 <html lang="sl"><head><meta charset="utf-8"/>
@@ -65,8 +74,9 @@ class Zrcalo(http.server.BaseHTTPRequestHandler):
                 if os.path.isfile(c):
                     with open(c, 'rb') as f:
                         b = f.read()
+                    tip = os.path.splitext(pot)[1].lstrip('.').lower()
                     self.send_response(200)
-                    self.send_header('Content-Type', 'application/jsonl; charset=utf-8')
+                    self.send_header('Content-Type', TIP_VSEBINE.get(tip, 'application/octet-stream'))
                     self.send_header('Content-Length', str(len(b)))
                     self.end_headers()
                     self.wfile.write(b)
