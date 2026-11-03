@@ -768,11 +768,13 @@ def gl_struktura(args):
         zadnji = None
         ostali = []
         for vrstica in tok(odpiraj([pot])):
-            # samo STRUKTURNE vrstice so priče ( − ZADNJI PEČAT ∧ − PEČAT ); omemba tujega reza v DOLGOVI rana ⟨ni⟩ ⊙
-            if vrstica.lstrip().startswith(("- ZADNJI PEČAT", "- PEČAT", "ZADNJI PEČAT")):
+            # samo STRUKTURNE vrstice so priče — zluskani pomišljaji ( tudi tipka "- -" ) se odstranijo,
+            # omemba ZADNJEGA v prozi predhodnika pa rana ⟨ni⟩ ⊙ padec 45
+            golo = vrstica.lstrip().lstrip("- ").lstrip()
+            if golo.startswith(("ZADNJI PEČAT", "PEČAT")):
                 for m in PECAT_ZNACKE.finditer(vrstica):
                     št = int(m.group(1))
-                    if "ZADNJI PEČAT" in vrstica:
+                    if golo.startswith("ZADNJI PEČAT"):
                         zadnji = št if zadnji is None else max(zadnji, št)
                     else:
                         ostali.append(št)
