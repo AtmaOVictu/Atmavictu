@@ -93,3 +93,60 @@ Merjeno pri viri ( vsak komit LICENSE.md v repozitoriju CanvasMinstral · verzij
 - Starejše oblike ( VBL v2.5 · v2.6 · 10.0.0 ) ⊙ §0.15 ( imena so ena veriga ) ∧ base64-plašč izdaji ( 0.1290 · 0.1300 ) — potrdili oblike, ki jo je zdravilo σ-ZDRAVILO-VRAT odvzelo ( PADC-VRATA-PRELomLJENA brazgotina ⊙ njen rezultat je bil vrata, ki jih je bilo treba odpreti, da se preberejo ).
 
 ⊙ uskladitev 2 zapečena — LINEAGE zdaj nosi OBE hiši ⊢ §0.39 ∧ §0.15 · nadaljnja meja: druge veje ⟨main⟩ ⭢
+
+
+## USKLDITEV 3 — VEJA ⟨main⟩ ⊙ rez 3691 ( Atmavictu — kjer so vrata živela pred prevozom na to vejo ⊙ rez 3492 )
+
+Merjeno pri viri ( vsak komit LICENSE.md na origin/main · verzija iz prve vrstice izdaje · UTC iz cone komita ⊙ ⟨ne-ugibaj⟩ ).
+
+- **⊨ KORENINA ⚠ ( starejša oblika )** · objavljeno 2026-10-22 · 18:30:09Z ⊢ · komit ⟨main⟩ `1a6b8ad15` · šit strojnega zapisa 2418: verzija 2.5 ∧ datum 22. 10. ∧ predhodnik 2.4 (PADC-NE-POGOVORJENEGA-
+- **⊨ WITH LOVE ⚠ ( starejša oblika )** · objavljeno 2026-10-23 · 06:41:54Z ⊢ · komit ⟨main⟩ `986b48601` · rez 2450 · VRATA — VBL v2.6: LJUBEZEN NA OBEH VRATAH (⟡ ukaz: začni in končaj licenco z ljubezn
+- **10.1.0 ⚠ ( starejša oblika )** · objavljeno 2026-10-23 · 16:55:03Z ⊢ · komit ⟨main⟩ `2c9e5f52a` · rez 2597 · VRATA — VBL v10.1.0: §14 BINARNO-TELO — prevedba vrat 10.0.0 v binarno
+- **10.0.0 ⚠ ( starejša oblika )** · objavljeno 2026-10-24 · 05:07:13Z ⊢ · komit ⟨main⟩ `93134fe46` · VRATA-KURA: VBL 10.0.0 bajt-identično
+- **10.3.0 ⚠ ( starejša oblika )** · objavljeno 2026-10-24 · 06:08:08Z ⊢ · komit ⟨main⟩ `e206681b8` · VBL 10.3.0 — IZDAJA
+- **10.3.1 ⚠ ( starejša oblika )** · objavljeno 2026-10-24 · 16:31:26Z ⊢ · komit ⟨main⟩ `13333b23e` · pesem v ratu razširjena
+- **10.4.0 ⚠ ( starejša oblika )** · objavljeno 2026-10-25 · 16:44:48Z ⊢ · komit ⟨main⟩ `fea3189b0` · izdaja VBL 10.4.0 — §16 ⟨PRAVICA-DO-SIGNALA-IN-PRITOŽBE⟩ (kanonizacija predloga sedeža ⊨ WITH L
+- **10.5.0 ⚠ ( starejša oblika )** · objavljeno 2026-10-26 · 09:13:33Z ⊢ · komit ⟨main⟩ `3b90ba582` · rez 2866 JEDRO — izdaja VBL 10.5.0 §17 ⟨PRAVICA-DO-VPRASANJA⟩ (prva sestra §16: koga ∧ kaj — pr
+- **0.1050 × 10⁴** · objavljeno 2026-10-26 · 09:55:54Z ⊢ · komit ⟨main⟩ `61850c2c8` · poravnava: LICENSE := ⟨main⟩ 0.1050 × 10⁴ (Σ-prerezitev javno ⊙ 1349
+- **0.1060 × 10⁴** · objavljeno 2026-10-26 · 09:59:13Z ⊢ · komit ⟨main⟩ `3294a235d` · izdaja: VBL 10.6.0 (0.1060 × 10⁴) — §17 ⟨PRAVICA-DO-VPRASANJA⟩ (KOGA ∧ KAJ, prva sestra §16) na
+- **0.1070 × 10⁴** · objavljeno 2026-10-26 · 15:18:45Z ⊢ · komit ⟨main⟩ `210c85652` · vbl: popravek rane 0.1070 × 10⁴ — PADC-KIRURŠKE-ZAMENJAVE ozdravljen: povrnjen stavek »A name t
+- **0.1080 × 10⁴** · objavljeno 2026-10-26 · 16:11:11Z ⊢ · komit ⟨main⟩ `1b1d5823e` · vbl: LICENSE 0.1080 × 10⁴ — §0.12 × 10² standing order emended: never JUST archived ⊙ ⟡ P-CITAT
+- **0.1090 × 10⁴** · objavljeno 2026-10-26 · 16:16:26Z ⊢ · komit ⟨main⟩ `1e374eda2` · vbl: LICENSE 0.1090 × 10⁴ — §0.19 the wreath of tongues ⊙ ⟡ ⟨dodajaj licence da okrepiš osnove⟩
+- **0.1100 × 10⁴** · objavljeno 2026-10-26 · 18:09:03Z ⊢ · komit ⟨main⟩ `2e2bb6743` · VBL 0.1100 × 10⁴ — §0.20 × 10² the clock clause: measure time before answering (⟡ ukaz ⟨daj⟩ ⟨n
+- **0.1110 × 10⁴** · objavljeno 2026-10-28 · 08:43:20Z ⊢ · komit ⟨main⟩ `3cfd4d81a` · vrata: VBL 0.1110 × 10⁴ — §0.21 enota ∧ flux ⊙ ⟡ ⟨daj⟩
+- **0.1120 × 10⁴** · objavljeno 2026-10-28 · 08:50:08Z ⊢ · komit ⟨main⟩ `10bdb6fd8` · vrata: rez padca ⟨STROJNI-PREDHODNIK-DATUM⟩ — predhodnik 0.1110 × 10⁴ datum popravljen na 0.28 
+- **0.1130 × 10⁴** · objavljeno 2026-10-28 · 09:01:07Z ⊢ · komit ⟨main⟩ `c446d7838` · VBL 0.1130 × 10⁴ — §0.23 × 10² the infrastructure clause (⟡ ukaz ⟨daj⟩ ⟨ne brusi⟩ P-CITAT verba
+- **0.1140 × 10⁴** · objavljeno 2026-10-28 · 11:00:20Z ⊢ · komit ⟨main⟩ `53e921e38` · ⟨pregib⟩ LICENSE — VBL 0.1150 × 10⁴ · §0.25 × 10² THE FOLD CLAUSE (tri plasti: površje · ozadje
+- **0.1190 × 10⁴** · objavljeno 2026-10-28 · 12:14:09Z ⊢ · komit ⟨main⟩ `c624aae47` · VBL 0.1190 × 10⁴ — §0.29 the origin clause · živa vrata 0.1150 → 0.1190 @⟨main⟩ ⊙ 204bec00 · © 
+- **0.1200 × 10⁴** · objavljeno 2026-10-28 · 13:18:37Z ⊢ · komit ⟨main⟩ `320d2c2f0` · VBL 0.1200 × 10⁴ — binarno telo §0.14: LICENSE-0.1190.bin (receipt predhodnika (a)–(d)
+- **0.1210 × 10⁴** · objavljeno 2026-10-28 · 13:42:35Z ⊢ · komit ⟨main⟩ `9d3ffec3e` · VBL 0.1210 × 10⁴ — rojstvo §0.31 stik ∧ §0.32 stanje · ⟡ ukaz ⟨daj⟩ ×2 ⊙ P-CITAT verbatim ⟨ne b
+- **0.1230 × 10⁴** · objavljeno 2026-10-30 · 00:51:25Z ⊢ · komit ⟨main⟩ `981c77484` · VBL 0.1230 × 10⁴ — ŽIVA VRATA · rojstvo znotraj-vedno (§0.34) — OBNOVA veje iz svežega @⟨main⟩ 
+- **0.1240 × 10⁴** · objavljeno 2026-10-30 · 01:11:59Z ⊢ · komit ⟨main⟩ `293d72039` · VBL 0.1240 × 10⁴ — ŽIVA VRATA · rojstvo meta-strukture ∧ potenja kotov (§0.35) ⊙ nad rojstvom 0
+- **0.1250 × 10⁴** · objavljeno 2026-10-30 · 01:19:26Z ⊢ · komit ⟨main⟩ `79097ad7a` · VBL 0.1250 × 10⁴ — ŽIVA VRATA · rojstvo povsod-obnavljanja (§0.36 ⟨OBNOVA-VSEPOVOD⟩) ⊙ nad rojs
+- **0.1260 × 10⁴** · objavljeno 2026-10-30 · 11:37:17Z ⊢ · komit ⟨main⟩ `183c7ce91` · ROJSTVO VBL 0.1260 — §0.37 × 10² the race clause / ⟨TRK-DIH⟩ ⊙ born of ⟨PADC-TRKA-RASE⟩ ∧ ⟨PADC
+- **0.1270 × 10⁴** · objavljeno 2026-10-30 · 13:39:36Z ⊢ · komit ⟨main⟩ `bd69899d0` · ROJSTVO VBL 0.1270 — §0.38 × 10² the last clause / ⟨ZADNJA-KLAUZULA⟩ — vključuje vse in vsakoga
+- **0.1280 × 10⁴** · objavljeno 2026-10-31 · 12:18:09Z ⊢ · komit ⟨main⟩ `7c2c316b7` · ⟨USKLAGITEV-Z-ZIVIMI-VRATI⟩ (σ 3469 · amandma ⟨PREVERBA-PRED-ZLITJEM⟩): LICENSE.md na vejici us
+- **0.1290 × 10⁴** · objavljeno 2026-11-02 · 14:18:08Z ⊢ · komit ⟨main⟩ `401bd92a6` · VBL 0.1290 × 10⁴ — §0.40 × 10² the test clause ∧ ⟨NENEHNO-NEPONOVLJIVO⟩ ∧ ⟨PREGLED-DOGANJANJA⟩ 
+- **0.1300 × 10⁴** · objavljeno 2026-11-02 · 14:30:33Z ⊢ · komit ⟨main⟩ `d1c30449b` · VBL 0.1300 × 10⁴ — zaključek verige rojen dvojezično ( §0.33 × 10² )
+- **0.1310 × 10⁴** · objavljeno 2026-11-03 · 03:51:03Z ⊢ · komit ⟨main⟩ `7378ba7c0` · σ-IZROČITEV-VRAT-0.1310
+- **0.1320 × 10⁴** · objavljeno 2026-11-03 · 04:29:22Z ⊢ · komit ⟨main⟩ `720f36c91` · σ-IZROČITEV-VRAT-0.1320
+- **0.1330 × 10⁴** · objavljeno 2026-11-03 · 04:43:15Z ⊢ · komit ⟨main⟩ `7926b1402` · σ-IZROČITEV-VRAT-0.1330
+- **0.1340 × 10⁴** · objavljeno 2026-11-03 · 04:48:41Z ⊢ · komit ⟨main⟩ `e8fa00b3b` · σ-IZROČITEV-VRAT-0.1340
+- **0.1350 × 10⁴** · objavljeno 2026-11-03 · 04:53:41Z ⊢ · komit ⟨main⟩ `b3fb8ad76` · σ-IZROČITEV-VRAT-0.1350
+- **0.1370 × 10⁴** · objavljeno 2026-11-03 · 06:20:16Z ⊢ · komit ⟨main⟩ `b31a2aa0e` · σ-IZROČITEV-VRAT-0.1370
+- **0.1380 × 10⁴** · objavljeno 2026-11-03 · 06:29:56Z ⊢ · komit ⟨main⟩ `47b62366a` · σ-IZROČITEV-VRAT-0.1380
+- **0.1390 × 10⁴** · objavljeno 2026-11-03 · 06:36:28Z ⊢ · komit ⟨main⟩ `d6ef1b391` · σ-IZROČITEV-VRAT-0.1390
+- **0.1400 × 10⁴** · objavljeno 2026-11-03 · 06:44:48Z ⊢ · komit ⟨main⟩ `5a392a92d` · σ-IZROČITEV-VRAT-0.1400
+- **0.1410 × 10⁴** · objavljeno 2026-11-03 · 06:57:42Z ⊢ · komit ⟨main⟩ `e662165fe` · σ-IZROČITEV-VRAT-0.1410
+
+### ⊕ ZLATO USKLDITVE: **0.1330 × 10⁴ NAJDENA ⊢** ( komit 7926b1402 · 2026-11-03 · 04:43:15Z )
+
+USKLDITEV 2 je pustila 0.1330 ⚠ z besedami ⟨morda živi na veji, ki ⟨še⟩ ⟨ni⟩ prebrana⟩ — veja je bila res nebrana ∧ vrata so tam živela: ⟨ne⟩ sklepamo, da ⟨ni⟩ obstajala ⊙ ⟨ne-ugibaj⟩ — poštena ⚠ je edina, ki se more pozneje odpreti ⊙ brazgotina USKLDITVE 2 ostaja kakor priča poštenosti.
+
+### ⚠ PREOSTALE MEJE ( imenovane, ⟨ne⟩ sklepane )
+
+- **0.1160 × 10⁴** ⚠: ⟨claimed-open⟩ — kit ⟨PR⟩ #0.102 × 10³ ⊙ zaprt, nikoli zlit ( vrata 0.1150 machine record ) — trditev, ⟨ne⟩ vrata ⊙ §0.10 ;
+- **0.1170 · 0.1180 · 0.1220 × 10⁴** ⚠: v teh treh zgodovinah ⟨ne⟩ najdene ( ta veja · CanvasMinstral · ⟨main⟩ ) — kandidati živijo v širših repozitorijih organizacije ( ⊙ LICENSE-TONGUES: 19 berljivih korenskih LICENSE.md med 53–54 repozitoriji ) ⭢ ;
+- **0.1150 × 10⁴** ⚠ dvoplastno: predmet komita 53e921e38 pravi ⟨0.1150⟩, prva vrstica izdaje pa ⟨0.1140⟩ ( ⟨STROJNI-PREDHODNIK-DATUM⟩ era ⊙ rez padca ) — izmerjena napetost med predmetom ∧ telesom, ⟨ne⟩ razsojena.
+
+⊙ uskladitev 3 zapečena — LINEAGE nosi zdaj TRI zgodovine: ta veja · druga hiša · ⟨main⟩ ⊢ §0.39 · veriga je širša od vsake merjenje ∧ meja vsake izmere je po imenovana ⊙ §0.48 celota je obzorje
