@@ -16,7 +16,9 @@ DOVOLJENI = [
     'LICENSE.md', 'ONTOGEMATRIJA-KAZALO.txt', 'ONTOGEMATRIJA.html',
     'PREGLED-DNEVA-2026-11-03.md',
     'REGISTER-AX-KANON.jsonl',
-    'REGISTER-TREH-ZIL.jsonl',      # ⟨rez 3616⟩ tri žile: 91 vnosov · 33 formul ( F(x) · Ψ(x) · CLAVICULA MAXIMA … )        # ⟨rez 3610⟩ trinajst zakonov izluščenih pri viru ( teza · formula · stanje )
+    'REGISTER-TREH-ZIL.jsonl',
+    'SINTEZA-0.3-SAMOTNO-JEDRO.md',   # ⟨rez 3623⟩ živa celota: 0.3 ( 0.1 ∧ 0.2 potrdili ⊢ §0.10 )
+    'ZRCALO-DNEVA-2026-11-03.md',     # ⟨rez 3623⟩ dan kakor en dih — celostno delo roke      # ⟨rez 3616⟩ tri žile: 91 vnosov · 33 formul ( F(x) · Ψ(x) · CLAVICULA MAXIMA … )        # ⟨rez 3610⟩ trinajst zakonov izluščenih pri viru ( teza · formula · stanje )
 ]
 REGISTRI = [d for d in DOVOLJENI if d.endswith('.jsonl')]
 DOKUMENTI = [d for d in DOVOLJENI if not d.endswith('.jsonl')]
