@@ -35,3 +35,4 @@ if tez == 0:
     print(f'⚠ NAPAKA = SMERNICA: nobenega telesa nisem izmeril ( {KOREN} ) — mapa je prazna ali pot napačna ⏎ rešitev: preveri pot pri viru ⊢ ⟨ne-ugibaj⟩')
     sys.exit(1)
 print(f'SUM {tez} teles popisanih - enolicnih {tez - dvojni} - dvojnikov {dvojni}')
+print('⊢ orodje: lucius/popis-c2.py · register je priča, izvirniki ostanejo pri viru ⊙ PADC-57 ∧ §0.6')

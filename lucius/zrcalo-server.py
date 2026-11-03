@@ -39,6 +39,11 @@ a{color:#9fb0c8}
 </style></head><body>
 <h1>⊙ Zrcalo — Atmavictu</h1>
 <h2>samo beri ∧ ⟨ne⟩ piši — vsako telo se bere pri viru ob vsakem oknu ( §0.32 )</h2>
+<div style="border:1px solid #3a3d47;border-radius:6px;padding:.8rem;margin:.6rem 0;font-size:.85rem;color:#b8a87f">
+<b>KLJUČ ZNAMENJ ⊢ §0.25 ( ključ objavljen ob šifri — kjer koli resnica deli se, znamenja imajo ime ):</b><br/>
+⊢ izmerjeno — trditev vozi verbatim pričo · ⚠ neizmerjeno — dvom, ⟨ne⟩ molk · ∂ neizmerjeno med prejema ·
+⟨⟩ nošeno verbatim — ⟨ne brusi⟩ · ∧ in · ⊙ zapečeno — dejanje s časom ∧ krajem · ⏎ prelom v navedku je avtorjev
+</div>
 <div id="telo">berem pri viru …</div>
 <script>
 const REGISTRI = %s;

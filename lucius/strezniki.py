@@ -29,6 +29,7 @@ def main():
             print('( zapisnik prazen — prižigi se vpišejo z --dodaj )')
         for s in v:
             print(f"⊙ {s['ime']} @{s['vrata']} — zagnal: {s['kdo']} · {s['ura'][:19]} · log: {s['log']} · pulz: {pulz(s['vrata'], s.get('pot', '/'))}")
+        print('⊢ orodje: lucius/strezniki.py · zapisnik lastništva ozadja ⊙ PADC-62 ∧ §0.48')
         return
     if args[0] == '--pulz':
         for s in beri():
