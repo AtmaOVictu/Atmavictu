@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# PEČAT-BAJTOV za verigo ⊙ §0.39 × 10² ( ⟨VRATA-BAJTOV⟩ ): vrata ∧ telesa potujejo bajtno-isto
+# skozi vsa tla — git NE SME dodajati ali odvzemati prelomnic ( PADC-TLA-SPREMENILA-BAJTE × 3. 11.:
+# checkout je vnesel CRLF, md5 se je premaknil isti dih — izmerjeno pri viri, ne po spominu )
+LICENSE.md -text
+LICENSE-*.b64 -text
+LICENSE-*.bin -text
