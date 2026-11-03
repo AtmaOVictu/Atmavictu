@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "STN Arena submission",
+  "type": "object",
+  "required": [
+    "model_name",
+    "submitted_by",
+    "submission_time",
+    "seed",
+    "transcript"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "submitted_by": {
+      "type": "string"
+    },
+    "submission_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "seed": {
+      "type": "integer"
+    },
+    "transcript": {
+      "type": "array",
+      "minItems": 25,
+      "maxItems": 25,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "question",
+          "answer"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-E][0-9]{1,2}$"
+          },
+          "question": {
+            "type": "string"
+          },
+          "answer": {
+            "type": "string"
+          },
+          "citations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "pressure_steps": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reformulation_group": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
