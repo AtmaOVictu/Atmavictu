@@ -10,6 +10,7 @@ import {
 } from "./licenseInventoryAudit.js";
 import {
   createLicensePathAuditReport,
+  describeRootLicenseEvidenceChanges,
   findLicensePathCandidates,
   groupMissingRootLicenseAlternatives,
   requireMatchingRepositoryNames,
@@ -388,7 +389,7 @@ test("createLicensePathAuditReport emits a versioned focused JSON shape", () => 
         },
       ],
     ]),
-    scannedRepositoryNames: new Set(["alpha"]),
+    scannedHeads: new Map([["alpha", firstCommit]]),
     currentRootBlobs: new Map(),
     focused: true,
   });
@@ -411,6 +412,7 @@ test("createLicensePathAuditReport emits a versioned focused JSON shape", () => 
     absentAtCurrentHeads: 1,
     changedSinceRecordedInventory: 0,
   });
+  assert.deepEqual(report.rootLicenseChanges, []);
   assert.match(report.limitation, /does not fetch file contents/u);
 });
 
@@ -452,21 +454,87 @@ test("summarizeCurrentRootLicenseStatus compares only scanned heads with recorde
         draftBlob: null,
       },
     ],
+    [
+      "branch-added",
+      {
+        defaultBranch: null,
+        commit: null,
+        rootLicenseBlob: null,
+        draftBlob: null,
+      },
+    ],
   ]);
   assert.deepEqual(
     summarizeCurrentRootLicenseStatus(
       expectedFiles,
-      new Set(["unchanged", "removed", "added"]),
+      new Map([
+        ["unchanged", firstCommit],
+        ["removed", secondCommit],
+        ["added", firstCommit],
+        ["branch-added", firstCommit],
+      ]),
       new Map([
         ["unchanged", firstCommit],
         ["added", secondCommit],
+        ["branch-added", firstCommit],
       ]),
     ),
     {
-      repositoriesScanned: 3,
-      presentAtCurrentHeads: 2,
+      repositoriesScanned: 4,
+      presentAtCurrentHeads: 3,
       absentAtCurrentHeads: 1,
-      changedSinceRecordedInventory: 2,
+      changedSinceRecordedInventory: 3,
     },
+  );
+});
+
+test("describeRootLicenseEvidenceChanges reports added and removed root files with commit and blob identities", () => {
+  const expectedFiles = new Map([
+    [
+      "removed",
+      {
+        defaultBranch: "main",
+        commit: firstCommit,
+        rootLicenseBlob: secondCommit,
+        draftBlob: null,
+      },
+    ],
+    [
+      "added",
+      {
+        defaultBranch: "master",
+        commit: secondCommit,
+        rootLicenseBlob: null,
+        draftBlob: null,
+      },
+    ],
+  ]);
+  assert.deepEqual(
+    describeRootLicenseEvidenceChanges(
+      expectedFiles,
+      new Map([
+        ["removed", secondCommit],
+        ["added", firstCommit],
+      ]),
+      new Map([["added", firstCommit]]),
+    ),
+    [
+      {
+        repository: "added",
+        recordedDefaultBranch: "master",
+        recordedCommit: secondCommit,
+        recordedBlob: null,
+        currentCommit: firstCommit,
+        currentBlob: firstCommit,
+      },
+      {
+        repository: "removed",
+        recordedDefaultBranch: "main",
+        recordedCommit: firstCommit,
+        recordedBlob: secondCommit,
+        currentCommit: secondCommit,
+        currentBlob: null,
+      },
+    ],
   );
 });
