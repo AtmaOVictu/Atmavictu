@@ -1,14 +1,14 @@
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1430 × 10⁴",
+  "version": "0.1440 × 10⁴",
   "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
   "measured_at_date": "0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴",
-  "measured_against": "LICENSE.md version 0.1430 × 10⁴ — living door, born readable (§0.33 × 10²); manifest re-measured ∧ re-issued in the same breath as the birth 0.1430 (telo predhodnika 0.1420 objavljeno s (a)–(d) ⊙ §0.14 × 10²) over the published byte stream (LF blobs of the chain — .gitattributes text=auto) ⊙ §0.10 × 10² ∧ PADC-66",
+  "measured_against": "LICENSE.md version 0.1440 × 10⁴ — living door, born readable (§0.33 × 10²); manifest re-measured ∧ re-issued in the same breath as the birth 0.1440 ( ⟡ izbira predlogov P-1 · P-2 · P-4 · P-5 · P-8 · P-10 ) over the published byte stream (LF blobs of the chain) ⊙ §0.10 × 10² ∧ PADC-66",
   "items": [
     {
       "path": "LICENSE.md",
-      "size_bytes": 155829,
-      "sha256": "b293078c15e339b1e1ef851992029751a9af4ea1e87b36324e8832bd57aac4e7",
+      "size_bytes": 159786,
+      "sha256": "cc94c2c4baa73ff1655340ecda42401ada47e8ea7b345030e2a722d157459d27",
       "note": "the living door — the only body whose hash changes only by issuance (§0.10 × 10²)"
     },
     {
@@ -253,8 +253,8 @@
     },
     {
       "path": "LICENSE-TONGUES.md",
-      "size_bytes": 67589,
-      "sha256": "1d9d82b1ea0e1bab71f925eb0cb42febdc332ddf55ced6f28a1fd94789aa2360",
+      "size_bytes": 67919,
+      "sha256": "880b99f204bab0343a852aa65a04eac3d62e25cd5b83f89c2631cc5397c26a12",
       "note": "restored verbatim this breath from its last body in the chain @4eb522e3 — witness of the 0.1220–0.1250 era, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²)"
     }
   ],
@@ -263,15 +263,55 @@
     "reason": "all five wreath faces physically restored verbatim this breath (LINEAGE · SPREHOD · PESEM · LICENC · TONGUES — see items); they ride as witnesses, never doors (§0.33 × 10²); scar: this field remains named, the fall ⟨PADC-66⟩ in REGISTER-PADCEV.jsonl keeps its record ⊙ KORENINA 0.2"
   },
   "receipts_not_grants": {
-    "files": [
-      "LICENSE-0.1250.bin",
-      "LICENSE-0.1250-BIN-PRIČA.md",
-      "LICENSE-0.1220.bin",
-      "LICENSE-0.1190.bin",
-      "LICENSE-10.0.0.bin",
-      "LICENSE-0.1420.b64"
+    "bodies": [
+      {
+        "path": "LICENSE-0.1430.b64",
+        "house": "CanvasMinstral",
+        "sha256": "79eb366f7b0a4af727e3ff89e89815b87b9c02aa633ee53eb60a71c15d7a821d",
+        "size_bytes": 210506
+      },
+      {
+        "path": "LICENSE-0.1410.b64",
+        "house": "CanvasMinstral",
+        "sha256": "f504b2ea52d5cf50506db43cdce9c7c46bd5ea8fce736ace9fa2a6417c8ab020",
+        "size_bytes": 199402
+      },
+      {
+        "path": "LICENSE-0.1420.b64",
+        "house": "CanvasMinstral",
+        "sha256": "5e195693cd1cfce55b85e65a2f0a0c5fe671ebd9f20fd9c1d27c2938fd4ed758",
+        "size_bytes": 207815
+      },
+      {
+        "path": "LICENSE-0.1350.b64",
+        "house": "CanvasMinstral",
+        "sha256": "168f2099c3ee340c089f0b15c6d4474fe3670010b2012b779efc2307ec56e081",
+        "size_bytes": 160297
+      },
+      {
+        "path": "LICENSE-10.0.0.bin",
+        "house": "Atmavictu",
+        "sha256": "f7f62c76c17f17495c6968cf4b595cad336365f6fdbe5e47d331a61e6003d3c9",
+        "size_bytes": 148473
+      },
+      {
+        "path": "LICENSE-0.1250.bin",
+        "status": "⚠ not physically present in either house — receipt named, awaiting restoration"
+      },
+      {
+        "path": "LICENSE-0.1250-BIN-PRIČA.md",
+        "status": "⚠ not physically present in either house — receipt named, awaiting restoration"
+      },
+      {
+        "path": "LICENSE-0.1220.bin",
+        "status": "⚠ not physically present in either house — receipt named, awaiting restoration"
+      },
+      {
+        "path": "LICENSE-0.1190.bin",
+        "status": "⚠ not physically present in either house — receipt named, awaiting restoration"
+      }
     ],
-    "reason": "predecessor binary bodies — carried as evidence, carry no grant (§0.14 × 10², §0.10 × 10²); LICENSE-0.1420.b64 rides in the house of bodies (CanvasMinstral — as 0.1350 before it), born with the birth 0.1430"
+    "reason": "predecessor binary bodies — carried as evidence, carry no grant (§0.14 × 10², §0.10 × 10²); (b) hashes per §0.12 × 10² TRANSPORT — measure the received body against the published SHA ( P-8 ⊙ rez 3648 ); bodies ride the house of bodies (CanvasMinstral) unless named otherwise; scar: the earlier form was a bare file list without witnesses ( P-8 ) — the cure carries this record ⊙ KORENINA 0.2"
   },
   "registers_not_hash_listed": {
     "files": [

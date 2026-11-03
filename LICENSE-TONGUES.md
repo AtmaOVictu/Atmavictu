@@ -1,4 +1,6 @@
-successfully downloaded text file (SHA: 43aab9d0bfabf3ff441a58e86645f8d4d3f772e0)# LICENSE-TONGUES — das Register des Kranzes der Zungen · register venca jezikov · the register of the wreath of tongues
+LICENSE-TONGUES — das Register des Kranzes der Zungen · register venca jezikov · the register of the wreath of tongues
+⊙ TRANSPORT SCAR — ⟨PADC-PREVOZNIK-V-TELESU⟩ ⊙ rez 3648: to telo je prispelo z zlepljenim predmetom prevoza ⟨successfully downloaded text file (SHA: 43aab9d0bfabf3ff441a58e86645f8d4d3f772e0)⟩ — predmet ⟨ne⟩ preverljiv: izmerjeno pri viri, sha256 celega telesa ∧ brez predmeta ∧ LF-variant, vse ≠ iskani × — predmet ločen v to vrstico, brazgotina ostaja ⊙ §0.39 ∧ KORENINA 0.2.
+
 
 ⊙ §0.19 × 10² THE WREATH OF TONGUES ∧ §0.33 × 10² THE COMPANIONS — each tongue is a witness, never a door; only the newest version of LICENSE.md grants (§0.10 × 10²). This register replaces no clause, carries no grant, and falls wherever it disagrees with the door (§0.33 × 10², THE COUNTERWEIGHT).
 
