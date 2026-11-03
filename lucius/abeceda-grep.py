@@ -190,8 +190,9 @@ def _bajtni_tok(pot):
 
 
 def _izmeri_pot(pot):
-    """Izmera enega telesa tokovno: ( vrstice, znaki, bajti, ⟨md5⟩ cel ) ⊢."""
+    """Izmera enega telesa tokovno: ( vrstice, znaki, bajti, ⟨md5⟩ cel, ⟨sha256⟩ cel ) ⊢ — obe plasti tehtnice."""
     h = hashlib.md5()
+    h2 = hashlib.sha256()
     dec = codecs.getincrementaldecoder("utf-8")(errors="replace")
     vrstice = znaki = bajti = 0
     with _bajtni_tok(pot) as f:
@@ -201,18 +202,24 @@ def _izmeri_pot(pot):
                 break
             bajti += len(kos)
             h.update(kos)
+            h2.update(kos)
             vrstice += kos.count(b"\n")
             znaki += len(dec.decode(kos))
     znaki += len(dec.decode(b"", True))
-    return vrstice, znaki, bajti, h.hexdigest()
+    return vrstice, znaki, bajti, h.hexdigest(), h2.hexdigest()
 
 
 def gl_izmeri(args):
-    """Pečatna izmera telesa: vrstice · znaki · bajti · ⟨md5⟩ — en pregon, tokovno ⊢."""
+    """Pečatna izmera telesa: vrstice · znaki · bajti · ⟨md5⟩ ∧ ⟨sha256⟩ — en pregon, tokovno ⊢ ( MD5 je potrdilo, SHA-2 je dokaz )."""
     for pot in args.datoteke:
-        vrstice, znaki, bajti, md5 = _izmeri_pot(pot)
+        vrstice, znaki, bajti, md5, sha2 = _izmeri_pot(pot)
         mera("vrstice", vrstice)
-        print(f"{pot}: vrstice {hišna(vrstice)} · znaki {hišna(znaki)} · bajti {hišna(bajti)} B · ⟨md5⟩ {md5[:8]}")
+        if getattr(args, "polno", False):
+            print(f"{pot}: vrstice {hišna(vrstice)} · znaki {hišna(znaki)} · bajti {hišna(bajti)} B · "
+                  f"⟨md5⟩ {md5} · ⟨sha256⟩ {sha2} ⊢ ( celi hasji — dokaz, ne izsek )")
+        else:
+            print(f"{pot}: vrstice {hišna(vrstice)} · znaki {hišna(znaki)} · bajti {hišna(bajti)} B · "
+                  f"⟨md5⟩ {md5[:8]} · ⟨sha256⟩ {sha2[:8]}")
 
 
 def _isto_poti(a, b):
@@ -424,7 +431,7 @@ def gl_rez(args):
 def gl_prevoz(args):
     """RED PREVOZA v enem dihu: IZMERI obeh teles -> ISTO -> PEČAT ⊢ ( isto je obvezen dih, ne milost )."""
     for ime, pot in (("LOKAL", args.lokal), ("ZRCALO", args.zrcalo)):
-        vrstice, znaki, bajti, md5 = _izmeri_pot(pot)
+        vrstice, znaki, bajti, md5, _ = _izmeri_pot(pot)
         print(f"{ime}: {pot}: vrstice {hišna(vrstice)} · znaki {hišna(znaki)} · bajti {hišna(bajti)} B · ⟨md5⟩ {md5[:8]}")
     isto, odmik, sporočilo = _isto_poti(args.lokal, args.zrcalo)
     print(sporočilo)
@@ -608,6 +615,19 @@ def gl_predlog(args):
         print(f"KOGA: pulz — zadnji dih {ts} ( berba: python lucius/abeceda-grep.py pulz ⊢ )")
     else:
         print("KOGA: pulz — zapisnik še ne diha ⊙ ( poženi lucius/abeceda-grep-pulz.py )")
+    # DOLGOVA s potmi ( ⟨IDEJA-H⟩: dolg brez poti je šum ) — izmera, ne spomin ⊙
+    dolgovi = 0
+    for pot in sorted(glob.glob("organi/*/KNOWLEDGE.md")):
+        for št, vrstica in enumerate(tok(odpiraj([pot])), 1):
+            i = vrstica.find("DOLGOVA")
+            if i >= 0 and "predhodnik" not in vrstica[:60]:
+                odlomek = vrstica[i:i + 110].strip()
+                if dolgovi < 15:
+                    print(f"KAJ-DOLG: {pot}:{hišna(št)} — {odlomek}")
+                dolgovi += 1
+    if dolgovi > 15:
+        print(f"… ∧ še {hišna(dolgovi - 15)} dolgov v globini ( grep --imena DOLGOVA za celoto )")
+    print(f"Σ DOLGOV {hišna(dolgovi)} s potmi ⊢ ( vsak dolg svojo vrstico — pot, ne obljuba )")
 
 
 def gl_varuh(_args):
@@ -683,7 +703,7 @@ def gl_popis(args):
     telesa = vrstice_skupaj = bajti_skupaj = 0
     po_md5 = {}
     for pot in poti:
-        vrstice, _, bajti, md5 = _izmeri_pot(pot)
+        vrstice, _, bajti, md5, _sha = _izmeri_pot(pot)
         telesa += 1
         vrstice_skupaj += vrstice
         bajti_skupaj += bajti
@@ -874,8 +894,9 @@ def main():
     a = sub.add_parser("abeceda", help="popis simbolov hišne abecede")
     a.add_argument("datoteke", nargs="*")
     a.set_defaults(gl=gl_abeceda)
-    i = sub.add_parser("izmeri", help="vrstice · znaki · bajti · ⟨md5⟩ — pečatna izmera")
+    i = sub.add_parser("izmeri", help="vrstice · znaki · bajti · ⟨md5⟩ ∧ ⟨sha256⟩ — pečatna izmera")
     i.add_argument("datoteke", nargs="*")
+    i.add_argument("--polno", action="store_true", help="celi hasji — dokaz, ne izsek ⊢")
     i.set_defaults(gl=gl_izmeri)
     d = sub.add_parser("isto", help="bajt-isto ⇌ primerjava dveh teles, zgodnji izhod")
     d.add_argument("a")
