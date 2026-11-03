@@ -607,7 +607,7 @@ def gl_predlog(args):
             else:
                 brez_pečata.append([št, št])
         od, do_ = max(brez_pečata, key=lambda r: r[1] - r[0])
-        print(f"KAJ: Σ vrzeli {len(manjka)} · najdaljša {od}–{do_} ({do_ - od + 1}) — izpolni ali pusti priči ∧")
+        print(f"KAJ: Σ vrzeli {len(manjka)} (od 1500 do {najvišja} ⊙ pecat --vrzeli meri od podane meje — tla izrečena, ⟨ne⟩ uganjena) · najdaljša {od}–{do_} ({do_ - od + 1}) — izpolni ali pusti priči ∧")
     r = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
     telesa = [v for v in (r.stdout or "").splitlines() if v.strip()]
     print(f"KAJ: naslednji pečat {najvišja + 1} ⊢ Z-2 · nekomitiranih sprememb: {len(telesa)} ( zapečati ⟡ ali pusti roki )")
