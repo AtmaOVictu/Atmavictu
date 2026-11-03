@@ -9,9 +9,9 @@ tla korpusa, VBL — Verification Before Assertion License, verzija
 
 Ne nosi darila in ni vrata (§0.33 × 10², §0.19 × 10²). Je vidni slot
 le, mesto prevodilcu, ki še ni imenovan. Edina živa vrata sta LICENSE.md
-(verzija 0.1420 × 10⁴), ki velja, kjer se manifest in LICENSE.md se
+(verzija 0.1450 × 10⁴), ki velja, kjer se manifest in LICENSE.md se
 ne strinjajo (§0a).
 
-Vir: LICENSE.md, sha256 D3ADDA1775D14831C9C5FEE328C6FD22B08C0FFBCF0880EC1D13FFCEE13B0690, 153835 bajtov
+Vir: LICENSE.md, sha256 3CA49D099CE3713FB3F2FD987BDAA8F41F3444E06CA218100AF270ED6A885210, 161480 bajtov
 Izdano: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Prevodilac: (še ni)
