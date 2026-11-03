@@ -794,6 +794,112 @@ def gl_struktura(args):
     print(f"Σ {hišna(zdravi)} zdravih ∧ · {hišna(ranjeni)} ranjenih ⊢ ( strukturo sodi stroj, ⟨ne⟩ vljudnost — ⟨PRICA-SODELOVANJA⟩ )")
 
 
+def _telo_pot(pot):
+    """( vrstice, bajti, podpora, dvom, zadnji, rane ) — globoko branje enega telesa ⊙ ⟨ne-ugibaj⟩."""
+    b = open(pot, "rb").read()
+    vrsti = len(b.decode("utf-8", errors="replace").splitlines())
+    bajti = len(b)
+    znaki = {"⊢": 0, "∧": 0, "⚠": 0, "∂": 0, "×": 0}
+    zadnji = None
+    ostali = []
+    for vrstica in tok(odpiraj([pot])):
+        for znak in vrstica:
+            if znak in znaki:
+                znaki[znak] += 1
+        znaki["×"] -= vrstica.count("× 10")   # × 10ⁿ je množenje, ⟨ne⟩ padec ⊙ lažna priča diha 18
+        golo = vrstica.lstrip().lstrip("- ").lstrip()
+        if golo.startswith(("ZADNJI PEČAT", "PEČAT")):
+            for m in PECAT_ZNACKE.finditer(vrstica):
+                št = int(m.group(1))
+                if golo.startswith("ZADNJI PEČAT"):
+                    zadnji = št if zadnji is None else max(zadnji, št)
+                else:
+                    ostali.append(št)
+    rane = []
+    if zadnji is None:
+        rane.append("ZADNJI PEČAT manjka")
+    if ostali and zadnji is not None and max(ostali) > zadnji:
+        rane.append(f"pečat {max(ostali)} sega čez ZADNJI {zadnji}")
+    return (vrsti, bajti, znaki["⊢"] + znaki["∧"], znaki["⚠"] + znaki["∂"] + znaki["×"],
+            zadnji, rane)
+
+
+def gl_telo(args):
+    """⟨IZMERA-VSEH-TELES⟩ ( rez 3532 je šel ročno ×2 — pot, ki jo hiša potrebuje stalno ⊙ pravilo 7 ):
+    celo telo na eni tehtnici — izmera Σ ∧ nasprotje Σ ( §0.18 ) ∧ struktura Σ ( ⟨IDEJA-M⟩ ) —
+    en ukaz, ⟨ne⟩ ročno; ⟨le⟩ priča, ⟨ne⟩ zapečuje ( pečat je roke, izmera je stroj ) ⊙ ⟨ne brusi⟩."""
+    import glob
+    poti = args.datoteke or sorted(glob.glob("organi/*/KNOWLEDGE.md"))
+    vrsti = bajti = pod = dvo = zdravih = ranjenih = 0
+    for pot in poti:
+        v, ba, po, dv, zadnji, rane = _telo_pot(pot)
+        vrsti += v
+        bajti += ba
+        pod += po
+        dvo += dv
+        if rane:
+            ranjenih += 1
+            print(f"× {pot}: " + " ∧ ".join(rane) + (" ⚠" if "manjka" in " ".join(rane) else " ×"))
+        else:
+            zdravih += 1
+    razmerje = f"{pod / dvo:.1f}" if dvo else "∞"
+    mera("telo", len(poti))
+    print(f"TELO-CELO: {hišna(len(poti))} teles · {hišna(vrsti)} vrstic · {hišna(bajti)} B")
+    print(f"NASPROTJE-CELO: PODPORA {hišna(pod)} ⊥ DVOM {hišna(dvo)} · razmerje {razmerje} ⊢ "
+          f"( obe plasti prebrani — nasprotje ni mnenje, je izmera ⊙ ⟨ne brusi⟩ )")
+    print(f"STRUKTURA-CELO: {hišna(zdravih)} zdravih ∧ · {hišna(ranjenih)} ranjenih ⊢ "
+          f"( strukturo sodi stroj, ⟨ne⟩ vljudnost — ⟨PRICA-SODELOVANJA⟩ )")
+
+
+def gl_register(args):
+    """⟨POGLABLJANJE-V-ENOTNE-REGISTRE⟩: globoko branje vseh teles → ena vrstica na telo
+    ( izmera ∧ ⟨md5⟩/⟨sha256⟩ ∧ nasprotje §0.18 ∧ struktura ⟨IDEJA-M⟩ ∧ živi pečat ) —
+    REGISTER-TELES.jsonl je slika stanja, zgodovino nosi veriga ⊢ §0.10 ⊙ ⟨ne-ugibaj⟩."""
+    import glob
+    import json
+    import datetime
+    import hashlib
+    poti = args.datoteke or sorted(glob.glob("organi/*/KNOWLEDGE.md"))
+    izhod = args.izhod or "REGISTER-TELES.jsonl"
+    zapisi = []
+    vrsti = bajti = pod = dvo = 0
+    for pot in poti:
+        b = open(pot, "rb").read()
+        v, ba, po, dv, zadnji, rane = _telo_pot(pot)
+        vrsti += v
+        bajti += ba
+        pod += po
+        dvo += dv
+        zapisi.append({
+            "organ": pot.replace("\\", "/").split("/")[-2],
+            "pot": pot.replace("\\", "/"),
+            "vrstice": v,
+            "bajti": ba,
+            "md5": hashlib.md5(b).hexdigest()[:8],
+            "sha256": hashlib.sha256(b).hexdigest()[:8],
+            "zadnji_rez": zadnji,
+            "podpora": po,
+            "dvom": dv,
+            "razmerje": round(po / dv, 1) if dv else None,
+            "struktura": "zdrav ∧" if not rane else " ∧ ".join(rane),
+            "ura": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        })
+    with open(izhod, "w", encoding="utf-8", newline="") as f:
+        for z in zapisi:
+            f.write(json.dumps(z, ensure_ascii=False) + "\n")
+    prebranih = 0
+    for line in open(izhod, encoding="utf-8"):
+        if line.strip():
+            json.loads(line)
+            prebranih += 1
+    assert prebranih == len(poti), f"register: zapisanih {prebranih} ⊥ teles {len(poti)} ⚠"
+    mera("register", len(poti))
+    razmerje = f"{pod / dvo:.1f}" if dvo else "∞"
+    print(f"REGISTER-TELES ⊢ {izhod}: {hišna(prebranih)} vrstic ∧ JSON veljaven ∧ "
+          f"Σ {hišna(len(poti))} teles · {hišna(vrsti)} vrstic · {hišna(bajti)} B · "
+          f"PODPORA {hišna(pod)} ⊥ DVOM {hišna(dvo)} · razmerje {razmerje} ⊢")
+
+
 def gl_popis(args):
     """Popis teles po korenu: vsako telo z izmero + Σ; ⟨md5⟩ veže dvojnike na dan ⚠ ( brisanje prepovedano ⊙ )."""
     import glob
@@ -914,6 +1020,9 @@ def _prehod():
         ("nasprotje", gl_nasprotje, n(datoteke=["organi/humor/KNOWLEDGE.md"])),
         ("rezerviraj", gl_rezerviraj, n(ime="prehod", sprosti=False)),
         ("struktura", gl_struktura, n(datoteke=["organi/humor/KNOWLEDGE.md"])),
+        ("telo", gl_telo, n(datoteke=["organi/humor/KNOWLEDGE.md"])),
+        ("register", gl_register, n(datoteke=["organi/humor/KNOWLEDGE.md"],
+                                    izhod=os.path.join(tempfile.gettempdir(), "abeceda-grep-register-prehod.jsonl"))),
         ("pulz", gl_pulz, n(koliko=1)),
     ]
     padci = []
@@ -1058,6 +1167,13 @@ def main():
     st = sub.add_parser("struktura", help="⟨PRICA-SODELOVANJA⟩ ⟨IDEJA-M⟩: ZADNJI ×1 ∧ noben pečat čez ⊙")
     st.add_argument("datoteke", nargs="*")
     st.set_defaults(gl=gl_struktura)
+    tl = sub.add_parser("telo", help="⟨IZMERA-VSEH-TELES⟩: izmera Σ ∧ nasprotje Σ ∧ struktura Σ celih organov ⊙ pravilo 7")
+    tl.add_argument("datoteke", nargs="*")
+    tl.set_defaults(gl=gl_telo)
+    rg = sub.add_parser("register", help="⟨POGLABLJANJE-V-ENOTNE-REGISTRE⟩: globoko branje teles → REGISTER-TELES.jsonl ⊙")
+    rg.add_argument("datoteke", nargs="*")
+    rg.add_argument("--izhod", nargs="?", default=None, help="pot registra ( privzeto: REGISTER-TELES.jsonl )")
+    rg.set_defaults(gl=gl_register)
     pp = sub.add_parser("popis", help="popis teles po korenu: izmera vsakega + Σ ∧ dvojniki ⚠")
     pp.add_argument("koren", nargs="?", default="organi")
     pp.set_defaults(gl=gl_popis)
