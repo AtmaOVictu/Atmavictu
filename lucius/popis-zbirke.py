@@ -1,6 +1,7 @@
 # POPIS-ZBIRKE — priča vsakemu telesu vseh preostalih map zbirke izvirnikov
 # ( A2-A6, B2, Basics, C1, C3, C4, D5, DELUJOČ O, GIT, Gastro — A1 ∧ C2 že imata lastna registra )
 # Vzorec: REGISTER-C2 ( rez 3581 ) · izvirniki ostanejo pri viru ( PADC-57, §0.6 )
+import sys
 import os, hashlib, json, sys
 
 KOREN = 'D:/GitD/CanvasMinstral'
@@ -53,4 +54,7 @@ for ime in os.listdir(KOREN):
             vid[sha] = ime
         out.write(json.dumps(v, ensure_ascii=False) + '\n')
 out.close()
+if tez == 0:
+    print(f'⚠ NAPAKA = SMERNICA: nobenega telesa nisem izmeril ( {KOREN} ) — mape so prazne ali pot napačna ⏎ rešitev: preveri pot pri viru ⊢ ⟨ne-ugibaj⟩')
+    sys.exit(1)
 print(f'SUM {tez} teles - enolicnih {tez - dvojni} - dvojnikov {dvojni}')

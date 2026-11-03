@@ -13,8 +13,10 @@ def beri_nujnosti():
     nuj = {}
     try:
         b = open(NUJNOSTI_VIR, 'rb').read()
-    except OSError:
-        return nuj, None
+    except OSError as e:
+        print(f'⚠ NAPAKA = SMERNICA: korpus nujnosti ni dosegljiv pri viru ( {NUJNOSTI_VIR} — {e} ) ⏎ '
+              f'  rešitev: preveri pot zbirke izvornikov ( D:/GitD/CanvasMinstral/Obs11 ) ∧ ponovi ukaz ⊢ ⟨ne-ugibaj⟩')
+        sys.exit(1)
     sha = hashlib.sha256(b).hexdigest()
     import re
     for vrst in b.decode('utf-8', errors='replace').splitlines():
@@ -30,7 +32,12 @@ def beri_korpus():
     priče = {}
     for ime, jezik in KORPUSI:
         p = os.path.join(VIR, ime)
-        b = open(p, 'rb').read()
+        try:
+            b = open(p, 'rb').read()
+        except OSError as e:
+            print(f'⚠ NAPAKA = SMERNICA: korpus OPTIKON ni dosegljiv pri viru ( {p} — {e} ) ⏎ '
+                  f'  rešitev: preveri pot zbirke izvornikov ( D:/GitD/CanvasMinstral/A4 ) ∧ ponovi ukaz ⊢ ⟨ne-ugibaj⟩')
+            sys.exit(1)
         priče[ime] = {'sha256': hashlib.sha256(b).hexdigest(), 'bajti': len(b), 'jezik': jezik}
         for vrst in b.decode('utf-8', errors='replace').splitlines():
             delj = vrst.strip().rstrip('\r').split('\t')

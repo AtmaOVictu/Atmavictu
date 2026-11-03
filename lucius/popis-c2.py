@@ -1,5 +1,6 @@
 # POPIS-C2 — priča vsakemu telesu mape C2 zbirke izvornikov ( D:/GitD/CanvasMinstral/C2 )
 # Vzorec: REGISTER-A1-PDF ( rez 3576 ) · izvirniki ostanejo pri viru ( PADC-57, §0.6 )
+import sys
 import os, hashlib, json
 
 KOREN = 'D:/GitD/CanvasMinstral/C2'
@@ -30,4 +31,7 @@ for koren, _, datoteke in os.walk(KOREN):
         v['tip'] = os.path.splitext(ime)[1].lstrip('.') or '?'
         out.write(json.dumps(v, ensure_ascii=False) + '\n')
 out.close()
+if tez == 0:
+    print(f'⚠ NAPAKA = SMERNICA: nobenega telesa nisem izmeril ( {KOREN} ) — mapa je prazna ali pot napačna ⏎ rešitev: preveri pot pri viru ⊢ ⟨ne-ugibaj⟩')
+    sys.exit(1)
 print(f'SUM {tez} teles popisanih - enolicnih {tez - dvojni} - dvojnikov {dvojni}')

@@ -113,7 +113,14 @@ class Zrcalo(http.server.BaseHTTPRequestHandler):
                     tip = os.path.splitext(pot)[1].lstrip('.').lower()
                     self.poslji(200, TIP_VSEBINE.get(tip, 'application/octet-stream'), b)
                     return
-            self.send_error(404)
+            self.poslji(404, 'text/html; charset=utf-8',
+                        ('<!doctype html><html lang="sl"><head><meta charset="utf-8"/><title>404 — telo ni na mestu</title>'
+                         '<body style="font-family:Georgia,serif;background:#0e0f13;color:#d8d3c8;margin:2rem">'
+                         '<h1>⚠ 404 — telo ⟨' + pot + '⟩ je na beli listi, a NI na mestu</h1>'
+                         '<p>register ⟨ne⟩ laže: telo je zapisano, datoteka pa ni ne pri korenu ne v lucius/.</p>'
+                         '<p>rešitev: rodi telo ( obnovi rojstvo ) ali umakni vpis iz bele liste — '
+                         'belega zapisa brez telesa ni dovoljeno ⊙ §0.42 · ukaz: git log -- lucius/' + pot + '</p>'
+                         '</body></html>').encode('utf-8'))
         except BrokenPipeError:
             pass  # odjemalec odšel — vrata ostanejo odprta ⊙ PADC-63
         except Exception:

@@ -35,6 +35,10 @@ def main():
             print(f"⊙ {s['ime']} @{s['vrata']} → {pulz(s['vrata'], s.get('pot', '/'))}")
         return
     if args[0] == '--dodaj':
+        if len(args) < 4:
+            print('⚠ NAPAKA = SMERNICA: --dodaj potrebuje TRI dele: ime vrata log ⏎ '
+                  '  primer: python lucius/strezniki.py --dodaj zrcalo 8124 lucius/.zrcalo.log --kdo "dih 105" ⊢')
+            sys.exit(1)
         ime, vrata, log = args[1], args[2], args[3]
         kdo = args[args.index('--kdo') + 1] if '--kdo' in args else '⟨ne-zapisano ⚠⟩'
         pot = args[args.index('--pot') + 1] if '--pot' in args else '/'
