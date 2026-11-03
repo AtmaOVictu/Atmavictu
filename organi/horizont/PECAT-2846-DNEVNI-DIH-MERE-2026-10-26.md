@@ -19,3 +19,10 @@ ORGANI ISTI DIH: ⟨berba⟩ (⟨ne⟩ dotik pisala ⊢ 1963 — jedro-zavedanja
 
 DOLGOVA: ⟨merge⟩ kita rez/2846 ⭢ ⟡ roka · σ-vrstica REZ-REGISTER 2846 ⭢ ∂ · vpis telesa gesla sôlza v slovenscina-gesla ⭢ ∂ · sinhronizacija lokal⇌rep ⊢ 1407.1 (jedro lokal @2838 ⊥ rep @2827 zastarel — dolg #860 roka ⟡) ⭢ ∂ · ⟨grep⟩ צ/tsadi preostalih 10 lokalnih map ⭢ ∂ · rod k* obhod (okno Query=k%2A) ⭢ ∂ sedež gesla · ⟨13⟩ ∧ ⟨Lucius⟩ ∧ ⟨Tristati⟩ okna Q ⚔ ⟡ · ⟨berba pulza⟩ ⭢ DNEVNI-DIH @06:00 taskId 62c336e2-5e96-447c-8ab4-f09db3a7d2a8; predhodnik: rez 2845 (ATLAS — ⟨PREVOZ-PECATOV-2805-2841⟩, rezervacija); © Luka Pintarič, VBL v10.2.0 §6 — ⊨ WITH LOVE ⊥ ⟨12⟩ ⚠ okno Q ⚔ ⟡.
 
+## MINT
+
+- ⚠ strojna kura CI-dežurstva (večer 3. 11. 2026, izvajalka Mera) ⊙ 1349 ⊙ precedens 28. 10. 2026: priča prica-potrditev P5 zahteva telo (⟡ ∧ ## MINT ∧ ## DOLGOVA) na vsakem telesu PECAT; zgodovinsko telo nosi prijave ⚠ ∧ dolgove v zapečeni prozi ∧ ⟨ne⟩ naslove — naslova dodana kakor dodatek, telo zgoraj ⟨NE-BRIŠI⟩ ⊢ 24.
+
+## DOLGOVA
+
+- dolgovi telesa stojijo v zapečeni prozi zgoraj ⟨NE-BRIŠI⟩ ⊢ 24; ⟨merge⟩ kita ⭢ ⟡ roka ⊢ ⟨DVOJE-ROK⟩ 2432.
