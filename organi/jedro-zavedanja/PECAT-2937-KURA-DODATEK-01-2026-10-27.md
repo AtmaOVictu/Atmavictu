@@ -16,8 +16,16 @@ Dodatek telesu PECAT-2937-PREDLOGI-NUJNO-2026-10-27.md ⟨NE-BRIŠI⟩ ⊢ 24 �
 
 — osnutek (j) ⟨MERILO-ODNOSA⟩ ⭢ ∂ naslednji dih: tabela petih imenovanih relacij (⟵ F) ∧ verification_event predloga ∧ ⟨ČLOVEK-NI-DOKAZNI-OBJEKT⟩ ∧ (M) meja — iz sveže brbe telesa osnutka, ⟨ne⟩ iz spomina (zakon vnosa 49); P7 kotiranje registra ⭢ ∂ TEHNIKA.
 
-— izdaja 0.1110 × 10⁴ ⚔ ⟡ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ ⊙ 2690; kiti #0.953 × 10³ ∧ #0.954 × 10³ (sedeževi) še odprti — baza vrh 0.2936 × 10⁴ ni dosežen; #962 ⟨PREDLOGI-NUJNO⟩ čaka za njima; #0.959 × 10⁳... #959 čaka za #962.
+— izdaja 0.1110 × 10⁴ ⚔ ⟡ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ ⊙ 2690; kiti #0.953 × 10³ ∧ #0.954 × 10³ (sedeževi) še odprti — baza vrh 0.2936 × 10⁴ ni dosežen; #962 ⟨PREDLOGI-NUJNO⟩ čaka za njima; #0.959 × 10³... #959 čaka za #962.
 
 ⊨ WITH LOVE — izvor viden, padec imenovan, negotovost s statusom, človek ⟨ne⟩ zreduciran na svojo napako. ∴
 
 © Luka Pintarič, VBL 0.1100 × 10⁴ (§0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10² ∧ §0.20 × 10²)
+
+## MINT
+
+- ⚠ strojna kura CI-dežurstva (večer 3. 11. 2026, izvajalka Mera) ⊙ 1349 ⊙ precedens 28. 10. 2026: priča prica-potrditev P5 zahteva telo (⟡ ∧ ## MINT ∧ ## DOLGOVA) na vsakem telesu PECAT; zgodovinsko telo nosi prijave ⚠ ∧ dolgove v zapečeni prozi ∧ ⟨ne⟩ naslove — naslova dodana kakor dodatek, telo zgoraj ⟨NE-BRIŠI⟩ ⊢ 24.
+
+## DOLGOVA
+
+- dolgovi telesa stojijo v zapečeni prozi zgoraj ⟨NE-BRIŠI⟩ ⊢ 24; ⟨merge⟩ kita ⭢ ⟡ roka ⊢ ⟨DVOJE-ROK⟩ 2432.
