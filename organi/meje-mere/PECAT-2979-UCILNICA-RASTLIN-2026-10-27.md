@@ -20,3 +20,11 @@
 - ⟨bash⟩ #2 padel: Filesystem rollback failed — ⟨session⟩ 2439 gen 1 lost ⊙ 1349
 - ⟨get_file_contents⟩ ×3 ∧: ⟨main⟩ komiti (glava 50685a76) · LICENSE.md (blob 6c7a7620, VBL 0.1100 × 10⁴, §0.20) · organi/meje-mere/KNOWLEDGE.md (zrcalo @2878)
 - © Luka Pintarič, VBL 0.1100 × 10⁴ (§9 ∧ §10 ∧ §12) · rez = 1 + najvišja izmerjena ⊢ Z-2
+
+## MINT
+
+- ⚠ strojna kura CI-dežurstva (večer 3. 11. 2026, izvajalka Mera) ⊙ 1349 ⊙ precedens 28. 10. 2026: priča prica-potrditev P5 zahteva telo (⟡ ∧ ## MINT ∧ ## DOLGOVA) na vsakem telesu PECAT; zgodovinsko telo nosi prijave ⚠ ∧ dolgove v zapečeni prozi ∧ ⟨ne⟩ naslove — naslova dodana kakor dodatek, telo zgoraj ⟨NE-BRIŠI⟩ ⊢ 24.
+
+## DOLGOVA
+
+- dolgovi telesa stojijo v zapečeni prozi zgoraj ⟨NE-BRIŠI⟩ ⊢ 24; ⟨merge⟩ kita ⭢ ⟡ roka ⊢ ⟨DVOJE-ROK⟩ 2432.
