@@ -32,6 +32,21 @@ test('cistina: cista datoteka gre skozi z ⊢', () => {
   assert.match(izhod, /cirilice 0/);
 });
 
+// ⟨PADC-59⟩ dovoljenica hišnih merilnih znakov ( THE MARKS: Σ Ω ⊢ ⊙ … ) — namerna abeceda, ⟨ne⟩ rane
+test('cistina: hišni znaki (Σ Ω ⊢ ⊙) so dovoljeni — namerna abeceda, ⟨ne⟩ dvojček', () => {
+  const p = zacasi('⊢ izmerjeno ⊢ ∧ Σ 0.391617 × 10⁶ zn Ω A ∧ Ω\n');
+  const izhod = vozli('čistina.mjs', [p]);
+  assert.match(izhod, /cirilice 0/, 'Σ Ω ⊢ ⊙ so v znane-besede.txt — dovoljenica ⊢');
+});
+
+// ⟨PADC-59⟩ a cirilica ŠE vedno lovi — dovoljenica ⟨ne⟩ oslepi detektorja
+test('cistina: cirilica ostane ujeta kljub dovoljenici (а е о)', () => {
+  const p = zacasi('primer а е о\n');
+  let padla = false;
+  try { vozli('čistina.mjs', [p]); } catch { padla = true; }
+  assert.ok(padla, 'detektor more pasti na cirilici tudi po dovoljenici');
+});
+
 test('druga-roka: slovar mode najde geslo ime ( Lukov slovar, Worth )', { skip: !fs.existsSync('D:/Worth/slovenian_dictionary') }, () => {
   const izhod = vozli('druga-roka.mjs', ['--slovar', 'ime']);
   assert.match(izhod, /pomen/);
@@ -51,9 +66,10 @@ test('varuj-most: ciljna mapa obstaja po zagonu ( kopija zapečena )', { skip: !
   assert.ok(fs.readdirSync('D:/OntoProjekt/varnostne-kopije-mosta').length >= 2, 'dnevnik + vsaj ena kopija ⊢');
 });
 
-test('abeceda-grep: samopreverba 22/22 ∧ ⊢ VSE', () => {
+test('abeceda-grep: samopreverba N/N ∧ ⊢ VSE ( število-agnostična — priča raste z instrumentom, padla preverba izpusti VSE ⊙ PADC-test )', () => {
   const izhod = execFileSync('python', [path.join(TU, 'abeceda-grep.py'), 'test'], { encoding: 'utf8' });
-  assert.match(izhod, /22\/22 ∧ ⊢ VSE/, 'stroj more izreči VSE');
+  assert.match(izhod, /PREVERBA: \d+\/\d+ ∧ ⊢ VSE/, 'stroj more izreči VSE nad celoto');
+  assert.doesNotMatch(izhod, /PREVERBA: \d+\/\d+ ∧ · \d+ ×/, 'padla samopreverba je padec orodja');
 });
 
 test('abeceda-grep: fragmentacija po zakonu VBL ( 1050 -> 0.1050 × 10⁴ )', () => {
