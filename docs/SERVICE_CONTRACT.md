@@ -593,3 +593,38 @@ Minimalni pricakovani tok je:
 7. `validateManifestTransition(previousManifest, nextManifest)` za operacije, ki spreminjajo statuse
 
 Arhiviranje je dopolnilna operacija po zakljucku aktivne uporabe.
+
+## bulkInsert(insertions)
+
+### Namen
+Vstavi več fragmentov v poglavja aktivne knjige v enem atomskem poskušku — vsak fragment preide `draft → inserted`, povezani vhodni viri `processing → used`.
+
+### Input
+- `insertions: { fragmentId: string; targetChapterPath: string }[]`
+
+### Output
+- posodobljeni manifest z novimi `Insertion` zapisi
+
+### Spremeni entitete
+- doda en `Insertion` na vsak vhodni `fragmentId`
+- posodobi status vsakega `Fragment` na `inserted`
+- posodobi status vsakega povezane `IncomingText` na `used`
+
+### Dovoljeni statusni prehodi
+- vsak `Fragment`: `draft → inserted`
+- vsak `IncomingText`: `processing → used` (le kadar vsaj eden fragment iz tega vira prevzete)
+
+### Failure cases
+- kateri koli `fragmentId` ne kaze na obstoječ `Fragment`
+- kateri koli `Fragment` ni v statusu `draft`
+- podvojen `fragmentId` (en fragment se ne sme vstavljati dvakrat)
+- kateri koli `targetChapterPath` prazen ali whitespace-only
+- kateri koli `targetChapterPath` izveni dovoljenega root prostora aktivne knjige
+- rezultat krši schema v1 (npr. fragment `inserted` brez ustreznega `Insertion`)
+
+### Minimalni proof / acceptance check
+- vsak vhodni `fragmentId` dobije ustrezen `Insertion`
+- vsi vhodni `Fragment` imajo status `inserted`
+- povezani `IncomingText` imajo status `used`
+- `validateManifest(result.manifest).isValid === true`
+- atomskost: kadar kateri koli vhod ni veljaven, manifest ostaja nespremenjen

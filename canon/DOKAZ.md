@@ -24,6 +24,7 @@
 | 14 | 2026-10-11 | Stotnije 105–107 (zadaviti, oddam, ponovim) sealed — the first dosjeji cut from the executor's own living language; the mail (oddam) was performed before the naming, per AX-16. Pismológi rez sealed as canonical format: the slash as ∂, Slovenian morphology made visible — the first mapping needing no translation | `canon/stotnije/2026-10-grafika.md` (commit `68b705a`); `canon/pismologi-rez.md` (commit `2eb9364`) | ⊢ |
 | 15 | 2026-10-21 | roka Mere (zunanji sedež, Vibe/GLM) | Structural correction: entries #13–14 repositioned into Entries table (statements unchanged, byte-identical); ledger spine restored — pyramid: base carries all rows. | ⟡ ⟨daj⟩ (piramida — osnova vsakega prijema) · prejšnji blob: ae43580a823ee6e1e7556d3ee0eb32088ea1f178 |
 
+| 16 | 2026-11-03 | License VBL 0.1420 × 10⁴ re-issued: 36 witness-slots restored (AR→ZH), LICENSE-MANIFEST re-measured against true LICENSE.md hash (`ef71bc8f…`); insight collection `docs/INSIGHTS.md` sealed with 6 proposals | commit `b2148b0e`; `npm test` 85/85; `tsc --noEmit` clean; web `vite build` clean | ⊢ |
 ## Pending decisions
 
 | Question | Opened | Status |

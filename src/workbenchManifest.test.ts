@@ -15,6 +15,7 @@ import {
   updateInsertion,
   migrateManifestV1ToV2,
   validateManifest,
+  validateManifestTransition,
   type WorkbenchManifest,
   type WorkbenchManifestV1,
 } from "./workbenchManifest.js";
@@ -987,4 +988,6 @@ test("updateFragment clears conceptIds on null and rejects unknown concepts", ()
     () => updateFragment(tagged, "fragment-0001", { conceptIds: ["concept-missing"] }),
     /references missing Concept/,
   );
+
+
 });
