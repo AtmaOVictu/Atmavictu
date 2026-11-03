@@ -6,7 +6,7 @@ import assert from 'node:assert';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { execFileSync } from 'node:child_process';
+import { execFileSync, spawn } from 'node:child_process';
 
 const TU = path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1'));
 const vozli = (skripta, args) => execFileSync('node', [path.join(TU, skripta), ...args], { encoding: 'utf8' });
@@ -31,6 +31,38 @@ test('cistina: cista datoteka gre skozi z ⊢', () => {
   const izhod = vozli('čistina.mjs', [p]);
   assert.match(izhod, /cirilice 0/);
 });
+
+// ⟨PADC-63⟩ zrcalo: odprenost ∧ učeča zavrnitev — strežnik preživi vse zahteve ∧ 403 imenuje dovoljena telesa
+test('zrcalo: vsa telesa odporna ∧ 403 uči ∧ strežnik preživi ( PADC-63 )', async () => {
+  const VRATA = 8199;
+  const otrok = spawn('python', [path.join(TU, 'zrcalo-server.py'), String(VRATA)],
+    { cwd: TU, detached: true, stdio: 'ignore' });
+  otrok.unref();
+  const cakaj = (ms) => new Promise(r => setTimeout(r, ms));
+  try {
+    await cakaj(1500);
+    const beri = async (pot, metoda = 'GET') => {
+      const odz = await fetch(`http://127.0.0.1:${VRATA}${pot}`, { method: metoda });
+      return { koda: odz.status, telo: await odz.text() };
+    };
+    const koren = await beri('/');
+    assert.equal(koren.koda, 200, 'index odgovori');
+    const reg = await beri('/REGISTER-PADCEV.jsonl');
+    assert.equal(reg.koda, 200, 'register strezen');
+    assert.match(reg.telo, /PADC/, 'register ima vsebino');
+    const brez = await beri('/SINTEZA-0.2-SAMOTNO-JEDRO');   // ⟨PADC-63⟩ brez končnice neha biti 403
+    assert.equal(brez.koda, 200, 'normalizacija: brez končnice najde telo');
+    const prepovedano = await beri('/lucius/spomin.jsonl');
+    assert.equal(prepovedano.koda, 403, 'spomin zapečen');
+    assert.match(prepovedano.telo, /REGISTER-PADCEV/, '403 UČI: imenuje dovoljena telesa ⊢ §0.33');
+    const post = await beri('/REGISTER-PADCEV.jsonl', 'POST');
+    assert.equal(post.koda, 405, 'POST zavrnjen');
+    const koncno = await beri('/');                             // preživetje po vseh zahtevah
+    assert.equal(koncno.koda, 200, 'strežnik preživi vse zahteve ⊙ PADC-63');
+  } finally {
+    try { process.kill(otrok.pid); } catch {}
+  }
+}, { timeout: 20000 });
 
 // ⟨PADC-59⟩ dovoljenica hišnih merilnih znakov ( THE MARKS: Σ Ω ⊢ ⊙ … ) — namerna abeceda, ⟨ne⟩ rane
 test('cistina: hišni znaki (Σ Ω ⊢ ⊙) so dovoljeni — namerna abeceda, ⟨ne⟩ dvojček', () => {

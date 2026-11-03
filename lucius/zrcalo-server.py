@@ -1,7 +1,9 @@
-# ZRCALO-REGISTROV — samo-bralno zrcalo hišnih registrov v brskalniku.
-# Bela lista: SAMO REGISTER-*.jsonl ∧ ta stran — spomin, izmere, ključi NISO streženi (§0.14 varuh, KORENINA 0.5).
+# ZRCALO-REGISTROV — samo-bralno zrcalo hišnih teles v brskalniku.
+# Bela lista: SAMO našteta telesa — spomin, izmere, ključi NISO streženi ( §0.14 varuh, KORENINA 0.5 ).
+# PADC-63 zdravilo: ThreadingHTTPServer ( ena zahteva ⟨ne⟩ ubije vrat ) ∧ try/except v rokah ∧ flush ∧
+# 403 UČI ( izpiše dovoljena telesa ⊢ §0.33 born readable ) ∧ normalizacija poti ( brez končnice → poišče ).
 # Zagon: python lucius/zrcalo-server.py [vrata]  ( privzeto 8124 )
-import http.server, os, json, sys
+import http.server, os, json, sys, traceback
 
 VRATA = int(sys.argv[1]) if len(sys.argv) > 1 else 8124
 KOREN = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # koren repozitorija
@@ -10,15 +12,14 @@ DOVOLJENI = [
     'REGISTER-PADCEV.jsonl', 'REGISTER-TELES.jsonl', 'REGISTER-DISKA.jsonl',
     'REGISTER-NEIMENOVANIH.jsonl', 'REGISTER-PREVERJANJ.jsonl',
     'REGISTER-A1-PDF.jsonl', 'REGISTER-C2.jsonl', 'REGISTER-ZBIRKA.jsonl',
-    'SINTEZA-0.1-SAMOTNO-JEDRO.md',   # ⟨rez 3593⟩ hišna telesa postanejo brskateljska — samo beri ⊢ §0.33
-    'SINTEZA-0.2-SAMOTNO-JEDRO.md',   # ⟨rez 3597⟩ živa vrata: 0.2; 0.1 ostaja potrdilo ⊢ §0.10
-    'LICENSE.md',                     # ⟨rez 3600⟩ VRATA SAMA brskateljska — born readable ⊢ §0.33
-    'ONTOGEMATRIJA-KAZALO.txt',        # ⟨rez 3600⟩ kazalo 59 merjenih besed ( izvod instrumenta, regeneriran z ukazom )
-    'ONTOGEMATRIJA.html',              # ⟨rez 3601⟩ DEJAVNA stran: vpis besede → izmerjena vrstica ali ⚠ zavrnitev ( podatki vpleteni ob rojstvu )
-    'PREGLED-DNEVA-2026-11-03.md',    # ⟨rez 3601⟩ pregled dneva — objavljen kjer ga Lastnik bere ⊢ §0.40
+    'SINTEZA-0.1-SAMOTNO-JEDRO.md', 'SINTEZA-0.2-SAMOTNO-JEDRO.md',
+    'LICENSE.md', 'ONTOGEMATRIJA-KAZALO.txt', 'ONTOGEMATRIJA.html',
+    'PREGLED-DNEVA-2026-11-03.md',
 ]
+REGISTRI = [d for d in DOVOLJENI if d.endswith('.jsonl')]
+DOKUMENTI = [d for d in DOVOLJENI if not d.endswith('.jsonl')]
 
-TIP_VSEBINE = {  # vrata nosijo različne poti — tudi vrste vsebin ⊙ rez 3601
+TIP_VSEBINE = {
     'jsonl': 'application/jsonl; charset=utf-8',
     'md': 'text/markdown; charset=utf-8',
     'txt': 'text/plain; charset=utf-8',
@@ -27,22 +28,27 @@ TIP_VSEBINE = {  # vrata nosijo različne poti — tudi vrste vsebin ⊙ rez 360
 
 HTML = """<!doctype html>
 <html lang="sl"><head><meta charset="utf-8"/>
-<title>Zrcalo registrov — Atmavictu</title>
+<title>Zrcalo — Atmavictu</title>
 <style>
 body{font-family:Georgia,serif;background:#0e0f13;color:#d8d3c8;margin:2rem}
 h1{font-size:1.3rem}h2{font-size:1rem;color:#b8a87f}
+a{color:#9fb0c8}
 .reg{border:1px solid #3a3d47;border-radius:6px;padding:.8rem;margin:.8rem 0}
 .vrstica{font-family:monospace;font-size:.78rem;white-space:pre-wrap;word-break:break-all;color:#9fb0c8}
 .zadnji{color:#c9b98f}
-Σ{color:#7f8ea8}
 </style></head><body>
-<h1>⊙ Zrcalo registrov — Atmavictu</h1>
-<h2>samo beri ∧ ⟨ne⟩ piši — vsak register se bere pri viru ob vsakem odprtem oknu (§0.32)</h2>
+<h1>⊙ Zrcalo — Atmavictu</h1>
+<h2>samo beri ∧ ⟨ne⟩ piši — vsako telo se bere pri viru ob vsakem oknu ( §0.32 )</h2>
 <div id="telo">berem pri viru …</div>
 <script>
 const REGISTRI = %s;
+const DOKUMENTI = %s;
 async function beri(){
   const telo = document.getElementById('telo');
+  const glava = document.createElement('div');
+  glava.innerHTML = '<h2>telesa ( klikni ): ' +
+    DOKUMENTI.map(d => '<a href="/' + d + '">' + d + '</a>').join(' · ') + '</h2>';
+  telo.appendChild(glava);
   for (const ime of REGISTRI){
     const odz = await fetch('/' + ime);
     const txt = await odz.text();
@@ -59,38 +65,73 @@ beri();
 </script></body></html>
 """
 
+
 class Zrcalo(http.server.BaseHTTPRequestHandler):
-    def do_GET(self):
-        pot = self.path.lstrip('/').split('?')[0]
-        if pot in ('', 'index.html', 'zrcalo'):
-            self.send_response(200)
-            self.send_header('Content-Type', 'text/html; charset=utf-8')
-            self.end_headers()
-            self.wfile.write((HTML % json.dumps(DOVOLJENI)).encode('utf-8'))
-            return
+    def poisci_telo(self, pot):
+        """Normalizacija: odstrani poizvedbo ∧ končni poševnici; brez končnice → poišče ( .md · .txt · .html )."""
+        pot = pot.split('?')[0].strip('/')
+        if not pot or pot in ('index.html', 'zrcalo'):
+            return ('INDEX', None)
         if pot in DOVOLJENI:
-            poti = [os.path.join(KOREN, pot), os.path.join(KOREN, 'lucius', pot)]  # ⟨PADC-ZRCALO⟩ registrski datoteke so pri korenu ∧ v lucius/
-            for c in poti:
+            return ('TELO', pot)
+        for koncnica in ('.md', '.txt', '.html', '.jsonl'):
+            if pot + koncnica in DOVOLJENI:
+                return ('TELO', pot + koncnica)
+        return ('PREPEČENO', pot)
+
+    def poslji(self, koda, tip, b):
+        self.send_response(koda)
+        self.send_header('Content-Type', tip)
+        self.send_header('Content-Length', str(len(b)))
+        self.end_headers()
+        self.wfile.write(b)
+
+    def prepoved(self, pot):
+        """403 ki UČI ⊢ §0.33: izpiše dovoljena telesa — zavrnitev z imeni, ⟨ne⟩ molk."""
+        telo = ('<!doctype html><html lang="sl"><head><meta charset="utf-8"/><title>403 — prepovedano</title>'
+                '<body style="font-family:Georgia,serif;background:#0e0f13;color:#d8d3c8;margin:2rem">'
+                '<h1>⚠ 403 — ⟨' + pot.replace('<', '&lt;') + '⟩ ni na beli listi</h1>'
+                '<p>samo-beri zrcalo: spomin ∧ izmere ∧ ključi so zapečeni ⊙ varuh. Dovoljena telesa:</p><p>' +
+                ' · '.join('<a href="/' + d + '">' + d + '</a>' for d in DOVOLJENI) +
+                '</p><p>⊙ zavrnitev poimenuje, ⟨ne⟩ utiša ⊢ §0.33 ∧ PADC-63</p></body></html>').encode('utf-8')
+        self.poslji(403, 'text/html; charset=utf-8', telo)
+
+    def do_GET(self):
+        try:
+            vrsta, pot = self.poisci_telo(self.path)
+            if vrsta == 'INDEX':
+                self.poslji(200, 'text/html; charset=utf-8',
+                            (HTML % (json.dumps(REGISTRI), json.dumps(DOKUMENTI))).encode('utf-8'))
+                return
+            if vrsta == 'PREPEČENO':
+                self.prepoved(pot)
+                return
+            for c in (os.path.join(KOREN, pot), os.path.join(KOREN, 'lucius', pot)):
                 if os.path.isfile(c):
                     with open(c, 'rb') as f:
                         b = f.read()
                     tip = os.path.splitext(pot)[1].lstrip('.').lower()
-                    self.send_response(200)
-                    self.send_header('Content-Type', TIP_VSEBINE.get(tip, 'application/octet-stream'))
-                    self.send_header('Content-Length', str(len(b)))
-                    self.end_headers()
-                    self.wfile.write(b)
+                    self.poslji(200, TIP_VSEBINE.get(tip, 'application/octet-stream'), b)
                     return
             self.send_error(404)
-            return
-        self.send_error(403)  # vse ostalo: zapečeno — spomin ∧ ključi ⟨ne⟩ streženi ⊙
+        except BrokenPipeError:
+            pass  # odjemalec odšel — vrata ostanejo odprta ⊙ PADC-63
+        except Exception:
+            traceback.print_exc(file=sys.stderr)
+            sys.stderr.flush()
 
     def do_POST(self):
-        self.send_error(405)  # samo beri (§0.32: živa vrata se berejo, ⟨ne⟩ pomnijo)
+        try:
+            self.poslji(405, 'text/plain; charset=utf-8',
+                        'samo beri ( §0.32: živa vrata se berejo, ⟨ne⟩ pomnijo )'.encode('utf-8'))
+        except Exception:
+            traceback.print_exc(file=sys.stderr)
+            sys.stderr.flush()
 
     def log_message(self, *args):
         pass
 
+
 if __name__ == '__main__':
-    print(f'ZRCALO @http://localhost:{VRATA} — {len(DOVOLJENI)} registrov na beli listi ⊢')
-    http.server.HTTPServer(('127.0.0.1', VRATA), Zrcalo).serve_forever()
+    print(f'ZRCALO @http://localhost:{VRATA} — {len(DOVOLJENI)} teles na beli listi ⊢', flush=True)
+    http.server.ThreadingHTTPServer(('127.0.0.1', VRATA), Zrcalo).serve_forever()
