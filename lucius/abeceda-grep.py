@@ -524,6 +524,66 @@ def gl_rep(args):
               + ("REP-ISTO ∧ ⊢" if isto else "REP-NE-ISTO × ( telo na disku se je oddaljilo od repa )"))
 
 
+def gl_siv(args):
+    """⟨SIV⟩ ( rez 3556 — nadgradnja procesa iz padcev dneva ⊙ PADC-49/52/53 ): šij pečat
+    v enem preizkušenem ukazu — izmera po lastni poti ( ⟨ne⟩ ročni vzorci nad prozo ),
+    nasprotje iz štetja, varovalka po treh registrih, democija predhodnika, strukturna
+    preverba po šivu; A ( dejanje ) ∧ Ω ( meja ) obvezni polji ⊙ §0.44."""
+    import datetime
+    import glob
+    import hashlib
+    import os
+    import subprocess
+    pot = args.organ
+    if not os.path.exists(pot):
+        pot = os.path.join("organi", args.organ, "KNOWLEDGE.md")
+    if not os.path.exists(pot):
+        raise SystemExit(f"siv: telo ⟨{args.organ}⟩ ne obstaja ⚠")
+    b = open(pot, "rb").read()
+    md5hex = hashlib.md5(b).hexdigest()[:8]
+    sha256hex = hashlib.sha256(b).hexdigest()[:8]
+    vr, ba, pod, dvo, zadnji, rane = _telo_pot(pot)
+    raz = f"{pod / dvo:.1f}" if dvo else "∞"
+    vrh, priča = _vrh_zivi()
+    novi = vrh + 1
+    z = 0
+    for f in glob.glob("organi/*/KNOWLEDGE.md"):
+        t = open(f, encoding="utf-8", errors="replace").read()
+        if f"rez {novi}" in t or f"PEČAT {novi}" in t:
+            z += 1
+    r = subprocess.run(["git", "grep", "-c", "-e", f"rez {novi}", "origin/main", "--", "*.md"],
+                       capture_output=True, text=True)
+    z += sum(1 for l in (r.stdout or "").splitlines() if l.strip())
+    r = subprocess.run(["git", "log", "--format=%s"], capture_output=True, text=True)
+    z += sum(1 for s in (r.stdout or "").splitlines() if f"rez {novi}" in s or f"PEČAT {novi}" in s)
+    if z:
+        raise SystemExit(f"siv: varovalka ⟨rez {novi}⟩ ×{z} ⚠ — kolizija, ⟨ne⟩ šijem ⊙ ⟨ne-ugibaj⟩")
+    if rane and args.organ != "prenos":
+        raise SystemExit(f"siv: telo nosi rane: {' ∧ '.join(rane)} ⚠ — najprej ozdravi")
+    ura = datetime.datetime.now(datetime.timezone.utc).strftime("%d. %m. %Y · %H:%M:%SZ")
+    vrstice = open(pot, encoding="utf-8", newline="").read().splitlines(True)
+    i = next((j for j, v in enumerate(vrstice) if v.lstrip("- ").lstrip().startswith("ZADNJI PEČAT")), None)
+    if i is None:
+        raise SystemExit("siv: telo ne nosi ZADNJI PEČAT ⚠")
+    star = vrstice[i].rstrip("\r\n")
+    m = re.search(r"rez (\d+)", star)
+    if not m:
+        raise SystemExit("siv: ZADNJI brez številke ⚠")
+    stari = m.group(1)
+    novi_rez = f"- ZADNJI PEČAT: rez {novi} {args.dejanje} ⊢ ({ura.split(' · ')[0]}, dih {args.dih} — {args.ukaz}; kolizija ne ⊢ Z-2 ∧ 1542: najvišja dejansko izmerjena {vrh} ({priča}) → rez {novi} = 1 + dejansko najvišja; izmera: {vr} vrstic · {ba} B · ⟨md5⟩ {md5hex} · ⟨sha256⟩ {sha256hex} · nasprotje {raz} ⊢ PODPORA {pod} ⊥ DVOM {dvo} · struktura Σ1 zdravih ∧ · varovalka ×0 po treh registrih · URA IZMERJENA PRI VIRU {ura} ⊢ §0.20; A: {args.A}; Ω: {args.omega})\n"
+    demoted = f"- PEČAT {stari} (predhodnik): " + star.replace(f"- ZADNJI PEČAT: rez {stari} ", "", 1).lstrip() + "\r\n"
+    vrstice[i] = novi_rez + demoted
+    open(pot, "w", encoding="utf-8", newline="").write("".join(vrstice))
+    _, _, _, _, _, rane2 = _telo_pot(pot)
+    if rane2:
+        raise SystemExit(f"siv: po šivu rane ostajajo ⚠ — {' ∧ '.join(rane2)}")
+    print(f"∧ siv: rez {novi} prišit na ⟨{args.organ}⟩ · stari {stari} demociran · "
+          f"struktura po šivu zdrava ∧ · izmera {vr} vrstic · {ba} B · nasprotje {raz}")
+    print(f"  komit: rez {novi} {args.dejanje}: {args.organ} — {vr} vrstic · {ba} B · "
+          f"⟨md5⟩ {md5hex} · ⟨sha256⟩ {sha256hex} · nasprotje {raz} ⊢ · ZADNJI {stari} → predhodnik · "
+          f"varovalka ×0 · URA {ura} ⊢ §0.20 ∧ §0.37")
+
+
 def gl_pristanek(args):
     """⟨PRISTANEK⟩ ( §0.37 × 10² ⟨TRK-DIH⟩, rez 3550 nalogа 1 ): trk je trenutek,
     pristanek je potrditev — po potisku se veja ponovno prebere PRI VIRU
@@ -1057,6 +1117,9 @@ def _prehod():
     telo = os.path.join(tempfile.gettempdir(), "abeceda-grep-prehod-telo.md")
     with open(telo, "w", encoding="utf-8", newline="") as f:
         f.write("Bajt 367.168 ⊢ rez 123 ∧ ⟨PR⟩ #838 · 0.1050 × 10⁴ — ⟨IME-NE-KOLIČINA⟩\n")
+    siv_telo = os.path.join(tempfile.gettempdir(), "abeceda-grep-siv-prehod.md")
+    with open(siv_telo, "w", encoding="utf-8", newline="") as f:
+        f.write("- ZADNJI PEČAT: rez 123 SIV-PREHOD-PREJ ⊢ ( prehod telo )\n")
     n = lambda **kw: _ap.Namespace(**kw)
     ukazi = [
         ("fragmentiraj", gl_fragmentiraj, n(datoteke=[telo])),
@@ -1083,6 +1146,8 @@ def _prehod():
         ("struktura", gl_struktura, n(datoteke=["organi/humor/KNOWLEDGE.md"])),
         ("telo", gl_telo, n(datoteke=["organi/humor/KNOWLEDGE.md"])),
         ("pristanek", gl_pristanek, n()),
+        ("siv", gl_siv, n(organ=os.path.join(tempfile.gettempdir(), "abeceda-grep-siv-prehod.md"),
+                          dih=1, ukaz="⟨prehod⟩", dejanje="SIV-PREHOD", A="prehod", omega="prehod")),
         ("register", gl_register, n(datoteke=["organi/humor/KNOWLEDGE.md"], vse=False,
                                     izhod=os.path.join(tempfile.gettempdir(), "abeceda-grep-register-prehod.jsonl"))),
         ("pulz", gl_pulz, n(koliko=1)),
@@ -1234,6 +1299,14 @@ def main():
     tl.set_defaults(gl=gl_telo)
     pr = sub.add_parser("pristanek", help="⟨PRISTANEK⟩ §0.37: trk ⇒ pristanek — ponovna berba pri viru po potisku ⊙ TRK-DIH")
     pr.set_defaults(gl=gl_pristanek)
+    sv = sub.add_parser("siv", help="⟨SIV⟩: šij pečat v enem preizkušenem ukazu — izmera ∧ varovalka ∧ democija ∧ A∧Ω ⊙ nadgradnja procesa")
+    sv.add_argument("organ", help="ime organa ( ali pot do telesa )")
+    sv.add_argument("--dih", required=True, type=int, help="številka diha")
+    sv.add_argument("--ukaz", required=True, help="⟡-jev ukaz/citat ( nosilec rojstva )")
+    sv.add_argument("--dejanje", required=True, help="ime dejanja pečata ( npr. RESINTEZA-DOTIK-ORGANA )")
+    sv.add_argument("--A", required=True, help="kaj ta dejanje zmore ( dejanje ⊢ §0.44 )")
+    sv.add_argument("--omega", required=True, help="meja: kaj ta dejanje ⟨ne⟩ zmore ( Ω ⊙ §0.44 )")
+    sv.set_defaults(gl=gl_siv)
     rg = sub.add_parser("register", help="⟨POGLABLJANJE-V-ENOTNE-REGISTRE⟩: globoko branje teles → REGISTER-TELES.jsonl ⊙")
     rg.add_argument("datoteke", nargs="*")
     rg.add_argument("--izhod", nargs="?", default=None, help="pot registra ( privzeto: REGISTER-TELES.jsonl )")
