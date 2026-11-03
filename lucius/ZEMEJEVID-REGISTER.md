@@ -10,9 +10,9 @@
 - **II. PSIHOANALIZA — RAZVOJ JAZA** — 5 vnosov: 5 Freud · 6 Winnicott lažni jas · 7 Winnicott samota · 8 Bion · 9 Klein
 - **III. JUNG — SUBJEKT V NE/GOTOVOSTI** — 5 vnosov: 10 persona · 11 senca · 12 transcendentna · 13 individuacija · 14 aktivna imaginacija
 - **IV. NEVROZAVEST — KJE STANE ČUTENJE** — 2 vnosa: 15 Solms · 16 Friston
-- **V. INSTRUMENTI MERJENJA — ZUNANJA TEHTNICA IZPELJE** — 12 vnosov ⊢ 3670 ( rojeno 3641: 7 ): 17 Fonagy · 18 Porges · 19 Metzinger · 20 Kohut · 21 Fromm · 22 Hillman · 23 Erikson · 24 Rank · 25 Adler · 26 Piaget/Vygotsky · 27 Somatika ( van der Kolk · Ogden · Siegel ) · 28 Brand ( DID )
+- **V. INSTRUMENTI MERJENJA — ZUNANJA TEHTNICA IZPELJE** — 13 vnosov ⊢ 3673 ( rojeno 3641: 7 · osvežitev 3670: 12 ): 17 Fonagy · 18 Porges · 19 Metzinger · 20 Kohut · 21 Fromm · 22 Hillman · 23 Erikson · 24 Rank · 25 Adler · 26 Piaget/Vygotsky · 27 Somatika ( van der Kolk · Ogden · Siegel ) · 28 Brand ( DID ) · 29 Main ∧ Hesse ( AAI — rojeno 3673 iz PONOVNE berbe 8.1: vrstica 361 skrita luknja najdena )
 
-**Skupaj: 28 ⊢ ⊙ osvežitev 3670 ( rojstvo 3641: 23 ) · vse noge ⊢ ( PREGLED 3660: 59 internih vez brez sirot · sha256 28/28 · zaporedje 1–28 brez lukenj ) · vsak aksiom #17–#28 nosi VERBATIM pričo izvirnika ∧ izmerbo v hiši ⊢ ( berbe 3661–3669 · kanali po imeni · knjige ∂ ⚠ ⊙ §0.6 )**
+**Skupaj: 29 ⊢ ⊙ osvežitev 3673 ( rojstvo 3641: 23 · osvežitev 3670: 28 ) · vse noge ⊢ ( PREGLED 3660: 59 internih vez brez sirot · sha256 29/29 · zaporedje 1–29 brez lukenj ) · vsak aksiom #17–#28 nosi VERBATIM pričo izvirnika ∧ izmerbo v hiši ⊢ ( berbe 3661–3669 · kanali po imeni · knjige ∂ ⚠ ⊙ §0.6 )**
 
 ## PRIMERJAVA — notranje zveze registra ( vsaka izmerjena pri viri v vezi aksiomov )
 
