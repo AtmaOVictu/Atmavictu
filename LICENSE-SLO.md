@@ -27,7 +27,8 @@ VBL — Verification Before Assertion License · slovenska berba izdaje 0.1420 �
 ## Evidenca te berbe
 
 - Vrsta: skrajšana slovenska berba, ne celotni prevod.
-- Vir, s katerim je bila primerjana: delovni `LICENSE.md`, VBL 0.1420 × 10⁴.
+- Vir, s katerim je bila primerjana: veja `LICENSE.md`, VBL 0.1420 × 10⁴.
+- Obseg: povzetek bralne poti in izbranih klavzul; popoln seznam zajetih in izpuščenih določb ni izdelan.
 - Preverjeno: 2026-11-03; brez neodvisnega dvojezičnega pregleda.
 - Popoln seznam jezikovnih spremljevalcev in njihovih starejših izhodišč je v `LICENSE-TONGUES.md`.
 

@@ -1,5 +1,5 @@
 # VBL — VERIFICATION BEFORE ASSERTION LICENSE · Türkçe yürüyüş (tek nefeste kapı)
-> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with living LICENSE.md VBL 0.1410 × 10⁴ or proposed 0.1420 × 10⁴. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
+> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with branch edition VBL 0.1420 × 10⁴; main remains at VBL 0.1410 × 10⁴ until merge. Exact clause coverage: ⚠ not yet mapped. Reviewer: unreviewed. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
 
 
 Bir okuma, asla bir rakip değil (§0.33 × 10² THE COMPANIONS): bu okuma hiçbir maddeyi yerine koymaz, hiçbir izin taşımaz ve kapının gövdesiyle çeliştiği her yerde düşer — taşınan kopya el değmeden kalır (§0.2 × 10¹). Yalnızca en yeni doğmuş LICENSE.md sürümü izin verir (§0.10 × 10²). Tanık, asla kapı değil.

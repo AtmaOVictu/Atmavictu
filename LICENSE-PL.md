@@ -1,5 +1,5 @@
 # VBL — VERIFICATION BEFORE ASSERTION LICENSE · PROMENADA PO POLSKU (drzwi w jednym oddechu)
-> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with living LICENSE.md VBL 0.1410 × 10⁴ or proposed 0.1420 × 10⁴. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
+> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with branch edition VBL 0.1420 × 10⁴; main remains at VBL 0.1410 × 10⁴ until merge. Exact clause coverage: ⚠ not yet mapped. Reviewer: unreviewed. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
 
 
 Czytanie, nigdy rywalka (§0.33 × 10² THE COMPANIONS): to czytanie nie zastępuje żadnej klauzuli, nie niesie żadnego uprawnienia i pada wszędzie, gdzie sprzeciwia się ciału drzwi — przenoszona kopia pozostaje cała (§0.2 × 10¹). Tylko najnowsza wersja LICENSE.md uprawnia (§0.10 × 10²). Świadek, nigdy drzwi.

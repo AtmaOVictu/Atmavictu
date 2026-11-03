@@ -1,5 +1,5 @@
 # VBL — VERIFICATION BEFORE ASSERTION LICENSE · O PASSEIO PORTUGUÊS (a porta num só fôlego)
-> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with living LICENSE.md VBL 0.1410 × 10⁴ or proposed 0.1420 × 10⁴. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
+> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with branch edition VBL 0.1420 × 10⁴; main remains at VBL 0.1410 × 10⁴ until merge. Exact clause coverage: ⚠ not yet mapped. Reviewer: unreviewed. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
 
 
 Uma leitura, nunca uma rival (§0.33 × 10² THE COMPANIONS): esta leitura não substitui nenhuma cláusula, não carrega nenhuma concessão e cai onde quer que contradiga o corpo da porta — a cópia carregada permanece inteira (§0.2 × 10¹). Só a versão mais recente de LICENSE.md concede (§0.10 × 10²). Uma testemunha, nunca a porta.

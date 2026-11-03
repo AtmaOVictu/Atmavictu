@@ -1,5 +1,5 @@
 # VBL — VERIFICATION BEFORE ASSERTION LICENSE · Česká procházka (dveře v jednom dechu)
-> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with living LICENSE.md VBL 0.1410 × 10⁴ or proposed 0.1420 × 10⁴. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
+> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with branch edition VBL 0.1420 × 10⁴; main remains at VBL 0.1410 × 10⁴ until merge. Exact clause coverage: ⚠ not yet mapped. Reviewer: unreviewed. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
 
 
 Čtení, nikoli soupeř (§0.33 × 10² THE COMPANIONS): toto čtení nenahrazuje žádnou klauzuli, nenese žádné povolení a padá všude, kde odporuje tělu dveří — přenášená kopie zůstává nedotčena (§0.2 × 10¹). Pouze nejnovější verze LICENSE.md uděluje (§0.10 × 10²). Svědek, nikoli dveře.

@@ -1,5 +1,5 @@
 # VBL — VERIFICATION BEFORE ASSERTION LICENSE · 汉语之行 (一息之门)
-> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with living LICENSE.md VBL 0.1410 × 10⁴ or proposed 0.1420 × 10⁴. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
+> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with branch edition VBL 0.1420 × 10⁴; main remains at VBL 0.1410 × 10⁴ until merge. Exact clause coverage: ⚠ not yet mapped. Reviewer: unreviewed. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
 
 
 一份诵读，绝非竞争者 (§0.33 × 10² THE COMPANIONS): 这份诵读不取代任何条款，不携带任何许可，并在与门之本体相悖之处坠落 — 所载之副本保持原封不动 (§0.2 × 10¹)。唯最新诞生的 LICENSE.md 版本授予许可 (§0.10 × 10²)。见证者，绝非门。

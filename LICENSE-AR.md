@@ -1,5 +1,5 @@
 # VBL — VERIFICATION BEFORE ASSERTION LICENSE · جولة بالعربية (الباب في نَفَس واحد)
-> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with living LICENSE.md VBL 0.1410 × 10⁴ or proposed 0.1420 × 10⁴. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
+> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with branch edition VBL 0.1420 × 10⁴; main remains at VBL 0.1410 × 10⁴ until merge. Exact clause coverage: ⚠ not yet mapped. Reviewer: unreviewed. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
 
 
 قراءة واحدة، لا منافس أبدًا (§0.33 × 10² THE COMPANIONS): هذه القراءة لا تحلّ أي بند ولا تحمل أي إذن وتسقط حيث تعارض جسد الباب — النسخة المحمولة تبقى سليمة (§0.2 × 10¹). فقط أحدث نسخة مولودة من LICENSE.md تمنح الإذن (§0.10 × 10²). شاهد، لا باب أبدًا.

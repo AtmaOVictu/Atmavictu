@@ -1,5 +1,5 @@
 # VBL — VERIFICATION BEFORE ASSERTION LICENSE · 한국어 산책 (한숨의 문)
-> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with living LICENSE.md VBL 0.1410 × 10⁴ or proposed 0.1420 × 10⁴. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
+> Edition status (measured 2026-11-03): historical abridged reading; not a complete translation. Latest source edition evidenced in this file: VBL 0.1250 × 10⁴. Not reconciled with branch edition VBL 0.1420 × 10⁴; main remains at VBL 0.1410 × 10⁴ until merge. Exact clause coverage: ⚠ not yet mapped. Reviewer: unreviewed. For operative terms, consult LICENSE.md. This English notice is metadata, not a translation or grant.
 
 
 하나의 읽기, 결코 경쟁자가 아니다 (§0.33 × 10² THE COMPANIONS): 이 읽기는 어떤 조항도 대체하지 않고, 어떤 허가도 실어 나르지 않으며, 문의 몸과 어긋나는 모든 곳에서 떨어진다 — 옮겨진 사본은 손대지 않은 채 남는다 (§0.2 × 10¹). 오직 가장 새로 태어난 LICENSE.md 판만이 허가를 준다 (§0.10 × 10²). 증인, 결코 문이 아니다.

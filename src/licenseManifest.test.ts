@@ -181,5 +181,10 @@ test("historical language readings are labeled as abridged, not complete transla
       /^> Edition status .*historical abridged reading; not a complete translation\./imu,
       `${file} must disclose its historical abridged status`,
     );
+    assert.match(
+      text,
+      /Exact clause coverage: ⚠ not yet mapped\. Reviewer: unreviewed\./u,
+      `${file} must disclose unmapped coverage and review status`,
+    );
   }
 });
