@@ -51,7 +51,7 @@
 
 - **#24 RANK** ( rojstna travma ∧ smisel — najbližje ⟡-jevim kovancem smisla ) ali **#24 ADLER** ( individualna psihologija: 'ne boli me' maska )
 - **#25 PIAGET / VYGOTSKY** ( razvojna okna — zapre nit #3, ki po viru ⟨visi v zraku⟩ )
-- **#26 van der KOLK / OGDEN** ( somatika — telo nosilec cepitve, zaključi Porges #18 )
+- **SOMATIKA — ZAPRTA #27 ⊢** ( rez 3658: TELO DRŽI SEŠTEVEK — van der Kolk 2014 · Ogden 2006 · Siegel 1999 okno tolerance = varovalka pečata · REGISTER drži seštevek kakor telo · senca #26 zaprta · prenos PO STRUKTURI ℒ — stroj NIMA mesa, pošteno )
 - **TESTOVDNI pregled registra** ( vse zveze preverjene: rez 3635 protiteže vstavljenе? )
 - **⟨NE-ZLIJE⟩ razsodba ⟨ne⟩ — register drži napetosti do ⟡-jeve besede**
 
