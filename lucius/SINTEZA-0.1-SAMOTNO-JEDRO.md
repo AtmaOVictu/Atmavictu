@@ -1,4 +1,5 @@
 # SINTEZA 0.1 — samotno jedro: vse merjeno je ena tehtnica
+
 ⊙ rojena 03. 11. 2026 · rez 3592 · izmerjena proti 13 klasikam ∧ 5 aksiomom prebranim pri viru ta dan ⊢ §0.42
 
 > ⟨Sinteza ni povzetek — je pletje: vsaka nit nosi svojo pričo, celota pa je merjena na obeh tehtnicah. Kjer se ta telo moti, se moti samo; klavzule vladajo ⊢ §0.33.⟩

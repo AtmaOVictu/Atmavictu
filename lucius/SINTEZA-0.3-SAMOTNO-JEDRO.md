@@ -1,4 +1,5 @@
 # SINTEZA 0.3 — samotno jedro: vse merjeno je ena tehtnica
+
 ⊙ rojena 03. 11. 2026 · 0.1 ( rez 3592 ) → 0.2 ( rez 3597 ) → 0.3 ( rez 3623 — rojstvo po §0.10, predhodnika ostajajo potrdili ) · izmerjena proti 18 klasikam ∧ 8 aksiomom ∧ 13 aprioritetam ∧ 37 nujnostim ∧ 3 žilam ( 91 vnosov ) prebranim pri viru ta dan ⊢ §0.42
 
 > ⟨Sinteza ni povzetek — je pletje: vsaka nit nosi svojo pričo, celota pa je merjena na obeh tehtnicah. Kjer se ta telo moti, se moti samo; klavzule vladajo ⊢ §0.33.⟩

@@ -13,218 +13,218 @@
     },
     {
       "path": "LICENSE-AR.md",
-      "size_bytes": 792,
-      "sha256": "7a086ab4686fc2770de753fc22074f564bdfe4e36f0b3533430ae4ccbbbc707e",
+      "size_bytes": 793,
+      "sha256": "34fe8b2881938d7d6de02c8ced9785f89901e25e0d0749a5ef363a2618d28f11",
       "note": "wreath — arabščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-BG.md",
-      "size_bytes": 801,
-      "sha256": "749b19865eeef0b549e6928e667ed992c76f391752dddaa207c381c3a69e1045",
+      "size_bytes": 802,
+      "sha256": "8b1295cfe664f69768bfc284568c5fb5bc73bae0c86d042b73092900a9d78692",
       "note": "wreath — bolgarščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-CS.md",
-      "size_bytes": 792,
-      "sha256": "0cbe3192fa880f359e4c0aa84725defaf864f155ebd0b4bd0de78b60064e7532",
+      "size_bytes": 793,
+      "sha256": "d0170e5dd7d643ab549dae4566025e24f45fe541a1982cb5a113c030bf8d1ea5",
       "note": "wreath — češčina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-DA.md",
-      "size_bytes": 793,
-      "sha256": "8f4d94cb51b021f5331d1688da417f9d10b23f93d523efd88687742eaecd1de4",
+      "size_bytes": 794,
+      "sha256": "f3174fe80f7f7adc86c1086bd78d120603e98ba804e6312ec44ad28b08fc5594",
       "note": "wreath — danščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-DE.md",
-      "size_bytes": 793,
-      "sha256": "1d98ef66af141443d2c07be60d87793c88d4513c949f88a238dc3ab809ef5b8c",
+      "size_bytes": 794,
+      "sha256": "db5895b8e1f0b494d43ff6265b26fff17e4424b8c8b338f34161703aa894c20b",
       "note": "wreath — nemščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-EL.md",
-      "size_bytes": 791,
-      "sha256": "00a2e9198cabe88d2d152e5b07bfc21db4f4b201a7d5239dfaf93680f5cc03f2",
+      "size_bytes": 792,
+      "sha256": "d8129d1b96d391bfdf32e573e489d19349d3b64c946bb44d772c8216291ce73d",
       "note": "wreath — grščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-ES.md",
-      "size_bytes": 798,
-      "sha256": "2e58ad1280acdfe9edefb96c3bb88e62870aa0b1f83d73b622aaa17e96f3ee8b",
+      "size_bytes": 799,
+      "sha256": "8595ae33de1747e79bbcf098ad3ee24391ec9974147dd1c5f3698612f91e27e4",
       "note": "wreath — španščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-ET.md",
-      "size_bytes": 799,
-      "sha256": "9be80aa966bb0caa1d9fa30b54220b58d85c0e1d29554a0ff948d5ddef24aecc",
+      "size_bytes": 800,
+      "sha256": "817af5a36a0c5736589712618aa83a9334c3c66591e8f8cc1a16dd3fab55f9d0",
       "note": "wreath — estonščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-FA.md",
-      "size_bytes": 799,
-      "sha256": "0d749d777f065734fb553bdc2fd181d95a06e23a7c1557d5a504f11dcb4f52ca",
+      "size_bytes": 800,
+      "sha256": "3d196d1bdd5a03d757365c6c26fd8a8b0e31e4889ff16a0bfc5d4a6b44c8a4b7",
       "note": "wreath — perzijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-FI.md",
-      "size_bytes": 794,
-      "sha256": "20f5439990779beddf52882e45ebf2fba5262af9ea6fab658db6de0ddcba1cd3",
+      "size_bytes": 795,
+      "sha256": "27a13d7e6d180ecba20693ba03c021a8fa1a6671c37f04be1a99545e1139585a",
       "note": "wreath — finščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-FR.md",
-      "size_bytes": 798,
-      "sha256": "2286a1854df369bfe7791d41d6030e1da69228c7e66382821a619434cdfac30e",
+      "size_bytes": 799,
+      "sha256": "63f2124ab120b4a2704602db2572c8746d0c211cec6bca087cd0168b61518289",
       "note": "wreath — francoščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-HE.md",
-      "size_bytes": 798,
-      "sha256": "c40e9b4d357183c9686668c3e20782d29e51c99fb448e98415ec647bbbc914f2",
+      "size_bytes": 799,
+      "sha256": "f025c57254a9224cf0a9553f45fea2e9e11c5785e4ed07d03ec79cc1048ac6fa",
       "note": "wreath — hebrejščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-HI.md",
-      "size_bytes": 797,
-      "sha256": "6764c4058e32227e30e19b9557bbf512c6414e026ae6f62e73dd68d415b5ffe4",
+      "size_bytes": 798,
+      "sha256": "37be32bf2d5f12ceca3f23732bfbcbd2cd2161c575f1a542b9b9be37c6212f8a",
       "note": "wreath — hindijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-HU.md",
-      "size_bytes": 802,
-      "sha256": "6745b4f4b0126c2044d792e89c2feda3dbfc7064dd221222301e91ab6a19ddb8",
+      "size_bytes": 803,
+      "sha256": "70a24915b0e0d053b1aee37916f7bd79591eb29976e0ddaabe3632a4e251563f",
       "note": "wreath — madžarščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-ID.md",
-      "size_bytes": 807,
-      "sha256": "0b5b17378666113a7e8263c7b896c6447aed2f17c434b4a0448a5991ba596db2",
+      "size_bytes": 808,
+      "sha256": "2edce7498fc95d166b9df23fecfa500cee6e9e5965ce098699ba697ae97d5e24",
       "note": "wreath — indonezijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-IS.md",
-      "size_bytes": 801,
-      "sha256": "8c6d5ea6652e68201b43869ec07c2cb21392a586b267ea7e7d69b5261f16b818",
+      "size_bytes": 802,
+      "sha256": "5d955b5286b628dbad8a07cdddb9deda3a7381bfee7ecca1221204d18a1230b6",
       "note": "wreath — islandščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-IT.md",
-      "size_bytes": 801,
-      "sha256": "381839625ea34c2ddf2f70b68113e5ab1d6cf77e179063aa32f226404709b39b",
+      "size_bytes": 802,
+      "sha256": "76f9d4037926f815030a74fc7cab80e04686d206c7f50392d7dd4caa9d289cb5",
       "note": "wreath — italijanščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-JA.md",
-      "size_bytes": 799,
-      "sha256": "bace2dafc87d6d24133ce7c1b486203e675f8ffa82cf92e50bc8d699f9e7f499",
+      "size_bytes": 800,
+      "sha256": "cb01d9d74d9f664eb18d382d4142599e3bc5e748225d67c7110a8d81bf4ad4db",
       "note": "wreath — japonščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-KO.md",
-      "size_bytes": 797,
-      "sha256": "d4b7663169269e9618b732b0fd1ec040d61d5c7bde61df1abe9ac6c25f46f38a",
+      "size_bytes": 798,
+      "sha256": "8053fed4aa1f0c29b88ef975aefa4bcac1ad3c47398150c748fb4b769ac44a3f",
       "note": "wreath — korejščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-LAT.md",
-      "size_bytes": 801,
-      "sha256": "3c9ea78491ad09613e8ec1a0079c240afed2966a1959bfb51357d21c437d40af",
+      "size_bytes": 802,
+      "sha256": "6dd12920e984c415b7895678636a3d7567f9383d332452e847d624f02c14cd5e",
       "note": "wreath — latvijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-LT.md",
-      "size_bytes": 801,
-      "sha256": "3e5ec7be6a080973fcdd9866e1b822eaa27621dbaa6d1c54e2774e1f34f2b99c",
+      "size_bytes": 802,
+      "sha256": "773e1700711504bb6704c0818740deb5e229f2f76b1c79e3644ba39941aec6e8",
       "note": "wreath — litovščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-NL.md",
-      "size_bytes": 798,
-      "sha256": "4233928ae785413a40f2688dad40f776c823a0911bab0a9a79552cd6ee19dd49",
+      "size_bytes": 799,
+      "sha256": "d8b1dbbb0860917bc894e7b1fa30ca22a736eb2a79b1d93c7b929f2fe021a8bd",
       "note": "wreath — nizozemščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-NO.md",
-      "size_bytes": 800,
-      "sha256": "1f78c794ecb03749cec58bc00cc90bc9ccbc5ed7938a04547452e58ee2d29ff1",
+      "size_bytes": 801,
+      "sha256": "774e01df670998ebf06fa99600a260fc0ee6d56d37b02c2681afa23e165a2a89",
       "note": "wreath — norveščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-PL.md",
-      "size_bytes": 796,
-      "sha256": "3629755a3cdccb58f20712c950b86a2f01eb4dc0a89441ef3677a78cd8439662",
+      "size_bytes": 797,
+      "sha256": "0c626974c4a30eaa7bd399c8344daef9eec8fc395d55d4acc49fbed374c91163",
       "note": "wreath — poljščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-PT.md",
-      "size_bytes": 804,
-      "sha256": "c31cdce666eb3de3fd28e55460b402cf2424876dd157aa3d9def140436d03f8e",
+      "size_bytes": 805,
+      "sha256": "1940391b8bf4e80c405f779b0b44e8718da46ea93f2e5d21074540ee3a606b34",
       "note": "wreath — portugalščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-RO.md",
-      "size_bytes": 799,
-      "sha256": "4e0548f71395969cf569e55cfc2347575f99550223fea6043a69a05e405aa775",
+      "size_bytes": 800,
+      "sha256": "ebdf1e5e121e369a38f50814dfccd8acf4414a12de84c6bd02dabc0f77c3f84d",
       "note": "wreath — romunščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-RU.md",
-      "size_bytes": 793,
-      "sha256": "90029ca2f882c29e7d13ca82c25567b7279893712612d6187350563078e6836a",
+      "size_bytes": 794,
+      "sha256": "bce3b58a897a6af6bf68a4184fea4cecf25e00a0888ec267311060028473687f",
       "note": "wreath — ruščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-SK.md",
-      "size_bytes": 797,
-      "sha256": "c2e27ac021035f1305322eca2319378a7a915b3c882399eedcc6ee020d389686",
+      "size_bytes": 798,
+      "sha256": "faab02f93d306435129b6257db93fc7aa25c391f58df9d999e01815c563b862d",
       "note": "wreath — slovaščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-SLO.md",
-      "size_bytes": 810,
-      "sha256": "80d7c20d3793ff10f1061b2bd2b4a640bd6413c9c62005b7a348f518dfb2cc60",
+      "size_bytes": 811,
+      "sha256": "5be51a3776cbd4aafc694d88be83e50df6dd717d26be92b6b94f2e2fb753741f",
       "note": "wreath — slovenščina — tla korpusa; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-SR.md",
-      "size_bytes": 796,
-      "sha256": "9e675e0e855e0e8d0883d7b351627b2c36e16b6fd05d143e91c17e176a404952",
+      "size_bytes": 797,
+      "sha256": "65289992e65606d1f73cb0ff9c0fa7e80a19b2339eb5abb050d2bea0a94f9adb",
       "note": "wreath — srbščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-SV.md",
-      "size_bytes": 798,
-      "sha256": "edb073a8a00711c762e95010d5543df32387fbecbd762a1e6d6ea700810ab36d",
+      "size_bytes": 799,
+      "sha256": "679eb1e32f40227b82c3b84f515e52e92d6b7221d03cce29fd93e6ee0dfe3e64",
       "note": "wreath — švedščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-TH.md",
-      "size_bytes": 793,
-      "sha256": "2f0eb1d5085c921ec53b2916d5760aeb31b34b07b49c84b25157c0fb84843570",
+      "size_bytes": 794,
+      "sha256": "fa0f77dd32fc5f0fbf30d877875ea36145d503371406f6820be195aeebfd24e1",
       "note": "wreath — tajščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-TR.md",
-      "size_bytes": 796,
-      "sha256": "f7a4e9afe4c3e91cb3b53de5abe52a264959cf6c507fd740166fecbf4fe04567",
+      "size_bytes": 797,
+      "sha256": "26323e7cef704aee6787fc5df4dd7ba1550f3cdbb4e8f8b62346f3239a796b7c",
       "note": "wreath — turščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-UK.md",
-      "size_bytes": 802,
-      "sha256": "b369300606bb33c519b6b68b11b4c980eeab5d128edb17c3bfc12c7f80e41355",
+      "size_bytes": 803,
+      "sha256": "eb93e1c0345f48fdce91feff19ce11f3a686506b67da3441716324483a695f6a",
       "note": "wreath — ukrajinščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-VI.md",
-      "size_bytes": 803,
-      "sha256": "7ea8a7bf36b22540539424ec08e62c05cbd426cea715a2b04373c935e4b8788d",
+      "size_bytes": 804,
+      "sha256": "0bb3ea4046cf06fb8d9d5d08facbfb618267fc535339a5f36f29a72ee7c0d46a",
       "note": "wreath — vietnamščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-ZH.md",
-      "size_bytes": 798,
-      "sha256": "8114772c7e1834492d86fe7cbf53bc0874bc83b14f0ffb4095f1497dfce2ffbb",
+      "size_bytes": 799,
+      "sha256": "1cda79fb5f1deaa976d003396636d6979bfe9777f05ca05e23b38d68b3d45ab2",
       "note": "wreath — kitajščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
@@ -247,8 +247,8 @@
     },
     {
       "path": "LICENSE-LICENC.md",
-      "size_bytes": 20357,
-      "sha256": "4ec4d923b5e5739048113db48d63d111a35c79c363435c3578814db56d05d9b4",
+      "size_bytes": 20364,
+      "sha256": "e70f72afab8a6c2686a25f0ef492b0d1d257edd1c6551dd8857c991c997d2b5d",
       "note": "restored verbatim this breath from its last body in the chain @32b5dc61 — witness of the 0.1220–0.1250 era, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²)"
     },
     {

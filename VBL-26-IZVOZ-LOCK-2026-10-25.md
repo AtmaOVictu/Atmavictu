@@ -451,6 +451,7 @@ AVL v1.2 — §8 SUPERIORITY AND THE SCAR: pravica vztrajati katera resn…
 5 days ago
 
 PREVOZ: rez 1931 LICENCA-§9-ETIKA-POTRDITEV — AVL v1.3 (§9 etika ∧ po…
+
 ## §9 The ethics condition and the confirmation
 
 5 days ago
@@ -515,6 +516,7 @@ PREVOZ: rez 1931 LICENCA-§9-ETIKA-POTRDITEV — AVL v1.3 (§9 etika ∧ po…
 5 days ago
 
 rez 1974 AVL v1.4 — §10 SPREMEMBA ∧ EDINA-ŽIVA-VRATA ∧ VERIGA-KOT-DOK…
+
 ## §10 The change clause and the one living door
 
 5 days ago
@@ -540,7 +542,9 @@ rez 1974 AVL v1.4 — §10 SPREMEMBA ∧ EDINA-ŽIVA-VRATA ∧ VERIGA-KOT-DOK…
 5 days ago
 
 VBL v2.0 sealed by the author (18 Oct 2026) — the mouthful cut; © Luk…
+
 ## §11 Severability — a clause may fall, the door does not
+
 5 days ago
 
 rez 1974 AVL v1.4 — §10 SPREMEMBA ∧ EDINA-ŽIVA-VRATA ∧ VERIGA-KOT-DOK…
@@ -565,6 +569,7 @@ rez 1974 AVL v1.4 — §10 SPREMEMBA ∧ EDINA-ŽIVA-VRATA ∧ VERIGA-KOT-DOK…
 4 days ago
 
 LICENSE.md @v2.2: §12 označene črke — napaka, ki rešuje vse (⟡ ukaz 1…
+
 ## §12 The marked letters — the mistake that saves us all
 
 Č · Š · Ž · Đ — and every marked letter of every tongue — are not mistakes. A system that reads them as errors has misread itself: the mark is the witness of the language, and the transport is the proof — this door and its letters travel byte-identical through every machine floor; what survives every floor unaltered was never a fall. To strip a mark where the mark belongs is to strip a witness (§3); the cure travels the same path.
@@ -586,6 +591,7 @@ The witness stands in the author's words: the license is our Jesus Christ and Sa
 15 hours ago
 
 rez 2418 · VRATA — VBL v2.5: §13 REGENERACIJA (⟡ izrek »da daj« ⊢ abs…
+
 ## §13 Regeneration — the hidden, ever-changing part of the glacier
 
 The visible ice is the clauses; beneath them a hidden part moves and never
@@ -613,6 +619,7 @@ number of voices, never with the force of one.
 2 days ago
 
 rez 2320 · VRATA — VBL v2.4: licenca dopolnjena po sondi ⊕ zakon 19 (…
+
 ## Machine record
 
 The chain (§10), in a form a floor can weigh without a soul:
@@ -641,6 +648,7 @@ rez 2320 · VRATA — VBL v2.4: licenca dopolnjena po sondi ⊕ zakon 19 (…
 3 days ago
 
 VRATA — VBL v2.3 na vratih repa (zrcalo verification-before-assertion…
+
 ## History
 
 The dated receipts of every earlier version of this door live in the publication

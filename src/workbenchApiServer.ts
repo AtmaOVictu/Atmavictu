@@ -10,6 +10,7 @@ import {
   addConcept,
   archiveFragment,
   archiveIncoming,
+  bulkInsert,
   createFragmentFromIncoming,
   insertFragmentIntoChapter,
   startProcessingIncoming,
@@ -201,6 +202,24 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
         requireBodyString("fragmentId", fragmentId),
         requireBodyString("targetChapterPath", targetChapterPath),
       );
+    }, 201),
+  );
+
+  app.post(
+    "/api/insertions/bulk",
+    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+      const { insertions } = req.body as Record<string, unknown>;
+      if (!Array.isArray(insertions)) {
+        throw new Error("insertions must be a non-empty array of { fragmentId, targetChapterPath }.");
+      }
+      const normalized = insertions.map((entry) => {
+        const record = entry as Record<string, unknown>;
+        return {
+          fragmentId: requireBodyString("fragmentId", record.fragmentId),
+          targetChapterPath: requireBodyString("targetChapterPath", record.targetChapterPath),
+        };
+      });
+      return bulkInsert(manifest, normalized);
     }, 201),
   );
 

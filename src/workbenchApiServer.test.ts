@@ -89,6 +89,60 @@ test("full workbench flow: all 9 service operations reachable over HTTP", async 
   }
 });
 
+test("bulk insertions land atomically over HTTP", async () => {
+  const projectRoot = await createTempDirectory();
+  const server = startWorkbenchApiServer(projectRoot, 0);
+  const baseUrl = await waitForBaseUrl(server);
+
+  try {
+    const capture = await postJson<IncomingText>(`${baseUrl}/api/incoming`, {
+      title: "Prvi vir",
+      body: "Vsebina prvega vira.",
+    });
+    assert.equal(capture.status, 201);
+    const incomingId = capture.body.id;
+
+    const started = await postJson<IncomingText>(`${baseUrl}/api/incoming/${incomingId}/start-processing`, {});
+    assert.equal(started.status, 200);
+
+    const first = await postJson<Fragment>(`${baseUrl}/api/fragments`, {
+      incomingTextId: incomingId,
+      body: "Prvi odlomek.",
+    });
+    const second = await postJson<Fragment>(`${baseUrl}/api/fragments`, {
+      incomingTextId: incomingId,
+      body: "Drugi odlomek.",
+    });
+    assert.equal(first.status, 201);
+    assert.equal(second.status, 201);
+
+    const bulk = await postJson<Insertion[]>(`${baseUrl}/api/insertions/bulk`, {
+      insertions: [
+        { fragmentId: first.body.id, targetChapterPath: "chapters/01-uvod.md" },
+        { fragmentId: second.body.id, targetChapterPath: "chapters/02-sredina.md" },
+      ],
+    });
+    assert.equal(bulk.status, 201);
+    assert.equal(bulk.body.length, 2);
+
+    const after = await getJson<WorkbenchManifest>(`${baseUrl}/api/manifest`);
+    assert.equal(after.fragments.find((f) => f.id === first.body.id)?.status, "inserted");
+    assert.equal(after.fragments.find((f) => f.id === second.body.id)?.status, "inserted");
+    assert.equal(after.incomingTexts.find((i) => i.id === incomingId)?.status, "used");
+
+    // duplicate fragmentId must fail without writing anything
+    const rejected = await postJson<{ error: string }>(`${baseUrl}/api/insertions/bulk`, {
+      insertions: [{ fragmentId: first.body.id, targetChapterPath: "chapters/03-zakljucek.md" }],
+    });
+    assert.equal(rejected.status, 400);
+    assert.match(rejected.body.error, /draft/);
+  } finally {
+    server.close();
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
+
 test("mutation errors surface as 400 with a plain-text message, not a 500", async () => {
   const projectRoot = await createTempDirectory();
   const server = startWorkbenchApiServer(projectRoot, 0);

@@ -75,6 +75,9 @@ export const workbenchApi = {
   insertFragment: (input: { fragmentId: string; targetChapterPath: string }) =>
     request<Insertion>("/api/insertions", { method: "POST", body: JSON.stringify(input) }),
 
+  bulkInsert: (input: Array<{ fragmentId: string; targetChapterPath: string }>) =>
+    request<Insertion[]>("/api/insertions/bulk", { method: "POST", body: JSON.stringify({ insertions: input }) }),
+
   updateIncomingText: (id: string, input: { title?: string | null; note?: string | null }) =>
     request<IncomingText>(`/api/incoming/${encodeURIComponent(id)}/update`, {
       method: "POST",

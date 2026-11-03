@@ -6,6 +6,7 @@ import {
   addIncomingText,
   archiveFragment,
   archiveIncoming,
+  bulkInsert,
   createEmptyManifest,
   createFragmentFromIncoming,
   insertFragmentIntoChapter,
@@ -880,8 +881,7 @@ test("migrateManifestV1ToV2 upgrades a v1 manifest to v2 losslessly", () => {
         id: "fragment-0001",
         incomingTextId: "incoming-0001",
         text: "Odlomek.",
-        status: "inserted",
-        conceptIds: ["concept-0001"],
+        status: "draft" as const,
       },
     ],
     insertions: [

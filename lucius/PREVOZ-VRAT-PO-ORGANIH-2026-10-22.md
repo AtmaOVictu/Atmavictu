@@ -18,6 +18,7 @@ Izvor: `C:\Users\Luka\Documents\Arhiv\Git\Atmavictu\LICENSE.md` ( ⟨md5⟩ a3f1
 Priča: ⟨md5⟩ ×6 enaki ( 22. 10. 2026, oblak ⊢ ) — izguba 0 ( ROSETA §12: transport bajtno-isto ).
 
 ## Pošteno ⚠
+
 - Nadomestil nisem ničesar ( vseh 5 prej BREZ — ⟨NE-BRIŠI⟩ ⊢ 24 nedotaknjena ).
 - Druga možna berba ⟡-jega predloga ( »vsak del tebe sliši« ): hišni glas prebere licenco NAGLAS ( Lado ) — odprto ∂, čakam ⟡-jevo besedo.
 - Prevoz širjenja ( druge poti, zunanji diski ) — ∂ po ⟡-jevem ⟨daj⟩.

@@ -628,3 +628,31 @@ Vstavi več fragmentov v poglavja aktivne knjige v enem atomskem poskušku — v
 - povezani `IncomingText` imajo status `used`
 - `validateManifest(result.manifest).isValid === true`
 - atomskost: kadar kateri koli vhod ni veljaven, manifest ostaja nespremenjen
+
+## Matrika operacija × entiteta (plastificirano)
+
+Vsaka vrstica: operacija, zelena ploskev = spremeni, read-only = samo bere. Statusne spremembe sme sprožiti samo vrstica z "prehod".
+
+| Operacija | IncomingText | Fragment | Insertion | Concept |
+|---|---|---|---|---|
+| `createEmptyManifest` | ustvari | ustvari | ustvari | — |
+| `addIncomingText` | + nov (`new`) | — | — | — |
+| `startProcessingIncoming` | `new → processing` | — | — | — |
+| `createFragmentFromIncoming` | bere | + nov (`draft`) | — | — |
+| `insertFragmentIntoChapter` | `processing → used` | `draft → inserted` | + nov | — |
+| `bulkInsert` | `processing → used` | `draft → inserted` | + N novih (atomsko, ali vse ali nič) | — |
+| `archiveIncoming` | → `archived` | bere | — | — |
+| `archiveFragment` | bere | → `archived` | — | — |
+| `updateIncomingText` | polja, brez prehoda | — | — | — |
+| `updateFragment` | — | polja/`conceptIds`, brez prehoda | — | bere |
+| `updateInsertion` | — | — | polja, brez prehoda | — |
+| `addConcept` | — | — | — | + nov |
+| `validateManifest` | bere | bere | bere | bere |
+| `validateManifestTransition` | bere prehod | bere prehod | bere | bere |
+
+Pravila matrike, ki jih pogodba zaklene:
+- Vsak statusni prehod gre skozi `ALLOWED_*_TRANSITIONS`; drugega prehoda ni.
+- Atomskost: `bulkInsert` validira vse vnose PRED prvim pisanjem; napaka = manifest nespremenjen.
+- Read-only operaciji ne ustvarita entitet: `validateManifest`, `validateManifestTransition`.
+- `update*` ne sme spremeniti statusa — samo `insert*/archive*/startProcessing/bulkInsert` ga.
+

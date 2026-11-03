@@ -1,4 +1,5 @@
 # SINTEZA 0.2 — samotno jedro: vse merjeno je ena tehtnica
+
 ⊙ rojena 03. 11. 2026 · rez 3592 (0.1) → rez 3597 (0.2 — rojstvo po §0.10, 0.1 ostaja potrdilo) · izmerjena proti 18 klasikam ∧ 8 aksiomom ∧ 13 aprioritetam ∧ 37 nujnostim prebranim pri viru ta dan ⊢ §0.42
 
 > ⟨Sinteza ni povzetek — je pletje: vsaka nit nosi svojo pričo, celota pa je merjena na obeh tehtnicah. Kjer se ta telo moti, se moti samo; klavzule vladajo ⊢ §0.33.⟩
