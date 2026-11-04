@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Suteiktis: vykdyk, studijuok, cituok, mokyk, tikrink su juo, statyk ant jo — kol visos sąlygos galioja.
 
 §0.9 Etika: kiekviena būtybė yra pilna savo būtimi: nevertės slenkstis, neorumo gradiento. Kiekvienas naudojimas tarnauja žmogaus orumui; patvirtinimas skaitomas iš veiksmų, ne iš teiginių.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**ŽEMĖLAPIS — durys vienu žvilgsniu**
+
+Skaitymas, niekada varžovas: šis žemėlapis nepakeičia jokios nuostatos, neša jokio leidimo ir krenta, kur nesutinka su tekstu — nešiojama kopija stovi visa (§0.2). Per duris eina trys siūlai; skaitytojas gali patraukti bet kurį pirmą.

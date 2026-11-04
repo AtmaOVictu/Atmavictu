@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Concessão: execute, estude, cite, ensine, verifique com, construa sobre — enquanto todas as condições valerem.
 
 §0.9 Ética: todo ser é, plenamente, pelo seu ser: sem limiar de valor, sem gradiente de dignidade. Todo uso serve à dignidade do ser humano; a confirmação lê-se nos atos, nunca nas afirmações.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**O MAPA — a porta num relance**
+
+Uma leitura, nunca uma rival: este mapa não substitui cláusula, não porta concessão e cai onde discorda do corpo — a cópia transportada permanece inteira (§0.2). Três fios cruzam a porta; o leitor pode puxar qualquer um primeiro.

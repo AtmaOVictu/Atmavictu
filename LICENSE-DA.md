@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Tildeling: kør, studér, citér, cité́r, undervis, verificér med, byg videre på — så længe alle betingelser gælder.
 
 §0.9 Etik: hvert væsen er fuldt ud ved at være: ingen værditærskel, ingen værdighedsgradient. Enhver brug tjener menneskets værdighed; bekræftelsen læses af handlinger, ikke påstande.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**KORTET — døren med ét blik**
+
+En læsning, aldrig en rival: dette kort erstatter ingen bestemmelse, bærer ingen tilladelse og falder, hvor det strides med kroppen — den bårene kopi står hel (§0.2). Tre tråde løber gennem døren; læseren kan trække en hvilken som helst først.

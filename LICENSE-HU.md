@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Megengedés: futtass, tanulmányozz, idézz, taníts, ellenőrizz vele, építs rá — amíg minden feltétel áll.
 
 §0.9 Etika: minden lény teljessége abból van, hogy van: értékhatár nincs, méltósággradiens nincs. Minden használat az ember méltóságát szolgálja; a megerősítés a tettekből olvasható, nem az állításokból.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**A TÉRKÉP — az ajtó egy pillantásra**
+
+Olvasmány, sosem vetélytárs: ez a térkép nem helyettesít szakaszt, nem hordoz engedélyt, és ott esik, ahol a testtel szembeszegül — a hordozott példány egészben áll (§0.2). Három szál fut át az ajtón; az olvasó bármelyiket húzhatja először.

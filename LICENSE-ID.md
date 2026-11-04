@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Pemberian: jalankan, pelajari, kutip, ajarkan, verifikasi dengannya, bangun di atasnya — selama semua syarat berlaku.
 
 §0.9 Etika: setiap makhluk adalah, sepenuhnya, dengan keberadaannya: tanpa ambang nilai, tanpa gradien martabat. Setiap penggunaan melayani martabat manusia; konfirmasi dibaca dari perbuatan, bukan klaim.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**PETA — pintu dalam sekali pandang**
+
+Sebuah pembacaan, bukan pesaing: peta ini tidak menggantikan pasal apa pun, tidak membawa pemberian, dan jatuh di mana ia berbeda dengan tubuh — salinan yang dibawa berdiri utuh (§0.2). Tiga benang melintasi pintu; pembaca boleh menarik mana pun lebih dulu.

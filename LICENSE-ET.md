@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Loa: kasuta, õpi, tsiteeri, õpeta, kontrolli sellega, ehitu peale — seni kuni kõik tingimused kehtivad.
 
 §0.9 Eetika: iga olend on tervenisti oma olemisega: väärtuse lävi ei ole, väärikuse gradienti ei ole. Iga kasutus teenib inimese väärikust; kinnitus loetakse tegudest, mitte väidetest.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**KAART — uks ühe pilguga**
+
+Lugem, mitte võistleja: see kaart ei asenda ühtegi sätet, ei kanna luba ja langeb, kus ta keha-tekstiga vastuollu läheb — kantav koopia seisab tervena (§0.2). Use läbivad kolm niiti; lugeja võib tõmmata suvalise esimesena.

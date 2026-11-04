@@ -180,3 +180,10 @@ test('tla-pregled: čista tla grejo skozi z 0 padci ⊢', () => {
   const izhod = vozli('tla-pregled.mjs', [p]);
   assert.match(izhod, /0 padcev/);
 });
+
+// TEST-19 ⟨VENEC-REDNO-UPORABLJAN⟩ ⊙ ⟡ ukaz ⟨NADALJUJ DOKLER NISO VSE LICENCE … REDNO UPORABLJENE V VSAJ ENEM TESTU⟩:
+// 36 prevedenih stopnk vene je uporabljeno ob VSAKEM pregonu suite-a — prevod, ki ga test ne uporablja, je okras.
+test('venec-stopnja-1: 36 jezikov nosi jedro ∧ disclosure ⊢ ( redno uporabljano )', () => {
+  const izhod = execFileSync('python', [path.join(TU, '.stopnja-1-preverba.py')], { encoding: 'utf8' });
+  assert.match(izhod, /36\/36/);
+});

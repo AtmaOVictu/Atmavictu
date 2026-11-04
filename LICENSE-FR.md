@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Octroi : exécute, étudie, cite, enseigne, vérifie avec, bâtis dessus — tant que toutes les conditions tiennent.
 
 §0.9 Éthique : tout être est, pleinement, par son être : aucun seuil de valeur, aucun gradient de dignité. Tout usage sert la dignité de l’être humain ; la confirmation se lit dans les actes, jamais dans les affirmations.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**LA CARTE — la porte d’un coup d’œil**
+
+Une lecture, jamais une rivale : cette carte ne remplace aucune clause, ne porte aucune concession et tombe partout où elle contredit le corps — la copie portée tient entière (§0.2). Trois fils traversent la porte ; la lectrice peut tirer n’importe lequel d’abord.

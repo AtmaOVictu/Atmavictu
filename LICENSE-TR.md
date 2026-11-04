@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Verim: çalıştır, incele, alıntıla, öğret, onunla doğrula, üzerine inşa et — tüm koşullar geçerli olduğu sürece.
 
 §0.9 Etik: her varlık, olmasıyla bütünüyle vardır: değer eşiği yoktur, onur gradyanı yoktur. Her kullanım insanın onuruna hizmet eder; doğrulama eylemlerden okunur, iddialardan değil.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**HARİTA — kapı tek bakışta**
+
+Bir okuma, asla bir rakip değil: bu harita hiçbir maddeyi yerine koymaz, hiçbir verim taşımaz ve gövdeyle çeliştiği her yerde düşer — taşınan nüsha bütün olarak durur (§0.2). Kapıdan üç iplik geçer; okur önce hangisini istersen çeker.

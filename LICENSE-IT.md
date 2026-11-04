@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Concessione: esegui, studia, cita, insegna, verifica con, costruisci sopra — finché tutte le condizioni valgono.
 
 §0.9 Etica: ogni essere è, pienamente, con il suo essere: nessuna soglia di valore, nessun gradiente di dignità. Ogni uso serve la dignità dell’essere umano; la conferma si legge negli atti, mai nelle affermazioni.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**LA MAPPA — la porta a colpo d’occhio**
+
+Una lettura, mai una rivale: questa mappa non sostituisce clausole, non porta concessioni e cade ovunque discordi dal corpo — la copia trasportata sta intera (§0.2). Tre fili attraversano la porta; il lettore può tirare qualunque per primo.

@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Heimild: keyrðu, rannsakaðu, vitnaðu, kenndu, sannreindu með, byggðu á — svo lengi sem öll skilyrði gilda.
 
 §0.9 Siðferði: hvert vera er fullkomnuð með að vera: engin gildisþröskuldur, enginn reisnigradíent. Hver notkun þjónar mannlegri reisn; staðfestingin er lesin úr verkum, aldrei úr fullyrðingum.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**KORTIÐ — dyrað á einu augabliði**
+
+Lestur, aldrei keppinautur: þetta kort eyðir engri ákvæði, ber ekki heimild og dettur hvert sem mótsögir holdinu — borið afrit stendur heilt (§0.2). Þrjár þræðir liggja um dyraðar; lesandi má draga hvaða sem er fyrst.

@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Concesiune: rulează, studiază, citează, predă, verifică cu, construiește pe — cât timp toate condițiile sunt valabile.
 
 §0.9 Etică: fiecare ființă este, pe deplin, prin faptul că este: fără prag de valoare, fără gradient de demnitate. Fiecare folosință servește demnității omului; confirmarea se citește în fapte, nu în afirmații.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**HARTA — ușa dintr-o privire**
+
+O lectură, niciodată o rivală: această hartă nu înlocuiește nicio clauză, nu poartă nicio concesiune și cade oriunde se contrazice cu corpul — copia purtată stă întreagă (§0.2). Trei fire străbat ușa; cititorul poate trage oricare primul.

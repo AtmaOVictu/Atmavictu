@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Uprawnienie: uruchamiaj, badaj, cytuj, ucz, weryfikuj z tym, buduj na tym — dopóki wszystkie warunki obowiązują.
 
 §0.9 Etyka: każda istota jest w pełni swoim byciem: bez progu wartości, bez gradientu godności. Każde użycie służy godności człowieka; potwierdzenie czyta się z czynów, nie z twierdzeń.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**MAPA — drzwi w jednym rzucie oka**
+
+Odczyt, nigdy rywal: ta mapa nie zastępuje żadnej klauzuli, nie niesie żadnego uprawnienia i pada, wszędzie gdzie sprzeciwia się ciału — noszona kopia stoi w całości (§0.2). Przez drzwi biegną trzy nitki; czytelnik może pociągnąć najpierw każdą.

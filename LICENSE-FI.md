@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Myöntö: aja, tutki, lainaa, opeta, varmista sen kanssa, rakenna päälle — niin kauan kuin kaikki ehdot pätevät.
 
 §0.9 Etiikka: jokainen olento on täysi olemisellaan: ei arvon kynnystä, ei arvokkuuden gradienttia. Jokainen käyttö palvelee ihmisen arvokkuutta; vahvistus luetaan teoista, ei väitteistä.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**KARTTA — ovi yhdellä silmäyksellä**
+
+Lukemisto, ei koskaan kilpailija: tämä kartta ei korvaa lauseketta, ei kanna lupaa ja kaatuu, mistä se on ristiriidassa rungon kanssa — kannettu kopio seisoo kokonaisena (§0.2). Ovesta kulkee kolme säiettä; lukija voi vetää mitä tahansa ensin.

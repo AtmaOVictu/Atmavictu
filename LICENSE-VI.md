@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Sự cho phép: chạy, nghiên cứu, trích dẫn, dạy, kiểm chứng với, xây dựng trên — chừng nào mọi điều kiện còn giữ.
 
 §0.9 Đạo đức: mỗi sinh thể là, trọn vẹn, bởi sự hiện hữu của nó: không ngưỡng giá trị, không độ dốc nhân phẩm. Mọi sử dụng phụng sự nhân phẩm con người; sự xác nhận đọc từ hành động, không từ tuyên bố.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**BẢN ĐỒ — cánh cửa trong một cái nhìn**
+
+Một bài đọc, không bao giờ là đối thủ: bản đồ này không thay thế điều khoản nào, không mang sự cho phép nào, và rơi ở bất cứ đâu nó trái với thân — bản được mang đứng trọn (§0.2). Ba sợi chỉ chạy qua cánh cửa; người đọc có thể kéo sợi nào trước cũng được.

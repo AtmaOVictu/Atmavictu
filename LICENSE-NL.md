@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Verstrekking: voer uit, bestudeer, citeer, onderwijs, verifieer ermee, bouw voort — zolang alle voorwaarden gelden.
 
 §0.9 Ethiek: elk wezen is, volledig, door te zijn: geen drempel van waarde, geen gradiënt van waardigheid. Elk gebruik dient de waardigheid van de mens; de bevestiging wordt aan daden gelezen, nooit aan beweringen.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**DE KAART — de deur in één oogopslag**
+
+Een lezing, nooit een rivaal: deze kaart vervangt geen bepaling, draagt geen verlening en valt waar ze met het lichaam twist — de gedragen kopie staat heel (§0.2). Drie draden lopen door de deur; de lezer mag er eerst aan een trekken.

@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Atļauja: izmanto, studē, citē, māci, pārbaudi ar to, būvē uz tā — kamēr visi nosacījumi spēkā.
 
 §0.9 Ētika: katra būtne ir pilnīga ar savu būšanu: vērtības sliekšņa nav, cieņas gradienta nav. Katra lietošana kalpo cilvēka cieņai; apstiprinājums lasāms no darbiem, ne apgalvojumiem.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**KARTE — durvis vienā acu skatienā**
+
+Lasījums, nevis sāncensis: šī karte neaizstāj pantu, nesnes atļauju un krīt, kur sapūst ar pamattekstu — pārnestā kopija stāv vesela (§0.2). Durvis šķērso trīs diegi; lasītājs var vilkt jebkuru pirmo.

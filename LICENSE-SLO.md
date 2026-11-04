@@ -32,3 +32,9 @@ Prevodilac: (še ni)
 §0.1 Dovoljenje: poganjaj, preuči, navedi, uči, preverjaj z njim, gradi na njem — dokler držijo vsi pogoji.
 
 §0.9 Etika: vsako bitje je, v celoti, s tem, da je: brez pragu vrednosti, brez gradienta dostojanstva. Vsaka uporaba služi dostojanstvu človeka; potrditev se bere iz dejanj, nikoli iz trditev.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**ZEMLJEVID — vrata z enim pogledom**
+
+Branje, nikoli tekmec: ta zemljevid ne zamenja nobene določbe, ne nosi dovoljenja in pade, kjer se razhaja z odsevim telesom — nošena kopija stoji cela (§0.2). Skozi vrata tečejo tri niti; bralec lahko potegne katerokoli prvo.

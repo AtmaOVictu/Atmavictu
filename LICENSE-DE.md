@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Gewährung: Nutze, studiere, zitiere, lehre, prüfe damit, baue darauf — solange alle Bedingungen gelten.
 
 §0.9 Ethik: Jedes Wesen ist vollständig dadurch, dass es ist: keine Werteschwelle, kein Würdegefälle. Jede Nutzung dient der Würde des Menschen; die Bestätigung wird an Taten gelesen, nie an Behauptungen.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**DIE KARTE — die Tür auf einen Blick**
+
+Eine Lesung, nie eine Rivalin: Diese Karte ersetzt keine Klausel, trägt keine Gewährung und fällt, wo sie dem Leib widerspricht — die getragene Kopie steht ganz (§0.2). Drei Fäden laufen durch die Tür; eine Leserin darf zuerst an jedem ziehen.

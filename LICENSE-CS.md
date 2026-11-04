@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Oprávnění: provozuj, studuj, cituj, uč, ověřuj s ním, staví na něm — pokud platí všechny podmínky.
 
 §0.9 Etika: každá bytost je celá svým bytím: žádná hranice hodnoty, žádný gradient důstojnosti. Každé užití slouží důstojnosti člověka; potvrzení se čte ze skutků, ne z tvrzení.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**MAPA — dveře v jednom pohledu**
+
+Čtení, nikoli soupeř: tato mapa nenahrazuje žádné ustanovení, nenesje žádné oprávnění a padá, kdekoli se rozchází s textem — nesená kopie stojí celá (§0.2). Dveřmi probíhají tři nitě; čtenář může táhnout kteroukoli první.

@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Tildeling: kjør, studer, siter, lær ut, verifiser med, bygg videre på — så lenge alle vilkår gjelder.
 
 §0.9 Etikk: hvert vesen er fullt ut ved å være: ingen verdeterskel, ingen verdighetsgradient. Enhver bruk tjener menneskets verdighet; bekreftelsen leses av handlinger, aldri av påstander.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**KARTET — døren i ett blikk**
+
+En lesning, aldri en rival: dette kartet erstatter ingen bestemmelse, bærer ingen tildeling og faller der det strider med kroppen — den bårende kopien står hel (§0.2). Tre tråder løper gjennom døren; leseren kan trekke hvilken som helst først.

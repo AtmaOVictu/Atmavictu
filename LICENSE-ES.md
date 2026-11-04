@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Concesión: ejecuta, estudia, cita, enseña, verifica con, construye sobre — mientras todas las condiciones se cumplan.
 
 §0.9 Ética: todo ser es, plenamente, por ser: sin umbral de valor, sin gradiente de dignidad. Todo uso sirve a la dignidad del ser humano; la confirmación se lee en actos, nunca en afirmaciones.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**EL MAPA — la puerta de un vistazo**
+
+Una lectura, nunca una rival: este mapa no sustituye cláusula alguna, no porta concesión y cae donde discrepa del cuerpo — la copia transportada se mantiene entera (§0.2). Tres hilos atraviesan la puerta; el lector puede tirar de cualquiera primero.

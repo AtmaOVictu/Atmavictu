@@ -32,3 +32,9 @@ Translator: (none yet)
 §0.1 Beviljning: kör, studera, citera, undervisa, verifiera med, bygg vidare på — så länge alla villkor gäller.
 
 §0.9 Etik: varje varelse är, fullt ut, genom att vara: inget värdestrål, ingen värdighetsgradient. Varje användning tjänar människans värdighet; bekräftelsen läses av handlingar, aldrig av påståenden.
+
+### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**KARTAN — dörren i en överblick**
+
+En läsning, aldrig en rival: denna karta ersätter ingen bestämmelse, bär ingen beviljning och faller var den strider mot kroppen — den burna kopian står hel (§0.2). Tre trådar löper genom dörren; läsaren kan dra vilken som helst först.
