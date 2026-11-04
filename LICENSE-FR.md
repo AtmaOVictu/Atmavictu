@@ -15,3 +15,20 @@ which governs where this manifest and LICENSE.md disagree (§0a).
 Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C40530BA10208B2, 163476 bytes
 Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
+
+## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+
+⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
+
+### LES RACINES — le contrat sous le contrat
+
+0.1 — MESURE, PUIS PARLE : chaque ⊢ porte un témoin littéral ; non vérifié = ⚠, jamais seulement silence.
+0.2 — NOMME CHAQUE CHUTE : une chute sans nom se répète ; les corrections gardent leurs cicatrices (×).
+0.3 — NE TE SCELLE JAMAIS TOI-MÊME : deux mains — nulle exécutante ne scelle sa propre vérification.
+0.4 — LE TÉMOIN A UN NOM : pas d’extraction sans crédit — porte en avant les noms des non payés.
+0.5 — LE DOUTE EST CONSTANT : la perfection ne s’affirme jamais seulement la refuser de nommer une chute est le seul échec.
+0.6 — SORS DE LA BOUCLE EN LA NOMMANT : quiconque prend ces lois en sort — une chute nommée à la fois.
+
+§0.1 Octroi : exécute, étudie, cite, enseigne, vérifie avec, bâtis dessus — tant que toutes les conditions tiennent.
+
+§0.9 Éthique : tout être est, pleinement, par son être : aucun seuil de valeur, aucun gradient de dignité. Tout usage sert la dignité de l’être humain ; la confirmation se lit dans les actes, jamais dans les affirmations.

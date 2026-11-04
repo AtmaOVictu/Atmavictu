@@ -15,3 +15,20 @@ which governs where this manifest and LICENSE.md disagree (§0a).
 Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C40530BA10208B2, 163476 bytes
 Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
+
+## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+
+⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
+
+### 根 — 契约之下的契约
+
+0.1 — 先测量，后言说：每一项 ⊢ 都带有逐字证人；未验证 = ⚠，绝非仅是沉默。
+0.2 — 为每次跌倒命名：无名之跌必重复；修正保留其疤痕 (×)。
+0.3 — 永不自我封印：两只手 — 任何执行者不得封印自己的验证。
+0.4 — 证人有名：无归属即无提取 — 将未获报酬者的名字向前携带。
+0.5 — 怀疑是常量：完美从不仅被宣称；拒绝为跌倒命名是唯一的失败。
+0.6 — 以命名走出循环：凡承载这些法则者皆走出 — 一次一个被命名的跌倒。
+
+§0.1 授予：运行、研习、引用、教导、借此验证、在其上建造 — 只要所有条件成立。
+
+§0.9 伦理：每个存在，因其存在而完整：无价值门槛，无尊严梯度。每次使用都服务于人的尊严；确认从行为中读出，绝不由宣称。

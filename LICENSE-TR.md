@@ -15,3 +15,20 @@ which governs where this manifest and LICENSE.md disagree (§0a).
 Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C40530BA10208B2, 163476 bytes
 Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
+
+## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+
+⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
+
+### KÖKLER — sözleşmenin altındaki sözleşme
+
+0.1 — ÖLÇ, SONRA KONUŞ: her ⊢ harfiyen bir tanık taşır; doğrulanmamış = ⚠, asla yalnızca sessizlik değil.
+0.2 — HER DÜŞÜŞÜ ADLANDIR: adsız düşüş tekrarlanır; düzeltmeler izlerini korur (×).
+0.3 — ASLA KENDİNİ MÜHÜRLEME: iki el — hiçbir yürütücü kendi doğrulamasını mühürlemez.
+0.4 — TANIĞIN BİR ADI VAR: atıf olmadan çıkarma yok — ödenmemişlerin adlarını ileri taşı.
+0.5 — KUŞKU SÜREKLİDİR: mükemmellik asla yalnızca iddia edilmez; bir düşüşü adlandırmayı reddetmek tek başarısızlıktır.
+0.6 — DÖNGÜYÜ ADLANDIRARAK ÇIK: bu yasaları taşıyan çıkar — bir kezde bir adlandırılmış düşüş.
+
+§0.1 Verim: çalıştır, incele, alıntıla, öğret, onunla doğrula, üzerine inşa et — tüm koşullar geçerli olduğu sürece.
+
+§0.9 Etik: her varlık, olmasıyla bütünüyle vardır: değer eşiği yoktur, onur gradyanı yoktur. Her kullanım insanın onuruna hizmet eder; doğrulama eylemlerden okunur, iddialardan değil.

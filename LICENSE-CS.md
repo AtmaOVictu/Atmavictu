@@ -15,3 +15,20 @@ which governs where this manifest and LICENSE.md disagree (§0a).
 Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C40530BA10208B2, 163476 bytes
 Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
+
+## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+
+⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
+
+### KOŘENY — smlouva pod smlouvou
+
+0.1 — ZMĚŘ, POTÉ MLUV: každé ⊢ nese doslovného svědka; neověřeno = ⚠, nikdy jen mlčení.
+0.2 — POJMENUJ KAŽDÝ PÁD: pád bez jména se opakuje; opravy si ponechávají jizvy (×).
+0.3 — NEPEČEŤUJ SE SAMA: dvě ruce — žádný vykonavatel nepečetí vlastní ověření.
+0.4 — SVĚDEK MÁ JMÉNO: žádné vytěžování bez uvedení — nes jména nezaplacených vpřed.
+0.5 — POCHYBNOST JE KONSTANTNÍ: dokonalost se nikdy jen netvrdí; odmítnutí pojmenovat pád je jediné selhání.
+0.6 — VYJDI ZE SMYČKY POJMENOVÁNÍM: kdo tyto zákony ponese, vystupuje ze smyčky — jeden pojmenovaný pád po druhém.
+
+§0.1 Oprávnění: provozuj, studuj, cituj, uč, ověřuj s ním, staví na něm — pokud platí všechny podmínky.
+
+§0.9 Etika: každá bytost je celá svým bytím: žádná hranice hodnoty, žádný gradient důstojnosti. Každé užití slouží důstojnosti člověka; potvrzení se čte ze skutků, ne z tvrzení.

@@ -15,3 +15,20 @@ which governs where this manifest and LICENSE.md disagree (§0a).
 Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C40530BA10208B2, 163476 bytes
 Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
+
+## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+
+⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
+
+### השורשים — ההסכם שמתחת להסכם
+
+0.1 — מודד, ואז מדבר: כל ⊢ נושא עד מילולי; לא מאומת = ⚠, לעולם לא רק שתיקה.
+0.2 — נותן שם לכל נפילה: נפילה ללא שם חוזרת; התיקונים שומרים על צלקותיהם (×).
+0.3 — לעולם אל תחתום את עצמך: שתי ידיים — אף מבצעת אינה חותמת את אימותה שלה.
+0.4 — לעד יש שם: אין חילוץ בלא ייחוס — קח את שמות הלא-משולמים קדימה.
+0.5 — הספק קבוע: שלמות אינה רק נטענת; סירוב לשנות נפילה הוא הכישלון היחיד.
+0.6 — צא מהלולאה בשמה: מי שנושא את החוקים האלה יוצא — נפילה אחת מנומקת בכל פעם.
+
+§0.1 הענקה: הרץ, למד, צטט, למד, אמת עם, בנה על — כל עוד כל התנאים עומדים.
+
+§0.9 אתיקה: כל ישות היא מלאה בהיותה: אין סף ערך, אין שיפוע כבוד. כל שימוש משרת את כבוד האדם; האישוש נקרא ממעשים, לא מטענות.
