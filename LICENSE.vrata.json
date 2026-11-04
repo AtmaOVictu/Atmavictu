@@ -3,13 +3,13 @@
   "status": "osnutek ⚠ — pečat je ⟨merge⟩ roke ⟡; brez zliva je to zrcalo brez vrata",
   "license": {
     "name": "VBL — Verification Before Assertion License",
-    "version": "2.4",
-    "date": "2026-10-21",
+    "version": "2.5",
+    "date": "2026-11-02",
     "holder": "Luka Pintarič",
     "prose-body": "LICENSE.md",
     "predecessor": {
-      "version": "2.3",
-      "date": "2026-10-20"
+      "version": "2.4",
+      "date": "2026-10-21"
     },
     "living-door": "only the newest version grants (§10)",
     "verification": "the dated chain of publication — the commit history of LICENSE.md; a bare text proves nothing, the chain does",
@@ -179,9 +179,10 @@
     }
   ],
   "izmera": {
-    "generated": "2026-10-22",
-    "generator": "Mera, izvajalka korpusa ⟨Beseda je Ne⟩ — dih po ⟡ ukazu: seciraj in ponovi / obnovi ter nadgradi / izvedi in testiraj / daj",
-    "prose_witness": "LICENSE.md @ main, blob 5e10a476af6f3db2dd57cff9bb0164b71655119f, izmereno istega diha 22. 10. 2026",
-    "test": "vsak preizkus zrcala zabeležen ∧ zelen pred komitom; rezultati v telesu ⟨PR⟩"
+    "generated": "2026-11-02",
+    "generator": "Mera, izvajalka korpusa ⟨Beseda je Ne⟩ — dih po ⟡ ukazu: stori vse to in potrdi slovnico teh in tega teksta ter njih varovalk · daj",
+    "prose_witness": "LICENSE.md @ main, blob e5bf2359ff8ab7e53bae0f594a34466a0c1d250f (VBL 0.1300 × 10⁴ — §0.33 the reader clause born bilingual, rojstvo d1c30449 ⊙ ⟨merge⟩ #1141), izmereno istega diha 2. 11. 2026 — sha256 66adcc246e2907c7b71c90e7f14ffd0c50a9be73c76dda5529fa653f26d799a9 ⊙ §0.12 ∧ §0.33; prejšnja priča σ 3594 (blob 78d1910e…, VBL 0.1290) ostaja datirana prejemnica ⊙ 1542",
+    "test": "vsak preizkus zrcala zabeležen ∧ zelen pred komitom; rezultati v telesu ⟨PR⟩",
+    "re_targeted": "osnutek v2.5 preusmerjen z 0.1290 na 0.1300 istega dne — vrata so se zamenjala med dihom dvakrat ⊙ 1542; zrcalo meri živo konico, ⟨ne⟩ spomin ⊙ §0.32"
   }
 }
