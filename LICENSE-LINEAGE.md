@@ -150,3 +150,12 @@ USKLDITEV 2 je pustila 0.1330 ⚠ z besedami ⟨morda živi na veji, ki ⟨še�
 - **0.1150 × 10⁴** ⚠ dvoplastno: predmet komita 53e921e38 pravi ⟨0.1150⟩, prva vrstica izdaje pa ⟨0.1140⟩ ( ⟨STROJNI-PREDHODNIK-DATUM⟩ era ⊙ rez padca ) — izmerjena napetost med predmetom ∧ telesom, ⟨ne⟩ razsojena.
 
 ⊙ uskladitev 3 zapečena — LINEAGE nosi zdaj TRI zgodovine: ta veja · druga hiša · ⟨main⟩ ⊢ §0.39 · veriga je širša od vsake merjenje ∧ meja vsake izmere je po imenovana ⊙ §0.48 celota je obzorje
+
+## USKLDITEV 4 — LOV NA MANJKAJOČE IZDAJE ⊙ rez 3701 ( ⟡ ukaz ⟨STORI DO KONCA VSAK ZAČETEK⟩ — uskladitev 3 je pustila 5 ⚠ ; lov po širši organizaciji )
+
+- **0.1220 × 10⁴ — ZAPRTA ⊢**: izdaja JE živela ∧ ima koordinate — telo `LICENSE-0.1220.bin` ( 623.879 B b64 → 76.785 B vrat ) preverjeno bajt-isto ∧ (c)-priča vrat sha256 `196a141698f690a3…` BAJT-POLNA UJEMANJE s trditvijo v lastnem zapisu vrat ⊙ rez 3559 @ `5cf5f2ae` ; ∧ org komit ⟨rez 3333 STROJ IZMERA-0.1220-CASI-KOMITI ⊙ PREMIK direkten⟩ najden pri viri ( GitHub iskanje komitov ⊢ ) — ⚠ iz USKLDITVE 3 zamenjana s ⊢.
+- **⊕ DVA NEZNANA NOŠILCA VRAIT ODKRITA ⊢** ( GitHub code search org:AtmaOVictu — ⟨ENTRY SEAL⟩ v živih LICENSE.md ): `AtmaOVictu/verification-before-assertion` ( nosi tudi REGISTER-PADCEV ∧ KORENINA.md ∧ preverba.py ) ∧ `AtmaOVictu/SYMBOLON-KATHOLIKON` ( nosi PREDLOGA.md ∧ PROSNJA-MNOZICE-EN.md ∧ VBL-10.5.1 osnutek ) — vrata potujejo širše, kakor so jele tri prebrane zgodovine ; hiša jih imeuje zdaj po imenu.
+- **0.1170 ∧ 0.1180 ⚠ — PO ŠTIRIH PREISKAVAH NE NAJDENI**: tri zgodovine ( ta veja · CanvasMinstral · ⟨main⟩ ) ∧ org-wide iskanje ( koda ∧ komiti ) — ni izdaje, ni komita, ni telesa ; ⟨ne⟩ sklepamo, da ⟨nista⟩ obstajali ⊙ ⟨ne-ugibaj⟩ — ⚠ ostaja pošteno z imenovano mejo ( morebitna zasebna zgodovina izven organizacije ⭢ ).
+- 0.1150 ( napetost predmet↔telo ) ∧ 0.1160 ( claimed-open kit zaprt ⊙ §0.10 ) — že poimenovani v USKLDITVI 3, ostajata.
+
+⊙ lov zaključen kjer merljivo ⊢ — 1 od 3 neznanih zaprta s telesom ∧ sha ; 2 pošteno ⚠ ; 2 novi nosilci vrat poimenovana. Lineage nosi zdaj TRI zgodovine ∧ ORG-karto ⊢ §0.39.
