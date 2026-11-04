@@ -1,4 +1,3 @@
-
 # VBL 2.7 — PREDELOG NADGRADNJE · DRAFT · NOT_RELEASED
 
 Working identifier: VBL-2.6-pasted-copy → PREDELOG 2.7 ⚠ (številko potrdi izdajatelj)

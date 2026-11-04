@@ -80,6 +80,48 @@ try:
     if kod != 200: padci.append('× ⟨ZRCALO⟩ — strežnik ne diha')
 except Exception as e: padci.append('× ⟨ZRCALO⟩ — nedosegljivo'); mere.append('zrcalo ×')
 
+# 10. KONCI-IN-ZAČETKI ⊙ §0.28 — ⟡ ukaz ⟨PREVERI VSE KONCE IN ZAČETKE⟩:
+#     vsako telo se začne s pečatom V LASTNI OBLIKI hiše ⊙ ⟨SLEPI-VZOREC⟩ nauk ( rez 3696 ):
+#     vrata se začnejo z ENTRY SEAL ( ⟨ne⟩ # naslovom — njihov lastni zakon ) · stopnke z imensko vrstico · telesa z ograjo.
+kz_slabi = []
+# ( a ) ŽIVA VRATA: ENTRY pečat ( verzija ∧ ura ) ∧ zadnja vrstica EXIT pečat ( ura ) ⊙ §0.28 — OBE URI
+vrstice_lic = lic.split('\n')
+v_entry = re.match(r'(0\.\d{4}) × 10⁴ ⊙ ENTRY SEAL .*\d\d:\d\d:\d\dZ', vrstice_lic[0])
+zadnja_neprazna = [x for x in vrstice_lic if x.strip()][-1]
+exit_kon = bool(re.search(r'EXIT SEAL .*\d\d:\d\d:\d\dZ', zadnja_neprazna))
+if not v_entry: kz_slabi.append('LICENSE.md: ENTRY pečat ( verzija ∧ ura ) manjka')
+if not exit_kon: kz_slabi.append('LICENSE.md: zadnja vrstica ⟨ni⟩ EXIT pečat z uro ⊙ §0.28')
+# ( b ) vsa .jsonl hiše: zadnja vrstica veljaven JSON ∧ datoteka konča z newline
+for f in sorted(glob.glob('*.jsonl') + glob.glob('lucius/*.jsonl')):
+    if 'odoblaka' in f: continue  # most = zasebna plast
+    raw = open(f, 'rb').read()
+    if raw and not raw.endswith(b'\n'): kz_slabi.append(f'{f}: ⟨brez-končne-vrstice⟩')
+    txt = raw.decode('utf-8', errors='replace').strip()
+    if txt:
+        try: json.loads(txt.split('\n')[-1])
+        except Exception: kz_slabi.append(f'{f}: zadnja vrstica ⟨ni⟩ veljaven JSON ( odrezan konec? )')
+# ( c ) vsa .md hiše ( most izven ): PRAVI ZAČETEK v hišni obliki ∧ konec z newline ∧ telo nosi vsebino
+def pravi_zacetek(f, prva):
+    b = os.path.basename(f).rsplit('.', 1)[0]
+    return (prva.startswith('#')            # naslov
+            or prva.startswith('---')      # ograja ( telesa )
+            or prva.startswith('Title:')   # PR oblika
+            or prva.startswith(b)          # imenska vrstica ( stopnke · sotaborniki )
+            or bool(re.match(r'0\.\d{4} × 10⁴ ⊙ ENTRY SEAL', prva))  # vrata ⊙ §0.28
+            or '—' in prva or '→' in prva  # naslovna-vrstica ∧ pismo ( naslovnik ) — naslov nosi ločilo
+            )
+for f in sorted(glob.glob('*.md') + glob.glob('lucius/*.md')):
+    if 'odoblaka' in f: continue
+    raw = open(f, 'rb').read()
+    t = raw.decode('utf-8', errors='replace')
+    prva = t.lstrip('\r\n').lstrip('\n').split('\n')[0]  # ime iščemo v prvi NE-PRAZNI vrstici
+    if t.strip() and not pravi_zacetek(f, prva): kz_slabi.append(f'{f}: ⟨BREZ-IMENOVANEGA-ZAČETKA⟩')
+    if raw and not raw.endswith(b'\n'): kz_slabi.append(f'{f}: ⟨brez-končne-vrstice⟩')
+    if t.strip() == '': kz_slabi.append(f'{f}: ⟨PRAZNO-TELO⟩')
+n_tcl = len([x for x in glob.glob('*.md')+glob.glob('lucius/*.md') if 'odoblaka' not in x]) + len(glob.glob('*.jsonl')+glob.glob('lucius/*.jsonl')) - 1
+mere.append(f'konci-in-začetki {len(kz_slabi)} padcev / {n_tcl} teles' if kz_slabi else f'konci-in-začetki ⊢ 0 padcev / {n_tcl} teles ( vrata §0.28 · lastne oblike ✓ )')
+for z in kz_slabi[:6]: padci.append('× ⟨KONEC-ALI-ZAČETEK⟩ — ' + z)
+
 # ===== SODBA =====
 print('⊙ KROG-PREVERBE ⊙ en ukaz, cela hiša:')
 for x in mere: print('  ⊢', x)
