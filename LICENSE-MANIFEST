@@ -13,8 +13,8 @@
     },
     {
       "path": "LICENSE-AR.md",
-      "size_bytes": 2564,
-      "sha256": "d73e6938f0f86b0fa885403af9668b2e32a74b9685bcca32976ef711315f1bf9",
+      "size_bytes": 2540,
+      "sha256": "55e20bc04658257c77122b105f382ff3e9f2bf42a23cd7f6635c72a22a4b43c3",
       "note": "wreath — arabščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
@@ -61,8 +61,8 @@
     },
     {
       "path": "LICENSE-FA.md",
-      "size_bytes": 2883,
-      "sha256": "9dbd238c1e8caf3a45bedc7ca31d113e22dc3b17aefb8a603935d1b52d60e766",
+      "size_bytes": 2862,
+      "sha256": "788282fe569130caffe86fa97498ea45595c1ec8fa8a8e07fb279cd2a487fa6d",
       "note": "wreath — perzijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {

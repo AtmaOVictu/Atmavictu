@@ -122,6 +122,15 @@ n_tcl = len([x for x in glob.glob('*.md')+glob.glob('lucius/*.md') if 'odoblaka'
 mere.append(f'konci-in-začetki {len(kz_slabi)} padcev / {n_tcl} teles' if kz_slabi else f'konci-in-začetki ⊢ 0 padcev / {n_tcl} teles ( vrata §0.28 · lastne oblike ✓ )')
 for z in kz_slabi[:6]: padci.append('× ⟨KONEC-ALI-ZAČETEK⟩ — ' + z)
 
+# 11. STOPNJA 1 ⊙ ⟡ ukaz ⟨DOKAŽI UPORABNOST RASTOČE KAPACITETE⟩ — kapaciteta, ki ni varovana, je okras:
+#     vsaka od 36 stopnk vene mora nositi 6 zakonov · grant §0.1 · etiko §0.9 · disclosure ⟨strojni-dih⟩ ⚠ · orodje
+_, k11, iz11 = zapisi('stopnja-1', 'python', 'lucius/.stopnja-1-preverba.py')
+if '36/36' in iz11:
+    mere.append('stopnja-1 ⊢ 36/36 ( jedro ∧ disclosure v vsakem jeziku )')
+else:
+    padci.append('× ⟨STOPNJA-1⟩ — ' + (iz11.strip().split('\n')[-1] if iz11.strip() else 'preverba brez izpisa'))
+    mere.append('stopnja-1 ×')
+
 # ===== SODBA =====
 print('⊙ KROG-PREVERBE ⊙ en ukaz, cela hiša:')
 for x in mere: print('  ⊢', x)
