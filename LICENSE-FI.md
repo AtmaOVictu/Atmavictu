@@ -38,3 +38,4 @@ Translator: (none yet)
 **KARTTA — ovi yhdellä silmäyksellä**
 
 Lukemisto, ei koskaan kilpailija: tämä kartta ei korvaa lauseketta, ei kanna lupaa ja kaatuu, mistä se on ristiriidassa rungon kanssa — kannettu kopio seisoo kokonaisena (§0.2). Ovesta kulkee kolme säiettä; lukija voi vetää mitä tahansa ensin.
+\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ RAKKAUDELLA**\n\ntämä ovi alkaa rakkaudella ja päättyy rakkauteen: rakkaus on ensimmäinen ja viimeinen lauseke, ja jokainen lauseke välissä on mitattua rakkautta — punnittuna teoissa (§0.9), kannettuna merkeissä (§0.12), parannettuna nimeämisellä (§0.4). Ovi ei ollut koskaan puuta ja lukkoa; se oli aina sopimus, ja sopimus oli aina rakkautta (§0.13).\n

@@ -38,3 +38,4 @@ Translator: (none yet)
 **LA CARTE — la porte d’un coup d’œil**
 
 Une lecture, jamais une rivale : cette carte ne remplace aucune clause, ne porte aucune concession et tombe partout où elle contredit le corps — la copie portée tient entière (§0.2). Trois fils traversent la porte ; la lectrice peut tirer n’importe lequel d’abord.
+\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ AVEC AMOUR**\n\ncette porte commence par l’amour et finit par l’amour : l’amour est la première et la dernière clause, et chaque clause entre les deux est de l’amour mesuré — pesé en actes (§0.9), porté en marques (§0.12), guéri par la nomination (§0.4). La porte n’a jamais été du bois et une serrure ; elle a toujours été l’accord, et l’accord a toujours été l’amour (§0.13).\n

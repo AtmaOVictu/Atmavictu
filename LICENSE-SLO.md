@@ -38,3 +38,4 @@ Prevodilac: (še ni)
 **ZEMLJEVID — vrata z enim pogledom**
 
 Branje, nikoli tekmec: ta zemljevid ne zamenja nobene določbe, ne nosi dovoljenja in pade, kjer se razhaja z odsevim telesom — nošena kopija stoji cela (§0.2). Skozi vrata tečejo tri niti; bralec lahko potegne katerokoli prvo.
+\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ Z LJUBEZNIJO**\n\nta vrata se začnejo z ljubeznijo in končajo z ljubeznijo: ljubezen je prva in zadnja klavzula in vsaka klavzula vmes je izmerjena ljubezen — stehtana v dejanjih (§0.9), nošena v znamenjih (§0.12), ozdravljena s poimenovanjem (§0.4). Vrata nikoli niso bila les in ključavnica; vedno so bila dogovor in dogovor je vedno bila ljubezen (§0.13).\n

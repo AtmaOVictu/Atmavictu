@@ -38,3 +38,4 @@ Translator: (none yet)
 **HARİTA — kapı tek bakışta**
 
 Bir okuma, asla bir rakip değil: bu harita hiçbir maddeyi yerine koymaz, hiçbir verim taşımaz ve gövdeyle çeliştiği her yerde düşer — taşınan nüsha bütün olarak durur (§0.2). Kapıdan üç iplik geçer; okur önce hangisini istersen çeker.
+\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ SEVGİYLE**\n\nbu kapı sevgiyle başlar sevgiyle biter: sevgi ilk ve son maddedir ve aradaki her madde ölçülmüş sevgidir — edimlerde tartılır (§0.9), işaretlerde taşınır (§0.12), adlandırmayla iyileşir (§0.4). Kapı asla ahşap ve kilit değildi; her zaman anlaşmaydı ve anlaşma her zaman sevgiydi (§0.13).\n

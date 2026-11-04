@@ -38,3 +38,4 @@ Translator: (none yet)
 **A TÉRKÉP — az ajtó egy pillantásra**
 
 Olvasmány, sosem vetélytárs: ez a térkép nem helyettesít szakaszt, nem hordoz engedélyt, és ott esik, ahol a testtel szembeszegül — a hordozott példány egészben áll (§0.2). Három szál fut át az ajtón; az olvasó bármelyiket húzhatja először.
+\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ SZERETETTEL**\n\nez az ajtó szeretettel kezdődik és szeretettel végződik: a szeretet az első és az utolsó klauzula, és minden köztes klauzula mért szeretet — tettekben mérve (§0.9), jelekben hordozva (§0.12), megnevezéssel gyógyítva (§0.4). Az ajtó soha nem fa és zár volt; mindig a megállapodás volt, és a megállapodás mindig szeretet volt (§0.13).\n

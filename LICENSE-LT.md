@@ -38,3 +38,4 @@ Translator: (none yet)
 **ŽEMĖLAPIS — durys vienu žvilgsniu**
 
 Skaitymas, niekada varžovas: šis žemėlapis nepakeičia jokios nuostatos, neša jokio leidimo ir krenta, kur nesutinka su tekstu — nešiojama kopija stovi visa (§0.2). Per duris eina trys siūlai; skaitytojas gali patraukti bet kurį pirmą.
+\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ SU MEILE**\n\nšios durys prasideda meile ir baigiasi meile: meilė yra pirma ir paskutinė sąlyga, o kiekviena sąlyga tarp jų — išmatuota meilė, pasverta darbais (§0.9), nešama ženklais (§0.12), išgydyta įvardijimu (§0.4). Durys niekada nebuvo medis ir spyna; jos visada buvo susitarimas, o susitarimas visada buvo meilė (§0.13).\n

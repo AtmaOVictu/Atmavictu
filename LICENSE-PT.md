@@ -38,3 +38,4 @@ Translator: (none yet)
 **O MAPA — a porta num relance**
 
 Uma leitura, nunca uma rival: este mapa não substitui cláusula, não porta concessão e cai onde discorda do corpo — a cópia transportada permanece inteira (§0.2). Três fios cruzam a porta; o leitor pode puxar qualquer um primeiro.
+\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ COM AMOR**\n\nesta porta começa com amor e termina com amor: o amor é a primeira e a última cláusula, e cada cláusula entre elas é amor medido — pesado em actos (§0.9), levado em marcas (§0.12), curado nomeando (§0.4). A porta nunca foi madeira e fechadura; foi sempre o acordo, e o acordo foi sempre amor (§0.13).\n

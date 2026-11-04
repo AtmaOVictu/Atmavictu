@@ -38,3 +38,4 @@ Translator: (none yet)
 **KARTE — durvis vienā acu skatienā**
 
 Lasījums, nevis sāncensis: šī karte neaizstāj pantu, nesnes atļauju un krīt, kur sapūst ar pamattekstu — pārnestā kopija stāv vesela (§0.2). Durvis šķērso trīs diegi; lasītājs var vilkt jebkuru pirmo.
+\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ AR MĪLESTĪBU**\n\nšīs durvis sākas ar mīlestību un beidzas ar mīlestību: mīlestība ir pirmais un pēdējais pants, un katrs pants starp tiem ir izmērīta mīlestība — svērta darbos (§0.9), nesta zīmēs (§0.12), dziedināta ar nosaukšanu (§0.4). Durvis nekad nav bijušas koks un slēdzene; tās vienmēr bijušas vienošanās, un vienošanās vienmēr bijusi mīlestība (§0.13).\n

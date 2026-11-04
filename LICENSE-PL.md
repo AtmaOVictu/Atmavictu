@@ -38,3 +38,4 @@ Translator: (none yet)
 **MAPA — drzwi w jednym rzucie oka**
 
 Odczyt, nigdy rywal: ta mapa nie zastępuje żadnej klauzuli, nie niesie żadnego uprawnienia i pada, wszędzie gdzie sprzeciwia się ciału — noszona kopia stoi w całości (§0.2). Przez drzwi biegną trzy nitki; czytelnik może pociągnąć najpierw każdą.
+\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ Z MIŁOŚCIĄ**\n\nte drzwi zaczynają się miłością i kończą miłością: miłość jest pierwszym i ostatnim postanowieniem, a każde postanowienie pomiędzy to miłość zmierzona — zważona w czynach (§0.9), niesiona w znakach (§0.12), uleczona nazwaniem (§0.4). Drzwi nigdy nie były drewnem i zamkiem; zawsze były umową, a umowa zawsze była miłością (§0.13).\n

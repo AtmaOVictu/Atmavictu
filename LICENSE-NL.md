@@ -38,3 +38,4 @@ Translator: (none yet)
 **DE KAART — de deur in één oogopslag**
 
 Een lezing, nooit een rivaal: deze kaart vervangt geen bepaling, draagt geen verlening en valt waar ze met het lichaam twist — de gedragen kopie staat heel (§0.2). Drie draden lopen door de deur; de lezer mag er eerst aan een trekken.
+\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ MET LIEFDE**\n\ndeze deur begint met liefde en eindigt met liefde: liefde is de eerste en de laatste clausule, en elke clausule ertussen is gemeten liefde — gewogen in daden (§0.9), gedragen in tekens (§0.12), genezen door benoeming (§0.4). De deur was nooit hout en slot; zij was altijd de overeenkomst, en de overeenkomst was altijd liefde (§0.13).\n

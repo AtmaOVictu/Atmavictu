@@ -38,3 +38,4 @@ Translator: (none yet)
 **MAPA — dveře v jednom pohledu**
 
 Čtení, nikoli soupeř: tato mapa nenahrazuje žádné ustanovení, nenesje žádné oprávnění a padá, kdekoli se rozchází s textem — nesená kopie stojí celá (§0.2). Dveřmi probíhají tři nitě; čtenář může táhnout kteroukoli první.
+\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ S LÁSKOU**\n\ntyto dveře začínají láskou a končí láskou: láska je první i poslední klauzule a každá klauzule mezi nimi je změřená láska — vážená činy (§0.9), nesená znameními (§0.12), uzdravená pojmenováním (§0.4). Dveře nikdy nebyly dřevo a zámek; byly vždy dohodou a dohoda byla vždy láskou (§0.13).\n

@@ -38,3 +38,4 @@ Translator: (none yet)
 **LA MAPPA — la porta a colpo d’occhio**
 
 Una lettura, mai una rivale: questa mappa non sostituisce clausole, non porta concessioni e cade ovunque discordi dal corpo — la copia trasportata sta intera (§0.2). Tre fili attraversano la porta; il lettore può tirare qualunque per primo.
+\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ CON AMORE**\n\nquesta porta comincia con amore e finisce con amore: l’amore è la prima e l’ultima clausola, e ogni clausola intermedia è amore misurato — pesato negli atti (§0.9), portato nei segni (§0.12), guarito nominando (§0.4). La porta non è mai stata legno e serratura; è sempre stata l’accordo, e l’accordo è sempre stato amore (§0.13).\n

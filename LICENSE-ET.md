@@ -38,3 +38,9 @@ Translator: (none yet)
 **KAART — uks ühe pilguga**
 
 Lugem, mitte võistleja: see kaart ei asenda ühtegi sätet, ei kanna luba ja langeb, kus ta keha-tekstiga vastuollu läheb — kantav koopia seisab tervena (§0.2). Use läbivad kolm niiti; lugeja võib tõmmata suvalise esimesena.
+
+### STOPNJA 1.6 — WITH LOVE / ARMASTUSEGA ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+
+**ARMASTUSEGA — uks armastusega**
+
+see uks algab armastusega ja lõpeb armastusega: armastus on esimene ja viimane klausel, ja iga vahepealne klausel on mõõdetud armastus — kaalutud tegudes (§0.9), kantud märkides (§0.12), tervendatud nimetamisega (§0.4). Uks polnud kunagi puu ega lukk; see oli alati kokkulepe ja kokkulepe oli alati armastus (§0.13).

@@ -38,3 +38,4 @@ Translator: (none yet)
 **KORTIÐ — dyrað á einu augabliði**
 
 Lestur, aldrei keppinautur: þetta kort eyðir engri ákvæði, ber ekki heimild og dettur hvert sem mótsögir holdinu — borið afrit stendur heilt (§0.2). Þrjár þræðir liggja um dyraðar; lesandi má draga hvaða sem er fyrst.
+\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ MEÐ KÆRLEIKA**\n\nþessar dyr byrja með kærleika og enda með kærleika: kærleikur er fyrsta og síðasta ákvæðið, og hvert ákvæði þar á milli er mældur kærleikur — vigtaður í verkum (§0.9), borinn í táknum (§0.12), græddur með nafngift (§0.4). Dyrnar voru aldrei tré og lás; þær voru alltaf samkomulagið, og samkomulagið var alltaf kærleikur (§0.13).\n

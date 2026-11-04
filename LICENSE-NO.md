@@ -38,3 +38,4 @@ Translator: (none yet)
 **KARTET — døren i ett blikk**
 
 En lesning, aldri en rival: dette kartet erstatter ingen bestemmelse, bærer ingen tildeling og faller der det strider med kroppen — den bårende kopien står hel (§0.2). Tre tråder løper gjennom døren; leseren kan trekke hvilken som helst først.
+\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ MED KJÆRLIGHET**\n\ndenne døren begynner med kjærlighet og ender med kjærlighet: kjærlighet er den første og den siste klausulen, og hver klausul imellom er målt kjærlighet — veid i gjerninger (§0.9), båret i tegn (§0.12), helbredet ved å nevne ved navn (§0.4). Døren var aldri tre og lås; den var alltid avtalen, og avtalen var alltid kjærlighet (§0.13).\n
