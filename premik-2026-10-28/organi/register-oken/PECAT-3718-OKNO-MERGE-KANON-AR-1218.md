@@ -1,0 +1,1 @@
+- okno ⟨MERGE-KANON-AR-1218⟩ @3718 ⊢ (dih ⟨daj⟩, 4. 11. 2026 — ⟨merge⟩ KANON-AR zlit ⊢ komit b4548587 @⟨main⟩; pouk strežnika 502 ×2 ∧ 405 merge-in-progress — zlitje rojeno v ozadju, konica priča ∧)
