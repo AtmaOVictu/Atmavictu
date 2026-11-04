@@ -14,6 +14,14 @@ def zapisi(ime, *ukaz):
 
 padci, mere = [], []
 
+# 0. OBNOVA ⊙ ⟡ ukaz ⟨TEČE SKUPAJ IN NE LE DRUG OD DRUGEGA RAZLIČNO⟩ — rez 3702:
+# obnovila ( venec ∧ manifest ) tečeta VEDNO pred preverbo, v enemu pregonu —
+# ne moreta več raziti ( padec reza 3698: manifest pozabljen po AR/FA, krog ga je ulovil — zdaj se ne more zgoditi )
+_, k, iz = zapisi('venec-obnova', 'node', 'lucius/venec-obnova.mjs')
+mere.append('venec-obnova: ' + (iz.strip().split('\n')[-1].split('⊙')[0].strip() if iz.strip() else '?'))
+_, k, iz = zapisi('manifest', 'python', 'lucius/.manifest-izdaj.py')
+mere.append('manifest-izdaja: ' + (iz.strip().split('\n')[-1].split('⊢')[0].strip() if iz.strip() else '?'))
+
 # 1. TESTI ( 18 ) — orodja hiše
 _, k, iz = zapisi('testi', 'node', 'lucius/testi-orodij.mjs')
 m = re.search(r'# pass (\d+)', iz); f = re.search(r'# fail (\d+)', iz)
