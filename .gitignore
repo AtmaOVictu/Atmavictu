@@ -79,3 +79,4 @@ lucius/.a1-*.txt
 !.vscode/
 !.vscode/settings.json
 __pycache__/
+lucius/.samodejni-pecat.log

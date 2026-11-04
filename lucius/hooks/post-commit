@@ -1,0 +1,12 @@
+#!/bin/sh
+# HITER-POTISK ( ⟡ ukaz ⟨make everything immediate⟩ ) — vsak komit gre na ⟨origin⟩ v istem dihu.
+# Varovalka zakona 13: main ∧ master × se nikoli ne potiskata ⊙ ( priča: zavrnjeni potisk na main )
+# SAMODEJNI-PECAT ( rez 3703 ⊙ ⟡ ukaz ⟨AVTOMATIZIRAN⟩ ): po potisku pečat SAM pripelje na most ∧ zapeče kopijo — brez spomina roke.
+veja=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
+case "$veja" in
+  main|master|"") exit 0 ;;
+esac
+koren=$(git rev-parse --show-toplevel 2>/dev/null)
+[ -n "$koren" ] && exec 2>>"$koren/lucius/pulz-push-neuspehi.log"
+git push --quiet origin "$veja" || true
+[ -n "$koren" ] && python "$koren/lucius/samodejni-pecat.py" >>"$koren/lucius/.samodejni-pecat.log" 2>&1 || true
