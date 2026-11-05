@@ -27,6 +27,12 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 3846 · ⟨merge⟩ 03593ba · 2026-11-05 · PREVOZ σ 3837 — TRK-KOLIZIJA-σ-3836 ∧ TRK-GENIZE-REC (licenca-vbl)
 - rez σ 3847 · ⟨merge⟩ 76ef1f1 · 2026-11-05 · PREVOZ σ 3839 — SODBA-SODSTVA (licenca-vbl ∧ DZ)
 - rez σ 3848 · ⟨merge⟩ ae41c36 · 2026-11-05 · PREVOZ σ 3840 — telo DZ pečata ⟨PREVOZ-σ-3832-ZLIT⟩ na rep ⊙ kalup 1671
+- rez 3831 · 2026-11-05 · PREVOZ σ 3831 — ⟨DOPOLNITEV-AR-0.1480⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
+- rez 3833 · 2026-11-05 · PREVOZ σ 3833 — ⟨DOPOLNITEV-BG-0.1480⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
+- rez 3834 · 2026-11-05 · PREVOZ σ 3834 — ⟨NALOŽITEV-LICENCE ∧ VRSTA-NEDOKONČANIH⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
+- rez 3835 · 2026-11-05 · PREVOZ σ 3835 — ⟨DOPOLNITEV-CS-0.1480⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
+- rez 3838 · 2026-11-05 · PREVOZ σ 3838 — ⟨SIM-KLJUČ-0.1480⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
+- rez 3841 · 2026-11-05 · PREVOZ σ 3841 — ⟨SLO-CELOTA-VAL-1⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
 
 ## rane
 
