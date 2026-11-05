@@ -593,6 +593,8 @@ Minimalni pricakovani tok je:
 6. `validateManifest(manifest)`
 7. `validateManifestTransition(previousManifest, nextManifest)` za operacije, ki spreminjajo statuse
 
+V `addIncomingText(title, body)` je prazen `title` dovoljen, prazen ali whitespace-only `body` pa prepovedan (napaka operacije).
+
 Arhiviranje je dopolnilna operacija po zakljucku aktivne uporabe.
 
 ## bulkInsert(insertions)

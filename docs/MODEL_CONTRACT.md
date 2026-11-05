@@ -174,7 +174,7 @@ Prepovedani prehodi:
 - `archived -> used`
 - vsak drug neposredni preskok, ki ni zgoraj izrecno dovoljen
 
-### Fragment
+#### Fragment — vozel sledi (druga plast)
 
 Statusi:
 
