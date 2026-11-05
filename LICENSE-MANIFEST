@@ -2,13 +2,13 @@
   "license": "VBL — Verification Before Assertion License",
   "version": "0.1460 × 10⁴",
   "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
-  "measured_at_date": "0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴",
-  "measured_against": "LICENSE.md version 0.1460 × 10⁴ — living door; manifest re-measured ∧ re-issued in the same breath as the slot renewal: LICENSE-SLO.md STOPNJA 1.5–1.6 cured of escaped newlines (\\n grozd → pravi prelomi, setext naslovi, MD003/MD036/MD047), tri niti poimenovane (BRALEC/STROJ/NOSILEC), 0.4 izvlecek + 0.2 odsevnim po SSKJ² (Fran) ⊙ §0a ∧ issuance_duty — scar MANIFEST-EN-DIH-PO-ROJSTVU cured: manifest zdaj vozi z rojstvom, ne za njim",
+  "measured_at_date": "0.5 x 10^1. 0.11 x 10^2. 0.2026 x 10^4",
+  "measured_against": "LICENSE.md version 0.1460 x 10^4 - living door; header cure 0.1450->0.1460 (glava usklajena z ENTRY 0.1460 - scar PADC-ZASTARELA-GLAVA-KANONA cured ta dih); scar MANIFEST-EN-DIH-PO-ROJSTVU reopened: manifest re-measured after header cure, same breath",
   "items": [
     {
       "path": "LICENSE.md",
-      "size_bytes": 163476,
-      "sha256": "5629115d8aec0a83c7be904f7df66041bdae3f12078aa1149c40530ba10208b2",
+      "size_bytes": 164467,
+      "sha256": "755fd145fb33d938cc3f199c4c78138f1e2bb78c2a35bb2e39cd2fc216828913",
       "note": "the living door — the only body whose hash changes only by issuance (§0.10 × 10²)"
     },
     {

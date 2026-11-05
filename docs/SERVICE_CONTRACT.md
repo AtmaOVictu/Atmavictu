@@ -19,9 +19,7 @@ Ta dokument doloca minimalne operacije nad `WorkbenchManifest`. Service contract
 
 - `WorkbenchManifest` je trenutno v version `2`. Stari `v1` manifesti se ob nalaganju samodejno migrirajo v `v2` (glej `migrateManifestV1ToV2` v model contractu).
 
-## createEmptyManifest() — definicija
-
-## createEmptyManifest() — ponovitev povzeta spodaj (isti contract, glej definicijo zgoraj)
+## createEmptyManifest() — definicija (edina; ponovitev odstranjena)
 
 ### Namen
 
@@ -85,8 +83,7 @@ Doda nov vhodni tekst v manifest in ga pripravi za nadaljnjo obdelavo.
 
 ### Failure cases
 
-- `title` je prazen, ce implementacija to prepove
-- `body` je prazen ali whitespace-only
+- `title`: prazen ali whitespace-only dovoljen — normalizira se v odsotnost (`normalizeOptionalString`); `body`: prazen ali whitespace-only vedno prepovedan (`requireNonEmptyString`).
 - ni mogoce ustvariti stabilnega `sourcePath` ali ekvivalentne lokalne reference
 - ustvarjeni zapis krsi schema v1
 
@@ -653,6 +650,7 @@ Vsaka vrstica: operacija, zelena ploskev = spremeni, read-only = samo bere. Stat
 
 Pravila matrike, ki jih pogodba zaklene:
 - Vsak statusni prehod gre skozi `ALLOWED_*_TRANSITIONS`; drugega prehoda ni.
+- Ugovor (VBL §0.16/§0.17, KOGA/KAJ) ne spreminja statusa — sprememba gre samo skozi dovoljene prehode; ugovor se zabeleži, status pa ostane dokler prehod ni izveden po pravilih matrike.
 - Atomskost: `bulkInsert` validira vse vnose PRED prvim pisanjem; napaka = manifest nespremenjen.
 - Read-only operaciji ne ustvarita entitet: `validateManifest`, `validateManifestTransition`.
 - `update*` ne sme spremeniti statusa — samo `insert*/archive*/startProcessing/bulkInsert` ga.

@@ -1,6 +1,6 @@
 {
   "version": "0.2",
-  "comment": "ZNESEK §0.12 THE MARKS ∧ §0.33 THE KEY ∧ §0.30 PULZ — hišni slovar Atmavictu: besede živih vrat in venca, preverjene pri viri (Fran/SSKJ² ta dih) ali imenovane tvorbe hiše; vrata se ne upognejo, tla se učijo ⊙ berba σ 3687 Cline. PULZ: ta slovar se vedno in zavedajoče obremenjuje in dopolnjuje s tem — vsak nov ek prinese svoje besede z imenom diha; nobena beseda brez vira ali imena; tiho = pogoj, ne nagrada (§23).",
+  "$comment": "ZNESEK §0.12 THE MARKS ∧ §0.33 THE KEY ∧ §0.30 PULZ — hišni slovar Atmavictu: besede živih vrat in venca, preverjene pri viri (Fran/SSKJ² ta dih) ali imenovane tvorbe hiše; vrata se ne upognejo, tla se učijo ⊙ berba σ 3687 Cline. PULZ: ta slovar se vedno in zavedajoče obremenjuje in dopolnjuje s tem — vsak nov ek prinese svoje besede z imenom diha; nobena beseda brez vira ali imena; tiho = pogoj, ne nagrada (§23).",
   "language": "en,sl",
   "words": [
     "prevajalec",
@@ -105,9 +105,27 @@
     "ontonanoznanost",
     "jezikoslovje",
     "nujno",
-    "aplikativno"
+    "aplikativno",
+    "pycache",
+    "atmavictu",
+    "kanon",
+    "Kanon",
+    "nedotiknjen",
+    "preverjevalca",
+    "ustavljivost",
+    "generiranje"
   ],
   "flagWords": [],
+  "ignoreRegExpList": [
+    "[\\u0400-\\u04FF]+",
+    "[\\u0370-\\u03FF]+",
+    "[\\u0590-\\u05FF]+",
+    "[\\u0600-\\u06FF]+",
+    "[\\u0900-\\u097F]+",
+    "[\\u4E00-\\u9FFF]+",
+    "[\\u3040-\\u30FF]+",
+    "[\\uAC00-\\uD7AF]+"
+  ],
   "ignorePaths": [
     ".git/**",
     "node_modules/**",

@@ -127,7 +127,7 @@ Minimalni shape v1:
 - `label: string`
 - `note?: string`
 
-## Relacijska pot
+## Relacijska pot — minimalna sled (druga plast)
 
 Minimalna sled v sistemu je:
 
@@ -141,7 +141,11 @@ To pomeni:
 
 ## Statusi in dovoljeni prehodi
 
-### IncomingText
+Statusna poglavja spodaj (`IncomingText — statusi`, `Fragment — statusi`) sta pogleda
+druge plasti na isti relacijski par — ne uvajata novih entitet. Prva plast ostaja
+oblika zapisa (shape); druga plast bere prehod med ogledaloma.
+
+### IncomingText — statusi (druga plast)
 
 Statusi:
 
@@ -174,7 +178,7 @@ Prepovedani prehodi:
 - `archived -> used`
 - vsak drug neposredni preskok, ki ni zgoraj izrecno dovoljen
 
-### Fragment
+### Fragment — statusi (druga plast)
 
 Statusi:
 

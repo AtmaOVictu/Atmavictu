@@ -13,10 +13,10 @@
 ---
 
 VBL — VERIFICATION BEFORE ASSERTION LICENSE
-Version 0.1450 × 10⁴ · November 0.3 × 10¹, 0.2026 × 10⁴
+Version 0.1460 × 10⁴ · November 0.3 × 10¹, 0.2026 × 10⁴
 © 0.2026 × 10⁴ Luka Pintarič. All rights reserved beyond the grants below.
 
-## THE MAP — the door at a glance
+## THE MAP — the door at a glance (glava usklajena z ENTRY 0.1460; PADC-ZASTARELA-GLAVA-KANONA cured)
 
 A reading, never a rival: this map replaces no clause, carries no grant, and falls wherever it disagrees with the body below — the carried copy stands whole (§0.2 × 10¹). Three threads run through the door; a reader may pull any one first.
 
