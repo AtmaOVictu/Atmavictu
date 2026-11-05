@@ -68,6 +68,14 @@ async function main(): Promise<void> {
 }
 
 function isDirectExecution(): boolean {
+  // V bundlu je captureIncomingTextProof samo knjiznica (runCaptureIncomingTextProof),
+  // nikoli ukaz: njegov main bere isti argv kot atmaCli in bi ob vsakem
+  // neposrednem klicu bundla govoril se enkrat, z napacnimi argumenti.
+  // Molci tisti proces, ki omogoca — naj govori tisto, kar ostane.
+  if (typeof process !== "undefined" && (process.env as Record<string, string>)["ATMA_BUNDLE"] === "1") {
+    return false;
+  }
+
   const entryPath = process.argv[1];
   if (entryPath === undefined) {
     return false;

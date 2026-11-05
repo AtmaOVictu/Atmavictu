@@ -14,5 +14,11 @@
   },
   "include": [
     "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "atma/atma-bundle.mjs",
+    "web"
   ]
 }

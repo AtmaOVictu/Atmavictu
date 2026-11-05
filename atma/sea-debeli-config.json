@@ -1,0 +1,8 @@
+{
+  "main": "atma-debeli.cjs",
+  "output": "atma-debeli.blob",
+  "disableExperimentalSEAWarning": true,
+  "assets": {
+    "atma-bundle.mjs": "atma-bundle.mjs"
+  }
+}

@@ -625,6 +625,19 @@ async function main(): Promise<void> {
 }
 
 function isDirectExecution(): boolean {
+  // V bundlu (ATMA_BUNDLE=1 prek esbuild --define) import.meta.url kaze na
+  // zdruseni bundel, ne na izvorni atmaCli.ts — primerjava z process.argv[1]
+  // je zato lazno resnicna ob vsakem uvozu. Meja: v bundlu se main zbudi le,
+  // ce je vstopna tocka res bundel sam (neposredni `node atma-bundle.mjs ...`).
+  if (typeof process !== "undefined" && (process.env as Record<string, string>)["ATMA_BUNDLE"] === "1") {
+    const entryPath = process.argv[1];
+    if (entryPath === undefined) {
+      return false;
+    }
+    const bundelIme = "atma-bundle.mjs";
+    return entryPath.endsWith(bundelIme) || entryPath.endsWith(bundelIme.replace(/\//g, "\\"));
+  }
+
   const entryPath = process.argv[1];
   if (entryPath === undefined) {
     return false;

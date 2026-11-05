@@ -8,5 +8,13 @@
   "markdown.validate.referenceLinks.enabled": false,
   "markdown.validate.fragmentLinks.enabled": false,
   "markdown.validate.fileLinks.enabled": false,
-  "markdown.validate.unusedLinkDefinitions.enabled": false
+  "markdown.validate.unusedLinkDefinitions.enabled": false,
+  // Zgradba ni izvor: esbuild bundel se ne bere kot koda, ampak kot peceno.
+  // Korenita meja v plasteh — vsaka plast pove svoje:
+  // tsconfig ga ne vkljuci (terminal), cspell ga ne bere (besede),
+  // urejevalnik mu odvzame pomen (plaintext: brez TS/JS preverbe, brez barvanja).
+  // Peceno se ne bere — peceno se zgradi znova.
+  "files.associations": {
+    "atma/atma-bundle.mjs": "plaintext"
+  },
 }
