@@ -49,6 +49,16 @@ lucius/lucius.blob
 Lucius.exe
 Lucius.tmp
 
+# Atma — samostojni Book Workbench CLI (Node SEA):
+# izvor se sledi (služi gradnji), zgradbi se ne (služita teku) —
+# nobena plast ni brez službe: recept rodi, blob potrdi, exe nosi
+!atma/
+!atma/**
+atma/atma.blob
+Atma.exe
+Atma.tmp
+!atma.cmd
+
 # Typical ignores
 node_modules/
 dist/

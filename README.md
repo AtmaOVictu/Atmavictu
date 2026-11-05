@@ -17,17 +17,19 @@ It is also the canonical home of the system's **corpus** — see
 | Module | Purpose |
 |---|---|
 | `workbenchManifest.ts` | Workbench manifest model: incoming texts, fragments, insertions, concepts |
-| `workbenchManifestRepository.ts` | Manifest persistence (`book.workbench.json`), capture workflow |
+| `workbenchManifestRepository.ts` | Manifest persistence (`book.workbench.json`), capture workflow, `mutateManifestFile` |
 | `captureIncomingTextProof.ts` | Proof capture for incoming text lineage |
-| `atmaCli.ts` | CLI: `capture · show · verify` |
+| `atmaCli.ts` | CLI: `capture · start-processing · create-fragment · insert · bulk-insert · update-incoming · update-fragment · update-insertion · archive-fragment · archive-incoming · add-concept · walk · show · verify · help` |
 
 ## Usage
 
 ```sh
 npm install
-npm test          # 85 tests (⊢ izmera 21. 10. 2026)
+npm test          # 91 tests (izmera 5. 11. 2026)
 npm run typecheck
-node build/src/atmaCli.js <capture|show|verify> <projectRoot> [title] [body]
+npm run atma:help                                    # pomoc
+npm run atma -- walk <tmp> "Naslov" "Vsebina." "Odlomek." "poglavja/uvod.md"
+npm run atma -- verify <tmp>                         # VERIFY: PASS
 ```
 
 ## Contracts

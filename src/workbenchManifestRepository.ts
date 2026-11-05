@@ -111,6 +111,18 @@ export function renderCaptureIncomingTextConsequence(
   ].join("\n");
 }
 
+export async function mutateManifestFile<TValue>(
+  projectRoot: string,
+  apply: (manifest: WorkbenchManifest) => ManifestUpdate<TValue>,
+): Promise<ManifestUpdate<TValue>> {
+  const normalizedProjectRoot = requireNonEmptyPath("projectRoot", projectRoot);
+  const manifestPath = getManifestPath(normalizedProjectRoot);
+  const manifest = await ensureManifestFile(normalizedProjectRoot);
+  const result = apply(manifest);
+  await writeManifestToFile(manifestPath, result.manifest);
+  return result;
+}
+
 export async function readManifestFromFile(filePath: string): Promise<WorkbenchManifest> {
   const normalizedFilePath = requireNonEmptyPath("filePath", filePath);
 

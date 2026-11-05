@@ -7,6 +7,11 @@
     "typecheck": "tsc --noEmit",
     "test": "tsc && node --test \"build/src/*.test.js\"",
     "atma": "node build/src/atmaCli.js",
+    "atma:help": "node build/src/atmaCli.js help",
+    "atma:walk": "node build/src/atmaCli.js walk",
+    "atma:verify": "node build/src/atmaCli.js verify",
+    "atma:exe:preveri": "node atma/preveri-atma-exe.cjs",
+    "atma:exe:zgradi": "atma\\zgradi-atma-exe.cmd",
     "proof:capture": "tsc && node build/src/captureIncomingTextProof.js",
     "serve": "tsc && node build/src/workbenchApiServer.js"
   },

@@ -1,0 +1,5 @@
+{
+  "main": "atma-exe.cjs",
+  "output": "atma.blob",
+  "disableExperimentalSEAWarning": true
+}
