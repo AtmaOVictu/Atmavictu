@@ -498,10 +498,7 @@ Medsebojna komputecija s Smisel Qdrant RAG-korpusom. Fragmenti se vektorizirajo 
 Obe operaciji sta **gracilno degradabilni**: ko Ollama ali Qdrant nista dosegljiva, vrneta `{ ok: false }` z 502 in nikoli ne blokirata workbencha. To je edina povezava Atmavictu do zunanjega vektorskega indeksa (isti Qdrant, ki ga Smisel ze uporablja).
 
 ## validateManifest(manifest)
-## validateManifest(manifest)
-## validateManifest(manifest)
-## validateManifest(manifest)
-## validateManifest(manifest)
+<!-- ⊙ KURA @rez σ 3743 (5. 11. 2026 02:53:14Z): ⟨PADC-POGODBE-GLAVE ×5⟩ — mehanski dvojnik glave ×4 odstranjen (5 zaporednih identičnih glav → 1), telo bajt-isto nedotaknjeno ⊙ ⟨NE-BRIŠI⟩ 24 ∧ KORENINA 0.2 -->
 
 ### Namen
 
