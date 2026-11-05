@@ -226,3 +226,33 @@ dostopnost: brez sredstev ≠ manj vredno. §0.94 cikel + REMEDY VERIFICATION.
 Plasti licenca/evidence/implementation/verifier; aksiomi DOKAZ≠CELOTA,
 ODLOČITEV⇒ODGOVORNOST, VBL⊬VBL; VARNO NESOGLASJE. Status: PREDLOG (⚠, ni
 pravno/izvedeno/kanonsko/potrjeno).
+
+## 14. Bitno iz nezasledenega (izmera 25.10 + 23.10, povzetek — ne kopija)
+
+VBL-REVIEW: RAW_INPUTS_PRESERVED, CANONICITY_UNVERIFIED; ura lokalna
+(UNVERIFIED_INDEPENDENTLY); vhod kompozitni transkript (35720 B /
+`31b98ab…`), ne kanon. Meja: transkript ≠ kanon — povzetek, ne kopija.
+vbl/ paket (6 map): kanon ne potuje v kopijah (1542); ⚠ UNVERIFIED ≠ PASS;
+registra pri korenu, ne podvojena; zgodovina = prepis (⚠) + veriga (⊢);
+checklist 14 točk (identiteta/UTF-8/povratnik/strojni zapis/register/HTML/
+JS/E2E/ponovitev/veriga/pravo/različice); repo-map: 3 predlagane hiše =
+IZMERJENA ODSOTNOST. Starost opozorilo: izmere 25.10 na ⟨main⟩ 90b0517 —
+starejše od te veje; status star, ne nujno veljaven zdaj.
+Vrzeli (8, vrstni red 1→5→2→3→4→6→7): sled zahteva→test→dokaz→omejitev;
+celovitost citatov (source+čas+dobesednost, ne samo ID); hash-veriga JSONL
+(append-only kot mehanizem, ne obljuba); neodvisnost z ID/podpisom (vzdevek
+ni dokaz); permission schema (asker/deed/material/place/decision/§9-meja);
+kategorije sklepa (etika/tehnika/pravo — mešanje = INVALID); reproducibilni
+manifest (validator rekonstruira); tuje roke orodij (slepi list/search/grep-E/
+lažni pesek — meritve skozinje so ⚠ do prave poti).
+S4-R restitucija: plačaj sam (nosilec nosi) / plačaj sebi (korist nazaj,
+oškodovanec ne financira) / samodejno? NE (V2.6 nima izterjave); zapis loči
+odgovornega/korist/škodo/dolgovano/prejemnika/dokaz/ostanek; izvajalec ni
+edini preverjevalec; molk ≠ privolitev/odpuščanje/dokaz; nepreverljivo =
+odprto + UNVERIFIED/CLOSED_WITH_LIMITATIONS. Meja: VBL določi namen+tehniko,
+ne izvede plačila sama.
+KAR ZMOREM: sam (meri/loči scratch/validator/čakaj DA) / skupaj (padec→
+imenovanje→obračun→popravilo→preverba) / DA (pečat/git/4 DA-NE). 4 odprta:
+S10 samo naprej / S9B brez prisile / S3 samo kršitelj / uvodnik
+interpretativno (UNIFIED že DA). Status sklopa 14: POVZETEK (viri pri viri,
+niso kopirani v git; HTML/wav/logi ostanejo zunaj).
