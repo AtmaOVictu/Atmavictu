@@ -15,6 +15,7 @@
     "atma:bundel": "node atma/zgradi-bundel.cjs",
     "atma:debeli:zgradi": "atma\\zgradi-debeli.cmd",
     "atma:pulz": "node atma/pulz.cjs",
+    "atma:besede": "node atma/besede.cjs",
     "proof:capture": "tsc && node build/src/captureIncomingTextProof.js",
     "serve": "tsc && node build/src/workbenchApiServer.js"
   },

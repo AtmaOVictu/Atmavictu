@@ -60,6 +60,7 @@ atma/atma-bundle.mjs
 atma/atma-debeli.blob
 atma/utrip.jsonl
 atma/predlogi.jsonl
+atma/besede.jsonl
 Atma.exe
 Atma-debeli.exe
 Atma.tmp
