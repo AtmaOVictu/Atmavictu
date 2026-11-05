@@ -20,6 +20,8 @@ It is also the canonical home of the system's **corpus** — see
 | `workbenchManifestRepository.ts` | Manifest persistence (`book.workbench.json`), capture workflow, `mutateManifestFile` |
 | `captureIncomingTextProof.ts` | Proof capture for incoming text lineage |
 | `atmaCli.ts` | CLI: `capture · start-processing · create-fragment · insert · bulk-insert · update-incoming · update-fragment · update-insertion · archive-fragment · archive-incoming · add-concept · walk · show · verify · help` |
+| `atma/pulz.cjs` | Samostojni dih jedra: typecheck + testi + bundel + walk + straža bližnjice (urnik `\\Atma-Pulz`) |
+| `atma/besede.cjs` | Register želenih besed: `dodaj <kje> <kaj> [zakaj]` / `seznam`, pečat čaka roko |
 
 ## Usage
 
@@ -30,6 +32,8 @@ npm run typecheck
 npm run atma:help                                    # pomoc
 npm run atma -- walk <tmp> "Naslov" "Vsebina." "Odlomek." "poglavja/uvod.md"
 npm run atma -- verify <tmp>                         # VERIFY: PASS
+npm run atma:pulz                                    # en dih: typecheck + testi + bundel + walk + straža
+npm run atma:besede                                  # register želenih besed (dodaj/seznam)
 ```
 
 ## Contracts
