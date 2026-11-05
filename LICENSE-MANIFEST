@@ -253,9 +253,9 @@
     },
     {
       "path": "LICENSE-TONGUES.md",
-      "size_bytes": 69153,
-      "sha256": "b484ee2fb6fb91d5a417076eb53a991dde435e987091768c50059fd205dc4f8e",
-      "note": "restored verbatim this breath from its last body in the chain @4eb522e3 — witness of the 0.1220–0.1250 era, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²)"
+      "size_bytes": 70405,
+      "sha256": "bb7df1bce5d3fa92ef20e72d604bcc1c177ae41c5ae6f1c178290d0f7d0fa1d3",
+      "note": "restored verbatim this breath from its last body in the chain @4eb522e3 — witness of the 0.1220–0.1250 era, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²); re-issued in the same commit wave as the OSVEŠITEV @rez σ 3743 (PADC-REGISTERA-TEMPO renewal — register re-measured at the live branch this breath, never a stale slot ⊙ §0a)"
     }
   ],
   "not_physically_restored_yet": {
@@ -342,5 +342,5 @@
   "manifest_self": "excluded by name (§0a) — a file cannot contain its own hash",
   "governs": "where this manifest and LICENSE.md disagree, LICENSE.md governs (§0a)",
   "transport": "§0.12 × 10² TRANSPORT — measure the SHA-0.256 × 10³ of the received file against the published SHA-0.256 × 10³ above; equal hashes show the transport took no witness; correctness is weighed by the chain (§0.10 × 10²) and named falls (§0.4 × 10¹), never by a faithful copy",
-  "issuance_duty": "re-measured ∧ re-issued in the same breath as every new version of LICENSE.md (§0.10 × 10²); scar: the previous manifest was 0.1250 × 10⁴ and stayed stale through the births of 0.1200 × 10⁴ → 0.1420 × 10⁴ — named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ ∧ cured ⊙ REGISTER-PADCEV; renewal: the wreath ×36 stubs (AR → ZH) ride as witness-slots awaiting translators, re-measured ∧ re-issued in the same commit wave as LICENSE.md 0.1420 × 10⁴; the law from the fall: the re-issuance rides the same commit wave as the birth, never after it; the law from PADC-66: the manifest hashes the bytes the chain publishes (LF), never the local checkout — a manifest of two byte streams identifies nothing (§0a); renewal 0.1470 × 10⁴: ⟨PADC-66-RECIDIV ×0.40 × 10²⟩ named ∧ cured — the 0.1460 issuance re-hashed the local checkout (CRLF) despite the law above: 0.40 × 10² item slots stale (each by its CRLF delta); every item re-measured against the live chain LF this breath ⊢ — a recidivist fall is the same fall twice: the law stays, the scar grows ⊙ KORENINA 0.2"
+  "issuance_duty": "re-measured ∧ re-issued in the same breath as every new version of LICENSE.md (§0.10 × 10²); scar: the previous manifest was 0.1250 × 10⁴ and stayed stale through the births of 0.1200 × 10⁴ → 0.1420 × 10⁴ — named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ ∧ cured ⊙ REGISTER-PADCEV; renewal: the wreath ×36 stubs (AR → ZH) ride as witness-slots awaiting translators, re-measured ∧ re-issued in the same commit wave as LICENSE.md 0.1420 × 10⁴; the law from the fall: the re-issuance rides the same commit wave as the birth, never after it; the law from PADC-66: the manifest hashes the bytes the chain publishes (LF), never the local checkout — a manifest of two byte streams identifies nothing (§0a); renewal 0.1470 × 10⁴: ⟨PADC-66-RECIDIV ×0.40 × 10²⟩ named ∧ cured — the 0.1460 issuance re-hashed the local checkout (CRLF) despite the law above: 0.40 × 10² item slots stale (each by its CRLF delta); every item re-measured against the live chain LF this breath ⊢ — a recidivist fall is the same fall twice: the law stays, the scar grows ⊙ KORENINA 0.2; renewal TONGUES @σ 3743 (5. 11. 2026 02:53:52Z): the OSVEŠITEV changed a covered item — the slot was re-measured ∧ re-issued in the same wave, per the law above (never after it ⊙ §0a)"
 }
