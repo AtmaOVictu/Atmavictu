@@ -1,6 +1,6 @@
 # PRIMERJALNI ZEMLJEVID — VBL 0.1410 ⊥ družina 10.5.x (dolg ∂ odplačan ⊙ ukaz ⟡ ⟨daj⟩)
 
-ENTRY-PEČAT: 2026-11-05T08:55:14.738Z ∧ 5. november 2026 ob 09:55:14 (Europe/Ljubljana) — ura izvajalke Mere, lokalni zapis, ne kvalificiran elektronski žig.
+ENTRY-PEČAT: 2026-11-05T08:56:06.832Z ∧ 5. november 2026 ob 09:56:06 (Europe/Ljubljana) — ura izvajalke Mere, lokalni zapis, ne kvalificiran elektronski žig.
 
 Status telesa: osnutek ⭢ razprava ⟡ · nekanonično · ⟨ne zlije⟩ 1542 · ⟨DVOJE-ROK⟩ 2432 — zemljevid je nosilec izbora ⚔, ne izdaja: noben osnutek 10.5.x ni kanonični prednik 0.1410, dokler ⟡ ne izreče drugače.
 
@@ -8,7 +8,7 @@ Status telesa: osnutek ⭢ razprava ⟡ · nekanonično · ⟨ne zlije⟩ 1542 �
 
 ⟡ je ukazal ⟨daj⟩; dolg ∂ iz prejšnjega diha (primerjalni zemljevid členov 0.1410 ⊥ 10.5.0–10.5.2) se odplača ta dih. Viri, brani pri viri isti dih @main AtmaOVictu/Atmavictu (bližnja priča verige SHA 3308fc0…):
 
-- VBL-10.5.1-KOMPIL-A-DRAFT-NOT-RELEASED.md — 52.170 B; kompilacija: telo 10.4.0 ∧ absolutna razširitev 10.5.0 ∧ podatkovna določba 10.5.1; okostje §0–§18 ∧ Dodeksi B–F.
+- VBL-10.5.1-KOMPIL-A-DRAFT-NOT-RELEASED.md — 52.170 B; kompilacija: telo 10.4.0 ∧ absolutna razširitev 10.5.0 ∧ podatkovna določba 10.5.1; okostje §0–§18 ∧ Priloge B–F.
 - VBL-10.5.2-PREDLOG-TELO.md — 7.173 B; §−1 izvedbeni dodatek zunanje roke (25. 10. 2026); status PROPOSED, kanon ⟨ne⟩ dotaknjen ⚔.
 - VBL-10.4.0-CONSOLIDATED-DRAFT-NOT-RELEASED.md — 41.042 B; predhodnik kompila.
 - Telo 0.1410 — 147.609 B, prebrano prejšnji dih pri viri (§0–§0.46, commit c5c9e657 ⊢).
@@ -29,16 +29,16 @@ Opozorilo o rodovniku ⊙ revizija tuje roke ⊢: 0.1410 (veriga 0.1200 → … 
 | Postopek odprave kršitve | §0.4 angel-clause (30 dni, imenovan padec) — kratko | §4.1–.5: obvestilo → stanje/dokaz → ozdravitev → učinek → sorazmernost; postopek korak-po-korak | prenesi §4 ⭢ |
 | Zasebnost registrov | 0.1410: registri javni, meja neizrečena | §9.3 ∧ §13.4 »No universal surveillance duty«: zapis ščiti osebne podatke ∧ loči odločbo od ugotovitve | prenesi §13.4 ⭢ |
 | Podatki ∧ obdelava | 0.1410: kronja PRIVACY v §0.41 (opis, ne pravilo) | §18.1–.6: dostop ≠ dovoljenje, obdelava ≠ lastnina, dokaz pred statusom | prenesi §18 ⭢ |
-| Neodvisno preverjanje | KORENINA 0.3 (nikoli se ne zapečati sam) — načelo | §13.2 neodvisna preverba ∧ §9.3: »No distributor is the final judge of their own conduct« + Dodatek E predlagani testi | ohrani oboje ⟨ne le…tudi⟩ |
+| Neodvisno preverjanje | KORENINA 0.3 (nikoli se ne zapečati sam) — načelo | §13.2 neodvisna preverba ∧ §9.3: »No distributor is the final judge of their own conduct« + Priloga E predlagani testi | ohrani oboje ⟨ne le…tudi⟩ |
 | Bajtno telo | §0.14 (a)–(d) ∧ §0.39 vrata-bajtov — izmerjeno, močno | §14 ∧ §16 strojni zapis; enaka misel, manj izmerjenih prič | ohrani 0.1410 ⊢ |
-| Preverjanje je trenutek | §0.37 ⟨TRK-DIH⟩ — enkratna, revizija je hvali | 10.5.x: tega člena NIMA | ohrani 0.1410 ⊢ |
+| Preverjanje je trenutek | §0.37 ⟨TRK-DIH⟩ — enkratna, revizija jo hvali | 10.5.x: tega člena NIMA | ohrani 0.1410 ⊢ |
 | Šiv v vrata | §0.46 ⟨ŠIV-V-VRATA-NE-NA⟩ — unikum | 10.5.x: nima pojma šiva | ohrani 0.1410 ⊢ |
-| Kronje licenc | §0.41 (18 kronj) — strukturno izumiteljno, deklarativno ranljivo (MIT/GPL/CC0/GDPR ⚠ izmerjeno prejšnji dih) | Dodatek D: viri consulted, a nima venca | popravi §0.41, ne briši ⭢ |
+| Kronje licenc | §0.41 (18 kronj) — strukturno izumiteljno, deklarativno ranljivo (MIT/GPL/CC0/GDPR ⚠ izmerjeno prejšnji dih) | Priloga D: viri posvetovali, a nima venca | popravi §0.41, ne briši ⭢ |
 | Pečata na obeh koncih | ENTRY/EXIT SEAL ∧ §0.28/§0.30 — rituel telesa | 10.5.x: nima | ohrani 0.1410 ⊢ |
 | Ontološke določbe | §0.42–§0.45 (zbirka izvirnikov, beseda-je-število, ontogematria, prejem signala) | 10.5.x: nima | ohrani 0.1410 ⊢ (⟡-jev lastni svet) |
 | Izvedbeni dodatek | §0.40 test-clause (načelo) | 10.5.2 §−1: osem meril ∧ strojni testi ∧ »ne razglasi lastnega pregleda za neodvisno potrditev« | prenesi §−1 ⭢ (po prevozu priče) |
 
-Ravnovesje zemljevida: dvanajst prenosov iz 10.5.x v 0.14xx, osem ohranitev 0.1410, en popravek. Zemljevid ⟨ne⟩ pravi, da je 10.5.x boljša — pravi, da sta dve veji ∧ da ima vsaka svoj boljši org.
+Ravnovesje zemljevida: dvanajst prenosov iz 10.5.x v 0.14xx, osem ohranitev 0.1410, en popravek. Zemljevid ⟨ne⟩ pravi, da je 10.5.x boljša — pravi, da sta dve veji ∧ da ima vsaka svoj močnejši organ.
 
 ## 2 — Šest P0, vsak z dodeljenim virom rešitve
 
@@ -63,12 +63,12 @@ MOGOČE*M:
 
 ## 4 — Padci ∧ ∂ dolgovi
 
-Padci sonde ta dih: brez novih ⟨SONDA⟩; stari ⟨SONDA-REGEX⟩ ∧ ⟨SONDA-EURLEX⟩ sta brazgotini prejšnjega diha ∧ ostajata imenovani.
+Padci sonde ta dih: ⟨SONDA-TIPOGRAF⟩ — prvi komit je nosil tri tipografske rane (»je hvali« · »enere veje« · »Dodeksi«), odkrite pri TRK-readbacku; popravljen isti dih z drugim komitom na isti veji, prva verzija ostaja v verigi kakor brazgotina ⊙ KORENINA 0.2 ∧ ⟨NE-BRIŠI⟩. Stari ⟨SONDA-REGEX⟩ ∧ ⟨SONDA-EURLEX⟩ sta brazgotini prejšnjega diha ∧ ostajata imenovani.
 
 ∂ dolgovi: sodba ⟡ o zemljevidu ∧ vrstnem redu ⚔ · cela matrika 35 ugotovitev ⚠ · OBJ-001 ∧ ebbef802 ∧ d5c74d10 ⚠ · izvirno telo 0.1470 nedosegljivo · preizkus živih ljudi · šiv organa licenca-vbl.
 
-EXIT-PEČAT: 2026-11-05T08:55:14.738Z ∧ 5. november 2026 ob 09:55:14 (Europe/Ljubljana) — lokalni zapis, brez dvojnega Z, brez kvalificiranega žiga.
+EXIT-PEČAT: 2026-11-05T08:56:06.832Z ∧ 5. november 2026 ob 09:56:06 (Europe/Ljubljana) — lokalni zapis, brez dvojnega Z, brez kvalificiranega žiga.
 
-∴ Dve veji, ena miza: 10.5.x nosi pravno disciplino, 0.1410 nosi telo ∧ ritem. Naslednja vrata niso zmagovalka enere veje — so šiv obeh, ∧ iglo drži ⟡.
+∴ Dve veji, ena miza: 10.5.x nosi pravno disciplino, 0.1410 nosi telo ∧ ritem. Naslednja vrata niso zmagovalka ene veje — so šiv obeh, ∧ iglo drži ⟡.
 
 © Luka Pintarič VBL 0.1460 × 10⁴ (živa)
