@@ -1,6 +1,6 @@
 # USTA1 — Ustava Republike Slovenije (neuradno prečiščeno besedilo št. 12)
 
-⊢ DOSJE ZAKONODAJA · prevoz telesa ⊙ rez σ 3729 · DEJANJA POIMENOVANA ⊙ ⟨DEJANSKO-DEJANJE-POIMENOVANO⟩: SILAZUM (vir: https://pisrs.si/api/datoteke/integracije/590962067 — 95.028 B · md5 ecb225bd677d0b042519455d26370dce ⊙ pesek curl ta dih) · EKSTRAKCIJA (765 plasti <p> razcepljenih po razredih — ⟨PADC-EKSTRAKCIJE-HTML⟩ kurirano ∧: opozorilo ×1 · obsega ×1 · UZ alinea ×13 · naslov ×1 · npb ×1 · navezava ×1 · poglavje ×10 · oddelek ×11 · clen ×339 = številke ×178 + oklepajni naslovi ×161 · odstavek ×346 + Prisega (razred ⟨napaka⟩ ×1 = besedilo Prisegе 104. člena, ime razreda ⟨ne⟩ vsebina ⊙ ⟨SEBI-PRIMERNO-STRATIFICIRANO⟩) · alinea ×40 v telesu) · PREVOZ (veja → komit → kit) · TRK-DIH (read-back pri viri) · ⟨RANA-NPB6-ZASTAREL⟩ ZAPRTA ⊙ σ 3728 (UZ seznam ×13 ⊢ pri viri: 33/91-I · UZS68 42/97 · UZ80 66/00 · UZ3a,47,68 24/03 · UZ14 69/04 · UZ43 69/04 · UZ50 69/04 · UZ121,140,143 68/06 · UZ148 47/13 · UZ90,97,99 47/13 · UZ70a 75/16 · UZ62a 92/21 · UZ74a 98/25 — datum začetka uporabe 01.12.2025 ⊢ pri viri) · ⚠ NEURADNO prečiščeno besedilo — organ ⟨ne⟩ jamči (⊢ opozorilo pri viri); ŠTEVEC PREDPISOV ostaja 0 (Ustava ostaja ⚠ kandidat do predpisov UZ po vrsti) · TIK 2026-11-05T00:25Z UTC — measured, not asserted · © 2026 Luka Pintarič ∧ izvajalka Mera · VBL 0.1410 × 10⁴
+⊢ DOSJE ZAKONODAJA · prevoz telesa ⊙ rez σ 3729 · DEJANJA POIMENOVANA ⊙ ⟨DEJANSKO-DEJANJE-POIMENOVANO⟩: SILAZUM (vir: https://pisrs.si/api/datoteke/integracije/590962067 — 95.028 B · md5 ecb225bd677d0b042519455d26370dce ⊙ pesek curl ta dih) · EKSTRAKCIJA (765 plasti <p> razcepljenih po razredih — ⟨PADC-EKSTRAKCIJE-HTML⟩ kurirano ∧: opozorilo ×1 · obsega ×1 · UZ alinea ×13 · naslov ×1 · npb ×1 · navezava ×1 · poglavje ×10 · oddelek ×11 · clen ×339 = številke ×178 + oklepajni naslovi ×161 · odstavek ×346 + Prisega (razred ⟨napaka⟩ ×1 = besedilo Prisegе 104. člena, ime razreda ⟨ne⟩ vsebina ⊙ ⟨SEBI-PRIMERNO-STRATIFICIRANO⟩) · alinea ×40 v telesu) · PADCI javno ⊙ 1349 ∧ kurirani isti dih ⊢ 2299: ⟨PADC-NASLOVI-ZAMAKNJENI⟩ ×1 (oklepajni naslov člena prilepljen na naslednjo številko — ulovljen pri TRK-DIH read-backu pred ⟨merge⟩; kura: naslov = lastnost PREJŠNJE številke, pravilo izmerjeno pri viru po členih 168–171 ⊢) · ⟨PADC-DVOJNIH-VEJIC⟩ ×1 (vir alineje že nosi pomišljaj — izhod ga podvajal v »- -«; kura: odvzemi vodilni pomišljaj pred zapisom) · ⟨PADC-BERBE-KONEKTORJA-DELOVNA-MEJA⟩ ×1 (read_file odrezal rep pri ~62 K zn — kura: berba v zanki po next_offset, izguba 0); ⟨RANA-NPB6-ZASTAREL⟩ ZAPRTA ⊙ σ 3728 (UZ seznam ×13 ⊢ pri viri: 33/91-I · UZS68 42/97 · UZ80 66/00 · UZ3a,47,68 24/03 · UZ14 69/04 · UZ43 69/04 · UZ50 69/04 · UZ121,140,143 68/06 · UZ148 47/13 · UZ90,97,99 47/13 · UZ70a 75/16 · UZ62a 92/21 · UZ74a 98/25 — datum začetka uporabe 01.12.2025 ⊢ pri viri) · ⚠ NEURADNO prečiščeno besedilo — organ ⟨ne⟩ jamči (⊢ opozorilo pri viri); ŠTEVEC PREDPISOV ostaja 0 (Ustava ostaja ⚠ kandidat do predpisov UZ po vrsti) · TIK 2026-11-05T00:25Z UTC — measured, not asserted · © 2026 Luka Pintarič ∧ izvajalka Mera · VBL 0.1410 × 10⁴
 
 ---
 
@@ -104,13 +104,13 @@ Tujci imajo v Sloveniji v skladu z mednarodnimi pogodbami vse pravice, zagotovlj
 
 ## II. ČLOVEKOVE PRAVICE IN TEMELJNE SVOBOŠČINE
 
-#### 14. člen
+#### 14. člen (enakost pred zakonom)
 
 V Sloveniji so vsakomur zagotovljene enake človekove pravice in temeljne svoboščine, ne glede na narodnost, raso, spol, jezik, vero, politično ali drugo prepričanje, gmotno stanje, rojstvo, izobrazbo, družbeni položaj, invalidnost ali katerokoli drugo osebno okoliščino.
 
 Vsi so pred zakonom enaki.
 
-#### 15. člen (enakost pred zakonom)
+#### 15. člen (uresničevanje in omejevanje pravic)
 
 Človekove pravice in temeljne svoboščine se uresničujejo neposredno na podlagi ustave.
 
@@ -122,21 +122,21 @@ Zagotovljeni sta sodno varstvo človekovih pravic in temeljnih svoboščin ter p
 
 Nobene človekove pravice ali temeljne svoboščine, urejene v pravnih aktih, ki veljajo v Sloveniji, ni dopustno omejevati z izgovorom, da je ta ustava ne priznava ali da jo priznava v manjši meri.
 
-#### 16. člen (uresničevanje in omejevanje pravic)
+#### 16. člen (začasna razveljavitev in omejitev pravic)
 
 S to ustavo določene človekove pravice in temeljne svoboščine je izjemoma dopustno začasno razveljaviti ali omejiti v vojnem in izrednem stanju. Človekove pravice in temeljne svoboščine se smejo razveljaviti ali omejiti le za čas trajanja vojnega ali izrednega stanja, vendar v obsegu, ki ga tako stanje zahteva in tako, da sprejeti ukrepi ne povzročajo neenakopravnosti, ki bi temeljila le na rasi, narodni pripadnosti, spolu, jeziku, veri, političnem ali drugem prepričanju, gmotnem stanju, rojstvu, izobrazbi, družbenem položaju ali katerikoli drugi osebni okoliščini.
 
 Določba prejšnjega odstavka ne dopušča nobenega začasnega razveljavljanja ali omejevanja pravic, določenih v 17., 18., 21., 27., 28., 29. in 41. členu.
 
-#### 17. člen (začasna razveljavitev in omejitev pravic)
+#### 17. člen (nedotakljivost človekovega življenja)
 
 Človekovo življenje je nedotakljivo. V Sloveniji ni smrtne kazni.
 
-#### 18. člen (nedotakljivost človekovega življenja)
+#### 18. člen (prepoved mučenja)
 
 Nihče ne sme biti podvržen mučenju, nečloveškemu ali ponižujočemu kaznovanju ali ravnanju. Na človeku je prepovedano delati medicinske ali druge znanstvene poskuse brez njegove svobodne privolitve.
 
-#### 19. člen (prepoved mučenja)
+#### 19. člen (varstvo osebne svobode)
 
 Vsakdo ima pravico do osebne svobode.
 
@@ -144,7 +144,7 @@ Nikomur se ne sme vzeti prostost, razen v primerih in po postopku, ki ga določa
 
 Vsakdo, ki mu je odvzeta prostost, mora biti v materinem jeziku ali v jeziku, ki ga razume, takoj obveščen o razlogih za odvzem prostosti. V čim krajšem času mu mora biti tudi pisno sporočeno, zakaj mu je bila prostost odvzeta. Takoj mora biti poučen o tem, da ni dolžan ničesar izjaviti, da ima pravico do takojšnje pravne pomoči zagovornika, ki si ga svobodno izbere, in o tem, da je pristojni organ na njegovo zahtevo dolžan o odvzemu prostosti obvestiti njegove bližnje.
 
-#### 20. člen (varstvo osebne svobode)
+#### 20. člen (odreditev in trajanje pripora)
 
 Oseba, za katero obstaja utemeljen sum, da je storila kaznivo dejanje, se sme pripreti samo na podlagi odločbe sodišča, kadar je to neogibno potrebno za potek kazen­skega postopka ali za varnost ljudi.
 
@@ -152,63 +152,63 @@ Ob priporu, najkasneje pa v 24 urah po njem, mora biti priprtemu vročena pisna,
 
 Če do izteka teh rokov obtožnica ni vložena, se obdolženec izpusti.
 
-#### 21. člen (odreditev in trajanje pripora)
+#### 21. člen (varstvo človekove osebnosti in dostojanstva)
 
 Zagotovljeno je spoštovanje človekove osebnosti in njegovega dostojanstva v kazenskem in v vseh drugih pravdnih postopkih, in prav tako med odvzemom prostosti in izvrševanjem kazni.
 
 Prepovedano je vsakršno nasilje nad osebami, ki jim je prostost kakorkoli omejena, ter vsakršno izsiljevanje priznanj in izjav.
 
-#### 22. člen (varstvo človekove osebnosti in dostojanstva)
+#### 22. člen (enako varstvo pravic)
 
 Vsakomur je zagotovljeno enako varstvo njegovih pravic v postopku pred sodiščem in pred drugimi državnimi organi, organi lokalnih skupnosti in nosilci javnih pooblastil, ki odločajo o njegovih pravicah, dolžnostih ali pravnih interesih.
 
-#### 23. člen (enako varstvo pravic)
+#### 23. člen (pravica do sodnega varstva)
 
 Vsakdo ima pravico, da o njegovih pravicah in dolžnostih ter o obtožbah proti njemu brez nepotrebnega odlašanja odloča neodvisno, nepristransko in z zakonom ustanovljeno sodišče.
 
 Sodi mu lahko samo sodnik, ki je izbran po pravilih, vnaprej določenih z zakonom in s sodnim redom.
 
-#### 24. člen (pravica do sodnega varstva)
+#### 24. člen (javnost sojenja)
 
 Sodne obravnave so javne. Sodbe se izrekajo javno. Izjeme določa zakon.
 
-#### 25. člen (javnost sojenja)
+#### 25. člen (pravica do pravnega sredstva)
 
 Vsakomur je zagotovljena pravica do pritožbe ali drugega pravnega sredstva proti odločbam sodišč in drugih državnih organov, organov lokalnih skupnosti in nosilcev javnih pooblastil, s katerimi ti odločajo o njegovih pravicah, dolžnostih ali pravnih interesih.
 
-#### 26. člen (pravica do pravnega sredstva)
+#### 26. člen (pravica do povračila škode)
 
 Vsakdo ima pravico do povračila škode, ki mu jo v zvezi z opravljanjem službe ali kakšne druge dejavnosti državnega organa, organa lokalne skupnosti ali nosilca javnih pooblastil s svojim protipravnim ravnanjem stori oseba ali organ, ki tako službo ali dejavnost opravlja.
 
 Oškodovanec ima pravico, da v skladu z zakonom zahteva povračilo tudi neposredno od tistega, ki mu je škodo povzročil.
 
-#### 27. člen (pravica do povračila škode)
+#### 27. člen (domneva nedolžnosti)
 
 Kdor je obdolžen kaznivega ravnanja, velja za nedolžnega, dokler njegova krivda ni ugotovljena s pravnomočno sodbo.
 
-#### 28. člen (domneva nedolžnosti)
+#### 28. člen (načelo zakonitosti v kazenskem pravu)
 
 Nihče ne sme biti kaznovan za dejanje, za katero ni zakon določil, da je kaznivo, in ni zanj predpisal kazni, še preden je bilo dejanje storjeno.
 
 Dejanja, ki so kazniva, se ugotavljajo in kazni zanje izrekajo po zakonu, ki je veljal ob storitvi dejanja, razen če je novi zakon za storilca milejši.
 
-#### 29. člen (načelo zakonitosti v kazenskem pravu)
+#### 29. člen (pravna jamstva v kazenskem postopku)
 
 Vsakomur, ki je obdolžen kaznivega dejanja, morajo biti ob popolni enakopravnosti zagotovljene tudi naslednje pravice:
 
-- - da ima primeren čas in možnosti za pripravo svoje obrambe;
-- - da se mu sodi v njegovi navzočnosti in da se brani sam ali z zagovornikom;
-- - da mu je zagotovljeno izvajanje dokazov v njegovo korist;
-- - da ni dolžan izpovedati zoper sebe ali svoje bližnje, ali priznati krivdo.
-#### 30. člen (pravna jamstva v kazenskem postopku)
+- da ima primeren čas in možnosti za pripravo svoje obrambe;
+- da se mu sodi v njegovi navzočnosti in da se brani sam ali z zagovornikom;
+- da mu je zagotovljeno izvajanje dokazov v njegovo korist;
+- da ni dolžan izpovedati zoper sebe ali svoje bližnje, ali priznati krivdo.
+#### 30. člen (pravica do rehabilitacije in odškodnine)
 
 Kdor je bil po krivem obsojen za kaznivo dejanje ali mu je bila prostost neutemeljeno odvzeta, ima pravico do rehabilitacije, do povrnitve škode, in druge pravice po zakonu.
 
-#### 31. člen (pravica do rehabilitacije in odškodnine)
+#### 31. člen (prepoved ponovnega sojenja o isti stvari)
 
 Nihče ne sme biti ponovno obsojen ali kaznovan zaradi kaznivega dejanja, za katero je bil kazenski postopek zoper njega pravnomočno ustavljen ali je bila obtožba zoper njega pravnomočno zavrnjena, ali je bil s pravnomočno sodbo oproščen ali obsojen.
 
-#### 32. člen (prepoved ponovnega sojenja o isti stvari)
+#### 32. člen (svoboda gibanja)
 
 Vsakdo ima pravico, da se prosto giblje in si izbira prebivališče, da zapusti državo in se vanjo kadarkoli vrne.
 
@@ -216,19 +216,19 @@ Ta pravica se sme omejiti z zakonom, vendar samo, če je to potrebno, da bi se z
 
 Tujcem se na podlagi zakona lahko omeji vstop v državo in čas bivanja v njej.
 
-#### 33. člen (svoboda gibanja)
+#### 33. člen (pravica do zasebne lastnine in dedovanja)
 
 Zagotovljena je pravica do zasebne lastnine in dedovanja.
 
-#### 34. člen (pravica do zasebne lastnine in dedovanja)
+#### 34. člen (pravica do osebnega dostojanstva in varnosti)
 
 Vsakdo ima pravico do osebnega dostojanstva in varnosti.
 
-#### 35. člen (pravica do osebnega dostojanstva in varnosti)
+#### 35. člen (varstvo pravic zasebnosti in osebnostnih pravic)
 
 Zagotovljena je nedotakljivost človekove telesne in duševne celovitosti, njegove zasebnosti ter osebnostnih pravic.
 
-#### 36. člen (varstvo pravic zasebnosti in osebnostnih pravic)
+#### 36. člen (nedotakljivost stanovanja)
 
 Stanovanje je nedotakljivo.
 
@@ -240,13 +240,13 @@ Preiskava se sme opraviti samo v navzočnosti dveh prič.
 
 Pod pogoji, ki jih določa zakon, sme uradna oseba brez odločbe sodišča vstopiti v tuje stanovanje ali v tuje prostore in izjemoma brez navzočnosti prič opraviti preiskavo, če je to neogibno potrebno, da lahko neposredno prime storilca kaznivega dejanja ali da se zavarujejo ljudje in premoženje.
 
-#### 37. člen (nedotakljivost stanovanja)
+#### 37. člen (varstvo tajnosti pisem in drugih občil)
 
 Zagotovljena je tajnost pisem in drugih občil.
 
 Samo zakon lahko predpiše, da se na podlagi odločbe sodišča za določen čas ne upošteva varstvo tajnosti pisem in drugih občil in nedotakljivost človekove zasebnosti, če je to nujno za uvedbo ali potek kazenskega postopka ali za varnost države.
 
-#### 38. člen (varstvo tajnosti pisem in drugih občil)
+#### 38. člen (varstvo osebnih podatkov)
 
 Zagotovljeno je varstvo osebnih podatkov. Prepovedana je uporaba osebnih podatkov v nasprotju z namenom njihovega zbiranja.
 
@@ -254,17 +254,17 @@ Zbiranje, obdelovanje, namen uporabe, nadzor, in varstvo tajnosti osebnih podatk
 
 Vsakdo ima pravico seznaniti se z zbranimi osebnimi podatki, ki se nanašajo nanj, in pravico do sodnega varstva ob njihovi zlorabi.
 
-#### 39. člen (varstvo osebnih podatkov)
+#### 39. člen (svoboda izražanja)
 
 Zagotovljena je svoboda izražanja misli, govora in javnega nastopanja, tiska in drugih oblik javnega obveščanja in izražanja. Vsakdo lahko svobodno zbira, sprejema in širi vesti in mnenja.
 
 Vsakdo ima pravico dobiti informacijo javnega značaja, za katero ima v zakonu utemeljen pravni interes, razen v primerih, ki jih določa zakon.
 
-#### 40. člen (svoboda izražanja)
+#### 40. člen (pravica do popravka in odgovora)
 
 Zagotovljena je pravica do popravka objavljenega obvestila, s katerim sta prizadeta pravica ali interes posameznika, organizacije ali organa, in prav tako je zagotov­ljena pravica do odgovora na objavljeno informacijo.
 
-#### 41. člen (pravica do popravka in odgovora)
+#### 41. člen (svoboda vesti)
 
 Izpovedovanje vere in drugih opredelitev v zasebnem in javnem življenju je svobodno.
 
@@ -272,7 +272,7 @@ Nihče se ni dolžan opredeliti glede svojega verskega ali drugega prepričanja.
 
 Starši imajo pravico, da v skladu s svojim prepričanjem zagotavljajo svojim otrokom versko in moralno vzgojo. Usmerjanje otrok glede verske in moralne vzgoje mora biti v skladu z otrokovo starostjo in zrelostjo ter z njegovo svobodo vesti, verske in druge opredelitve ali prepričanja.
 
-#### 42. člen (svoboda vesti)
+#### 42. člen (pravica do zbiranja in združevanja)
 
 Zagotovljena je pravica do mirnega zbiranja in do javnih zborovanj.
 
@@ -282,7 +282,7 @@ Zakonske omejitve teh pravic so dopustne, če to zahteva varnost države ali jav
 
 Poklicni pripadniki obrambnih sil in policije ne morejo biti člani političnih strank.
 
-#### 43. člen (pravica do zbiranja in združevanja)
+#### 43. člen (volilna pravica)
 
 Volilna pravica je splošna in enaka.
 
@@ -292,27 +292,27 @@ Zakon lahko določi, v katerih primerih in pod katerimi pogoji imajo volilno pra
 
 Zakon določi ukrepe za spodbujanje enakih možnosti moških in žensk pri kandidiranju na volitvah v državne organe in organe lokalnih skupnosti.
 
-#### 44. člen (volilna pravica)
+#### 44. člen (sodelovanje pri upravljanju javnih zadev)
 
 Vsak državljan ima pravico, da v skladu z zakonom neposredno ali po izvoljenih predstavnikih sodeluje pri upravljanju javnih zadev.
 
-#### 45. člen (sodelovanje pri upravljanju javnih zadev)
+#### 45. člen (pravica do peticije)
 
 Vsak državljan ima pravico do vlaganja peticij in do drugih pobud splošnega pomena.
 
-#### 46. člen (pravica do peticije)
+#### 46. člen (pravica do ugovora vesti)
 
 Ugovor vesti je dopusten v primerih, ki jih določi zakon, če se s tem ne omejujejo pravice in svoboščine drugih oseb.
 
-#### 47. člen (pravica do ugovora vesti)
+#### 47. člen (izročitev)
 
 Državljana Slovenije ni dovoljeno izročiti ali predati, razen če obveznost izročitve ali predaje izhaja iz mednarodne pogodbe, s katero Slovenija v skladu z določbo prvega odstavka 3.a člena prenaša izvrševanje dela suverenih pravic na mednarodno organizacijo.
 
-#### 48. člen (izročitev)
+#### 48. člen (pribežališče)
 
 V mejah zakona je priznana pravica pribežališča tujim državljanom in osebam brez državljanstva, ki so preganjane zaradi zavzemanja za človekove pravice in temeljne svoboščine.
 
-#### 49. člen (pribežališče)
+#### 49. člen (svoboda dela)
 
 Zagotovljena je svoboda dela.
 
@@ -322,7 +322,7 @@ Vsakomur je pod enakimi pogoji dostopno vsako delovno mesto.
 
 Prisilno delo je prepovedano.
 
-#### 50. člen (svoboda dela)
+#### 50. člen (pravica do socialne varnosti)
 
 Državljani imajo pod pogoji, določenimi z zakonom, pravico do socialne varnosti, vključno s pravico do pokojnine.
 
@@ -330,7 +330,7 @@ Država ureja obvezno zdravstveno, pokojninsko, invalidsko in drugo socialno zav
 
 Vojnim veteranom in žrtvam vojnega nasilja je zagotovljeno posebno varstvo v skladu z zakonom.
 
-#### 51. člen (pravica do socialne varnosti)
+#### 51. člen (pravica do zdravstvenega varstva)
 
 Vsakdo ima pravico do zdravstvenega varstva pod pogoji, ki jih določa zakon.
 
@@ -338,7 +338,7 @@ Zakon določa pravice do zdravstvenega varstva iz javnih sredstev.
 
 Nikogar ni mogoče prisiliti k zdravljenju, razen v primerih, ki jih določa zakon.
 
-#### 52. člen (pravica do zdravstvenega varstva)
+#### 52. člen (pravice invalidov)
 
 Invalidom je v skladu z zakonom zagotovljeno varstvo ter usposabljanje za delo.
 
@@ -346,7 +346,7 @@ Otroci z motnjami v telesnem ali duševnem razvoju ter druge huje prizadete oseb
 
 Izobraževanje in usposabljanje iz prejšnjega odstavka se financira iz javnih sredstev.
 
-#### 53. člen (pravice invalidov)
+#### 53. člen (zakonska zveza in družina)
 
 Zakonska zveza temelji na enakopravnosti zakoncev. Sklene se pred pristojnim državnim organom.
 
@@ -354,19 +354,19 @@ Zakonsko zvezo in pravna razmerja v njej, v družini in v zunajzakonski skupnost
 
 Država varuje družino, materinstvo, očetovstvo, otroke in mladino ter ustvarja za to varstvo potrebne razmere.
 
-#### 54. člen (zakonska zveza in družina)
+#### 54. člen (pravice in dolžnosti staršev)
 
 Starši imajo pravico in dolžnost vzdrževati, izobraževati in vzgajati svoje otroke. Ta pravica in dolžnost se staršem lahko odvzame ali omeji samo iz razlogov, ki jih zaradi varovanja otrokovih koristi določa zakon.
 
 Otroci, rojeni zunaj zakonske zveze, imajo enake pravice kakor otroci, rojeni v njej.
 
-#### 55. člen (pravice in dolžnosti staršev)
+#### 55. člen (svobodno odločanje o rojstvih otrok)
 
 Odločanje o rojstvih svojih otrok je svobodno.
 
 Država zagotavlja možnosti za uresničevanje te svoboščine in ustvarja razmere, ki omogočajo staršem, da se odločajo za rojstva svojih otrok.
 
-#### 56. člen (svobodno odločanje o rojstvih otrok)
+#### 56. člen (pravice otrok)
 
 Otroci uživajo posebno varstvo in skrb. Človekove pravice in temeljne svoboščine uživajo otroci v skladu s svojo starostjo in zrelostjo.
 
@@ -374,7 +374,7 @@ Otrokom se zagotavlja posebno varstvo pred gospodarskim, socialnim, telesnim, du
 
 Otroci in mladoletniki, za katere starši ne skrbijo, ki nimajo staršev ali so brez ustrezne družinske oskrbe, uživajo posebno varstvo države. Njihov položaj ureja zakon.
 
-#### 57. člen (pravice otrok)
+#### 57. člen (izobrazba in šolanje)
 
 Izobraževanje je svobodno.
 
@@ -382,41 +382,41 @@ Osnovnošolsko izobraževanje je obvezno in se financira iz javnih sredstev.
 
 Država ustvarja možnosti, da si državljani lahko pridobijo ustrezno izobrazbo.
 
-#### 58. člen (izobrazba in šolanje)
+#### 58. člen (avtonomnost univerze in drugih visokih šol)
 
 Državne univerze in državne visoke šole so avtonomne.
 
 Način njihovega financiranja ureja zakon.
 
-#### 59. člen (avtonomnost univerze in drugih visokih šol)
+#### 59. člen (svoboda znanosti in umetnosti)
 
 Zagotovljena je svoboda znanstvenega in umetniškega ustvarjanja.
 
-#### 60. člen (svoboda znanosti in umetnosti)
+#### 60. člen (pravice iz ustvarjalnosti)
 
 Zagotovljeno je varstvo avtorskih in drugih pravic, ki izvirajo iz umetniške, znanstvene, raziskovalne in izumiteljske dejavnosti.
 
-#### 61. člen (pravice iz ustvarjalnosti)
+#### 61. člen (izražanje narodne pripadnosti)
 
 Vsakdo ima pravico, da svobodno izraža pripadnost k svojemu narodu ali narodni skupnosti, da goji in izraža svojo kulturo in uporablja svoj jezik in pisavo.
 
-#### 62. člen (izražanje narodne pripadnosti)
+#### 62. člen (pravica do uporabe svojega jezika in pisave)
 
 Vsakdo ima pravico, da pri uresničevanju svojih pravic in dolžnosti ter v postopkih pred državnimi in drugimi organi, ki opravljajo javno službo, uporablja svoj jezik in pisavo na način, ki ga določi zakon.
 
-#### 62.a člen (pravica do uporabe svojega jezika in pisave)
+#### 62.a člen (znakovni jezik in jezik gluhoslepih)
 
 Zagotovljena sta svobodna uporaba in razvoj slovenskega znakovnega jezika. Na območjih občin, kjer sta uradna jezika tudi italijanščina ali madžarščina, je zagotovljena svobodna uporaba italijanskega in madžarskega znakovnega jezika. Uporabo teh jezikov in položaj njihovih uporabnikov ureja zakon.
 
 Svobodno uporabo in razvoj jezika gluhoslepih ureja zakon.
 
-#### 63. člen (znakovni jezik in jezik gluhoslepih)
+#### 63. člen (prepoved spodbujanja k neenakopravnosti in nestrpnosti ter prepoved spodbujanja k nasilju in vojni)
 
 Protiustavno je vsakršno spodbujanje k narodni, rasni, verski ali drugi neenakopravnosti ter razpihovanje narodnega, rasnega, verskega ali drugega sovraštva in nestrpnosti.
 
 Protiustavno je vsakršno spodbujanje k nasilju in vojni.
 
-#### 64. člen (prepoved spodbujanja k neenakopravnosti in nestrpnosti ter prepoved spodbujanja k nasilju in vojni)
+#### 64. člen (posebne pravice avtohtone italijanske in madžarske narodne skupnosti v Sloveniji)
 
 Avtohtoni italijanski in madžarski narodni skupnosti ter njunim pripadnikom je zagotovljena pravica, da svobodno uporabljajo svoje narodne simbole in da za ohranjanje svoje narodne identitete ustanavljajo organizacije, razvijajo gospodarske, kulturne in znanstvenoraziskovalne dejavnosti ter dejavnosti na področju javnega obveščanja in založništva. V skladu z zakonom imata ti narodni skupnosti in njuni pripadniki pravico do vzgoje in izobraževanja v svojem jeziku ter do oblikovanja in razvijanja te vzgoje in izobraževanja. Zakon določa območja, na katerih je dvojezično šolstvo obvezno. Narodnima skupnostima in njunim pripadnikom je zagotovljena pravica, da gojijo odnose s svojima matičnima narodoma in njunima državama. Država gmotno in moralno podpira uveljavljanje teh pravic.
 
@@ -428,31 +428,31 @@ Zakon ureja položaj in način uresničevanja pravic italijanske oziroma madžar
 
 Zakoni, drugi predpisi in splošni akti, ki zadevajo uresničevanje v ustavi določenih pravic in položaja zgolj narodnih skupnosti, ne morejo biti sprejeti brez soglasja predstavnikov narodnih skupnosti.
 
-#### 65. člen (posebne pravice avtohtone italijanske in madžarske narodne skupnosti v Sloveniji)
+#### 65. člen (položaj in posebne pravice romske skupnosti v Sloveniji)
 
 Položaj in posebne pravice romske skupnosti, ki živi v Sloveniji, ureja zakon.
 
 ## III. GOSPODARSKA IN SOCIALNA RAZMERJA
 
-#### 66. člen (položaj in posebne pravice romske skupnosti v Sloveniji)
+#### 66. člen (varstvo dela)
 
 Država ustvarja možnosti za zaposlovanje in za delo ter zagotavlja njuno zakonsko varstvo.
 
-#### 67. člen (varstvo dela)
+#### 67. člen (lastnina)
 
 Zakon določa način pridobivanja in uživanja lastnine tako, da je zagotovljena njena gospodarska, socialna in ekološka funkcija.
 
 Zakon določa način in pogoje dedovanja.
 
-#### 68. člen (lastnina)
+#### 68. člen (lastninska pravica tujcev)
 
 Tujci lahko pridobijo lastninsko pravico na nepremičninah pod pogoji, ki jih določa zakon ali mednarodna pogodba, ki jo ratificira državni zbor.
 
-#### 69. člen (lastninska pravica tujcev)
+#### 69. člen (razlastitev)
 
 Lastninska pravica na nepremičnini se lahko v javno korist odvzame ali omeji proti nadomestilu v naravi ali proti odškodnini pod pogoji, ki jih določa zakon.
 
-#### 70. člen (razlastitev)
+#### 70. člen (javno dobro in naravna bogastva)
 
 Na javnem dobru se lahko pridobi posebna pravica uporabe pod pogoji, ki jih določa zakon.
 
@@ -460,7 +460,7 @@ Zakon določa pogoje, pod katerimi se smejo izkoriščati naravna bogastva.
 
 Zakon lahko določi, da smejo naravna bogastva izkoriščati tudi tuje osebe, in določi pogoje za izkoriščanje.
 
-#### 70.a člen (javno dobro in naravna bogastva)
+#### 70.a člen (pravica do pitne vode)
 
 Vsakdo ima pravico do pitne vode.
 
@@ -470,7 +470,7 @@ Vodni viri služijo prednostno in trajnostno oskrbi prebivalstva s pitno vodo in
 
 Oskrbo prebivalstva s pitno vodo in z vodo za oskrbo gospodinjstev zagotavlja država preko samoupravnih lokalnih skupnosti neposredno in neprofitno.
 
-#### 71. člen (pravica do pitne vode)
+#### 71. člen (varstvo zemljišč)
 
 Zakon določa zaradi smotrnega izkoriščanja posebne pogoje za uporabo zemljišč.
 
@@ -478,7 +478,7 @@ Zakon določa posebno varstvo kmetijskih zemljišč.
 
 Država skrbi za gospodarski, kulturni in socialni napredek prebivalstva na gorskih in hribovitih območjih.
 
-#### 72. člen (varstvo zemljišč)
+#### 72. člen (zdravo življenjsko okolje)
 
 Vsakdo ima v skladu z zakonom pravico do zdravega življenjskega okolja.
 
@@ -486,13 +486,13 @@ Država skrbi za zdravo življenjsko okolje. V ta namen zakon določa pogoje in 
 
 Zakon določa, ob katerih pogojih in v kakšnem obsegu je povzročitelj škode v življenjskem okolju dolžan poravnati škodo. Varstvo živali pred mučenjem ureja zakon.
 
-#### 73. člen (zdravo življenjsko okolje)
+#### 73. člen (varovanje naravne in kulturne dediščine)
 
 Vsakdo je dolžan v skladu z zakonom varovati naravne znamenitosti in redkosti ter kulturne spomenike.
 
 Država in lokalne skupnosti skrbijo za ohranjanje naravne in kulturne dediščine.
 
-#### 74. člen (varovanje naravne in kulturne dediščine)
+#### 74. člen (podjetništvo)
 
 Gospodarska pobuda je svobodna.
 
@@ -500,29 +500,29 @@ Zakon določa pogoje za ustanavljanje gospodarskih organizacij. Gospodarska deja
 
 Prepovedana so dejanja nelojalne konkurence in dejanja, ki v nasprotju z zakonom omejujejo konkurenco.
 
-#### 74.a člen (podjetništvo)
+#### 74.a člen (pravica do uporabe gotovine)
 
 Vsakdo ima v skladu z zakonom pravico do uporabe gotovine pri bančnem poslovanju in drugih oblikah pravnega prometa.
 
-#### 75. člen (pravica do uporabe gotovine)
+#### 75. člen (soodločanje)
 
 Delavci sodelujejo pri upravljanju v gospodarskih organizacijah in zavodih na način in pod pogoji, ki jih določa zakon.
 
-#### 76. člen (soodločanje)
+#### 76. člen (sindikalna svoboda)
 
 Ustanavljanje in delovanje sindikatov ter včlanjevanje vanje je svobodno.
 
-#### 77. člen (sindikalna svoboda)
+#### 77. člen (pravica do stavke)
 
 Delavci imajo pravico do stavke.
 
 Če to zahteva javna korist, se lahko pravica do stavke, upoštevajoč vrsto in naravo dejavnosti, z zakonom omeji.
 
-#### 78. člen (pravica do stavke)
+#### 78. člen (primerno stanovanje)
 
 Država ustvarja možnosti, da si državljani lahko pridobijo primerno stanovanje.
 
-#### 79. člen (primerno stanovanje)
+#### 79. člen (v Sloveniji zaposleni tujci)
 
 V Sloveniji zaposleni tujci in člani njihovih družin imajo posebne pravice, določene z zakonom.
 
@@ -530,7 +530,7 @@ V Sloveniji zaposleni tujci in člani njihovih družin imajo posebne pravice, do
 
 ### a) Državni zbor
 
-#### 80. člen (v Sloveniji zaposleni tujci)
+#### 80. člen (sestava in volitve)
 
 Državni zbor sestavljajo poslanci državljanov Slovenije in šteje 90 poslancev.
 
@@ -542,7 +542,7 @@ Volilni sistem ureja zakon, ki ga sprejme državni zbor z dvotretjinsko večino 
 
 Poslanci, razen poslancev narodnih skupnosti, se volijo po načelu sorazmernega predstavništva ob štiriodstotnem volilnem pragu za vstop v Državni zbor, pri čemer imajo volivci odločilen vpliv na dodelitev mandatov kandidatom.
 
-#### 81. člen (sestava in volitve)
+#### 81. člen (mandatna doba državnega zbora)
 
 Državni zbor se voli za štiri leta.
 
@@ -550,7 +550,7 @@ Državni zbor se voli za štiri leta.
 
 Volitve v državni zbor razpiše predsednik republike. Nov državni zbor se izvoli najprej dva meseca in najkasneje 15 dni pred potekom štirih let od prve seje prejšnjega državnega zbora. Če se državni zbor razpusti, se izvoli nov najkasneje dva meseca po razpustu prejšnjega. Mandatna doba prejšnjega državnega zbora se konča s prvo sejo novega državnega zbora, ki jo skliče predsednik republike najkasneje 20 dni po njegovi izvolitvi.
 
-#### 82. člen (mandatna doba državnega zbora)
+#### 82. člen (poslanci)
 
 Poslanci so predstavniki vsega ljudstva in niso vezani na kakršnakoli navodila.
 
@@ -558,7 +558,7 @@ Zakon določa, kdo ne sme biti izvoljen za poslanca, ter nezdružljivost funkcij
 
 Državni zbor potrdi poslanske mandate. Proti odločitvi državnega zbora je v skladu z zakonom mogoča pritožba na ustavno sodišče.
 
-#### 83. člen (poslanci)
+#### 83. člen (poslanska imuniteta)
 
 Poslanec državnega zbora ni kazensko odgovoren za mnenje ali glas, ki ga je izrekel na sejah državnega zbora ali njegovih delovnih teles.
 
@@ -566,55 +566,55 @@ Poslanec ne sme biti priprt niti se zoper njega, če se sklicuje na imuniteto, n
 
 Državni zbor lahko prizna imuniteto tudi poslancu, ki se nanjo ni skliceval ali ki je bil zaloten pri kaznivem dejanju iz prejšnjega odstavka.
 
-#### 84. člen (poslanska imuniteta)
+#### 84. člen (predsednik državnega zbora)
 
 Državni zbor ima predsednika, ki ga izvoli z večino glasov vseh poslancev.
 
-#### 85. člen (predsednik državnega zbora)
+#### 85. člen (zasedanja državnega zbora)
 
 Državni zbor dela na rednih in izrednih sejah.
 
 Redne in izredne seje sklicuje predsednik državnega zbora; izredno sejo mora sklicati, če to zahteva najmanj četrtina poslancev državnega zbora ali predsednik republike.
 
-#### 86. člen (zasedanja državnega zbora)
+#### 86. člen (odločanje)
 
 Državni zbor sklepa, če je na seji navzoča večina poslancev. Državni zbor sprejema zakone in druge odločitve ter ratificira mednarodne pogodbe z večino opredeljenih glasov navzočih poslancev, kadar ni z ustavo ali z zakonom določena drugačna večina.
 
-#### 87. člen (odločanje)
+#### 87. člen (zakonska pristojnost državnega zbora)
 
 Pravice in obveznosti državljanov ter drugih oseb lahko državni zbor določa samo z zakonom.
 
-#### 88. člen (zakonska pristojnost državnega zbora)
+#### 88. člen (zakonska iniciativa)
 
 Zakone lahko predlaga vlada ali vsak poslanec. Zakon lahko predloži tudi najmanj pet tisoč volilcev.
 
-#### 89. člen (zakonska iniciativa)
+#### 89. člen (zakonodajni postopek)
 
 Državni zbor sprejema zakone v večfaznem postopku, če ni s poslovnikom drugače določeno.
 
-#### 90. člen (zakonodajni postopek)
+#### 90. člen (zakonodajni referendum)
 
 Državni zbor razpiše referendum o uveljavitvi zakona, ki ga je sprejel, če to zahteva najmanj štirideset tisoč volivcev.
 
 Referenduma ni dopustno razpisati:
 
-- - o zakonih o nujnih ukrepih za zagotovitev obrambe države, varnosti ali odprave posledic naravnih nesreč,
-- - o zakonih o davkih, carinah in drugih obveznih dajatvah ter o zakonu, ki se sprejema za izvrševanje državnega proračuna,
-- - o zakonih o ratifikaciji mednarodnih pogodb,
-- - o zakonih, ki odpravljajo protiustavnost na področju človekovih pravic in temeljnih svoboščin ali drugo protiustavnost.
+- o zakonih o nujnih ukrepih za zagotovitev obrambe države, varnosti ali odprave posledic naravnih nesreč,
+- o zakonih o davkih, carinah in drugih obveznih dajatvah ter o zakonu, ki se sprejema za izvrševanje državnega proračuna,
+- o zakonih o ratifikaciji mednarodnih pogodb,
+- o zakonih, ki odpravljajo protiustavnost na področju človekovih pravic in temeljnih svoboščin ali drugo protiustavnost.
 Pravico glasovanja na referendumu imajo vsi državljani, ki imajo volilno pravico.
 
 Zakon je na referendumu zavrnjen, če proti njemu glasuje večina volivcev, ki so veljavno glasovali, pod pogojem, da proti zakonu glasuje najmanj petina vseh volivcev.
 
 Referendum se ureja z zakonom, ki ga sprejme državni zbor z dvotretjinsko večino glasov navzočih poslancev.
 
-#### 91. člen (zakonodajni referendum)
+#### 91. člen (razglasitev zakona)
 
 Zakone razglaša predsednik republike najkasneje 8 dni po njihovem sprejemu.
 
 Državni svet lahko v sedmih dneh od sprejetja zakona in še pred njegovo razglasitvijo zahteva, da državni zbor o njem še enkrat odloča. Pri ponovnem odločanju mora za sprejem zakona glasovati večina vseh poslancev, razen če ustava za sprejem obravnavanega zakona predvideva večje število glasov. Ponovna odločitev državnega zbora je dokončna.
 
-#### 92. člen (razglasitev zakona)
+#### 92. člen (vojno in izredno stanje)
 
 Izredno stanje se razglasi, kadar velika in splošna nevarnost ogroža obstoj države. O razglasitvi vojnega ali izrednega stanja, nujnih ukrepih in njihovi odpravi odloča na predlog vlade državni zbor.
 
@@ -622,73 +622,73 @@ Državni zbor odloči o uporabi obrambnih sil.
 
 Kadar se državni zbor ne more sestati, odloča o zadevah iz prvega in drugega odstavka predsednik republike. Odločitve mora dati v potrditev državnemu zboru takoj, ko se ta sestane.
 
-#### 93. člen (vojno in izredno stanje)
+#### 93. člen (parlamentarna preiskava)
 
 Državni zbor lahko odredi preiskavo o zadevah javnega pomena, mora pa to storiti na zahtevo tretjine poslancev državnega zbora ali na zahtevo državnega sveta. V ta namen imenuje komisijo, ki ima v zadevah poizvedovanja in preučevanja smiselno enaka pooblastila kakor pravosodni organi.
 
-#### 94. člen (parlamentarna preiskava)
+#### 94. člen (poslovnik državnega zbora)
 
 Državni zbor ima poslovnik, ki ga sprejme z dvotretjinsko večino glasov navzočih poslancev.
 
-#### 95. člen (poslovnik državnega zbora)
+#### 95. člen (nagrajevanje poslancev)
 
 Poslanci državnega zbora dobivajo plačo ali nadomestilo, ki sta določeni z zakonom.
 
 ### b) Državni svet
 
-#### 96. člen (nagrajevanje poslancev)
+#### 96. člen (sestava)
 
 Državni svet je zastopstvo nosilcev socialnih, gospodarskih, poklicnih in lokalnih interesov. Državni svet ima 40 članov.
 
 Sestavljajo ga:
 
-- - štirje predstavniki delodajalcev;
-- - štirje predstavniki delojemalcev;
-- - štirje predstavniki kmetov, obrtnikov in samostojnih poklicev;
-- - šest predstavnikov negospodarskih dejavnosti;
-- - dvaindvajset predstavnikov lokalnih interesov.
+- štirje predstavniki delodajalcev;
+- štirje predstavniki delojemalcev;
+- štirje predstavniki kmetov, obrtnikov in samostojnih poklicev;
+- šest predstavnikov negospodarskih dejavnosti;
+- dvaindvajset predstavnikov lokalnih interesov.
 Organizacijo državnega sveta ureja zakon.
 
-#### 97. člen (sestava)
+#### 97. člen (pristojnosti državnega sveta)
 
 Državni svet lahko:
 
-- - predlaga državnemu zboru sprejem zakonov;
-- - daje državnemu zboru mnenje o vseh zadevah iz njegove pristojnosti;
-- - zahteva, da državni zbor pred razglasitvijo kakega zakona o njem še enkrat odloča;
-- - (črtana);
-- - zahteva preiskavo o zadevah javnega pomena iz 93. člena.
+- predlaga državnemu zboru sprejem zakonov;
+- daje državnemu zboru mnenje o vseh zadevah iz njegove pristojnosti;
+- zahteva, da državni zbor pred razglasitvijo kakega zakona o njem še enkrat odloča;
+- (črtana);
+- zahteva preiskavo o zadevah javnega pomena iz 93. člena.
 Na zahtevo državnega zbora mora državni svet izreči mnenje o posamezni zadevi.
 
-#### 98. člen (pristojnosti državnega sveta)
+#### 98. člen (volitve)
 
 Volitve v državni svet ureja zakon, ki ga sprejme državni zbor z dvotretjinsko večino glasov vseh poslancev.
 
 Člani državnega sveta se volijo za dobo petih let.
 
-#### 99. člen (volitve)
+#### 99. člen (odločanje)
 
 Državni svet sklepa, če je na seji navzoča večina članov.
 
 Državni svet odloča z večino opredeljenih glasov navzočih članov.
 
-#### 100. člen (odločanje)
+#### 100. člen (nezdružljivost funkcije in imuniteta)
 
 Član državnega sveta ne sme biti hkrati poslanec v državnem zboru.
 
 Člani državnega sveta uživajo enako imuniteto kakor poslanci. O imuniteti odloča državni svet.
 
-#### 101. člen (nezdružljivost funkcije in imuniteta)
+#### 101. člen (poslovnik državnega sveta)
 
 Državni svet ima poslovnik, ki ga sprejme z večino glasov vseh članov.
 
 ### c) Predsednik republike
 
-#### 102. člen (poslovnik državnega sveta)
+#### 102. člen (funkcija predsednika republike)
 
 Predsednik republike predstavlja Republiko Slovenijo in je vrhovni poveljnik njenih obrambnih sil.
 
-#### 103. člen (funkcija predsednika republike)
+#### 103. člen (volitve predsednika republike)
 
 Predsednik republike se izvoli na neposrednih, splošnih in tajnih volitvah.
 
@@ -700,37 +700,37 @@ Za predsednika republike je lahko izvoljen le državljan Slovenije.
 
 Volitve za predsednika republike razpiše predsednik državnega zbora. Predsednik republike mora biti izvoljen najkasneje 15 dni pred potekom mandatne dobe prejšnjega predsednika.
 
-#### 104. člen (volitve predsednika republike)
+#### 104. člen (prisega predsednika republike)
 
 Pred nastopom funkcije izreče predsednik republike pred državnim zborom naslednjo prisego:
 
 "Prisegam, da bom spoštoval(a) ustavni red, da bom ravnal(a) po svoji vesti in z vsemi svojimi močmi deloval(a) za blaginjo Slovenije."
 
-#### 105. člen (prisega predsednika republike)
+#### 105. člen (nezdružljivost funkcije predsednika republike)
 
 Funkcija predsednika republike je nezdružljiva z opravljanjem druge javne funkcije ali poklica.
 
-#### 106. člen (nezdružljivost funkcije predsednika republike)
+#### 106. člen (nadomeščanje predsednika republike)
 
 V primeru trajnega zadržka, smrti, odstopa ali drugega prenehanja predsednikove funkcije do izvolitve novega predsednika funkcijo predsednika republike začasno opravlja predsednik državnega zbora. V tem primeru je treba razpisati volitve za novega predsednika republike najkasneje v 15 dneh po prenehanju funkcije prejšnjega.
 
 Predsednik državnega zbora začasno opravlja funkcijo predsednika republike tudi med zadržanostjo predsednika republike.
 
-#### 107. člen (nadomeščanje predsednika republike)
+#### 107. člen (pristojnosti predsednika republike)
 
 Predsednik republike:
 
-- - razpisuje volitve v državni zbor;
-- - razglaša zakone;
-- - imenuje državne funkcionarje, kadar je to določeno z zakonom;
-- - postavlja in odpoklicuje veleposlanike in poslanike republike in sprejema poverilna pisma tujih diplomatskih predstavnikov;
-- - izdaja listine o ratifikaciji;
-- - odloča o pomilostitvah;
-- - podeljuje odlikovanja in častne naslove;
-- - opravlja druge zadeve, določene s to ustavo.
+- razpisuje volitve v državni zbor;
+- razglaša zakone;
+- imenuje državne funkcionarje, kadar je to določeno z zakonom;
+- postavlja in odpoklicuje veleposlanike in poslanike republike in sprejema poverilna pisma tujih diplomatskih predstavnikov;
+- izdaja listine o ratifikaciji;
+- odloča o pomilostitvah;
+- podeljuje odlikovanja in častne naslove;
+- opravlja druge zadeve, določene s to ustavo.
 Na zahtevo državnega zbora mora predsednik republike izreči mnenje o posameznem vprašanju.
 
-#### 108. člen (pristojnosti predsednika republike)
+#### 108. člen (uredbe z zakonsko močjo)
 
 Kadar se državni zbor zaradi izrednega stanja ali vojne ne more sestati, lahko predsednik republike na predlog vlade izdaja uredbe z zakonsko močjo.
 
@@ -738,17 +738,17 @@ Z uredbo z zakonsko močjo se lahko izjemoma omejijo posamezne pravice in temelj
 
 Predsednik republike mora uredbe z zakonsko močjo predložiti v potrditev državnemu zboru takoj, ko se ta sestane.
 
-#### 109. člen (uredbe z zakonsko močjo)
+#### 109. člen (odgovornost predsednika republike)
 
 Če predsednik republike pri opravljanju svoje funkcije krši ustavo ali huje krši zakon, ga državni zbor lahko obtoži pred ustavnim sodiščem. Le-to ugotovi utemeljenost obtožbe ali obtoženega oprosti, z dvotretjinsko večino glasov vseh sodnikov pa lahko odloči o odvzemu funkcije. Potem ko ustavno sodišče dobi sklep državnega zbora o obtožbi, lahko odloči, da predsednik republike do odločitve o obtožbi začasno ne more opravljati svoje funkcije.
 
 ### č) Vlada
 
-#### 110. člen (odgovornost predsednika republike)
+#### 110. člen (sestava vlade)
 
 Vlado sestavljajo predsednik in ministri. Vlada in posamezni ministri so v okviru svojih pristojnosti samostojni in odgovorni državnemu zboru.
 
-#### 111. člen (sestava vlade)
+#### 111. člen (volitve predsednika vlade)
 
 Predsednik republike po posvetovanjih z vodji poslanskih skupin predloži državnemu zboru kandidata za predsednika vlade.
 
@@ -760,27 +760,27 @@ Predsednika vlade voli državni zbor z večino glasov vseh poslancev, če ni s t
 
 Če tudi pri teh volitvah noben kandidat ne dobi potrebne večine glasov, predsednik republike razpusti državni zbor in razpiše nove volitve.
 
-#### 112. člen (volitve predsednika vlade)
+#### 112. člen (imenovanje ministrov)
 
 Ministre imenuje in razrešuje državni zbor na predlog predsednika vlade.
 
 Predlagani minister se mora pred imenovanjem predstaviti pristojni komisiji državnega zbora in odgovarjati na njena vprašanja.
 
-#### 113. člen (imenovanje ministrov)
+#### 113. člen (prisega vlade)
 
 Predsednik vlade in ministri izrečejo po izvolitvi oziroma po imenovanju pred državnim zborom prisego, določeno s 104. členom.
 
-#### 114. člen (prisega vlade)
+#### 114. člen (organizacija vlade)
 
 Predsednik vlade skrbi za enotnost politične in upravne usmeritve vlade ter usklajuje delo ministrov. Ministri so skupno odgovorni za delo vlade, vsak minister pa za delo svojega ministrstva.
 
 Sestavo in delovanje vlade, število, pristojnosti in organizacijo ministrstev ureja zakon.
 
-#### 115. člen (organizacija vlade)
+#### 115. člen (prenehanje funkcije predsednika in ministrov vlade)
 
 Funkcija predsednika vlade in ministrov preneha, ko se po volitvah sestane nov državni zbor, funkcija ministrov pa tudi z vsakim drugim prenehanjem funkcije predsednika vlade ter z razrešitvijo ali odstopom ministra, morajo pa opravljati tekoče posle do izvolitve novega predsednika vlade oziroma do imenovanja novih ministrov.
 
-#### 116. člen (prenehanje funkcije predsednika in ministrov vlade)
+#### 116. člen (nezaupnica vladi)
 
 Državni zbor lahko izglasuje nezaupnico vladi le tako, da na predlog najmanj desetih poslancev z večino glasov vseh poslancev izvoli novega predsednika vlade. S tem je dotedanji predsednik vlade razrešen, mora pa skupaj s svojimi ministri opravljati tekoče posle do prisege nove vlade.
 
@@ -788,25 +788,25 @@ Med vložitvijo predloga za izvolitev novega predsednika vlade in volitvami mora
 
 Če je bil predsednik vlade izvoljen na temelju četrtega odstavka 111. člena, mu je izrečena nezaupnica, če državni zbor na predlog najmanj desetih poslancev izvoli novega predsednika vlade z večino opredeljenih glasov.
 
-#### 117. člen (nezaupnica vladi)
+#### 117. člen (zaupnica vladi)
 
 Predsednik vlade lahko zahteva glasovanje o zaupnici vladi. Če vlada ne dobi podpore večine glasov vseh poslancev, mora državni zbor v tridesetih dneh izvoliti novega predsednika vlade ali dotedanjemu predsedniku pri ponovljenem glasovanju izglasovati zaupnico, sicer predsednik republike razpusti državni zbor in razpiše nove volitve. Predsednik vlade lahko vprašanje zaupnice veže tudi na sprejem zakona ali druge odločitve v državnem zboru. Če odločitev ni sprejeta, se šteje, da je bila vladi izglasovana nezaupnica.
 
 Med zahtevo za glasovanje o zaupnici in glasovanjem mora poteči najmanj oseminštirideset ur.
 
-#### 118. člen (zaupnica vladi)
+#### 118. člen (interpelacija)
 
 Najmanj deset poslancev lahko sproži v državnem zboru interpelacijo o delu vlade ali posameznega ministra.
 
 Če po razpravi o interpelaciji večina vseh poslancev izreče nezaupnico vladi ali posameznemu ministru, državni zbor vlado ali ministre razreši.
 
-#### 119. člen (interpelacija)
+#### 119. člen (obtožba zoper predsednika vlade in ministre)
 
 Predsednika vlade ali ministre lahko državni zbor pred ustavnim sodiščem obtoži kršitve ustave in zakonov, storjene pri opravljanju njihovih funkcij. Ustavno sodišče obravnava obtožbo na način, kakor je določen v 109. členu.
 
 ### d) Uprava
 
-#### 120. člen (obtožba zoper predsednika vlade in ministre)
+#### 120. člen (organizacija in delo uprave)
 
 Organizacijo uprave, njene pristojnosti in način imenovanja njenih funkcionarjev ureja zakon.
 
@@ -814,23 +814,23 @@ Upravni organi opravljajo svoje delo samostojno v okviru in na podlagi ustave in
 
 Proti odločitvam in dejanjem upravnih organov in nosilcev javnih pooblastil je zagotovljeno sodno varstvo pravic in zakonitih interesov državljanov in organizacij.
 
-#### 121. člen (organizacija in delo uprave)
+#### 121. člen (javno pooblastilo)
 
 Z zakonom ali na njegovi podlagi lahko pravne ali fizične osebe dobijo javno pooblastilo za opravljanje določenih nalog državne uprave.
 
-#### 122. člen (javno pooblastilo)
+#### 122. člen (zaposlitev v upravnih službah)
 
 Zaposlitev v upravnih službah je mogoča samo na temelju javnega natečaja, razen v primerih, ki jih določa zakon.
 
 ### e) Obramba države
 
-#### 123. člen (zaposlitev v upravnih službah)
+#### 123. člen (dolžnost sodelovanja pri obrambi države)
 
 Obramba države je za državljane obvezna v mejah in na način, ki ga določa zakon.
 
 Državljanom, ki zaradi svojih religioznih, filozofskih ali humanitarnih nazorov niso pripravljeni sodelovati pri opravljanju vojaških obveznosti, je treba omogočiti, da sodelujejo pri obrambi države na drug način.
 
-#### 124. člen (dolžnost sodelovanja pri obrambi države)
+#### 124. člen (obramba države)
 
 Vrsto, obseg in organizacijo obrambe nedotakljivosti in celovitosti državnega ozemlja ureja zakon, ki ga sprejme državni zbor z dvotretjinsko večino glasov navzočih poslancev.
 
@@ -840,41 +840,41 @@ Pri zagotavljanju varnosti izhaja država predvsem iz mirovne politike ter kultu
 
 ### f) Sodstvo
 
-#### 125. člen (obramba države)
+#### 125. člen (neodvisnost sodnikov)
 
 Sodniki so pri opravljanju sodniške funkcije neodvisni. Vezani so na ustavo in zakon.
 
-#### 126. člen (neodvisnost sodnikov)
+#### 126. člen (ureditev in pristojnosti sodišč)
 
 Ureditev in pristojnosti sodišč določa zakon.
 
 Izrednih sodišč ni dovoljeno ustanavljati, v mirnem času pa tudi vojaških sodišč ne.
 
-#### 127. člen (ureditev in pristojnosti sodišč)
+#### 127. člen (Vrhovno sodišče)
 
 Vrhovno sodišče je najvišje sodišče v državi.
 
 Odloča o rednih in izrednih pravnih sredstvih ter opravlja druge zadeve, ki jih določa zakon.
 
-#### 128. člen (Vrhovno sodišče)
+#### 128. člen (udeležba državljanov pri izvajanju sodne oblasti)
 
 Zakon ureja primere in oblike neposredne udeležbe državljanov pri izvajanju sodne oblasti.
 
-#### 129. člen (udeležba državljanov pri izvajanju sodne oblasti)
+#### 129. člen (trajnost sodniške funkcije)
 
 Funkcija sodnika je trajna. Zakon določa starostno mejo in druge pogoje za izvolitev.
 
 Zakon določa starostno mejo, pri kateri se sodnik upokoji.
 
-#### 130. člen (trajnost sodniške funkcije)
+#### 130. člen (izvolitev sodnikov)
 
 Sodnike voli državni zbor na predlog sodnega sveta.
 
-#### 131. člen (izvolitev sodnikov)
+#### 131. člen (sodni svet)
 
 Sodni svet sestavlja enajst članov. Pet članov izvoli na predlog predsednika republike državni zbor izmed univerzitetnih profesorjev prava, odvetnikov in drugih pravnikov, šest članov pa izmed sebe izvolijo sodniki, ki trajno opravljajo sodniško funkcijo. Predsednika izberejo člani sveta izmed sebe.
 
-#### 132. člen (sodni svet)
+#### 132. člen (prenehanje in odvzem sodniške funkcije)
 
 Sodniku preneha sodniška funkcija, če nastopijo razlogi, ki jih določa zakon.
 
@@ -882,11 +882,11 @@ Sodniku preneha sodniška funkcija, če nastopijo razlogi, ki jih določa zakon.
 
 V primeru naklepno storjenega kaznivega dejanja z zlorabo sodne funkcije, ugotovljenega s pravnomočno sodno odločbo, državni zbor sodnika razreši.
 
-#### 133. člen (prenehanje in odvzem sodniške funkcije)
+#### 133. člen (nezdružljivost sodniške funkcije)
 
 Funkcija sodnika ni združljiva s funkcijami v drugih državnih organih, v organih lokalne samouprave in v organih političnih strank, ter z drugimi funkcijami in dejavnostmi, za katere to določa zakon.
 
-#### 134. člen (nezdružljivost sodniške funkcije)
+#### 134. člen (imuniteta sodnika)
 
 Nikogar, ki sodeluje pri sojenju, ni mogoče klicati na odgovornost za mnenje, ki ga je dal pri odločanju v sodišču.
 
@@ -894,19 +894,19 @@ Sodnik ne sme biti priprt, niti ne sme biti brez dovoljenja državnega zbora zop
 
 ### g) Državno tožilstvo
 
-#### 135. člen (imuniteta sodnika)
+#### 135. člen (državni tožilec)
 
 Državni tožilec vlaga in zastopa kazenske obtožbe in ima druge z zakonom določene pristojnosti.
 
 Ureditev in pristojnosti državnih tožilstev določa zakon.
 
-#### 136. člen (državni tožilec)
+#### 136. člen (nezdružljivost funkcije državnega tožilca)
 
 Funkcija državnega tožilca ni združljiva s funkcijami v drugih državnih organih, v organih lokalne samouprave in v organih političnih strank ter z drugimi funkcijami in dejavnostmi, za katere to določa zakon.
 
 ### h) Odvetništvo in notariat
 
-#### 137. člen (nezdružljivost funkcije državnega tožilca)
+#### 137. člen (odvetništvo in notariat)
 
 Odvetništvo je kot del pravosodja samostojna in neodvisna služba, ki jo ureja zakon.
 
@@ -916,11 +916,11 @@ Notariat je javna služba, ki jo ureja zakon.
 
 ### a) Lokalna samouprava
 
-#### 138. člen (odvetništvo in notariat)
+#### 138. člen (uresničevanje lokalne samouprave)
 
 Prebivalci Slovenije uresničujejo lokalno samoupravo v občinah in drugih lokalnih skupnostih.
 
-#### 139. člen (uresničevanje lokalne samouprave)
+#### 139. člen (občina)
 
 Občina je samoupravna lokalna skupnost.
 
@@ -928,7 +928,7 @@ Območje občine obsega naselje ali več naselij, ki so povezana s skupnimi potr
 
 Občina se ustanovi z zakonom po prej opravljenem referendumu, s katerim se ugotovi volja prebivalcev na določenem območju. Zakon tudi določi območje občine.
 
-#### 140. člen (občina)
+#### 140. člen (delovno področje samoupravnih lokalnih skupnosti)
 
 V pristojnost občine spadajo lokalne zadeve, ki jih občina lahko ureja samostojno in ki zadevajo samo prebivalce občine.
 
@@ -936,17 +936,17 @@ Država lahko z zakonom prenese na občine opravljanje posameznih nalog iz drža
 
 V zadevah, ki jih je na organe lokalne skupnosti prenesla država, opravljajo državni organi tudi nadzor nad primernostjo in strokovnostjo njihovega dela.
 
-#### 141. člen (delovno področje samoupravnih lokalnih skupnosti)
+#### 141. člen (mestna občina)
 
 Mesto lahko dobi po postopku in ob pogojih, ki jih določa zakon, status mestne občine.
 
 Mestna občina opravlja kot svoje tudi z zakonom določene naloge iz državne pristojnosti, ki se nanašajo na razvoj mest.
 
-#### 142. člen (mestna občina)
+#### 142. člen (dohodki občine)
 
 Občina se financira iz lastnih virov. Občinam, ki zaradi slabše gospodarske razvitosti ne morejo v celoti zagotoviti opravljanja svojih nalog, država v skladu z zakonsko določenimi načeli in merili zagotovi dodatna sredstva.
 
-#### 143. člen (dohodki občine)
+#### 143. člen (pokrajina)
 
 Pokrajina je samoupravna lokalna skupnost, ki opravlja lokalne zadeve širšega pomena in z zakonom določene zadeve regionalnega pomena.
 
@@ -954,13 +954,13 @@ Pokrajine se ustanovijo z zakonom, s katerim se določi tudi njihovo območje, s
 
 Država z zakonom prenese na pokrajine opravljanje posameznih nalog iz državne pristojnosti, mora pa jim za to zagotoviti potrebna sredstva.
 
-#### 144. člen (pokrajina)
+#### 144. člen (nadzor državnih organov)
 
 Državni organi nadzorujejo zakonitost dela organov lokalnih skupnosti.
 
 ### b) Druga samouprava
 
-#### 145. člen (nadzor državnih organov)
+#### 145. člen (samouprava na področju družbenih dejavnosti)
 
 Državljani se lahko za uveljavljanje svojih interesov samoupravno združujejo.
 
@@ -968,17 +968,17 @@ Državljanom se lahko z zakonom prepusti samoupravno urejanje posameznih zadev i
 
 ## VI. JAVNE FINANCE
 
-#### 146. člen (samouprava na področju družbenih dejavnosti)
+#### 146. člen (financiranje države in lokalnih skupnosti)
 
 Država in lokalne skupnosti pridobivajo sredstva za uresničevanje svojih nalog z davki in z drugimi obveznimi dajatvami ter s prihodki od lastnega premoženja.
 
 Država in lokalne skupnosti izkazujejo vrednost svojega premoženja s premoženjskimi bilancami.
 
-#### 147. člen (financiranje države in lokalnih skupnosti)
+#### 147. člen (davki)
 
 Država z zakonom predpisuje davke, carine in druge dajatve. Lokalne skupnosti predpisujejo davke in druge dajatve ob pogojih, ki jih določata ustava in zakon.
 
-#### 148. člen (davki)
+#### 148. člen (proračun)
 
 Vsi prejemki in izdatki za financiranje javne porabe morajo biti zajeti v proračunih države.
 
@@ -988,11 +988,11 @@ Z zakonom, ki ga sprejme državni zbor z dvotretjinsko večino glasov vseh posla
 
 Če proračun ni sprejet do prvega dne, ko ga je potrebno začeti izvrševati, se upravičenci, ki se financirajo iz proračuna, začasno financirajo po prejšnjem proračunu.
 
-#### 149. člen (proračun)
+#### 149. člen (krediti v breme države)
 
 Krediti v breme države in poroštvo države za kredite so dovoljeni le na podlagi zakona.
 
-#### 150. člen (krediti v breme države)
+#### 150. člen (računsko sodišče)
 
 Računsko sodišče je najvišji organ kontrole državnih računov, državnega proračuna in celotne javne porabe.
 
@@ -1000,11 +1000,11 @@ Ureditev in pristojnosti računskega sodišča določa zakon.
 
 Računsko sodišče je pri svojem delu neodvisno in vezano na ustavo in zakon.
 
-#### 151. člen (računsko sodišče)
+#### 151. člen (imenovanje članov računskega sodišča)
 
 Člane računskega sodišča imenuje državni zbor.
 
-#### 152. člen (imenovanje članov računskega sodišča)
+#### 152. člen (centralna banka)
 
 Slovenija ima centralno banko. V svojem delovanju je ta banka samostojna in odgovarja neposredno državnemu zboru. Centralna banka se ustanovi z zakonom.
 
@@ -1012,7 +1012,7 @@ Guvernerja centralne banke imenuje državni zbor.
 
 ## VII. USTAVNOST IN ZAKONITOST
 
-#### 153. člen (centralna banka)
+#### 153. člen (usklajenost pravnih aktov)
 
 Zakoni, podzakonski predpisi in drugi splošni akti morajo biti v skladu z ustavo.
 
@@ -1022,33 +1022,33 @@ Podzakonski predpisi in drugi splošni akti morajo biti v skladu z ustavo in z z
 
 Posamični akti in dejanja državnih organov, organov lokalnih skupnosti in nosilcev javnih pooblastil morajo temeljiti na zakonu ali na zakonitem predpisu.
 
-#### 154. člen (usklajenost pravnih aktov)
+#### 154. člen (veljavnost predpisov in njihovo objavljanje)
 
 Predpisi morajo biti objavljeni, preden začno veljati. Predpis začne veljati petnajsti dan po objavi, če ni v njem drugače določeno.
 
 Državni predpisi se objavljajo v državnem uradnem listu, predpisi lokalnih skupnosti pa v uradnem glasilu, ki ga te same določijo.
 
-#### 155. člen (veljavnost predpisov in njihovo objavljanje)
+#### 155. člen (prepoved povratne veljave pravnih aktov)
 
 Zakoni, drugi predpisi in splošni akti ne morejo imeti učinka za nazaj.
 
 Samo zakon lahko določi, da imajo posamezne njegove določbe učinek za nazaj, če to zahteva javna korist in če se s tem ne posega v pridobljene pravice.
 
-#### 156. člen (prepoved povratne veljave pravnih aktov)
+#### 156. člen (postopek za oceno ustavnosti)
 
 Če sodišče pri odločanju meni, da je zakon, ki bi ga moralo uporabiti, protiustaven, mora postopek prekiniti in začeti postopek pred ustavnim sodiščem. Postopek pred sodiščem se nadaljuje po odločitvi ustavnega sodišča.
 
-#### 157. člen (postopek za oceno ustavnosti)
+#### 157. člen (upravni spor)
 
 O zakonitosti dokončnih posamičnih aktov, s katerimi državni organi, organi lokalnih skupnosti in nosilci javnih pooblastil odločajo o pravicah ali o obveznostih in pravnih koristih posameznikov in organizacij, odloča v upravnem sporu pristojno sodišče, če za določeno zadevo ni z zakonom predvideno drugo sodno varstvo.
 
 Če ni zagotovljeno drugo sodno varstvo, odloča v upravnem sporu pristojno sodišče tudi o zakonitosti posamičnih dejanj in aktov, s katerimi se posega v ustavne pravice posameznika.
 
-#### 158. člen (upravni spor)
+#### 158. člen (pravnomočnost)
 
 Pravna razmerja, urejena s pravnomočno odločbo državnega organa, je mogoče odpraviti, razveljaviti ali spremeniti le v primerih in po postopku, določenih z zakonom.
 
-#### 159. člen (pravnomočnost)
+#### 159. člen (varuh človekovih pravic in temeljnih svoboščin)
 
 Za varovanje človekovih pravic in temeljnih svoboščin v razmerju do državnih organov, organov lokalne samouprave in nosilcev javnih pooblastil se z zakonom določi varuh pravic državljanov.
 
@@ -1056,26 +1056,26 @@ Z zakonom se lahko za posamezna področja določijo posebni varuhi pravic držav
 
 ## VIII. USTAVNO SODIŠČE
 
-#### 160. člen (varuh človekovih pravic in temeljnih svoboščin)
+#### 160. člen (pristojnosti ustavnega sodišča)
 
 Ustavno sodišče odloča:
 
-- - o skladnosti zakonov z ustavo;
-- - o skladnosti zakonov in drugih predpisov z ratificiranimi mednarodnimi pogodbami in s splošnimi načeli mednarodnega prava;
-- - o skladnosti podzakonskih predpisov z ustavo in z zakoni;
-- - o skladnosti predpisov lokalnih skupnosti z ustavo in z zakoni;
-- - o skladnosti splošnih aktov, izdanih za izvrševanje javnih pooblastil, z ustavo, zakoni in podzakonskimi predpisi;
-- - o ustavnih pritožbah zaradi kršitev človekovih pravic in temeljnih svoboščin s posamičnimi akti;
-- - o sporih glede pristojnosti med državo in lokalnimi skupnostmi, in med samimi lokalnimi skupnostmi;
-- - o sporih glede pristojnosti med sodišči in drugimi državnimi organi;
-- - o sporih o pristojnostih med državnim zborom, predsednikom republike in vlado;
-- - o protiustavnosti aktov in delovanja političnih strank;
-- - in o drugih zadevah, ki so mu naložene s to ustavo ali z zakoni.
+- o skladnosti zakonov z ustavo;
+- o skladnosti zakonov in drugih predpisov z ratificiranimi mednarodnimi pogodbami in s splošnimi načeli mednarodnega prava;
+- o skladnosti podzakonskih predpisov z ustavo in z zakoni;
+- o skladnosti predpisov lokalnih skupnosti z ustavo in z zakoni;
+- o skladnosti splošnih aktov, izdanih za izvrševanje javnih pooblastil, z ustavo, zakoni in podzakonskimi predpisi;
+- o ustavnih pritožbah zaradi kršitev človekovih pravic in temeljnih svoboščin s posamičnimi akti;
+- o sporih glede pristojnosti med državo in lokalnimi skupnostmi, in med samimi lokalnimi skupnostmi;
+- o sporih glede pristojnosti med sodišči in drugimi državnimi organi;
+- o sporih o pristojnostih med državnim zborom, predsednikom republike in vlado;
+- o protiustavnosti aktov in delovanja političnih strank;
+- in o drugih zadevah, ki so mu naložene s to ustavo ali z zakoni.
 Na predlog predsednika republike, vlade ali tretjine poslancev državnega zbora izreka ustavno sodišče v postopku ratifikacije mednarodne pogodbe mnenje o njeni skladnosti z ustavo. Državni zbor je vezan na mnenje ustavnega sodišča.
 
 Če zakon ne določa drugače, odloča ustavno sodišče o ustavni pritožbi le, če je bilo izčrpano pravno varstvo. O tem, ali ustavno sodišče ustavno pritožbo sprejme v obravnavo, odloči na podlagi meril in postopka, določenih z zakonom.
 
-#### 161. člen (pristojnosti ustavnega sodišča)
+#### 161. člen (razveljavitev zakona)
 
 Če ustavno sodišče ugotovi, da je zakon protiustaven, ga v celoti ali delno razveljavi. Razveljavitev učinkuje takoj ali v roku, ki ga določi ustavno sodišče. Ta rok ne sme biti daljši od enega leta. Druge protiustavne ali nezakonite predpise ali splošne akte ustavno sodišče odpravi ali razveljavi. Ustavno sodišče lahko pod pogoji, ki jih določa zakon, do končne odločitve v celoti ali delno zadrži izvrševanje akta, katerega ustavnost ali zakonitost presoja.
 
@@ -1083,7 +1083,7 @@ Na predlog predsednika republike, vlade ali tretjine poslancev državnega zbora 
 
 Pravne posledice odločitev ustavnega sodišča ureja zakon.
 
-#### 162. člen (razveljavitev zakona)
+#### 162. člen (postopek pred ustavnim sodiščem)
 
 Postopek pred ustavnim sodiščem ureja zakon.
 
@@ -1091,7 +1091,7 @@ Predlagatelje zahteve za začetek postopka pred ustavnim sodiščem določa zako
 
 Ustavno sodišče odloča z večino glasov vseh sodnikov, če ustava ali zakon za posamezne primere ne določata drugače. O tem, ali bo začelo postopek na podlagi ustavne pritožbe, lahko ustavno sodišče odloča v ožji sestavi, ki jo določa zakon.
 
-#### 163. člen (postopek pred ustavnim sodiščem)
+#### 163. člen (sestava in volitve)
 
 Ustavno sodišče je sestavljeno iz devetih sodnikov, ki jih na predlog predsednika republike izvoli državni zbor, na način, ki ga določa zakon.
 
@@ -1099,52 +1099,52 @@ Sodniki se izvolijo izmed pravnih strokovnjakov.
 
 Predsednika ustavnega sodišča izvolijo sodniki izmed sebe za dobo treh let.
 
-#### 164. člen (sestava in volitve)
+#### 164. člen (predčasna razrešitev ustavnega sodnika)
 
 Sodnik ustavnega sodišča je lahko predčasno razrešen na način, ki ga določa zakon, samo:
 
-- - če to sam zahteva,
-- - če je kaznovan za kaznivo dejanje s kaznijo odvzema prostosti, ali
-- - zaradi trajne izgube delovne zmožnosti za opravljanje svoje funkcije.
-#### 165. člen (predčasna razrešitev ustavnega sodnika)
+- če to sam zahteva,
+- če je kaznovan za kaznivo dejanje s kaznijo odvzema prostosti, ali
+- zaradi trajne izgube delovne zmožnosti za opravljanje svoje funkcije.
+#### 165. člen (mandat sodnikov)
 
 Sodniki ustavnega sodišča so izvoljeni za dobo devetih let. Ustavni sodniki ne morejo biti ponovno voljeni.
 
 Po izteku časa, za katerega je bil ustavni sodnik izvoljen, opravlja funkcijo še do izvolitve novega sodnika.
 
-#### 166. člen (mandat sodnikov)
+#### 166. člen (nezdružljivost funkcije)
 
 Funkcija sodnika ustavnega sodišča ni združljiva s funkcijami v državnih organih, v organih lokalne samouprave in v organih političnih strank, ter z drugimi funkcijami in dejavnostmi, ki po zakonu niso združljive s funkcijo sodnika ustavnega sodišča.
 
-#### 167. člen (nezdružljivost funkcije)
+#### 167. člen (imuniteta)
 
 Sodniki ustavnega sodišča uživajo enako imuniteto kakor poslanci državnega zbora. O imuniteti odloča državni zbor.
 
 ## IX. POSTOPEK ZA SPREMEMBO USTAVE
 
-#### 168. člen (imuniteta)
+#### 168. člen (predlog za začetek postopka)
 
 Predlog za začetek postopka za spremembo ustave lahko da dvajset poslancev državnega zbora, vlada ali najmanj trideset tisoč volilcev.
 
 O predlogu odloči državni zbor z dvotretjinsko večino glasov navzočih poslancev.
 
-#### 169. člen (predlog za začetek postopka)
+#### 169. člen (akt o sprejemu ustave)
 
 Državni zbor sprejme akt o spremembi ustave z dvotretjinsko večino glasov vseh poslancev.
 
-#### 170. člen (akt o sprejemu ustave)
+#### 170. člen (potrditev spremembe ustave na referendumu)
 
 Državni zbor mora predlagano spremembo ustave predložiti v sprejem volilcem na referendumu, če to zahteva najmanj trideset poslancev.
 
 Sprememba ustave je na referendumu sprejeta, če zanjo glasuje večina volilcev, ki so glasovali, pod pogojem, da se glasovanja udeleži večina vseh volilcev.
 
-#### 171. člen (potrditev spremembe ustave na referendumu)
+#### 171. člen (razglasitev spremembe ustave)
 
 Sprememba ustave začne veljati z razglasitvijo v državnem zboru.
 
 ## X. PREHODNE IN KONČNE DOLOČBE
 
-#### 172. člen (razglasitev spremembe ustave)
+#### 172. člen
 
 Ta ustava začne veljati z razglasitvijo.
 
