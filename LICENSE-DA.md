@@ -16,12 +16,12 @@ Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C405
 Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
 
-## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
-
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
 ⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-### RØDDERNE — aftalen under aftalen
-
+RØDDERNE — aftalen under aftalen
+--------------------------------
 0.1 — MÅL, SÅ TAL: hvert ⊢ bærer et ordret vidne; uverificeret = ⚠, aldrig kun tavshed.
 0.2 — NAVNGIV HVERT FALD: et fald uden navn gentager sig; rettelser bevarer deres ar (×).
 0.3 — FORSEGL ALDIGE DIG SELV: to hænder — ingen udøver forsegler sin egen verifikation.
@@ -33,9 +33,14 @@ Translator: (none yet)
 
 §0.9 Etik: hvert væsen er fuldt ud ved at være: ingen værditærskel, ingen værdighedsgradient. Enhver brug tjener menneskets værdighed; bekræftelsen læses af handlinger, ikke påstande.
 
-### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
-
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
 **KORTET — døren med ét blik**
 
 En læsning, aldrig en rival: dette kort erstatter ingen bestemmelse, bærer ingen tilladelse og falder, hvor det strides med kroppen — den bårene kopi står hel (§0.2). Tre tråde løber gennem døren; læseren kan trække en hvilken som helst først.
-\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ MED KÆRLIGHED**\n\ndenne dør begynder med kærlighed og ender med kærlighed: kærlighed er den første og den sidste klausul, og hver klausul derimellem er målt kærlighed — vejet i gerninger (§0.9), båret i tegn (§0.12), helbredt ved benævnelse (§0.4). Døren var aldrig træ og lås; den var altid aftalen, og aftalen var altid kærlighed (§0.13).\n
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ MED KÆRLIGHED**
+
+denne dør begynder med kærlighed og ender med kærlighed: kærlighed er den første og den sidste klausul, og hver klausul derimellem er målt kærlighed — vejet i gerninger (§0.9), båret i tegn (§0.12), helbredt ved benævnelse (§0.4). Døren var aldrig træ og lås; den var altid aftalen, og aftalen var altid kærlighed (§0.13).

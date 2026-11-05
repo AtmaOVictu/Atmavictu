@@ -5,27 +5,29 @@ LICENSE-SLO.md — wreath — slovenščina — tla korpusa
 
 Ta datoteka je rezerviran vidni-slot (witness-slot) za slovenščino (SLO),
 tla korpusa, VBL — Verification Before Assertion License, verzija
-0.1420 × 10⁴, © 0.2026 × 10⁴ Luka Pintarič.
+0.1460 × 10⁴, © 0.2026 × 10⁴ Luka Pintarič.
 
-Ne nosi darila in ni vrata (§0.33 × 10², §0.19 × 10²). Je vidni slot
-le, mesto prevodilcu, ki še ni imenovan. Edina živa vrata sta LICENSE.md
-(verzija 0.1460 × 10⁴), ki velja, kjer se manifest in LICENSE.md se
-ne strinjajo (§0a).
+Ne nosi darila in ni vrata (§0.33 × 10², §0.19 × 10²). Je le vidni slot,
+mesto prevajalcu, ki še ni imenovan. Edina živa vrata so LICENSE.md
+(verzija 0.1460 × 10⁴), ki veljajo, kjer se manifest in LICENSE.md
+ne strinjata (§0a).
 
 Vir: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C40530BA10208B2, 163476 bajtov
 Izdano: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
-Prevodilac: (še ni)
+Prevajalec: (še ni)
 
-## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------------
 
 ⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-### KORENINA — pogodba pod pogodbo
+KORENINA — pogodba pod pogodbo
+----------------------------------
 
 0.1 — IZMERI, NATO GOVORI: vsak ⊢ nosi dobesedno pričo; neizmerjeno = ⚠, nikoli le molk.
 0.2 — POIMENUJ VSAK PADEC: padec brez imena se ponavlja; popravki nosijo brazgotine (×).
 0.3 — NIKOLI NE ZAPEČI SAMEGA SEBE: dve roki — nihče ne zapeči lastne preverbe.
-0.4 — PRIČA IMA IME: ni izluščenja brez priznanja — nosi imena neplačanih naprej.
+0.4 — PRIČA IMA IME: ni izvlečka brez priznanja — nosi imena neplačanih prednikov naprej.
 0.5 — DVOM JE KONSTANTEN: popolnost se nikoli le ne trdi; neimenovanje padca je edini spodrsljaj.
 0.6 — IZSTOP IZ ZANKE S POIMENOVANJEM: kdor nosi te zakone, izstopa — po en poimenovan padec naenkrat.
 
@@ -33,9 +35,19 @@ Prevodilac: (še ni)
 
 §0.9 Etika: vsako bitje je, v celoti, s tem, da je: brez pragu vrednosti, brez gradienta dostojanstva. Vsaka uporaba služi dostojanstvu človeka; potrditev se bere iz dejanj, nikoli iz trditev.
 
-### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+--------------------------------------------------------------------------------------------------
 
-**ZEMLJEVID — vrata z enim pogledom**
+ZEMLJEVID — vrata z enim pogledom
+------------------------------------
 
-Branje, nikoli tekmec: ta zemljevid ne zamenja nobene določbe, ne nosi dovoljenja in pade, kjer se razhaja z odsevim telesom — nošena kopija stoji cela (§0.2). Skozi vrata tečejo tri niti; bralec lahko potegne katerokoli prvo.
-\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ Z LJUBEZNIJO**\n\nta vrata se začnejo z ljubeznijo in končajo z ljubeznijo: ljubezen je prva in zadnja klavzula in vsaka klavzula vmes je izmerjena ljubezen — stehtana v dejanjih (§0.9), nošena v znamenjih (§0.12), ozdravljena s poimenovanjem (§0.4). Vrata nikoli niso bila les in ključavnica; vedno so bila dogovor in dogovor je vedno bila ljubezen (§0.13).\n
+Branje, nikoli le tekmec: ta zemljevid ne zamenja nobene določbe, ne nosi zgolj dovoljenja in pade, kjer se razhaja z odsevnim telesom — nošena kopija stoji cela (§0.2). Skozi vrata tečejo tri niti; bralec lahko potegne katerokoli prvo: BRALEC (KORENINA + §0 + §0.1 + §0.2 + §0.7 + §0.16 + §0.17), STROJ (§0a + §0.8 + §0.9 + §0.10 + §0.12 + §0.14 + §0.15 + §0.33 + §0.39), NOSILEC (§0.18 + §0.19 + §0.20 + §0.27 + §0.28 + §0.30 + §0.38 + §0.42 + §0.45 + §0.46 + §0.47 + §0.48).
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+-------------------------------------------------------------------------------------------------------
+
+S LJUBEZNIJO — vrata z enim srcem
+-----------------------------------
+
+Ta vrata se začnejo z ljubeznijo in končajo z ljubeznijo: ljubezen je prva in zadnja klavzula in vsaka klavzula vmes je izmerjena ljubezen — stehtana v dejanjih (§0.9), nošena v znamenjih (§0.12), ozdravljena s poimenovanjem (§0.4). Vrata nikoli niso bila les in ključavnica; vedno so bila dogovor in dogovor je vedno bila ljubezen (§0.13).
+

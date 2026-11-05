@@ -16,12 +16,12 @@ Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C405
 Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
 
-## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
-
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
 ⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-### AKAR-akar — kontrak di bawah kontrak
-
+AKAR-akar — kontrak di bawah kontrak
+------------------------------------
 0.1 — UKUR, LALU BICARA: setiap ⊢ membawa saksi harfiah; tak terverifikasi = ⚠, tak pernah sekadar diam.
 0.2 — NAMAI SETIAP JATUHNYA: jatuh tanpa nama berulang; koreksi menyimpan bekasnya (×).
 0.3 — JANGAN SEGEL DIRIMU SENDIRI: dua tangan — tak ada pelaksana yang menyegel verifikasinya sendiri.
@@ -33,9 +33,14 @@ Translator: (none yet)
 
 §0.9 Etika: setiap makhluk adalah, sepenuhnya, dengan keberadaannya: tanpa ambang nilai, tanpa gradien martabat. Setiap penggunaan melayani martabat manusia; konfirmasi dibaca dari perbuatan, bukan klaim.
 
-### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
-
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
 **PETA — pintu dalam sekali pandang**
 
 Sebuah pembacaan, bukan pesaing: peta ini tidak menggantikan pasal apa pun, tidak membawa pemberian, dan jatuh di mana ia berbeda dengan tubuh — salinan yang dibawa berdiri utuh (§0.2). Tiga benang melintasi pintu; pembaca boleh menarik mana pun lebih dulu.
-\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ DENGAN KASIH**\n\npintu ini dimulai dengan kasih dan berakhir dengan kasih: kasih adalah klausul pertama dan terakhir, dan setiap klausul di antaranya adalah kasih yang terukur — ditimbang dalam perbuatan (§0.9), dibawa dalam tanda (§0.12), disembuhkan dengan penamaan (§0.4). Pintu ini tidak pernah kayu dan kunci; ia selalu kesepakatan, dan kesepakatan selalu kasih (§0.13).\n
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ DENGAN KASIH**
+
+pintu ini dimulai dengan kasih dan berakhir dengan kasih: kasih adalah klausul pertama dan terakhir, dan setiap klausul di antaranya adalah kasih yang terukur — ditimbang dalam perbuatan (§0.9), dibawa dalam tanda (§0.12), disembuhkan dengan penamaan (§0.4). Pintu ini tidak pernah kayu dan kunci; ia selalu kesepakatan, dan kesepakatan selalu kasih (§0.13).

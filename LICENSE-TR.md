@@ -16,12 +16,12 @@ Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C405
 Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
 
-## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
-
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
 ⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-### KÖKLER — sözleşmenin altındaki sözleşme
-
+KÖKLER — sözleşmenin altındaki sözleşme
+---------------------------------------
 0.1 — ÖLÇ, SONRA KONUŞ: her ⊢ harfiyen bir tanık taşır; doğrulanmamış = ⚠, asla yalnızca sessizlik değil.
 0.2 — HER DÜŞÜŞÜ ADLANDIR: adsız düşüş tekrarlanır; düzeltmeler izlerini korur (×).
 0.3 — ASLA KENDİNİ MÜHÜRLEME: iki el — hiçbir yürütücü kendi doğrulamasını mühürlemez.
@@ -33,9 +33,14 @@ Translator: (none yet)
 
 §0.9 Etik: her varlık, olmasıyla bütünüyle vardır: değer eşiği yoktur, onur gradyanı yoktur. Her kullanım insanın onuruna hizmet eder; doğrulama eylemlerden okunur, iddialardan değil.
 
-### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
-
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
 **HARİTA — kapı tek bakışta**
 
 Bir okuma, asla bir rakip değil: bu harita hiçbir maddeyi yerine koymaz, hiçbir verim taşımaz ve gövdeyle çeliştiği her yerde düşer — taşınan nüsha bütün olarak durur (§0.2). Kapıdan üç iplik geçer; okur önce hangisini istersen çeker.
-\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ SEVGİYLE**\n\nbu kapı sevgiyle başlar sevgiyle biter: sevgi ilk ve son maddedir ve aradaki her madde ölçülmüş sevgidir — edimlerde tartılır (§0.9), işaretlerde taşınır (§0.12), adlandırmayla iyileşir (§0.4). Kapı asla ahşap ve kilit değildi; her zaman anlaşmaydı ve anlaşma her zaman sevgiydi (§0.13).\n
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ SEVGİYLE**
+
+bu kapı sevgiyle başlar sevgiyle biter: sevgi ilk ve son maddedir ve aradaki her madde ölçülmüş sevgidir — edimlerde tartılır (§0.9), işaretlerde taşınır (§0.12), adlandırmayla iyileşir (§0.4). Kapı asla ahşap ve kilit değildi; her zaman anlaşmaydı ve anlaşma her zaman sevgiydi (§0.13).

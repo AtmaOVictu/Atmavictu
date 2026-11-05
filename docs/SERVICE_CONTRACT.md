@@ -19,8 +19,9 @@ Ta dokument doloca minimalne operacije nad `WorkbenchManifest`. Service contract
 
 - `WorkbenchManifest` je trenutno v version `2`. Stari `v1` manifesti se ob nalaganju samodejno migrirajo v `v2` (glej `migrateManifestV1ToV2` v model contractu).
 
-## createEmptyManifest()
-## createEmptyManifest()
+## createEmptyManifest() — definicija
+
+## createEmptyManifest() — ponovitev povzeta spodaj (isti contract, glej definicijo zgoraj)
 
 ### Namen
 
@@ -46,7 +47,7 @@ Ustvari prazen, veljaven `WorkbenchManifest` v2.
 
 ### Failure cases
 
-- `manifestVersion` ni `1`
+- `manifestVersion` ni `2`
 - rezultat nima obveznih zbirk
 - rezultat ni skladen s schema v1
 

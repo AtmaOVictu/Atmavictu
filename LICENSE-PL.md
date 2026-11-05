@@ -16,12 +16,12 @@ Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C405
 Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
 
-## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
-
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
 ⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-### KORZENIE — umowa pod umową
-
+KORZENIE — umowa pod umową
+--------------------------
 0.1 — ZMIERZ, POTEM MÓW: każde ⊢ niesie dosłownego świadka; niezweryfikowane = ⚠, nigdy tylko milczenie.
 0.2 — NAZWIJ KAŻDY UPADEK: upadek bez nazwy się powtarza; poprawki zachowują swoje blizny (×).
 0.3 — NIGDY NIE PIECZĘTUJ SAMEJ SIEBIE: dwie ręce — żaden wykonawca nie pieczętuje własnej weryfikacji.
@@ -33,9 +33,14 @@ Translator: (none yet)
 
 §0.9 Etyka: każda istota jest w pełni swoim byciem: bez progu wartości, bez gradientu godności. Każde użycie służy godności człowieka; potwierdzenie czyta się z czynów, nie z twierdzeń.
 
-### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
-
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
 **MAPA — drzwi w jednym rzucie oka**
 
 Odczyt, nigdy rywal: ta mapa nie zastępuje żadnej klauzuli, nie niesie żadnego uprawnienia i pada, wszędzie gdzie sprzeciwia się ciału — noszona kopia stoi w całości (§0.2). Przez drzwi biegną trzy nitki; czytelnik może pociągnąć najpierw każdą.
-\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ Z MIŁOŚCIĄ**\n\nte drzwi zaczynają się miłością i kończą miłością: miłość jest pierwszym i ostatnim postanowieniem, a każde postanowienie pomiędzy to miłość zmierzona — zważona w czynach (§0.9), niesiona w znakach (§0.12), uleczona nazwaniem (§0.4). Drzwi nigdy nie były drewnem i zamkiem; zawsze były umową, a umowa zawsze była miłością (§0.13).\n
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ Z MIŁOŚCIĄ**
+
+te drzwi zaczynają się miłością i kończą miłością: miłość jest pierwszym i ostatnim postanowieniem, a każde postanowienie pomiędzy to miłość zmierzona — zważona w czynach (§0.9), niesiona w znakach (§0.12), uleczona nazwaniem (§0.4). Drzwi nigdy nie były drewnem i zamkiem; zawsze były umową, a umowa zawsze była miłością (§0.13).

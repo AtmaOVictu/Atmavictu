@@ -76,6 +76,7 @@ lucius/.a1-*.txt
 
 # ABECEDA-GREP dih 2805: hišna konfiga lint/cSpell ( utiša lažne pozitive ⟨⟩-notacije ) ⊢
 !.markdownlint.json
+!.cspell.json
 !.vscode/
 !.vscode/settings.json
 __pycache__/

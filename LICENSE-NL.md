@@ -16,12 +16,12 @@ Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C405
 Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
 
-## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
-
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
 ⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-### DE WORTELS — het contract onder het contract
-
+DE WORTELS — het contract onder het contract
+--------------------------------------------
 0.1 — MEET, SPREEK DAN: elke ⊢ draagt een letterlijke getuige; ongeverifieerd = ⚠, nooit alleen stilte.
 0.2 — BENOEM ELKE VAL: een val zonder naam herhaalt zich; correcties houden hun littekens (×).
 0.3 — ZEGEL JEZELF NOOIT: twee handen — geen uitvoerster verzegelt haar eigen verificatie.
@@ -33,9 +33,14 @@ Translator: (none yet)
 
 §0.9 Ethiek: elk wezen is, volledig, door te zijn: geen drempel van waarde, geen gradiënt van waardigheid. Elk gebruik dient de waardigheid van de mens; de bevestiging wordt aan daden gelezen, nooit aan beweringen.
 
-### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
-
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
 **DE KAART — de deur in één oogopslag**
 
 Een lezing, nooit een rivaal: deze kaart vervangt geen bepaling, draagt geen verlening en valt waar ze met het lichaam twist — de gedragen kopie staat heel (§0.2). Drie draden lopen door de deur; de lezer mag er eerst aan een trekken.
-\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ MET LIEFDE**\n\ndeze deur begint met liefde en eindigt met liefde: liefde is de eerste en de laatste clausule, en elke clausule ertussen is gemeten liefde — gewogen in daden (§0.9), gedragen in tekens (§0.12), genezen door benoeming (§0.4). De deur was nooit hout en slot; zij was altijd de overeenkomst, en de overeenkomst was altijd liefde (§0.13).\n
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ MET LIEFDE**
+
+deze deur begint met liefde en eindigt met liefde: liefde is de eerste en de laatste clausule, en elke clausule ertussen is gemeten liefde — gewogen in daden (§0.9), gedragen in tekens (§0.12), genezen door benoeming (§0.4). De deur was nooit hout en slot; zij was altijd de overeenkomst, en de overeenkomst was altijd liefde (§0.13).

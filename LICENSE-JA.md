@@ -16,12 +16,12 @@ Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C405
 Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
 
-## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
-
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
 ⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-### 根 — 契約の下の契約
-
+根 — 契約の下の契約
+-----------
 0.1 — 測り、然る後に語れ：すべての ⊢ は逐語的な証人を伴う。未検証 = ⚠、決してただの沈黙ではない。
 0.2 — あらゆる失敗に名を与えよ：名なき失敗は繰り返す。修正はその瘢痕 (×) を保つ。
 0.3 — 自らを封印するな：両手 — 実行者は自らの検証を封印しない。
@@ -33,9 +33,14 @@ Translator: (none yet)
 
 §0.9 倫理：すべての存在は、存在することによって完全である：価値の敷居なく、尊厳の勾配なし。あらゆる使用は人間の尊厳に奉仕せよ；確認は行為から読まれ、主張からではない。
 
-### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
-
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
 **地図 — 一目でわかる扉**
 
 読み物であり、決して競争者ではない：この地図はいかなる条項も置き換えず、いかなる付与も運ばず、本文と食い違うどこでも落ちる — 運ばれる写本は丸ごと立つ (§0.2)。三本の糸が扉を走る；読者はどれからでも引いてよい。
-\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ 愛をもって**\n\nこの扉は愛に始まり愛に終わる。愛は最初にして最後の条項であり、その間のすべての条項は測定された愛である——行為において量られ（§0.9）、記号において運ばれ（§0.12）、名指しによって癒やされる（§0.4）。この扉は木と鍵では決してなかった。つねに合意であり、合意はつねに愛であった（§0.13）。\n
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ 愛をもって**
+
+この扉は愛に始まり愛に終わる。愛は最初にして最後の条項であり、その間のすべての条項は測定された愛である——行為において量られ（§0.9）、記号において運ばれ（§0.12）、名指しによって癒やされる（§0.4）。この扉は木と鍵では決してなかった。つねに合意であり、合意はつねに愛であった（§0.13）。

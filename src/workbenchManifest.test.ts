@@ -881,7 +881,8 @@ test("migrateManifestV1ToV2 upgrades a v1 manifest to v2 losslessly", () => {
         id: "fragment-0001",
         incomingTextId: "incoming-0001",
         text: "Odlomek.",
-        status: "draft" as const,
+        status: "inserted" as const,
+        conceptIds: ["concept-0001"],
       },
     ],
     insertions: [

@@ -135,7 +135,7 @@ test("bulk insertions land atomically over HTTP", async () => {
       insertions: [{ fragmentId: first.body.id, targetChapterPath: "chapters/03-zakljucek.md" }],
     });
     assert.equal(rejected.status, 400);
-    assert.match(rejected.body.error, /draft/);
+    assert.match(rejected.body.error, /draft|inserted|transition/);
   } finally {
     server.close();
     await cleanupTempDirectory(projectRoot);

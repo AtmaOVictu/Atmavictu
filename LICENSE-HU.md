@@ -16,12 +16,12 @@ Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C405
 Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
 
-## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
-
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
 ⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-### A GYÖKÉREK — a szerződés alatti szerződés
-
+A GYÖKÉREK — a szerződés alatti szerződés
+-----------------------------------------
 0.1 — MÉRJ, AZTÁN BESZÉLJ: minden ⊢ szó szerinti tanút hordoz; ellenőrizetlen = ⚠, sosem csak csend.
 0.2 — NEVEZD MINDEN ESÉST: a név nélküli esés ismétlődik; a javítások megtartják hegeiket (×).
 0.3 — SOHA NE PECSÉTELD MAGAD: két kéz — egy végrehajtó sem pecsételi a saját ellenőrzését.
@@ -33,9 +33,14 @@ Translator: (none yet)
 
 §0.9 Etika: minden lény teljessége abból van, hogy van: értékhatár nincs, méltósággradiens nincs. Minden használat az ember méltóságát szolgálja; a megerősítés a tettekből olvasható, nem az állításokból.
 
-### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
-
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
 **A TÉRKÉP — az ajtó egy pillantásra**
 
 Olvasmány, sosem vetélytárs: ez a térkép nem helyettesít szakaszt, nem hordoz engedélyt, és ott esik, ahol a testtel szembeszegül — a hordozott példány egészben áll (§0.2). Három szál fut át az ajtón; az olvasó bármelyiket húzhatja először.
-\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ SZERETETTEL**\n\nez az ajtó szeretettel kezdődik és szeretettel végződik: a szeretet az első és az utolsó klauzula, és minden köztes klauzula mért szeretet — tettekben mérve (§0.9), jelekben hordozva (§0.12), megnevezéssel gyógyítva (§0.4). Az ajtó soha nem fa és zár volt; mindig a megállapodás volt, és a megállapodás mindig szeretet volt (§0.13).\n
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ SZERETETTEL**
+
+ez az ajtó szeretettel kezdődik és szeretettel végződik: a szeretet az első és az utolsó klauzula, és minden köztes klauzula mért szeretet — tettekben mérve (§0.9), jelekben hordozva (§0.12), megnevezéssel gyógyítva (§0.4). Az ajtó soha nem fa és zár volt; mindig a megállapodás volt, és a megállapodás mindig szeretet volt (§0.13).

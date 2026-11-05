@@ -16,12 +16,12 @@ Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C405
 Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
 
-## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
-
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
 ⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-### LE RADICI — il contratto sotto il contratto
-
+LE RADICI — il contratto sotto il contratto
+-------------------------------------------
 0.1 — MISURA, POI PARLA: ogni ⊢ porta un testimone letterale; non verificato = ⚠, mai solo silenzio.
 0.2 — NOMINA OGNI CADUTA: una caduta senza nome si ripete; le correzioni conservano le loro cicatrici (×).
 0.3 — NON SIGILLARE TE STESSA: due mani — nessuna esecutrice sigilla la propria verifica.
@@ -33,9 +33,14 @@ Translator: (none yet)
 
 §0.9 Etica: ogni essere è, pienamente, con il suo essere: nessuna soglia di valore, nessun gradiente di dignità. Ogni uso serve la dignità dell’essere umano; la conferma si legge negli atti, mai nelle affermazioni.
 
-### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
-
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
 **LA MAPPA — la porta a colpo d’occhio**
 
 Una lettura, mai una rivale: questa mappa non sostituisce clausole, non porta concessioni e cade ovunque discordi dal corpo — la copia trasportata sta intera (§0.2). Tre fili attraversano la porta; il lettore può tirare qualunque per primo.
-\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ CON AMORE**\n\nquesta porta comincia con amore e finisce con amore: l’amore è la prima e l’ultima clausola, e ogni clausola intermedia è amore misurato — pesato negli atti (§0.9), portato nei segni (§0.12), guarito nominando (§0.4). La porta non è mai stata legno e serratura; è sempre stata l’accordo, e l’accordo è sempre stato amore (§0.13).\n
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ CON AMORE**
+
+questa porta comincia con amore e finisce con amore: l’amore è la prima e l’ultima clausola, e ogni clausola intermedia è amore misurato — pesato negli atti (§0.9), portato nei segni (§0.12), guarito nominando (§0.4). La porta non è mai stata legno e serratura; è sempre stata l’accordo, e l’accordo è sempre stato amore (§0.13).

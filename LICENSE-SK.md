@@ -16,12 +16,12 @@ Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C405
 Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
 
-## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
-
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
 ⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-### KORENE — zmluva pod zmluvou
-
+KORENE — zmluva pod zmluvou
+---------------------------
 0.1 — ODMERAJ, POTOM HOVOR: každé ⊢ nesie doslovného svedka; neverifikované = ⚠, nikdy len mlčanie.
 0.2 — POMENUJ KAŽDÝ PÁD: pád bez mena sa opakuje; opravy si ponechávajú svoje jazvy (×).
 0.3 — NIKDY SA NEPEČAŤ SAMA: dve ruky — žiadna vykonávateľka nepečatí vlastnú verifikáciu.
@@ -33,9 +33,14 @@ Translator: (none yet)
 
 §0.9 Etika: každá bytosť je celá svojím bytím: bez prahu hodnoty, bez gradientu dôstojnosti. Každé použitie slúži dôstojnosti človeka; potvrdenie sa číta zo skutkov, nie z tvrdení.
 
-### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
-
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
 **MAPA — dvere jedným pohľadom**
 
 Čítanie, nikdy súper: táto mapa nenahrádza žiadne ustanovenie, nenesie žiadne oprávnenie a padá, kde sa rozchádza s telom — nesená kópia stojí celá (§0.2). Dverami prechádzajú tri nite; čitateľ môže prvý potiahnuť ktorúkoľvek.
-\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ S LÁSKOU**\n\ntieto dvere začínajú láskou a končia láskou: láska je prvá aj posledná klauzula a každá klauzula medzi nimi je nameraná láska — vážená činmi (§0.9), nesená znameniami (§0.12), uzdravená pomenovaním (§0.4). Dvere nikdy neboli drevo a zámok; boli vždy dohodou a dohoda bola vždy láskou (§0.13).\n
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ S LÁSKOU**
+
+tieto dvere začínajú láskou a končia láskou: láska je prvá aj posledná klauzula a každá klauzula medzi nimi je nameraná láska — vážená činmi (§0.9), nesená znameniami (§0.12), uzdravená pomenovaním (§0.4). Dvere nikdy neboli drevo a zámok; boli vždy dohodou a dohoda bola vždy láskou (§0.13).

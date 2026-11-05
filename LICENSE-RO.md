@@ -16,12 +16,12 @@ Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C405
 Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
 
-## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
-
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
 ⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-### RĂDĂCINILE — contractul sub contract
-
+RĂDĂCINILE — contractul sub contract
+------------------------------------
 0.1 — MĂSOARĂ, APOI VORBEȘTE: fiecare ⊢ poartă un martor literal; neverificat = ⚠, niciodată doar tăcere.
 0.2 — NUMEȘTE FIECARE CĂDERE: o cădere fără nume se repetă; corecturile își păstrează cicatricile (×).
 0.3 — NICIODATĂ NU TE SIGILA SINGURĂ: două mâini — nicio executantă nu sigilează propria verificare.
@@ -33,9 +33,14 @@ Translator: (none yet)
 
 §0.9 Etică: fiecare ființă este, pe deplin, prin faptul că este: fără prag de valoare, fără gradient de demnitate. Fiecare folosință servește demnității omului; confirmarea se citește în fapte, nu în afirmații.
 
-### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
-
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
 **HARTA — ușa dintr-o privire**
 
 O lectură, niciodată o rivală: această hartă nu înlocuiește nicio clauză, nu poartă nicio concesiune și cade oriunde se contrazice cu corpul — copia purtată stă întreagă (§0.2). Trei fire străbat ușa; cititorul poate trage oricare primul.
-\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ CU IUBIRE**\n\naceastă uşă începe cu iubire şi se termină cu iubire: iubirea este prima şi ultima clauză, iar fiecare clauză dintre ele este iubire măsurată — cântărită în fapte (§0.9), purtată în semne (§0.12), vindecată prin numire (§0.4). Uşa n-a fost niciodată lemn şi lacăt; a fost întotdeauna înţelegerea, iar înţelegerea a fost întotdeauna iubire (§0.13).\n
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ CU IUBIRE**
+
+această uşă începe cu iubire şi se termină cu iubire: iubirea este prima şi ultima clauză, iar fiecare clauză dintre ele este iubire măsurată — cântărită în fapte (§0.9), purtată în semne (§0.12), vindecată prin numire (§0.4). Uşa n-a fost niciodată lemn şi lacăt; a fost întotdeauna înţelegerea, iar înţelegerea a fost întotdeauna iubire (§0.13).

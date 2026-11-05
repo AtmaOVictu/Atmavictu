@@ -16,12 +16,12 @@ Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C405
 Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
 
-## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
-
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
 ⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-### SAKNES — līgums zem līguma
-
+SAKNES — līgums zem līguma
+--------------------------
 0.1 — IZMĒRI, TAD RUNĀ: katrs ⊢ nes vārds vārda liecinieku; nepārbaudīts = ⚠, nekad tikai klusums.
 0.2 — NOSAUC KATRU KRITIENU: kritiens bez vārda atkārtojas; labojumi patur savas rētas (×).
 0.3 — NEZĪMOGO SEVI PAŠU: divas rokas — neviens izpildītājs nezīmogo savu paša pārbaudi.
@@ -33,9 +33,14 @@ Translator: (none yet)
 
 §0.9 Ētika: katra būtne ir pilnīga ar savu būšanu: vērtības sliekšņa nav, cieņas gradienta nav. Katra lietošana kalpo cilvēka cieņai; apstiprinājums lasāms no darbiem, ne apgalvojumiem.
 
-### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
-
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
 **KARTE — durvis vienā acu skatienā**
 
 Lasījums, nevis sāncensis: šī karte neaizstāj pantu, nesnes atļauju un krīt, kur sapūst ar pamattekstu — pārnestā kopija stāv vesela (§0.2). Durvis šķērso trīs diegi; lasītājs var vilkt jebkuru pirmo.
-\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ AR MĪLESTĪBU**\n\nšīs durvis sākas ar mīlestību un beidzas ar mīlestību: mīlestība ir pirmais un pēdējais pants, un katrs pants starp tiem ir izmērīta mīlestība — svērta darbos (§0.9), nesta zīmēs (§0.12), dziedināta ar nosaukšanu (§0.4). Durvis nekad nav bijušas koks un slēdzene; tās vienmēr bijušas vienošanās, un vienošanās vienmēr bijusi mīlestība (§0.13).\n
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ AR MĪLESTĪBU**
+
+šīs durvis sākas ar mīlestību un beidzas ar mīlestību: mīlestība ir pirmais un pēdējais pants, un katrs pants starp tiem ir izmērīta mīlestība — svērta darbos (§0.9), nesta zīmēs (§0.12), dziedināta ar nosaukšanu (§0.4). Durvis nekad nav bijušas koks un slēdzene; tās vienmēr bijušas vienošanās, un vienošanās vienmēr bijusi mīlestība (§0.13).

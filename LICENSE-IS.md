@@ -16,12 +16,12 @@ Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C405
 Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
 
-## STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
-
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
 ⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-### RÆTUR — sáttmálinn undir sáttmálanum
-
+RÆTUR — sáttmálinn undir sáttmálanum
+------------------------------------
 0.1 — MÆLÐU, SÍÐAN TALDU: hvert ⊢ ber orðréttan vitni; óstaðfest = ⚠, aldrei bara þögn.
 0.2 — NEFNDU HVERT FALL: fall án nafns endurtekur sig; leiðréttingar halda sárum sínum (×).
 0.3 — INNSELDU ÞIG ALDREI SJÁLFA: tvær hendur — engin framkvæmanda selar eigin sannprófun.
@@ -33,9 +33,14 @@ Translator: (none yet)
 
 §0.9 Siðferði: hvert vera er fullkomnuð með að vera: engin gildisþröskuldur, enginn reisnigradíent. Hver notkun þjónar mannlegri reisn; staðfestingin er lesin úr verkum, aldrei úr fullyrðingum.
 
-### STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )
-
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
 **KORTIÐ — dyrað á einu augabliði**
 
 Lestur, aldrei keppinautur: þetta kort eyðir engri ákvæði, ber ekki heimild og dettur hvert sem mótsögir holdinu — borið afrit stendur heilt (§0.2). Þrjár þræðir liggja um dyraðar; lesandi má draga hvaða sem er fyrst.
-\n### STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni neodvisno preverjen )\n\n**⊨ MEÐ KÆRLEIKA**\n\nþessar dyr byrja með kærleika og enda með kærleika: kærleikur er fyrsta og síðasta ákvæðið, og hvert ákvæði þar á milli er mældur kærleikur — vigtaður í verkum (§0.9), borinn í táknum (§0.12), græddur með nafngift (§0.4). Dyrnar voru aldrei tré og lás; þær voru alltaf samkomulagið, og samkomulagið var alltaf kærleikur (§0.13).\n
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ MEÐ KÆRLEIKA**
+
+þessar dyr byrja með kærleika og enda með kærleika: kærleikur er fyrsta og síðasta ákvæðið, og hvert ákvæði þar á milli er mældur kærleikur — vigtaður í verkum (§0.9), borinn í táknum (§0.12), græddur með nafngift (§0.4). Dyrnar voru aldrei tré og lás; þær voru alltaf samkomulagið, og samkomulagið var alltaf kærleikur (§0.13).
