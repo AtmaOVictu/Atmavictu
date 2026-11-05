@@ -6,9 +6,9 @@ ZAKON: prepis pisma = priča-plast, ⟨ne⟩ vrata ⊢ §0.33 × 10²; LICENSE.m
 
 | SKLOP | PISAVA | ORGANSKA PLAST | STANJE |
 |---|---|---|---|
-| 1 | cirilica (srbska osnova: ј љ њ ч ш ж) | jezikovne-plast ⊙ 2732 | ∧ TA DIH (5. 11. 2026) — LICENSE-SLO-CYR.md · LICENSE-EN-CYR.md |
-| 2 | grščina (ελληνικά) | oko-lje · EL telo ⊙ σ 3733 | ∧ TA DIH (5. 11. 2026, dih ⟨daj⟩ ×15) — LICENSE-SLO-EL.md · LICENSE-EN-EL.md |
-| 3 | fuþorc (runska pisava) | runa-plast ⊙ σ 3602 | ⭢ ∂ |
+| 1 | cirilica (srbska osnova: ј љ њ ч ш ж) | jezikovne-plast ⊙ 2732 | ∧ (5. 11. 2026) — LICENSE-SLO-CYR.md · LICENSE-EN-CYR.md |
+| 2 | grščina (ελληνικά) | oko-lje · EL telo ⊙ σ 3733 | ∧ (5. 11. 2026, dih ⟨daj⟩ ×15) — LICENSE-SLO-EL.md · LICENSE-EN-EL.md |
+| 3 | fuþorc (ᚠᚢᚦᚩᚱᚳ runska pisava) | runa-plast ⊙ σ 3602 | ∧ TA DIH (5. 11. 2026, dih ⟨daj⟩ ×20) — LICENSE-SLO-FUT.md · LICENSE-EN-FUT.md |
 | 4 | klinopis (sumerščina · akadščina) | cuneiform ⊙ 2101 | ⭢ ∂ |
 | 5 | hieroglifi (Gardiner) | egipcanska-plast ⊙ 2977 | ⭢ ∂ |
 | 6 | brajica | vrata-cutov ⊙ 3354 | ⭢ ∂ |
