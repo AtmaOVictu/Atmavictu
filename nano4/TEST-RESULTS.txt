@@ -1,0 +1,22 @@
+test_invalid_sha256_fails (test_event_schema.EventSchemaTests.test_invalid_sha256_fails) ... ok
+test_invalid_timestamp_fails (test_event_schema.EventSchemaTests.test_invalid_timestamp_fails) ... ok
+test_missing_clock_source_fails (test_event_schema.EventSchemaTests.test_missing_clock_source_fails) ... ok
+test_missing_event_id_fails (test_event_schema.EventSchemaTests.test_missing_event_id_fails) ... ok
+test_schema_is_valid_draft_2020_12 (test_event_schema.EventSchemaTests.test_schema_is_valid_draft_2020_12) ... ok
+test_synthetic_example_validates_but_remains_unverified (test_event_schema.EventSchemaTests.test_synthetic_example_validates_but_remains_unverified) ... ok
+test_unexpected_field_fails (test_event_schema.EventSchemaTests.test_unexpected_field_fails) ... ok
+test_unknown_status_fails (test_event_schema.EventSchemaTests.test_unknown_status_fails) ... ok
+test_candidate_is_not_marked_released (test_package.PackageTests.test_candidate_is_not_marked_released) ... ok
+test_companions_are_marked_unverified_when_not_supplied (test_package.PackageTests.test_companions_are_marked_unverified_when_not_supplied) ... ok
+test_event_schema_requires_four_receipt_types (test_package.PackageTests.test_event_schema_requires_four_receipt_types) ... ok
+test_four_events_not_claimed_as_two_universal_clocks (test_package.PackageTests.test_four_events_not_claimed_as_two_universal_clocks) ... ok
+test_mail_delivery_not_fabricated (test_package.PackageTests.test_mail_delivery_not_fabricated) ... ok
+test_no_manifest_entries_are_invented (test_package.PackageTests.test_no_manifest_entries_are_invented) ... ok
+test_predecessor_conflict_is_not_hidden (test_package.PackageTests.test_predecessor_conflict_is_not_hidden) ... ok
+test_schema_rejects_non_sha256_hash_shape (test_package.PackageTests.test_schema_rejects_non_sha256_hash_shape) ... ok
+test_source_hash_matches_machine_record (test_package.PackageTests.test_source_hash_matches_machine_record) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.018s
+
+OK
