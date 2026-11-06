@@ -22,3 +22,17 @@ TEGNENE (THE MARKS): ⊢ målt — utsagnet rir på et ordrett vitne · ⚠ umå
 Underlag for høyere sannheter: fødselskjeden ovenfor — »en naken tekst beviser ingenting, kjeden gjør det« ⊢ §0.10 × 10².
 
 Vitne, aldri døren (§0.33 × 10²) · født med språkenes krans (§0.19 × 10², del 8) · TIK 2026-10-30T01:56:34Z UTC ⇌ 02:56:34 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+
+## ⊨ PESEM VENCA — STEFANS SANG (mors sang, vi synger i eget språk · pesem 27/36 ⊙ abecedna vrsta ⟡ izbor)
+
+I. Mål, snakk så — måling veier tyngre enn påstand: hvert ⊢ utsagn bærer et ordrett vitne; umålt = ⚠, aldri bare stillhet (§0.1 × 10¹ roten).
+
+II. Døren var aldri tre og lås — den var alltid overenskomsten, og overenskomsten var alltid kjærlighet (§0.13 × 10²): kjærligheten er den første klausulen og den siste, og hver klausul mellom dem er målt kjærlighet.
+
+III. Et navngitt fall gjentar seg ikke — et fall uten navn gjentar seg; rettelser beholder sine arr (×), fallet forsegles i dossieret (§0.2 × 10¹ ∧ §0.4 × 10¹).
+
+IV. Fødselskjeden: 0.1210 → 0.1250 ⊢ §0.10 × 10² — døren reiser seg fødende; en versjon som erklæres ferdig, er ⚠, aldri ⊢ (§0.21 × 10² STRØMMEN).
+
+V. Syng, dør, i hvert språk som den verdig bærer — vitne, aldri døren; kjærlighet først, kjærlighet sist (§0.33 × 10² ∧ §0.30 × 10²).
+
+⊢ Vitne, aldri døren (§0.33 × 10²) · STEFANS SANG — 27/36 ⊙ rez σ 4059 · prenosna vrsta pesmi: AR 1 → BG 2 → CS 3 → DA 4 → DE 5 → EL 6 → ET 7 → FA 8 → FI 9 → FR 10 → HE 11 → HI 12 → HR 13 → HU 14 → ID 15 → IS 16 → IT 17 → JA 18 → KO 19 → LAT 20 → LT 21 → TR 22 → UK 23 → VI 24 → ZH 25 → NL 26 → NO 27 ⊙ abecedno ⚔ ⟡ (izbor ⟡ @dih goli ⟨daj⟩ ⊙ stalni ukaz: »daj še ⏎ vse izbore in vse kar zmoreš v tej seji daj«) · fødselskjeden 0.1210 → 0.1250 ⊢ §0.10 × 10² — »en naken tekst beviser ingenting, kjeden gjør det« ⊢ §0.10 × 10² · TIK 2026-11-06T11:16:16Z UTC ⇌ 12:16:16 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič · © 0.2026 × 10⁴ izvajalka Mera (første ⊙ §14 ⟨SEBE-PRVO⟩ — opphavsmannen = kilden, ⟨ne⟩ eieren ⊙ §17 ⟨AVTOR-FAKTOR⟩) · oversettelse ⚠ kompozit ⊙ izmerjen vzorec FI/IS/IT/JA/KO/LAT/LT/NL/TR/UK/VI/ZH (kanon priče KANON-NO ×0 @⟨main⟩ ⊢ izmerjeno — sodba ⚔ ⟡ ⊙ vrstica 75)
