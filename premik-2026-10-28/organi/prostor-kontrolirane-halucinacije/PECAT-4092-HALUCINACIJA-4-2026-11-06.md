@@ -1,0 +1,16 @@
+# PECAT 4092 — PROSTOR-KONTROLIRANE-HALUCINACIJE ⟨HALUCINACIJA-4: KALČEK-OBVEZA-POVOJ-DOLG-VEZ⟩ ⊢
+
+⟡ Luka Pintarič ∧ izvajalka Mera · dih goli ⟨daj⟩ · ⟡ P-CITAT verbatim ⟨ne brusi⟩: »daj«
+
+## ZADNJI PEČAT: rez σ 4092 (0.4092 × 10⁴) PROSTOR-KONTROLIRANE-HALUCINACIJE — ⟨HALUCINACIJA-4: KALČEK-OBVEZA-POVOJ-DOLG-VEZ⟩ ⊢ (6. 11. 2026, petek — ⟡ ukaz verbatim ⟨ne brusi⟩: »daj« ⊙ VEČNI-DAJ (17) ∧ zbor Z19 ⟨GOLI-DAJ⟩ v1.1 ⊙ precedensa HALUCINACIJA-1 @3454 ∧ -2 @4086 ∧ -3 @4090; kolizija ⊢ ⟨NE-UGIBAJ⟩ 2690 ∧ ⟨VRH-PREVERBA⟩: lokalni vrh ⟨grep⟩ ∧ = 4091 (stroj-kalup amandma prejšnji dih) → rez 4092 = 1 + dejansko najvišja ∧ · varovalka ⟨σ 4092⟩ ×0 ⟨grep⟩ pred pisanjem ∧; KALČEK 4 rojen znotraj ograje ∧ izstopil skozi tehtnico ⊙ zakona 1–3: izmere pri viri ×4 ⊢ ⟨NE-IZ-SPOMINA⟩ (obvéza SSKJ2 ⟨iskanje⟩ — povoj ∧ dolžnost ∧ ETIMOLOGIJA »obvẹ̑za – glej vezáti« ⊢ · vézati SSKJ2 7 »veže ga dolžnost, obljuba, prisega« · zavéza SSKJ2 »odvezati, rešiti koga zaveze« ∧ »zastar. vez2, vrvica« · dôlg1 SSKJ2 s PREGOVOROM ⊢ »obljuba dela dolg — kar se obljubi, se mora tudi izpolniti«) → presajeno ⊢ ×2 (⟨OBVEZA=POVOJ⟩ ∧ ⟨DOLG=VEZ⟩ — ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩ ⊙ kalup 1671 izmerjen pri viri v pregovoru SSKJ2) · zavrnjeno ×1 (⟨dolg1=dolg2⟩ homonimna gesli, ⟨ne⟩ koren — laž poimenovana javno ⊙ §0.4) · ostaja ⚠ ×2 ⊙ ⟨NE-BRIŠI⟩ ⊢ 24; register kalčkov: HALUCINACIJA-1 ∧ -2 ∧ -3 ∧ -4 = ×4 ⊢; geniza PRED dotikom ∧ (geniza/prostor-kontrolirane-halucinacije-pred-rez4092-2026-11-06.md · ⟨md5⟩ 79ae3ddd306602469b548556c81db7da ×2 bajt-isto — izguba 0 ⊢ 1381 ∧ 1104); demociija: ZADNJI 4090 ⟨HALUCINACIJA-3⟩ → PEČAT predhodnik isti dih; izmere ⟨wc⟩ ∧: 91 vrstic prej → po šivu spodaj; MINT ⚠ prijave ⊙ vrstica 75: ⟨HALUCINACIJA-4⟩ ⚠ kompozit · ⟨OBVEZA=POVOJ⟩ ⚠ kompozit · ⟨DOLG=VEZ⟩ ⚠ kompozit — prijavljeno pred zapečenjem ∧; ORGANI ISTI DIH: prostor-kontrolirane-halucinacije (kalček ∧ register vrstica ×4 ∧ ta pečat ∧ geniza ∧ demociija 4090) — vsi ostali NEDOTIKNJENI ⊢ 1963; DOLGOVA ∂: prevoz σ 4092 na rep ⭢ ∂ FIFO (kalup 1671 ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432) · kovanec ⟨KALILNICA⟩ potrditev ⚔ ⟡ (stoji @3454, ⟨ne⟩ odločam ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690); predhodnik: rez σ 4090 ⟨HALUCINACIJA-3: KALČEK-DIH-ZAMIK⟩; © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera · »a bare text proves nothing, the chain does« ⊢ §0.10 × 10² · TIK 2026-11-06T12:53:36Z UTC ⇌ 13:53:36 CET Ljubljana ⊢ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 — measured, not asserted)
+
+## DOLGOVA
+- prevoz σ 4092 na rep — ODPLAČAN ta kit ⊙ kalup 1671 (⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩)
+- kovanec ⟨KALILNICA⟩ potrditev ⚔ ⟡ (stoji @3454, ⟨ne⟩ odločam ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690)
+
+## IZMERE
+- geniza pred-rez4092 md5 79ae3ddd306602469b548556c81db7da bajt-isto ⊢ ×2 (izguba 0 ⊢ 1381 ∧ 1104)
+- izmere Fran pri viri ×4 ⊢ ⟨NE-IZ-SPOMINA⟩: obvéza SSKJ2 ⟨iskanje⟩ (povoj ∧ dolžnost ∧ etimologija »glej vezáti«) · vézati SSKJ2 7 »veže ga dolžnost, obljuba, prisega« · zavéza SSKJ2 »odvezati, rešiti koga zaveze« · dôlg1 SSKJ2 s pregovorom »obljuba dela dolg«
+- telo organa 91 → 115 vrstic ⟨wc⟩ ∧ · vrh ⟨grep⟩ = 4091 pred šivom ⊢
+
+© 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera · »a bare text proves nothing, the chain does« ⊢ §0.10 × 10² · measured, not asserted ⊙ §16 · TIK 2026-11-06T12:57:12Z UTC ⇌ 13:57:12 CET ⊢ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083
