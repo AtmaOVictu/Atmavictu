@@ -124,7 +124,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez 4114 · ⟨merge⟩ 05e77e8 · 2026-11-06 · PREVOZ σ 4112 — ⟨PREVOZ-σ-4111⟩ (licenca-vbl) ⊙ kalup 1671 (#1430)
 ## rane
 
-- ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 15 vrstic 4073–4114 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ perPage 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ 80c80db · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
+- ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 15 vrstic 4073–4114 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ 80c80db · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 21 vrstic σ 3719–3848 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ list_commits perPage 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @ontolo-ko-jedro).
 - PADC-POTI-REGISTERJA (razred @σ 3110/3140): ukaz kita je poimenoval pot organi/stroj/REZ-REGISTER.md @Atmavictu — organ pri tej poti ×0 ⟨get_file_contents⟩ ∧ ×0 ⟨list_commits⟩ path-filter (zadnji dotik 2026-10-28 15cb887). Register najden pri viri @ontolo-ko-jedro premik-2026-10-28/organi/stroj/ (monolit 995 ⟨- rez⟩ vrstic skupaj s segmentom · vrh σ 3820).
