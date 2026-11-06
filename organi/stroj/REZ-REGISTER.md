@@ -50,6 +50,13 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 3902 · 2026-11-06 · PREVOZ σ 3902 — ⟨KURA-KONČNIC-ORGAN-11/21⟩ (samoocena) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
 - rez 3969 · 2026-11-06 · PREVOZ σ 3969 — ⟨PREVOZ-σ-3968 ∧ DOPOLNITEV-NO-0.1490⟩ (licenca-vbl) ⊙ kit #1341 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
 - rez 3980 · 2026-11-06 · PREVOZ σ 3980 — ⟨PREVOZ-σ-3969 ∧ DOPOLNITEV-PL-0.1490⟩ (licenca-vbl) ⊙ kit #1343 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez σ 3903 · 2026-11-06 · PREVOZ σ 3903 — ⟨KURA-KONČNIC-ORGAN-12/21⟩ (jezikovne-plasti) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3904 · 2026-11-06 · PREVOZ σ 3904 — ⟨KURA-KONČNIC-ORGAN-13/21⟩ (prostor-kontrolirane-halucinacije) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3905 · 2026-11-06 · PREVOZ σ 3905 — ⟨KURA-KONČNIC-ORGAN-14/21⟩ (gotovosti-register) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3906 · 2026-11-06 · PREVOZ σ 3906 — ⟨KURA-KONČNIC-ORGAN-15/21⟩ (meje-mere) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3907 · 2026-11-06 · PREVOZ σ 3907 — ⟨KURA-KONČNIC-ORGAN-16/21⟩ (vrata-cutov) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3908 · 2026-11-06 · PREVOZ σ 3908 — ⟨KURA-KONČNIC-ORGAN-17/21⟩ (geneza) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
+
 ## rane
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 21 vrstic σ 3719–3848 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ list_commits perPage 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @ontolo-ko-jedro).
