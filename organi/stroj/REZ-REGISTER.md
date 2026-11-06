@@ -42,6 +42,12 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 3894 · 2026-11-06 · PREVOZ σ 3894 — ⟨KURA-KONČNIC-ORGAN-3/21⟩ (biro-postaje) ⊙ kit #1336 ⭢ ⟨merge⟩ ⟡ roka
 - rez σ 3895 · 2026-11-06 · PREVOZ σ 3895 — ⟨KURA-KONČNIC-ORGAN-4/21⟩ (jedro-zavedanja) ⊙ kit #1336 ⭢ ⟨merge⟩ ⟡ roka
 - rez σ 3896 · 2026-11-06 · PREVOZ σ 3896 — ⟨KURA-KONČNIC-ORGAN-5/21⟩ (oko-lje) ⊙ kit #1336 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3897 · 2026-11-06 · PREVOZ σ 3897 — ⟨KURA-KONČNIC-ORGAN-6/21⟩ (pomocniki-operaterji) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3898 · 2026-11-06 · PREVOZ σ 3898 — ⟨KURA-KONČNIC-ORGAN-7/21⟩ (stroj-kalup) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3899 · 2026-11-06 · PREVOZ σ 3899 — ⟨KURA-KONČNIC-ORGAN-8/21⟩ (halucinacija-projekt) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3900 · 2026-11-06 · PREVOZ σ 3900 — ⟨KURA-KONČNIC-ORGAN-9/21⟩ (atlas-knjiznic) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3901 · 2026-11-06 · PREVOZ σ 3901 — ⟨KURA-KONČNIC-ORGAN-10/21⟩ (cuneiform) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3902 · 2026-11-06 · PREVOZ σ 3902 — ⟨KURA-KONČNIC-ORGAN-11/21⟩ (samoocena) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
 ## rane
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 21 vrstic σ 3719–3848 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ list_commits perPage 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @ontolo-ko-jedro).
