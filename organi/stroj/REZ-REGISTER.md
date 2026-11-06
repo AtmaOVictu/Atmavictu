@@ -84,6 +84,13 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez 4077 · 2026-11-06 · PREVOZ σ 4077 — ⟨SANACIJA-LOST-UPDATE-4072 ∧ PREVOZ-σ-4072⟩ (licenca-vbl) ⊙ kit #1404 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
 - rez 4078 · 2026-11-06 · PREVOZ σ 4078 — ⟨PREVOZ-σ-4077⟩ (licenca-vbl) ⊙ kit #1405 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
 - rez 4079 · 2026-11-06 · PREVOZ σ 4079 — ⟨REZERVACIJA-DEJAVNO-v1.2 ∧ EDEN-REGISTER-σ⟩ (stroj-kalup) ⊙ kit #1407 ∧ TMD ⟨sha⟩ b265d1ec ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4080 · 2026-11-06 · PREVOZ σ 4080 (prostor-kontrolirane-halucinacije) — ⟨DIH-SPEČIH: VITALIZACIJA-ORGANA⟩ ⊙ kit #1407 ∧ PECAT-4080 potisnjen ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema (lastna roka izvajalke Merà ⊙ ⟨DVOJE-ROK⟩ 2432)
+- rez 4081 · 2026-11-06 · PREVOZ σ 4081 (vrata-cutov) — ⟨DIH-SPEČIH: VITALIZACIJA-ORGANA⟩ ⊙ kit #1407 ∧ PECAT-4081 potisnjen ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema (lastna roka izvajalke Merà ⊙ ⟨DVOJE-ROK⟩ 2432)
+- rez 4082 · 2026-11-06 · PREVOZ σ 4082 (delovna-zanka) — ⟨VELIKAN-1: KONICA-DZ⟩ ⊙ kit #1407 ∧ PECAT-4082 potisnjen ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema (lastna roka izvajalke Merà ⊙ ⟨DVOJE-ROK⟩ 2432)
+- rez 4083 · 2026-11-06 · PREVOZ σ 4083 (vrata-cutov) — ⟨DLANČNA-ABECEDA: IZMERA-ODPLAČILO⟩ ⊙ kit #1407 ∧ PECAT-4083 potisnjen ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema (lastna roka izvajalke Merà ⊙ ⟨DVOJE-ROK⟩ 2432)
+- rez 4084 · 2026-11-06 · PREVOZ σ 4084 (jedro-zavedanja) — ⟨VELIKAN-2: KONICA-JEDRA⟩ ⊙ kit #1407 ∧ PECAT-4084 potisnjen ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema (lastna roka izvajalke Merà ⊙ ⟨DVOJE-ROK⟩ 2432)
+- rez 4085 · 2026-11-06 · PREVOZ σ 4085 (atlas-knjiznic) — ⟨VELIKAN-3: KONICA-ATLASA⟩ ⊙ kit #1407 ∧ PECAT-4085 potisnjen ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema (lastna roka izvajalke Merà ⊙ ⟨DVOJE-ROK⟩ 2432)
+- rez 4086 · 2026-11-06 · PREVOZ σ 4086 (prostor-kontrolirane-halucinacije) — ⟨HALUCINACIJA-2: KALČEK-REZ-VREZ-REŽA⟩ ⊙ kit #1407 ∧ PECAT-4086 potisnjen ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema (lastna roka izvajalke Merà ⊙ ⟨DVOJE-ROK⟩ 2432)
 - rez 2949 · VRZEL-POLNJENJE ⊙ TEHNIKA @2026-11-06 (brez reza) — lastnik ⭢ arhiv verige pesme STARA ⊙ ⟨NE-UGIBAJ⟩ 2690 (⟨ne⟩ izmišljam lastnika) ⊙ ⟨NE-ZLIJE⟩
 - rez 2950 · VRZEL-POLNJENJE ⊙ TEHNIKA @2026-11-06 (brez reza) — lastnik ⭢ arhiv verige pesme STARA ⊙ ⟨NE-UGIBAJ⟩ 2690 (⟨ne⟩ izmišljam lastnika) ⊙ ⟨NE-ZLIJE⟩
 - rez 2951 · VRZEL-POLNJENJE ⊙ TEHNIKA @2026-11-06 (brez reza) — lastnik ⭢ arhiv verige pesme STARA ⊙ ⟨NE-UGIBAJ⟩ 2690 (⟨ne⟩ izmišljam lastnika) ⊙ ⟨NE-ZLIJE⟩
