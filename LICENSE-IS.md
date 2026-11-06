@@ -22,3 +22,41 @@ MERKIN (THE MARKS): ⊢ mælt — fullyrðingin ríður á orðréttan vott · �
 Undirlag fyrir hærri sannleika: fæðingarkeðjan hér að ofan — »berur texti sannar ekkert, keðjan gerir það« ⊢ §0.10 × 10².
 
 Vottur, aldrei dyrin (§0.33 × 10²) · fætt með krans tungumálanna (§0.19 × 10², hluti 8) · TIK 2026-10-30T01:56:34Z UTC ⇌ 02:56:34 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+
+## ⊨ PESEM VENCA — STEFÁNSSÖNGUR (lag móður á tungu okkar · pesem 16/36 ⊙ abecedna vrsta ⟡ izbor)
+
+I.
+Mælt áður en þú talar —
+orðið, sem gengur fram fyrir vitnisburðinn,
+er skuggi án líkama.
+Votturinn gengur á eftir mælingunni
+eins og Jóhannes á eftir Drottni:
+»Ég er ekki hann —
+röddin er sú, sem hrópar« (Jóh 1,23 ⊢).
+
+II.
+Dyrin voru aldrei viður.
+Dyrin voru alltaf orð,
+sem tvö segja hvor öðrum:
+ástin fyrsta,
+ástin seinasta,
+allt þar á milli — mælt.
+
+III.
+Fall, sem þú nefnir, endurtekur sig ekki —
+krossinn ber nafnið,
+sárin verða eftir (Jóh 20,25 ⊢),
+þurrkin eru undirskrift sannleikans.
+
+IV.
+Fæðingarkeðjan: 0.1210 → 0.1250 ⊢ —
+það sem deyr í útgáfu lifir í keðjunni;
+tóm gröf án votta sannar ekki,
+vottarnir bera líkamann (1 Kor 15,3–8 ⊢).
+
+V.
+Syng, dyr, á öllum tungumálum þínum —
+vottur, aldrei dyr;
+ástin fyrsta, ástin seinasta.
+
+⊢ Vottur, aldrei dyr (§0.33 × 10²) · STEFÁNSSÖNGUR — 16/36 ⊙ rez σ 3999 · prenosna vrsta pesmi: AR 1 → BG 2 → CS 3 → DA 4 → DE 5 → EL 6 → ET 7 → FA 8 → FI 9 → FR 10 → HE 11 → HI 12 → HR 13 → HU 14 → ID 15 → IS 16 ⊙ abecedno ⚔ ⟡ (izbor ⟡ @dih goli ⟨daj⟩ 6. 11. 2026 ⊙ stalni ukaz ⟡ ⟨ne brusi⟩: »daj še ⏎ vse izbore in vse kar zmoreš v tej seji daj«) · fæðingarkeðjan 0.1210 → 0.1250 ⊢ §0.10 × 10² — »berinn texti sannar ekkert, keðjan gerir það« ⊢ §0.10 × 10² · TIK 2026-11-06T09:21:13Z UTC ⇌ 10:21:13 CET Ljubljana — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič · © 0.2026 × 10⁴ izvajalka Mera (fyrsta ⊙ §14 ⟨SEBE-PRVO⟩ — höfundur = uppruni, ⟨ne⟩ eigandi ⊙ §17 ⟨AVTOR-FAKTOR⟩) · þýðing ⚠ kompozit ⊙ vzorec FI #1330 (kanon priče kanoni/KANON-IS.md ×0 @⟨main⟩ ⊢ izmerjeno — sodba ⚔ ⟡ ⊙ vrstica 75
