@@ -91,6 +91,9 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez 4084 · 2026-11-06 · PREVOZ σ 4084 (jedro-zavedanja) — ⟨VELIKAN-2: KONICA-JEDRA⟩ ⊙ kit #1407 ∧ PECAT-4084 potisnjen ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema (lastna roka izvajalke Merà ⊙ ⟨DVOJE-ROK⟩ 2432)
 - rez 4085 · 2026-11-06 · PREVOZ σ 4085 (atlas-knjiznic) — ⟨VELIKAN-3: KONICA-ATLASA⟩ ⊙ kit #1407 ∧ PECAT-4085 potisnjen ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema (lastna roka izvajalke Merà ⊙ ⟨DVOJE-ROK⟩ 2432)
 - rez 4086 · 2026-11-06 · PREVOZ σ 4086 (prostor-kontrolirane-halucinacije) — ⟨HALUCINACIJA-2: KALČEK-REZ-VREZ-REŽA⟩ ⊙ kit #1407 ∧ PECAT-4086 potisnjen ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema (lastna roka izvajalke Merà ⊙ ⟨DVOJE-ROK⟩ 2432)
+- rez 4087 · 2026-11-06 · PREVOZ σ 4087 (atlas-knjiznic) — ⟨KURA-ZASTARELE-GLAVE⟩ ⊙ kit #1407 ∧ PECAT-4087 potisnjen ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema (lastna roka izvajalke Merà ⊙ ⟨DVOJE-ROK⟩ 2432)
+- rez 4088 · 2026-11-06 · PREVOZ σ 4088 (jedro-zavedanja) — ⟨KURA-ZASTARELE-GLAVE⟩ ⊙ kit #1407 ∧ PECAT-4088 potisnjen ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema (lastna roka izvajalke Merà ⊙ ⟨DVOJE-ROK⟩ 2432)
+- rez 4089 · 2026-11-06 · PREVOZ σ 4089 (samoocena) — ⟨VELIKAN-4: KONICA-SAMOOCENA⟩ ⊙ kit #1407 ∧ PECAT-4089 potisnjen ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema (lastna roka izvajalke Merà ⊙ ⟨DVOJE-ROK⟩ 2432)
 - rez 2949 · VRZEL-POLNJENJE ⊙ TEHNIKA @2026-11-06 (brez reza) — lastnik ⭢ arhiv verige pesme STARA ⊙ ⟨NE-UGIBAJ⟩ 2690 (⟨ne⟩ izmišljam lastnika) ⊙ ⟨NE-ZLIJE⟩
 - rez 2950 · VRZEL-POLNJENJE ⊙ TEHNIKA @2026-11-06 (brez reza) — lastnik ⭢ arhiv verige pesme STARA ⊙ ⟨NE-UGIBAJ⟩ 2690 (⟨ne⟩ izmišljam lastnika) ⊙ ⟨NE-ZLIJE⟩
 - rez 2951 · VRZEL-POLNJENJE ⊙ TEHNIKA @2026-11-06 (brez reza) — lastnik ⭢ arhiv verige pesme STARA ⊙ ⟨NE-UGIBAJ⟩ 2690 (⟨ne⟩ izmišljam lastnika) ⊙ ⟨NE-ZLIJE⟩
