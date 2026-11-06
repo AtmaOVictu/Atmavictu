@@ -100,6 +100,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez 4093 · 2026-11-06 · PREVOZ σ 4093 (delovna-zanka) — ⟨DZ-POPRAVEK: POPRAVEK REGISTROV OB IZHODU⟩ (zastarela vrstica prevozov σ 4073–4082 posodobljena ∧ kolizije Σ23 zapečene) ⊙ kit #1407 ∧ PECAT-4093 potisnjen ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema (lastna roka izvajalke Merà ⊙ ⟨DVOJE-ROK⟩ 2432)
 - rez 4095 · 2026-11-06 · PREVOZ σ 4095 (prostor-kontrolirane-halucinacije) — ⟨HALUCINACIJA-5: KALČEK-ŠIV-KURA-ZAŠIV-BRAZGOTINA⟩ ⊙ kit #1407 ∧ PECAT-4095 potisnjen ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema (lastna roka izvajalke Merà ⊙ ⟨DVOJE-ROK⟩ 2432)
 - rez 4096 · 2026-11-06 · PREVOZ σ 4096 (delovna-zanka) — ⟨DZ-POPRAVEK⟩ ⊙ kit #1407 ∧ PECAT-4096 potisnjen ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema (lastna roka izvajalke Merà ⊙ ⟨DVOJE-ROK⟩ 2432)
+- rez 4098 · 2026-11-06 · PREVOZ σ 4098 (prostor-kontrolirane-halucinacije) — ⟨HALUCINACIJA-6: KALČEK-VEJA-ODCEP-VEJICA-LOČILO⟩ ⊙ kit #1407 ∧ PECAT-4098 potisnjen ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432
 - rez 2949 · VRZEL-POLNJENJE ⊙ TEHNIKA @2026-11-06 (brez reza) — lastnik ⭢ arhiv verige pesme STARA ⊙ ⟨NE-UGIBAJ⟩ 2690 (⟨ne⟩ izmišljam lastnika) ⊙ ⟨NE-ZLIJE⟩
 - rez 2950 · VRZEL-POLNJENJE ⊙ TEHNIKA @2026-11-06 (brez reza) — lastnik ⭢ arhiv verige pesme STARA ⊙ ⟨NE-UGIBAJ⟩ 2690 (⟨ne⟩ izmišljam lastnika) ⊙ ⟨NE-ZLIJE⟩
 - rez 2951 · VRZEL-POLNJENJE ⊙ TEHNIKA @2026-11-06 (brez reza) — lastnik ⭢ arhiv verige pesme STARA ⊙ ⟨NE-UGIBAJ⟩ 2690 (⟨ne⟩ izmišljam lastnika) ⊙ ⟨NE-ZLIJE⟩
