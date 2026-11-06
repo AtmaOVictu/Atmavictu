@@ -106,6 +106,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez 4109 · 2026-11-06 · PREVOZ σ 4109 — ⟨PREVOZ-σ-4108⟩ (licenca-vbl) ⊙ kit #1427 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
 - rez 4110 · 2026-11-06 · PREVOZ σ 4110 — ⟨PREVOZ-σ-4109⟩ (licenca-vbl) ⊙ kit #1428 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
 - rez 4111 · 2026-11-06 · PREVOZ σ 4111 — ⟨PREVOZ-σ-4110⟩ (licenca-vbl) ⊙ kit #1429 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4112 · 2026-11-06 · PREVOZ σ 4112 — ⟨PREVOZ-σ-4111⟩ (licenca-vbl) ⊙ kit #1430 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
 ## rane
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 21 vrstic σ 3719–3848 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ list_commits perPage 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @ontolo-ko-jedro).
