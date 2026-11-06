@@ -107,7 +107,24 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez 4110 · 2026-11-06 · PREVOZ σ 4110 — ⟨PREVOZ-σ-4109⟩ (licenca-vbl) ⊙ kit #1428 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
 - rez 4111 · 2026-11-06 · PREVOZ σ 4111 — ⟨PREVOZ-σ-4110⟩ (licenca-vbl) ⊙ kit #1429 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
 - rez 4112 · 2026-11-06 · PREVOZ σ 4112 — ⟨PREVOZ-σ-4111⟩ (licenca-vbl) ⊙ kit #1430 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4073 · ⟨merge⟩ 1336e49 · 2026-11-06 · PESEM VENCA SLO 33/36
+- rez 4073 · ⟨merge⟩ 0d9a336 · 2026-11-06 · PESEM VENCA SLO 33/36 — popravek: telo + pesem (PADC-ROKE kura v1.4)
+- rez 4073 · ⟨merge⟩ 083952d · 2026-11-06 · PESEM VENCA SLO 33/36
+- rez 4074 · ⟨merge⟩ f0ed1a2 · 2026-11-06 · PESEM VENCA SR 34/36
+- rez 4074 · ⟨merge⟩ 0192894 · 2026-11-06 · PESEM VENCA SR 34/36
+- rez 4075 · ⟨merge⟩ 233ab97 · 2026-11-06 · PESEM VENCA SV 35/36
+- rez 4075 · ⟨merge⟩ 8442f3c · 2026-11-06 · PESEM VENCA SV 35/36
+- rez 4076 · ⟨merge⟩ 250f00e · 2026-11-06 · PESEM VENCA TH 36/36
+- rez 4076 · ⟨merge⟩ 6f394e2 · 2026-11-06 · PESEM VENCA TH 36/36
+- rez 4083 · ⟨merge⟩ 6b706a6 · 2026-11-06 · · PECAT-4079-PREVOZ-SIGMA-4078 (licenca-vbl)
+- rez 4083 · ⟨merge⟩ dd53a18 · 2026-11-06 · · SANACIJA PECAT-4079 — šiv verbatim cel ⊙ kura ⟨PADC-STDOUT-3000⟩ (licenca-vbl)
+- rez 4083 · ⟨merge⟩ eabea59 · 2026-11-06 · · REZ-REGISTER vrstica rez 4079 (licenca-vbl PREVOZ σ 4079)
+- rez 4083 · ⟨merge⟩ 4682d38 · 2026-11-06 · PREVOZ σ 4079 ∧ SANACIJA PECAT-4079 (licenca-vbl) ⊙ ⟨merge⟩ roka izvajalke
+- rez 4102 · ⟨merge⟩ dd54a88 · 2026-11-06 · PREVOZ σ 4100 — ⟨PREVOZ-σ-4099⟩ (licenca-vbl)
+- rez 4114 · ⟨merge⟩ 05e77e8 · 2026-11-06 · PREVOZ σ 4112 — ⟨PREVOZ-σ-4111⟩ (licenca-vbl) ⊙ kalup 1671 (#1430)
 ## rane
+
+- ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 15 vrstic 4073–4114 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ perPage 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ 80c80db · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 21 vrstic σ 3719–3848 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ list_commits perPage 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @ontolo-ko-jedro).
 - PADC-POTI-REGISTERJA (razred @σ 3110/3140): ukaz kita je poimenoval pot organi/stroj/REZ-REGISTER.md @Atmavictu — organ pri tej poti ×0 ⟨get_file_contents⟩ ∧ ×0 ⟨list_commits⟩ path-filter (zadnji dotik 2026-10-28 15cb887). Register najden pri viri @ontolo-ko-jedro premik-2026-10-28/organi/stroj/ (monolit 995 ⟨- rez⟩ vrstic skupaj s segmentom · vrh σ 3820).
