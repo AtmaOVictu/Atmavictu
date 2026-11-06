@@ -35,6 +35,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez 3841 · 2026-11-05 · PREVOZ σ 3841 — ⟨SLO-CELOTA-VAL-1⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
 
 - rez 3962 · 2026-11-06 · PREVOZ σ 3962 — ⟨OBRT-NAVZNOTER⟩ (licenca-vbl) ⊙ kit #1332 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 3968 · 2026-11-06 · PREVOZ σ 3968 — ⟨PREVERBA-AROGANCE ∧ IZPOLNITEV-DOLGOV⟩ (licenca-vbl) ⊙ kit #1334 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
 ## rane
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 21 vrstic σ 3719–3848 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ list_commits perPage 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @ontolo-ko-jedro).
