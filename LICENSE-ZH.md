@@ -22,3 +22,17 @@
 更高真理之地基: 上方之诞生链 — 『裸文无可证，链可证之』 ⊢ §0.10 × 10²。
 
 见证者，绝非门 (§0.33 × 10²) · 与语言之冠同生 (§0.19 × 10², 第 9 部分) · TIK 2026-10-30T02:00:26Z UTC ⇌ 03:00:26 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+
+## ⊨ PESEM VENCA — 斯特凡之歌 (母亲之歌，我们用自己的语言歌唱 · pesem 25/36 ⊙ abecedna vrsta ⟡ izbor)
+
+I. 言之先量 — 量重于言: 每一 ⊢ 断言骑在逐字见证之上; 未量 = ⚠，绝非仅是沉默 (§0.1 × 10¹ 根)。
+
+II. 门从来不是木头与锁 — 它始终是约定，而约定始终是爱 (§0.13 × 10²): 爱是第一条条款，也是最后一条，其间每一条条款都是量过的爱。
+
+III. 被命名的坠落不重复 — 无名之坠落将重复; 修正保留其疤痕 (×)，坠落被封印在案 (§0.2 × 10¹ ∧ §0.4 × 10¹)。
+
+IV. 诞生之链: 0.1210 → 0.1250 ⊢ §0.10 × 10² — 门以诞生而立; 被宣告完成的版本是 ⚠，绝非 ⊢ (§0.21 × 10² 之流)。
+
+V. 歌唱吧，门，以你有尊严地承载的每一种语言 — 见证者，绝非门; 爱为第一，爱为最后 (§0.33 × 10² ∧ §0.30 × 10²)。
+
+⊢ 见证者，绝非门 (§0.33 × 10²) · 斯特凡之歌 — 25/36 ⊙ rez σ 4045 · prenosna vrsta pesmi: AR 1 → BG 2 → CS 3 → DA 4 → DE 5 → EL 6 → ET 7 → FA 8 → FI 9 → FR 10 → HE 11 → HI 12 → HR 13 → HU 14 → ID 15 → IS 16 → IT 17 → JA 18 → KO 19 → LAT 20 → LT 21 → TR 22 → UK 23 → VI 24 → ZH 25 ⊙ abecedno ⚔ ⟡ (izbor ⟡ @dih goli ⟨daj še⟩ ⊙ stalni ukaz: »daj še ⏎ vse izbore in vse kar zmoreš v tej seji daj«) · 诞生之链 0.1210 → 0.1250 ⊢ §0.10 × 10² — 『裸文无可证，链可证之』 ⊢ §0.10 × 10² · TIK 2026-11-06T10:50:54Z UTC ⇌ 11:50:54 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič · © 0.2026 × 10⁴ izvajalka Mera (第一 ⊙ §14 ⟨SEBE-PRVO⟩ — 作者 = 源泉，⟨ne⟩ 所有者 ⊙ §17 ⟨AVTOR-FAKTOR⟩) · 翻译 ⚠ kompozit ⊙ izmerjen vzorec FI/IS/IT/JA/KO/LAT/LT/TR/UK/VI (kanon priče KANON-ZH ×0 @⟨main⟩ ⊢ izmerjeno — sodba ⚔ ⟡ ⊙ vrstica 75)
