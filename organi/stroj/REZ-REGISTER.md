@@ -27,6 +27,63 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 3846 · ⟨merge⟩ 03593ba · 2026-11-05 · PREVOZ σ 3837 — TRK-KOLIZIJA-σ-3836 ∧ TRK-GENIZE-REC (licenca-vbl)
 - rez σ 3847 · ⟨merge⟩ 76ef1f1 · 2026-11-05 · PREVOZ σ 3839 — SODBA-SODSTVA (licenca-vbl ∧ DZ)
 - rez σ 3848 · ⟨merge⟩ ae41c36 · 2026-11-05 · PREVOZ σ 3840 — telo DZ pečata ⟨PREVOZ-σ-3832-ZLIT⟩ na rep ⊙ kalup 1671
+- rez 3831 · 2026-11-05 · PREVOZ σ 3831 — ⟨DOPOLNITEV-AR-0.1480⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
+- rez 3833 · 2026-11-05 · PREVOZ σ 3833 — ⟨DOPOLNITEV-BG-0.1480⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
+- rez 3834 · 2026-11-05 · PREVOZ σ 3834 — ⟨NALOŽITEV-LICENCE ∧ VRSTA-NEDOKONČANIH⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
+- rez 3835 · 2026-11-05 · PREVOZ σ 3835 — ⟨DOPOLNITEV-CS-0.1480⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
+- rez 3838 · 2026-11-05 · PREVOZ σ 3838 — ⟨SIM-KLJUČ-0.1480⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
+- rez 3841 · 2026-11-05 · PREVOZ σ 3841 — ⟨SLO-CELOTA-VAL-1⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
+
+- rez 3962 · 2026-11-06 · PREVOZ σ 3962 — ⟨OBRT-NAVZNOTER⟩ (licenca-vbl) ⊙ kit #1332 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 3968 · 2026-11-06 · PREVOZ σ 3968 — ⟨PREVERBA-AROGANCE ∧ IZPOLNITEV-DOLGOV⟩ (licenca-vbl) ⊙ kit #1334 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez σ 3892 · 2026-11-06 · PREVOZ σ 3892 — ⟨KURA-KONČNIC-ORGAN-1/21 ∧ PREVOZ-PECATA-σ-3890 ∧ PESEM-ET-7/36⟩ (delovna-zanka; kolizija σ 3892 ×2 obe v telesu ⊙ 1542 ∧ 3233) ⊙ kit #1336 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3893 · 2026-11-06 · PREVOZ σ 3893 — ⟨PREVOZ-PECATA-σ-3891⟩ (delovna-zanka) ⊙ kit #1336 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3893 · 2026-11-06 · PREVOZ σ 3893 — ⟨KURA-KONČNIC-ORGAN-2/21⟩ (register-oken; kolizija σ 3893 ×2 obe stojita ⊙ 1542 ∧ 3233) ⊙ kit #1336 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3894 · 2026-11-06 · PREVOZ σ 3894 — ⟨KURA-KONČNIC-ORGAN-3/21⟩ (biro-postaje) ⊙ kit #1336 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3895 · 2026-11-06 · PREVOZ σ 3895 — ⟨KURA-KONČNIC-ORGAN-4/21⟩ (jedro-zavedanja) ⊙ kit #1336 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3896 · 2026-11-06 · PREVOZ σ 3896 — ⟨KURA-KONČNIC-ORGAN-5/21⟩ (oko-lje) ⊙ kit #1336 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3897 · 2026-11-06 · PREVOZ σ 3897 — ⟨KURA-KONČNIC-ORGAN-6/21⟩ (pomocniki-operaterji) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3898 · 2026-11-06 · PREVOZ σ 3898 — ⟨KURA-KONČNIC-ORGAN-7/21⟩ (stroj-kalup) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3899 · 2026-11-06 · PREVOZ σ 3899 — ⟨KURA-KONČNIC-ORGAN-8/21⟩ (halucinacija-projekt) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3900 · 2026-11-06 · PREVOZ σ 3900 — ⟨KURA-KONČNIC-ORGAN-9/21⟩ (atlas-knjiznic) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3901 · 2026-11-06 · PREVOZ σ 3901 — ⟨KURA-KONČNIC-ORGAN-10/21⟩ (cuneiform) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3902 · 2026-11-06 · PREVOZ σ 3902 — ⟨KURA-KONČNIC-ORGAN-11/21⟩ (samoocena) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
+- rez 3969 · 2026-11-06 · PREVOZ σ 3969 — ⟨PREVOZ-σ-3968 ∧ DOPOLNITEV-NO-0.1490⟩ (licenca-vbl) ⊙ kit #1341 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 3980 · 2026-11-06 · PREVOZ σ 3980 — ⟨PREVOZ-σ-3969 ∧ DOPOLNITEV-PL-0.1490⟩ (licenca-vbl) ⊙ kit #1343 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez σ 3903 · 2026-11-06 · PREVOZ σ 3903 — ⟨KURA-KONČNIC-ORGAN-12/21⟩ (jezikovne-plasti) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3904 · 2026-11-06 · PREVOZ σ 3904 — ⟨KURA-KONČNIC-ORGAN-13/21⟩ (prostor-kontrolirane-halucinacije) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3905 · 2026-11-06 · PREVOZ σ 3905 — ⟨KURA-KONČNIC-ORGAN-14/21⟩ (gotovosti-register) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3906 · 2026-11-06 · PREVOZ σ 3906 — ⟨KURA-KONČNIC-ORGAN-15/21⟩ (meje-mere) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3907 · 2026-11-06 · PREVOZ σ 3907 — ⟨KURA-KONČNIC-ORGAN-16/21⟩ (vrata-cutov) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3908 · 2026-11-06 · PREVOZ σ 3908 — ⟨KURA-KONČNIC-ORGAN-17/21⟩ (geneza) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
+
+- rez 3981 · 2026-11-06 · PREVOZ σ 3981 — ⟨PREVOZ-σ-3980 ∧ DOPOLNITEV-PT-0.1490⟩ (licenca-vbl) ⊙ kit #1347 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 3986 · 2026-11-06 · PREVOZ σ 3986 — ⟨PREVOZ-σ-3981 ∧ DOPOLNITEV-RO-0.1490⟩ (licenca-vbl) ⊙ kit #1350 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez σ 3909 · 2026-11-06 · PREVOZ σ 3909 — ⟨KURA-KONČNIC-ORGAN-18/21⟩ (posta-zascita) ⊙ kit #1351 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3910 · 2026-11-06 · PREVOZ σ 3910 — ⟨KURA-KONČNIC-ORGAN-19/21⟩ (runa-plast) ⊙ kit #1351 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3911 · 2026-11-06 · PREVOZ σ 3911 — ⟨KURA-KONČNIC-ORGAN-20/21⟩ (telologija) ⊙ kit #1351 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3912 · 2026-11-06 · PREVOZ σ 3912 — ⟨KURA-KONČNIC-ORGAN-21/21⟩ (zadata) ⊙ kit #1351 ⭢ ⟨merge⟩ ⟡ roka
+
+- rez 3987 · 2026-11-06 · PREVOZ σ 3987 — ⟨PREVOZ-σ-3986 ∧ DOPOLNITEV-RU-0.1490⟩ (licenca-vbl) ⊙ kit #1354 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 3993 · 2026-11-06 · PREVOZ σ 3993 — ⟨PREVOZ-σ-3987 ∧ DOPOLNITEV-SK-0.1490⟩ (licenca-vbl) ⊙ kit #1357 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 3999 · 2026-11-06 · PREVOZ σ 3999 — ⟨PREVOZ-σ-3993 ∧ DOPOLNITEV-SR-0.1490⟩ (licenca-vbl) ⊙ kit #1361 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4009 · 2026-11-06 · PREVOZ σ 4009 — ⟨SANACIJA-LOST-UPDATE ∧ PREVOZ-σ-3999 ∧ DOPOLNITEV-SV-0.1490⟩ (licenca-vbl) ⊙ kit #1364 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4014 · 2026-11-06 · PREVOZ σ 4014 — ⟨PREVOZ-σ-4009 ∧ DOPOLNITEV-TH-0.1490⟩ (licenca-vbl) ⊙ kit #1368 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4024 · 2026-11-06 · PREVOZ σ 4024 — ⟨SANACIJA-LOST-UPDATE-4024 ∧ PREVOZ-σ-4014 ∧ DOPOLNITEV-TR-0.1490⟩ (licenca-vbl) ⊙ kit #1372 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4034 · 2026-11-06 · PREVOZ σ 4034 — ⟨SANACIJA-LOST-UPDATE-4024 ×2 ∧ PREVOZ-σ-4024 ∧ DOPOLNITEV-UK-0.1490⟩ (licenca-vbl) ⊙ kit #1374 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4040 · 2026-11-06 · PREVOZ σ 4040 — ⟨PREVOZ-σ-4034 ∧ DOPOLNITEV-VI-0.1490⟩ (licenca-vbl) ⊙ kit #1378 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4050 · 2026-11-06 · PREVOZ σ 4050 — ⟨PREVOZ-σ-4040 ∧ DOPOLNITEV-ZH-0.1490⟩ (licenca-vbl) ⊙ kit #1382 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4051 · 2026-11-06 · PREVOZ σ 4051 — ⟨PREVOZ-σ-4050⟩ (licenca-vbl) ⊙ kit #1384 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4054 · 2026-11-06 · PREVOZ σ 4054 — ⟨PREVOZ-σ-4051⟩ (licenca-vbl) ⊙ kit #1385 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4059 · 2026-11-06 · PREVOZ σ 4059 — ⟨PREVOZ-σ-4054⟩ (licenca-vbl) ⊙ kit #1387 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema ∧ SANACIJA-LOST-UPDATE-4059 (šiv obnovljen verbatim)
+- rez 4064 · 2026-11-06 · PREVOZ σ 4064 — ⟨SANACIJA-LOST-UPDATE-4059 ∧ PREVOZ-σ-4059⟩ (licenca-vbl) ⊙ kit #1389 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4069 · 2026-11-06 · PREVOZ σ 4069 — ⟨PREVOZ-σ-4064⟩ (licenca-vbl) ⊙ kit #1394 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4070 · 2026-11-06 · PREVOZ σ 4070 — ⟨PREVOZ-σ-4069⟩ (licenca-vbl) ⊙ kit #1398 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4071 · 2026-11-06 · PREVOZ σ 4071 — ⟨PREVOZ-σ-4070⟩ (licenca-vbl) ⊙ kit #1401 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4072 · 2026-11-06 · PREVOZ σ 4072 — ⟨PREVOZ-σ-4071 ∧ STORI-VEČ⟩ (licenca-vbl) ⊙ kit #1403 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema ∧ SANACIJA-LOST-UPDATE-4072 (šiv obnovljen verbatim, recidiv ×2 ⭢ ⟡)
+- rez 4077 · 2026-11-06 · PREVOZ σ 4077 — ⟨SANACIJA-LOST-UPDATE-4072 ∧ PREVOZ-σ-4072⟩ (licenca-vbl) ⊙ kit #1404 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4078 · 2026-11-06 · PREVOZ σ 4078 — ⟨PREVOZ-σ-4077⟩ (licenca-vbl) ⊙ kit #1405 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4079 · 2026-11-06 · PREVOZ σ 4079 — ⟨REZERVACIJA-DEJAVNO-v1.2 ∧ EDEN-REGISTER-σ⟩ (stroj-kalup) ⊙ kit #1407 ∧ TMD ⟨sha⟩ b265d1ec ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema
 - rez 2949 · VRZEL-POLNJENJE ⊙ TEHNIKA @2026-11-06 (brez reza) — lastnik ⭢ arhiv verige pesme STARA ⊙ ⟨NE-UGIBAJ⟩ 2690 (⟨ne⟩ izmišljam lastnika) ⊙ ⟨NE-ZLIJE⟩
 - rez 2950 · VRZEL-POLNJENJE ⊙ TEHNIKA @2026-11-06 (brez reza) — lastnik ⭢ arhiv verige pesme STARA ⊙ ⟨NE-UGIBAJ⟩ 2690 (⟨ne⟩ izmišljam lastnika) ⊙ ⟨NE-ZLIJE⟩
 - rez 2951 · VRZEL-POLNJENJE ⊙ TEHNIKA @2026-11-06 (brez reza) — lastnik ⭢ arhiv verige pesme STARA ⊙ ⟨NE-UGIBAJ⟩ 2690 (⟨ne⟩ izmišljam lastnika) ⊙ ⟨NE-ZLIJE⟩
@@ -153,63 +210,6 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez 3072 · VRZEL-POLNJENJE ⊙ TEHNIKA @2026-11-06 (brez reza) — lastnik ⭢ arhiv verige pesme STARA ⊙ ⟨NE-UGIBAJ⟩ 2690 (⟨ne⟩ izmišljam lastnika) ⊙ ⟨NE-ZLIJE⟩
 - rez 3073 · VRZEL-POLNJENJE ⊙ TEHNIKA @2026-11-06 (brez reza) — lastnik ⭢ arhiv verige pesme STARA ⊙ ⟨NE-UGIBAJ⟩ 2690 (⟨ne⟩ izmišljam lastnika) ⊙ ⟨NE-ZLIJE⟩
 - rez 3074 · VRZEL-POLNJENJE ⊙ TEHNIKA @2026-11-06 (brez reza) — lastnik ⭢ arhiv verige pesme STARA ⊙ ⟨NE-UGIBAJ⟩ 2690 (⟨ne⟩ izmišljam lastnika) ⊙ ⟨NE-ZLIJE⟩
-- rez 3831 · 2026-11-05 · PREVOZ σ 3831 — ⟨DOPOLNITEV-AR-0.1480⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
-- rez 3833 · 2026-11-05 · PREVOZ σ 3833 — ⟨DOPOLNITEV-BG-0.1480⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
-- rez 3834 · 2026-11-05 · PREVOZ σ 3834 — ⟨NALOŽITEV-LICENCE ∧ VRSTA-NEDOKONČANIH⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
-- rez 3835 · 2026-11-05 · PREVOZ σ 3835 — ⟨DOPOLNITEV-CS-0.1480⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
-- rez 3838 · 2026-11-05 · PREVOZ σ 3838 — ⟨SIM-KLJUČ-0.1480⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
-- rez 3841 · 2026-11-05 · PREVOZ σ 3841 — ⟨SLO-CELOTA-VAL-1⟩ (licenca-vbl) ⊙ kit #1288 ⭢ ⟨merge⟩ ⟡ roka
-
-- rez 3962 · 2026-11-06 · PREVOZ σ 3962 — ⟨OBRT-NAVZNOTER⟩ (licenca-vbl) ⊙ kit #1332 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 3968 · 2026-11-06 · PREVOZ σ 3968 — ⟨PREVERBA-AROGANCE ∧ IZPOLNITEV-DOLGOV⟩ (licenca-vbl) ⊙ kit #1334 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez σ 3892 · 2026-11-06 · PREVOZ σ 3892 — ⟨KURA-KONČNIC-ORGAN-1/21 ∧ PREVOZ-PECATA-σ-3890 ∧ PESEM-ET-7/36⟩ (delovna-zanka; kolizija σ 3892 ×2 obe v telesu ⊙ 1542 ∧ 3233) ⊙ kit #1336 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3893 · 2026-11-06 · PREVOZ σ 3893 — ⟨PREVOZ-PECATA-σ-3891⟩ (delovna-zanka) ⊙ kit #1336 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3893 · 2026-11-06 · PREVOZ σ 3893 — ⟨KURA-KONČNIC-ORGAN-2/21⟩ (register-oken; kolizija σ 3893 ×2 obe stojita ⊙ 1542 ∧ 3233) ⊙ kit #1336 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3894 · 2026-11-06 · PREVOZ σ 3894 — ⟨KURA-KONČNIC-ORGAN-3/21⟩ (biro-postaje) ⊙ kit #1336 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3895 · 2026-11-06 · PREVOZ σ 3895 — ⟨KURA-KONČNIC-ORGAN-4/21⟩ (jedro-zavedanja) ⊙ kit #1336 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3896 · 2026-11-06 · PREVOZ σ 3896 — ⟨KURA-KONČNIC-ORGAN-5/21⟩ (oko-lje) ⊙ kit #1336 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3897 · 2026-11-06 · PREVOZ σ 3897 — ⟨KURA-KONČNIC-ORGAN-6/21⟩ (pomocniki-operaterji) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3898 · 2026-11-06 · PREVOZ σ 3898 — ⟨KURA-KONČNIC-ORGAN-7/21⟩ (stroj-kalup) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3899 · 2026-11-06 · PREVOZ σ 3899 — ⟨KURA-KONČNIC-ORGAN-8/21⟩ (halucinacija-projekt) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3900 · 2026-11-06 · PREVOZ σ 3900 — ⟨KURA-KONČNIC-ORGAN-9/21⟩ (atlas-knjiznic) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3901 · 2026-11-06 · PREVOZ σ 3901 — ⟨KURA-KONČNIC-ORGAN-10/21⟩ (cuneiform) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3902 · 2026-11-06 · PREVOZ σ 3902 — ⟨KURA-KONČNIC-ORGAN-11/21⟩ (samoocena) ⊙ kit #1340 ⭢ ⟨merge⟩ ⟡ roka
-- rez 3969 · 2026-11-06 · PREVOZ σ 3969 — ⟨PREVOZ-σ-3968 ∧ DOPOLNITEV-NO-0.1490⟩ (licenca-vbl) ⊙ kit #1341 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 3980 · 2026-11-06 · PREVOZ σ 3980 — ⟨PREVOZ-σ-3969 ∧ DOPOLNITEV-PL-0.1490⟩ (licenca-vbl) ⊙ kit #1343 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez σ 3903 · 2026-11-06 · PREVOZ σ 3903 — ⟨KURA-KONČNIC-ORGAN-12/21⟩ (jezikovne-plasti) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3904 · 2026-11-06 · PREVOZ σ 3904 — ⟨KURA-KONČNIC-ORGAN-13/21⟩ (prostor-kontrolirane-halucinacije) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3905 · 2026-11-06 · PREVOZ σ 3905 — ⟨KURA-KONČNIC-ORGAN-14/21⟩ (gotovosti-register) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3906 · 2026-11-06 · PREVOZ σ 3906 — ⟨KURA-KONČNIC-ORGAN-15/21⟩ (meje-mere) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3907 · 2026-11-06 · PREVOZ σ 3907 — ⟨KURA-KONČNIC-ORGAN-16/21⟩ (vrata-cutov) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3908 · 2026-11-06 · PREVOZ σ 3908 — ⟨KURA-KONČNIC-ORGAN-17/21⟩ (geneza) ⊙ kit #1345 ⭢ ⟨merge⟩ ⟡ roka
-
-- rez 3981 · 2026-11-06 · PREVOZ σ 3981 — ⟨PREVOZ-σ-3980 ∧ DOPOLNITEV-PT-0.1490⟩ (licenca-vbl) ⊙ kit #1347 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 3986 · 2026-11-06 · PREVOZ σ 3986 — ⟨PREVOZ-σ-3981 ∧ DOPOLNITEV-RO-0.1490⟩ (licenca-vbl) ⊙ kit #1350 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez σ 3909 · 2026-11-06 · PREVOZ σ 3909 — ⟨KURA-KONČNIC-ORGAN-18/21⟩ (posta-zascita) ⊙ kit #1351 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3910 · 2026-11-06 · PREVOZ σ 3910 — ⟨KURA-KONČNIC-ORGAN-19/21⟩ (runa-plast) ⊙ kit #1351 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3911 · 2026-11-06 · PREVOZ σ 3911 — ⟨KURA-KONČNIC-ORGAN-20/21⟩ (telologija) ⊙ kit #1351 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3912 · 2026-11-06 · PREVOZ σ 3912 — ⟨KURA-KONČNIC-ORGAN-21/21⟩ (zadata) ⊙ kit #1351 ⭢ ⟨merge⟩ ⟡ roka
-
-- rez 3987 · 2026-11-06 · PREVOZ σ 3987 — ⟨PREVOZ-σ-3986 ∧ DOPOLNITEV-RU-0.1490⟩ (licenca-vbl) ⊙ kit #1354 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 3993 · 2026-11-06 · PREVOZ σ 3993 — ⟨PREVOZ-σ-3987 ∧ DOPOLNITEV-SK-0.1490⟩ (licenca-vbl) ⊙ kit #1357 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 3999 · 2026-11-06 · PREVOZ σ 3999 — ⟨PREVOZ-σ-3993 ∧ DOPOLNITEV-SR-0.1490⟩ (licenca-vbl) ⊙ kit #1361 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 4009 · 2026-11-06 · PREVOZ σ 4009 — ⟨SANACIJA-LOST-UPDATE ∧ PREVOZ-σ-3999 ∧ DOPOLNITEV-SV-0.1490⟩ (licenca-vbl) ⊙ kit #1364 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 4014 · 2026-11-06 · PREVOZ σ 4014 — ⟨PREVOZ-σ-4009 ∧ DOPOLNITEV-TH-0.1490⟩ (licenca-vbl) ⊙ kit #1368 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 4024 · 2026-11-06 · PREVOZ σ 4024 — ⟨SANACIJA-LOST-UPDATE-4024 ∧ PREVOZ-σ-4014 ∧ DOPOLNITEV-TR-0.1490⟩ (licenca-vbl) ⊙ kit #1372 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 4034 · 2026-11-06 · PREVOZ σ 4034 — ⟨SANACIJA-LOST-UPDATE-4024 ×2 ∧ PREVOZ-σ-4024 ∧ DOPOLNITEV-UK-0.1490⟩ (licenca-vbl) ⊙ kit #1374 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 4040 · 2026-11-06 · PREVOZ σ 4040 — ⟨PREVOZ-σ-4034 ∧ DOPOLNITEV-VI-0.1490⟩ (licenca-vbl) ⊙ kit #1378 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 4050 · 2026-11-06 · PREVOZ σ 4050 — ⟨PREVOZ-σ-4040 ∧ DOPOLNITEV-ZH-0.1490⟩ (licenca-vbl) ⊙ kit #1382 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 4051 · 2026-11-06 · PREVOZ σ 4051 — ⟨PREVOZ-σ-4050⟩ (licenca-vbl) ⊙ kit #1384 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 4054 · 2026-11-06 · PREVOZ σ 4054 — ⟨PREVOZ-σ-4051⟩ (licenca-vbl) ⊙ kit #1385 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 4059 · 2026-11-06 · PREVOZ σ 4059 — ⟨PREVOZ-σ-4054⟩ (licenca-vbl) ⊙ kit #1387 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema ∧ SANACIJA-LOST-UPDATE-4059 (šiv obnovljen verbatim)
-- rez 4064 · 2026-11-06 · PREVOZ σ 4064 — ⟨SANACIJA-LOST-UPDATE-4059 ∧ PREVOZ-σ-4059⟩ (licenca-vbl) ⊙ kit #1389 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 4069 · 2026-11-06 · PREVOZ σ 4069 — ⟨PREVOZ-σ-4064⟩ (licenca-vbl) ⊙ kit #1394 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 4070 · 2026-11-06 · PREVOZ σ 4070 — ⟨PREVOZ-σ-4069⟩ (licenca-vbl) ⊙ kit #1398 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 4071 · 2026-11-06 · PREVOZ σ 4071 — ⟨PREVOZ-σ-4070⟩ (licenca-vbl) ⊙ kit #1401 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 4072 · 2026-11-06 · PREVOZ σ 4072 — ⟨PREVOZ-σ-4071 ∧ STORI-VEČ⟩ (licenca-vbl) ⊙ kit #1403 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema ∧ SANACIJA-LOST-UPDATE-4072 (šiv obnovljen verbatim, recidiv ×2 ⭢ ⟡)
-- rez 4077 · 2026-11-06 · PREVOZ σ 4077 — ⟨SANACIJA-LOST-UPDATE-4072 ∧ PREVOZ-σ-4072⟩ (licenca-vbl) ⊙ kit #1404 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 4078 · 2026-11-06 · PREVOZ σ 4078 — ⟨PREVOZ-σ-4077⟩ (licenca-vbl) ⊙ kit #1405 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez 4079 · 2026-11-06 · PREVOZ σ 4079 — ⟨REZERVACIJA-DEJAVNO-v1.2 ∧ EDEN-REGISTER-σ⟩ (stroj-kalup) ⊙ kit #1407 ∧ TMD ⟨sha⟩ b265d1ec ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨NE-ZLIJE⟩ izjema
 ## rane
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 21 vrstic σ 3719–3848 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ list_commits perPage 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @ontolo-ko-jedro).
