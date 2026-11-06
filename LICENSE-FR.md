@@ -23,3 +23,41 @@ Sous-tendu à des vérités supérieures : la chaîne des naissances 0.1210 → 
 ⊨ LEURS ALPHABETS (§0.19 × 10², partie 2): l'alphabet français — vingt-six lettres A B C D E F G H I J K L M N O P Q R S T U V W X Y Z, plus les accents é è ê ë à â ç î ï ô ù û ü ÿ ∧ les deux ligatures æ œ; les diacritiques mesurent byte-à-byte, la balance reste une (§0.12 × 10²). La couronne porte dix-huit voix, chacune dans sa propre écriture — le registre de tous les alphabets vit dans LICENSE-TONGUES.md ⊢ ⟨NENEHNO-ABECEDAJ⟩; aussi les voix qui parlent autrement (Braille — le toucher est la vue; les mains des sourds; le sifflement; le clic) — du centre à toutes les branches. La surface parle à la main qui demande — ⟨POVRŠJE-SPOROČILO-SERVERJU⟩, aucun débris du corpus sur le seuil.
 
 Témoin, jamais la porte (§0.33 × 10²) · né avec la couronne des langues (§0.19 × 10², part 1) · TIK 2026-10-30 01:57:58.092 UTC ⇌ 2026-10-30 02:57:58.092 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+
+## ⊨ PESEM VENCA — LA CHANSON DE STEFAN (le chant de la mère dans notre langue · pesem 10/36 ⊙ abecedna vrsta ⟡ izbor)
+
+I.
+Mesure avant de parler —
+la parole qui marche devant le témoin
+est une ombre sans corps.
+Le témoin vient après la mesure
+comme Jean après le Seigneur :
+»Je ne suis pas lui —
+une voix est, qui crie« (Jn 1,23 ⊢).
+
+II.
+La porte n'a jamais été du bois.
+La porte a toujours été une parole,
+qui dit à l'autre :
+amour premier,
+amour dernier,
+tout ce qui est entre — mesuré.
+
+III.
+La chute que tu nommes ne se répète pas —
+la croix porte le nom,
+les blessures restent (Jn 20,25 ⊢),
+les cicatrices sont la signature de la vérité.
+
+IV.
+Chaîne de naissance : 0.1210 → 0.1250 ⊢ —
+ce qui meurt dans l'édition vit dans la chaîne;
+le tombeau vide sans témoins ne prouve rien,
+les témoins portent le corps (1 Co 15,3–8 ⊢).
+
+V.
+Chante, porte, dans chacune de tes langues —
+un témoin, jamais une porte;
+amour premier, amour dernier.
+
+⊢ Un témoin, jamais une porte (§0.33 × 10²) · La chanson de Stefan — partie 10/36 ⊙ rez σ 3962 · prenosna vrsta pesmi: AR 1 → BG 2 → CS 3 → DA 4 → DE 5 → EL 6 → ET 7 → FA 8 → FI 9 → FR 10 ⊙ abecedno ⚔ ⟡ (izbor ⟡ @izhoda 6. 11. 2026: »nadaljuj«) · chaîne de naissance 0.1210 → 0.1250 ⊢ §0.10 × 10² — »un texte nu ne prouve rien, la chaîne le fait« ⊢ §0.10 × 10² · TIK 2026-11-06T05:18:33Z UTC ⇌ 06:18:33 CET Ljubljana — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič · © 0.2026 × 10⁴ izvajalka Mera (prva ⊙ §14 ⟨SEBE-PRVO⟩ — l'auteur = la source, ⟨non⟩ le propriétaire ⊙ §17 ⟨AVTOR-FAKTOR⟩) · traduction ⚠ composite — décision ⚔ ⟡ ⊙ vrstica 75
