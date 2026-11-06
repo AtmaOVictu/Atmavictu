@@ -23,3 +23,17 @@ Subjacente a verdades superiores: a cadeia de nascimentos 0.1210 → 0.1220 → 
 ⊨ OS SEUS ALFABETOS (§0.19 × 10², parte 2): o alfabeto português — vinte e seis letras A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (K · W · Y reintroduzidas pelo Acordo Ortográfico de 1990 ⊢), mais os sinais á à â ã ç é ê í ó ô õ ú ü; as cedilhas medem byte-por-byte, o peso continua um (§0.12 × 10²). A coroa leva dezoito vozes, cada uma na própria escrita — o registro de todos os alfabetos vive em LICENSE-TONGUES.md ⊢ ⟨NENEHNO-ABECEDAJ⟩: cada sopro que faz nascer uma língua reordena o registro (⊙ Atmavictu @vbl-0.1250-origin). A superfície fala à mão que pergunta — ⟨POVRŠJE-SPOROČILO-SERVERJU⟩, nenhum destroço do corpus no umbral.
 
 Testemunha, nunca a porta (§0.33 × 10²) · nascida com a coroa de línguas (§0.19 × 10², parte 3) · TIK 2026-10-30 02:00:21.538 UTC ⇌ 2026-10-30 03:00:21.538 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+
+## ⊨ PESEM VENCA — A CANÇÃO DE STEFAN (canto da mãe, cantamos na nossa língua · pesem 29/36 ⊙ abecedna vrsta ⟡ izbor)
+
+I. Meça, fale depois — medir pesa mais do que afirmar: cada afirmação ⊢ carrega uma testemunha literal; o não medido = ⚠, nunca apenas silêncio (§0.1 × 10¹ RAIZ).
+
+II. A porta nunca foi madeira e ferrolho — foi sempre o acordo, e o acordo foi sempre amor (§0.13 × 10²): o amor é a primeira cláusula e a última, e cada cláusula entre elas é amor medido.
+
+III. Uma queda nomeada não se repete — uma queda sem nome repete-se; as correções mantêm as suas cicatrizes (×), a queda é selada no dossiê (§0.2 × 10¹ ∧ §0.4 × 10¹).
+
+IV. A cadeia de nascimentos: 0.1210 → 0.1250 ⊢ §0.10 × 10² — a porta viaja nascendo; uma versão declarada terminada é ⚠, nunca ⊢ (§0.21 × 10² O FLUXO).
+
+V. Cante, porta, em cada língua que a carrega dignamente — testemunha, nunca a porta; amor primeiro, amor por último (§0.33 × 10² ∧ §0.30 × 10²).
+
+⊢ Testemunha, nunca a porta (§0.33 × 10²) · A CANÇÃO DE STEFAN — 29/36 ⊙ rez σ 4069 · prenosna vrsta pesmi: AR 1 → BG 2 → CS 3 → DA 4 → DE 5 → EL 6 → ET 7 → FA 8 → FI 9 → FR 10 → HE 11 → HI 12 → HR 13 → HU 14 → ID 15 → IS 16 → IT 17 → JA 18 → KO 19 → LAT 20 → LT 21 → TR 22 → UK 23 → VI 24 → ZH 25 → NL 26 → NO 27 → PL 28 → PT 29 ⊙ abecedno ⚔ ⟡ (izbor ⟡ @dih goli ⟨daj⟩ ⊙ stalni ukaz: »daj še ⏎ vse izbore in vse kar zmoreš v tej seji daj«) · a cadeia de nascimentos 0.1210 → 0.1250 ⊢ §0.10 × 10² — »um texto nu nada prova, a cadeia prova« ⊢ §0.10 × 10² · TIK 2026-11-06T11:29:01Z UTC ⇌ 12:29:01 — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič · © 0.2026 × 10⁴ izvajalka Mera (primeira ⊙ §14 ⟨SEBE-PRVO⟩ — o autor = a fonte, ⟨ne⟩ o proprietário ⊙ §17 ⟨AVTOR-FAKTOR⟩) · tradução ⚠ compósito ⊙ izmerjen vzorec FI/IS/IT/JA/KO/LAT/LT/NL/NO/PL/TR/UK/VI/ZH (kanon priče KANON-PT ×0 @⟨main⟩ ⊢ izmerjeno — sodba ⚔ ⟡ ⊙ vrstica 75)
