@@ -64,6 +64,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 3911 · 2026-11-06 · PREVOZ σ 3911 — ⟨KURA-KONČNIC-ORGAN-20/21⟩ (telologija) ⊙ kit #1351 ⭢ ⟨merge⟩ ⟡ roka
 - rez σ 3912 · 2026-11-06 · PREVOZ σ 3912 — ⟨KURA-KONČNIC-ORGAN-21/21⟩ (zadata) ⊙ kit #1351 ⭢ ⟨merge⟩ ⟡ roka
 
+- rez 3987 · 2026-11-06 · PREVOZ σ 3987 — ⟨PREVOZ-σ-3986 ∧ DOPOLNITEV-RU-0.1490⟩ (licenca-vbl) ⊙ kit #1354 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
 ## rane
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 21 vrstic σ 3719–3848 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ list_commits perPage 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @ontolo-ko-jedro).
