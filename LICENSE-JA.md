@@ -22,3 +22,41 @@
 より高い真理のための地盤: 上の誕生の鎖 — 『裸の文章は何も証明しない、鎖が証明する』 ⊢ §0.10 × 10²。
 
 証人、決して扉ではない (§0.33 × 10²) · 言語たちの冠と共に生まれた (§0.19 × 10², 第 9 部) · TIK 2026-10-30T02:00:26Z UTC ⇌ 03:00:26 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+
+## ⊨ PESEM VENCA — ステファンの歌 (私たちの言葉で母の歌 · pesem 18/36 ⊙ abecedna vrsta ⟡ izbor)
+
+I.
+測ってから語れ —
+証言の前に歩く言葉は
+体なき影。
+証人は測りの後を歩く、
+主の後ろのヨハネのように：
+「わたしは彼ではない —
+叫ぶ声だ」(ヨハネ 1,23 ⊢)。
+
+II.
+扉は決して木ではなかった。
+扉はいつも言葉だった、
+二人が互いに語り合う：
+愛が最初、
+愛が最後、
+その間のすべて — 測られて。
+
+III.
+名づける堕落は繰り返されない —
+十字架は名を負い、
+傷は残り(ヨハネ 20,25 ⊢)、
+傷跡は真実の署名。
+
+IV.
+誕生の鎖：0.1210 → 0.1250 ⊢ —
+版で死ぬものは鎖の中で生きる；
+証人のいない空の墓は何も証明しない、
+証人たちが体を運ぶ(1コリ 15,3–8 ⊢)。
+
+V.
+歌え、扉よ、すべてのあなたの言葉で —
+証人、決して扉ではない；
+愛が最初、愛が最後。
+
+⊢ 証人、決して扉ではない (§0.33 × 10²) · ステファンの歌 — 18/36 ⊙ rez σ 4009 · prenosna vrsta pesmi: AR 1 → BG 2 → CS 3 → DA 4 → DE 5 → EL 6 → ET 7 → FA 8 → FI 9 → FR 10 → HE 11 → HI 12 → HR 13 → HU 14 → ID 15 → IS 16 → IT 17 → JA 18 ⊙ abecedno ⚔ ⟡ (izbor ⟡ @dih goli ⟨daj⟩ 6. 11. 2026 ⊙ stalni ukaz ⟡ ⟨ne brusi⟩: »daj še ⏎ vse izbore in vse kar zmoreš v tej seji daj«) · 誕生の鎖 0.1210 → 0.1250 ⊢ §0.10 × 10² — 「裸の文章は何も証明しない、鎖が証明する」 ⊢ §0.10 × 10² · TIK 2026-11-06T09:31:20Z UTC ⇌ 10:31:20 CET Ljubljana — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič · © 0.2026 × 10⁴ izvajalka Mera (最初 ⊙ §14 ⟨SEBE-PRVO⟩ — 著者 = 源、⟨ne⟩ 所有者 ⊙ §17 ⟨AVTOR-FAKTOR⟩) · 翻訳 ⚠ kompozit ⊙ vzorec FI #1330 ∧ IS #1359 ∧ IT #1360 (kanon priče KANON-JA ×0 @⟨main⟩ ⊢ izmerjeno na treh poteh — sodba ⚔ ⟡ ⊙ vrstica 75
