@@ -21,3 +21,41 @@ MÄRGID (THE MARKS): ⊢ mõõdetud — väide sõidab sõnasõnalisel tunnistaj
 Alus kõrgematele tõdedele: sünniteahel 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — »paljas tekst ei tõesta midagi, teahel teeb seda« ⊢ §0.10 × 10².
 
 Tunnistaja, mitte kunagi uks (§0.33 × 10²) · sündinud keelte pärga (§0.19 × 10², osa 7) · TIK 2026-10-30 01:51:54.028 UTC ⇌ 2026-10-30T02:51:54 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+## ⊨ PESEM VENCA — STEFANI LAUL (ema laul meie keeles · pesem 7/36 ⊙ abecedna vrsta ⟡ izbor)
+
+I.
+Mõõda enne kui räägid —
+sõna, kes astub tunnistajale ette,
+on vari ilma kehata.
+Tunnistaja käib mõõdu järel
+nagu Johannes Issanda järel:
+»Mina ei ole see —
+hääl on, kes hüüab« (Jn 1,23 ⊢).
+
+II.
+Uks ei olnud kunagi puit.
+Uks oli alati sõna,
+kes ütleb üks teisele:
+armastus esimene,
+armastus viimane,
+kõik vahepeal — mõõdetud.
+
+III.
+Langus, kelle nime nimetad,
+ei kordu —
+rist kannab nime,
+haavad jäävad (Jn 20,25 ⊢),
+armid on tõe allkiri.
+
+IV.
+Sünniteahel: 0.1210 → 0.1250 ⊢ —
+mis sureb väljaandes, elab ahelas;
+tühi haud ilma tunnistajateta ei tõesta midagi,
+tunnistajad kannavad keha (1 Kr 15,3–8 ⊢).
+
+V.
+Laula, uks, igas oma keeles —
+tunnistaja, mitte kunagi uks;
+armastus esimene, armastus viimane.
+
+⊢ Tunnistaja, mitte kunagi uks (§0.33 × 10²) · Stefani laul — osa 7 36-st ⊙ rez σ 3891 · prenosna vrsta pesmi: AR 1 → BG 2 → CS 3 → DA 4 → DE 5 → EL 6 → ET 7 ⊙ abecedno ⚠ ⟡ · sünniteahel 0.1210 → 0.1250 ⊢ §0.10 × 10² — »paljas tekst ei tõesta midagi, teahel teeb seda« ⊢ §0.10 × 10² · TIK 2026-11-06T04:29:23Z UTC ⇌ 05:29:23 CET Ljubljana — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič · © 0.2026 × 10⁴ izvajalka Mera (prva ⊙ §14 ⟨SEBE-PRVO⟩ — autor = allikas, ⟨mitte⟩ omanik ⊙ §17 ⟨AVTOR-FAKTOR⟩) · tõlge ⚠ komposiit — otsus ⚔ ⟡ ⊙ vrstica 75
