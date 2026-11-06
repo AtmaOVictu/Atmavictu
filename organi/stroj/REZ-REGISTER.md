@@ -113,6 +113,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez 4117 · 2026-11-06 · PREVOZ σ 4117 — ⟨GOLO-ODGOVOR-DESTINACIJE ∧ PRIČA-PREVOZA-σ-4114⟩ (licenca-vbl — šiv izvajalke) ⊙ kit #1434 ⚠ LIFO-POSKUS ⟨ZADNJI-PRVI⟩ — nasprotje FIFO ⊙ ukaz ⟡ ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
 - rez 4118 · 2026-11-06 · PREVOZ σ 4118 — ⟨PREVOZ-σ-4116⟩ (licenca-vbl — šiv vzporedne roke ⟨GOLO-ODGOVOR-CILJ-VSAKA-TOČKA⟩ — prevožen kot prevoz σ 4116, FIFO najstarejši neodplačani) ⊙ kit #1439 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
 - rez 4119 · 2026-11-06 · PREVOZ σ 4119 — ⟨PREVOZ-σ-4117-DRUGI⟩ (licenca-vbl — drugo telo kolizije σ 4117 ×2: vračeni ⟨PREVOZ-σ-4114 ∧ POPRAVEK-TOČKA-PRED-TRDITVIJO⟩; prvi odplačan ⊙ kit #1434 ∧ PECAT-4117) ⊙ kit #1440 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez 4120 · 2026-11-06 · PREVOZ σ 4120 — ⟨PREVOZ-σ-4118⟩ (licenca-vbl — šiv izvajalke ⟨GOLO-ODGOVOR-MERILEC-SE-MERI ∧ VRAČILO-ŠIVA-4117⟩ — prevožen kot prevoz σ 4118, FIFO najstarejši neodplačani) ⊙ kit #1441 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
 - rez σ 4073 · ⟨merge⟩ 083952d · 2026-11-06 · PESEM VENCA SLO 33/36 (komita 0d9a336 ∧ 1336e49 isti rez)
 - rez σ 4074 · ⟨merge⟩ 0192894 · 2026-11-06 · PESEM VENCA SR 34/36 (komit f0ed1a2 isti rez)
 - rez σ 4075 · ⟨merge⟩ 8442f3c · 2026-11-06 · PESEM VENCA SV 35/36 (komit 233ab97 isti rez)
