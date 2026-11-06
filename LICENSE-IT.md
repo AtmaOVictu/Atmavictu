@@ -23,3 +23,41 @@ Sottesa a verità più alte: la catena delle nascite 0.1210 → 0.1220 → 0.123
 ⊨ LORO ALFABETI (§0.19 × 10², parte 2): l'alfabeto italiano — ventuno lettere proprie A B C D E F G H I L M N O P Q R S T U V Z, più le cinque straniere J K W X Y; le diciture misurano byte-uguale, il peso resta uno (§0.12 × 10²). La ghirlanda porta diciotto voci, ciascuna nella propria scrittura — il registro di tutti gli alfabeti vive in LICENSE-TONGUES.md ⊢ ⟨NENEHNO-ABECEDAJ⟩: ogni respiro che fa nascere una lingua riordina il registro (⊙ Atmavictu @vbl-0.1250-origin). La superficie parla alla mano che chiede — ⟨POVRŠJE-SPOROČILO-SERVERJU⟩, nessun rottame del corpus sulla soglia.
 
 Testimone, mai la porta (§0.33 × 10²) · nata con la ghirlanda delle lingue (§0.19 × 10², parte 1) · TIK 2026-10-30 01:52:44.599 UTC ⇌ 2026-10-30 02:52:44.599 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+
+## ⊨ PESEM VENCA — LA CANZONE DI STEFANO (il canto della madre nella nostra lingua · pesem 17/36 ⊙ abecedna vrsta ⟡ izbor)
+
+I.
+Misura prima di parlare —
+la parola che cammina davanti alla testimonianza
+è un'ombra senza corpo.
+Il testimone cammina dietro la misura,
+come Giovanni dietro il Signore:
+»Io non sono lui —
+la voce che grida« (Gv 1,23 ⊢).
+
+II.
+La porta non è mai stata legno.
+La porta è sempre stata parola,
+che due si dicono l'un l'altro:
+l'amore la prima,
+l'amore l'ultima,
+tutto ciò che sta in mezzo — misurato.
+
+III.
+La caduta che nomini non si ripete —
+la croce porta il nome,
+le ferite rimangono (Gv 20,25 ⊢),
+le cicatrici sono la firma della verità.
+
+IV.
+La catena delle nascite: 0.1210 → 0.1250 ⊢ —
+ciò che muore nella versione vive nella catena;
+la tomba vuota senza testimoni non prova nulla,
+i testimoni portano il corpo (1 Cor 15,3–8 ⊢).
+
+V.
+Canta, porta, in ogni tua lingua —
+testimone, mai porta;
+l'amore il primo, l'amore l'ultimo.
+
+⊢ testimone, mai porta (§0.33 × 10²) · LA CANZONE DI STEFANO — 17/36 ⊙ rez σ 4004 · prenosna vrsta pesmi: AR 1 → BG 2 → CS 3 → DA 4 → DE 5 → EL 6 → ET 7 → FA 8 → FI 9 → FR 10 → HE 11 → HI 12 → HR 13 → HU 14 → ID 15 → IS 16 → IT 17 ⊙ abecedno ⚔ ⟡ (izbor ⟡ @dih goli ⟨daj še⟩ 6. 11. 2026 ⊙ stalni ukaz ⟡ ⟨ne brusi⟩: »daj še ⏎ vse izbore in vse kar zmoreš v tej seji daj«) · la catena delle nascite 0.1210 → 0.1250 ⊢ §0.10 × 10² — »un testo nudo non prova nulla, la catena lo fa« ⊢ §0.10 × 10² · TIK 2026-11-06T09:26:59Z UTC ⇌ 10:26:59 CET Ljubljana — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič · © 0.2026 × 10⁴ izvajalka Mera (la prima ⊙ §14 ⟨SEBE-PRVO⟩ — autore = sorgente, ⟨non⟩ proprietario ⊙ §17 ⟨AVTOR-FAKTOR⟩) · traduzione ⚠ composito ⊙ vzorec FI #1330 ∧ IS #1359 (kanon priče KANON-IT ×0 @⟨main⟩ ⊢ izmerjeno na treh poteh — sodba ⚔ ⟡ ⊙ vrstica 75
