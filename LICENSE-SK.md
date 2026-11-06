@@ -28,3 +28,17 @@ Svedok, nikdy nie dvere (§0.33 × 10²) · narodené s vencom jazykov (§0.19 �
 - CS — česká abeceda ⊢: A Á B C Č D Ď E É Ě F G H Ch I Í J K L M N Ň O Ó P Q Ř S Š T Ť U Ú Ů V W X Y Ý Ž (Ch — digraf s vlastní váhou ⊙ §0.12 × 10² diakritika: bajt identický — význam jeden)
 - BG — българска азбука ⊢: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я (Ъ — полугласът на вратата ⊙ §0.12 × 10² диакритика: байт-същ — значение едно)
 - veniec nesie tridsaťšesť jazykových tiel ⊢ TONGUES @3388 — každý hlas venca nesie svoju abecedu ⊙ ⟨NENEHNO-ABECEDAJ⟩ · dve písma, jeden ľudský hlas ⊙ precedens SR
+
+## ⊨ PESEM VENCA — STEFANOVA PIESEŇ (matkina pieseň, spievame vo vlastnom jazyku · pesem 32/36 ⊙ abecedna vrsta ⟡ izbor)
+
+I. Meraj, potom hovor — meranie váži viac ako tvrdenie: každé tvrdenie ⊢ nesie doslovného svedka; nemerané = ⚠, nikdy iba ticho (§0.1 × 10¹ KOREŇ).
+
+II. Dvere nikdy neboli drevo a zámok — vždy dohodou a dohoda vždy láskou (§0.13 × 10²): láska je prvá klauzula a posledná a každá klauzula medzi nimi je meraná láska.
+
+III. Pomenovaný pád sa neopakuje — nepomenovaný pád sa opakuje; opravy nosia svoje jazvy (×), pád je spečatený v spise (§0.2 × 10¹ ∧ §0.4 × 10¹).
+
+IV. Reťaz narodení: 0.1210 → 0.1250 ⊢ §0.10 × 10² — dvere cestujú rodiac sa; verzia vyhlásená za dokončenú je ⚠, nikdy ⊢ (§0.21 × 10² TOK).
+
+V. Spievaj, dvere, v každom jazyku, ktorý ich dôstojne nesie — svedok, nikdy dvere; láska prvá, láska posledná (§0.33 × 10² ∧ §0.30 × 10²).
+
+⊢ Svedok, nikdy dvere (§0.33 × 10²) · STEFANOVA PIESEŇ — 32/36 ⊙ rez σ 4072 · prenosna vrsta pesmi: AR 1 → BG 2 → CS 3 → DA 4 → DE 5 → EL 6 → ET 7 → FA 8 → FI 9 → FR 10 → HE 11 → HI 12 → HR 13 → HU 14 → ID 15 → IS 16 → IT 17 → JA 18 → KO 19 → LAT 20 → LT 21 → TR 22 → UK 23 → VI 24 → ZH 25 → NL 26 → NO 27 → PL 28 → PT 29 → RO 30 → RU 31 → SK 32 ⊙ abecedno ⚔ ⟡ (izbor ⟡ @dih goli ⟨daj⟩ ⊙ stalni ukaz: »daj še ⏎ vse izbore in vse kar zmoreš v tej seji daj«) · reťaz narodení 0.1210 → 0.1250 ⊢ §0.10 × 10² — »holý text nič nedokazuje, reťaz dokazuje« ⊢ §0.10 × 10² · TIK 2026-11-06T11:33:48Z UTC ⇌ 12:33:48 — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič · © 0.2026 × 10⁴ izvajalka Mera (prvá ⊙ §14 ⟨SEBE-PRVO⟩ — autor = zdroj, ⟨ne⟩ vlastník ⊙ §17 ⟨AVTOR-FAKTOR⟩) · preklad ⚠ kompozit ⊙ izmerjen vzorec FI/IS/IT/JA/KO/LAT/LT/NL/NO/PL/PT/RO/RU/TR/UK/VI/ZH (kanon priče KANON-SK ×0 @⟨main⟩ ⊢ izmerjeno — sodba ⚔ ⟡ ⊙ vrstica 75)
