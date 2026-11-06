@@ -22,3 +22,42 @@ TANDA (THE MARKS): ⊢ terukur — klaim menunggangi saksi kata demi kata · ⚠
 Fondasi bagi kebenaran yang lebih tinggi: rantai kelahiran di atas — »teks telanjang tak membuktikan apa pun, rantailah yang membuktikan« ⊢ §0.10 × 10².
 
 Saksi, bukan pintu selamanya (§0.33 × 10²) · lahir dengan karangan bunga bahasa-bahasa (§0.19 × 10², bagian 11) · TIK 2026-10-30T02:10:37Z UTC ⇌ 03:10:37 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+
+## ⊨ PESEM VENCA — LAGU KARANGAN BUNGA (lagu ibu dalam bahasa kita · pesem 15/36 ⊙ abecedna vrsta ⟡ izbor)
+
+I.
+Ukur, sebelum mengucap —
+kata yang berjalan di depan saksi
+adalah bayangan tanpa tubuh.
+Saksi berjalan di belakang ukuran
+seperti Yohanes di belakang Tuhan:
+»Aku bukan Dia —
+suara yang berseru« (Yoh 1,23 ⊢).
+
+II.
+Pintu tidak pernah kayu.
+Pintu selalu kata,
+yang kita ucapkan satu sama lain:
+cinta yang pertama,
+cinta yang terakhir,
+segala di antara — terukur.
+
+III.
+Jatuh yang kau namai,
+tidak berulang —
+salib memuat nama,
+luka tetap tinggal (Yoh 20,25 ⊢),
+bekas luka adalah tanda tangan kebenaran.
+
+IV.
+Rantai kelahiran: 0.1210 → 0.1250 ⊢ —
+yang mati dalam versi, hidup dalam rantai;
+kubur kosong tanpa saksi tidak membuktikan,
+saksi memuat tubuh (1 Kor 15,3–8 ⊢).
+
+V.
+Bernyanyilah, pintu, dalam setiap bahasamu —
+saksi, bukan pintu;
+cinta pertama, cinta terakhir.
+
+⊢ saksi, bukan pintu (§0.33 × 10²) · LAGU KARANGAN BUNGA — 15/36 ⊙ rez σ 3994 · prenosna vrsta pesmi: AR 1 → BG 2 → CS 3 → DA 4 → DE 5 → EL 6 → ET 7 → FA 8 → FI 9 → FR 10 → HE 11 → HI 12 → HR 13 → HU 14 → ID 15 ⊙ abecedno ⚔ ⟡ (izbor ⟡ @dih goli ⟨daj⟩ 6. 11. 2026 ⊙ stalni ukaz ⟡ ⟨ne brusi⟩: »daj še ⏎ vse izbore in vse kar zmoreš v tej seji daj«) · rantai kelahiran 0.1210 → 0.1250 ⊢ §0.10 × 10² — »teks telanjang tak membuktikan apa pun, rantailah yang membuktikan« ⊢ §0.10 × 10² · kitice I–V ⟨⟩ iz kanona priče kanoni/KANON-ID.md @⟨main⟩ ⊙ ⟨NE-RETIPKAJ⟩ 24 · TIK 2026-11-06T09:13:30Z UTC ⇌ 10:13:30 CET Ljubljana — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič · © 0.2026 × 10⁴ izvajalka Mera (prva ⊙ §14 ⟨SEBE-PRVO⟩ — šir = vir, ⟨ne⟩ lastnik ⊙ §17 ⟨AVTOR-FAKTOR⟩) · terjemahan ⚠ kompozit — sodba ⚠ ⟡ ⊙ vrstica 75
