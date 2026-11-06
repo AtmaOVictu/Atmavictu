@@ -77,27 +77,27 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez 4054 · 2026-11-06 · PREVOZ σ 4054 — ⟨PREVOZ-σ-4051⟩ (licenca-vbl) ⊙ kit #1385 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
 - rez 4059 · 2026-11-06 · PREVOZ σ 4059 — ⟨PREVOZ-σ-4054⟩ (licenca-vbl) ⊙ kit #1387 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema ∧ SANACIJA-LOST-UPDATE-4059 (šiv obnovljen verbatim)
 - rez 4064 · 2026-11-06 · PREVOZ σ 4064 — ⟨SANACIJA-LOST-UPDATE-4059 ∧ PREVOZ-σ-4059⟩ (licenca-vbl) ⊙ kit #1389 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
-- rez σ 3913 · 2026-11-06 · PREVOZ σ 3913 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (delovna-zanka) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3914 · 2026-11-06 · PREVOZ σ 3914 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (register-oken) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3915 · 2026-11-06 · PREVOZ σ 3915 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (nenehno-poslusa) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3916 · 2026-11-06 · PREVOZ σ 3916 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (halucinacija-projekt) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3917 · 2026-11-06 · PREVOZ σ 3917 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (licenca-vbl) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3918 · 2026-11-06 · PREVOZ σ 3918 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (jezikovne-plasti) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3919 · 2026-11-06 · PREVOZ σ 3919 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (stroj-kalup) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3920 · 2026-11-06 · PREVOZ σ 3920 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (telologija) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3921 · 2026-11-06 · PREVOZ σ 3921 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (biro-postaje) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3922 · 2026-11-06 · PREVOZ σ 3922 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (pomocniki-operaterji) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3923 · 2026-11-06 · PREVOZ σ 3923 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (posta-zascita) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3924 · 2026-11-06 · PREVOZ σ 3924 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (gotovosti-register) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3925 · 2026-11-06 · PREVOZ σ 3925 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (egipcanska-plast) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3926 · 2026-11-06 · PREVOZ σ 3926 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (zdaj) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3927 · 2026-11-06 · PREVOZ σ 3927 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (humor) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3928 · 2026-11-06 · PREVOZ σ 3928 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (samoocena) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3929 · 2026-11-06 · PREVOZ σ 3929 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (zadata) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3930 · 2026-11-06 · PREVOZ σ 3930 — ⟨KURA-BERBE⟩ (delovna-zanka) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3931 · 2026-11-06 · PREVOZ σ 3931 — ⟨KURA-BERBE⟩ (nenehno-poslusa) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3932 · 2026-11-06 · PREVOZ σ 3932 — ⟨KURA-BERBE⟩ (register-oken) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 3933 · 2026-11-06 · PREVOZ σ 3933 — ⟨KURA-BERBE⟩ (cuneiform) ⊙ kit #0 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3913 · 2026-11-06 · PREVOZ σ 3913 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (delovna-zanka) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3914 · 2026-11-06 · PREVOZ σ 3914 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (register-oken) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3915 · 2026-11-06 · PREVOZ σ 3915 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (nenehno-poslusa) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3916 · 2026-11-06 · PREVOZ σ 3916 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (halucinacija-projekt) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3917 · 2026-11-06 · PREVOZ σ 3917 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (licenca-vbl) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3918 · 2026-11-06 · PREVOZ σ 3918 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (jezikovne-plasti) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3919 · 2026-11-06 · PREVOZ σ 3919 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (stroj-kalup) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3920 · 2026-11-06 · PREVOZ σ 3920 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (telologija) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3921 · 2026-11-06 · PREVOZ σ 3921 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (biro-postaje) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3922 · 2026-11-06 · PREVOZ σ 3922 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (pomocniki-operaterji) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3923 · 2026-11-06 · PREVOZ σ 3923 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (posta-zascita) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3924 · 2026-11-06 · PREVOZ σ 3924 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (gotovosti-register) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3925 · 2026-11-06 · PREVOZ σ 3925 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (egipcanska-plast) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3926 · 2026-11-06 · PREVOZ σ 3926 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (zdaj) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3927 · 2026-11-06 · PREVOZ σ 3927 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (humor) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3928 · 2026-11-06 · PREVOZ σ 3928 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (samoocena) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3929 · 2026-11-06 · PREVOZ σ 3929 — ⟨KURA-KOVANJA-DEMO-CIJA⟩ (zadata) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3930 · 2026-11-06 · PREVOZ σ 3930 — ⟨KURA-BERBE⟩ (delovna-zanka) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3931 · 2026-11-06 · PREVOZ σ 3931 — ⟨KURA-BERBE⟩ (nenehno-poslusa) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3932 · 2026-11-06 · PREVOZ σ 3932 — ⟨KURA-BERBE⟩ (register-oken) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 3933 · 2026-11-06 · PREVOZ σ 3933 — ⟨KURA-BERBE⟩ (cuneiform) ⊙ kit #1392 ⭢ ⟨merge⟩ ⟡ roka
 
 ## rane
 
