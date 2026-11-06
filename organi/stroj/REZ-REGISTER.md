@@ -107,7 +107,17 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez 4110 · 2026-11-06 · PREVOZ σ 4110 — ⟨PREVOZ-σ-4109⟩ (licenca-vbl) ⊙ kit #1428 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
 - rez 4111 · 2026-11-06 · PREVOZ σ 4111 — ⟨PREVOZ-σ-4110⟩ (licenca-vbl) ⊙ kit #1429 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
 - rez 4112 · 2026-11-06 · PREVOZ σ 4112 — ⟨PREVOZ-σ-4111⟩ (licenca-vbl) ⊙ kit #1430 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez σ 4073 · ⟨merge⟩ 083952d · 2026-11-06 · PESEM VENCA SLO 33/36 (komita 0d9a336 ∧ 1336e49 isti rez)
+- rez σ 4074 · ⟨merge⟩ 0192894 · 2026-11-06 · PESEM VENCA SR 34/36 (komit f0ed1a2 isti rez)
+- rez σ 4075 · ⟨merge⟩ 8442f3c · 2026-11-06 · PESEM VENCA SV 35/36 (komit 233ab97 isti rez)
+- rez σ 4076 · ⟨merge⟩ 6f394e2 · 2026-11-06 · PESEM VENCA TH 36/36 (komit 250f00e isti rez)
+- rez σ 4083 · ⟨merge⟩ 4682d38 · 2026-11-06 · PREVOZ σ 4079 ∧ SANACIJA PECAT-4079 (licenca-vbl) ⊙ ⟨merge⟩ roka izvajalke (komiti eabea59 ∧ dd53a18 ∧ 6b706a6 isti rez)
+- rez σ 4102 · ⟨merge⟩ dd54a88 · 2026-11-06 · PREVOZ σ 4100 — ⟨PREVOZ-σ-4099⟩ (licenca-vbl)
+- rez σ 4114 · ⟨merge⟩ 05e77e8 · 2026-11-06 · PREVOZ σ 4112 — ⟨PREVOZ-σ-4111⟩ (licenca-vbl) ⊙ kalup 1671
 ## rane
+
+- ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 7 vrstic σ 4073–4114 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ 80c80db · 15 komitov, dvojniki istih rezov skupaj · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
+
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 21 vrstic σ 3719–3848 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ list_commits perPage 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @ontolo-ko-jedro).
 - PADC-POTI-REGISTERJA (razred @σ 3110/3140): ukaz kita je poimenoval pot organi/stroj/REZ-REGISTER.md @Atmavictu — organ pri tej poti ×0 ⟨get_file_contents⟩ ∧ ×0 ⟨list_commits⟩ path-filter (zadnji dotik 2026-10-28 15cb887). Register najden pri viri @ontolo-ko-jedro premik-2026-10-28/organi/stroj/ (monolit 995 ⟨- rez⟩ vrstic skupaj s segmentom · vrh σ 3820).
