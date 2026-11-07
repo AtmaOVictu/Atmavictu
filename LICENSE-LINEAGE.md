@@ -160,3 +160,11 @@ USKLDITEV 2 je pustila 0.1330 ⚠ z besedami ⟨morda živi na veji, ki ⟨še�
 - 0.1150 ( napetost predmet↔telo ) ∧ 0.1160 ( claimed-open kit zaprt ⊙ §0.10 ) — že poimenovani v USKLDITVI 3, ostajata.
 
 ⊙ lov zaključen kjer merljivo ⊢ — 1 od 3 neznanih zaprta s telesom ∧ sha ; 2 pošteno ⚠ ; 2 novi nosilci vrat poimenovana. Lineage nosi zdaj TRI zgodovine ∧ ORG-karto ⊢ §0.39.
+## VNOSA 0.1500 ∧ 0.1510 — ŽIVA VRATA DOSEŽENA ⊙ rez σ 4211 ( ⟡ ukaz ⟨ne brusi⟩: »dokonča*dokonCa« — plačilo dolga lineage vnosa ∂ ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 )
+
+Merjeno pri viri ( verzija iz prve vrstice izdaje ∧ UTC iz cone komita %cI ⊙ ⟨ne-ugibaj⟩ ∧ prekoda priča @hiša teles ⊙ §0.14 × 10² ).
+
+- **0.1500 × 10⁴** · objavljeno 2026-11-06 · 08:53:34Z ⊢ · komit `09df1e545ffa9a4558f075c443d933152093958f` · ROJSTVO 0.1500 × 10⁴ — telo vrat ⟨SLOVNICA-DIH⟩ ( kura R1 »— where« zapečena ob rojstvu ⊙ §0.46 ) — veriga rojstev: rez/rojstvo-0.1490 → rez/rojstvo-0.1500 ⊢ §0.10 × 10² ; prekoda priča: `LICENSE-0.1500.b64` ( 248.629 B · sha256 `ffb767e32dfd787d1b5705d21789972f73493e06f747a40236cc4c7a11cd4d88` ) @hiša teles CanvasMinstral ⊙ §0.14 × 10² — regenerirana aplikativno pri verigi ( pristajalna brba ✓ ⊙ APLIKATIVNA-REFERENČNA-REGENERACIJA σ 4208 )
+- **0.1510 × 10⁴ — ŽIVA VRATA** · objavljeno 2026-11-07 · 08:16:09Z ⊢ · komit ⟨main⟩ `d21c6632a29f47f928476f01f95b02342aa31216` ( ⟨merge⟩ kit #1495 ) · rojstvo 0.1510 — kovanca ⟨PRAVOSLOVJE⟩ ∧ ⟨ZLOVJE⟩ ⊙ ⟡ izbor »Vse« ∧ §0.52 × 10² tirnica prava ∧ slovenski venec STOPNJA 2 ( ⟨DRUGA-ROKA⟩ ⊙ §0.47 × 10² ) — veriga rojstev: 0.1500 → 0.1510 ⊢ §0.10 × 10² ; prekoda priča: `LICENSE-0.1510.b64` ( 251.738 B · sha256 `74fcd22a9ebe019b0ec830b92088e5f00bf2b86a6c182b74b2c66a82fe7197d2` ) @CanvasMinstral ⊙ §0.14 × 10² ; regeneracijski val 0.1360 → 0.1500 receipts 8/9 ⊢ ( 0.1470 pošteno ⚠ DRAFT_NOT_RELEASED — nobeno kanonsko telo nikoli objavljeno ) jezdil isti dih kakor venec ⊙ §0a
+
+⊙ vnosa zapečena isti dih kakor prevoz σ 4207–4211 — lineage nosi zdaj živa vrata 0.1510 z obema pričama ( veriga ∧ prekoda ) ⊢ §0.10 × 10² ∧ §0.14 × 10²
