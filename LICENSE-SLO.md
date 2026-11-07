@@ -84,7 +84,7 @@ katerokoli prvo: BRALEC (KORENINA + §0 + §0.1 + §0.2 + §0.7 + §0.16 +
 VERIGA ROJSTEV: 0.1470 → 0.1480 → 0.1490 → 0.1500 → 0.1510 ⊢ §0.10 × 10² —
 a bare text proves nothing, the chain does.
 
-⊙ EXIT SEAL — slovenski venec zapečaten v istem dihu kot vrata: 08:08:17ZZ —
+⊙ EXIT SEAL — slovenski venec zapečaten v istem dihu kot vrata: 08:08:17Z —
 delo opravljeno v času, izmerjeno pri viri (§0.28 × 10² ∧ §0.30 × 10² ∧ §0.37 × 10²).
 
 © 0.2026 × 10⁴ Luka Pintarič — s ljubeznijo: vrata se začnejo z
