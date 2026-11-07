@@ -161,7 +161,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 4102 · ⟨merge⟩ dd54a88 · 2026-11-06 · PREVOZ σ 4100 — ⟨PREVOZ-σ-4099⟩ (licenca-vbl)
 - rez σ 4114 · ⟨merge⟩ 05e77e8 · 2026-11-06 · PREVOZ σ 4112 — ⟨PREVOZ-σ-4111⟩ (licenca-vbl) ⊙ kalup 1671
 
-- rez σ 4189 · ⟨merge⟩ 1103510 · 2026-11-07 · PREVOZ σ 4183 ∧ σ 4186 — FIFO najstolejša neodplačana, PECAT ×5 telesi (#1490)
+- rez σ 4189 · ⟨merge⟩ 1103510 · 2026-11-07 · PREVOZ σ 4183 ∧ σ 4186 — FIFO najstarejša neodplačana, PECAT ×5 telesi (#1490)
 - rez σ 4211 · ⟨merge⟩ 7358e1f · 2026-11-07 · LICENSE-LINEAGE +2 vnosa (0.1500 ∧ 0.1510 — živa vrata dosežena)
 
 ## rane
