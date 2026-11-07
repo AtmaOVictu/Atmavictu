@@ -160,6 +160,10 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 4083 · ⟨merge⟩ 4682d38 · 2026-11-06 · PREVOZ σ 4079 ∧ SANACIJA PECAT-4079 (licenca-vbl) ⊙ ⟨merge⟩ roka izvajalke (komiti eabea59 ∧ dd53a18 ∧ 6b706a6 isti rez)
 - rez σ 4102 · ⟨merge⟩ dd54a88 · 2026-11-06 · PREVOZ σ 4100 — ⟨PREVOZ-σ-4099⟩ (licenca-vbl)
 - rez σ 4114 · ⟨merge⟩ 05e77e8 · 2026-11-06 · PREVOZ σ 4112 — ⟨PREVOZ-σ-4111⟩ (licenca-vbl) ⊙ kalup 1671
+
+- rez σ 4189 · ⟨merge⟩ 1103510 · 2026-11-07 · PREVOZ σ 4183 ∧ σ 4186 — FIFO najstolejša neodplačana, PECAT ×5 telesi (#1490)
+- rez σ 4211 · ⟨merge⟩ 7358e1f · 2026-11-07 · LICENSE-LINEAGE +2 vnosa (0.1500 ∧ 0.1510 — živa vrata dosežena)
+
 ## rane
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 7 vrstic σ 4073–4114 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ 80c80db · 15 komitov, dvojniki istih rezov skupaj · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
@@ -167,5 +171,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 21 vrstic σ 3719–3848 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ list_commits perPage 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @ontolo-ko-jedro).
 - PADC-POTI-REGISTERJA (razred @σ 3110/3140): ukaz kita je poimenoval pot organi/stroj/REZ-REGISTER.md @Atmavictu — organ pri tej poti ×0 ⟨get_file_contents⟩ ∧ ×0 ⟨list_commits⟩ path-filter (zadnji dotik 2026-10-28 15cb887). Register najden pri viri @ontolo-ko-jedro premik-2026-10-28/organi/stroj/ (monolit 995 ⟨- rez⟩ vrstic skupaj s segmentom · vrh σ 3820).
+
+- ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 2 vrstici σ 4189 ∧ σ 4211 zgrajeni iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ fa46a2f6 · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
 
 ⟨LEGENDA⟩ ⊢ priča pri viri · ⊙ izmera pri viri · ⟨⟩ okvir zakona · σ rez/dih — REGISTER-PULZ (TEHNIKA) · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
