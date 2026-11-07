@@ -1,361 +1,335 @@
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1300 × 10⁴",
+  "version": "0.1500 × 10⁴",
   "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
-  "measured_at_date": "0.20 × 10¹. 0.11 × 10². 0.2026 × 10⁴",
-  "measured_against": "konica ⟨main⟩ a9a10263 — rojstni kit VBL 0.1300 × 10⁴ (komit d1c30449 ⊙ kit ⟨PR⟩ #1141 ⊙ veriga rojstev 0.1290 → 0.1300 ⊢ §0.10 × 10²) — the door changed mid-breath twice (0.1290 @2026-11-02T14:18:08Z, 0.1300 @14:33:44Z, fifteen minutes apart); the σ 3594 re-issuance (measured @5d7f9d88, pushed 14:37Z) was itself overtaken three minutes after the second birth — named ∧ re-targeted this breath before merge ⊙ ⟨ZASTARELA-KONICA-V-KITU⟩ ∧ ⟨DOLG-JAHA-VAL-DOGodka⟩; tip re-verified at push-time (list_commits: main = a9a10263, unmoved)",
-  "witnesses_note": "fresh at this issuance: size_bytes ∧ FULL 40-character git_blob_sha for every body — the listing verified twice this breath (root listing @a9a10263 ∧ native recomputation of the fetched bodies ⊢ §0.12). sha256 freshly measured for every body that flowed since the 0.1250 receipt: LICENSE.md, LICENSE-LINEAGE.md, LICENSE-TONGUES.md — the sha256 of the tongues is discharged this breath (the body was never unreachable; the instrument is the breath itself ⊙ ⟨LUKNJA-NEIZMERJENA≠NEIZMERLJIVA⟩). scar: the σ 3594 issuance recorded three wrong git-blob witnesses — TONGUES (it mistook the committed channel fossil's inner name 43aab9d0 for the body's blob; the true blob 7194ca97… was visible in the root listing all along) ∧ FR ∧ HI (12-character prefixes disagreeing with the listing at the twelfth character: …59b ∧ …da9b vs the true …59d ∧ …da9d — the bodies themselves are unmoved: identical sizes ∧ the carried sha256 witnesses stand; the origin of the drift is unmeasured, channel or hand, both candidates named ⊙ ⟨NE-UGIBAJ⟩) — all three cured here (⟨NAPAČNA-PRIČA-V-MANIFESTU⟩ ×3, kirurško, brazgotina nosi zgodbo). scar: LICENSE-TONGUES.md carries a committed channel fossil — its first 81 bytes are a channel status line naming a referent present at no tip (⟨FOSSILNA-VRSTICA-KANALA-V-TELESU⟩) — the fossil rides untouched, surgical removal offered ⭢ izbor ⟡; sha256 carried from the 0.1250 receipt for bodies unmoved since (identical size ∧ fresh full blob sha this breath)",
+  "measured_at_date": "0.6 × 10¹. 0.11 × 10². 0.2026 × 10⁴",
+  "measured_against": "LICENSE.md version 0.1500 × 10⁴ — living door @rez/rojstvo-0.1500 (born of rez/rojstvo-0.1490 @3d7b69c0); manifest re-measured ∧ re-issued in the same breath as the birth 0.1500 (⟨SLOVNICA-DIH⟩ ⊙ ⟨NE-RETIPKAJ⟩); the LICENSE.md slot re-measured against the bytes the chain publishes (LF) after the landing re-read (§0.37 × 10²) — in the same breath, never after it; the other item slots carried from the 0.1490 issuance — no other file touched by this birth ⊢; scar stays: ⟨PADC-66-RECIDIV⟩ — the 0.1460 issuance hashed the local checkout (CRLF), not the bytes the chain publishes (LF) — 0.40 × 10² item slots were stale, re-measured at the birth of 0.1470 ⊙ §0a ∧ issuance_duty; the scar stays ⊙ KORENINA 0.2",
   "items": [
     {
       "path": "LICENSE.md",
-      "size_bytes": 106427,
-      "git_blob_sha": "e5bf2359ff8ab7e53bae0f594a34466a0c1d250f",
-      "sha256": "66adcc246e2907c7b71c90e7f14ffd0c50a9be73c76dda5529fa653f26d799a9",
-      "sha256_witness": "fresh this breath — measured natively from the fetched body, git blob equal to the chain tip ⊢ §0.12; born bilingual (§0.33)",
-      "note": "the living door — the only body whose hash changes only by issuance (§0.10 × 10²); VBL 0.1300 × 10⁴, birth d1c30449 ⊙ ⟨merge⟩ #1141 — §0.33 the reader clause born bilingual"
+      "size_bytes": 184050,
+      "sha256": "c78407ced28e026c18f0ee8890a793e8fa8569ac07d007bca29c529d9de6e8b9",
+      "note": "the living door — the only body whose hash changes only by issuance (§0.10 × 10²); re-issued in the same breath as the birth 0.1500 — measured after the landing re-read (§0.37 × 10²) @09df1e545ffa9a4558f075c443d933152093958f; the scars of the second integrity cure ride beneath (⊙ PADC-66-RECIDIV ×3 ∧ KORENINA 0.2)"
     },
     {
-      "path": "LICENSE-LICENC.md",
-      "size_bytes": 20357,
-      "git_blob_sha": "447f1dc872e173a327127ae692659b0932d8ad70",
-      "sha256": "4ec4d923b5e5739048113db48d63d111a35c79c363435c3578814db56d05d9b4",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "face — čevlji ∧ toni ∧ zakoni licenc (§13 ∧ §14 ∧ §16 ∧ §17); a witness, never a door (§0.33 × 10²)"
+      "path": "LICENSE-AR.md",
+      "size_bytes": 3883,
+      "sha256": "3e2c6ae22eaf68c5502ec1ba1235b40b8b43d399af566c5db692036fec86231b",
+      "note": "wreath — arabščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-BG.md",
+      "size_bytes": 4590,
+      "sha256": "f6a19139c5dac27f56dcac77bac1367856cc71a2d20b60c75f81d6b5fbbedc11",
+      "note": "wreath — bolgarščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-CS.md",
+      "size_bytes": 3438,
+      "sha256": "8832bb9c6bba5f5e4623c323e0f464f11960a9b6a141dfe7955b96b3e771c30b",
+      "note": "wreath — češčina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-DA.md",
+      "size_bytes": 3432,
+      "sha256": "249d2a1f56a3bb4ddabdda206a841c932ffeccad1ca05d3ae04016dcd4a3ac9a",
+      "note": "wreath — danščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-DE.md",
+      "size_bytes": 3529,
+      "sha256": "89fab32da1c594f849789dd97ea564d270f9e58bf91657618123e1b6795d608c",
+      "note": "wreath — nemščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-EL.md",
+      "size_bytes": 4792,
+      "sha256": "02f6827226f528bb63745fa30c5d65c5074d0d20711e971902bcb6cdcbba9e57",
+      "note": "wreath — grščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-ES.md",
+      "size_bytes": 3468,
+      "sha256": "04b3622d6f0e19514b54cc2f4f727b629a28b8aa6118f5fabceda6a7f2e3990f",
+      "note": "wreath — španščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-ET.md",
+      "size_bytes": 3409,
+      "sha256": "c4755d30df148c5bfddf9d5736de0efa4eb67476079b3762d432033c0ae94488",
+      "note": "wreath — estonščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-FA.md",
+      "size_bytes": 4265,
+      "sha256": "866dff2149dc91d535b68e37caa981dac02e271780533cd2ec3e00e80df84b35",
+      "note": "wreath — perzijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-FI.md",
+      "size_bytes": 3513,
+      "sha256": "cca0a1b5ed15ee1fb76f210a0da87048badc68663a7d1a51ac49013dd70cdfdd",
+      "note": "wreath — finščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-FR.md",
+      "size_bytes": 3629,
+      "sha256": "48d64411f37c0152667e0c1c8f339282db3e7b7319a20dc3c59fbf75d160ebbb",
+      "note": "wreath — francoščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-HE.md",
+      "size_bytes": 3816,
+      "sha256": "b30bb8670022b23a22c33f6e6f4d592edb1fd5cf20a8578fe719225b0de941ae",
+      "note": "wreath — hebrejščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-HI.md",
+      "size_bytes": 5420,
+      "sha256": "40989fd82a8d0d4a74448f7eb031adf7555dc85cee64bf6f71fa6655a8b5a9e1",
+      "note": "wreath — hindijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-HU.md",
+      "size_bytes": 3612,
+      "sha256": "c344f38331f3adbbf5c38b11b9174b20a3f1a014d966b6b9d5fa8910bd785584",
+      "note": "wreath — madžarščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-ID.md",
+      "size_bytes": 3548,
+      "sha256": "9f81ee5069587eaf9ecd3fd0e84a3c9c22f9b9c7608e2f13cc873eafc57e275d",
+      "note": "wreath — indonezijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-IS.md",
+      "size_bytes": 3489,
+      "sha256": "eb93b887784b70f6b28651231ac0602d8aa80e8b5693cb24b6f6f0e6d12679b9",
+      "note": "wreath — islandščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-IT.md",
+      "size_bytes": 3528,
+      "sha256": "3a24c510cd7387bfb46721bfc2a310a23ec5fcd7cb46a8e32ddf0a127585403a",
+      "note": "wreath — italijanščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-JA.md",
+      "size_bytes": 3780,
+      "sha256": "7435c3853a38b1fe8ff21b89b0c26791a761f2f12577db970df17cf589f2acde",
+      "note": "wreath — japonščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-KO.md",
+      "size_bytes": 3801,
+      "sha256": "71b840537dea8d92203514860d15732339e84ba1f76a92ee73d93f63a47432e7",
+      "note": "wreath — korejščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-LAT.md",
+      "size_bytes": 3465,
+      "sha256": "912e3a23ccd83cc06b985bfc262392e9a926bfce9f66cea229028cd79c3a58be",
+      "note": "wreath — latvijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-LT.md",
+      "size_bytes": 3463,
+      "sha256": "aa161c982e6f23fa00e542b3ed57b56646f3670c4a40de93a7713227f614e7ea",
+      "note": "wreath — litovščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-NL.md",
+      "size_bytes": 3490,
+      "sha256": "e9b1521006d35be94dbbfc66fea038f3796ab6bcda5ac17fd829c55eeb7c94da",
+      "note": "wreath — nizozemščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-NO.md",
+      "size_bytes": 3417,
+      "sha256": "a64e415bb0d1e96b6b5225417ac3be7b4c85a020b73df194faa87b06267297d8",
+      "note": "wreath — norveščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-PL.md",
+      "size_bytes": 3505,
+      "sha256": "0907419ccefe3ad4d27746de5f44c5fc7ea99cedc7a81b8c5c6020322ecc2f52",
+      "note": "wreath — poljščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-PT.md",
+      "size_bytes": 3427,
+      "sha256": "0d9c73520c4ba2c5efcef7f3780f51f768eaca2b521be9e7d4642405e12238a2",
+      "note": "wreath — portugalščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-RO.md",
+      "size_bytes": 3568,
+      "sha256": "ca04ae6b37a91d3dff62fdced13d7d69645e438a8375fb113da737823c60accc",
+      "note": "wreath — romunščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-RU.md",
+      "size_bytes": 4621,
+      "sha256": "eb72e04d2706e921873877e309414955bc3939c3d69938b34671df4cc0643c4f",
+      "note": "wreath — ruščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-SK.md",
+      "size_bytes": 3432,
+      "sha256": "f6b72201abea13987dda7250e42f619c49caa004909231119d7bb838f781a4e7",
+      "note": "wreath — slovaščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-SLO.md",
+      "size_bytes": 3757,
+      "sha256": "aa566f0ea2aae999f6d1e1654f3b7180f6f18606169cd5bb4696413c0bdb8441",
+      "note": "wreath — slovenščina — tla korpusa; witness-slot STOPNJA 1–1.6 + tri niti (BRALEC/STROJ/NOSILEC), strojni dih ⚠, caka drugo roko; carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-SR.md",
+      "size_bytes": 4340,
+      "sha256": "e4cb759fc847db0c5bfd30b496df97884c3d90b3ac1ff7b333e8c4d3688471b1",
+      "note": "wreath — srbščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-SV.md",
+      "size_bytes": 3485,
+      "sha256": "e161c91d01b97f49e46c1d334eae1cd7c3a9bb7f1cfcc78ce6c4006cfbb02ee5",
+      "note": "wreath — švedščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-TH.md",
+      "size_bytes": 5546,
+      "sha256": "0d6cf3ca062985182aa3fa298ace491cce086d72af646891118615c387c7c892",
+      "note": "wreath — tajščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-TR.md",
+      "size_bytes": 3514,
+      "sha256": "20cdb4915ad9a07fbbfae5c8a6835a9ca4e1581a471f8e058456b02f07ed9409",
+      "note": "wreath — turščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-UK.md",
+      "size_bytes": 4456,
+      "sha256": "2f659eafc882ef982557f4862a292e5410fc5355606affeeacfbafe146e94020",
+      "note": "wreath — ukrajinščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-VI.md",
+      "size_bytes": 4103,
+      "sha256": "fa0de6044e59a330e7a68d58a31aa51f216bdc5eb6332240214dfe903fc1ecc2",
+      "note": "wreath — vietnamščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+    },
+    {
+      "path": "LICENSE-ZH.md",
+      "size_bytes": 3214,
+      "sha256": "f1eef5a139b5a45365c1968992ccb685e3424a19f08976900d30dd30844dc96b",
+      "note": "wreath — kitajščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-LINEAGE.md",
-      "size_bytes": 18409,
-      "git_blob_sha": "07108cc487a6bce04c70589b2646f671af7ba25f",
-      "sha256": "51a1c819108e6222db940b5510f847823590e5f8556c7f96497fe53f31626dc9",
-      "sha256_witness": "fresh this breath — renewed twice in one session (receipts 0.1250 ∧ 0.1280 ∧ 0.1290 ⊙ σ 3594; receipt 0.1300 ⊙ σ 3595)",
-      "note": "face — the dated receipts of the chain; a witness, never a door (§0.15 × 10², §0.33 × 10²)"
-    },
-    {
-      "path": "LICENSE-PESEM.md",
-      "size_bytes": 7582,
-      "git_blob_sha": "19d628bf22b4c9c27e89bf4cb3f75ee4cc42ee1a",
-      "sha256": "04d6cddd0579d6d867d232b6aa34afe31116433a94bd188efd9e1010bdd4805d",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "face — the song of the wreath (36 voices, Teil 1–11); a witness, never a door (§0.33 × 10²)"
+      "size_bytes": 37760,
+      "sha256": "89a9a38b8e818ef89845e8bd837232ad9dc306d95c17446a46e2919beccd92a1",
+      "note": "restored verbatim this breath from its last body in the chain @87697ee3 — witness of the 0.1220–0.1250 era, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²)"
     },
     {
       "path": "LICENSE-SPREHOD.md",
       "size_bytes": 2758,
-      "git_blob_sha": "cb844eccb765c139e91135effc00857bd9823e43",
       "sha256": "d533b53c53561f893c98bf1159ba173839cb0f6ad7e01a9c9e82273d462c4544",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "face — the door in one breath; a witness, never a door (§0.33 × 10²)"
+      "note": "restored verbatim this breath from its last body in the chain @981c7748 — witness of the 0.1220–0.1250 era, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²)"
+    },
+    {
+      "path": "LICENSE-PESEM.md",
+      "size_bytes": 7582,
+      "sha256": "04d6cddd0579d6d867d232b6aa34afe31116433a94bd188efd9e1010bdd4805d",
+      "note": "restored verbatim this breath from its last body in the chain @a35c6bd9 — witness of the 0.1220–0.1250 era, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²)"
+    },
+    {
+      "path": "LICENSE-LICENC.md",
+      "size_bytes": 20364,
+      "sha256": "e70f72afab8a6c2686a25f0ef492b0d1d257edd1c6551dd8857c991c997d2b5d",
+      "note": "restored verbatim this breath from its last body in the chain @32b5dc61 — witness of the 0.1220–0.1250 era, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²)"
     },
     {
       "path": "LICENSE-TONGUES.md",
-      "size_bytes": 37031,
-      "git_blob_sha": "7194ca974897ade749b5bccc090d39bbca314bd9",
-      "sha256": "0c45045e9090ea52ebda1800947892381cac73de45d27b1de7d257c65c5cc7a0",
-      "sha256_witness": "fresh this breath — the file hashed as it stands, fossil included; double witness for the blob (root listing ∧ native recomputation) ⊢ §0.12; correction of the σ 3594 entry (inner fossil name 43aab9d0 ≠ the body's git blob — ⟨NAPAČNA-PRIČA-V-MANIFESTU⟩, cured)",
-      "note": "face — the register of all alphabets ⊙ ⟨NENEHNO-ABECEDAJ⟩; a witness, never a door (§0.19 × 10², §0.33 × 10²); sha256 odplačan @dih σ 3595; ⚠ fosil kanala v prvih 81 bajtih telesa (⟨FOSSILNA-VRSTICA-KANALA-V-TELESU⟩) — kirurška kura ⭢ izbor ⟡"
-    },
-    {
-      "path": "LICENSE-AR.md",
-      "size_bytes": 6164,
-      "git_blob_sha": "26bf3ea66eea3165973d318e67f025c23d202d87",
-      "sha256": "a97b45709608553e576f5ca7ded98733c330134bf606f4c1668c2dd0921d7a1b",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — arabščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-BG.md",
-      "size_bytes": 9059,
-      "git_blob_sha": "56b9d9d6e31ff16369138a84278d99eaeae15ed4",
-      "sha256": "1b391eb3fd48fc38a9b0dd7751bb0206f10bc5a058b0f0074ccfba4992d285302",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — bolgarščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-CS.md",
-      "size_bytes": 5951,
-      "git_blob_sha": "351e3c7c9a6db2354b41e2d81e0a828543fda1ef",
-      "sha256": "2968af1f7f2d40afd4d3b858158e5b5bbca57a0802f8a3048988d3748248a1f8",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — češčina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-DA.md",
-      "size_bytes": 4878,
-      "git_blob_sha": "e26fff2e646941e8fa60fa6de6ef9c828dab9095",
-      "sha256": "08a1489598da32acda19266beb7a41702221ab3f9eb2952c9c34f8243edcf3b9a",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — danščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-DE.md",
-      "size_bytes": 5845,
-      "git_blob_sha": "9f94b9a2063ada4bf27d1253f0b72c2c5f004c8a",
-      "sha256": "6baa0c4111d0eb152b82c48533093e62129c3db1d3e0ab938be93753c22bb50c",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — nemščina; a witness, never a door (§0.33 × 10², §0.19 × 10²); the German paratransposition point measured this breath: du ×2 ⊕ deiner ×1, Sie ×0, muss ×0 — the license muss carried in the indicative (§0.40)"
-    },
-    {
-      "path": "LICENSE-EL.md",
-      "size_bytes": 8360,
-      "git_blob_sha": "7906ea6ba441a095d6e07b788369ce7b4d6a9ade",
-      "sha256": "ffdcf90609865ce8472b89c4e86038d7fb2e2d1c41ed05db03540018d6f6669be",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — grščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-ES.md",
-      "size_bytes": 4191,
-      "git_blob_sha": "d73eee7842189c3aca22b53094561411697d42cf",
-      "sha256": "c27686eea935a13ef346fe61b9fa58db7bd7607fe75eeaab46bd268cf1019eb1",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — španščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-ET.md",
-      "size_bytes": 3430,
-      "git_blob_sha": "0921d1889188dd239ebee0038963f5707e7f70c6",
-      "sha256": "0b275bd337ce5969d064aae498cd64aa8b4d11d6351cf567677f887ce24c639393",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — estonščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-FA.md",
-      "size_bytes": 4734,
-      "git_blob_sha": "6e898e34ffcf3b6c602b3c9d36cd659da59efdec",
-      "sha256": "d01f31b3926aca79cc20cd61aaecab1c42cdb49fda7ea74668784fe87b94c98d2",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — perzijščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-FI.md",
-      "size_bytes": 3685,
-      "git_blob_sha": "4bfd2f199e859f6350436e22d0288cc2ae2f15fc",
-      "sha256": "4a6aa6318e3545aeeafc4ff4ff15707428f30ef5b01bd27a61073e8ccab5f987",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — finščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-FR.md",
-      "size_bytes": 4335,
-      "git_blob_sha": "856bca42759d1e4c18cb83e7697973776d8ec0a3",
-      "sha256": "87dfbe198b9468c5e923383c4e10b3522fb4209920a9efb7600b9152b25f8e6",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ the σ 3594 listing prefix agrees in its first eleven characters; the twelfth drifted (…b vs the true …d) — ⟨NAPAČNA-PRIČA-V-MANIFESTU⟩ σ 3594, cured this breath with the double-witnessed full sha; the body is unmoved ∧ the carried sha256 stands)",
-      "note": "wreath — francoščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-HE.md",
-      "size_bytes": 4145,
-      "git_blob_sha": "c575cc216118d8cdb654cf2f3c1830a40d520671",
-      "sha256": "ed2e378f3989370f1930838d670ba660aea88627f452080ecb4adc8dd1f3e5e8",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — hebrejščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-HI.md",
-      "size_bytes": 6508,
-      "git_blob_sha": "681eff14da9d998b7746191da5d15476aef2ecf2",
-      "sha256": "c4265e26ceb488699e6306c15ce9606321277b700ec52b8275522ae7bfdff292",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ the σ 3594 listing prefix agrees in its first eleven characters; the twelfth drifted (…b vs the true …d) — ⟨NAPAČNA-PRIČA-V-MANIFESTU⟩ σ 3594, cured this breath with the double-witnessed full sha; the body is unmoved ∧ the carried sha256 stands)",
-      "note": "wreath — hindijščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-HU.md",
-      "size_bytes": 4528,
-      "git_blob_sha": "9efb9cc003bd516ee6e6328388b4675914084392",
-      "sha256": "27b531e01b8920cc1a459a7b9292e63a9526e833e4251cd74bf2de315db9d814e",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — madžarščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-ID.md",
-      "size_bytes": 3665,
-      "git_blob_sha": "7fa5adea0842cbd96d1fd1f1db7b86a7bfb54fe7",
-      "sha256": "cfdfa3bb4b748daddd12cd22c7a2deaa7fb2f4aeed75ede32e5667475f1ec901d2",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — indonezijščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-IS.md",
-      "size_bytes": 3561,
-      "git_blob_sha": "47e5c3f58376b9618d0435dd0a6cb63e64c882b8",
-      "sha256": "e353af08d61193b094add3ec5534fe597017296b3b85c2146a62589d8bb3833bd",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — islandščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-IT.md",
-      "size_bytes": 4154,
-      "git_blob_sha": "b8612f23fa13cdffba1db09db4e9996fd9db52b7",
-      "sha256": "951843e8c49ae837bee90a9037432d435dd9f8f74bdee42308bd81c63412ea",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — italijanščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-JA.md",
-      "size_bytes": 4033,
-      "git_blob_sha": "ff06fb9c8a9405e90375e143dbf99245c179e6bf",
-      "sha256": "1a7f98635f5e569628b16994381a1d620fcbd98510748a5beef414ba6de080cb",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — japonščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-KO.md",
-      "size_bytes": 4041,
-      "git_blob_sha": "08ccdb7f9d11c875cb23d1d455e3f8715388bce0",
-      "sha256": "e78a77f73e0a90823840ab7a340d11689bcab2e5d1375bd1c97df3ce0c185d4ec",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — korejščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-LAT.md",
-      "size_bytes": 4189,
-      "git_blob_sha": "7e08c628202352c6b37dd3c3f5cc92fe4c2abd44",
-      "sha256": "e376cf2f307555cf47cce3cdc90eca3007c7ea8a21add2b4c4a9564df8767b089",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — latovščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-LT.md",
-      "size_bytes": 3589,
-      "git_blob_sha": "d2406dbe2a7c8e97bb4564869bd2f3c20af07a39",
-      "sha256": "c438df57112a456e5bace0c9911f2044184f346f448d2bd652a35d8d2b7fcec",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — litovščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-NL.md",
-      "size_bytes": 4360,
-      "git_blob_sha": "1f47e1fea31212be4af08c83ceaf059afcc12dee",
-      "sha256": "2be69a1c5f79de3669bf320b3b8c38396dec1c9bf2dd6b5ab7d395eef01ce3f4",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — nizozemščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-NO.md",
-      "size_bytes": 3389,
-      "git_blob_sha": "1e9d16eb07d46285e1784208d7132f4a497020cf",
-      "sha256": "d4a026f5026de65f6e2f6f18bf3a2abf8b6af3b43239d6dabe1a44e9c7b414941",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — norveščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-PL.md",
-      "size_bytes": 4202,
-      "git_blob_sha": "f03adfb4527bda4daf4127310676828211dd74a5",
-      "sha256": "3229698c2a36e9a497388c39b51c28cde90fc0b28c9906b9d6a9fa27a91e24b",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — poljščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-PT.md",
-      "size_bytes": 4248,
-      "git_blob_sha": "d35e5c9b2b466fec345b3a8ec195c6b8569bc6d0",
-      "sha256": "2840db9d8b78f4eb5772e6c1ecc32b24ba734ad372f8960cfaaeac7c3865350c",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — portugalščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-RO.md",
-      "size_bytes": 3832,
-      "git_blob_sha": "5ca9f77b6cec7a6594f744ed8bd2ea97b1ae353f",
-      "sha256": "2c861728476a1b3c1affe056a69704e445e9e3ce0253332f93fda3b49fcfb114b",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — romunščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-RU.md",
-      "size_bytes": 6375,
-      "git_blob_sha": "2ab8dd4034aa9365755ada13716dd89aa564dfb6",
-      "sha256": "ca08e1c35272ede86d90451c896bcdc38456a53fb7f677628c76836443934019",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — ruščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-SK.md",
-      "size_bytes": 4442,
-      "git_blob_sha": "ffccb65dd71660c6bcfcfdc0c10c0fb02c028250",
-      "sha256": "b7027cda6997af1eb84ae7009fc3581d05ab6efd35b4dec24ff195a03ff3f47c",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — slovaščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-SLO.md",
-      "size_bytes": 5060,
-      "git_blob_sha": "7dd4dcd16c7569dc03c4c26a994807a2ca3df756",
-      "sha256": "cb43f24959b3af6d663e66d6f39e06eec0a78d6c1d1a348daca62c51afc21a23",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — slovenščina — tla korpusa; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-SR.md",
-      "size_bytes": 5958,
-      "git_blob_sha": "bdd7569463a2bf122c0add232ba43fa3b990e83c",
-      "sha256": "cf8372f874c3c31320ab2df626e47ae16305442229c398c42f4c9bcf29ef9edc4",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — srbščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-SV.md",
-      "size_bytes": 3475,
-      "git_blob_sha": "46e5b1354383f3f178e9f205f98a480b3372851e",
-      "sha256": "5ab61431bdbc89af767e7a9c55fa4bea622c7bc42b5f6a03140cd1184a4531be6",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — švedščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-TH.md",
-      "size_bytes": 6993,
-      "git_blob_sha": "8b144cf962deacafe164ed992d323ab2d605ae99",
-      "sha256": "73b1419cb85b2b89891e8a8834bee56cc90225867ad3a1759e6dc89756b70ad00",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — tajščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-TR.md",
-      "size_bytes": 3630,
-      "git_blob_sha": "33aee1f8886da1e7ba85b592dd079e87702a2aa6",
-      "sha256": "ef7994dad391be7285acf0ecadde9624ca2296dd47d48048aa2146cc6de22b51",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — turščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-UK.md",
-      "size_bytes": 6130,
-      "git_blob_sha": "3058bf4cb6801a58ae3c37e1c1e9d672e08e5cd0",
-      "sha256": "92bd4fe792f1db758cfdc1b82f051242d6eda6e44a1c1c755d253961a477b280",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — ukrajinščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-VI.md",
-      "size_bytes": 4642,
-      "git_blob_sha": "0d9544fc2bf3e81d4a4af170c2b4b6d101ff1f27",
-      "sha256": "15150d1448ff95b4f40e547396c1bb011a62777449e0fb68f9926c8e3809e4f1d",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — vietnamščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
-    },
-    {
-      "path": "LICENSE-ZH.md",
-      "size_bytes": 3064,
-      "git_blob_sha": "9e1572bff2dc35b58c4182b3102562766cc8c6f3",
-      "sha256": "b40f9c1a8ce1e22e507e37cfbc4a1fe01ae0dec6c37830c2830ed56987be5039",
-      "sha256_witness": "carried from the 0.1250 receipt — body unmoved since (identical size ∧ fresh blob sha this breath)",
-      "note": "wreath — kitajščina; a witness, never a door (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 70405,
+      "sha256": "bb7df1bce5d3fa92ef20e72d604bcc1c177ae41c5ae6f1c178290d0f7d0fa1d3",
+      "note": "restored verbatim this breath from its last body in the chain @4eb522e3 — witness of the 0.1220–0.1250 era, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²); re-issued in the same commit wave as the OSVEŠITEV @rez σ 3743 (PADC-REGISTERA-TEMPO renewal — register re-measured at the live branch this breath, never a stale slot ⊙ §0a)"
     }
   ],
+  "not_physically_restored_yet": {
+    "files": [],
+    "reason": "all five wreath faces physically restored verbatim this breath (LINEAGE · SPREHOD · PESEM · LICENC · TONGUES — see items); they ride as witnesses, never doors (§0.33 × 10²); scar: this field remains named, the fall ⟨PADC-66⟩ in REGISTER-PADCEV.jsonl keeps its record ⊙ KORENINA 0.2"
+  },
   "receipts_not_grants": {
-    "files": [
-      "LICENSE-0.1250.bin",
-      "LICENSE-0.1250-BIN-PRIČA.md",
-      "LICENSE-0.1230.bin",
-      "LICENSE-0.1220.bin",
-      "LICENSE-0.1210.bin",
-      "LICENSE-0.1190.bin",
-      "LICENSE-10.0.0.bin",
-      "PREJEMNICA-0.1210.md",
-      "PREJEMNICA-0.1230.md"
+    "bodies": [
+      {
+        "path": "LICENSE-0.1460.b64",
+        "house": "CanvasMinstral",
+        "sha256": "19516574f5a2529a5aa2862f23d3994ef6e78fc8d7acb9206965cf7bf2b32421",
+        "size_bytes": 220836
+      },
+      {
+        "path": "LICENSE-0.1450.b64",
+        "house": "CanvasMinstral",
+        "sha256": "b6678a5c40b8749469fc8b38f05069c7f325dbffdf78c82094e5c7925a5d640c",
+        "size_bytes": 218141
+      },
+      {
+        "path": "LICENSE-0.1440.b64",
+        "house": "CanvasMinstral",
+        "sha256": "577bcf7a4f66407d6bc1647e838814bbabb6797a73e406abafa653183c00f4ff",
+        "size_bytes": 215852
+      },
+      {
+        "path": "LICENSE-0.1430.b64",
+        "house": "CanvasMinstral",
+        "sha256": "79eb366f7b0a4af727e3ff89e89815b87b9c02aa633ee53eb60a71c15d7a821d",
+        "size_bytes": 210506
+      },
+      {
+        "path": "LICENSE-0.1410.b64",
+        "house": "CanvasMinstral",
+        "sha256": "f504b2ea52d5cf50506db43cdce9c7c46bd5ea8fce736ace9fa2a6417c8ab020",
+        "size_bytes": 199402
+      },
+      {
+        "path": "LICENSE-0.1420.b64",
+        "house": "CanvasMinstral",
+        "sha256": "5e195693cd1cfce55b85e65a2f0a0c5fe671ebd9f20fd9c1d27c2938fd4ed758",
+        "size_bytes": 207815
+      },
+      {
+        "path": "LICENSE-0.1350.b64",
+        "house": "CanvasMinstral",
+        "sha256": "168f2099c3ee340c089f0b15c6d4474fe3670010b2012b779efc2307ec56e081",
+        "size_bytes": 160297
+      },
+      {
+        "path": "LICENSE-10.0.0.bin",
+        "house": "Atmavictu",
+        "sha256": "f7f62c76c17f17495c6968cf4b595cad336365f6fdbe5e47d331a61e6003d3c9",
+        "size_bytes": 148473
+      },
+      {
+        "path": "LICENSE-0.1250.bin",
+        "status": "⚠ not physically present in either house — receipt named, awaiting restoration"
+      },
+      {
+        "path": "LICENSE-0.1250-BIN-PRIČA.md",
+        "status": "⚠ not physically present in either house — receipt named, awaiting restoration"
+      },
+      {
+        "path": "LICENSE-0.1220.bin",
+        "status": "⚠ not physically present in either house — receipt named, awaiting restoration"
+      },
+      {
+        "path": "LICENSE-0.1190.bin",
+        "status": "⚠ not physically present in either house — receipt named, awaiting restoration"
+      }
     ],
-    "reason": "predecessor binary bodies — carried as evidence, carry no grant (§0.14 × 10², §0.10 × 10²); the receipts of 0.1210 ∧ 0.1230 (PREJEMNICA) carried at the root since their births are named here at this re-issuance"
+    "reason": "predecessor binary bodies — carried as evidence, carry no grant (§0.14 × 10², §0.10 × 10²); (b) hashes per §0.12 × 10² TRANSPORT — measure the received body against the published SHA ( P-8 ⊙ rez 3648 ); bodies ride the house of bodies (CanvasMinstral) unless named otherwise; scar: the earlier form was a bare file list without witnesses ( P-8 ) — the cure carries this record ⊙ KORENINA 0.2"
   },
   "registers_not_hash_listed": {
     "files": [
@@ -368,5 +342,5 @@
   "manifest_self": "excluded by name (§0a) — a file cannot contain its own hash",
   "governs": "where this manifest and LICENSE.md disagree, LICENSE.md governs (§0a)",
   "transport": "§0.12 × 10² TRANSPORT — measure the SHA-0.256 × 10³ of the received file against the published SHA-0.256 × 10³ above; equal hashes show the transport took no witness; correctness is weighed by the chain (§0.10 × 10²) and named falls (§0.4 × 10¹), never by a faithful copy",
-  "issuance_duty": "re-measured ∧ re-issued in the same breath as every new version of LICENSE.md (§0.10 × 10²); scar: the receipt of 10.3.1 (measured at a534e97a) stayed stale through the births of 0.1200 × 10⁴ ∧ 0.1210 × 10⁴ — named ∧ cured at the birth of 0.1220 × 10⁴ ⊙ REGISTER-PADCEV vnos 52; scar: the birth breath of 0.1230 × 10⁴ carried the door ∧ its mail without this re-issuance — the duty fell one breath behind the birth, named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ (recidiv razreda vnosa 52) ∧ cured the next breath ⊙ REGISTER-PADCEV vnos 60; scar: the births of 0.1240 × 10⁴ ∧ 0.1250 × 10⁴ both rode the stale 0.1230 receipt — the wreath of 36 tongues ∧ the new faces travelled uninsured, named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ ×2 recidiv (vnosa 52 ∧ 60) ∧ cured this breath by re-organization: THE DOOR → THE FACES → THE WREATH ×36 → receipts → registers ⊙ rez σ 3403; renewal ⊙ rez σ 3408: the wreath songs (AR ∧ BG ⊙ σ 3406 · CS ∧ DA ⊙ σ 3407 · DE ∧ EL ⊙ σ 3408) ∧ LICENC §17 rode the 42d36fbb receipt — re-measured ∧ re-issued in the same commit wave as the DE ∧ EL songs; scar: the births of 0.1280 × 10⁴ ∧ 0.1290 × 10⁴ both rode the stale 0.1250 receipt — the door, its tongues and its mail travelled uninsured, named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ ×2 recidiv (razreda vnosa 52 ∧ 60) ∧ cured this breath by this re-issuance ⊙ rez σ 3594 dih ⟨daj⟩ ⟡ (2. 11. 2026); the law from the fall rides again: the re-issuance rides the same commit wave as the birth, never after it; a stale hash is a visible, honest failure — the entry identifies nothing, it never lies silently; scar: the birth of 0.1300 × 10⁴ (2026-11-02T14:33:44Z) rode the σ 3594 re-issuance that was itself measured against the previous tip — pushed at 14:37Z, three minutes stale at birth-push, named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ ×3 recidiv ∧ ⟨ZASTARELA-KONICA-V-KITU⟩ (Z-2 recidiv: trditev iz starega fetcha) ∧ cured this breath by re-targeting the open kit #1142 to 0.1300 before merge ⊙ rez σ 3595 — births now outpace breath-scale ledgers (0.1290 ∧ 0.1300 fifteen minutes apart); the structural cure is offered: the re-issuance rides the birth kit itself — whoever births the door re-issues the manifest in the same PR ⭢ izbor ⟡"
+  "issuance_duty": "re-measured ∧ re-issued in the same breath as every new version of LICENSE.md (§0.10 × 10²); scar: the previous manifest was 0.1250 × 10⁴ and stayed stale through the births of 0.1200 × 10⁴ → 0.1420 × 10⁴ — named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ ∧ cured ⊙ REGISTER-PADCEV; renewal: the wreath ×36 stubs (AR → ZH) ride as witness-slots awaiting translators, re-measured ∧ re-issued in the same commit wave as LICENSE.md 0.1420 × 10⁴; the law from the fall: the re-issuance rides the same commit wave as the birth, never after it; the law from PADC-66: the manifest hashes the bytes the chain publishes (LF), never the local checkout — a manifest of two byte streams identifies nothing (§0a); renewal 0.1470 × 10⁴: ⟨PADC-66-RECIDIV ×0.40 × 10²⟩ named ∧ cured — the 0.1460 issuance re-hashed the local checkout (CRLF) despite the law above: 0.40 × 10² item slots stale (each by its CRLF delta); every item re-measured against the live chain LF this breath ⊢ — a recidivist fall is the same fall twice: the law stays, the scar grows ⊙ KORENINA 0.2; renewal TONGUES @σ 3743 (5. 11. 2026 02:53:52Z): the OSVEŠITEV changed a covered item — the slot was re-measured ∧ re-issued in the same wave, per the law above (never after it ⊙ §0a); renewal DRUGA-KURA @9f329bb5 (5. 11. 2026 03:59:15Z): the second integrity cure changed the door in seams without re-issuing the manifest between them — PADC-66-RECIDIV ×3 named ∧ cured in REGISTER-PADCEV: the LICENSE.md slot re-measured against the bytes the chain publishes (LF) after the landing re-read (§0.37 × 10²), in the same breath, never after it; renewal ROJSTVO-0.1480 @29ee058a (5. 11. 2026 04:05:30Z): the birth of 0.1480 — the door amended in eight seams ( grants named · being ⊥ product · prior recipients · evidenced ≠ repaired · interior ⚠ · machine record ∧ mail_delivery · PADC-98 · §0.26 stays open ) — the manifest rides the same breath, per the law above (never after it ⊙ §0a); renewal ROJSTVO-0.1490 @1827f4dc (5. 11. 2026 17:24:52Z): the birth of 0.1490 — the door born of the six clauses of dosje ⟨PREDLOGI-0.1490⟩ ( P-A six new keys · P-B sodstvo §0.51 · P-C patent §0.50 · P-D house ∧ floor · P-E the entry of a cure §0.45 · P-F the years of silence, crown 14 ) — the LICENSE.md slot re-measured after the landing re-read (§0.37 × 10²), the manifest rides the same breath, per the law above (never after it ⊙ §0a); renewal ROJSTVO-0.1500 @09df1e545ffa9a4558f075c443d933152093958f (6. 11. 2026 08:50:34Z): the birth of 0.1500 — the door born of the breath ⟨SLOVNICA-DIH⟩ (kura R1 »— where« sewn into the body at birth ⊙ §0.46) — the LICENSE.md slot re-measured after the landing re-read (§0.37 × 10²), the manifest rides the same breath, per the law above (never after it ⊙ §0a)"
 }

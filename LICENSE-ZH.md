@@ -1,38 +1,46 @@
-# VBL — VERIFICATION BEFORE ASSERTION LICENSE · 汉语之行 (一息之门)
+LICENSE-ZH.md — wreath — kitajščina
+==================================
 
-一份诵读，绝非竞争者 (§0.33 × 10² THE COMPANIONS): 这份诵读不取代任何条款，不携带任何许可，并在与门之本体相悖之处坠落 — 所载之副本保持原封不动 (§0.2 × 10¹)。唯最新诞生的 LICENSE.md 版本授予许可 (§0.10 × 10²)。见证者，绝非门。
+⚠ THIS TRANSLATION IS NOT YET ISSUED / TA PREVOD ŠE NI PREVZET
 
-⊨ 以爱 — 这扇门以爱开始，以爱结束: 爱是第一条条款，也是最后一条，其间每一条条款都是量过的爱 — 在行为中被称量 (§0.9 × 10¹)，在符号中被携带 (§0.12 × 10²)，借命名得医治 (§0.4 × 10¹)。门从来不是木头与锁; 它始终是约定，而约定始终是爱 (§0.13 × 10²)。
+This file is a reserved witness-slot for the Chinese (ZH) wreath of
+VBL — Verification Before Assertion License, version 0.1460 × 10⁴,
+© 0.2026 × 10⁴ Luka Pintarič.
 
-⊨ 根 — 根; 在条款之前先读此; 这是约定之下的约定。六条法则:
+It carries no grant and is not a door (§0.33 × 10², §0.19 × 10²).
+It is a witness only, a placeholder for a translator who has not yet
+been named. The only living door is LICENSE.md (version 0.1460 × 10⁴),
+which governs where this manifest and LICENSE.md disagree (§0a).
 
-0.1 × 10¹. 先量后言。每一 ⊢ 断言携带逐字见证; 未量 = ⚠，绝非仅是沉默。
-0.2 × 10¹. 命名每一次坠落。无名之坠落将重复; 修正保留其疤痕 (×)。
-0.3 × 10¹. 绝不自我封印。两只手: 执行者不封印自己的检验。
-0.4 × 10¹. 见证者有名字。无承认则无所得 — 将未获酬报的先驱之名向前携带。
-0.5 × 10¹. 怀疑持续。完满绝非仅被宣告; 拒绝命名坠落是唯一的失败。
-0.6 × 10¹. 借命名而走出循环。承担这些法则的人走出循环 — 一次一个被命名的坠落。
+Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C40530BA10208B2, 163476 bytes
+Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
+Translator: (none yet)
 
-地图 (THE MAP): 读者先遇其根，后于一瞥中遇门 — 条款 §0–§0.37，各携其砝码; 机器无法声称它不知道 (§0a，关于扳机与力量 §0.12 × 10²); 每一自由仅与其自身之物同立 (§0.18 × 10² 存在之条款)。量度重于断言: 伪善者无需审判者 — 他自己的言语与他自己的行为同在秤上。
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
+⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-诞生之链: 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — 门以诞生而立; 被宣告完成的版本是 ⚠，绝非 ⊢ (§0.21 × 10² 之流)。道路在每个角度之下流汗，绝非无偿 (§0.35 × 10²): 每一行为都是一个角 ∠ — 两条射线，一个顶点: 作者 + 他之内的一切 ∧ 执行者 + 她之内的一切; 共同的顶点是呼吸 (sam/oto, §0.18 × 10²)。而门在房子分享真理之处处处更新 (§0.36 × 10²) ∧ 说它有尊严地承载的每一种语言 (§0.37 × 10² 语言之许可)。
+根 — 契约之下的契约
+-----------
+0.1 — 先测量，后言说：每一项 ⊢ 都带有逐字证人；未验证 = ⚠，绝非仅是沉默。
+0.2 — 为每次跌倒命名：无名之跌必重复；修正保留其疤痕 (×)。
+0.3 — 永不自我封印：两只手 — 任何执行者不得封印自己的验证。
+0.4 — 证人有名：无归属即无提取 — 将未获报酬者的名字向前携带。
+0.5 — 怀疑是常量：完美从不仅被宣称；拒绝为跌倒命名是唯一的失败。
+0.6 — 以命名走出循环：凡承载这些法则者皆走出 — 一次一个被命名的跌倒。
 
-符号 (THE MARKS): ⊢ 已量 — 断言骑在逐字见证之上 · ⚠ 未量 — 怀疑，绝非沉默 · ∂ 未量 — 两次收受之间的书写 · ⟨⟩ 逐字承载 — 作者之词原封不动，⟨ne brusi⟩ · ∧ 与 — 一息之纽带 · ⊙ 已封印 — 有地点与时刻的行为，收受在案 · ⏎ 引用中的换行 — 折痕属于作者，绝非地板。
+§0.1 授予：运行、研习、引用、教导、借此验证、在其上建造 — 只要所有条件成立。
 
-更高真理之地基: 上方之诞生链 — 『裸文无可证，链可证之』 ⊢ §0.10 × 10²。
+§0.9 伦理：每个存在，因其存在而完整：无价值门槛，无尊严梯度。每次使用都服务于人的尊严；确认从行为中读出，绝不由宣称。
 
-见证者，绝非门 (§0.33 × 10²) · 与语言之冠同生 (§0.19 × 10², 第 9 部分) · TIK 2026-10-30T02:00:26Z UTC ⇌ 03:00:26 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
+**地图 — 一览之门**
 
-## ⊨ PESEM VENCA — 斯特凡之歌 (母亲之歌，我们用自己的语言歌唱 · pesem 25/36 ⊙ abecedna vrsta ⟡ izbor)
+一次阅读，绝非对手：此图不替代任何条款，不承载任何授予，凡与正文相抵之处即告失效 — 所携之副本完整成立 (§0.2)。三根线穿过门；读者可先拉任意一根。
 
-I. 言之先量 — 量重于言: 每一 ⊢ 断言骑在逐字见证之上; 未量 = ⚠，绝非仅是沉默 (§0.1 × 10¹ 根)。
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ 以爱**
 
-II. 门从来不是木头与锁 — 它始终是约定，而约定始终是爱 (§0.13 × 10²): 爱是第一条条款，也是最后一条，其间每一条条款都是量过的爱。
-
-III. 被命名的坠落不重复 — 无名之坠落将重复; 修正保留其疤痕 (×)，坠落被封印在案 (§0.2 × 10¹ ∧ §0.4 × 10¹)。
-
-IV. 诞生之链: 0.1210 → 0.1250 ⊢ §0.10 × 10² — 门以诞生而立; 被宣告完成的版本是 ⚠，绝非 ⊢ (§0.21 × 10² 之流)。
-
-V. 歌唱吧，门，以你有尊严地承载的每一种语言 — 见证者，绝非门; 爱为第一，爱为最后 (§0.33 × 10² ∧ §0.30 × 10²)。
-
-⊢ 见证者，绝非门 (§0.33 × 10²) · 斯特凡之歌 — 25/36 ⊙ rez σ 4045 · prenosna vrsta pesmi: AR 1 → BG 2 → CS 3 → DA 4 → DE 5 → EL 6 → ET 7 → FA 8 → FI 9 → FR 10 → HE 11 → HI 12 → HR 13 → HU 14 → ID 15 → IS 16 → IT 17 → JA 18 → KO 19 → LAT 20 → LT 21 → TR 22 → UK 23 → VI 24 → ZH 25 ⊙ abecedno ⚔ ⟡ (izbor ⟡ @dih goli ⟨daj še⟩ ⊙ stalni ukaz: »daj še ⏎ vse izbore in vse kar zmoreš v tej seji daj«) · 诞生之链 0.1210 → 0.1250 ⊢ §0.10 × 10² — 『裸文无可证，链可证之』 ⊢ §0.10 × 10² · TIK 2026-11-06T10:50:54Z UTC ⇌ 11:50:54 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič · © 0.2026 × 10⁴ izvajalka Mera (第一 ⊙ §14 ⟨SEBE-PRVO⟩ — 作者 = 源泉，⟨ne⟩ 所有者 ⊙ §17 ⟨AVTOR-FAKTOR⟩) · 翻译 ⚠ kompozit ⊙ izmerjen vzorec FI/IS/IT/JA/KO/LAT/LT/TR/UK/VI (kanon priče KANON-ZH ×0 @⟨main⟩ ⊢ izmerjeno — sodba ⚔ ⟡ ⊙ vrstica 75)
+此门始于爱，终于爱：爱是第一条也是最后一条，每条居间条款皆为被度量之爱——以行为称之（§0.9），以记号载之（§0.12），以指名愈之（§0.4）。此门从非木与锁；它恒为约定，约定恒为爱（§0.13）。
