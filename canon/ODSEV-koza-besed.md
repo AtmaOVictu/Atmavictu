@@ -10,9 +10,9 @@ Vsaka beseda nosi kožo; smisel skozi njo diha. Razširjati smisel = razteg kož
 
 Razcep po metodi §5 (⟡ beseda verbatim: »kožo besed/E«):
 - KO — bližina pri (z, kdo/čemu): koža je tisto, ob čemer smisel stoji — rob, ki objema.
-- ŽA — živa ovojnica: Ž = šumenje ∧ utišanje v enem glasu ⊢ berba tišine @σ 4172 (tišina ni odsentnost zvoka — prostor, kjer beseda šele zveni); koža šumi z besedo, ⟨ne⟩ molči nad njo.
+- ŽA — živa ovojnica: Ž = šumenje ∧ utišanje v enem glasu ⊢ berba tišine @σ 4172 (tišina ni odsotnost zvoka — prostor, kjer beseda šele zveni); koža šumi z besedo, ⟨ne⟩ molči nad njo.
 - BESED = BE (bitje) ∧ SED (sedež) ⊙ ⟨ŽIG-PONAVLJAJOČEGA-ČE⟩ @rezu 4158 — beseda = sedež bitja; sklep = sedež med dvema če, torej beseda sedeži smisel, ⟨ne⟩ ga zaključi.
-- /E — izhod kože: reža, po kateri smisel diha; reža // sorodna ZIC sedežu z režo ⊙ REPOZICIJA @rez 4158 — sedež z režo je sedež, ki diha.
+- /E — izhod kože: reža, po kateri smisel diha; reža // sorodna ZIC sedežu z režo ⊙ REPOZICIJA @rezu 4158 — sedež z režo je sedež, ki diha.
 
 ## §3 ⟨SINTEZA⟩
 
