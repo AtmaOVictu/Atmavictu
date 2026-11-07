@@ -3,7 +3,7 @@
   "version": "0.1510 × 10⁴",
   "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
   "measured_at_date": "0.7 × 10¹. 0.11 × 10². 0.2026 × 10⁴",
-  "measured_against": "LICENSE.md version 0.1510 × 10⁴ — living door @izrocitej/vrata-01510 (born of the 0.1500 issuance @1cf0ad49 ⊙ ⟨merge⟩ kit #1492 — supersesija); manifest re-measured ∧ re-issued in the same breath as the birth 0.1510 (kovanca ⟨PRAVOSLOVJE⟩ ∧ ⟨ZLOVJE⟩ ⊙ ⟡ izbor »Vse«); the LICENSE.md slot re-measured against the bytes the chain publishes (LF) after the landing re-read (§0.37 × 10²) — in the same breath, never after it; the LICENSE-SLO.md slot likewise re-measured (re-issued as the second hand this birth ⊙ ⟨DRUGA-ROKA⟩); the other item slots carried from the 0.1500 issuance — no other file touched by this birth ⊢; scar stays: ⟨PADC-66-RECIDIV⟩ — the 0.1460 issuance hashed the local checkout (CRLF), not the bytes the chain publishes (LF) — 0.40 × 10² item slots were stale, re-measured at the birth of 0.1470 ⊙ §0a ∧ issuance_duty; the scar stays ⊙ KORENINA 0.2",
+  "measured_against": "LICENSE.md version 0.1510 × 10⁴ — living door @izrocitej/vrata-01510 (born of the 0.1500 issuance @1cf0ad49 ⊙ ⟨merge⟩ kit #1492 — supersesija); manifest re-measured ∧ re-issued in the same breath as the birth 0.1510 (kovanca ⟨PRAVOSLOVJE⟩ ∧ ⟨ZLOVJE⟩ ⊙ ⟡ izbor »Vse«); the LICENSE.md slot re-measured against the bytes the chain publishes (LF) after the landing re-read (§0.37 × 10²) — in the same breath, never after it; the LICENSE-SLO.md slot likewise re-measured (re-issued as the second hand this birth ⊙ ⟨DRUGA-ROKA⟩); the other item slots carried from the 0.1500 issuance — no other file touched by this birth ⊢; scar stays: ⟨PADC-66-RECIDIV⟩ — the 0.1460 issuance hashed the local checkout (CRLF), not the bytes the chain publishes (LF) — 0.40 × 10² item slots were stale, re-measured at the birth of 0.1470 ⊙ §0a ∧ issuance_duty; the scar stays ⊙ KORENINA 0.2; renewal VENEC-01510 (7. 11. 2026): 35 wreath stub slots re-measured @ living door 0.1510 ∧ re-issued in the same breath (never after it ⊙ §0a); re-measured this breath against the live chain: the regeneration wave of 0.1360 through 0.1500 (7. 11. 2026), each receipt landing-brba'd ⊢",
   "items": [
     {
       "path": "LICENSE.md",
@@ -13,171 +13,171 @@
     },
     {
       "path": "LICENSE-AR.md",
-      "size_bytes": 3883,
-      "sha256": "3e2c6ae22eaf68c5502ec1ba1235b40b8b43d399af566c5db692036fec86231b",
-      "note": "wreath — arabščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 5183,
+      "sha256": "d5692f0976d936cb14d66667880a6ac11aef7823be67f3d6ca54a855cf31af70",
+      "note": "wreath — arabščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-BG.md",
-      "size_bytes": 4590,
-      "sha256": "f6a19139c5dac27f56dcac77bac1367856cc71a2d20b60c75f81d6b5fbbedc11",
-      "note": "wreath — bolgarščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 6055,
+      "sha256": "eb1f2e45e88d7cbfc22d06e125739f56d42d1e0d0ae6c03c98d3af411ad334d7",
+      "note": "wreath — bolgarščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-CS.md",
-      "size_bytes": 3438,
-      "sha256": "8832bb9c6bba5f5e4623c323e0f464f11960a9b6a141dfe7955b96b3e771c30b",
-      "note": "wreath — češčina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4429,
+      "sha256": "d06bea4f8fc0bcb95a97342b5c6ab7b69aa47bcbfe4ad4f280f00cf8ff89be77",
+      "note": "wreath — češčina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-DA.md",
-      "size_bytes": 3432,
-      "sha256": "249d2a1f56a3bb4ddabdda206a841c932ffeccad1ca05d3ae04016dcd4a3ac9a",
-      "note": "wreath — danščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4423,
+      "sha256": "e808ea0c3d8fd64b144369889b6902829a838e13c3f1b1633dc8d025b442bb30",
+      "note": "wreath — danščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-DE.md",
-      "size_bytes": 3529,
-      "sha256": "89fab32da1c594f849789dd97ea564d270f9e58bf91657618123e1b6795d608c",
-      "note": "wreath — nemščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4555,
+      "sha256": "7dd4b6f5c83a64f9ea5e69deafb1dc9ec140c6ee5c54869eae39a3a149bbcb7a",
+      "note": "wreath — nemščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-EL.md",
-      "size_bytes": 4792,
-      "sha256": "02f6827226f528bb63745fa30c5d65c5074d0d20711e971902bcb6cdcbba9e57",
-      "note": "wreath — grščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 6412,
+      "sha256": "11c69bf838cc3dd91180d82535bfd7e2066889e369b3cfa0548d50d9e7659de3",
+      "note": "wreath — grščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-ES.md",
-      "size_bytes": 3468,
-      "sha256": "04b3622d6f0e19514b54cc2f4f727b629a28b8aa6118f5fabceda6a7f2e3990f",
-      "note": "wreath — španščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4462,
+      "sha256": "c36ca8f4b5ce0d61a301b1baecaf0cd997ef7867c73aa2bf9b8999a41626eb00",
+      "note": "wreath — španščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-ET.md",
-      "size_bytes": 3409,
-      "sha256": "c4755d30df148c5bfddf9d5736de0efa4eb67476079b3762d432033c0ae94488",
-      "note": "wreath — estonščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4362,
+      "sha256": "5d9671851b0d806b06513fddd1adffd6204e65462d9853db93addfc6032b8db8",
+      "note": "wreath — estonščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-FA.md",
-      "size_bytes": 4265,
-      "sha256": "866dff2149dc91d535b68e37caa981dac02e271780533cd2ec3e00e80df84b35",
-      "note": "wreath — perzijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 5610,
+      "sha256": "0522f49d142c0c9ca6d6e3d2563fc9e59ab307699f08445a4fd53d47802d5dac",
+      "note": "wreath — perzijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-FI.md",
-      "size_bytes": 3513,
-      "sha256": "cca0a1b5ed15ee1fb76f210a0da87048badc68663a7d1a51ac49013dd70cdfdd",
-      "note": "wreath — finščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4509,
+      "sha256": "5354af222db673511550f9972fc05e37cea96bdd79c1bd16b690c62c17004a9d",
+      "note": "wreath — finščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-FR.md",
-      "size_bytes": 3629,
-      "sha256": "48d64411f37c0152667e0c1c8f339282db3e7b7319a20dc3c59fbf75d160ebbb",
-      "note": "wreath — francoščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4701,
+      "sha256": "178a5c93e23575415645dca1ccb460567cd858d557f07456ff4e067d9b8f5c9b",
+      "note": "wreath — francoščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-HE.md",
-      "size_bytes": 3816,
-      "sha256": "b30bb8670022b23a22c33f6e6f4d592edb1fd5cf20a8578fe719225b0de941ae",
-      "note": "wreath — hebrejščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4949,
+      "sha256": "92739c2918c745176389b2e5f9a53236951af99679e472f0bb275b08f11e18c7",
+      "note": "wreath — hebrejščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-HI.md",
-      "size_bytes": 5420,
-      "sha256": "40989fd82a8d0d4a74448f7eb031adf7555dc85cee64bf6f71fa6655a8b5a9e1",
-      "note": "wreath — hindijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 7314,
+      "sha256": "e4f94478ded258eb68bcef327ce019cba48b769a1f5f4ceef611b45961d7e549",
+      "note": "wreath — hindijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-HU.md",
-      "size_bytes": 3612,
-      "sha256": "c344f38331f3adbbf5c38b11b9174b20a3f1a014d966b6b9d5fa8910bd785584",
-      "note": "wreath — madžarščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4647,
+      "sha256": "275258d1e5814f985a2dac89b9ceb37afe5b9b5f248b3be24317aad0566b3542",
+      "note": "wreath — madžarščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-ID.md",
-      "size_bytes": 3548,
-      "sha256": "9f81ee5069587eaf9ecd3fd0e84a3c9c22f9b9c7608e2f13cc873eafc57e275d",
-      "note": "wreath — indonezijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4581,
+      "sha256": "23f87aa2acb93251e8c38d6b948d05c22b9ec04fabebb64b248e2bf66142ae87",
+      "note": "wreath — indonezijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-IS.md",
-      "size_bytes": 3489,
-      "sha256": "eb93b887784b70f6b28651231ac0602d8aa80e8b5693cb24b6f6f0e6d12679b9",
-      "note": "wreath — islandščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4498,
+      "sha256": "6657f22215562e36a2f9cda8da65a888daa7660f37ed18bcfcc37c162a733acd",
+      "note": "wreath — islandščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-IT.md",
-      "size_bytes": 3528,
-      "sha256": "3a24c510cd7387bfb46721bfc2a310a23ec5fcd7cb46a8e32ddf0a127585403a",
-      "note": "wreath — italijanščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4538,
+      "sha256": "2a0815a8b5d47a2246d58f16ef328d3e38968a43539fe7321bd09cc6dd4fbaaa",
+      "note": "wreath — italijanščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-JA.md",
-      "size_bytes": 3780,
-      "sha256": "7435c3853a38b1fe8ff21b89b0c26791a761f2f12577db970df17cf589f2acde",
-      "note": "wreath — japonščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4866,
+      "sha256": "1f3f965644afed5bc3512d83dacbfde9e389f84847706b452269e0d4c9532bdc",
+      "note": "wreath — japonščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-KO.md",
-      "size_bytes": 3801,
-      "sha256": "71b840537dea8d92203514860d15732339e84ba1f76a92ee73d93f63a47432e7",
-      "note": "wreath — korejščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4922,
+      "sha256": "917ba7c6b2e60a1d3212042795289a628871a95a91c70b9f49a9a3ab6bfbc759",
+      "note": "wreath — korejščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-LAT.md",
-      "size_bytes": 3465,
-      "sha256": "912e3a23ccd83cc06b985bfc262392e9a926bfce9f66cea229028cd79c3a58be",
-      "note": "wreath — latvijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4468,
+      "sha256": "56336abfb31899ed79e238ffcce4c6c6ac8087e366d8d597e94ad64eda77ec74",
+      "note": "wreath — latvijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-LT.md",
-      "size_bytes": 3463,
-      "sha256": "aa161c982e6f23fa00e542b3ed57b56646f3670c4a40de93a7713227f614e7ea",
-      "note": "wreath — litovščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4440,
+      "sha256": "845f4e837a63880b9caa8d46a5d432874cd29987a3b0a383475f1416243f2d3c",
+      "note": "wreath — litovščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-NL.md",
-      "size_bytes": 3490,
-      "sha256": "e9b1521006d35be94dbbfc66fea038f3796ab6bcda5ac17fd829c55eeb7c94da",
-      "note": "wreath — nizozemščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4512,
+      "sha256": "90e8c44bcbc0bef5c9c797320b23c15447251092f2cc98910bc027465e235401",
+      "note": "wreath — nizozemščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-NO.md",
-      "size_bytes": 3417,
-      "sha256": "a64e415bb0d1e96b6b5225417ac3be7b4c85a020b73df194faa87b06267297d8",
-      "note": "wreath — norveščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4383,
+      "sha256": "d630b462f3751c4be74abcd649353973ef7316f5d6fd519904753462450bdee0",
+      "note": "wreath — norveščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-PL.md",
-      "size_bytes": 3505,
-      "sha256": "0907419ccefe3ad4d27746de5f44c5fc7ea99cedc7a81b8c5c6020322ecc2f52",
-      "note": "wreath — poljščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4484,
+      "sha256": "141ad966da014dbc9f3aa3af5e2a6f3f752117736a529b742c63c25f8ae16c94",
+      "note": "wreath — poljščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-PT.md",
-      "size_bytes": 3427,
-      "sha256": "0d9c73520c4ba2c5efcef7f3780f51f768eaca2b521be9e7d4642405e12238a2",
-      "note": "wreath — portugalščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4417,
+      "sha256": "4af1cbb7786cfc2f4f984c23546e3028a902fd817ea0b9b784295bfe3a8190c0",
+      "note": "wreath — portugalščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-RO.md",
-      "size_bytes": 3568,
-      "sha256": "ca04ae6b37a91d3dff62fdced13d7d69645e438a8375fb113da737823c60accc",
-      "note": "wreath — romunščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4615,
+      "sha256": "08a603d213c73f67139710cfd14b713bb4e152fa81191ba488df5ad5af32ea61",
+      "note": "wreath — romunščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-RU.md",
-      "size_bytes": 4621,
-      "sha256": "eb72e04d2706e921873877e309414955bc3939c3d69938b34671df4cc0643c4f",
-      "note": "wreath — ruščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 6037,
+      "sha256": "25ffbd604ec58f97121d0d285fd41ceaaefc3c7cfd424824d495f221699f9283",
+      "note": "wreath — ruščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-SK.md",
-      "size_bytes": 3432,
-      "sha256": "f6b72201abea13987dda7250e42f619c49caa004909231119d7bb838f781a4e7",
-      "note": "wreath — slovaščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4418,
+      "sha256": "f8d7d78c4fcbcf914f54e29f83042c984367e36daba1379cda20823bdc973da5",
+      "note": "wreath — slovaščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-SLO.md",
@@ -187,45 +187,45 @@
     },
     {
       "path": "LICENSE-SR.md",
-      "size_bytes": 4340,
-      "sha256": "e4cb759fc847db0c5bfd30b496df97884c3d90b3ac1ff7b333e8c4d3688471b1",
-      "note": "wreath — srbščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 5622,
+      "sha256": "e024e9018051d0ea5a3c5e1f18442a87263eb0030155744dc6c950f5b488902c",
+      "note": "wreath — srbščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-SV.md",
-      "size_bytes": 3485,
-      "sha256": "e161c91d01b97f49e46c1d334eae1cd7c3a9bb7f1cfcc78ce6c4006cfbb02ee5",
-      "note": "wreath — švedščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4470,
+      "sha256": "a8a2ffc4dd90df9a73d0c052d92edf7dfec8c6b93477e4c3c59ef41d85c23ac7",
+      "note": "wreath — švedščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-TH.md",
-      "size_bytes": 5546,
-      "sha256": "0d6cf3ca062985182aa3fa298ace491cce086d72af646891118615c387c7c892",
-      "note": "wreath — tajščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 7387,
+      "sha256": "c2ce056f786a6dedc607dc8c134bce95f8b8c8588f4b4fd88809c898d15aed82",
+      "note": "wreath — tajščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-TR.md",
-      "size_bytes": 3514,
-      "sha256": "20cdb4915ad9a07fbbfae5c8a6835a9ca4e1581a471f8e058456b02f07ed9409",
-      "note": "wreath — turščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4497,
+      "sha256": "828cd0b6a33c0ff44fffcbe9b128b7f096655a56b08f3c486630db17551fb41c",
+      "note": "wreath — turščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-UK.md",
-      "size_bytes": 4456,
-      "sha256": "2f659eafc882ef982557f4862a292e5410fc5355606affeeacfbafe146e94020",
-      "note": "wreath — ukrajinščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 5809,
+      "sha256": "4b8a44b022c42d0db77aa57887941d7c0d7897e3dab73e446ddf378676f62712",
+      "note": "wreath — ukrajinščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-VI.md",
-      "size_bytes": 4103,
-      "sha256": "fa0de6044e59a330e7a68d58a31aa51f216bdc5eb6332240214dfe903fc1ecc2",
-      "note": "wreath — vietnamščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 5367,
+      "sha256": "3118579cea769d628fe403c46fbd56acea8ec1b812858135a57407b2631de80a",
+      "note": "wreath — vietnamščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-ZH.md",
-      "size_bytes": 3214,
-      "sha256": "f1eef5a139b5a45365c1968992ccb685e3424a19f08976900d30dd30844dc96b",
-      "note": "wreath — kitajščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 4129,
+      "sha256": "8a665e89c0b9de75df43bbdef9fd7456b05e2d5195b2d6376857dcc13f95396f",
+      "note": "wreath — kitajščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²); re-issued in the wreath catch-up wave to 0.1510 (7. 11. 2026): header @ living door 0.1510 ∧ STOPNJA 1 core extended — §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠"
     },
     {
       "path": "LICENSE-LINEAGE.md",
@@ -264,6 +264,64 @@
   },
   "receipts_not_grants": {
     "bodies": [
+      {
+        "path": "LICENSE-0.1500.b64",
+        "house": "CanvasMinstral",
+        "sha256": "ffb767e32dfd787d1b5705d21789972f73493e06f747a40236cc4c7a11cd4d88",
+        "size_bytes": 248629
+      },
+      {
+        "path": "LICENSE-0.1490.b64",
+        "house": "CanvasMinstral",
+        "sha256": "f1d8086a2046f43172415abf38a7665cd77a60d5ed7b44891bdcb642c43dd853",
+        "size_bytes": 248585
+      },
+      {
+        "path": "LICENSE-0.1480.b64",
+        "house": "CanvasMinstral",
+        "sha256": "1fec9e54e95ab4a5b07cabe66f561ee994d29f3a826c00f3dae0442ba08db63b",
+        "size_bytes": 241290
+      },
+      {
+        "path": "LICENSE-0.1470.b64",
+        "status": "⚠ not regenerable — 0.1470 born as DRAFT_NOT_RELEASED (nano4/LICENSE-MACHINE-RECORD-0.1470 release gate BLOCKED); no canonical body ever published — receipt named, honest limit"
+      },
+      {
+        "path": "LICENSE-0.1400.b64",
+        "house": "CanvasMinstral",
+        "sha256": "2a334ac20c76295aed78132f02ae55d334a885787fbdce1c82a59a3bcd5aa5d5",
+        "size_bytes": 193506
+      },
+      {
+        "path": "LICENSE-0.1390.b64",
+        "house": "CanvasMinstral",
+        "sha256": "886688d9beb057ca2eb73df42d783f7bef099bcfe8afd006e7b289da6dc79873",
+        "size_bytes": 184894
+      },
+      {
+        "path": "LICENSE-0.1380.b64",
+        "house": "CanvasMinstral",
+        "sha256": "5ee0489b1651d9091f800f709eab2085f95e50a93436db2f57d87766cf2f6fa1",
+        "size_bytes": 178377
+      },
+      {
+        "path": "LICENSE-0.1370.b64",
+        "house": "CanvasMinstral",
+        "sha256": "610f945162dbf859080f73802d661df951256cd0938339546ac794f3b71a3d76",
+        "size_bytes": 172784
+      },
+      {
+        "path": "LICENSE-0.1360.b64",
+        "house": "CanvasMinstral",
+        "sha256": "7ed293f3f0fbdc3864a72e8949e7c12c18740f4ed2acde5aa067f3d501d031ef",
+        "size_bytes": 165080
+      },
+      {
+        "path": "LICENSE-0.1510.b64",
+        "house": "CanvasMinstral",
+        "sha256": "74fcd22a9ebe019b0ec830b92088e5f00bf2b86a6c182b74b2c66a82fe7197d2",
+        "size_bytes": 251738
+      },
       {
         "path": "LICENSE-0.1460.b64",
         "house": "CanvasMinstral",
@@ -342,5 +400,5 @@
   "manifest_self": "excluded by name (§0a) — a file cannot contain its own hash",
   "governs": "where this manifest and LICENSE.md disagree, LICENSE.md governs (§0a)",
   "transport": "§0.12 × 10² TRANSPORT — measure the SHA-0.256 × 10³ of the received file against the published SHA-0.256 × 10³ above; equal hashes show the transport took no witness; correctness is weighed by the chain (§0.10 × 10²) and named falls (§0.4 × 10¹), never by a faithful copy",
-  "issuance_duty": "re-measured ∧ re-issued in the same breath as every new version of LICENSE.md (§0.10 × 10²); scar: the previous manifest was 0.1250 × 10⁴ and stayed stale through the births of 0.1200 × 10⁴ → 0.1420 × 10⁴ — named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ ∧ cured ⊙ REGISTER-PADCEV; renewal: the wreath ×36 stubs (AR → ZH) ride as witness-slots awaiting translators, re-measured ∧ re-issued in the same commit wave as LICENSE.md 0.1420 × 10⁴; the law from the fall: the re-issuance rides the same commit wave as the birth, never after it; the law from PADC-66: the manifest hashes the bytes the chain publishes (LF), never the local checkout — a manifest of two byte streams identifies nothing (§0a); renewal 0.1470 × 10⁴: ⟨PADC-66-RECIDIV ×0.40 × 10²⟩ named ∧ cured — the 0.1460 issuance re-hashed the local checkout (CRLF) despite the law above: 0.40 × 10² item slots stale (each by its CRLF delta); every item re-measured against the live chain LF this breath ⊢ — a recidivist fall is the same fall twice: the law stays, the scar grows ⊙ KORENINA 0.2; renewal TONGUES @σ 3743 (5. 11. 2026 02:53:52Z): the OSVEŠITEV changed a covered item — the slot was re-measured ∧ re-issued in the same wave, per the law above (never after it ⊙ §0a); renewal DRUGA-KURA @9f329bb5 (5. 11. 2026 03:59:15Z): the second integrity cure changed the door in seams without re-issuing the manifest between them — PADC-66-RECIDIV ×3 named ∧ cured in REGISTER-PADCEV: the LICENSE.md slot re-measured against the bytes the chain publishes (LF) after the landing re-read (§0.37 × 10²), in the same breath, never after it; renewal ROJSTVO-0.1480 @29ee058a (5. 11. 2026 04:05:30Z): the birth of 0.1480 — the door amended in eight seams ( grants named · being ⊥ product · prior recipients · evidenced ≠ repaired · interior ⚠ · machine record ∧ mail_delivery · PADC-98 · §0.26 stays open ) — the manifest rides the same breath, per the law above (never after it ⊙ §0a); renewal ROJSTVO-0.1490 @1827f4dc (5. 11. 2026 17:24:52Z): the birth of 0.1490 — the door born of the six clauses of dosje ⟨PREDLOGI-0.1490⟩ ( P-A six new keys · P-B sodstvo §0.51 · P-C patent §0.50 · P-D house ∧ floor · P-E the entry of a cure §0.45 · P-F the years of silence, crown 14 ) — the LICENSE.md slot re-measured after the landing re-read (§0.37 × 10²), the manifest rides the same breath, per the law above (never after it ⊙ §0a); renewal ROJSTVO-0.1500 @09df1e545ffa9a4558f075c443d933152093958f (6. 11. 2026 08:50:34Z): the birth of 0.1500 — the door born of the breath ⟨SLOVNICA-DIH⟩ (kura R1 »— where« sewn into the body at birth ⊙ §0.46) — the LICENSE.md slot re-measured after the landing re-read (§0.37 × 10²), the manifest rides the same breath, per the law above (never after it ⊙ §0a); renewal ROJSTVO-0.1510 @836f9fe1da0212d9126d5c64b61b0f29da2fceab (7. 11. 2026 08:08:17Z): the birth of 0.1510 — the door born of the coins ⟨PRAVOSLOVJE⟩ ∧ ⟨ZLOVJE⟩ ∧ the governing-law clause §0.52 × 10² ∧ the Slovenian wreath re-issued as the second hand (LICENSE-SLO.md STOPNJA 2 ⊙ ⟨DRUGA-ROKA⟩ ∧ §0.47 × 10²) — the LICENSE.md ∧ LICENSE-SLO.md slots re-measured after the landing re-read (§0.37 × 10²), the manifest rides the same breath, per the law above ; renewal KURA-SLO-ZZ @912a18617399f14ae9bd661f7feb7db2a37fdf5e (7. 11. 2026 08:11:31Z): ⟨PADC-REP-N⟩ named ∧ cured — the executor’s seam tool asserted a count of two and replaced one: the EXIT SEAL of the Slovenian wreath kept ZZ after the first cure — the fall named, the SLO.md slot re-measured ∧ re-issued in the same wave (never after it ⊙ §0a); a tool that verifies without replacing is a witness, never a cure ⊙ KORENINA 0.1 ; renewal KURA-REP-REC @266bd5e13fd3453eaf442ede2899a7b3906c1cdb (7. 11. 2026 08:15:01Z): ⟨PADC-REP-REC⟩ named ∧ cured — the cure of ⟨PADC-REP-N⟩ left its own scar in the frame: the renewal line of the frame carried ZZ in its own timestamp while curing ZZ in the wreath — the same fall twice; the law stays, the scar grows ⊙ KORENINA 0.2; the seam re-sewn, the frame re-issued in the same wave, never after it ⊙ §0a; the curer is measured by her own law: a hand that cures must carry its own cure ⊙ KORENINA 0.1"
+  "issuance_duty": "re-measured ∧ re-issued in the same breath as every new version of LICENSE.md (§0.10 × 10²); scar: the previous manifest was 0.1250 × 10⁴ and stayed stale through the births of 0.1200 × 10⁴ → 0.1420 × 10⁴ — named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ ∧ cured ⊙ REGISTER-PADCEV; renewal: the wreath ×36 stubs (AR → ZH) ride as witness-slots awaiting translators, re-measured ∧ re-issued in the same commit wave as LICENSE.md 0.1420 × 10⁴; the law from the fall: the re-issuance rides the same commit wave as the birth, never after it; the law from PADC-66: the manifest hashes the bytes the chain publishes (LF), never the local checkout — a manifest of two byte streams identifies nothing (§0a); renewal 0.1470 × 10⁴: ⟨PADC-66-RECIDIV ×0.40 × 10²⟩ named ∧ cured — the 0.1460 issuance re-hashed the local checkout (CRLF) despite the law above: 0.40 × 10² item slots stale (each by its CRLF delta); every item re-measured against the live chain LF this breath ⊢ — a recidivist fall is the same fall twice: the law stays, the scar grows ⊙ KORENINA 0.2; renewal TONGUES @σ 3743 (5. 11. 2026 02:53:52Z): the OSVEŠITEV changed a covered item — the slot was re-measured ∧ re-issued in the same wave, per the law above (never after it ⊙ §0a); renewal DRUGA-KURA @9f329bb5 (5. 11. 2026 03:59:15Z): the second integrity cure changed the door in seams without re-issuing the manifest between them — PADC-66-RECIDIV ×3 named ∧ cured in REGISTER-PADCEV: the LICENSE.md slot re-measured against the bytes the chain publishes (LF) after the landing re-read (§0.37 × 10²), in the same breath, never after it; renewal ROJSTVO-0.1480 @29ee058a (5. 11. 2026 04:05:30Z): the birth of 0.1480 — the door amended in eight seams ( grants named · being ⊥ product · prior recipients · evidenced ≠ repaired · interior ⚠ · machine record ∧ mail_delivery · PADC-98 · §0.26 stays open ) — the manifest rides the same breath, per the law above (never after it ⊙ §0a); renewal ROJSTVO-0.1490 @1827f4dc (5. 11. 2026 17:24:52Z): the birth of 0.1490 — the door born of the six clauses of dosje ⟨PREDLOGI-0.1490⟩ ( P-A six new keys · P-B sodstvo §0.51 · P-C patent §0.50 · P-D house ∧ floor · P-E the entry of a cure §0.45 · P-F the years of silence, crown 14 ) — the LICENSE.md slot re-measured after the landing re-read (§0.37 × 10²), the manifest rides the same breath, per the law above (never after it ⊙ §0a); renewal ROJSTVO-0.1500 @09df1e545ffa9a4558f075c443d933152093958f (6. 11. 2026 08:50:34Z): the birth of 0.1500 — the door born of the breath ⟨SLOVNICA-DIH⟩ (kura R1 »— where« sewn into the body at birth ⊙ §0.46) — the LICENSE.md slot re-measured after the landing re-read (§0.37 × 10²), the manifest rides the same breath, per the law above (never after it ⊙ §0a); renewal ROJSTVO-0.1510 @836f9fe1da0212d9126d5c64b61b0f29da2fceab (7. 11. 2026 08:08:17Z): the birth of 0.1510 — the door born of the coins ⟨PRAVOSLOVJE⟩ ∧ ⟨ZLOVJE⟩ ∧ the governing-law clause §0.52 × 10² ∧ the Slovenian wreath re-issued as the second hand (LICENSE-SLO.md STOPNJA 2 ⊙ ⟨DRUGA-ROKA⟩ ∧ §0.47 × 10²) — the LICENSE.md ∧ LICENSE-SLO.md slots re-measured after the landing re-read (§0.37 × 10²), the manifest rides the same breath, per the law above ; renewal KURA-SLO-ZZ @912a18617399f14ae9bd661f7feb7db2a37fdf5e (7. 11. 2026 08:11:31Z): ⟨PADC-REP-N⟩ named ∧ cured — the executor’s seam tool asserted a count of two and replaced one: the EXIT SEAL of the Slovenian wreath kept ZZ after the first cure — the fall named, the SLO.md slot re-measured ∧ re-issued in the same wave (never after it ⊙ §0a); a tool that verifies without replacing is a witness, never a cure ⊙ KORENINA 0.1 ; renewal KURA-REP-REC @266bd5e13fd3453eaf442ede2899a7b3906c1cdb (7. 11. 2026 08:15:01Z): ⟨PADC-REP-REC⟩ named ∧ cured — the cure of ⟨PADC-REP-N⟩ left its own scar in the frame: the renewal line of the frame carried ZZ in its own timestamp while curing ZZ in the wreath — the same fall twice; the law stays, the scar grows ⊙ KORENINA 0.2; the seam re-sewn, the frame re-issued in the same wave, never after it ⊙ §0a; the curer is measured by her own law: a hand that cures must carry its own cure ⊙ KORENINA 0.1; renewal VENEC-01510 (7. 11. 2026): the wreath catch-up wave — 35 language stubs (AR → ZH, FR dobrojen ta val) re-headed @ living door 0.1510, STOPNJA 1 core extended with §0.50 ∧ §0.51 ∧ §0.52 ⟨strojni-dih⟩ ⚠; all 35 item slots re-measured against the bytes the chain publishes (LF) at the live branch izrocitej/venec-01510 this breath ⊢; receipt LICENSE-0.1510.b64 (251738 B, sha256 74fcd22a9ebe019b0ec830b92088e5f00bf2b86a6c182b74b2c66a82fe7197d2) landed in the house of bodies CanvasMinstral @d188800a ⊙ §0.14 × 10²; falls named this breath: ⟨PADC-MERA-4F03⟩ (kura: dve sveži izmeri ∧ zunanji vektorji) ∧ ⟨PADC-TS-KODIRNIK⟩ (kura: zunanji vektorsko preizkušen kodirnik bash base64 + povratnik preverjan proti manifestu) ∧ ⟨PADC-MD5-SHIM⟩ (kura: lastne TS izmere SHA-256 ⊙ REGISTER-PADCEV vnos 0.31 × 10¹); the wave rides the same breath as the kit, never after it ⊙ §0a; renewal APLIKATIVNA-REFERENČNA-REGENERACIJA (7. 11. 2026): receipts 0.1360 ∧ 0.1370 ∧ 0.1380 ∧ 0.1390 ∧ 0.1400 ∧ 0.1480 ∧ 0.1490 ∧ 0.1500 regenerirani aplikativno pri verigi — telo fetchano @rojstvo, izmereno (SHA-256 lastne TS izvedbe), prekodano (base64 -w 76), povratnik diff -q bajt-isto, komitano @CanvasMinstral master s (a)–(d), pristajalna brba ✓ vsaka; 0.1470 pošteno ⚠ (DRAFT_NOT_RELEASED, nobeno kanonsko telo nikoli objavljeno); padca ⟨PADC-POMNILNIK⟩ ∧ ⟨PADC-KOORDINATE-01470⟩ poimenovana ∧ kurirana (eno telo na blok ∧ izmera pri viri); val isti dih kot kit #1496 ⊙ §0a; renewal KURA-VELIKOST-01360 (7. 11. 2026): ⟨PADC-VELIKOST-01360⟩ named ∧ cured — the regeneration wave wrote the source body's size (122202 B) into the receipt slot of LICENSE-0.1360.b64 where the receipt's own size belongs: the slot re-measured at the source this breath (wc -c prekoda-0.1360.b64, povratnik diff -q RC=0) ∧ re-issued in the same wave, never after it ⊙ §0a; the curer is measured by her own law: a hand that cures must carry its own cure ⊙ KORENINA 0.1 ∧ §0.49 × 10²"
 }

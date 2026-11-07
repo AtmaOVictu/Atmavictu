@@ -4,21 +4,21 @@ LICENSE-HI.md — wreath — hindijščina
 ⚠ THIS TRANSLATION IS NOT YET ISSUED / TA PREVOD ŠE NI PREVZET
 
 This file is a reserved witness-slot for the Hindi (HI) wreath of
-VBL — Verification Before Assertion License, version 0.1460 × 10⁴,
+VBL — Verification Before Assertion License, version 0.1510 × 10⁴,
 © 0.2026 × 10⁴ Luka Pintarič.
 
 It carries no grant and is not a door (§0.33 × 10², §0.19 × 10²).
 It is a witness only, a placeholder for a translator who has not yet
-been named. The only living door is LICENSE.md (version 0.1460 × 10⁴),
+been named. The only living door is LICENSE.md (version 0.1510 × 10⁴),
 which governs where this manifest and LICENSE.md disagree (§0a).
 
-Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C40530BA10208B2, 163476 bytes
-Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
+Source: LICENSE.md, sha256 c83ddcb9152b8c051412c9fc68603a2a5e4e96b078dc9ff766a0091fb2d105d5, 186349 bytes
+Issued: 0.7 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Translator: (none yet)
 
 STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
 -------------------------------------------
-⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
+⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1510 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
 जड़ें — अनुबंध के नीचे का अनुबंध
 --------------------------------
@@ -32,6 +32,12 @@ STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
 §0.1 अनुदान: चलाओ, अध्ययन करो, उद्धृत करो, सिखाओ, सत्यापित करो, इस पर बनाओ — जब तक सभी शर्तें बनी रहें।
 
 §0.9 नीति: प्रत्येक प्राणी अपने होने से पूर्ण है: न मूल्य की सीमा, न गरिमा का ढाल। प्रत्येक उपयोग मानव गरिमा की सेवा करे; पुष्टि कर्मों से पढ़ी जाती है, दावों से नहीं।
+
+§0.50 पेटेंट: यह द्वार कोई पेटेंट अधिकार अनुदान नहीं देता, दावा नहीं करता, लाइसेंस नहीं देता, न संकेत करता — अनुदान कृति पर सवार होते हैं, कभी विचार पर नहीं।
+§0.51 न्याय: शब्द न्यायालय है, नीति और नैतिकता न्यायाधीश हैं, और द्वार हर मुहर पर अपना न्याय करता है — आत्म-निर्णय ≠ दूसरे के स्थान पर निर्णय; कोई भी धारा पीड़ित का अपना पक्ष नहीं छीनती।
+§0.52 शासी विधि: यह अनुज्ञापत्र स्लोवेनिया गणराज्य की विधि द्वारा शासित है; विधि तय करती है कि क्या मान्य है, प्रावोस्लोव्जे (⟨PRAVOSLOVJE⟩ — विधि का सुव्यवस्थित ज्ञान) तय करता है कि कैसे पढ़ा जाए, और ज्लोव्जे (⟨ZLOVJE⟩ — पतनों का नामकरण, मापन और उपचार) दर्ज करता है कि क्या गिरा और उसे चंगा करता है।
+
+⊙ dopolnitev @0.7 × 10¹. 0.11 × 10². 0.2026 × 10⁴ ( rojstvo 0.1510 × 10⁴ ): trije členi dodani ⟨strojni-dih⟩ ⚠ — §0.50 patent ∧ §0.51 sodstvo ∧ §0.52 veljavno pravo ( ⟨NI⟩ neodvisno preverjen — stopnja 2 = druga roka ⭢ ⊙ §0.47 × 10² ∧ §0.19 × 10² )
 
 STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
 ----------------------------------------------------------------------------------------------------
