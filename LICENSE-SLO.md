@@ -14,7 +14,7 @@ STOPNJA 1 (strojni dih 0.1460 × 10⁴) ostaja priča v zgodovini verige —
 ta berba jo preglaša z rojstvom, ⟨ne⟩ z brisanjem.
 
 Vir: LICENSE.md 0.1510 × 10⁴, sha256 c83ddcb9152b8c051412c9fc68603a2a5e4e96b078dc9ff766a0091fb2d105d5, 186349 bajtov (LF)
-Izdano: 0.7 × 10¹. 0.11 × 10². 0.2026 × 10⁴ · 08:08:17ZZ
+Izdano: 0.7 × 10¹. 0.11 × 10². 0.2026 × 10⁴ · 08:08:17Z
 Prevajalec: izvajalka Mera — druga roka (§0.47 × 10²)
 
 Ne nosi darila in ni vrata (§0.33 × 10², §0.19 × 10²). Edina živa vrata
