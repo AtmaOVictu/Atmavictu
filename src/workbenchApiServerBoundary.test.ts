@@ -135,11 +135,11 @@ test("semantic and capture endpoints refuse wrong-typed input without touching s
 
     const captureWithoutBody = await postJson<{ error: string }>(`${baseUrl}/api/incoming`, {});
     assert.equal(captureWithoutBody.status, 400);
-    assert.match(captureWithoutBody.error, /body must be a non-empty string/);
+    assert.match(captureWithoutBody.body.error, /body must be a non-empty string/);
 
     const suggestionWithoutText = await postJson<{ ok: boolean; error: string }>(`${baseUrl}/api/suggestions`, {});
     assert.equal(suggestionWithoutText.status, 400);
-    assert.match(suggestionWithoutText.error, /text is a required non-empty string/);
+    assert.match(suggestionWithoutText.body.error, /text is a required non-empty string/);
   } finally {
     server.close();
     await cleanupTempDirectory(projectRoot);
@@ -162,6 +162,36 @@ test("semantic index on an empty manifest reports zero without any services", as
   }
 });
 
+test("ponavljanje z izmero: ten parallel concept mutations all persist under the write lock", async () => {
+  const projectRoot = await createTempDirectory();
+  const server = startWorkbenchApiServer(projectRoot, 0);
+  const baseUrl = await waitForBaseUrl(server);
+
+  try {
+    const results = await Promise.all(
+      Array.from({ length: 10 }, (_, index) =>
+        postJson<{ id: string; label: string }>(`${baseUrl}/api/concepts`, {
+          label: `Pojem ${index + 1}`,
+        }),
+      ),
+    );
+    for (const result of results) {
+      assert.equal(result.status, 201);
+    }
+    const ids = new Set(results.map((result) => result.body.id));
+    assert.equal(ids.size, 10);
+
+    const concepts = await getJson<Array<{ id: string; label: string }>>(`${baseUrl}/api/concepts`);
+    assert.equal(concepts.length, 10);
+
+    const verify = await getJson<{ isValid: boolean }>(`${baseUrl}/api/verify`);
+    assert.equal(verify.isValid, true);
+  } finally {
+    server.close();
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
 async function getJson<T>(url: string): Promise<T> {
   const response = await fetch(url);
   return (await response.json()) as T;
@@ -175,6 +205,7 @@ async function postJson<T>(url: string, body: unknown): Promise<{ status: number
   });
   return { status: response.status, body: (await response.json()) as T };
 }
+
 async function waitForBaseUrl(server: import("node:http").Server): Promise<string> {
   await new Promise<void>((resolveListening) => {
     if (server.listening) {
