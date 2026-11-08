@@ -41,7 +41,13 @@ test("library listing ignores workbench internals and walks nested directories",
   await writeFile(join(projectRoot, "node_modules", "x.js"), "module.exports = {};", "utf8");
   await mkdir(join(projectRoot, ".git"), { recursive: true });
   await writeFile(join(projectRoot, ".git", "config"), "[core]", "utf8");
-  await writeFile(join(projectRoot, "book.workbench.json"), "{}", "utf8");
+  // A real, valid empty manifest: an invalid one would poison every route
+  // that calls ensureManifestFile — this test must protect, not corrupt.
+  await writeFile(
+    join(projectRoot, "book.workbench.json"),
+    JSON.stringify({ manifestVersion: "2", incomingTexts: [], fragments: [], insertions: [] }),
+    "utf8",
+  );
 
   const server = startWorkbenchApiServer(projectRoot, 0);
   const baseUrl = await waitForBaseUrl(server);
