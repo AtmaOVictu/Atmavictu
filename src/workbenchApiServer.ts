@@ -2,7 +2,7 @@ import { createServer, type Server } from "node:http";
 import { readdir, readFile } from "node:fs/promises";
 import { isAbsolute, join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { randomUUID } from "node:crypto";
+import { createHash } from "node:crypto";
 
 import express, { type Express, type NextFunction, type Request, type Response } from "express";
 
@@ -26,6 +26,7 @@ import {
   captureIncomingText,
   ensureManifestFile,
   getManifestPath,
+  ManifestRepositoryError,
   writeManifestToFile,
 } from "./workbenchManifestRepository.js";
 
@@ -74,6 +75,57 @@ export interface WorkbenchApiOptions {
   qdrantUrl?: string;
 }
 
+/**
+ * Per-project-root write locks for manifest read-modify-write cycles.
+ * Without serialization, two concurrent mutations can interleave
+ * (read A, read B, write A, write B) and one update is silently lost.
+ * One lock entry per distinct root lives for the process lifetime — a
+ * server holds a small, fixed set of roots, so the map cannot grow unbounded.
+ */
+const manifestWriteLocks = new Map<string, Promise<void>>();
+
+/**
+ * Serializes manifest mutations per project root. A failed operation never
+ * poisons the queue: the next operation starts regardless of the previous
+ * outcome, while callers still receive their own result or rejection.
+ */
+export function withManifestLock<T>(projectRoot: string, operation: () => Promise<T>): Promise<T> {
+  const lockKey = resolve(requireNonEmptyString("projectRoot", projectRoot));
+  const previousLock = manifestWriteLocks.get(lockKey) ?? Promise.resolve();
+  const release = previousLock.then(
+    () => undefined,
+    () => undefined,
+  );
+  const result = release.then(operation);
+  manifestWriteLocks.set(
+    lockKey,
+    result.then(
+      () => undefined,
+      () => undefined,
+    ),
+  );
+  return result;
+}
+
+/**
+ * Deterministic Qdrant point id per fragment, derived from the fragment id.
+ * Re-indexing upserts onto the same point instead of accumulating duplicate
+ * vectors for one fragment (randomUUID() created a fresh point every run).
+ */
+export function fragmentPointId(fragmentId: string): string {
+  const digest = createHash("sha256")
+    .update(`workbench-fragment:${fragmentId}`)
+    .digest("hex")
+    .slice(0, 32);
+  return [
+    digest.slice(0, 8),
+    digest.slice(8, 12),
+    digest.slice(12, 16),
+    digest.slice(16, 20),
+    digest.slice(20, 32),
+  ].join("-");
+}
+
 export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApiOptions = {}): Express {
   const normalizedProjectRoot = requireNonEmptyString("projectRoot", projectRoot);
   const extraLibraryRoot = options.extraLibraryRoot?.trim() || undefined;
@@ -107,7 +159,15 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
   app.get("/api/library/content", asyncRoute(async (req, res) => {
     const filePath = requireQueryString(req, "path");
     const resolvedPath = resolveWithinRoot(normalizedProjectRoot, filePath, "path");
-    res.json({ path: filePath, content: await readFile(resolvedPath, "utf8") });
+    try {
+      res.json({ path: filePath, content: await readFile(resolvedPath, "utf8") });
+    } catch (error) {
+      if (isNodeErrnoException(error) && error.code === "ENOENT") {
+        res.status(404).json({ error: `File not found in library: ${filePath}` });
+        return;
+      }
+      throw error;
+    }
   }));
 
   app.get("/api/library/extra", asyncRoute(async (_req, res) => {
@@ -118,8 +178,13 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
     const files = await listProjectFiles(extraLibraryRoot);
     const entries = await Promise.all(
       files.map(async (filePath) => {
-        const content = await readFile(join(extraLibraryRoot, filePath), "utf8");
-        return { path: filePath, deloProvenance: parseDeloProvenance(content) };
+        try {
+          const content = await readFile(join(extraLibraryRoot, filePath), "utf8");
+          return { path: filePath, deloProvenance: parseDeloProvenance(content) };
+        } catch (error) {
+          // Name the failure per file instead of failing the whole listing.
+          return { path: filePath, deloProvenance: null, readError: errorMessage(error) };
+        }
       }),
     );
     res.json(entries);
@@ -132,7 +197,15 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
     }
     const filePath = requireQueryString(req, "path");
     const resolvedPath = resolveWithinRoot(extraLibraryRoot, filePath, "path");
-    res.json({ path: filePath, content: await readFile(resolvedPath, "utf8") });
+    try {
+      res.json({ path: filePath, content: await readFile(resolvedPath, "utf8") });
+    } catch (error) {
+      if (isNodeErrnoException(error) && error.code === "ENOENT") {
+        res.status(404).json({ error: `File not found in extra library: ${filePath}` });
+        return;
+      }
+      throw error;
+    }
   }));
 
   app.get("/api/tree", asyncRoute(async (_req, res) => {
@@ -155,12 +228,14 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
 
   app.post("/api/incoming", asyncRoute(async (req, res) => {
     const { title, body, note, sourcePath } = req.body as Record<string, unknown>;
-    const result = await captureIncomingText(normalizedProjectRoot, {
-      body: requireBodyString("body", body),
-      ...(typeof title === "string" ? { title } : {}),
-      ...(typeof note === "string" ? { note } : {}),
-      ...(typeof sourcePath === "string" ? { sourcePath } : {}),
-    });
+    const result = await withManifestLock(normalizedProjectRoot, () =>
+      captureIncomingText(normalizedProjectRoot, {
+        body: requireBodyString("body", body),
+        ...(typeof title === "string" ? { title } : {}),
+        ...(typeof note === "string" ? { note } : {}),
+        ...(typeof sourcePath === "string" ? { sourcePath } : {}),
+      }),
+    );
     res.status(201).json(result.value);
   }));
 
@@ -180,10 +255,15 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
     "/api/fragments",
     mutateRoute(normalizedProjectRoot, (manifest, req) => {
       const { incomingTextId, body, title, conceptIds } = req.body as Record<string, unknown>;
-      return createFragmentFromIncoming(manifest, requireBodyString("incomingTextId", incomingTextId), requireBodyString("body", body), {
-        ...(typeof title === "string" ? { title } : {}),
-        ...(Array.isArray(conceptIds) ? { conceptIds: conceptIds as string[] } : {}),
-      });
+      return createFragmentFromIncoming(
+        manifest,
+        requireBodyString("incomingTextId", incomingTextId),
+        requireBodyString("body", body),
+        {
+          ...(typeof title === "string" ? { title } : {}),
+          ...(conceptIds !== undefined ? { conceptIds: readOptionalStringArray("conceptIds", conceptIds) } : {}),
+        },
+      );
     }, 201),
   );
 
@@ -209,8 +289,8 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
     mutateRoute(normalizedProjectRoot, (manifest, req) => {
       const { title, note } = req.body as Record<string, unknown>;
       return updateIncomingText(manifest, req.params.id!, {
-        ...(title !== undefined ? { title: title as string | null } : {}),
-        ...(note !== undefined ? { note: note as string | null } : {}),
+        ...(title !== undefined ? { title: readOptionalNullableString("title", title) } : {}),
+        ...(note !== undefined ? { note: readOptionalNullableString("note", note) } : {}),
       });
     }),
   );
@@ -220,10 +300,12 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
     mutateRoute(normalizedProjectRoot, (manifest, req) => {
       const { title, text, note, conceptIds } = req.body as Record<string, unknown>;
       return updateFragment(manifest, req.params.id!, {
-        ...(title !== undefined ? { title: title as string | null } : {}),
-        ...(text !== undefined ? { text: text as string } : {}),
-        ...(note !== undefined ? { note: note as string | null } : {}),
-        ...(conceptIds !== undefined ? { conceptIds: conceptIds as string[] | null } : {}),
+        ...(title !== undefined ? { title: readOptionalNullableString("title", title) } : {}),
+        ...(text !== undefined ? { text: readOptionalNonEmptyString("text", text) } : {}),
+        ...(note !== undefined ? { note: readOptionalNullableString("note", note) } : {}),
+        ...(conceptIds !== undefined
+          ? { conceptIds: readOptionalNullableStringArray("conceptIds", conceptIds) }
+          : {}),
       });
     }),
   );
@@ -233,14 +315,18 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
     mutateRoute(normalizedProjectRoot, (manifest, req) => {
       const { targetChapterPath, positionNote, note } = req.body as Record<string, unknown>;
       return updateInsertion(manifest, req.params.id!, {
-        ...(targetChapterPath !== undefined ? { targetChapterPath: targetChapterPath as string } : {}),
-        ...(positionNote !== undefined ? { positionNote: positionNote as string | null } : {}),
-        ...(note !== undefined ? { note: note as string | null } : {}),
+        ...(targetChapterPath !== undefined
+          ? { targetChapterPath: readOptionalNonEmptyString("targetChapterPath", targetChapterPath) }
+          : {}),
+        ...(positionNote !== undefined
+          ? { positionNote: readOptionalNullableString("positionNote", positionNote) }
+          : {}),
+        ...(note !== undefined ? { note: readOptionalNullableString("note", note) } : {}),
       });
     }),
   );
 
-app.post(
+  app.post(
     "/api/concepts",
     mutateRoute(normalizedProjectRoot, (manifest, req) => {
       const { label, note } = req.body as Record<string, unknown>;
@@ -311,7 +397,7 @@ app.post(
     });
   }));
 
-app.post("/api/suggestions", asyncRoute(async (req, res) => {
+  app.post("/api/suggestions", asyncRoute(async (req, res) => {
     const text = (req.body as Record<string, unknown> | undefined)?.text;
     if (typeof text !== "string" || text.trim().length === 0) {
       res.status(400).json({ ok: false, error: "text is a required non-empty string." });
@@ -320,13 +406,18 @@ app.post("/api/suggestions", asyncRoute(async (req, res) => {
     try {
       const suggestions = await requestOllamaSuggestions(ollamaUrl, text);
       res.json({ ok: true, ...suggestions });
-    } catch {
-      // Degrade gracefully: never block the workbench on an unreachable model.
-      res.status(502).json({ ok: false, error: "suggestion service is unavailable." });
+    } catch (error) {
+      // Degrade gracefully: never block the workbench on an unreachable model,
+      // but never swallow the cause either — name it in the response.
+      res.status(502).json({
+        ok: false,
+        error: "suggestion service is unavailable.",
+        cause: errorMessage(error),
+      });
     }
   }));
 
-app.post("/api/semantic/index-fragments", asyncRoute(async (_req, res) => {
+  app.post("/api/semantic/index-fragments", asyncRoute(async (_req, res) => {
     const manifest = await ensureManifestFile(normalizedProjectRoot);
     const fragments = manifest.fragments;
     if (fragments.length === 0) {
@@ -341,7 +432,7 @@ app.post("/api/semantic/index-fragments", asyncRoute(async (_req, res) => {
           continue;
         }
         points.push({
-          id: randomUUID(),
+          id: fragmentPointId(fragment.id),
           vector,
           payload: {
             fragmentId: fragment.id,
@@ -356,7 +447,11 @@ app.post("/api/semantic/index-fragments", asyncRoute(async (_req, res) => {
       }
       res.json({ ok: true, indexed: points.length });
     } catch (error) {
-      res.status(502).json({ ok: false, error: "semantic index service is unavailable." });
+      res.status(502).json({
+        ok: false,
+        error: "semantic index service is unavailable.",
+        cause: errorMessage(error),
+      });
     }
   }));
 
@@ -371,19 +466,24 @@ app.post("/api/semantic/index-fragments", asyncRoute(async (_req, res) => {
     try {
       const vector = await embedText(ollamaUrl, query);
       if (vector.length === 0) {
-        res.status(502).json({ ok: false, error: "could not embed the query." });
+        res.status(502).json({
+          ok: false,
+          error: "could not embed the query.",
+          cause: "embedding service returned an empty vector.",
+        });
         return;
       }
       const data = await qdrantSend(qdrantUrl, `/collections/${QDRANT_COLLECTION}/points/search`, "POST", buildQdrantSearchBody(vector, limit));
       res.json({ ok: true, results: parseQdrantSearchResponse(data) });
     } catch (error) {
-      res.status(502).json({ ok: false, error: "semantic search service is unavailable." });
+      res.status(502).json({
+        ok: false,
+        error: "semantic search service is unavailable.",
+        cause: errorMessage(error),
+      });
     }
   }));
 
-  app.use(errorHandler);
-  app.use(errorHandler);
-  app.use(errorHandler);
   app.use(errorHandler);
 
   return app;
@@ -402,7 +502,8 @@ export function startWorkbenchApiServer(
  * Shared read-modify-write wrapper for the 5 pure model operations
  * (startProcessingIncoming/createFragmentFromIncoming/insertFragmentIntoChapter/
  * archiveIncoming/archiveFragment): none of them persist on their own, so every
- * route needs the same read -> apply -> write sequence.
+ * route needs the same read -> apply -> write sequence. The whole cycle runs
+ * under the per-root manifest lock so concurrent requests cannot interleave.
  */
 function mutateRoute<TValue>(
   projectRoot: string,
@@ -410,11 +511,13 @@ function mutateRoute<TValue>(
   successStatus = 200,
 ) {
   return asyncRoute(async (req, res) => {
-    const manifestPath = getManifestPath(projectRoot);
-    const manifest = await ensureManifestFile(projectRoot);
-    const result = apply(manifest, req);
-    await writeManifestToFile(manifestPath, result.manifest);
-    res.status(successStatus).json(result.value);
+    await withManifestLock(projectRoot, async () => {
+      const manifestPath = getManifestPath(projectRoot);
+      const manifest = await ensureManifestFile(projectRoot);
+      const result = apply(manifest, req);
+      await writeManifestToFile(manifestPath, result.manifest);
+      res.status(successStatus).json(result.value);
+    });
   });
 }
 
@@ -426,7 +529,12 @@ function asyncRoute(handler: (req: Request, res: Response) => Promise<void>) {
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function errorHandler(error: unknown, _req: Request, res: Response, _next: NextFunction): void {
-  const message = error instanceof Error ? error.message : String(error);
+  const message = errorMessage(error);
+  if (error instanceof ManifestRepositoryError) {
+    // The manifest storage itself is broken — this is never the client's fault.
+    res.status(500).json({ error: message, code: error.code });
+    return;
+  }
   res.status(400).json({ error: message });
 }
 
@@ -551,6 +659,61 @@ function requireQueryString(req: Request, name: string): string {
   return value;
 }
 
+/**
+ * undefined = field absent from the request (leave untouched);
+ * null = explicit removal; otherwise a non-empty string. Anything else is a
+ * named 400 instead of a silent `as string | null` cast that crashes later
+ * deep inside the model layer.
+ */
+function readOptionalNullableString(name: string, value: unknown): string | null | undefined {
+  if (value === undefined) {
+    return undefined;
+  }
+  if (value === null) {
+    return null;
+  }
+  if (typeof value !== "string" || value.trim().length === 0) {
+    throw new Error(`${name} must be a non-empty string or null.`);
+  }
+  return value;
+}
+
+/** undefined = absent; otherwise a non-empty string (no null removal channel). */
+function readOptionalNonEmptyString(name: string, value: unknown): string | undefined {
+  if (value === undefined) {
+    return undefined;
+  }
+  if (typeof value !== "string" || value.trim().length === 0) {
+    throw new Error(`${name} must be a non-empty string.`);
+  }
+  return value;
+}
+
+/** undefined = absent; otherwise a non-empty-string array (silently ignoring a wrong type hides client bugs). */
+function readOptionalStringArray(name: string, value: unknown): string[] | undefined {
+  if (value === undefined) {
+    return undefined;
+  }
+  if (!Array.isArray(value) || !value.every((item) => typeof item === "string" && item.trim().length > 0)) {
+    throw new Error(`${name} must be an array of non-empty strings.`);
+  }
+  return value;
+}
+
+/** undefined = absent; null = removal; otherwise a non-empty-string array. */
+function readOptionalNullableStringArray(name: string, value: unknown): string[] | null | undefined {
+  if (value === undefined) {
+    return undefined;
+  }
+  if (value === null) {
+    return null;
+  }
+  if (!Array.isArray(value) || !value.every((item) => typeof item === "string" && item.trim().length > 0)) {
+    throw new Error(`${name} must be an array of non-empty strings or null.`);
+  }
+  return value;
+}
+
 /** Same escape-guard shape as workbenchManifestRepository's resolveProjectFilePath. */
 function resolveWithinRoot(root: string, relativeFilePath: string, name: string): string {
   const normalizedRoot = resolve(root);
@@ -609,6 +772,14 @@ function parseDeloProvenance(content: string): DeloArtifactProvenance | null {
   }
 }
 
+function errorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : String(error);
+}
+
+function isNodeErrnoException(error: unknown): error is NodeJS.ErrnoException {
+  return error instanceof Error && typeof (error as NodeJS.ErrnoException).code === "string";
+}
+
 function requireNonEmptyString(name: string, value: string): string {
   if (value.trim().length === 0) {
     throw new Error(`${name} must be a non-empty string.`);
@@ -632,6 +803,11 @@ if (isDirectExecution()) {
   if (projectRoot === undefined || projectRoot.trim().length === 0) {
     process.stderr.write(
       "Usage: node build/src/workbenchApiServer.js <projectRoot> [port] [extraLibraryRoot]\n",
+    );
+    process.exitCode = 1;
+  } else if (!Number.isInteger(port) || port < 1 || port > 65535) {
+    process.stderr.write(
+      `Port must be an integer between 1 and 65535, received: ${process.argv[3] ?? ""}\n`,
     );
     process.exitCode = 1;
   } else {
