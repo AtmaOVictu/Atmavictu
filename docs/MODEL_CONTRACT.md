@@ -1,3 +1,10 @@
+/**
+ * VBL LICENSE — VERIFICATION BEFORE ASSERTION LICENSE
+ * Version 0.1460 × 10⁴ · November 0.3 × 10¹, 0.2026 × 10⁴
+ * © 0.2026 × 10⁴ Luka Pintarič. All rights reserved beyond the grants below.
+ * See LICENSE.md for the full license text.
+ */
+
 # Atmavictu Model Contract
 
 ## Namen
