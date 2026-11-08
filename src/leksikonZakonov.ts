@@ -153,7 +153,10 @@ export function parseJsonl(besedilo: string): { meta: LeksikonMeta; leksikon: Le
   if (vrstice.length === 0) {
     throw new Error("Leksikon JSONL je prazen — izmera manjka, trditev pada (Z-2).");
   }
-  const meta = JSON.parse(vrstice[0] ?? "") as LeksikonMeta;
+  // ⟨VRSTA-V-METI⟩: JSONL meta zapis nosi tudi vrsto "meta"; LeksikonMeta je vsebina brez
+  // nje — kura: tip razširjen z { vrsta?: string }, ker tsc strict (CI) dostopa
+  // neobstoječega propertyja ne odpušča, strip-types (domači predih) pa ga je brisal.
+  const meta = JSON.parse(vrstice[0] ?? "") as LeksikonMeta & { vrsta?: string };
   if (meta.vrsta !== "meta" || typeof meta.tik !== "string") {
     throw new Error("Prva vrstica JSONL ni meta zapis — leksikon je ranjen (Z-2).");
   }
