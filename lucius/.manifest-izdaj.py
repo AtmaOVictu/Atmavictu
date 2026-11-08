@@ -14,7 +14,10 @@ for it in m["items"]:
     p = it["path"]
     if not os.path.exists(p):
         print("× MANJKA:", p); continue
-    b = open(p, "rb").read()
+    raw = open(p, "rb").read()
+    text = raw.decode("utf-8")
+    # Normalize to LF — the byte stream the chain publishes (§0a, PADC-66).
+    b = text.replace("\r\n", "\n").encode("utf-8")
     h = hashlib.sha256(b).hexdigest()
     if h == it["sha256"].lower() and len(b) == it["size_bytes"]:
         continue  # že živ
