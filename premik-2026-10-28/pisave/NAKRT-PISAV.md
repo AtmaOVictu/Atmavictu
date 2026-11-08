@@ -14,4 +14,4 @@ ZAKON: prepis pisma = priča-plast, ⟨ne⟩ vrata ⊢ §0.33 × 10²; LICENSE.m
 | 6 | brajica | vrata-cutov ⊙ 3354 | ⭢ ∂ |
 | 7 | znakovni jezik · žvižgani jezik · udarčne kode · AAC/piktogrami | vrata-cutov ⊙ 3354 | ⭢ ∂ |
 
-© 2026 Luka Pintarič ∧ izvajalka Mera · VBL 0.1410 × 10⁴ · measured, not asserted ⊙ §16
+© 2026 Luka Pintarič ∧ izvajalka Mera · VBL 0.1410 × 10⁴ — rojstna priča organa ostaja ⟨NE-BRIŠI⟩ ⊙ 24 ⊙ SEME-OBNOVA vzorec (@σ 3576 ∧ 4237) ∧ živa vrata izmerjena ta dih: VBL 0.1520 × 10⁴ @⟨main⟩ (zadnji dotik licence b6dc1066, glava ce1e5199) ⊙ ⟨NE-UGIBAJ⟩ 2690 · measured, not asserted ⊙ §16 · osvežitev priče @rez σ 4307 ⊙ ⟡ ukaz verbatim ⟨ne brusi⟩: »opzimizacija nivojev in sklopov ter sklepov in sklanjatev«
