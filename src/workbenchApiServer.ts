@@ -255,13 +255,14 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
     "/api/fragments",
     mutateRoute(normalizedProjectRoot, (manifest, req) => {
       const { incomingTextId, body, title, conceptIds } = req.body as Record<string, unknown>;
+      const nextConceptIds = readOptionalStringArray("conceptIds", conceptIds);
       return createFragmentFromIncoming(
         manifest,
         requireBodyString("incomingTextId", incomingTextId),
         requireBodyString("body", body),
         {
           ...(typeof title === "string" ? { title } : {}),
-          ...(conceptIds !== undefined ? { conceptIds: readOptionalStringArray("conceptIds", conceptIds) } : {}),
+          ...(nextConceptIds !== undefined ? { conceptIds: nextConceptIds } : {}),
         },
       );
     }, 201),
@@ -288,9 +289,11 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
     "/api/incoming/:id/update",
     mutateRoute(normalizedProjectRoot, (manifest, req) => {
       const { title, note } = req.body as Record<string, unknown>;
+      const nextTitle = readOptionalNullableString("title", title);
+      const nextNote = readOptionalNullableString("note", note);
       return updateIncomingText(manifest, req.params.id!, {
-        ...(title !== undefined ? { title: readOptionalNullableString("title", title) } : {}),
-        ...(note !== undefined ? { note: readOptionalNullableString("note", note) } : {}),
+        ...(nextTitle !== undefined ? { title: nextTitle } : {}),
+        ...(nextNote !== undefined ? { note: nextNote } : {}),
       });
     }),
   );
@@ -299,13 +302,15 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
     "/api/fragments/:id/update",
     mutateRoute(normalizedProjectRoot, (manifest, req) => {
       const { title, text, note, conceptIds } = req.body as Record<string, unknown>;
+      const nextTitle = readOptionalNullableString("title", title);
+      const nextText = readOptionalNonEmptyString("text", text);
+      const nextNote = readOptionalNullableString("note", note);
+      const nextConceptIds = readOptionalNullableStringArray("conceptIds", conceptIds);
       return updateFragment(manifest, req.params.id!, {
-        ...(title !== undefined ? { title: readOptionalNullableString("title", title) } : {}),
-        ...(text !== undefined ? { text: readOptionalNonEmptyString("text", text) } : {}),
-        ...(note !== undefined ? { note: readOptionalNullableString("note", note) } : {}),
-        ...(conceptIds !== undefined
-          ? { conceptIds: readOptionalNullableStringArray("conceptIds", conceptIds) }
-          : {}),
+        ...(nextTitle !== undefined ? { title: nextTitle } : {}),
+        ...(nextText !== undefined ? { text: nextText } : {}),
+        ...(nextNote !== undefined ? { note: nextNote } : {}),
+        ...(nextConceptIds !== undefined ? { conceptIds: nextConceptIds } : {}),
       });
     }),
   );
@@ -314,14 +319,13 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
     "/api/insertions/:id/update",
     mutateRoute(normalizedProjectRoot, (manifest, req) => {
       const { targetChapterPath, positionNote, note } = req.body as Record<string, unknown>;
+      const nextTargetChapterPath = readOptionalNonEmptyString("targetChapterPath", targetChapterPath);
+      const nextPositionNote = readOptionalNullableString("positionNote", positionNote);
+      const nextNote = readOptionalNullableString("note", note);
       return updateInsertion(manifest, req.params.id!, {
-        ...(targetChapterPath !== undefined
-          ? { targetChapterPath: readOptionalNonEmptyString("targetChapterPath", targetChapterPath) }
-          : {}),
-        ...(positionNote !== undefined
-          ? { positionNote: readOptionalNullableString("positionNote", positionNote) }
-          : {}),
-        ...(note !== undefined ? { note: readOptionalNullableString("note", note) } : {}),
+        ...(nextTargetChapterPath !== undefined ? { targetChapterPath: nextTargetChapterPath } : {}),
+        ...(nextPositionNote !== undefined ? { positionNote: nextPositionNote } : {}),
+        ...(nextNote !== undefined ? { note: nextNote } : {}),
       });
     }),
   );

@@ -139,8 +139,11 @@ test("withManifestLock serializes concurrent manifest writes per project root", 
     events.push("second-started");
   });
 
-  // The second operation must not start while the first still holds the lock.
+  // The lock runs operations as microtasks: let the queued work start, then
+  // prove the second operation has NOT started while the first still runs.
+  await new Promise<void>((resolveTick) => setImmediate(resolveTick));
   assert.deepEqual(events, []);
+  assert.ok(typeof releaseFirst === "function");
 
   releaseFirst();
   await first;
