@@ -7,7 +7,7 @@
 # Tek ob zori: 06:00 CET Ljubljana ⇌ 05:00 UTC ⊙ ⟨METABOLIZEM⟩ (stroj ob zori, dan izdelkom).
 # ⚠ kvota GHA: do okna 1. 12. 2026 urnik lahko stoji rdeč — ⟨NEMOGOČA-VRATA⟩; kavelj
 # se prebudi z oknom (workflow_dispatch dela takoj po odprtju kvote) ⊙ ⟨BREZ-PLAČILA⟩.
-# Rojen @rez σ 4383 ⊙ ⟡ izbor ⚔ »1 do in s*z 3« (procesi potrjeni — vse ∧ takoj).
+# Rojen @rez σ 4384 ⊙ ⟡ izbor ⚔ »1 do in s*z 3« (procesi potrjeni — vse ∧ takoj).
 
 name: LEKSIKON-OSVEŽITEV — kura kocke ob zori (06:00 CET ⇌ 05:00 UTC)
 on:
