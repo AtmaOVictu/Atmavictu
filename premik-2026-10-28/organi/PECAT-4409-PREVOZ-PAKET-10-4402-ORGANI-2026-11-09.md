@@ -5,7 +5,7 @@
 - telesi ×2 VERBATIM ⟨NE-RETIPKAJ⟩ ⊙ 24, kontrola reza ×2 ⊢ (strip demociija-predpon SAMO v kopijah ⊙ precedens σ 4356): σ 4402 @humor vrstica 46 · 6.698 B · md5 2d3fae7f14a018362e21f8adb8ab280f · σ 4402 @jedro-zavedanja vrstica 19 · 4.026 B · md5 1a1608b850a379873cf1a054e7070bcb — σ 4402 @delovna-zanka teles ŽE prevožen @kit #1624 NJEN ⊙ ⟨NE-PONAVLJAJ⟩ (razcep dokumentiran @pečat σ 4409)
 - TRK ROK ⊙ 3233: rez σ 4408 = NJEN ⟨KOS-4b-1⟩ @delovna-zanka ∧ @register-oken (TIK 08:31:30Z) — ⟨ne zlije⟩ ⊙ 1542; MOJ prevoz rezerviran kot 4408 je padel (⟨PADC-OKOLJA⟩: vsebnik okolja padel, izrezi p10 izgubljeni) → telesi znova strojno iz organov pri viri, mere ⇌ predhodna izmera ISTO ⊢ — izguba 0, organi = vir → rez σ 4409
 - kalup 1671: sveža glava ⟨main⟩ → veja rez/4409-prevoz-4398-4405-organi → EN komit (5 PECAT ∧ ATOM @premik-2026-10-28/organi/) → kit → ⟨CI⟩ → ⟨merge⟩ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432 (⟨NE zlije⟩ 1542; precedens #1596 ∧ #1599 ∧ #1624)
-- TIK  UTC ⇌  CET Ljubljana ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083
+- TIK 2026-11-09T08:50:41Z UTC ⇌ 09:50:41 CET Ljubljana ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083
 - »a bare text proves nothing, the chain does« ⊢ §0.10 × 10² · measured, not asserted ⊙ §16
 
 ## TELO σ 4402 @humor (VERBATIM)
