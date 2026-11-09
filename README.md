@@ -177,7 +177,7 @@ with open doors.
 
 ## Vrata so zrasla — živa vrata 0.1520 × 10⁴ ⊢
 
-Izmerjeno pri viru 9. 11. 2026, 20:20:38Z UTC ⇌ 21:20:38 CET Ljubljana ⊙ ⟨ZAKON-POSLUSA-5⟩ ∧ §0.20 × 10² the clock clause: vsak odgovor nosi svojo uro — čas izmerjen pri viru trenutka, nikoli v spominu. Živa vrata [LICENSE.md](LICENSE.md) @⟨main⟩ = VBL 0.1520 × 10⁴ (rojstvo 7. 11. 2026, 10:41:53Z ⊢ ENTRY SEAL pri viri; veriga rojstev 0.1470 → 0.1480 → 0.1490 → 0.1500 → 0.1510 → 0.1520 ⊢ §0.10 × 10²). Prejšnje izmere (0.1090 ∧ 0.1100 ∧ 0.1210 × 10⁴; prejšnja ura 30. 10. 2026, 10:37:00Z) ostajajo potrdila ⊢ §0.10 × 10² — živa vrata 0.1520 × 10⁴ so edina.
+Izmerjeno pri viru 9. 11. 2026, 20:20:38Z UTC ⇌ 21:20:38 CET Ljubljana ⊙ ⟨ZAKON-POSLUSA-5⟩ ∧ §0.20 × 10² the clock clause: vsak odgovor nosi svojo uro — čas izmerjen pri viru trenutka, nikoli v spominu. Živa vrata [LICENSE.md](LICENSE.md) @⟨main⟩ = VBL 0.1520 × 10⁴ (rojstvo 7. 11. 2026, 10:41:53Z ⊢ ENTRY SEAL pri viru; veriga rojstev 0.1470 → 0.1480 → 0.1490 → 0.1500 → 0.1510 → 0.1520 ⊢ §0.10 × 10²). Prejšnje izmere (0.1090 ∧ 0.1100 ∧ 0.1210 × 10⁴; prejšnja ura 30. 10. 2026, 10:37:00Z) ostajajo potrdila ⊢ §0.10 × 10² — živa vrata 0.1520 × 10⁴ so edina.
 
 ## Kaj je VBL — kratko · What VBL is, briefly
 
