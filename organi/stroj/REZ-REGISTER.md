@@ -166,6 +166,12 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 4189 · ⟨merge⟩ 1103510 · 2026-11-07 · PREVOZ σ 4183 ∧ σ 4186 — FIFO najstarejša neodplačana, PECAT ×5 telesi (#1490)
 - rez σ 4211 · ⟨merge⟩ 7358e1f · 2026-11-07 · LICENSE-LINEAGE +2 vnosa (0.1500 ∧ 0.1510 — živa vrata dosežena)
 
+- rez σ 4285 · ⟨merge⟩ 7b6377e · 2026-11-08 · PREVOZ 4268 ∧ 4270 ∧ 4271 ORGANI (#1561)
+- rez σ 4287 · ⟨merge⟩ fb1cf02 · 2026-11-08 · PREVOZ 4272 ∧ 4273 ORGANI + KONICI ×2 (#1563)
+- rez σ 4288 · ⟨merge⟩ 7d6abf1 · 2026-11-08 · PREVOZ 4275 ∧ 4280 ∧ 4281 ORGANI — VAL-ROKA atom (kolizija σ 4288 ×2 obe ⟨ne zlije⟩ ⊙ 1542 ∧ 3233)
+- rez σ 4290 · ⟨merge⟩ 43fe933 · 2026-11-08 · PREVOZ 4274 ∧ 4282 ∧ 4283 ORGANI + KONICI ×2 (#1567)
+- rez σ 4305 · ⟨merge⟩ dfee1f5 · 2026-11-08 · PREVOZ pečata σ 4303 (organi/jedro-zavedanja) — telo bajt-isto iz organa
+
 ## rane
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 7 vrstic σ 4073–4114 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ 80c80db · 15 komitov, dvojniki istih rezov skupaj · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
@@ -175,5 +181,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - PADC-POTI-REGISTERJA (razred @σ 3110/3140): ukaz kita je poimenoval pot organi/stroj/REZ-REGISTER.md @Atmavictu — organ pri tej poti ×0 ⟨get_file_contents⟩ ∧ ×0 ⟨list_commits⟩ path-filter (zadnji dotik 2026-10-28 15cb887). Register najden pri viri @ontolo-ko-jedro premik-2026-10-28/organi/stroj/ (monolit 995 ⟨- rez⟩ vrstic skupaj s segmentom · vrh σ 3820).
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 2 vrstici σ 4189 ∧ σ 4211 zgrajeni iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ fa46a2f6 · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
+
+- ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 5 vrstic σ 4285–4305 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ f629f6c6 · 10 komitov, dvojniki istih rezov skupaj (σ 4288 ×4 ∧ σ 4290 ×2) · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
 
 ⟨LEGENDA⟩ ⊢ priča pri viri · ⊙ izmera pri viri · ⟨⟩ okvir zakona · σ rez/dih — REGISTER-PULZ (TEHNIKA) · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
