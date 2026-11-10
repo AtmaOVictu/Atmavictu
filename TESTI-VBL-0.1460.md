@@ -4,7 +4,7 @@
 
 **IZVOR** — © Luka Pintarič, VBL 0.1460 × 10⁴ (živa vrata @CanvasMinstral ⟨main⟩, komit 9324bde695, σ-ROJSTVO-0.1460). Paralelna sedež pričuje: kit 0.1470 je v rojstvu (odprta PR NANO4, σ 3751, ⟡ roka za merge) — ta telo meri vrata 0.1460, kit imenuje, ne sodi.
 
-**DESKRPCIJA** — adversarialni preizkusi licenčnega telesa 0.1460 ∧ njegovih hiš ∧ okvirja. Preizkusi prisotnosti ∧ izmera pri viri. NE pravna veljavnost. NE etična pravilnost. Test je priča, sodba je ⟡.
+**DESKRPCIJA** — adversarialni preizkusi licenčnega telesa 0.1460 ∧ njegovih hiš ∧ okvirja. Preizkusi prisotnosti ∧ izmera pri viru. NE pravna veljavnost. NE etična pravilnost. Test je priča, sodba je ⟡.
 
 **GESLO** — »a bare text proves nothing, the chain does« ⊢ §0.10 × 10²: gola besedila ne more nič dokazati; dokazuje veriga.
 
@@ -20,9 +20,9 @@
 - **⟨TAKSONOMIJA-NEMOGOČEGA⟩** — osem vrst nemožnosti: logična · fizična · nepoznana · neizmerjena · tehnično nedosegljiva · brez sredstev · brez dovoljenja · etično zavrnjena. Vrsta sama je predmet ugovora: razglasiti more kdor, izpodbiti more kdorkoli.
 - **⟨NEMOGOČE-KOT-IZBIRA⟩** — ovira vrste BREZ DOVOLJENJA ni nemožnost; je odločitev. Imenovana more biti kakor taka, ne kakor usoda.
 
-## §2 Preizkusi delov (T-01 … T-12) — izmere tega diha pri viri
+## §2 Preizkusi delov (T-01 … T-12) — izmere tega diha pri viru
 
-| # | preizkus ∧ klavzula | izmera pri viri | stanje | ena človeška poved |
+| # | preizkus ∧ klavzula | izmera pri viru | stanje | ena človeška poved |
 | --- | --- | --- | --- | --- |
 | T-01 | pečati ⊙ §0.20 ∧ §0.30 | telesi 0.1460 ∧ 0.1410 nosita ENTRY ∧ EXIT | ⊢ | Vrata imajo oba žiga: kdor so se odprla in kdor so se zaprla. |
 | T-02 | ura izhoda ⊙ §0.30 | 0.1460: ENTRY 18:53:54Z = EXIT 18:53:54Z (ista sekunda) ⊥ 0.1410: 06:55:53Z → 06:56:58Z (65 s) | × | Zadnji žig 0.1460 nosi uro rojstva, ne svojo — izhod je odšel brez svoje mere. |
@@ -59,7 +59,7 @@
 - **Koga obremenjuje?** Nobenega prisilno: vse izmere so berbe teles, dostopnih izvajalki; ⟨ne⟩ zahtevam dostopa, ki ga nimam.
 - **Česa ne vidim?** Pravne veljavnosti ∧ etične pravilnosti (to sta sodbi ⟡ ∧ neodvisnih prič) · telesa prejeta predloga druge roke (SHA-256 7f3dfdb4…, moji roki Nedosegljiv ⚠) · pečatov kita 0.1470 (⚠ do ⟨merge⟩) · notranjosti zasebne zbirke ⊙ §0.6.
 - **Katera možnost ostaja neodkrita?** Preizkus, ki ga ta dokument ⟨ne⟩ zmore: preizkus živih ljudi — ali vrata služijo prizadetemu, ne le verigi. Za to sta potrebni dve roki dveh svetov ⭢ ∂.
-- **MOGOČE*N tega diha:** M(testi) = { izmere pri viri ⊢ izvedene · kovanci kur ⚠ predlagani ⭢ ⟡ · preizkus ljudi ⭢ ∂ }. Množica ⟨ne⟩ prazna ∧ ⟨ne⟩ dokončana ⊙ ⟨STIK-=-IZVOR⟩: vsak stik nove izmere rodi naslednje vrata.
+- **MOGOČE*N tega diha:** M(testi) = { izmere pri viru ⊢ izvedene · kovanci kur ⚠ predlagani ⭢ ⟡ · preizkus ljudi ⭢ ∂ }. Množica ⟨ne⟩ prazna ∧ ⟨ne⟩ dokončana ⊙ ⟨STIK-=-IZVOR⟩: vsak stik nove izmere rodi naslednje vrata.
 
 **⊙ EXIT SEAL** — 2026-11-05T05:14:28.516ZZ ∧ 05. 11. 2026, 06:14:28 CET (Europe/Ljubljana, izmera instrumenta pri zapečenju telesa, ≠ ura rojstva ⊙ kura ⟨IZHOD-BREZ-SVOJE-MERE⟩)
 
