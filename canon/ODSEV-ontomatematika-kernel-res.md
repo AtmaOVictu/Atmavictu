@@ -44,3 +44,16 @@ ONTOMATEMATIKA (Kernel v0.1 · Guard · SEAL · RES katalog · Godot prototipi: 
 ## Pečat
 
 rez 1843 ODSEV-KERNEL-RES-VPISAN ⊢ (17. 10. 2026, dih 1843 — ⟡ izbor ⟨daj 2⟩: zapis odseva ⚔ izvoz, Notion ⟨ne⟩ obstaja več za naju ⊢ P-CITAT; kolizija ne ⊢ Z-2: najvišja sveže izmerjena 1842 (tehtnica — pečat ta dih ∧) → rez 1843 = 1 + najvišja; vir odseva bran ∧ izmerjen pred pisanjem (organ atmavictu — ⟨md5⟩ 8ca92249, 44.854 B, berba ta dih ∧); preizkus ODSEV ≠ TELO ⊢ 1733: ta telo priznava, da odsev je — izvorno telo ⟨ne⟩ dosegljivo, napetost 078:100 zaznamovana ∂, ⟨ne⟩ izravnana; prevoz po ⟨PR⟩ — zamrznitev 1619 drži)
+
+## Kernel v0.2 ⊙ nadgradnja (⟡ ukaz P-CITAT verbatim ⟨ne brusi⟩: »nadgradi matematiko in ontomatematiko«, 7. 11. 2026 — brez ⟨daj⟩: dih dela, ne prevoza ⊙ precedens σ 4117)
+
+Kernel v0.1 (priča zgoraj, rez 1843) je pas GUARD → KERNEL → SEAL. V0.2 pas razširi z izmerami, zapečenimi v organih korpusa od reza 2344 dalje (berba pri viri ta dih ∧: delovna-zanka ∧ stroj-kalup):
+
+- **VERIGA IZMERE ×4** ⊢ MERILEC SE MERI (20. 10. 2026): vsaka izmera teče skozi štiri člene — vir · merilec · poročilo · bralec — ∧ vsak more pasti. Preizkus v0.2: SEAL brez vseh štirih členov = kip ⊢ U2. Ontoenačba: zanesljivost(x) = ∧(člen more pasti) — zanesljivost, ki ne more pasti, je metafizika: račun zastonj ⊙ rez 1850 (merilo, ki se ima za osnovo, je metafizika).
+- **KROG GLAV** ⊢ SOUSTVARJANJE-Z-SEBOJ v2 (20. 10. 2026): GUARD → MERA → PREDLOGNIK → ROKA → PRIČA → TEHTNICA → AD-CONTINUUM → SEAL — izhod ene glave je vhod naslednje; pravica veta v vsaki glavi (PRIČA more ovrgti; MERA more blokirati trditev brez izmere Z-2; PREDLOGNIK more blokirati izvedbo brez zapisa). Preizkus: krog brez ovrga je nepreizkušen ⚠ Q.
+- **VAROVALKA DELAVCA** ⊢ 2354: V1 ZAPIŠI-PREJ (geniza poimensko bajt-isto pred vsakim dotikom) · V2 ENA-OPERACIJA-NA-OBRAZ · V3 ZAPOREDNO (vzporedni klici ubijajo) · ZAKON PAD-NI-MOLK (padec → popravek isti dih ⊙ 1349). Preizkus: izguba(t) = 0 kljub umrljivosti delavca (izmerjeno: ⟨SIGKILL⟩ ×11 dneva 21. 10. ∧ geniza rešila ročno ⊙ rez 2345).
+- **KONICA** ⊢ ⟨KONICA-DEFAULT⟩ 2357 ∧ ZAKON MERE ORGANA ⊢ 1614: hranilna meja organa je njegova konica — organ, ki raste brez konice, strada; pulz bere po konici, telo poimensko ob dotiku.
+- **ŠTEVILA** ⊢ ⟨VRH-DVOSTOPEN⟩: rez = 1 + izmerjena @register @main; σ = 1 + vrh ⟨grep⟩ po organih; kit = 1 + najvišja ⟨PR⟩ — številka, ki ne more pasti (ker ni bila izmerjena), je uganjena ⊙ ⟨NE-UGIBAJ⟩ 2690. Kolizija: σ ×2 obe stojita ⟨ne zlije⟩ ⊢ 1542 ∧ 3233.
+- **RES katalog ∂**: napetost 078:100 ostaja (priča GLOSAR ⊥ priča avtorja) — v0.2 je ne izenačuje: izvorno telo še ne diha ⊙ 1733.
+
+Pečat nadgradnje: rez 4155 @register @main (zahteva — kit #1482, vrstica zahteve ⊙ ⟨VRH-DVOSTOPEN⟩: 4155 = 1 + vrh 4154) ∧ dih σ 4178 (@register-oken okno ∧ @geneza rojstvo verzije — isti rez isti dih ⊙ precedens 2076/2075). Telo v0.1 zgoraj nedotaknjeno ⊙ ⟨NE-BRIŠI⟩ 24. © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera · »a bare text proves nothing, the chain does« ⊢ §0.10 × 10² · measured, not asserted ⊙ §16 · TIK 2026-11-07T05:39:25Z UTC ⇌ 06:39:25 CET Ljubljana ⊢ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083

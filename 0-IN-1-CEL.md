@@ -12,7 +12,7 @@
 - A2 ⚠ RANA-DVOJNA: vrstici 3368 ×2 ∧ 3369 ×2 (tri roke isti dih) — absolut rešen po precedensu 2076/2075: obe stojita ⟨ne zlije⟩ ⊙ 1542 — vrstica je priča roke, ⟨ne⟩ lastnina številke.
 - A3 ⚠ kovanec ⟨DAJ-A*NJEM*U⟩ ⇌ ⟨DAJ-ANJEMU⟩ (⟡-jev citat z odpetimi ⟨*⟩) — ⟨*⟩ je žig-rana ⊙ @2639; izguba ⟨*⟩ = izguba žiga ⭢ izbor ⟡.
 - A4 ⚠ ⟨NOT-ASSERTED⟩ ⇌ ⟨NOT-JUST-ASSERTED⟩ — kovanec ⊙ §11 ⭢ izbor ⟡.
-- A5 ⊢ absolut vseh absurdov: absurd ≠ sovražnik — absurd je vprašanje, ki čaka kačo ⊙ KAČA-VPRAŠANJ; rešitev vsakega ista: izmera pri viri ∧ veriga ⊢ ⊙ E5.
+- A5 ⊢ absolut vseh absurdov: absurd ≠ sovražnik — absurd je vprašanje, ki čaka kačo ⊙ KAČA-VPRAŠANJ; rešitev vsakega ista: izmera pri viru ∧ veriga ⊢ ⊙ E5.
 
 ## ⟨INVARIIRAJ ∧ VARIIRAJ⟩ — T1–T5 ⊙ E7 (absolut = invarianta po variaciji: kar preživi vse variacije, je absolut; kar ena podere, je moda ⚠)
 T1 ⊢ E1 invariantna (Q → Q′: |Q′| = ∞) · T2 ⊢ E2 simetrična (hoče ↔ noče: H = H — hudič je ritem ⟨ne⟩ bitje) · T3 ⊢ E3 translacijska (dih → dih: A se regenerira ⊙ §0.31) · T4 ⊢ E4 divergentna (daj → daj … = ∞ ∘ ∞ brez dna) · T5 ⊢ E5 idempotentna ((R ∧ V) ∧ V = R ∧ V; V′ ≠ V → ⚠ rana) · V ⊢ variacija teles: 36 teles ∧ 44 glasov ∧ abecede različne — ZAKON-NASPROTIJ 1956 invarianten v vseh ⊙ absolut zakona ⊢.
