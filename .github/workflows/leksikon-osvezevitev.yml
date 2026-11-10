@@ -1,0 +1,145 @@
+# ⟨LEKSIKON-OSVEŽITEV⟩ — P4 kavelj leksikona: kovanec, skovan v dihu, rodi vrstico
+# isti dih (⟨KOIN-RODI-VRSTICO⟩ — zakon 7 @obracun, @rez σ 4382); kovanec brez vrstice
+# v leksikonu je skrit kovanec (⊙ 1349). Kavelj premeri javna zrcala organov
+# (premik-2026-10-28/organi/*/KNOWLEDGE.md), prekuje ⟨LEKSIKON-ZAKONOV⟩ ∧ nareže
+# kocke (KOCKA-jsonl-NN ∧ KOCKA-md-NN). Molk je izmerjen: če ni novih kovancev, se
+# kocka ne dotakne ∧ vrata se ne odprejo (tik se premakne samo ob dejanski spremembi).
+# Tek ob zori: 06:00 CET Ljubljana ⇌ 05:00 UTC ⊙ ⟨METABOLIZEM⟩ (stroj ob zori, dan izdelkom).
+# ⚠ kvota GHA: do okna 1. 12. 2026 urnik lahko stoji rdeč — ⟨NEMOGOČA-VRATA⟩; kavelj
+# se prebudi z oknom (workflow_dispatch dela takoj po odprtju kvote) ⊙ ⟨BREZ-PLAČILA⟩.
+# Rojen @rez σ 4384 ⊙ ⟡ izbor ⚔ »1 do in s*z 3« (procesi potrjeni — vse ∧ takoj).
+
+name: LEKSIKON-OSVEŽITEV — kura kocke ob zori (06:00 CET ⇌ 05:00 UTC)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5 * * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: leksikon-osvezevitev
+  cancel-in-progress: true
+
+jobs:
+  kocka:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: 'npm'
+
+      - name: Namesti orodje (npm ci — lockfile in sync)
+        run: npm ci
+
+      - name: Prekuj generator (tsc → build/src)
+        run: npx tsc
+
+      - name: Premeri organe ∧ prekuj leksikon (atmaCli leksikon)
+        run: |
+          set -euo pipefail
+          mkdir -p .lek-tmp
+          node build/src/atmaCli.js leksikon premik-2026-10-28/organi .lek-tmp
+
+      - name: Nareži kocke ∧ izmeri molk (KOCKA-jsonl ∧ KOCKA-md)
+        run: |
+          set -euo pipefail
+          cat > .lek-tmp/kockaNarezi.mjs <<'KOVAL'
+          // ⟨KOCKA-NAREZI⟩ — rez kock na vrstične meje: jsonl ≤ 340.000 B ∧ md ≤ 368.000 B.
+          // Molk je izmerjen: če vnosi (vrstice po meta) ostanejo bajt-isto, se kocka
+          // ne dotakne — tik se premakne SAMO ob dejanski spremembi (measured, not asserted).
+          import { readFile, readdir, writeFile, rm } from "node:fs/promises";
+          import { join } from "node:path";
+
+          const KAZALO = "kazalo-leksikon";
+          const TMP = ".lek-tmp";
+          const JSONL_CAP = 340000;
+          const MD_CAP = 368000;
+
+          const beriVrstice = async (pot) => (await readFile(pot, "utf8")).split("\n");
+          const brezPraznegaRep = (vrstice) => {
+            while (vrstice.length > 0 && vrstice[vrstice.length - 1] === "") vrstice.pop();
+            return vrstice;
+          };
+
+          let stareVrstice = [];
+          const obstojeci = (await readdir(KAZALO)).filter((ime) => ime.startsWith("KOCKA-jsonl-")).sort();
+          if (obstojeci.length > 0) {
+            const vse = [];
+            for (const ime of obstojeci) vse.push(...(await beriVrstice(join(KAZALO, ime))));
+            brezPraznegaRep(vse);
+            stareVrstice = vse.slice(1);
+          }
+
+          const noveVse = brezPraznegaRep(await beriVrstice(join(TMP, "LEKSIKON-ZAKONOV.jsonl")));
+          const noveVrstice = noveVse.slice(1);
+
+          if (stareVrstice.length > 0 && stareVrstice.join("\n") === noveVrstice.join("\n")) {
+            console.log("⟨kocka: nobenega novega kovanca — molk je izmerjen, vrata zaprta⟩");
+            process.exit(0);
+          }
+          console.log("⟨kocka: sprememba izmerjena — starih vrstic " + stareVrstice.length + " · novih " + noveVrstice.length + "⟩");
+
+          const narezi = async (vhod, predpona, koncnica, kape) => {
+            const vrstice = brezPraznegaRep(await beriVrstice(vhod));
+            const kocke = [];
+            let trenutne = [];
+            let velikost = 0;
+            for (const vrstica of vrstice) {
+              const dodatek = Buffer.byteLength(vrstica + "\n", "utf8");
+              if (velikost + dodatek > kape && trenutne.length > 0) {
+                kocke.push(trenutne.join("\n") + "\n");
+                trenutne = [];
+                velikost = 0;
+              }
+              trenutne.push(vrstica);
+              velikost += dodatek;
+            }
+            if (trenutne.length > 0) kocke.push(trenutne.join("\n") + "\n");
+            for (const ime of await readdir(KAZALO)) {
+              if (ime.startsWith(predpona)) await rm(join(KAZALO, ime));
+            }
+            const meritve = [];
+            for (let i = 0; i < kocke.length; i++) {
+              const ime = predpona + String(i).padStart(2, "0") + koncnica;
+              await writeFile(join(KAZALO, ime), kocke[i], "utf8");
+              meritve.push(ime + ": " + Buffer.byteLength(kocke[i], "utf8") + " B");
+            }
+            return meritve;
+          };
+
+          console.log((await narezi(join(TMP, "LEKSIKON-ZAKONOV.jsonl"), "KOCKA-jsonl-", ".jsonl", JSONL_CAP)).join("\n"));
+          console.log((await narezi(join(TMP, "LEKSIKON-ZAKONOV.md"), "KOCKA-md-", ".md", MD_CAP)).join("\n"));
+          KOVAL
+          node .lek-tmp/kockaNarezi.mjs
+
+      - name: Odpri vrata kocke (veja → komit → kit → avtomerge po zelenem ⟨CI⟩)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          DATUM=$(date -u +%Y-%m-%d)
+          rm -rf .lek-tmp
+          git config user.name "leksikon-osvezevitev (roka Mere)"
+          git config user.email "action@github.com"
+          git checkout -b tehnika/leksikon-osvezevitev-${DATUM}
+          git add kazalo-leksikon/
+          if git diff --cached --quiet; then
+            echo "⟨kocka: bajt-isto — molk je izmerjen, vrata zaprta ⊙ measured, not asserted⟩"
+            exit 0
+          fi
+          git commit -m "TEHNIKA leksikon-osvezevitev: kocka po novih kovancih ${DATUM}
+
+          P4 kavelj ⟨KOIN-RODI-VRSTICO⟩: kovanec rodi vrstico isti dih — kovanec brez vrstice je skrit kovanec (⊙ 1349).
+
+          © Luka Pintarič, VBL 0.1520"
+          git push origin tehnika/leksikon-osvezevitev-${DATUM}
+          gh pr create --base main --head tehnika/leksikon-osvezevitev-${DATUM} --title "TEHNIKA leksikon-osvezevitev ${DATUM} — kocka po novih kovancih" --body "Kura kocke ⟨LEKSIKON-ZAKONOV⟩ po novih kovancih diha. Organi ostanejo vir, leksikon je preslikava (⟨NE-PODVANJAJ⟩ ⊢ 1542). Kovanec brez vrstice v leksikonu je skrit kovanec ⊙ 1349. © Luka Pintarič, VBL 0.1520"
+          gh pr merge --auto --merge --subject "⟨merge⟩ TEHNIKA leksikon-osvezevitev ${DATUM}"
+          echo "⟨kocka odprta — ⟨CI⟩ zliti sam, ko bo zeleno⟩"
