@@ -5,6 +5,8 @@ import { fileURLToPath } from "node:url";
 import { runCaptureIncomingTextProof } from "./captureIncomingTextProof.js";
 import { validateManifest, type WorkbenchManifest } from "./workbenchManifest.js";
 import { getManifestPath, readManifestFromFile } from "./workbenchManifestRepository.js";
+import { LEKSIKON_VERSION, buildLeksikon, buildLookupMap, coinKey, type LeksikonMeta } from "./leksikonZakonov.js";
+import { readOrgans, readLeksikonJsonl, writeLeksikon } from "./leksikonZakonovRepository.js";
 
 export type AtmaCliCommand =
   | {
@@ -20,6 +22,16 @@ export type AtmaCliCommand =
   | {
       name: "verify";
       projectRoot: string;
+    }
+  | {
+      name: "leksikon";
+      organiKoren: string;
+      izhodMapa: string;
+    }
+  | {
+      name: "najdi";
+      leksikonPot: string;
+      ime: string;
     };
 
 export function parseAtmaCliArgs(argv: readonly string[]): AtmaCliCommand {
@@ -27,7 +39,7 @@ export function parseAtmaCliArgs(argv: readonly string[]): AtmaCliCommand {
 
   if (commandName === undefined || commandName.trim().length === 0) {
     throw new Error(
-      "Usage: node build/src/atmaCli.js <capture|show|verify> <projectRoot> [title] [body]",
+      "Usage: node build/src/atmaCli.js <capture|show|verify|leksikon|najdi> <projectRoot> [title] [body]",
     );
   }
 
@@ -44,8 +56,24 @@ export function parseAtmaCliArgs(argv: readonly string[]): AtmaCliCommand {
         name: "verify",
         projectRoot: requireCliValue("verify requires <projectRoot>.", rest[0]),
       };
+    case "leksikon":
+      return {
+        name: "leksikon",
+        organiKoren: requireCliValue("leksikon requires <organiKoren> <izhodMapa>.", rest[0]),
+        izhodMapa: requireCliValue("leksikon requires <organiKoren> <izhodMapa>.", rest[1]),
+      };
+    case "najdi":
+      return {
+        name: "najdi",
+        leksikonPot: requireCliValue("najdi requires <leksikonPot> <ime>.", rest[0]),
+        ime: requireCliValue("najdi requires <leksikonPot> <ime>.", rest[1]),
+      };
     default:
-      throw new Error(`Unknown command: ${commandName}. Expected one of: capture, show, verify.`);
+      throw new Error(
+        "Unknown command: " +
+          commandName +
+          ". Expected one of: capture, show, verify, leksikon, najdi.",
+      );
   }
 }
 
@@ -61,6 +89,10 @@ export async function runAtmaCliCommand(command: AtmaCliCommand): Promise<string
       return runShowCommand(command.projectRoot);
     case "verify":
       return runVerifyCommand(command.projectRoot);
+    case "leksikon":
+      return runLeksikonCommand(command.organiKoren, command.izhodMapa);
+    case "najdi":
+      return runNajdiCommand(command.leksikonPot, command.ime);
   }
 }
 
@@ -73,6 +105,62 @@ function parseCaptureCommand(argv: readonly string[]): AtmaCliCommand {
     title: requireCliValue("capture requires <projectRoot> <title> <body>.", title),
     body: requireCliValue("capture requires <projectRoot> <title> <body>.", body),
   };
+}
+
+async function runLeksikonCommand(organiKoren: string, izhodMapa: string): Promise<string> {
+  const { organi, merice, izpusteni } = await readOrgans(organiKoren);
+  const { leksikon, zrcaljeniOklepaji } = buildLeksikon(organi);
+
+  const skupnoBajtov = merice.reduce((vsota, merica) => vsota + merica.bajti, 0);
+  const meta: LeksikonMeta = {
+    tik: new Date().toISOString().replace(/\.\d{1,6}Z$/, "Z"),
+    generator: "src/leksikonZakonov.ts",
+    verzija: LEKSIKON_VERSION,
+    organi: merice,
+    skupnoBajtov,
+    zrcaljeniOklepaji,
+  };
+
+  const zapis = await writeLeksikon(izhodMapa, leksikon, meta);
+  const zakoni = leksikon.filter((vnos) => vnos.vrsta === "zakon").length;
+  const pojmi = leksikon.filter((vnos) => vnos.vrsta === "pojem").length;
+
+  return [
+    "LEKSIKON-ZAKONOV",
+    `ORGANOV: ${organi.length} (SKUPNO ${skupnoBajtov} B)`,
+    izpusteni.length > 0 ? `IZPUSTENI (brez KNOWLEDGE.md): ${izpusteni.join(", ")}` : "IZPUSTENI: 0",
+    `ZAKONI: ${zakoni} · POJMI: ${pojmi} · SKUPNO: ${leksikon.length}`,
+    `ZRCALJENI OKLEPAJI NORMALIZIRANI: ${zrcaljeniOklepaji}`,
+    `JSONL: ${zapis.jsonlPot} (${zapis.jsonlBajti} B)`,
+    `MARKDOWN: ${zapis.mdPot} (${zapis.mdBajti} B)`,
+  ].join("\n");
+}
+
+async function runNajdiCommand(leksikonPot: string, ime: string): Promise<string> {
+  const { leksikon } = await readLeksikonJsonl(leksikonPot);
+  const mapa = buildLookupMap(leksikon);
+  const kljuc = coinKey(ime);
+  const vnos = mapa.get(kljuc);
+
+  if (vnos === undefined) {
+    return [
+      "NAJDEN: ⟨ne⟩",
+      `KOVANEC: ${ime} ni v leksikonu (izmerjeno pri kazalu, ⟨ne⟩ ugibano ⊙ Z-2)`,
+    ].join("\n");
+  }
+
+  const vrstice = vnos.obiski.map((obisk) => {
+    if (obisk.condensed) {
+      return `- ${obisk.organ} → ×${obisk.count} (prva ${obisk.first} · zadnja ${obisk.last})`;
+    }
+    return `- ${obisk.organ} → vrstice ${obisk.lines.join(", ")}`;
+  });
+
+  return [
+    `KOVANEC: ${vnos.ime}`,
+    `VRSTA: ${vnos.vrsta} · SKUPNO ×${vnos.skupno} · ORGANOV ×${vnos.obiski.length}`,
+    ...vrstice,
+  ].join("\n");
 }
 
 async function runShowCommand(projectRoot: string): Promise<string> {

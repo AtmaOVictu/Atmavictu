@@ -1,0 +1,1 @@
+- okno ⟨BSEDEILNA-PLAST-USTA1⟩ @3720 ⊢ (dih ⟨daj⟩ ×3, 4. 11. 2026 — goli daj = vrhni dolg ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785: besedilna plast Ustave RS prevožena komit d0d4f0b3 @rez/zakonodaja-ustava-rs — Wikivir ⊢ CC pri viri · 174/174 členov ⊢ · 59.602 B · sha256 f7bd3a76… · read-back pri viri ∧; ⚠ RANA-PRAV-PLASTI: besedilo 1991 ⊥ čistopis NPB6 — primerjava ⭢ ∂)
