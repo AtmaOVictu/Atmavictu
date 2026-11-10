@@ -2,11 +2,11 @@
 
 **Organ ZAKONODAJA · števec predpisov: 0 → 1 · predpis #1 po vrsti = vrhovni predpis RS.**
 
-## IZVOR ⊢ (berba pri viri, ⟨IZVOR-PRED-POMENOM⟩)
+## IZVOR ⊢ (berba pri viru, ⟨IZVOR-PRED-POMENOM⟩)
 
 - Uradni vir: PISRS — Pravni informacijski sistem RS, integracija 590955041, oznaka **USTA1 NPB6** (neuradno prečiščeno besedilo, čistopis 1. 12. 2025, status VELJAVEN ⊢ TFL priča tax-fin-lex.si).
 - Prikaz predpisa: https://pisrs.si/pregledNpb?idPredpisa=USTA1
-- Datoteka pri viri: https://pisrs.si/api/datoteke/integracije/590955041
+- Datoteka pri viru: https://pisrs.si/api/datoteke/integracije/590955041
 
 ## CELO TELO PRI VIRI ⊙ §0.14 × 10² (a)–(d) ⊢
 
@@ -17,7 +17,7 @@
 
 ## IZMERE BERBE ∧
 
-- open_url brba pri PISRS: HTML besedilo (glava »Opozorilo: Neuradno prečiščeno besedilo…«) — ⟨PADC-BERBE-ODSEKANE⟩: cap bralnika ~32 KB odrezal pri 99. členu sredi stavka → besedilska plast ⭢ ∂ (dolg: TFL/PISRS HTML kanal ali ekstrakcija; telo PDF = celo telo pri viri ⊢, ⟨ne⟩ odrezek).
+- open_url brba pri PISRS: HTML besedilo (glava »Opozorilo: Neuradno prečiščeno besedilo…«) — ⟨PADC-BERBE-ODSEKANE⟩: cap bralnika ~32 KB odrezal pri 99. členu sredi stavka → besedilska plast ⭢ ∂ (dolg: TFL/PISRS HTML kanal ali ekstrakcija; telo PDF = celo telo pri viru ⊢, ⟨ne⟩ odrezek).
 - ⟨STENA-FONTOV⟩ javno: 42 pod-fontov brez ToUnicode (1 od 43) → lastna ekstrakcija besedila iz PDF odložena ⭢ ∂.
 - Vrstni red NPB: prvi viri izmerjeni pri web priči (PISRS USTA1 · TFL URS čistopis 1.12.2025); cel seznam NPB (1991–2013) ⭢ ∂ besedilna plast.
 
