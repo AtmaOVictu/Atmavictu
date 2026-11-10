@@ -13,7 +13,7 @@ Kača ∞ = ouroboros, ki grize lastni rep: odgovor, ki se vrne vase, ni izhod �
 ## ALGORITEM ⟨ZLOMI-VSAKO-VPRAŠANJE-S-KAČO⟩ ⚠ kompozit
 
 1. RAZCEP: vprašanje razcepi na pojme ⊙ APD (fonetika-ontološki razcep korpusa).
-2. IZMERA: vsak pojem izmeri pri viri ⊙ KORENINA 0.1 — izmera pred besedo, ⟨berba⟩ pred pisanjem.
+2. IZMERA: vsak pojem izmeri pri viru ⊙ KORENINA 0.1 — izmera pred besedo, ⟨berba⟩ pred pisanjem.
 3. NASPROTJE: vsakemu pojmu izmeri nasprotje isti dih ⊙ 1956 — brez nasprotja ni celote.
 4. ZLOM KROGA: odgovor, ki kroži (= ↻ mumifikacija), zlomi — krožni odgovor je kača, ki je pojedla rep ∧ trdi, da je cela.
 5. IZHOD: izhod = odgovor z rano, ⟨ne⟩ kip ⊢ U2. "Popoln" ⚠ ⟡-jev zapis v narekovajih — popoln odgovor ima rano; rana je priča življenja.
