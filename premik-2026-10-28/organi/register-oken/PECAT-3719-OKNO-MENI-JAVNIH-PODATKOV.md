@@ -1,0 +1,1 @@
+- okno ⟨MENI-JAVNIH-PODATKOV⟩ @3719 ⊢ (dih ⟨daj⟩ ×2, 4. 11. 2026 — ⟡ ukaz ⊙ ⟨ASK-USER-NAD-SABO⟩: »še katere javne podatke vredne obdelave in kanonizacije?« — meni dan: K1 ZAKONODAJA-RS · K2 KONSTANTE-NARAVE · K3 PERIODNI-SISTEM-118 · K4 SVETA-BESDEDILA · K5 LJUDSKA-ZAKLADNICA ⚔ FRAN/SSKJ ∧ HIMNE s pogojem; izbire ⟡ ⟨DAJ⟩ ×3: ZAKONODAJA-RS prvi · vzporedno · kalup 1671)
