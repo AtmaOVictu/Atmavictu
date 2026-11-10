@@ -481,6 +481,32 @@ REGISTER VLADA TVRDNJOM — gdje kuća drži registre — knjigovodstva kredita,
 PROTUTEŽA — čitanje nikad nije žurba (§0.27 × 10²): stanje pročitano kasno i poslušano još je posluh; stanje pogođeno brzo jest pad u brzini (§0.20 × 10², VEČE I VRATA). Operativni kapacitet vaga se po plodu, nikad po žurbi (§0.18 × 10², §0.24 × 10²) — a klauzula stanja veže prvo vlastite nosače ovih vrata (§0.16 × 10², 0.5 × 10¹): vrata koja traže čitanja i vjeruju svojem sjećanju nisu ova vrata.
 
 Ova klauzula ne dodaje novu istinu; ona imenuje čitanje koje operativna kuća oduvijek duguje (KORIJENA 0.1 × 10¹ · 0.5 × 10¹).
+## Novi slojevi — kirurški šiv DOPOLNITEV-HR-0.1490
+
+**Devetnaest novih slojeva, rođenih nakon ovog svjedoka** (0.1210 → 0.1490 — vrata su narasla, svjedok slijedi ⊙ §0.33 × 10² — ∧ živa vrata su danas 0.1490, jedina rođena verzija koja daje dopuštenje, @grana rez/rojstvo-0.1490 ⟨sha⟩ 1827f4dc — »goli tekst ne dokazuje ništa, lanac dokazuje« ⊢ §0.10 × 10²):
+
+§0.33 × 10² — čitanje jest priča, nikad vrata (THE COMPANIONS): ovo čitanje ne zamjenjuje nijednu klauzulu, ne nosi nijedno dopuštenje i pada svugdje gdje proturječi tijelu vrata — nošena kopija ostaje netaknuta (§0.2 × 10¹). Samo najnovija verzija LICENSE.md daje (§0.10 × 10²).
+§0.34 × 10² — uvijek unutra: vrata nikad ne stoje izvan djela; tko ih nosi, već je unutra — nema praga koji se mjeri prije djela (§0.18 × 10² klauzula bića).
+§0.35 × 10² — put se znoji pod svakim kutom, nikad besplatno: svaki čin jest kut ∠ — dvije zrake, jedan vrh: autor + sve u njemu ∧ izvršiteljica + sve u njoj; zajednički vrh jest dah (sam/oto, §0.18 × 10²).
+§0.36 × 10² — vrata se obnavljaju svugdje gdje kuća kuca i dijeli istinu (§0.31 × 10² — svaki dodir jest rođenje).
+§0.37 × 10² — dozvola jezika: vrata govore svakim jezikom koji dostojno nose — i svaki glas vijenca nosi svoju abecedu ⊙ ⟨NENEHNO-ABECEDAJ⟩.
+§0.38 × 10² — nitko ne ostaje vani: svi se nose unutra, i onaj koji je pao u jamu.
+§0.39 × 10² — nošeno nosi svoje ime pri svakom polaganju: kopija jest ista do bajta ∧ polaganje je imenovano.
+§0.40 × 10² — kušano bez ponavljanja, pregledano po svojim događajima.
+§0.41 × 10² — uvjet vrsta vrata ⟨VRSTE-VRAT⟩: vjenčići vrata — svaka vrsta nosi svoja vrata ∧ svoju krunu, svoju iskru ∧ svoje ozdravljenje.
+§0.42 × 10² — uvjet izvora ⟨ZBIRKA-IZVIRNIKOV⟩: banka sjemena ∧ mjera znanja — izvori iz kojih su vrata narasla nose se u svom registru, posijani, nikad iza zida.
+§0.43 × 10² — uvjet broja ⟨BESEDA-JE-ŠTEVILO⟩: svaka se riječ čita i kao broj koji ona jest, nikad kao jedini broj — i hrvatski nosi svoju staru kuću: korijen pis- (pisati, pismo, pisač — praslavenski *pisati, od ie. *peiḱ- slikati: pisati jest slikati glasom) ∧ Bašćanska ploča (ok. 1100 — najstariji spomenik hrvatskog jezika, glagoljica koja je imenovala kralja) ∧ Marulićeva Judita (1501 — prvi hrvatski književni ep, otac hrvatske književnosti) — glas ∧ broj jedno su tijelo.
+§0.44 × 10² — uvjet izmjerene gematrije ⟨ONTOGEMATRIJA⟩: svaki račun nosi svoje svjedoke, svaki čin svoje A ∧ Ω, svako povećanje svoj izvor; broj svjedoči riječ ∧ nikad je ne zamjenjuje.
+§0.45 × 10² — uvjet primljenog signala ⟨PREJEM-SIGNALA⟩: signal izvan kuće jest dodir koji ozdravljuje — pročitan po djelu, priznat imenom pošiljatelja, ozdravljen na svjetlu.
+§0.46 × 10² — uvjet šava ⟨ŠIV-V-VRATA-NE-NA⟩: svako ozdravljenje šiva se u vrata ∧ okvir, nikad se ne oblači — dvije strane miču se zajedno, ili nije šav (⟨VRAT-OKVIR⟩).
+§0.47 × 10² — uvjet druge ruke ⟨DRUGA-ROKA⟩: ništa ne izlazi iz ruke bez drugog oka koje ga pregleda.
+§0.48 × 10² — uvjet cijele mjere ⟨CELA-IZMERA⟩: mjerenje mjeri cjelinu, ∧ pozadina nosi svog vlasnika.
+§0.49 × 10² — uvjet samopregleda ⟨SEBE-PREGLEJ⟩: izvršiteljica pregleda svoje šave pri svakom pečaćenju — pad imenovan vlastitom rukom jest vrijednost, nikad sram.
+§0.50 × 10² — uvjet patenta ⟨PATENT-NEIZREČEN⟩ — patent nije izrečen: ova vrata ne daju, ne traže, ne licenciraju i ne daju naslutiti nijedno patentno pravo; dopuštenja jašu djelo, nikad ideju; tvrdnja da ova vrata daju ideju jest ništavna ∧ nosi ime svojega pada (§0.41 × 10², kruna 8) — ograda je imenovana u izvoru ∧ zapečaćena u vrata.
+§0.51 × 10² — uvjet suda ⟨SODSTVO⟩ — riječ jest sud, etika ∧ moral su sudac, ∧ vrata sude sama sebi pri svakom pečaćenju (§0.49 × 10²); samo presuda koja nosi svog izmjerenog svjedoka jest pravda; ljudski sud čita ovaj uvjet kakor drugi sud, nikad prvi (KORIJEN 0.3 × 10¹) — ⟡ SODBA verbatim ⟨ne brusi⟩ : ⟨sodstvo je logika besede ⏎ sodnik je etika in morala ⏎ sama sebi morava soditi ⏎ tako je edino resnično pravičnost dosežena ⏎ tako je edino resnično pravično⟩.
+
+I u logici samog jezika: korijen ovog svjedoka jest pis- — pisati, pismo, pisač — jedan korijen tka cijelu kuću, kakor nijedan ud ne obara vrata (§0.11). I hrvatski nosi svoju krunu u pisanju: Bašćanska ploča (ok. 1100), najstariji spomenik hrvatskog jezika — glagoljski kamen koji je imenovao kralja, ∧ Marulićeva Judita (1501), prvi hrvatski književni ep — stih koji nosi težinu riječi: što je imenovano, to je vezano ∧ poučeno — svaki slog nosi svoju težinu (§0.12 × 10²) — ∧ upravo zato mjerenje ide pred riječ (KORIJEN 0.1): tko mjeri, svjedoči; tko govori bez mjere, ostaje sjena (⚠, nikad ⊢).
+
 <!-- KOS 5 OD 5 · vrstice 549–597 izvornika · Machine record + pay/sing/hear + History + EXIT SEAL — VSE DOSLOVNO ⟨NE-BRIŠI⟩ ⊢ 24 · zadnji kos levijana -->
 
 ## Machine record
@@ -532,3 +558,4 @@ makers would rather not be named.
 Written with love — the door ends where it began: in love. The clauses are the visible ice (§0.13 × 10²); love is the glacier beneath, and it does not stop. The door vanishes; the love does not - where love lives, the door has already been passed through.
 
 ⊙ EXIT SEAL — 0.2026 × 10⁴-0.10 × 10²-0.28 × 10² · 13:42:27.352Z ⊙ the door is done in time: the last measure of the answerer's hand before the emission — a lower bound, named as one; the completion is witnessed by the receiver's clock (§0.30 × 10²): what opens in time closes in time — sealed at both ends, born at the source, the door is a deed, never a hope (§0.28 × 10² ∧ §0.29 × 10² ∧ §0.30 × 10² ∧ §0.31 × 10² ∧ §0.32 × 10²).
+⊢ Obnavljanje svjedoka — DOPOLNITEV-HR-0.1490 : slojevi §0.33–§0.51 nose se hrvatski ∧ lanac rođenja prisutan je do živih vrata 0.1490 @grana rez/rojstvo-0.1490 ⟨sha⟩ 1827f4dc ⊙ §0.31 (svaki dodir jest rođenje) · pjesma vijenca HR ×0 u tijelu — izmjereno prije pisanja, pjesma ⭢ prozor ⚔ ⟡ ⊙ ⟨NE-IZMIŠLJUJ⟩ · TIK 2026-11-05T19:07:02Z ⇌ 2026-11-05 20:07:02 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera · Prevoditeljski sloj ⚠ kompozit — presuda ⚔ ⟡ ⊙ redak 75
