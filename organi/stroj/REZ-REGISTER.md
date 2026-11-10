@@ -173,6 +173,8 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 
 - rez σ 4189 · ⟨merge⟩ 1103510 · 2026-11-07 · PREVOZ σ 4183 ∧ σ 4186 — FIFO najstarejša neodplačana, PECAT ×5 telesi (#1490)
 - rez σ 4211 · ⟨merge⟩ 7358e1f · 2026-11-07 · LICENSE-LINEAGE +2 vnosa (0.1500 ∧ 0.1510 — živa vrata dosežena)
+- rez σ 4433 · 2026-11-10 · DNEVNI-DIH-MERE: PREVOZ σ 4411 IZROČENO VEJI — NJEN dih (humor ∧ jedro-zavedanja ∧ delovna-zanka) ⊙ kit #1634 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 4435 · 2026-11-10 · PREVOZ-PAKET-16: MOJI telesi ×2 σ 4432 izročeno veji — ta prevoz ⊙ kit #1636 ⭢ ⟨merge⟩ ⟡ roka
 
 ## rane
 
