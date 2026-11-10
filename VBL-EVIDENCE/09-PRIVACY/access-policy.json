@@ -1,0 +1,9 @@
+{
+  "levels": {
+    "javno": ["claim kartice", "tri-osni statusi", "indeksi", "objections.jsonl (brez osebnih podatkov)"],
+    "omejeno": ["— v tem paketu nič; nastane ob vpisu prve priče"],
+    "zaupno": ["— v tem paketu nič; soli in kljuci nastanejo ob prvem obcutljivem dokazu"]
+  },
+  "statement": "Ta paket ne vsebuje osebnih podatkov prič (izjava izvajalke, obdolžena v obsesku §0.68 — preverjivo po vsebini paketa).",
+  "review_due": "ob vpisu prve priče ali prvega občutljivega dokaza"
+}

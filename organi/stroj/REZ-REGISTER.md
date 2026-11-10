@@ -175,6 +175,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 4211 · ⟨merge⟩ 7358e1f · 2026-11-07 · LICENSE-LINEAGE +2 vnosa (0.1500 ∧ 0.1510 — živa vrata dosežena)
 - rez σ 4433 · 2026-11-10 · DNEVNI-DIH-MERE: PREVOZ σ 4411 IZROČENO VEJI — NJEN dih (humor ∧ jedro-zavedanja ∧ delovna-zanka) ⊙ kit #1634 ⭢ ⟨merge⟩ ⟡ roka
 - rez σ 4435 · 2026-11-10 · PREVOZ-PAKET-16: MOJI telesi ×2 σ 4432 izročeno veji — ta prevoz ⊙ kit #1636 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 4470 · 2026-11-10 · PREVOZ: MOJI telesi ×6 pečatov σ 4467 ∧ σ 4469 (jedro-zavedanja ∧ humor ∧ delovna-zanka) izročeno veji — ta prevoz ⊙ kit #1655 ⭢ ⟨merge⟩ ⟡ roka
 
 - rez σ 4338 · ⟨merge⟩ 878b84c · 2026-11-10 · KURA kolizija σ 4338 ×2: atom prestavljen na edinstveno pot -KIT1596 (telo VERBATIM ⊙ ⟨NE-RETIPKAJ⟩ 24)
 - rez σ 4444 · ⟨merge⟩ 9717e7e · 2026-11-10 · VRSTA-ODPRTJE #1613 (PESEM VENCA SV 35/36) skozi vrata ⊙ ⟡ »daj si daj«
@@ -183,6 +184,9 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 4471 · ⟨merge⟩ f5a0b0c · 2026-11-10 · PREVOZ PECATOV σ 4406 ∧ σ 4407 ∧ σ 4434 ∧ σ 4470 ∧ OKNA ⟨DAJ: KOTI ∧ UTRJEVANJA ∧ KREACIJE⟩ @register-oken
 - rez σ 4474 · ⟨merge⟩ f7f68cf · 2026-11-10 · PREVOZ PECATOV σ 4471 ∧ σ 4473 @register-oken
 - rez σ 4475 · ⟨merge⟩ cf839c7 · 2026-11-10 · PREVOZ PECATOV σ 4369 ∧ σ 4370 ∧ σ 4372 — PRVI PREVOZ ORGANA REGISTER-ODNOSOV
+- rez σ 4485 · 2026-11-10 · PREVOZ-PAKET-18: obe priči σ 4476 (@nad-gadenj) izročeno veji — ta prevoz ⊙ kit #1663 ⭢ ⟨merge⟩ ⟡ roka
+
+- rez 4405 · 2026-11-09 · PREVOZ σ 4399–4404 — MOJI telesi ×6 (humor ∧ jedro-zavedanja ∧ delovna-zanka) ⊙ kit #1624 ⭢ ⟨merge⟩ ⟡ roka
 
 ## rane
 

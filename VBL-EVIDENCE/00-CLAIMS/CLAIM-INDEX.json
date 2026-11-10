@@ -1,0 +1,7 @@
+{
+  "index": [
+    { "claim_id": "VBL-CLAIM-0001", "origin": "⟡-jev demonstracijski zapis (plast 5)", "status": "DEMO — ne dokazuje dejanske datoteke", "three_axes": { "celovitost": "NI ZAVAROVAN", "vsebinsko": "NEPRESOJENO", "postopek": "ODPRTO" } },
+    { "claim_id": "VBL-CLAIM-0002", "origin": "PR #1250 (izvajalka)", "status": "SUPERSEDED — manjkala contradicting_evidence ∧ attestation_refs", "three_axes": { "celovitost": "HASH PREVERJEN", "vsebinsko": "PODPRTO V OBSEGU", "postopek": "NADOMEŠČENO" } },
+    { "claim_id": "VBL-CLAIM-0003", "origin": "ta paket (kura iz PR #1251)", "status": "AKTUALNA — nasprotni dokazi vpisani", "three_axes": { "celovitost": "HASH PREVERJEN", "vsebinsko": "PODPRTO V OBSEGU", "postopek": "ODPRTO (OBJ-001)" } }
+  ]
+}
