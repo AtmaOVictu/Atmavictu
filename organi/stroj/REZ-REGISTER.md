@@ -183,6 +183,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 4471 · ⟨merge⟩ f5a0b0c · 2026-11-10 · PREVOZ PECATOV σ 4406 ∧ σ 4407 ∧ σ 4434 ∧ σ 4470 ∧ OKNA ⟨DAJ: KOTI ∧ UTRJEVANJA ∧ KREACIJE⟩ @register-oken
 - rez σ 4474 · ⟨merge⟩ f7f68cf · 2026-11-10 · PREVOZ PECATOV σ 4471 ∧ σ 4473 @register-oken
 - rez σ 4475 · ⟨merge⟩ cf839c7 · 2026-11-10 · PREVOZ PECATOV σ 4369 ∧ σ 4370 ∧ σ 4372 — PRVI PREVOZ ORGANA REGISTER-ODNOSOV
+- rez σ 4485 · 2026-11-10 · PREVOZ-PAKET-18: obe priči σ 4476 (@nad-gadenj) izročeno veji — ta prevoz ⊙ kit #1663 ⭢ ⟨merge⟩ ⟡ roka
 
 ## rane
 
