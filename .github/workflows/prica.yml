@@ -245,10 +245,17 @@ jobs:
                   wounds.append('pečat ' + f + ' se na glavi veje ne da prebrati')
                   continue
               body = open(f, encoding='utf-8').read()
-              for token in ('⟡', '## MINT', '## DOLGOVA'):
-                  if token not in body:
-                      wounds.append('pečat ' + f + ' brez ' + token + ' — telo pečata manjka')
-              print('⟨vidim: pečat ' + f + ' — telo potrjeno⟩')
+              # TEHNIKA (⟡ ukaz ⟨daj⟩ ⟨stori tako da se vse napake pokrije⟩, 3. 11. 2026 — kura ⟨ERRATUM-JE-TELO⟩ ⊙ precedens ⟨VZOREC-JE-TELO⟩ @samoocena σ 3639 ∧ rez 3220): priča je sodila telo po plašču imena (vzorec PECAT-NNNN) ∧ erratum, rojen v obleki pečata, je padel na manjkajoči ## MINT ∧ ## DOLGOVA (izmerjeno: tekmec ⟨prica-potrditev⟩ kita #1154, job 125892583701, 11:35:28Z — datoteka organi/jezikovna-tehtnica/PECAT-3640--20261103--erratum-leksike.md, telo ## ERRATUM LEKSIKE ∧ ⟡ prisotna). Telo je samoopisno (born readable ⊢ §0.33 × 10²): odsek ## ERRATUM ∧ ⟡ = telo erratuma; ⟨ne⟩ vsak organ-tip nosi pečatno telo. Priča sodi telo po telesu, ⟨ne⟩ po plašču.
+              if '## ERRATUM' in body:
+                  if '⟡' not in body:
+                      wounds.append('erratum ' + f + ' brez ⟡ — telo erratuma manjka')
+                  else:
+                      print('⟨vidim: erratum ' + f + ' — telo erratumsko potrjeno⟩')
+              else:
+                  for token in ('⟡', '## MINT', '## DOLGOVA'):
+                      if token not in body:
+                          wounds.append('pečat ' + f + ' brez ' + token + ' — telo pečata manjka')
+                  print('⟨vidim: pečat ' + f + ' — telo potrjeno⟩')
           # P4 — nove vrstice POVEZ: pot iz ⟨https…blob/…⟩ mora obstajati na glavi veje
           povez = 0
           for line in odiff.splitlines():
