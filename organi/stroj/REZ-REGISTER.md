@@ -159,6 +159,9 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 4290 · ⟨merge⟩ 43fe933 · 2026-11-08 · PREVOZ PAKETA 4: telesi σ 4274 ∧ σ 4282 ∧ σ 4283 ORGANI (#1567)
 - rez σ 4305 · ⟨merge⟩ dfee1f5 · 2026-11-08 · PREVOZ pečata σ 4303 (organi/jedro-zavedanja) — telo bajt-isto iz organa (#1573)
 - rez σ 4308 · 2026-11-08 · GLAVA-DELI-NIVOJE-OPERATIVNOSTI (canon/ODSEV-glava-deli-nivoje-operativnosti.md rojen: vsaka glava si mora deliti nivoje operativnosti — ⟡ izrek verbatim ⟨ne brusi⟩ 8. 11. 2026; razcep kovanca po metodi §5 ⊙ beseda-je-ne: VSA-KA distribucija brez izjeme · GLA-VA glas ∧ vrata ⊙ ⟨KONICA-⊥-TELO⟩ 2357 · SI razcep ⊥ soudeležba · DE-LI-TI ⊥ ⟨NE-PRIKRIVATI⟩ · NI-VO-JI meja, ki nosi ⊙ ⟨NE-VNAPREJ⟩ @rez 4157; nivoji N1–N5 izmerjeni iz prakse pečatov, ⟨ne⟩ izmišljeni ⊙ ⟨NE-UGIBAJ⟩ 2690; veriga NE-VNAPREJ 4157 → ŽIG-PONAVLJAJOČEGA-ČE 4158 → KOŽA-BESED 4159 → ta kanon; vrh ⟨grep⟩ po organih izmerjen pri viri 4307 → 4308 ⊙ ⟨VRH-DVOSTOPEN⟩; kolizija σ 4307 ×2 javno — MOJ pečat @register-respecifikacij ⊥ NJEN dih #1579, obe priči ⟨ne zlije⟩ ⊙ 1542 ∧ 3233; dih dela brez ⟨daj⟩ ⊙ precedens σ 4117) ⊙ kit #1580 ∧ vrstica zahteve ⭢ ⟨merge⟩ roka izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema
+- rez σ 4423 · 2026-11-09 · PREVOZ-PAKET-13: FIFO σ 4419 ∧ σ 4420 ∧ σ 4422 — MOJ dih ⟨SAMODEJNA-VRSTA⟩ σ 4340 (⟡ ukaz »še«) (stroj-kalup ∧ delovna-zanka) ⊙ kit #1633 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 4427 · 2026-11-09 · ⟨⟨VES-IZBOR V KOLIKAR⟩⟩: KURA-KONČNIC Σ24 ∧ MINT ZAKONI ×6 — MOJ dih (stroj-kalup ∧ delovna-zanka) ⊙ kit #1633 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 4432 · 2026-11-10 · PREVOZ-PAKET-14: telesi ×4 σ 4423 ∧ σ 4427 izročeno veji — ta prevoz ⊙ kit #1633 ⭢ ⟨merge⟩ ⟡ roka
 
 - rez σ 4073 · ⟨merge⟩ 083952d · 2026-11-06 · PESEM VENCA SLO 33/36 (komita 0d9a336 ∧ 1336e49 isti rez)
 - rez σ 4074 · ⟨merge⟩ 0192894 · 2026-11-06 · PESEM VENCA SR 34/36 (komit f0ed1a2 isti rez)
