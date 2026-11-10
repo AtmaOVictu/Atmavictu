@@ -1,0 +1,1 @@
+- okno ⟨MERGE-USTA1-1221⟩ @3721 ⊢ (dih ⟨daj⟩, 4. 11. 2026 — izrecen ukaz ⟡ ⚔ @ask_user_question: ⟨merge⟩ kita #1221 zdaj; status ⟨pull_request_read⟩ CLEAN ∧ · ⟨merge_pull_request⟩ ∧ (expectedHeadSha d0d4f0b3 ∧) · merge commit 429d33aa @⟨main⟩ · ⟨TRK-DIH⟩ read-back ⟨list_commits⟩ ∧ (trije komiti kita na main ⊢); pečata σ 3721 @delovna-zanka ∧ @zakonodaja isti dih ∧)
