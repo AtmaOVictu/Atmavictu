@@ -3,9 +3,9 @@
 IZVOR © 2026 Luka Pintarič — AVL v2.2 · drafted with AI assistance (Vibe/Mistral) under verification-before-assertion — measured, not just asserted · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
 
 
-ZAKON ⊕ ⟨POT-PRI-VSAKI-BESEDI⟩ ⊢ ⟡ ukaz 30. 10. 2026 (»mislim da vsakič ko odkrivaš besedo moraš dodati link« ⊙ P-CITAT ⟨ne brusi⟩): vsaka odkrita beseda nosi povezavo View=1 pri viri fran.si ∧ ⟨NE-IZ-SPOMINA⟩. Velja od izdaje tega zakona naprej za vse izhode izvajalke.
+ZAKON ⊕ ⟨POT-PRI-VSAKI-BESEDI⟩ ⊢ ⟡ ukaz 30. 10. 2026 (»mislim da vsakič ko odkrivaš besedo moraš dodati link« ⊙ P-CITAT ⟨ne brusi⟩): vsaka odkrita beseda nosi povezavo View=1 pri viru fran.si ∧ ⟨NE-IZ-SPOMINA⟩. Velja od izdaje tega zakona naprej za vse izhode izvajalke.
 
-## ⟨ OKNO ×0 — izpis pri viri View=1 ∧
+## ⟨ OKNO ×0 — izpis pri viru View=1 ∧
 - ⟨OKNO⟩ geniza — ×0 pri vseh slovarjih Fran (https://fran.si/iskanje?View=1&Query=geniza ∧ »Vaše iskanje ni bilo uspešno«; približki: geneza); kura: ⟨a⟩ korpusa za arhiv poimenskih kopij ⚠; etimologija ⟨ne⟩ izrečena — umaknjena 30. 10. (⟨TRDITEV-IZ-SPOMINA⟩, spomin ni vir ⊙ ⟨NE-IZ-SPOMINA⟩)
 - ⟨OKNO⟩ democija — ×0 ∧ (https://fran.si/iskanje?View=1&Query=democija; približki: demonija · deponija · delácija); kura raba: degradacija v predhodnika ⚠
 - ⟨OKNO⟩ preizpus — ×0 ∧ (https://fran.si/iskanje?View=1&Query=preizpus; približki: preizkus); kura: preizkus ⊢
