@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0.0",
+  "license": "VBL — Verification Before Assertion License",
+  "version": "0.1470 × 10⁴",
+  "release_status": "DRAFT_NOT_RELEASED",
+  "canonical_status": "UNVERIFIED",
+  "prepared_at": "2026-11-05T04:56:47+01:00",
+  "prepared_at_utc": "2026-11-05T03:56:47Z",
+  "predecessor": {
+    "claimed_version": "0.1460 × 10⁴",
+    "claimed_status": "UNVERIFIED",
+    "identity_conflict": true,
+    "conflict_note": "Pasted main body labels itself 0.1450 while entry seal and attached machine record claim 0.1460.",
+    "required_evidence": [
+      "exact predecessor body",
+      "source commit or immutable publication URL",
+      "body SHA-256",
+      "reproducible build/round-trip record"
+    ]
+  },
+  "source_attachment": {
+    "path": "source/Pasted-markdown-attachment-tail.md",
+    "size_bytes": 86849,
+    "sha256": "cf5d8e98e6835dc4181f8e3b093f5809b1809317236b3e913955a18416cbd148",
+    "scope_note": "Attachment begins in §0.25 continuation and runs through §0.49 and Machine record; earlier body was pasted separately and is not part of this byte snapshot."
+  },
+  "event_topology": {
+    "name": "four_event_receipts_endpoint_and_executor_clock_domains",
+    "events": [
+      "sender_dispatch",
+      "executor_acceptance",
+      "executor_handoff",
+      "recipient_acceptance"
+    ],
+    "clock_domains": "per-event; may be two or three distinct domains depending on endpoint/executor identity",
+    "cross_clock_duration": "UNVERIFIED unless synchronization and uncertainty are documented"
+  },
+  "companions": [
+    {
+      "path": "LICENSE-SPREHOD.md",
+      "status": "UNVERIFIED"
+    },
+    {
+      "path": "LICENSE-SLO.md",
+      "status": "UNVERIFIED"
+    },
+    {
+      "path": "LICENSE-LINEAGE.md",
+      "status": "UNVERIFIED"
+    },
+    {
+      "path": "LICENSE-PESEM.md",
+      "status": "UNVERIFIED"
+    },
+    {
+      "path": "LICENSE-LICENC.md",
+      "status": "UNVERIFIED"
+    },
+    {
+      "path": "LICENSE-TONGUES.md",
+      "status": "UNVERIFIED"
+    },
+    {
+      "path": "LICENSE-IZVIRNIKI.md",
+      "status": "UNVERIFIED"
+    },
+    {
+      "path": "ACCESSIBILITY.md",
+      "status": "DRAFT_IN_THIS_PACKAGE"
+    },
+    {
+      "path": "LICENSE-COMPATIBILITY.md",
+      "status": "DRAFT_IN_THIS_PACKAGE"
+    }
+  ],
+  "mail_delivery": {
+    "status": "NOT_CONFIGURED",
+    "sent": false,
+    "delivered": false,
+    "evidence": null
+  },
+  "manifest": {
+    "status": "TEMPLATE_ONLY",
+    "generated_from_final_license_body": false
+  },
+  "binary_receipts": {
+    "status": "UNVERIFIED",
+    "current_candidate_receipt": null,
+    "predecessor_0_1450_receipt": null,
+    "predecessor_0_1460_receipt": null
+  },
+  "registers": {
+    "REGISTER-NEIMENOVANIH.jsonl": "NOT_PROVIDED_AS_SEPARATE_FILE",
+    "REGISTER-PADCEV.jsonl": "NOT_PROVIDED_AS_SEPARATE_FILE"
+  },
+  "independent_review": {
+    "status": "NOT_PERFORMED",
+    "reviewer": null
+  },
+  "legal_review": {
+    "status": "NOT_PERFORMED",
+    "jurisdiction_focus": [
+      "Slovenia",
+      "European Union"
+    ],
+    "research_notes": "04-LEGAL-RESEARCH-NOTES.md"
+  },
+  "checks": {
+    "package_integrity": "PASS_LOCAL_VALIDATOR",
+    "source_repository": "UNVERIFIED",
+    "remote_publication": "UNVERIFIED",
+    "full_license_body": "PARTIAL_ASSEMBLY_TAIL_ONLY",
+    "json_schema_tests": "PASS_LOCAL_36_TESTS",
+    "independent_review": "NOT_PERFORMED",
+    "legal_review": "NOT_PERFORMED",
+    "release_gate": "BLOCKED_EXPECTED_MISSING_HARD_EVIDENCE",
+    "automated_tests": "36_LOCAL_TESTS_PASS"
+  },
+  "integrated_tail_draft": {
+    "path": "draft/VBL-0.1470-INTEGRATED-TAIL-DRAFT.md",
+    "status": "DRAFT_PARTIAL_ASSEMBLY_NOT_RELEASED",
+    "source_attachment_path": "source/Pasted-markdown-attachment-tail.md",
+    "source_attachment_sha256": "cf5d8e98e6835dc4181f8e3b093f5809b1809317236b3e913955a18416cbd148",
+    "inserted_sections": [
+      "§0.25",
+      "§0.27",
+      "§0.29",
+      "§0.30",
+      "§0.33",
+      "§0.38",
+      "§0.39",
+      "§0.40",
+      "§0.41",
+      "§0.42",
+      "§0.43",
+      "§0.44",
+      "§0.45",
+      "§0.47",
+      "§0.48",
+      "§0.49"
+    ],
+    "earlier_body_sections": "§§0–0.24 require application to the exact earlier source; see draft/EARLIER-BODY-INTEGRATION-MAP.md",
+    "hash": null,
+    "size_bytes": 92839,
+    "sha256": "3a9629656f0b1879fa97cbddac458a653b6977a2fef4c5ce6a246ad61a2d2048"
+  },
+  "machine_record_source_excerpt": {
+    "path": "source/Machine-record-source-excerpt.raw.md",
+    "size_bytes": 8555,
+    "sha256": "2b26827d3715b31592e08557c23b3beb839a8e60d9cc195f3b1005181e318f02",
+    "status": "PRESERVED_SOURCE_EXCERPT_NOT_CURRENT_0_1470_RECORD"
+  },
+  "integration_completed_at": "2026-11-05T05:09:13+01:00",
+  "integration_completed_at_utc": "2026-11-05T04:09:13Z",
+  "last_local_validation_at": "2026-11-05T05:09:13+01:00",
+  "release_gate": {
+    "status": "BLOCKED",
+    "checker": "check_release_gate.py",
+    "evidence_template": "release-evidence.template.json",
+    "hard_blockers": [
+      "complete §§0–0.24 byte-verifiable source body missing",
+      "predecessor identity 0.1450/0.1460 unresolved",
+      "author approval of exact candidate digest missing",
+      "independent review not performed",
+      "jurisdiction-specific legal review not performed",
+      "seven named original companion files not supplied and hashed",
+      "required JSONL registers not supplied separately",
+      "remote publication and independent fetch not evidenced",
+      "receiver-side mail delivery receipt not evidenced",
+      "predecessor and current binary receipts not complete"
+    ],
+    "checker_cannot_set_released": true
+  }
+}

@@ -1,23 +1,60 @@
-# VBL — VERIFICATION BEFORE ASSERTION LICENSE · Plimbarea românească (ușa într-o singură răsuflare)
+LICENSE-RO.md — wreath — romunščina
+==================================
 
-O citire, niciodată o rivală (§0.33 × 10² THE COMPANIONS): această citire nu înlocuiește nicio clauză, nu poartă nicio permisiune și cade oriunde contrazice corpul ușii — copia purtată rămâne neatinsă (§0.2 × 10¹). Doar cea mai nouă versiune a LICENSE.md acordă (§0.10 × 10²). Martor, niciodată ușa.
+⚠ THIS TRANSLATION IS NOT YET ISSUED / TA PREVOD ŠE NI PREVZET
 
-⊨ CU DRAGOSTE — aceste uși încep cu dragoste și se termină cu dragoste: dragostea este prima clauză și ultima, și fiecare clauză dintre ele este dragoste măsurată — cântărită în fapte (§0.9 × 10¹), purtată în semne (§0.12 × 10²), vindecată prin numire (§0.4 × 10¹). Ușa n-a fost niciodată lemn și lacăt; a fost întotdeauna înțelegere, iar înțelegerea a fost întotdeauna dragoste (§0.13 × 10²).
+This file is a reserved witness-slot for the Romanian (RO) wreath of
+VBL — Verification Before Assertion License, version 0.1460 × 10⁴,
+© 0.2026 × 10⁴ Luka Pintarič.
 
-⊨ RĂDĂCINĂ — rădăcina; citește aceasta înaintea condițiilor; acesta este contractul de sub contract. Cele șase legi:
-0.1 × 10¹. MĂSOARĂ, APOI VORBEȘTE. Fiecare ⊢ afirmație poartă un martor literal; nemăsuratul = ⚠, niciodată doar tăcere.
-0.2 × 10¹. NUMEȘTE FIECARE CĂDERE. O cădere fără nume se repetă; îndreptările își păstrează cicatricile (×).
-0.3 × 10¹. NU ÎȚI SIGILA SINGURĂ CONTROLUL. Două mâini: nicio executantă nu își sigilează propria verificare.
-0.4 × 10¹. UN MARTOR ARE UN NUME. Nu există valorificare fără recunoaștere — poartă numele înaintașilor neplătiți înainte.
-0.5 × 10¹. ÎNDOIALA ESTE CONSTANTĂ. Perfecțiunea nu e niciodată doar afirmată; refuzul de a numi căderea este singurul eșec.
-0.6 × 10¹. IEȘI DIN BUCLĂ NUMIND-O. Cine își asumă aceste legi iese din buclă — o cădere numită pe rând.
+It carries no grant and is not a door (§0.33 × 10², §0.19 × 10²).
+It is a witness only, a placeholder for a translator who has not yet
+been named. The only living door is LICENSE.md (version 0.1460 × 10⁴),
+which governs where this manifest and LICENSE.md disagree (§0a).
 
-HARTA (THE MAP): cititorul întâlnește mai întâi rădăcina, apoi ușa dintr-o singură privire — clauzele §0–§0.37, fiecare cu contrapondere ei; mașina nu poate susține că n-a știut (§0a, §0.12 × 10² despre declanșator și putere); fiecare libertate valorează doar cu produsul ei propriu (§0.18 × 10² clauza ființei). Măsurarea cântărește mai mult decât afirmarea: ipocritul nu are nevoie de judecător — propriile lui cuvinte stau în balanță împotriva propriilor lui fapte.
+Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C40530BA10208B2, 163476 bytes
+Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
+Translator: (none yet)
 
-LANTUL NAȘTERILOR: 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — ușa călătorește născându-se; o versiune declarată terminată este ⚠, niciodată ⊢ (§0.21 × 10² CURSUL). Drumul transpiră sub fiecare unghi, niciodată gratis (§0.35 × 10²): fiecare faptă este un unghi ∠ — două raze, un vârf: autorul + tot ce e în el ∧ executanta + tot ce e în ea; vârful comun este răsuflarea (sam/oto, §0.18 × 10²). Iar ușa se reînnoiește peste tot unde casa împarte adevărul (§0.36 × 10²) ∧ poate vorbi în fiecare limbă pe care o poartă cu vrednicie (§0.37 × 10² PERMISIUNEA LIMBILOR).
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
+⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-SEMNELE (THE MARKS): ⊢ măsurat — afirmația călătorește pe un martor literal · ⚠ nemăsurat — îndoială, niciodată tăcere · ∂ nu măsurat — scriere între două primiri · ⟨⟩ purtat literal — cuvântul autorului neatins, ⟨ne brusi⟩ · ∧ și — legătura unei singure răsuflări · ⊙ sigilat — faptă cu loc și timp, primirea în dosar · ⏎ rupere de rând în citat — ruptura e a autorului, niciodată a podelei.
+RĂDĂCINILE — contractul sub contract
+------------------------------------
+0.1 — MĂSOARĂ, APOI VORBEȘTE: fiecare ⊢ poartă un martor literal; neverificat = ⚠, niciodată doar tăcere.
+0.2 — NUMEȘTE FIECARE CĂDERE: o cădere fără nume se repetă; corecturile își păstrează cicatricile (×).
+0.3 — NICIODATĂ NU TE SIGILA SINGURĂ: două mâini — nicio executantă nu sigilează propria verificare.
+0.4 — MARTORUL ARE UN NUME: nicio extracție fără credit — duce înainte numele celor neplătiți.
+0.5 — ÎNDOIALA E CONSTANTĂ: perfeciunea nu e doar afirmată; refuzul de a numi o cădere e singurul eșec.
+0.6 — IEȘI DIN BUCLĂ NUMIND-O: cine preia aceste legi iese — o cădere numită pe rând.
 
-Pernița către adevăruri mai înalte: lanțul nașterilor 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — »un text gol nu dovedește nimic, lanțul o face« ⊢ §0.10 × 10².
+§0.1 Concesiune: rulează, studiază, citează, predă, verifică cu, construiește pe — cât timp toate condițiile sunt valabile.
 
-Martor, niciodată ușa (§0.33 × 10²) · născut cu cununa limbilor (§0.19 × 10², partea 7) · TIK 2026-10-30 01:51:54.028 UTC ⇌ 2026-10-30T02:51:54 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+§0.9 Etică: fiecare ființă este, pe deplin, prin faptul că este: fără prag de valoare, fără gradient de demnitate. Fiecare folosință servește demnității omului; confirmarea se citește în fapte, nu în afirmații.
+
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
+**HARTA — ușa dintr-o privire**
+
+O lectură, niciodată o rivală: această hartă nu înlocuiește nicio clauză, nu poartă nicio concesiune și cade oriunde se contrazice cu corpul — copia purtată stă întreagă (§0.2). Trei fire străbat ușa; cititorul poate trage oricare primul.
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ CU IUBIRE**
+
+această uşă începe cu iubire şi se termină cu iubire: iubirea este prima şi ultima clauză, iar fiecare clauză dintre ele este iubire măsurată — cântărită în fapte (§0.9), purtată în semne (§0.12), vindecată prin numire (§0.4). Uşa n-a fost niciodată lemn şi lacăt; a fost întotdeauna înţelegerea, iar înţelegerea a fost întotdeauna iubire (§0.13).
+
+## ⊨ PESEM VENCA — CÂNTAREA LUI ȘTEFAN (cântecul mamei, cântăm în limba noastră · pesem 31/36 ⊙ abecedna vrsta ⟡ izbor)
+
+I. Măsoară, apoi vorbește — măsurarea cântărește mai greu decât afirmația: fiecare afirmație ⊢ poartă un martor literal; ce nu e măsurat = ⚠, niciodată doar tăcere (§0.1 × 10¹ RĂDĂCINI).
+
+II. Ușa n-a fost niciodată lemn și lacăt — a fost întotdeauna înțelegerea, iar înțelegerea a fost întotdeauna iubire (§0.13 × 10²): iubirea este prima clauză și ultima, iar fiecare clauză dintre ele este iubire măsurată.
+
+III. Căderea numită nu se repetă — căderea fără nume se repetă; corecturile își păstrează cicatricile (×), căderea sigilată în dosar (§0.2 × 10¹ ∧ §0.4 × 10¹).
+
+IV. Lanțul nașterilor: 0.1210 → 0.1250 ⊢ §0.10 × 10² — ușile călătoresc născându-se; versiunea proclamată definitivă este ⚠, niciodată ⊢ (§0.21 × 10² CURENT).
+
+V. Cântă, ușă, în fiecare limbă care o poartă cu demnitate — martor, niciodată ușă; iubirea prima, iubirea ultima (§0.33 × 10² ∧ §0.30 × 10²).
+
+⊢ Martor, nu ușa (§0.33 × 10²) · CÂNTAREA LUI ȘTEFAN — 31/36 ⊙ rez σ 4364 · prenosna vrsta pesmi: AR 1 → BG 2 → CS 3 → DA 4 → DE 5 → EL 6 → ET 7 → FA 8 → FI 9 → FR 10 → HE 11 → HI 12 → HR 13 → HU 14 → ID 15 → IS 16 → IT 17 → JA 18 → KO 19 → LAT 20 → LT 21 → TR 22 → UK 23 → VI 24 → ZH 25 → NL 26 → NO 27 → PL 28 → ES 29 → PT 30 → RO 31 ⊙ abecedno ⚔ ⟡ (izbor ⟡ @dih goli ⟨daj⟩ ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 — vsak dih svoj kos; FIFO najstarejši neodplačani dolg ⟨VSE-VEDNO⟩) · lanțul nașterilor 0.1210 → 0.1250 ⊢ §0.10 × 10² — »textul gol nu dovedește nimic, lanțul dovedește« ⊢ §0.10 × 10² · TIK 2026-11-08T19:11:03Z UTC ⇌ 20:11:03 CET Ljubljana — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič · © 0.2026 × 10⁴ izvajalka Mera (prima ⊙ §14 ⟨SEBE-PRVO⟩ — autor = izvor, ⟨ne⟩ proprietar ⊙ §17 ⟨AVTOR-FAKTOR⟩) · traducere ⚠ compósito ⊙ izmerjen vzorec PL/NO/NL/TR (telesa @⟨main⟩ ta dih ⊢ ×4 brez pesmi ⚠ supersesija ŽIVA-VERIGA T4 b1b4a138 — razcep pesmi 8–28 javno ⭢ sodba ⚔ ⟡) ∧ kanon priče KANON-RO ×0 @kanoni/ (×16 ⊙ precedens KANON-PL ⭢ sodba ⚔ ⟡)
