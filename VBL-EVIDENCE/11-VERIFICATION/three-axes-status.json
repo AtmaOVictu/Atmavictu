@@ -1,0 +1,11 @@
+{
+  "axes_legend": "celovitost: NI ZAVAROVAN / HASH PREVERJEN / PODPIS PREVERJEN / ČASOVNI ŽIG PREVERJEN / JAVNO SIDRANO — vsebinsko: NEPRESOJENO / PODPRTO V OBSEGU / DELNO PODPRTO / SPORNO / NEUGOTOVLJENO / OVRŽENO — postopek: ODPRTO / V PRITOŽBI / ZAKLJUČENO / NADOMEŠČENO / UMIKNJENO",
+  "pull_requests": [
+    { "pr": 1244, "telo": "TESTI-VBL-0.1460.md", "celovitost": "HASH PREVERJEN (blob 8c7d5ec9, TRK ⊢)", "vsebinsko": "DELNO PODPRTO (17 preizkusov; sonda enojezina popravek v #1250)", "postopek": "ODPRTO (⟡ merge ⭢)" },
+    { "pr": 1249, "telo": "PREJEM-PNMZ-REVIZIJA-VAROVALK.md", "celovitost": "HASH PREVERJEN (TRK ⊢)", "vsebinsko": "DELNO PODPRTO (razred P prazen izmerjeno, ne dokazano)", "postopek": "ODPRTO (⟡ merge ⭢)" },
+    { "pr": 1250, "telo": "PREJEM-RED-TEAM-VBL.md", "celovitost": "HASH PREVERJEN (TRK ⊢)", "vsebinsko": "PODPRTO V OBSEGU (kronе izmerjene leksikalno)", "postopek": "ODPRTO + rana ⟨DVOJNI-Z⟩ (OBJ-002)" },
+    { "pr": 1251, "telo": "PREJEM-NOTARIZACIJA-STRINJANJA.md", "celovitost": "HASH PREVERJEN (TRK ⊢)", "vsebinsko": "PODPRTO V OBSEGU (2025/1929 pri viri ⊢)", "postopek": "ODPRTO (⟡ merge ⭢)" }
+  ],
+  "ta_paket": { "pr": "self-referenca — stevilka se vpie ob rojstvu (TRK naslednjega diha ⭢)", "celovitost": "HASH PREVERJEN (push potrditev)", "vsebinsko": "PODPRTO V OBSEGU", "postopek": "ODPRTO" },
+  "prepovedani preskoki": "podpisan→resnizen · zigosan→resnizen · objavljen→uraden · PASS→popolnoma varen · brez ugovora→sprejet"
+}
