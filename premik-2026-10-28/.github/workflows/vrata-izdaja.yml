@@ -1,0 +1,76 @@
+# VRATA-IZDAJA — TEHNIKA kit (rez 2683 · Release Gate G2 → stroj: relegacija NAVZDOL ⊢ ukaz ⟡)
+# Issuance duty kot koda (§0a ∧ §10 LICENSE.md): manifest je identifikacija pokritega
+# materiala — zastarel vnos po lastnem telesu »identifies nothing«. Ta tečaj ponovno
+# izmeri LICENSE.md ∧ pade GLASNO, če LICENSE-MANIFEST ne nosi živih vrat.
+# MERILEC SE MERI (⊢ vnos 31 registra padcev): instrument je preizkušen na znanem
+# vektorju PRED vsako izmero — padec instrumenta je prvi pošten podatek.
+name: VRATA-IZDAJA (issuance duty §0a)
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'LICENSE.md'
+      - 'LICENSE-MANIFEST'
+  pull_request:
+    paths:
+      - 'LICENSE.md'
+      - 'LICENSE-MANIFEST'
+      - '.github/workflows/vrata-izdaja.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: vrata-izdaja-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  izdaja:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Izmeri vrata ⇌ manifest (isti dih ali padec — §0a)
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib, json, re, sys
+
+          def fail(msg):
+              print("FAIL: " + msg)
+              sys.exit(1)
+
+          # MERILEC SE MERI: vektor pred uporabo (vnos 31 — instrument brez vektorja je trditev)
+          v = hashlib.sha256(b"abc").hexdigest()
+          expected = "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+          if v != expected:
+              fail("instrument sha256 ni reproduciral znanega vektorja (abc)")
+          print("samopreizkus: sha256(abc) = znani vektor ∧")
+
+          lic = open("LICENSE.md", "rb").read()
+          sha = hashlib.sha256(lic).hexdigest()
+          size = len(lic)
+          text = lic.decode("utf-8")
+          m = re.search(r'"version":\s*"([0-9]+\.[0-9]+\.[0-9]+)"', text)
+          if not m:
+              fail("LICENSE.md nima različice v strojnem zapisu")
+          lic_version = m.group(1)
+          man = json.load(open("LICENSE-MANIFEST", encoding="utf-8"))
+          item = None
+          for it in man.get("items", []):
+              if it.get("path") == "LICENSE.md":
+                  item = it
+          if item is None:
+              fail("manifest ne nosi vnosa za LICENSE.md (§0a)")
+          errors = []
+          if man.get("version") != lic_version:
+              errors.append("različica manifesta " + str(man.get("version")) + " ⊥ živa vrata " + lic_version)
+          if item.get("sha256") != sha:
+              errors.append("sha256 manifesta " + str(item.get("sha256")) + " ⊥ izmerjeno " + sha)
+          if item.get("size_bytes") != size:
+              errors.append("size_bytes manifesta " + str(item.get("size_bytes")) + " ⊥ izmerjeno " + str(size))
+          if errors:
+              print("FAIL: zastarela izdaja — issuance_duty: a stale hash is a visible, honest failure")
+              for e in errors:
+                  print("  - " + e)
+              sys.exit(1)
+          print("OK: manifest ⇌ živa vrata " + lic_version + " · " + str(size) + " B · sha256 " + sha)
+          PY
