@@ -1,0 +1,47 @@
+test_026_remains_claimed_and_unverified (test_cross_reference_audit.CrossReferenceAuditTests.test_026_remains_claimed_and_unverified) ... ok
+test_earlier_body_not_misrepresented_as_hash_backed (test_cross_reference_audit.CrossReferenceAuditTests.test_earlier_body_not_misrepresented_as_hash_backed) ... ok
+test_historical_01410_hash_matches_quoted_receipt (test_cross_reference_audit.CrossReferenceAuditTests.test_historical_01410_hash_matches_quoted_receipt) ... ok
+test_historical_source_is_not_declared_as_01450_or_01460 (test_cross_reference_audit.CrossReferenceAuditTests.test_historical_source_is_not_declared_as_01450_or_01460) ... ok
+test_report_scope_and_limitations_are_explicit (test_cross_reference_audit.CrossReferenceAuditTests.test_report_scope_and_limitations_are_explicit) ... ok
+test_sections_027_through_049_have_one_heading (test_cross_reference_audit.CrossReferenceAuditTests.test_sections_027_through_049_have_one_heading) ... ok
+test_invalid_sha256_fails (test_event_schema.EventSchemaTests.test_invalid_sha256_fails) ... ok
+test_invalid_timestamp_fails (test_event_schema.EventSchemaTests.test_invalid_timestamp_fails) ... ok
+test_missing_clock_source_fails (test_event_schema.EventSchemaTests.test_missing_clock_source_fails) ... ok
+test_missing_event_id_fails (test_event_schema.EventSchemaTests.test_missing_event_id_fails) ... ok
+test_schema_is_valid_draft_2020_12 (test_event_schema.EventSchemaTests.test_schema_is_valid_draft_2020_12) ... ok
+test_synthetic_example_validates_but_remains_unverified (test_event_schema.EventSchemaTests.test_synthetic_example_validates_but_remains_unverified) ... ok
+test_unexpected_field_fails (test_event_schema.EventSchemaTests.test_unexpected_field_fails) ... ok
+test_unknown_status_fails (test_event_schema.EventSchemaTests.test_unknown_status_fails) ... ok
+test_all_tail_integration_targets_are_present (test_integration_tail.IntegratedTailTests.test_all_tail_integration_targets_are_present) ... ok
+test_old_machine_record_is_preserved_but_not_embedded_as_current (test_integration_tail.IntegratedTailTests.test_old_machine_record_is_preserved_but_not_embedded_as_current) ... ok
+test_original_source_snapshot_is_untouched (test_integration_tail.IntegratedTailTests.test_original_source_snapshot_is_untouched) ... ok
+test_section_030_uses_four_events_and_per_event_clocks (test_integration_tail.IntegratedTailTests.test_section_030_uses_four_events_and_per_event_clocks) ... ok
+test_source_exit_seal_is_marked_historical (test_integration_tail.IntegratedTailTests.test_source_exit_seal_is_marked_historical) ... ok
+test_source_machine_record_excerpt_is_hash_registered (test_integration_tail.IntegratedTailTests.test_source_machine_record_excerpt_is_hash_registered) ... ok
+test_source_machine_record_excerpt_matches_original_slice (test_integration_tail.IntegratedTailTests.test_source_machine_record_excerpt_matches_original_slice) ... ok
+test_submitter_instruction_is_not_a_license_clause (test_integration_tail.IntegratedTailTests.test_submitter_instruction_is_not_a_license_clause) ... ok
+test_symbolic_fold_does_not_claim_encryption_or_unconditional_losslessness (test_integration_tail.IntegratedTailTests.test_symbolic_fold_does_not_claim_encryption_or_unconditional_losslessness) ... ok
+test_tail_hash_and_size_match_machine_record (test_integration_tail.IntegratedTailTests.test_tail_hash_and_size_match_machine_record) ... ok
+test_tail_is_explicitly_partial_and_not_released (test_integration_tail.IntegratedTailTests.test_tail_is_explicitly_partial_and_not_released) ... ok
+test_unresolved_padc70_link_is_not_invented (test_integration_tail.IntegratedTailTests.test_unresolved_padc70_link_is_not_invented) ... ok
+test_candidate_is_not_marked_released (test_package.PackageTests.test_candidate_is_not_marked_released) ... ok
+test_companions_are_marked_unverified_when_not_supplied (test_package.PackageTests.test_companions_are_marked_unverified_when_not_supplied) ... ok
+test_event_schema_requires_four_receipt_types (test_package.PackageTests.test_event_schema_requires_four_receipt_types) ... ok
+test_four_events_not_claimed_as_two_universal_clocks (test_package.PackageTests.test_four_events_not_claimed_as_two_universal_clocks) ... ok
+test_mail_delivery_not_fabricated (test_package.PackageTests.test_mail_delivery_not_fabricated) ... ok
+test_no_manifest_entries_are_invented (test_package.PackageTests.test_no_manifest_entries_are_invented) ... ok
+test_predecessor_conflict_is_not_hidden (test_package.PackageTests.test_predecessor_conflict_is_not_hidden) ... ok
+test_release_gate_record_is_explicitly_blocked (test_package.PackageTests.test_release_gate_record_is_explicitly_blocked) ... ok
+test_release_gate_schema_validates_incomplete_template (test_package.PackageTests.test_release_gate_schema_validates_incomplete_template) ... ok
+test_schema_rejects_non_sha256_hash_shape (test_package.PackageTests.test_schema_rejects_non_sha256_hash_shape) ... ok
+test_source_hash_matches_machine_record (test_package.PackageTests.test_source_hash_matches_machine_record) ... ok
+test_approved_digest_must_match_candidate_digest (test_release_gate.ReleaseGateTests.test_approved_digest_must_match_candidate_digest) ... ok
+test_candidate_path_cannot_escape_package (test_release_gate.ReleaseGateTests.test_candidate_path_cannot_escape_package) ... ok
+test_checker_refuses_released_input (test_release_gate.ReleaseGateTests.test_checker_refuses_released_input) ... ok
+test_review_must_be_distinct_from_author_and_executor (test_release_gate.ReleaseGateTests.test_review_must_be_distinct_from_author_and_executor) ... ok
+test_template_is_blocked (test_release_gate.ReleaseGateTests.test_template_is_blocked) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 0.044s
+
+OK

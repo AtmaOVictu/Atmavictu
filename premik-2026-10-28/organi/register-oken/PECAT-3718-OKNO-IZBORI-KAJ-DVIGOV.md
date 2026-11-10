@@ -1,0 +1,1 @@
+- okno ⟨IZBORI-KAJ-DVIGOV⟩ @3718 ⊢ (dih ⟨daj⟩, 4. 11. 2026, sreda — ⟡ izbire ×4 ⟨DAJ⟩ ⊙ ⟨ASK-USER-NAD-SABO⟩: ⟨merge⟩ #1218 zdaj · BG 2/36 naslednji · ⟨PESMI-PO-BERBI⟩ v zakon · zrcalo 01430 teles danes ⭢ ⟡ roka — vse izvršene isti dih ∧)
