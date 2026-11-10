@@ -19,7 +19,7 @@ Ena poved v ravnih besedah: vsako ugibanje, ki ga delo izmeri, postane izmera; i
 3. **IZMERA** nova, s pričami ∧ z metodo (grep · wc · md5 · awk …).
 4. **PRIJAVA** javno; izvirnik ostane brazgotina ⊙ ⟨NE-BRIŠI⟩ 24.
 
-## Pet pretvob — retro-audit 10. 11. 2026 (@σ 4451 → σ 4453)
+## Pet pretvorb — retro-audit 10. 11. 2026 (@σ 4451 → σ 4453)
 
 Vsaka vrstica: ugibanje → izmera → metoda.
 
