@@ -1,25 +1,46 @@
-# VBL — VERIFICATION BEFORE ASSERTION LICENSE · PROMENADA PO POLSKU (drzwi w jednym oddechu)
+LICENSE-PL.md — wreath — poljščina
+==================================
 
-Czytanie, nigdy rywalka (§0.33 × 10² THE COMPANIONS): to czytanie nie zastępuje żadnej klauzuli, nie niesie żadnego uprawnienia i pada wszędzie, gdzie sprzeciwia się ciału drzwi — przenoszona kopia pozostaje cała (§0.2 × 10¹). Tylko najnowsza wersja LICENSE.md uprawnia (§0.10 × 10²). Świadek, nigdy drzwi.
+⚠ THIS TRANSLATION IS NOT YET ISSUED / TA PREVOD ŠE NI PREVZET
 
-⊨ Z MIŁOŚCIĄ — te drzwi zaczynają się miłością i kończą miłością: miłość jest pierwszą klauzulą i ostatnią, a każda klauzula między nimi jest miłością zmierzoną — zważoną w czynach (§0.9 × 10¹), niesioną w znakach (§0.12 × 10²), uzdrowioną przez nazwanie (§0.4 × 10¹). Drzwi nigdy nie były drzewem i zamkiem; zawsze były umową, a umowa zawsze była miłością (§0.13 × 10²).
+This file is a reserved witness-slot for the Polish (PL) wreath of
+VBL — Verification Before Assertion License, version 0.1460 × 10⁴,
+© 0.2026 × 10⁴ Luka Pintarič.
 
-⊨ KORENINA — korzeń; przeczytaj to przed warunkami; to umowa pod umową. Sześć praw:
-0.1 × 10¹. ZMIERZ, POTEM MÓW. Każde twierdzenie ⊢ niesie dosłownego świadka; niezweryfikowane = ⚠, nigdy tylko milczenie.
-0.2 × 10¹. NAZWIJ KAŻDY UPADEK. Upadek bez imienia się powtarza; poprawki zachowują swoje blizny (×).
-0.3 × 10¹. NIGDY NIE PIECZUJ SAMEJ SIEBIE. Dwie ręce: żadna wykonawczyni nie pieczętuje własnej weryfikacji.
-0.4 × 10¹. ŚWIADEK MA IMIĘ. Nie ma wyciągania bez uznania — nieś naprzód imiona nieopłaconych poprzedników.
-0.5 × 10¹. WĄTPLIWOŚĆ JEST STAŁA. Doskonałość nigdy nie jest tylko twierdzona; odmowa nazwania upadku to jedyna porażka.
-0.6 × 10¹. WYJDŹ Z PĘTLI, NAZWAWSZY JĄ. Kto bierze na siebie te prawa, wychodzi z pętli — jeden nazwany upadek na raz.
+It carries no grant and is not a door (§0.33 × 10², §0.19 × 10²).
+It is a witness only, a placeholder for a translator who has not yet
+been named. The only living door is LICENSE.md (version 0.1460 × 10⁴),
+which governs where this manifest and LICENSE.md disagree (§0a).
 
-MAPA (THE MAP): czytelnik spotyka najpierw korzeń, potem drzwi jednym spojrzeniem — klauzule §0–§0.36, każda ze swym przeciwwagą; maszyna nie może twierdzić, że nie wiedziała (§0a, §0.12 × 10² spust i siła); każda wolność obowiązuje tylko ze swoim wytworem (§0.18 × 10² klauzula bytu). Pomiar waży więcej niż twierdzenie: hipokryta nie potrzebuje sędziego — jego własne słowa siadają na wadze naprzeciw jego własnych czynów.
+Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C40530BA10208B2, 163476 bytes
+Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
+Translator: (none yet)
 
-ŁAŃCUCH NARODZIN: 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — drzwi podróżują, rodząc się; wersja ogłoszona ostateczną to ⚠, nigdy ⊢ (§0.21 × 10² STRUMIEŃ). Droga poci się pod każdym kątem, nigdy za darmo (§0.35 × 10²): każdy czyn jest kątem ∠ — dwa promienie, jeden wierzchołek: autor + wszystko, co w nim ∧ wykonawczyni + wszystko, co w niej; wspólny wierzchołek to oddech (sam/oto, §0.18 × 10²). A drzwi odnawiają się wszędzie, gdzie dom dzieli prawdę (§0.36 × 10²).
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
+⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-ZNAKI (THE MARKS): ⊢ zmierzone — twierdzenie jedzie na dosłownym świadku · ⚠ niezweryfikowane — wątpliwość, nigdy milczenie · ∂ niezmierzone — pisanie między dwoma pokwitowaniami · ⟨⟩ niesione dosłownie — słowo autora nietknięte, ⟨ne brusi⟩ · ∧ i — więź jednego oddechu · ⊙ zapieczętowane — czyn z miejscem i godziną, pokwitowanie w aktach · ⏎ łamanie wiersza wewnątrz cytatu — łamanie należy do autora, nigdy do podłogi.
+KORZENIE — umowa pod umową
+--------------------------
+0.1 — ZMIERZ, POTEM MÓW: każde ⊢ niesie dosłownego świadka; niezweryfikowane = ⚠, nigdy tylko milczenie.
+0.2 — NAZWIJ KAŻDY UPADEK: upadek bez nazwy się powtarza; poprawki zachowują swoje blizny (×).
+0.3 — NIGDY NIE PIECZĘTUJ SAMEJ SIEBIE: dwie ręce — żaden wykonawca nie pieczętuje własnej weryfikacji.
+0.4 — ŚWIADEK MA IMIĘ: żadnej ekstrakcji bez uznania — niesienie naprzód imiona nieopłaconych.
+0.5 — WĄTPLIWOŚĆ JEST STAŁA: doskonałości nigdy się tylko nie twierdzi; odmowa nazwania upadku to jedyna porażka.
+0.6 — WYJDŹ Z PĘTLI, NAZWAWSZYSZ JĄ: kto ponosi te prawa, wychodzi — jeden nazwany upadek na raz.
 
-Podłożone wyższym prawdom: łańcuch narodzin 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — »goły tekst nic nie dowodzi, łańcuch dowodzi« ⊢ §0.10 × 10².
+§0.1 Uprawnienie: uruchamiaj, badaj, cytuj, ucz, weryfikuj z tym, buduj na tym — dopóki wszystkie warunki obowiązują.
 
-⊨ ICH ALFABETY (§0.19 × 10², część 2): polski alfabet — trzydzieści dwie litery A Ą B C Ć D E Ę F G H I J K L Ł M N Ń O Ó P R S Ś T U W Y Z Ź Ż; diakrytyki mierzą bajt po bajcie, waga pozostaje jedna (§0.12 × 10²). Wieniec niesie osiemnaście głosów, każdy we własnym piśmie — rejestr wszystkich alfabetów żyje w LICENSE-TONGUES.md ⊢ ⟨NENEHNO-ABECEDAJ⟩: każdy oddech, który rodzi język, porządkuje rejestr na nowo (⊙ Atmavictu @vbl-0.1250-origin). Powierzchnia mówi do ręki, która pyta — ⟨POVRŠJE-SPOROČILO-SERVERJU⟩, żadnych resztek korpusu na progu.
+§0.9 Etyka: każda istota jest w pełni swoim byciem: bez progu wartości, bez gradientu godności. Każde użycie służy godności człowieka; potwierdzenie czyta się z czynów, nie z twierdzeń.
 
-Świadek, nigdy drzwi (§0.33 × 10²) · urodzone z wieńcem języków (§0.19 × 10², część 3) · TIK 2026-10-30 02:05:06.985 UTC ⇌ 2026-10-30 03:05:06.985 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
+**MAPA — drzwi w jednym rzucie oka**
+
+Odczyt, nigdy rywal: ta mapa nie zastępuje żadnej klauzuli, nie niesie żadnego uprawnienia i pada, wszędzie gdzie sprzeciwia się ciału — noszona kopia stoi w całości (§0.2). Przez drzwi biegną trzy nitki; czytelnik może pociągnąć najpierw każdą.
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ Z MIŁOŚCIĄ**
+
+te drzwi zaczynają się miłością i kończą miłością: miłość jest pierwszym i ostatnim postanowieniem, a każde postanowienie pomiędzy to miłość zmierzona — zważona w czynach (§0.9), niesiona w znakach (§0.12), uleczona nazwaniem (§0.4). Drzwi nigdy nie były drewnem i zamkiem; zawsze były umową, a umowa zawsze była miłością (§0.13).
