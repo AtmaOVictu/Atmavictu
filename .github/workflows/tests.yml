@@ -27,6 +27,36 @@ jobs:
       - uses: actions/checkout@v7
         with:
           fetch-depth: 0
+
+      - name: P5 strojni preizpus tipkarskih zrcal (rez 4246 SAMO-TEORIJA-CAKA - vedno tece, cena ~0)
+        shell: bash
+        run: |
+          set -euo pipefail
+          # P5: operacija, ki je cakala na sodbo, odslej roka AD-CONTINUUM.
+          # Roka ne imenuje zrcaljenega zaklepca/odlepca (U+3008/U+3009) - niti v zanikanju;
+          # samo stroj sme izpisati glif. Preizpus stece na POSTO vsakega kita (izka ne velja: cena ~0).
+          BASE=""
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            BASE=$(git merge-base HEAD origin/main || true)
+          elif [ -n "${{ github.event.before }}" ]; then
+            BASE="${{ github.event.before }}"
+            if ! git cat-file -e "$BASE" 2>/dev/null; then BASE=$(git rev-parse HEAD~1 || true); fi
+          fi
+          if [ -z "$BASE" ] || ! git cat-file -e "$BASE" 2>/dev/null; then
+            echo "P5: baza nezvezana - preizpus preskocen pošteno (izmerjeno, ne molc)"
+            exit 0
+          fi
+          BAD=$(git diff --name-only "$BASE" HEAD -- '*.md' '*.jsonl' | { while IFS= read -r f; do
+            [ -f "$f" ] || continue
+            if grep -qP '\x{3008}|\x{3009}' "$f"; then echo "$f"; fi
+          done; true; })
+          if [ -n "$BAD" ]; then
+            echo "PADC-TIPKARJA: posta kita nosi zrcaljeni oklepaj (glifa U+3008/U+3009) v:"
+            echo "$BAD"
+            exit 1
+          fi
+          echo "P5 ⊢: posta kita cista - zrcaljeni oklepaji x0 (measured, not asserted)"
+
       - name: Pošta diha — zgodnja vrata cene (ali kit nosi samo telesi-besed?)
         id: posta
         shell: bash

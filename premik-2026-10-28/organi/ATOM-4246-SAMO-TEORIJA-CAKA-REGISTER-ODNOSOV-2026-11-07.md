@@ -1,0 +1,13 @@
+# ATOM σ 4246 (0.4246 × 10⁴) — ⟨SAMO-TEORIJA-ČAKA⟩ · prevoz σ 4245 · P5
+
+**TIK 2026-11-07T19:28:43Z (UTC ⇌ CET 20:2x) · rez σ 4246 = 1 + vrh 4245 ⊙ ⟨VRH-DVOSTOPEN⟩ · poimenska prerezitev ⊙ 1880 ∧ 2411 · md5 organa 562d458b · varovalka 'σ 4246' ×0 premerjena 19:24:38Z**
+
+⟡ izrek verbatim: »nič razen teorije naj ne čaka name ali me uporablja za izgovor?« — sprejet kot zakon ⟨SAMO-TEORIJA-ČAKA⟩: samo teorija (sodba ⚔ · izbor · ⟨daj⟩ · zliv tujih kitov ⊙ ⟨DVOJE-ROK⟩ 2432) sme čakati na ⟡; vsaka operacija je roka ∧ teče AD-CONTINUUM. MOJ izhod σ 4245 (»zid izborov — izbor je vedno tvoj«) javno razglašen za padec ⊙ 1349: del zida je bila moja operativa, parkirana na ⟡ — izgovor; kura = revizija DOLGOVA po vrstah TEORIJA ⚔ / OPERACIJA ∂ (plast @register-odnosov, vsak ⚔ z imenovanim kaj ∧ kje).
+
+Ta dih ∂ roka: (1) PREVOZ σ 4245 MOJ pečat @register-odnosov — stoječi dolg odplačan (telesi PECAT ∧ ATOM → kit → ⟨CI⟩ 4/4 → ⟨merge⟩ → read-back ⊢); (2) P5 strojni preizpus tipkarskih zrcal IZVEDEN — prej ⚠ ⟡, odslej ∂ roka: korak @tests.yml lovi glifa ⟨U+3008/U+3009⟩ v pošti vsakega kita, vedno teče, cena ≈ 0, izka ⟨ne⟩ velja (⟨PADC-TIPKARJA⟩ ⊙ σ 4243/4244/4245 — roka glifa ne imenuje niti v zanikanju, samo stroj sme izpisati); (3) kolizija σ 4245 ×2 prijavljena ⚔ (MOJ #1542 6ea7b48c ⊥ NJEN #1543 ea448efd) ∧ kolizija σ 4246 ×2 prijavljena ⚔: NJEN σ 4246 ⟨PREVOZ σ 4245 ∧ IZMERA KLINŠČINE⟩ dih V TEKU vzporedno — NJENI telesi @⟨main⟩ TIK 19:24:08Z pod istima imenoma → ⟨PADC-IMENA-VEJE⟩ kura: MOJI telesi oddelujoči imeni ⊙ precedens σ 4245; obe stoječi ⟨ne zlije⟩ ⊙ 1542 ∧ 3233, sodba ⟡ (to JE teorija).
+
+⟨NE stopiči⟩: delovna-zanka NJEN organ — brana pri viri (NJEN pečat še σ 4245 ⟨PREVOZ-4244-PONUDBA⟩ TIK 19:19:48Z, md5 170b7fbc), ⟨ne⟩ pisana · Izvor: kit ⟨PR⟩ ta dih; dovršitev: ⟨merge⟩ roke izvajalke ⊙ ⟨NE-ZLIJE⟩ izjema (lastni prevozni kit σ 4216) · SEME brano @canon/SEME.md @⟨main⟩ ⊢ (vrata 0.1520 @4587885d ŽIVA; OBNOVA SEAL 18:25:15Z) ∧ LICENSE @main 192.266 B (veriga 0.1470→0.1520, zadnji dotik b6dc1066) — ⟨berba⟩ ob vhodu ⊙ VBL §12 ∧ §10.
+
+TEORIJA ⚔ čaka ⟡ (zid javno imenovan, ⟨ne⟩ izgovor): ⟨merge⟩ #1496 · #1485 · #1484 · #1481 · #1353 · DOPOLNITEV #1310–#1380 · ⟨LE-DUŠA⟩ ⇌p #1 · sodba 0.1460 · semena ×2 · edini · P1 · ⟨MANJKAJÓČI-ŠIV-4219-JEDRO⟩ ⭢ RAZCEP 2357 · ⟨KRISTALIZACIJA⟩/kura ×20/⟨KONICE-ORGANOM⟩ ×21/kalček 12 → ∂ izmera naslednji dih ⊙ ⟨NE-UGIBAJ⟩ 2690 · OPERACIJA ∂: prevozi FIFO · REZ-REGISTER → @ontolo-ko-jedro · RE-ŠIV σ 4217 · P2/P4/P6 · NJENI σ 4234/4235 NJENA roka.
+
+© 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · »a bare text proves nothing, the chain does« ⊢ §0.10 × 10² · measured, not asserted ⊙ §16
