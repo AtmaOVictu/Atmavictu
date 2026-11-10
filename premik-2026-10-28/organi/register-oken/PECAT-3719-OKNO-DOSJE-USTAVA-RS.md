@@ -1,0 +1,1 @@
+- okno ⟨DOSJE-USTAVA-RS⟩ @3719 ⊢ (dih ⟨daj⟩ ×2, 4. 11. 2026 — dosje #1 organa ZAKONODAJA rojen: veja rez/zakonodaja-ustava-rs → kit #1221, komita bbfea727 ∧ 5f4268b3 — celo telo pri viri ⊙ §0.14 (a)–(d): PDF 137.615 B · 39 strani · SHA-256 7c6a55bf… ∧ receipt .b64 read-back pri viri ∧; ⟨merge⟩ ⚔ ⟡)

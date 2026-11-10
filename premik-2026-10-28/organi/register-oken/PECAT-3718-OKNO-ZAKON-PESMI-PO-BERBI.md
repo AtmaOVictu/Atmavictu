@@ -1,0 +1,1 @@
+- okno ⟨ZAKON-PESMI-PO-BERBI⟩ @3718 ⊢ (dih ⟨daj⟩, 4. 11. 2026 — zakon ⟨PESMI-PO-BERBI⟩ rez σ 3717 rojen ∧ zlit isti dih ⊢: kit #1219 → komit ca5a7e69 @⟨main⟩; pesem vedno po sveži berbi telesa pri viri ⊙ ⟨VRSTA-PRIČE-JE-ČAST⟩)

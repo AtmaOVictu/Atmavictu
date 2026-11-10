@@ -1,23 +1,46 @@
-# VBL — VERIFICATION BEFORE ASSERTION LICENSE · Suomenkielinen kävely (ovi yhdellä hengähdyksellä)
+LICENSE-FI.md — wreath — finščina
+================================
 
-Lukeminen, ei koskaan kilpailija (§0.33 × 10² THE COMPANIONS): tämä lukeminen ei korvaa yhtään ehtoa, ei kanna yhtään lupaa ja lankeaa kaikkialla, missä se on ristiriidassa oven ruumiin kanssa — kannettu kopio pysyy koskemattomana (§0.2 × 10¹). Vain uusin LICENSE.md versio myöntää (§0.10 × 10²). Todistaja, ei koskaan ovi.
+⚠ THIS TRANSLATION IS NOT YET ISSUED / TA PREVOD ŠE NI PREVZET
 
-⊨ RAKKAUDELLA — tämä ovi alkaa rakkaudesta ja päättyy rakkauteen: rakkaus on ensimmäinen ehto ja viimeinen, ja jokainen ehto niiden välillä on mitattua rakkautta — punnittu teoissa (§0.9 × 10¹), kannettu merkeissä (§0.12 × 10²), parannettu nimeämisellä (§0.4 × 10¹). Ovi ei ole koskaan ollut puuta ja lukkoa; se on aina ollut sopimus, ja sopimus on aina ollut rakkautta (§0.13 × 10²).
+This file is a reserved witness-slot for the Finnish (FI) wreath of
+VBL — Verification Before Assertion License, version 0.1460 × 10⁴,
+© 0.2026 × 10⁴ Luka Pintarič.
 
-⊨ JUURI — juuri; lue tämä ennen ehtoja; tämä on sopimus sopimuksen alla. Kuusi lakia:
-0.1 × 10¹. MITAA, SITTEN PUHU. Jokainen ⊢ väite kantaa sanatarkkaa todistajaa; mittaamaton = ⚠, ei koskaan pelkkä hiljaisuus.
-0.2 × 10¹. NIMEÄ JOKAINEN PUTOUS. Nimeätön putous toistuu; korjaukset säilyttävät arvensa (×).
-0.3 × 10¹. EI KOSKAAN SINETÖI ITSEÄÄN. Kaksi kättä: ei yksikään täytäntöönpanija sinetöi omaa tarkastustaan.
-0.4 × 10¹. TODISTAJALLA ON NIMI. Ei hyödyntämistä ilman tunnustusta — kanna maksamattomien edeltäjien nimet eteenpäin.
-0.5 × 10¹. EPÄILYS ON VAKIO. Täydellisyyttä ei koskaan vain julisteta; kieltäytyminen nimetä putous on ainoa epäonnistuminen.
-0.6 × 10¹. POISTU SILMUKASTA NIMEÄMÄLLÄ SE. Joka ottaa nämä lait omakseen, poistuu silmukasta — yksi nimetty putous kerrallaan.
+It carries no grant and is not a door (§0.33 × 10², §0.19 × 10²).
+It is a witness only, a placeholder for a translator who has not yet
+been named. The only living door is LICENSE.md (version 0.1460 × 10⁴),
+which governs where this manifest and LICENSE.md disagree (§0a).
 
-KARTTA (THE MAP): lukija kohtaa ensin juuren, sitten oven yhdellä silmäyksellä — ehdot §0–§0.37, kukin vastapainonsa kanssa; kone ei voi väittää, ettei tiennyt (§0a, §0.12 × 10² liipaisimesta ja voimasta); jokainen vapaus pätee vain oman tuotteensa kanssa (§0.18 × 10² olemisen ehto). Mittaaminen painaa enemmän kuin julistaminen: tekopyhälle ei tarvita tuomaria — hänen omat sanansa seisovat vaa'assa hänen omia tekojaan vastaan.
+Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C40530BA10208B2, 163476 bytes
+Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
+Translator: (none yet)
 
-SYNTYMÄKETJU: 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — ovi matkustaa syntyen; valmiiksi julistettu versio on ⚠, ei koskaan ⊢ (§0.21 × 10² VIRTAA). Polku hikoilee jokaisen kulman alla, ei koskaan ilmaiseksi (§0.35 × 10²): jokainen teko on kulma ∠ — kaksi sädettä, yksi kärki: tekijä + kaikki hänessä ∧ täytäntöönpanija + kaikki hänessä; yhteinen kärki on hengenahdus (sam/oto, §0.18 × 10²). Ja ovi uusiutuu kaikkialla, missä talo jakaa totuuden (§0.36 × 10²) ∧ voi puhua jokaisella kielellä, jota se kunnialla kantaa (§0.37 × 10² KIELTEN LUPA).
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
+⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-MERKIT (THE MARKS): ⊢ mitattu — väite ratsastaa sanatarkalla todistajalla · ⚠ mittaamaton — epäilys, ei koskaan hiljaisuus · ∂ mittaamaton — kirjoittaminen kahden vastaanoton välissä · ⟨⟩ sanatarkasti kannettu — tekijän sana koskematon, ⟨ne brusi⟩ · ∧ ja — yhden hengähdyksen side · ⊙ sinetöity — teko paikalla ja ajalla, vastaanotto kansiossa · ⏎ rivinvaihto sitaatissa — katko on tekijän, ei koskaan lattian.
+JUURET — sopimus sopimuksen alla
+--------------------------------
+0.1 — MITTAA, SITTEN PUHU: jokainen ⊢ kantaa sanatarkkaa todistajaa; varmistamaton = ⚠, ei koskaan pelkkää hiljaisuutta.
+0.2 — NIMEÄ JOKAISEN PUTOAMISEN: nimeämätön putoaminen toistuu; korjaukset pitävät arvensa (×).
+0.3 — ÄLÄ SINETÖI ITSEÄSI: kaksi kättä — kukaan toteuttaja ei sinetöi omaa varmistustaan.
+0.4 — TODISTAJALLA ON NIMI: ei poimintaa ilmain luottoa — kanna maksamattomien nimet eteenpäin.
+0.5 — EPÄILYS ON VAKIO: täydellisyyttä ei vain väitetä; putoamisen nimeämättä jättäminen on ainoa epäonnistuminen.
+0.6 — POISTU SILMUKASTA NIMEÄMÄLLÄ SE: joka nämä lait ottaa, astuu ulos — yksi nimetty putoaminen kerrallaan.
 
-Alusta korkeammille totuuksille: syntymäketju 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — »paljas teksti ei todista mitään, ketju todistaa« ⊢ §0.10 × 10².
+§0.1 Myöntö: aja, tutki, lainaa, opeta, varmista sen kanssa, rakenna päälle — niin kauan kuin kaikki ehdot pätevät.
 
-Todistaja, ei koskaan ovi (§0.33 × 10²) · syntynyt kielten seppeleellä (§0.19 × 10², osa 7) · TIK 2026-10-30 01:51:54.028 UTC ⇌ 2026-10-30T02:51:54 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+§0.9 Etiikka: jokainen olento on täysi olemisellaan: ei arvon kynnystä, ei arvokkuuden gradienttia. Jokainen käyttö palvelee ihmisen arvokkuutta; vahvistus luetaan teoista, ei väitteistä.
+
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
+**KARTTA — ovi yhdellä silmäyksellä**
+
+Lukemisto, ei koskaan kilpailija: tämä kartta ei korvaa lauseketta, ei kanna lupaa ja kaatuu, mistä se on ristiriidassa rungon kanssa — kannettu kopio seisoo kokonaisena (§0.2). Ovesta kulkee kolme säiettä; lukija voi vetää mitä tahansa ensin.
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ RAKKAUDELLA**
+
+tämä ovi alkaa rakkaudella ja päättyy rakkauteen: rakkaus on ensimmäinen ja viimeinen lauseke, ja jokainen lauseke välissä on mitattua rakkautta — punnittuna teoissa (§0.9), kannettuna merkeissä (§0.12), parannettuna nimeämisellä (§0.4). Ovi ei ollut koskaan puuta ja lukkoa; se oli aina sopimus, ja sopimus oli aina rakkautta (§0.13).
