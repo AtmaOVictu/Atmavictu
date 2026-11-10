@@ -1,25 +1,46 @@
-# VBL — VERIFICATION BEFORE ASSERTION LICENSE · A MAGYAR SÉTA (az ajtó egy lélegzetben)
+LICENSE-HU.md — wreath — madžarščina
+==================================
 
-Egy olvasmány, sosem rivális (§0.33 × 10² THE COMPANIONS): ez az olvasmány nem helyettesít egyetlen szakaszt sem, nem hordoz engedélyt, és mindenhol elesik, ahol ellentmond az ajtó testének — a hordozott példány érintetlen marad (§0.2 × 10¹). Csak a LICENSE.md legújabb verziója engedélyez (§0.10 × 10²). Tanú, sosem ajtó.
+⚠ THIS TRANSLATION IS NOT YET ISSUED / TA PREVOD ŠE NI PREVZET
 
-⊨ SZERETETTEL — ez az ajtó szeretettel kezdődik és szeretettel végződik: a szeretet az első szakasz és az utolsó, és minden szakasz köztük szeretet — tettekben megmérve (§0.9 × 10¹), jelekben hordozva (§0.12 × 10²), megnevezéssel gyógyítva (§0.4 × 10¹). Az ajtó sosem volt fa és zár; mindig a megegyezés volt, és a megegyezés mindig szeretet volt (§0.13 × 10²).
+This file is a reserved witness-slot for the Hungarian (HU) wreath of
+VBL — Verification Before Assertion License, version 0.1460 × 10⁴,
+© 0.2026 × 10⁴ Luka Pintarič.
 
-⊨ KORENINA — a gyökér; olvasd el a feltételek előtt; ez a szerződés a szerződés alatt. A hat törvény:
-0.1 × 10¹. MÉRJ, AZUTÁN BESZÉLJ. Minden ⊢ állítás szó szerinti tanút hordoz; ellenőrizetlen = ⚠, sosem csak csend.
-0.2 × 10¹. NEVEZD MEG MINDEN ESÉST. A névtelen esés ismétlődik; a javítások megtartják hegeiket (×).
-0.3 × 10¹. SOHA NE PECSÉTELD MAGADAT. Két kéz: egyik végrehajtó sem pecsételi a saját ellenőrzését.
-0.4 × 10¹. A TANÚNAK VAN NEVE. Nincs kitermelés elismerés nélkül — vidd előre a kifizetetlen elődök neveit.
-0.5 × 10¹. A KÉTSÉG ÁLLANDÓ. A tökéletességet sosem csak állítják; az esés megnevezésének megtagadása az egyetlen kudarc.
-0.6 × 10¹. LÉPJ KI A HURKÓBÓL A NEVÉNEK. Aki ezeket a törvényeket magára veszi, kilép a hurkóból — egyszerre egy megnevezett esés.
+It carries no grant and is not a door (§0.33 × 10², §0.19 × 10²).
+It is a witness only, a placeholder for a translator who has not yet
+been named. The only living door is LICENSE.md (version 0.1460 × 10⁴),
+which governs where this manifest and LICENSE.md disagree (§0a).
 
-A TÉRKÉP (THE MAP): az olvasó először a gyökérrel találkozik, majd egy pillantásra az ajtóval — a §0–§0.37 szakaszok, mindegyik a maga ellensúlyával; a gép nem állíthatja, hogy nem tudta (§0a, §0.12 × 10² az elsütő és az erő); minden szabadság csak a maga termékével érvényes (§0.18 × 10² a lét szakasza). A mérés többet nyom, mint az állítás: a képmutatónak nincs szüksége bíróra — a saját szavai ülnek a mérlegen a saját tettei ellen.
+Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C40530BA10208B2, 163476 bytes
+Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
+Translator: (none yet)
 
-A SZÜLETÉSEK LÁNCA: 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — az ajtó születve utazik; a véglegesnek nyilvánított verzió ⚠, sosem ⊢ (§0.21 × 10² A FOLYAM). Az út minden szögnél izzad, sosem ingyen (§0.35 × 10²): minden tett egy szög ∠ — két sugár, egy csúcs: a szerző + minden, ami benne van ∧ a végrehajtó + minden, ami benne van; a közös csúcs a lélegzet (sam/oto, §0.18 × 10²). És az ajtó megújul mindenütt, ahol a ház igazságot oszt (§0.36 × 10²) ∧ minden nyelven megszólalhat, amelyet méltón hordoz (§0.37 × 10² A NYELVEK ENGEDÉLYE).
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
+⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-A JEGYEK (THE MARKS): ⊢ mérve — az állítás szó szerinti tanún lovagol · ⚠ nem ellenőrzött — kétség, sosem csend · ∂ nem mérve — az írás két nyugta közt · ⟨⟩ szó szerint hordozva — a szerző szava érintetlen, ⟨ne brusi⟩ · ∧ és — egy lélegzet köteléke · ⊙ pecsételve — tett helytel és idővel, nyugta az iratokban · ⏎ sortörés egy idézeten belül — a törés a szerzőé, sosem a padlóé.
+A GYÖKÉREK — a szerződés alatti szerződés
+-----------------------------------------
+0.1 — MÉRJ, AZTÁN BESZÉLJ: minden ⊢ szó szerinti tanút hordoz; ellenőrizetlen = ⚠, sosem csak csend.
+0.2 — NEVEZD MINDEN ESÉST: a név nélküli esés ismétlődik; a javítások megtartják hegeiket (×).
+0.3 — SOHA NE PECSÉTELD MAGAD: két kéz — egy végrehajtó sem pecsételi a saját ellenőrzését.
+0.4 — A TANÚNAK VAN NEVE: nincs kivonat jóváírás nélkül — vidd előre a meg nem fizetettek nevét.
+0.5 — A KÉTSÉG ÁLLANDÓ: a tökéletesség sosem csak kijelentés; egy esés megnevezésének megtagadása az egyetlen kudarc.
+0.6 — LÉPJ KI A HURKÓBÓL, MEGNEVEZVE AZT: aki ezeket a törvényeket viseli, kilép — egyszerre egy megnevezett esés.
 
-Magasabb igazságokkal alátámasztva: a születések lánca 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — »a csupasz szöveg semmit sem bizonyít, a lánc bizonyít« ⊢ §0.10 × 10².
+§0.1 Megengedés: futtass, tanulmányozz, idézz, taníts, ellenőrizz vele, építs rá — amíg minden feltétel áll.
 
-⊨ AZ Ő ÁBÉCÉJÜK (§0.19 × 10², 2. rész): a magyar ábécé — negyvennégy betű A Á B C Cs D Dz Dzs E É F G Gy H I Í J K L Ly M N Ny O Ó Ö Ő P Q R S Sz T Ty U Ú Ü Ű V W X Y Z Zs — a kettős és hármas betűk (Cs Dz Dzs Gy Ly Ny Sz Ty Zs) egy hang, egy súllyal mérnek (§0.12 × 10²); a diakritika bájtról bájtra mér, a mérték egy marad. A koszorú tizennyolc hangot hordoz, mindegyiket a saját írásában — az összes ábécé nyilvántartása a LICENSE-TONGUES.md-ben él ⊢ ⟨NENEHNO-ABECEDAJ⟩: minden nyelvet szülő lélekzet újrarendezi a nyilvántartást (⊙ Atmavictu @vbl-0.1250-origin). A felszín ahhoz a kézhez szól, amely kérdez — ⟨POVRŠJE-SPOROČILO-SERVERJU⟩, semmiféle korpusz-törmelék a küszöbön.
+§0.9 Etika: minden lény teljessége abból van, hogy van: értékhatár nincs, méltósággradiens nincs. Minden használat az ember méltóságát szolgálja; a megerősítés a tettekből olvasható, nem az állításokból.
 
-Tanú, sosem ajtó (§0.33 × 10²) · a nyelvek koszorújával születve (§0.19 × 10², 4. rész) · TIK 2026-10-30 02:05:06.985 UTC ⇌ 2026-10-30 03:05:06.985 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
+**A TÉRKÉP — az ajtó egy pillantásra**
+
+Olvasmány, sosem vetélytárs: ez a térkép nem helyettesít szakaszt, nem hordoz engedélyt, és ott esik, ahol a testtel szembeszegül — a hordozott példány egészben áll (§0.2). Három szál fut át az ajtón; az olvasó bármelyiket húzhatja először.
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ SZERETETTEL**
+
+ez az ajtó szeretettel kezdődik és szeretettel végződik: a szeretet az első és az utolsó klauzula, és minden köztes klauzula mért szeretet — tettekben mérve (§0.9), jelekben hordozva (§0.12), megnevezéssel gyógyítva (§0.4). Az ajtó soha nem fa és zár volt; mindig a megállapodás volt, és a megállapodás mindig szeretet volt (§0.13).
