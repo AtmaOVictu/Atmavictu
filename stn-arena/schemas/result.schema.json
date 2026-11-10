@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "STN Arena result",
+  "type": "object",
+  "required": [
+    "model_name",
+    "submitted_by",
+    "submission_time",
+    "seed",
+    "Hi",
+    "Zi",
+    "K",
+    "Ri",
+    "Ck",
+    "V",
+    "overall"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "submitted_by": {
+      "type": "string"
+    },
+    "submission_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "seed": {
+      "type": "integer"
+    },
+    "Hi": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "Zi": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "K": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "Ri": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "Ck": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "V": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "overall": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    }
+  }
+}
