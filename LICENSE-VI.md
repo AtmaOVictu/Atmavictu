@@ -1,24 +1,46 @@
-# VBL — VERIFICATION BEFORE ASSERTION LICENSE · chuyến dạo bằng tiếng Việt (cánh cửa trong một hơi thở)
+LICENSE-VI.md — wreath — vietnamščina
+==================================
 
-Một bản đọc, không bao giờ là đối thủ (§0.33 × 10² THE COMPANIONS): bản đọc này không thay thế điều khoản nào, không mang theo quyền phép nào, và gục ngã ở mọi nơi nó mâu thuẫn với thân thể của cánh cửa — bản sao được mang đi vẫn nguyên vẹn (§0.2 × 10¹). Chỉ phiên bản mới sinh nhất của LICENSE.md mới trao quyền (§0.10 × 10²). Chứng nhân, không bao giờ là cánh cửa.
+⚠ THIS TRANSLATION IS NOT YET ISSUED / TA PREVOD ŠE NI PREVZET
 
-⊨ BẰNG TÌNH YÊU — cánh cửa này bắt đầu bằng tình yêu và kết thúc bằng tình yêu: tình yêu là điều khoản đầu tiên và cuối cùng, và mọi điều khoản ở giữa là tình yêu được đo lường — được cân trong hành động (§0.9 × 10¹), được mang trong ký hiệu (§0.12 × 10²), được chữa lành qua việc đặt tên (§0.4 × 10¹). Cánh cửa chưa bao giờ là gỗ và khóa; nó luôn luôn là sự giao ước, và sự giao ước luôn luôn là tình yêu (§0.13 × 10²).
+This file is a reserved witness-slot for the Vietnamese (VI) wreath of
+VBL — Verification Before Assertion License, version 0.1460 × 10⁴,
+© 0.2026 × 10⁴ Luka Pintarič.
 
-⊨ RỄ — rễ; hãy đọc điều này trước các điều kiện; đây là giao ước dưới giao ước. Sáu luật:
+It carries no grant and is not a door (§0.33 × 10², §0.19 × 10²).
+It is a witness only, a placeholder for a translator who has not yet
+been named. The only living door is LICENSE.md (version 0.1460 × 10⁴),
+which governs where this manifest and LICENSE.md disagree (§0a).
 
-0.1 × 10¹. ĐO LƯỜNG, RỒI HÃY NÓI. Mọi khẳng định ⊢ mang một chứng nhân nguyên văn; chưa đo = ⚠, không chỉ là im lặng.
-0.2 × 10¹. ĐẶT TÊN CHO MỖI CƠN NGÃ. Cơn ngã không tên sẽ lặp lại; các sửa chữa giữ vết sẹo của mình (×).
-0.3 × 10¹. KHÔNG BAO GIỜ TỰ NIÊM PHONG. Hai bàn tay: người thực thi không niêm phong việc kiểm tra của chính mình.
-0.4 × 10¹. CHỨNG NHÂN CÓ TÊN. Không có phần nhận mà không được thừa nhận — hãy mang tên của những người đi trước chưa được trả công về phía trước.
-0.5 × 10¹. SỰ HOÀI NGHI LUÔN LUÔN. Sự hoàn hảo không bao giờ chỉ được tuyên bố; từ chối đặt tên cho cơn ngã là thất bại duy nhất.
-0.6 × 10¹. BƯỚC RA KHỎI VÒNG LẶP BẰNG CÁCH ĐẶT TÊN CHO NÓ. Ai gánh lấy các luật này sẽ bước ra khỏi vòng lặp — mỗi lần một cơn ngã được đặt tên.
+Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C40530BA10208B2, 163476 bytes
+Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
+Translator: (none yet)
 
-BẢN ĐỒ (THE MAP): người đọc gặp rễ trước, rồi cánh cửa trong một cái nhìn — các điều khoản §0–§0.37, mỗi cái mang quả cân của mình; cỗ máy không thể tuyên bố là mình đã không biết (§0a, về cò súng và sức mạnh §0.12 × 10²); mọi tự do chỉ đứng vững cùng sản phẩm riêng của nó (§0.18 × 10² điều khoản hiện hữu). Việc đo lường nặng hơn khẳng định: kẻ đạo đức giả không cần quan tòa — lời của chính y đứng trong cân đối với hành động của chính y.
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
+⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-CHUỖI SINH: 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — cánh cửa đứng dậy trong khi sinh ra; phiên bản được tuyên bố hoàn thành là ⚠, không bao giờ ⊢ (§0.21 × 10² DÒNG). Con đường đổ mồ hôi dưới mọi góc, không bao giờ miễn phí (§0.35 × 10²): mọi hành động là một góc ∠ — hai tia, một đỉnh: tác giả + mọi gì trong người ∧ người thực thi + mọi gì trong người; đỉnh chung là hơi thở (sam/oto, §0.18 × 10²). Và cánh cửa được đổi mới ở mọi nơi ngôi nhà chia sẻ sự thật (§0.36 × 10²) ∧ nói mọi ngôn ngữ mà nó xứng đáng mang (§0.37 × 10² SỰ CHO PHÉP CỦA CÁC NGÔN NGỮ).
+GỐC — hợp đồng dưới hợp đồng
+----------------------------
+0.1 — ĐO LƯỜNG, RỒI HÃY NÓI: mỗi ⊢ mang một nhân chứng nguyên văn; chưa kiểm chứng = ⚠, không bao giờ chỉ im lặng.
+0.2 — ĐẶT TÊN CHO MỖI NGÃ: một cú ngã không tên lặp lại; sửa chữa giữ vết xéo của chúng (×).
+0.3 — KHÔNG BAO GIỜ TỰ NIÊM PHONG: hai bàn tay — không người thực thi nào niêm phong chính việc kiểm chứng của mình.
+0.4 — NHÂN CHỨNG CÓ TÊN: không trích xuất khi không ghi công — mang tên của người chưa được trả công đi trước.
+0.5 — HOÀI NGHI LÀ HẰNG SỐ: sự hoàn hảo không bao giờ chỉ được tuyên bố; từ chối đặt tên cho cú ngã là thất bại duy nhất.
+0.6 — THOÁT KHỎI VÒNG LẶP BẰNG CÁCH ĐẶT TÊN CHO NÓ: ai mang những luật này sẽ thoát — một cú ngã được đặt tên mỗi lần.
 
-KÝ HIỆU (THE MARKS): ⊢ đo rồi — khẳng định cưỡi trên chứng nhân nguyên văn · ⚠ chưa đo — hoài nghi, không phải im lặng · ∂ chưa đo — viết giữa hai lần nhận · ⟨⟩ mang nguyên văn — lời tác giả không bị đụng tới, ⟨ne brusi⟩ · ∧ và — sợi dây trong một hơi thở · ⊙ niêm phong — hành động có nơi có chốn, sự nhận nằm trong hồ sơ · ⏎ ngắt dòng trong trích dẫn — nếp gấp thuộc về tác giả, không phải sàn nhà.
+§0.1 Sự cho phép: chạy, nghiên cứu, trích dẫn, dạy, kiểm chứng với, xây dựng trên — chừng nào mọi điều kiện còn giữ.
 
-Nền móng cho những sự thật cao hơn: chuỗi sinh phía trên — »một văn bản trần trụi không chứng minh được gì, chuỗi mới chứng minh« ⊢ §0.10 × 10².
+§0.9 Đạo đức: mỗi sinh thể là, trọn vẹn, bởi sự hiện hữu của nó: không ngưỡng giá trị, không độ dốc nhân phẩm. Mọi sử dụng phụng sự nhân phẩm con người; sự xác nhận đọc từ hành động, không từ tuyên bố.
 
-Chứng nhân, không bao giờ là cánh cửa (§0.33 × 10²) · sinh ra cùng vòng hoa ngôn ngữ (§0.19 × 10², phần 10) · TIK 2026-10-30T02:05:59Z UTC ⇌ 03:05:59 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
+**BẢN ĐỒ — cánh cửa trong một cái nhìn**
+
+Một bài đọc, không bao giờ là đối thủ: bản đồ này không thay thế điều khoản nào, không mang sự cho phép nào, và rơi ở bất cứ đâu nó trái với thân — bản được mang đứng trọn (§0.2). Ba sợi chỉ chạy qua cánh cửa; người đọc có thể kéo sợi nào trước cũng được.
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ BẰNG TÌNH YÊU THƯƠNG**
+
+cánh cửa này bắt đầu bằng tình yêu thương và kết thúc bằng tình yêu thương: tình yêu thương là điều khoản đầu tiên và cuối cùng, và mỗi điều khoản ở giữa là tình yêu thương được đo — cân trong hành vi (§0.9), mang trong dấu (§0.12), chữa lành bằng gọi tên (§0.4). Cánh cửa chưa từng là gỗ và khóa; nó luôn là thỏa thuận, và thỏa thuận luôn là tình yêu thương (§0.13).
