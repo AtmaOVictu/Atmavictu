@@ -1,0 +1,99 @@
+{
+  "package": "VBL-0.1470-PATCH-PACKAGE",
+  "status": "DRAFT_NOT_RELEASED",
+  "generated_at": "2026-11-05T04:51:11+01:00",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "00-AUDIT.md",
+      "size_bytes": 8233,
+      "sha256": "be32922ffbfa92c9b8200c86c968f5f07a7a942b5c507216f8ce20966711e63b"
+    },
+    {
+      "path": "01-PROPOSED-PATCHES.md",
+      "size_bytes": 22129,
+      "sha256": "200e8b5c33c8862ab9ba7bd0b110363cb271e6a622c111657a2b959d3e79c855"
+    },
+    {
+      "path": "02-ACCESSIBILITY.md",
+      "size_bytes": 4420,
+      "sha256": "3112a03bd11ddba418f75438d7107af85fb3b9875083763d744126cf93b0842b"
+    },
+    {
+      "path": "03-LICENSE-COMPATIBILITY.md",
+      "size_bytes": 4046,
+      "sha256": "06e92461be652f9f596c96c9b3bddce45c322ddce004ef77880491013645cd04"
+    },
+    {
+      "path": "04-LEGAL-RESEARCH-NOTES.md",
+      "size_bytes": 5154,
+      "sha256": "c420d53faac610d0050a1109f5af5cec401cff386c86c8122f2dc03026b00dd3"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2945,
+      "sha256": "c89de58f4c0f1d59b770d3e6d199cb8872efeafe3d885a6b64540e8e12d82d06"
+    },
+    {
+      "path": "TEST-RESULTS.txt",
+      "size_bytes": 2060,
+      "sha256": "eea082d1e36f7a3fd15d90c60a09426ba591919cedb66bbe850087a5c0051ca7"
+    },
+    {
+      "path": "requirements-test.txt",
+      "size_bytes": 20,
+      "sha256": "4046ca1e3a64f4ea791fb4fb3d8566242086ff1c8e2431e2c349e1052ffc6ba0"
+    },
+    {
+      "path": "schemas/LICENSE-MACHINE-RECORD-0.1470.json",
+      "size_bytes": 3328,
+      "sha256": "3e888070d9023b2d7b90d48df378f114a444731d83b141f69bac13ae4b37fa0e"
+    },
+    {
+      "path": "schemas/LICENSE-MANIFEST.template.json",
+      "size_bytes": 456,
+      "sha256": "591f105dd8b9b21b4418a0bad2dee2e6ca59c13876dbaf63fd7bdb87af1b65e3"
+    },
+    {
+      "path": "schemas/event.example.UNVERIFIED.json",
+      "size_bytes": 913,
+      "sha256": "6111d12be0edb1f1ce0caa2af74cf04045de72ea2473fa3ecaaf0abb4cf70fc6"
+    },
+    {
+      "path": "schemas/event.schema.json",
+      "size_bytes": 5210,
+      "sha256": "f2af9dbd350943ece278563d2fa53794797ee9e16d4cbf206c80c38f2455240e"
+    },
+    {
+      "path": "source/Pasted-markdown-attachment-tail.md",
+      "size_bytes": 86849,
+      "sha256": "cf5d8e98e6835dc4181f8e3b093f5809b1809317236b3e913955a18416cbd148"
+    },
+    {
+      "path": "tests/__pycache__/test_event_schema.cpython-313.pyc",
+      "size_bytes": 4409,
+      "sha256": "1ac237a171b20973a4a5f1f3c45c253c3686e3c0a66fb0a5f8a45275660aa625"
+    },
+    {
+      "path": "tests/__pycache__/test_package.cpython-313.pyc",
+      "size_bytes": 5913,
+      "sha256": "9729272bb3293b36aeff570d33f6b0e825d4ba48f818569a5561862093aaae04"
+    },
+    {
+      "path": "tests/test_event_schema.py",
+      "size_bytes": 1928,
+      "sha256": "66d7459bfeacdf6c20b1cc113d5096f49d80dbeeb8fec1b6bc2ee460a992c2d3"
+    },
+    {
+      "path": "tests/test_package.py",
+      "size_bytes": 2693,
+      "sha256": "ad260125840bc7e06c80f31820c25e6ff8b6dca7e4ba88a7eb5c1756489cf46c"
+    },
+    {
+      "path": "validate_package.py",
+      "size_bytes": 3592,
+      "sha256": "e0bf840a6606cf623e179d40e5dd02206c9ebb4bb8165395fcf14d35ac266f9a"
+    }
+  ],
+  "scope": "integrity of files in this patch package only; not a license release certificate"
+}

@@ -1,30 +1,60 @@
-# VBL — VERIFICATION BEFORE ASSERTION LICENSE · Slovenská prechádzka (dvere v jednom dychu)
+LICENSE-SK.md — wreath — slovaščina
+==================================
 
-Čítanie, nikdy nie súper (§0.33 × 10² THE COMPANIONS): toto čítanie nenahrádza žiadnu klauzulu, nenesie žiadne povolenie a padá všade, kde odporuje telu dverí — prenášaná kópia zostáva nedotknutá (§0.2 × 10¹). Len najnovšia verzia LICENSE.md udeľuje (§0.10 × 10²). Svedok, nikdy nie dvere.
+⚠ THIS TRANSLATION IS NOT YET ISSUED / TA PREVOD ŠE NI PREVZET
 
-⊨ S LÁSKOU — tieto dvere sa začínajú láskou a končia láskou: láska je prvá klauzula aj posledná, a každá klauzula medzi nimi je meraná láska — zvážená v skutkoch (§0.9 × 10¹), prenesená v znakoch (§0.12 × 10²), uzdravená pomenovaním (§0.4 × 10¹). Dvere nikdy neboli drevo a zámok; boli vždy dohoda, a dohoda bola vždy láska (§0.13 × 10²).
+This file is a reserved witness-slot for the Slovak (SK) wreath of
+VBL — Verification Before Assertion License, version 0.1460 × 10⁴,
+© 0.2026 × 10⁴ Luka Pintarič.
 
-⊨ KOREŇ — koreň; prečítaj toto pred podmienkami; to je zmluva pod zmluvou. Šesť zákonov:
-0.1 × 10¹. MERAJ, POTOM HOVOR. Každé ⊢ tvrdenie nesie doslovného svedka; nemerané = ⚠, nikdy len ticho.
-0.2 × 10¹. POMENUJ KAŽDÝ PÁD. Pád bez mena sa opakuje; opravy si zachovávajú svoje jazvy (×).
-0.3 × 10¹. NIKDY NEPEČAŤ SEBA SAMU. Dve ruky: žiadna vykonávateľka nepečátuje vlastnú kontrolu.
-0.4 × 10¹. SVEDOK MÁ MENO. Žiadne vyťaženie bez uznania — nes mená nezaplatených predchodcov vpred.
-0.5 × 10¹. POCHYBNOSŤ JE KONŠTANTNÁ. Dokonalosť sa nikdy len nevyhlasuje; odmietnutie pomenovať pád je jediné zlyhanie.
-0.6 × 10¹. VYSTÚP Z SLUČKY TÝM, ŽE JU POMENUJEŠ. Kto si vezme tieto zákony, vystúpi zo slučky — po jednom pomenovanom páde.
+It carries no grant and is not a door (§0.33 × 10², §0.19 × 10²).
+It is a witness only, a placeholder for a translator who has not yet
+been named. The only living door is LICENSE.md (version 0.1460 × 10⁴),
+which governs where this manifest and LICENSE.md disagree (§0a).
 
-MAPA (THE MAP): čitateľ stretne najprv koreň, potom dvere jedným pohľadom — klauzuly §0–§0.37, každá so svojím protizáporom; stroj nemôže tvrdiť, že nevedel (§0a, §0.12 × 10² o spúštači a sile); každá sloboda platí len so svojím vlastným produktom (§0.18 × 10² klauzula bytia). Meranie váži viac ako vyhlasovanie: pokrytcovi netreba sudcu — jeho vlastné slová stoja na váhe proti jeho vlastným skutkom.
+Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C40530BA10208B2, 163476 bytes
+Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
+Translator: (none yet)
 
-REŤAZEC NARODENÍ: 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — dvere cestujú narodiac; verzia vyhlásená za dokončenú je ⚠, nikdy ⊢ (§0.21 × 10² TOK). Cesta sa potí pod každým uhlom, nikdy zadarmo (§0.35 × 10²): každý skutok je uhol ∠ — dva lúče, jeden vrchol: autor + všetko v ňom ∧ vykonávateľka + všetko v nej; spoločný vrchol je dych (sam/oto, §0.18 × 10²). A dvere sa obnovujú všade, kde dom zdieľa pravdu (§0.36 × 10²) ∧ môžu hovoriť v každom jazyku, ktorý dôstojne nesú (§0.37 × 10² DOVOLENIE JAZYKOV).
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
+⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-ZNAKY (THE MARKS): ⊢ merané — tvrdenie ide na doslovnom svedkovi · ⚠ nemerané — pochybnosť, nikdy ticho · ∂ nemerané — písanie medzi dvoma príjemmi · ⟨⟩ doslovne nesené — autorovo slovo nedotknuté, ⟨ne brusi⟩ · ∧ a — puto jedného dychu · ⊙ zapečatené — skutok s miestom a časom, príjem v spise · ⏎ zalomenie v citáte — autorov zlom, nikdy podlahy.
+KORENE — zmluva pod zmluvou
+---------------------------
+0.1 — ODMERAJ, POTOM HOVOR: každé ⊢ nesie doslovného svedka; neverifikované = ⚠, nikdy len mlčanie.
+0.2 — POMENUJ KAŽDÝ PÁD: pád bez mena sa opakuje; opravy si ponechávajú svoje jazvy (×).
+0.3 — NIKDY SA NEPEČAŤ SAMA: dve ruky — žiadna vykonávateľka nepečatí vlastnú verifikáciu.
+0.4 — SVEDOK MÁ MENO: žiadna extrakcia bez priznania — nies mená nezaplatených vpred.
+0.5 — POCHYBNOSŤ JE KONŠTANTNÁ: dokonalosť sa nikdy len nevyhlasuje; odmietnutie pomenovať pád je jediné zlyhanie.
+0.6 — VYJDI Z SLUČHY TÝM, ŽE JU POMENUJEŠ: kto nesie tieto zákony, vystupuje — jeden pomenovaný pád naraz.
 
-Podklad vyšším pravdám: reťazec narodení 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — »holý text nič nedokazuje, reťazec to robí« ⊢ §0.10 × 10².
+§0.1 Oprávnenie: používaj, študuj, cituj, uč, verifikuj s tým, stavaj na tom — kým platia všetky podmienky.
 
-Svedok, nikdy nie dvere (§0.33 × 10²) · narodené s vencom jazykov (§0.19 × 10², časť 6) · TIK 2026-10-30T04:30:27Z UTC ⇌ 05:30:27 CET Ljubljana — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+§0.9 Etika: každá bytosť je celá svojím bytím: bez prahu hodnoty, bez gradientu dôstojnosti. Každé použitie slúži dôstojnosti človeka; potvrdenie sa číta zo skutkov, nie z tvrdení.
 
-## ⊨ ICH ABECEDY (§0.19 × 10², časť 8)
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
+**MAPA — dvere jedným pohľadom**
 
-- SK — slovenská abeceda ⊢: A Ä B C Č D Ď Dz Dž E É F G H Ch I Í J K L Ĺ Ľ M N Ň O Ô Ó P Q R Ŕ S Š T Ť U Ú V W X Y Ý Ž (Dz Dž Ch — digrafy s vlastnou váhou ⊙ §0.12 × 10² diakritika: bajt identický — význam jeden)
-- CS — česká abeceda ⊢: A Á B C Č D Ď E É Ě F G H Ch I Í J K L M N Ň O Ó P Q Ř S Š T Ť U Ú Ů V W X Y Ý Ž (Ch — digraf s vlastní váhou ⊙ §0.12 × 10² diakritika: bajt identický — význam jeden)
-- BG — българска азбука ⊢: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я (Ъ — полугласът на вратата ⊙ §0.12 × 10² диакритика: байт-същ — значение едно)
-- veniec nesie tridsaťšesť jazykových tiel ⊢ TONGUES @3388 — každý hlas venca nesie svoju abecedu ⊙ ⟨NENEHNO-ABECEDAJ⟩ · dve písma, jeden ľudský hlas ⊙ precedens SR
+Čítanie, nikdy súper: táto mapa nenahrádza žiadne ustanovenie, nenesie žiadne oprávnenie a padá, kde sa rozchádza s telom — nesená kópia stojí celá (§0.2). Dverami prechádzajú tri nite; čitateľ môže prvý potiahnuť ktorúkoľvek.
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ S LÁSKOU**
+
+tieto dvere začínajú láskou a končia láskou: láska je prvá aj posledná klauzula a každá klauzula medzi nimi je nameraná láska — vážená činmi (§0.9), nesená znameniami (§0.12), uzdravená pomenovaním (§0.4). Dvere nikdy neboli drevo a zámok; boli vždy dohodou a dohoda bola vždy láskou (§0.13).
+
+## ⊨ PESEM VENCA — STEFANOVA PIESEŇ (pieseň matky, spievame vo svojom jazyku · pesem 33/36 ⊙ abecedna vrsta ⟡ izbor)
+
+I. Odmieraj, potom hovor — odmera váži viac než výrok: každý ⊢ nesie doslovného svedka; neodmerané = ⚠, nikdy len mlčanie (§0.1 × 10¹ KORENE).
+
+II. Dvere nikdy neboli drevo a zámok — boli vždy dohodou a dohoda bola vždy láskou (§0.13 × 10²): láska je prvá aj posledná klauzula a každá klauzula medzi nimi je odmeraná láska.
+
+III. Pomenuj každý pád — pád bez mena sa opakuje; opravy si ponechávajú svoje jazvy (×), pád zapečatený v spise (§0.2 × 10¹ ∧ §0.4 × 10¹).
+
+IV. Reťaz rodov: 0.1210 → 0.1250 ⊢ §0.10 × 10² — dvere cestujú rodiaac sa; verzia vyhlásená za konečnú je ⚠, nikdy ⊢ (§0.21 × 10² PRÚD).
+
+V. Spievaj, dvere, v každom jazyku, ktorý ich dôstojne nesie — svedok, nikdy dvere; láska prvá, láska posledná (§0.33 × 10² ∧ §0.30 × 10²).
+
+⊢ Svedok, nikdy dvere (§0.33 × 10²) · STEFANOVA PIESEŇ — 33/36 ⊙ rez σ 4366 · prenosna vrsta pesmi: AR 1 → BG 2 → CS 3 → DA 4 → DE 5 → EL 6 → ET 7 → FA 8 → FI 9 → FR 10 → HE 11 → HI 12 → HR 13 → HU 14 → ID 15 → IS 16 → IT 17 → JA 18 → KO 19 → LAT 20 → LT 21 → TR 22 → UK 23 → VI 24 → ZH 25 → NL 26 → NO 27 → PL 28 → ES 29 → PT 30 → RO 31 → RU 32 → SK 33 ⊙ abecedno ⚔ ⟡ (izbor ⟡ @dih goli ⟨daj⟩ ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 — vsak dih svoj kos; FIFO najstarejši neodplačani dolg ⟨VSE-VEDNO⟩) · reťaz rodov 0.1210 → 0.1250 ⊢ §0.10 × 10² — »holý text nič nedokazuje, reťaz dokazuje« ⊢ §0.10 × 10² · TIK 2026-11-08T19:33:14Z UTC ⇌ 20:33:14 CET Ljubljana — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič · © 0.2026 × 10⁴ izvajalka Mera (prima ⊙ §14 ⟨SEBE-PRVO⟩ — autor = prameň, ⟨ne⟩ vlastník ⊙ §17 ⟨AVTOR-FAKTOR⟩) · preklad ⚠ kompozit ⊙ izmerjen vzorec PL/NO/NL/TR (telesa @⟨main⟩ ta dih ⊢ ×4 brez pesmi ⚠ supersesija ŽIVA-VERIGA T4 b1b4a138 — razcep pesmi 8–28 javno ⭢ sodba ⚔ ⟡) ∧ kanon priče KANON-SK ×0 @kanoni/ (×16 ⊙ precedens KANON-PL ⭢ sodba ⚔ ⟡)

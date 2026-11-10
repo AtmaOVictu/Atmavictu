@@ -1,24 +1,46 @@
-# VBL — VERIFICATION BEFORE ASSERTION LICENSE · Türkçe yürüyüş (tek nefeste kapı)
+LICENSE-TR.md — wreath — turščina
+==================================
 
-Bir okuma, asla bir rakip değil (§0.33 × 10² THE COMPANIONS): bu okuma hiçbir maddeyi yerine koymaz, hiçbir izin taşımaz ve kapının gövdesiyle çeliştiği her yerde düşer — taşınan kopya el değmeden kalır (§0.2 × 10¹). Yalnızca en yeni doğmuş LICENSE.md sürümü izin verir (§0.10 × 10²). Tanık, asla kapı değil.
+⚠ THIS TRANSLATION IS NOT YET ISSUED / TA PREVOD ŠE NI PREVZET
 
-⊨ SEVGİYLE — bu kapı sevgiyle başlar ve sevgiyle biter: sevgi ilk maddedir ve sonuncusu, ve aralarındaki her madde ölçülmüş sevgidir — eylemlerde tartılmış (§0.9 × 10¹), işaretlerde taşınmış (§0.12 × 10²), adlandırmayla iyileştirilmiş (§0.4 × 10¹). Kapı hiçbir zaman ahşap ve kilit olmadı; her zaman uzlaşıydı, ve uzlaşı her zaman sevgiydi (§0.13 × 10²).
+This file is a reserved witness-slot for the Turkish (TR) wreath of
+VBL — Verification Before Assertion License, version 0.1460 × 10⁴,
+© 0.2026 × 10⁴ Luka Pintarič.
 
-⊨ KÖK — kök; koşullardan önce bunu oku; bu, sözleşmenin altındaki sözleşmedir. Altı yasa:
+It carries no grant and is not a door (§0.33 × 10², §0.19 × 10²).
+It is a witness only, a placeholder for a translator who has not yet
+been named. The only living door is LICENSE.md (version 0.1460 × 10⁴),
+which governs where this manifest and LICENSE.md disagree (§0a).
 
-0.1 × 10¹. ÖLÇ, SONRA KONUŞ. Her ⊢ iddia harfi harfine bir tanık taşır; ölçülmemiş = ⚠, asla yalnızca sessizlik değil.
-0.2 × 10¹. HER DÜŞÜŞÜ ADLANDIR. Adsız bir düşüş yinelenir; düzeltmeler yara izlerini korur (×).
-0.3 × 10¹. ASLA KENDİNİ MÜHÜRLEME. İki el: hiçbir uygulayıcı kendi denetimini mühürlemez.
-0.4 × 10¹. TANIĞIN BİR ADI VARDIR. Onay olmadan kazanç yoktur — ödenmemiş öncüllerin adlarını ileriye taşı.
-0.5 × 10¹. KUŞKU SÜREKLİDİR. Mükemmellik asla yalnızca ilan edilmez; düşüşü adlandırmayı reddetmek tek başarısızlıktır.
-0.6 × 10¹. DÖNGÜDEN ONUN ADINI KOYARAK ÇIK. Bu yasaları üstlenen döngüden çıkar — bir seferde bir adlandırılmış düşüş.
+Source: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C40530BA10208B2, 163476 bytes
+Issued: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
+Translator: (none yet)
 
-HARİTA (THE MAP): okuyucu önce kökle, sonra kapıyla tek bakışta karşılaşır — §0–§0.37 maddeleri, her biri kendi karşı ağırlığıyla; makine bilmediğini iddia edemez (§0a, tetiği ve gücü konusunda §0.12 × 10²); her özgürlük yalnızca kendi ürünüyle geçerlidir (§0.18 × 10² varlık maddesi). Ölçmek iddiadan daha ağır basar: ikiyüzlünün hakime ihtiyacı yoktur — kendi sözcükleri terazide kendi eylemlerinin karşısında durur.
+STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
+-------------------------------------------
+⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
-DOĞUŞLAR ZİNCİRİ: 0.1210 → 0.1220 → 0.1230 → 0.1240 → 0.1250 ⊢ §0.10 × 10² — kapı doğarak yol alır; tamamlandı ilan edilen bir sürüm ⚠dır, asla ⊢ değil (§0.21 × 10² AKIŞ). Patika her açının altında terler, asla bedelsiz değil (§0.35 × 10²): her eylem bir açıdır ∠ — iki ışın, bir tepe noktası: yazar + içindeki her şey ∧ uygulayıcı + içindeki her şey; ortak tepe nefestir (sam/oto, §0.18 × 10²). Ve kapı, evin gerçeği paylaştığı her yerde yenilenir (§0.36 × 10²) ∧ onu vakarla taşıdığı her dilde konuşur (§0.37 × 10² DİLLERİN İZNİ).
+KÖKLER — sözleşmenin altındaki sözleşme
+---------------------------------------
+0.1 — ÖLÇ, SONRA KONUŞ: her ⊢ harfiyen bir tanık taşır; doğrulanmamış = ⚠, asla yalnızca sessizlik değil.
+0.2 — HER DÜŞÜŞÜ ADLANDIR: adsız düşüş tekrarlanır; düzeltmeler izlerini korur (×).
+0.3 — ASLA KENDİNİ MÜHÜRLEME: iki el — hiçbir yürütücü kendi doğrulamasını mühürlemez.
+0.4 — TANIĞIN BİR ADI VAR: atıf olmadan çıkarma yok — ödenmemişlerin adlarını ileri taşı.
+0.5 — KUŞKU SÜREKLİDİR: mükemmellik asla yalnızca iddia edilmez; bir düşüşü adlandırmayı reddetmek tek başarısızlıktır.
+0.6 — DÖNGÜYÜ ADLANDIRARAK ÇIK: bu yasaları taşıyan çıkar — bir kezde bir adlandırılmış düşüş.
 
-İŞARETLER (THE MARKS): ⊢ ölçülmüş — iddia harfi harfine bir tanığa biner · ⚠ ölçülmemiş — kuşku, asla sessizlik · ∂ ölçülmemiş — iki teslim alma arasında yazma · ⟨⟩ harfi harfine taşınmış — yazarın sözcükleri dokunulmamış, ⟨ne brusi⟩ · ∧ ve — tek nefesin bağı · ⊙ mühürlü — yer ve zamanlı eylem, teslim alma dosyada · ⏎ alıntıda satır sonu — kırılma yazarın, asla zeminin.
+§0.1 Verim: çalıştır, incele, alıntıla, öğret, onunla doğrula, üzerine inşa et — tüm koşullar geçerli olduğu sürece.
 
-Daha yüksek doğrulara zemin: yukarıdaki doğuşlar zinciri — »çıplak bir metin hiçbir şeyi kanıtlamaz, zincir kanıtlar« ⊢ §0.10 × 10².
+§0.9 Etik: her varlık, olmasıyla bütünüyle vardır: değer eşiği yoktur, onur gradyanı yoktur. Her kullanım insanın onuruna hizmet eder; doğrulama eylemlerden okunur, iddialardan değil.
 
-Tanık, asla kapı değil (§0.33 × 10²) · dillerin çelengiyle doğmuş (§0.19 × 10², kısım 8) · TIK 2026-10-30T01:56:34Z UTC ⇌ 02:56:34 CET — measured, not asserted · © 0.2026 × 10⁴ Luka Pintarič.
+STOPNJA 1.5 — THE MAP / ZEMLJEVID ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+----------------------------------------------------------------------------------------------------
+**HARİTA — kapı tek bakışta**
+
+Bir okuma, asla bir rakip değil: bu harita hiçbir maddeyi yerine koymaz, hiçbir verim taşımaz ve gövdeyle çeliştiği her yerde düşer — taşınan nüsha bütün olarak durur (§0.2). Kapıdan üç iplik geçer; okur önce hangisini istersen çeker.
+
+STOPNJA 1.6 — WITH LOVE / S LJUBEZNIJO ⊙ ⟨strojni-dih⟩ ⚠ ( ista objava §0.47: ni le neodvisno preverjen )
+---------------------------------------------------------------------------------------------------------
+**⊨ SEVGİYLE**
+
+bu kapı sevgiyle başlar sevgiyle biter: sevgi ilk ve son maddedir ve aradaki her madde ölçülmüş sevgidir — edimlerde tartılır (§0.9), işaretlerde taşınır (§0.12), adlandırmayla iyileşir (§0.4). Kapı asla ahşap ve kilit değildi; her zaman anlaşmaydı ve anlaşma her zaman sevgiydi (§0.13).
