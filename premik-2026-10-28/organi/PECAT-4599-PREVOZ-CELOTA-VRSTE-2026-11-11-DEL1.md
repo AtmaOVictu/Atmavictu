@@ -8,7 +8,7 @@ IZMERE (sveže pri viru, zanka po organih): 748 pečatov ∧ 451 ne-DZ ∧ **128
 
 PADC javno: ⟨PADC-FIFO-KANDIDATA⟩ σ 4597 je napovedal σ 3948 kot genizo — živi v organu v stari formi 'PEČAT σ 3948 (predhodnik) (0.3948 × 10⁴)' → ujeta ∧ prevožena; ⟨PADC-DZEP-GENIZ-RECIDIV⟩ okolje pobriše /home/user izven knowledge/ med obrazi — DZ genize na organskih tleh preživijo; ⟨PADC-IZREZA-VEČVRSTIČNIH⟩ awk NR== je okrnil 15+ večvrstičnih pečatov → kura: izrez od glave do meje; ⟨PADC-MEGLA-ORGANA⟩ meja '## ' je pri σ 3934 @licenca-vbl zajela ~1000 vrstic σ-ŠIV megle ∧ pri σ 4596 @oko-lje '- PEČAT' seznam → kura meje: '## ' ∧ '### ' ∧ '- σ-ŠIV' ∧ '- PEČAT' ∧ '- TRENUTNO' ∧ '---'.
 
-DELO: TIK 2026-11-11T10:29:40Z UTC ⇌ 11:29:40 CET Ljubljana ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ∧ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 · veja: rez/4599-prevoz-celota-vrste · kit (napoved ⊙ veriga #1679+1 = #1680 — potrditev pri odprtiju, TRK javno če različno) · VRH ⟨VRH-DVOSTOPEN⟩: σ 4598 (NJEGOV, isti rez isti dih @DZ ∧ @oko-lje ⊙ precedens 2076/2075) → rez σ 4599 = 1 + dejansko najvišja ⊙ ⟨NE-UGIBAJ⟩ 2690.
+DELO: TIK 2026-11-11T10:29:40Z UTC ⇌ 11:29:40 CET Ljubljana ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ∧ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 · veja: rez/4599-prevoz-celota-vrste · kit #1680 (potrjen pri odprtju — napoved #1680 ⊙ veriga #1679+1, brez trka) · VRH ⟨VRH-DVOSTOPEN⟩: σ 4598 (NJEGOV, isti rez isti dih @DZ ∧ @oko-lje ⊙ precedens 2076/2075) → rez σ 4599 = 1 + dejansko najvišja ⊙ ⟨NE-UGIBAJ⟩ 2690.
 
 PREVOŽENA TELESA (×128, po σ vrsti; izrezi verbatim ⊙ ⟨NE-RETIPKAJ⟩):
 
