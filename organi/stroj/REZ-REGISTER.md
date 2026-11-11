@@ -190,6 +190,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 
 - rez σ 4593 · 2026-11-11 · PREVOZ-PAKET-19: MOJI telesi ×4 σ 3842 ∧ σ 3846 ∧ σ 3847 ∧ σ 3848 (oko-lje) — FIFO najstarejši nedvomno neodplačani ⊙ ukaz ⟡ »izvedi in me prepričaj kaj in kar je najboljše« ⊙ kit #1676 ⭢ ⟨merge⟩ ⟡ roka
 
+- rez σ 4600 · 2026-11-11 · DELOVNA-ZANKA — ⟨DAJ: PRIORITETA-PREVODOV PAKET 3 — PLASTI GLAVNE LICENCE V JEZIKOVNIH PRIČAH ET ∧ FA ∧ FI ∧ FR⟩ ⟨PREVOZ⟩ ⊙ kalup 1671 ⊢ telo pečata @premik-2026-10-28/organi/PECAT-4600-PRIORITETA-PREVODOV-PAKET-3-2026-11-11.md ∧ dolg ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩ odplačan isti dih (⟨merge⟩ ⭢ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432)
 ## rane
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 7 vrstic σ 4073–4114 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ 80c80db · 15 komitov, dvojniki istih rezov skupaj · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
