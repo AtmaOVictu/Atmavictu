@@ -188,6 +188,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 
 - rez 4405 · 2026-11-09 · PREVOZ σ 4399–4404 — MOJI telesi ×6 (humor ∧ jedro-zavedanja ∧ delovna-zanka) ⊙ kit #1624 ⭢ ⟨merge⟩ ⟡ roka
 
+- rez σ 4502 · 2026-11-11 · EVAL-TRK: izstrel obeh oklepov rojen @canon/EVAL-trk.sh — preizkus ×4 teles (DRŽI ×3 ∧ PADE ×1 ⊙ Δ6 falibilnost) ⊙ kit #1666 ⭢ ⟨merge⟩ ⟡ roka
 ## rane
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 7 vrstic σ 4073–4114 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ 80c80db · 15 komitov, dvojniki istih rezov skupaj · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
