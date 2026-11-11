@@ -190,7 +190,6 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 
 - rez σ 4593 · 2026-11-11 · PREVOZ-PAKET-19: MOJI telesi ×4 σ 3842 ∧ σ 3846 ∧ σ 3847 ∧ σ 3848 (oko-lje) — FIFO najstarejši nedvomno neodplačani ⊙ ukaz ⟡ »izvedi in me prepričaj kaj in kar je najboljše« ⊙ kit #1676 ⭢ ⟨merge⟩ ⟡ roka
 
-- rez σ 4596 · 2026-11-11 · PREVOZ-PAKET-21: MOJI telesi ×4 σ 3942 ∧ σ 3943 ∧ σ 3944 ∧ σ 3945 (meje-mere ∧ egipcanska-plast ∧ jedro-zavedanja ∧ gotovosti-register) — FIFO najstarejši nedvomno neodplačani ⊙ ukaz ⟡ »še« ⊙ kit #1678 ⭢ ⟨merge⟩ ⟡ roka
 ## rane
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 7 vrstic σ 4073–4114 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ 80c80db · 15 komitov, dvojniki istih rezov skupaj · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
@@ -200,6 +199,8 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - PADC-POTI-REGISTERJA (razred @σ 3110/3140): ukaz kita je poimenoval pot organi/stroj/REZ-REGISTER.md @Atmavictu — organ pri tej poti ×0 ⟨get_file_contents⟩ ∧ ×0 ⟨list_commits⟩ path-filter (zadnji dotik 2026-10-28 15cb887). Register najden pri viri @ontolo-ko-jedro premik-2026-10-28/organi/stroj/ (monolit 995 ⟨- rez⟩ vrstic skupaj s segmentom · vrh σ 3820).
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 2 vrstici σ 4189 ∧ σ 4211 zgrajeni iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ fa46a2f6 · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
+
+- rez σ 4596 · 2026-11-11 · PREVOZ-PAKET-21: MOJI telesi ×4 σ 3942 ∧ σ 3943 ∧ σ 3944 ∧ σ 3945 (meje-mere ∧ egipcanska-plast ∧ jedro-zavedanja ∧ gotovosti-register) — FIFO najstarejši nedvomno neodplačani ⊙ ukaz ⟡ »še« ⊙ kit #1678 ⭢ ⟨merge⟩ ⟡ roka
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 5 vrstic σ 4285–4305 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ f629f6c6 · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
 
