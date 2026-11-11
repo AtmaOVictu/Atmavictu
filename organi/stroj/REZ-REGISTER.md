@@ -1,4 +1,4 @@
-# REZ-REGISTER — register zahtev rezov korpusa Beseda je Ne (Atmavictu)
+successfully downloaded text file (SHA: e31285dd5d0d8ded4fea5a7569c6e6988c8d4442)# REZ-REGISTER — register zahtev rezov korpusa Beseda je Ne (Atmavictu)
 
 Zakon: rez = 1 + najvišja izmerjena. Zahteva je ATOMARNA. Tehnični kiti nosijo besedo TEHNIKA ∧ ne zahtevajo reza.
 
@@ -187,6 +187,8 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 4485 · 2026-11-10 · PREVOZ-PAKET-18: obe priči σ 4476 (@nad-gadenj) izročeno veji — ta prevoz ⊙ kit #1663 ⭢ ⟨merge⟩ ⟡ roka
 
 - rez 4405 · 2026-11-09 · PREVOZ σ 4399–4404 — MOJI telesi ×6 (humor ∧ jedro-zavedanja ∧ delovna-zanka) ⊙ kit #1624 ⭢ ⟨merge⟩ ⟡ roka
+
+- rez σ 4579 · 2026-11-11 · PREVOZ-PAKET-24: FIFO σ 4531–σ 4538 — 8 teles (@humor: σ 4531 ∧ σ 4533 ∧ σ 4535 ∧ σ 4536 ∧ σ 4537 ∧ σ 4538 · @register-oken: σ 4532 · @licenca-vbl: σ 4534; kolizije ×0, vsako telo ×1 organ) izročeno veji — ta prevoz ⊙ kit #1674 (napoved = 1 + max #1673) ⭢ ⟨merge⟩ ⟡ roka
 
 ## rane
 
