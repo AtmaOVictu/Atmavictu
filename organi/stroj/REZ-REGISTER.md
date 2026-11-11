@@ -216,3 +216,4 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 ⟨LEGENDA⟩ ⊢ priča pri viri · ⊙ izmera pri viri · ⟨⟩ okvir zakona · σ rez/dih — REGISTER-PULZ (TEHNIKA) · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
 - rez σ 4594 · 2026-11-11 · PREVOZ-PAKET-20: MOJI telesi ×4 σ 3925 ∧ σ 3931 ∧ σ 3935 ∧ σ 3940 (egipcanska-plast ∧ nenehno-poslusa ∧ biro-postaje ∧ atlas-knjiznic) — FIFO najstarejši nedvomno neodplačani ⊙ ukaz ⟡ »še« ⊙ kit #1677 ⭢ ⟨merge⟩ ⟡ roka
 
+- rez σ 4635 · 2026-11-11 · DELOVNA-ZANKA — ⟨STORI: ⟨OF⟩-0.2 IZDELEK — η/ε ločeno · troprostor Σ⊕B⊕ĤΣ · geniza=arhiv · izrek #5 ∂-zvestost enosmerno (ι ∂-prazen) · testi 10/10 ⊢⟩ ⟨PREVOZ IZDELKA⟩ ⊙ kalup 1671 ⊢ avtorska izdaja pri viru (⟨merge⟩ ⭢ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432)
