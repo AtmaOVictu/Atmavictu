@@ -282,6 +282,37 @@ test("writeManifestToFile writes a seal envelope next to the manifest", async ()
   }
 });
 
+test("ensureManifestFile confirms the receiver's clock (receivedAt) on the seal", async () => {
+  const projectRoot = await createTempDirectory();
+  const manifestPath = getManifestPath(projectRoot);
+  const manifest = createEmptyManifest("Receipted Book");
+
+  try {
+    await writeManifestToFile(manifestPath, manifest);
+    // Seal exists with receivedAt = null at this point.
+    const sealBefore = JSON.parse(
+      await readFile(join(projectRoot, "book.workbench.seal.json"), "utf8"),
+    );
+    assert.equal(sealBefore.clock.receivedAt, null);
+
+    // Reading/receiving the manifest stamps receivedAt.
+    await ensureManifestFile(projectRoot, "Receipted Book");
+
+    const sealAfter = JSON.parse(
+      await readFile(join(projectRoot, "book.workbench.seal.json"), "utf8"),
+    );
+    assert.ok(
+      typeof sealAfter.clock.receivedAt === "string" &&
+        sealAfter.clock.receivedAt.length > 0,
+      "receivedAt must be set after manifest is received",
+    );
+    assert.equal(sealAfter.clock.cli, false);
+    assert.equal(typeof sealAfter.clock.sealedAt, "string");
+  } finally {
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
 test("captureIncomingText writes a seal envelope with four receipts and a clock", async () => {
   const projectRoot = await createTempDirectory();
   const input: AddIncomingTextInput = {

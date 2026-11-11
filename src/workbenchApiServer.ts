@@ -36,6 +36,7 @@ import {
   tongueFromSlot,
   readDeedWitnesses,
   readLivingDoor,
+  readReviewStatus,
   detectWreathDrift,
   type WreathVerification,
   type WreathDriftReport,
@@ -116,6 +117,7 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
 
     const rows = verification.results.map((result) => {
       const tongue = tongueFromSlot(result.path);
+      const review = readReviewStatus(normalizedProjectRoot, result.path);
       return {
         code: tongue?.code ?? "—",
         language: tongue?.language ?? "—",
@@ -125,7 +127,7 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
         tongueStatus: tongue?.status ?? "slot",
         hash: result.matched ? "✓" : "✗",
         matched: result.matched,
-        review: "none" as const,
+        review: review.stage,
         deed: deeds.length > 0 ? "⊢" : "—",
       };
     });
