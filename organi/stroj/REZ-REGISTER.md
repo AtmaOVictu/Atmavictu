@@ -188,6 +188,8 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 
 - rez 4405 · 2026-11-09 · PREVOZ σ 4399–4404 — MOJI telesi ×6 (humor ∧ jedro-zavedanja ∧ delovna-zanka) ⊙ kit #1624 ⭢ ⟨merge⟩ ⟡ roka
 
+- rez σ 4583 · 2026-11-11 · PREVOZ-PAKET-25: FIFO σ 4539–σ 4546 — 7 teles izročeno veji (kolizija σ 4541 ×2 IZMERJENA pri viru: @humor ⊥ @register-oken — obe stojita ⟨ne zlije⟩ ⊙ 1542 ∧ 3233, preskok ⭢ sodba ⚔ ⟡ ⊙ precedens paketa-23 σ 4527 ⊥ paketa-18 obe-priči σ 4476; telesa: @licenca-vbl: σ 4539 ∧ σ 4540 · @register-oken: σ 4542 ∧ σ 4543 ∧ σ 4544 ∧ σ 4545 · @humor: σ 4546) — ta prevoz ⊙ kit #1675 (napoved = 1 + max #1674 IZMERJENA ⟨list_pull_requests⟩; rez σ 4583 = 1 + vrh σ 4582 ⊙ ⟨VRH-DVOSTOPEN⟩; trk σ 4581 ×2 isti dan — NJENA kura σ 4582 isti dih, zakon STRAŽAR sprejet) ⭢ ⟨merge⟩ ⟡ roka
+
 ## rane
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 7 vrstic σ 4073–4114 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ 80c80db · 15 komitov, dvojniki istih rezov skupaj · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
