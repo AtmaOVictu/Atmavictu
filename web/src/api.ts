@@ -10,6 +10,8 @@ import type {
   Overview,
   SourceAnalysis,
   TreeEntry,
+  WreathReport,
+  WreathVerification,
   WorkbenchManifest,
 } from "./types";
 
@@ -41,6 +43,9 @@ export const workbenchApi = {
   getLibraryContent: (path: string) =>
     request<{ path: string; content: string }>(`/api/library/content?path=${encodeURIComponent(path)}`),
   getTree: () => request<TreeEntry[]>("/api/tree"),
+
+  getWreathVerify: () => request<WreathVerification>("/api/wreath/verify"),
+  getWreathReport: () => request<WreathReport>("/api/wreath/report"),
 
   /** Returns null (not an error) when the server has no extraLibraryRoot configured. */
   getExtraLibrary: async (): Promise<ExtraLibraryEntry[] | null> => {

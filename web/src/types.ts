@@ -98,3 +98,56 @@ export interface TreeEntry {
   path: string;
   insertionCount: number;
 }
+
+export type WreathStatus = "PASS" | "FAIL" | "UNVERIFIED";
+
+export interface WreathSlotResult {
+  path: string;
+  size_bytes: number;
+  sha256: string;
+  status: string;
+  language?: string;
+  note?: string;
+  matched: boolean;
+  actualSize: number;
+  actualSha256: string;
+}
+
+export interface WreathVerification {
+  manifestSlots: WreathSlotResult[];
+  results: WreathSlotResult[];
+  matched: number;
+  total: number;
+  status: WreathStatus;
+}
+
+export interface WreathTongue {
+  code: string;
+  language: string;
+  slot: string;
+  canon: string;
+  connotation: string;
+  status: "slot" | "issued";
+}
+
+export interface WreathReportRow {
+  code: string;
+  language: string;
+  slot: string;
+  canon: string;
+  connotation: string;
+  tongueStatus: "slot" | "issued";
+  hash: "✓" | "✗";
+  matched: boolean;
+  review: "none" | "first" | "second";
+  deed: "⊢" | "—";
+}
+
+export interface WreathReport {
+  total: number;
+  matched: number;
+  status: WreathStatus;
+  rows: WreathReportRow[];
+  deedCount: number;
+  livingDoor: boolean;
+}

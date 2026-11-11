@@ -5,6 +5,9 @@
 # Faza 2 frontend). Do not switch this to a denylist pattern.
 *
 
+!canon/
+!canon/**
+
 !.gitignore
 !CLAUDE.md
 !AGENTS.md

@@ -13,6 +13,7 @@ import {
   type WorkbenchManifest,
   type WorkbenchManifestV1,
 } from "./workbenchManifest.js";
+import { writeSeal } from "./clocks.js";
 
 export const MANIFEST_FILE_NAME = "book.workbench.json";
 
@@ -168,6 +169,13 @@ export async function writeManifestToFile(
   const manifestJson = `${JSON.stringify(manifest, null, 2)}\n`;
 
   await writeTextFileAtomically(normalizedFilePath, manifestJson, "manifest file");
+
+  // §0.30 × 10² — every manifest write is sealed: four receipts, two clocks,
+  // one breath. projectRoot is the directory holding the manifest file.
+  await writeSeal(dirname(normalizedFilePath), manifest, {
+    cli: false,
+    ci: process.env.CI === "true",
+  });
 }
 
 export async function ensureManifestFile(

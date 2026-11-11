@@ -5,6 +5,20 @@ import { fileURLToPath } from "node:url";
 import { runCaptureIncomingTextProof } from "./captureIncomingTextProof.js";
 import { validateManifest, type WorkbenchManifest } from "./workbenchManifest.js";
 import { getManifestPath, readManifestFromFile } from "./workbenchManifestRepository.js";
+import {
+  verifyWreath,
+  loadWreathManifest,
+  verifyWreathSlot,
+  type WreathSlotResult,
+  listTongues,
+  tongueFromSlot,
+  readDeedWitnesses,
+  hasAnyDeed,
+  allReviewedNone,
+  readLivingDoor,
+  detectWreathDrift,
+  type ReviewStatus,
+} from "./wreath/index.js";
 
 export type AtmaCliCommand =
   | {
@@ -20,6 +34,11 @@ export type AtmaCliCommand =
   | {
       name: "verify";
       projectRoot: string;
+    }
+  | {
+      name: "wreath";
+      subcommand: "verify" | "report" | "drift";
+      projectRoot: string;
     };
 
 export function parseAtmaCliArgs(argv: readonly string[]): AtmaCliCommand {
@@ -27,7 +46,7 @@ export function parseAtmaCliArgs(argv: readonly string[]): AtmaCliCommand {
 
   if (commandName === undefined || commandName.trim().length === 0) {
     throw new Error(
-      "Usage: node build/src/atmaCli.js <capture|show|verify> <projectRoot> [title] [body]",
+      "Usage: node build/src/atmaCli.js <capture|show|verify|wreath> <projectRoot> [title] [body]",
     );
   }
 
@@ -44,8 +63,12 @@ export function parseAtmaCliArgs(argv: readonly string[]): AtmaCliCommand {
         name: "verify",
         projectRoot: requireCliValue("verify requires <projectRoot>.", rest[0]),
       };
+    case "wreath":
+      return parseWreathCommand(rest);
     default:
-      throw new Error(`Unknown command: ${commandName}. Expected one of: capture, show, verify.`);
+      throw new Error(
+        `Unknown command: ${commandName}. Expected one of: capture, show, verify, wreath.`,
+      );
   }
 }
 
@@ -61,6 +84,8 @@ export async function runAtmaCliCommand(command: AtmaCliCommand): Promise<string
       return runShowCommand(command.projectRoot);
     case "verify":
       return runVerifyCommand(command.projectRoot);
+    case "wreath":
+      return runWreathCommand(command);
   }
 }
 
@@ -124,6 +149,101 @@ async function runVerifyCommand(projectRoot: string): Promise<string> {
 
 function renderVerifyFailure(errors: readonly string[]): string {
   return ["VERIFY: FAIL", "ERRORS:", ...errors.map((error) => `- ${error}`)].join("\n");
+}
+
+/**
+ * Pripravi vrstico poročila za en wreath slot: jezik, kanon, slot, hash,
+ * pregled (druga roka) in dejanska priča.
+ */
+function buildWreathRow(root: string, slot: WreathSlotResult): string[] {
+  const tongue = tongueFromSlot(slot.path);
+  const hash = slot.matched ? "✓" : "✗";
+  const review = allReviewedNone(root, [slot.path])[0] ?? { stage: "none" };
+  const stage = review.stage === "none" ? "—" : review.stage;
+  const deed = hasAnyDeed(root) ? "⊢" : "—";
+  return [
+    tongue ? tongue.code : "—",
+    tongue ? tongue.language : "—",
+    slot.path,
+    hash,
+    stage,
+    deed,
+  ];
+}
+
+function renderWreathReport(root: string): string {
+  const verification = verifyWreath(root);
+  const tongues = listTongues();
+  const deeds = readDeedWitnesses(root);
+  const lines: string[] = [];
+  lines.push("WREATH — priče veneca");
+  lines.push(`uključenih slotov: ${verification.total} · ujemajočih: ${verification.matched} · stanje: ${verification.status}`);
+  lines.push("");
+  lines.push(
+    ["jezik", "jezik (ime)", "slot", "hash", "pregled", "dejanje"].join(" | "),
+  );
+  lines.push(["-----", "-----------", "-----", "----", "-------", "------"].join("-|-"));
+  for (const result of verification.results) {
+    lines.push(buildWreathRow(root, result).join(" | "));
+  }
+  lines.push("");
+  lines.push(`dejanske priče v registru: ${deeds.length}`);
+  lines.push(`živa vrata: ${readLivingDoor(root) ? "prisotne" : "odsotne"}`);
+  lines.push("");
+  lines.push(verification.status === "PASS" ? "WREATH VERIFY: PASS" : "WREATH VERIFY: " + verification.status);
+  return lines.join("\n");
+}
+
+function parseWreathCommand(argv: readonly string[]): AtmaCliCommand {
+  const [subcommand, ...rest] = argv;
+  if (subcommand !== "verify" && subcommand !== "report" && subcommand !== "drift") {
+    throw new Error(
+      `Unknown wreath subcommand: ${subcommand ?? "<none>"}. Expected one of: verify, report, drift.`,
+    );
+  }
+  return {
+    name: "wreath",
+    subcommand: subcommand as "verify" | "report" | "drift",
+    projectRoot: requireCliValue(`wreath ${subcommand} requires <projectRoot>.`, rest[0]),
+  };
+}
+
+async function runWreathCommand(command: Extract<AtmaCliCommand, { name: "wreath" }>): Promise<string> {
+  if (command.subcommand === "verify") {
+    const verification = verifyWreath(command.projectRoot);
+    let summary = [
+      `WREATH VERIFY: ${verification.status}`,
+      `slotov: ${verification.total}, ujemajočih: ${verification.matched}`,
+    ].join("\n");
+    if (verification.status !== "PASS") {
+      for (const result of verification.results) {
+        if (!result.matched) {
+          summary += `\n- ${result.path}: hash ${result.actualSha256 ?? "<missing>"} ≠ manifest ${result.sha256}`;
+        }
+      }
+    }
+    return summary;
+  }
+  if (command.subcommand === "drift") {
+    return renderWreathDrift(command.projectRoot);
+  }
+  return renderWreathReport(command.projectRoot);
+}
+
+function renderWreathDrift(root: string): string {
+  const report = detectWreathDrift(root);
+  const lines: string[] = [];
+  lines.push("WREATH — drift interferenca");
+  lines.push(report.drift ? "WREATH DRIFT: DETECTED" : "WREATH DRIFT: none");
+  lines.push(`živa vrata (LICENSE.md): ${report.doorHash ?? "<absent>"}`);
+  lines.push(`manifest slot LICENSE.md: ${report.manifestSlotHash ?? "<absent>"}`);
+  for (const detail of report.details) {
+    lines.push(`- ${detail}`);
+  }
+  if (report.details.length === 0) {
+    lines.push("door ≡ manifest slot — brez drift-a; companionji so priče, ne vrata");
+  }
+  return lines.join("\n");
 }
 
 function requireCliValue(message: string, value: string | undefined): string {

@@ -31,6 +31,16 @@ import {
 } from "./workbenchManifestRepository.js";
 
 import {
+  verifyWreath,
+  listTongues,
+  tongueFromSlot,
+  readDeedWitnesses,
+  readLivingDoor,
+  detectWreathDrift,
+  type WreathVerification,
+  type WreathDriftReport,
+} from "./wreath/index.js";
+import {
   buildSuggestionPrompt,
   parseSuggestionResponse,
   SUGGESTION_MODEL,
@@ -91,6 +101,48 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
   app.get("/api/verify", asyncRoute(async (_req, res) => {
     const manifest = await ensureManifestFile(normalizedProjectRoot);
     res.json(validateManifest(manifest));
+  }));
+
+  app.get("/api/wreath/verify", asyncRoute(async (_req, res) => {
+    const verification = verifyWreath(normalizedProjectRoot);
+    res.json(verification);
+  }));
+
+  app.get("/api/wreath/report", asyncRoute(async (_req, res) => {
+    const verification: WreathVerification = verifyWreath(normalizedProjectRoot);
+    const tongues = listTongues();
+    const deeds = readDeedWitnesses(normalizedProjectRoot);
+    const livingDoor = readLivingDoor(normalizedProjectRoot) !== null;
+
+    const rows = verification.results.map((result) => {
+      const tongue = tongueFromSlot(result.path);
+      return {
+        code: tongue?.code ?? "—",
+        language: tongue?.language ?? "—",
+        slot: result.path,
+        canon: tongue?.canon ?? "—",
+        connotation: tongue?.connotation ?? "—",
+        tongueStatus: tongue?.status ?? "slot",
+        hash: result.matched ? "✓" : "✗",
+        matched: result.matched,
+        review: "none" as const,
+        deed: deeds.length > 0 ? "⊢" : "—",
+      };
+    });
+
+    res.json({
+      total: verification.total,
+      matched: verification.matched,
+      status: verification.status,
+      rows,
+      deedCount: deeds.length,
+      livingDoor,
+    });
+  }));
+
+  app.get("/api/wreath/drift", asyncRoute(async (_req, res) => {
+    const report: WreathDriftReport = detectWreathDrift(normalizedProjectRoot);
+    res.json(report);
   }));
 
   app.get("/api/library", asyncRoute(async (_req, res) => {

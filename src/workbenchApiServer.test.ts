@@ -393,6 +393,82 @@ test("suggestions endpoint validates input and degrades gracefully when the mode
   }
 });
 
+test("wreath verify and report endpoints return shaped responses", async () => {
+  const projectRoot = await createTempDirectory();
+  const server = startWorkbenchApiServer(projectRoot, 0);
+  const baseUrl = await waitForBaseUrl(server);
+
+  try {
+    const verifyRes = await fetch(`${baseUrl}/api/wreath/verify`);
+    assert.equal(verifyRes.status, 200);
+    const verify = (await verifyRes.json()) as {
+      status: string;
+      total: number;
+      matched: number;
+      results: unknown[];
+    };
+    assert.ok(["PASS", "FAIL", "UNVERIFIED"].includes(verify.status));
+    assert.ok(typeof verify.total === "number");
+    assert.ok(typeof verify.matched === "number");
+    assert.ok(Array.isArray(verify.results));
+
+    const reportRes = await fetch(`${baseUrl}/api/wreath/report`);
+    assert.equal(reportRes.status, 200);
+    const report = (await reportRes.json()) as {
+      status: string;
+      total: number;
+      matched: number;
+      rows: unknown[];
+      deedCount: number;
+      livingDoor: boolean;
+    };
+    assert.ok(["PASS", "FAIL", "UNVERIFIED"].includes(report.status));
+    assert.ok(typeof report.total === "number");
+    assert.ok(typeof report.matched === "number");
+    assert.ok(Array.isArray(report.rows));
+    assert.ok(typeof report.deedCount === "number");
+    assert.ok(typeof report.livingDoor === "boolean");
+
+    // When no LICENSE-MANIFEST exists, total should be 0 and status UNVERIFIED.
+    assert.equal(verify.total, 0);
+    assert.equal(verify.status, "UNVERIFIED");
+    assert.equal(report.total, 0);
+    assert.equal(report.status, "UNVERIFIED");
+    assert.equal(report.rows.length, 0);
+    assert.equal(report.deedCount, 0);
+    assert.equal(report.livingDoor, false);
+  } finally {
+    server.close();
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
+test("wreath drift endpoint reports drift state on API", async () => {
+  const projectRoot = await createTempDirectory();
+  const server = startWorkbenchApiServer(projectRoot, 0);
+  const baseUrl = await waitForBaseUrl(server);
+
+  try {
+    // No LICENSE.md / LICENSE-MANIFEST → door absent, drift flagged.
+    const res = await fetch(`${baseUrl}/api/wreath/drift`);
+    assert.equal(res.status, 200);
+    const report = (await res.json()) as {
+      drift: boolean;
+      doorHash: string | null;
+      companions: unknown[];
+      details: string[];
+    };
+    assert.equal(report.drift, true);
+    assert.equal(report.doorHash, null);
+    assert.deepEqual(report.companions, []);
+    assert.ok(Array.isArray(report.details));
+    assert.ok(report.details.some((d) => d.includes("odsotna")));
+  } finally {
+    server.close();
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
 test("create fragment can set title and conceptIds at creation", async () => {
   const projectRoot = await createTempDirectory();
   const server = startWorkbenchApiServer(projectRoot, 0);

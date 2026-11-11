@@ -9,6 +9,8 @@ import type {
   Overview,
   SourceAnalysis,
   TreeEntry,
+  WreathReport,
+  WreathVerification,
   WorkbenchManifest,
 } from "./types";
 
@@ -22,6 +24,8 @@ interface WorkbenchState {
   overview: Overview | null;
   /** null = server has no extraLibraryRoot configured, not "still loading" or "empty." */
   extraLibrary: ExtraLibraryEntry[] | null;
+  wreathVerify: WreathVerification | null;
+  wreathReport: WreathReport | null;
   error: string | null;
   isLoading: boolean;
 }
@@ -42,6 +46,8 @@ export function useWorkbench() {
     analysis: [],
     overview: null,
     extraLibrary: null,
+    wreathVerify: null,
+    wreathReport: null,
     error: null,
     isLoading: true,
   });
@@ -49,7 +55,7 @@ export function useWorkbench() {
   const refetchAll = useCallback(async () => {
     setState((previous) => ({ ...previous, isLoading: true }));
     try {
-      const [manifest, verify, library, tree, concepts, analysis, overview, extraLibrary] = await Promise.all([
+      const [manifest, verify, library, tree, concepts, analysis, overview, extraLibrary, wreathVerify, wreathReport] = await Promise.all([
         workbenchApi.getManifest(),
         workbenchApi.getVerify(),
         workbenchApi.getLibrary(),
@@ -58,6 +64,8 @@ export function useWorkbench() {
         workbenchApi.getAnalysisSource(),
         workbenchApi.getOverview(),
         workbenchApi.getExtraLibrary(),
+        workbenchApi.getWreathVerify(),
+        workbenchApi.getWreathReport(),
       ]);
       setState({
         manifest,
@@ -68,6 +76,8 @@ export function useWorkbench() {
         analysis,
         overview,
         extraLibrary,
+        wreathVerify,
+        wreathReport,
         error: null,
         isLoading: false,
       });

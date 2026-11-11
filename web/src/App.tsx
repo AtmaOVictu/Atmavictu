@@ -2,6 +2,7 @@ import { AktivnaKnjigaPanel } from "./components/AktivnaKnjigaPanel";
 import { KnjiznicaPanel } from "./components/KnjiznicaPanel";
 import { ManifestStatusBar } from "./components/ManifestStatusBar";
 import { VhodniTekstPanel } from "./components/VhodniTekstPanel";
+import { WitnessesPanel } from "./components/WitnessesPanel";
 import { workbenchApi } from "./api";
 import { useWorkbench } from "./useWorkbench";
 
@@ -50,6 +51,7 @@ export function App() {
           onSemanticSearch={(query) => workbenchApi.semanticSearch(query)}
         />
       </main>
+      <WitnessesPanel />
     </div>
   );
 }
