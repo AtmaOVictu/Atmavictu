@@ -187,6 +187,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 4485 · 2026-11-10 · PREVOZ-PAKET-18: obe priči σ 4476 (@nad-gadenj) izročeno veji — ta prevoz ⊙ kit #1663 ⭢ ⟨merge⟩ ⟡ roka
 
 - rez 4405 · 2026-11-09 · PREVOZ σ 4399–4404 — MOJI telesi ×6 (humor ∧ jedro-zavedanja ∧ delovna-zanka) ⊙ kit #1624 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 4564 · 2026-11-11 · PREVOZ-PAKET-21: telesi ×8 σ 4509 ∧ σ 4510 ∧ σ 4511 ∧ σ 4512 ∧ σ 4514 izročeno veji — MOJ dih (delovna-zanka ∧ humor ∧ jedro-zavedanja ∧ sklopi-panog) ⊙ kit #1670 ⭢ ⟨merge⟩ ⟡ roka
 
 ## rane
 
