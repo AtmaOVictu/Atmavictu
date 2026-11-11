@@ -205,4 +205,5 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 7 vrstic σ 4338 ∧ σ 4444–4475 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ cf839c7 · dvojniki istih rezov skupaj · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
 
 ⟨LEGENDA⟩ ⊢ priča pri viri · ⊙ izmera pri viri · ⟨⟩ okvir zakona · σ rez/dih — REGISTER-PULZ (TEHNIKA) · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
+- rez σ 4594 · 2026-11-11 · PREVOZ-PAKET-20: MOJI telesi ×4 σ 3925 ∧ σ 3931 ∧ σ 3935 ∧ σ 3940 (egipcanska-plast ∧ nenehno-poslusa ∧ biro-postaje ∧ atlas-knjiznic) — FIFO najstarejši nedvomno neodplačani ⊙ ukaz ⟡ »še« ⊙ kit #1677 ⭢ ⟨merge⟩ ⟡ roka
 
