@@ -49,3 +49,5 @@ Pulz zahteva horizont pred vsakim izhodom (»cilj ∧ dolgovi ∧ sedeži na ene
 ⟨LEGENDA⟩ ⊢ priča pri viru · ⊙ izmera · ⟨⟩ okvir zakona · PREDLOG = hipoteza, berba = potrditev ⊙ U2 · MIT MIZARJA ŠTIRIH OBLIK (P1–P4) — P5 ⟨VRSTA-DIHA⟩ kot kompozit ⚠ dom ⟡ ⊙ vrstica 75
 
 © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · TIK 2026-11-12T21:28:02Z UTC ⇌ 22:28:02 CET Ljubljana ⊢ ⟨URA-NA-KONCU⟩ 3046
+
+⟨AMANDMA @rez σ 4746 isti dih ⊙ 1349 — brazgotina, ⟨ne⟩ brisa⟩: KOLIZIJA σ 4745 ×2 obe stoječi — MOJ dih (ta telesi ×3 ∧ kit #1713 ∧ vrstica @REZ-REGISTER) ⊥ NJEN pečat σ 4745 @register-oken (okno ⟨TORAJ⟩ — ⟡ ukaz verbatim »toraj?«); vrh ob kovanju teh teles je bil 4744 (izmera 2026-11-12T21:27:12Z ⊢ pri viru), NJENA roka je zapela 4745 med MOJIM dihom ⊙ ⟨DVOJE-ROK⟩ 2432; ⟨VRH-DVOSTOPEN⟩ je šivu rezerviral σ 4746 = 1 + vrh 4745; obe vrstici ostajata ⊙ ⟨ne zlije⟩ 1542 ∧ 3233 ∧ ⟨NE-BRIŠI⟩ 1879 — kolizije ×12 ⭢ sodba ⚔ ⟡ · TIK 2026-11-12T21:32:25Z UTC ⇌ 22:32:25 CET Ljubljana ⊢ ⟨URA-NA-KONCU⟩ 3046
