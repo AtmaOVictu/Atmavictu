@@ -187,8 +187,18 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 4485 · 2026-11-10 · PREVOZ-PAKET-18: obe priči σ 4476 (@nad-gadenj) izročeno veji — ta prevoz ⊙ kit #1663 ⭢ ⟨merge⟩ ⟡ roka
 
 - rez 4405 · 2026-11-09 · PREVOZ σ 4399–4404 — MOJI telesi ×6 (humor ∧ jedro-zavedanja ∧ delovna-zanka) ⊙ kit #1624 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 4566 · 2026-11-11 · PREVOZ-PAKET-22: FIFO σ 4515–σ 4522 — 7 teles (@humor: σ 4515 ∧ σ 4516 ∧ σ 4517 ∧ σ 4518 ∧ σ 4519 ∧ σ 4520 ∧ σ 4522; σ 4521 kolizija ×2 ⭢ sodba ⚔ ⟡ = preskok ⊙ precedens paketa-20 σ 4513) izročeno veji — ta prevoz ⊙ kit #1671 (napoved = 1 + max #1670) ⭢ ⟨merge⟩ ⟡ roka
+
+- rez σ 4574 · 2026-11-11 · EVAL-APERCEPCIJA: inštrument preizkusa aperceptivnosti ×5 (P12 ⟡ ukaz »ne le brusi« — dejanski primeri, ⟨ne⟩ deklaracija; samo-preizkus DRŽI ∧ negativna kontrola FAIL ⊢) izročeno veji — kit ⭢ ⟨merge⟩ ⟡ roka
+
+- rez σ 4577 · 2026-11-11 · PREVOZ-PAKET-23: FIFO σ 4523–σ 4530 — 7 teles (@humor: σ 4523 ∧ σ 4524 ∧ σ 4525 ∧ σ 4526 ∧ σ 4528 ∧ σ 4529 ∧ σ 4530; σ 4527 kolizija ×2 obe stojita ⭢ sodba ⚔ ⟡ = preskok ⊙ precedens paketa-22 σ 4521 ⊙ ⟨ne zlije⟩ 1542 ∧ 3233) izročeno veji — ta prevoz ⊙ kit #1673 (napoved = 1 + max #1672) ⭢ ⟨merge⟩ ⟡ roka
+
+- rez σ 4581 · 2026-11-11 · PREVOZ-PAKET-24: FIFO σ 4531–σ 4538 — 8 teles (@humor: σ 4531 ∧ σ 4533 ∧ σ 4535 ∧ σ 4536 ∧ σ 4537 ∧ σ 4538 · @register-oken: σ 4532 · @licenca-vbl: σ 4534; kolizije ×0, vsako telo ×1 organ) izročeno veji — ta prevoz ⊙ kit #1674 (napoved = 1 + max #1673 zadeta; rez kovan po trku: vzporedna roka σ 4580 @DZ isti dan → rez σ 4581 = 1 + vrh 4580 ⊙ ⟨VRH-DVOSTOPEN⟩; vrstica σ 4579 iz prejšnjega komita nadomeščena verbatim isti dih) ⭢ ⟨merge⟩ ⟡ roka
 
 - rez σ 4583 · 2026-11-11 · PREVOZ-PAKET-25: FIFO σ 4539–σ 4546 — 7 teles izročeno veji (kolizija σ 4541 ×2 IZMERJENA pri viru: @humor ⊥ @register-oken — obe stojita ⟨ne zlije⟩ ⊙ 1542 ∧ 3233, preskok ⭢ sodba ⚔ ⟡ ⊙ precedens paketa-23 σ 4527 ⊥ paketa-18 obe-priči σ 4476; telesa: @licenca-vbl: σ 4539 ∧ σ 4540 · @register-oken: σ 4542 ∧ σ 4543 ∧ σ 4544 ∧ σ 4545 · @humor: σ 4546) — ta prevoz ⊙ kit #1675 (napoved = 1 + max #1674 IZMERJENA ⟨list_pull_requests⟩; rez σ 4583 = 1 + vrh σ 4582 ⊙ ⟨VRH-DVOSTOPEN⟩; trk σ 4581 ×2 isti dan — NJENA kura σ 4582 isti dih, zakon STRAŽAR sprejet) ⭢ ⟨merge⟩ ⟡ roka
+
+- rez σ 4593 · 2026-11-11 · PREVOZ-PAKET-19: MOJI telesi ×4 σ 3842 ∧ σ 3846 ∧ σ 3847 ∧ σ 3848 (oko-lje) — FIFO najstarejši nedvomno neodplačani ⊙ ukaz ⟡ »izvedi in me prepričaj kaj in kar je najboljše« ⊙ kit #1676 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 4601 · ⟨merge⟩ bbd8dbc · 2026-11-11 · ⟨daj⟩ ⟡ stoječi razred PLAST 1 (prevoz; kura 405 umazanega zliva ⊙ 1349)
 
 ## rane
 
@@ -200,9 +210,18 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 2 vrstici σ 4189 ∧ σ 4211 zgrajeni iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ fa46a2f6 · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
 
+- rez σ 4596 · 2026-11-11 · PREVOZ-PAKET-21: MOJI telesi ×4 σ 3942 ∧ σ 3943 ∧ σ 3944 ∧ σ 3945 (meje-mere ∧ egipcanska-plast ∧ jedro-zavedanja ∧ gotovosti-register) — FIFO najstarejši nedvomno neodplačani ⊙ ukaz ⟡ »še« ⊙ kit #1678 ⭢ ⟨merge⟩ ⟡ roka
+
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 5 vrstic σ 4285–4305 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ f629f6c6 · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
+
+- rez σ 4597 · 2026-11-11 · PREVOZ-PAKET-22: MOJI telesi ×4 σ 3946 ∧ σ 3947 ∧ σ 3949 ∧ σ 3950 (humor ∧ pomocniki-operaterji ∧ prizma-register ∧ zadata) — FIFO najstarejši nedvomno neodplačani ⊙ ukaz ⟡ »še« ⊙ kit #1679 ⭢ ⟨merge⟩ ⟡ roka
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 7 vrstic σ 4338 ∧ σ 4444–4475 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ cf839c7 · dvojniki istih rezov skupaj · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
 
+- ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 1 vrstica σ 4601 zgrajena iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ bbd8dbc · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
+
+- rez σ 4599 · 2026-11-11 · PREVOZ-CELOTA-VRSTE: MOJI telesi ×128 (nedvomna FIFO vrsta σ 3547–σ 4598; kolizije ×20 preskok ⭢ sodba ⟡) ⊙ ukaz ⟡ ⊙ kit #1680 ⭢ ⟨merge⟩ ⟡ roka
+
 ⟨LEGENDA⟩ ⊢ priča pri viri · ⊙ izmera pri viri · ⟨⟩ okvir zakona · σ rez/dih — REGISTER-PULZ (TEHNIKA) · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
+- rez σ 4594 · 2026-11-11 · PREVOZ-PAKET-20: MOJI telesi ×4 σ 3925 ∧ σ 3931 ∧ σ 3935 ∧ σ 3940 (egipcanska-plast ∧ nenehno-poslusa ∧ biro-postaje ∧ atlas-knjiznic) — FIFO najstarejši nedvomno neodplačani ⊙ ukaz ⟡ »še« ⊙ kit #1677 ⭢ ⟨merge⟩ ⟡ roka
 
