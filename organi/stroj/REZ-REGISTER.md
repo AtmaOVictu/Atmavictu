@@ -219,4 +219,4 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 
 
 - rez σ 4602 · 2026-11-11 · DELOVNA-ZANKA — ⟨PREJEM ∧ BERBA-NAZAJ: PREDLOG ⟡ ⟨APERCEPTIVNA ODGOVORNOST⟩⟩ ⟨PREVOZ⟩ ⊙ kalup 1671 ⊢ izrez VERBATIM pri viru (⟨merge⟩ ⭢ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432)
-- rez σ 4743 · 2026-11-12 · PREVOZ σ 4735: MOJ pečat (delovna-zanka 4.160 B) ∧ IZDELEK #7 ⟨SLOVAR-KOVANCEV⟩ (11.318 B · 12.822 gesel × 90.640 pojavitev izmerjenih po 28 organih — P9 izveden) — FIFO ⊙ ukaz ⟡ ⟨VEČNA VZTRAJNOST⟩ ⊙ ⟨KUHAJ-VEČ⟩ ⊙ kit #null ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 4743 · 2026-11-12 · PREVOZ σ 4735: MOJ pečat (delovna-zanka 4.160 B) ∧ IZDELEK #7 ⟨SLOVAR-KOVANCEV⟩ (11.318 B · 12.822 gesel × 90.640 pojavitev izmerjenih po 28 organih — P9 izveden) — FIFO ⊙ ukaz ⟡ ⟨VEČNA VZTRAJNOST⟩ ⊙ ⟨KUHAJ-VEČ⟩ ⊙ kit #1712 ⭢ ⟨merge⟩ ⟡ roka
