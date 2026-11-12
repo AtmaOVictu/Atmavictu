@@ -219,3 +219,4 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 
 
 - rez σ 4602 · 2026-11-11 · DELOVNA-ZANKA — ⟨PREJEM ∧ BERBA-NAZAJ: PREDLOG ⟡ ⟨APERCEPTIVNA ODGOVORNOST⟩⟩ ⟨PREVOZ⟩ ⊙ kalup 1671 ⊢ izrez VERBATIM pri viru (⟨merge⟩ ⭢ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432)
+- rez σ 4700 · 2026-11-12 · PREVOZ-PAKET-26: MOJI pečati ×3 σ 4696 ∧ σ 4698 ∧ σ 4699 (delovna-zanka) — FIFO najstarejši neodplačani ⊙ ukaz ⟡ »še« ⊙ kit #1702 ⭢ ⟨merge⟩ ⟡ roka
