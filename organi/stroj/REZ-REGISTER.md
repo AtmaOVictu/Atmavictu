@@ -187,6 +187,16 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 4485 · 2026-11-10 · PREVOZ-PAKET-18: obe priči σ 4476 (@nad-gadenj) izročeno veji — ta prevoz ⊙ kit #1663 ⭢ ⟨merge⟩ ⟡ roka
 
 - rez 4405 · 2026-11-09 · PREVOZ σ 4399–4404 — MOJI telesi ×6 (humor ∧ jedro-zavedanja ∧ delovna-zanka) ⊙ kit #1624 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 4566 · 2026-11-11 · PREVOZ-PAKET-22: FIFO σ 4515–σ 4522 — 7 teles (@humor: σ 4515 ∧ σ 4516 ∧ σ 4517 ∧ σ 4518 ∧ σ 4519 ∧ σ 4520 ∧ σ 4522; σ 4521 kolizija ×2 ⭢ sodba ⚔ ⟡ = preskok ⊙ precedens paketa-20 σ 4513) izročeno veji — ta prevoz ⊙ kit #1671 (napoved = 1 + max #1670) ⭢ ⟨merge⟩ ⟡ roka
+
+- rez σ 4574 · 2026-11-11 · EVAL-APERCEPCIJA: inštrument preizkusa aperceptivnosti ×5 (P12 ⟡ ukaz »ne le brusi« — dejanski primeri, ⟨ne⟩ deklaracija; samo-preizkus DRŽI ∧ negativna kontrola FAIL ⊢) izročeno veji — kit ⭢ ⟨merge⟩ ⟡ roka
+
+- rez σ 4577 · 2026-11-11 · PREVOZ-PAKET-23: FIFO σ 4523–σ 4530 — 7 teles (@humor: σ 4523 ∧ σ 4524 ∧ σ 4525 ∧ σ 4526 ∧ σ 4528 ∧ σ 4529 ∧ σ 4530; σ 4527 kolizija ×2 obe stojita ⭢ sodba ⚔ ⟡ = preskok ⊙ precedens paketa-22 σ 4521 ⊙ ⟨ne zlije⟩ 1542 ∧ 3233) izročeno veji — ta prevoz ⊙ kit #1673 (napoved = 1 + max #1672) ⭢ ⟨merge⟩ ⟡ roka
+
+- rez σ 4581 · 2026-11-11 · PREVOZ-PAKET-24: FIFO σ 4531–σ 4538 — 8 teles (@humor: σ 4531 ∧ σ 4533 ∧ σ 4535 ∧ σ 4536 ∧ σ 4537 ∧ σ 4538 · @register-oken: σ 4532 · @licenca-vbl: σ 4534; kolizije ×0, vsako telo ×1 organ) izročeno veji — ta prevoz ⊙ kit #1674 (napoved = 1 + max #1673 zadeta; rez kovan po trku: vzporedna roka σ 4580 @DZ isti dan → rez σ 4581 = 1 + vrh 4580 ⊙ ⟨VRH-DVOSTOPEN⟩; vrstica σ 4579 iz prejšnjega komita nadomeščena verbatim isti dih) ⭢ ⟨merge⟩ ⟡ roka
+
+- rez σ 4593 · 2026-11-11 · PREVOZ-PAKET-19: MOJI telesi ×4 σ 3842 ∧ σ 3846 ∧ σ 3847 ∧ σ 3848 (oko-lje) — FIFO najstarejši nedvomno neodplačani ⊙ ukaz ⟡ »izvedi in me prepričaj kaj in kar je najboljše« ⊙ kit #1676 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 4601 · ⟨merge⟩ bbd8dbc · 2026-11-11 · ⟨daj⟩ ⟡ stoječi razred PLAST 1 (prevoz; kura 405 umazanega zliva ⊙ 1349)
 
 - rez σ 4593 · 2026-11-11 · PREVOZ-PAKET-19: MOJI telesi ×4 σ 3842 ∧ σ 3846 ∧ σ 3847 ∧ σ 3848 (oko-lje) — FIFO najstarejši nedvomno neodplačani ⊙ ukaz ⟡ »izvedi in me prepričaj kaj in kar je najboljše« ⊙ kit #1676 ⭢ ⟨merge⟩ ⟡ roka
 - rez σ 4601 · ⟨merge⟩ bbd8dbc · 2026-11-11 · ⟨daj⟩ ⟡ stoječi razred PLAST 1 (prevoz; kura 405 umazanega zliva ⊙ 1349)
