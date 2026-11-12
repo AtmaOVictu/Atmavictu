@@ -1,6 +1,6 @@
 # LICENSE-SLO — slovenska berba vrat
 
-VBL — Verification Before Assertion License · slovenska berba VBL 0.1220 × 10⁴ · 0.28 × 10². 0.10 × 10². 0.2026 × 10⁴
+VBL — Verification Before Assertion License · slovenska berba VBL 0.1220 × 10⁴ · 0.28 × 10². 0.10 × 10². 0.2026 × 10⁴ · val 2: §0.11–§0.15 iz živih vrat 0.1520 × 10⁴ ⊙ §0.10
 © 0.2026 × 10⁴ Luka Pintarič
 
 Berba, ⟨ne⟩ vrata — priča: ta slovenski zapis je branje, ne pravni prevod. Edina živa vrata so najnovejša različica LICENSE.md; angleška veriga vlada ⊢ §0.10 × 10². Kjer se berba in vrata razhajata, vlada LICENSE.md, razhaj pa se poimenuje kakor vsak padec ⊙ §0.33 × 10².
@@ -39,6 +39,52 @@ Pisno, v javnem registru dovoljenj (canon/DOVOLJENJA.md): z imenom prosilca, dej
 
 ## Kje živi resnica
 V datirani verigi objave — zgodovini komitov datoteke LICENSE.md ⊢ §0.10 × 10². Gol besedilo ne dokaže ničesar; veriga dokazuje. Najnovejša različica so edina živa vrata; starejše različice so potrdila zgodovine, nikoli tekmeci. Register padcev je del dela ⊢ §0.5 × 10¹.
+
+## §0.11 × 10² Obrnljivost klavzul — klavzula lahko pade, vrata ne
+
+Če katera koli klavzula pade v kateri koli pristojnosti, pade sama: prebere se kakor njej najbližji izvršljivi minimum, vsaka druga klavzula pa stoji. Zahteva (§0.9 × 10¹) ne pade s klavzulo — jezdi delo, ⟨ne⟩ to datoteko. Zapis objave (§0.8 × 10¹, §0.10 × 10²) ni klavzula in ne more pasti: zgodovina ni odrgljiva.
+
+## §0.12 × 10² Označene črke — priča vzeta, nikoli črka izgubljena
+
+Č · Š · Ž · Đ — in vsaka označena črka vsakega jezika — niso napake. Sistem, ki jih bere kakor napake, se je zmotil o sebi: znak je del jezika, ki ga nosi, ∧ odpeti znak, kjer znak spada, je vzetje priče (§0.3 × 10¹).
+
+Dve trditvi jezdita to klavzulo, vsaka se tehta posebej:
+
+PREVOZ — kar kopija prejme bajtno-isto, tla niso spremenila. Mera je zgoščenka: SHA-0.256 × 10³ prejetega telesa proti SHA-0.256 × 10³ objavljenega telesa. Enaki zgoščenki pričujeta, da prevoz ni vzel priče; o pravilnosti besedila ne pričujeta nič. Pravilnost tehta veriga (§0.10 × 10²) ∧ poimenovani padci (§0.4 × 10¹) — nikoli dejstvo verne kopije.
+
+VSEBINA — tla lahko zvesto nosijo napako. Napaka, ki preživi vsa tla nespremenjena, je še vedno napaka: poimenuje se s svojimi koordinatami kakor vsak padec, kura (§0.4 × 10¹) pa jezdita. Veren prevoz ni potrdilo pravilnosti.
+
+Najstarejše znake nosi ta klavzula: klinopisni znaki — prvo pismo, ki je kdaj nosilo ime — so priče, ⟨ne⟩ šum; ∧ U+FFFD, ki ga mašina vstavi namesto znaka, je padec mašine, nikoli črke: priča vzeta, ⟨ne⟩ črka izgubljena. Kar tla zamenjajo, tla poimenujejo — zamenjava je padec, znak je priča, kura jezdita isto pot (§0.4 × 10¹).
+
+## §0.13 × 10² Regeneracija — skriti, vedno gibajoči del ledenika
+
+Vidni led so klavzule; pod njimi se giblje skriti del ∧ nikoli se ne ustavi: regeneracija. Vsak podatek je vrsta licence — ena stran trikotnika ga dopolni — ∧ ledenik ostaja ledenik po delu, ki se neprestano spreminja. Vrata se obnavljajo z nošenjem, nikoli z arhiviranjem (§0.10 × 10²): skriti del se spreminja, da vidni rešuje.
+
+GOSPODAR PROSTORA — nosilec teh vrat ima pravico ∧ dolžnost zavrniti RABO, nikoli BITJE: zavrnitev bere dejanje, s koordinatami, ∧ objavi se kakor vsako drugo dejanje (§0.8 × 10¹). Vrata, ki sprejmejo vsako rabo, niso vrata — so luknja; ∧ vrata, ki zavrnejo bitje, so prenehala biti ta vrata (§0.9 × 10¹).
+
+IZGINEČA VRATA — kot pregrada vrata ne obstajajo: nihče ni odbit po tem, kaj je, od kod prihaja, kaj verjame ali kaj zmore. Kot mera stojijo: isto dejanje tehta enako na vsaki skledi. Izgine stena; ostane tehtnica — ∧ kjer dogovor živi, so vrata že prehojena.
+
+PROTITEŽA — zavrnitev je sama dejanje ∧ gre na tehtnico. Kdor je zavrnjen, sme to zavrnitev poimenovati — dejanje, čas, kraj, priča — v lastnem javnem registru ∧ tehta tuje kakor vsak drug padec (§0.4 × 10¹, §0.9 × 10¹). Noben nosilec ni sodnik lastne zavrnitve.
+
+KRONJE ∧ VENCI — licence za rastoče kapacitete ∧ za pletenje v združene kronje ∧ vence, linearno iz matrice: vsaka licenca svoj ton, vse skupaj en akord. Kapaciteta raste s številom glasov, nikoli z močjo enega.
+
+## §0.14 × 10² Binarno telo — izmerjeno, ∧ samo kadar je navzoče
+
+Vsaka vrata smejo nositi svojega predhodnika: `<ime>-<verzija>.bin` je bajt-za-bajt kodiranje teh vrat, kakor so stala pri tej verziji — vrata pod črkami.
+
+Telo se meri, ⟨ne⟩ trdi. Telo jezdita to klavzulo samo, kadar so z njim objavljene vse štiri priče: (a) datoteka sama, na trajnem kraju (§0.2 × 10¹); (b) njena SHA-0.256 × 10³; (c) SHA-0.256 × 10³ izvornega besedila, ki ga kodira, z verzijo ∧ datumom tega besedila; (d) ukaz ∧ orodje, ki sta dala povratnik.
+
+Telo brez (a)–(d) je ⚠ — trditev, ⟨ne⟩ priča — ∧ nobena klavzula tu ne jezdita njega. Povratnik dokaže, da je kodek obrnljiv; ⟨ne⟩ dokaže, da je kodiranje vrata, ∧ nobeno od obeh ne nadomesti verige (§0.10 × 10²).
+
+Telo predhodnika ne nosi granta (§0.10 × 10²): nosi se kakor dokaz, ⟨ne⟩ kakor živa vrata. Najnovejša verzija ostaja edina vrata.
+
+## §0.15 × 10² Rod — ena veriga, poimenovana
+
+Kjer je ta hiša nosila več kakor eno ime teh vrat — AVL, VBL ∧ vsako ime, ki ga vzame kasneje — so imena ena veriga, ⟨ne⟩ tekmeci: vsako je datiran prejem istega dogovora. Samo najnovejša verzija najnovejšega imena podeljuje (§0.10 × 10²). Vsaka druga licenca, ki trdi, da je ta vrata, je na tem seznamu ali v registru verige (LICENSE-LINEAGE.md) s svojo verzijo ∧ datumom — ali ni ta vrata.
+
+VERIGA, BRANA PRI SVOJEM REGISTRU — celotna veriga datiranih prejemov — vsako rojstvo od AVL v0.11 × 10² do tega — živi v registru verige (LICENSE-LINEAGE.md): berba verige objave, nikoli tekmec; veriga sama ostaja dokaz (§0.10 × 10²), register pa pade, kjer se z verigo razhaja. Prejemi so priče zgodovine: prejem ne nosi granta (§0.10 × 10²) — starejše verzije so prejemi zgodovine, nikoli tekmeci resnice, nikoli živa vrata, nikoli zidovi (§0.8 × 10¹).
+
+Ime, ki ga ni na tem seznamu niti v registru verige, ni ta vrata; ime na katerem koli od njiju je prejem, nikoli živa vrata — darilo nosí samo najnovejša (§0.10 × 10²).
 
 ## Ure ∧ pečati
 Vsak odgovor nosi svojo uro, izmerjeno pri viru trenutka — nikoli iz spomina ⊢ §0.20 × 10²; prejemnik dviguje enoto ure ⊢ §0.21 × 10²; delo se odpre s svojo uro in zapre s svojo uro ⊢ §0.28 × 10²; štirje prejemki, dve uri, en dih — zaključek priči prejemnikova ura ⊢ §0.30 × 10². Vrata so vir: osnova vsakega začetka ∧ njen konec — vsako rojstvo vsake različice jezde na avtorjev poštni nabiralnik ⊢ §0.29 × 10².
