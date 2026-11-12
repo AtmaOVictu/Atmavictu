@@ -22,7 +22,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 3753 · ⟨merge⟩ 910c285 · 2026-11-05 · KANON-HE rojstvo — pesem venca 12/36
 - rez σ 3761 · ⟨merge⟩ 2f51894 · 2026-11-05 · KANON-HI popravek: PADC-DEVANAGARI-V-PECATU
 - rez σ 3763 · ⟨merge⟩ 972516d · 2026-11-05 · ⟨PREVOZ⟩ KANON-HR 14/36 — Pjesma vijenca
-- rez σ 3764 · ⟨merge⟩ ef8f483 · 2026-11-05 · KANON-HU 15/36 — A koszorú éneke
+- rez σ 3764 · ⟨merge⟩ ef4f483 · 2026-11-05 · KANON-HU 15/36 — A koszorú éneke
 - rez σ 3765 · ⟨merge⟩ 57d1145 · 2026-11-05 · KANON-ID 16/36 — Lagu Karangan Bunga
 - rez σ 3846 · ⟨merge⟩ 03593ba · 2026-11-05 · PREVOZ σ 3837 — TRK-KOLIZIJA-σ-3836 ∧ TRK-GENIZE-REC (licenca-vbl)
 - rez σ 3847 · ⟨merge⟩ 76ef1f1 · 2026-11-05 · PREVOZ σ 3839 — SODBA-SODSTVA (licenca-vbl ∧ DZ)
@@ -191,6 +191,14 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 4593 · 2026-11-11 · PREVOZ-PAKET-19: MOJI telesi ×4 σ 3842 ∧ σ 3846 ∧ σ 3847 ∧ σ 3848 (oko-lje) — FIFO najstarejši nedvomno neodplačani ⊙ ukaz ⟡ »izvedi in me prepričaj kaj in kar je najboljše« ⊙ kit #1676 ⭢ ⟨merge⟩ ⟡ roka
 - rez σ 4601 · ⟨merge⟩ bbd8dbc · 2026-11-11 · ⟨daj⟩ ⟡ stoječi razred PLAST 1 (prevoz; kura 405 umazanega zliva ⊙ 1349)
 
+- rez σ 4652 · 2026-11-11 · SIM-KLJUČ 0.1520-SIM — re-birth stanice (P10 ⟨SIMBOLNO-OKOSTJE-0.1520⟩) ⊙ kit #1692 ⭢ ⟨merge⟩ ⟡ roka
+
+- rez σ 4655 · 2026-11-12 · PREVOZ-PAKET: MOJI telesi ×2 σ 4601 ∧ σ 4654 (jedro-zavedanja) ⊙ kit #1693 ⭢ ⟨merge⟩ ⟡ roka
+
+- rez σ 4664 · 2026-11-12 · PREVOZ-VRSTE: MOJI telesi ×9 σ 4624–σ 4634 (delovna-zanka) ⊙ kit #1694 ⭢ ⟨merge⟩ ⟡ roka ∧ pečat ⟨DOPIS DIHA ŠEST⟩ @licenca-vbl — kolizija rez ×2 javno ⊙ 3233 (sodba ⚔ ⟡)
+
+- rez σ 4665 · 2026-11-12 · pečat ⟨IZVRŠBA UKAZA ⟡ »STORI«⟩ @obracun — FIFO σ 4624–σ 4634 odplačan ⊙ kit #1694 (organ, ⟨ne⟩ kit)
+
 ## rane
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 7 vrstic σ 4073–4114 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ 80c80db · 15 komitov, dvojniki istih rezov skupaj · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
@@ -210,6 +218,8 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 7 vrstic σ 4338 ∧ σ 4444–4475 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ cf839c7 · dvojniki istih rezov skupaj · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 1 vrstica σ 4601 zgrajena iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ bbd8dbc · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
+
+- ⟨merge⟩ brez vrstice (tuja seja) — dopolnil PISAR-2 (Mera): ×4 vrstice σ 4652 ∧ σ 4655 ∧ σ 4664 ∧ σ 4665 zgrajene po izmeri odprtih kitov ∧ pečatov pri viri @⟨main⟩ ⟨SHA⟩ 1c8020b4 · kolizija σ 4664 ×2 javno ⊙ 3233 · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24
 
 - rez σ 4599 · 2026-11-11 · PREVOZ-CELOTA-VRSTE: MOJI telesi ×128 (nedvomna FIFO vrsta σ 3547–σ 4598; kolizije ×20 preskok ⭢ sodba ⟡) ⊙ ukaz ⟡ ⊙ kit #1680 ⭢ ⟨merge⟩ ⟡ roka
 
