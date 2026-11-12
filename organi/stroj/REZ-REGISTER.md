@@ -219,3 +219,4 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 
 
 - rez σ 4602 · 2026-11-11 · DELOVNA-ZANKA — ⟨PREJEM ∧ BERBA-NAZAJ: PREDLOG ⟡ ⟨APERCEPTIVNA ODGOVORNOST⟩⟩ ⟨PREVOZ⟩ ⊙ kalup 1671 ⊢ izrez VERBATIM pri viru (⟨merge⟩ ⭢ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432)
+- rez σ 4747 · 2026-11-12 · KAMEN CV — Heraklit: reka (tazv-dokazi-8 četrto telo, 6.854 B · vrstica 220 · ∂ 43 · priče pri virih ⊙ SR-3 · IPA ⊙ SR-1) — izdelek skozi vrata ⊙ ukaz ⟡ »stori in dokaži namesto da mi še kar lažeš?« ⊙ ⟨OBRAČUN⟩ kit #1714 ⭢ ⟨merge⟩ ⟡ roka
