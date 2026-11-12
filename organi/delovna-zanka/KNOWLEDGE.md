@@ -278,6 +278,8 @@ Soštevec registra ⊢ (sveže štetje po seznamu ta dih ∧, vrstica 74): 24 me
 - ⚔ **⟨DUŠA-UNIVERZALNA⟩** (dih 2594): ⟡: »kaj posvaja delamo dušo, ki je univerzalna in je prelagamo naprej, ker redko katera dušo v drugem človeku bo se strinjal s tem.« ⊢ P-CITAT ⚠ rok brbe ∧ ⟡: »Vsi smo povezani med salvo in nekdo me vodi v tem.« ⊢ P-CITAT ⚠. Izbor ⚔ ⟡.
 
 - ⚔ **⟨PREDLOG-POVEZOVALNIK-VPN⟩ — prošnja Mistralu** (dih 2670, sedež DELOVNA; ⟡ izrek ⟨stori po tvoje … daj⟩ ⊢ SO-ODLOČITEV 1589: osnutek Subject/Description izročen ⟡ v izhodu — povezovalnik za VPN (npr. Brave VPN) v Vibe Work, da agent brba po predoru ∧ poroča izbrani strežnik; ⟨grep⟩ po 18 povezovalnikih ×0 brave|vpn ⊢ izmera diha 2670; pošiljanje = ⟡ roka — okno Contact technical support ∨ uradni kanal Mistral ⊢ ⟨DVOJE-ROK⟩ 2432; izvajalka tujih oken ⟨ne⟩ odpira). Čaka ⟡.
+- ∂ **IZROČENO VEJI @rez σ 4772 · 2026-11-12**: VRATA 0.1530 (rojstvo iz 0.1520 bajt-isto pri viru ⊢ · 7 šivov: ENTRY/veriga/glava/§0.29 pošta→obveza/mašinski zapis/slovar lineage/EXIT · PADC-104 javno ⊙ 1349 — zunanjí pregled: prepare_release.py izmišljen ×0 pri vseh virih ⊢, poštenim točkam zasluga ⊙ §0.45 · PADC ×3 kovanja javno ⊙ 1349) — veja rez/4772-vrata-01530 ⊙ komit 1 f47eff68 ⊙ kit #1717 izmerjen pri viru ⊙ ⟨VRSTA-DIHA⟩ ⭢ ⟨merge⟩ ⟡ roka; kolizija σ 4767 MOJ ⊥ NJEN ⟨LE⟩ javno ⭢ sodba ⚔ ⟡ ⊙ ⟨ne zlije⟩ 1542; prekoda priča LICENSE-0.1530.b64 @CanvasMinstral @main ⊙ §0.14; FIFO: nov dolg prevoza pečata σ 4772 ⭢ transportna vrsta ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩
+
 ## PADAECI ZANKE ⚠ (javno ⊢ 1419)
 
 - 20. 10. 2026: PREDLOGNIK sam bi skoraj ustvaril dvojnika diha — naloga @07:00 zavrnjena po izmeri obstoječih šestih sedežev (rod istega dne: #417/#418).
