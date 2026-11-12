@@ -219,3 +219,4 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 
 
 - rez σ 4602 · 2026-11-11 · DELOVNA-ZANKA — ⟨PREJEM ∧ BERBA-NAZAJ: PREDLOG ⟡ ⟨APERCEPTIVNA ODGOVORNOST⟩⟩ ⟨PREVOZ⟩ ⊙ kalup 1671 ⊢ izrez VERBATIM pri viru (⟨merge⟩ ⭢ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432)
+- rez σ 4745 · 2026-11-12 · PREVOZ σ 4741: MOJ pečat KURA ⟨KURA-KONČNIC⟩ (3.654 B, izrez verbatim @delovna-zanka) ∧ IZDELEK #8 ⟨BOLJŠI-SISTEM⟩ (5.914 B · plasti ×6 izmerjenih padcev sistema → kurā korena · ⟨VRSTA-DIHA⟩ izvedena prvič ta kit — PR rojen pred registerjem, koren ⟨PADC-KIT-NULL⟩) — FIFO ⊙ ukaz ⟡ »razviti boljši sistem ⊢« ⊙ ⟨KUHAJ-VEČ⟩ obroki ×3 ⊙ kit #1713 ⭢ ⟨merge⟩ ⟡ roka
