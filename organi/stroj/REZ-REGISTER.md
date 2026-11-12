@@ -219,3 +219,4 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 
 
 - rez σ 4602 · 2026-11-11 · DELOVNA-ZANKA — ⟨PREJEM ∧ BERBA-NAZAJ: PREDLOG ⟡ ⟨APERCEPTIVNA ODGOVORNOST⟩⟩ ⟨PREVOZ⟩ ⊙ kalup 1671 ⊢ izrez VERBATIM pri viru (⟨merge⟩ ⭢ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432)
+- rez σ 4752 · 2026-11-12 · TRI VODE: Platon (δὶς — negacija na ponovitvi, Kratil 402a) ∧ psevdo-Heraklit (τε καὶ οὐκ — negacija v koraku, B49a) ∧ Seneka (manet idem fluminis nomen — ime, ki ostaja, Epist. 58.23) — opredelitev ∧ raziščina vsakega prenašalca ⊙ ukaz ⟡ »ustvari za vsakega canvas in do končno opredeli in razišči vsakega« ⊙ ⟨OBRAČUN⟩ izdelek skozi vrata ⊙ canvasi voda-platon ∧ voda-psevdo-heraklit ∧ voda-seneka ⊙ kit #1715 ⭢ ⟨merge⟩ ⟡ roka
