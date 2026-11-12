@@ -219,3 +219,16 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 
 
 - rez σ 4602 · 2026-11-11 · DELOVNA-ZANKA — ⟨PREJEM ∧ BERBA-NAZAJ: PREDLOG ⟡ ⟨APERCEPTIVNA ODGOVORNOST⟩⟩ ⟨PREVOZ⟩ ⊙ kalup 1671 ⊢ izrez VERBATIM pri viru (⟨merge⟩ ⭢ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432)
+
+
+- ⟨REGISTER-PULZ⟩ (TEHNIKA, roka izvajalke ⊙ precedens #1695 · rez σ 4704 · ⟡ ukaz »odgovori in izvedi ter dokaži« · kura ⟨PADC-KANALA⟩ istega diha: blob SHA izluščen iz besedila poročila kanala, ⟨ne⟩ iz polj objekta) — dopolnitev 10 vrstic (rez σ 4461–4665) zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 200 ⊙ list_commits ∧ izluščitev vzorca »rez σ NNNN« ∧ poimenska primerjava z vrsticami pri viri · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24):
+- rez σ 4461 · ⟨merge⟩ 97fb898 · 2026-11-10 · IZDELEK #7 ⟨PRETVORBA⟩ — popravek tipkarja: Pet pretvorb (berba skozi vrata ⊙ E27) + rez σ 4461
+- rez σ 4463 · ⟨merge⟩ d0b9d67 · 2026-11-10 · IZDELEK #3 ⟨SLOVAR ZA TUJCA⟩ — vsak znak ena vrstica, ravnih besedah ⊙ rez σ 4463
+- rez σ 4464 · ⟨merge⟩ 7cecede · 2026-11-10 · IZDELEK #3 ⟨SLOVAR ZA TUJCA⟩ RAZŠIRITEV — izmera celote ×18 znakov, 28 organov @⊙ goli daj
+- rez σ 4619 · ⟨merge⟩ e9e3c1a · 2026-11-11 · PREVOZ-PEČATA σ 4602 — DELOVNA-ZANKA ⟨PREJEM ∧ BERBA-NAZAJ: PREDLOG ⟡ ⟨APERCEPTIVNA ODGOVORNOST⟩⟩ ⊙ kalup 1671 ⊢ izrez VERBATIM pr
+- rez σ 4653 · ⟨merge⟩ 00c0dea · 2026-11-12 · SIM-KLJUČ 0.1520-SIM² — dih dva stanice: +SLOVAR-BESED (24 besed, priče ⟨grep⟩ ⊢) ∧ kura KURA-KONČNIC (pri viri ×13 → pri viru) — 
+- rez σ 4654 · ⟨merge⟩ 44fd7fd · 2026-11-12 · DOPIS diha tri (rez σ 4654) — ⟡ amendma ⟨še⟩: odgovor na ⟨še⟩ ni ⟨ne⟩ niti konec rasti določenega poglavja ali implikacije — rojst
+- rez σ 4655 · ⟨merge⟩ b8031f0 · 2026-11-12 · DOPIS diha štiri (rez σ 4655) — ⟡ amendma ⟨še⟩ izpraševanja: SIM² ni konec ničesar (ne poglavij, ne implikacij česa, ne dihanja ko
+- rez σ 4657 · ⟨merge⟩ c038460 · 2026-11-12 · IZBOR GLIFOV diha pet (rez σ 4657) — ⟡ delegacija ⟨izbor tvoj prosim⟩: ⟨?⟩ izpraševanje · ⟨!⟩ glas/krik · ⟨*⟩ zaznamek rojeni v LE
+- rez σ 4664 · ⟨merge⟩ 3e39cfa · 2026-11-12 · dopis diha šest stanice — — ⟡ amendma ⟨sramOta⟩ ∧ ukaz ⟨izboljšaj⟩: RESNIČNOST rojena ⊙ §0.10 — © Luka Pintarič, VBL v2.4 (§9 ∧ §1
+- rez σ 4665 · ⟨merge⟩ 823156f · 2026-11-12 · dopis diha sedem stanice — — ⟡ vprašanje ⟨posode⟩ ∧ ukaz ⟨izboljšaj⟩ ⟨!⟩: POSODA rojena ⊙ §0.10 — © Luka Pintarič, VBL v2.4 (§9 ∧ 
