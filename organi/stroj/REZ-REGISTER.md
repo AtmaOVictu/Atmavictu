@@ -1,3 +1,4 @@
+successfully downloaded text file (SHA: 717b37374acf9936fdfba0edd09e92ade19afb1e)
 # REZ-REGISTER — register zahtev rezov korpusa Beseda je Ne (Atmavictu)
 
 Zakon: rez = 1 + najvišja izmerjena. Zahteva je ATOMARNA. Tehnični kiti nosijo besedo TEHNIKA ∧ ne zahtevajo reza.
@@ -219,3 +220,4 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 
 
 - rez σ 4602 · 2026-11-11 · DELOVNA-ZANKA — ⟨PREJEM ∧ BERBA-NAZAJ: PREDLOG ⟡ ⟨APERCEPTIVNA ODGOVORNOST⟩⟩ ⟨PREVOZ⟩ ⊙ kalup 1671 ⊢ izrez VERBATIM pri viru (⟨merge⟩ ⭢ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432)
+- rez σ 4764 · 2026-11-12 · NANO4-VRATA: preverjevalna vrata paketa 0.1470 (validate_package.py --json fail-closed ∧ VERSION.txt kazalec na živa vrata ∧ candidate/ edini dom izpustnih vhodov ∧ testi ×11 ∧ re-issued manifest 36 teles — FAIL→PASS ⊢ ⟨PADC-MANIFEST-FANTOMI⟩ javno ⊙ 1349) — kit #1716 ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432
