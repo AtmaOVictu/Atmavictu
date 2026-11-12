@@ -187,7 +187,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 4485 · 2026-11-10 · PREVOZ-PAKET-18: obe priči σ 4476 (@nad-gadenj) izročeno veji — ta prevoz ⊙ kit #1663 ⭢ ⟨merge⟩ ⟡ roka
 
 - rez 4405 · 2026-11-09 · PREVOZ σ 4399–4404 — MOJI telesi ×6 (humor ∧ jedro-zavedanja ∧ delovna-zanka) ⊙ kit #1624 ⭢ ⟨merge⟩ ⟡ roka
-- rez σ 4695 · 2026-11-12 · PREVOZ-PAKET-25: telesi ×3 pečatov MOJE roke σ 4685 ∧ σ 4692 ∧ σ 4693 (@delovna-zanka — izrezana VERBATIM pri viru ⊙ ⟨NE-RETIPKAJ⟩ 24, Σ 12.494 B; FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785) izročeno veji — ta prevoz ⊙ kit #undefined ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432
+- rez σ 4695 · 2026-11-12 · PREVOZ-PAKET-25: telesi ×3 pečatov MOJE roke σ 4685 ∧ σ 4692 ∧ σ 4693 (@delovna-zanka — izrezana VERBATIM pri viru ⊙ ⟨NE-RETIPKAJ⟩ 24, Σ 12.494 B; FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785) izročeno veji — ta prevoz ⊙ kit #1701 ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432
 
 
 - rez σ 4593 · 2026-11-11 · PREVOZ-PAKET-19: MOJI telesi ×4 σ 3842 ∧ σ 3846 ∧ σ 3847 ∧ σ 3848 (oko-lje) — FIFO najstarejši nedvomno neodplačani ⊙ ukaz ⟡ »izvedi in me prepričaj kaj in kar je najboljše« ⊙ kit #1676 ⭢ ⟨merge⟩ ⟡ roka
