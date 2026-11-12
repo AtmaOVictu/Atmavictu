@@ -1,0 +1,17 @@
+# nano4 — version truth (kazalec, ⟨ne⟩ kopija)
+# Pravilo §0a: živa vrata se IZMERIJO ob vsakem teku; zapečena številka tukaj
+# bi zastarela pri naslednjem rojstvu. Ta datoteka kaže, ⟨ne⟩ nosi.
+living_door = ../LICENSE-MANIFEST
+
+packet_era = 0.1470
+packet_status = DRAFT_NOT_RELEASED
+
+# Štirje nosilci verzij — vsak svojo resnico, ena hierarhija:
+#   0.1450 — telo        : besedilo licence v verigi
+#   0.1460 — pečat       : zapis pečata v verigi
+#   0.1470 — paket       : TA osnutek (packet_era zgoraj) — NIKOLI izpusten
+#   0.1520 — živa vrata  : ../LICENSE-MANIFEST — živi koren, izmerjen ob teku
+#
+# Konflikt 0.1470 × 0.1520 ni napaka, je STANJE: paket je osnutek, ki čaka;
+# živa vrata so medtem zrasla. Preverjevalnik meri oboje ∧ pošteno poroča.
+# Življenjska doba te datoteke: dokler paket 0.1470 ostane osnutek.

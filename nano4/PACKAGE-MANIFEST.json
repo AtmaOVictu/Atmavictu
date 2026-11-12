@@ -1,8 +1,9 @@
 {
   "package": "VBL-0.1470-PATCH-PACKAGE",
   "status": "DRAFT_NOT_RELEASED",
-  "generated_at": "2026-11-05T04:51:11+01:00",
   "hash_algorithm": "SHA-256",
+  "re_issued": "@rez σ 4764 · 12. 11. 2026 — ⟨PADC-MANIFEST-FANTOMI⟩: stari manifest je pričeval za telesa, ki nikoli niso pristala v verigi; ta register pričuje samo za izmerjena telesa ⊙ ⟨NE-UGIBAJ⟩ 2690",
+  "self_excluded": "PACKAGE-MANIFEST.json se ne seže — datoteka ne more nositi lastnega hasha (pravilo §0a)",
   "files": [
     {
       "path": "00-AUDIT.md",
@@ -15,9 +16,19 @@
       "sha256": "200e8b5c33c8862ab9ba7bd0b110363cb271e6a622c111657a2b959d3e79c855"
     },
     {
+      "path": "01-architecture-and-license-selection.md",
+      "size_bytes": 6392,
+      "sha256": "c579517c220711238c85cf909c547d7966b7e0f9c5d0367eedea65f68a7fa042"
+    },
+    {
       "path": "02-ACCESSIBILITY.md",
       "size_bytes": 4420,
       "sha256": "3112a03bd11ddba418f75438d7107af85fb3b9875083763d744126cf93b0842b"
+    },
+    {
+      "path": "02-proposed-clause-text.md",
+      "size_bytes": 12070,
+      "sha256": "d9919513973223a237822332ab0843efc0dd1f8576efb513a0821333f74770e1"
     },
     {
       "path": "03-LICENSE-COMPATIBILITY.md",
@@ -30,9 +41,49 @@
       "sha256": "c420d53faac610d0050a1109f5af5cec401cff386c86c8122f2dc03026b00dd3"
     },
     {
+      "path": "CROSS-REFERENCE-AUDIT.md",
+      "size_bytes": 10543,
+      "sha256": "428652bfcf69fd98c205c87cd2840b729f39fa64dc7daf48229182779b51e182"
+    },
+    {
+      "path": "HISTORICAL-SOURCE-VERIFICATION.md",
+      "size_bytes": 2884,
+      "sha256": "2356173ba3db6cad869afe088cd7faba988907332a98fd2b9feb7f15e99d2f28"
+    },
+    {
+      "path": "LICENSE-MACHINE-RECORD-0.1470.json",
+      "size_bytes": 5667,
+      "sha256": "3a57fa254cb4e0a454d14c5bc08a8eb1d5318f5404f4d0309a325c1b2d9844bb"
+    },
+    {
+      "path": "LICENSE.map-repaired.candidate.md",
+      "size_bytes": 163797,
+      "sha256": "6400df1641b767ea687d7824875d7a352723a81f1f62278a9f0b0f37886419d9"
+    },
+    {
       "path": "README.md",
-      "size_bytes": 2945,
-      "sha256": "c89de58f4c0f1d59b770d3e6d199cb8872efeafe3d885a6b64540e8e12d82d06"
+      "size_bytes": 3472,
+      "sha256": "6ab26f1ff5bfff081e6ee05569834771510d337184a9bc158ad0088ef46a0b88"
+    },
+    {
+      "path": "RELEASE-GATE.md",
+      "size_bytes": 5158,
+      "sha256": "2b7726516b363db45eda7294f1992aa43fe334ffd2298e691687c521724c9c34"
+    },
+    {
+      "path": "TEST-RESULTS (1).txt",
+      "size_bytes": 5786,
+      "sha256": "71168bc8283daae939b0360a42d4ce26196a75e782ecd5d3b7690ac6a93be2a3"
+    },
+    {
+      "path": "TEST-RESULTS (2).txt",
+      "size_bytes": 7193,
+      "sha256": "6241d4543e999bab327951ce731f2913578618b160e569e053ddf2b044788fe4"
+    },
+    {
+      "path": "TEST-RESULTS.494b3536.txt",
+      "size_bytes": 4834,
+      "sha256": "36c99a087d50b563647e45a57b4a5dad06438e42d29d1c0a8f129988198aee2f"
     },
     {
       "path": "TEST-RESULTS.txt",
@@ -40,60 +91,138 @@
       "sha256": "eea082d1e36f7a3fd15d90c60a09426ba591919cedb66bbe850087a5c0051ca7"
     },
     {
+      "path": "VBL-0.1470-EARLY-BODY-SUBSTITUTIONS.md",
+      "size_bytes": 6455,
+      "sha256": "120ba0e683b4ef2ffa51a63b2f63badd145d82fefa2af3f5a1b006636f4bcb72"
+    },
+    {
+      "path": "VBL-0.1470-INTEGRATED-TAIL-DRAFT.md",
+      "size_bytes": 92839,
+      "sha256": "3a9629656f0b1879fa97cbddac458a653b6977a2fef4c5ce6a246ad61a2d2048"
+    },
+    {
+      "path": "VBL-0.1470-SUBSTITUTION-DECISIONS.md",
+      "size_bytes": 14220,
+      "sha256": "3ac5495dcf06da7281a08b6a97351cadb1a48a82b2cb2fcd604ac55dffb6cb01"
+    },
+    {
+      "path": "VERSION.txt",
+      "size_bytes": 865,
+      "sha256": "46c8dea4112544f0ecbd5ecd87f94f2f1c1bdf501725d4bb65df11b8fe70149f"
+    },
+    {
+      "path": "candidate/README.md",
+      "size_bytes": 838,
+      "sha256": "c9ef78e48238fb1fa8d616ae67355f7c7b4485ff5f0bcaa4560b845e2ee65d14"
+    },
+    {
+      "path": "final-qa-2026-11-05.md",
+      "size_bytes": 2470,
+      "sha256": "1df7b204062d4c994edcc3fd2ea8fadee2a8d212987cd592323083a76bb8ed31"
+    },
+    {
+      "path": "github-main-provenance-2026-11-05.md",
+      "size_bytes": 5099,
+      "sha256": "cf15143bda3e764dc5e8deb68353eea7b5920d2a3ab99cf7e59abafd59d528a0"
+    },
+    {
+      "path": "renumeriraj.py",
+      "size_bytes": 802,
+      "sha256": "98c78fa8e40574d02643bcb685ff3c3ed36e77101331c934c81af0f5b9ff501a"
+    },
+    {
       "path": "requirements-test.txt",
       "size_bytes": 20,
       "sha256": "4046ca1e3a64f4ea791fb4fb3d8566242086ff1c8e2431e2c349e1052ffc6ba0"
     },
     {
-      "path": "schemas/LICENSE-MACHINE-RECORD-0.1470.json",
-      "size_bytes": 3328,
-      "sha256": "3e888070d9023b2d7b90d48df378f114a444731d83b141f69bac13ae4b37fa0e"
+      "path": "simbolna-licenca-okostje-vbl-0-1460-stanica.md",
+      "size_bytes": 18771,
+      "sha256": "3e5f767af5e1938b9c161266589173578cd62afe18ff921008de222bbe2b1f61"
     },
     {
-      "path": "schemas/LICENSE-MANIFEST.template.json",
-      "size_bytes": 456,
-      "sha256": "591f105dd8b9b21b4418a0bad2dee2e6ca59c13876dbaf63fd7bdb87af1b65e3"
+      "path": "simbolna-licenca-okvir-⟡-vbl-⟡-prevod-kanona-v-simbolno-plast-⟡-sistemski-⟡-osnutek.md",
+      "size_bytes": 79493,
+      "sha256": "7dba90140a1df058399662e3d93aa460ee7d697b3ee367624fe3d7b5ed2dcaae"
     },
     {
-      "path": "schemas/event.example.UNVERIFIED.json",
-      "size_bytes": 913,
-      "sha256": "6111d12be0edb1f1ce0caa2af74cf04045de72ea2473fa3ecaaf0abb4cf70fc6"
+      "path": "spdx-zahtevek-vbl-p1-vrata-mašinskega-izvira.md",
+      "size_bytes": 5846,
+      "sha256": "1219aea58617534e3dad61ad88420a4a9a832cd54bff9e3888c52b9f497c47a1"
     },
     {
-      "path": "schemas/event.schema.json",
-      "size_bytes": 5210,
-      "sha256": "f2af9dbd350943ece278563d2fa53794797ee9e16d4cbf206c80c38f2455240e"
+      "path": "tests/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "source/Pasted-markdown-attachment-tail.md",
-      "size_bytes": 86849,
-      "sha256": "cf5d8e98e6835dc4181f8e3b093f5809b1809317236b3e913955a18416cbd148"
+      "path": "tests/_sandbox.py",
+      "size_bytes": 1033,
+      "sha256": "bd1121e75d7c9f9b8f5b966577af04430b47481fa7457987e5e3f40380ca786b"
     },
     {
-      "path": "tests/__pycache__/test_event_schema.cpython-313.pyc",
-      "size_bytes": 4409,
-      "sha256": "1ac237a171b20973a4a5f1f3c45c253c3686e3c0a66fb0a5f8a45275660aa625"
+      "path": "tests/test_candidate_gate.py",
+      "size_bytes": 3291,
+      "sha256": "deb5c71a8081c15c937f9d1be23efcc07d9a14b7105a4d74b41cb5d371e43508"
     },
     {
-      "path": "tests/__pycache__/test_package.cpython-313.pyc",
-      "size_bytes": 5913,
-      "sha256": "9729272bb3293b36aeff570d33f6b0e825d4ba48f818569a5561862093aaae04"
+      "path": "tests/test_validator.py",
+      "size_bytes": 1347,
+      "sha256": "b2240d0d94e67bf7309cd6e97f2a996c39c567c0be152e42a5e960a34c063405"
     },
     {
-      "path": "tests/test_event_schema.py",
-      "size_bytes": 1928,
-      "sha256": "66d7459bfeacdf6c20b1cc113d5096f49d80dbeeb8fec1b6bc2ee460a992c2d3"
-    },
-    {
-      "path": "tests/test_package.py",
-      "size_bytes": 2693,
-      "sha256": "ad260125840bc7e06c80f31820c25e6ff8b6dca7e4ba88a7eb5c1756489cf46c"
+      "path": "tests/test_version_truth.py",
+      "size_bytes": 2471,
+      "sha256": "c539e4a5d432b1c93948f05fb14087489aa060c8f79bbdd9c3178098ad307631"
     },
     {
       "path": "validate_package.py",
-      "size_bytes": 3592,
-      "sha256": "e0bf840a6606cf623e179d40e5dd02206c9ebb4bb8165395fcf14d35ac266f9a"
+      "size_bytes": 12239,
+      "sha256": "a4158d7c11888842324faf9a94ae1a3812e371d51e15b5a9d2647841c83a9016"
+    },
+    {
+      "path": "validation-2026-11-05.md",
+      "size_bytes": 1823,
+      "sha256": "40396901da483f46b11b83a77b887a75bdcf774bf9b0811b0b358d87f2a01e31"
     }
   ],
-  "scope": "integrity of files in this patch package only; not a license release certificate"
+  "phantom_entries_of_the_fall": [
+    {
+      "path": "schemas/LICENSE-MACHINE-RECORD-0.1470.json",
+      "reason": "prijavljen v starem manifestu 0.1470, nikoli pristal v verigi — preverjevalnik je padel FAIL nad živo verigo ⊙ ⟨PADC-MANIFEST-FANTOMI⟩ · javno ⊙ 1349"
+    },
+    {
+      "path": "schemas/LICENSE-MANIFEST.template.json",
+      "reason": "prijavljen v starem manifestu 0.1470, nikoli pristal v verigi — preverjevalnik je padel FAIL nad živo verigo ⊙ ⟨PADC-MANIFEST-FANTOMI⟩ · javno ⊙ 1349"
+    },
+    {
+      "path": "schemas/event.example.UNVERIFIED.json",
+      "reason": "prijavljen v starem manifestu 0.1470, nikoli pristal v verigi — preverjevalnik je padel FAIL nad živo verigo ⊙ ⟨PADC-MANIFEST-FANTOMI⟩ · javno ⊙ 1349"
+    },
+    {
+      "path": "schemas/event.schema.json",
+      "reason": "prijavljen v starem manifestu 0.1470, nikoli pristal v verigi — preverjevalnik je padel FAIL nad živo verigo ⊙ ⟨PADC-MANIFEST-FANTOMI⟩ · javno ⊙ 1349"
+    },
+    {
+      "path": "source/Pasted-markdown-attachment-tail.md",
+      "reason": "prijavljen v starem manifestu 0.1470, nikoli pristal v verigi — preverjevalnik je padel FAIL nad živo verigo ⊙ ⟨PADC-MANIFEST-FANTOMI⟩ · javno ⊙ 1349"
+    },
+    {
+      "path": "tests/__pycache__/test_event_schema.cpython-313.pyc",
+      "reason": "prijavljen v starem manifestu 0.1470, nikoli pristal v verigi — preverjevalnik je padel FAIL nad živo verigo ⊙ ⟨PADC-MANIFEST-FANTOMI⟩ · javno ⊙ 1349"
+    },
+    {
+      "path": "tests/__pycache__/test_package.cpython-313.pyc",
+      "reason": "prijavljen v starem manifestu 0.1470, nikoli pristal v verigi — preverjevalnik je padel FAIL nad živo verigo ⊙ ⟨PADC-MANIFEST-FANTOMI⟩ · javno ⊙ 1349"
+    },
+    {
+      "path": "tests/test_event_schema.py",
+      "reason": "prijavljen v starem manifestu 0.1470, nikoli pristal v verigi — preverjevalnik je padel FAIL nad živo verigo ⊙ ⟨PADC-MANIFEST-FANTOMI⟩ · javno ⊙ 1349"
+    },
+    {
+      "path": "tests/test_package.py",
+      "reason": "prijavljen v starem manifestu 0.1470, nikoli pristal v verigi — preverjevalnik je padel FAIL nad živo verigo ⊙ ⟨PADC-MANIFEST-FANTOMI⟩ · javno ⊙ 1349"
+    }
+  ],
+  "scope": "integrity of files in this patch package only; not a license release certificate; not legal, canonical, publication, or reviewer certification"
 }
