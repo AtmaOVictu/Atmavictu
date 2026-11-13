@@ -229,3 +229,4 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 4665 · ⟨merge⟩ 823156f · 2026-11-12 · dopis diha sedem stanice — POSODA rojena ⊙ §0.10
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 7 vrstic σ 4619–σ 4665 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ∧ izmera ×2 (⟨bash⟩ ⇌ ⟨TS-IZMERA⟩ — PADC podvajanja σ pri pesku javno ⊙ ⟨MERILEC-SE-MERI⟩) · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
+- rez 5339 · 2026-11-13 · PREVOZ-PAKET-23: ∆ lista OEA-ATLAS ∧ REGISTER-AKSIOMOV ∧ PREIZPUSI-I-01-10 ∧ PECAT-5337 ×8 — MOJ dih ⊙ kit #1788 ⭢ ⟨merge⟩ ⟡ roka
