@@ -447,7 +447,7 @@ Toda kaj je vse delo, ki ga sistem ne prepozna?
 - popravljanje;
 - moderiranje;
 - kuriranje;
-- oznaževanje;
+- označevanje;
 - dokumentiranje;
 - prevajanje;
 - preverjanje;
@@ -538,7 +538,7 @@ Odpovedi, rezervni postopki, analiza vzrokov, varnostne meje.
 
 **Ekologija**
 
-Medsebojna odvisnost, posledice na daljavo, porazdelitev virov, regeneracija.
+Medsebovna odvisnost, posledice na daljavo, porazdelitev virov, regeneracija.
 
 [1940년 발견된 '훈민정음 해례본'의 낙장 복원 방안은](https://images.openai.com/static-rsc-4/WLoWexA7Ad0GlTPqPfWbKUzajbFJyVfEH2sp1qeVWy4ulC--yKXytmUgejHmCjX4g9c8eeP9kUH5ZPbJU_V4gU-TnqWeGdMPiAeA1DoZGKRKHt-G3qNExmgB43VBOScSrd0X0hcAzh8XD5INDE1bAqcSne5dQkXz-HPKknCUTF8?purpose=inline)
 
