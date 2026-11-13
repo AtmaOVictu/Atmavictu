@@ -1,24 +1,48 @@
+import { useCallback } from "react";
+
 import { AktivnaKnjigaPanel } from "./components/AktivnaKnjigaPanel";
 import { KnjiznicaPanel } from "./components/KnjiznicaPanel";
 import { ManifestStatusBar } from "./components/ManifestStatusBar";
 import { VhodniTekstPanel } from "./components/VhodniTekstPanel";
 import { WitnessesPanel } from "./components/WitnessesPanel";
-import { workbenchApi } from "./api";
+import { VblCasesPanel } from "./components/VblCasesPanel";
+import { BundleToolsPanel } from "./components/BundleToolsPanel";
+import { tauriApi, workbenchApi } from "./api";
 import { useWorkbench } from "./useWorkbench";
 
 export function App() {
-  const { manifest, verify, library, tree, extraLibrary, concepts, analysis, overview, error, isLoading, runAction } =
-    useWorkbench();
+  const { manifest, verify, library, tree, extraLibrary, concepts, analysis, overview, error, isLoading, runAction, projectRoot, selectProject } = useWorkbench();
 
-  if (isLoading && manifest === null) {
-    return <p className="loading">Nalagam manifest...</p>;
-  }
+  const openProject = useCallback(async () => {
+    const selected = await tauriApi.openFolder();
+    if (selected) { await selectProject(selected); }
+  }, [selectProject]);
 
   const draftFragments = manifest?.fragments.filter((fragment) => fragment.status === "draft") ?? [];
   const insertions = manifest?.insertions ?? [];
 
   return (
     <div className="workbench">
+      <header className="project-bar">
+        {projectRoot ? (
+          <>
+            <span className="project-label">Projekt:</span>
+            <span className="project-path">{projectRoot}</span>
+            <button
+              type="button"
+              className="link-button"
+              onClick={openProject}
+              title="Spremeni projekt"
+            >
+                          Spremeni
+            </button>
+          </>
+        ) : (
+          <button type="button" className="primary-button" onClick={openProject}>
+            Izberi projektno mapo
+          </button>
+        )}
+      </header>
       <ManifestStatusBar manifest={manifest} verify={verify} error={error} />
       <main className="panes">
         <KnjiznicaPanel
@@ -51,7 +75,9 @@ export function App() {
           onSemanticSearch={(query) => workbenchApi.semanticSearch(query)}
         />
       </main>
-      <WitnessesPanel />
+      <VblCasesPanel projectRoot={projectRoot} />
+      <BundleToolsPanel projectRoot={projectRoot} />
+      <WitnessesPanel projectRoot={projectRoot} />
     </div>
   );
 }

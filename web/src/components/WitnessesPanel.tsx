@@ -2,31 +2,45 @@
  * Plošča Priče — prikazuje stanje veneca jezikov (LICENSE-*.md witness-sloti).
  *
  * Brani le: hash istovetnosti proti LICENSE-MANIFEST, jezikovni kanon,
- * pregled (druga roka — trenutno "none", dokler ni vgrajena v register),
- * in dejanske priče iz DOKAZ / REGISTER-PADCEV.
+ * pregled (druga roka), in dejanske priče iz DOKAZ / REGISTER-PADCEV.
  * Ne more mutirati ničesar: priče nikoli ne postanejo vrata (§0.33).
  */
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
-import { workbenchApi } from "../api";
-import type { WreathReport, WreathReportRow, WreathVerification } from "../types";
+import { tauriApi, workbenchApi } from "../api";
+import type { WreathReport, WreathVerification } from "../types";
+import type { WreathDriftResult } from "../types";
 
-interface Props {}
+interface Props {
+  projectRoot: string | null;
+}
 
-export function WitnessesPanel(_props: Props) {
+export function WitnessesPanel({ projectRoot }: Props) {
   const [verify, setVerify] = useState<WreathVerification | null>(null);
   const [report, setReport] = useState<WreathReport | null>(null);
+  const [drift, setDrift] = useState<WreathDriftResult | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   async function load() {
     try {
-      const [verification, reported] = await Promise.all([
-        workbenchApi.getWreathVerify(),
-        workbenchApi.getWreathReport(),
-      ]);
-      setVerify(verification);
-      setReport(reported);
+      if (projectRoot) {
+        const [verification, reported, driftResult] = await Promise.all([
+          tauriApi.verifyWreath(projectRoot),
+          workbenchApi.getWreathReport(),
+          tauriApi.detectDrift(projectRoot),
+        ]);
+        setVerify(verification);
+        setReport(reported);
+        setDrift(driftResult);
+      } else {
+        const [verification, reported] = await Promise.all([
+          workbenchApi.getWreathVerify(),
+          workbenchApi.getWreathReport(),
+        ]);
+        setVerify(verification);
+        setReport(reported);
+      }
     } catch {
       setError("Ni bilo mogoče naložiti priče veneca.");
     }
@@ -34,7 +48,7 @@ export function WitnessesPanel(_props: Props) {
 
   useEffect(() => {
     void load();
-  }, []);
+  }, [projectRoot]);
 
   if (error) {
     return (
@@ -51,6 +65,8 @@ export function WitnessesPanel(_props: Props) {
       : verify?.status === "FAIL"
         ? "status-fail"
         : "status-warn";
+
+  const driftClass = drift?.drift ? "status-fail" : "status-ok";
 
   return (
     <section className="pane">
@@ -69,6 +85,20 @@ export function WitnessesPanel(_props: Props) {
                 živa vrata: {report.livingDoor ? "prisotne" : "odsotne"}
               </span>
             </>
+          )}
+        </div>
+      )}
+      {drift && (
+        <div className="summary">
+          <span className={driftClass}>
+            {drift.drift ? "WREATH DRIFT: DETECTED" : "WREATH DRIFT: none"}
+          </span>
+          {drift.details.length > 0 && (
+            <ul className="drift-details">
+              {drift.details.map((d: string, i: number) => (
+                <li key={i}>{d}</li>
+              ))}
+            </ul>
           )}
         </div>
       )}
@@ -102,8 +132,9 @@ export function WitnessesPanel(_props: Props) {
           </tbody>
         </table>
       )}
-      {!report && !error && (
-        <p className="empty">Naložim priče...</p>
+      {!report && projectRoot && <p className="empty">Detailed wreath report is available in server mode.</p>}
+      {!report && !error && !projectRoot && (
+        <p className="empty">Izberi projektno mapo za pregled priče.</p>
       )}
     </section>
   );

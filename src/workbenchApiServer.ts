@@ -1,5 +1,5 @@
 import { createServer, type Server } from "node:http";
-import { readdir, readFile } from "node:fs/promises";
+import { readdir, readFile, stat } from "node:fs/promises";
 import { isAbsolute, join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { randomUUID } from "node:crypto";
@@ -29,6 +29,7 @@ import {
   getManifestPath,
   writeManifestToFile,
 } from "./workbenchManifestRepository.js";
+import { addAction, addEvidence, createCase, getCase, listCases, recordReview, updateAction, type ReviewOutcome } from "./vblCases.js";
 
 import {
   verifyWreath,
@@ -87,37 +88,85 @@ export interface WorkbenchApiOptions {
 }
 
 export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApiOptions = {}): Express {
-  const normalizedProjectRoot = requireNonEmptyString("projectRoot", projectRoot);
+  let activeProjectRoot = resolve(requireNonEmptyString("projectRoot", projectRoot));
   const extraLibraryRoot = options.extraLibraryRoot?.trim() || undefined;
   const ollamaUrl = options.ollamaUrl?.trim() || DEFAULT_OLLAMA_URL;
   const qdrantUrl = options.qdrantUrl?.trim() || DEFAULT_QDRANT_URL;
   const app = express();
   app.use(express.json());
 
+  app.get("/api/project", asyncRoute(async (_req, res) => {
+    res.json({ projectRoot: activeProjectRoot });
+  }));
+
+  app.post("/api/project", asyncRoute(async (req, res) => {
+    requireLoopbackRequest(req);
+    const body = (req.body ?? {}) as Record<string, unknown>;
+    const selected = resolve(requireNonEmptyString("projectRoot", body.projectRoot as string));
+    const info = await stat(selected);
+    if (!info.isDirectory()) throw new Error("Selected project root is not a directory.");
+    activeProjectRoot = selected;
+    res.json({ projectRoot: activeProjectRoot });
+  }));
+
+  app.get("/api/vbl/cases", asyncRoute(async (_req, res) => {
+    res.json(await listCases(activeProjectRoot));
+  }));
+
+  app.post("/api/vbl/cases", asyncRoute(async (req, res) => {
+    const body = (req.body ?? {}) as Record<string, unknown>;
+    res.status(201).json(await createCase(activeProjectRoot, { title: body.title as string, claim: body.claim as string, reporter: body.reporter as string }));
+  }));
+
+  app.get("/api/vbl/cases/:caseId", asyncRoute(async (req, res) => {
+    const value = await getCase(activeProjectRoot, req.params.caseId!);
+    if (!value) { res.status(404).json({ error: "Case not found." }); return; }
+    res.json(value);
+  }));
+
+  app.post("/api/vbl/cases/:caseId/evidence", asyncRoute(async (req, res) => {
+    const body = (req.body ?? {}) as Record<string, unknown>;
+    res.status(201).json(await addEvidence(activeProjectRoot, req.params.caseId!, { label: body.label as string, source: body.source as string, content: body.content as string, actor: body.actor as string }));
+  }));
+
+  app.post("/api/vbl/cases/:caseId/reviews", asyncRoute(async (req, res) => {
+    const body = (req.body ?? {}) as Record<string, unknown>;
+    res.status(201).json(await recordReview(activeProjectRoot, req.params.caseId!, { reviewer: body.reviewer as string, executor: body.executor as string, outcome: body.outcome as ReviewOutcome, scope: body.scope as string, findings: body.findings as string[] }));
+  }));
+
+  app.post("/api/vbl/cases/:caseId/actions", asyncRoute(async (req, res) => {
+    const body = (req.body ?? {}) as Record<string, unknown>;
+    res.status(201).json(await addAction(activeProjectRoot, req.params.caseId!, { description: body.description as string, owner: body.owner as string, actor: body.actor as string }));
+  }));
+
+  app.post("/api/vbl/cases/:caseId/actions/:actionId", asyncRoute(async (req, res) => {
+    const body = (req.body ?? {}) as Record<string, unknown>;
+    res.json(await updateAction(activeProjectRoot, req.params.caseId!, req.params.actionId!, body.status as "OPEN" | "DONE", body.actor as string));
+  }));
   app.get("/api/manifest", asyncRoute(async (_req, res) => {
-    const manifest = await ensureManifestFile(normalizedProjectRoot);
+    const manifest = await ensureManifestFile(activeProjectRoot);
     res.json(manifest);
   }));
 
   app.get("/api/verify", asyncRoute(async (_req, res) => {
-    const manifest = await ensureManifestFile(normalizedProjectRoot);
+    const manifest = await ensureManifestFile(activeProjectRoot);
     res.json(validateManifest(manifest));
   }));
 
   app.get("/api/wreath/verify", asyncRoute(async (_req, res) => {
-    const verification = verifyWreath(normalizedProjectRoot);
+    const verification = verifyWreath(activeProjectRoot);
     res.json(verification);
   }));
 
   app.get("/api/wreath/report", asyncRoute(async (_req, res) => {
-    const verification: WreathVerification = verifyWreath(normalizedProjectRoot);
+    const verification: WreathVerification = verifyWreath(activeProjectRoot);
     const tongues = listTongues();
-    const deeds = readDeedWitnesses(normalizedProjectRoot);
-    const livingDoor = readLivingDoor(normalizedProjectRoot) !== null;
+    const deeds = readDeedWitnesses(activeProjectRoot);
+    const livingDoor = readLivingDoor(activeProjectRoot) !== null;
 
     const rows = verification.results.map((result) => {
       const tongue = tongueFromSlot(result.path);
-      const review = readReviewStatus(normalizedProjectRoot, result.path);
+      const review = readReviewStatus(activeProjectRoot, result.path);
       return {
         code: tongue?.code ?? "—",
         language: tongue?.language ?? "—",
@@ -143,14 +192,14 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
   }));
 
   app.get("/api/wreath/drift", asyncRoute(async (_req, res) => {
-    const report: WreathDriftReport = detectWreathDrift(normalizedProjectRoot);
+    const report: WreathDriftReport = detectWreathDrift(activeProjectRoot);
     res.json(report);
   }));
 
   app.get("/api/library", asyncRoute(async (_req, res) => {
-    const manifest = await ensureManifestFile(normalizedProjectRoot);
+    const manifest = await ensureManifestFile(activeProjectRoot);
     const capturedSourcePaths = new Set(manifest.incomingTexts.map((incomingText) => incomingText.sourcePath));
-    const files = await listProjectFiles(normalizedProjectRoot);
+    const files = await listProjectFiles(activeProjectRoot);
     res.json(
       files.map((filePath) => ({
         path: filePath,
@@ -161,7 +210,7 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
 
   app.get("/api/library/content", asyncRoute(async (req, res) => {
     const filePath = requireQueryString(req, "path");
-    const resolvedPath = resolveWithinRoot(normalizedProjectRoot, filePath, "path");
+    const resolvedPath = resolveWithinRoot(activeProjectRoot, filePath, "path");
     res.json({ path: filePath, content: await readFile(resolvedPath, "utf8") });
   }));
 
@@ -191,7 +240,7 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
   }));
 
   app.get("/api/tree", asyncRoute(async (_req, res) => {
-    const manifest = await ensureManifestFile(normalizedProjectRoot);
+    const manifest = await ensureManifestFile(activeProjectRoot);
     const insertionsByPath = new Map<string, number>();
     for (const insertion of manifest.insertions) {
       insertionsByPath.set(
@@ -199,7 +248,7 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
         (insertionsByPath.get(insertion.targetChapterPath) ?? 0) + 1,
       );
     }
-    const files = await listProjectFiles(normalizedProjectRoot);
+    const files = await listProjectFiles(activeProjectRoot);
     res.json(
       files.map((filePath) => ({
         path: filePath,
@@ -210,7 +259,7 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
 
   app.post("/api/incoming", asyncRoute(async (req, res) => {
     const { title, body, note, sourcePath } = req.body as Record<string, unknown>;
-    const result = await captureIncomingText(normalizedProjectRoot, {
+    const result = await captureIncomingText(activeProjectRoot, {
       body: requireBodyString("body", body),
       ...(typeof title === "string" ? { title } : {}),
       ...(typeof note === "string" ? { note } : {}),
@@ -221,19 +270,19 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
 
   app.post(
     "/api/incoming/:id/start-processing",
-    mutateRoute(normalizedProjectRoot, (manifest, req) =>
+    mutateRoute(activeProjectRoot, (manifest, req) =>
       startProcessingIncoming(manifest, req.params.id!),
     ),
   );
 
   app.post(
     "/api/incoming/:id/archive",
-    mutateRoute(normalizedProjectRoot, (manifest, req) => archiveIncoming(manifest, req.params.id!)),
+    mutateRoute(activeProjectRoot, (manifest, req) => archiveIncoming(manifest, req.params.id!)),
   );
 
   app.post(
     "/api/fragments",
-    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+    mutateRoute(activeProjectRoot, (manifest, req) => {
       const { incomingTextId, body, title, conceptIds } = req.body as Record<string, unknown>;
       return createFragmentFromIncoming(manifest, requireBodyString("incomingTextId", incomingTextId), requireBodyString("body", body), {
         ...(typeof title === "string" ? { title } : {}),
@@ -244,12 +293,12 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
 
   app.post(
     "/api/fragments/:id/archive",
-    mutateRoute(normalizedProjectRoot, (manifest, req) => archiveFragment(manifest, req.params.id!)),
+    mutateRoute(activeProjectRoot, (manifest, req) => archiveFragment(manifest, req.params.id!)),
   );
 
   app.post(
     "/api/insertions",
-    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+    mutateRoute(activeProjectRoot, (manifest, req) => {
       const { fragmentId, targetChapterPath } = req.body as Record<string, unknown>;
       return insertFragmentIntoChapter(
         manifest,
@@ -261,7 +310,7 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
 
   app.post(
     "/api/insertions/bulk",
-    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+    mutateRoute(activeProjectRoot, (manifest, req) => {
       const { insertions } = req.body as Record<string, unknown>;
       if (!Array.isArray(insertions)) {
         throw new Error("insertions must be a non-empty array of { fragmentId, targetChapterPath }.");
@@ -279,7 +328,7 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
 
   app.post(
     "/api/incoming/:id/update",
-    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+    mutateRoute(activeProjectRoot, (manifest, req) => {
       const { title, note } = req.body as Record<string, unknown>;
       return updateIncomingText(manifest, req.params.id!, {
         ...(title !== undefined ? { title: title as string | null } : {}),
@@ -290,7 +339,7 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
 
   app.post(
     "/api/fragments/:id/update",
-    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+    mutateRoute(activeProjectRoot, (manifest, req) => {
       const { title, text, note, conceptIds } = req.body as Record<string, unknown>;
       return updateFragment(manifest, req.params.id!, {
         ...(title !== undefined ? { title: title as string | null } : {}),
@@ -303,7 +352,7 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
 
   app.post(
     "/api/insertions/:id/update",
-    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+    mutateRoute(activeProjectRoot, (manifest, req) => {
       const { targetChapterPath, positionNote, note } = req.body as Record<string, unknown>;
       return updateInsertion(manifest, req.params.id!, {
         ...(targetChapterPath !== undefined ? { targetChapterPath: targetChapterPath as string } : {}),
@@ -315,7 +364,7 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
 
 app.post(
     "/api/concepts",
-    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+    mutateRoute(activeProjectRoot, (manifest, req) => {
       const { label, note } = req.body as Record<string, unknown>;
       return addConcept(manifest, {
         label: requireBodyString("label", label),
@@ -325,7 +374,7 @@ app.post(
   );
 
   app.get("/api/concepts", asyncRoute(async (_req, res) => {
-    const manifest = await ensureManifestFile(normalizedProjectRoot);
+    const manifest = await ensureManifestFile(activeProjectRoot);
     const concepts = manifest.concepts ?? [];
     const fragmentCounts = new Map<string, number>();
     for (const fragment of manifest.fragments) {
@@ -344,7 +393,7 @@ app.post(
   }));
 
   app.get("/api/analysis/source", asyncRoute(async (_req, res) => {
-    const manifest = await ensureManifestFile(normalizedProjectRoot);
+    const manifest = await ensureManifestFile(activeProjectRoot);
     const fragmentsByIncoming = new Map<string, Fragment[]>();
     for (const fragment of manifest.fragments) {
       const list = fragmentsByIncoming.get(fragment.incomingTextId) ?? [];
@@ -369,7 +418,7 @@ app.post(
   }));
 
   app.get("/api/overview", asyncRoute(async (_req, res) => {
-    const manifest = await ensureManifestFile(normalizedProjectRoot);
+    const manifest = await ensureManifestFile(activeProjectRoot);
     const byChapter = new Map<string, number>();
     for (const insertion of manifest.insertions) {
       byChapter.set(insertion.targetChapterPath, (byChapter.get(insertion.targetChapterPath) ?? 0) + 1);
@@ -400,7 +449,7 @@ app.post("/api/suggestions", asyncRoute(async (req, res) => {
   }));
 
 app.post("/api/semantic/index-fragments", asyncRoute(async (_req, res) => {
-    const manifest = await ensureManifestFile(normalizedProjectRoot);
+    const manifest = await ensureManifestFile(activeProjectRoot);
     const fragments = manifest.fragments;
     if (fragments.length === 0) {
       res.json({ ok: true, indexed: 0 });
@@ -606,6 +655,13 @@ async function requestOllamaSuggestions(
     return parseSuggestionResponse(data.response ?? "");
   } finally {
     clearTimeout(timeout);
+  }
+}
+
+function requireLoopbackRequest(req: Request): void {
+  const address = req.socket.remoteAddress ?? "";
+  if (address !== "127.0.0.1" && address !== "::1" && address !== "::ffff:127.0.0.1") {
+    throw new Error("Project selection is restricted to local loopback requests.");
   }
 }
 

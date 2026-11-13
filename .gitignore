@@ -8,6 +8,10 @@
 !canon/
 !canon/**
 
+!src-tauri/
+!src-tauri/**
+src-tauri/target/
+
 !.gitignore
 !CLAUDE.md
 !AGENTS.md

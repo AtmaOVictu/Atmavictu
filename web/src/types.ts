@@ -99,6 +99,19 @@ export interface TreeEntry {
   insertionCount: number;
 }
 
+export type ClaimStatus = "UNVERIFIED" | "SUPPORTED" | "DISPUTED" | "INCONCLUSIVE";
+export interface BundlePreview { valid: boolean; errors: string[]; fileCount: number; caseCount: number; caseIds: string[] }
+export interface VblCaseEvent { eventId: string; caseId: string; sequence: number; type: string; occurredAt: string; actor: string; previousHash: string | null; payload: Record<string, unknown>; hash: string; }
+export interface VblCase {
+  id: string; title: string; claim: string; reporter: string; status: ClaimStatus; createdAt: string;
+  latestReview?: { reviewer: string; executor: string; outcome: "SUPPORTED" | "DISPUTED" | "INCONCLUSIVE"; scope: string; findings: string[]; eventId: string };
+  evidence: Array<{ id: string; label: string; source: string; contentHash: string; addedBy: string; eventId: string }>;
+  actions: Array<{ id: string; description: string; owner: string; status: "OPEN" | "DONE"; eventId: string }>;
+  events: VblCaseEvent[]; integrity: { valid: boolean; errors: string[] };
+}
+
+export interface WreathDriftResult { drift: boolean; door_hash: string | null; manifest_slot_hash: string | null; details: string[]; }
+
 export type WreathStatus = "PASS" | "FAIL" | "UNVERIFIED";
 
 export interface WreathSlotResult {
@@ -150,4 +163,11 @@ export interface WreathReport {
   rows: WreathReportRow[];
   deedCount: number;
   livingDoor: boolean;
+}
+
+export interface WreathDriftResult {
+  drift: boolean;
+  door_hash: string | null;
+  manifest_slot_hash: string | null;
+  details: string[];
 }
