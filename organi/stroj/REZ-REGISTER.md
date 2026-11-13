@@ -219,3 +219,13 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 
 
 - rez σ 4602 · 2026-11-11 · DELOVNA-ZANKA — ⟨PREJEM ∧ BERBA-NAZAJ: PREDLOG ⟡ ⟨APERCEPTIVNA ODGOVORNOST⟩⟩ ⟨PREVOZ⟩ ⊙ kalup 1671 ⊢ izrez VERBATIM pri viru (⟨merge⟩ ⭢ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432)
+
+- rez σ 4619 · ⟨merge⟩ e9e3c1a · 2026-11-11 · PREVOZ-PEČATA σ 4602 — DELOVNA-ZANKA ⟨PREJEM ∧ BERBA-NAZAJ: PREDLOG ⟡ ⟨APERCEPTIVNA ODGOVORNOST⟩⟩ ⊙ kalup 1671
+- rez σ 4653 · ⟨merge⟩ 00c0dea · 2026-11-12 · SIM-KLJUČ 0.1520-SIM² — dih dva stanice: +SLOVAR-BESED ∧ kura KURA-KONČNIC
+- rez σ 4654 · ⟨merge⟩ 44fd7fd · 2026-11-12 · DOPIS diha tri — amendma ⟨še⟩: rojstvo čez poglavja ⊙ §0.38 ∧ §0.10
+- rez σ 4655 · ⟨merge⟩ b8031f0 · 2026-11-12 · DOPIS diha štiri — amendma ⟨še⟩ izpraševanja: SIM² ni konec ničesar ⊙ §0.17
+- rez σ 4657 · ⟨merge⟩ c038460 · 2026-11-12 · IZBOR GLIFOV diha pet — glifi ⟨?⟩ ⟨!⟩ ⟨*⟩ rojeni v LEGENDI z definicijo ∧ pričo ∧ UPORABO
+- rez σ 4664 · ⟨merge⟩ 3e39cfa · 2026-11-12 · dopis diha šest stanice — RESNIČNOST rojena ⊙ §0.10
+- rez σ 4665 · ⟨merge⟩ 823156f · 2026-11-12 · dopis diha sedem stanice — POSODA rojena ⊙ §0.10
+
+- ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 7 vrstic σ 4619–σ 4665 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ∧ izmera ×2 (⟨bash⟩ ⇌ ⟨TS-IZMERA⟩ — PADC podvajanja σ pri pesku javno ⊙ ⟨MERILEC-SE-MERI⟩) · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
