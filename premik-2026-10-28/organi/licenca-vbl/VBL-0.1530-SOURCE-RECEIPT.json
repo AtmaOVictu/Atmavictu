@@ -1,0 +1,52 @@
+{
+  "record_type": "source_receipt",
+  "record_status": "verified_public_branch_content_not_default_release",
+  "observed_at": "2026-11-13",
+  "repository": "AtmaOVictu/SYMBOLON-KATHOLIKON",
+  "default_branch": "main",
+  "main_head": "202a1bb7dcaf39f2fb3dcde56467444595a1796f",
+  "main_license_version": "0.1490 × 10⁴",
+  "main_license_blob": "316c38cb62459c653f9d3088322c5d8ecb599b25",
+  "candidate_branch": "rez/4893-vrata-01530-sync",
+  "candidate_head": "704a29ea7226b74915d67e785d89b48a6f944da0",
+  "candidate_commit_author_time_utc": "2026-11-13T21:05:24Z",
+  "candidate_commit_signature_verified": false,
+  "candidate_license_version": "0.1530 × 10⁴",
+  "candidate_license_blob": "2ef143402241ae4e5d3d78e655649035a48df1d3",
+  "compare_status": "ahead",
+  "ahead_by": 1,
+  "behind_by": 0,
+  "changed_files": [
+    {
+      "path": "LICENSE.md",
+      "status": "modified",
+      "additions": 95,
+      "deletions": 27,
+      "changes": 122
+    }
+  ],
+  "github_releases_endpoint": "empty_list",
+  "tags_endpoint": "not_successfully_checked",
+  "legal_review": "NOT_RUN",
+  "independent_technical_audit": "NOT_RUN",
+  "timestamp_notarization": "UNVERIFIED",
+  "source_urls": {
+    "license": "https://github.com/AtmaOVictu/SYMBOLON-KATHOLIKON/blob/rez/4893-vrata-01530-sync/LICENSE.md",
+    "commit": "https://github.com/AtmaOVictu/SYMBOLON-KATHOLIKON/commit/704a29ea7226b74915d67e785d89b48a6f944da0",
+    "compare": "https://github.com/AtmaOVictu/SYMBOLON-KATHOLIKON/compare/main...rez/4893-vrata-01530-sync"
+  },
+  "conclusion": "0.1530 is the newest LICENSE.md version found in the inspected repository branches. It is not yet on main and its commit is unsigned. Do not describe it as the default-branch release or as independently/legal verified.",
+  "chronology_check": {
+    "commit_author_time_utc": "2026-11-13T21:05:24Z",
+    "license_entry_seal_utc": "2026-11-13T23:26:00Z",
+    "license_exit_seal_utc": "2026-11-13T23:27:00Z",
+    "entry_after_commit_seconds": 8436,
+    "exit_after_commit_seconds": 8496,
+
+    "all_times_labelled_utc": true,
+    "status": "UNRESOLVED_CHRONOLOGY_CONFLICT",
+    "interpretation": "No cause is inferred. Need source clock evidence and semantic explanation of ENTRY/EXIT SEAL versus publication commit."
+  },
+  "temporal_test_result": "FAIL_FOR_SIMPLE_ENTRY_COMMIT_EXIT_ORDER; SEMANTICS_UNRESOLVED",
+  "release_decision": "HOLD_PENDING_SIGNATURE_AND_CHRONOLOGY_REVIEW"
+}

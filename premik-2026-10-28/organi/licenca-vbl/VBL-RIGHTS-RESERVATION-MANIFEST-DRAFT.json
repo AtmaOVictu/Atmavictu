@@ -1,0 +1,72 @@
+{
+  "schema": "https://example.invalid/vbl/rights-reservation/0.1",
+  "schema_status": "PROPOSAL_NOT_STANDARD",
+  "license": {
+    "name": "VBL — Verification Before Assertion License",
+    "version": "0.1530 × 10⁴",
+    "source_branch": "rez/4893-vrata-01530-sync",
+    "source_commit": "704a29ea7226b74915d67e785d89b48a6f944da0",
+    "source_url": "https://github.com/AtmaOVictu/SYMBOLON-KATHOLIKON/blob/rez/4893-vrata-01530-sync/LICENSE.md"
+  },
+  "rights_holder": {
+    "name": "Luka Pintarič",
+    "authority_status": "TO_BE_VERIFIED_PER_MATERIAL"
+  },
+  "material_scope": {
+    "identifiers": [],
+    "file_paths": [],
+    "hashes": [],
+    "scope_status": "UNKNOWN",
+    "third_party_exclusions": "MUST_BE_LISTED"
+  },
+  "reservations": {
+    "text_and_data_mining": {
+      "status": "UNKNOWN",
+      "acts": [],
+      "scope": "UNSPECIFIED",
+      "legal_reference": "Directive (EU) 2019/790, Articles 3 and 4; national implementation and other applicable law must be checked",
+      "machine_readable_reservation": null,
+      "reservation_version": null,
+      "published_at": null,
+      "source_evidence": [],
+      "withdrawal_or_update_uri": null,
+      "note": "This field does not override Article 3 research TDM exceptions or other mandatory exceptions and limitations."
+    },
+    "other_uses": {
+      "status": "UNKNOWN",
+      "acts": [],
+      "terms_uri": null
+    }
+  },
+  "decision_states": [
+    "ALLOW_UNDER_VBL",
+    "SEEK_PERMISSION",
+    "REFUSE_USE",
+    "UNKNOWN_HOLD",
+    "OTHER_LAWFUL_BASIS"
+  ],
+  "evidence": {
+    "event_time": null,
+    "observation_time": null,
+    "record_time": null,
+    "anchor_time": null,
+    "validity_period": null,
+    "hash_algorithm": null,
+    "signature": null,
+    "timestamp_authority": null
+  },
+  "privacy": {
+    "public_personal_data": false,
+    "data_minimization_review": "NOT_RUN",
+    "retention_policy_uri": null,
+    "correction_or_erasure_route": null
+  },
+  "limitations": [
+
+    "Machine-readable status is evidence of a declared reservation, not by itself proof of rights ownership or legal effectiveness.",
+    "A hash proves byte identity only, not truth, authorship, ownership or lawful basis.",
+    "Exposure to the licence does not itself create consent or expand the scope of copyright.",
+    "General ideas, facts, methods, functionality and independent outputs are not captured merely by this manifest.",
+    "This schema is a proposal and is not an adopted interoperability standard."
+  ]
+}
