@@ -1,40 +1,40 @@
-# MANIFEST — PREVOZ-PAKET σ 5401 (bajt-istost PRED pošiljanjem ⊙ md5 ∧ wc -c)
-# TIK 2026-11-14T11:17:05Z
+# MANIFEST — PREVOZ-PAKET σ 5401 (bajt-istost PRED pošiljanjem ⊙ md5 ∧ wc -c) — KURA r.2
+# TIK 2026-11-14T11:27:26Z · brazgotina ⊙ 1349: r.1 je imela ×34 PECAT vrstic pokvarjenih (obrnjeni pari organ↔rez → prazne izmere; ⟨PADC-MANIFESTA⟩ kura isti dih ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354) — telesa prevožena pravilno, pričevnik popravljen
 # telo · pot-na-repu · B · md5
-PECAT-vir-register-5380 · premik-2026-10-28/organi/PECAT-vir-register-5380.md ·  · md5sum:
-PECAT-obracun-5381 · premik-2026-10-28/organi/PECAT-obracun-5381.md ·  · md5sum:
-PECAT-prioritete-register-5381 · premik-2026-10-28/organi/PECAT-prioritete-register-5381.md ·  · md5sum:
-PECAT-register-respecifikacij-5381 · premik-2026-10-28/organi/PECAT-register-respecifikacij-5381.md ·  · md5sum:
-PECAT-register-odnosov-5382 · premik-2026-10-28/organi/PECAT-register-odnosov-5382.md ·  · md5sum:
-PECAT-atlas-knjiznic-5383 · premik-2026-10-28/organi/PECAT-atlas-knjiznic-5383.md ·  · md5sum:
-PECAT-humor-5384 · premik-2026-10-28/organi/PECAT-humor-5384.md ·  · md5sum:
-PECAT-geneza-5385 · premik-2026-10-28/organi/PECAT-geneza-5385.md ·  · md5sum:
-PECAT-jedro-zavedanja-5386 · premik-2026-10-28/organi/PECAT-jedro-zavedanja-5386.md ·  · md5sum:
-PECAT-biro-postaje-5387 · premik-2026-10-28/organi/PECAT-biro-postaje-5387.md ·  · md5sum:
-PECAT-nenehno-poslusa-5388 · premik-2026-10-28/organi/PECAT-nenehno-poslusa-5388.md ·  · md5sum:
-PECAT-licenca-vbl-5389 · premik-2026-10-28/organi/PECAT-licenca-vbl-5389.md ·  · md5sum:
-PECAT-register-oken-5390 · premik-2026-10-28/organi/PECAT-register-oken-5390.md ·  · md5sum:
-PECAT-delovna-zanka-5391 · premik-2026-10-28/organi/PECAT-delovna-zanka-5391.md ·  · md5sum:
-PECAT-oko-lje-5392 · premik-2026-10-28/organi/PECAT-oko-lje-5392.md ·  · md5sum:
-PECAT-prostor-kontrolirane-halucinacije-5392 · premik-2026-10-28/organi/PECAT-prostor-kontrolirane-halucinacije-5392.md ·  · md5sum:
-PECAT-sklopi-panog-5392 · premik-2026-10-28/organi/PECAT-sklopi-panog-5392.md ·  · md5sum:
-PECAT-jezikovne-plasti-5393 · premik-2026-10-28/organi/PECAT-jezikovne-plasti-5393.md ·  · md5sum:
-PECAT-meje-mere-5393 · premik-2026-10-28/organi/PECAT-meje-mere-5393.md ·  · md5sum:
-PECAT-nad-gadenj-5393 · premik-2026-10-28/organi/PECAT-nad-gadenj-5393.md ·  · md5sum:
-PECAT-egipcanska-plast-5394 · premik-2026-10-28/organi/PECAT-egipcanska-plast-5394.md ·  · md5sum:
-PECAT-posta-zascita-5394 · premik-2026-10-28/organi/PECAT-posta-zascita-5394.md ·  · md5sum:
-PECAT-zadata-5394 · premik-2026-10-28/organi/PECAT-zadata-5394.md ·  · md5sum:
-PECAT-gotovosti-register-5395 · premik-2026-10-28/organi/PECAT-gotovosti-register-5395.md ·  · md5sum:
-PECAT-pomocniki-operaterji-5395 · premik-2026-10-28/organi/PECAT-pomocniki-operaterji-5395.md ·  · md5sum:
-PECAT-prizma-register-5395 · premik-2026-10-28/organi/PECAT-prizma-register-5395.md ·  · md5sum:
-PECAT-cilji-register-5396 · premik-2026-10-28/organi/PECAT-cilji-register-5396.md ·  · md5sum:
-PECAT-predloge-5396 · premik-2026-10-28/organi/PECAT-predloge-5396.md ·  · md5sum:
-PECAT-vrata-cutov-5396 · premik-2026-10-28/organi/PECAT-vrata-cutov-5396.md ·  · md5sum:
-PECAT-revizija-besed-5397 · premik-2026-10-28/organi/PECAT-revizija-besed-5397.md ·  · md5sum:
-PECAT-runa-plast-5397 · premik-2026-10-28/organi/PECAT-runa-plast-5397.md ·  · md5sum:
-PECAT-slovenske-pisave-5397 · premik-2026-10-28/organi/PECAT-slovenske-pisave-5397.md ·  · md5sum:
-PECAT-register-aksiomov-5398 · premik-2026-10-28/organi/PECAT-register-aksiomov-5398.md ·  · md5sum:
-PECAT-stroj-kalup-5399 · premik-2026-10-28/organi/PECAT-stroj-kalup-5399.md ·  · md5sum:
+PECAT-5380-vir-register · premik-2026-10-28/organi/PECAT-5380-vir-register.md · 3806 · 363335306eea96ed0def784b64402d5e
+PECAT-5381-obracun · premik-2026-10-28/organi/PECAT-5381-obracun.md · 3334 · a9857cec12ee2c44928ca9ebdddb0040
+PECAT-5381-prioritete-register · premik-2026-10-28/organi/PECAT-5381-prioritete-register.md · 3312 · d8c6928764332f941d8095951ac5cfda
+PECAT-5381-register-respecifikacij · premik-2026-10-28/organi/PECAT-5381-register-respecifikacij.md · 3529 · 927b6e1dffce5df474433dd3a4c2dff7
+PECAT-5382-register-odnosov · premik-2026-10-28/organi/PECAT-5382-register-odnosov.md · 2491 · 55fdca5ce84d57a7d480301ab025ad04
+PECAT-5383-atlas-knjiznic · premik-2026-10-28/organi/PECAT-5383-atlas-knjiznic.md · 2486 · fc1db344a219f2c1f38db1652d922cc3
+PECAT-5384-humor · premik-2026-10-28/organi/PECAT-5384-humor.md · 2592 · 6e42404842ba579a68e9f7fc75947f42
+PECAT-5385-geneza · premik-2026-10-28/organi/PECAT-5385-geneza.md · 2539 · f1566d3b6b01fe8dcad9b55e9a875e74
+PECAT-5386-jedro-zavedanja · premik-2026-10-28/organi/PECAT-5386-jedro-zavedanja.md · 6066 · 826bd4b0c6658322a6d9efcb6b6db355
+PECAT-5387-biro-postaje · premik-2026-10-28/organi/PECAT-5387-biro-postaje.md · 2458 · 3149d882c44a71854393c1530a6bb23f
+PECAT-5388-nenehno-poslusa · premik-2026-10-28/organi/PECAT-5388-nenehno-poslusa.md · 2478 · bce3181e3d303401e003e0a2495f6fc9
+PECAT-5389-licenca-vbl · premik-2026-10-28/organi/PECAT-5389-licenca-vbl.md · 2639 · 6346aa13464b1ac99551ea6fb4c14cf4
+PECAT-5390-register-oken · premik-2026-10-28/organi/PECAT-5390-register-oken.md · 2514 · 933d8c8175cf3854225fd364f9f28ba2
+PECAT-5391-delovna-zanka · premik-2026-10-28/organi/PECAT-5391-delovna-zanka.md · 2597 · cde8194bc840a4ba372672e0f4dd92c5
+PECAT-5392-oko-lje · premik-2026-10-28/organi/PECAT-5392-oko-lje.md · 2487 · 51c3280c639735dfe360f9a72183acfb
+PECAT-5392-prostor-kontrolirane-halucinacije · premik-2026-10-28/organi/PECAT-5392-prostor-kontrolirane-halucinacije.md · 631 · 1e0a3cc0b6ce15a66a5d11660d6947f0
+PECAT-5392-sklopi-panog · premik-2026-10-28/organi/PECAT-5392-sklopi-panog.md · 2508 · 6885309277327cc7a042b7826bae2baf
+PECAT-5393-jezikovne-plasti · premik-2026-10-28/organi/PECAT-5393-jezikovne-plasti.md · 2498 · 00f6fe9611096fc51686bf36aea44260
+PECAT-5393-meje-mere · premik-2026-10-28/organi/PECAT-5393-meje-mere.md · 2497 · d31176e104a634b463b3b910f7af7562
+PECAT-5393-nad-gadenj · premik-2026-10-28/organi/PECAT-5393-nad-gadenj.md · 2504 · fdf55c6b3d28157a18c9a977a01658e5
+PECAT-5394-egipcanska-plast · premik-2026-10-28/organi/PECAT-5394-egipcanska-plast.md · 2512 · 3480677009360964921566ed3d4221b9
+PECAT-5394-posta-zascita · premik-2026-10-28/organi/PECAT-5394-posta-zascita.md · 2490 · e4b67ae899f13ef2a35a07fedc8340fa
+PECAT-5394-zadata · premik-2026-10-28/organi/PECAT-5394-zadata.md · 2494 · 9e3ef8afcba00aced05d006da40bc33c
+PECAT-5395-gotovosti-register · premik-2026-10-28/organi/PECAT-5395-gotovosti-register.md · 2499 · 44e07ee4b124f08d47e8caedd57bae61
+PECAT-5395-pomocniki-operaterji · premik-2026-10-28/organi/PECAT-5395-pomocniki-operaterji.md · 2503 · 7aaf78abe0f43aed89fe2c89f0ce08f9
+PECAT-5395-prizma-register · premik-2026-10-28/organi/PECAT-5395-prizma-register.md · 2493 · edda46c8e2a54bb65267aa3196cdb12f
+PECAT-5396-cilji-register · premik-2026-10-28/organi/PECAT-5396-cilji-register.md · 2491 · b3a664f36cb4c5b1cadcddd191c313df
+PECAT-5396-predloge · premik-2026-10-28/organi/PECAT-5396-predloge.md · 2479 · d45fbfe1afc1ec3a6cf357c4717a4b0d
+PECAT-5396-vrata-cutov · premik-2026-10-28/organi/PECAT-5396-vrata-cutov.md · 2500 · c62cb88f1117efed21a3ef1266e534e4
+PECAT-5397-revizija-besed · premik-2026-10-28/organi/PECAT-5397-revizija-besed.md · 2489 · 9a00a19cf99a993697e0ff5700aecbe4
+PECAT-5397-runa-plast · premik-2026-10-28/organi/PECAT-5397-runa-plast.md · 2500 · b8a4f61ca45895f9406118e9b7522186
+PECAT-5397-slovenske-pisave · premik-2026-10-28/organi/PECAT-5397-slovenske-pisave.md · 2509 · 62f9ba7d1a9be274e3be41db4c5e5e67
+PECAT-5398-register-aksiomov · premik-2026-10-28/organi/PECAT-5398-register-aksiomov.md · 2522 · 089b95645b51836cdac18f937307b834
+PECAT-5399-stroj-kalup · premik-2026-10-28/organi/PECAT-5399-stroj-kalup.md · 2478 · af65032e75a99dc24dc2ced5bc89a37d
 ARHIV-vir-register · premik-2026-10-28/organi/vir-register/ARHIV-PECATOV.md · 10770 · 41327b98314e8a5869747d77ced9a565
 ARHIV-obracun · premik-2026-10-28/organi/obracun/ARHIV-PECATOV.md · 281467 · ccab01b19d8f7eb4a902f3ae3a825e3e
 ARHIV-prioritete-register · premik-2026-10-28/organi/prioritete-register/ARHIV-PECATOV.md · 68399 · ad1f4edd5a07ed305bf1928280f56448
@@ -44,7 +44,7 @@ ARHIV-atlas-knjiznic · premik-2026-10-28/organi/atlas-knjiznic/ARHIV-PECATOV.md
 ARHIV-humor · premik-2026-10-28/organi/humor/ARHIV-PECATOV.md · 338643 · 6e1db560d0737811a2f0ea11e3b6c5af
 ARHIV-geneza · premik-2026-10-28/organi/geneza/ARHIV-PECATOV.md · 293884 · 39203cfc6bb516b319aed5a53280ee4c
 ARHIV-jedro-zavedanja · premik-2026-10-28/organi/jedro-zavedanja/ARHIV-PECATOV.md · 107771 · 5e66b6f9bc7298505d66de5bafa3764c
-ARHIV-biro-postaje · premik-2026-10-28/organi/biro-postaje/ARHIV-PECATOV.md · 523188 · e69219aecc25d0f80093dc7a6095c6be
+ARHIV-biro-postaje · TEL 523.188 B ⭢ sodba ⚔ ⟡ (P5 vrata @rez 4246: ×32 zrcaljenih odlepcev; VERBATIM ostaja lokalno; @rep pošten stub) · e69219aecc25d0f80093dc7a6095c6be
 ARHIV-nenehno-poslusa · premik-2026-10-28/organi/nenehno-poslusa/ARHIV-PECATOV.md · 15439 · 230b1fa1e499fead5c1fe96d20dc1374
 ARHIV-licenca-vbl · premik-2026-10-28/organi/licenca-vbl/ARHIV-PECATOV.md · 212913 · a4a4ba312983748b4103317f25bac221
 ARHIV-register-oken · premik-2026-10-28/organi/register-oken/ARHIV-PECATOV.md · 305998 · 008cfb390f50bd48d5ed4f44ee3d24b1
@@ -69,4 +69,4 @@ ARHIV-runa-plast · premik-2026-10-28/organi/runa-plast/ARHIV-PECATOV.md · 8295
 ARHIV-slovenske-pisave · premik-2026-10-28/organi/slovenske-pisave/ARHIV-PECATOV.md · 4567 · 37f65f7665e65c249dda56b36d7596fd
 ARHIV-register-aksiomov · premik-2026-10-28/organi/register-aksiomov/ARHIV-PECATOV.md · 10326 · 1404d379728b1ba2440509b5411f52c7
 ARHIV-stroj-kalup · premik-2026-10-28/organi/stroj-kalup/ARHIV-PECATOV.md · 9691 · a7e7a71637414691fde270d216400ee2
-ATOM · scratch/ATOM-2026-11-14-5401.md · 1189 · 94d4e47c3cd06ee1467e6e599b0d324e
+ATOM · premik-2026-10-28/organi/ATOM-2026-11-14-5401.md · 1189 · 94d4e47c3cd06ee1467e6e599b0d324e
