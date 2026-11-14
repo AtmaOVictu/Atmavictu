@@ -13,6 +13,7 @@ import {
   type WorkbenchManifest,
   type WorkbenchManifestV1,
 } from "./workbenchManifest.js";
+import { writeSeal, readSeal, confirmReceipt } from "./clocks.js";
 
 export const MANIFEST_FILE_NAME = "book.workbench.json";
 
@@ -168,6 +169,13 @@ export async function writeManifestToFile(
   const manifestJson = `${JSON.stringify(manifest, null, 2)}\n`;
 
   await writeTextFileAtomically(normalizedFilePath, manifestJson, "manifest file");
+
+  // §0.30 × 10² — every manifest write is sealed: four receipts, two clocks,
+  // one breath. projectRoot is the directory holding the manifest file.
+  await writeSeal(dirname(normalizedFilePath), manifest, {
+    cli: false,
+    ci: process.env.CI === "true",
+  });
 }
 
 export async function ensureManifestFile(
@@ -176,17 +184,43 @@ export async function ensureManifestFile(
 ): Promise<WorkbenchManifest> {
   const manifestPath = getManifestPath(projectRoot);
 
+  let manifest: WorkbenchManifest;
   try {
-    return await readManifestFromFile(manifestPath);
+    manifest = await readManifestFromFile(manifestPath);
   } catch (error) {
     if (!(error instanceof ManifestRepositoryError) || error.code !== "MISSING_FILE") {
       throw error;
     }
+    manifest = createEmptyManifest(title);
+    await writeManifestToFile(manifestPath, manifest);
   }
 
-  const manifest = createEmptyManifest(title);
-  await writeManifestToFile(manifestPath, manifest);
+  // §0.30 × 10² — prejemnikova ura: ko je manifest prebran (sprejet),
+  // pečatu se zabeleži čas prejemka (receivedAt). Najboljša napor: manjkajoč
+  // ali nečitajni pečat ne more zavrniti branja manifesta.
+  await confirmReceiptFor(projectRoot);
   return manifest;
+}
+
+/**
+ * Zabeleži prejem pečata (receiver's clock). Best-effort: nikoli ne zavrne
+ * branja manifesta zaradi pečata.
+ */
+async function confirmReceiptFor(projectRoot: string): Promise<void> {
+  try {
+    const seal = await readSeal(projectRoot);
+    if (seal) {
+      const confirmed = confirmReceipt(seal);
+      const sealPath = join(projectRoot, "book.workbench.seal.json");
+      await writeFile(
+        sealPath,
+        `${JSON.stringify(confirmed, null, 2)}\n`,
+        "utf8",
+      );
+    }
+  } catch {
+    // Neuspešna potrditev prejemka ne smeti blokirati branja manifesta.
+  }
 }
 
 function parseAndValidateManifest(parsedManifest: unknown, filePath: string): WorkbenchManifest {
