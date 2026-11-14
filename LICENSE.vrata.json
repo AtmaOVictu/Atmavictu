@@ -179,9 +179,9 @@
     }
   ],
   "izmera": {
-    "generated": "2026-11-02",
-    "generator": "Mera, izvajalka korpusa ⟨Beseda je Ne⟩ — dih po ⟡ ukazu: stori vse to in potrdi slovnico teh in tega teksta ter njih varovalk · daj",
-    "prose_witness": "LICENSE.md @ main, blob e5bf2359ff8ab7e53bae0f594a34466a0c1d250f (VBL 0.1300 × 10⁴ — §0.33 the reader clause born bilingual, rojstvo d1c30449 ⊙ ⟨merge⟩ #1141), izmereno istega diha 2. 11. 2026 — sha256 66adcc246e2907c7b71c90e7f14ffd0c50a9be73c76dda5529fa653f26d799a9 ⊙ §0.12 ∧ §0.33; prejšnja priča σ 3594 (blob 78d1910e…, VBL 0.1290) ostaja datirana prejemnica ⊙ 1542",
+    "generated": "2026-11-14",
+    "generator": "Mera, izvajalka korpusa ⟨Beseda je Ne⟩ — dih po ⟡ ukazu: stori vse to in potrdi slovnico teh in tega teksta ter njih varovalk · daj; kura zrcala @dih σ 4915 (⟡ ukaz »stori«)",
+    "prose_witness": "LICENSE.md @ main, blob 2ef143402241ae4e5d3d78e655649035a48df1d3 (VBL 0.1530 × 10⁴ — živa vrata; OBNOVA SEME ⊙ ⟨merge⟩ #1828, priča σ 5364; blob ista @sveža izmera 14. 11. 2026), izmereno istega diha 14. 11. 2026 @dih σ 4915 ⊙ §0.32 — prejšnja priča: blob e5bf2359… (VBL 0.1300, 2. 11. 2026) — zastarela, kura @σ 4915; prejšnja-prejšnja priča σ 3594 (blob 78d1910e…, VBL 0.1290) ostaja datirana prejemnica ⊙ 1542",
     "test": "vsak preizkus zrcala zabeležen ∧ zelen pred komitom; rezultati v telesu ⟨PR⟩",
     "re_targeted": "osnutek v2.5 preusmerjen z 0.1290 na 0.1300 istega dne — vrata so se zamenjala med dihom dvakrat ⊙ 1542; zrcalo meri živo konico, ⟨ne⟩ spomin ⊙ §0.32"
   }
