@@ -7,6 +7,7 @@ import { validateManifest, type WorkbenchManifest } from "./workbenchManifest.js
 import { getManifestPath, readManifestFromFile } from "./workbenchManifestRepository.js";
 import { LEKSIKON_VERSION, buildLeksikon, buildLookupMap, coinKey, type LeksikonMeta } from "./leksikonZakonov.js";
 import { readOrgans, readLeksikonJsonl, writeLeksikon } from "./leksikonZakonovRepository.js";
+import { detectWreathDrift, readDeedWitnesses, readLivingDoor, verifyWreath } from "./wreath/index.js";
 
 export type AtmaCliCommand =
   | {
@@ -32,6 +33,11 @@ export type AtmaCliCommand =
       name: "najdi";
       leksikonPot: string;
       ime: string;
+    }
+  | {
+      name: "wreath";
+      subcommand: "verify" | "drift" | "report";
+      projectRoot: string;
     };
 
 export function parseAtmaCliArgs(argv: readonly string[]): AtmaCliCommand {
@@ -68,6 +74,8 @@ export function parseAtmaCliArgs(argv: readonly string[]): AtmaCliCommand {
         leksikonPot: requireCliValue("najdi requires <leksikonPot> <ime>.", rest[0]),
         ime: requireCliValue("najdi requires <leksikonPot> <ime>.", rest[1]),
       };
+    case "wreath":
+      return parseWreathCommand(rest);
     default:
       throw new Error(
         "Unknown command: " +
@@ -93,7 +101,63 @@ export async function runAtmaCliCommand(command: AtmaCliCommand): Promise<string
       return runLeksikonCommand(command.organiKoren, command.izhodMapa);
     case "najdi":
       return runNajdiCommand(command.leksikonPot, command.ime);
+    case "wreath":
+      return runWreathCommand(command.subcommand, command.projectRoot);
   }
+}
+
+function parseWreathCommand(argv: readonly string[]): AtmaCliCommand {
+  const [subcommand, projectRoot] = argv;
+  const sub = requireCliValue("wreath requires <verify|drift|report> <projectRoot>.", subcommand);
+  if (sub !== "verify" && sub !== "drift" && sub !== "report") {
+    throw new Error(`Unknown wreath subcommand: ${sub}. Expected one of: verify, drift, report.`);
+  }
+  return {
+    name: "wreath",
+    subcommand: sub,
+    projectRoot: requireCliValue("wreath requires <verify|drift|report> <projectRoot>.", projectRoot),
+  };
+}
+
+function runWreathCommand(subcommand: "verify" | "drift" | "report", projectRoot: string): string {
+  if (subcommand === "verify") {
+    const verification = verifyWreath(projectRoot);
+    const lines = [
+      "WREATH VERIFY:",
+      `STATUS: ${verification.status}`,
+      `SLOTS: ${verification.total}`,
+      `MATCHED: ${verification.matched}`,
+      ...verification.results.map((result) => `- ${result.path}: ${result.matched ? "MATCH" : "MISMATCH"} (${result.actualSha256.length > 0 ? result.actualSha256 : "<absent>"})`),
+    ];
+    if (verification.status === "FAIL") {
+      throw new Error(lines.join("\n"));
+    }
+    return lines.join("\n");
+  }
+
+  if (subcommand === "drift") {
+    const report = detectWreathDrift(projectRoot);
+    const lines = [
+      "WREATH DRIFT:",
+      `DRIFT: ${report.drift ? "DA" : "NE"}`,
+      `DOOR HASH: ${report.doorHash ?? "<absent>"}`,
+      ...report.details.map((detail) => `- ${detail}`),
+    ];
+    if (report.drift) {
+      throw new Error(lines.join("\n"));
+    }
+    return lines.join("\n");
+  }
+
+  const verification = verifyWreath(projectRoot);
+  return [
+    "WREATH REPORT:",
+    `STATUS: ${verification.status}`,
+    `SLOTS: ${verification.total}`,
+    `MATCHED: ${verification.matched}`,
+    `DEEDS: ${readDeedWitnesses(projectRoot).length}`,
+    `LIVING DOOR: ${readLivingDoor(projectRoot) !== null ? "DA" : "NE"}`,
+  ].join("\n");
 }
 
 function parseCaptureCommand(argv: readonly string[]): AtmaCliCommand {
