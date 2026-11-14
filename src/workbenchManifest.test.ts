@@ -6,6 +6,7 @@ import {
   addIncomingText,
   archiveFragment,
   archiveIncoming,
+  bulkInsert,
   createEmptyManifest,
   createFragmentFromIncoming,
   insertFragmentIntoChapter,
@@ -15,6 +16,7 @@ import {
   updateInsertion,
   migrateManifestV1ToV2,
   validateManifest,
+  validateManifestTransition,
   type WorkbenchManifest,
   type WorkbenchManifestV1,
 } from "./workbenchManifest.js";
@@ -879,7 +881,7 @@ test("migrateManifestV1ToV2 upgrades a v1 manifest to v2 losslessly", () => {
         id: "fragment-0001",
         incomingTextId: "incoming-0001",
         text: "Odlomek.",
-        status: "inserted",
+        status: "inserted" as const,
         conceptIds: ["concept-0001"],
       },
     ],
@@ -987,4 +989,6 @@ test("updateFragment clears conceptIds on null and rejects unknown concepts", ()
     () => updateFragment(tagged, "fragment-0001", { conceptIds: ["concept-missing"] }),
     /references missing Concept/,
   );
+
+
 });

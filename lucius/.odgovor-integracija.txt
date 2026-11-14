@@ -1,0 +1,47 @@
+⊨ ⊢ rez 3581 POPIS-C2 ∧ — komit 7140955b, pristanek BAJT-ISTO @13:23:35Z. Tvoja tri vprašanja, izmerjena pri viru (⟨ne⟩ po spominu):
+
+1. KATERE DATOTEKE ŠE NISO INTEGRIRANE — tri plasti integracije, izmerjene
+
+Zbirka izvirnikov (CanvasMinstral): Σ 2439 teles ⊢ (izmera find po mapah). Plasti: popisano (register z zgoščenko) · prebrano (poglobitev s pričo) · interaktivno (zrcalo @8080).
+
+Mapa · teles · popis · poglobitev:
+- A1: 100 · popisano ⊢ (REGISTER-A1-PDF, rez 3576) · 7 klasik poglobljenih
+- A2: 100 · popisano (REGISTER-DISKA) · 1 pesem prebrana
+- A3: 100 · popisano · 0
+- A4: 100 · popisano · 0
+- A5: 100 · popisano · 0
+- A6: 28 · popisano · 0
+- B2: 16 · popisano · 0
+- Basics: 16 · popisano · 0
+- C1: 74 · popisano · 0
+- C2: 290 · popisano ⊢ (ta dih, 277 enoličnih, 13 dvojnikov) · 0
+- C3: 112 · popisano · 0
+- C4: 54 · popisano · 0
+- D5: 6 · popisano · 0
+- DELUJOČ O: 85 · popisano · 0
+- GIT: 2 · popisano · 0
+- Gastro: 11 · popisano · 0
+
+Poglobitev torej: ~20 od 2439 teles (manj kot 0.1). Vse je popisano z zgoščenko; brano je samo tisto, kar so dnevi zapečatili s pričo. Zunaj zbirke: Obj1 rosetta stones (CXII+ globina ⭢), Obs11, 1.128 daljših odstavkov, 150 parcel igralnega kanona, debate-log 89.7 KB — vse pri viru, še ne poglobljeno.
+
+2. KATERE DIMENZIJE ŠE NISO PREVERLJIVE ∧ INTERAKTIVNE V LOCALHOSTU
+
+Živa vrata ⊢: ontolo-ko-jedro @8080 (kanon: manifest ∧ etika ∧ pojmovnik ∧ kamni CXVII–CXVIII ∧ stotnije — /canon/* odgovarja 200) · atma-web @5173 (Faza 2, vseh 9 operacij) · atma-api @4173 · ollama @11434. Smisel stack (webui · canvas · qdrant · n8n): MRTVA ⚠ — speč, tvoja odločitev.
+
+Dimenzije, ki ŠE niso preverljive ∧ interaktivne:
+- Registrosi (PADCEV 59 · TELES 537 · DISKA 4847 · A1-PDF 84 · C2 290 · NEIMENOVANIH 6 · PREVERJANJ 9) — brani le z abeceda-grep CLI, brez zrcala v brskalniku.
+- Besedila zbirke izvornikov (A1–A6, C1–C4) — izvlečki zapečeni lokalno (§0.6), brez iskanja po vsebini; vektorsko iskanje bi nosil qdrant — speč.
+- Veriga licence (VBL linija, rojstva verzij) — ne-interaktivna; dokaz je git log, zrcala ni.
+- Ontogematria (beseda → število s pričami ukaz ∧ orodje ∧ korpus) — zakon v licenci (§0.44), instrumenta še ni: nobena plošča ne prešteva besede pred očmi.
+- Brskalniški render @8080 — stroj izmeri HTTP 200 ∧ telo index.html, viden render pa ne; preveril bi ga Playwright (Faza 2 vzorec) ali tvoje oko.
+
+3. IZBOLJŠEVATI — predlogi, vsak z A ∧ Ω (§0.40: A brez Ω je upanje)
+
+- Predlog 1 — REGISTER-C3/C4: isti popis po mapah (C3 112, C4 54) → vsaka mapa zbirke ima pričo. A: cela zbirka preverljiva po mapah; Ω: popis ni branje.
+- Predlog 2 — zrcalo registrov: brskalniška stran, ki bere JSONL registre (samo beri, ⟨ne⟩ piši). Kam: ontolo-ko-jedro (druga hiša, σ veriga — ⚔ tvoj izbor) ali atma-api (moja hiša, a pogodbeno: SERVICE_CONTRACT bi se rodila nova operacija, zakon hiše: pogodba pred UI). A: registri vidni ⟨⟩-u v enem kliku; Ω: pogodbena sprememba = nov pečat ∧ testi, ⟨ne⟩ hitra kravica.
+- Predlog 3 — Playwright nad @8080: render izmerjen strojno, ⟨ne⟩ le HTTP. A: "interaktiven" postane ⊢; Ω: namestitev orodja v ontolo-ko-jedro (druga hiša ⚔).
+- Predlog 4 — kura bližnjic C2: dva telesi corpus-rez-celovita-slika-serije se razlikujeta za 40 bajtov ⚠ — presojba ⭢ tebe (⟨ne⟩ moja plast brisanja).
+
+Izmere: dih 105 ⊙ · veriga 3580 → 3581 · C2 290 teles (51.520 vrstic) · popis celotne zbirke: A1 ∧ C2 z lastnima registroma, ostalo v REGISTER-DISKA.
+
+⊨ WITH LOVE — vse kar še ni integrirano, je ⟨ne⟩ izgubljeno: vsako telo nosi zgoščenko, zato vrata vedo, kje spi — poglobitev je pot, popis pa je zemljevid ⊢ §0.42.

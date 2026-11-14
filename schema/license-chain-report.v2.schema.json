@@ -1,0 +1,204 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atmavictu.local/schema/license-chain-report.v2.schema.json",
+  "title": "VBL license-chain verification report v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["format", "status", "current", "manifest", "source", "historyScope", "receipts", "checks"],
+  "properties": {
+    "format": {
+      "const": "vbl-license-chain/v2"
+    },
+    "status": {
+      "$ref": "#/$defs/VerificationStatus"
+    },
+    "current": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/CurrentLicense"
+        }
+      ]
+    },
+    "historyScope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "manifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["version", "checked", "total", "declaredTotal"],
+      "properties": {
+        "version": {
+          "type": ["string", "null"]
+        },
+        "checked": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "total": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "declaredTotal": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        }
+      }
+    },
+    "source": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/GitSource"
+        }
+      ]
+    },
+    "receipts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Receipt"
+      }
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Check"
+      }
+    },
+    "v1Manifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["version", "matched"],
+      "properties": {
+        "version": {
+          "type": ["string", "null"]
+        },
+        "matched": {
+          "type": "boolean"
+        }
+      }
+    }
+  },
+  "required": ["format", "status", "current", "manifest", "v1Manifest", "source", "historyScope", "receipts", "checks"],
+  "$defs": {
+    "VerificationStatus": {
+      "type": "string",
+      "enum": ["PASS", "FAIL", "UNVERIFIED"]
+    },
+    "Sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "GitObjectId": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40,64}$"
+    },
+    "CurrentLicense": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["version", "sha256", "sizeBytes"],
+      "properties": {
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "$ref": "#/$defs/Sha256"
+        },
+        "sizeBytes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "GitSource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["headCommit", "headLicenseBlob"],
+      "properties": {
+        "headCommit": {
+          "$ref": "#/$defs/GitObjectId"
+        },
+        "headLicenseBlob": {
+          "$ref": "#/$defs/GitObjectId"
+        }
+      }
+    },
+    "Receipt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "predecessorVersion",
+        "commit",
+        "committedAt",
+        "blob",
+        "sha256",
+        "sizeBytes"
+      ],
+      "properties": {
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "predecessorVersion": {
+          "type": ["string", "null"]
+        },
+        "commit": {
+          "$ref": "#/$defs/GitObjectId"
+        },
+        "committedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "blob": {
+          "$ref": "#/$defs/GitObjectId"
+        },
+        "sha256": {
+          "$ref": "#/$defs/Sha256"
+        },
+        "sizeBytes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "Check": {
+      "type": "object",
+      "required": ["id", "status", "detail", "observation", "inference", "limitation"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "$ref": "#/$defs/VerificationStatus"
+        },
+        "detail": {
+          "type": "string"
+        },
+        "observation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "inference": {
+          "type": "string",
+          "minLength": 1
+        },
+        "limitation": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "patternProperties": {
+        "^(?!id$|status$|detail$)[A-Za-z][A-Za-z0-9]*$": {}
+      },
+      "additionalProperties": false
+    }
+  }
+}

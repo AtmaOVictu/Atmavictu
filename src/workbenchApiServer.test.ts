@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { mkdir, mkdtemp, rm, writeFile } from "node:fs/promises";
+import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import type { AddressInfo } from "node:net";
@@ -88,6 +88,60 @@ test("full workbench flow: all 9 service operations reachable over HTTP", async 
     await cleanupTempDirectory(projectRoot);
   }
 });
+
+test("bulk insertions land atomically over HTTP", async () => {
+  const projectRoot = await createTempDirectory();
+  const server = startWorkbenchApiServer(projectRoot, 0);
+  const baseUrl = await waitForBaseUrl(server);
+
+  try {
+    const capture = await postJson<IncomingText>(`${baseUrl}/api/incoming`, {
+      title: "Prvi vir",
+      body: "Vsebina prvega vira.",
+    });
+    assert.equal(capture.status, 201);
+    const incomingId = capture.body.id;
+
+    const started = await postJson<IncomingText>(`${baseUrl}/api/incoming/${incomingId}/start-processing`, {});
+    assert.equal(started.status, 200);
+
+    const first = await postJson<Fragment>(`${baseUrl}/api/fragments`, {
+      incomingTextId: incomingId,
+      body: "Prvi odlomek.",
+    });
+    const second = await postJson<Fragment>(`${baseUrl}/api/fragments`, {
+      incomingTextId: incomingId,
+      body: "Drugi odlomek.",
+    });
+    assert.equal(first.status, 201);
+    assert.equal(second.status, 201);
+
+    const bulk = await postJson<Insertion[]>(`${baseUrl}/api/insertions/bulk`, {
+      insertions: [
+        { fragmentId: first.body.id, targetChapterPath: "chapters/01-uvod.md" },
+        { fragmentId: second.body.id, targetChapterPath: "chapters/02-sredina.md" },
+      ],
+    });
+    assert.equal(bulk.status, 201);
+    assert.equal(bulk.body.length, 2);
+
+    const after = await getJson<WorkbenchManifest>(`${baseUrl}/api/manifest`);
+    assert.equal(after.fragments.find((f) => f.id === first.body.id)?.status, "inserted");
+    assert.equal(after.fragments.find((f) => f.id === second.body.id)?.status, "inserted");
+    assert.equal(after.incomingTexts.find((i) => i.id === incomingId)?.status, "used");
+
+    // duplicate fragmentId must fail without writing anything
+    const rejected = await postJson<{ error: string }>(`${baseUrl}/api/insertions/bulk`, {
+      insertions: [{ fragmentId: first.body.id, targetChapterPath: "chapters/03-zakljucek.md" }],
+    });
+    assert.equal(rejected.status, 400);
+    assert.match(rejected.body.error, /draft|inserted|transition/);
+  } finally {
+    server.close();
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
 
 test("mutation errors surface as 400 with a plain-text message, not a 500", async () => {
   const projectRoot = await createTempDirectory();
@@ -339,6 +393,82 @@ test("suggestions endpoint validates input and degrades gracefully when the mode
   }
 });
 
+test("wreath verify and report endpoints return shaped responses", async () => {
+  const projectRoot = await createTempDirectory();
+  const server = startWorkbenchApiServer(projectRoot, 0);
+  const baseUrl = await waitForBaseUrl(server);
+
+  try {
+    const verifyRes = await fetch(`${baseUrl}/api/wreath/verify`);
+    assert.equal(verifyRes.status, 200);
+    const verify = (await verifyRes.json()) as {
+      status: string;
+      total: number;
+      matched: number;
+      results: unknown[];
+    };
+    assert.ok(["PASS", "FAIL", "UNVERIFIED"].includes(verify.status));
+    assert.ok(typeof verify.total === "number");
+    assert.ok(typeof verify.matched === "number");
+    assert.ok(Array.isArray(verify.results));
+
+    const reportRes = await fetch(`${baseUrl}/api/wreath/report`);
+    assert.equal(reportRes.status, 200);
+    const report = (await reportRes.json()) as {
+      status: string;
+      total: number;
+      matched: number;
+      rows: unknown[];
+      deedCount: number;
+      livingDoor: boolean;
+    };
+    assert.ok(["PASS", "FAIL", "UNVERIFIED"].includes(report.status));
+    assert.ok(typeof report.total === "number");
+    assert.ok(typeof report.matched === "number");
+    assert.ok(Array.isArray(report.rows));
+    assert.ok(typeof report.deedCount === "number");
+    assert.ok(typeof report.livingDoor === "boolean");
+
+    // When no LICENSE-MANIFEST exists, total should be 0 and status UNVERIFIED.
+    assert.equal(verify.total, 0);
+    assert.equal(verify.status, "UNVERIFIED");
+    assert.equal(report.total, 0);
+    assert.equal(report.status, "UNVERIFIED");
+    assert.equal(report.rows.length, 0);
+    assert.equal(report.deedCount, 0);
+    assert.equal(report.livingDoor, false);
+  } finally {
+    server.close();
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
+test("wreath drift endpoint reports drift state on API", async () => {
+  const projectRoot = await createTempDirectory();
+  const server = startWorkbenchApiServer(projectRoot, 0);
+  const baseUrl = await waitForBaseUrl(server);
+
+  try {
+    // No LICENSE.md / LICENSE-MANIFEST → door absent, drift flagged.
+    const res = await fetch(`${baseUrl}/api/wreath/drift`);
+    assert.equal(res.status, 200);
+    const report = (await res.json()) as {
+      drift: boolean;
+      doorHash: string | null;
+      companions: unknown[];
+      details: string[];
+    };
+    assert.equal(report.drift, true);
+    assert.equal(report.doorHash, null);
+    assert.deepEqual(report.companions, []);
+    assert.ok(Array.isArray(report.details));
+    assert.ok(report.details.some((d) => d.includes("odsotna")));
+  } finally {
+    server.close();
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
 test("create fragment can set title and conceptIds at creation", async () => {
   const projectRoot = await createTempDirectory();
   const server = startWorkbenchApiServer(projectRoot, 0);
@@ -361,6 +491,72 @@ test("create fragment can set title and conceptIds at creation", async () => {
     assert.equal(fragment.status, 201);
     assert.equal(fragment.body.title, "Moj naslov");
     assert.deepEqual(fragment.body.conceptIds, [concept.body.id]);
+  } finally {
+    server.close();
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
+test("project picker switches the shared workbench API root", async () => {
+  const originalRoot = await createTempDirectory();
+  const selectedRoot = await createTempDirectory();
+  const server = startWorkbenchApiServer(originalRoot, 0);
+  const baseUrl = await waitForBaseUrl(server);
+  try {
+    const initial = await getJson<{ projectRoot: string }>(`${baseUrl}/api/project`);
+    assert.equal(initial.projectRoot, originalRoot);
+    const selected = await postJson<{ projectRoot: string }>(`${baseUrl}/api/project`, { projectRoot: selectedRoot });
+    assert.equal(selected.status, 200);
+    assert.equal(selected.body.projectRoot, selectedRoot);
+    const manifest = await getJson<WorkbenchManifest>(`${baseUrl}/api/manifest`);
+    assert.equal(manifest.manifestVersion, "2");
+    assert.ok(await readFile(join(selectedRoot, "book.workbench.json"), "utf8"));
+    await assert.rejects(readFile(join(originalRoot, "book.workbench.json"), "utf8"), { code: "ENOENT" });
+  } finally {
+    server.close();
+    await cleanupTempDirectory(originalRoot);
+    await cleanupTempDirectory(selectedRoot);
+  }
+});
+
+test("VBL case flow is persisted in the canonical review register and captured-source manifest", async () => {
+  const projectRoot = await createTempDirectory();
+  const server = startWorkbenchApiServer(projectRoot, 0);
+  const baseUrl = await waitForBaseUrl(server);
+  try {
+    const created = await postJson<{ id: string; status: string }>(`${baseUrl}/api/vbl/cases`, { title: "Review claim", claim: "A claim requires a witness.", reporter: "Reporter A" });
+    assert.equal(created.status, 201);
+    assert.equal(created.body.status, "UNVERIFIED");
+    const caseId = created.body.id;
+
+    const evidence = await postJson<{ evidence: Array<{ id: string; contentHash: string }>; integrity: { valid: boolean } }>(`${baseUrl}/api/vbl/cases/${caseId}/evidence`, { label: "Original", source: "submission", content: "Evidence body", actor: "Reporter A" });
+    assert.equal(evidence.status, 201);
+    assert.equal(evidence.body.integrity.valid, true);
+    assert.match(evidence.body.evidence[0]!.contentHash, /^[a-f0-9]{64}$/);
+
+    const forbiddenSelfReview = await postJson<{ error: string }>(`${baseUrl}/api/vbl/cases/${caseId}/reviews`, { reviewer: "same", executor: "SAME", outcome: "SUPPORTED", scope: "source", findings: [] });
+    assert.equal(forbiddenSelfReview.status, 400);
+    assert.match(forbiddenSelfReview.body.error, /Reviewer must differ/);
+
+    const review = await postJson<{ status: string; events: unknown[] }>(`${baseUrl}/api/vbl/cases/${caseId}/reviews`, { reviewer: "Reviewer B", executor: "Reporter A", outcome: "SUPPORTED", scope: "source comparison", findings: [] });
+    assert.equal(review.status, 201);
+    assert.equal(review.body.status, "SUPPORTED");
+
+    const action = await postJson<{ actions: Array<{ id: string; status: string }> }>(`${baseUrl}/api/vbl/cases/${caseId}/actions`, { description: "Send result", owner: "Operator C", actor: "Reviewer B" });
+    assert.equal(action.status, 201);
+    const updated = await postJson<{ actions: Array<{ status: string }> }>(`${baseUrl}/api/vbl/cases/${caseId}/actions/${action.body.actions[0]!.id}`, { status: "DONE", actor: "Operator C" });
+    assert.equal(updated.body.actions[0]!.status, "DONE");
+
+    const reread = await getJson<{ integrity: { valid: boolean }; events: unknown[] }>(`${baseUrl}/api/vbl/cases/${caseId}`);
+    assert.equal(reread.integrity.valid, true);
+    assert.equal(reread.events.length, 5);
+    const register = await readFile(join(projectRoot, "REGISTER-PREVERJANJ.jsonl"), "utf8");
+    assert.equal(register.trim().split(/\r?\n/).length, 5);
+    const manifest = JSON.parse(await readFile(join(projectRoot, "book.workbench.json"), "utf8")) as WorkbenchManifest;
+    assert.equal(manifest.incomingTexts.length, 2);
+    assert.equal((await readFile(join(projectRoot, manifest.incomingTexts.find((item) => item.title?.endsWith("claim"))!.sourcePath), "utf8")), "A claim requires a witness.");
+    assert.equal((await readFile(join(projectRoot, manifest.incomingTexts.find((item) => item.title?.endsWith("Original"))!.sourcePath), "utf8")), "Evidence body");
+    assert.ok(await readFile(join(projectRoot, "book.workbench.seal.json"), "utf8"));
   } finally {
     server.close();
     await cleanupTempDirectory(projectRoot);

@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { execFile } from "node:child_process";
 import { mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
-import { join } from "node:path";
+import { dirname, join } from "node:path";
 import { tmpdir } from "node:os";
 import test from "node:test";
 import { promisify } from "node:util";
@@ -137,4 +137,34 @@ test("atma CLI verify command prints fail and validation errors for invalid mani
   } finally {
     await rm(projectRoot, { force: true, recursive: true });
   }
+});
+
+test("parseAtmaCliArgs accepts wreath verify and report commands", () => {
+  const verifyCmd = parseAtmaCliArgs(["wreath", "verify", "C:/temp/project"]);
+  assert.equal(verifyCmd.name, "wreath");
+  assert.equal(verifyCmd.subcommand, "verify");
+  assert.equal(verifyCmd.projectRoot, "C:/temp/project");
+
+  const reportCmd = parseAtmaCliArgs(["wreath", "report", "C:/temp/project"]);
+  assert.equal(reportCmd.name, "wreath");
+  assert.equal(reportCmd.subcommand, "report");
+});
+
+test("parseAtmaCliArgs rejects unknown wreath subcommand", () => {
+  assert.throws(
+    () => parseAtmaCliArgs(["wreath", "bogus", "C:/temp/project"]),
+    /Unknown wreath subcommand/,
+  );
+});
+
+test("atma CLI wreath verify runs against the repo root", async () => {
+  const cliPath = fileURLToPath(new URL("./atmaCli.js", import.meta.url));
+  const root = dirname(fileURLToPath(import.meta.url)) + "/../../";
+  const { stdout } = await execFileAsync(process.execPath, [
+    cliPath,
+    "wreath",
+    "verify",
+    root,
+  ]);
+  assert.match(stdout, /WREATH VERIFY:/);
 });

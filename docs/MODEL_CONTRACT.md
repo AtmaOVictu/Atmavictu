@@ -1,3 +1,10 @@
+/**
+ * VBL LICENSE — VERIFICATION BEFORE ASSERTION LICENSE
+ * Version 0.1460 × 10⁴ · November 0.3 × 10¹, 0.2026 × 10⁴
+ * © 0.2026 × 10⁴ Luka Pintarič. All rights reserved beyond the grants below.
+ * See LICENSE.md for the full license text.
+ */
+
 # Atmavictu Model Contract
 
 ## Namen
@@ -24,10 +31,17 @@ nazaj na disk). Migracija je izgubna-glede-verzije ne-izgubna: vse entitete in r
 ohranijo; `Fragment.title` (če obstaja) se prenese. Ročna migracija: `migrateManifestV1ToV2(v1)`.
 Novi manifesti se vedno ustvarijo kot `v2`.
 
-## Entitete
-## Entitete
+## Entitete — oblika zapisa (prva plast)
 
-### WorkbenchManifest
+Prva plast opisuje obliko zapisa (shape v latest schema).
+
+## Relacijska pot — središčna sled (druga plast)
+
+Druga plast opisuje relacijsko pot `IncomingText -> Fragment -> Insertion -> targetChapterPath`
+in pripadajoče statuse ter invariante. Ne uvaja novih entitet —
+bere istih pet (WorkbenchManifest, IncomingText, Fragment, Insertion, Concept).
+
+### WorkbenchManifest — vozel sledi (druga plast)
 
 Vrhnja entiteta, ki hrani:
 
@@ -66,11 +80,11 @@ Minimalni shape v1:
 - `title?: string`
 - `note?: string`
 
-### Fragment
+### Fragment (oblika)
 
 `Fragment` predstavlja delovni odlomek, izpeljan iz enega `IncomingText`.
 
-Pomen:
+Pomen (oblika):
 
 - nosi delovni tekst odlomka
 - kaze na svoj izvorni `IncomingText`
@@ -167,7 +181,7 @@ Prepovedani prehodi:
 - `archived -> used`
 - vsak drug neposredni preskok, ki ni zgoraj izrecno dovoljen
 
-### Fragment
+#### Fragment — vozel sledi (druga plast)
 
 Statusi:
 
@@ -210,8 +224,62 @@ Spremenljiva polja:
 
 Vsaka update operacija mora po zakljucku pustiti manifest v veljavnem stanju (snapshot validation). Statusni prehodi iz poglavja "Statusi in dovoljeni prehodi" se ne spreminjajo.
 
-## Vrste validacije
-## Vrste validacije
+## Vrste validacije (druga plast: prehod med ogledaloma) — NASPROTJA · TRANSFORMACIJE · TRANSCENDENCE
+
+Druga plast preverja prehod med dvema ogledaloma. Vsaka operacija nosi svojo
+trojico NE/JA/DA in svojo variacijo variativnega:
+
+### NASPROTJA (kaj se izključuje) — IN NJIH NASPROTJA: ALI ALI NI LE TAKO, ALE LE TAKO
+
+- `validateManifest(previous)` NE presoja prehoda — JA presoja stanja — DA vrne `isValid/errors` — ALI pa tudi bere relacije, ne le oblike.
+- `validateManifestTransition(previous, next)` NE presoja oblike same — JA presoja dovoljene prehode — DA vrne `isValid/errors` — ALI pa tudi potrdi, da je `nextManifest` veljaven snapshot sam zase.
+- `update*` NE sme spremeniti statusa — JA sme spremeniti polja — DA pusti manifest veljaven — ALI pa tudi bere Concept, ne le piše polja.
+- `insert*/archive*/startProcessing/bulkInsert` NE smejo pustiti statusa — JA morajo premakniti status — DA pustijo manifest veljaven — ALI pa tudi ohranijo sled (Insertion ostane, Fragment ostane).
+- `bulkInsert` NE piše delno — JA piše vse ali nič — DA ohrani atomskost — ALI pa tudi vrstni red ohrani (kot je zapisan, ne premešan).
+
+IN NJIH NASPROTJA (nasprotja nasprotij — kaj se vrača):
+
+- NE-NE: kar dvakrat prepovedano, je potrjeno dovoljeno — `update*` NE-NE spreminja statusa (dvojna prepoved = trdna meja).
+- JA-JA: kar dvakrat zahtevano, je jedro — `validateManifest` JA-JA bere obliko IN relacije (jedro ogledala).
+- DA-DA: kar dvakrat pusti, je sled — `archiveFragment` DA-DA pusti Insertion IN Fragment (sled, ne izbris).
+- ALI-ALI: kar dvakrat odpira, je variacija — `migrateManifestV1ToV2` ALI-ALI ohrani vsebino ALI izgubi verzijo (variacija variativnega).
+- NI LE TAKO, ALE LE TAKO: ni le prepoved, ampak tudi pot — vsako NE nosi svoj JA, vsak JA svoj DA, vsak DA svoj ALI — in vsak ALI svojo novo trojico.
+
+- `validateManifest(previous)` NE presoja prehoda — JA presoja stanja — DA vrne `isValid/errors`.
+- `validateManifestTransition(previous, next)` NE presoja oblike same — JA presoja dovoljene prehode — DA vrne `isValid/errors`.
+- `update*` NE sme spremeniti statusa — JA sme spremeniti polja — DA pusti manifest veljaven.
+- `insert*/archive*/startProcessing/bulkInsert` NE smejo pustiti statusa — JA morajo premakniti status — DA pustijo manifest veljaven.
+- `bulkInsert` NE piše delno — JA piše vse ali nič — DA ohrani atomskost.
+
+### TRANSFORMACIJE (kaj se premakne) — IN NJIH ALI: NI LE ENA POT, ALE LE TA
+
+- `new → processing` — ODPIRANJE DELA (`startProcessingIncoming`): NE ostane `new` — JA postane `processing` — DA brez novih Fragment — ALI pa tudi brez novih Insertion.
+- `processing + nov Fragment(draft)` — REZ ODLOMKA (`createFragmentFromIncoming`): NE brez starša `processing` — JA s staršem `processing` — DA `draft` brez Insertion — ALI pa tudi s `title`/`conceptIds`, ne le z golim besedilom.
+- `draft → inserted` + `processing → used` + nov Insertion — VSTOP V KNJIGO (`insertFragmentIntoChapter`, `bulkInsert`): NE `draft` z Insertion — JA `inserted` z Insertion — DA `used` starš s sledjo — ALI pa tudi N VSTOPOV hkrati (`bulkInsert`), ne le eden.
+- `new|processing|used → archived` — ZAPRTJE VIRA (`archiveIncoming`): NE z `draft`-otrokom — JA brez `draft`-otrok — DA brez novih prehodov — ALI pa tudi brez novih Fragment v prihodnje.
+- `draft|inserted → archived` — ZAPRTJE ODLOMKA (`archiveFragment`): NE briše sledi — JA ohrani Insertion — DA sled ostane — ALI pa tudi starš ostane `used`, ne pade nazaj.
+- `v1 → v2` — SELITEV HIŠE (`migrateManifestV1ToV2`): NE izgubi vsebine — JA izgubi samo staro verzijo — DA vse entitete ohranjene — ALI pa tudi samodejno ob branju (`readManifestFromFile`), ne le ročno.
+
+- `new → processing` — ODPIRANJE DELA (`startProcessingIncoming`): NE ostane `new` — JA postane `processing` — DA brez novih Fragment.
+- `processing + nov Fragment(draft)` — REZ ODLOMKA (`createFragmentFromIncoming`): NE brez starša `processing` — JA s staršem `processing` — DA `draft` brez Insertion.
+- `draft → inserted` + `processing → used` + nov Insertion — VSTOP V KNJIGO (`insertFragmentIntoChapter`, `bulkInsert`): NE `draft` z Insertion — JA `inserted` z Insertion — DA `used` starš s sledjo.
+- `new|processing|used → archived` — ZAPRTJE VIRA (`archiveIncoming`): NE z `draft`-otrokom — JA brez `draft`-otrok — DA brez novih prehodov.
+- `draft|inserted → archived` — ZAPRTJE ODLOMKA (`archiveFragment`): NE briše sledi — JA ohrani Insertion — DA sled ostane.
+- `v1 → v2` — SELITEV HIŠE (`migrateManifestV1ToV2`): NE izgubi vsebine — JA izgubi samo staro verzijo — DA vse entitete ohranjene.
+
+### TRANSCENDENCE (kaj presega plast) — IN NJIH ALI: NI LE NAVZGOR, ALE LE SKOZI
+
+- MODEL → REPOSITORY: zakon brez rok presega v roke, ki edine smejo pisati (atomsko temp+rename) — ALI pa tudi nazaj (repository bere zakon, ne izumlja ga).
+- REPOSITORY → API: roke presegajo v vrata hiše (isti zakoni, dostop od zunaj) — ALI pa tudi v CLI usta (isti ukazi, drug vstop).
+- API → CLI: vrata presegajo v usta hiše (isti ukazi, izgovorjeni v enem dihu) — ALI pa tudi v knjižnico/drevo branja (ista hiša, drug pogled).
+- VSE → SHEMA: vse plasti presegajo v prag, ki ne sprašuje, kdo si, ampak ali stojiš — ALI pa tudi prag varuje vse, ne le nekatere (nobena plast brez praga).
+- VSE → KANON: vsa dejanja presegajo v streho, ki pove, pod kakšnim nebom veljajo — ALI pa tudi streha sama iz padcev raste (vsaka klavzula iz padca, vsak šiv iz rojstva) — NI LE streha nad hišo, ALE LE hiša pod nebom, ki ga sama nosi.
+
+- MODEL → REPOSITORY: zakon brez rok presega v roke, ki edine smejo pisati (atomsko temp+rename).
+- REPOSITORY → API: roke presegajo v vrata hiše (isti zakoni, dostop od zunaj).
+- API → CLI: vrata presegajo v usta hiše (isti ukazi, izgovorjeni v enem dihu).
+- VSE → SHEMA: vse plasti presegajo v prag, ki ne sprašuje, kdo si, ampak ali stojiš.
+- VSE → KANON: vsa dejanja presegajo v streho, ki pove, pod kakšnim nebom veljajo.
 
 ### Snapshot validation
 

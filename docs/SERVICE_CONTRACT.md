@@ -1,3 +1,10 @@
+/**
+ * VBL LICENSE — VERIFICATION BEFORE ASSERTION LICENSE
+ * Version 0.1460 × 10⁴ · November 0.3 × 10¹, 0.2026 × 10⁴
+ * © 0.2026 × 10⁴ Luka Pintarič. All rights reserved beyond the grants below.
+ * See LICENSE.md for the full license text.
+ */
+
 # Atmavictu Service Contract
 
 ## Namen
@@ -19,8 +26,9 @@ Ta dokument doloca minimalne operacije nad `WorkbenchManifest`. Service contract
 
 - `WorkbenchManifest` je trenutno v version `2`. Stari `v1` manifesti se ob nalaganju samodejno migrirajo v `v2` (glej `migrateManifestV1ToV2` v model contractu).
 
-## createEmptyManifest()
-## createEmptyManifest()
+## createEmptyManifest() — definicija
+
+## createEmptyManifest() — ponovitev povzeta spodaj (isti contract, glej definicijo zgoraj)
 
 ### Namen
 
@@ -46,7 +54,7 @@ Ustvari prazen, veljaven `WorkbenchManifest` v2.
 
 ### Failure cases
 
-- `manifestVersion` ni `1`
+- `manifestVersion` ni `2`
 - rezultat nima obveznih zbirk
 - rezultat ni skladen s schema v1
 
@@ -497,10 +505,7 @@ Medsebojna komputecija s Smisel Qdrant RAG-korpusom. Fragmenti se vektorizirajo 
 Obe operaciji sta **gracilno degradabilni**: ko Ollama ali Qdrant nista dosegljiva, vrneta `{ ok: false }` z 502 in nikoli ne blokirata workbencha. To je edina povezava Atmavictu do zunanjega vektorskega indeksa (isti Qdrant, ki ga Smisel ze uporablja).
 
 ## validateManifest(manifest)
-## validateManifest(manifest)
-## validateManifest(manifest)
-## validateManifest(manifest)
-## validateManifest(manifest)
+<!-- ⊙ KURA @rez σ 3743 (5. 11. 2026 02:53:14Z): ⟨PADC-POGODBE-GLAVE ×5⟩ — mehanski dvojnik glave ×4 odstranjen (5 zaporednih identičnih glav → 1), telo bajt-isto nedotaknjeno ⊙ ⟨NE-BRIŠI⟩ 24 ∧ KORENINA 0.2 -->
 
 ### Namen
 
@@ -592,4 +597,69 @@ Minimalni pricakovani tok je:
 6. `validateManifest(manifest)`
 7. `validateManifestTransition(previousManifest, nextManifest)` za operacije, ki spreminjajo statuse
 
+V `addIncomingText(title, body)` je prazen `title` dovoljen, prazen ali whitespace-only `body` pa prepovedan (napaka operacije).
+
 Arhiviranje je dopolnilna operacija po zakljucku aktivne uporabe.
+
+## bulkInsert(insertions)
+
+### Namen
+Vstavi več fragmentov v poglavja aktivne knjige v enem atomskem poskušku — vsak fragment preide `draft → inserted`, povezani vhodni viri `processing → used`.
+
+### Input
+- `insertions: { fragmentId: string; targetChapterPath: string }[]`
+
+### Output
+- posodobljeni manifest z novimi `Insertion` zapisi
+
+### Spremeni entitete
+- doda en `Insertion` na vsak vhodni `fragmentId`
+- posodobi status vsakega `Fragment` na `inserted`
+- posodobi status vsakega povezane `IncomingText` na `used`
+
+### Dovoljeni statusni prehodi
+- vsak `Fragment`: `draft → inserted`
+- vsak `IncomingText`: `processing → used` (le kadar vsaj eden fragment iz tega vira prevzete)
+
+### Failure cases
+- kateri koli `fragmentId` ne kaze na obstoječ `Fragment`
+- kateri koli `Fragment` ni v statusu `draft`
+- podvojen `fragmentId` (en fragment se ne sme vstavljati dvakrat)
+- kateri koli `targetChapterPath` prazen ali whitespace-only
+- kateri koli `targetChapterPath` izveni dovoljenega root prostora aktivne knjige
+- rezultat krši schema v1 (npr. fragment `inserted` brez ustreznega `Insertion`)
+
+### Minimalni proof / acceptance check
+- vsak vhodni `fragmentId` dobije ustrezen `Insertion`
+- vsi vhodni `Fragment` imajo status `inserted`
+- povezani `IncomingText` imajo status `used`
+- `validateManifest(result.manifest).isValid === true`
+- atomskost: kadar kateri koli vhod ni veljaven, manifest ostaja nespremenjen
+
+## Matrika operacija × entiteta (plastificirano)
+
+Vsaka vrstica: operacija, zelena ploskev = spremeni, read-only = samo bere. Statusne spremembe sme sprožiti samo vrstica z "prehod".
+
+| Operacija | IncomingText | Fragment | Insertion | Concept |
+|---|---|---|---|---|
+| `createEmptyManifest` | ustvari | ustvari | ustvari | — |
+| `addIncomingText` | + nov (`new`) | — | — | — |
+| `startProcessingIncoming` | `new → processing` | — | — | — |
+| `createFragmentFromIncoming` | bere | + nov (`draft`) | — | — |
+| `insertFragmentIntoChapter` | `processing → used` | `draft → inserted` | + nov | — |
+| `bulkInsert` | `processing → used` | `draft → inserted` | + N novih (atomsko, ali vse ali nič) | — |
+| `archiveIncoming` | → `archived` | bere | — | — |
+| `archiveFragment` | bere | → `archived` | — | — |
+| `updateIncomingText` | polja, brez prehoda | — | — | — |
+| `updateFragment` | — | polja/`conceptIds`, brez prehoda | — | bere |
+| `updateInsertion` | — | — | polja, brez prehoda | — |
+| `addConcept` | — | — | — | + nov |
+| `validateManifest` | bere | bere | bere | bere |
+| `validateManifestTransition` | bere prehod | bere prehod | bere | bere |
+
+Pravila matrike, ki jih pogodba zaklene:
+- Vsak statusni prehod gre skozi `ALLOWED_*_TRANSITIONS`; drugega prehoda ni.
+- Atomskost: `bulkInsert` validira vse vnose PRED prvim pisanjem; napaka = manifest nespremenjen.
+- Read-only operaciji ne ustvarita entitet: `validateManifest`, `validateManifestTransition`.
+- `update*` ne sme spremeniti statusa — samo `insert*/archive*/startProcessing/bulkInsert` ga.
+

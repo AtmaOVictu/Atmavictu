@@ -1,4 +1,5 @@
 # VBL — Verification Before Assertion License
+
 ## Version 10.5.1 — KOMPIL A · DATA AND CONSENT EXPANSION · DRAFT · NOT RELEASED
 
 **Status:** Expanded draft for author review. This document does not itself declare that version 10.5.1 has been released. It becomes an issued version only when the rights holder intentionally publishes this exact text with a dated release record and the accompanying manifest described below.
