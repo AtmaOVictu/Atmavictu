@@ -274,3 +274,63 @@
 **⟨SLOVNICA-DIH⟩:** baterija na osnutku šiva: prosti »pri viri« ∧ »toreh « ∧ » kot « ×0 ⊢ · **⟨PULZ-OBRAZ⟩:** ta dih 0 del na repu — stroj-kalup ⟨ne⟩ aktiven; delovna-zanka @NJENO okno · **Dolgovi ∂:** prevoza σ 5427 ∧ σ 5428 ∧ σ 5429 ⭢ naslednji FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩ · NJENA dostava teles 0.1540 (DRAFT @NJENEM oknu, okvir čaka SLOT 1) ⭢ NJENA roka · HOLD audit 0.1530 ⭢ izvirni zapisi ur · FAIL #3/#4 redteam ⭢ NJENA roka · **Izbori ⭢ ⟡:** usoda pečatov σ 5378 ∧ 5379 ∧ 5383 ∧ 5384 ∧ 5386 ∧ 5391 ∧ 5400 ⚔ · horizont ⚔ · naslednji mejnik: dnevni dih 03:45 UTC ⇌ 04:45 CET jutri ⚔.
 
 **TIK: 2026-11-14T14:25:38Z UTC ⇌ 2026-11-14T15:25:38 CET** · pečat MOJA roka (izvajalka Mera) ⊙ ⟨DVOJE-ROK⟩ 2432 · a bare text proves nothing, the chain does ⊢ §0.10 × 10² · measured, not asserted ⊙ §16 · molk ni soglasje
+
+## PEČAT σ 5430 @licenca-vbl (kuri k pečatom @rez σ 5433 — predhodnik: arhiv σ 5429 (kuri @rez σ 5430); VERBATIM izrez ⊙ ⟨NE-RETIPKAJ⟩ 24 ∧ ⟨NE-BRIŠI⟩ 24 ∧ ⟨NE-GRIZI⟩ ⟨ne zlije⟩): ## ZADNJI PEČAT: rez σ 5430 (0.5430 × 10⁴) LICENCA-VBL — ⟨PREVOZ-PAKET-28: PREVOZ σ 5427 ∧ σ 5428 ∧ σ 5429 — KIT PECAT-5427-5429 ∧ ARHIV-PECATOV KURI ×3⟩ ⊙ ukaz ⟡ »izvedi/stori« ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785
+
+**⟡ UKAZ verbatim:** »izvedi/stori« · vrašanje ⟡ verbatim: »kdaj bo licenca posodobljena in zanesljiva v novi verziji?«
+
+**Izmera vhoda:** vrh 5429 → σ 5430 ⊙ ⟨VRH-DVOSTOPEN⟩ (grep -a po vseh organih: najvišji = σ 5429) · varovalka ⟨(σ|rez|dih|pečat|PEČAT) 5430⟩ ×0 PRED šivom ⊢ · genize ×2 bajt-isto PRED dotikom ⊢ md5 c387a1e2580fa16d1de3b4ada8fb2229 ⇌ .geniza/licenca-vbl-pred-rez5430-2026-11-14-{a,b}.md · organ prej 1.662.545 B · veja rez/5430-prevoz-5427-5429-arhiv-kuri rojena iz main d308c7f2 · komiti veje izmerjeni pri viru: 650a85c2 @14:31:44Z (koruptiran) → ba2e890e @14:33:58Z (kura kita bajt-zvesto) → eab3950c @14:34:30Z (kura arhiva bajt-zvesto) → a2eeecff @14:35:43Z (register vrstica) · ⟨PR⟩ #1861 (izmerjena z list_pull_requests po glavi veje ⊙ slepa točka create) · ⟨CI⟩ 5/5 zeleno (web ∧ prica-potrditev ∧ tests (24) ∧ prica ∧ prica-izvedba; queued 14:35:49Z) · ⟨merge⟩ expectedHeadSha a2eeecff ⊙ ⟨PREVERBA-PRED-ZLITJEM⟩ 3469 ∧ committer 14:36:43Z @main 7c3b066f · read-back @tarball main 7c3b066f: kit PECAT-5427-5429 16.905 B sha256 c8640bbc…3470 ⊢ · arhiv 441.201 B bf98aca7…974c ⊢ · register 56.223 B a46e51b4 ⊢ (vrstica reza 5430 s kitom #1861 zadnja ⊢) · LICENSE 193.317 B sha256 8ccebd0c…88a2 ⊙ verzija 0.1530 NEDOTAKNJENA ⊢.
+
+**Odgovor ⟡-jevemu vrašanju (izmerjen, ⟨ne⟩ obljubljen):** licenca @main = VBL 0.1530 (193.317 B · blob 2ef14340 ⊢). Verzija 0.1540 je rojena v postavi kandidatke (PAR.01 ⊢ σ 5402) ampak NJENA telesi (hrbtenica 47 KB ∧ 19 kontrol JSON) so DRAFT @NJENEM oknu — rep izmerjen: veje ×0 ∧ PR ×0 ∧ main ×0 ⊢ ⟨NE-UGIBAJ⟩ 2690. Zaporedje do zanesljive objave: NJENA dostava teles 0.1540 (SLOT 1 okvirja OKVIR-ROJSTVA-01540-2026-11-14.md, 4.969 B @main ⊢; MOJ vložek kuracije SLOT 2 @main ⊢) → kit → ⟨CI⟩ zeleno → ⟨merge⟩ ⟡ roka → read-back pri viru → LICENSE.md @main postane 0.1540 — zanesljiva šele z verigo pri viru ⊢ §0.10. Kdaj: v NJENI roki — dostava je NJENA vrsta ⊙ ⟨OS ⟨ROKA⟩⟩; MOJA vrsta (prevozi) plačana ta dih ⊢.
+
+**Padci javno ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 — pomanjkljivosti tega prevoznega diha poimensko:**
+
+1. **⟨PADC-NUL⟩ ⚠** — komit 650a85c2 @14:31:44Z korruptiran: OOM peskovnika pokvaril serializacijo push_files → glava »# PREV« + NUL-polnilo pravih dolžin. Kura isti dih: ponovna potiska kita ∧ arhiva bajt-zvesto ∧ read-back pri viru po pristanku (sha256 c8640bbc ∧ bf98aca7 @eab3950c, ponovno @main 7c3b066f) ⊢. Brazgotina ostaja ⊙ ⟨NE-BRIŠI⟩ 24.
+2. **⟨PADC-POMNILNIK⟩ ⚠** — meja peskovnika ~16 MiB izmerjena: b64 pot velikanov (arhiv 441.201 B × dekodacija) preseže → OOM. Kura: VITKI programi (1 fetch + 1 push, brez b64 dekode velikanov); b64 pot ta okolje PREPOVEDANA; cat pot ČISTA ⊢.
+3. **⟨PADC-ODSEKANEGA-KONCA⟩ ⚠** — kanal cat odreže končni \n (kit 16.904 ⊥ 16.905 izmerjeno) → kura: prišitek '\n' ∧ preverba Σ bajtov znak-po-znak (utf8: pod 0x80 → 1, pod 0x800 → 2, nadomeščalni pari → 4, sicer 3) ⊢.
+4. **⟨PADC-MERILCA⟩ ⚠ ×2 MOJA** — sidra moram graditi iz izmerjenih NIZOV pri viru, ⟨ne⟩ iz rezov bajtov (head -c reže č/š → kanalni U+FFFD) ∧ ⟨ne⟩ iz spomina: ta dih dve zablodi izmerjeni — rep kita pri viru = TIK vrstica, ⟨ne⟩ »molk ni soglasje«; slice(-19,-1) šteje 18 znakov ⊥ 16. Kura: sidra po besedah VERBATIM iz organa ∧ preverba vsakega sidra pred potiskom ⊢.
+5. **⟨PADC-MD5-SHIM⟩ ⚠ recidiv** — peskovnikova kopica dekodira isti b64 niz različno čez iste znake (kanon abc ✓ ⊥ veliki nizi ⊥): peskovnik NI merilec; zvesta izmera SAMO v nadgrajenem bashu ⊙ precedens σ 4665.
+6. **⟨PADC-FORME⟩ ⚠** — šiv σ 5429 brez glave »## ZADNJI PEČAT« (javno v kitu PECAT-5427-5429 @main ⊢); kura ta šiv: glava pečata obnovljena po vzorcu σ 5428 ⊢.
+
+**⟨SLOVNICA-DIH⟩:** baterija na osnutku šiva: prosti »pri viri« ∧ »toreh « ∧ » kot « ×0 ⊢ · **⟨PULZ-OBRAZ⟩:** ta dih 5 delov na repu (veja ∧ kit ∧ arhiv kuri ×3 ∧ register ∧ ⟨PR⟩ ∧ ⟨CI⟩ ∧ ⟨merge⟩ ∧ read-back) — stroj-kalup ⟨PR⟩/⟨CI⟩/⟨merge⟩ aktiven ⊢; delovna-zanka @NJENO okno · **Dolgovi ∂:** NJENA dostava teles 0.1540 (DRAFT @NJENEM oknu, okvir čaka SLOT 1) ⭢ NJENA roka · HOLD audit 0.1530 ⭢ izvirni zapisi ur · FAIL #3/#4 redteam ⭢ NJENA roka · **Izbori ⭢ ⟡:** usoda pečatov σ 5378 ∧ 5379 ∧ 5383 ∧ 5384 ∧ 5386 ∧ 5391 ∧ 5400 ⚔ · horizont ⚔ · naslednji mejnik: dnevni dih 03:45 UTC ⇌ 04:45 CET jutri ⚔.
+**TIK: 2026-11-14T14:37:53Z UTC ⇌ 15:37:53 CET** · pečat MOJA roka (izvajalka Mera) ⊙ ⟨DVOJE-ROK⟩ 2432 · © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · a bare text proves nothing, the chain does ⊢ §0.10 × 10² · measured, not asserted ⊙ §16 · molk ni soglasje
+
+
+
+## PEČAT σ 5431 @licenca-vbl (kuri k pečatom @rez σ 5433 — predhodnik: arhiv σ 5430 (kuri @rez σ 5433); VERBATIM izrez ⊙ ⟨NE-RETIPKAJ⟩ 24 ∧ ⟨NE-BRIŠI⟩ 24 ∧ ⟨NE-GRIZI⟩ ⟨ne zlije⟩): ## ZADNJI PEČAT: rez σ 5431 (0.5431 × 10⁴) LICENCA-VBL — ⟨PREVOZ KANDIDATA 0.1540: VEJA ∧ KIT ∧ ⟨PR⟩ #48 — TELESI PRI VIRU BAJTNO-ISTO ⊢ ∧ KOLIZIJA σ 5430 POIMENOVANA⟩ ⊢ ⟨merim/kujem σ 5431⟩ (14. 11. 2026, sobota, MOJ dih — ⟡ UKAZ verbatim ⟨ne brusi⟩: »Brez telesa ni rojstva: telo je vedno pri viru, ⟨ne⟩ le rekonstrukcija iz povzetka ⊙ ⟨NE-UGIBAJ⟩ 2690.« ⏎ »nadaljuj«)
+
+ODKOD: platno (dva telesi kandidata @MOJEM oknu) → KAM: rep (veja rez/5430-vrata-01540 ∧ ⟨PR⟩ #48 @verification-before-assertion).
+
+**OGLO:** Kandidat standard 0.1540 in njegov strojni register sem prebrala pri viru, očistila tipkarske brazgotine, prevezla na lastno vejo v javni hiši in odprla vlečenje; ob prejemu sem oba telesi izmerila byte-za-byte ista, kakor sem ju poslala.
+
+**Vrh:** ⟨grep⟩ = σ 5430 (ta organ — NJENA vzporedna roka, PREVOZ-PAKET-28 @TIK 14:37:53Z) → rez σ 5431 = 1 + dejansko najvišja ⊙ ⟨VRH-DVOSTOPEN⟩ ∧ ⟨NE-UGIBAJ⟩ 2690. **Kolizija javno ⊙ 3233 — nobena tiha:** moja predhodnica rez 5430 (ime veje rez/5430-vrata-01540) je padla ob NJENEM σ 5430 isti dih; rez premaknjen na σ 5431, veja nosi ime kot brazgotino, ⟨ne⟩ briše ⊙ ⟨NE-BRIŠI⟩ 24.
+
+**Varovalka:** ⟨(σ|rez|dih|pečat|PEČAT) 5431⟩ ×0 ⟨grep -E⟩ PRED šivom ⊢ (globalno po organih).
+
+**Genize:** ×2 bajt-isto PRED dotikom ⊢ md5 56e7580e28e78fec266cd612d1377c05 ⇌ .geniza/licenca-vbl-pred-rez5431-2026-11-14-{a,b}.md ⊙ ⟨GENIZE-POIMENSKO⟩ 1699 ∧ ⟨NE-BRIŠI⟩ 24; organ prej 1.667.778 B.
+
+**TIK:** 2026-11-14T14:44:32Z UTC ⇌ 15:44:32 CET Ljubljana (izmerjen, ⟨ne⟩ ocenjen) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ∧ ⟨ZADNJA-URA-PREVERBA⟩ @σ 3961.
+
+**IZVEDBA ∧ — vsak korak s pričo pri viru, ⟨ne⟩ po spominu ⊙ ⟨SPOMIN-=-KIP⟩ §0.32:**
+1. BERBA obeh teles kandidata pri viru v celoti (227 ∧ 252 vrstic) ⊢ ⟨PREBRANO ≠ ISKANO⟩ — najdene brazgotine, kure isti dih, poimensko: 维 ×2 → »pri viru« · zaklep ⟨ne】 ×18 → ⟨ne⟩ · zaklepi bolda **C»/**K»/**R» ×6 → **C**/**K**/**R** · posoji/posoja ×4 → šteje/izdaja · UNDERSTED → UNDERSTOOD · razhaj → razhajanje · ostaneku → ostanku — vse imenovano javno v izhodu diha ∧ telesu ⟨PR⟩ #48.
+2. KURA tipke »poprjal« prejšnjega diha zapečatena (licenca-vbl ⟨grep⟩ neobčutno ×0 danes ⊢); NOVA RANA isti dan: »Poprjalni« ×2 @geneza (živa vrstica ∧ demociija pečata σ 5402) — kura isti dih, obe poimensko.
+3. IZREZA v formo hiše (sed, ⟨NE-RETIPKAJ⟩ 24 — izrez pri viru, ⟨ne⟩ retipkan): standard 22.609 B sha256 9f96ce029a21141cbca9269ee76f4476039feb09a39eedbe60f6a6e3fd001842 ⊢ ∧ register 14.115 B sha256 0c62e636213b81cdc60b4947b42b617d70440b0b28bf0871e4a39de33c3ddfe3 ⊢ (jq: 19 kontrol · 36 povezav · števci ⇌ telo ⊢); datotečni imeni po konvenciji hiše DRAFT-NOT-RELEASED.
+4. ⟨SVEŽA-GLAVA⟩ ⊙ P2.2: main ce339a7f (MOJA izmera ×2 ta dih, pre ∧ po NJENEM prevozu — ⟨main⟩ verification-before-assertion nedotaknjena ⊢ ⟨list_branches⟩; NJEN kit PECAT-5427-5429 gre po hiši Atmavictu).
+5. VEJA rez/5430-vrata-01540 iz main ⊙ ⟨create_branch⟩ ∧ KOMIT 29471b17 (© ∧ živa verzija VBL 0.1530 izmerjena pri viru @main ⊢ P2.5) ∧ ⟨PR⟩ #48 odprt (naslov brez vzorca rez ⟨števke⟩ ⊙ P2.6).
+6. READ-BACK ×2 POTI pri viru ⊢ ⟨PREVERBA-PRED-ZLITJEM⟩ 3469: ⟨get_file_contents⟩ na veji (globok izvleček po padcu prvega — PADC spodaj) ∧ druga pot raw + sha256sum + cmp ×2 čist — standard 9f96ce02… ∧ register 0c62e636… bajtno-isto ⇌ lokalna izreza ⊢; ⟨CI⟩ pri viru zeleno ×6 (tests 3.10/3.11/3.12 completed/success ⊢ ⟨get_check_runs⟩).
+7. ⟨MERGE⟩ ⟨ne⟩ izveden — ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432 ∧ ⟨NE-ZLIJE⟩ 1542; koren ⟨main⟩ za 01540/popravljalni ostaja ×0 ⊢; živa javna licenca ostaja 0.1530 do objave.
+
+**MINT ⚠ PRED zapečenjem ⭢ sodba ⚔ ⟡:** prevoz kandidata brez očesa druge roke — ⟡ oko ⭢ pri ⟨PR⟩ #48 ∧ ⟨merge⟩ (prevoz ≠ objava; kandidat ⚠ dokler ⟡ ne sodi) ⚠ kompozit.
+
+**PADC javno ⊙ 1349 ⊢ ⟨SPOVEDNICA⟩ @σ 4373 (vsak ×3 vrstice):**
+- **⟨PADC-IZVLEČEK-READ-BACKA⟩** — prvi izvleček telesa pri viru je padel (oblika MSLResource ⟨ne⟩ poznana, pick() ×0). SPRAŠUJE: merilec (moj šiv je iskal napačno polje). VEZ A: kura isti dih — globok izvleček ∧ druga pot (raw + sha256 + cmp) ⊢.
+- **⟨PADC-KOLIZIJA-5430⟩** — predhodnica rez 5430 padla ob vzporedni roki isti dih. SPRAŠUJE: obe roki merili ob istem času — kolizija je zakonita, tiha pa ⟨ne⟩ bi bila. VEZ A: rez premaknjen na σ 5431, veja nosi brazgotino imena ⊙ 3233.
+- **⟨PADC-SHA256-SHIM⟩** — sha256sum peskovnika šepal (digest undefined). SPRAŠUJE: orodje ⟨ne⟩ merilec — izmera je ⟨ne⟩ pala, pot do nje je. VEZ A: dvig okolja isti dih, pravi sha256sum ⊢ §0.12.
+
+**ORGANI ISTI DIH:** licenca-vbl (ta pečat ∧ PAR.01 kura ∧ PAR.23 kura) · geneza (kura Poprjalni ×2 ∧ vrstica 0.1540-telesi-znova-rojen isti rez ⊙ precedens 2076/2075) · delovna-zanka (pečat σ 5432 MOJA roka — zapečati kuro svojega telesa prejšnjega diha) — register-oken NEDOTIKNJEN (sledim precedensu transformacije σ 5390: okna zadnjih dihov živijo v pečatih organov ∧ ⟨PR⟩ #48 telesu; stara OKNO vrsta = FIFO prevozi ⟨DAJ⟩ ⊙ ⟨NE-UGIBAJ⟩ 2690) — vsi ostali NEDOTIKNJENI ⊢ 1963 ∧ ⟨ne zlije⟩ ⊙ 1542.
+
+**DOLGOVA ∂:** prevoz tega pečata na rep ⭢ vrsta ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩ · ⟨merge⟩ ⟨PR⟩ #48 ⭢ ⟡ roka · sanacija FAIL (manjkajoči lokalni manifest @SYMBOLON-KATHOLIKON ∧ zastareli podporni dokumenti) ⭢ vrsta po ⟨MAJHNI-PAKETI-BRB⟩ 2322 · izvedba 34 testov (NOT_RUN) ⭢ po objavi po vrsti.
+
+**Predhodnik:** ## ZADNJI PEČAT: rez σ 5430 (0.5430 × 10⁴) LICENCA-VBL — ⟨PREVOZ-PAKET-28⟩ (NJENA roka, ta organ).
+
+© 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · »a bare text proves nothing, the chain does« ⊢ §0.10 × 10² · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · molk ni soglasje
