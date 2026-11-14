@@ -1,72 +1,35 @@
 import { useEffect, useState } from "react";
-import type { BundlePreview } from "../types";
+import type { BundlePreview, VblCase } from "../types";
 import { tauriApi } from "../api";
 
+function summary(p: BundlePreview): string { return `${p.valid ? "PASS" : "FAIL"} · ${p.fileCount} files · ${p.caseCount} cases${p.caseIds.length ? ` · ${p.caseIds.join(", ")}` : ""}${p.errors.length ? ` · ${p.errors.join("; ")}` : ""}`; }
 
-function describe(preview: BundlePreview): string {
-  return `${preview.valid ? "Integrity preview passed" : "Integrity preview failed"}: ${preview.fileCount} files, ${preview.caseCount} cases${preview.caseIds.length ? ` (${preview.caseIds.join(", ")})` : ""}${preview.errors.length ? `; ${preview.errors.join("; ")}` : ""}`;
-}
-
-export function BundleToolsPanel({ projectRoot }: { projectRoot: string | null }) {
+export function BundleToolsPanel({ projectRoot, cases, onImported }: { projectRoot: string; cases: VblCase[]; onImported: () => Promise<void> }) {
+  const [caseId, setCaseId] = useState("");
+  const [path, setPath] = useState("");
+  const [target, setTarget] = useState("");
   const [preview, setPreview] = useState<BundlePreview | null>(null);
-  const [previewPath, setPreviewPath] = useState("");
   const [overwrite, setOverwrite] = useState(false);
   const [message, setMessage] = useState("");
   const [busy, setBusy] = useState(false);
-  const [caseId, setCaseId] = useState("");
-  const [cases, setCases] = useState<Array<{ id: string; title: string }>>([]);
-  const desktop = Boolean((window as Window & { __TAURI_INTERNALS__?: unknown }).__TAURI_INTERNALS__);
-  useEffect(() => { if (!projectRoot || !desktop) { setCaseId(""); setCases([]); return; } void tauriApi.listCases(projectRoot).then(items => { setCases(items); setCaseId(current => current || items[0]?.id || ""); }).catch(() => undefined); }, [projectRoot, desktop]);
+  const run = async (fn: () => Promise<void>) => { setBusy(true); setMessage(""); try { await fn(); } catch (e) { setMessage(e instanceof Error ? e.message : "Bundle operation failed."); } finally { setBusy(false); } };
 
-  async function run(operation: () => Promise<void>) {
-    setBusy(true); setMessage("");
-    try { await operation(); } catch (error) { setMessage(error instanceof Error ? error.message : "Local bundle operation failed."); }
-    finally { setBusy(false); }
-  }
-  async function chooseBundle(): Promise<string | null> {
-    return tauriApi.openBundleFile();
-  }
+  useEffect(() => { if (!cases.some(item => item.id === caseId)) setCaseId(cases[0]?.id ?? ""); }, [cases, caseId]);
 
   return <section className="case-workbench bundle-tools">
-    <header className="case-heading"><div><p className="eyebrow">LOCAL FILES ONLY</p><h2>Backup &amp; case exchange</h2><p>Bundles stay on your device. Verify the preview before restoring or importing.</p></div></header>
-    {!projectRoot && <p className="empty">Select a project folder to enable local bundles.</p>}
-    {!desktop && <p className="empty">Portable bundles are available in the desktop app; case operations in browser mode remain on the existing API.</p>}
-    {desktop && projectRoot && <label>Case to export<select value={caseId} onChange={e => setCaseId(e.target.value)}><option value="">Select case</option>{cases.map(c => <option key={c.id} value={c.id}>{c.title}</option>)}</select></label>}
+    <header className="case-heading"><div><p className="eyebrow">LOCAL · OFFLINE</p><h2>Backup &amp; case exchange</h2><p>Bundles remain on this device. Import and restore require integrity preview and confirmation.</p></div></header>
     <div className="bundle-actions">
-      <button disabled={!projectRoot || busy} onClick={() => void run(async () => {
-        const path = await tauriApi.saveBundlePath("atmavictu-project-backup.json");
-        if (!path) return;
-        const result = await tauriApi.exportProjectBackup(projectRoot!, path);
-        setPreview(result); setPreviewPath(path); setMessage(`Backup written locally: ${path}. ${describe(result)}`);
-      })}>Create full project backup</button>
-      <button disabled={!projectRoot || busy} onClick={() => void run(async () => {
-        if (!caseId) throw new Error("Select a case before exporting it.");
-        const path = await tauriApi.saveBundlePath(`case-${caseId}.json`);
-        if (!path) return;
-        const result = await tauriApi.exportCaseBundle(projectRoot!, caseId, path);
-        setPreview(result); setPreviewPath(path); setMessage(`Case bundle written locally: ${path}. ${describe(result)}`);
-      })}>Export selected case</button>
-      <button disabled={!projectRoot || busy} onClick={() => void run(async () => {
-        const path = await chooseBundle(); if (!path) return;
-        const result = await tauriApi.previewBundle(path);
-        setPreview(result); setPreviewPath(path); setOverwrite(false); setMessage(describe(result));
-      })}>Choose bundle and preview</button>
+      <button disabled={busy} onClick={() => void run(async () => { const dest = await tauriApi.saveBundlePath("atmavictu-project-backup.json"); if (!dest) return; const result = await tauriApi.exportProjectBackup(projectRoot, dest); setPath(dest); setPreview(result); setMessage(`Project backup saved: ${dest} · ${summary(result)}`); })}>Create full project backup</button>
+      <label>Case to export<select value={caseId} onChange={e => setCaseId(e.target.value)}><option value="">Select case</option>{cases.map(c => <option key={c.id} value={c.id}>{c.title}</option>)}</select></label>
+      <button disabled={busy || !caseId} onClick={() => void run(async () => { const dest = await tauriApi.saveBundlePath(`case-${caseId}.json`); if (!dest) return; const result = await tauriApi.exportCaseBundle(projectRoot, caseId, dest); setPath(dest); setPreview(result); setMessage(`Case export saved: ${dest} · ${summary(result)}`); })}>Export selected case</button>
+      <button disabled={busy} onClick={() => void run(async () => { const selected = await tauriApi.openBundleFile(); if (!selected) return; const result = await tauriApi.previewBackup(selected); setPath(selected); setPreview(result); setOverwrite(false); setMessage(`Preview: ${summary(result)}`); })}>Choose bundle · preview</button>
     </div>
-    {preview && <div className={preview.valid ? "integrity-ok" : "integrity-fail"}>
-      <strong>{previewPath}</strong><p>{describe(preview)}</p>
-      {preview.valid && projectRoot && <>
-        <button disabled={busy} onClick={() => void run(async () => {
-          if (preview.caseCount > 0) {
-            const accepted = window.confirm(`Import ${preview.caseCount} case(s) into this project? Existing case IDs are not merged.`);
-            if (!accepted) return;
-            const result = await tauriApi.importCaseBundle(projectRoot, previewPath); setPreview(result); setMessage(`Case import completed. ${describe(result)}`);
-          } else {
-            const accepted = window.confirm(`Restore ${preview.fileCount} files? This may replace project files.`);
-            if (!accepted) return;
-            const result = await tauriApi.restoreProjectBackup(previewPath, projectRoot, overwrite); setPreview(result); setMessage(`Project restore completed. ${describe(result)}`);
-          }
-        })}>{preview.caseCount > 0 ? "Confirm case import" : "Restore full backup"}</button>
-        {preview.caseCount === 0 && <label className="overwrite-option"><input type="checkbox" checked={overwrite} onChange={(e) => setOverwrite(e.target.checked)} /> Allow replacing existing files</label>}
+    {preview && <div className={preview.valid ? "integrity-ok" : "integrity-fail"}><code>{path}</code><p>{summary(preview)}</p>
+      {preview.valid && preview.format === "atmavictu-case-bundle-v1" && <button disabled={busy} onClick={() => void run(async () => { if (!window.confirm(`Import ${preview.caseCount} case(s)? Existing case IDs are refused.`)) return; const result = await tauriApi.importCaseBundle(projectRoot, path); setPreview(result); await onImported(); setMessage(`Case import complete · ${summary(result)}`); })}>Confirm case import</button>}
+      {preview.valid && preview.format === "atmavictu-project-bundle-v1" && <>
+        <div className="bundle-actions"><input aria-label="Restore destination folder" readOnly value={target} placeholder="Choose restore destination"/><button disabled={busy} onClick={() => void run(async () => { const selected = await tauriApi.openFolderPath(); if (selected) setTarget(selected); })}>Choose folder</button></div>
+        <label><input type="checkbox" checked={overwrite} onChange={e => setOverwrite(e.target.checked)}/> Allow replacing existing files</label>
+        <button disabled={busy || !target} onClick={() => void run(async () => { if (!window.confirm(`Restore verified backup into ${target}?`)) return; const result = await tauriApi.restoreBackup(path, target, overwrite); setPreview(result); setMessage(`Restore complete · ${summary(result)}`); })}>Confirm project restore</button>
       </>}
     </div>}
     {message && <p role="status">{message}</p>}

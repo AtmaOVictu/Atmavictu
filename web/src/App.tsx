@@ -6,7 +6,7 @@ import { ManifestStatusBar } from "./components/ManifestStatusBar";
 import { VhodniTekstPanel } from "./components/VhodniTekstPanel";
 import { WitnessesPanel } from "./components/WitnessesPanel";
 import { VblCasesPanel } from "./components/VblCasesPanel";
-import { BundleToolsPanel } from "./components/BundleToolsPanel";
+import { LocalTerminalPanel } from "./components/LocalTerminalPanel";
 import { tauriApi, workbenchApi } from "./api";
 import { useWorkbench } from "./useWorkbench";
 
@@ -76,7 +76,7 @@ export function App() {
         />
       </main>
       <VblCasesPanel projectRoot={projectRoot} />
-      <BundleToolsPanel projectRoot={projectRoot} />
+      {projectRoot && <LocalTerminalPanel projectRoot={projectRoot} manifest={manifest} />}
       <WitnessesPanel projectRoot={projectRoot} />
     </div>
   );

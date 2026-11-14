@@ -1,6 +1,7 @@
 import { useEffect, useState, type FormEvent } from "react";
 import type { VblCase } from "../types";
 import { tauriApi, workbenchApi } from "../api";
+import { BundleToolsPanel } from "./BundleToolsPanel";
 
 export function VblCasesPanel({ projectRoot }: { projectRoot: string | null }) {
   const [cases, setCases] = useState<VblCase[]>([]);
@@ -77,5 +78,6 @@ export function VblCasesPanel({ projectRoot }: { projectRoot: string | null }) {
         <h4>Append-only event trail</h4><ol className="case-events">{[...selected.events].reverse().map((event) => <li key={event.eventId}><strong>{event.type}</strong><span>{event.occurredAt} · {event.actor}</span><code>{event.hash}</code></li>)}</ol>
       </>}</div>
     </div>
+    {desktop && <BundleToolsPanel projectRoot={projectRoot} cases={cases} onImported={refresh} />}
   </section>;
 }

@@ -20,7 +20,7 @@ import type {
   VblCase,
 } from "./types";
 
-export interface BundlePreview { valid: boolean; errors: string[]; fileCount: number; caseCount: number; caseIds: string[] }
+export interface BundlePreview { format: string; valid: boolean; errors: string[]; fileCount: number; caseCount: number; caseIds: string[] }
 
 export interface ManifestSeal {
   manifest_path: string;
@@ -150,6 +150,11 @@ export const workbenchApi = {
 
 /** Tauri-based API (standalone desktop app, no separate Node server needed). */
 export const tauriApi = {
+  openFolderPath: async (): Promise<string | null> => {
+    const result = await open({ directory: true, multiple: false });
+    if (Array.isArray(result)) return result[0] ?? null;
+    return result ?? null;
+  },
   openBundleFile: async (): Promise<string | null> => {
     const path = await open({ multiple: false, filters: [{ name: "Atmavictu bundle", extensions: ["json"] }] });
     return typeof path === "string" ? path : null;
@@ -163,10 +168,8 @@ export const tauriApi = {
   },
   readLocalBundle: async (path: string): Promise<string> => readTextFile(path),
   exportProjectBackup: (projectRoot: string, destination: string) => invoke<BundlePreview>("export_project_backup", { projectRoot, destination }),
-  restoreProjectBackup: (bundlePath: string, destination: string, overwrite: boolean) => invoke<BundlePreview>("restore_backup", { bundlePath, destination, overwrite }),
-  previewBundle: (bundlePath: string) => invoke<BundlePreview>("preview_backup", { bundlePath }),
-  previewBackup: (bundlePath: string) => invoke<BundlePreview>("preview_backup", { bundlePath }),
   restoreBackup: (bundlePath: string, destination: string, overwrite: boolean) => invoke<BundlePreview>("restore_backup", { bundlePath, destination, overwrite }),
+  previewBackup: (bundlePath: string) => invoke<BundlePreview>("preview_backup", { bundlePath }),
   exportCaseBundle: (projectRoot: string, caseId: string, destination: string) => invoke<BundlePreview>("export_case_bundle", { projectRoot, caseId, destination }),
   previewCaseImport: (bundlePath: string) => invoke<BundlePreview>("preview_case_import", { bundlePath }),
   importCaseBundle: (projectRoot: string, bundlePath: string) => invoke<BundlePreview>("import_case_bundle", { projectRoot, bundlePath }),

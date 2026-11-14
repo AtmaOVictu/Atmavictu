@@ -100,7 +100,7 @@ export interface TreeEntry {
 }
 
 export type ClaimStatus = "UNVERIFIED" | "SUPPORTED" | "DISPUTED" | "INCONCLUSIVE";
-export interface BundlePreview { valid: boolean; errors: string[]; fileCount: number; caseCount: number; caseIds: string[] }
+export interface BundlePreview { format: string; valid: boolean; errors: string[]; fileCount: number; caseCount: number; caseIds: string[] }
 export interface VblCaseEvent { eventId: string; caseId: string; sequence: number; type: string; occurredAt: string; actor: string; previousHash: string | null; payload: Record<string, unknown>; hash: string; }
 export interface VblCase {
   id: string; title: string; claim: string; reporter: string; status: ClaimStatus; createdAt: string;
