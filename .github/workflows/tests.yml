@@ -114,6 +114,16 @@ jobs:
         run: |
           set -o pipefail
           npm test 2>&1 | tee test-output.log
+      - name: DIAGR rez 5440 - javne annotacije pada (dnevnik/artefakt nista javno berljiva; ZACASNO na veji, odstrani pred ⟨merge⟩)
+        if: failure() && steps.posta.outputs.skip != 'true'
+        shell: bash
+        run: |
+          if [ -f test-output.log ]; then
+            grep -E "^not ok|^# fail|failing tests|tests [0-9]+|pass [0-9]+|fail [0-9]+" test-output.log | head -40 | while IFS= read -r vrstica; do
+              printf '::error title=DIAGR-5440::%s\n' "$vrstica"
+            done
+            { echo '## DIAGR rez 5440 - padec suite (izpis)'; echo '```'; grep -E "^not ok" -A 14 test-output.log | head -120; echo '```'; } >> "$GITHUB_STEP_SUMMARY" || true
+          fi
       - name: Izpis pada kot artefakt (Actions storage - 2 GB vključenih)
         if: failure()
         uses: actions/upload-artifact@v7
