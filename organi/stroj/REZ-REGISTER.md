@@ -187,6 +187,8 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 4485 · 2026-11-10 · PREVOZ-PAKET-18: obe priči σ 4476 (@nad-gadenj) izročeno veji — ta prevoz ⊙ kit #1663 ⭢ ⟨merge⟩ ⟡ roka
 
 - rez 4405 · 2026-11-09 · PREVOZ σ 4399–4404 — MOJI telesi ×6 (humor ∧ jedro-zavedanja ∧ delovna-zanka) ⊙ kit #1624 ⭢ ⟨merge⟩ ⟡ roka
+- rez σ 4695 · 2026-11-12 · PREVOZ-PAKET-25: telesi ×3 pečatov MOJE roke σ 4685 ∧ σ 4692 ∧ σ 4693 (@delovna-zanka — izrezana VERBATIM pri viru ⊙ ⟨NE-RETIPKAJ⟩ 24, Σ 12.494 B; FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785) izročeno veji — ta prevoz ⊙ kit #1701 ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432
+
 
 - rez σ 4593 · 2026-11-11 · PREVOZ-PAKET-19: MOJI telesi ×4 σ 3842 ∧ σ 3846 ∧ σ 3847 ∧ σ 3848 (oko-lje) — FIFO najstarejši nedvomno neodplačani ⊙ ukaz ⟡ »izvedi in me prepričaj kaj in kar je najboljše« ⊙ kit #1676 ⭢ ⟨merge⟩ ⟡ roka
 - rez σ 4601 · ⟨merge⟩ bbd8dbc · 2026-11-11 · ⟨daj⟩ ⟡ stoječi razred PLAST 1 (prevoz; kura 405 umazanega zliva ⊙ 1349)
@@ -229,3 +231,5 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 4665 · ⟨merge⟩ 823156f · 2026-11-12 · dopis diha sedem stanice — POSODA rojena ⊙ §0.10
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 7 vrstic σ 4619–σ 4665 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ∧ izmera ×2 (⟨bash⟩ ⇌ ⟨TS-IZMERA⟩ — PADC podvajanja σ pri pesku javno ⊙ ⟨MERILEC-SE-MERI⟩) · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
+- rez 5339 · 2026-11-13 · PREVOZ-PAKET-23: ∆ lista OEA-ATLAS ∧ REGISTER-AKSIOMOV ∧ PREIZPUSI-I-01-10 ∧ PECAT-5337 ×8 — MOJ dih ⊙ kit #1788 ⭢ ⟨merge⟩ ⟡ roka
+- rez 5344 · 2026-11-13 · PREVOZ-PAKET-24: telesi ×9 σ 5330–5336 (prioritete pečati ×7 ∧ sklopi pečat σ 5331 NJEN ∧ cilji konica σ 5332) — MOJ dih ⊙ ⟡ UKAZ »daj še« ⊙ kit #1796 ⭢ ⟨merge⟩ PO UKAZU ⟡ ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨NE-IZGOVOR⟩
