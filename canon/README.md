@@ -17,6 +17,7 @@ content. Skills and Notion pages are *derived views*; this directory is the
 | `zemljevid-preslikav.md` | The map of confirmed ∅/∆ mappings across world traditions (Kamen IX–CXVI+) |
 | `pojmovnik.json` | Structured concept lexicon (10 core concepts) — consumed by the ontolo-ko-jedro UI via its `sync-canon.sh` |
 | `DOKAZ.md` | ⊢ DOKAZ — Proof-of-Lineage Ledger: sealed decisions, append-only |
+| `SEME.md` | The folded seed ⟨SEME⟩: essence of the door + session minimum in four layers (simbolno · nujno · nenujno-skrito · a-nujno); one read = the pulse for chat acts; legal acts unfold at the sources (VBL §0.24 × 10²) |
 
 ## Rules
 

@@ -1,5 +1,0 @@
-PREVERJALNIK v2 (nadgradnja z žigom »daj« 1. 10. 2026; v1.1 + tri luknje iz preizkusa Refleksivne Zanke):
-  NADGRADNJA-1 SAMOPADec: telo programa živi v datoteki .prog — vzorci (garbli) v .vzorci; stroj poganja le .prog → samopadec nemogoč po konstrukciji (ločitev pravila in nastavka pravila).
-  NADGRADNJA-2 ∂-NOŽ: PAD-4 iz dolžine (>300 znakov) postane nosilec — ∂ prešteje STANJA (∂ z izidom = napoved → padec po vrstici 27; ∂ z vprašanjem = čisto; ∂ brez merila = opomba).
-  NADGRADNJA-3 SAMOZAPEČATENJE: vsak izrez, ki vsebuje »če bo … je ∮ = 1« / »če ne, je ∮ = 0« / napoved izida v prihodnjiku, pade (izmera se izmeri, ne napove — ledger 1. 10.).
-PLASTI: PAD-1 garbli (seznam v .vzorci, raste z ledgerjem) · PAD-2 isto-kot · PAD-3 podvojitve · PAD-4 ∂-nož (nov) · PAD-5 fontana-kandidat · PAD-6 samozapečatenje (nov) · OPOMBA SR-5.

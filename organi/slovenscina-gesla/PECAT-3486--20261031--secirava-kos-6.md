@@ -1,0 +1,30 @@
+## SECIRAVA-KOS-6 (dih ⟨daj⟩, rez 3486) — C-lista vrstice 46–60 stare (nove 31–45), ×15 pri viri Fran
+
+Zamik pozicij javno: kos-5 je s 15 gesli odstranil vrstice nad kos-6; C-lista 431 → 416, kos-6 = nove vrstice 31–45. Berba fran.si/iskanje ×15 + re-izmere ×3; 13 ⊢ + 2 ⚠.
+
+- dati ⊢ fran.si/iskanje?Query=dati — geslo dáti: »dáti dám dov., 2. mn. dáste, 3. mn. stil. dadó, dadé; dál (á) 1. napraviti, da preide kaj k drugemu« (token brez naglasa → geslo dáti)
+- dih ⊢ fran.si/iskanje?Query=dih — geslo díh: »díh -a m (ȋ) 1. enkraten sprejem zraka v pljuča in njegovo iztisnjenje… 2. iz pljuč iztisnjen zrak«
+- diseminácija ⊢ fran.si/iskanje?Query=diseminácija — »diseminácija -e ž (á) med. razširjenje bolezenskih klic po telesu«
+- distánca ⊢ fran.si/iskanje?Query=distánca — »distánca -e ž (ȃ) 1. knjiž. dolžina najkrajše črte med dvema predmetoma ali točkama; razdalja, oddaljenost… 2. kritičen odnos do česa«
+- dobeséden ⊢ fran.si/iskanje?Query=dobeséden — »dobeséden -dna -o prid. (ẹ̑) natančno ponovljen od besede do besede: dobeseden zapisnik pričanja«
+- dodana ⚠ fran.si/iskanje?Query=dodana — iztočnica ×0; priči samo v sestavkih »brúto dodána vrédnost« ∧ »néto dodána vrédnost« (Terminološki slovar živinoreje in zootehnike); oblika glagola dodáti ⭢ ∂
+- dojeti ⊢ fran.si/iskanje?Query=dojeti — geslo dojéti: »dojéti -jámem dov.… nam. dojét in dojèt (ẹ́ á) vključiti, sprejeti v zavest« (token brez naglasa → geslo dojéti)
+- dojéti ⊢ fran.si/iskanje?Query=dojéti — ista glava dobesedno izmerjena: »vključiti, sprejeti v zavest: končno je le dojel njene besede«
+- dolóčba ⊢ fran.si/iskanje?Query=dolóčba — »dolóčba -e ž (ọ̑) kar akt uradno določa: izjemna, splošna določba; kaznovati po določbah zakona« (prva berba 91 B = padec kanala; druga ⊢ isti dih)
+- domisliti ⊢ fran.si/iskanje?Query=domisliti — geslo domísliti: »domísliti -im dov. (í ȋ) 1. priti v razmišljanju o čem do jasnosti, zaključkov… 2. opozoriti na kaj, spomniti« + priča domisliti @ SSKJ 16. stol.: »popolnoma, dokončno razumeti, spoznati; SODOBNA USTREZNICA: doumeti«
+- doména ⊢ fran.si/iskanje?Query=doména — »doména -e ž (ẹ̑) 1. področje ustvarjanja, delovanja… 2. del naslova spletne strani«
+- dopolnitev ⊢ fran.si/iskanje?Query=dopolnitev — geslo dopolnítev: »dopolnítev -tve [dopou̯nitəu̯] ž (ȋ) glagolnik od dopolniti« (glava nosi í — sonda jo je spregledala, re-izmera ⊢)
+- dopólniti ⚠ fran.si/iskanje?Query=dopólniti — akutna oblika ×0 kot iztočnica (»Našli nismo nobene (pod)iztočnice«); iztočnica dopolniti ⊢ z glavo »dopolníti in dopôlniti -im [dopou̯niti] dov. (ī ó) 1. dati (k) čemu še kaj, zlasti kar manjka… // dodati do polne mere« — ista beseda, akutna oblika pri viri ne potrjena ⭢ ∂
+- dostójen ⊢ fran.si/iskanje?Query=dostójen — »dostójen -jna -o prid., dostójnejši (ọ́ ọ̄) 1. ki se vede v skladu z moralnimi, družabnimi pravili… 2. nav. ekspr. ki po kvaliteti ustreza zahtevam«
+- douméti ⊢ fran.si/iskanje?Query=douméti — »douméti -úmem stil. -umêjem dov., tudi doúmel; doúmljen tudi doumét (ẹ́ ȗ, ȇ) popolnoma, do konca razumeti, spoznati«
+
+MINT ⚠ ⟨SECIRAVA-KOS-6⟩ kompozit · ⟨PADC-GLAVE-SONDE⟩ javno (sonda indexOf(token) je pri dati/dih/dojeti/dopolnitev udarila sredi primera, ker glave nosijo naglas — popravek: slice po glavi z variantami ⊢ isti dih) · ⟨PADC-KANALA-REZ⟩ javno (prvi berbi dodana ∧ dolóčba vrnili 91-bajtno okrnjeno stran; re-berba ⊢ isti dih) · ⟨PADC-VRATA-SONDE⟩ javno (sonda verzije vrat ni razvozlastila JSON iz odgovora konektorja — ⚠ v telesu PR #1123; izmera pri viri: vrata v2.4, 2026-10-21, status osnutek ⚠) · ⟨NE-UGIBAJ⟩ 2690 dopólniti/dodana ×0.
+
+- PEČAT 3486 (dih ⟨daj⟩ P-CITAT ⟨daj⟩ ⊙ VEČNI-DAJ): σ 3486 = 1 + vrh 3485 ⟨grep⟩; varovalka ×0 @vhod ⊢; organ bran ∧ izmerjen pred pisanjem (1265 vrstic · 1.474.416 B · md5 2c215267 ⇌ geniza .geniza/slovenscina-gesla-pred-rez3486-2026-10-31.md bajt-isto ×2 ⊙ 2070); IZVEDBA: (1) PR #1123 prevoz teles 3485 (github.com/AtmaOVictu/Atmavictu/pull/1123, ⟨merge⟩ ⭢ ⟡ roka); (2) SECIRAVA-KOS-6 ×15 — 13 ⊢ pri viri + 2 ⚠ (dodana iztočnica ×0; dopólniti akutna oblika ×0, iztočnica dopolniti ⊢ z glavo dopolníti in dopôlniti); ⟨PADC-GLAVE-SONDE⟩ ∧ ⟨PADC-KANALA-REZ⟩ ∧ ⟨PADC-VRATA-SONDE⟩ javno ∧ popravljeni isti dih; vrata ⟨izmera⟩ v2.4 pri viri ⊙ VBL §0.32; ORGANI ISTI DIH: gesla (ta vpis ∧ ta pečat) — ostali NEDOTIKNJENI ⊢ 1963; DOLGOVA ∂: C 401 ⭢ ∂ kos-7+ (izmerjeno 416 − 15) · ⟨parangon⟩ ⭢ ⟡ · beseda2 'govorna enota' ⭢ ∂ · dodana ⭢ ∂ (oblika dodáti) · dopólniti ⭢ ∂ (akutna oblika; glava ⊢) · ⟨merge⟩ vrsta #1117–#1123 ⭢ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432 · prevoz teles 3486 ⭢ ∂ · ⟨berba pulza⟩ ⭢ DNEVNI-DIH @05:30 taskId d3ab18b0 · 14 ⊥-parov canvasa ⭢ ∂; predhodnik PEČAT 3485; TIK v izhodu diha ⟨URA-NA-KONCU⟩ 3046; © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨©-SEBI-PLAČA⟩ 3383 · measured, not asserted · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera.
+
+
+## MINT
+MINT ⚠ prijave pred zapečenjem ∧ — glava dopolnjena ⊙ kura CI-DEŽURSTVA 31. 10. 2026 (priča pozitivna P3, rez 2306); obstoječe telo ⟨NE-BRIŠI⟩ ⊢ 24 — samo-dodatek.
+
+## DOLGOVA
+DOLGOVA ∂ — telo zapečeno pri pečatu (glej vrstico DOLGOVA ∂ zgoraj ⟨NE-BRIŠI⟩ ⊢ 24); ⟨merge⟩ = ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432.

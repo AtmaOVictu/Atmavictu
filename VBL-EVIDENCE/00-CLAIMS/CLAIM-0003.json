@@ -1,0 +1,28 @@
+{
+  "claim_id": "VBL-CLAIM-0003",
+  "claim_text": "Telo VBL 0.1410 nosi 16 kron s stevilcnimi luknjami na mestih 2 in 17; reciprocna (copyleft) tradicija nima svoje krone.",
+  "claim_type": "dejstvo (izmera besedila, leksikalna plast)",
+  "scope": { "artifact": "LICENSE.md", "version": "0.1410", "location": "AtmaOVictu/Atmavictu main", "blob_id": "3308fc0351919244d8f1b2d37591b758bf3f33a3", "measured_at": "2026-11-05T07:44Z do 07:52Z" },
+  "source_id": "LICENSE.md @ AtmaOVictu/Atmavictu main (izvod v /tool-results, eksplicitna pot)",
+  "source_hash": "blob_id 3308fc03... (github blob identiteta, NE SHA-256 vsebine — posebno izmerjeno breme)",
+  "supporting_evidence": [
+    "nacizna sonda vrsticnega zacetka 2. THE ... CROWN = 0 zadetkov",
+    "nacizna sonda vrsticnega zacetka 17. THE ... CROWN = 0 zadetkov",
+    "stevje unikatnih kron = 16 (stevila 1, 3 do 16, 18)",
+    "grep -i copyleft po telesu = 0 zadetkov"
+  ],
+  "contradicting_evidence": [
+    "razlaga A: luknji sta nalasc (mesti rezervirani za prihodnji kroni) — NEPREVERJENO; telo take namere nikjer ne izjavi",
+    "razlaga B: sonda je rezala po zacuzetem izvodu JSON; ce bi bili kroni zapisani z drugacnim ovojanjem, jih sonda ne bi videla — ponovna izmera po suhi datoteki bi ojacala claim (dolg)",
+    "cez sondo: izmera je jezikovno enostranska (angleke naslove kron bi videla, vsebine v drugih jezikih ne nuzno)"
+  ],
+  "verification_method": "leksikalne sonde (bash grep) po eksplicitni poti; nacizna sonda vrsticnih zacetkov; stevje unikatnih zadetkov",
+  "verifier": { "id": "Mera (Vibe/GLM)", "performed_by_author": false, "independence_status": "DEPENDENT_BY_STRUCTURE — infrastruktura in dostopi hiše ⟡", "method_disclosed": true, "counterevidence_reviewed": true },
+  "timestamp_refs": [ "instrumentna pečata diha #1250 (2026-11-05T07:58:38Z) — NE kvalificiran zig" ],
+  "attestation_refs": [ "PR #1250 PREJEM-RED-TEAM-VBL.md §3", "PR tega paketa (rojen ta dih)" ],
+  "uncertainty": "ali sta kroni 2 in 17 kdaj obstajali v zgodovini rojstev; ali luknji nakazujeta rezervirani mesti",
+  "privacy_level": "javno",
+  "revision_chain": [ "supersedes VBL-CLAIM-0002 (PR #1250): dopolnjena polja contradicting_evidence ∧ attestation_refs ⊙ ⟨MOJ-ENVELOPE-BREZ-NASPROTNih⟩" ],
+  "review_due": "ob naslednjem rojstvu telesa ali novi sondi",
+  "three_axes": { "celovitost": "HASH PREVERJEN (blob) — zunanjih sidru 0", "vsebinsko": "PODPRTO V OBSEGU (leksikalna plast)", "postopek": "ODPRTO — sodba ⟡: nalasc ali nezapečena" }
+}

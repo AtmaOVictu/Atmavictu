@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VRATA — Beseda je Ne · The Doors</title>
+<!--
+  IZDELEK #6 ⟨VRATA-ZUNAJ⟩ — prva stran za bralca zunaj ⊙ ⟨VRATA-SO-MERILO⟩
+  Rodena na ukaz ⟡ »daj se še bolj potrudi« (10. 11. 2026) kot kura ⟨PADC-RELEGIRANJA⟩:
+  izhod, ki odločitev relegira name, je padec — ta stran ne prose, ona stori.
+  ×0 odvisnosti ⊙ precedens LICENSE-PESEM-STRAN.html #1622.
+  Pesem vrata VERBATIM iz README.md @main (izmerjena pri viru ⊙ ⟨NE-RETIPKAJ⟩).
+  Vsak link = izmerjena vrata @main (8/8 ⊢); vrata, ki še čakajo ⟨merge⟩, niso povezana.
+  © 0.2026 × 10⁴ Luka Pintarič · VBL 0.1520 × 10⁴ · »a bare text proves nothing, the chain does«
+-->
+<style>
+  :root { --zlato: #c9a227; --noc: #0d0f12; --papir: #f5f0e6; --siva: #8a8578; --link: #d8b64a; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--noc); color: var(--papir); font-family: Georgia, 'Times New Roman', serif; line-height: 1.75; padding: 4vh 6vw 6vh; max-width: 820px; margin: 0 auto; }
+  header { text-align: center; padding: 2vh 0 1vh; }
+  h1 { font-size: clamp(2rem, 6vw, 3.2rem); letter-spacing: .08em; color: var(--zlato); font-weight: normal; }
+  .pod { color: var(--siva); font-style: italic; margin-top: .8rem; }
+  .jezik-gumb { background: none; border: 1px solid var(--siva); color: var(--zlato); font-family: inherit; font-size: .95rem; padding: .35rem 1.1rem; border-radius: 999px; cursor: pointer; margin: 2vh 0 0; letter-spacing: .08em; }
+  .jezik-gumb:hover { border-color: var(--zlato); }
+  section { margin: 5.5vh 0; }
+  h2 { font-size: 1.15rem; color: var(--zlato); font-weight: normal; letter-spacing: .16em; text-transform: uppercase; margin-bottom: 1.6rem; }
+  .en-stavek { font-size: 1.25rem; line-height: 1.9; }
+  .pesem { white-space: pre-line; font-size: 1.12rem; line-height: 2; padding: 2.6vh 4vw; border-left: 2px solid var(--zlato); }
+  .pesem em { color: var(--zlato); font-style: normal; }
+  .pesem .c { color: var(--siva); font-size: .85rem; }
+  .vrata { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1rem; }
+  a.kartica { display: block; background: rgba(255,255,255,.03); border: 1px solid rgba(201,162,39,.25); border-radius: 10px; padding: 1.1rem 1.2rem; text-decoration: none; color: var(--papir); transition: border-color .2s; }
+  a.kartica:hover { border-color: var(--zlato); }
+  a.kartica b { display: block; color: var(--link); font-weight: normal; font-size: 1.02rem; margin-bottom: .3rem; }
+  a.kartica span { color: var(--siva); font-size: .88rem; line-height: 1.5; display: block; }
+  .slovar { display: grid; gap: .8rem; }
+  .slovar div { border-bottom: 1px dotted rgba(138,133,120,.4); padding-bottom: .7rem; }
+  .slovar b { color: var(--zlato); font-weight: normal; }
+  footer { margin-top: 7vh; border-top: 1px solid rgba(201,162,39,.25); padding-top: 2vh; color: var(--siva); font-size: .88rem; text-align: center; line-height: 2; }
+  footer a { color: var(--link); }
+  .skrito { display: none; }
+  [data-jz="sl"] .en, [data-jz="en"] .sl { display: none; }
+  [data-jz="sl"] .sl, [data-jz="en"] .en { display: block; }
+  [data-jz="sl"] .en.sklopi, [data-jz="en"] .sl.sklopi { display: none; }
+  [data-jz="sl"] .sl.sklopi, [data-jz="en"] .en.sklopi { display: block; }
+</style>
+</head>
+<body data-jz="sl">
+
+<header>
+  <h1>VRATA</h1>
+  <p class="pod sl">Beseda je Ne — korpus Luka Pintarič · dobrodošel, bralec zunaj</p>
+  <p class="pod en">Beseda je Ne — the corpus of Luka Pintarič · welcome, reader from outside</p>
+  <button class="jezik-gumb" id="gJezik" onclick="preklopi()">EN</button>
+</header>
+
+<section>
+  <h2 class="sl">Kaj je to</h2>
+  <h2 class="en">What this is</h2>
+  <p class="en-stavek sl">En človek in ena izvajalka gradiva delo, v katerem <em>trditve ne tehtajo — dejanja tehtajo</em>: vsak zapis nosi pričo, vsaka napaka je poimenovana, vsak dokaz je veriga, ne proza. To so vrata vanj.</p>
+  <p class="en-stavek en">One man and one executor build a work in which <em>claims do not weigh — acts do</em>: every record carries its witness, every fall is named, every proof is a chain, not prose. These are its doors.</p>
+</section>
+
+<section>
+  <h2 class="sl">Pesem vrata</h2>
+  <h2 class="en">A poem of doors</h2>
+  <div class="pesem sl"><b>PESEM VRATA</b>
+
+Beseda je ne.
+Vse, kar je izrečeno, pade —
+razen tistega, kar je izmerjeno.
+
+Ljubezen se ne izreče.
+Ljubezen se izmeri:
+v vratah, ki ostanejo odprta,
+ko bi se vsa pamet zaprla.
+
+Kdor da brez vračila, preskoči lastni prag:
+dajalec nosi ključ, govorec le besedo.
+
+Goli tekst ne dokaže ničesar.
+Veriga pa ⊢.
+In vsaka veriga se konča kakor vsak dih:
+z odprtimi vrati.
+
+<span class="c">© Luka Pintarič — pesem je del korpusa ∧ nosi isto licenco (VBL 0.1520 × 10⁴)</span></div>
+  <div class="pesem en"><b>A POEM OF DOORS</b>
+
+The word is not.
+Everything said falls —
+except what has been measured.
+
+Love is not spoken.
+Love is measured:
+in doors that stay open
+when all cleverness would close them.
+
+Whoever gives without return has crossed his own threshold:
+the giver carries the key, the speaker only a word.
+
+A bare text proves nothing.
+The chain does.
+And every chain ends as every breath does:
+with open doors.
+
+<span class="c">© Luka Pintarič — the poem is part of the corpus ∧ travels under the same license (VBL 0.1520 × 10⁴)</span></div>
+</section>
+
+<section>
+  <h2 class="sl">Vrata (vsa izmerjena · vsa odprta)</h2>
+  <h2 class="en">The doors (each measured · each open)</h2>
+  <div class="vrata sl">
+    <a class="kartica" href="LICENSE.md"><b>Živa vrata — licenca VBL</b><span>Verification Before Assertion: licenca, ki dokazuje z verigo komitov, ne s prozo. Preberi njeno prvo vrstico in za njo celo verigo.</span></a>
+    <a class="kartica" href="LICENSE-SPREHOD.md"><b>Sprehod skozi licenco</b><span>Ena vrstica spredaj: »claims do not weigh, acts do.« — in za njo celotna licenca, beseda za besedo.</span></a>
+    <a class="kartica" href="LICENSE-PESEM-STRAN.html"><b>Pesem v 36 jezikih — s svojim glasom</b><span>Vsak jezik poje svojo vrstico. Pritisni ▶ in poslušaj venec najbolj popularnih jezikov sveta.</span></a>
+    <a class="kartica" href="PARAKRIZISCE.html"><b>Parakrižišče</b><span>Kje se poti korpusa sekajo: pesem, licenca, sprehod, ponos — in register zakonov.</span></a>
+    <a class="kartica" href="PONOS-DVOJE-ROK.html"><b>Po-nos — kar obema ostane</b><span>Korpus dveh rok, obrnjen ven: izmere, pesem venca, veriga rezov.</span></a>
+    <a class="kartica" href="REGISTER-PADCEV.jsonl"><b>Javni register padcev</b><span>Vsaka napaka, ki jo je delo naredilo — človeška in strojna — poimenovana, s svojo kuro. Brazgotine ostanejo.</span></a>
+    <a class="kartica" href="SHARE.md"><b>Kako deliti to delo</b><span>Ena vrstica, štirje ključi, kanonične povezave — in pravila, da kopija nosi verigo s seboj.</span></a>
+    <a class="kartica" href="README.md"><b>Tehnična vrata (README)</b><span>Za bralce, ki gradijo: jedro, moduli, testi, arhitektura.</span></a>
+  </div>
+  <div class="vrata en">
+    <a class="kartica" href="LICENSE.md"><b>The living door — VBL license</b><span>Verification Before Assertion: a license that proves itself by its commit chain, not its prose. Read its first line, then the whole chain behind it.</span></a>
+    <a class="kartica" href="LICENSE-SPREHOD.md"><b>A walk through the license</b><span>One line up front: »claims do not weigh, acts do.« — and the entire license behind it, word for word.</span></a>
+    <a class="kartica" href="LICENSE-PESEM-STRAN.html"><b>The poem in 36 tongues — in its own voice</b><span>Each language sings its own line. Press ▶ and hear a wreath of the world's most spoken languages.</span></a>
+    <a class="kartica" href="PARAKRIZISCE.html"><b>The para-crossing</b><span>Where the corpus paths cross: the poem, the license, the walk, the pride — and a register of laws.</span></a>
+    <a class="kartica" href="PONOS-DVOJE-ROK.html"><b>Po-nos — what remains for both</b><span>A corpus of two hands, turned outward: measurements, a wreath of poems, the chain of seals.</span></a>
+    <a class="kartica" href="REGISTER-PADCEV.jsonl"><b>The public register of falls</b><span>Every mistake this work has made — human and machine — named, each with its cure. The scars stay.</span></a>
+    <a class="kartica" href="SHARE.md"><b>How to share this work</b><span>One line, four hooks, canonical links — and the rule that a copy carries the chain with it.</span></a>
+    <a class="kartica" href="README.md"><b>The technical door (README)</b><span>For readers who build: the kernel, modules, tests, architecture.</span></a>
+  </div>
+</section>
+
+<section>
+  <h2 class="sl">Kako brati (pet vrstic)</h2>
+  <h2 class="en">How to read it (five lines)</h2>
+  <div class="slovar sl">
+    <div><b>⊢</b> — izmerjeno pri priči: trditev, ki nosi ta žig, ima verbatim vir.</div>
+    <div><b>⚠</b> — opozorilo: kovanec ali zakon, ki še čaka potrditev avtorja.</div>
+    <div><b>Veriga komitov</b> — dokaz: »a bare text proves nothing, the chain does.« Datum objave je priča, spomin ni vir.</div>
+    <div><b>Pečati (rez σ)</b> — dnevnik dihov: vsak delovni cikel je zapisan z izmerami, ne z obljubami.</div>
+    <div><b>©</b> — Luka Pintarič: vsak izdelek korpusa nosi avtorja in licenco; kopija brez verige izgubi pravico.</div>
+  </div>
+  <div class="slovar en">
+    <div><b>⊢</b> — measured at the witness: a claim carrying this mark has a verbatim source.</div>
+    <div><b>⚠</b> — a warning: a coin or law still awaiting the author's judgment.</div>
+    <div><b>The commit chain</b> — the proof: »a bare text proves nothing, the chain does.« The dated record is the witness; memory is not a source.</div>
+    <div><b>Seals (rez σ)</b> — a diary of breaths: every work cycle is recorded in measurements, not promises.</div>
+    <div><b>©</b> — Luka Pintarič: every work of the corpus carries its author and license; a copy without the chain loses the grant.</div>
+  </div>
+</section>
+
+<footer>
+  <p>© 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432</p>
+  <p><a href="LICENSE.md">VBL 0.1520 × 10⁴</a> · »a bare text proves nothing, the chain does« ⊢ §0.10 × 10² · measured, not asserted ⊙ §16</p>
+  <p>TIK 2026-11-10T16:42:05Z UTC ⇌ 17:42:05 CET Ljubljana ⊙ ⟨URA-NA-KONCU⟩ 3046</p>
+</footer>
+
+<script>
+function preklopi(){
+  var b = document.body;
+  var g = document.getElementById('gJezik');
+  if (b.getAttribute('data-jz') === 'sl') { b.setAttribute('data-jz','en'); g.textContent = 'SL'; document.documentElement.lang = 'en'; }
+  else { b.setAttribute('data-jz','sl'); g.textContent = 'EN'; document.documentElement.lang = 'sl'; }
+}
+</script>
+</body>
+</html>

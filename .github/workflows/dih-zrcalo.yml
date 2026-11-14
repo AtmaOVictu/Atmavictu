@@ -1,8 +1,11 @@
 name: DIH-ZRCALO — telesi dihov v rep (nedelja, 04:30 UTC)
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '30 4 * * 0'
+  # PREMIK-2026-10-28: organi/ je odšel v zasebni ontolo-ko-jedro — urnik umaknjen,
+  # da zrcalo ne seje organi/ nazaj na javni ⟨main⟩ vsako nedeljo.
+  # Preselitev zrcala teles dihov v zasebni rep ⭢ ∂ ⚔ ⟡.
+  # schedule:
+  #   - cron: '30 4 * * 0'
 
 permissions:
   issues: read

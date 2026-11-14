@@ -1,0 +1,6 @@
+{
+  "revision_history": "vecna — git veriga; popravki so novi dogodki, starih se ne prepisuje (§0.67)",
+  "personal_data": "v paketu jih ni (glej access-policy); rok hrambe nastane ob prvem vpisu",
+  "crypto_anchors": "instrumentni pečati izvrjajo po — zunanjih sidru 0 (QTS/log) — dolg §0.69",
+  "review_due": "ob naslednjem rojstvu"
+}
