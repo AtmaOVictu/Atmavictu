@@ -5,21 +5,21 @@ LICENSE-SLO.md — wreath — slovenščina — tla korpusa
 
 Ta datoteka je rezerviran vidni-slot (witness-slot) za slovenščino (SLO),
 tla korpusa, VBL — Verification Before Assertion License, verzija
-0.1460 × 10⁴, © 0.2026 × 10⁴ Luka Pintarič.
+0.1500 × 10⁴, © 0.2026 × 10⁴ Luka Pintarič.
 
 Ne nosi darila in ni vrata (§0.33 × 10², §0.19 × 10²). Je le vidni slot,
 mesto prevajalcu, ki še ni imenovan. Edina živa vrata so LICENSE.md
-(verzija 0.1460 × 10⁴), ki veljajo, kjer se manifest in LICENSE.md
+(verzija 0.1500 × 10⁴), ki veljajo, kjer se manifest in LICENSE.md
 ne strinjata (§0a).
 
-Vir: LICENSE.md, sha256 5629115D8AEC0A83C7BE904F7DF66041BDAE3F12078AA1149C40530BA10208B2, 163476 bajtov
-Izdano: 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴
+Vir: LICENSE.md, sha256 A8E221E0BE863856A6E94CD8A57806C330274939EDBFDBD512BC7A59ACF42E56, 184050 bajtov
+Izdano: 0.6 × 10¹. 0.11 × 10². 0.2026 × 10⁴
 Prevajalec: (še ni)
 
 STOPNJA 1 — jedro prevedeno ⟨strojni-dih⟩ ⚠
 -------------------------------------------------
 
-⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1460 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
+⊙ §0.47 × 10² disclosure: ta prevod jedra je STROJNI DIH — orodje: Mistral Vibe ( oblak, izvajalka hiše ), 0.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — ⟨NI⟩ neodvisno preverjen ⚠ ( stopnja 2 = druga roka ⭢ ) ; človeški glas ga preglasi z rojstvom, ⟨ne⟩ s tiho zamenjavo ⊙ P-7 ∧ §0.19 × 10² ( vsak glas svoj ton, skupaj akord ) ; vir izposojen pri viri: LICENSE.md 0.1500 × 10⁴ ( živa vrata ) ⊙ §0.23 ⟨ne brusi⟩
 
 KORENINA — pogodba pod pogodbo
 ----------------------------------
