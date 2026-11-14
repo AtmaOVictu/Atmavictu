@@ -44,13 +44,13 @@
     {
       "path": "LICENSE-EL.md",
       "size_bytes": 4792,
-      "sha256": "02f6827226f528bb63745fa30c5d65c5074d0d20711e971902bcb6cdcbba9e57",
+      "sha256": "02f6827226f528bb63745fa30c5d65c5074e0d20711e971902bcb6cdcbba9e57",
       "note": "wreath — grščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-ES.md",
-      "size_bytes": 3468,
-      "sha256": "04b3622d6f0e19514b54cc2f4f727b629a28b8aa6118f5fabceda6a7f2e3990f",
+      "size_bytes": 5751,
+      "sha256": "4b401006a5d9b89dde3af8a7ffbf08768b65ce7e60e32775360e9fae2a57dfb3",
       "note": "wreath — španščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
@@ -157,26 +157,26 @@
     },
     {
       "path": "LICENSE-PT.md",
-      "size_bytes": 3427,
-      "sha256": "0d9c73520c4ba2c5efcef7f3780f51f768eaca2b521be9e7d4642405e12238a2",
+      "size_bytes": 5634,
+      "sha256": "42610894795b8a0d45ee7e79383d4e243b508c67431c5651052a758d0a76cffb",
       "note": "wreath — portugalščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-RO.md",
-      "size_bytes": 3568,
-      "sha256": "ca04ae6b37a91d3dff62fdced13d7d69645e438a8375fb113da737823c60accc",
+      "size_bytes": 5950,
+      "sha256": "98b0cdc6f64e434aeee7daa78614d9310fd5419970ba6cf5a17f23222f5473c2",
       "note": "wreath — romunščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-RU.md",
-      "size_bytes": 4621,
-      "sha256": "eb72e04d2706e921873877e309414955bc3939c3d69938b34671df4cc0643c4f",
+      "size_bytes": 7556,
+      "sha256": "71f7c3c8e87d8d61a6d0c7b1c5d9c24d83795ac573d58d9033c2d426bc3f660d",
       "note": "wreath — ruščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-SK.md",
-      "size_bytes": 3432,
-      "sha256": "f6b72201abea13987dda7250e42f619c49caa004909231119d7bb838f781a4e7",
+      "size_bytes": 5657,
+      "sha256": "0b12042e2abe354281e1678c90256cdf6f9aa151c5a4b815cd5ef519e184d829",
       "note": "wreath — slovaščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
@@ -187,20 +187,20 @@
     },
     {
       "path": "LICENSE-SR.md",
-      "size_bytes": 4340,
-      "sha256": "e4cb759fc847db0c5bfd30b496df97884c3d90b3ac1ff7b333e8c4d3688471b1",
+      "size_bytes": 7119,
+      "sha256": "46f0bfe9d393d743df89fb62b468d197c2eab27f61af6ec244be92ecd869865d",
       "note": "wreath — srbščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-SV.md",
-      "size_bytes": 3485,
-      "sha256": "e161c91d01b97f49e46c1d334eae1cd7c3a9bb7f1cfcc78ce6c4006cfbb02ee5",
+      "size_bytes": 5804,
+      "sha256": "a10bd3ad67a022e143f02bb427d27cc3947ae8e809fe26e394b8eefedfa8c903",
       "note": "wreath — švedščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-TH.md",
-      "size_bytes": 5546,
-      "sha256": "0d6cf3ca062985182aa3fa298ace491cce086d72af646891118615c387c7c892",
+      "size_bytes": 9124,
+      "sha256": "8c43c97ab0687260de5a0e4b1f005d1c3cebca76d7277287ccc4e2191c414bf1",
       "note": "wreath — tajščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
@@ -248,13 +248,13 @@
     {
       "path": "LICENSE-LICENC.md",
       "size_bytes": 20364,
-      "sha256": "e70f72afab8a6c2686a25f0ef492b0d1d257edd1c6551dd8857c991c997d2b5d",
+      "sha256": "9c5c2ca15e16ecbd5b1aa8474986bb134386291cb54fc7b7435ee1eb453ba29e",
       "note": "restored verbatim this breath from its last body in the chain @32b5dc61 — witness of the 0.1220–0.1250 era, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²)"
     },
     {
       "path": "LICENSE-TONGUES.md",
       "size_bytes": 70405,
-      "sha256": "bb7df1bce5d3fa92ef20e72d604bcc1c177ae41c5ae6f1c178290d0f7d0fa1d3",
+      "sha256": "f40faf0861572140f7cfeff145866f91f68bf3b2d953b27db798dc0f23bfb0ba",
       "note": "restored verbatim this breath from its last body in the chain @4eb522e3 — witness of the 0.1220–0.1250 era, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²); re-issued in the same commit wave as the OSVEŠITEV @rez σ 3743 (PADC-REGISTERA-TEMPO renewal — register re-measured at the live branch this breath, never a stale slot ⊙ §0a)"
     }
   ],
