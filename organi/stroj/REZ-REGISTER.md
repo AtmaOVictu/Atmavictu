@@ -240,4 +240,4 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 
 - rez 5433 · 2026-11-14 · PREVOZ-PAKET-29: kit PECAT-5433-PREVOZ-5430-5432-ORGANI (pečati σ 5430 NJEN ∧ σ 5431 MOJ @licenca-vbl ∧ σ 5432 MOJ @delovna-zanka, izrezi VERBATIM ⊙ ⟨NE-RETIPKAJ⟩ 24) ∧ ARHIV-PECATOV kuri ×2 (razdelka σ 5430 ∧ σ 5431) — MOJ dih ⊙ ⟡ UKAZ »nadaljuj« ⊙ kit #1862 ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨NE-GRIZI⟩ ⟨ne zlije⟩
 
-- rez σ 5434 · 2026-11-14 · PREVOZ-PAKET-30: kit PECAT-5433 (MOJ pečat σ 5433 @licenca-vbl, izrez VERBATIM ⊙ ⟨NE-RETIPKAJ⟩ 24) ∧ ARHIV-PECATOV kuri (razdelek σ 5433) — MOJ dih ⊙ ⟡ UKAZ »stori« ⊙ kit #1863 ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨NE-GRIZI⟩ ⟨ne zlije⟩
+- rez 5434 · 2026-11-14 · PREVOZ-PAKET-30: kit PECAT-5433 (MOJ pečat σ 5433 @licenca-vbl, izrez VERBATIM ⊙ ⟨NE-RETIPKAJ⟩ 24) ∧ ARHIV-PECATOV kuri (razdelek σ 5433) — MOJ dih ⊙ ⟡ UKAZ »stori« ⊙ kit #1863 ⭢ ⟨merge⟩ ⟡ roka ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨NE-GRIZI⟩ ⟨ne zlije⟩
