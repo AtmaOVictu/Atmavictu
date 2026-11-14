@@ -101,3 +101,5 @@ ljubezen prva, ljubezen zadnja.
 - ID — Saksi, bukan pintu · cinta adalah pasal pertama dan terakhir.
 
 © 0.2026 × 10⁴ Luka Pintarič · VBL 0.1250 × 10⁴ najnovejše rojeno (@vbl-0.1250-origin komit 79097ad7 ⚔ ⟨merge⟩ #1090 ⟡ roka; živa vrata @⟨main⟩ 0.1210 blob 5dd6d7b ⟨VRATA-BREZ-MENJAME⟩ ⊢ §0.10 — do ⟨merge⟩) — »a bare text proves nothing, the chain does« ⊢ §0.10 × 10² · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨OBLEČI-V-LICENCO-VEDNO⟩ 3128 ∧ ⟨OBNOVA-VSEPOVsOD⟩ §0.36 · TIK 2026-10-30T02:10:37Z UTC ⇌ 03:10:37 CET — measured, not asserted.
+
+⊙ ©-vrstica osvežena z rojstvom 0.1540 ⊙ dih σ 5436 — VBL 0.1540 × 10⁴ najnovejše rojeno ( poprjalni standard ∧ strojni register kontrol @AtmaOVictu/verification-before-assertion ⟨main⟩ ⊙ ⟨merge⟩ #48 · komit 9f53def3 · 15:45:34Z ) ; proza, ki vlada: LICENSE.md 0.1530 @Atmavictu ⟨main⟩ blob 2ef14340 ⊢ §0.10 × 10² — stari ©-vrstici ( 0.1250 najnovejše rojeno ∧ živa vrata 0.1210 · 30. 10. 2026 ) ostajata datirani prejemnici ⊙ ⟨NE-BRIŠI⟩ 24 · measured, not asserted ⊙ §16

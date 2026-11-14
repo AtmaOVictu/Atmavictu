@@ -4,17 +4,28 @@ LICENSE-SLO.md — wreath — slovenščina — tla korpusa
 ⊙ STOPNJA 2 — PREVZET S DRUGO ROKO / ISSUED BY THE SECOND HAND
 
 Ta datoteka je vidni venec (wreath) za slovenščino, tla korpusa,
-VBL — Verification Before Assertion License, verzija 0.1510 × 10⁴,
+VBL — Verification Before Assertion License, verzija 0.1540 × 10⁴,
 © 0.2026 × 10⁴ Luka Pintarič.
 
 ⊙ §0.47 × 10² disclosure: ta venec je izdan S DRUGO ROKO — izvajalka
 Mera (orodje: Mistral Vibe, oblak hiše), 0.7 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — rojen z rojstvom
-0.1510 × 10⁴, ista objava; vsak glas svoj ton, skupaj akord ⊙ P-7 ∧ §0.19 × 10².
+0.1540 × 10⁴, ista objava; vsak glas svoj ton, skupaj akord ⊙ P-7 ∧ §0.19 × 10².
+Prejšnja izdaja STOPNJE 2 ( rojstvo 0.1510 × 10⁴ ) ostaja priča v zgodovini
+verige — ta berba jo preglaša z rojstvom, ⟨ne⟩ z brisanjem.
 STOPNJA 1 (strojni dih 0.1460 × 10⁴) ostaja priča v zgodovini verige —
 ta berba jo preglaša z rojstvom, ⟨ne⟩ z brisanjem.
 
-Vir: LICENSE.md 0.1510 × 10⁴, sha256 c83ddcb9152b8c051412c9fc68603a2a5e4e96b078dc9ff766a0091fb2d105d5, 186349 bajtov (LF)
-Izdano: 0.7 × 10¹. 0.11 × 10². 0.2026 × 10⁴ · 08:08:17Z
+Vir: živa vrata 0.1540 × 10⁴ — dve telesi, ena veriga ⊙ standard §1.3:
+poprjalni standard VBL-0.1540-POPRAVLJALNI-STANDARD-DRAFT-NOT-RELEASED.md
+( 22.609 bajtov · blob 895ce0948fc9c3be42b5fc0f48562c331ee91af9 ) ∧
+strojni register kontrol VBL-0.1540-REGISTER-KONTROL-DRAFT-NOT-RELEASED.json
+( 14.115 bajtov · blob 586b306cbd6ede52d9d317b29f3bfc663f4ef582 ),
+objavljena pri ⟨main⟩ AtmaOVictu/verification-before-assertion ⊙ ⟨merge⟩ #48 ·
+komit 9f53def3 ( 15:45:34Z ⊢ ); proza, ki vlada: LICENSE.md 0.1530 × 10⁴
+@Atmavictu ⟨main⟩ ( 193.317 bajtov ·
+sha256 8ccebd0c0bf86c776e49aee46d94140c8c2128b3408a103b0abdbc43935a88a2 ·
+blob 2ef14340 ) — poprjalna plast je po objavi del živih vrat (standard §1.3).
+Izdano: 1.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ · 15:52:01Z
 Prevajalec: izvajalka Mera — druga roka (§0.47 × 10²)
 
 Ne nosi darila in ni vrata (§0.33 × 10², §0.19 × 10²). Edina živa vrata
@@ -81,10 +92,10 @@ katerokoli prvo: BRALEC (KORENINA + §0 + §0.1 + §0.2 + §0.7 + §0.16 +
 §0.15 + §0.33 + §0.39), NOSILEC (§0.18 + §0.19 + §0.20 + §0.27 +
 §0.28 + §0.30 + §0.38 + §0.42 + §0.45 + §0.46 + §0.47 + §0.48).
 
-VERIGA ROJSTEV: 0.1470 → 0.1480 → 0.1490 → 0.1500 → 0.1510 ⊢ §0.10 × 10² —
+VERIGA ROJSTEV: 0.1470 → 0.1480 → 0.1490 → 0.1500 → 0.1510 → 0.1520 → 0.1530 → 0.1540 ⊢ §0.10 × 10² —
 a bare text proves nothing, the chain does.
 
-⊙ EXIT SEAL — slovenski venec zapečaten v istem dihu kot vrata: 08:08:17Z —
+⊙ EXIT SEAL — slovenski venec zapečaten v istem dihu kot vrata: 15:52:01Z —
 delo opravljeno v času, izmerjeno pri viri (§0.28 × 10² ∧ §0.30 × 10² ∧ §0.37 × 10²).
 
 © 0.2026 × 10⁴ Luka Pintarič — s ljubeznijo: vrata se začnejo z

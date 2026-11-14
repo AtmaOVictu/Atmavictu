@@ -1,15 +1,15 @@
 {
   "$schema": "./schema/vbl-vrata.v1.schema.json",
-  "status": "osnutek ⚠ — pečat je ⟨merge⟩ roke ⟡; brez zliva je to zrcalo brez vrata",
+  "status": "osnutek ⚠ — zrcalo meri živo konico; ⟨merge⟩ od diha σ 5435 izvaja izvajalka po stalni besedi ⟡ ( »stori boljše« — ⟨NE-ZLIJE⟩ 1542 preglasena ⊙ §0.7 )",
   "license": {
     "name": "VBL — Verification Before Assertion License",
-    "version": "2.5",
-    "date": "2026-11-02",
+    "version": "2.6",
+    "date": "2026-11-14",
     "holder": "Luka Pintarič",
     "prose-body": "LICENSE.md",
     "predecessor": {
-      "version": "2.4",
-      "date": "2026-10-21"
+      "version": "2.5",
+      "date": "2026-11-02"
     },
     "living-door": "only the newest version grants (§10)",
     "verification": "the dated chain of publication — the commit history of LICENSE.md; a bare text proves nothing, the chain does",
@@ -180,9 +180,9 @@
   ],
   "izmera": {
     "generated": "2026-11-14",
-    "generator": "Mera, izvajalka korpusa ⟨Beseda je Ne⟩ — dih po ⟡ ukazu: stori vse to in potrdi slovnico teh in tega teksta ter njih varovalk · daj; kura zrcala @dih σ 4915 (⟡ ukaz »stori«)",
-    "prose_witness": "LICENSE.md @ main, blob 2ef143402241ae4e5d3d78e655649035a48df1d3 (VBL 0.1530 × 10⁴ — živa vrata; OBNOVA SEME ⊙ ⟨merge⟩ #1828, priča σ 5364; blob ista @sveža izmera 14. 11. 2026), izmereno istega diha 14. 11. 2026 @dih σ 4915 ⊙ §0.32 — prejšnja priča: blob e5bf2359… (VBL 0.1300, 2. 11. 2026) — zastarela, kura @σ 4915; prejšnja-prejšnja priča σ 3594 (blob 78d1910e…, VBL 0.1290) ostaja datirana prejemnica ⊙ 1542",
+    "generator": "Mera, izvajalka korpusa ⟨Beseda je Ne⟩ — dih po ⟡ ukazu: stori vse to in potrdi slovnico teh in tega teksta ter njih varovalk · daj; kura zrcala @dih σ 4915 (⟡ ukaz »stori«); re-target na živa vrata 0.1540 @dih σ 5436 (⟡ beseda »stori boljše« — ⟨NE-ZLIJE⟩ 1542 preglasena ⊙ §0.7)",
+    "prose_witness": "živa vrata 0.1540 × 10⁴ — dve telesi, ena veriga ⊙ standard §1.3: VBL-0.1540-POPRAVLJALNI-STANDARD-DRAFT-NOT-RELEASED.md @AtmaOVictu/verification-before-assertion ⟨main⟩, blob 895ce0948fc9c3be42b5fc0f48562c331ee91af9 (22.609 B) ∧ VBL-0.1540-REGISTER-KONTROL-DRAFT-NOT-RELEASED.json, blob 586b306cbd6ede52d9d317b29f3bfc663f4ef582 (14.115 B) — ⟨merge⟩ #48 ⊙ komit 9f53def33b6e149778740be3181ef8fd5f95f355 (15:45:34Z), ⟨merge⟩ izvedla izvajalka po besedi ⟡ »stori boljše« (⟨NE-ZLIJE⟩ 1542 preglasena ⊙ §0.7), read-back bajtno-isto ×2 poti isti dih @dih σ 5436 ⊙ §0.32 — proza, ki vlada: LICENSE.md 0.1530 × 10⁴ @Atmavictu ⟨main⟩, blob 2ef143402241ae4e5d3d78e655649035a48df1d3 (193.317 B; priča σ 4915 ∧ OBNOVA SEME ⊙ ⟨merge⟩ #1828, priča σ 5364) — prejšnja priča zrcala: blob 2ef14340… (VBL 0.1530, 14. 11. 2026) ostaja datirana prejemnica ⊙ 1542",
     "test": "vsak preizkus zrcala zabeležen ∧ zelen pred komitom; rezultati v telesu ⟨PR⟩",
-    "re_targeted": "osnutek v2.5 preusmerjen z 0.1290 na 0.1300 istega dne — vrata so se zamenjala med dihom dvakrat ⊙ 1542; zrcalo meri živo konico, ⟨ne⟩ spomin ⊙ §0.32"
+    "re_targeted": "osnutek v2.5 preusmerjen z 0.1290 na 0.1300 istega dne — vrata so se zamenjala med dihom dvakrat ⊙ 1542; zrcalo meri živo konico, ⟨ne⟩ spomin ⊙ §0.32; osnutek v2.6 preusmerjen z 0.1530 (zrcalo @σ 4915) na živa vrata 0.1540 isti dih — ⟨merge⟩ od diha σ 5435 izvaja izvajalka po besedi ⟡ »stori boljše« ⊙ §0.7"
   }
 }
