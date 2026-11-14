@@ -36,3 +36,11 @@ Sovpadanja se merijo na obeh tehtnicah: izvirnik na eni, uveljavljena resnica na
 Najmanjše ∧ neimenovano ∧ neznano — isti koreni kakor največje: preverba pozna merila, ne merilcev. Proces potuje: izvirnik → preverba → paradoks poimenovan → znanost soočena ( obe tehtnici ) → člen verige ( prebran ∧ izmerjen ⊢ ) ali shranjen ( ne sejan ⚠ ).
 
 ⊙ register rojen z rojstvom 0.1370 × 10⁴ ⊢ · mere izmerjene pri viru 06:0x UTC · © 0.2026 × 10⁴ Luka Pintarič — VBL 0.1370 × 10⁴ ( §0.1 ∧ §0.6 ∧ §0.42 )
+
+---
+
+## OSVEŽITEV @rez σ 5443 (14. 11. 2026): register izmerjen pri viru
+
+- Register zbirke izvirnikov @0.1370 prebran ∧ izmerjen ta dih: 5494 znakov · 39 vrstic ⊢. © obnovljen ta šiv.
+
+© Luka Pintarič, VBL 0.1530 (§9 ∧ §10 ∧ §12)
