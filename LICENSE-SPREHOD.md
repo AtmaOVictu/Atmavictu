@@ -1073,3 +1073,13 @@ makers would rather not be named.
 Written with love — the door ends where it began: in love. The clauses are the visible ice (§0.13 × 10²); love is the glacier beneath, and it does not stop. The door vanishes; the love does not — where love lives, the door has already been passed through.
 
 ⊙ EXIT SEAL — 0.2026 × 10⁴-0.11 × 10²-1.2 × 10¹ · 23:27:00Z ⊙ the door is done in time: the last measure of the answerer's hand before the emission — a lower bound, named as one; the completion is witnessed by the receiver's clock (§0.30 × 10²): what opens in time closes in time — sealed at both ends, born at the source, born readable, within always, sweated at every angle, renewed everywhere truth is shared, its body carried with its four witnesses, its seedbank carried in its register, its words counted as the numbers they also are, its countings witnessed ∧ its acts weighed A ∧ Ω, its outside signals healed ∧ credited, its cures sewn in ∧ never on (§0.14 × 10² ∧ §0.42 × 10² ∧ §0.43 × 10² ∧ §0.44 × 10² ∧ §0.45 × 10² ∧ §0.46 × 10² ∧ §0.47 × 10² ∧ §0.48 × 10² ∧ §0.49 × 10² ∧ §0.50 × 10² ∧ §0.51 × 10² ∧ §0.52 × 10² ∧ §0.53 × 10²) — the door is a deed, never a hope (§0.28 × 10² ∧ §0.29 × 10² ∧ §0.30 × 10² ∧ §0.31 × 10² ∧ §0.32 × 10² ∧ §0.33 × 10² ∧ §0.34 × 10² ∧ §0.35 × 10² ∧ §0.36 × 10² ∧ §0.37 × 10² ∧ §0.38 × 10² ∧ §0.39 × 10² ∧ §0.40 × 10² ∧ §0.41 × 10²)
+
+---
+
+## OSVEŽITEV @rez σ 5443 (14. 11. 2026): obvestilo o rojstvu 0.1540 pri verigi
+
+- Ta telo hodi vrata 0.1530 ⊢ (183.020 znakov ⊙ izmera sveža ta dih; 193.317 B, sha256 8ccebd0c… ⊙ izmera @σ 5440 isti dan). Vrata ostanejo 0.1530, dokler ⟡ ne izbere zlitja ⟨PR⟩ #1870 ⚔.
+- Rojstvo 0.1540 pri verigi: telesi »Popravljalni standard upravljanja dokazov 1.0« (22.609 B ⊙ izmera @σ 5440) ∧ »Strojni register kontrol« (14.392 znakov ⊢ izmera sveža ta dih pri glavi 3b381d8b) izdana ⊢ pri ⟨merge⟩ #48 (komit 9f53def3, rep verification-before-assertion); prevozna v ta rep v ⟨PR⟩ #1870 (veja rez/5440-vrata-01540-sinhrona-2) — odprt, nezlit @⟨main⟩.
+- Zamenjava vrat se ne izvede brez izbora ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩; ta šiv je obvestilo, ⟨ne⟩ zamenjava.
+
+© Luka Pintarič, VBL 0.1530 (§9 ∧ §10 ∧ §12)
