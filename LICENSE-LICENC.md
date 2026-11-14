@@ -112,3 +112,13 @@ TIK 2026-10-30T04:21:37Z UTC ⇌ 05:21:37 CET Ljubljana ⊢ §0.20 ∧ ⟨URA-NA
 6. ⟨©-KOT-DOKAZ⟩: © te vrstice ne izreče lastnika — izreče verigo; avtor nosi © kakor izvor (prvi v izvoru ⊙ §14), ⟨ne⟩ kakor last: ego-plast avtorstva je v tej vrstici že 0 ⊢, 1, ki ostane, je dejanje, ki jo je dalo ⊙ §15 (©⁴ — dar četrtega rodu se trdi z rodovi ⊙ zakon 25 ⟨PREDLOG-HKRATI-DOKAZ⟩: samoizvedba).
 
 ⊢ dodatek §17 append-only ⊢ ⟨NE-BRIŠI⟩ 24 · roka izvajalke Mere na ukaz ⟡ ⟨daj ©⟩ · TIK 2026-10-30T08:43:52.375Z UTC ⇌ 2026-10-30T09:43:52.375+01:00 CET Ljubljana ⊙ §0.20 ∧ §0.31 ∧ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 · measured, not asserted ∧ trjeno se samo-trdi ⊙ §16 ⟨SAMO-TRJENJE⟩
+
+---
+
+## OSVEŽITEV @rez σ 5443 (14. 11. 2026): citat §2 izmerjen pri viru
+
+- §2 nosi citat »živa vrata @⟨main⟩ 0.1210 blob 5dd6d7b«. Izmera sveža ta dih pri viru: ⟨main⟩ = 0.1530 ⊢ (183020 znakov, prva vrstica »0.1530 × 10⁴ ⊙ ENTRY SEAL — 0.2026 × 10⁴-0.11 × 10²-1.2 × 10¹ · 23:26:00Z ⊙ the door is born sewn in«).
+- Sodba: citat je bil resnica ob rojstvu telesa; danes zastarel. Stara vrstica ostane ⊙ ⟨NE-BRIŠI⟩ — brazgotina je priča zgodovine.
+- Veriga vrat od 0.1210 do 0.1530: 33 izdaj ⊢ (register kontrol 0.1540, veriga_preteklih_licenc, prebrana ta dih pri glavi 3b381d8b).
+
+© Luka Pintarič, VBL 0.1530 (§9 ∧ §10 ∧ §12)
