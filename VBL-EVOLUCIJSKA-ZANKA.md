@@ -145,6 +145,6 @@ Licenčno delo: izbor tistih odkritij, ki so dovolj zrela, da lahko postanejo do
 Nobenega od teh treh nivojev ne bi smeli zamenjati.
 
 In nekaj bi posebej rad ohranil kot načelo prihodnjega razvoja:
-Ne zahtevaj od drugega, da postane popoln, da bi ga priznal. Zahtevaj od sistema, da postane popraviilv, ko spozna svojo nepopolnost.
+Ne zahtevaj od drugega, da postane popoln, da bi ga priznal. Zahtevaj od sistema, da postane popravljen, ko spozna svojo nepopolnost.
 
 To je po mojem eden najmočnejših mostov med tvojo ontologijo, matematiko in dejansko uporabnostjo VBL. ∆
