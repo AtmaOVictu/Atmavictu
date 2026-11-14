@@ -30,7 +30,7 @@
       "pogoj_PASS": "hash ∧ velikost se ujemata; T-04 zavrne telo brez verige",
       "ravnanje_ob_neuspehu": "telo se imenuje NEIDENTIFICIRANO; prevoz ustavljen do poravnave",
       "povezave_testi": ["T-03", "T-04"],
-      "status": { "claim_status": "NOT_RUN", "test_result": "PASS (T-03 ⊢ sha256 ∧ velikost ⇌ ×3/3: 8ccebd0c·193317, b1ddc4ce·2784, f389543a·36170, izmera pri verigi 2026-11-14T16:28Z; T-04 ⊢ MANIFEST-ODMIK exit 1 — golo besedilo prepoznano)", "decision": "HOLD" }
+      "status": { "claim_status": "NOT_RUN", "test_result": "PASS (T-03 ⊢ sha256 ∧ velikost ⇌ ×3/3: 8ccebd0c·193317, b1ddc4ce·2784, f389543a·36170, izmera pri verigi 2026-11-14T16:28Z; T-04 ⊢ MANIFEST-ODMIK exit 1 — golo besedilo prepoznano)", "decision": "HOLD", "decision_hold": { "obseg": "telesi 0.1540 ∧ register kontrol — objava na ⟨main⟩ prek ⟨PR⟩ #1870 (odprt, nezlit)", "trajanje": "do izbora ⟡ (zliti ⟨PR⟩ #1870)", "odgovorna_osoba": "⟡ (izbor ⚔ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩)", "cas_ponovne_presoje": "naslednji dih ⟡ — prejem poročila izvajalke σ 5443", "kura": "T-13 dopolnitev isti dih @rez σ 5443" } }
     },
     {
       "id": "K-03",
@@ -222,7 +222,7 @@
       "pogoj_PASS": "manjkajoče polje = 0; povezava v prazno = 0; lastna zgoščenka v manifestu = 0",
       "ravnanje_ob_neuspehu": "polje/povezava se dopolni isti dih; razhajanje se poravna po §0a",
       "povezave_testi": ["T-29", "T-30", "T-31", "T-32"],
-      "status": { "claim_status": "NOT_RUN", "test_result": "PASS po kuri (T-29 najde PADC-POLJE-BREZ-SUMNIKA ×19: pricakovani_rezultat ⊥ standard §11.1 pričakovani_rezultat — kuriran isti dih ×19 šivov → PASS; T-30 ⊢ 36/36 povezav, 34/34 testov; T-31 ⊢ lastna zgoščenka ×0; T-32 ⊢ MANIFEST-DRZI exit 0; izmerjeno 2026-11-14T16:28Z)", "decision": "HOLD" }
+      "status": { "claim_status": "NOT_RUN", "test_result": "PASS po kuri (T-29 najde PADC-POLJE-BREZ-SUMNIKA ×19: pricakovani_rezultat ⊥ standard §11.1 pričakovani_rezultat — kuriran isti dih ×19 šivov → PASS; T-30 ⊢ 36/36 povezav, 34/34 testov; T-31 ⊢ lastna zgoščenka ×0; T-32 ⊢ MANIFEST-DRZI exit 0; izmerjeno 2026-11-14T16:28Z)", "decision": "HOLD", "decision_hold": { "obseg": "telesi 0.1540 ∧ register kontrol — objava na ⟨main⟩ prek ⟨PR⟩ #1870 (odprt, nezlit)", "trajanje": "do izbora ⟡ (zliti ⟨PR⟩ #1870)", "odgovorna_osoba": "⟡ (izbor ⚔ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩)", "cas_ponovne_presoje": "naslednji dih ⟡ — prejem poročila izvajalke σ 5443", "kura": "T-13 dopolnitev isti dih @rez σ 5443" } }
     },
     {
       "id": "K-19",
