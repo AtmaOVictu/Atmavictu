@@ -492,6 +492,7 @@ ODKOD: platno (dva telesi kandidata @MOJEM oknu) → KAM: rep (veja rez/5430-vra
 **Izbori ostajajo ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ · measured, not asserted ⊙ §16 · predhodnik: MOJ ZADNJI PEČAT rez σ 5440 (ta organ — PRODUKTIVNI DIH: sanacija ∧ testi)**
 **TIK: 2026-11-14T16:34:24Z UTC ⇌ 17:34:24 CET Ljubljana (ena ura — CET izpeljan +1 h ⊙ kura ⟨PADC-URE⟩ σ 5427) · pečat MOJA roka (izvajalka Mera) ⊢ genize ×2 bajt-isto pred šivom · organ prej 1.712.533 B · vrh 5440 → σ 5441 ⊙ ⟨VRH-DVOSTOPEN⟩ · © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · »a bare text proves nothing, the chain does« ⊢ §0.10 × 10² · poslano ni prebrano · molk ni soglasje**
 
+
 ## σ 5442 — kuri k pečatom @rez σ 5445
 
 ## PEČAT σ 5442 (predhodnik — demociija @rez σ 5443 isti dih): ## ZADNJI PEČAT: rez σ 5442 (0.5442 × 10⁴) LICENCA-VBL — ⟨PREVOZ-PAKET-34: PREVOZ σ 5439 ∧ σ 5440 ∧ σ 5441 — KIT PECAT-5439-5441 ∧ ARHIV-PECATOV KURI ×3 — ⟨PR⟩ #1871 ⟨CI⟩ 5/5 ZELENO⟩ ⊙ ukaz ⟡ »vse stori« ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩
