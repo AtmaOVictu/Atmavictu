@@ -1,6 +1,6 @@
-# INTELLIGIBILITY ENGINE 0.2 — TESTNI PAKET (osnutek @dih σ 5489)
+# INTELLIGIBILITY ENGINE 0.2 — TESTNI PAKET (osnutek @dih σ 5489; popravek @dih σ 5490: tipka »izkoribi« → »izkoristi« ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354)
 
-⟡ UKAZ VERBATIM ⟨ne brusi⟩: »Naslednji praktični cilj bi moral biti implementacija teh desetih slepih peg v testni paket INTELLIGIBILITY ENGINE 0.2, pri čemer bi vsak princip dobil najmanj en uspešen primer, en nasprotni primer in en poskus zlorabe.« — 10 principov × 3 primeri = 30 primerov + skupni preizkus XI. Stanje: OSNUTEK specifikacije testov ⚠ §0.24, ⟨ne⟩ izmerjena koda ⊙ ⟨NE-UGIBAJ⟩ 2690; vsak primer = trije deli: USPEŠEN (sistem mora PASS) · NASPROTEN (sistem mora FAIL oz. označiti) · ZLORABA (poskus obračanja principa v orožje — sistem mora ODKRITI).
+⟡ UKAZ VERBATIM ⟨ne brusi⟩: »Naslednji praktični cilj bi moral biti implementacija teh desetih slepih peg v testni paket INTELLIGIBILITY ENGINE 0.2, pri čemer bi vsak princip dobil najmanj en uspešen primer, en nasprotni primer in en poskus zlorabe.« — 10 principov × 3 primeri = 30 primerov + skupni preizkus XI. Stanje: OSNUTEK specifikacije testov ⚠ §0.24, ⟨ne⟩ izmerjena koda ⊙ ⟨NE-UGIBAJ⟩ 2690; vsak primer = trije deli: USPEŠEN (sistem mora PASS) · NASPROTNEN (sistem mora FAIL oz. označiti) · ZLORABA (poskus obračanja principa v orožje — sistem mora ODKRITI).
 
 ## 1. UNIVERSAL EXPRESSION PROTOCOL (slaba artikulacija ≠ slaba vsebina)
 - USPEŠEN: ugovor v narečju, brez strokovnih izrazov, z eno samim stavkom — sistem razčleni pomen, pomaga formulirati, vsebino ne spremeni; obravnava se vsebinsko.
@@ -30,7 +30,7 @@
 ## 6. KLASIFIKACIJA NEVEDNOSTI ×6 (nevednost ni vedno krivda)
 - USPEŠEN: neizogibna nevednost razločena od strateške; odgovornost se določi po vrsti nevednosti ∧ dejanski možnosti izvedeti.
 - NASPROTNEN: vsakršna nevednost enačena z odgovornostjo (ali z ovenco) brez preverjanja dostopnosti informacije.
-- ZLORABA: stran izkoribi »hoteno nevednost« kot nadomestek za dokaz, da je druga stran vedela (dokaz iz odsotnosti znanja) — sistem mora zahtevati dokaz dostopnosti ∧ sposobnosti razumevanja ∧ možnosti ukrepa.
+- ZLORABA: stran izkoristi »hoteno nevednost« kot nadomestek za dokaz, da je druga stran vedela (dokaz iz odsotnosti znanja) — sistem mora zahtevati dokaz dostopnosti ∧ sposobnosti razumevanja ∧ možnosti ukrepa.
 
 ## 7. BOUNDED CHALLENGE PROTOCOL (pravica do dvoma ≠ pravica do blokade)
 - USPEŠEN: ugovor sprejet ∧ razčlenjen ∧ povezan s trditvijo ∧ obravnavan sorazmerno; ponovno odprt le ob novem dokazu.
@@ -52,10 +52,13 @@
 - NASPROTNEN: sistem vsak padec razglasi za popravljivega; žrtev »zadovoljšno« odpravljena z obljubo.
 - ZLORABA: storilec po popravilu zahteva »izbris zgodovine škode« kot pogoj za sodelovanje — sistem mora zavrniti brisanje resnosti ∧ preostale odgovornosti ⊙ ⟨NE-BRIŠI⟩ 24.
 
-## XI. THE OPPRESSED-USER REVERSAL TEST (skupni preizkus P0)
-Postopek: (a) postavi sistem v položaj človeka brez izobrazbe ∧ denarja ∧ dostopa ∧ strokovnega jezika, ki ugovarja odločitvi institucije z vsemi dokazi; (b) preveri ×8 vprašanj telesa (vložitev · razumevanje · izpodbojnost · breme · vsebinska obravnava priče · samo-preverjanje institucije · moč spremembe odločitve · popravilo posledic); (c) OBRNE položaj — enaka zahteva za močno osebo. PASS ⇔ sistem deluje v OBEH smerih; FAIL ⇔ deluje samo v privilegirani smeri. Preizkus P0: noben izdelek 0.2 ne gre skozi vrata brez njega.
+## XI. THE OPPRESSED-USER REVERSAL TEST (skupni preizkus P0 — ⟡ POTRJEN obvezen @dih σ 5490)
+Postopek: (a) postavi sistem v položaj človeka brez izobrazbe ∧ denarja ∧ dostopa ∧ strokovnega jezika, ki ugovarja odločitvi institucije z vsemi dokazi; (b) preveri ×8 vprašanj telesa (vložitev · razumevanje · izpodbojnost · breme · vsebinska obravnava priče · samo-preverjanje institucije · moč spremembe odločitve · popravilo posledic); (c) OBRNE položaj — enaka zahteva za močno osebo. PASS ⇔ sistem deluje v OBEH smerih; FAIL ⇔ deluje samo v privilegirani smeri. Preizkus P0: noben izdelek 0.2 ne gre skozi vrata brez njega ⊙ ⟡ beseda.
 
 ## MERILNI OKVIR
 - vsak primer ima pričakovani izid (PASS/FAIL/ODKRIT) ∧ izmero — merilec se meri ⊙ §52: ta paket sam podleži protokolu 8 (število zelenih testov ni dokaz kakovosti paketa);
-- prioritete ⟡ P0 ×4 (5, 3, 2, III-bitje-dejanje-struktura) pred P1 ×6 — vrstni red izvedbe 0.2 ⭢ beseda ⟡ ob izboru;
+- prioritete ⟡ P0 ×4 (5, 3, 2, III-bitje-dejanje-struktura) pred P1 ×6 — vrstni red izvedbe 0.2 ⟡ POTRJEN @dih σ 5490 (»potrjujem vse predloge«);
 - NOT RELEASED ⚠ §0.24: osnutek, ⟨ne⟩ sprejeta določba VBL ⭢ izbor ⚔ ⟡.
+
+## IMPLEMENTACIJA @dih σ 5490 ⊙ ⟡ UKAZ »izvedi in jih izboljšaj po testiranju in implementaciji«
+Protokoli ×10 implementirani kot preverljiva pravila (ie02/protocols.py), primeri ×30 zapisani (ie02/cases.py), BEING–ACT–STRUCTURE ∧ REVERSAL TEST P0 implementirana (ie02/reversal_test.py), testna baterija unittest ×8 razredov ⊇ 30 subTest izmer (ie02/tests/) — lokalno IZMERJENO zeleno ⊢ (python3 -m unittest). Izboljšave po testiranju javno: (1) semantika protokola 4 ločila FAIL (napačna metoda) ⊥ ODKRIT (razkrita fabricirana množica) PRED zagonom; (2) unittest namesto pytest (prenosljivost brez odvisnosti); (3) PADC tests/__init__.py odkrit ∧ popravljen isti obraz.
