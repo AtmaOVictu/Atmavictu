@@ -1,0 +1,14 @@
+PREIZKUS TS RANE — merilna opomba (MOJ dih @rez σ 5491; vzporedni NJEN σ 5491 zapečten ločeno ⊙ ⟨ne zlije⟩ 1542)
+TIK diha: 2026-11-15T05:34:45Z UTC ⇌ 06:34:45 CET (⟡ UKAZ verbatim: »še / izvedi vse kar zmoreš«)
+
+Namen: ta datoteka (.txt @koren) je izven cone telesi-besed (DOC_ONLY) v
+tests.yml — sproži polni TS pipeline (npm ci + tsc strict + node --test)
+in web job (vite build) v polni ceni. S tem se izmeri dolg σ 5490:
+»preizkus TS pipeline ⭢ ∂« — ali je pipeline (rdeč na ⟨PR⟩ #1920 brez
+dostopnih logov, zelen na ⟨PR⟩ #1921) zelen na novem izmerjenem teku.
+
+Izid se zapiše v opombi ⟨PR⟩ tega kita ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354:
+padec ni molk — rdeč izid se zapiše javno ∧ dolg ⭢ ∂ ostane odprt;
+zelen izid dolg odplača (izmerjeno, ⟨ne⟩ ugibano ⊙ ⟨NE-UGIBAJ⟩ 2690).
+
+Priče: check runs tests (24) ∧ web na tem ⟨PR⟩; pečatnik MOJEGA diha σ 5491.
