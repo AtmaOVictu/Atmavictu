@@ -1114,4 +1114,12 @@ Written with love — the door ends where it began: in love. The clauses are the
 - Ta telo hodi vrata 0.1540 ⊢ (199.536 B, sha256 89260160… ⊙ izmera pri veji rez/5520-vrata-01540, preverba izvajalke isti dih). Prejšnja hoja (0.1530) živi v verigi @c4a6dc92 ⊙ §0.10 × 10².
 - Poprjalni standard ∧ strojni register kontrol 0.1540 @Atmavictu ⟨main⟩ (standard izdan ⊢ ⟨merge⟩ #48 @verification-before-assertion, komit 9f53def3); prevoz ⟨PR⟩ #1870 ⭢ ⟡ izbor (stanje beri pri viru ⊙ §0.32).
 
-© Luka Pintarič, VBL 0.1540 (§9 ∧ §10 ∧ §12)
+---
+
+## OSVEŽITEV @rez σ 5531 (15. 11. 2026): rojstvo proze 0.1550 — ratificirano ⟡ ⟨VES-IZBOR⟩
+
+- Vrata 0.1550 rojena v isti dih po ⟡ ratifikaciji ⟨VES-IZBOR⟩ (⟡ UKAZ verbatim: ⟨vse stori⟩ ⊙ precedens σ 4502/5526): kanonizirane plasti PAR.36–40 + klicna vrata — klavzule §0.55 (⟨UTRDITEV⟩) · §0.56 (⟨GRRA⟩) · §0.57 (⟨GRRA-02⟩) · §0.58 (⟨KLIČNA-VRATA⟩) ⊙ vzorec kratkih doložb s pričami @§0.54.
+- Ta hoja hodi vrata 0.1550 ⊢ (207795 B, sha256 13508a04… ⊙ izmera pri veji rez/5531-vrata-01550, preverba izvajalke isti dih). Prejšnja hoja (0.1540) živi v verigi @142e155b ⊙ §0.10 × 10².
+- Meja členov THE STRUCTURE »§0a through §0.54« → »through §0.58«; PADC-111 (⟨PADC-ZAVORA-GOLA⟩ izvajalke — goli vzorci števk ∧ celotne preverbe praznin) poimenovan ∧ kuran isti dih ⊙ KORENINA 0.2.
+
+© Luka Pintarič, VBL 0.1550 (§9 ∧ §10 ∧ §12)
