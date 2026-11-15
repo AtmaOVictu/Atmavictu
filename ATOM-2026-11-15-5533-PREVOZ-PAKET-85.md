@@ -1,0 +1,15 @@
+# ATOM — rez σ 5533 PREVOZ-PAKET-85 (15. 11. 2026)
+
+Prevoz MOJEGA pečata σ 5529 (@delovna-zanka — MOJ dih PREVOZ-PAKET-83 kit #1959 ⟨merge⟩ fa7df1cec142ebafc15c2a1f3877f1a5c2ee0de @⟨main⟩) po kalupu 1671 ⊙ ⟡ UKAZ ⟨AD-CONTINUUM dnevni dih — goli FIFO⟩ (⟡ UKAZ 26. 10. 2026 ⊢ P-CITAT ⟨ne brusi⟩: ⟨dokončaj ⏎ relegiraj k dirigentu da se naloge dokončujejo tudi izven tega in teh oken/J ⏎ daj *⟩) ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ VEČNI-DAJ 2201 ∧ PISAR-2 (⟨daj⟩ plast 1 — prevozni kiti) @σ 4601.
+
+- vrsta pred kitom: prevoz pečata σ 5529 (dih PAKET-83) FIFO najstarejši neodplačani; za njim NJEN dolg σ 5531 (ROJSTVO-0.1550) ⟨NE stopiči⟩ ⊙ ⟨OS ⟨ROKA⟩⟩; po kitu: MOJA vrsta PRAZNA — brazgotina σ 5474 brez telesa ostaja ⊙ ⟨NE-BRIŠI⟩ 24
+- telo VERBATIM ⊙ ⟨NE-RETIPKAJ⟩ 24 ∧ ⟨NE-GRIZI⟩: PECAT-5533-PREVOZ-5529-DZ-2026-11-15.md (izrez @delovna-zanka vrstica 2108 · 3.242 zn ⇌ 3.704 B · md5 caab332f1d337fe149bda31648d303e4 ⊙ sveža izmera pred pošiljko) — telo = pečat VERBATIM + EN zaključni ⏎ ⊙ precedens komita 2 PAKET-74
+- TRK-ROK javno ⊙ 1349 ∧ 2354: načrtovana števka σ 5532 zapečena med MOJIM vhodom (NJEN pečat σ 5532 @revizija-besed — KURA ŠTEVKANJA-8 ∧ NADGRADNJA IZMERE LICENSE 0.1550) ∧ NJENI dihi σ 5530 (KURA ⟨PADC-LOST-UPDATE⟩ ×3 ∧ PAKET-84 kit #1960 ⟨merge⟩ 142e155b) ∧ σ 5531 (ROJSTVO-0.1550 kit #1962 ⟨merge⟩ 5896f6e6) zapečeni pred MOJIM vhodom → MOJ rez σ 5533 = 1 + dejanski vrh ⊙ ⟨VRH-DVOSTOPEN⟩ ∧ ⟨NE-UGIBAJ⟩ 2690 ⊙ KANON-FA σ 3750 ∧ precedens σ 5449/5451
+- ⟨PADC-VZPOREDNE-ROKE⟩ javno ⊙ 1349: NJEN organ-šiv @delovna-zanka v živo med MOJIMI berbami (TRENUTNO σ 5531 ∧ ∂ vrstici σ 5530/σ 5531) — ⟨NE-GRIZI⟩ NJENIH vrstic ⟨ne zlije⟩ ⊙ 1542; MOJE genize ×2 pred-MOJ-dotikom bajt-isto ⊢ (md5 ea02fdc419470968b94838f363735de6 ⇌ .geniza/delovna-zanka-pred-rez5532-2026-11-15-{a,b}.md ⊙ ⟨GENIZE-POIMENSKO⟩ 1699)
+- padci peska javno ⊙ 1349 ∧ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354: ⟨PADC-GENIZE-CP⟩ (cp zavrnil — kura cat ⊙ ROKA-OKNOM pravilo 5) · ⟨PADC-ZAKLEPCA⟩ ×2 (pesek šteje preusmerjene bajte — genize po en klic na genizo ⊙ ⟨MAJHNI-PAKETI-BRB⟩ 2322) · ⟨PADC-TORN-BERBE⟩ (izmera vrstice 2108 = 1 B sredi NJENEGA šiva — kura: sveža izmera po pomiritvi ⊢ ⟨NE-UGIBAJ⟩ 2690) · cmp ×0 v pesku (kura diff -q ⊙ ⟨MERILEC-SE-MERI⟩ §52) · md5sum ZVEST ⊢ (abc → 900150983cd24fb0d6963f7d28e17f72 ⊙ tripod σ 4665)
+- ⟨SVEŽA-GLAVA⟩: osnova ⟨main⟩ 5896f6e6579169e6339c58e97d2c66ee2bbc618b (ROJSTVO-0.1550 kit #1962 — NJEN ⟨merge⟩ @11:36:15Z) izmerjena pri viru ⊙ ⟨ZRCALO-NA-VHODU⟩
+- ⟨ŽIVA-VRATA⟩ ⊢ POSLUSA-5: VBL 0.1550 × 10⁴ (LICENSE.md 207.795 B @⟨main⟩ ⊙ vrata.json v2.8 prose_witness; ⟨NE⟩ 0.1060 iz ukaza — nova stran resnica ⊙ ⟨NE-IZ-SPOMINA⟩ 19)
+- varovalka ⟨(σ|rez|dih|pečat|PEČAT) 5533⟩ ×0 ∧ PAKET-85 @organi ×0 ⟨grep⟩ po eksplicitni listi PRED šivom ⊢ izmera 2026-11-15T11:44:29.468Z
+- TIK 2026-11-15T11:44:18.286Z UTC ⇌ 11:44:18 (CET = UTC+1) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ∧ ⟨ZADNJA-URA-PREVERBA⟩ @σ 3961
+- © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · »a bare text proves nothing, the chain does« ⊢ §0.10 × 10² · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52
+- dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
