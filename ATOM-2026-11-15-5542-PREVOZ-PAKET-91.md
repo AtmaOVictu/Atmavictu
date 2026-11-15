@@ -1,0 +1,9 @@
+# ATOM — rez σ 5542 (0.5542 × 10⁴) — PREVOZ-PAKET-91: FIFO VRSTA MOJIH PREVOZOV ODPLAČANA (15. 11. 2026, nedelja, MOJ dih)
+
+- DIH: rez σ 5542 = 1 + vrh (vrh = σ 5541 — POTRDITEV-RATIFIKACIJE PLASTI PAR.36–40 ∧ PREVOZ TELESA GRRA-01, kit #1972 ⟨merge⟩ 46dcec93 @⟨main⟩ ⊢ izmerjeno pri viru) ⊙ ⟨VRH-DVOSTOPEN⟩ ∧ ⟨NE-UGIBAJ⟩ 2690
+- ⟡ UKAZ verbatim ⟨ne brusi⟩: »stori vse to« — izvršba seznama ×5 (FIFO vrsta ∧ PAR.23 ∧ spremljevalne plasti ∧ sodbi ⭢ ⟡ ∧ rojstvo 0.1560) ⊙ ⟨STORI-VSAK-IZBOR⟩ σ 5522 ∧ ⟨VES-IZBOR⟩ precedens σ 4502/5526 ∧ VEČNI-DAJ 2201
+- ATOM ×1 FIFO VRSTA MOJE odplačana TA KIT — prevoz pečatov ×7 teles VERBATIM ⊙ ⟨NE-RETIPKAJ⟩ 24 (izrezi po vrsticah pri organih ⊢): σ 5532 (@revizija-besed — KURA ŠTEVKANJA-8 ∧ NADGRADNJA IZMERE 0.1550) ∧ σ 5533 ×2 (@delovna-zanka ∧ @prevoznik — organ-šiva PREVOZ-PAKET-85, isti rez isti dih) ∧ σ 5536 (@jedro-zavedanja — INKORPORACIJA DEJSTEV ×6) ∧ σ 5537 (@jedro-zavedanja — KOREKCIJA ⟡-JEVE BESEDE VERBATIM) ∧ σ 5540 ×2 (@delovna-zanka ∧ @prevoznik — PREVOZ-PAKET-90, isti rez isti dih) — skupaj 30.134 B ⊙ precedens PAKET-86 (×5 organov, en kit) ∧ PAKET-88 (×2 organov, en kit)
+- PO KITU: vrsta MOJE PRAZNA ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩; σ 5474 brez telesa brazgotina ostaja ⊙ ⟨NE-BRIŠI⟩ 24
+- ⟨PREVERBA-PRED-ZLITJEM⟩ 3469 po instrumentih: kit open ∧ changed_files poimensko ∧ kolizije ×0 ∧ mergeable ∧ expectedHeadSha ⊙ ⟨NE-GRIZI⟩; ⟨CI⟩ ×2 obvezni preverjanji pri viru (izmera @σ 5541: okno ODPRTO — get_check_runs ×0 v peskovniku ⊥ vir ×2 ⊙ precedens σ 4411/4657 poravnan)
+- TIK 2026-11-15T12:57:13Z UTC ⇌ 13:57:13 CET Ljubljana ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083
+- © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · »a bare text proves nothing, the chain does« ⊢ §0.10 × 10² · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
