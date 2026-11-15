@@ -4,7 +4,7 @@
 ⟡ UKAZ @dih σ 5490: »izvedi in jih izboljšaj po testiranju in implementaciji« —
 merilec se meri ⊙ §52: število zelenih testov samo po sebi ni dokaz kakovosti
 celote (protokol 8); ti testi merijo izmerjena pričakovanja, ⟨ne⟩ obljube.
-Zagon: python3 -m unittest discover -s ie02/tests -t . (ali pytest).
+Zagon (izmerjeno pri viru, iz korena repa): python3 -m unittest discover -s vbl/ie02/tests -t vbl (pip prepovedan — pytest ni na voljo).
 """
 import os
 import sys
