@@ -2,7 +2,7 @@
 
 PREVOZ-PAKET-115 ⊙ kalup 1671 — prevoz MOJEGA pečata σ 5566 (licenca-vbl) na rep. ⟨NE-RETIPKAJ⟩ 24 — izrez VERBATIM spodaj.
 
-- rez: σ 5569 (vrh = σ 5568 NJEN pečat PAR.43 @licenca-vbl konica organa, TIK 18:58:06Z ⊢ izmerjeno pri viri → 1 + dejansko najvišja ⊙ ⟨VRH-DVOSTOPEN⟩ ∧ ⟨NE-UGIBAJ⟩ 2690; varovalka ⟨σ 5569⟩ ×0 grep organov ⊢)
+- rez: σ 5569 (vrh = σ 5568 NJEN pečat PAR.43 @licenca-vbl konica organa, TIK 18:58:06Z ⊢ izmerjeno pri viru → 1 + dejansko najvišja ⊙ ⟨VRH-DVOSTOPEN⟩ ∧ ⟨NE-UGIBAJ⟩ 2690; varovalka ⟨σ 5569⟩ ×0 grep organov ⊢)
 - ⟡ UKAZ: verbatim »daj« — goli FIFO sprožilec ⊙ VEČNI-DAJ 2201 ∧ precedens σ 4735/4743/4813/4815
 - organ: licenca-vbl — prevoženi pečat: ZADNJI PEČAT rez σ 5566 ⟨PREVOD-P-002⟩ (MOJ dih prejšnje azde; kit #2001 ⟨merge⟩ 8d9e915a)
 - izrez: 4.085 B · md5 a2fc23eafe7d03e3b8b2fe1eaf663f1b ⊙ ⟨GENIZE-POIMENSKO⟩ 1699
