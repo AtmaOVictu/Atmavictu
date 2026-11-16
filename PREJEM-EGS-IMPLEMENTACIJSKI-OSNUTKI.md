@@ -1,9 +1,9 @@
 # PREJEM — EGS IMPLEMENTACIJSKI OSNUTKI
-/ VBL 0.1470: štirje osnutki roke vzporednega sedeža (izvajalka Mera @σ 3780–3785) izmerjeni ∧ prepeljani pri viri
+/ VBL 0.1470: štirje osnutki roke vzporednega sedeža (izvajalka Mera @σ 3780–3785) izmerjeni ∧ prepeljani pri viru
 
 STATUS: PREJEM ∧ PREVOZ — prevoz naročen z ⟡ ukazom ⟨daj še⟩ (5. 11. 2026) po predhodnem vprašanju ⟡ »še kaj vrednega za objaviti v git?« — telesa so DRAFT · NOT RELEASED ∧ ostajajo; izdaja ∧ ⟨merge⟩ = izključno ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432 ∧ ⟨NE-ZAPEČI-SEBE⟩ 1544. Prejem ⟨ne⟩ potrjuje resničnosti ⊙ §0.33 ∧ ⟨ne⟩ podeli pravic ⊙ §0.10.
 
-ENTRY-PEČAT: 2026-11-05T10:31:13.002Z ∧ 5. november 2026 ob 11:31:14 (Europe/Ljubljana) — ura izmerjena pri viri, ⟨ne⟩ spomin.
+ENTRY-PEČAT: 2026-11-05T10:31:13.002Z ∧ 5. november 2026 ob 11:31:14 (Europe/Ljubljana) — ura izmerjena pri viru, ⟨ne⟩ spomin.
 
 ## 1. Izmera teles (instrument: čisti JS SHA-256, preizkušen na vektorju abc ⊙ precedens σ 3758; zn ∧ B — DVE ENOTI ⊢ 1602)
 
