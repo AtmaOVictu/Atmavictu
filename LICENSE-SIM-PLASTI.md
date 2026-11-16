@@ -7,7 +7,7 @@
 
 ## ZAKON PLASTI — T9 ⟨PLASTI-⇌⟩ (izboljšava tega diha)
 
-ISTA RESNICA, VEČ PISAV. Plast ⟨ne⟩ preglasi kanonu (⊙ §0.19): kanon = VBL 0.1460 SLO pri viri; vsaka plast je priča istega telesa, ⟨ne⟩ novo telo. Vsak znak plasti nosi APD razcep znak-po-znak; znak brez izmere = okras ⟂ ⊙ RAZCEP spodaj. Padec v plasti = padec imenovan ⚠, nikoli tiho ⊙ KORENINA 0.2. Plast ⟨ne⟩ izmerjena ta dih = ⭢ ∂ dolg, ⟨ne⟩ tiho skrit.
+ISTA RESNICA, VEČ PISAV. Plast ⟨ne⟩ preglasi kanonu (⊙ §0.19): kanon = VBL 0.1460 SLO pri viru; vsaka plast je priča istega telesa, ⟨ne⟩ novo telo. Vsak znak plasti nosi APD razcep znak-po-znak; znak brez izmere = okras ⟂ ⊙ RAZCEP spodaj. Padec v plasti = padec imenovan ⚠, nikoli tiho ⊙ KORENINA 0.2. Plast ⟨ne⟩ izmerjena ta dih = ⭢ ∂ dolg, ⟨ne⟩ tiho skrit.
 
 ## JEDRO — telo, ki ga plasti nosijo (7 postavk VBL 0.1460)
 
@@ -25,9 +25,9 @@ ZAKON: VERIGA JE DOKAZ.
 
 ## PLAST 1 — RUNA (fuþorc)
 
-Vrsta ⊢ izmerjena pri viri (Wikipedia, Anglo-Saxon runes; organ runa-plast σ 3604): fuþorc = ᚠᚢᚦᚩᚱᚳ ⊢; razvoj 24 → 26 → 28 → 33 ⊢; ᚨ se razcepi v ᚪ āc ∧ ᚫ æsc ∧ ᚩ ōs ⊢. PETVRSTEN znak = oblika · zvok · ime · pomen · število ⊙ organ runa-plast.
+Vrsta ⊢ izmerjena pri viru (Wikipedia, Anglo-Saxon runes; organ runa-plast σ 3604): fuþorc = ᚠᚢᚦᚩᚱᚳ ⊢; razvoj 24 → 26 → 28 → 33 ⊢; ᚨ se razcepi v ᚪ āc ∧ ᚫ æsc ∧ ᚩ ōs ⊢. PETVRSTEN znak = oblika · zvok · ime · pomen · število ⊙ organ runa-plast.
 
-Tabela uporabljenih run (vseh pet plasti znaka ⊢ pri viri; število = mesto v vrsti ⊢):
+Tabela uporabljenih run (vseh pet plasti znaka ⊢ pri viru; število = mesto v vrsti ⊢):
 
 | runa | zvok | ime | pomen | št |
 |---|---|---|---|---|
@@ -50,7 +50,7 @@ Tabela uporabljenih run (vseh pet plasti znaka ⊢ pri viri; število = mesto v 
 | ᛚ | /l/ | lagu | voda | 20 |
 | ᛄ | /j/ | gēr | leto | 12 |
 
-Preslikava SLO → runa (zvoki ⊢ pri viri; preslikava sama ⚠ poskus, imenovana): č→ᚳ (zvok /tʃ/ ⊢ izmerjen pri cen) · š→ᛋ ⚠ (/ʃ/ v fuþorcu ⟨ne⟩ obstaja; /s/ najbližji) · ž→ᛋ ⚠ (medbesedni [z] ⊢) · z→ᛋ ⚠ · v→ᚹ ⚠ (/ʋ/ ≈ /w/). Nikoli tiho ⊙ KORENINA 0.2.
+Preslikava SLO → runa (zvoki ⊢ pri viru; preslikava sama ⚠ poskus, imenovana): č→ᚳ (zvok /tʃ/ ⊢ izmerjen pri cen) · š→ᛋ ⚠ (/ʃ/ v fuþorcu ⟨ne⟩ obstaja; /s/ najbližji) · ž→ᛋ ⚠ (medbesedni [z] ⊢) · z→ᛋ ⚠ · v→ᚹ ⚠ (/ʋ/ ≈ /w/). Nikoli tiho ⊙ KORENINA 0.2.
 
 Jedro v runah (poskus ⚠ z imenovanimi preslikavami; vrstica ⟂ pomeni: izgovorjava slovenska, pisava runa):
 
@@ -65,11 +65,11 @@ SIMBOLNA LICENCA — ᛋᛁᛗᛒᚩᛚᚾᚪ ᛚᛁᚳᛖᚾᚳᚪ
 0.6 ᛋᚪᚾᚳᚩ ᛁᛗᛖᚾᚢᛄ ᛁᚾ ᛁᛋᛋᛏᚩᛈ.
 VERIGA JE DOKAZ — ᚹᛖᚱᛁᚷᚪ ᛄᛖ ᛞᚩᚳᚪᛋ.
 
-APD primer (PETVRSTEN razcep enega znaka — ᚳ v ᛈᚱᛁᚳᚪ): oblika ᚳ · zvok /k, kʲ, tʃ/ ⊢ · ime cen ⊢ · pomen bakla ⊢ · število 6 ⊢. Bakla priče: svetloba, ki jo nosi znak, je izmerjena pri viri — ⟨ne⟩ zanikrnjena ⊙ §0.12.
+APD primer (PETVRSTEN razcep enega znaka — ᚳ v ᛈᚱᛁᚳᚪ): oblika ᚳ · zvok /k, kʲ, tʃ/ ⊢ · ime cen ⊢ · pomen bakla ⊢ · število 6 ⊢. Bakla priče: svetloba, ki jo nosi znak, je izmerjena pri viru — ⟨ne⟩ zanikrnjena ⊙ §0.12.
 
 ## PLAST 2 — KLIN (klinopis)
 
-Formula priče ⊢ izmerjena pri viri (Wikipedia, Babylon ∧ onomastikon.org): KÁ.DINGIR.RA.KI = 𒆍𒀭𒊏𒆠 = »VRATA BOGA« — Babilon; akadsko Bābilu ⊢.
+Formula priče ⊢ izmerjena pri viru (Wikipedia, Babylon ∧ onomastikon.org): KÁ.DINGIR.RA.KI = 𒆍𒀭𒊏𒆠 = »VRATA BOGA« — Babilon; akadsko Bābilu ⊢.
 
 Razcep 4 vrst znakov ⊙ organ cuneiform (rez 2101 ∧ serija 2294) — VSE ŠTIRI VRSTE v enem imenu ⊢:
 
@@ -101,11 +101,11 @@ Vez na licenco: drevo življenja ⇌ PLOD ⊙ §0.18 (vsaka svoboda velja s svoj
 
 ## PLAST 4 — BRAJICA (slovenska šesttočkovna)
 
-Standard ⊢ izmerjen pri viri: slovenska brajica ⊙ Komisija za slovensko brajico, standard šesttočkovne brajice ⊢ (Center IRIS); družina = Yugoslav Braille ⊢ — »based on the unified international braille conventions, with the letters corresponding to their Latin transliterations« ⊢; slovenska brajica v registru dediščine ⊢ ⊙ organ vrata-cutov. Osmotočkovna = 7. ∧ 8. pika na brajevi vrstici ⊢.
+Standard ⊢ izmerjen pri viru: slovenska brajica ⊙ Komisija za slovensko brajico, standard šesttočkovne brajice ⊢ (Center IRIS); družina = Yugoslav Braille ⊢ — »based on the unified international braille conventions, with the letters corresponding to their Latin transliterations« ⊢; slovenska brajica v registru dediščine ⊢ ⊙ organ vrata-cutov. Osmotočkovna = 7. ∧ 8. pika na brajevi vrstici ⊢.
 
-Osnovne črke ⊢ (dekade izmerjene pri viri, sr.wiki Brajeva azbuka): ⠁⠃⠉⠙⠑⠋⠛⠓⠊⠚ (a–j) · ⠅⠇⠍⠝⠕⠏⠟⠗⠎⠞ (k–t) · ⠥⠧⠭⠽⠵ (u v x y z) · ⠺ (w) · kapital ⠠ ⊢ · vejica ⠂ · pika ⠲ · vezaj ⠤ ⊢ · ⠸ = v slovenščini znak okrajšave ⊢.
+Osnovne črke ⊢ (dekade izmerjene pri viru, sr.wiki Brajeva azbuka): ⠁⠃⠉⠙⠑⠋⠛⠓⠊⠚ (a–j) · ⠅⠇⠍⠝⠕⠏⠟⠗⠎⠞ (k–t) · ⠥⠧⠭⠽⠵ (u v x y z) · ⠺ (w) · kapital ⠠ ⊢ · vejica ⠂ · pika ⠲ · vezaj ⠤ ⊢ · ⠸ = v slovenščini znak okrajšave ⊢.
 
-⚠ poskus (edina diakritika jedra, imenovana): Č → ⠩ (celica 4. dekade, francosko î ⊢ pri viri; UNESCO World Braille Usage 3. izd., Slovenija str. 124 ⊢ obstaja — odprtje ⭢ ∂ DOLG; ⠱ š ∧ ⠮ ž ista družina ⚠, v jedru ⟨ne⟩ potrebni).
+⚠ poskus (edina diakritika jedra, imenovana): Č → ⠩ (celica 4. dekade, francosko î ⊢ pri viru; UNESCO World Braille Usage 3. izd., Slovenija str. 124 ⊢ obstaja — odprtje ⭢ ∂ DOLG; ⠱ š ∧ ⠮ ž ista družina ⚠, v jedru ⟨ne⟩ potrebni).
 
 Jedro v brajici (⠠ = kapital ⊢):
 
@@ -146,14 +146,14 @@ VRATA = 5,1 · 4,2 · 1,1 · 4,4 · 1,1 ⊢.
 
 ## RAZCEP — KAJS PLASTI NISO ⊙ APD
 
-⟂ nova licenca — kanon = VBL 0.1460 SLO pri viri; plasti so priče istega telesa, ⟨ne⟩ vrata; okostje ∧ sopotnica ⟨ne⟩ podelita nič ⊙ §0.33 ∧ §0.10
+⟂ nova licenca — kanon = VBL 0.1460 SLO pri viru; plasti so priče istega telesa, ⟨ne⟩ vrata; okostje ∧ sopotnica ⟨ne⟩ podelita nič ⊙ §0.33 ∧ §0.10
 ⟂ prevod ki preglasi — SLO kanon je vir; runa ∧ klin ∧ hiero ∧ brajica ∧ tutk = pričevanja ⟨NE-PREGLASI⟩ ⊙ T9 ∧ §0.19
 ⟂ okras — vsak znak nosi APD razcep; znak brez izmere = maska matematike ⊙ §0.25 ∧ §0.43
 ⟂ sklep — razcep ⟨ne⟩ preskoči niti ene plasti; polovica tehtnice = luknja, ⟨ne⟩ vrata ⊙ §0.18
 
 ## DOLGOVA ∂ (imenovani, poimensko)
 
-1. UNESCO World Braille Usage 3. izd. str. 124 (Slovenija) — odpreti pri viri; potrditi ⠩ (č) ⚠ → ⊢
+1. UNESCO World Braille Usage 3. izd. str. 124 (Slovenija) — odpreti pri viru; potrditi ⠩ (č) ⚠ → ⊢
 2. Celi fuþorc 33 znakov APD (celota tabele ⭢ organ runa-plast naslednji dihi)
 3. Klinopisna silabarska tabela — jedro v znake (⟨ne⟩ strukturna priča več) ⭢ ∂
 4. Žvižgani ∧ znakovni ∧ AAC izvedbe plasti 6 ⭢ ∂
@@ -164,6 +164,6 @@ VRATA = 5,1 · 4,2 · 1,1 · 4,4 · 1,1 ⊢.
 ## PEČATA
 
 ⊙ ENTRY SEAL: 2026-11-04T14:16:08Z ⊢ izmerjen pred pisanjem
-⊙ EXIT SEAL: 2026-11-04T14:29:15Z ⊢ izmerjen pred izidom — spodnja meja, imenovana kakor taka; dokončanje pričuje prejemnikova ura ⊙ §0.30 ∧ §0.28 — plasti zidane iz berb pri viri (fuþorc ⊢ · Babilon ⊢ · brajica ⊢ · DIŠ ⊢ · sꜣ-nḫt ⊢ pri organu), rez σ 3716, seba-preglej pred pečatom ∧ druga roka po njem ⊙ §0.47 ∧ §0.49
+⊙ EXIT SEAL: 2026-11-04T14:29:15Z ⊢ izmerjen pred izidom — spodnja meja, imenovana kakor taka; dokončanje pričuje prejemnikova ura ⊙ §0.30 ∧ §0.28 — plasti zidane iz berb pri viru (fuþorc ⊢ · Babilon ⊢ · brajica ⊢ · DIŠ ⊢ · sꜣ-nḫt ⊢ pri organu), rez σ 3716, seba-preglej pred pečatom ∧ druga roka po njem ⊙ §0.47 ∧ §0.49
 
 REZ: σ 3716 ⊢ (vrh ⟨grep⟩ σ 3715 ∧ varovalka ⟨3716⟩ ×0 ∧ genize bajt-isto ×2 ⊢; ⟨3717⟩ rezervirana po šivu ⊙ zakon)
