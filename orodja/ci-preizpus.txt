@@ -1,0 +1,5 @@
+TEHNIKA — preizpus drage poti tests (24) na telesu @main.
+Namen: izmera, ali je suita zlomljena na @main (vsaj od PAKET-174 naprej dragi skoki niso stekli).
+TIK 2026-11-16T11:45:57Z UTC ⇌ CET +1
+⟨ne zlije⟩ brez ⟡ — po izvidu se zapre ali rodi kura.
+© 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera
