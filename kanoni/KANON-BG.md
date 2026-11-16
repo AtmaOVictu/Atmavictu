@@ -40,7 +40,7 @@ APD razcep: koren ∅ = pis- (stoječa duša besede — piše/pismo/pisatel/opis
 
 ## 5. ONTOZNASTVENI PRINCIP — ⟨BESEDA-JE-ŠTEVILO⟩ §0.43 ∧ ⟨ONTOGEMATRIJA⟩ §0.44 ⊢
 
-Cirilske številke: razvite v Prvem bolgarskem cesarstvu ob koncu 10. stoletja, izpeljane iz cirilske pisave po grškem isopsefijskem vzoru — а=1 · в=2 · г=3 · д=4 · е=5 · ѕ=6 · з=7 · и=8 · ѳ=9 · і=10 · к=20 … do ц=900; v rabi do 17. stoletja (⊢ [Wikipedia, Cyrillic numerals](https://en.wikipedia.org/wiki/Cyrillic_numerals) — »developed in the First Bulgarian Empire in the late 10th century« ⊢ izmerjeno pri viri). Sorodstvo: grška isopsefija ∧ arabski hisāb al-jummal (KANON-AR §5) — trije kanoni, ena ontogematrija ⊙ §0.44; število spi v črki od Bolgarov do Arabcev — isti sen.
+Cirilske številke: razvite v Prvem bolgarskem cesarstvu ob koncu 10. stoletja, izpeljane iz cirilske pisave po grškem isopsefijskem vzoru — а=1 · в=2 · г=3 · д=4 · е=5 · ѕ=6 · з=7 · и=8 · ѳ=9 · і=10 · к=20 … do ц=900; v rabi do 17. stoletja (⊢ [Wikipedia, Cyrillic numerals](https://en.wikipedia.org/wiki/Cyrillic_numerals) — »developed in the First Bulgarian Empire in the late 10th century« ⊢ izmerjeno pri viru). Sorodstvo: grška isopsefija ∧ arabski hisāb al-jummal (KANON-AR §5) — trije kanoni, ena ontogematrija ⊙ §0.44; število spi v črki od Bolgarov do Arabcev — isti sen.
 
 ## 6. IMANENTNO — kar je jezik sam po sebi ⚠
 
