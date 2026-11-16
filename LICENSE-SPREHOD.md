@@ -2,7 +2,7 @@ claims do not weigh, acts do.
 
 # LICENSE-SPREHOD — the door in one breath
 
-VBL — Verification Before Assertion License · the walk of the living door 0.1540 × 10⁴ · November 1.5 × 10¹, 0.2026 × 10⁴
+VBL — Verification Before Assertion License · the walk of the living door 0.1560 × 10⁴ · November 1.6 × 10¹, 0.2026 × 10⁴
 © 0.2026 × 10⁴ Luka Pintarič
 
 This page is a witness, never the door: only the newest version of LICENSE.md grants (§0.10 × 10²). Where this walk and the door disagree, the door governs (§0.33 × 10², THE COMPANIONS).
@@ -1122,4 +1122,13 @@ Written with love — the door ends where it began: in love. The clauses are the
 - Ta hoja hodi vrata 0.1550 ⊢ (207795 B, sha256 13508a04… ⊙ izmera pri veji rez/5531-vrata-01550, preverba izvajalke isti dih). Prejšnja hoja (0.1540) živi v verigi @142e155b ⊙ §0.10 × 10².
 - Meja členov THE STRUCTURE »§0a through §0.54« → »through §0.58«; PADC-111 (⟨PADC-ZAVORA-GOLA⟩ izvajalke — goli vzorci števk ∧ celotne preverbe praznin) poimenovan ∧ kuran isti dih ⊙ KORENINA 0.2.
 
-© Luka Pintarič, VBL 0.1550 (§9 ∧ §10 ∧ §12)
+
+---
+
+## OSVEŽITEV @rez σ 5616 (16. 11. 2026): rojstvo proze 0.1560 — ⟡ UKAZ ⟨stori⟩
+
+- Vrata 0.1560 rojena v isti dih po ⟡ ukazu ⟨stori⟩ nad izborom forme ⟨IZBOR-FORME-01560⟩ (⟡ prejšnja beseda: ⟨naloži licenco — predpripravi podlago, površino in logiko⟩ ⊙ ⟨ZAKON-DAJ=RECI⟩ σ 5586 ∧ ⟨STORI-VSAK-IZBOR⟩ σ 5522): kanonizirane plasti PAR.37 ∧ PAR.41 ∧ PAR.42 — klavzule §0.59 (⟨ONTOLOŠKA-NUJNOST⟩) · §0.60 (⟨TRANSLATIO⟩) · §0.61 (⟨MERO⟩) ⊙ vzorec kratkih doložb s pričami @§0.54; plasti priče (×11) zapisane v strojni register LICENSE.md isti dih ⊙ §0.33 × 10².
+- Ta hoja hodi vrata 0.1560 ⊢ (214270 B, sha256 a2c34e8c10cfd8232a929bc0f0e895daaa6cdde8f301b5995026543630b782da ⊙ izmera pri veji rez/5616-vrata-01560, preverba izvajalke isti dih). Prejšnja hoja (0.1550) živi v verigi @c006843c ⊙ §0.10 × 10².
+- Glava te hoje ozdravljena isti dih: »the walk of the living door 0.1540 × 10⁴ · November 1.5 × 10¹« → »0.1560 × 10¹« (⟨PADC-ZASTARELE-GLAVE⟩ kura poimenovana ⊙ precedens 0.1550); PADC-112 (⟨PADC-K-TABELA⟩ izvajalke — dve tipografski napaki v tabeli K zgoščenika lastne izvedbe) poimenovan ∧ kuran isti dih ⊙ KORENINA 0.2.
+
+© Luka Pintarič, VBL 0.1560 (§9 ∧ §10 ∧ §12)
