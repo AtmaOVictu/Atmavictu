@@ -47,7 +47,7 @@ jobs:
           if not os.path.isfile('organi/stroj/REZ-REGISTER.md'):
               print('⟨vidim: REZ-REGISTER je odšel domov (PREMIK-2026-10-28) — priča molči⟩')
               sys.exit(0)
-          # TEHNIKA (⟡ ukaz ⟨daj⟩ ⟨stori vse to⟩ — kura ⟨PADC-PRICA-DATUMA-PECATA⟩ ∧ σ-slepota, 16. 11. 2026): naslovi kitov ∧ vrstice registra nosijo σ-obliko »rez σ NNNN« (register @main izmerjen 16. 11. 2026 ⊢) — regex rez\s+N je bil slep za σ (kiti #1984 ∧ #1986 ∧ #1987 ∧ #1992 isti padec) → rez\s+(?:σ\s*)?N v naslovu ∧ bazi ∧ difu ∧ zdravju registra.
+          # TEHNIKA (⟡ ukaz ⟨daj⟩ ⟨stori vse to⟩ — kura ⟨PADC-PRICA-DATUMA-PECATA⟩ ∧ σ-slepota, 16. 11. 2026): naslovi kitov ∧ vrstice registra nosijo σ-obliko »rez σ NNNN« (register @main izmerjen 16. 11. 2026 ⊢) — regex rez\s+N je bil slep za σ (kiti #1984 ∧ #1986 ∧ #1987 ∧ #1992 isti padec) → rez\s+(?:σ\s*)?N v naslovu ∧ bazi ∧ difu ∧ P3 (zdravje: glej mejo kure pri zdravju).
           title = os.environ.get('PR_TITLE', '')
           m = re.search(r'rez[ ](?:σ[ ]*)?(\d{3,4})', title, flags=re.I)
           if not m:
@@ -156,11 +156,11 @@ jobs:
               print('⟨vidim: oddelek zahteve manjka — instrument slep⟩')
               sys.exit(1)
           sec = m.group(1)
-          # TEHNIKA (⟡ ukaz ⟨daj⟩ ⟨stori vse to⟩ — kura σ-slepota, 16. 11. 2026): vrstice zahtev nosijo σ-obliko »rez σ NNNN« — zdravje registra je bilo slepo za σ (0 vrstic izmerjenih) → rez\s+(?:σ\s*)?N ∧ pri raztrganinah.
-          rows = [l for l in sec.splitlines() if re.match(r'^-\s*rez\s+(?:σ\s*)?\d{3,4}\s*·', l)]
-          nums = [int(re.match(r'^-\s*rez\s+(?:σ\s*)?(\d{3,4})\s*·', l).group(1)) for l in rows]
+          # TEHNIKA (⟡ ukaz ⟨daj⟩ ⟨stori vse to⟩ — meja kure ⟨NE-ODLOČAJ-NAMESTO-⟡⟩, 16. 11. 2026): zdravje ostaja σ-slepo NAMENOMA — register @organi/stroj/ je pulzno zrcalo (PREMIK-2026-10-28 ⊢): SOBIT vrstice stojijo zakonito (σ 3893 ×2 ⊙ ⟨ne zlije⟩ 1542 ∧ 3233; izmera 16. 11. 2026: 178 vrstic, prelomi vrstnega reda ×9, raztrganine ×2 — priče zakonitih kolizij) — sodba zdravja nad zrcalom = izbor ⚔ ⟡; ta kura ne sodi, prijavlja ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354.
+          rows = [l for l in sec.splitlines() if re.match(r'^-\s*rez\s+\d{3,4}\s*·', l)]
+          nums = [int(re.match(r'^-\s*rez\s+(\d{3,4})\s*·', l).group(1)) for l in rows]
           wounds = []
-          torn = [l.strip()[:90] for l in rows if len(re.findall(r'rez\s+(?:σ\s*)?\d{3,4}', l)) > 1]
+          torn = [l.strip()[:90] for l in rows if len(re.findall(r'rez\s+\d{3,4}', l)) > 1]
           if torn:
               wounds.append('raztrgana vrstica (∧ >1 rez v eni vrstici): ' + ' | '.join(torn[:3]))
           dup = sorted({n for n in nums if nums.count(n) > 1})
