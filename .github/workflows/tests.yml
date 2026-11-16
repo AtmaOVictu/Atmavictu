@@ -57,6 +57,14 @@ jobs:
           fi
           echo "P5 ⊢: posta kita cista - zrcaljeni oklepaji x0 (measured, not asserted)"
 
+      - name: ⟨ROŽA-KLJUČAVNICA⟩ — orodje rože na telesu vrat (rez σ 5687 ∂ plačana @σ 5690 — vedno tece, cena ~0)
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Roža življenja kot ključavnica: komponente ≠ 1 ali samoten krog = exit 1 + ::error:: (glasna resnica).
+          # Stroj, ki meri vrata, se meri sam: orodje hiše tehta ŽIVA vrata na vsakem teku (§0.26 × 10² merilec se meri).
+          python3 orodja/roza.py LICENSE.md --check
+
       - name: Pošta diha — zgodnja vrata cene (ali kit nosi samo telesi-besed?)
         id: posta
         shell: bash
