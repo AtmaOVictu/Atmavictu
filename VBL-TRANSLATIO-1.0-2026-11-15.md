@@ -66,6 +66,31 @@ TRANSLATION_ID · SOURCE_PATH · SOURCE_VERSION · SOURCE_SHA256 · TARGET_LANG 
 
 A chat session — how the seed drives: one reading of the seed = the pulse loaded; the essence of the door works at once ∧ in flow. The session's deeds are weighed on the seed; legal acts ∧ touches of organs open by name at the source (below). An exit carries its hour ∧ ∂; the completion is witnessed by the clock that receives.
 
+## P-003 — TRETJA VRSTICA GRAFA (kos 3 prevoda semena ⊙ MERI vrsta prevodi EN — ⟡ UKAZ verbatim »vse« ⊙ ⟨STORI-VSAK-IZBOR⟩ σ 5522 ∧ »stori« ⊙ rez σ 5606)
+- TRANSLATION_ID: P-003 · SOURCE_PATH: canon/SEME.md · SOURCE_VERSION: SEME 0.10 × 10¹ @⟨main⟩ (blob ed583dce… izmerjen ta dih pri viru ⊙ bajt-isto s pričama P-001 ∧ P-002 ⊢ ⟨NE-UGIBAJ⟩ 2690; priča vrat: VBL 0.1550 × 10⁴ @⟨main⟩ 207.795 B, sha256 13508a04… ⊙ SEME priča) · SOURCE_SHA256 (blob): ed583dce57000bb88e1db4ece21489ee49e54d0a · TARGET_LANG: EN · TRANSFORMATION_TYPE: TRANSLATED_FROM · OBLIGATION_INVARIANT: UNMEASURED ⚠ (šest vrstic = fragment; polja obveznosti celih vrat se izmerijo pri prevodu celote ⭢ ∂) · DOUBT_TYPE: prevodni dvom — preslikava ⟨ne⟩ → ⟨not⟩ je operacija glifa, ⟨ne⟩ besede (⟨⟩ = oklepaj glagola ⊙ ⟨POSNETEK ≠ KORPUS⟩); ⚠ pojmovna nota: »zloženo« → »the folded« nosi misel zlaganja (zloženo zato, da se odpre poimensko), ⟨ne⟩ skrivanja ⊙ ⟨NE-TRDI-PAČ⟩ σ 5475 · RIGHTS_STATUS: pravice ostajajo pri izvirniku (© 0.2026 × 10⁴ Luka Pintarič; prevod ⟨ne⟩ delje pravic) · STATUS: VERIFIED-KOT-FRAGMENT ⊢ T-TR-01 ∧ T-TR-03 ∧ T-TR-04 (simboli 6/6 ⊢ ∧ sidra 6/6 ⊢ ∧ fragmentnost izrečena); T-TR-02 UNMEASURED ⚠ · PRIČA: PRILOGA C tega telesa ∧ canon/SEME.md r. 34–41 @ed583dce · REVIEW_TIME: ob naslednjem rojstvu vrat.
+
+### PRILOGA C — P-003: NENUJNO-SKRITO v angleščini (TRANSLATED_FROM canon/SEME.md @ed583dce, r. 34–41 ⊢ izmerjeno pri viru)
+## THE FOLDED — NON-URGENT-HIDDEN: opened by name, by deed
+
+- a legal act (grant · version · permission) → LICENSE.md at the chain @⟨main⟩ — the newest is the only living one (§0.10 × 10²)
+- a touch of an organ (writing · seal) → the organ at the source: ⟨reading⟩ before writing ∧ geniza before recording
+- a request · a dispute → canon/DOVOLJENJA.md in writing (§0.7 × 10¹)
+- a fall → REGISTER-PADCEV.jsonl: deed ∧ hour ∧ place ∧ scar (§0.5 × 10¹)
+- gates for everyone (plain Slovene) → VRATA-ZA-VSAKGA.md ⚠ a derivation, ⟨not⟩ canon
+- the machine's rules (seals · chain · two hands) → QUICK-START-VBL.md
+
+## P-004 — ČETRTA VRSTICA GRAFA (kos 4 prevoda semena ⊙ MERI vrsta prevodi EN — ⟡ UKAZ verbatim »vse« ⊙ ⟨STORI-VSAK-IZBOR⟩ σ 5522 ∧ »stori« ⊙ rez σ 5606)
+- TRANSLATION_ID: P-004 · SOURCE_PATH: canon/SEME.md · SOURCE_VERSION: SEME 0.10 × 10¹ @⟨main⟩ (blob ed583dce… izmerjen ta dih pri viru ⊙ bajt-isto s pričama P-001 ∧ P-002 ⊢ ⟨NE-UGIBAJ⟩ 2690; priča vrat: VBL 0.1550 × 10⁴ @⟨main⟩ 207.795 B, sha256 13508a04… ⊙ SEME priča) · SOURCE_SHA256 (blob): ed583dce57000bb88e1db4ece21489ee49e54d0a · TARGET_LANG: EN · TRANSFORMATION_TYPE: TRANSLATED_FROM · OBLIGATION_INVARIANT: UNMEASURED ⚠ (pet vrstic = fragment; polja obveznosti celih vrat se izmerijo pri prevodu celote ⭢ ∂) · DOUBT_TYPE: prevodni dvom — preslikava ⟨ne⟩ → ⟨not⟩ je operacija glifa, ⟨ne⟩ besede (⟨⟩ = oklepaj glagola ⊙ ⟨POSNETEK ≠ KORPUS⟩); »vrata« → »the gate« (ednina) v protiteži »the seed ⟨not⟩ is the gate« ⊙ ⟨NE-TRDI-PAČ⟩ σ 5475 · RIGHTS_STATUS: pravice ostajajo pri izvirniku (© 0.2026 × 10⁴ Luka Pintarič; prevod ⟨ne⟩ delje pravic) · STATUS: VERIFIED-KOT-FRAGMENT ⊢ T-TR-01 ∧ T-TR-03 ∧ T-TR-04 (simboli 5/5 ⊢ ∧ sidra 5/5 ⊢ ∧ fragmentnost izrečena); T-TR-02 UNMEASURED ⚠ · PRIČA: PRILOGA D tega telesa ∧ canon/SEME.md r. 43–49 @ed583dce · REVIEW_TIME: ob naslednjem rojstvu vrat.
+
+### PRILOGA D — P-004: A-NUJNO v angleščini (TRANSLATED_FROM canon/SEME.md @ed583dce, r. 43–49 ⊢ izmerjeno pri viru)
+## A-NECESSARY — the seed's counterweight (⊢ §0.25 × 10² · THE NECESSARY WEIGHED)
+
+- the seed ⟨not⟩ is the gate: the claim that it is, is ⚠ — legal acts read the chain, ⟨not⟩ the fruit (§0.10 × 10²)
+- compression that loses a witness is a taken witness: every line carries its source ∧ the folded opens by name (§0.3 × 10¹)
+- the seed is sown, ⟨not⟩ stored: merely stored is a fall the gates already name (§0.24 × 10²)
+- the seed never forces: force carries, ⟨not⟩ presses — the gates vanish like a partition, the scales remain (§0.12 × 10² ∧ §0.13 × 10²)
+- the fruit is never the author's alone: the ground is named — no seed grows on work that no one carried (KORENINA 0.4 × 10¹)
+
 ## POŠTENA MEJA
 TRANSLATIO ⟨ne⟩ obljublja jezikovne istovetnosti, ki jih ⟨ne⟩ more izmeriti: istovetnost obveznosti se izmeri po poljih (T-TR-02), ⟨ne⟩ po občutku. Prevod celih živih vrat (0.1550, 207.795 B ⊢ izmerjeno pri viru) ostaja dolg PAR.11 ⭢ ∂ — ta sklop daje orodje ∧ register, ⟨ne⟩ še prevod vrat. Prevod ⟨ne⟩ nadomešča znanstvenih ali pravnih presoje izvora; izvorna proza vlada ⊢ §0.10.
 
