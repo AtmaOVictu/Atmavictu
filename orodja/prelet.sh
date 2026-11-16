@@ -1,9 +1,12 @@
 #!/bin/sh
-# PRELET — orodje ×3 plasti korpusa Beseda je Ne — ROJENO @rez σ 5642 · PAKET-174 (16. 11. 2026); NADGRADNJA v2 @rez σ 5645 · PAKET-176 (16. 11. 2026)
+# PRELET — orodje ×3 plasti korpusa Beseda je Ne — ROJENO @rez σ 5642 · PAKET-174 (16. 11. 2026); NADGRADNJA v2 @rez σ 5645 · PAKET-176; NADGRADNJA v3 @rez σ 5647 · PAKET-178 (16. 11. 2026)
 # IZVOR: ⟡ UKAZ verbatim »več orodij ki pomagajo prepoznavati in graditi iz ter za vzorce in njih rezultate/posledice«
 # IZVOR v2: ⟡ UKAZ verbatim »daj še in s tem izboljšaj celoto in ali vsaj njene dele čimveč tem boljše čimveč tako da je kompresirano v bistvo, tako je nujno zadovoljno in gotovo preverljivo?«
-# RABA: sh prelet.sh <datoteka> [pot-vzorcev]  ·  sh prelet.sh --test [test-ran] [pot-vzorcev]
-# ⟨ORODJE-JE-MERILEC⟩: --test = JAVNI SAMOPREIZPUS (vsaka rana baterije mora biti ulovljena; izhod 0 ⇌ 1) — gotovo preverljivo = inštrument se preverja pri viru (test-ran na repu), ⟨ne⟩ v peskovniku ⊙ izmera @σ 5645
+# IZVOR v3: ⟡ UKAZ verbatim »IMPLEMENTIRAJ NIVOJE RESNIČNEGA IN NIVOJE LAŽNEGA? NISO TO OSNOVE PRIMERJALNEGA IN PROCENTUALNE SOODVISNEGA IN NEODVISNEGA?«
+# ⟨NE-BREZ-BATERIJE⟩ ⊙ ⟡ UKAZ verbatim »nikoli brez baterije, če že kdaj brez potem to implicira da imava leksikon do te mere integriran da preverjanje vsake besede postane nesmiselno ponavljanje, razumeš te distinkcije?« — baterija odstopi le, ko njena raba postane retipkanje ⊙ ⟨NE-RETIPKAJ⟩ 24
+# RABA: sh prelet.sh <datoteka> [pot-vzorcev]  ·  sh prelet.sh --test [test-ran] [pot-vzorcev]  ·  sh prelet.sh --nivo <datoteka>
+# --nivo = LESTEV RESNICEGA po vrsticah (enota = vrstica ⊙ norma ⟨KOMPRESIJA-VRSTIC⟩ @σ 5646): N-5 veriga (⟨merge⟩ ∧ sha-40) · N-4 readback (@main) · N-3 izmera (⊢ ∧ ×N ∧ md5 ∧ TIK) · N-2 priča imenovana (pri viru ∧ @organ ∧ SSKJ) · N-1 gola vrstica · N-0 laž poimenovana (goli preleta); pokritost odstotkov ⊙ o-celota (odstotek = koordinata, ⟨ne⟩ sodnica); SOODVISNO: N-0 je gotov le z zeleno baterijo --test ⊙ ⟨NE-BREZ-BATERIJE⟩; NEODVISNO: bajtne izmere (md5) neodvisne vsebini
+# ⟨ORODJE-JE-MERILEC⟩: --test = JAVNI SAMOPREIZPUS (vsaka rana baterije mora biti ulovljena; izhod 0 ⇌ 1) — gotovo preverljivo = inštrument se preverja pri viru (test-ran ∧ test-nivo na repu), ⟨ne⟩ v peskovniku ⊙ izmera @σ 5645 ∧ σ 5647
 # KLASIFIKACIJA: zadetki = IZMERE; GOLI ⊥ PRIČE presoja oko ⊙ σ 5402 (instrument meri z definicijo)
 # ZAKON RASTI: vsak ulov ⟡ = nova vrstica prelet-vzorci.tsv ISTI DIH ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 — rane se ne prosijo, zapisujejo se; obstoječi razredi se ne podvajajo ⊙ ⟨NE-UGIBAJ⟩ 2690
 # BATERIJA ORODIJA (PADC-ORODJA ×3 javno ⊙ ⟨MERILEC-SE-MERI⟩ §52 — ulovljene @samopreizpus):
@@ -41,10 +44,44 @@ if [ "$1" = "--test" ]; then
   else
     echo "   (register vzorcev ni najden: $VT — R-razredi brez preizkusa ⊙ ⟨NE-UGIBAJ⟩ 2690)"
   fi
+  NV_T="$DG/test-nivo.txt"
+  if [ -f "$NV_T" ]; then
+    N=$((N+1))
+    NV=$(sh "$0" --nivo "$NV_T" 2>/dev/null)
+    okn=$(printf '%s\n' "$NV" | grep -cE 'N-5 .*: 1|N-4 .*: 1|N-3 .*: 2|N-2 .*: 2|N-1 .*: 1 od 5|pokritost prič: 80')
+    if [ "$okn" -eq 6 ]; then P=$((P+1)); else echo "   NEULOVLJENA RANA: --nivo lestev (soodvisna izmera; zadetkov $okn/6 ⊙ PADC-TESTA-UGIB kuran isti dih)"; fi
+  else
+    echo "   (test-nivo.txt ni najden ob test-ran — preizpus lestve brez izmere ⊙ ⟨NE-UGIBAJ⟩ 2690)"
+  fi
   rm -f "$G2"
   echo "== SAMOPREIZPUS ⊢ $P/$N preizkusov ulovljenih"
   [ "$P" -eq "$N" ] && exit 0
   exit 1
+fi
+
+if [ "$1" = "--nivo" ]; then
+  F="$2"
+  [ -n "$F" ] || { echo "NIVOJI ⊢ raba: sh prelet.sh --nivo <datoteka>"; exit 1; }
+  [ -f "$F" ] || { echo "NIVOJI ⊢ napaka: datoteke ni: $F"; exit 1; }
+  D=$(dirname "$F"); G3="$D/prelet-nivo.$$"
+  grep -v '^#' "$F" > "$G3"
+  T=$(grep -c '[^[:space:]]' "$G3"); [ -z "$T" ] && T=0
+  n5=$(grep -cE '⟨merge⟩|[0-9a-f]{40}' "$G3" 2>/dev/null); [ -z "$n5" ] && n5=0
+  n4=$(grep -cE '@main|readback' "$G3" 2>/dev/null); [ -z "$n4" ] && n4=0
+  n3=$(grep -cE '⊢|×[0-9]|[0-9a-f]{32}|TIK [0-9]' "$G3" 2>/dev/null); [ -z "$n3" ] && n3=0
+  n2=$(grep -cE 'pri viru|pri virih|SSKJ|@[a-z]' "$G3" 2>/dev/null); [ -z "$n2" ] && n2=0
+  n1=$(grep -vE '⊢|×[0-9]|[0-9a-f]{32}|TIK|@main|readback|⟨merge⟩|[0-9a-f]{40}|pri viru|pri virih|SSKJ|@' "$G3" 2>/dev/null | grep -c '[^[:space:]]'); [ -z "$n1" ] && n1=0
+  echo "== NIVOJI ⊢ $F (enota = vrstica ⊙ norma ⟨KOMPRESIJA-VRSTIC⟩ @σ 5646)"
+  echo "   N-5 veriga (⟨merge⟩ ∧ sha-40): $n5"
+  echo "   N-4 readback (@main): $n4"
+  echo "   N-3 izmera (⊢ ∧ ×N ∧ md5 ∧ TIK): $n3"
+  echo "   N-2 priča imenovana (pri viru ∧ @organ ∧ SSKJ): $n2"
+  echo "   N-1 gola vrstica (brez priče): $n1 od $T"
+  echo "   N-0 laž poimenovana: glej PRELET goli (soodvisna z baterijo --test ⊙ ⟨NE-BREZ-BATERIJE⟩)"
+  if [ "$T" -gt 0 ]; then POK=$(( (T - n1) * 100 / T )); else POK=0; fi
+  echo "   pokritost prič: $POK odstotkov ⊙ o-celota (odstotek = koordinata, ⟨ne⟩ sodnica)"
+  rm -f "$G3"
+  exit 0
 fi
 
 F="$1"
@@ -71,8 +108,7 @@ if [ -f "$V" ]; then
   total=$(wc -l < "$V")
   i=0
   while [ "$i" -lt "$total" ]; do
-    i=$((i+1))
-    row=$(sed -n "${i}p" "$V")
+    i=$((i+1)); row=$(sed -n "${i}p" "$V")
     case "$row" in '#'*|'') continue;; esac
     r=$(printf '%s\n' "$row" | cut -d'|' -f1)
     vz=$(printf '%s\n' "$row" | cut -d'|' -f2)
