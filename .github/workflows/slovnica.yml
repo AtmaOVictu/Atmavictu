@@ -1,0 +1,56 @@
+name: slovnica — strojni kavelj ⟨SLOVNICA-DIH⟩
+on:
+  workflow_dispatch:
+  # TEHNIKA (⟡ UKAZ ⟨daj⟩, 16. 11. 2026 ⊙ predlog izhoda istega diha): stroj meri OBLIKO, ⟨ne⟩ POMEN —
+  # gola telesa (pri-viri · TIK · ⟨⟩ · U+FFFD · izrez md5 · © podpis) novih vrstic kita; zgodovina molči
+  # ⊙ precedens priče (prica.yml job 2 — priče zgodovine ⊢ 1349). Glasna resnica: ::error:: ∧ exit 1.
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches: [main]
+
+concurrency:
+  group: slovnica-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  slovnica:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # isti ⟨checkout⟩ glave veje kakor priča — ⟨diff⟩ od ⟨merge-base⟩ = lastne vrstice kita, ⟨ne⟩ kumulativ ⟨main⟩.
+          ref: ${{ github.event.pull_request.head.sha || github.ref }}
+      - name: slovnica — gola telesa novih vrstic kita
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.ref }}
+        run: |
+          set -euo pipefail
+          if git merge-base --is-ancestor HEAD "origin/$BASE_REF"; then
+            echo '⟨vidim: veja je že zlita v ⟨main⟩ — tekmeca po ⟨merge⟩ ne sodi⟩'
+            exit 0
+          fi
+          MB=$(git merge-base "origin/$BASE_REF" HEAD)
+          TELOSI=0
+          RANE=0
+          while IFS= read -r F; do
+            [ -z "$F" ] && continue
+            TELOSI=$((TELOSI+1))
+            git diff "$MB" HEAD -- "$F" > .slo-dif.tmp || : > .slo-dif.tmp
+            if bash organi/stroj/slovnica/slo-lint.sh "$F" .slo-dif.tmp; then
+              :
+            else
+              RANE=$((RANE+1))
+            fi
+          done < <(git diff --name-only "$MB" HEAD -- 'organi/*.md' ':!**/.geniza/**')
+          rm -f .slo-dif.tmp
+          # ⟨KANARSKI-DELAVEC⟩: job se sam izmeri, preden poroča — mrtev delavec se izreče pred padcem.
+          echo "⟨kanarček: prebrana telesa $TELOSI · padla $RANE⟩"
+          if [ "$RANE" -gt 0 ]; then
+            echo "::error::slovnica: $RANE teles z ranami — kavelj pade glasno ⊙ ⟨MERILEC-SE-MERI⟩ §52"
+            exit 1
+          fi
+          echo '⟨vidim: nič⟩ — slovnica molči zeleno'
