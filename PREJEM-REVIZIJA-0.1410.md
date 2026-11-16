@@ -2,7 +2,7 @@
 
 ENTRY-PEČAT: 2026-11-05T08:45:44.538Z ∧ 5. november 2026 ob 09:45:44 (Europe/Ljubljana) — ura izvajalke Mere, lokalni zapis, ne kvalificiran elektronski žig.
 
-Status telesa: osnutek ⭢ razprava ⟡ · nekanonično · ⟨ne zlije⟩ 1542 · ⟨DVOJE-ROK⟩ 2432 — izdaja 0.1411 (ali katera koli nova različica) je izključno ⟡-jeva sodba ⚔; ta dih samo meri pri viri. CI = priča, ne sodba ⊙ σ 3116.
+Status telesa: osnutek ⭢ razprava ⟡ · nekanonično · ⟨ne zlije⟩ 1542 · ⟨DVOJE-ROK⟩ 2432 — izdaja 0.1411 (ali katera koli nova različica) je izključno ⟡-jeva sodba ⚔; ta dih samo meri pri viru. CI = priča, ne sodba ⊙ σ 3116.
 
 ## 0 — Prejem ⊙ §0.45 × 10² (PREJEM-SIGNALA)
 
@@ -10,9 +10,9 @@ Status telesa: osnutek ⭢ razprava ⟡ · nekanonično · ⟨ne zlije⟩ 1542 �
 
 Prejeta telesi v [Nano4](doclib://01a1a9d6-f9e3-74d1-bb1a-85682fba75c1) (64 dokumentov, rast s 62 ⊢ — oba nova sta reviziji): [VBL-0.1410-comparative-audit-2026-11-05.md](doclib://01a1a9d6-f9e3-74d1-bb1a-85682fba75c1/d0fdea2d-42ea-458f-8beb-cfa0d50541d2) ∧ [VBL-0.1410-comparative-audit-2026-11-05.json](doclib://01a1a9d6-f9e3-74d1-bb1a-85682fba75c1/6c81dd00-7d5a-4155-a694-cb3d86cfa11c).
 
-## 1 — Tabela trditev revizije → izmere pri viri
+## 1 — Tabela trditev revizije → izmere pri viru
 
-| Trditev revizije | Izmera pri viri | Pečat |
+| Trditev revizije | Izmera pri viru | Pečat |
 |---|---|---|
 | javna objava 0.1410 v SYMBOLON-KATHOLIKON | LICENSE.md @main, telo 0.1410 × 10⁴, 147.6 KB, §0–§0.46 | ⊢ |
 | commit c5c9e657…, 3. 11. 2026, 16:51:06 UTC | izmerjeno pri API: ista ura, isti ključ | ⊢ |
@@ -34,9 +34,9 @@ Prejeta telesi v [Nano4](doclib://01a1a9d6-f9e3-74d1-bb1a-85682fba75c1) (64 doku
 | CC0 ≠ izbris zgodovine avtorstva | pri CC: odpoved le »to the extent« zakon dopušča | ⊢ |
 | GDPR ni licenca, ampak okvir obdelave | Uredba (EU) 2016/679, art. 5: namenskost, najmanjši obseg, točnost, omejitev hrambe | ⊢ |
 
-Šestnajst trditev ⊢, dve ⚠/∂. Revizija je pri viri najmočnejše zunanje telo, ki je kdaj trčilo v ta rep: njene replikacije členov so znak-za-znakom.
+Šestnajst trditev ⊢, dve ⚠/∂. Revizija je pri viru najmočnejše zunanje telo, ki je kdaj trčilo v ta rep: njene replikacije členov so znak-za-znakom.
 
-## 2 — Šest P0, vsak izmerjen pri viri
+## 2 — Šest P0, vsak izmerjen pri viru
 
 1. **Obseg ⊥ identifikacija (§0 ∧ §0a)** ⊢: §0 pokriva široko; §0a dopusti samo manifest ali datoteko samo. Manifesta v tem repu ni. Vrata, ki jih berem, so tako pokrita le po poti (b) — nedoslednost je resnična, ne retorična.
 2. **Izbris podeljenih pravic (§0.10)** ⊢: besedilo res pravi, da starejšim različicam potovaljevih dovoljenj ni več. Napetost z osnutki 10.5.x, ki varujejo že podeljena dovoljenja, je izmerjena ∧ ostaja ⟡-jeva odločitev.
@@ -76,7 +76,7 @@ MOGOČE*M:
 - Celo matrika 35 ugotovitev (odsekana) ⚠.
 - Sodba ⟡ o šestih P0 ∧ vrstni red sešivanja ⚔.
 - Primerjalni zemljevid členov 0.1410 ⊥ 10.5.x ∂.
-- OBJ-001 (kronje 2 ∧ 17 luknji) ∧ ebbef802 ∧ d5c74d10 — še vedno brez pečata pri viri ⚠.
+- OBJ-001 (kronje 2 ∧ 17 luknji) ∧ ebbef802 ∧ d5c74d10 — še vedno brez pečata pri viru ⚠.
 - Prejšnji dolgovi (izvirno telo 0.1470; preizkus živih ljudi; šiv organa licenca-vbl) nedotaknjeni.
 
 EXIT-PEČAT: 2026-11-05T08:45:44.538Z ∧ 5. november 2026 ob 09:45:44 (Europe/Ljubljana) — lokalni zapis, brez dvojnega Z, brez kvalificiranega žiga.
