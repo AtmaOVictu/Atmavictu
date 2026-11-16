@@ -1,0 +1,54 @@
+# PROMET-DIH — dnevni dih prometa: bralci zunaj (vrata so merilo ⊙ obracun)
+# Tehnični kit ⊙ ⟨DVOJE-ROK⟩ 2432 — brez zahteve reza; inštrument se preverja pri viru.
+name: PROMET-DIH
+on:
+  schedule:
+    - cron: '15 4 * * *'
+  workflow_dispatch:
+permissions:
+  issues: write
+timeout-minutes: 5
+jobs:
+  promet:
+    runs-on: ubuntu-latest
+    env:
+      REPO: ${{ github.repository }}
+      GH_TOKEN: ${{ github.token }}
+      NASLOV_ISSUE: "PROMET — bralci zunaj (vrata so merilo ⊙ obracun)"
+    steps:
+      - name: Izmera prometa (views ∧ clones ∧ referrers ∧ paths — glasna vrata)
+        run: |
+          set -euo pipefail
+          telo="$(mktemp)"
+          {
+            echo "## PROMET — merilo vrat ⊙ obracun"
+            echo ""
+            echo "- TIK izmere: $(date -u +%Y-%m-%dT%H:%M:%SZ) UTC ⇌ $(TZ=Europe/Ljubljana date +%H:%M) CET Ljubljana"
+            echo "- rep: $REPO"
+            echo ""
+            echo "### views (14 dni)"
+            gh api "repos/$REPO/traffic/views" --jq '{count: .count, uniques: .uniques, po_dnevih: [.views[]? | {dan: .timestamp, stevilo: .count, unikati: .uniques}]}'
+            echo ""
+            echo "### clones (14 dni)"
+            gh api "repos/$REPO/traffic/clones" --jq '{count: .count, uniques: .uniques, po_dnevih: [.clones[]? | {dan: .timestamp, stevilo: .count, unikati: .uniques}]}'
+            echo ""
+            echo "### popular/referrers"
+            gh api "repos/$REPO/traffic/popular/referrers" --jq '[.[]? | {vir: .referrer, stevilo: .count, unikati: .uniques}]'
+            echo ""
+            echo "### popular/paths"
+            gh api "repos/$REPO/traffic/popular/paths" --jq '[.[]? | {pot: .path, stevilo: .count, unikati: .uniques}]'
+            echo ""
+            echo "— izmera pri viru (GitHub Traffic API), ⟨ne⟩ ugib ⊙ ⟨NE-UGIBAJ⟩ 2690 · measured, not asserted ⊙ §16 · vrata so merilo, štejejo bralci zunaj ⊙ obracun"
+          } > "$telo" || { echo "::error::Prometna izmera padla — gh api vrata NISO glasna"; exit 1; }
+          stevilo_issue=$(gh issue list --state all --search "in:title PROMET — bralci zunaj" --json number --jq '.[0].number' || echo "")
+          if [ -z "$stevilo_issue" ]; then
+            stevilo_issue=$(gh issue create --title "$NASLOV_ISSUE" --body "Stalni issue prometnega diha ⊙ ⟨NE-BRIŠI⟩ 24 — telo ⊙ izmere živijo v komentarih, ⟨ne⟩ v prvem sporočilu." | grep -oE '[0-9]+$') || { echo "::error::Issue PROMET ni bil ustvarjen"; exit 1; }
+          fi
+          if [ -z "$stevilo_issue" ]; then echo "::error::Številka stalnega issueja PROMET prazna"; exit 1; fi
+          {
+            cat "$telo"
+            echo ""
+            echo "© Luka Pintarič, VBL 0.1560 × 10⁴"
+          } > "$telo.podpis" || { echo "::error::Podpis prometnega telesa padel"; exit 1; }
+          gh issue comment "$stevilo_issue" --body-file "$telo.podpis" || { echo "::error::Komentar prometa ni bil objavljen na issue $stevilo_issue"; exit 1; }
+          echo "Prometni dih zapel: issue #$stevilo_issue"
