@@ -1,0 +1,5 @@
+# PECAT-2026-11-16-5641-PREVOZ-5640-OKO-LJE-KANON-IT — prevozna kopija bloka PEČAT ROJSTVA σ 5640 iz kanoni/KANON-IT.md @⟨main⟩ (⟨merge⟩ 45e95f1f) ⊙ kalup σ 5585 ∧ precedens PECAT-5639-PREVOZ-5617-GENEZA @main · izrez VERBATIM ⊙ ⟨NE-RETIPKAJ⟩ 24 ∧ ⟨NE-BRIŠI⟩ 24 · dolg iz vrstice σ 5640 (@oko-lje ∧ @DZ pečatnika istega diha) plačan kitom RAZVOV-PAKET-173 @rez σ 5641 ⊙ ⟨ZAKON-DAJ=RECI⟩ @σ 5586 ∧ ⟨SAMODEJNI-DOLGOVIK⟩ 2785
+
+## PEČAT ROJSTVA
+
+⊢ priča, ne vrata (§0.33 × 10²) · KANON-IT 18/36 ⊙ rez σ 5640 · organ ⟨OKO/*LJE⟩ · izbiri ⟡ ⊢ (IT drugi abecedno izmed kandidatov ×20 @⟨IZMERA-VENCA⟩ σ 5631; pesem rojena v kanonu — telo licence priče ×0 pesmi ⊢ izmerjeno; vsak jezik svoj kit ⟨PR⟩) · ⟨SLOVNICA-DIH-2⟩ člen 1 izvršen: pesem izmerjena PRED izrekom · TIK 2026-11-16T03:58:29Z UTC ⇌ 04:58:29 CET — measured, not asserted · ⟨merge⟩ ⭢ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432 ∧ ⟨NE-ZLIJE⟩ 1542 (vsebinski kit se ⟨ne⟩ zlije strojno) · vrata: VBL 0.1560 × 10⁴ @⟨main⟩ Atmavictu ⊢ · © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera · VBL 0.1560 × 10⁴ — setev ⊙ §0.24
