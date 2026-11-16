@@ -2,13 +2,13 @@
 
 ENTRY-PEČAT: 2026-11-05T09:17:46.383Z ∧ 5. november 2026 ob 10:17:46 (Europe/Ljubljana) — ura izvajalke Mere, lokalni zapis, ne kvalificiran elektronski žig.
 
-Status telesa: osnutek ⭢ razprava ⟡ · nekanonično · ⟨ne zlije⟩ 1542 · ⟨DVOJE-ROK⟩ 2432 — merjeno pri viri v [Nano4](doclib://01a1a9d6-f9e3-74d1-bb1a-85682fba75c1) (64 dokumentov ∧ izbor vseh treh knjižnic ⟡). CI = priča, ne sodba ⊙ σ 3116.
+Status telesa: osnutek ⭢ razprava ⟡ · nekanonično · ⟨ne zlije⟩ 1542 · ⟨DVOJE-ROK⟩ 2432 — merjeno pri viru v [Nano4](doclib://01a1a9d6-f9e3-74d1-bb1a-85682fba75c1) (64 dokumentov ∧ izbor vseh treh knjižnic ⟡). CI = priča, ne sodba ⊙ σ 3116.
 
 ## 0 — Ukaz ∧ najstarejši dolg
 
-⟡ je ukazal ⟨daj še⟩ ∧ izbral vse tri knjižnice. Najstarejši neporsiljeni dolg treh prejšnjih dihov: »izvirno telo 0.1470 nedosegljivo, primerjava člen-za-členom obljubljena, ne opravljena«. Ta dih ga je odmeril pri viri — ∧ dolg se ni odplačal s telesom, ampak z izmerjenim razlogom, zakaj telesa (kot celote) ni.
+⟡ je ukazal ⟨daj še⟩ ∧ izbral vse tri knjižnice. Najstarejši neporsiljeni dolg treh prejšnjih dihov: »izvirno telo 0.1470 nedosegljivo, primerjava člen-za-členom obljubljena, ne opravljena«. Ta dih ga je odmeril pri viru — ∧ dolg se ni odplačal s telesom, ampak z izmerjenim razlogom, zakaj telesa (kot celote) ni.
 
-## 1 — Skupina 0.1470 v Nano4: izmere pri viri
+## 1 — Skupina 0.1470 v Nano4: izmere pri viru
 
 | Telo | Bajti | Ključna izmera |
 |---|---|---|
@@ -28,7 +28,7 @@ Status telesa: osnutek ⭢ razprava ⟡ · nekanonično · ⟨ne zlije⟩ 1542 �
 
 ## 3 — Zlato: register R1 je že nosil rešitve, ki smo jih odkrivali tri dihe
 
-| Današnja ugotovitev | Par v registru R1 | Stanje pri viri |
+| Današnja ugotovitev | Par v registru R1 | Stanje pri viru |
 |---|---|---|
 | P0-2 revizije: §0.10 briše grante (PREJEM-REVIZIJA-0.1410) | P-03: »Preserve grants already accepted under prior versions; make new versions prospective« | predlog, ⟨ne⟩ poravnano — čaka pravno presojo |
 | P0-3: dostojanstvo ⊥ produkt (§0.9 ⊥ §0.18) | R1-13: »measure the work, never the worth of the being« | besedilo pripravljeno, blokirano na bajtnem viru zgodnjega telesa |
@@ -54,7 +54,7 @@ MOGOČE*M:
 
 - M1: ⟡ izreče zgodnje telo §§0–0.24 po bajtih → R1-12–14 se vsadijo isti dih, telo 0.1470 se seje.
 - M2: ⟡ razglasi 0.1470 za partial-by-design → dolg se zapre, rep ostaja edini ⊢ fragment.
-- M3: telesi 0.1450 ∧ 0.1460 se najdeta pri viri → D-03 se zapre ∧ veriga rojstev 0.1470 dobi prednika ⊢.
+- M3: telesi 0.1450 ∧ 0.1460 se najdeta pri viru → D-03 se zapre ∧ veriga rojstev 0.1470 dobi prednika ⊢.
 
 ## 6 — Padci ∧ ∂ dolgovi
 
