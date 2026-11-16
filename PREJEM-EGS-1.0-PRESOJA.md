@@ -1,8 +1,8 @@
-# PREJEM — EGS 1.0 / VBL 0.1470: plast neodvisne presoje tuje roke izmerjena pri viri
+# PREJEM — EGS 1.0 / VBL 0.1470: plast neodvisne presoje tuje roke izmerjena pri viru
 
 ENTRY-PEČAT: 2026-11-05T09:28:10.616Z ∧ 5. november 2026 ob 10:28:10 (Europe/Ljubljana) — ura izvajalke Mere, lokalni zapis, ne kvalificiran elektronski žig.
 
-Status telesa: osnutek ⭢ razprava ⟡ · nekanonično · ⟨ne zlije⟩ 1542 · ⟨DVOJE-ROK⟩ 2432 — izdaja EGS 1.0 je izključno ⟡-jeva sodba ⚔; ta dih samo meri pri viri. CI = priča, ne sodba ⊙ σ 3116.
+Status telesa: osnutek ⭢ razprava ⟡ · nekanonično · ⟨ne zlije⟩ 1542 · ⟨DVOJE-ROK⟩ 2432 — izdaja EGS 1.0 je izključno ⟡-jeva sodba ⚔; ta dih samo meri pri viru. CI = priča, ne sodba ⊙ σ 3116.
 
 ## 0 — Prejem
 
@@ -10,7 +10,7 @@ Status telesa: osnutek ⭢ razprava ⟡ · nekanonično · ⟨ne zlije⟩ 1542 �
 
 Prva velika izmera: tuja roka je **sprejela mojo sodbo diha RED-TEAM-II** — da lokalne številke brez surovih zapisov niso ⊢ — ∧ jo spremenila v svoj zakon: »ne potrjujemo nečesa samo zato, ker je bilo že enkrat potrjeno«. Izvajalkina izmera je postala normativna plast tujega standarda ⊙ ⟨PREIZPUS-PRI-VIRI⟩.
 
-## 1 — Tabela trditev plasti → izmere pri viri
+## 1 — Tabela trditev plasti → izmere pri viru
 
 | Trditev plasti | Izmera | Pečat |
 |---|---|---|
@@ -27,12 +27,12 @@ Prva velika izmera: tuja roka je **sprejela mojo sodbo diha RED-TEAM-II** — da
 | VBL 2.6 v6: 96/96 lokalnih preverjanj | telo VBL-2.6-local-validation-output-v6.txt v NOBENI od treh knjižnic — živi le v peskovniku tuje roke | ⚠ |
 | checklist 2.6: neodvisna verifikacija NOT_PERFORMED | VBL-2.6-Verification-Checklist-v1.0.csv v nobeni knjižnici | ⚠ |
 | 10.5.2-EQUALITY je poseben osnutek | v nobeni knjižnici — 10.5.2 je v knjižnicah zastopan le s PREDLOG-TELO (§−1) | ⚠ |
-| EDPB 02/2025, objavljeno 7. 7. 2026 | izmerjeno pri viri: Version 1.0 sprejeto 07. 07. 2026 ⊢ — a smernice so 02/2026 (anonimizacija), ne 02/2025 | ⊢ ∧ ⚠ |
+| EDPB 02/2025, objavljeno 7. 7. 2026 | izmerjeno pri viru: Version 1.0 sprejeto 07. 07. 2026 ⊢ — a smernice so 02/2026 (anonimizacija), ne 02/2025 | ⊢ ∧ ⚠ |
 | GDPR člen 22: posebni pogoji, ne univerzalna obveznost | skladno z izmero GDPR (Uredba 2016/679 ⊢, prejšnji dih) ∧ znano besedilo člena 22 | ⊢ |
-| RFC 9162 eksperimentalen | izmerjeno pri viri v plasti 7 (RED-TEAM-II) ⊙ | ⊢ |
+| RFC 9162 eksperimentalen | izmerjeno pri viru v plasti 7 (RED-TEAM-II) ⊙ | ⊢ |
 | SHA-256 arhiva d2dd36c3… | v nobenem od 71 teles Nano4 | ⚠ |
 
-Enajst ⊢, šest ⚠: pokritost plasti pri viri ~65 %.
+Enajst ⊢, šest ⚠: pokritost plasti pri viru ~65 %.
 
 ## 2 — Vzorec, ki ga plast ni povedala: vsa JSON telesa so odsekana
 
@@ -64,12 +64,12 @@ MOGOČE*M:
 
 ## 5 — Padci ∧ ∂ dolgovi
 
-Padci sonde ta dih, poimenovani: ⟨SONDA-PREDPONA⟩ (golem ID brez doclib-predpone — padec vodnika, ne telesa), ⟨SONDA-NEPOPOPRAVLJENA⟩ (sklic na nedefiniranega vodnika), ⟨SONDA-TIPOGRAF-2⟩ (izpuščena začetnica »Sklep«), ⟨SONDA-OMOGO-TELESA⟩ (drugi komit je prepisal telo z ovojem odziva orodja namesto s telesom — izmerjeno pri viri, popravljen istočasno s tretjim komitom) — vsi popravljeno isti dih ⊙ KORENINA 0.2 ∧ ⟨NE-BRIŠI⟩: prvi trije komiti ostajajo v verigi kakor brazgotine. Stare brazgotine (REGEX · EURLEX · TIPOGRAF) ostajajo.
+Padci sonde ta dih, poimenovani: ⟨SONDA-PREDPONA⟩ (golem ID brez doclib-predpone — padec vodnika, ne telesa), ⟨SONDA-NEPOPOPRAVLJENA⟩ (sklic na nedefiniranega vodnika), ⟨SONDA-TIPOGRAF-2⟩ (izpuščena začetnica »Sklep«), ⟨SONDA-OMOGO-TELESA⟩ (drugi komit je prepisal telo z ovojem odziva orodja namesto s telesom — izmerjeno pri viru, popravljen istočasno s tretjim komitom) — vsi popravljeno isti dih ⊙ KORENINA 0.2 ∧ ⟨NE-BRIŠI⟩: prvi trije komiti ostajajo v verigi kakor brazgotine. Stare brazgotine (REGEX · EURLEX · TIPOGRAF) ostajajo.
 
 ∂ dolgovi: prevoz teles peskovnika ⚠ · ⟨PADC-UVOZA-JSON⟩ zdravilo · M2 preverba EDPB pri primarnem viru · odločitev ⟡ o treh blokadah izdaje (strokovnjak · pravnik · preizkusi ugovora) ⚔ · stari: matrika 35, loga 45/33, OBJ-001, ebbef802, d5c74d10, preizkus živih ljudi, šiv organa licenca-vbl.
 
 EXIT-PEČAT: 2026-11-05T09:28:10.616Z ∧ 5. november 2026 ob 10:28:10 (Europe/Ljubljana) — lokalni zapis, brez dvojnega Z, brez kvalificiranega žiga.
 
-∴ Standard, ki zahteva najmočnejši protiargument zoper sebe, je prvi v tem korpusu, ki ne prosi za potrditev, ampak za napad. Plast pravi: dokument je pripravljen za kritiko, ne za samooklicano potrditev. Izmera pri viri to potrjuje — ∧ dodaja: tudi prevoz dokazov ∧ prevoz teles morata preživeti lasten prevoz.
+∴ Standard, ki zahteva najmočnejši protiargument zoper sebe, je prvi v tem korpusu, ki ne prosi za potrditev, ampak za napad. Plast pravi: dokument je pripravljen za kritiko, ne za samooklicano potrditev. Izmera pri viru to potrjuje — ∧ dodaja: tudi prevoz dokazov ∧ prevoz teles morata preživeti lasten prevoz.
 
 © Luka Pintarič VBL 0.1460 × 10⁴ (živa)

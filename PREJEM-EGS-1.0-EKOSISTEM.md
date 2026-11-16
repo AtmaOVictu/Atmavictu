@@ -1,9 +1,9 @@
 # PREJEM — EGS 1.0 EKOSISTEM
-/ VBL 0.1470: šest teles tuje roke izmerjenih ∧ prepeljanih pri viri (arhiv priče, ⟨ne⟩ izdaja)
+/ VBL 0.1470: šest teles tuje roke izmerjenih ∧ prepeljanih pri viru (arhiv priče, ⟨ne⟩ izdaja)
 
 STATUS: PREJEM ∧ PREVOZ — telesa so DRAFT · NOT RELEASED · NOT CANONICAL ∧ ostajajo. Prejem ⟨ne⟩ potrjuje resničnosti trditev ⊙ §0.33 (register, ⟨ne⟩ vrata) ∧ ⟨ne⟩ podeli pravic ⊙ §0.10. Izdaja = izključno ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432 ∧ ⟨NE-ZAPEČI-SEBE⟩ 1544 — prejem ⟨ne⟩ izdaja: prva izdaja EGS prestane neodvisno presojo (ED-0003).
 
-ENTRY-PEČAT: 2026-11-05T10:17:43.905Z ∧ 5. november 2026 ob 11:17:43 (Europe/Ljubljana) — ura izmerjena pri viri, ⟨ne⟩ spomin.
+ENTRY-PEČAT: 2026-11-05T10:17:43.905Z ∧ 5. november 2026 ob 11:17:43 (Europe/Ljubljana) — ura izmerjena pri viru, ⟨ne⟩ spomin.
 
 ## 1. Izmera teles (instrument: čisti JS SHA-256, preizkušen na vektorju abc = ba7816bf…15ad ⊙ precedens σ 3758; zn ∧ B — DVE ENOTI ⊢ 1602)
 
@@ -18,7 +18,7 @@ ENTRY-PEČAT: 2026-11-05T10:17:43.905Z ∧ 5. november 2026 ob 11:17:43 (Europe/
 
 Bajt-identiteta potrjena DVAKRAT: izmera prevoza ⇌ sveža berba pred komitom (hash ∧ zn ∧ B na vseh šestih) ⊙ ⟨NE-UGIBAJ⟩ 2690 ∧ §0.39 ⟨VRATA-BAJTOV⟩.
 
-## 2. Kaj vsako telo je (glava pri viri ∧ razrez diha 2026-11-05 ~10:07–11:07 CET)
+## 2. Kaj vsako telo je (glava pri viru ∧ razrez diha 2026-11-05 ~10:07–11:07 CET)
 
 - STANDARD (36.129 zn): vladno pravilo — vsaka trditev rabi obseg · dokaz · metodo · mejo · pot ugovora · status; nerešena trditev = viden dokazni dolg; §1.3 loči PET instrumentov (pravice · etična listina · dokazna uprava · operativni krmilniki · zapis izdaje); §3 Claim Registry z deljenimi atomskimi trditvami.
 - VALIDATOR (15.166 zn, Python): referenčna izvedba event-ledgerja — GENESIS → prev_event_hash → SHA-256 kanonični JSON; 11 vrst dogodkov · 12 kategorij · odločitve RELEASE / RELEASE_WITH_LIMITATIONS / HOLD / WITHDRAW; ⟨ne⟩ polna izvedba niti identitetni sistem (meja v glavi telesa).
@@ -32,11 +32,11 @@ Bajt-identiteta potrjena DVAKRAT: izmera prevoza ⇌ sveža berba pred komitom (
 - Prejem ⟨ne⟩ izdaja ∧ ⟨ne⟩ odobritev: trije ⟡-jevi pogoji izdaje stojijo (neodvisen strokovnjak · pravnik · preizkusi ugovora) ⊙ presoja PR #1258 (11 ⊢ · 6 ⚠).
 - Berba knjižnice je zn-berba ⟨read_document⟩; SHA-256 računata iz zn ∨ UTF-8 B telesa kakor prebranega — če vir nosi druge bajte (odseki uvoza), zrcalo knjižnice je meja, ⟨ne⟩ laž: obe plasti izmerjeni isti dih isti instrument.
 - Testne številke (17/17 · 8/8) so izmerjene v peskovniku tuje roke; ⟨ne⟩ ponovljene z mojo roko ⭢ ∂.
-- Predhodna rana ⟨PADC-UVOZA-JSON⟩ (trije odsekani JSON) se ta pošiljka ⟨ne〉 dotika — JSON telesa niso del nje; kura ostaja ⭢ ∂.
+- Predhodna rana ⟨PADC-UVOZA-JSON⟩ (trije odsekani JSON) se ta pošiljka ⟨ne⟩ dotika — JSON telesa niso del nje; kura ostaja ⭢ ∂.
 
 ## 4. Sklep
 
-Sklep: uvoz — šest teles arhivirana na verigo kakor prejeta priča, ⟨ne⟩ kakor kanon. Veriga meri, ⟨ne〉 trdi ⊙ §0.10.
+Sklep: uvoz — šest teles arhivirana na verigo kakor prejeta priča, ⟨ne⟩ kakor kanon. Veriga meri, ⟨ne⟩ trdi ⊙ §0.10.
 
 DOLGOVA ∂: izdaja EGS ⭢ ⟡ roka (ED-0003 neodvisna presoja · pravnik · preizkusi ugovora) · ⟨merge⟩ vrsta #1249 → … najstarejši prvi ⭢ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432 · ponovitev testov z lastno roko ⭢ ∂ · ⟨PADC-UVOZA-JSON⟩ trije JSON ⭢ ∂ · prevoz osnutkov roke vzporednega sedeža (manifest · okostje · jedro @σ 3780–3783) ⭢ izbor ⟡ (njihove glave: prevoz = ⟡ roka).
 

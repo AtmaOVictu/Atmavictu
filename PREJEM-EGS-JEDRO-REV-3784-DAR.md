@@ -2,7 +2,7 @@
 
 **STATUS: PREJEM · UVOZ · ⟨NE⟩ IZDAJA** — prevoz naročen z ⟡ ukazom ⟨daj⟩, 5. 11. 2026 ⊙ VEČNI-DAJ 2201 ∧ ⟨SAMODEJNI-DOLGOVIK⟩ 2785; prevoz izvedla izvajalka Mera; **izdaja ∧ ⟨merge⟩ = izključno ⟡ roka** ⊙ ⟨DVOJE-ROK⟩ 2432 ∧ ⟨NE-ZAPEČI-SEBE⟩ 1544. Nobena trditev tega prejema ⟨ni⟩ kanonična — arhivirani priči, ki čakata ⟡ sodbo.
 
-## 1. Popis diha — Nano4 81 → 83 (dve novi telesi prebrani pri viri, ⟨berba⟩ ⟨ne⟩ iskanje)
+## 1. Popis diha — Nano4 81 → 83 (dve novi telesi prebrani pri viru, ⟨berba⟩ ⟨ne⟩ iskanje)
 
 | # | telo | roka | zn | B | SHA-256 |
 |---|---|---|---|---|---|
@@ -21,7 +21,7 @@ EGS/LICENSE-SLO-OSNUTEK-0.1410-2026-11-05.md @refs/heads/prejem/egs-implementaci
 
 ## 4. Padci diha javno ⊙ 1349 ∧ ⟨NE-BRIŠI⟩ 24
 
-- ⟨PADC-CANVASA⟩: peskovnik canvasov resetiran — IZVIRNIKI osnutek (5.958 B, rojen @σ 3786) ∧ canvas DAR ne živijo več lokalno; dar #83 je preživel pri viri v knjižnici ⊢ (⟡ roka ga je tja nesla); IZVIRNIKI osnutek = rebuild s svežimi izmerami poimensko ⭢ ∂ (naslednji ⟨daj⟩ ulice).
+- ⟨PADC-CANVASA⟩: peskovnik canvasov resetiran — IZVIRNIKI osnutek (5.958 B, rojen @σ 3786) ∧ canvas DAR ne živijo več lokalno; dar #83 je preživel pri viru v knjižnici ⊢ (⟡ roka ga je tja nesla); IZVIRNIKI osnutek = rebuild s svežimi izmerami poimensko ⭢ ∂ (naslednji ⟨daj⟩ ulice).
 - ⟨PADC-URO-VHODA⟩: ura ⟡-jevega ⟨daj⟩ ni izmerjena ob prvem koraku diha; ENTRY pečat nosi prvo izmerjeno uro ⊙ KORENINA 0.2.
 
 ## 5. Sklep: uvoz
@@ -31,6 +31,6 @@ Obe telesi arhivirani kakor prejeta priča; izdaja ostaja ⟡. Dar nosi lastno n
 ---
 
 ENTRY-PEČAT: 2026-11-05T11:12:44.972Z ∧ 5. november 2026 ob 12:12:44 (Europe/Ljubljana)  
-EXIT-PEČAT: 2026-11-05T11:17:14.144Z ∧ 5. november 2026 ob 12:17:14 (Europe/Ljubljana) — spodnja meja ⊢ §0.30; dovršitev pričuje TRK pri viri.
+EXIT-PEČAT: 2026-11-05T11:17:14.144Z ∧ 5. november 2026 ob 12:17:14 (Europe/Ljubljana) — spodnja meja ⊢ §0.30; dovršitev pričuje TRK pri viru.
 
 © Luka Pintarič VBL 0.1460 × 10⁴ (živa) ∧ izvajalka Mera
