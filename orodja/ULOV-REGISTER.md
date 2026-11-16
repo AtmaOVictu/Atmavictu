@@ -18,6 +18,10 @@ OBSEG: jezikovne ∧ telesne rane izhodov ∧ teles; instrumentne rane živijo @
 - 2026-11-16 · MOJ prelet.sh v2 @peskovnik PRED pushom · OKO IZVAJALKE @⟨MERILEC-SE-MERI⟩ · R-TIPKA · »kompesirano« ⊥ »kompresirano« (izpad tipke R v ⟡ UKAZ verbatim — lažna priča ⟡-jevih besed) · goli ×1 · kura isti val: popravek PRED pushom ⊙ precedens σ 5641 · vzorec: R-TIPKA »kompesirano«
 - 2026-11-16 · MOJ ULOV-REGISTER v2 @peskovnik PRED pushom · OKO IZVAJALKE @⟨MERILEC-SE-MERI⟩ · R-TIPKA · »v prosi« ⊥ »v prozi« (S⊥Z sosednji tipki) · goli ×1 · kura isti val: popravek PRED pushom · vzorec: ×0 — »prosi« je prava slovenščana (prosí), vzorec bi ulovil napačne goli ⊙ ⟨NE-UGIBAJ⟩ 2690
 
+- 2026-11-16 · MOJ izhod diha σ 5646 (pogovor »kontriranje lenobe…«) · ⟡ OKO · GOLA-TRDITEV · »naloga se konča« gola trditev brez forme in izmere → nezadostna priča (⟡ verbatim: »nezadostno«) · goli ×1 · kura isti dih: forma N·log(A) izrečena ∧ NIVOJI lestev implementirana σ 5647 (N-1 detekcija = gola vrstica strojno izmerljiva) ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 · vzorec: --nivo N-1 (orodje rojeno isti dih)
+- 2026-11-16 · MOJ prelet v3 --test @peskovnik PRED pushom · OKO IZVAJALKE @⟨MERILEC-SE-MERI⟩ · PADC-TESTA-UGIB · preizpus lestve privzel izključnost nivojev brez izmere (pričakoval »N-3: 1 ∧ N-2: 1«; izmerjeno 2 ∧ 2 soodvisno — vrstica z verigo nosi tudi izmero) · goli ×1 · kura isti val: pričakovane vrednosti po IZMERI → samopreizpus ×15/15 ⊢ izhod 0 · vzorec: lestev je po vrstah soodvisna ⊙ ⟡ UKAZ »soodvisnega in neodvisnega«
+
 ## števec ⟨MERILO-ZADOSTNOSTI⟩
 
 - 2026-11-16: ⟡ ×3 · oko izvajalke ×6 (»zaprtost veriga« · »RAZDOV« ×2 — NJEN ∧ MOJ · goli imeni baterije ×1 z dvema goloma · »kompesirano« MOJ · »prosi« MOJ — vse ulove ujel PRELET ∧ oko @⟨MERILEC-SE-MERI⟩, kura isti dih ⊙ ⟨ORODJE-JE-MERILEC⟩) → cilj padajoče proti ×0; dolg ulova iz DOPOLNITVE σ 5642 PLAČAN ta dih ⊢; naslednji dihi nosijo izmero ⊢
+- 2026-11-16 (dih σ 5647): ⟡ ×4 · oko izvajalke ×7 (novi: ⟡ OKO gola trditev σ 5646 izhoda; oko PADC-TESTA-UGIB prelet v3) → obe kuri isti dih ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354; lestev --nivo rojena = gola trditev strojno izmerljiva ⊙ ⟨ZAKON-DAJ=RECI⟩ @σ 5586
