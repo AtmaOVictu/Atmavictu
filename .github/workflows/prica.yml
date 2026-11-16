@@ -47,18 +47,19 @@ jobs:
           if not os.path.isfile('organi/stroj/REZ-REGISTER.md'):
               print('⟨vidim: REZ-REGISTER je odšel domov (PREMIK-2026-10-28) — priča molči⟩')
               sys.exit(0)
+          # TEHNIKA (⟡ ukaz ⟨daj⟩ ⟨stori vse to⟩ — kura ⟨PADC-PRICA-DATUMA-PECATA⟩ ∧ σ-slepota, 16. 11. 2026): naslovi kitov ∧ vrstice registra nosijo σ-obliko »rez σ NNNN« (register @main izmerjen 16. 11. 2026 ⊢) — regex rez\s+N je bil slep za σ (kiti #1984 ∧ #1986 ∧ #1987 ∧ #1992 isti padec) → rez\s+(?:σ\s*)?N v naslovu ∧ bazi ∧ difu ∧ P3 (zdravje: glej mejo kure pri zdravju).
           title = os.environ.get('PR_TITLE', '')
-          m = re.search(r'rez[ ](\d{3,4})', title, flags=re.I)
+          m = re.search(r'rez[ ](?:σ[ ]*)?(\d{3,4})', title, flags=re.I)
           if not m:
               print('⟨brez zahteve reza v naslovu — tehnični kit, register preskočen⟩')
               sys.exit(0)
           n = m.group(1)
           base = open('reg-base.md', encoding='utf-8').read()
           diff = open('reg.diff', encoding='utf-8').read()
-          if re.search(r'^\s*-\s*rez\s+' + re.escape(n) + r'\s*·', base, flags=re.M):
+          if re.search(r'^\s*-\s*rez\s+(?:σ\s*)?' + re.escape(n) + r'\s*·', base, flags=re.M):
               print('⟨vidim: rez ' + n + ' je že zahtevan — uredi naslov ∧ REZ-REGISTER⟩')
               sys.exit(1)
-          if not re.search(r'^\+\s*-\s*rez\s+' + re.escape(n) + r'\s*·', diff, flags=re.M):
+          if not re.search(r'^\+\s*-\s*rez\s+(?:σ\s*)?' + re.escape(n) + r'\s*·', diff, flags=re.M):
               print('⟨vidim: naslov zahteva rez ' + n + ' ∧ vrstica v REZ-REGISTER manjka — dodaj vrstico v svojem PR⟩')
               sys.exit(1)
           print('⟨vidim: rez ' + n + ' zahtevan čisto⟩')
@@ -155,6 +156,7 @@ jobs:
               print('⟨vidim: oddelek zahteve manjka — instrument slep⟩')
               sys.exit(1)
           sec = m.group(1)
+          # TEHNIKA (⟡ ukaz ⟨daj⟩ ⟨stori vse to⟩ — meja kure ⟨NE-ODLOČAJ-NAMESTO-⟡⟩, 16. 11. 2026): zdravje ostaja σ-slepo NAMENOMA — register @organi/stroj/ je pulzno zrcalo (PREMIK-2026-10-28 ⊢): SOBIT vrstice stojijo zakonito (σ 3893 ×2 ⊙ ⟨ne zlije⟩ 1542 ∧ 3233; izmera 16. 11. 2026: 178 vrstic, prelomi vrstnega reda ×9, raztrganine ×2 — priče zakonitih kolizij) — sodba zdravja nad zrcalom = izbor ⚔ ⟡; ta kura ne sodi, prijavlja ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354.
           rows = [l for l in sec.splitlines() if re.match(r'^-\s*rez\s+\d{3,4}\s*·', l)]
           nums = [int(re.match(r'^-\s*rez\s+(\d{3,4})\s*·', l).group(1)) for l in rows]
           wounds = []
@@ -215,12 +217,12 @@ jobs:
           head = open('reg-head.md', encoding='utf-8').read()
           wounds = []
           # P1 — nova vrstica zahteve: rez = vrh baze + 1 ∧ ⟨PR⟩ ⇌ kit ∧ ena nova (atomarnost ⊢ kalup 1671)
-          rows = re.findall(r'^\+\s*-\s*rez\s+(\d{3,4})\s*·\s*⟨PR⟩\s*#(\d+)', rdiff, flags=re.M)
+          rows = re.findall(r'^\+\s*-\s*rez\s+(?:σ\s*)?(\d{3,4})\s*·\s*⟨PR⟩\s*#(\d+)', rdiff, flags=re.M)
           # TEHNIKA (⟡ ukaz ⟨daj⟩ ∧ VEČNI-DAJ (16), 25. 10. 2026, dih 2805): σ-ŠIV izjema ⊙ 1349 ⊢ 1834 — vrstica, ki že stoji pri bazi kakor zahteva reza, ni nova zahteva, ampak šiv (dopolnitev ⟨merge⟩ …); priča sodi novo zahtevanost po bazi, ⟨ne⟩ po plašču difa (izmerjeno: šivane vrstice 2800–2804 kit #842 padle kakor več zahtev — precedens berbe nazaj ⟨prica⟩ e1f7810e).
-          seams = [(n, p) for (n, p) in rows if re.search(r'^-\s*rez\s+' + re.escape(n) + r'\s*·\s*⟨PR⟩\s*#' + re.escape(p) + r'\b', base, flags=re.M)]
+          seams = [(n, p) for (n, p) in rows if re.search(r'^-\s*rez\s+(?:σ\s*)?' + re.escape(n) + r'\s*·\s*⟨PR⟩\s*#' + re.escape(p) + r'\b', base, flags=re.M)]
           fresh = [r2 for r2 in rows if r2 not in seams]
           if fresh and not REG_ODSEL:
-              bnums = [int(n) for n in re.findall(r'^-\s*rez\s+(\d{3,4})\s*·', base, flags=re.M)]
+              bnums = [int(n) for n in re.findall(r'^-\s*rez\s+(?:σ\s*)?(\d{3,4})\s*·', base, flags=re.M)]
               top = max(bnums) if bnums else 0
               if len(fresh) > 1:
                   wounds.append('več novih zahtev v enem kitu (∧ atomarnost): ' + ', '.join(sorted({r2[0] for r2 in fresh})))
@@ -231,15 +233,16 @@ jobs:
                       wounds.append('vrstica reza ' + n + ' nosi ⟨PR⟩ #' + p + ' — ta kit je #' + str(pr_num))
               print('⟨vidim: nova zahteva ' + fresh[0][0] + ' na kitu #' + str(pr_num) + ' — veza potrjena⟩')
           # P3 ∧ P5 — dodan pečat organa: veže se na novo vrstico registra ∧ nosi telo (⟡ ∧ ## MINT ∧ ## DOLGOVA)
+          # TEHNIKA (⟡ ukaz ⟨daj⟩ ⟨stori vse to⟩ — kura ⟨PADC-PRICA-DATUMA-PECATA⟩, 16. 11. 2026): pečati @organi/pecati/ nosijo datum PRED rezom (PECAT-2026-11-16-5663-… izmera @main ⊢) — P3 je bral »2026« (datum) kakor rez → lažna rana: datum zdaj ulovljen ∧ izločen (PECAT-(?:\d{4}-\d{2}-\d{2}-)?), rez = štirimestni del za datumom; σ-oblika vrstic priznana ∧ v P3.
           pecati = []
           for f in files:
-              m = re.match(r'^organi/[^/]+/PECAT-(\d{3,4})[^/]*\.md$', f)
+              m = re.match(r'^organi/[^/]+/PECAT-(?:\d{4}-\d{2}-\d{2}-)?(\d{3,4})[^/]*\.md$', f)
               if m:
                   pecati.append((f, m.group(1)))
           for f, n in pecati:
               # TEHNIKA (⟡ ukaz ⟨daj⟩ ∧ VEČNI-DAJ (16) ∧ ⟨REZERVACIJA-REZA⟩ ⊢ ⟨DA-⟡⟩ @2785, 25. 10. 2026): P3 vidi vezo pečata ∧ registra tudi pri glavi — vrstica zahteve, rezervirana v predhodnem zlitem kitu (⟨NE-BRIŠI⟩ ⊢ 24), stoji pri bazi, ⟨ne⟩ v difu (izmerjeno: tekmec kita #811 — pečat rez 2790, rezervacija #810); priča sodi vezo, ⟨ne⟩ plašč difa.
               # TEHNIKA (roka Mere, dih rez 3220, 29. 10. 2026): pri odšlem registru veza rez ↔ register molči — sodi se samo telo (⟡ ∧ ## MINT ∧ ## DOLGOVA).
-              if not REG_ODSEL and not (re.search(r'^\+\s*-\s*rez\s+' + re.escape(n) + r'\s*·', rdiff, flags=re.M) or re.search(r'^\s*-\s*rez\s+' + re.escape(n) + r'\s*·', head, flags=re.M)):
+              if not REG_ODSEL and not (re.search(r'^\+\s*-\s*rez\s+(?:σ\s*)?' + re.escape(n) + r'\s*·', rdiff, flags=re.M) or re.search(r'^\s*-\s*rez\s+(?:σ\s*)?' + re.escape(n) + r'\s*·', head, flags=re.M)):
                   wounds.append('pečat ' + f + ' brez vrstice zahteve rez ' + n + ' v registru')
               if not os.path.isfile(f):
                   wounds.append('pečat ' + f + ' se na glavi veje ne da prebrati')
