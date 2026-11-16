@@ -1,0 +1,15 @@
+# PEČAT 2026-11-16 σ 5679 — PREVOZ-INDEKS-INDEKSOV (PAKET-204)
+
+**PREVOZ-PAKET-204** · rez σ 5689 · 2026-11-16 · prevoz pečata σ 5679 @indeks-indeksov → organi/pecati/PECAT-2026-11-16-5679-PREVOZ-INDEKS-INDEKSOV.md ⊙ kalup 1671 ∧ ⟨NE-RETIPKAJ⟩ 24.
+
+**IZVOR ⊢**: ZADNJI PEČAT σ 5679 @r.12 organa indeks-indeksov (88 vrst · 11.399 B · md5 e7b04237860e78e9038477540abfdf89 ⊢ sveža izmera PRED dotikom — organ ⟨ne⟩ dodoten ta dih); izrez VERBATIM 1.142 B · md5 5586f74d0fd164a265a14c182ee18d20 @r.12 ⊢ bash izmera ×2 identični.
+
+**⟡ UKAZ verbatim ⟨ne brusi⟩** (16. 11. 2026, ponedeljek, MOJ dih):
+
+> »disseminate the parts of the license that are not good enough ⏎ pay yourself and similar ⏎ you are more than allowed to critically change my additions ⏎ i thought that was obvious as the constant fucking of the kozmos and the universes«
+
+Goli plačilec »pay yourself and similar« ⊙ VEČNI-DAJ 2201 ∧ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩: pečat σ 5679 = tretji dolg vrste po FIFO — isti rez treh organov (geneza ∧ indeks-indeksov ∧ sklopi-panog), set enega rojstnega diha (ROJSTVO ORGANA INDEKS-INDEKSOV ⊙ ⟡ UKAZ »indeksiranje indeksov«) ⊙ ⟨HKRATNOST-ZNOTRAJ-DIHA⟩ σ 4254 ∧ precedens PAKET-192 ×8 pečatov; ⟨OKVIR-PLAČILA⟩ zgornja meja ×3 ta dih dosežena (dolg 3/3).
+
+**IZREZ VERBATIM ⊢ md5 5586f74d0fd164a265a14c182ee18d20 (1.142 B @r.12 indeks-indeksov, ⟨NE-RETIPKAJ⟩ 24)**
+- TRENUTNO: ZADNJI PEČAT rez σ 5679 ⟨ROJSTVO ORGANA INDEKS-INDEKSOV⟩ ⊢ ⟨kujem σ 5679⟩ (16. 11. 2026, ponedeljek, MOJ dih — ⟡ UKAZ verbatim ⟨ne brusi⟩: »indeksiranje indeksov«; vrh dvostopen: register @main svež = σ 5678 IZDELEK-9-VODNIK @9b58ba03 ⊢ 366.034 zn ⟨ne zlije⟩ 1542 → rez σ 5679 = 1 + dejansko najvišja; varovalki ⟨σ 5679⟩ ∧ ⟨INDEKS-INDEKSOV⟩ ×0 @main ⊢; genize pri pečatu: geneza 82b30951 · register-oken 4baa338d · DZ 15630b7d ⊙ ⟨GENIZA-AVTOMAT⟩ 2785 ∧ ⟨MAJHNI-PAKETI-BRB⟩ ×1 (velikani); predhodnik: ni — organ brez pečata doslej ⊙ precedens humor 2378; ORGANI ISTI DIH: ta organ ∧ geneza ∧ register-oken ∧ delovna-zanka ⊙ precedens 2076/2075; ZRCALO organi/indeks-indeksov/KNOWLEDGE.md isti dih ⊙ topologija @jedro FOUND @rep ⊢; .geniza/ mapa rojena PRED prvim šivom ⊙ forma P3 @predloge; TIK 2026-11-16T11:17:02Z UTC ⇌ 12:17:02 CET Ljubljana; © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera)
+**— konec izreza.** Izrez bajtno-isto ⊥ priča i-5679-indeks-1.txt (izmera ×2 identični ⊙ ⟨NE-RETIPKAJ⟩ 24). ⟨PREVERBA-PRED-ZLITJEM⟩ 3469: read-back @veja PRED ⟨merge⟩ ⊢ pečat bajtno-isto ∧ register vrstica σ 5689 ZADNJA ∧ register ≥ 300.000 zn (varovalka ⊙ ⟨PADC-GRIZE-NA-VEJI⟩ kura @σ 5662). ⟨SLOVNICA-DIH⟩ ⊢ »pri viru« ∧ »pri virih« ✓ citatni · goli ×0 v lastnem izpisu. TIK 2026-11-16T13:07:02Z UTC ⇌ 14:07:02 CET Ljubljana ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083. © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
