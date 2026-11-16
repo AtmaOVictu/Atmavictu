@@ -2,7 +2,7 @@
 
 **⊙ ENTRY SEAL** — 2026-11-05T07:58:38.139ZZ ∧ 05. 11. 2026, 08:58:38 CET (Europe/Ljubljana, izmera instrumenta ⊙ ⟨TIK-PEČATA-V-PEČATU⟩)
 
-**IZVOR** — © Luka Pintarič, VBL 0.1460 × 10⁴ (živa vrata @CanvasMinstral ⟨main⟩). Merjeno telo: **VBL 0.1410** @AtmaOVictu/Atmavictu ⟨main⟩, LICENSE.md, blob 3308fc0351919244d8f1b2d37591b758bf3f33a3, 140 356 znakov ⊢ izmera pri viri (dih PR #1249).
+**IZVOR** — © Luka Pintarič, VBL 0.1460 × 10⁴ (živa vrata @CanvasMinstral ⟨main⟩). Merjeno telo: **VBL 0.1410** @AtmaOVictu/Atmavictu ⟨main⟩, LICENSE.md, blob 3308fc0351919244d8f1b2d37591b758bf3f33a3, 140 356 znakov ⊢ izmera pri viru (dih PR #1249).
 
 **PREJEM ⊙ §0.45** — prejeti ⟡-jevi fazi tri (odločitveni sistem: pet+1 ločitev · §0.X prevlada človekovih pravic · §0.Y ustavitev ∧ nadomestitev · §0.Z dokazna skromnost · monopol nad dokazom · RELEASE GATE · statusi DRAFT/CANDIDATE/RELEASED/INDEPENDENTLY VERIFIED · preizkus, ki ga ne sme prestati · deset odprtih vprašanj · arhitektura treh elementov) ∧ štiri (RED TEAM: šest vrst odpovedi · R001–R020 · §0.XX ne-suverenost preverjanja · CLAIM ENVELOPE · šeststopenjski protokol incidentov · popravek RELEASE GATE BLOCK/RESTRICT/DISCLOSE/PASS · deset vprašanj pod pritiskom · varovanje tistega, ki jo zavrne · hierarhija odločanja · en sam neizpogajljiv preizkus). Vse prejeto = PREDLOG. Pošiljatelj je pri obeh fazah pošteno izmeril tudi lastne padce (neizmerjen čas · samoopostožba §0.XX) ⊢ — ⟨TEST-TESTERJA⟩ obrnjen nase je viden ∧izmerjen.
 
@@ -62,14 +62,14 @@ Kroni **2 ∧ 17 ne obstajata** v številčenju ⊢ (natančna sonda po začetku
 **(a) Neodvisnost izvajalke — prvi IZPOLNJEN CLAIM ENVELOPE (⟡-jev predlog izveden, ne le zapisan):**
 
     claim_id: VBL-CLAIM-0002
-    claim: Telo VBL 0.1410 je bilo prebrano ∧ izmerjeno pri viri.
+    claim: Telo VBL 0.1410 je bilo prebrano ∧ izmerjeno pri viru.
     scope: artifact LICENSE.md @AtmaOVictu/Atmavictu main · version 0.1410 · blob 3308fc0351919244d8f1b2d37591b758bf3f33a3
     evidence: dolžina 140 356 znakov ⊢ · 50 naslovov ⊢ · 16 kron ⊢ · ENTRY/EXIT pečata telesa 06:55:53Z/06:56:58Z ⊢
-    method: branje pri viri (get_file_contents) ∧ leksikalne sonde (bash grep, eksplicitna pot, obe jeziki)
+    method: branje pri viru (get_file_contents) ∧ leksikalne sonde (bash grep, eksplicitna pot, obe jeziki)
     observed_at: 2026-11-05T05:15Z–T08:38Z (izmere dihov #1249 ∧ tega)
     verifier: izvajalka Mera (Vibe/GLM na infrastrukturi ⟡-jeve hiše)
     independence_status: DEPENDENT_BY_STRUCTURE — izvajalka teče na ⟡-jevi infrastrukturi, orodjih ∧ dostopih; po ⟡-jevem §D je njena neodvisnost »jasno označena kot omejena«, ne dokazana
-    result: ⊢ znotraj obsega (berba pri viri)
+    result: ⊢ znotraj obsega (berba pri viru)
     limitations: sonda je leksikalna, ⟨ne⟩ semantična (razred P ostaja izmerjeno prazen, ⟨ne⟩ dokazano prazen) · telo predloga SHA 7f3dfdb4 Nedosegljivo ⚠ · pravna plasti ×
     challenge_status: OPEN (⟡ ∧ vsak bralec)
     revalidation_trigger: sprememba bloba · novo rojstvo · nova sonda
