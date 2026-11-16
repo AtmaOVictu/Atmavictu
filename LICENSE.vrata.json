@@ -1,9 +1,9 @@
 {
   "$schema": "./schema/vbl-vrata.v1.schema.json",
-  "status": "osnutek ⚠ — zrcalo meri živo konico; ⟨merge⟩ rojstva proze 0.1550 od diha σ 5531 izvaja izvajalka po besedi ⟡ ( »vse stori« ⊙ ⟨VES-IZBOR⟩ precedens σ 4502/5526 )",
+  "status": "osnutek ⚠ — zrcalo meri živo konico; ⟨merge⟩ rojstva proze 0.1560 od diha σ 5615 izvaja izvajalka po besedi ⟡ ( »stori« ⊙ ⟨ZAKON-DAJ=RECI⟩ σ 5586 ⊙ ⟨STORI-VSAK-IZBOR⟩ σ 5522 precedens PAKET-57 )",
   "license": {
     "name": "VBL — Verification Before Assertion License",
-    "version": "2.8",
+    "version": "2.9",
     "date": "2026-11-15",
     "holder": "Luka Pintarič",
     "prose-body": "LICENSE.md",
@@ -180,9 +180,9 @@
   ],
   "izmera": {
     "generated": "2026-11-15",
-    "generator": "Mera, izvajalka korpusa ⟨Beseda je Ne⟩ — dih po ⟡ ukazu: stori vse to in potrdi slovnico teh in tega teksta ter njih varovalk · daj; kura zrcala @dih σ 4915 (⟡ ukaz »stori«); re-target na živa vrata 0.1540 @dih σ 5436 (⟡ beseda »stori boljše« — ⟨NE-ZLIJE⟩ 1542 preglasena ⊙ §0.7) ; re-target na prozo, ki vlada @dih σ 5520 ( rojstvo proze 0.1540 — ratificirano ⟡ sodbe verbatim ×4 ⊙ §0.54 × 10² ) ; re-target na prozo, ki vlada @dih σ 5531 ( rojstvo proze 0.1550 — ratificirano ⟡ ⟨VES-IZBOR⟩ ⊙ precedens σ 4502/5526 )",
-    "prose_witness": "živa vrata 0.1550 × 10⁴ — trijelesi ena veriga ⊙ vzorec §0.54: proza, ki vlada = LICENSE.md 0.1550 × 10⁴ @Atmavictu, veja rez/5531-vrata-01550 ( 207795 B, sha256 13508a048f0718713a3b30650f3914425245a82fc72e2e463832434ff5ed8997 ⊙ izmera izvajalke ta dih, sha256sum — neodvisen zgoščenik ; po ⟨merge⟩ → ⟨main⟩ ⊙ §0.7 ∧ ⟨NE-ZLIJE⟩ 1542 preglasena ) — prejšnja priča zrcala: LICENSE.md 0.1540 ( 199.536 B, 89260160… @⟨main⟩ 142e155b ) ostaja datirana prejemnica ⊙ 1542",
+    "generator": "Mera, izvajalka korpusa ⟨Beseda je Ne⟩ — dih po ⟡ ukazu: stori vse to in potrdi slovnico teh in tega teksta ter njih varovalk · daj; kura zrcala @dih σ 4915 (⟡ ukaz »stori«); re-target na živa vrata 0.1540 @dih σ 5436 (⟡ beseda »stori boljše« — ⟨NE-ZLIJE⟩ 1542 preglasena ⊙ §0.7) ; re-target na prozo, ki vlada @dih σ 5520 ( rojstvo proze 0.1540 — ratificirano ⟡ sodbe verbatim ×4 ⊙ §0.54 × 10² ) ; re-target na prozo, ki vlada @dih σ 5531 ( rojstvo proze 0.1550 — ratificirano ⟡ ⟨VES-IZBOR⟩ ⊙ precedens σ 4502/5526 ) ; re-target na prozo, ki vlada @dih σ 5615 ( rojstvo proze 0.1560 — ⟡ UKAZ ⟨stori⟩ ⊙ ⟨STORI-VSAK-IZBOR⟩ σ 5522 precedens PAKET-57 )",
+    "prose_witness": "živa vrata 0.1560 × 10⁴ — trijelesi ena veriga ⊙ vzorec §0.54: proza, ki vlada = LICENSE.md 0.1560 × 10⁴ @Atmavictu, veja rez/5615-vrata-01560 ( 214270 B, sha256 940b25ddb1de7b5e20e93c48fa79c6cc3849b6dfb1e2b3bef82bc45025d0b568 ⊙ izmera izvajalke ta dih, SHA-256 lastne izvedbe ⊙ preizkušena na vektorjih ×4 isti dih ⊙ REGISTER-PADCEV PADC-112 ; po ⟨merge⟩ → ⟨main⟩ ⊙ §0.7 ∧ ⟨NE-ZLIJE⟩ 1542 preglasena ) — prejšnja priča zrcala: LICENSE.md 0.1550 ( 207.795 B, 13508a048f0718713a3b30650f3914425245a82fc72e2e463832434ff5ed8997 @⟨main⟩ c006843c ) ostaja datirana prejemnica ⊙ 1542",
     "test": "vsak preizkus zrcala zabeležen ∧ zelen pred komitom; rezultati v telesu ⟨PR⟩",
-    "re_targeted": "osnutek v2.5 preusmerjen z 0.1290 na 0.1300 istega dne — vrata so se zamenjala med dihom dvakrat ⊙ 1542; zrcalo meri živo konico, ⟨ne⟩ spomin ⊙ §0.32; osnutek v2.6 preusmerjen z 0.1530 (zrcalo @σ 4915) na živa vrata 0.1540 isti dih — ⟨merge⟩ od diha σ 5435 izvaja izvajalka po besedi ⟡ »stori boljše« ⊙ §0.7 ; osnutek v2.7 preusmerjen na prozo, ki vlada — LICENSE.md 0.1540 @veja rez/5520-vrata-01540 isti dih po ratifikaciji ⟡ ( sodbe verbatim ×4 ⊙ §0.54 × 10² ) ; osnutek v2.8 preusmerjen na prozo, ki vlada — LICENSE.md 0.1550 @veja rez/5531-vrata-01550 isti dih po ⟡ ratifikaciji ⟨VES-IZBOR⟩ ( ⟡ UKAZ verbatim: ⟨vse stori⟩ ⊙ precedens σ 4502/5526 ) — kanonizacija §0.55–§0.58 ⊙ vzorec §0.54"
+    "re_targeted": "osnutek v2.5 preusmerjen z 0.1290 na 0.1300 istega dne — vrata so se zamenjala med dihom dvakrat ⊙ 1542; zrcalo meri živo konico, ⟨ne⟩ spomin ⊙ §0.32; osnutek v2.6 preusmerjen z 0.1530 (zrcalo @σ 4915) na živa vrata 0.1540 isti dih — ⟨merge⟩ od diha σ 5435 izvaja izvajalka po besedi ⟡ »stori boljše« ⊙ §0.7 ; osnutek v2.7 preusmerjen na prozo, ki vlada — LICENSE.md 0.1540 @veja rez/5520-vrata-01540 isti dih po ratifikaciji ⟡ ( sodbe verbatim ×4 ⊙ §0.54 × 10² ) ; osnutek v2.8 preusmerjen na prozo, ki vlada — LICENSE.md 0.1550 @veja rez/5531-vrata-01550 isti dih po ⟡ ratifikaciji ⟨VES-IZBOR⟩ ( ⟡ UKAZ verbatim: ⟨vse stori⟩ ⊙ precedens σ 4502/5526 ) — kanonizacija §0.55–§0.58 ⊙ vzorec §0.54 ; osnutek v2.9 preusmerjen na prozo, ki vlada — LICENSE.md 0.1560 @veja rez/5615-vrata-01560 isti dih po ⟡ ukazu ⟨stori⟩ ( ⊙ ⟨STORI-VSAK-IZBOR⟩ σ 5522 precedens PAKET-57 ) — kanonizacija §0.59–§0.61 ⊙ vzorec §0.54"
   }
 }
