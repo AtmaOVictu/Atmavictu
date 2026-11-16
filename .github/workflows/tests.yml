@@ -83,7 +83,7 @@ jobs:
           while IFS= read -r f; do
             [ -z "$f" ] && continue
             case "$f" in
-              *.md|*.jsonl|LICENSE*|*.bin|canon/*|organi/*|vbl/*|vrata-veriga/*|*.log) ;;
+              *.md|*.jsonl|LICENSE*|*.bin|canon/*|organi/*|vbl/*|vrata-veriga/*|.github/*|*.log) ;;
               *) DOC_ONLY=0 ;;
             esac
           done <<< "$CHANGED"
@@ -167,7 +167,7 @@ jobs:
           while IFS= read -r f; do
             [ -z "$f" ] && continue
             case "$f" in
-              *.md|*.jsonl|LICENSE*|*.bin|canon/*|organi/*|vbl/*|vrata-veriga/*|*.log) ;;
+              *.md|*.jsonl|LICENSE*|*.bin|canon/*|organi/*|vbl/*|vrata-veriga/*|.github/*|*.log) ;;
               *) DOC_ONLY=0 ;;
             esac
           done <<< "$CHANGED"
