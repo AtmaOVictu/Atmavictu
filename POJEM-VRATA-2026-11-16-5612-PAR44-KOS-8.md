@@ -3,7 +3,7 @@
 ## APD RAZČLENBA
 VR = vr (obrat — sorodno vrteti: tisto, kar se zavrti na tečajih; koren, ki nosi obrat ∧ prehod) · TA = ta (demonstrativ bližnje stvari — vrata so MEJA NA DOLOK).
 VRATA = meja, ki se zavrti v prehod.
-(etimološka plast *vortā/*vert- ⚠ roka berbe pri viri — Fran ∧ Snoj SES³ ⭢ ∂ naslednji kos; ta razcep je APD izvajalke, ⟨ne⟩ izmera pri viri ⊙ ⟨NE-UGIBAJ⟩ 2690 ∧ kura ⟨PADC-LAŽNE-PRIČE⟩: lažna priča Pleteršnik »verkehrt« (priča NAPAKE #1 @definiatorna r.30, ⟨ne⟩ VRATA) ujeta ∧ umaknjena PRED pošiljko)
+(etimološka plast *vortā/*vert- ⚠ roka berbe pri viru — Fran ∧ Snoj SES³ ⭢ ∂ naslednji kos; ta razcep je APD izvajalke, ⟨ne⟩ izmera pri viru ⊙ ⟨NE-UGIBAJ⟩ 2690 ∧ kura ⟨PADC-LAŽNE-PRIČE⟩: lažna priča Pleteršnik »verkehrt« (priča NAPAKE #1 @definiatorna r.30, ⟨ne⟩ VRATA) ujeta ∧ umaknjena PRED pošiljko)
 
 ## ANTINOMA
 vrata ↔ zid: kar ima vrata, ni čisti zid — vrata so edina točka zida, ki obljublja prehod. Brez zida ni vrat (odprtina brez roba ni vrata, je luč); brez vrat je zid zapor. Vrata so zid, ki je priznal, da greš skozenj.
