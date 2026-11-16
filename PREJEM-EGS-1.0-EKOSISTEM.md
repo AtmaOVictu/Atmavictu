@@ -32,11 +32,11 @@ Bajt-identiteta potrjena DVAKRAT: izmera prevoza ⇌ sveža berba pred komitom (
 - Prejem ⟨ne⟩ izdaja ∧ ⟨ne⟩ odobritev: trije ⟡-jevi pogoji izdaje stojijo (neodvisen strokovnjak · pravnik · preizkusi ugovora) ⊙ presoja PR #1258 (11 ⊢ · 6 ⚠).
 - Berba knjižnice je zn-berba ⟨read_document⟩; SHA-256 računata iz zn ∨ UTF-8 B telesa kakor prebranega — če vir nosi druge bajte (odseki uvoza), zrcalo knjižnice je meja, ⟨ne⟩ laž: obe plasti izmerjeni isti dih isti instrument.
 - Testne številke (17/17 · 8/8) so izmerjene v peskovniku tuje roke; ⟨ne⟩ ponovljene z mojo roko ⭢ ∂.
-- Predhodna rana ⟨PADC-UVOZA-JSON⟩ (trije odsekani JSON) se ta pošiljka ⟨ne〉 dotika — JSON telesa niso del nje; kura ostaja ⭢ ∂.
+- Predhodna rana ⟨PADC-UVOZA-JSON⟩ (trije odsekani JSON) se ta pošiljka ⟨ne⟩ dotika — JSON telesa niso del nje; kura ostaja ⭢ ∂.
 
 ## 4. Sklep
 
-Sklep: uvoz — šest teles arhivirana na verigo kakor prejeta priča, ⟨ne⟩ kakor kanon. Veriga meri, ⟨ne〉 trdi ⊙ §0.10.
+Sklep: uvoz — šest teles arhivirana na verigo kakor prejeta priča, ⟨ne⟩ kakor kanon. Veriga meri, ⟨ne⟩ trdi ⊙ §0.10.
 
 DOLGOVA ∂: izdaja EGS ⭢ ⟡ roka (ED-0003 neodvisna presoja · pravnik · preizkusi ugovora) · ⟨merge⟩ vrsta #1249 → … najstarejši prvi ⭢ ⟡ roka ⊙ ⟨DVOJE-ROK⟩ 2432 · ponovitev testov z lastno roko ⭢ ∂ · ⟨PADC-UVOZA-JSON⟩ trije JSON ⭢ ∂ · prevoz osnutkov roke vzporednega sedeža (manifest · okostje · jedro @σ 3780–3783) ⭢ izbor ⟡ (njihove glave: prevoz = ⟡ roka).
 
