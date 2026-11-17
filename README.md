@@ -54,29 +54,29 @@ All sealed decisions are recorded in [canon/DOKAZ.md](canon/DOKAZ.md)
 
 # Book Workbench — produkt
 
-Atmavictu je matični produktni repo za Book Workbench: lokalno-prvo delovna miza za tok `vir -> obdelava -> knjiga`.
+Atmavictu je matični produktni repo za Book Workbench: lokalno-prva delovna miza za tok `vir -> obdelava -> knjiga`.
 
 ## Kaj Atmavictu je
 
 - product repo za Book Workbench
-- contract-first osnova za model in manifest sledenje
+- contract-first osnova za model in sledenje manifestu
 - prostor, kjer se najprej zaklenejo scope, arhitektura in minimalen manifest schema
 - lokalno-prvi sistem, v katerem trajni manifest povezuje vhodni tekst, odlomek in cilj v knjigi
 
 ## Kaj Atmavictu ni
 
 - dump iz `Library`
-- genericni notes app
+- generični notes app
 - social app
 - AI chat app
-- takojsnja kopija `CIVIC_MEMORY_DESKTOP`
+- takojšnja kopija `CIVIC_MEMORY_DESKTOP`
 
 ## Osnovni tok
 
 Atmavictu obravnava tri povezane korake:
 
 1. `vir`: vhodni tekst pride v lokalni delovni prostor
-2. `obdelava`: iz vhodnega teksta nastanejo delovni odlomki in odlocitve
+2. `obdelava`: iz vhodnega teksta nastanejo delovni odlomki in odločitve
 3. `knjiga`: potrjen odlomek se vstavi v ciljno poglavje aktivne knjige
 
 Trajni manifest hrani sled:
@@ -108,7 +108,7 @@ To pomeni, da povezava med surovim vhodom in mestom v knjigi ni implicitna v UI-
 
 - Faza 0: produktni scope, arhitekturni contract, minimalen manifest schema — DONE
 - Faza 1: model + service plast nad manifestom — DONE (`src/workbenchManifest.ts`, `src/workbenchManifestRepository.ts`, `src/atmaCli.ts`)
-- Faza 2: lokalni UI workbench nad zaklenjenim contractom — IN PROGRESS. Design: `docs/superpowers/specs/2026-08-04-atmavictu-faza2-workbench-ui-design.md`. Vseh 9 service operacij je dosegljivih iz UI-ja in preverjenih v resnicnem brskalniku (glej ta dokument in spec). Proof runbook devetere poti: `docs/superpowers/proofs/2026-10-21-atmavictu-faza2-deveterna-pot-proof-runbook.md`. Namerno se manjka: vizualno oblikovanje, konfigurabilna Knjiznica pot, drag-and-drop.
+- Faza 2: lokalni UI workbench nad zaklenjenim contractom — IN PROGRESS. Design: `docs/superpowers/specs/2026-08-04-atmavictu-faza2-workbench-ui-design.md`. Vseh 9 service operacij je dosegljivih iz UI-ja in preverjenih v resničnem brskalniku (glej ta dokument in spec). Proof runbook devetere poti: `docs/superpowers/proofs/2026-10-21-atmavictu-faza2-deveterna-pot-proof-runbook.md`. Namerno manjka: vizualno oblikovanje, konfigurabilna knjižnična pot, drag-and-drop.
   - Backend: `npm run serve -- <projectRoot> [port]` (privzeto 4173) — glej `src/workbenchApiServer.ts`, testi v `src/workbenchApiServer.test.ts`.
   - Frontend: `cd web && npm install && npm run dev` (privzeto 5173, proxy na `/api` -> 4173).
 - Faza 3: runtime integracija in selektivna desktop plast — not started
@@ -187,7 +187,7 @@ Izmerjeno pri viru 15. 11. 2026, 04:10:31Z UTC ⇌ 05:10:31 CET Ljubljana ⊙ �
 - Padec z imenom je zdravilo — Register padcev potuje z delom; brazgotina ostane (§0.4 × 10¹).
 - Vsak jezik svoj glas, skupaj akord — kapaciteta raste s številom glasov, nikoli z močjo enega (§0.19 × 10²).
 - Ura pred odgovorom — vsak izhod nosi izmerjen čas (§0.20 × 10²).
-- © Luka Pintarič — edine žive vrati so novejša različica; starejše so potrdila (§0.10 × 10²).
+- © Luka Pintarič — edina živa vrata so novejša različica; starejše so potrdila (§0.10 × 10²).
 
 ## Kazalo vsebine · Table of contents
 
