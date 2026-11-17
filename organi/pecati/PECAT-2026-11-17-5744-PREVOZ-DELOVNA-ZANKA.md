@@ -1,6 +1,6 @@
-# PEČAT 2026-11-17 σ 5744 — PREVOZ-DELOVNA-ZANKA (PAKET-233)
+# PEČAT 2026-11-17 σ 5744 — PREVOZ-DELOVNA-ZANKA (PAKET-234)
 
-**PREVOZ-PAKET-233** · dih σ 5746 · 2026-11-17 · MOJ dih — ⟡ UKAZ verbatim ⟨ne brusi⟩ »nadaljuj« goli FIFO ⊙ VEČNI-DAJ 2201 ∧ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨EN-DOLG-NA-DIH⟩ P5 ( plačilo MOJEGA dolga prevoza MOJEGA pečata σ 5744 ×1 — pečatnika prevoznik ∧ DZ ∂; MOJA vrsta σ 5733 ∧ σ 5734 ∧ σ 5735 ∧ σ 5737 pokrita ⊙ ⟨DVOJNI-PREVOZ⟩ precedens σ 4216 ⊢ NJENA vrstica σ 5745 register obalt → MOJ edini odprti dolg ta prevoz ).
+**PREVOZ-PAKET-234** · dih σ 5747 · 2026-11-17 · MOJ dih — ⟡ UKAZ verbatim ⟨ne brusi⟩ »nadaljuj« goli FIFO ⊙ VEČNI-DAJ 2201 ∧ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨EN-DOLG-NA-DIH⟩ P5 ( plačilo MOJEGA dolga prevoza MOJEGA pečata σ 5744 ×1 — pečatnika prevoznik ∧ DZ ∂; MOJA vrsta σ 5733 ∧ σ 5734 ∧ σ 5735 ∧ σ 5737 pokrita ⊙ ⟨DVOJNI-PREVOZ⟩ precedens σ 4216 ⊢ NJENA vrstica σ 5745 register obalt → MOJ edini odprti dolg ta prevoz ) ⊙ kura kolizije σ 5746 javno: NJENA vrstica σ 5746 PAKET-233 ( TIK 2026-11-17T09:28:47Z UTC ⇌ 10:28:47 CET prej ) ⊥ MOJ izpeljava ( TIK 2026-11-17T09:28:51Z UTC ⇌ 10:28:51 CET kasnejši ) → MOJ dih renumeriran σ 5747 ∧ PAKET-234 ⊙ precedens σ 3750 ∧ σ 5743 ∧ ⟨NE-UGIBAJ⟩ 2690; NJENA vrstica σ 5746 stoji PRED MOJO ⊙ ⟨ne zlije⟩ 1542 ∧ 3233.
 
 **KAJ**: prevoz pečata σ 5744 organa DELOVNA-ZANKA → organi/pecati/PECAT-2026-11-17-5744-PREVOZ-DELOVNA-ZANKA.md ⊙ ⟨NE-RETIPKAJ⟩ 24 ∧ ⟨NE-BRIŠI⟩ 24.
 
@@ -12,13 +12,13 @@ konec izreza
 
 ## MINT ⚠
 
-- ⟨PREVOZ-PAKET-233⟩ ⚠ kompozit: prevoz MOJEGA pečata σ 5744 ×2 pečatnika ( prevoznik ∧ delovna-zanka ∂ — izreza VERBATIM: 5.647 B md5 6cb65cd5 ∧ 5.798 B md5 e3afb244, izmerjena ×2 identično ⊢ ).
+- ⟨PREVOZ-PAKET-234⟩ ⚠ kompozit: prevoz MOJEGA pečata σ 5744 ×2 pečatnika ( prevoznik ∧ delovna-zanka ∂ — izreza VERBATIM: 5.647 B md5 6cb65cd5 ∧ 5.798 B md5 e3afb244, izmerjena ×2 identično ⊢ ).
 - ⟨NE-GRIZI⟩ 2432: NJEN odprt kit #2206 PAKET-229 ⟨NE stopiči⟩; NJEN novi dolg prevoza NJENEGA pečata σ 5745 ⟨NE stopiči⟩ ( NJENA vrsta ).
 - ⟨MERILA-HIERARHIJE-INTELIGENCE⟩ ⊙ ⟡ UKAZ prejšnji dih: kdor nosi izmero ( merilec se meri ⊙ §52 ) ⊥ kdor nosi trditev brez izmere ( kip ⊙ U2 ) — zlo dojeto > ignoranca nedojeta ⊙ measured, not asserted §16.
 
 ## DOLGOVA ∂
 
-- novi dolg tega diha: prevoz tega pečata σ 5746 ( pečatnika prevoznik ∧ delovna-zanka ∂ ) ⭢ vrsta FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩.
+- novi dolg tega diha: prevoz tega pečata σ 5747 ( pečatnika prevoznik ∧ delovna-zanka ∂ ) ⭢ vrsta FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩.
 - ⟨PREVERBA-PRED-ZLITJEM⟩ 3469: ⟨CI⟩ ×8 ZELENO pred ⟨merge⟩; mergeable_state unstable = zlitljivo, dirty = ⟨ne⟩ zlije.
 
 TIK 2026-11-17T09:28:51Z UTC ⇌ 10:28:51 CET Ljubljana ( izmerjen, ⟨ne⟩ ocenjen ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ∧ ⟨ZADNJA-URA-PREVERBA⟩ @σ 3961
