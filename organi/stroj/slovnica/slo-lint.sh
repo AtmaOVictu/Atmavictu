@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# ⟨STROJNA-SLOVNICA⟩ slo-lint.sh v1.2 — strojni kavelj ⟨SLOVNICA-DIH⟩ (⟡ UKAZ ⟨daj⟩, 16. 11. 2026 ⊙ predlog izhoda istega diha)
+# ⟨STROJNA-SLOVNICA⟩ slo-lint.sh v1.3 — strojni kavelj ⟨SLOVNICA-DIH⟩ (⟡ UKAZ ⟨daj⟩, 16. 11. 2026 ⊙ predlog izhoda istega diha)
 # TEHNIKA — nosi no rez ⊙ stroj-kalup; glasna resnica: padel korak = ::error:: ∧ exit 1, ⟨ne⟩ || echo.
 # Stroj meri OBLIKO, ⟨ne⟩ POMEN — sodba pomena ostaja ⚔ ⟡ ⊙ meja izvršljivosti.
 # v1.1: ⟨PADC-SPREMENLJIVKA-TELA⟩ kura — telo se nikoli ne bere v spremenljivko peska (dvojno kodiranje):
@@ -9,6 +9,12 @@
 #            molčijo izrezi VERBATIM ∧ meje izrezov ∧ poimenovana odprta utež zaklepca ⊙ precedens σ 5684)
 #        4a TIK meri ARITMETIKO (stroj prešteje UTC+1 ⇌ CET, ⟨ne⟩ zaupa pisavi ⊙ §16 measured)
 #        7 napačen kodni oklepaj U+3008/U+3009 ×0 (zrcaljeni pravi: U+27E8 ∧ U+27E9, oba 3 bajte)
+# v1.3: ⟨PADC-ZLOMLJENE-OSNOVE⟩ kura (17. 11. 2026, sanacija registra ⊙ PULZ): obljuba glave
+#        »zgodovina molči« ima razpoko — rana osnove (register nadomeščen s starim telesom) naredi
+#        obnovljene zgodovinske vrstice difa vidne kakor nove; kura: vrstica sodjena ∧ živeča v
+#        predniku poti ( rev-list po poti ∧ git show ) je ZGODOVINA ∧ molči ⊙ ⟨NE-RETIPKAJ⟩ 24 ∧
+#        ⟨NE-BRIŠI⟩ 24; stvarno nove vrstice ( ×0 v zgodovini ) se sodijo naprej kakor prej —
+#        dvig natančnosti baterije, ⟨ne⟩ odprtje vrat ( glasna resnica ostaja ⊙ §52 ).
 # © Luka Pintarič, VBL 0.1560 × 10⁴ (§9 ∧ §10 ∧ §12)
 set -euo pipefail
 
@@ -30,6 +36,21 @@ SODILO="$F"
 if [ -n "$DIF" ] && [ -f "$DIF" ]; then
   grep -P '^\+[^+]' "$DIF" > .slo-nove.tmp 2>/dev/null || : > .slo-nove.tmp
   sed -e 's/^\+//' .slo-nove.tmp > .slo-plus.tmp || : > .slo-plus.tmp
+  # v1.3 — zgodovina molči ( resnično ): sodjena vrstica, živeča v predniku poti, je obnovitev
+  if command -v git >/dev/null 2>&1 && git rev-parse --git-dir >/dev/null 2>&1; then
+    : > .slo-zgodovina-u.tmp
+    for C in $(git rev-list --max-count=500 HEAD -- "$F" 2>/dev/null || true); do
+      git show "$C:$F" 2>/dev/null || :
+    done | sort -u > .slo-zgodovina-u.tmp
+    if [ -s .slo-zgodovina-u.tmp ]; then
+      sort -u .slo-plus.tmp > .slo-p-s.tmp
+      grep -Fxf .slo-zgodovina-u.tmp .slo-p-s.tmp 2>/dev/null | sort -u > .slo-povr.tmp || : > .slo-povr.tmp
+      comm -23 .slo-p-s.tmp .slo-povr.tmp > .slo-stvarno-nove.tmp
+      echo "::notice::slo-lint v1.3: zgodovina molči — povratnih vrstic sodnje ×$(wc -l < .slo-povr.tmp) · stvarno novih ×$(wc -l < .slo-stvarno-nove.tmp)"
+      mv .slo-stvarno-nove.tmp .slo-plus.tmp
+    fi
+    rm -f .slo-p-s.tmp .slo-povr.tmp .slo-zgodovina-u.tmp
+  fi
   SODILO=".slo-plus.tmp"
 fi
 
