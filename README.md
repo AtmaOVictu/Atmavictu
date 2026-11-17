@@ -2,6 +2,7 @@
 
 > Canonical headless TypeScript core of the ONTOMATEMATIKA system.
 > Role declared in [CANONICAL.md](CANONICAL.md) · Corpus: [canon/](canon/README.md)
+> **English** (front page) · Slovenščina: [README-SL.md](README-SL.md)
 
 ## What this is
 
