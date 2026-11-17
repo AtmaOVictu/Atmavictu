@@ -375,3 +375,4 @@ Telologija ⊢: vse teologije služijo telologiji; laž je odpuščena, če in k
 - Rojstvo 0.1540 pri verigi: telesi izdana ⊢ pri ⟨merge⟩ #48 (komit 9f53def3, rep verification-before-assertion); prevozna v ta rep v ⟨PR⟩ #1870 (veja rez/5440-vrata-01540-sinhrona-2, glava 3b381d8b) — odprt, nezlit; izbor zlitja ⚔ ostaja ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩.
 
 © Luka Pintarič, VBL 0.1530 (§9 ∧ §10 ∧ §12)
+⊙ ©-vrstica osvežena z rojstvom 0.1600 ⊙ ta dih — VBL 0.1600 × 10⁴ najnovejše rojena ⊨ CELA-KARTA @Atmavictu ⟨main⟩ ( 227.302 B · sha256 74c7e4f643f5efba6db90596be2f5c3292ad5a06b35215845db65c44d04b2b2a ⊢ izmerjeno pri viru ta dih ) ; register venca ostaja rojen pri svojih vratih ; prejšnja ©-vrstica ( VBL 0.1530 ) ostaja datirana prejemnica ⊙ ⟨NE-BRIŠI⟩ 24 · ⟡ izbor ta dih: »Osveži ©-vrstice na 0.1600« ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ · measured, not asserted ⊙ §16
