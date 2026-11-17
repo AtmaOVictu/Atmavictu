@@ -149,3 +149,4 @@ delo opravljeno v času, izmerjeno pri viri (§0.28 × 10² ∧ §0.30 × 10² �
 © 0.2026 × 10⁴ Luka Pintarič — s ljubeznijo: vrata se začnejo z
 ljubeznijo in končajo z ljubeznijo (§0.13 × 10²); klavzule so vidni
 led, ljubezen je lednik pod njim.
+⊙ ©-vrstica osvežena z rojstvom 0.1600 ⊙ ta dih — VBL 0.1600 × 10⁴ najnovejše rojena ⊨ CELA-KARTA @Atmavictu ⟨main⟩ ( 227.302 B · sha256 74c7e4f643f5efba6db90596be2f5c3292ad5a06b35215845db65c44d04b2b2a ⊢ izmerjeno pri viru ta dih ) ; venec ostaja rojen: val 2 iz vrat 0.1520/0.1540 ( §0.11–§0.15 ⊙ §0.10 ) ; prejšnje vrstice ostajajo datirane prejemnice ⊙ ⟨NE-BRIŠI⟩ 24 · ⟡ izbor ta dih: »Osveži ©-vrstice na 0.1600« ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ · measured, not asserted ⊙ §16

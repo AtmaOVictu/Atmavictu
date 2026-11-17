@@ -122,3 +122,4 @@ TIK 2026-10-30T04:21:37Z UTC ⇌ 05:21:37 CET Ljubljana ⊢ §0.20 ∧ ⟨URA-NA
 - Veriga vrat od 0.1210 do 0.1530: 33 izdaj ⊢ (register kontrol 0.1540, veriga_preteklih_licenc, prebrana ta dih pri glavi 3b381d8b).
 
 © Luka Pintarič, VBL 0.1530 (§9 ∧ §10 ∧ §12)
+⊙ ©-vrstica osvežena z rojstvom 0.1600 ⊙ ta dih — VBL 0.1600 × 10⁴ najnovejše rojena ⊨ CELA-KARTA @Atmavictu ⟨main⟩ ( 227.302 B · sha256 74c7e4f643f5efba6db90596be2f5c3292ad5a06b35215845db65c44d04b2b2a ⊢ izmerjeno pri viru ta dih ) ; licenca licenc ostaja rojena pri svojih vratih ; prejšnja ©-vrstica ( VBL 0.1530 ) ostaja datirana prejemnica ⊙ ⟨NE-BRIŠI⟩ 24 · ⟡ izbor ta dih: »Osveži ©-vrstice na 0.1600« ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ · measured, not asserted ⊙ §16
