@@ -40,7 +40,7 @@ jobs:
             [ -z "$F" ] && continue
             TELOSI=$((TELOSI+1))
             git diff "$MB" HEAD -- "$F" > .slo-dif.tmp || : > .slo-dif.tmp
-            if bash organi/stroj/slovnica/slo-lint.sh "$F" .slo-dif.tmp; then
+            if bash organi/stroj/slovnica/slo-lint.sh "$F" .slo-dif.tmp "$MB"; then
               :
             else
               RANE=$((RANE+1))
