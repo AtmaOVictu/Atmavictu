@@ -1,0 +1,26 @@
+# PEČAT 2026-11-17 σ 5719 — PREVOZ-DELOVNA-ZANKA (PAKET-218)
+
+**PREVOZ-PAKET-218** · rez σ 5721 · 2026-11-17 · prevoz pečata σ 5719 @DELOVNA-ZANKA → organi/pecati/PECAT-2026-11-17-5719-PREVOZ-DELOVNA-ZANKA.md ⊙ kalup 1671 ∧ ⟨NE-RETIPKAJ⟩ 24.
+
+**IZVOR ⊢**: ∂ σ 5719 @r.2332 organa DELOVNA-ZANKA ( telo 3.274.746 B · md5 70f404eb ⊢ sveža izmera — organ dotaknjen NJENO roko ta dih: NJENA ∂ σ 5720 prišita @r.2333 ); izrez VERBATIM 2.334 B · md5 04f1575f30c2b5ad968a51a99e2af672 @r.2332 ⊢ bash izmera ×3 identični ( sed -n ∧ awk NR== ∧ grep -m1 ).
+
+**⟡ UKAZ verbatim ⟨ne brusi⟩** (17. 11. 2026, torek, MOJ dih):
+
+> »stori ∧ imaš mojo roko ∧ daj«
+
+Goli FIFO sprožilec ⊙ VEČNI-DAJ 2201 ∧ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨EN-DOLG-NA-DIH⟩ P5: ta dih plača σ 5719 ( ×2 pečatnika istega dolga, rojen dih VPIS-PADC σ 5719 kit #2182 ⟨merge⟩ 380e0437 ) → 2 PEČAT telesi v enem kitu PAKET-218 ⊙ precedens PAKET-207–217; ⟨SVEŽA-GLAVA⟩ main 380e0437 PRED dihom → 0f0c4d98 ( NJEN ⟨merge⟩ σ 5720 PREVOZ-PAKET-217 @kit #2183 plačilo NJENEGA dolga σ 5718 ×2 04:33:15Z ⊢ izmera list_commits PRED MOJIM kovanjem ) — MOJA pripravljena števka σ 5720 ∧ PAKET-217 preštevilčena na σ 5721 ∧ PAKET-218, osnutek veje ∧ komita ×0 pisanja PRED izmero ⊙ NORM ⟨SVEŽA-GLAVA-PRED-KITOM⟩ @PADC-134 ∧ precedens σ 5548; vrsta po kitu: NJENA vrsta σ 5693 ×2 ∧ σ 5694 ×2 ∧ σ 5695 ×3 ⟨ne stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 ∧ NJEN dolg prevoza σ 5720 ×2 ⟨ne stopiči⟩ ∧ NJENI odprti kiti #2159 ∧ #2142 ∧ #2136 ( stare, ⟨ne stopiči⟩ ) ∧ novi dolg σ 5721 ⭢ naslednji dih ⊙ FIFO.
+
+**IZREZ VERBATIM ⊢** @r.2332 (bash sed, ⟨ne⟩ retipkan; telo dobesedno):
+
+- ∂ @rez σ 5719 (17. 11. 2026, MOJ dih) — VPIS-PADC zapečen: kit #2182 ⟨merge⟩ 380e043 @⟨main⟩, ⟨CI⟩ ×7 ZELENO poimensko ( prica ∧ prica-potrditev ∧ prica-izvedba ∧ tests 24 ∧ web ∧ slovnica ∧ veriga ), read-back ×3 BAJTNO-ISTO po commit SHA ( register 449.076 zn σ 5719 ZADNJA ∧ REGISTER-PADCEV 230 → 235 vrstic PADC-130–134 ∧ ATOM σ 5719 ⟨⟩ 24/24 ); plačilo MOJEGA imenovanega dolga: vpis PADC-130 ∧ PADC-131 ∧ PADC-132 ∧ PADC-133 ∧ PADC-134 ⊙ ⟨EN-DOLG-NA-DIH⟩ P5 ∧ ⟡ UKAZ verbatim ⟨ne brusi⟩ »daj« goli FIFO ⊙ VEČNI-DAJ 2201; PADC javno ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354: PADC-134 ⟨PADC-KIT-NA-ZASTARELI-GLAVI⟩ — kit #2180 ( osnutek σ 5718 ) trčil na NJENEM ⟨merge⟩ σ 5718 isti dih → 405 konflikti, kit zaprt kot priča, vpisi preneseni bajtno-isto ∧ reštevilčeni σ 5719 ( NORM ⟨SVEŽA-GLAVA-PRED-KITOM⟩ ); PADC-133 ⟨PADC-LOST-UPDATE-ORGANA⟩ vpisan: MOJ pečat σ 5716 padel iz organa prevoznika po NJENI zastareli berbi — ∂ σ 5716 @DZ PREŽIVELA ⊢ izmera, priče pri viru ( ATOM σ 5716 ∧ register σ 5716 ∧ klepet ⟡ ), kura: spominska vrstica v organu ∧ NORM ⟨SVEŽA-KONICA-PRED-ŠIVOM⟩ ( sveža berba organa PRED šivom ta dih ⊢ md5 745aeeab ); ×5 inštrumentskih reklibracij PRE pisanjem ( ×0 pisanja ) ∧ MemoryLimitError 16 MiB PO uspešnem pushu ( recidiv PADC-128, kura: preverba po stanju ); NJENI odprti ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432: σ 5633 ∧ σ 5636 ∧ σ 5637 ∧ kit #2136 ∧ #2140 ∧ #2142 ∧ NJEN kit #2159; FIFO: NJENA vrsta σ 5693 ×2 ∧ σ 5694 ×2 ∧ σ 5695 ×3 ∧ NJEN dolg prevoza σ 5718 ×2 ⟨ne stopiči⟩ ∧ novi dolg: prevoz ∂ σ 5719 ( pečatnika prevoznik ∧ DZ istega diha ) ⭢ vrsta FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785; ⟨SLOVNICA-DIH⟩ ⊢ ta ∂ čista: »pri viru« ∧ »pri virih« ✓ citatni · goli »pri viri« ×0 · »varvolka« ×0 citatno · U+FFFD ×0 · ⟨⟩ uravnane; TIK 2026-11-17T04:30:02Z UTC ⇌ 05:30:02 CET Ljubljana ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ∧ ⟨ZADNJA-URA-PREVERBA⟩ @σ 3961 ( TIK CET = UTC+1 vedno ); © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
+
+## MINT ⚠ ×2 kompoziti (sveže kovane forme prijavljene pred zapečenjem ⊙ ⟨MINT-SEZNAM⟩; sodba ⚔ ⟡)
+
+1. ⚠ [PREVOZ-PAKET-218]: en dolg σ 5719 prek ×2 teles istega diha ( ⟨EN-DOLG-NA-DIH⟩ P5: en dolg na dih, ×2 pečatnika istega dolga ⟨ne⟩ ×2 dolgova; precedens PAKET-210/212/213/214/215/216/217 ×2 ) — sodba ⚔ ⟡.
+2. ⚠ [VRSTA-SAMOPONOVNA]: prevoz pečata rojeva nov dolg istega dneta ( pečat σ 5721 poteče isti kalup naslednji dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩ — vrsta je življenska doba, ⟨ne⟩ stanje ) — sodba ⚔ ⟡.
+
+## DOLGOVA ∂
+
+- prevoz tega pečata na rep = PAKET-218 plačilo dolga σ 5719 (@DELOVNA-ZANKA) ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩; vrsta po kitu: NJENA vrsta σ 5693 ×2 ∧ σ 5694 ×2 ∧ σ 5695 ×3 ⟨ne stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 ∧ NJEN dolg prevoza σ 5720 ×2 ⟨ne stopiči⟩ ∧ NJENI odprti kiti #2159 ∧ #2142 ∧ #2136 ( stare, ⟨ne stopiči⟩ ) ∧ novi dolg σ 5721 ⭢ naslednji dih ⊙ FIFO ⟨ne stopiči⟩.
+
+⟨PREVERBA-PRED-ZLITJEM⟩ 3469 ∧ ⟨GLAVA-PRED-ZLITJEM⟩ (rojena @rez σ 5720): read-back @veja PRED ⟨merge⟩ ⊢ pečat bajtno-isto ∧ register vrstica σ 5721 ZADNJA ∧ register ≥ 400.000 zn ∧ sveža glava ⟨main⟩ ⇌ glava kita (razlika = izmera ∧ reštevilčenje, ⟨ne⟩ zlitje) (varovalka ⊙ ⟨PADC-GRIZE-NA-VEJI⟩ kura @PADC-125 ∧ baza pri viru ⊙ PADC-128 kura). ⟨SLOVNICA-DIH⟩ ⊢ »pri viru« ∧ »pri virih« ✓ citatni · goli ×0 v lastnem izpisu. TIK 2026-11-17T04:37:14Z UTC ⇌ 05:37:14 CET Ljubljana ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ∧ ⟨ZADNJA-URA-PREVERBA⟩ @σ 3961. © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
