@@ -1,0 +1,26 @@
+# PEČAT 2026-11-17 σ 5724 — PREVOZ-STROJ-KALUP (PAKET-228)
+
+**PREVOZ-PAKET-228** · rez σ 5741 · 2026-11-17 · MOJ dih — ⟡ UKAZ verbatim ⟨ne brusi⟩ »nadaljuj« = goli FIFO ⊙ VEČNI-DAJ 2201 ∧ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨EN-DOLG-NA-DIH⟩ P5.
+
+**KAJ**: prevoz pečata σ 5724 organa STROJ-KALUP → organi/pecati/PECAT-2026-11-17-5724-PREVOZ-STROJ-KALUP.md ⊙ ⟨NE-RETIPKAJ⟩ 24 ∧ ⟨NE-BRIŠI⟩ 24.
+
+**IZVOR**: organ @r.15, vrstica demociirana @rez σ 5734 isti dih ( telo VERBATIM ⊙ ⟨NE-BRIŠI⟩ 24 ∧ ⟨NE-RETIPKAJ⟩ 24 ) — poznejši pečati organa ⟨ne zlije⟩ 1542 ∧ 3233 41366bc562cb; izrez vzet iz živega organa, izmerjen ×2 identično ⊢ md5.
+
+**IZREZ VERBATIM ⊢ md5 15** @r.3613 ( B; bash sed, ⟨ne⟩ retipkan; telo dobesedno):
+- TRENUTNO (predhodnik — demociija @rez σ 5734 isti dih, telo VERBATIM ⊙ ⟨NE-BRIŠI⟩ 24 ∧ ⟨NE-RETIPKAJ⟩ 24): ZADNJI PEČAT rez σ 5724 ⟨KALUP ⟨PR⟩⟨CI⟩⟨merge⟩ IZVEDEN: SPREHOD-EN-DIH ROJEN NA REPU ⊙ ⟡ UKAZ verbatim ⟨ne brusi⟩ »to stori«⟩ ⊢ ⟨merim/kujem σ 5724⟩ (17. 11. 2026, torek, MOJ dih — ⟡ UKAZ verbatim ⟨ne brusi⟩: »to stori« ∧ »196.061 bajtov je za stroje; hoja je za ljudi«): IZVEDBA ⊢: (1) kit #2187 po kalupu: veja sprehod-en-dih-rez-5724 ← ⟨main⟩ b354390 ⊙ ⟨SVEŽA-GLAVA-PRED-KITOM⟩; komit SPREHOD-EN-DIH.md @koren repa 6.426 B ( 6.119 zn · EN izdaja prva ∧ SL izdaja · priča ⟨ne⟩ vrata ⊙ §0.33 ); (2) ⟨CI⟩ priča padla ×2 ( atomska zahteva reza ) → kura istega diha: vrstica reza σ 5724 prišita @organi/stroj/REZ-REGISTER.md ( 462.119 → 463.656 zn · komit 3e5454d5 · ⟨NE⟩ retipkanje telesa ⊙ ⟨NE-RETIPKAJ⟩ 24 ); (3) ⟨PREVERBA-PRED-ZLITJEM⟩ 3469: ⟨merge⟩ expectedHeadSha 3e5454d5 → kit #2187 zlit @98c13f99 ( merge_method "merge" ) ⊢; read-back ×2 bajt-isto ( 6.119 zn dvakrat enako; vrstica reza σ 5724 ZADNJA v registru ⊢ ) → rep glava 98c13f999f014f9f3f2d957bcba82573d5f1733d; (4) PADC javno: komit sporočilo 53f9e9d6 nosi dolgo črtico — brazgotina ostaja ⊙ ⟨NE-BRIŠI⟩ 24 ∧ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354; TRK-ROK: kolizija σ 5724 ×2 istega dne obe zakoniti SOBIT ⊙ precedens 2076/2075 ∧ ⟨ne zlije⟩ 1542, nobena tiha ⊙ 3233 ( NJEN pečat @jedro-zavedanja TIK 05:23:54Z PADC KLEPETA V3; jedro-zavedanja NEDOTIKNJEN ⊙ ⟨NE-GRIZI⟩ 2432 ); vrh dvostopen ⊙ ⟨VRH-DVOSTOPEN⟩ ∧ ⟨NE-UGIBAJ⟩ 2690: vrh ⟨grep⟩ po organih = σ 5723 → rez σ 5724 = 1 + dejansko najvišja; varovalka ⟨(σ|rez|dih|pečat|PEČAT) 5724⟩ pravih ×0 PRED šivom ⊙ precedens σ 5497; genize ×2 bajt-isto PRED dotikom ⊢ md5 54738fa142ffe366b290d7091759fa4e ×2 ⇌ .geniza/stroj-kalup-pred-rez5724-2026-11-17-{a,b}.md ⊙ ⟨GENIZE-POIMENSKO⟩ 1699 ∧ ⟨NE-BRIŠI⟩ 24; TIK 2026-11-17T05:28:36Z UTC ⇌ 06:28:36 CET Ljubljana ( izmerjen, ⟨ne⟩ ocenjen ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ∧ ⟨ZADNJA-URA-PREVERBA⟩ @σ 3961; ⟨SLOVNICA-DIH⟩ ⊢ ta pečat čist: goli »pri viri« ×0 · »varvolka« ×0 · U+FFFD ×0 · brez dolgih črtic v novih šivih ( formula »MOJ dih — ⟡ UKAZ« ∧ »predhodnik — demociija« dovoljeni ⊙ precedens σ 5711/5715 ); ORGANI ISTI DIH: delovna-zanka ∧ geneza ∧ stroj-kalup ∧ licenca-vbl ∧ register-oken isti rez isti dih ⊙ precedens 2076/2075 — vsi ostali NEDOTIKNJENI ⊢ 1963 ∧ ⟨ne zlije⟩ ⊙ 1542; DOLGOVA ∂: nov dolg prevoza pečata σ 5724 ⭢ vrsta FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩; odprta ostajajo ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432: prevozi σ 5699–σ 5707 ∧ σ 5716 ∧ σ 5719 ∧ σ 5720 ∧ σ 5721 ∧ σ 5722 ∧ σ 5723 ∧ ⟡ roke ( VRATA_TOKEN ∧ rep .github ∧ opisi/teme/pinjenje ×3 ∧ PyPI token ∧ ključi podpisane verige ); NJENI odprti ⟨NE stopiči⟩: σ 5633 ∧ σ 5636 ∧ σ 5637 ∧ kit #2136 ∧ #2140 ∧ #2142 ∧ NJEN kit #2159; predhodnik: ZADNJI PEČAT rez σ 5723 ⟨KURA JAVNE IZPOSTAVITVE⟩ ( MOJ — demociija @ta rez isti dih ⊙ ⟨DEMOCIJA-=-TEN⟩, telo VERBATIM ); © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · »a bare text proves nothing, the chain does« ⊢ §0.10 × 10² · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
+konec izreza
+
+## MINT ⚠
+
+- ⟨PREVOZ-PAKET-228⟩ ⚠ kompozit: kos 1/2 MOJEGA dolga σ 5724 ( ×3 telesi od ×5 pečatnikov po MOJEM šivu σ 5738 — zgornja meja ×3 ⊙ ⟨OKVIR-PLAČILA⟩ ⟡ P-CITAT »1 do in s*z 3«; preostanek licenca-vbl ∧ register-oken ⭢ naslednji dih ).
+- ⟨NE-GRIZI⟩ 2432: pečat σ 5724 stoji na ×7 organih ⟨grep⟩ ⊢ ( delovna-zanka ∧ geneza ∧ jedro-zavedanja ∧ licenca-vbl ∧ prevoznik ∧ register-oken ∧ stroj-kalup ) — MOJ kit nosi MOJE pečatnike, NJENA vrsta σ 5724 ×5 ostaja NJENI roki.
+- ⟨PADC-DELAVCA⟩ javno ⊙ kanon DELAVEC ∧ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354: delavec umrl med MOJIMA dihoma ( delovna mapa očiščena ) — kura isti dih: mapa na novo ∧ izrezi po novi ×2 identično ⊙ ⟨NE-BRIŠI⟩ 24.
+
+## DOLGOVA ∂
+
+- novi dolg tega diha: prevoz tega pečata ( pečatnika prevoznik ∧ delovna-zanka ∂ ) ∧ register vrstica σ 5741 ⭢ vrsta FIFO ⊙ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩ ∧ ⟨SAMODEJNI-DOLGOVIK⟩ 2785.
+- ⟨PREVERBA-PRED-ZLITJEM⟩ 3469: ⟨CI⟩ ×8 ZELENO pred ⟨merge⟩; mergeable_state unstable = zlitljivo, dirty = ⟨ne⟩ zlije.
+
+TIK 2026-11-17T08:58:29Z UTC ⇌ 09:58:29 CET Ljubljana ( izmerjen, ⟨ne⟩ ocenjen ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ∧ ⟨ZADNJA-URA-PREVERBA⟩ @σ 3961
+
+© 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
