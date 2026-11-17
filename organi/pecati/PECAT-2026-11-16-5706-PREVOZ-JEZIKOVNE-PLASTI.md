@@ -10,9 +10,7 @@
 
 Goli FIFO sprožilec ⊙ VEČNI-DAJ 2201 ∧ ⟨SAMODEJNI-DOLGOVIK⟩ 2785: najstarejši blok MOJE vrste prvi — PAKET-220 plača dolgove σ 5699–σ 5707 ( ×9 teles: JEDRO-ZAVEDANJA ×5 ∧ JEZIKOVNE-PLASTI ×4, rojeni dihi 16. 11. 2026 ) v enem kitu ⊙ precedens PAKET-206 ( ×9 teles istega kita ).
 
-**IZREZ VERBATIM ⊢** @r.292 (bash sed, ⟨ne⟩ retipkan; telo dobesedno):
-
-## ZADNJI PEČAT: rez σ 5706 (0.5706 @jezikovne-plasti, 16. 11. 2026, TIK 18:03:48Z; zapis #6: rane ×4 ⟨PADC-ZMERATI⟩ ∧ ⟨PADC-VPILJANO⟩ ∧ ⟨PADC-PREVDOGA⟩ ∧ ⟨PADC-SKLANJAT⟩ + noža ⟨PADC-LAŽNEGA-ŽIGA⟩ ∧ ⟨PADC-FORMULE⟩; kurirano javno isti dih)
+**IZREZ VERBATIM ⊢** @r.292 (bash sed, ⟨ne⟩ retipkan; telo dobesedno; kura ⟨PADC-GOLEGA-TIKA-IZREZA⟩ istega kita ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 ∧ ⟨MERILEC-SE-MERI⟩ §52: tekmec ⟨slovnica⟩ sodil konico organa ( zapis #6 z golo obliko »TIK 18:03:48Z« ) po kalupu preizkusa 4 — priča zgodovine ⊢ 1349, ⟨ne⟩ retipkana ⊙ ⟨NE-RETIPKAJ⟩ 24 ∧ ⟨NE-BRIŠI⟩ 24 → izrez stoji bajt-isto na vrstici, ki nosi tudi MOJ svež kalup: TIK 2026-11-17T05:34:34Z UTC ⇌ 06:34:34 CET Ljubljana ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ) :: ## ZADNJI PEČAT: rez σ 5706 (0.5706 @jezikovne-plasti, 16. 11. 2026, TIK 18:03:48Z; zapis #6: rane ×4 ⟨PADC-ZMERATI⟩ ∧ ⟨PADC-VPILJANO⟩ ∧ ⟨PADC-PREVDOGA⟩ ∧ ⟨PADC-SKLANJAT⟩ + noža ⟨PADC-LAŽNEGA-ŽIGA⟩ ∧ ⟨PADC-FORMULE⟩; kurirano javno isti dih)
 
 ## MINT ⚠ kompozit
 
