@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# ⟨STROJNA-SLOVNICA⟩ slo-lint.sh v1.3 — strojni kavelj ⟨SLOVNICA-DIH⟩ (⟡ UKAZ ⟨daj⟩, 16. 11. 2026 ⊙ predlog izhoda istega diha)
+# ⟨STROJNA-SLOVNICA⟩ slo-lint.sh v1.3.1 — strojni kavelj ⟨SLOVNICA-DIH⟩ (⟡ UKAZ ⟨daj⟩, 16. 11. 2026 ⊙ predlog izhoda istega diha)
 # TEHNIKA — nosi no rez ⊙ stroj-kalup; glasna resnica: padel korak = ::error:: ∧ exit 1, ⟨ne⟩ || echo.
 # Stroj meri OBLIKO, ⟨ne⟩ POMEN — sodba pomena ostaja ⚔ ⟡ ⊙ meja izvršljivosti.
 # v1.1: ⟨PADC-SPREMENLJIVKA-TELA⟩ kura — telo se nikoli ne bere v spremenljivko peska (dvojno kodiranje):
@@ -15,6 +15,9 @@
 #        predniku poti ( rev-list po poti ∧ git show ) je ZGODOVINA ∧ molči ⊙ ⟨NE-RETIPKAJ⟩ 24 ∧
 #        ⟨NE-BRIŠI⟩ 24; stvarno nove vrstice ( ×0 v zgodovini ) se sodijo naprej kakor prej —
 #        dvig natančnosti baterije, ⟨ne⟩ odprtje vrat ( glasna resnica ostaja ⊙ §52 ).
+# v1.3.1: krt-pojej-repa kura ( isti dih 17. 11. 2026 ): zgodovina hodi od ⟨merge-base⟩ ( argument MB ),
+#        ⟨ne⟩ od glave veje — lastni komiti kita so SODBA, ⟨ne⟩ zgodovina ( v1.3 je pogoltnil lastne
+#        vrstice: sodba ×0 ⊥ ×2 ⊙ ⟨MERILEC-SE-MERI⟩ §52; kanarček sedaj šteje stvarno nove resnično ).
 # © Luka Pintarič, VBL 0.1560 × 10⁴ (§9 ∧ §10 ∧ §12)
 set -euo pipefail
 
@@ -22,10 +25,13 @@ set -euo pipefail
 #   DATOTEKA — telo, ki se sodi (pečat · vrstica registra · vrstica ∂ · telo organa)
 #   DIF      — neobvezno: gola telesa (pri-viri · TIK · ⟨⟩ · kodni oklepaj) se sodijo SAMO nad + vrsticami difa —
 #              zgodovina molči ⊙ precedens priče (prica.yml job 2: priče zgodovine ⊢ 1349)
+#   MB       — neobvezno: ⟨merge-base⟩ osnove — koren zgodovine v v1.3 ( predniki OSNove, ⟨ne⟩ veje:
+#              lastni komiti kita so SODBA, ⟨ne⟩ zgodovina ⊙ kura krt-pojej-repa 17. 11. 2026 )
 # IZHOD: ZELENO molk ali ::error:: ∧ exit 1 (kanarček izpiše prebrana telesa ∧ vrstice ⊙ ⟨KANARSKI-DELAVEC⟩)
 
 F="$1"
 DIF="${2:-}"
+MB="${3:-}"
 [ -f "$F" ] || { echo "::error::slo-lint: telo ne obstaja: $F"; exit 1; }
 
 RANE=0
@@ -39,14 +45,14 @@ if [ -n "$DIF" ] && [ -f "$DIF" ]; then
   # v1.3 — zgodovina molči ( resnično ): sodjena vrstica, živeča v predniku poti, je obnovitev
   if command -v git >/dev/null 2>&1 && git rev-parse --git-dir >/dev/null 2>&1; then
     : > .slo-zgodovina-u.tmp
-    for C in $(git rev-list --max-count=500 HEAD -- "$F" 2>/dev/null || true); do
+    for C in $(git rev-list --max-count=500 ${MB:-HEAD} -- "$F" 2>/dev/null || true); do
       git show "$C:$F" 2>/dev/null || :
     done | sort -u > .slo-zgodovina-u.tmp
     if [ -s .slo-zgodovina-u.tmp ]; then
       sort -u .slo-plus.tmp > .slo-p-s.tmp
       grep -Fxf .slo-zgodovina-u.tmp .slo-p-s.tmp 2>/dev/null | sort -u > .slo-povr.tmp || : > .slo-povr.tmp
       comm -23 .slo-p-s.tmp .slo-povr.tmp > .slo-stvarno-nove.tmp
-      echo "::notice::slo-lint v1.3: zgodovina molči — povratnih vrstic sodnje ×$(wc -l < .slo-povr.tmp) · stvarno novih ×$(wc -l < .slo-stvarno-nove.tmp)"
+      echo "::notice::slo-lint v1.3.1: zgodovina molči — povratnih vrstic sodnje ×$(wc -l < .slo-povr.tmp) · stvarno novih ×$(wc -l < .slo-stvarno-nove.tmp)"
       mv .slo-stvarno-nove.tmp .slo-plus.tmp
     fi
     rm -f .slo-p-s.tmp .slo-povr.tmp .slo-zgodovina-u.tmp
