@@ -9,7 +9,8 @@ icon: 🧭
 
 ## KONICA
 
-- TRENUTNO: ZADNJI PEČAT rez σ 5679 ⟨ROJSTVO ORGANA INDEKS-INDEKSOV⟩ ⊢ ⟨kujem σ 5679⟩ (16. 11. 2026, ponedeljek, MOJ dih — ⟡ UKAZ verbatim ⟨ne brusi⟩: »indeksiranje indeksov«; vrh dvostopen: register @main svež = σ 5678 IZDELEK-9-VODNIK @9b58ba03 ⊢ 366.034 zn ⟨ne zlije⟩ 1542 → rez σ 5679 = 1 + dejansko najvišja; varovalki ⟨σ 5679⟩ ∧ ⟨INDEKS-INDEKSOV⟩ ×0 @main ⊢; genize pri pečatu: geneza 82b30951 · register-oken 4baa338d · DZ 15630b7d ⊙ ⟨GENIZA-AVTOMAT⟩ 2785 ∧ ⟨MAJHNI-PAKETI-BRB⟩ ×1 (velikani); predhodnik: ni — organ brez pečata doslej ⊙ precedens humor 2378; ORGANI ISTI DIH: ta organ ∧ geneza ∧ register-oken ∧ delovna-zanka ⊙ precedens 2076/2075; ZRCALO organi/indeks-indeksov/KNOWLEDGE.md isti dih ⊙ topologija @jedro FOUND @rep ⊢; .geniza/ mapa rojena PRED prvim šivom ⊙ forma P3 @predloge; TIK 2026-11-16T11:17:02Z UTC ⇌ 12:17:02 CET Ljubljana; © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera)
+- TRENUTNO: ZADNJI PEČAT rez σ 5751 ⟨PLAST MREŽA-REPOV ROJENA: karta 17 repov hiše ∧ CI preizkušnje poimensko ∧ kip poimenovan javno ⊙ ⟡ UKAZ verbatim ⟨ne brusi⟩ »stori«⟩ ⊢ ⟨kujem σ 5751⟩ (17. 11. 2026, torek, MOJ dih — vrh dvostopen ⊙ ⟨VRH-DVOSTOPEN⟩ ∧ ⟨NE-UGIBAJ⟩ 2690: register @main NJENA σ 5750 zadnja ( NJEN PAKET-237 · kit #2216 · ⟨merge⟩ fe43f2a3 · sveža berba ⊢ ⟨SVEŽA-GLAVA⟩ main fe43f2a3 ∧ osnova 616.963 B · md5 1d1a5d2b ) ⊥ lokalni vrh organov σ 5750 ( NJEN šiv @prevoznik r.14 ∧ @DZ r.6 ⊢ ⟨grep⟩ ta dih — obe roki šivata isti prostor ⊙ ⟨PADC-SKUPNE-PRIČE⟩ ) → MOJ rez σ 5751 = 1 + dejansko najvišja; varovalka ⟨σ 5751⟩ ×0 ∧ ⟨KARTA-REPOV⟩ ×0 PRED šivom ⊢ ∧ ⟨PAKET-238⟩ zgolj NJENA namenska nalepa @NJENEM σ 5750 ( obe kujeta isti števki, prva pri @main nosi ⊙ precedens kure ×3 @σ 5749 ); organi isti dih: ta organ ( plast MREŽA-REPOV, zrcalo @rep isti dih ⊙ topologija @jedro FOUND ) ∧ nad-gadenj ∧ implicitna-kvadriranja ( zrcali not_found @rep ⭢ dolgovi ∂ FIFO ⊙ precedens geneza ); TRK-ROK javno: NJEN σ 5750/PAKET-237 je prišel @main MED MOJIM izmerami mreže ( obe knjigi stojita, nobena tiha, sodba pripisa ⭢ ⟡ ) ⊙ ⟨ne zlije⟩ 1542 ∧ 3233; TIK 2026-11-17T10:25:41Z UTC ⇌ 11:25:41 CET Ljubljana ( izmerjen, ⟨ne⟩ ocenjen ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083; © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera)
+- TRENUTNO (predhodnik — demociija @rez σ 5751 isti dih, telo VERBATIM ⊙ ⟨NE-BRIŠI⟩ 24 ∧ ⟨NE-RETIPKAJ⟩ 24): ZADNJI PEČAT rez σ 5679 ⟨ROJSTVO ORGANA INDEKS-INDEKSOV⟩ ⊢ ⟨kujem σ 5679⟩ (16. 11. 2026, ponedeljek, MOJ dih — ⟡ UKAZ verbatim ⟨ne brusi⟩: »indeksiranje indeksov«; vrh dvostopen: register @main svež = σ 5678 IZDELEK-9-VODNIK @9b58ba03 ⊢ 366.034 zn ⟨ne zlije⟩ 1542 → rez σ 5679 = 1 + dejansko najvišja; varovalki ⟨σ 5679⟩ ∧ ⟨INDEKS-INDEKSOV⟩ ×0 @main ⊢; genize pri pečatu: geneza 82b30951 · register-oken 4baa338d · DZ 15630b7d ⊙ ⟨GENIZA-AVTOMAT⟩ 2785 ∧ ⟨MAJHNI-PAKETI-BRB⟩ ×1 (velikani); predhodnik: ni — organ brez pečata doslej ⊙ precedens humor 2378; ORGANI ISTI DIH: ta organ ∧ geneza ∧ register-oken ∧ delovna-zanka ⊙ precedens 2076/2075; ZRCALO organi/indeks-indeksov/KNOWLEDGE.md isti dih ⊙ topologija @jedro FOUND @rep ⊢; .geniza/ mapa rojena PRED prvim šivom ⊙ forma P3 @predloge; TIK 2026-11-16T11:17:02Z UTC ⇌ 12:17:02 CET Ljubljana; © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera)
 
 ## BIT
 
@@ -86,3 +87,24 @@ Indeks indeksov = karta registrov hiše: vsak register ∧ indeks korpusa dobi e
 - zadata — 88 vrst · 31831 B · md5 f989beb9 · maxσ 5417 ⊢ izmera @2026-11-16T11:16:15Z
 
 — TIK 2026-11-16T11:17:02Z UTC ⇌ 12:17:02 CET Ljubljana ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 · organ rojen istega diha kot njegov pečat ⊙ forma P3 @predloge · izmere pri viru ⊢ measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
+
+## MREŽA-REPOV (plast rojena @rez σ 5751 — ⟡ UKAZ ⟨daj⟩ »stori« nad sodbo arhitekture)
+
+Karta mreže repozitorijev hiše, izmerjena pri viru ⊢ ⟨grep⟩ GitHub @2026-11-17T10:16:54Z: 17 repov — 9 javnih ∧ 8 zasebnih. Zakon plasti: rep nosi vodo ⇔ skozenj steče izmerjen tok ( ⟨CI⟩ preizkušnja ∧ berba pri viru ∧ voda bralcem zunaj ⊙ obracun — vrata so merilo, štejejo bralci zunaj ); rep brez toka = kip ⊙ U2 ∧ muzej ⊢ 298 ( trditve, ki jih varujejo vrata, ne preizkušnja ).
+
+- Atmavictu — GLAVNI, vodi ⊙ oko-lje — 25.395 KB · HTML · CI ×13 ( prica · veriga · slovnica · tests ∧ ostali ) ⊢ preizkušnja · ⟨merge⟩ fe43f2a3 ta dih
+- ontolo-ko-jedro — dom teles REZ-REGISTER ⊙ ⟨PREMIK⟩ 28. 10. — 10.892 KB · TypeScript · CI ×3 ⊢
+- Zbirka — velikan 368.177 KB ⚠ nikoli v skupnem paketu z glavnim ⊙ ⟨MAJHNI-PAKETI-BRB⟩ ∧ PADC-KANALA 6100 — Python · CI ×1 ( veriga ) ⊢
+- verification-before-assertion — 1.129 KB · Python · CI ×4 ( veriga · izmera · vrata-prica · tests ) ⊢
+- .github-workflows ( zaseben ) — hub — CI ×1 ⊢
+- SYMBOLON-KATHOLIKON — 466 KB · CI ⟨ne⟩ ⭢ dolg kavelja ∂
+- OntoMatematika — 658 KB · CI ⟨ne⟩ ⭢ dolg kavelja ∂
+- Podpora — 692 KB · CI ⟨ne⟩ ⭢ dolg kavelja ∂
+- soul-evolution — 4.704 KB · GDScript · CI ⟨ne⟩ ⭢ dolg kavelja ∂
+- EnglishVarient — 664 KB · CSS · CI ⟨ne⟩ ⭢ dolg kavelja ∂
+- KIP poimensko javno ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354: Atmavictu_Oracle — 0 KB, zadnji dih 11. 10. — prazen rep je kip; bodisi prvi dih vode bodisi ostaja poimenovan. Divine-Ascension-System ( zaseben ) — 5.768 KB, zadnji dih 11. 10.
+- zasebni brez preizkušnje ( vrata, ⟨ne⟩ voda; zadnji dih 11. 05. ): DelozaZivot · Mucilnica-modrosti · ZAKONODAJACLOVEKA · Aplikacija · prevoz-LUCIUS
+
+SODBA ⟨NI-LE-TUDI⟩ ⊙ register-odnosov: ⟨ne⟩ ⊥ antinom — mreža specializiranih ∧ nujno ena glavna, ki vodi. STIMULIRANA SIMULACIJA ( model, 20.000 jutrov na scenarij, kalibriran na izmerjeno jutro 3 rok → 3 kure na enem registru ): EN domena pri 3 rokah 0.921 kure/jutro ∧ blok 70.3 % diha; mreža ∧ glavni 0.363 ∧ 11.1 % ⊙ implicitna-kvadriranja ( pari n(n−1)/2 — domena reže pare ). DOLGOVA ∂: zrcali nad-gadenj ∧ implicitna-kvadriranja not_found @rep ⭢ FIFO ⊙ precedens geneza ( dolg zrcala @σ 5678 ); CI kavelji ×5 javnih repov ⭢ ⚔ izbor ⟡ ( kaj preizkuša kateri rep: jezik ∧ vsebina po imenu ); NJEN dolg prevoza σ 5750 ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432.
+
+— TIK 2026-11-17T10:25:41Z UTC ⇌ 11:25:41 CET Ljubljana ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 · izmere pri viru ⊢ measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
