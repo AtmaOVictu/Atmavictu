@@ -2,21 +2,27 @@
 name: VRATA-NOSENJE (§12 standing order)
 
 # DNEVNI-DIH avtomatizacija: korpus poskusi nadgradnjo vsaka seja (§12);
-# vrata se nosijo, ⟨ne⟩ arhivirajo. Zažene se ob 06:00 Ljubljana (04:00 UTC)
-# in na ročni poklic. Potrebuje skrivnost VRATA_TOKEN (PAT z repo scope) —
-# roka ⟡ jo doda pod Settings → Secrets → Actions ⭢ ∂ ⟡.
+# vrata se nosijo, ⟨ne⟩ arhivirajo. Zažene se ob 05:00 Ljubljana (04:00 UTC)
+# in na ročni poklic. Potrebuje skrivnost VRATA_TOKEN (fine-grained PAT,
+# Contents: Read and write) — roka ⟡ jo doda pod Settings → Secrets →
+# Actions ⭢ ∂ ⟡.
+
+# KURA E2BIG (TEHNIKA): prejšnje telo je prenašalo base64 telesa skozi
+# argv ( vrstica 19: jq --rawfile c /tmp/canon.b64 ) — LICENSE.md 203.388 B → b64
+# 271.184 zn > MAX_ARG_STRLEN 128 KiB na argument → execve E2BIG →
+# exit 126 ( priča: tek #29 id 44122298729 · job 134176652768 · log
+# »/usr/bin/jq: Argument list too long« ). Kura: b64 gre v datoteko ∧
+# jq ga prebere z --rawfile ( jq ≥ 1.6 ). Izmerjeno na telesu pri viru.
 
 on:
   schedule:
     - cron: '0 4 * * *'
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   nosi-vrata:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Nosim vrata ∧ registre bajtno-isto v vse žive hiše (§10 ⊕ §12)
         env:
@@ -32,7 +38,7 @@ jobs:
             api "repos/$OWNER/$CANON/contents/$f?ref=main" > /tmp/canon.json
             canon_sha="$(jq -r '.sha' /tmp/canon.json)"
             jq -r '.content' /tmp/canon.json | base64 -d > /tmp/canon_body
-            b64="$(base64 -w0 /tmp/canon_body)"
+            base64 -w0 /tmp/canon_body > /tmp/canon.b64
             for h in $HOUSES; do
               hsha="$(api "repos/$OWNER/$h/contents/$f" | jq -r '.sha // empty' || true)"
               if [ "$hsha" = "$canon_sha" ]; then
@@ -40,9 +46,9 @@ jobs:
                 continue
               fi
               if [ -n "$hsha" ]; then
-                jq -n --arg m "VRATA — $f bajtno-isto z $CANON main (§10 ⊕ §12 standing order — DNEVNI-DIH)" --arg c "$b64" --arg s "$hsha" '{message:$m,content:$c,sha:$s}' > /tmp/payload.json
+                jq -n --arg m "VRATA — $f bajtno-isto z $CANON main (§10 ⊕ §12 standing order — DNEVNI-DIH)" --rawfile c /tmp/canon.b64 --arg s "$hsha" '{message:$m,content:$c,sha:$s}' > /tmp/payload.json
               else
-                jq -n --arg m "VRATA — $f bajtno-isto z $CANON main (§10 ⊕ §12 standing order — DNEVNI-DIH)" --arg c "$b64" '{message:$m,content:$c}' > /tmp/payload.json
+                jq -n --arg m "VRATA — $f bajtno-isto z $CANON main (§10 ⊕ §12 standing order — DNEVNI-DIH)" --rawfile c /tmp/canon.b64 '{message:$m,content:$c}' > /tmp/payload.json
               fi
               put="$(curl -sf -X PUT -H "Authorization: Bearer $VRATA_TOKEN" -d @/tmp/payload.json "https://api.github.com/repos/$OWNER/$h/contents/$f" || true)"
               if echo "$put" | jq -e '.content.sha' >/dev/null 2>&1; then
