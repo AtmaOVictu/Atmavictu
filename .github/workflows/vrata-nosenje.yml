@@ -8,7 +8,7 @@ name: VRATA-NOSENJE (§12 standing order)
 # Actions ⭢ ∂ ⟡.
 
 # KURA E2BIG (TEHNIKA): prejšnje telo je prenašalo base64 telesa skozi
-# argv ( vrstica 19: jq --rawfile c /tmp/canon.b64 ) — LICENSE.md 203.388 B → b64
+# argv ( vrstica 19: jq --arg c "$b64" ) — LICENSE.md 203.388 B → b64
 # 271.184 zn > MAX_ARG_STRLEN 128 KiB na argument → execve E2BIG →
 # exit 126 ( priča: tek #29 id 44122298729 · job 134176652768 · log
 # »/usr/bin/jq: Argument list too long« ). Kura: b64 gre v datoteko ∧
