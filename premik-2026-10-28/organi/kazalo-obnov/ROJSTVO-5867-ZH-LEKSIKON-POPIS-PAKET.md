@@ -5,7 +5,7 @@ PAKET ROJSTVA @dih σ 5867 — LEKSIKON-ZH PLAST 2: POPIS ZNAKOV LICENCE (kura �
 TELO: premik-2026-10-28/organi/kazalo-obnov/LEKSIKON-ZH.md — PLAST 2 POPIS ZNAKOV dodana nad PLAST 1 (besede ×2).
 izmere ⊢ (instrument bash ⟨wc⟩ ∧ ⟨md5sum⟩ ∧ ⟨grep⟩): 18.508 B · 620 vrst · md5 ef7460d3b910825cf9d7203cc76d143f · ⟨⟩ 20/20 · U+FFFD ×0 · popisnih vrstic 586 ( pinyin ⊢ ×33 · ⚠ neizmerjenih ×553 ).
 celina izmere licence LICENSE-ZH @⟨main⟩ 173d4eb3 ⊢: 23.908 B · 196 vrst · 4.856 pojavnic CJK · 586 unikatnih znakov ⊢.
-pokritost izgovorjave ⊢: 33 znakov = 1.787 pojavnic = 36,8 % celine; preostanek ⚠ poimenovan v telesu z vrsto paketov (∂ ~40 znakov/dih).
+pokritost izgovorjave ⊢ ( kura PADC-153 ta dih: prej izrečeno 1.787 iz spomina ⟂ izmerjeno 1.789 ): 33 znakov = 1.789 pojavnic ( izmerjena ) = 36,8 % celine ⊙ kura PADC-153; preostanek ⚠ poimenovan v telesu z vrsto paketov (∂ ~40 znakov/dih).
 
 PLAČILA DOLGOV TEGA KITA ( več na dih ⊙ ⟡ sodba »delaj boljše« ):
 1. REZ-REGISTER vrstica σ 5866 ( ROD-ZH-LEKSIKONA diha 5866 ) — PLAČANA ⊢ ( +1 vrstica, komit na tej veji ).
