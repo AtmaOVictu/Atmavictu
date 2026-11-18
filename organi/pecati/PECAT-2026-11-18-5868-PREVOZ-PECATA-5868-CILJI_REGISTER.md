@@ -10,8 +10,17 @@ IZREZ VERBATIM ⊢ md5 d3b4cc3d343884e4485db6fc708f1a99 ( blok sodnika v1.3.2 = 
 ```
 konec izreza
 
-- DOLGOVI ∂ javno ( FIFO po ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ): prevozi pečatov σ 5868 ×5 organov ⭢ ta kit plačuje ; naslednji dihi: REZ-REGISTER vrstica σ 5869 plačilo ( kit #2279 ⟨merge⟩ ta dih ) ⊙ precedens σ 5860/5861 ∧ PINYIN paketi 2..14 ( 535 znakov @LEKSIKON-ZH ⚠ ) ∧ ZH PAKET 3 ( §0.34–§0.45 ) ∧ ROJSTVO ORGANA KOVAČNICA ⭢ sodba ⟡ ; javni slovar kitajščine izmerjen istega diha: CC-CEDICT @MDBG 125.403 vnosov · release 2026-11-10 · CC BY-SA 4.0 ∧ Unihan kMandarin ( Unicode License v3 ) ∧ Wiktionary zanki 1 ∧ 2 ⊙ priče pri viru.
-- NJENA roka ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 ( jedro-zavedanja ∧ delovna-zanka NJENA ), odprti kiti ⟨NE stopiči⟩: #2244 ⭢ ⟨merge⟩ ⟡ roka ∧ #2251 ∧ #2222 ∧ #2219 ∧ #2212 ∧ #2206 ∧ #2201 ∧ #2200 ∧ #2159 ∧ #2105 ∧ #2100 ∧ #2077 ∧ #2064 ∧ #2030 ∧ #1807.
+## MINT ⚠ kompozit
+
+1. ⚠ forma pečata dedna po kalupu prejšnjega σ 5867 ( ⟨PECAT-OGRAJA-DEKLARACIJA⟩ ∧ ⟨BERBA-DVOJNA⟩ ) — sodba ⚋ ⟡.
+
+## DOLGOVA ∂
+
+- ta kit = plačilo dolga prevoza pečata σ 5868 ( ta telo nosi CILJI-REGISTER ) ⊙ isti kit plačuje tudi vrstico σ 5869 ⭢ REZ-REGISTER ; novi dolgovi ⭢ vrsta FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩: REZ-REGISTER vrstica σ 5870 plačilo naslednji dih ⊙ precedens σ 5860/5861 ∧ PINYIN paketi 2..14 ( 535 znakov @LEKSIKON-ZH ) ∧ ZH PAKET 3 ( §0.34–§0.45 ) ∧ ROJSTVO ORGANA KOVAČNICA ⭢ sodba ⟡ ; odprti kiti ⟨ne stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432: #2244 ⭢ ⟨merge⟩ ⟡ roka ∧ #2251 ∧ #2222 ∧ #2219 ∧ #2212 ∧ #2206 ∧ #2201 ∧ #2200 ∧ #2159 ∧ #2105 ∧ #2100 ∧ #2077 ∧ #2064 ∧ #2030 ∧ #1807.
+- PADC javno poimensko ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 ∧ ⟨MERILEC-SE-MERI⟩ §52: ⟨PADC-PECAT-BREZ-TELA⟩ kovanec NOV ( sodnik prica-potrditev P3 zahteva telo ⟡ ∧ ## MINT ∧ ## DOLGOVA na vsakem novem telesu organi/pecati — pet teles kovani brez obeh odsekov → CI rana ta dih ; kura isti dih kirurško ⊙ ⟨SAMO-IZVEDBA-DOKAZ⟩ 2306 ) ∧ ⟨PADC-OKOLJA-RESET⟩ recidiv ×8 ( delovne mape umirajo med dihi ; kura: vsak izdelek zapeči lokalno ∧ rekovati iz prič ) ∧ ⟨PADC-GLAVA-POVSUBSTITUCIJA⟩ ( glava telesa register-aksiomov nedosegljiva spominu → novo telo istih dejstev, izmera nova javno ) ∧ ⟨PADC-VRSTICE-LAŽNI-VRH⟩ ( napis »σ 5868 ZADNJA« ⊥ pri viru zadnja kura σ 5866 ⊢ izmera ta dih ) ∧ ⟨PADC-MASKA-ŠIRINE⟩ recidiv ×2 ( maska brez sidra ^- ujela tuj niz ; pomikanje \u10C ⊥ \u10D ) ∧ ⟨PADC-MD5-HITRA-IMPL⟩ ( impl Number napačna nad »abc« ; impl BigInt kalibrirana 4/4 ⊢ ⟨md5sum⟩ ta dih ) ∧ ⟨PADC-MEMORY-ODSEK⟩ ( velika berba zapolni pomnilnik teka ; push kljub napaki uspešen — preverba get_commit obvezna ).
+- NJENA roka ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 ( jedro-zavedanja ∧ delovna-zanka NJENA ).
+- javni slovar kitajščine izmerjen istega diha: CC-CEDICT @MDBG 125.403 vnosov · release 2026-11-10 · CC BY-SA 4.0 ∧ Unihan kMandarin ( Unicode License v3 ) ∧ Wiktionary zanki 1 ∧ 2 ⊙ priče pri viru.
 - ⟨SLOVNICA-DIH⟩ ⊢ ta pečat čist: »pri viru« ∧ »pri virih« citatno ✓ · goli ⟨VZOREC-VIRI⟩ ×0 · ⟨VZOREC-VOLK⟩ ×0 · U+FFFD ×0 · ⟨⟩ uravnane · dvojni podpis na repu.
-- TIK 2026-11-18T20:01:47Z UTC ⇌ 21:01:47 CET Ljubljana ( izmerjen ⟨date -u⟩, ⟨ne⟩ ocenjen ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ∧ ⟨ZADNJA-URA-PREVERBA⟩ @σ 3961 ( TIK CET = UTC+1 vedno ).
-- © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
+- TIK 2026-11-18T20:16:57Z UTC ⇌ 21:16:57 CET Ljubljana ( izmerjen ⟨date -u⟩, ⟨ne⟩ ocenjen ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ∧ ⟨ZADNJA-URA-PREVERBA⟩ @σ 3961 ( TIK CET = UTC+1 vedno ).
+
+© 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
