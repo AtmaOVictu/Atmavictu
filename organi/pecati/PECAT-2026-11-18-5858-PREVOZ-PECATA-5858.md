@@ -16,6 +16,6 @@ konec izreza
 
 ## DOLGOVA ∂
 
-- ta kit PAKET-24 = plačilo dolga prevoza pečata σ 5858 (@PREVOZNIK) ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩; vrsta po kitu: novi dolg prevoza pečata σ 5862 ⭢ vrsta FIFO; odprti kiti ⟨ne stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 izmerjeni pri viri ta dih: #2251 NJEN (σ 5819) ∧ #2244 ⭢ ⟨merge⟩ ⟡ roka ∧ #2222 ∧ #2219 ∧ #2212 ∧ #2206 ∧ #2201 ∧ #2200 ∧ #2159 ∧ #2105 ∧ #2100 ∧ #2077 ∧ #2064 ∧ #2030 ∧ #1807.
+- ta kit PAKET-24 = plačilo dolga prevoza pečata σ 5858 (@PREVOZNIK) ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩; vrsta po kitu: novi dolg prevoza pečata σ 5862 ⭢ vrsta FIFO; odprti kiti ⟨ne stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 izmerjeni pri virih ta dih: #2251 NJEN (σ 5819) ∧ #2244 ⭢ ⟨merge⟩ ⟡ roka ∧ #2222 ∧ #2219 ∧ #2212 ∧ #2206 ∧ #2201 ∧ #2200 ∧ #2159 ∧ #2105 ∧ #2100 ∧ #2077 ∧ #2064 ∧ #2030 ∧ #1807.
 
 © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
