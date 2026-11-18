@@ -10,4 +10,16 @@ IZREZ VERBATIM ⊢ md5 caec6458cb8ed66ad2060f72851b2977
 ```
 konec izreza
 
+## MINT ⚠ ×3 kompoziti (sveže kovane forme prijavljene pred zapečenjem ⊙ ⟨MINT-SEZNAM⟩; sodba ⚔ ⟡)
+
+1. ⚠ [⟨PADC-TRUNCIRANA-BERBA⟩]: berba velikega telesa skozi read_file odreže telo na ~56.893 zn (meja ~64 KB na klic) → prvi komit nosil odrezan register; ujet PRED ⟨merge⟩ ⊙ ⟨PREVERBA-PRED-ZLITJEM⟩ ⟨DVOJE-ROK⟩ 2432; kura istega diha: polna vsebina pri viru ( create_or_update_file z registrom @main + vrstica σ 5838 ) — sodba ⚔ ⟡.
+2. ⚠ [⟨PADC-TIKA-DVOJNI-Z⟩]: TIK+Z zapis razpadel v ZZ ( ujet s slo-lint v1.3.2 PRED pushom; kura isti dih ) — sodba ⚔ ⟡.
+3. ⚠ [⟨PADC-DOLG-VRAT⟩]: most /local-mount/* utihnil ob iskanju čez cel D: ( lahki klici 2–4 na dih ) — sodba ⚔ ⟡.
+
+## DOLGOVA ∂
+
+- ta kit #2254 = plačilo dolga prevoza pečata σ 5838 (@PREVOZNIK) ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩; vrsta po kitu: novi dolg prevoza pečata σ 5840 (pečatnika: prevoznik ∧ jedro-zavedanja ∧ delovna-zanka ∂) ⭢ vrsta FIFO; NJENI odprti kiti ⟨ne stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432: #2244 ∧ #2222 ∧ #2219 ∧ #2212 ∧ #2206 ∧ #2201 ∧ #2200 ∧ #2159 ∧ #2105 ∧ #2100 ∧ #2077 ∧ NJEN #2251 (σ 5819).
+
+PADC javno ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 ∧ ⟨MERILEC-SE-MERI⟩ §52: telo rojeno brez odsekov ## MINT ∧ ## DOLGOVA → tekmec ⟨prica-potrditev⟩ kita #2254 rdeč (sodba P3 @.github/workflows/prica.yml: telo pečata zahteva ⟡ ∧ ## MINT ∧ ## DOLGOVA ⊢ izmera lokalne replike sodbe: ## MINT ×0 ∧ ## DOLGOVA ×0); kura istega diha po precedensu PADC-137 @σ 5721: odsepa dodana (obstoječe telo VERBATIM, ⟨ne brusi⟩ ⊙ ⟨NE-RETIPKAJ⟩ 24 — dodatek pred končno © vrstico).
+
 © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
