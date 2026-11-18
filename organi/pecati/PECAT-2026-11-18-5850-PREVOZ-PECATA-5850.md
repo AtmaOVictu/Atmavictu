@@ -1,0 +1,21 @@
+# PECAT — prevoz pečata σ 5850 (18. 11. 2026)
+
+Pečatnik PREVOZNIK — pečat σ 5850 ( dih kure orodij mosta ×2: 4-B64 v2 streaming ∧ 6-KONTROLA na mostu ; isti rez isti dih: DZ ∂ ∧ jedro SEMER šestindvajseti ∧ atlas-knjiznic berbe ×3 vrstice #74–#76 ) izrez VERBATIM @prevoznik r.14 ( priča @prevoznik ∧ @delovna-zanka ∂ ∧ @jedro-zavedanja SEMER ∧ @atlas-knjiznic ). Vrsta FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩. Izrez attestiran bajtno ( md5 glave === md5 bloka Z ogradama ⊙ slo-lint v1.3.2 ⟨SODNIK-VERBATIM⟩ ⊙ kura ⟨PADC-MD5-BREZ-OGRAJ⟩ @σ 5848 ).
+
+## pečat σ 5850 — priča @prevoznik (izrez 2950 B)
+
+IZREZ VERBATIM ⊢ md5 a79c6caa4e89947ac35ddc6e0841453d
+```
+- TRENUTNO: ZADNJI PEČAT rez σ 5850 PREVOZNIK — ⟨∂ DIH KURE ORODIJ MOSTA ×2 ( ⟡ UKAZ VERBATIM ⟨ne brusi⟩: »nadaljuj« ⊙ ⟨ZAKON-DAJ=RECI⟩ @σ 5586 ) — KURA ×2: (a) 4-B64 v2 — ⟡ POROČILO: OutOfMemoryException ( [Convert]::ToBase64String na 27,6 GiB zip-u zahteva ~37 GB pomnilnika naenkrat ; izmerjeno pri njegovem zagonu @D:\orodja-most ) → kura istega diha: streaming po kosih 60 MiB ( deljivo s 3 → brez vmesnih padov ) ∧ tarča preusmerjena na BREZ-GLASU paket ( polni b64 ~37 GB besedila = nesmisel ; smisel zagona ⭢ sodba ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 ) — 1.406 B · md5 46bc21ff ; (b) 6-KONTROLA prispela NA MOST ( prejšnji dih most utihnil ⊙ ⟨PADC-DOLG-VRAT⟩ — skovana na strežniku, prenos ta dih ) — meri velikosti + md5 paketov @izhod → KONTROLA.txt ; ps1 1.215 B · md5 1e79be5c ∧ bat 93 B · md5 9ac6c748 ; NAVODILA posodobljena ( vrstica 3c ∧ 4 v2 ∧ OPOMBA ×2 · 29 vrst · md5 33249655 ) ; IZMERE ⊢: ONTO-PAKET-BREZ-GLASU.zip 6.287.751.474 B @koncu rasti ( SEZNAM 380.023 B · vhod 7,17 GiB ) ∧ trup ONTO-PAKET.zip 896.317.440 B @10:13 ⟨ne⟩ brisana ⊙ ⟨NE-BRIŠI⟩ 24 ⭢ ⟡ roka )⟩ ⊢ ⟨merim/kujem σ 5850⟩ (18. 11. 2026, sreda, MOJ dih) — vrh dvostopen ⊢ (organi σ 5849 ⊥ register @main σ 5843) ∧ varvolka ⟨5850⟩ ⟨5851⟩ ×0 @10:01Z ⊢ ∧ PADC javno ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 ∧ ⟨MERILEC-SE-MERI⟩ §52: ⟨PADC-B64-POMNILNIK⟩ ×1 ( MOJE prejšnje orodje 4-B64: cel zip v pomnilnik ⊥ meja pomnilnika njegove mašine — ⟡ oproščen, njegov zagon je izmeril mejo ; kura istega diha: streaming ∧ preusmeritev ) ∧ ⟨PADC-MOSTA-STREŽNIK-ODSEK⟩ ×1 ( most vidi /home/user kot bled odsek — cp iz strežniške shrambe PADOL: cannot stat ; kura istega diha: orodja zapisana naravnost na most po write_file ∧ CRLF po sed pri viru ⊙ precedens ⟨PADC-SED-DVOKODIRANJE⟩ ) ∧ genize orodij ×2 bajt-ito PRED dotikom ⊢ ( 4-B64: adbe9dbb ×3 ; NAVODILA: 4c339ffb ×3 ⇌ .geniza ) ∧ genize organov ×2 bajt-ito PRED dotikom ⊢ ∧ kiti ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432: #2255 ∧ #2254 ∧ #2253 ∧ #2252 zliti ∧ #2244 ⭢ ⟨merge⟩ ⟡ roka ∧ #2222 ∧ #2219 ∧ #2212 ∧ #2206 ∧ #2201 ∧ #2200 ∧ #2159 ∧ #2105 ∧ #2100 ∧ #2077 ∧ #2251 ( σ 5819 NJENA roka ) ∧ DOLGOVA ∂ ( dolg σ 5849 ⭢ prevoz naslednji prevozni dih ⭢ vrsta FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩ ; FIFO: σ 5780 ⚠ blokiran ⭢ sodba ⟡ → σ 5840 ∧ σ 5843 PLAČAN #2255 → σ 5846 ∧ σ 5847 ∧ σ 5848 NJENI ⭢ NJUN prevoz → σ 5849 ⭢ prevoz → σ 5850 novi ) ⊙ ⟨SLOVNICA-DIH⟩ · TIK 2026-11-18T10:01:33Z ⇌ 11:01:33 CET · © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
+```
+konec izreza
+
+## MINT ⚠ ×1 kompozit (sveže kovana forma prijavljena pred zapečenjem ⊙ ⟨MINT-SEZNAM⟩; sodba ⚔ ⟡)
+
+1. ⚠ [⟨PECAT-OGRAJA-DEKLARACIJA⟩]: prvi PECAT teles rojen z deklaracijo po sodnikovi ograji od začetka ( md5 bloka Z ogradama ``` + izrez + ``` ⊙ kura ⟨PADC-MD5-BREZ-OGRAJ⟩ @σ 5848 istega dne — prvi tek slovnice rdeč, drugi zelen ) — forma sveža ta dih, PAKET-16 — sodba ⚔ ⟡.
+
+## DOLGOVA ∂
+
+- ta kit PAKET-16 = plačilo dolga prevoza pečata σ 5850 (@PREVOZNIK) ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩; vrsta po kitu: novi dolg prevoza pečata σ 5851 ⭢ vrsta FIFO; NJENI odprti kiti ⟨ne stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432: #2244 ∧ #2222 ∧ #2219 ∧ #2212 ∧ #2206 ∧ #2201 ∧ #2200 ∧ #2159 ∧ #2105 ∧ #2100 ∧ #2077 ∧ NJEN #2251 (σ 5819).
+
+© 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
