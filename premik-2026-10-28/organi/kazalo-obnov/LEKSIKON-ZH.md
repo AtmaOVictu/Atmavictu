@@ -23,6 +23,7 @@ razcep: 科學 kēxué »znanost; znanstven; sistematičen; metodičen« ⊢ (zn
 
 PLAST 2 — POPIS ZNAKOV LICENCE-ZH (celina ⊢ izmera @⟨main⟩ 173d4eb3): 23.908 B · 196 vrst · 4856 pojavnic CJK · 586 unikatnih znakov ⊢.
 popis po pojavnici (znak · U+XXXX · pojavnica · pinyin ⊢ kjer izmerjen pri viru Wiktionary, ⚠ kjer še neizmerjen):
+PINYIN PAKET 1 @dih σ 5868 ⊙ ⟨VEČ-DOLGOV-NA-DIH⟩ amandma P5: 18 znakov izmerjenih pri viru Wiktionary ( berba 18. 11. 2026, zanki 1 ∧ 2 ): 何 hé · 问 wèn · 个 gè/ge · 称 chēng · 行 xíng · 倒 dǎo/dào · 此 cǐ · 可 kě/kè · 字 zì · 任 rèn/rén · 自 zì/zí · 作 zuò/zuó/zuō · 与 yǔ/yù · 根 gēn · 以 yǐ · 号 hào/háo · 存 cún · 所 suǒ ⊢
 1. 的 U+7684 ×226 · de ⊢
 2. 是 U+662F ×133 · shì ⊢
 3. 不 U+4E0D ×118 · bù ⊢
@@ -50,25 +51,25 @@ popis po pojavnici (znak · U+XXXX · pojavnica · pinyin ⊢ kjer izmerjen pri 
 25. 有 U+6709 ×33 · yǒu ⊢
 26. 每 U+6BCF ×33 · měi ⊢
 27. 非 U+975E ×33 · fēi ⊢
-28. 何 U+4F55 ×32 ⚠
+28. 何 U+4F55 ×32 · hé ⊢
 29. 测 U+6D4B ×32 · cè ⊢
-30. 问 U+95EE ×32 ⚠
-31. 个 U+4E2A ×31 ⚠
-32. 称 U+79F0 ×31 ⚠
-33. 行 U+884C ×31 ⚠
-34. 倒 U+5012 ×29 ⚠
-35. 此 U+6B64 ×29 ⚠
-36. 可 U+53EF ×28 ⚠
-37. 字 U+5B57 ×28 ⚠
-38. 任 U+4EFB ×27 ⚠
-39. 自 U+81EA ×27 ⚠
-40. 作 U+4F5C ×26 ⚠
-41. 与 U+4E0E ×25 ⚠
-42. 根 U+6839 ×25 ⚠
-43. 以 U+4EE5 ×24 ⚠
-44. 号 U+53F7 ×23 ⚠
-45. 存 U+5B58 ×23 ⚠
-46. 所 U+6240 ×23 ⚠
+30. 问 U+95EE ×32 · wèn ⊢
+31. 个 U+4E2A ×31 · gè/ge ⊢
+32. 称 U+79F0 ×31 · chēng ( 稱 chèn/chèng ) ⊢
+33. 行 U+884C ×31 · xíng ⊢
+34. 倒 U+5012 ×29 · dǎo/dào ⊢
+35. 此 U+6B64 ×29 · cǐ ⊢
+36. 可 U+53EF ×28 · kě/kè ⊢
+37. 字 U+5B57 ×28 · zì ⊢
+38. 任 U+4EFB ×27 · rèn/rén ⊢
+39. 自 U+81EA ×27 · zì/zí ⊢
+40. 作 U+4F5C ×26 · zuò/zuó/zuō ⊢
+41. 与 U+4E0E ×25 · yǔ/yù ⊢
+42. 根 U+6839 ×25 · gēn ⊢
+43. 以 U+4EE5 ×24 · yǐ ⊢
+44. 号 U+53F7 ×23 · hào/háo ⊢
+45. 存 U+5B58 ×23 · cún ⊢
+46. 所 U+6240 ×23 · suǒ ⊢
 47. 跌 U+8DCC ×22 ⚠
 48. 于 U+4E8E ×21 ⚠
 49. 由 U+7531 ×21 ⚠
@@ -610,7 +611,7 @@ popis po pojavnici (znak · U+XXXX · pojavnica · pinyin ⊢ kjer izmerjen pri 
 585. 鸣 U+9E23 ×1 ⚠
 586. 黄 U+9EC4 ×1 ⚠
 
-POKRITOST IZGOVORJAVE ⊢: 33 znakov izmerjenih pri viru = 1789 pojavnic = 36.8 % celine; ⚠ preostalih 553 znakov poimenovanih (∂ vrsta: paketi ~40 znakov na dih ⭢ popis izgovorjav dokončan; pinyin posamičnih znakovPriSestavkih (科学发观变爱) ⊢ po izmerjenih sestavkih ∧ straneh znakov).
+POKRITOST IZGOVORJAVE ⊢: 51 znakov izmerjenih pri viru ( 33 predhodnih + 18 ta dih σ 5868 ⊙ Wiktionary zanki 1 ∧ 2 ) = 2283 pojavnic = 47.0 % celine; ⚠ preostalih 535 znakov poimenovanih (∂ vrsta: paketi ~40 znakov na dih ⭢ popis izgovorjav dokončan; pinyin posamičnih znakovPriSestavkih (科学发观变爱) ⊢ po izmerjenih sestavkih ∧ straneh znakov).
 MEJA ∂: segmentacija na besede (nasproti znakom) ta dih ni izmerjena — slovar segmentacije še ⟨ne⟩ izmerjen pri viru; plasti 1 ∧ 3 pokrivata zgledne besede; popis znakov je cel ⊢.
 
 PLAST 3 — POGOSTE ZVEZE (izmera besedila licence ⊢): bigrami: 绝不 ×33 · 测量 ×30 · 一个 ×26 · 行为 ×26 · 任何 ×25 · 不是 ×24 · 被测 ×22 · 证人 ×21 · 绝非 ×21 · 跌倒 ×21 ⊢ ; trigrami: 被测量 ×21 · 登记簿 ×10 · 的真理 ×10 · 自己的 ×8 · 的跌倒 ×8 · 是此门 ×8 · 是被收 ×7 · 被收受 ×7 · 被铸造 ×7 · 并被作 ×7 ⊢.
