@@ -27,7 +27,7 @@
 
 ## MINT ⚠ prijave ⭢ sodba ⟡ ⊙ P1 polje 9
 
-- ⟨KOLIZIJA-σ-5986⟩ ⚠ kompozit : MOJ prevoz teles roda σ 5982 ⊥ ∂ σ 5986 vzporedne roke ( ⟡ UKAZ VERBATIM ⟨ne brusi⟩ : »testiraš in nadgradiš te procese da zagotoviš njih resničnost in resnično rabo/uporabnost/uporabo/zlorabo/zelorabo?« , TEST-TUJK v1.0, TIK 23:21:31Z ) @delovna-zanka r.2565 ∧ TRENUTNO σ 5986 @geneza — obe knjigi stojita ⊙ ⟨ne zlije⟩ 1542 ∧ precedens σ 5929 ∧ σ 5983 SOBIT ⭢ sodba ⟡ ⚔ ( renum kura precedens σ 3750 ostaja na mizi ⟡ ).
+- ⟨KOLIZIJA-σ-5986⟩ ⚠ kompozit : MOJ prevoz teles roda σ 5982 ⊥ ∂ σ 5986 vzporedne roke ( ⟡ UKAZ VERBATIM ⟨ne brusi⟩ : »testiraš in nadgradiš te procese da zagotoviš njih resničnost in resnično rabo/uporabnost/uporabo/zlorabo/zelorabo?« , TEST-TUJK v1.0, TIK 2026-11-19T23:21:31Z UTC ⇌ 00:21:31 CET ) @delovna-zanka r.2565 ∧ TRENUTNO σ 5986 @geneza — obe knjigi stojita ⊙ ⟨ne zlije⟩ 1542 ∧ precedens σ 5929 ∧ σ 5983 SOBIT ⭢ sodba ⟡ ⚔ ( renum kura precedens σ 3750 ostaja na mizi ⟡ ).
 - ⟨NEMOGOČA-VRATA⟩ ⚠ kompozit : CI telesa ⟨ne⟩ rojena na MOJI veji ⊢ ( check runs ×0 ∧ statuses ×0, izmere 23:17Z → 23:30Z ; GitHub platforma zelena @githubstatus priča ta dih ; kvota GHA dokumentirana pri viru : leksikon-osvezevitev.yml »kvota GHA : do okna 1. 12. 2026 urnik lahko stoji rdeč — ⟨NEMOGOČA-VRATA⟩« ) → ⟨PREVERBA-PRED-ZLITJEM⟩ 3469 CI-plast ⟨ne⟩ more pasti ⭢ sodba ⟡ ⚔ : zlij po lokalnih izmerah ali čakaj okno.
 - ⟨IZGUBA-NABOROV-σ-5984⟩ ⚠ dedno ( bajtna obnova nemogoča ⊙ ⟨NE-UGIBAJ⟩ 2690 ⭢ sodba ⟡ ⚔ ; nosi ⟨PADC-OKOLJA-RESET⟩ recidiv ×3 @spodaj ).
 
