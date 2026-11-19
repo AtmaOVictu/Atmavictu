@@ -49,12 +49,14 @@ vrata_telesa() {   # $1 = datoteka ; vrata PRED pečatom : vsak izpis poimensko
 sodba_sebe() {   # SODNIK-SEBE : kanarček čist ⇒ 0 najdb ; kanarček ranjen ⇒ ≥ 1 ; drugače = kip
   local d t a b y nb nf
   d="$(dirname "$0")"
-  t="$d/kanarcek-clean.md"
+  t="$d/.geniza/kanarcek-clean.md"
+  [ -f "$t" ] || { echo "::error::SODNIK-SEBE: manjka telo $t"; exit 1; }
   a=$(grep -oP "$MIX" "$t" | wc -l); y=$(grep -oP "$MIXY" "$t" | wc -l); b=$((a - y))
   nb=$(awk '{ o=gsub(/⟨/,"x"); z=gsub(/⟩/,"x"); if (o!=z) k++ } END { print k+0 }' "$t")
   nf=$(grep -oP "$FFFD" "$t" | wc -l)
   if [ $((b + nb + nf)) -ne 0 ]; then echo "::error::SODNIK-SEBE: kanarček čist nosi $(($b + $nb + $nf)) najdb — sodnik laže"; exit 1; fi
-  t="$d/kanarcek-rana.md"
+  t="$d/.geniza/kanarcek-rana.md"
+  [ -f "$t" ] || { echo "::error::SODNIK-SEBE: manjka telo $t"; exit 1; }
   a=$(grep -oP "$MIX" "$t" | wc -l); y=$(grep -oP "$MIXY" "$t" | wc -l); b=$((a - y))
   nb=$(awk '{ o=gsub(/⟨/,"x"); z=gsub(/⟩/,"x"); if (o!=z) k++ } END { print k+0 }' "$t")
   nf=$(grep -oP "$FFFD" "$t" | wc -l)
