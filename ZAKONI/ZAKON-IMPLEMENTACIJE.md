@@ -20,4 +20,4 @@ mora biti operativna in zanesljiva in ter prenosljiva in testirano ozaveščena/
 
 MINT ⚠: kovanca ⟨×-INTEGRACIJ⟩ · ⟨VSE-KOTI-VSE-TOKI⟩ · ⟨OPERATIVNOST⟩ · ⟨ZANESLJIVOST⟩ · ⟨PRENOSLJIVOST⟩ · ⟨PREIZKUŠENOST⟩ ⚠ kompozit ⭢ sodba ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690.
 
-DOSTOP: @ZAKONI/ZAKON-IMPLEMENTACIJE.md (Atmavictu, veja main) · sestra ZAKON-PESMI-PO-BERBI.md; rojstvo vpisano @geneza TRENUTNO σ 5976 ∧ @REZ-REGISTER vrstica σ 5976 kit #<KIT> ⟨merge⟩ <MERGESHA> @main.
+DOSTOP: @ZAKONI/ZAKON-IMPLEMENTACIJE.md (Atmavictu, veja main) · sestra ZAKON-PESMI-PO-BERBI.md; rojstvo vpisano @geneza ( MOJA vrstica σ 5976 , sedaj predhodnik : demociija NJENE σ 5978 ⟨NE-BRIŠI⟩ 24 ) ∧ @organi/stroj/REZ-REGISTER vrstica σ 5976 SOBIT kit #2366 ⟨merge⟩ isti dih ⊙ kolizija sobit z NJENO σ 5976 #2365 ( obe zapečeni ⊙ precedens 5929 ∧ 5966 ) ⊙ ⟨ne zlije⟩ 1542.
