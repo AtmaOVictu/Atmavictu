@@ -26,3 +26,21 @@
 - rod ⟨DELAVNI-DIH⟩ : vsaka nova kova rodi se z testom istega diha ⊙ ⟨SAMO-IZVEDBA-DOKAZ⟩ 2306
 
 TIK 2026-11-19T10:18:53Z UTC ⇌ 11:18:53 CET Ljubljana ( izmerjen ⟨date -u⟩ ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ∧ ⟨ZADNJA-URA-PREVERBA⟩ @σ 3961 ( TIK CET = UTC+1 vedno ) ; © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
+
+## STROJ-DIH ( rod 19. 11. 2026 , dih σ 5945 ) : delujoči tokovi v stanju
+
+⟡ UKAZ VERBATIM ⟨ne brusi⟩: »daj, stori tako da smem biti ponosen nate in napredek/napreduj/nadgrajuj/deluj« ⊥ izhodišče isti klepet: »vidiš? tukaj ni nobenega workflowa« ⊥ plošča Workflows je bila prazna ⊢ slika → tokovi ×4 smijo živeti v stanju , ⟨ne⟩ v zapiskih .
+
+| TOK | NALOGA | KURA ( gib diha ki ga pokriva ) | PREIZKUS 19. 11. ⊢ |
+|---|---|---|---|
+| tik-dih | kanonska ura UTC ⇌ CET ( vedno UTC+1 @σ 3961 ) ∧ dan ∧ datum po slovensko | TIK ročno računan ( padec aritmetike @σ 5814 ) | kalup 2026-11-19T10:18:53Z UTC ⇌ 11:18:53 CET ⊢ |
+| forma-sodnik | sodba forme nad CELIM telesom : ogaje po vrstici · U+FFFD · cirilica · goli TIK · golo pri-viri ( prepovedana golotina · pravilno : pri viru / pri virih ) · em vezaj | ⟨PADC-FORMA-ENVRSTICA⟩ : forma je sodila zadnjo vrstico le | sejanke padcev ujete poimensko ×6 ⊢ |
+| vrh-varovalka | vrh ∧ rez = 1 + dejansko najvišja ∧ varovalka zasedbe ∧ lažni vrh 25421 izključen | ročni grep vrha ( ≈ 2 min na dih ) | 5944 → 5945 ⊢ |
+| zeton-lint | oblike : md5 · ISO TIK · ure Z · slovenski datumi | ročna preverba števil ∧ datumov | neveljaven žeton → PADC ⊢ |
+
+Hiša: organi/stroj/stroj-dih/ ( Dockerfile ∧ delavec ∧ logika ×4 ∧ testi ×14 stdlib-only ) . Namestitev : upravljana namestitev pri deželi ( nl-north-1 ) ; urnik dnevnega diha 05:30 CET ⭢ po preverbi izvedbe pri viru .
+
+- prevoz tega pečata ⭢ FIFO ⊙ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩
+- naslednji rod : urnik cron 05:30 ∧ preizkus izvedbe vsakega toka pri viru ⭢ ∂ izbor
+
+TIK 2026-11-19T10:38:35Z UTC ⇌ 11:38:35 CET Ljubljana ( izmerjen ⟨date -u⟩ ) ; © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
