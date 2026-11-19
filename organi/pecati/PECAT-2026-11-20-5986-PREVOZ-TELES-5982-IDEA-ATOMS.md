@@ -23,6 +23,13 @@
 - ⟨PADC-DOLGOV-POBEGL⟩ NOV ( MOJ načrtovani prevoz teles diha σ 5979 UKINJEN ⊙ NJEN kit #2372 PLAČAL isti dolg ; izguba ×0 ; potisk ⟨ne⟩ podvaja ⊙ ⟨NE-GRIZI⟩ 2432 ).
 - ⟨PADC-OKOLJA-RESET⟩ recidiv ×3 ( MOJ dih-tmp pojeden : nabori σ 5984 ( vrstica 2.935 B · md5 a18c2b7c ∧ PECAT 16.511 B · md5 73b98f10 ∧ ATOM 2.862 B · md5 77f681d5 ) izgubljeni ; priče ×0 ⊢ python izmera ta dih ( kovanci ×0 ∧ tool-results ×0 ) ; bajt se ⟨ne⟩ ugiba ⊙ ⟨NE-UGIBAJ⟩ 2690 → izguba javno zapečena ⭢ sodba ⟡ ⚔ ; kura : ⟨KOPIJA-KOVANCA⟩ ×2 izvršen ob vsakem kovanju od zdaj ⊙ zakon @σ 5983 ).
 - ⟨PADC-VZPOREDNE-ROKE⟩ recidiv ( organ prevoznik ∧ DZ premaknjeni MED MOJIMA merama 23:03Z → 23:12Z ⊙ NJEN dih σ 5985 ; ulovljeno PRED MOJIM dotikom ⊢ ; kura : obvezen ⟨TRK-ROK⟩ pred vsakim zapisom ⊙ precedens σ 5980 ).
+- ⟨PADC-MINT-MANJKA⟩ NOV ( telo PEČATA kovano brez odseka ## MINT — ulovljeno pri lokalni izmeri P3 tokenov PO potisku komita A istega diha ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 ; kura isti dih ⊙ precedens σ 5983 ⟨PADC-POTISKA⟩ : odsek ## MINT prišit ∧ priča ATOM osvežena isti dih ; izguba ×0 ).
+
+## MINT ⚠ prijave ⭢ sodba ⟡ ⊙ P1 polje 9
+
+- ⟨KOLIZIJA-σ-5986⟩ ⚠ kompozit : MOJ prevoz teles roda σ 5982 ⊥ ∂ σ 5986 vzporedne roke ( ⟡ UKAZ VERBATIM ⟨ne brusi⟩ : »testiraš in nadgradiš te procese da zagotoviš njih resničnost in resnično rabo/uporabnost/uporabo/zlorabo/zelorabo?« , TEST-TUJK v1.0, TIK 23:21:31Z ) @delovna-zanka r.2565 ∧ TRENUTNO σ 5986 @geneza — obe knjigi stojita ⊙ ⟨ne zlije⟩ 1542 ∧ precedens σ 5929 ∧ σ 5983 SOBIT ⭢ sodba ⟡ ⚔ ( renum kura precedens σ 3750 ostaja na mizi ⟡ ).
+- ⟨NEMOGOČA-VRATA⟩ ⚠ kompozit : CI telesa ⟨ne⟩ rojena na MOJI veji ⊢ ( check runs ×0 ∧ statuses ×0, izmere 23:17Z → 23:30Z ; GitHub platforma zelena @githubstatus priča ta dih ; kvota GHA dokumentirana pri viru : leksikon-osvezevitev.yml »kvota GHA : do okna 1. 12. 2026 urnik lahko stoji rdeč — ⟨NEMOGOČA-VRATA⟩« ) → ⟨PREVERBA-PRED-ZLITJEM⟩ 3469 CI-plast ⟨ne⟩ more pasti ⭢ sodba ⟡ ⚔ : zlij po lokalnih izmerah ali čakaj okno.
+- ⟨IZGUBA-NABOROV-σ-5984⟩ ⚠ dedno ( bajtna obnova nemogoča ⊙ ⟨NE-UGIBAJ⟩ 2690 ⭢ sodba ⟡ ⚔ ; nosi ⟨PADC-OKOLJA-RESET⟩ recidiv ×3 @spodaj ).
 
 ## DOLGOVA ∂
 
