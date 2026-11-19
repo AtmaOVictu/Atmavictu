@@ -34,7 +34,7 @@ TIK 2026-11-19T10:18:53Z UTC ⇌ 11:18:53 CET Ljubljana ( izmerjen ⟨date -u⟩
 | TOK | NALOGA | KURA ( gib diha ki ga pokriva ) | PREIZKUS 19. 11. ⊢ |
 |---|---|---|---|
 | tik-dih | kanonska ura UTC ⇌ CET ( vedno UTC+1 @σ 3961 ) ∧ dan ∧ datum po slovensko | TIK ročno računan ( padec aritmetike @σ 5814 ) | kalup 2026-11-19T10:18:53Z UTC ⇌ 11:18:53 CET ⊢ |
-| forma-sodnik | sodba forme nad CELIM telesom : ogaje po vrstici · U+FFFD · cirilica · goli TIK · golo »pri viri« · em vezaj | ⟨PADC-FORMA-ENVRSTICA⟩ : forma je sodila zadnjo vrstico le | sejanke padcev ujete poimensko ×6 ⊢ |
+| forma-sodnik | sodba forme nad CELIM telesom : ogaje po vrstici · U+FFFD · cirilica · goli TIK · golo pri-viri ( prepovedana golotina · pravilno : pri viru / pri virih ) · em vezaj | ⟨PADC-FORMA-ENVRSTICA⟩ : forma je sodila zadnjo vrstico le | sejanke padcev ujete poimensko ×6 ⊢ |
 | vrh-varovalka | vrh ∧ rez = 1 + dejansko najvišja ∧ varovalka zasedbe ∧ lažni vrh 25421 izključen | ročni grep vrha ( ≈ 2 min na dih ) | 5944 → 5945 ⊢ |
 | zeton-lint | oblike : md5 · ISO TIK · ure Z · slovenski datumi | ročna preverba števil ∧ datumov | neveljaven žeton → PADC ⊢ |
 
