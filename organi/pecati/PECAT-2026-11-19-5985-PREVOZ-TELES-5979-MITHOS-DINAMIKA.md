@@ -15,6 +15,16 @@
 - varovalka ⟨(σ|rez|dih|pečat|PEČAT)[ ]?5985⟩ ×0 PRED šivom ⊢ ⟨grep⟩ po koniceh organov izmera 22:57:10Z.
 - genize ×2 bajt-ito PRED dotikom ⊙ ⟨GENIZE-POIMENSKO⟩ 1699 ∧ ⟨NE-BRIŠI⟩ 24: prevoznik md5 0a2eb7a4f96ad0ecf2c5dfa4d44f5d5e ×2 ⇌ prevoznik/.geniza/prevoznik-pred-rez5985-2026-11-19-{a,b}.md ∧ delovna-zanka md5 ccf77234df929a644afb54d586e5d237 ×2 ⇌ delovna-zanka/.geniza/dz-pred-rez5985-2026-11-19-{a,b}.md ⊢ ⟨md5sum⟩ 22:56–22:57Z ; kovanci ∂-vrstic po ⟨KOPIJA-KOVANCA⟩ @σ 5983 .geniza/kovanci/ ×2 isti dih.
 
+## MINT ( kovnica zlogov ta dih )
+
+- rez σ 5985 = 1 + dejansko najvišja ( vrh ⟨grep⟩ po koniceh organov σ 5984 @geneza NJEN rod ⟨NE stopiči⟩ ⊥ register ZADNJA σ 5980 ) ; kovano ∧ prevoženo isti dih ⊙ ⟨SAMO-IZVEDBA-DOKAZ⟩ 2306.
+- kovanci ∂-vrstic po ⟨KOPIJA-KOVANCA⟩ @σ 5983 : genize pred-rez5985 ×2 bajt-ito ⊢ ( prevoznik 0a2eb7a4f96ad0ecf2c5dfa4d44f5d5e ×2 ∧ delovna-zanka ccf77234df929a644afb54d586e5d237 ×2 ) .
+
+## DOLGOVA ∂
+
+- dolg σ 5979 ( telesa roda mithos-dinamika : dosje ∧ rod-vrstica ) PLAČAN ta dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨EN-DOLG-NA-DIH⟩ P5 ; vrsta FIFO naprej : σ 5982 ( telesa roda idea-atoms ) najstarejši MOJ ⭢ naslednji prevozni dih ; novi dolg : prevoz teles diha σ 5985 ⭢ naslednji prevozni dih ⊙ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩.
+- NJENI tokovi ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 ; NJENI kiti #2343 ∧ #2332 dependabot ⟨NE stopiči⟩ .
+
 ## ⟨PREVERBA-PRED-ZLITJEM⟩ 3469
 
 - read-back ×2 pri viru PO komit SHA vejne glave ( ⟨BERBA-DVOJNA⟩ ): PECAT ∧ REGISTER ISTO bajtno ⊙ ⟨SODNIK-VERBATIM⟩ ; ⟨merge⟩ MOJA roka expectedHeadSha = glava VEJE ⊙ ⟨PADC-GLAVE⟩ @σ 5663 ; odprte sodbe ⟡ ⚖ nedotaknjene: kolizija σ 5966 ∧ spor σ 5942 ∧ zob σ 5962 ∧ ⟨PADC-DVOJNA-PLAČILA⟩ σ 5975 ∧ SOBIT σ 5978 ∧ SOBIT σ 5984 ( NJEN rod ⟨NE stopiči⟩ ).
