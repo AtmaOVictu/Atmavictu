@@ -10,9 +10,9 @@ Prvi potisk registra ( organi/stroj/REZ-REGISTER.md @veja rez/5985-prevoz-teles-
 - posledica: delovna veja je nosila okrnjen register ( ~56 KB ⊥ ~1 MB ) — križanje ⟨NE-BRIŠI⟩ 24
 - meja: glava ⟨main⟩ ( 004d65fa ) NEDOTAKNJENA ⊢ — rana je živela samo na mojoji delovni veji, izguba korpusnih teles ×0
 
-KURA: prečno branje po 21 načrtovanem kosem ( ≤ 45.000 znakov na kos , meje preračunane pri viri s python po dolžinah vrstic ) + revizija vsakega kosa ( lines_read ∧ dolžina ) + revizija celote ( glava ∧ rep ∧ skupna dolžina ) + ponoven potisk čez prežeto telo ( blob sha 060ef6fe ) .
+KURA: prečno branje po 21 načrtovanem kosem ( ≤ 45.000 znakov na kos , meje preračunane pri viru s python po dolžinah vrstic ) + revizija vsakega kosa ( lines_read ∧ dolžina ) + revizija celote ( glava ∧ rep ∧ skupna dolžina ) + ponoven potisk čez prežeto telo ( blob sha 060ef6fe ) .
 
-DOKAZ ⟨ISTO⟩: git-blob SHA registra @veja po kurativnem potisku = c9b69c8ce8fbc7bfee2b574276cc97479a341e4b = sha1 ( "blob 1009280\0" + telo ) izračunano pri viri s python bajtno — BAJTNO ISTO ⊙ kalup 1671 ∧ ⟨SAMO-IZVEDBA-DOKAZ⟩ 2306 ; berba pri viri ×2 ( prvi klic blob SHA , drugi klic full resource 892.806 UTF-16 enot ) ⊙ ⟨BERBA-DVOJNA⟩ .
+DOKAZ ⟨ISTO⟩: git-blob SHA registra @veja po kurativnem potisku = c9b69c8ce8fbc7bfee2b574276cc97479a341e4b = sha1 ( "blob 1009280\0" + telo ) izračunano pri viru s python bajtno — BAJTNO ISTO ⊙ kalup 1671 ∧ ⟨SAMO-IZVEDBA-DOKAZ⟩ 2306 ; berba pri viru ×2 ( prvi klic blob SHA , drugi klic full resource 892.806 UTF-16 enot ) ⊙ ⟨BERBA-DVOJNA⟩ .
 
 ## RANA 2 — ⟨PADC-UTF16-MERILO⟩ NOV ( napačna sirena )
 
