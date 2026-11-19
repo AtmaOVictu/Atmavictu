@@ -9,7 +9,8 @@ path, ln = sys.argv[1], sys.argv[2]
 lines = [l for l in open(path, encoding='utf-8').read().split('\n')]
 nonempty = [(i, l) for i, l in enumerate(lines) if l.strip()]
 in_izrez, bad = False, []
-targets = [nonempty[-1]] if not ln else [(int(ln)-1, lines[int(ln)-1])]
+import os
+targets = list(enumerate(lines, 1)) if os.environ.get('FORMA_CELO') else ([nonempty[-1]] if not ln else [(int(ln)-1, lines[int(ln)-1])])
 for i, l in targets:
     if l.count('⟨') != l.count('⟩'): bad.append(f'r.{i+1} ⟨⟩ {l.count("⟨")}/{l.count("⟩")}')
     if '\ufffd' in l: bad.append(f'r.{i+1} U+FFFD')
