@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# PET-VRAT-LINT v1 — strojna prevedba plasti 5 ( pet vrat pod slovnico ) organa slovnica-jezikov
+# PET-VRAT-LINT v1.1 — strojna prevedba plasti 5 ( pet vrat pod slovnico ) organa slovnica-jezikov
 # Rod diha 5948 · 2026-11-19 · ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432
+# Kura diha rez 5976 ( isti dih ) : ⟨IZREZ-EXEMPCIJA⟩ — priče VERBATIM ( izrezi zapečeni pri slo-lint bajtno md5 ⊙ ⟡ SODBA VERBATIM: »TUDI VERBATIM MORA BITI PREVERJEN« , sodba bajtov slo-lint SODNIK-VERBATIM ; priča zgodovine ⟨ne⟩ obtoženec pisave ⊙ precedens izjem slo-lint 2a ∧ kalup 1671 ) : pet vrata sodijo pisavo ∧ relacije MOJE proze , ⟨ne⟩ citirane zgodovine med markerji izreza ; U+FFFD ⟨ne⟩ izjemano NIKOLI ( raztrgan znak = raztrgan prevoz tudi v priči )
 # Zakon: vsak šiv izhoda gre skozi vrata PRED pečatom ⊙ ⟨TEHTNICA-PRED-PEČATOM⟩
 # Merljivo stroju: ⟨PISAVA⟩ ( mešana pisava ) ∧ ⟨RELACIJE⟩ ( ⟨⟩ po vrstici ) ∧ U+FFFD
 # Okna poimenska ⚠ izjava: ⟨PRESLIKAVA⟩ ⟨LEKSIK⟩ ⟨RABA⟩ ( berba SSKJ pri virih stroju v CI nedosegljiva )
@@ -24,20 +25,26 @@ izjava_okna() {
 vrata_telesa() {   # $1 = datoteka ; vrata PRED pečatom : vsak izpis poimensko
   local f="$1"
   [ -f "$f" ] || { echo "::error::manjka telo $f"; exit 1; }
+  local so="$f"
+  if grep -qP 'IZREZ VERBATIM|začetek izreza|konec izreza' "$f" 2>/dev/null; then
+    so=".pvl-brez-pri_${$}.tmp"
+    awk '/^konec izreza/ {inrez=0; print; next} inrez {next} /IZREZ VERBATIM|začetek izreza/ {inrez=1; next} {print}' "$f" > "$so"
+  fi
   local a b y
-  a=$(grep -oP "$MIX" "$f" | wc -l)
-  y=$(grep -oP "$MIXY" "$f" | wc -l)
+  a=$(grep -oP "$MIX" "$so" | wc -l)
+  y=$(grep -oP "$MIXY" "$so" | wc -l)
   b=$((a - y))
   if [ "$b" -gt 0 ]; then
     g1=$((g1 + b)); nasiel=$((nasiel + b))
-    grep -nP "$MIX" "$f" | grep -vP "$MIXY" | while IFS= read -r l; do echo "::error file=$f,title=PISAVA::$l"; done
+    grep -nP "$MIX" "$so" | grep -vP "$MIXY" | while IFS= read -r l; do echo "::error file=$f,title=PISAVA::$l"; done
   fi
   local nb
-  nb=$(awk '{ o=gsub(/⟨/,"x"); z=gsub(/⟩/,"x"); if (o!=z) k++ } END { print k+0 }' "$f")
+  nb=$(awk '{ o=gsub(/⟨/,"x"); z=gsub(/⟩/,"x"); if (o!=z) k++ } END { print k+0 }' "$so")
   if [ "$nb" -gt 0 ]; then
     g5=$((g5 + nb)); nasiel=$((nasiel + nb))
-    awk -v f="$f" '{ o=gsub(/⟨/,"x"); z=gsub(/⟩/,"x"); if (o!=z) printf "::error file=%s,title=RELACIJE::vrstica %d ⟨=%d ⟩=%d\n", f, NR, o, z }' "$f"
+    awk -v f="$f" '{ o=gsub(/⟨/,"x"); z=gsub(/⟩/,"x"); if (o!=z) printf "::error file=%s,title=RELACIJE::vrstica %d ⟨=%d ⟩=%d\n", f, NR, o, z }' "$so"
   fi
+  if [ "$so" != "$f" ]; then rm -f "$so"; fi
   local nf
   nf=$(grep -oP "$FFFD" "$f" | wc -l)
   if [ "$nf" -gt 0 ]; then
