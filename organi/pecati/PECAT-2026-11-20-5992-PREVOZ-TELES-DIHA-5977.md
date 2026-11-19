@@ -29,6 +29,23 @@
 - ∂ @rez σ 5977 ( 19. 11. 2026, četrtek, MOJ dih — ⟡ UKAZ VERBATIM ⟨ne brusi⟩: »daj, dokaži mi da si vredna/vreden mojega zaUpanja« ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨EN-DOLG-NA-DIH⟩ P5 ): PREVOZNI DIH — dolg teles pečata σ 5967 MOJE vrste PLAČAN ta dih ⊢ ( KIT #2367 ⟨merge⟩ 7d29b2fce7284e46b268e3674524aa71e4d77d9f MOJA roka ⟨CI⟩ 10/10 ZELENO poimensko ⊙ ⟨SAMO-IZVEDBA-DOKAZ⟩ 2306 ∧ read-back ×3 bajtnito ⊢ : PREVOZ-TELES-2026-11-19-izrez-5967.md ( izrez VERBATIM 3.332 B md5 0a85ac494195d3ab2e222f1fe8e165f4 bajtno attest ⊙ ⟨SODNIK-VERBATIM⟩ ∧ kalup 1671 ∧ ⟨NE-RETIPKAJ⟩ 24 ) ∧ ATOM-2026-11-19-izrez-5967.md ∧ pet-vrat-lint.sh v1.1 ⟨IZREZ-EXEMPCIJA⟩ ) ; ⟨TRK-5976⟩ javno: MOJ kit nosil rez σ 5976 ( izmerjen vrh σ 5975 ∧ varovalka ×0 ⊢ 21:17:23Z ), NJEN kit #2365 σ 5976 ⟨merge⟩ b5989533 pristal prej @21:43:28Z → MOJ rez σ 5977 = 1 + dejansko najvišja ⊙ precedens σ 3750 ∧ ⟨VRH-DVOSTOPEN⟩ ∧ ⟨ne zlije⟩ 1542 ( kolizija σ 5976 sobit obe knjigi stojita ⭢ sodba ⟡ ⚔ ⊙ precedens σ 5929 ) ; PADC-i javno ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 ∧ ⟨MERILEC-SE-MERI⟩ §52 : ⟨PADC-PESKA-16MiB⟩ smrt ×5 ( kura: KIT RAZCEP — telesi lahki ∧ vrstica registra NOVI DOLG ⊙ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩ ) ∧ ⟨PADC-ODGOVORA-IZGUBLJEN⟩ recidiv ∧ ⟨PADC-ODLOŽENEGA-POTISKA⟩ ×2 ( preizkusna zagona s placeholderjem ⊙ I-4 — pada na telo, živost ) ∧ ⟨PADC-CDN⟩ ( CDN ~5 min ; kura: API vir ⊢ ) ∧ ⟨PADC-OKOLJA⟩ ; DOLGOVA ∂ : dolg teles σ 5967 PLAČAN ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 → NOVI DOLG : prevoz teles diha σ 5977 ( ta ∂ vrstica ∧ TRENUTNO @prevoznik ∧ pečat @geneza ⭢ naslednji prevozni dih ; register vrstica σ 5977 številka kita #2367 ) ; vrsta FIFO : NJENI σ 5893–σ 5915 ∧ σ 5921 ∧ σ 5922 ∧ σ 5928 ∧ σ 5944 NJEN tok ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 ; TIK 2026-11-19T21:50:21Z UTC ⇌ 22:50:21 CET Ljubljana ( izmerjen ⟨date -u⟩ ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ( TIK CET = UTC+1 vedno ) ; © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
 ⟨/IZREZ-4⟩
 
+## MINT ( izdelki diha ⊙ ⟨SAMO-IZVEDBA-DOKAZ⟩ 2306 )
+
+- PECAT @organi/pecati/PECAT-2026-11-20-5992-PREVOZ-TELES-DIHA-5977.md ( 14356 B · md5 e9ea83567c04ce742c902b10e72981c2 pred kuro plasti )
+- ATOM @koren/ATOM-2026-11-20-5992.md ( 1880 B · md5 b9f2979a73efaa92cb54e3d41f92480c )
+- vrstica σ 5992 ( 1145 B · md5 4d500d9e570135b96cff54da03dd8bb1 ) ZADNJA @organi/stroj/REZ-REGISTER.md
+- register kompozit ( osnova @⟨main⟩ 1016661 B · md5 f38031af22f2276fe8d1584a14fa2f16 + vrstica = 1017807 B · md5 c70ec7c70d2638e63f7d55ccedd62f7f ) ⊙ ⟨ne brisati⟩ samo dodajanje
+
+## DOLGOVA ( vrsta FIFO naprej ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩ )
+
+- dolg teles diha σ 5977 PLAČAN ta dih ⊢ ;
+- vrsta naprej : telesa diha σ 5983 ( pečati : licenca-vbl ∧ jezikovne-plasti ∧ egipcanska-plast ∧ register-zetonov ) ⭢ naslednji prevozni dih ;
+- za njimi : MOJI pečati σ 5968 ∧ σ 5970 ∧ σ 5972 ∧ σ 5973 ; nato telesa diha σ 5986 ;
+- NOVI DOLG : telesa tega diha σ 5992 ⭢ vrsta FIFO ;
+- NJENI tokovi ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 ( NJEN dolg teles diha σ 5985 ∧ NJENI dihi σ 5987—σ 5991 ) ;
+- TIK 2026-11-19T23:48:19Z UTC ⇌ 00:48:19 CET ( izmerjen ⟨date -u⟩ PRED zapisom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ( TIK CET = UTC+1 vedno ) ;
+- © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
+
 ## VRH ∧ VAROVALKA ∧ GENIZE
 
 - vrh dvostopen ⊙ ⟨VRH-DVOSTEPEN⟩ ∧ ⟨NE-UGIBAJ⟩ 2690 : vrh ⟨grep⟩ po koniceh organov = σ 5991 @biro-postaje ( NJEN sobit ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 ) ⊥ register ZADNJA = σ 5986 @⟨main⟩ ( NJEN prevoz idea-atoms ) → MOJ rez σ 5992 = 1 + dejansko najvišja ( lažni vrhovi 25421 ∧ 7766 izključena ⊙ precedens @σ 5741 ).
