@@ -26,6 +26,7 @@ ZAMENLJIVCI = set('\u0430\u0435\u043E\u043E\u0441\u0445\u0443\u0440\u0437'
 PRASLOVANSKI = re.compile(r'[*\u044A\u044C\u0463]')
 ZET_VRSTICA = re.compile(r'\u27E1|P-CITAT|VERBATIM')
 
+
 def razred_glifa(cp):
     if cp in CYR:
         return 'CIRILICA'
@@ -33,14 +34,17 @@ def razred_glifa(cp):
         return 'GRSCINA'
     return None
 
+
 def lega(txt, i):
     v = txt.count('\n', 0, i) + 1
     z = txt.rfind('\n', 0, i) + 1
     return v, i - z + 1
 
+
 def preberi(pot):
     with open(pot, encoding='utf-8', errors='replace') as f:
         return f.read()
+
 
 def pasji_prosti(txt):
     """kletka (a): odstrani dokazne citate `...`, steje jih, vraca prosti tekst + vrstice"""
@@ -52,6 +56,7 @@ def pasji_prosti(txt):
 
     prosti = re.sub(r'`[^`]*`', zajemi, txt)
     return prosti, len(kletke), txt.split('\n')
+
 
 def maska_navedkov(prosti, vrstice):
     """kletka (c2): na vrstici z ⟡ oznako (P-CITAT/VERBATIM/⟡) zasciti ⟨...⟩; povsod »...« .
@@ -72,6 +77,7 @@ def maska_navedkov(prosti, vrstice):
             for j in range(m.start(), m.end()):
                 chars[j] = ' '
     return ''.join(chars)
+
 
 def scan(ime, txt, porocilo):
     prosti, n_kletk, vrstice = pasji_prosti(txt)
@@ -124,6 +130,7 @@ def scan(ime, txt, porocilo):
                     ' | sum cirilskih nizov x' + str(sumi))
     return {'izdaje': izdaje, 'price': price, 'kletke': n_kletk, 'sumi': sumi}
 
+
 def main():
     porocilo = []
     kan = ('sodb' + '\u0430' + ' teles' + '\u0430' + ' izvajalk' + '\u0430' +
@@ -140,10 +147,11 @@ def main():
         porocilo.append('=' * 8)
         scan(p, preberi(p), porocilo)
     porocilo.append('=' * 8)
-    porocilo.append('KANARCEK: ' + ('PADE rdece \u22A2 ( izdaje x5 + rekonstrukt x2 + kletka x1 ; dolgove na vrstici ⟡ = pri\u010Da, ne rana )'
+    porocilo.append('KANARCEK: ' + ('PADE rdece \u22A2 ( izdaje x5 + rekonstrukt x2 + kletka x1 ; dolgove na vrstici ⟡ = pri\u010da, ne rana )'
                                     if pade else '\u26A0 NI Padel — INSTRUMENT MRTV'))
     print('\n'.join(porocilo))
     return 0 if pade else 1
+
 
 if __name__ == '__main__':
     sys.exit(main())
