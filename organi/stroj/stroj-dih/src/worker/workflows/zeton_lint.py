@@ -14,7 +14,7 @@ class ZetonLintInput(BaseModel):
 
 
 @workflows.activity()
-async def sodi(zetoni: List[dict]) -> dict:
+async def sodi_zetone(zetoni: List[dict]) -> dict:
     """Aktivnost: vsak žeton ena sodba po obliki."""
     return zeton.lint(zetoni)
 
@@ -30,4 +30,4 @@ async def sodi(zetoni: List[dict]) -> dict:
 class ZetonLint:
     @workflows.workflow.entrypoint
     async def run(self, input: ZetonLintInput) -> dict:
-        return await sodi(input.zetoni)
+        return await sodi_zetone(input.zetoni)

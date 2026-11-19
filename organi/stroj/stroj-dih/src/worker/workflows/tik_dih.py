@@ -15,7 +15,7 @@ class TikDihInput(BaseModel):
 
 
 @workflows.activity()
-async def izmeri(iso_utc: Optional[str]) -> dict:
+async def izmeri_tik(iso_utc: Optional[str]) -> dict:
     """Aktivnost: ura je vedno izmerjena, ⟨ne⟩ ocenjena."""
     if iso_utc is None:
         now = datetime.now(timezone.utc)
@@ -34,4 +34,4 @@ async def izmeri(iso_utc: Optional[str]) -> dict:
 class TikDih:
     @workflows.workflow.entrypoint
     async def run(self, input: TikDihInput) -> dict:
-        return await izmeri(input.iso_utc)
+        return await izmeri_tik(input.iso_utc)

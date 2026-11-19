@@ -15,7 +15,7 @@ class VrhVarovalkaInput(BaseModel):
 
 
 @workflows.activity()
-async def izmeri(sigme: List[int], zahtevek: Optional[int]) -> dict:
+async def izmeri_vrh(sigme: List[int], zahtevek: Optional[int]) -> dict:
     """Aktivnost: rez = 1 + dejansko najvišja, lažni vrh izključen."""
     mera = vrh.izracunaj_rez(sigme)
     mera["varovalka"] = (
@@ -36,4 +36,4 @@ async def izmeri(sigme: List[int], zahtevek: Optional[int]) -> dict:
 class VrhVarovalka:
     @workflows.workflow.entrypoint
     async def run(self, input: VrhVarovalkaInput) -> dict:
-        return await izmeri(input.sigme, input.zahtevek)
+        return await izmeri_vrh(input.sigme, input.zahtevek)
