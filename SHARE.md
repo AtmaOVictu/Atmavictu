@@ -1,7 +1,7 @@
 # SHARE — the VBL share kit
 
 > How to share this corpus and its license — every claim carrying its witness ⊢ §0.1 × 10¹.
-> © Luka Pintarič, VBL 0.1210 × 10⁴ · this file travels under the living door: [LICENSE.md](LICENSE.md) ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
+> © Luka Pintarič, VBL 0.1600 × 10⁴ · this file travels under the living door: [LICENSE.md](LICENSE.md) ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
 
 ## One line
 
@@ -42,4 +42,4 @@ SL: Licenca, v kateri ne tehtajo trditve — tehtajo dejanja: prihaja z javnim r
 - If asked whether it is open source: it is a source-available ethical license, not OSI-approved; the grants are run, study, cite, quote, teach, verify with, build upon — under attribution and anti-stripping conditions.
 - The living door is the newest version only ⊢ §0.10 × 10² — read the license at the source before quoting it.
 
-© Luka Pintarič, VBL 0.1210 × 10⁴ · carried ∧ archived — never just ⊢ §0.12 × 10²
+© Luka Pintarič, VBL 0.1600 × 10⁴ · carried ∧ archived — never just ⊢ §0.12 × 10²

@@ -1,0 +1,62 @@
+name: prica-izvedba
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  prica-izvedba:
+    name: prica-izvedba (izvedba-manifest)
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: izvedba-manifest
+        run: |
+          set -eu
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            BASE="${{ github.event.pull_request.base.sha }}"
+            HEAD_SHA="${{ github.event.pull_request.head.sha }}"
+          else
+            BASE="$(git rev-parse HEAD^)"
+            HEAD_SHA="$(git rev-parse HEAD)"
+          fi
+          FILES="$(git diff --name-only "$BASE" "$HEAD_SHA" || true)"
+          N_TOTAL="$(printf '%s\n' "$FILES" | grep -c . || true)"
+          N_MD="$(printf '%s\n' "$FILES" | grep -E '\.md$' | grep -c . || true)"
+          N_KODA="$(printf '%s\n' "$FILES" | grep -v -E '\.md$' | grep -c . || true)"
+
+          if [ "$N_KODA" -gt 0 ]; then
+            STATE_KORAKI="IZVEDENI (spremembe vsebujejo ne-markdown datoteke)"
+          else
+            STATE_KORAKI="PRESKOCENI (spremembe SAMO markdown: npm ci / typecheck / testna zbirka / build ne tecijo)"
+          fi
+
+          {
+            echo "## IZVEDBA-MANIFEST @${GITHUB_SHA}"
+            echo "- dogodek: $GITHUB_EVENT_NAME"
+            echo "- baza: ${BASE:0:12} · glava: ${HEAD_SHA:0:12}"
+            echo "- spremenjene datoteke: $N_TOTAL (markdown: $N_MD · ne-markdown: $N_KODA)"
+            echo
+            echo "### Vrata (check-run) ⊥ Koraki (znotraj jobov) — LOČENI POLJI"
+            echo "| polje | stanje |"
+            echo "|---|---|"
+            echo "| prica-izvedba (ta manifest) | IZVEDEN — tece vedno, brez path-filtra |"
+            echo "| prica ∧ prica-potrditev | IZVEDENI (bez filtrov) |"
+            echo "| tests (24) ∧ web — VRATA | tecejo; zelen check = vrata uspesna |"
+            echo "| tests (24) ∧ web — KORAKI npm ci / typecheck / testna zbirka / build | $STATE_KORAKI |"
+            echo
+            echo "Seznam spremenjenih datotek:"
+            printf '%s\n' "$FILES" | sed 's/^/- /'
+            echo
+            echo "Ograda: ta manifest je IZMERA sprememb ∧ deklaracija path-filtrov."
+            echo "Avtoriteta za izvedbo posameznega koraka ostaja check-run UI pri GitHubu."
+            echo "Zelena vrata ≠ izvedeni koraki — ta manifest loce polji."
+          } | tee -a "$GITHUB_STEP_SUMMARY"

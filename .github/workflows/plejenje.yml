@@ -1,7 +1,11 @@
-name: PLEJENJE — zrcalo/* v molk po ⟨merge⟩
+name: PLEJENJE — vse zlite veje v molk po ⟨merge⟩
 on:
   workflow_dispatch:
   # ∂ ⟡ ⟨daj⟩ 21. 10. 2026: telesi, ki so že zlita v ⟨main⟩, ne nosijo več nič — pošlje jih v molk.
+  # TEHNIKA (15. 11. 2026 — ⟡ delegacija »kritično presodi in implementiraj duplikate le tam kjer so potrebni«):
+  # stari vzorec (zrcalo/* ∧ tehnika/dih-zrcalo-) je meril ozko; izmera @vir 15. 11. 2026: 1959 vej vseh imen
+  # ∧ plejenje vsak dan v molku praznih rok (n=0). Zakon je splošen ∧ ne pozna imen: PREDNIK ⟨main⟩ ⇒ molk.
+  # Varovalka ostaja is-ancestor: nezlitih vej (odprti kiti · osnutki · kolizije) plejenje ⟨ne⟩ dotika ⊙ ⟨NE-BRIŠI⟩ ⊢ 24.
   schedule:
     - cron: '15 5 * * *'   # po dnevnom dihu (03:45 UTC)
 
@@ -11,25 +15,43 @@ permissions:
 jobs:
   plejenje:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Pobriši zrcalo/* ∧ dih-zrcalo veje, ki so že predniki ⟨main⟩
+        with:
+          fetch-depth: 0
+      - name: Pobriši vse veje, ki so že predniki ⟨main⟩ (zlite ⇒ molk)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           git fetch --prune origin
-          n=0
-          for b in $(git branch -r --format='%(refname:short)' | grep -E '^origin/(zrcalo/|tehnika/dih-zrcalo-)' || true); do
+          n=0; ostalo=0
+          ZLITE=()
+          while IFS= read -r b; do
+            [ -z "$b" ] && continue
             ime=${b#origin/}
             if git merge-base --is-ancestor "origin/$ime" origin/main; then
-              if git push origin --delete "$ime"; then
-                echo "⟨pobris: $ime — zlita ∧ v molku⟩"
-                n=$((n+1))
-              else
-                echo "⚠ ⟨pobris padel: $ime — veja ostaja⟩"
-              fi
+              ZLITE+=("$ime")
+            else
+              ostalo=$((ostalo+1))
+            fi
+          done < <(git branch -r --format='%(refname:short)' | grep -vE '^origin/(main|HEAD)$' || true)
+          echo "⟨izmera plejenja: zlitih prednikov ⟨main⟩ ${#ZLITE[@]} · nezlitih (ostajajo ⚠) $ostalo⟩"
+          # brisanje v paketih po 25 z --atomic (vse-ali-nič) — en push na paket, ⟨ne⟩ ena na vejo
+          for ((i=0; i<${#ZLITE[@]}; i+=25)); do
+            paket=("${ZLITE[@]:i:25}")
+            if git push origin --atomic --delete "${paket[@]}"; then
+              n=$((n+${#paket[@]}))
+              echo "⟨pobris: ${paket[*]} — zlite ∧ v molku⟩"
+            else
+              for ime in "${paket[@]}"; do
+                if git push origin --delete "$ime"; then
+                  n=$((n+1)); echo "⟨pobris: $ime — zlita ∧ v molku⟩"
+                else
+                  echo "⚠ ⟨pobris padel: $ime — veja ostaja⟩"
+                fi
+              done
             fi
           done
           echo "⟨izmera plejenja: $n vej poslanih v molk⟩"

@@ -8,13 +8,13 @@ Status telesa: osnutek ⭢ razprava ⟡ · nekanonično · ⟨ne zlije⟩ 1542 �
 
 ⟡ je poslal sedmo plast: 24 scenarijev napadov, 14 kontrolnih ukrepov, predlagane določbe §§0.74–0.81, štiri osi dokazovanja, popravek lastnih številk (»33, ne 30«) ∧ trditvi 45/45 ∧ 78 skupaj ∧ SHA-256 novega arhiva ∧ delovno okno ~08:53–09:16:36.
 
-Popis knjižnic ta dih (izmera pri viri, ne ugib):
+Popis knjižnic ta dih (izmera pri viru, ne ugib):
 
 - [Nano4](doclib://01a1a9d6-f9e3-74d1-bb1a-85682fba75c1) — 62 dokumentov (rast s 52 ⊢); vseh 10 novih prebranih po imenu ∧ premerjenih.
 - [Nano3](doclib://01a19643-3418-7756-a6fe-26af20af5dac) — 78 dokumentov, brez spremembe ⊢.
 - [NANO2](doclib://01a172f9-8210-72b2-9ec7-3f0692944b26) — 54 dokumentov, brez spremembe ⊢.
 
-## 1 — Tabela trditev ⟡ → izmere pri viri
+## 1 — Tabela trditev ⟡ → izmere pri viru
 
 | Trditev plasti 7 | Izmera | Pečat |
 |---|---|---|
@@ -29,15 +29,15 @@ Popis knjižnic ta dih (izmera pri viri, ne ugib):
 | 33/33 baznih testov | trditev sprejemnice; noben surov log ne kaže 33 | ⚠ |
 | 37/37 vnosov manifesta | izmerjen PACKAGE-MANIFEST.json: 18 vnosov »path« | ⚠ |
 | 25 vnosov manifesta (nov paket) | številka 25 v knjižnici ni izmerjena pri nobenem viru | ⚠ |
-| 78 skupaj (33 + 45) | pripoved je skladna, oba surova zapisa pa manjkata pri viri | ⚠ |
+| 78 skupaj (33 + 45) | pripoved je skladna, oba surova zapisa pa manjkata pri viru | ⚠ |
 | SHA-256 d5c74d10… | v nobenem od 62 dokumentov Nano4 | ⚠ |
 | okno 08:53–09:16:36 | v sprejemnici ni časovnih pečatov; edini izmerjeni 09:00:48 nosi starejša sprejemnica | ⚠ |
 
-Sedm trditev ⊢ ∧ sedem ⚠: pokritost plasti 7 pri viri je 50 % / 50 %.
+Sedm trditev ⊢ ∧ sedem ⚠: pokritost plasti 7 pri viru je 50 % / 50 %.
 
 ## 2 — Razcep 68 ⊥ 33: zlato tega diha
 
-Izmera teka z 68 izvedbami (TEST-RESULTS.txt pri viri) razpade takole:
+Izmera teka z 68 izvedbami (TEST-RESULTS.txt pri viru) razpade takole:
 
 | Razred | Izvedb |
 |---|---|
@@ -57,7 +57,7 @@ Skupek 33 + 45 = 78 je notranje skladen; a 45-tek ∧ 33-tek nimata surovih zapi
 
 Napetost 68 ⊥ 33 torej ni protislovje med dvema izmerama — sta dva obsega. 68 je izmerjen ⊢; 33 je zahtevan, a neizmerjen ⚠. Pravi preizkus plasti 7 ni bil, ali sistem preživi napad. Bil je, ali preživi ⟡-jev popravek lastnih številk brez pečata. Ni ga.
 
-## 3 — Novosti plasti 7, potrjene pri viri
+## 3 — Novosti plasti 7, potrjene pri viru
 
 - Split-view dnevnika ⊢: dva uporabnika lahko vidita dve zgodovini istega registra. RFC 9162 je pošteno imenovan eksperimentalen — ne univerzalni certifikat zaupanja.
 - Solitev ≠ anonimnost ⊢: javni SHA-256 ugibljive vsebine je preboj (MITRE); predlog zasebnih HMAC-zav s nadzorovanim razkritjem je sprejemljiv odgovor.
@@ -86,7 +86,7 @@ MOGOČE*M:
 
 - OBJ-001: sodba ⟡ o kronah 2 ∧ 17 luknjah — še vedno odprto mesto.
 - Izvirno telo VBL 0.1470: nedosegljivo; primerjava člen-za-členom ostaja obljubljena, ne opravljena.
-- ebbef802 ∧ d5c74d10: oba SHA-ja brez pečata pri viri ⚠.
+- ebbef802 ∧ d5c74d10: oba SHA-ja brez pečata pri viru ⚠.
 - 55 postavk prejšnjih plasti ∧ preizkus živih ljudi: nedotaknjena.
 - Šiv organa licenca-vbl: čaka.
 

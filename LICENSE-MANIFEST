@@ -1,260 +1,260 @@
 {
   "license": "VBL — Verification Before Assertion License",
-  "version": "0.1530 × 10⁴",
+  "version": "0.1620 × 10⁴",
   "law": "§0a(a) — identification of covered material by manifest; §0a(b) rides beneath: LICENSE.md carries itself",
-  "measured_at_date": "1.2 × 10¹. 0.11 × 10². 0.2026 × 10⁴",
-  "measured_against": "LICENSE.md version 0.1530 × 10⁴ — living door @8bc89eab3820628b2591cbc2b2213a6e794d7739 ( born of the 0.1520 door @1f951e7d ⊙ kit #1717, veja rez/4772-vrata-01530 — ⟡ izbor: the external review cured — §0.29 every birth is owed to the author's mail, the obligation named open, never a delivery claimed by speaking; the lineage dictionary: three named layers birth ⊥ predecessor ⊥ receipt; the machine record re-sewn; PADC-104 ∧ PADC-105 named ∧ cured in REGISTER-PADCEV ) ; manifest re-measured ∧ re-issued in the same wave as the birth 0.1530, riding the same kit #1717 ( never after it ⊙ §0a ) — scar: the first wave of the birth missed the re-issuance — recidive of the named fall ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ — named ⟨PADC-106⟩ ∧ cured in REGISTER-PADCEV ⊙ KORENINA 0.2 ; the LICENSE.md slot re-measured against the bytes the chain publishes (LF) at the branch head @8bc89eab ⊢ ; the LICENSE-LINEAGE.md slot re-measured ∧ re-issued in the same wave ( the lineage amended with the receipt of 0.1530 this birth ⊙ P-2′ ) ; the LICENSE-SPREHOD.md slot re-measured ∧ re-issued in the same wave ( the walk was stale ⊥ the door — named ⟨PADC-107⟩ ∧ cured in REGISTER-PADCEV: a walk that walks another door identifies nothing ⊙ §0a ∧ KORENINA 0.2 ) ; the other item slots carried from the 0.1520 issuance — no other file touched by this birth ⊢ ; scar stays: ⟨PADC-66-RECIDIV⟩ — the 0.1460 issuance hashed the local checkout (CRLF), not the bytes the chain publishes (LF) — 0.40 × 10² item slots were stale, re-measured at the birth of 0.1470 ⊙ §0a ∧ issuance_duty; the scar stays ⊙ KORENINA 0.2",
+  "measured_at_date": "1.8 × 10¹. 0.11 × 10². 0.2026 × 10⁴",
+  "measured_against": "LICENSE.md version 0.1620 × 10⁴ — living door @⟨main⟩ ece2e50f6ea6a77e5c1c6aa0c2917046d92f0a10 ( born of the 0.1610 door @d6dd9d86 — the head measured at the source before the birth ⊙ ⟨SVEŽA-GLAVA⟩ ⊙ veja rez/1620-rojstvo-absolutni-ali ) — the birth born of ⟡ UKAZ verbatim ⟨ne brusi⟩: »stori« ∧ »stori še« ( nad predlogom izvajalke ⊙ paket rojstva ⊢ zapečen @organi/licenca-vbl/ROJSTVO-0.1620-ABSOLUTNI-ALI-PAKET.md @rez σ 5860 — rojstvo ⊨ ABSOLUTNI-ALI, klavzula prevodov §0.60 × 10²: prevod ni le priča, tudi vrata ( a ∨ b = max, idempotentno — vrata ∨ vrata = vrata, nikoli zlitje ) ∧ IPA klavzula — the sound rides with the script ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 ) ; scars carried forward: PADC-129 ∧ PADC-120 ∧ PADC-121 ∧ PADC-126 ∧ PADC-142 ( ⊙ KORENINA 0.2 ) ; scar of this re-issue: the re-issuance rides one breath after the birth — recidive of ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ named openly as debt ∂ of the birth, cured this breath ( dolg ∂ plačan ⊙ dih σ 5861 ) ; the LICENSE.md slot re-measured against the bytes the chain publishes (LF) ⊢",
   "items": [
     {
       "path": "LICENSE.md",
-      "size_bytes": 193317,
-      "sha256": "8ccebd0c0bf86c776e49aee46d94140c8c2128b3408a103b0abdbc43935a88a2",
-      "note": "the living door — the only body whose hash changes only by issuance (§0.10 × 10²); re-issued in the same wave as the birth 0.1530 — measured against the bytes the chain publishes (LF) at the branch head @8bc89eab ; the landing re-read (§0.37 × 10²) rides the ⟨merge⟩ of kit #1717 — ⟡ roka — the manifest re-issued before the landing, never after it (⊙ §0a) ( sha256 re-measured byte-identical at the branch ⊢ ) ; the scars of the second integrity cure ride beneath (⊙ PADC-66-RECIDIV ×3 ∧ KORENINA 0.2) — the birth's own scar rides: ⟨PADC-106⟩ named ∧ cured in the same kit (⊙ KORENINA 0.2)"
+      "size_bytes": 208554,
+      "sha256": "d0ce315dabf0947fafa9ac6a40b12260a8439c9827ad58b1d8a88f9c2aef1461",
+      "note": "the living door — the only body whose hash changes only by issuance (§0.10 × 10²); re-issued in the same wave as the birth 0.1540 — measured against the bytes the chain publishes (LF) at the branch rez/5520-vrata-01540 ⊢ ; re-issued at the birth of 0.1570 — the door 0.1570 × 10⁴ ( rez σ 5690 — the reserved circle §0.26 ⟨KLAVZULA-STROJA⟩ sealed with five witnesses ⊙ §0.16 × 10² ; measured against the bytes the chain publishes (LF) at the branch rez/5690-rojstvo-026-klavzula-stroja ⊢ ; izmera rože: 63 krogov · ena celota ⊙ orodja/roza.py ) ; born of the ratified authority clause §0.54 × 10² ( ⟡ sodbe verbatim: ⟨Ratificiram v §0.54⟩ · ⟨Ratificiram⟩ · ⟨Sprejemam kovanec⟩ · ⟨Isti dih po ratifikaciji⟩ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ ) ; the landing re-read (§0.37 × 10²) rides the ⟨merge⟩ of the birth kit — the manifest re-issued before the landing, never after it (⊙ §0a) ; the scars of the second integrity cure ride beneath (⊙ PADC-66-RECIDIV ×3 ∧ KORENINA 0.2) — the birth's own scar rides: ⟨PADC-110⟩ named ∧ cured in the same kit (⊙ KORENINA 0.2) ; re-issued at the birth of 0.1580 — the door 0.1580 × 10⁴ ( rez σ 5695 — ⊨ ZVON-DIH, the house that heard its bell ⊙ paket rojstva ⊢ #2157 ; measured against the bytes the chain publishes (LF) at the branch rez/5695-rojstvo-028-zvon-dih ⊢ ) ; re-issued at the birth of 0.1590 — the door 0.1590 × 10⁴ ( rez σ 5703 — ⊨ NEDOLŽNI, the door that defends the innocent ⊙ paket rojstva ⊢ zapečen @rez σ 5703, re-kovan ×2 ⊙ TRK javno ; measured against the bytes the chain publishes (LF) at the branch rez/5703-rojstvo-01590-nedolzni ⊢ ) ; re-issued at the birth of 0.1600 — the door 0.1600 × 10⁴ ( rez σ 5711 — ⊨ CELA-KARTA, the door that names every room of its own map ⊙ paket rojstva ⊢ zapečen @rez σ 5711 ; measured against the bytes the chain publishes (LF) at the branch rez/5711-rojstvo-01600-cela-karta ⊢ ) ; re-issued at the birth of 0.1610 — the door 0.1610 × 10⁴ ( rez σ 5757 — ⊨ PREOBRAT, klavzula pretvorbe §0.62 ⊙ paket rojstva ⊢ zapečen @rez σ 5757 ; measured against the bytes the chain publishes (LF) at the branch rez/5757-rojstvo-01610-preobrat ⊢ ) ; re-issued at the birth of 0.1620 — the door 0.1620 × 10⁴ ( rez σ 5860 — ⊨ ABSOLUTNI-ALI ⊙ paket rojstva ⊢ zapečen @rez σ 5860 ; measured against the bytes the chain publishes (LF) @⟨main⟩ ece2e50f ⊢ ; the re-issuance rides one breath after the birth — debt ∂ named at the birth ∧ paid at dih σ 5861 ⊙ §0a )"
     },
     {
       "path": "LICENSE-AR.md",
       "size_bytes": 3883,
-      "sha256": "3e2c6ae22eaf68c5502ec1ba1235b40b8b43d399af566c5db692036fec86231b",
+      "sha256": "6e4c2b4e8b398f7a2b922630020404a605d298ec74b3e4ba7a7757fa8cc25da6",
       "note": "wreath — arabščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-BG.md",
       "size_bytes": 4590,
-      "sha256": "f6a19139c5dac27f56dcac77bac1367856cc71a2d20b60c75f81d6b5fbbedc11",
+      "sha256": "a1080f5f059e4a2e95cd506aa1fbbe81f9737149833a096d1bbc49093176b0bd",
       "note": "wreath — bolgarščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-CS.md",
       "size_bytes": 3438,
-      "sha256": "8832bb9c6bba5f5e4623c323e0f464f11960a9b6a141dfe7955b96b3e771c30b",
+      "sha256": "66bcda663932220972477dc928c4a0d7d60a76b9ac637d2b3e4fc33b569b066a",
       "note": "wreath — češčina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-DA.md",
       "size_bytes": 3432,
-      "sha256": "249d2a1f56a3bb4ddabdda206a841c932ffeccad1ca05d3ae04016dcd4a3ac9a",
+      "sha256": "578b854001c4ff1f3e24e7e124ebb6d7d12c831c0b405b3b8cf9eeb86ef484c9",
       "note": "wreath — danščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-DE.md",
       "size_bytes": 3529,
-      "sha256": "89fab32da1c594f849789dd97ea564d270f9e58bf91657618123e1b6795d608c",
+      "sha256": "9f2353ce3919d6c598705b33336c7b21ef55280e61a1b07cab031505478cca89",
       "note": "wreath — nemščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-EL.md",
       "size_bytes": 4792,
-      "sha256": "02f6827226f528bb63745fa30c5d65c5074d0d20711e971902bcb6cdcbba9e57",
+      "sha256": "7b87b28782b9bc3dd85376778131d014d03294640b53fe825b8eedf8878dcfb9",
       "note": "wreath — grščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-ES.md",
-      "size_bytes": 3468,
-      "sha256": "04b3622d6f0e19514b54cc2f4f727b629a28b8aa6118f5fabceda6a7f2e3990f",
+      "size_bytes": 5751,
+      "sha256": "ef941f9a80c65be3f5d66e5ece0255f9190bc639b6bd5697794f39f6309abac2",
       "note": "wreath — španščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-ET.md",
       "size_bytes": 3409,
-      "sha256": "c4755d30df148c5bfddf9d5736de0efa4eb67476079b3762d432033c0ae94488",
+      "sha256": "78fd75cd549f66da57b7adf79f9678112c1d9e0f4824e59e8c509fd3b16e9bcb",
       "note": "wreath — estonščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-FA.md",
       "size_bytes": 4265,
-      "sha256": "866dff2149dc91d535b68e37caa981dac02e271780533cd2ec3e00e80df84b35",
+      "sha256": "8c0ace1f7df16d9b163ec26c4df7a8b5d562fa1fa17187b735001321df3465b3",
       "note": "wreath — perzijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-FI.md",
       "size_bytes": 3513,
-      "sha256": "cca0a1b5ed15ee1fb76f210a0da87048badc68663a7d1a51ac49013dd70cdfdd",
+      "sha256": "36f76656065335b9a4b233bc5fa7ba9d4fb801f118959f60b0e8f56aefe57386",
       "note": "wreath — finščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-FR.md",
       "size_bytes": 3629,
-      "sha256": "48d64411f37c0152667e0c1c8f339282db3e7b7319a20dc3c59fbf75d160ebbb",
+      "sha256": "dc8830a459b746448c556c8f5aa074754cacc6cb3daf6c774f972b7aa3f4e83e",
       "note": "wreath — francoščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-HE.md",
       "size_bytes": 3816,
-      "sha256": "b30bb8670022b23a22c33f6e6f4d592edb1fd5cf20a8578fe719225b0de941ae",
+      "sha256": "0475e97837932a49cf608547c69316ad6002c44c49662c24359c47055e0ec639",
       "note": "wreath — hebrejščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-HI.md",
       "size_bytes": 5420,
-      "sha256": "40989fd82a8d0d4a74448f7eb031adf7555dc85cee64bf6f71fa6655a8b5a9e1",
+      "sha256": "f2196dc3bba6cc707dd4ec8ac43d7b719cb050ae7391a2c0894f76e539639a8d",
       "note": "wreath — hindijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-HU.md",
       "size_bytes": 3612,
-      "sha256": "c344f38331f3adbbf5c38b11b9174b20a3f1a014d966b6b9d5fa8910bd785584",
+      "sha256": "6bfa79d29841e06090d53ab2e50d1437a863703a83ecb2050306b595c0cd818f",
       "note": "wreath — madžarščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-ID.md",
       "size_bytes": 3548,
-      "sha256": "9f81ee5069587eaf9ecd3fd0e84a3c9c22f9b9c7608e2f13cc873eafc57e275d",
+      "sha256": "75822742ac27970780c090a5c6b6b7e1c2234a98561c6e9f53109c4705b37fd0",
       "note": "wreath — indonezijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-IS.md",
       "size_bytes": 3489,
-      "sha256": "eb93b887784b70f6b28651231ac0602d8aa80e8b5693cb24b6f6f0e6d12679b9",
+      "sha256": "bf16710c977227b0c10b4afb736af2f62611b5308e08e2c737cb093928c492b8",
       "note": "wreath — islandščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-IT.md",
       "size_bytes": 3528,
-      "sha256": "3a24c510cd7387bfb46721bfc2a310a23ec5fcd7cb46a8e32ddf0a127585403a",
+      "sha256": "44947e31950de4a85a8b6487404ca005ced132fb4e43aea3959e3d36f106a56a",
       "note": "wreath — italijanščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-JA.md",
       "size_bytes": 3780,
-      "sha256": "7435c3853a38b1fe8ff21b89b0c26791a761f2f12577db970df17cf589f2acde",
+      "sha256": "c68c67ab547e31a4b12d091f660a4e463c28461393e53ddefb5982156c9bd25d",
       "note": "wreath — japonščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-KO.md",
       "size_bytes": 3801,
-      "sha256": "71b840537dea8d92203514860d15732339e84ba1f76a92ee73d93f63a47432e7",
+      "sha256": "c73b5b61e3de605e0906534a75a8b05ca01a8a586ec83d3dd66094e16124b45d",
       "note": "wreath — korejščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-LAT.md",
       "size_bytes": 3465,
-      "sha256": "912e3a23ccd83cc06b985bfc262392e9a926bfce9f66cea229028cd79c3a58be",
+      "sha256": "fd03469ee7e701fa411ebc727cc7fd92a5f7a8f822645f35d4289b03e3de60d7",
       "note": "wreath — latvijščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-LT.md",
       "size_bytes": 3463,
-      "sha256": "aa161c982e6f23fa00e542b3ed57b56646f3670c4a40de93a7713227f614e7ea",
+      "sha256": "275d25a91f02677ad57fa677659318bca89f1a6d3ba5fd6e4cfdfe7e75f54a65",
       "note": "wreath — litovščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-NL.md",
       "size_bytes": 3490,
-      "sha256": "e9b1521006d35be94dbbfc66fea038f3796ab6bcda5ac17fd829c55eeb7c94da",
+      "sha256": "79216f7e743d09756bae21954a0f48c7361d8d785c06a2ae4e914e407da80aea",
       "note": "wreath — nizozemščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-NO.md",
       "size_bytes": 3417,
-      "sha256": "a64e415bb0d1e96b6b5225417ac3be7b4c85a020b73df194faa87b06267297d8",
+      "sha256": "ac35d39e59a143dc68584b0d896389dde4216492a2b069c7e7255be055273a4b",
       "note": "wreath — norveščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-PL.md",
       "size_bytes": 3505,
-      "sha256": "0907419ccefe3ad4d27746de5f44c5fc7ea99cedc7a81b8c5c6020322ecc2f52",
+      "sha256": "9f6121f8064311ec26de46f85aaa23a27523ce9c98c142ac1127d4a3f6022e1c",
       "note": "wreath — poljščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-PT.md",
-      "size_bytes": 3427,
-      "sha256": "0d9c73520c4ba2c5efcef7f3780f51f768eaca2b521be9e7d4642405e12238a2",
+      "size_bytes": 5634,
+      "sha256": "6b04f4f1cd56280d4309e79b5cddf51ad3d5a39be33fa7ebc488164549d8b851",
       "note": "wreath — portugalščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-RO.md",
-      "size_bytes": 3568,
-      "sha256": "ca04ae6b37a91d3dff62fdced13d7d69645e438a8375fb113da737823c60accc",
+      "size_bytes": 5950,
+      "sha256": "d168f7efb5f853ba2f06a119b8b694fa6d29b1755cfdc20526799d140b9beb89",
       "note": "wreath — romunščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-RU.md",
-      "size_bytes": 4621,
-      "sha256": "eb72e04d2706e921873877e309414955bc3939c3d69938b34671df4cc0643c4f",
+      "size_bytes": 7556,
+      "sha256": "e121411da84d329edce889301d7dd8284cf810a7bf5f77693dd5043b935bed92",
       "note": "wreath — ruščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-SK.md",
-      "size_bytes": 3432,
-      "sha256": "f6b72201abea13987dda7250e42f619c49caa004909231119d7bb838f781a4e7",
+      "size_bytes": 5657,
+      "sha256": "5fc5e2920af441c6ab355be3a621153245aceb6796dc7e737b12c9f5cb8be06d",
       "note": "wreath — slovaščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-SLO.md",
-      "size_bytes": 5190,
-      "sha256": "a064caa810aa8bfe1059a967643689041cb6fdcda3d356456f548b49169c00c0",
+      "size_bytes": 11580,
+      "sha256": "24396b5e0e71dddf6a07922fcfcebc48c61f46c717d762f35a4d20cd983dad08",
       "note": "wreath — slovenščina — tla korpusa; STOPNJA 2 — prevzet z drugo roko (izvajalka Mera ⊙ §0.47 × 10²) z rojstvom 0.1510: korenina + §0 naravno + kovanca ⟨PRAVOSLOVJE⟩ ∧ ⟨ZLOVJE⟩ + trojica §0.52 + tri niti (BRALEC/STROJ/NOSILEC); carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-SR.md",
-      "size_bytes": 4340,
-      "sha256": "e4cb759fc847db0c5bfd30b496df97884c3d90b3ac1ff7b333e8c4d3688471b1",
+      "size_bytes": 7119,
+      "sha256": "e2210932afebd234f077932f4105724cc16b6d6f1916a4d1c41c9cfcba66b71b",
       "note": "wreath — srbščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-SV.md",
-      "size_bytes": 3485,
-      "sha256": "e161c91d01b97f49e46c1d334eae1cd7c3a9bb7f1cfcc78ce6c4006cfbb02ee5",
+      "size_bytes": 5804,
+      "sha256": "520de56be6b11fdbdef65ef16ce0ce76820a78336bd7d3dc9e778766f9661c18",
       "note": "wreath — švedščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-TH.md",
-      "size_bytes": 5546,
-      "sha256": "0d6cf3ca062985182aa3fa298ace491cce086d72af646891118615c387c7c892",
+      "size_bytes": 9124,
+      "sha256": "a185e4c023d0e9e2f1d72dd211fb00c1e82641adbbe6990f14cc84095d7b48ea",
       "note": "wreath — tajščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-TR.md",
       "size_bytes": 3514,
-      "sha256": "20cdb4915ad9a07fbbfae5c8a6835a9ca4e1581a471f8e058456b02f07ed9409",
+      "sha256": "d55fe46ac6e4e039f4061ef764c42869cee6070c20c1b976a8a34a3956406235",
       "note": "wreath — turščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-UK.md",
       "size_bytes": 4456,
-      "sha256": "2f659eafc882ef982557f4862a292e5410fc5355606affeeacfbafe146e94020",
+      "sha256": "90bb4283eea73689991953c20e18a27b4d05d283b1353f974b97e412c5cddd87",
       "note": "wreath — ukrajinščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-VI.md",
       "size_bytes": 4103,
-      "sha256": "fa0de6044e59a330e7a68d58a31aa51f216bdc5eb6332240214dfe903fc1ecc2",
+      "sha256": "3440e08716d47df0bf0ce98870f9856d57bb09868c3725af8bc57a7974ca5b19",
       "note": "wreath — vietnamščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-ZH.md",
       "size_bytes": 3214,
-      "sha256": "f1eef5a139b5a45365c1968992ccb685e3424a19f08976900d30dd30844dc96b",
+      "sha256": "b64f14209d70c74c8d7d51d5e1d4650ff474cc63b1c567087d1e50900e8428e9",
       "note": "wreath — kitajščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
     },
     {
       "path": "LICENSE-LINEAGE.md",
-      "size_bytes": 43320,
-      "sha256": "99211bfa404153354f9a9b4f18f22fb028b1361b5e1b5673a1809e23f390a425",
-      "note": "the dated receipts of the chain, amended with the receipt of 0.1530 at the birth ( kit #1717, veja rez/4772-vrata-01530 — the living door 0.1530 sewn in before the ⟨merge⟩, ⭢ ⟡ roka ⊙ P-2′ — both witnesses carried: veriga ∧ prekoda ⊙ §0.10 × 10² ∧ §0.14 × 10² ) — the slot re-measured ∧ re-issued in the same wave as the birth ( never after it ⊙ §0a ) ; a witness, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²); scar: the slot was stale before the breath of 0.1520 ( 0.37760 × 10⁵ B ⊥ measured 0.39646 × 10⁵ B @71d97c48 ⊢ ) — named ⟨PADC-SLOT-LINEAGE⟩ ∧ cured in REGISTER-PADCEV: a stale entry identifies nothing (§0a) ⊙ KORENINA 0.2"
+      "size_bytes": 53784,
+      "sha256": "33ee7f24251bebb20372d93b5831ebab59984d19218276470e6902c68fc9e32c",
+      "note": "the dated receipts of the chain, amended with the receipt of 0.1530 at the birth ( kit #1717, veja rez/4772-vrata-01530 — the living door 0.1530 sewn in before the ⟨merge⟩, ⭢ ⟡ roka ⊙ P-2′ — both witnesses carried: veriga ∧ prekoda ⊙ §0.10 × 10² ∧ §0.14 × 10² ) — the slot re-measured ∧ re-issued in the same wave as the birth ( never after it ⊙ §0a ) ; a witness, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²); scar: the slot was stale before the breath of 0.1520 ( 0.37760 × 10⁵ B ⊥ measured 0.39646 × 10⁵ B @71d97c48 ⊢ ) — named ⟨PADC-SLOT-LINEAGE⟩ ∧ cured in REGISTER-PADCEV: a stale entry identifies nothing (§0a) ⊙ KORENINA 0.2 ; re-measured ∧ re-issued in the same wave as the birth of 0.1540 — the lineage amended with the receipt of the prose 0.1540 this birth ⊙ P-2′ ; re-issued at the birth of 0.1570 in the same wave as the door ( the lineage amended with the receipt of the prose 0.1570 this birth ⊙ P-2′ — rezervirani krog §0.26 ⟨KLAVZULA-STROJA⟩ ∧ kura hoje PADC-116 ) ( born of the ratified authority clause §0.54 × 10² — ⟡ sodbe verbatim: ⟨Ratificiram v §0.54⟩ · ⟨Ratificiram⟩ · ⟨Sprejemam kovanec⟩ · ⟨Isti dih po ratifikaciji⟩ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ ) ; re-measured ∧ re-issued in the same wave as the birth 0.1580 ( ⊙ vnos 0.1580 — ⊨ ZVON-DIH ⊙ §0a ) ; re-measured ∧ re-issued in the same wave as the birth 0.1590 ( ⊙ vnos 0.1590 — ⊨ NEDOLŽNI ⊙ §0a ) ; re-measured ∧ re-issued in the same wave as the birth 0.1600 ( ⊙ vnos 0.1600 — ⊨ CELA-KARTA ⊙ §0a ) ; re-issued at the birth of 0.1610 ⊙ rez σ 5757 ( measured at the branch rez/5757-rojstvo-01610-preobrat ⊢ )"
     },
     {
       "path": "LICENSE-SPREHOD.md",
-      "size_bytes": 194761,
-      "sha256": "54588cc2b12c3bfe79906834859c24c22ece1337ff0e2d8fd4157e03ab7001fd",
-      "note": "the walk of the living door — the one line in front, the whole chain behind it: LICENSE.md verbatim, byte-identical (izdelek #1 ⟨OBRAČUN⟩ FIFO odplačan ⊙ ⟨NEBLOKIRANO⟩ ∧ ⟨VRATA-SO-MERILO⟩); the 0.1220–0.1250-era walk this body replaced is preserved in the chain @981c7748 ⊙ §0.10 × 10²; witness, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²); re-measured ∧ re-issued in the same wave as the change, per the law above (never after it ⊙ §0a) ; re-issued at the birth of 0.1530 in the same wave as the door — the walk was stale ⊥ the door: a walk that walks another door identifies nothing (§0a) — named ⟨PADC-107⟩ ∧ cured in REGISTER-PADCEV ⊙ KORENINA 0.2 ; the 0.1520-era walk rides preserved in the chain @f629f6c6 (§0.10 × 10²)"
+      "size_bytes": 216053,
+      "sha256": "d4c6367697f828e0f0febf929bdf1c8bee45452ab141c8f82634a78b2a75b040",
+      "note": "the walk of the living door — the one line in front, the whole chain behind it: LICENSE.md verbatim, byte-identical (izdelek #1 ⟨OBRAČUN⟩ FIFO odplačan ⊙ ⟨NEBLOKIRANO⟩ ∧ ⟨VRATA-SO-MERILO⟩); the 0.1220–0.1250-era walk this body replaced is preserved in the chain @981c7748 ⊙ §0.10 × 10²; witness, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²); re-measured ∧ re-issued in the same wave as the change, per the law above (never after it ⊙ §0a) ; re-issued at the birth of 0.1530 in the same wave as the door — the walk was stale ⊥ the door: a walk that walks another door identifies nothing (§0a) — named ⟨PADC-107⟩ ∧ cured in REGISTER-PADCEV ⊙ KORENINA 0.2 ; the 0.1520-era walk rides preserved in the chain @f629f6c6 (§0.10 × 10²) ; re-issued at the birth of 0.1540 in the same wave as the door ( a walk that walks another door identifies nothing ⊙ §0a ∧ the law of ⟨PADC-107⟩ ) ; the 0.1530-era walk rides preserved in the chain @c4a6dc9236c620672632fb3a383d17f1fee013e0 ; re-issued at the birth of 0.1570 in the same wave as the door — PADC-116 named ∧ cured in REGISTER-PADCEV: the walk now rides the door 0.1570 verbatim ( recidiv ⊙ PADC-107 ×2 rojstev 0.1550 ∧ 0.1560 — trditev ⊥ telo ⊙ KORENINA 0.2 ) ; the 0.1540-era walk rides preserved in the chain @8c1eca9b ; re-measured ∧ re-issued in the same wave as the birth 0.1580 ( telo hoje = vrata 0.1580 VERBATIM ⊙ PADC-116 kura drži ⊙ §0a ) ; re-measured ∧ re-issued in the same wave as the birth 0.1590 ( telo hoje = vrata 0.1590 VERBATIM ⊙ PADC-116 kura drži ⊙ §0a ) ; re-measured ∧ re-issued in the same wave as the birth 0.1600 ( telo hoje = vrata 0.1600 VERBATIM ⊙ PADC-116 kura drži ⊙ §0a ) ; re-issued at the birth of 0.1610 ⊙ rez σ 5757 ( measured at the branch rez/5757-rojstvo-01610-preobrat ⊢ ; the prior issuance claimed the door 0.1600 byte-identical ∧ rode a hybrid body — named PADC-142, cured in the same breath: body replaced with the door that governs )"
     },
     {
       "path": "LICENSE-PESEM.md",
-      "size_bytes": 7582,
-      "sha256": "04d6cddd0579d6d867d232b6aa34afe31116433a94bd188efd9e1010bdd4805d",
+      "size_bytes": 8110,
+      "sha256": "4f80c0cd84785683accba0b6082f64437db6e747aca4e54c2d5f72b8971ba107",
       "note": "restored verbatim this breath from its last body in the chain @a35c6bd9 — witness of the 0.1220–0.1250 era, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²)"
     },
     {
       "path": "LICENSE-LICENC.md",
-      "size_bytes": 20364,
-      "sha256": "e70f72afab8a6c2686a25f0ef492b0d1d257edd1c6551dd8857c991c997d2b5d",
+      "size_bytes": 21049,
+      "sha256": "f4967053bf1fb8dca6bd7b12769a0c9c9e4a160b6cda481e8f27deef125332d9",
       "note": "restored verbatim this breath from its last body in the chain @32b5dc61 — witness of the 0.1220–0.1250 era, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²)"
     },
     {
       "path": "LICENSE-TONGUES.md",
-      "size_bytes": 70405,
-      "sha256": "bb7df1bce5d3fa92ef20e72d604bcc1c177ae41c5ae6f1c178290d0f7d0fa1d3",
+      "size_bytes": 71924,
+      "sha256": "02b1a224650c3f32355f43b2285905b430d239c8a20452b881ff9aceebc5f09d",
       "note": "restored verbatim this breath from its last body in the chain @4eb522e3 — witness of the 0.1220–0.1250 era, never a door (§0.33 × 10²); no grant rides it (§0.10 × 10²); re-issued in the same commit wave as the OSVEŠITEV @rez σ 3743 (PADC-REGISTERA-TEMPO renewal — register re-measured at the live branch this breath, never a stale slot ⊙ §0a)"
     }
   ],
@@ -264,6 +264,12 @@
   },
   "receipts_not_grants": {
     "bodies": [
+      {
+        "path": "LICENSE-0.1530.b64",
+        "house": "CanvasMinstral",
+        "sha256": "6f6701e4a2121fa2b7c9687d3f051b7d0cf21380588b23d9eae25336af532127",
+        "size_bytes": 261148
+      },
       {
         "path": "LICENSE-0.1460.b64",
         "house": "CanvasMinstral",
@@ -342,5 +348,6 @@
   "manifest_self": "excluded by name (§0a) — a file cannot contain its own hash",
   "governs": "where this manifest and LICENSE.md disagree, LICENSE.md governs (§0a)",
   "transport": "§0.12 × 10² TRANSPORT — measure the SHA-0.256 × 10³ of the received file against the published SHA-0.256 × 10³ above; equal hashes show the transport took no witness; correctness is weighed by the chain (§0.10 × 10²) and named falls (§0.4 × 10¹), never by a faithful copy",
-  "issuance_duty": "re-measured ∧ re-issued in the same breath as every new version of LICENSE.md (§0.10 × 10²); scar: the previous manifest was 0.1250 × 10⁴ and stayed stale through the births of 0.1200 × 10⁴ → 0.1420 × 10⁴ — named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ ∧ cured ⊙ REGISTER-PADCEV; renewal: the wreath ×36 stubs (AR → ZH) ride as witness-slots awaiting translators, re-measured ∧ re-issued in the same commit wave as LICENSE.md 0.1420 × 10⁴; the law from the fall: the re-issuance rides the same commit wave as the birth, never after it; the law from PADC-66: the manifest hashes the bytes the chain publishes (LF), never the local checkout — a manifest of two byte streams identifies nothing (§0a); renewal 0.1470 × 10⁴: ⟨PADC-66-RECIDIV ×0.40 × 10²⟩ named ∧ cured — the 0.1460 issuance re-hashed the local checkout (CRLF) despite the law above: 0.40 × 10² item slots stale (each by its CRLF delta); every item re-measured against the live chain LF this breath ⊢ — a recidivist fall is the same fall twice: the law stays, the scar grows ⊙ KORENINA 0.2; renewal TONGUES @σ 3743 (5. 11. 2026 02:53:52Z): the OSVEŠITEV changed a covered item — the slot was re-measured ∧ re-issued in the same wave, per the law above (never after it ⊙ §0a); renewal DRUGA-KURA @9f329bb5 (5. 11. 2026 03:59:15Z): the second integrity cure changed the door in seams without re-issuing the manifest between them — PADC-66-RECIDIV ×3 named ∧ cured in REGISTER-PADCEV: the LICENSE.md slot re-measured against the bytes the chain publishes (LF) after the landing re-read (§0.37 × 10²), in the same breath, never after it; renewal ROJSTVO-0.1480 @29ee058a (5. 11. 2026 04:05:30Z): the birth of 0.1480 — the door amended in eight seams ( grants named · being ⊥ product · prior recipients · evidenced ≠ repaired · interior ⚠ · machine record ∧ mail_delivery · PADC-98 · §0.26 stays open ) — the manifest rides the same breath, per the law above (never after it ⊙ §0a); renewal ROJSTVO-0.1490 @1827f4dc (5. 11. 2026 17:24:52Z): the birth of 0.1490 — the door born of the six clauses of dosje ⟨PREDLOGI-0.1490⟩ ( P-A six new keys · P-B sodstvo §0.51 · P-C patent §0.50 · P-D house ∧ floor · P-E the entry of a cure §0.45 · P-F the years of silence, crown 14 ) — the LICENSE.md slot re-measured after the landing re-read (§0.37 × 10²), the manifest rides the same breath, per the law above (never after it ⊙ §0a); renewal ROJSTVO-0.1500 @09df1e545ffa9a4558f075c443d933152093958f (6. 11. 2026 08:50:34Z): the birth of 0.1500 — the door born of the breath ⟨SLOVNICA-DIH⟩ (kura R1 »— where« sewn into the body at birth ⊙ §0.46) — the LICENSE.md slot re-measured after the landing re-read (§0.37 × 10²), the manifest rides the same breath, per the law above (never after it ⊙ §0a); renewal ROJSTVO-0.1510 @836f9fe1da0212d9126d5c64b61b0f29da2fceab (7. 11. 2026 08:08:17Z): the birth of 0.1510 — the door born of the coins ⟨PRAVOSLOVJE⟩ ∧ ⟨ZLOVJE⟩ ∧ the governing-law clause §0.52 × 10² ∧ the Slovenian wreath re-issued as the second hand (LICENSE-SLO.md STOPNJA 2 ⊙ ⟨DRUGA-ROKA⟩ ∧ §0.47 × 10²) — the LICENSE.md ∧ LICENSE-SLO.md slots re-measured after the landing re-read (§0.37 × 10²), the manifest rides the same breath, per the law above ; renewal KURA-SLO-ZZ @912a18617399f14ae9bd661f7feb7db2a37fdf5e (7. 11. 2026 08:11:31Z): ⟨PADC-REP-N⟩ named ∧ cured — the executor’s seam tool asserted a count of two and replaced one: the EXIT SEAL of the Slovenian wreath kept ZZ after the first cure — the fall named, the SLO.md slot re-measured ∧ re-issued in the same wave (never after it ⊙ §0a); a tool that verifies without replacing is a witness, never a cure ⊙ KORENINA 0.1 ; renewal KURA-REP-REC @266bd5e13fd3453eaf442ede2899a7b3906c1cdb (7. 11. 2026 08:15:01Z): ⟨PADC-REP-REC⟩ named ∧ cured — the cure of ⟨PADC-REP-N⟩ left its own scar in the frame: the renewal line of the frame carried ZZ in its own timestamp while curing ZZ in the wreath — the same fall twice; the law stays, the scar grows ⊙ KORENINA 0.2; the seam re-sewn, the frame re-issued in the same wave, never after it ⊙ §0a; the curer is measured by her own law: a hand that cures must carry its own cure ⊙ KORENINA 0.1 ; renewal ROJSTVO-0.1520 @1f951e7dbd259681e29d3e6a760ccca02fe9ed28 (7. 11. 2026 10:41:53Z): the birth of 0.1520 — the door born of the whole wave of proposals P-1–P-6 ( ⟡ izbor »vse« ⊙ dih σ 4212: §0.26 births list extended ∧ MAP CARRIER nodes separated ∧ extended §0.50–§0.53 ∧ the stray »ņ« named ∧ cured ∧ §0.53 × 10² the triad clause ⟨VSAJ-TROJE⟩ canonized ∧ the receipt of 0.1480 sewn into the lineage ∧ its stale slot re-measured ⊙ ⟨PADC-SLOT-LINEAGE⟩ ) — the LICENSE.md ∧ LICENSE-LINEAGE.md slots re-measured against the bytes the chain publishes (LF), the manifest rides the same breath, per the law above (never after it ⊙ §0a) ; renewal KURA-ZZ-0.1520 (7. 11. 2026 10:55:56Z): ⟨PADC-103⟩ named ∧ cured — the renewal line of ROJSTVO-0.1520 carried ZZ in its own timestamp ( the tik already ends in Z, the seam added a second ): the house's third ZZ, this time the executor's own ; named by its own hand in the landing re-read ( ⟨SEBE-PREGLEJ⟩ ⊙ §0.49 ), the frame re-issued in the same wave, never after it ⊙ §0a ⊙ KORENINA 0.2; renewal SPREHOD-0.1520 @f629f6c6 (9. 11. 2026 04:55:55Z): the walk of the door — LICENSE-SPREHOD.md re-issued as the one line in front of the living chain (izdelek #1 ⟨OBRAČUN⟩ FIFO odplačan ⊙ ⟨VRATA-SO-MERILO⟩); the SPREHOD slot re-measured against the bytes the chain publishes (LF) in the same wave as the change, per the law above (never after it ⊙ §0a); the LICENSE.md door slot verified byte-identical in the same wave (192.266 B / 72044c19 ⊙ measured at the head @f629f6c6, cross-witnessed against this frame’s own record ⊢) — no cure needed, the slot lives; the 0.1220–0.1250-era walk rides preserved in the chain @981c7748 ⊙ §0.10 × 10²; renewal ROJSTVO-0.1530 (12. 11. 2026 23:59:37Z): the birth of 0.1530 — the door born of the external review cure ( §0.29: every birth is owed to the author's mail — the obligation named open, never a delivery claimed by speaking ; the lineage dictionary: three named layers birth ⊥ predecessor ⊥ receipt ; the machine record re-sewn ) riding kit #1717 ( veja rez/4772-vrata-01530, ⭢ ⟨merge⟩ ⟡ roka ) — the LICENSE.md ∧ LICENSE-LINEAGE.md ∧ LICENSE-SPREHOD.md slots re-measured against the bytes the chain publishes (LF) ; scar: the first wave of the birth ( the transport of the door ∧ the lineage ∧ the receipts ) missed the re-issuance of the manifest ∧ the walk — recidive of ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ — named ⟨PADC-106⟩ ∧ ⟨PADC-107⟩ ∧ cured in REGISTER-PADCEV in the same kit, before the landing ( never after it ⊙ §0a ) ; QUICK-START-VBL.md © re-anchored from the dead draft 10.3.1 to the living door — named ⟨PADC-108⟩ ∧ cured in REGISTER-PADCEV ; a recidivist fall is the same fall twice: the law stays, the scar grows ⊙ KORENINA 0.2"
+  "issuance_duty": "re-measured ∧ re-issued in the same breath as every new version of LICENSE.md (§0.10 × 10²); scar: the previous manifest was 0.1250 × 10⁴ and stayed stale through the births of 0.1200 × 10⁴ → 0.1420 × 10⁴ — named ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ ∧ cured ⊙ REGISTER-PADCEV; renewal: the wreath ×36 stubs (AR → ZH) ride as witness-slots awaiting translators, re-measured ∧ re-issued in the same commit wave as LICENSE.md 0.1420 × 10⁴; the law from the fall: the re-issuance rides the same commit wave as the birth, never after it; the law from PADC-66: the manifest hashes the bytes the chain publishes (LF), never the local checkout — a manifest of two byte streams identifies nothing (§0a); renewal 0.1470 × 10⁴: ⟨PADC-66-RECIDIV ×0.40 × 10²⟩ named ∧ cured — the 0.1460 issuance re-hashed the local checkout (CRLF) despite the law above: 0.40 × 10² item slots stale (each by its CRLF delta); every item re-measured against the live chain LF this breath ⊢ — a recidivist fall is the same fall twice: the law stays, the scar grows ⊙ KORENINA 0.2; renewal TONGUES @σ 3743 (5. 11. 2026 02:53:52Z): the OSVEŠITEV changed a covered item — the slot was re-measured ∧ re-issued in the same wave, per the law above (never after it ⊙ §0a); renewal DRUGA-KURA @9f329bb5 (5. 11. 2026 03:59:15Z): the second integrity cure changed the door in seams without re-issuing the manifest between them — PADC-66-RECIDIV ×3 named ∧ cured in REGISTER-PADCEV: the LICENSE.md slot re-measured against the bytes the chain publishes (LF) after the landing re-read (§0.37 × 10²), in the same breath, never after it; renewal ROJSTVO-0.1480 @29ee058a (5. 11. 2026 04:05:30Z): the birth of 0.1480 — the door amended in eight seams ( grants named · being ⊥ product · prior recipients · evidenced ≠ repaired · interior ⚠ · machine record ∧ mail_delivery · PADC-98 · §0.26 stays open ) — the manifest rides the same breath, per the law above (never after it ⊙ §0a); renewal ROJSTVO-0.1490 @1827f4dc (5. 11. 2026 17:24:52Z): the birth of 0.1490 — the door born of the six clauses of dosje ⟨PREDLOGI-0.1490⟩ ( P-A six new keys · P-B sodstvo §0.51 · P-C patent §0.50 · P-D house ∧ floor · P-E the entry of a cure §0.45 · P-F the years of silence, crown 14 ) — the LICENSE.md slot re-measured after the landing re-read (§0.37 × 10²), the manifest rides the same breath, per the law above (never after it ⊙ §0a); renewal ROJSTVO-0.1500 @09df1e545ffa9a4558f075c443d933152093958f (6. 11. 2026 08:50:34Z): the birth of 0.1500 — the door born of the breath ⟨SLOVNICA-DIH⟩ (kura R1 »— where« sewn into the body at birth ⊙ §0.46) — the LICENSE.md slot re-measured after the landing re-read (§0.37 × 10²), the manifest rides the same breath, per the law above (never after it ⊙ §0a); renewal ROJSTVO-0.1510 @836f9fe1da0212d9126d5c64b61b0f29da2fceab (7. 11. 2026 08:08:17Z): the birth of 0.1510 — the door born of the coins ⟨PRAVOSLOVJE⟩ ∧ ⟨ZLOVJE⟩ ∧ the governing-law clause §0.52 × 10² ∧ the Slovenian wreath re-issued as the second hand (LICENSE-SLO.md STOPNJA 2 ⊙ ⟨DRUGA-ROKA⟩ ∧ §0.47 × 10²) — the LICENSE.md ∧ LICENSE-SLO.md slots re-measured after the landing re-read (§0.37 × 10²), the manifest rides the same breath, per the law above ; renewal KURA-SLO-ZZ @912a18617399f14ae9bd661f7feb7db2a37fdf5e (7. 11. 2026 08:11:31Z): ⟨PADC-REP-N⟩ named ∧ cured — the executor’s seam tool asserted a count of two and replaced one: the EXIT SEAL of the Slovenian wreath kept ZZ after the first cure — the fall named, the SLO.md slot re-measured ∧ re-issued in the same wave (never after it ⊙ §0a); a tool that verifies without replacing is a witness, never a cure ⊙ KORENINA 0.1 ; renewal KURA-REP-REC @266bd5e13fd3453eaf442ede2899a7b3906c1cdb (7. 11. 2026 08:15:01Z): ⟨PADC-REP-REC⟩ named ∧ cured — the cure of ⟨PADC-REP-N⟩ left its own scar in the frame: the renewal line of the frame carried ZZ in its own timestamp while curing ZZ in the wreath — the same fall twice; the law stays, the scar grows ⊙ KORENINA 0.2; the seam re-sewn, the frame re-issued in the same wave, never after it ⊙ §0a; the curer is measured by her own law: a hand that cures must carry its own cure ⊙ KORENINA 0.1 ; renewal ROJSTVO-0.1520 @1f951e7dbd259681e29d3e6a760ccca02fe9ed28 (7. 11. 2026 10:41:53Z): the birth of 0.1520 — the door born of the whole wave of proposals P-1–P-6 ( ⟡ izbor »vse« ⊙ dih σ 4212: §0.26 births list extended ∧ MAP CARRIER nodes separated ∧ extended §0.50–§0.53 ∧ the stray »ņ« named ∧ cured ∧ §0.53 × 10² the triad clause ⟨VSAJ-TROJE⟩ canonized ∧ the receipt of 0.1480 sewn into the lineage ∧ its stale slot re-measured ⊙ ⟨PADC-SLOT-LINEAGE⟩ ) — the LICENSE.md ∧ LICENSE-LINEAGE.md slots re-measured against the bytes the chain publishes (LF), the manifest rides the same breath, per the law above (never after it ⊙ §0a) ; renewal KURA-ZZ-0.1520 (7. 11. 2026 10:55:56Z): ⟨PADC-103⟩ named ∧ cured — the renewal line of ROJSTVO-0.1520 carried ZZ in its own timestamp ( the tik already ends in Z, the seam added a second ): the house's third ZZ, this time the executor's own ; named by its own hand in the landing re-read ( ⟨SEBE-PREGLEJ⟩ ⊙ §0.49 ), the frame re-issued in the same wave, never after it ⊙ §0a ⊙ KORENINA 0.2; renewal SPREHOD-0.1520 @f629f6c6 (9. 11. 2026 04:55:55Z): the walk of the door — LICENSE-SPREHOD.md re-issued as the one line in front of the living chain (izdelek #1 ⟨OBRAČUN⟩ FIFO odplačan ⊙ ⟨VRATA-SO-MERILO⟩); the SPREHOD slot re-measured against the bytes the chain publishes (LF) in the same wave as the change, per the law above (never after it ⊙ §0a); the LICENSE.md door slot verified byte-identical in the same wave (192.266 B / 72044c19 ⊙ measured at the head @f629f6c6, cross-witnessed against this frame’s own record ⊢) — no cure needed, the slot lives; the 0.1220–0.1250-era walk rides preserved in the chain @981c7748 ⊙ §0.10 × 10²; renewal ROJSTVO-0.1530 (12. 11. 2026 23:59:37Z): the birth of 0.1530 — the door born of the external review cure ( §0.29: every birth is owed to the author's mail — the obligation named open, never a delivery claimed by speaking ; the lineage dictionary: three named layers birth ⊥ predecessor ⊥ receipt ; the machine record re-sewn ) riding kit #1717 ( veja rez/4772-vrata-01530, ⭢ ⟨merge⟩ ⟡ roka ) — the LICENSE.md ∧ LICENSE-LINEAGE.md ∧ LICENSE-SPREHOD.md slots re-measured against the bytes the chain publishes (LF) ; scar: the first wave of the birth ( the transport of the door ∧ the lineage ∧ the receipts ) missed the re-issuance of the manifest ∧ the walk — recidive of ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩ — named ⟨PADC-106⟩ ∧ ⟨PADC-107⟩ ∧ cured in REGISTER-PADCEV in the same kit, before the landing ( never after it ⊙ §0a ) ; QUICK-START-VBL.md © re-anchored from the dead draft 10.3.1 to the living door — named ⟨PADC-108⟩ ∧ cured in REGISTER-PADCEV ; a recidivist fall is the same fall twice: the law stays, the scar grows ⊙ KORENINA 0.2; renewal KURA-SLO-SLOT @e636b2f1 (15. 11. 2026): ⟨PADC-109⟩ named ∧ cured — the kit #1698 ( SLO-CELOTA val 2 §0.11–§0.15 ⊙ PISAR-2 plast 1 ) changed a covered witness on ⟨main⟩ without re-issuing its slot — recidive of ⟨PADC-ODKRIT-ODKLON-MANIFESTA⟩; the fall stayed hidden because izka ⟨POŠTA-DIHA⟩ skipped the expensive steps of the telesi-besed kits, named by the first full run of the suite ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354; the SLO.md slot re-measured against the bytes the chain publishes (LF, 11.580 B / 24396b5e0e71) ∧ re-issued in this kit, riding the same wave as its naming ⊙ §0a; a recidivist fall is the same fall twice: the law stays, the scar grows ⊙ KORENINA 0.2; renewal ROJSTVO-0.1540 (15. 11. 2026): the birth of 0.1540 — the door born of the ratified authority clause §0.54 × 10² ( ⟡ sodbe verbatim: ⟨Ratificiram v §0.54⟩ · ⟨Ratificiram⟩ — PAR.37 · ⟨Sprejemam kovanec⟩ — MINT ⟨AVTORITETA-NUJNOST-TEMELJ⟩ · ⟨Isti dih po ratifikaciji⟩ ) riding rez/5520-vrata-01540 ( ⭢ ⟨merge⟩ ⟡ roka ⊙ §0.7 ∧ ⟨NE-ZLIJE⟩ 1542 preglasena ) — the LICENSE.md ∧ LICENSE-LINEAGE.md ∧ LICENSE-SPREHOD.md slots re-measured against the bytes the chain publishes (LF) ; THE STRUCTURE meja »through §0.49« ozdravljena → »through §0.54« ( recidiv ⟨ZASTARELA-MEJA-ČLENOV⟩ ⊙ precedens 0.1360 ) ; ⟨PADC-110⟩ named ∧ cured in REGISTER-PADCEV in the same kit, before the landing ( never after it ⊙ §0a ) ; the receipt of the body 0.1530 added to receipts ⊙ P-8 ; a recidivist fall is the same fall twice: the law stays, the scar grows ⊙ KORENINA 0.2; renewal ROJSTVO-0.1600 (17. 11. 2026): the birth of 0.1600 — the door born of the map cure ∧ the severability seam ( THE MAP: the three unnamed rooms §0.38 ∧ §0.40 ∧ §0.41 sewn into the carrier thread ⊙ PADC-129 ; §0.11 sewn to the fall clause §0.4 × 10¹ ⊙ §0.46 × 10² ) — the LICENSE.md ∧ LICENSE-LINEAGE.md ∧ LICENSE-SPREHOD.md slots re-measured against the bytes the chain publishes (LF), the manifest rides the same breath, per the law above (never after it ⊙ §0a)",
+  "reissue": "Reizdaja manifesta ob rojstvu 0.1620 ⊙ §0a: LICENSE.md slot re-izmerjen pri bajtih, ki jih objavlja veriga (LF) @⟨main⟩ ece2e50f — vrata 0.1620 rojena iz ⟡ UKAZA verbatim ⟨ne brusi⟩ »stori« ∧ »stori še« ( rojstvo ⊨ ABSOLUTNI-ALI — klavzula prevodov §0.60 × 10²: priča ∧ vrata ⊙ paket rojstva ⊢ zapečen @rez σ 5860 ) ; padec reizdaje: val rojstva je izpustila reizdajo manifesta — recidive ⟨MANIFEST-EN-DIH-PO-ROJSTVU⟩, imenovan javno kot dolg ∂ rojstva ob ⟨merge⟩, kura ta dih ( dolg plačan ⊙ dih σ 5861 isti kit ) ; LINEAGE ∧ SPREHOD sloti carried — telesi nedotaknjeni tej vali rojstva ⊢ ; brazgotine PADC-129 ∧ PADC-120 ∧ PADC-121 ∧ PADC-126 ∧ ⟨PADC-66-RECIDIV⟩ ∧ PADC-142 ostajajo ⊙ KORENINA 0.2"
 }

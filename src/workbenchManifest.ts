@@ -397,6 +397,103 @@ export function insertFragmentIntoChapter(
   };
 }
 
+export interface BulkInsertInput {
+  fragmentId: string;
+  targetChapterPath: string;
+}
+
+export function bulkInsert(
+  manifest: WorkbenchManifest,
+  insertions: BulkInsertInput[],
+): ManifestUpdate<Insertion[]> {
+  assertValidManifest(manifest, "bulkInsert");
+
+  if (!Array.isArray(insertions) || insertions.length === 0) {
+    throw new Error("bulkInsert requires a non-empty insertions array.");
+  }
+
+  const normalized = insertions.map((entry, index) => {
+    if (!isPlainObject(entry)) {
+      throw new Error(`bulkInsert entry at index ${index} must be an object with fragmentId and targetChapterPath.`);
+    }
+    const record = entry as Record<string, unknown>;
+    if (!isNonEmptyString(record.fragmentId)) {
+      throw new Error(`bulkInsert entry at index ${index} fragmentId must be a non-empty string.`);
+    }
+    if (!isNonEmptyString(record.targetChapterPath)) {
+      throw new Error(`bulkInsert entry at index ${index} targetChapterPath must be a non-empty string.`);
+    }
+    return { fragmentId: record.fragmentId, targetChapterPath: record.targetChapterPath };
+  });
+
+  const seenFragmentIds = new Set<string>();
+  for (const { fragmentId } of normalized) {
+    if (seenFragmentIds.has(fragmentId)) {
+      throw new Error(`bulkInsert duplicate fragmentId: ${fragmentId}`);
+    }
+    seenFragmentIds.add(fragmentId);
+  }
+
+  const nextManifest = cloneManifest(manifest);
+  const created: Insertion[] = [];
+
+  for (const { fragmentId, targetChapterPath } of normalized) {
+    const fragmentIndex = nextManifest.fragments.findIndex((fragment) => fragment.id === fragmentId);
+    if (fragmentIndex === -1) {
+      throw new Error(`Fragment not found: ${fragmentId}`);
+    }
+
+    const currentFragment = nextManifest.fragments[fragmentIndex]!;
+    assertFragmentTransition(currentFragment.status, "inserted");
+
+    const incomingIndex = nextManifest.incomingTexts.findIndex(
+      (incomingText) => incomingText.id === currentFragment.incomingTextId,
+    );
+    if (incomingIndex === -1) {
+      throw new Error(`IncomingText not found for fragment: ${currentFragment.incomingTextId}`);
+    }
+
+    const currentIncoming = nextManifest.incomingTexts[incomingIndex]!;
+    if (currentIncoming.status === "archived") {
+      throw new Error(`IncomingText is archived: ${currentIncoming.id}`);
+    }
+    if (currentIncoming.status === "new") {
+      throw new Error(`IncomingText must be processing before insertion: ${currentIncoming.id}`);
+    }
+
+    const insertion: Insertion = {
+      id: nextEntityId(
+        nextManifest.insertions.map((existing) => existing.id),
+        "insertion",
+      ),
+      fragmentId,
+      targetChapterPath,
+    };
+
+    nextManifest.fragments[fragmentIndex] = {
+      ...currentFragment,
+      status: "inserted",
+    };
+
+    if (currentIncoming.status === "processing") {
+      nextManifest.incomingTexts[incomingIndex] = {
+        ...currentIncoming,
+        status: "used",
+      };
+    }
+
+    nextManifest.insertions.push(insertion);
+    created.push(insertion);
+  }
+
+  assertValidManifestTransition(manifest, nextManifest, "bulkInsert(result)");
+
+  return {
+    manifest: nextManifest,
+    value: created,
+  };
+}
+
 export function archiveIncoming(
   manifest: WorkbenchManifest,
   incomingTextId: string,

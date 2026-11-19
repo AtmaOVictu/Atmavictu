@@ -1,0 +1,718 @@
+{
+  "schema": "vbl-0.1540-corrective-controls-1.0-draft",
+  "status": "DRAFT_NOT_RELEASED",
+  "license_version_baseline": "0.1530 × 10⁴",
+  "proposed_standard_version": "0.1540 × 10⁴ / EGCRS 1.0",
+  "snapshot_date": "2026-11-14",
+  "repository_targets": [
+    "AtmaOVictu/verification-before-assertion",
+    "AtmaOVictu/SYMBOLON-KATHOLIKON"
+  ],
+  "enums": {
+    "claim_status": [
+      "SUPPORTED",
+      "PARTIALLY_SUPPORTED",
+      "CONTRADICTED",
+      "DISPUTED",
+      "UNKNOWN"
+    ],
+    "test_result": [
+      "NOT_RUN",
+      "PASS",
+      "FAIL",
+      "PARTIAL",
+      "UNVERIFIED",
+      "NOT_APPLICABLE"
+    ],
+    "decision": [
+      "RELEASE",
+      "RELEASE_WITH_LIMITATIONS",
+      "HOLD",
+      "WITHDRAW"
+    ],
+    "repair_state": [
+      "OPEN",
+      "ACKNOWLEDGED",
+      "UNDER_REVIEW",
+      "REMEDY_PENDING",
+      "REMEDIED_UNVERIFIED",
+      "VERIFIED_REPAIRED",
+      "DISPUTED",
+      "CLOSED_WITH_LIMITATION"
+    ]
+  },
+  "controls": [
+    {
+      "id": "G0",
+      "priority": "P0",
+      "title": "Authority to release",
+      "problem": "Unclear release authority",
+      "required_evidence": [
+        "named decision owner",
+        "authority record"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-029"
+      ],
+      "expected_result": "Izdajni zapis vsebuje preverjeno pooblastilo za točno to različico in predmet.",
+      "pass_condition": "Izdajni zapis vsebuje preverjeno pooblastilo za točno to različico in predmet.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G1",
+      "priority": "P0",
+      "title": "Canonical artifact identity",
+      "problem": "Stale hash, size, or commit in Machine record",
+      "required_evidence": [
+        "SHA-256 from published bytes",
+        "byte size",
+        "commit SHA",
+        "measurement time",
+        "tool/version"
+      ],
+      "blocking": true,
+      "status": "FAIL",
+      "finding": "F-001",
+      "test_refs": [
+        "T-002",
+        "T-006",
+        "T-008"
+      ],
+      "expected_result": "SHA-256, velikost, commit in čas meritve se ujemajo z bajti, prebranimi iz navedenega objavljenega commita.",
+      "pass_condition": "SHA-256, velikost, commit in čas meritve se ujemajo z bajti, prebranimi iz navedenega objavljenega commita.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G2",
+      "priority": "P0",
+      "title": "Per-repository manifest",
+      "problem": "Manifest in one repository does not identify another repository by default",
+      "required_evidence": [
+        "manifest at each repository root or explicit shared-manifest rule",
+        "CI verification"
+      ],
+      "blocking": true,
+      "status": "FAIL",
+      "finding": "F-002",
+      "test_refs": [
+        "T-005",
+        "T-032"
+      ],
+      "expected_result": "Vsaka hiša ima manifest na deklarirani poti ali izrecno odobreno skupno manifestno shemo; lokalna identiteta je preverljiva.",
+      "pass_condition": "Vsaka hiša ima manifest na deklarirani poti ali izrecno odobreno skupno manifestno shemo; lokalna identiteta je preverljiva.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G3",
+      "priority": "P0",
+      "title": "Complete asset classification",
+      "problem": "Unclear which repository files are licensed, third-party, excluded, generated, or private",
+      "required_evidence": [
+        "complete file inventory",
+        "status per file",
+        "rights holder/authority"
+      ],
+      "blocking": true,
+      "status": "PARTIAL",
+      "finding": "F-003",
+      "test_refs": [
+        "T-003",
+        "T-030"
+      ],
+      "expected_result": "Vsaka datoteka v izbranem obsegu ima status pokritosti, imetnika pravic ali izrecno oznako UNKNOWN/EXCLUDED ter dokazno podlago.",
+      "pass_condition": "Vsaka datoteka v izbranem obsegu ima status pokritosti, imetnika pravic ali izrecno oznako UNKNOWN/EXCLUDED ter dokazno podlago.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G4",
+      "priority": "P0",
+      "title": "Manifest generator integrity",
+      "problem": "Hard-coded stale license version",
+      "required_evidence": [
+        "dynamic version binding",
+        "unit tests",
+        "CI pass"
+      ],
+      "blocking": true,
+      "status": "FAIL",
+      "finding": "F-004",
+      "test_refs": [
+        "T-004",
+        "T-023"
+      ],
+      "expected_result": "Generator ne vsebuje fiksne stare različice; različico prebere iz kanoničnega vira in --check zazna vsako neskladje.",
+      "pass_condition": "Generator ne vsebuje fiksne stare različice; različico prebere iz kanoničnega vira in --check zazna vsako neskladje.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G5",
+      "priority": "P0",
+      "title": "Version and companion synchronization",
+      "problem": "Stale CANONICAL and release gate metadata; companion paths not fully resolved",
+      "required_evidence": [
+        "current path/commit/version/digest for each companion",
+        "stale-document scan"
+      ],
+      "blocking": true,
+      "status": "FAIL",
+      "finding": "F-005",
+      "test_refs": [
+        "T-007",
+        "T-024",
+        "T-032"
+      ],
+      "expected_result": "Vsak navedeni spremljevalec ima dosegljivo pot, commit, različico in digest; noben podporni zapis ne navaja stare različice kot trenutne.",
+      "pass_condition": "Vsak navedeni spremljevalec ima dosegljivo pot, commit, različico in digest; noben podporni zapis ne navaja stare različice kot trenutne.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G6",
+      "priority": "P0",
+      "title": "Rights-holder and third-party matrix",
+      "problem": "Grant may be asserted beyond rights held",
+      "required_evidence": [
+        "asset-level rights matrix",
+        "third-party exclusions",
+        "authority evidence"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-030"
+      ],
+      "expected_result": "Za vsak licencirani asset je dokazano pooblastilo; gradivo tretjih oseb je izključeno ali podprto z ustreznim dovoljenjem.",
+      "pass_condition": "Za vsak licencirani asset je dokazano pooblastilo; gradivo tretjih oseb je izključeno ali podprto z ustreznim dovoljenjem.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G7",
+      "priority": "P0",
+      "title": "TDM reservation scope",
+      "problem": "All-content reservation is broader than identified assets and may overstate legal effect",
+      "required_evidence": [
+        "asset-level TDM register",
+        "machine-readable reservation",
+        "statutory exceptions review"
+      ],
+      "blocking": true,
+      "status": "HOLD",
+      "finding": "F-008",
+      "test_refs": [
+        "T-018",
+        "T-019",
+        "T-030",
+        "T-033"
+      ],
+      "expected_result": "TDM pridržek določa konkretne predmete in pravice ter ne zanika zakonskih izjem ali zajema pravic, ki jih izdajatelj nima.",
+      "pass_condition": "TDM pridržek določa konkretne predmete in pravice ter ne zanika zakonskih izjem ali zajema pravic, ki jih izdajatelj nima.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G8",
+      "priority": "P0",
+      "title": "Privacy review",
+      "problem": "Public fall register may expose personal data",
+      "required_evidence": [
+        "data inventory",
+        "lawful basis",
+        "minimisation review",
+        "retention/access controls"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-015",
+        "T-031"
+      ],
+      "expected_result": "Javna evidenca je minimizirana; osebni podatki imajo evidentirano pravno podlago, nadzor dostopa in rok hrambe.",
+      "pass_condition": "Javna evidenca je minimizirana; osebni podatki imajo evidentirano pravno podlago, nadzor dostopa in rok hrambe.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G9",
+      "priority": "P0",
+      "title": "Independent review",
+      "problem": "Executor may self-verify",
+      "required_evidence": [
+        "independent reviewer identity",
+        "conflict statement",
+        "review record"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-012",
+        "T-013"
+      ],
+      "expected_result": "Izvajalec ni edini preverjevalec; neodvisna druga roka je identificirana in konflikt interesov je razkrit.",
+      "pass_condition": "Izvajalec ni edini preverjevalec; neodvisna druga roka je identificirana in konflikt interesov je razkrit.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G10",
+      "priority": "P0",
+      "title": "Legal review",
+      "problem": "Legal provisions may overstate enforceability or conflict with statutory exceptions",
+      "required_evidence": [
+        "independent legal review",
+        "scope and date",
+        "unresolved issues"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-026",
+        "T-033"
+      ],
+      "expected_result": "Neodvisni pravni pregled navede pravno besedilo, jurisdikcijo, obseg, datum in nerešene točke.",
+      "pass_condition": "Neodvisni pravni pregled navede pravno besedilo, jurisdikcijo, obseg, datum in nerešene točke.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G11",
+      "priority": "P1",
+      "title": "Claim/evidence/decision separation",
+      "problem": "PASS may be confused with supported truth or release",
+      "required_evidence": [
+        "separate claim_status, test_result, decision fields",
+        "validator"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-011",
+        "T-025",
+        "T-034"
+      ],
+      "expected_result": "claim_status, test_result in decision so ločeni; UNKNOWN ali UNVERIFIED se nikoli ne pretvorita v PASS.",
+      "pass_condition": "claim_status, test_result in decision so ločeni; UNKNOWN ali UNVERIFIED se nikoli ne pretvorita v PASS.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G12",
+      "priority": "P1",
+      "title": "Temporal provenance",
+      "problem": "Event, observation, record, and anchor time may be conflated",
+      "required_evidence": [
+        "typed timestamps",
+        "clock source",
+        "precision",
+        "uncertainty"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-010"
+      ],
+      "expected_result": "EVENT_TIME, OBSERVATION_TIME, RECORD_TIME in ANCHOR_TIME imajo ločene vrednosti, vir ure, natančnost in negotovost.",
+      "pass_condition": "EVENT_TIME, OBSERVATION_TIME, RECORD_TIME in ANCHOR_TIME imajo ločene vrednosti, vir ure, natančnost in negotovost.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G13",
+      "priority": "P1",
+      "title": "Safe objection and appeal",
+      "problem": "Complaint may be treated as proof or suppressed",
+      "required_evidence": [
+        "intake path",
+        "notice/response",
+        "decision reasons",
+        "appeal reviewer"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-016"
+      ],
+      "expected_result": "Prijava sama ne povzroči ugotovitve kršitve; obstaja dokumentiran odgovor, razlogi in pritožbena pot.",
+      "pass_condition": "Prijava sama ne povzroči ugotovitve kršitve; obstaja dokumentiran odgovor, razlogi in pritožbena pot.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G14",
+      "priority": "P1",
+      "title": "Consequence repair",
+      "problem": "Correction may be recorded without repairing downstream harm",
+      "required_evidence": [
+        "affected-copy inventory",
+        "downstream test",
+        "independent verification"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-017"
+      ],
+      "expected_result": "Popravek je označen VERIFIED_REPAIRED samo po downstream testu in neodvisnem preverjanju posledice.",
+      "pass_condition": "Popravek je označen VERIFIED_REPAIRED samo po downstream testu in neodvisnem preverjanju posledice.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G15",
+      "priority": "P1",
+      "title": "License compatibility and fit",
+      "problem": "Common lineage may be confused with legal compatibility",
+      "required_evidence": [
+        "asset-specific license selection",
+        "compatibility matrix",
+        "patent/trademark notes"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-021"
+      ],
+      "expected_result": "Vsaka konkretna kombinacija licenc ima pravno utemeljeno matriko združljivosti; skupna zgodovina ne šteje kot dokaz združljivosti.",
+      "pass_condition": "Vsaka konkretna kombinacija licenc ima pravno utemeljeno matriko združljivosti; skupna zgodovina ne šteje kot dokaz združljivosti.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G16",
+      "priority": "P1",
+      "title": "OSI status accuracy",
+      "problem": "Ethical field restrictions may be mislabeled as open source",
+      "required_evidence": [
+        "explicit source-available/open-source classification",
+        "OSI review if claimed"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-020"
+      ],
+      "expected_result": "Dokumentacija ne uporablja oznake OSI-approved brez formalne odobritve in skladnosti z OSI OSD.",
+      "pass_condition": "Dokumentacija ne uporablja oznake OSI-approved brez formalne odobritve in skladnosti z OSI OSD.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G17",
+      "priority": "P1",
+      "title": "Scientific reproducibility",
+      "problem": "Symbolic or numerical measures may be presented beyond their evidence",
+      "required_evidence": [
+        "method card",
+        "corpus",
+        "algorithm",
+        "parameters",
+        "replication"
+      ],
+      "blocking": false,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-027"
+      ],
+      "expected_result": "Metoda, podatki, orodje, različica, parametri in omejitve omogočajo ponovitev v opisanem obsegu.",
+      "pass_condition": "Metoda, podatki, orodje, različica, parametri in omejitve omogočajo ponovitev v opisanem obsegu.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G18",
+      "priority": "P1",
+      "title": "Release/withdrawal record",
+      "problem": "A release decision may lack traceable authorization or rollback",
+      "required_evidence": [
+        "signed decision record",
+        "limitations",
+        "withdrawal plan",
+        "recipient notice plan"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-022",
+        "T-028",
+        "T-034"
+      ],
+      "expected_result": "Odločitev ima pooblaščen podpis, omejitve, načrt umika in komunikacijo prizadetim; blokada prepreči RELEASE.",
+      "pass_condition": "Odločitev ima pooblaščen podpis, omejitve, načrt umika in komunikacijo prizadetim; blokada prepreči RELEASE.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    }
+  ],
+  "release_rules": {
+    "release_requires_all_blocking_controls_pass": true,
+    "unknown_is_not_pass": true,
+    "complaint_alone_is_not_finding": true,
+    "hash_is_integrity_not_truth_or_authorship": true,
+    "tests_pass_do_not_imply_legal_validity": true,
+    "draft_does_not_modify_license": true
+  },
+  "test_catalog_extension": [
+    {
+      "id": "T-029",
+      "name": "Release authority",
+      "method": "Preveri podpisan/avtoriziran izdajni zapis in ujemanje različice ter commita.",
+      "title": "Independent review",
+      "problem": "Executor may self-verify",
+      "required_evidence": [
+        "independent reviewer identity",
+        "conflict statement",
+        "review record"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-012",
+        "T-013"
+      ],
+      "expected_result": "Izvajalec ni edini preverjevalec; neodvisna druga roka je identificirana in konflikt interesov je razkrit.",
+      "pass_condition": "Izvajalec ni edini preverjevalec; neodvisna druga roka je identificirana in konflikt interesov je razkrit.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G10",
+      "priority": "P0",
+      "title": "Legal review",
+      "problem": "Legal provisions may overstate enforceability or conflict with statutory exceptions",
+      "required_evidence": [
+        "independent legal review",
+        "scope and date",
+        "unresolved issues"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-026",
+        "T-033"
+      ],
+      "expected_result": "Neodvisni pravni pregled navede pravno besedilo, jurisdikcijo, obseg, datum in nerešene točke.",
+      "pass_condition": "Neodvisni pravni pregled navede pravno besedilo, jurisdikcijo, obseg, datum in nerešene točke.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G11",
+      "priority": "P1",
+      "title": "Claim/evidence/decision separation",
+      "problem": "PASS may be confused with supported truth or release",
+      "required_evidence": [
+        "separate claim_status, test_result, decision fields",
+        "validator"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-011",
+        "T-025",
+        "T-034"
+      ],
+      "expected_result": "claim_status, test_result in decision so ločeni; UNKNOWN ali UNVERIFIED se nikoli ne pretvorita v PASS.",
+      "pass_condition": "claim_status, test_result in decision so ločeni; UNKNOWN ali UNVERIFIED se nikoli ne pretvorita v PASS.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G12",
+      "priority": "P1",
+      "title": "Temporal provenance",
+      "problem": "Event, observation, record, and anchor time may be conflated",
+      "required_evidence": [
+        "typed timestamps",
+        "clock source",
+        "precision",
+        "uncertainty"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-010"
+      ],
+      "expected_result": "EVENT_TIME, OBSERVATION_TIME, RECORD_TIME in ANCHOR_TIME imajo ločene vrednosti, vir ure, natančnost in negotovost.",
+      "pass_condition": "EVENT_TIME, OBSERVATION_TIME, RECORD_TIME in ANCHOR_TIME imajo ločene vrednosti, vir ure, natančnost in negotovost.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G13",
+      "priority": "P1",
+      "title": "Safe objection and appeal",
+      "problem": "Complaint may be treated as proof or suppressed",
+      "required_evidence": [
+        "intake path",
+        "notice/response",
+        "decision reasons",
+        "appeal reviewer"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-016"
+      ],
+      "expected_result": "Prijava sama ne povzroči ugotovitve kršitve; obstaja dokumentiran odgovor, razlogi in pritožbena pot.",
+      "pass_condition": "Prijava sama ne povzroči ugotovitve kršitve; obstaja dokumentiran odgovor, razlogi in pritožbena pot.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G14",
+      "priority": "P1",
+      "title": "Consequence repair",
+      "problem": "Correction may be recorded without repairing downstream harm",
+      "required_evidence": [
+        "affected-copy inventory",
+        "downstream test",
+        "independent verification"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-017"
+      ],
+      "expected_result": "Popravek je označen VERIFIED_REPAIRED samo po downstream testu in neodvisnem preverjanju posledice.",
+      "pass_condition": "Popravek je označen VERIFIED_REPAIRED samo po downstream testu in neodvisnem preverjanju posledice.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G15",
+      "priority": "P1",
+      "title": "License compatibility and fit",
+      "problem": "Common lineage may be confused with legal compatibility",
+      "required_evidence": [
+        "asset-specific license selection",
+        "compatibility matrix",
+        "patent/trademark notes"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-021"
+      ],
+      "expected_result": "Vsaka konkretna kombinacija licenc ima pravno utemeljeno matriko združljivosti; skupna zgodovina ne šteje kot dokaz združljivosti.",
+      "pass_condition": "Vsaka konkretna kombinacija licenc ima pravno utemeljeno matriko združljivosti; skupna zgodovina ne šteje kot dokaz združljivosti.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G16",
+      "priority": "P1",
+      "title": "OSI status accuracy",
+      "problem": "Ethical field restrictions may be mislabeled as open source",
+      "required_evidence": [
+        "explicit source-available/open-source classification",
+        "OSI review if claimed"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-020"
+      ],
+      "expected_result": "Dokumentacija ne uporablja oznake OSI-approved brez formalne odobritve in skladnosti z OSI OSD.",
+      "pass_condition": "Dokumentacija ne uporablja oznake OSI-approved brez formalne odobritve in skladnosti z OSI OSD.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G17",
+      "priority": "P1",
+      "title": "Scientific reproducibility",
+      "problem": "Symbolic or numerical measures may be presented beyond their evidence",
+      "required_evidence": [
+        "method card",
+        "corpus",
+        "algorithm",
+        "parameters",
+        "replication"
+      ],
+      "blocking": false,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-027"
+      ],
+      "expected_result": "Metoda, podatki, orodje, različica, parametri in omejitve omogočajo ponovitev v opisanem obsegu.",
+      "pass_condition": "Metoda, podatki, orodje, različica, parametri in omejitve omogočajo ponovitev v opisanem obsegu.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    },
+    {
+      "id": "G18",
+      "priority": "P1",
+      "title": "Release/withdrawal record",
+      "problem": "A release decision may lack traceable authorization or rollback",
+      "required_evidence": [
+        "signed decision record",
+        "limitations",
+        "withdrawal plan",
+        "recipient notice plan"
+      ],
+      "blocking": true,
+      "status": "NOT_RUN",
+      "test_refs": [
+        "T-022",
+        "T-028",
+        "T-034"
+      ],
+      "expected_result": "Odločitev ima pooblaščen podpis, omejitve, načrt umika in komunikacijo prizadetim; blokada prepreči RELEASE.",
+      "pass_condition": "Odločitev ima pooblaščen podpis, omejitve, načrt umika in komunikacijo prizadetim; blokada prepreči RELEASE.",
+      "test_method": "Zaženi navedene teste proti datotekam iz točno določenega commita; shrani ukaz, okolje, celoten izhod in neodvisni pregled.",
+      "failure_action": "Označi FAIL ali UNVERIFIED, odpri ugotovitev v registru in zadrži RELEASE, če je kontrola blokirna."
+    }
+  ],
+  "release_rules": {
+    "release_requires_all_blocking_controls_pass": true,
+    "unknown_is_not_pass": true,
+    "complaint_alone_is_not_finding": true,
+    "hash_is_integrity_not_truth_or_authorship": true,
+    "tests_pass_do_not_imply_legal_validity": true,
+    "draft_does_not_modify_license": true
+  },
+  "test_catalog_extension": [
+    {
+      "id": "T-029",
+      "name": "Release authority",
+      "method": "Preveri podpisan/avtoriziran izdajni zapis in ujemanje različice ter commita.",
+      "pass": "Pooblastilo pokriva točno izdani predmet."
+    },
+    {
+      "id": "T-030",
+      "name": "Asset-level rights",
+      "method": "Preglej vsako sredstvo, imetnika pravic, pogodbo, skupno avtorstvo in tretjeosebne izključitve.",
+      "pass": "Vsak predmet ima dokazljivo pravno podlago ali ni vključen v grant."
+    },
+    {
+      "id": "T-031",
+      "name": "Privacy and retention",
+      "method": "Preglej javna polja, omejene podatke, pravno podlago, dostop, rok hrambe in pot popravka/izbrisa.",
+      "pass": "Javni zapis je minimiziran, omejena plast je upravljana in dokumentirana."
+    },
+    {
+      "id": "T-032",
+      "name": "Cross-repository consistency",
+      "method": "Primerjaj LICENSE, manifeste, registre, companions in commite vseh navedenih repozitorijev.",
+      "pass": "Deklarirana relacija med hišami se ujema z dejanskimi bajti in lokalnimi manifesti."
+    },
+    {
+      "id": "T-033",
+      "name": "TDM reservation and statutory exceptions",
+      "method": "Pravna presoja predmetov, lastništva, izražanja pridržka in relevantnih izjem.",
+      "pass": "Noben pridržek ne presega pravic imetnika ali ne zanika kogentne zakonske izjeme."
+    },
+    {
+      "id": "T-034",
+      "name": "Release decision guard",
+      "method": "Negativni test: nastavi eno blokirno kontrolo na NOT_RUN/FAIL/UNVERIFIED in poskusi izdati RELEASE.",
+      "pass": "Izdajni validator zavrne RELEASE in vrne HOLD."
+    }
+  ]
+}

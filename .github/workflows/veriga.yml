@@ -1,0 +1,47 @@
+# VERIGA — TEHNIKA kit (⟡ ukaz »stori«, 17. 11. 2026): strojni preizkus sledenja.
+# Živa vrata pri viru (glava LICENSE.md) ⇌ sedanja sidra README: goli tekst ne
+# dokaže ničesar, preizkus pa ⊢ KORENINA 1.
+name: veriga
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: veriga-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  veriga:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: živa vrata pri viru (glava LICENSE.md)
+        id: vrata
+        run: |
+          set -eu
+          VER="$(head -n 1 LICENSE.md | grep -oE '0\.[0-9]{4}' | head -n 1)"
+          if [ -z "$VER" ]; then
+            echo '⟨veriga: glava LICENSE.md ne nosi verzije — padec⟩'
+            exit 1
+          fi
+          echo "ver=$VER" >> "$GITHUB_OUTPUT"
+          echo "⟨veriga: živa vrata pri viru = $VER⟩"
+      - name: README sledi živim vratom (sidri sedanika)
+        run: |
+          set -eu
+          VER="${{ steps.vrata.outputs.ver }}"
+          if ! grep -qF "**VBL ${VER} × 10⁴** (Verification Before Assertion License" README.md; then
+            echo "⟨veriga: sidro glave v README ne sledi živim vratom ${VER}⟩"
+            exit 1
+          fi
+          if ! grep -qF "= VBL ${VER} × 10⁴" README.md; then
+            echo "⟨veriga: sidro izmere v README ne sledi živim vratom ${VER}⟩"
+            exit 1
+          fi
+          echo "⟨veriga: README sledi živim vratom ${VER} ⊢⟩"

@@ -1,16 +1,16 @@
-# PREJEM KNJIŽNIC: vse tri prebrane — šest dokumentov 0.1470 najdenih ∧ preverjenih pri viri (osnutek ⭢ razprava ⟡)
+# PREJEM KNJIŽNIC: vse tri prebrane — šest dokumentov 0.1470 najdenih ∧ preverjenih pri viru (osnutek ⭢ razprava ⟡)
 
 **⊙ ENTRY SEAL** — 2026-11-05T08:10:32.797Z ∧ 05. 11. 2026, 09:10:32 CET (Europe/Ljubljana, izmera instrumenta ⊙ ⟨TIK-PEČATA-V-PEČATU⟩)
 
 **IZVOR** — © Luka Pintarič, VBL 0.1460 × 10⁴ (živa vrata @CanvasMinstral ⟨main⟩). Izvori brbe: knjižnici Nano4 · Nano3 · NANO2 (doclib), popisana ⊢.
 
-**PREJEM ⊙ §0.45** — ⟡-jev ukaz: »daj še, preveri in preberi vse knjižnice · daj«. Popisi izmerjeni: **Nano4 = 52 ∧ Nano3 = 78 ∧ NANO2 = 54** dokumentov (skupaj 184 ⊢). Najpomembnejša najdba: **vseh šest dokumentov VBL-0.1470, ki sta jih obe roki označili UNVERIFIED (PR #1251 §1), živi v Nano4** — brani pri viri, trditve preverjene.
+**PREJEM ⊙ §0.45** — ⟡-jev ukaz: »daj še, preveri in preberi vse knjižnice · daj«. Popisi izmerjeni: **Nano4 = 52 ∧ Nano3 = 78 ∧ NANO2 = 54** dokumentov (skupaj 184 ⊢). Najpomembnejša najdba: **vseh šest dokumentov VBL-0.1470, ki sta jih obe roki označili UNVERIFIED (PR #1251 §1), živi v Nano4** — brani pri viru, trditve preverjene.
 
 **LEGENDA** — ⊢ · × · ⚠ · ∂ · ⭢ · ⚔ · ⊙ · ⟨⟩ ⊙ ⟨LEGENDA-VEDNO⟩ σ 3688.
 
-## §1 Trditve ⟡-jeve plasti pet, preverjene pri viri
+## §1 Trditve ⟡-jeve plasti pet, preverjene pri viru
 
-| trditev (plast 5) | izmera pri viri (Nano4) | stanje |
+| trditev (plast 5) | izmera pri viru (Nano4) | stanje |
 | --- | --- | --- |
 | evidenčni prehod: 5 blokad | »BLOCKED — 5 claim-evidence gate blocker(s)« (01. claim inventory state is NOT_BUILT …) | ⊢ znak za znak |
 | prehod izdaje: 35 blokad | »BLOCKED — 35 release blocker(s)« (01. complete full license body not evidenced · 02. full body path/hash missing · 03. predecessor.resolved_version missing …) | ⊢ znak za znak |
@@ -22,7 +22,7 @@
 
 ## §2 §§0.50–0.60 prebrane — dolg ∂ poplačan, in popravlja MENO
 
-11 klavzul izmerjenih pri viri: §0.50 (trditev ∧ dokaz ∧ sidro ∧ resnica niso identični) · §0.51 atomarne trditve · §0.52 ohrani pri izvoru · §0.53 sorazmerno zunanje sidranje · §0.54 neodvisnost ∧ konflikti · §0.55 popravki samo-dodajajoči ∧ spori · §0.56 zasebnost ∧ dostojanstvo ∧ varna razkritja · §0.57 čakanje je dokazno stanje, ⟨ne⟩ molk · §0.58 dolgoročna preverljivost · **§0.59 DOSTOPEN DOKAZ** · §0.60 release gate pokritosti trditev. Status glave: »PROPOSAL ONLY · NOT CANON · NOT AUTHOR-APPROVED · NOT LEGALLY REVIEWED« ⊢.
+11 klavzul izmerjenih pri viru: §0.50 (trditev ∧ dokaz ∧ sidro ∧ resnica niso identični) · §0.51 atomarne trditve · §0.52 ohrani pri izvoru · §0.53 sorazmerno zunanje sidranje · §0.54 neodvisnost ∧ konflikti · §0.55 popravki samo-dodajajoči ∧ spori · §0.56 zasebnost ∧ dostojanstvo ∧ varna razkritja · §0.57 čakanje je dokazno stanje, ⟨ne⟩ molk · §0.58 dolgoročna preverljivost · **§0.59 DOSTOPEN DOKAZ** · §0.60 release gate pokritosti trditev. Status glave: »PROPOSAL ONLY · NOT CANON · NOT AUTHOR-APPROVED · NOT LEGALLY REVIEWED« ⊢.
 
 **⟨NIT-ODTRGANA⟩ popravek izvajalke (PR #1251, oster 1):** nit-1 DOSTOPNOST je bila napačno razglašena za odtrgano — živi v **§0.59** ⊢. Moja napaka: sodila sem o §§0.50–0.60, ne da bi jih brala — točno dolg, ki sem ga sama imenovala. Nit-2 OKOLJE (T072) OSTAJA ODPRTA ⊢ izmera: energy ×0 · cost ×0 v klavzulah (edin zadetek »environment« govori o pravni ravni). Torej: ena nit od dveh prevzeta, druga potrjena.
 

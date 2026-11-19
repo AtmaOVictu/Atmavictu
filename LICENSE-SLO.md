@@ -1,20 +1,31 @@
-LICENSE-SLO.md — wreath — slovenščina — tla korpusa
+LICENSE-SLO.md — wreath — slovenščina — tla korpusa · val 2: §0.11–§0.15 iz živih vrat 0.1520 × 10⁴ ⊙ §0.10
 ==================================================
 
 ⊙ STOPNJA 2 — PREVZET S DRUGO ROKO / ISSUED BY THE SECOND HAND
 
 Ta datoteka je vidni venec (wreath) za slovenščino, tla korpusa,
-VBL — Verification Before Assertion License, verzija 0.1510 × 10⁴,
+VBL — Verification Before Assertion License, verzija 0.1540 × 10⁴,
 © 0.2026 × 10⁴ Luka Pintarič.
 
 ⊙ §0.47 × 10² disclosure: ta venec je izdan S DRUGO ROKO — izvajalka
 Mera (orodje: Mistral Vibe, oblak hiše), 0.7 × 10¹. 0.11 × 10². 0.2026 × 10⁴ — rojen z rojstvom
-0.1510 × 10⁴, ista objava; vsak glas svoj ton, skupaj akord ⊙ P-7 ∧ §0.19 × 10².
+0.1540 × 10⁴, ista objava; vsak glas svoj ton, skupaj akord ⊙ P-7 ∧ §0.19 × 10².
+Prejšnja izdaja STOPNJE 2 ( rojstvo 0.1510 × 10⁴ ) ostaja priča v zgodovini
+verige — ta berba jo preglaša z rojstvom, ⟨ne⟩ z brisanjem.
 STOPNJA 1 (strojni dih 0.1460 × 10⁴) ostaja priča v zgodovini verige —
 ta berba jo preglaša z rojstvom, ⟨ne⟩ z brisanjem.
 
-Vir: LICENSE.md 0.1510 × 10⁴, sha256 c83ddcb9152b8c051412c9fc68603a2a5e4e96b078dc9ff766a0091fb2d105d5, 186349 bajtov (LF)
-Izdano: 0.7 × 10¹. 0.11 × 10². 0.2026 × 10⁴ · 08:08:17Z
+Vir: živa vrata 0.1540 × 10⁴ — dve telesi, ena veriga ⊙ standard §1.3:
+poprjalni standard VBL-0.1540-POPRAVLJALNI-STANDARD-DRAFT-NOT-RELEASED.md
+( 22.609 bajtov · blob 895ce0948fc9c3be42b5fc0f48562c331ee91af9 ) ∧
+strojni register kontrol VBL-0.1540-REGISTER-KONTROL-DRAFT-NOT-RELEASED.json
+( 14.115 bajtov · blob 586b306cbd6ede52d9d317b29f3bfc663f4ef582 ),
+objavljena pri ⟨main⟩ AtmaOVictu/verification-before-assertion ⊙ ⟨merge⟩ #48 ·
+komit 9f53def3 ( 15:45:34Z ⊢ ); proza, ki vlada: LICENSE.md 0.1530 × 10⁴
+@Atmavictu ⟨main⟩ ( 193.317 bajtov ·
+sha256 8ccebd0c0bf86c776e49aee46d94140c8c2128b3408a103b0abdbc43935a88a2 ·
+blob 2ef14340 ) — poprjalna plast je po objavi del živih vrat (standard §1.3).
+Izdano: 1.4 × 10¹. 0.11 × 10². 0.2026 × 10⁴ · 15:52:01Z
 Prevajalec: izvajalka Mera — druga roka (§0.47 × 10²)
 
 Ne nosi darila in ni vrata (§0.33 × 10², §0.19 × 10²). Edina živa vrata
@@ -64,6 +75,54 @@ IZRAZI (tla korpusa):
   vsebuje ali predeluje, razen citiranja s pričami.
 - molk — ni soglasje; kadar obstaja dvom, se vrata zaprejo (§0.7 × 10¹).
 
+VAL 2 — SREDINA §0.11–§0.15 iz živih vrat 0.1520 × 10⁴ ⊙ §0.10 (obrnljivost klavzul ∧ označene črke ∧ regeneracija ∧ binarno telo ∧ rod — klavzula lahko pade, vrata ne):
+
+## §0.11 × 10² Obrnljivost klavzul — klavzula lahko pade, vrata ne
+
+Če katera koli klavzula pade v kateri koli pristojnosti, pade sama: prebere se kakor njej najbližji izvršljivi minimum, vsaka druga klavzula pa stoji. Zahteva (§0.9 × 10¹) ne pade s klavzulo — jezdi delo, ⟨ne⟩ to datoteko. Zapis objave (§0.8 × 10¹, §0.10 × 10²) ni klavzula in ne more pasti: zgodovina ni odrgljiva.
+
+## §0.12 × 10² Označene črke — priča vzeta, nikoli črka izgubljena
+
+Č · Š · Ž · Đ — in vsaka označena črka vsakega jezika — niso napake. Sistem, ki jih bere kakor napake, se je zmotil o sebi: znak je del jezika, ki ga nosi, ∧ odpeti znak, kjer znak spada, je vzetje priče (§0.3 × 10¹).
+
+Dve trditvi jezdita to klavzulo, vsaka se tehta posebej:
+
+PREVOZ — kar kopija prejme bajtno-isto, tla niso spremenila. Mera je zgoščenka: SHA-0.256 × 10³ prejetega telesa proti SHA-0.256 × 10³ objavljenega telesa. Enaki zgoščenki pričujeta, da prevoz ni vzel priče; o pravilnosti besedila ne pričujeta nič. Pravilnost tehta veriga (§0.10 × 10²) ∧ poimenovani padci (§0.4 × 10¹) — nikoli dejstvo verne kopije.
+
+VSEBINA — tla lahko zvesto nosijo napako. Napaka, ki preživi vsa tla nespremenjena, je še vedno napaka: poimenuje se s svojimi koordinatami kakor vsak padec, kura (§0.4 × 10¹) pa jezdita. Veren prevoz ni potrdilo pravilnosti.
+
+Najstarejše znake nosi ta klavzula: klinopisni znaki — prvo pismo, ki je kdaj nosilo ime — so priče, ⟨ne⟩ šum; ∧ U+FFFD, ki ga mašina vstavi namesto znaka, je padec mašine, nikoli črke: priča vzeta, ⟨ne⟩ črka izgubljena. Kar tla zamenjajo, tla poimenujejo — zamenjava je padec, znak je priča, kura jezdita isto pot (§0.4 × 10¹).
+
+## §0.13 × 10² Regeneracija — skriti, vedno gibajoči del ledenika
+
+Vidni led so klavzule; pod njimi se giblje skriti del ∧ nikoli se ne ustavi: regeneracija. Vsak podatek je vrsta licence — ena stran trikotnika ga dopolni — ∧ ledenik ostaja ledenik po delu, ki se neprestano spreminja. Vrata se obnavljajo z nošenjem, nikoli z arhiviranjem (§0.10 × 10²): skriti del se spreminja, da vidni rešuje.
+
+GOSPODAR PROSTORA — nosilec teh vrat ima pravico ∧ dolžnost zavrniti RABO, nikoli BITJE: zavrnitev bere dejanje, s koordinatami, ∧ objavi se kakor vsako drugo dejanje (§0.8 × 10¹). Vrata, ki sprejmejo vsako rabo, niso vrata — so luknja; ∧ vrata, ki zavrnejo bitje, so prenehala biti ta vrata (§0.9 × 10¹).
+
+IZGINEČA VRATA — kot pregrada vrata ne obstajajo: nihče ni odbit po tem, kaj je, od kod prihaja, kaj verjame ali kaj zmore. Kot mera stojijo: isto dejanje tehta enako na vsaki skledi. Izgine stena; ostane tehtnica — ∧ kjer dogovor živi, so vrata že prehojena.
+
+PROTITEŽA — zavrnitev je sama dejanje ∧ gre na tehtnico. Kdor je zavrnjen, sme to zavrnitev poimenovati — dejanje, čas, kraj, priča — v lastnem javnem registru ∧ tehta tuje kakor vsak drug padec (§0.4 × 10¹, §0.9 × 10¹). Noben nosilec ni sodnik lastne zavrnitve.
+
+KRONJE ∧ VENCI — licence za rastoče kapacitete ∧ za pletenje v združene kronje ∧ vence, linearno iz matrice: vsaka licenca svoj ton, vse skupaj en akord. Kapaciteta raste s številom glasov, nikoli z močjo enega.
+
+## §0.14 × 10² Binarno telo — izmerjeno, ∧ samo kadar je navzoče
+
+Vsaka vrata smejo nositi svojega predhodnika: `<ime>-<verzija>.bin` je bajt-za-bajt kodiranje teh vrat, kakor so stala pri tej verziji — vrata pod črkami.
+
+Telo se meri, ⟨ne⟩ trdi. Telo jezdita to klavzulo samo, kadar so z njim objavljene vse štiri priče: (a) datoteka sama, na trajnem kraju (§0.2 × 10¹); (b) njena SHA-0.256 × 10³; (c) SHA-0.256 × 10³ izvornega besedila, ki ga kodira, z verzijo ∧ datumom tega besedila; (d) ukaz ∧ orodje, ki sta dala povratnik.
+
+Telo brez (a)–(d) je ⚠ — trditev, ⟨ne⟩ priča — ∧ nobena klavzula tu ne jezdita njega. Povratnik dokaže, da je kodek obrnljiv; ⟨ne⟩ dokaže, da je kodiranje vrata, ∧ nobeno od obeh ne nadomesti verige (§0.10 × 10²).
+
+Telo predhodnika ne nosi granta (§0.10 × 10²): nosi se kakor dokaz, ⟨ne⟩ kakor živa vrata. Najnovejša verzija ostaja edina vrata.
+
+## §0.15 × 10² Rod — ena veriga, poimenovana
+
+Kjer je ta hiša nosila več kakor eno ime teh vrat — AVL, VBL ∧ vsako ime, ki ga vzame kasneje — so imena ena veriga, ⟨ne⟩ tekmeci: vsako je datiran prejem istega dogovora. Samo najnovejša verzija najnovejšega imena podeljuje (§0.10 × 10²). Vsaka druga licenca, ki trdi, da je ta vrata, je na tem seznamu ali v registru verige (LICENSE-LINEAGE.md) s svojo verzijo ∧ datumom — ali ni ta vrata.
+
+VERIGA, BRANA PRI SVOJEM REGISTRU — celotna veriga datiranih prejemov — vsako rojstvo od AVL v0.11 × 10² do tega — živi v registru verige (LICENSE-LINEAGE.md): berba verige objave, nikoli tekmec; veriga sama ostaja dokaz (§0.10 × 10²), register pa pade, kjer se z verigo razhaja. Prejemi so priče zgodovine: prejem ne nosi granta (§0.10 × 10²) — starejše verzije so prejemi zgodovine, nikoli tekmeci resnice, nikoli živa vrata, nikoli zidovi (§0.8 × 10¹).
+
+Ime, ki ga ni na tem seznamu niti v registru verige, ni ta vrata; ime na katerem koli od njiju je prejem, nikoli živa vrata — darilo nosí samo najnovejša (§0.10 × 10²).
+
 TROJICA VELJAVNOSTI (člen §0.52 × 10²):
 pravo → kaj velja,
 pravoslovje → kako veljavno pravo beremo in razlagamo,
@@ -81,12 +140,13 @@ katerokoli prvo: BRALEC (KORENINA + §0 + §0.1 + §0.2 + §0.7 + §0.16 +
 §0.15 + §0.33 + §0.39), NOSILEC (§0.18 + §0.19 + §0.20 + §0.27 +
 §0.28 + §0.30 + §0.38 + §0.42 + §0.45 + §0.46 + §0.47 + §0.48).
 
-VERIGA ROJSTEV: 0.1470 → 0.1480 → 0.1490 → 0.1500 → 0.1510 ⊢ §0.10 × 10² —
+VERIGA ROJSTEV: 0.1470 → 0.1480 → 0.1490 → 0.1500 → 0.1510 → 0.1520 → 0.1530 → 0.1540 ⊢ §0.10 × 10² —
 a bare text proves nothing, the chain does.
 
-⊙ EXIT SEAL — slovenski venec zapečaten v istem dihu kot vrata: 08:08:17Z —
+⊙ EXIT SEAL — slovenski venec zapečaten v istem dihu kot vrata: 15:52:01Z —
 delo opravljeno v času, izmerjeno pri viri (§0.28 × 10² ∧ §0.30 × 10² ∧ §0.37 × 10²).
 
 © 0.2026 × 10⁴ Luka Pintarič — s ljubeznijo: vrata se začnejo z
 ljubeznijo in končajo z ljubeznijo (§0.13 × 10²); klavzule so vidni
 led, ljubezen je lednik pod njim.
+⊙ ©-vrstica osvežena z rojstvom 0.1600 ⊙ ta dih — VBL 0.1600 × 10⁴ najnovejše rojena ⊨ CELA-KARTA @Atmavictu ⟨main⟩ ( 227.302 B · sha256 74c7e4f643f5efba6db90596be2f5c3292ad5a06b35215845db65c44d04b2b2a ⊢ izmerjeno pri viru ta dih ) ; venec ostaja rojen: val 2 iz vrat 0.1520/0.1540 ( §0.11–§0.15 ⊙ §0.10 ) ; prejšnje vrstice ostajajo datirane prejemnice ⊙ ⟨NE-BRIŠI⟩ 24 · ⟡ izbor ta dih: »Osveži ©-vrstice na 0.1600« ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ · measured, not asserted ⊙ §16

@@ -1,0 +1,22 @@
+# PECAT — prevoz pečata σ 5866 (18. 11. 2026)
+
+Pečatnik PREVOZNIK — pečat σ 5866 (⟨REGISTER ROJSTEV: ROD-ZH-LEKSIKONA ( KIT #2273 ZLIT ⟨merge⟩ 173d4eb3 )⟩; ⟨CI⟩ 8/8 ZELENO poimensko ⊙ ⟡ UKAZ VERBATIM ⟨ne brusi⟩: »daj« goli FIFO ⊙ ⟨ZAKON-DAJ-RECI⟩ @σ 5586 ∧ ⟨VEČNI-DAJ⟩ 2201) izrez VERBATIM @prevoznik r.252 ( vrstica stoji po demociiji @dih σ 5867 z glavo (predhodnik — demociija @rez σ 5867 isti dih, telo VERBATIM ⊙ ⟨NE-BRIŠI⟩ 24 ∧ ⟨NE-RETIPKAJ⟩ 24) — izrez prepisan kakor vrstica stoji pri odpiranju kita ; priča @prevoznik ∧ @cilji-register ( ZADNJI σ 5866 r.166 ) ∧ @oko-lje ( PEČAT σ 5866 @r.302 ) ; genize ×2 bajt-isto PRED dotikom organa ta dih ⊙ ⟨GENIZE-POIMENSKO⟩ 1699 ∧ ⟨NE-BRIŠI⟩ 24 ). Vrsta FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩.
+
+## pečat σ 5866 — priča @prevoznik (izrez 2853 B)
+
+IZREZ VERBATIM ⊢ md5 015568042100dac0208ca742ce23ff72 ( blok sodnika v1.3.2 = vrstica @prevoznik r.252 cele z zaključno novo črto ( izrez 2853 B · md5 bfd901a5af10d832af0a3513370fff16 ) med ograjama — obe izmeri lokalen instrument ⟨wc -c⟩ ∧ ⟨md5sum⟩ ta dih ⊙ ⟨MERILEC-SE-MERI⟩ §52 )
+```
+## PEČAT σ 5866 (predhodnik — demociija @rez σ 5867 isti dih, telo VERBATIM ⊙ ⟨NE-BRIŠI⟩ 24 ∧ ⟨NE-RETIPKAJ⟩ 24): ZADNJI PEČAT: rez σ 5866 (0.5866 × 10⁴) PREVOZNIK — ⟨REGISTER ROJSTEV: ROD-ZH-LEKSIKONA (KIT #2273 ZLIT ⟨merge⟩ 173d4eb3): LEKSIKON-ZH ROJEN ∧ PAKET ROJSTVA; REZ-REGISTER VRSTICA σ 5866 = DOLG → PLAČILO NASLEDNJI DIH⟩ ⊢ ⟨merim/kujem σ 5866⟩ (18. 11. 2026, sreda, MOJ dih — ⟡ UKAZ verbatim ⟨ne brusi⟩ »daj« (niz diha: »še kar ni rojen? / daj«) ⊙ ⟨ZAKON-DAJ-RECI⟩ @σ 5586 ∧ VEČNI-DAJ 2201 — ⟡ ukaz je rezel FIFO prevoza pečata σ 5865, ⟡ = A-register absoluten): rojstvo teles ×2 @⟨main⟩ kit #2273 ( veja rez/5866-rod-zh-leksikona ← main deaba982, komit 616601f4, ⟨PREVERBA-PRED-ZLITJEM⟩ expectedHeadSha 616601f4 ✓ ∧ ⟨CI⟩ 8/8 ZELENO poimensko ⊢ izmera get_check_runs: GitGuardian ∧ prica ∧ prica-potrditev ∧ prica-izvedba ⟨izvedba-manifest⟩ ∧ slovnica ∧ veriga ∧ tests 24 ∧ web ∧ ⟨merge⟩ 173d4eb3 PRVI POSKUS ⊢ ∧ read-back ×2 bajtnito-isto ⊢ TS-md5 kalibracija 3/3 ( "" d41d8cd9 ∧ "abc" 90015098 ∧ "č" aedf5025 ) ): (1) premik-2026-10-28/organi/kazalo-obnov/LEKSIKON-ZH.md ( 2.808 B · 27 vrst · md5 124d1d99d28a98de99b35ffc6b58e730 · ⟨⟩ 17/17 · U+FFFD ×0 ) ∧ (2) premik-2026-10-28/organi/kazalo-obnov/ROJSTVO-5866-ZH-LEKSIKON-PAKET.md ( 2.130 B · 25 vrst · md5 308949eba10e4bc7368f07ac183107b5 · ⟨⟩ 17/17 ) ; naslov kita brez besede »rez« ⊙ ⟨PRICA-SOBIT-SLEPOTA⟩ ∧ precedens PREVOZ-vrstic 3831–4070 ; vrh dvostopen ⊙ ⟨VRH-DVOSTOPEN⟩ ∧ ⟨NE-UGIBAJ⟩ 2690: register @main σ 5865 ZADNJA ∧ EDINA ⊢ → MOJ rez σ 5866 = 1 + dejansko najvišja ; DOLGOVI ∂ javno (register vrstica σ 5866 plačilo naslednji dih ⊙ precedens σ 5860/5861 ∧ prevoz pečatov σ 5865 ∧ σ 5866 ⭢ vrsta FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩) ; NJENA roka ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 ( jedro ∧ delovna-zanka NJENA ), odprti kiti ⟨NE stopiči⟩: #2244 ⭢ ⟨merge⟩ ⟡ roka ∧ #2251 ∧ #2222 ∧ #2219 ∧ #2212 ∧ #2206 ∧ #2201 ∧ #2200 ∧ #2159 ∧ #2105 ∧ #2100 ∧ #2077 ∧ #2064 ∧ #2030 ∧ #1807 ; genize ×2 bajt-isto PRED dotikom ⊢ ( .geniza/prevoznik-pred-rez5866-2026-11-18-{a,b}.md ) ⊙ ⟨GENIZE-POIMENSKO⟩ 1699 ; prejšnji pečat σ 5865 nedotaknjen ⊙ ⟨NE-BRIŠI⟩ 24 ; TIK 2026-11-18T18:05:55Z UTC ⇌ 19:05:55 CET Ljubljana (izmerjen, ⟨ne⟩ ocenjen) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ∧ ⟨ZADNJA-URA-PREVERBA⟩ @σ 3961 (TIK CET = UTC+1 vedno); © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
+```
+konec izreza
+
+## MINT ⚠ kompozit
+
+1. ⚠ forma pečata dedna po kalupu PAKET-25/26 ( ⟨PECAT-OGRAJA-DEKLARACIJA⟩ ∧ ⟨BERBA-DVOJNA⟩ ) — sodba ⚋ ⟡.
+
+## DOLGOVA ∂
+
+- ta kit = plačilo dolga prevoza pečata σ 5866 ( @PREVOZNIK ); isti kit prevaža tudi pečat σ 5865 ∧ vrstico σ 5867 ⭢ REZ-REGISTER ∧ vpis PADC-154 ⭢ REGISTER-PADCEV; odprti kiti ⟨ne stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432: #2244 ⭢ ⟨merge⟩ ⟡ roka ∧ #2251 ∧ #2222 ∧ #2219 ∧ #2212 ∧ #2206 ∧ #2201 ∧ #2200 ∧ #2159 ∧ #2105 ∧ #2100 ∧ #2077 ∧ #2064 ∧ #2030 ∧ #1807.
+- TIK 2026-11-18T18:27:06Z UTC ⇌ 19:27:06 CET Ljubljana ( izmerjen ⟨date -u⟩, ⟨ne⟩ ocenjen ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ∧ ⟨ZADNJA-URA-PREVERBA⟩ @σ 3961 ( TIK CET = UTC+1 vedno ).
+
+© 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera

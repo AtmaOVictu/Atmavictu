@@ -1,0 +1,13 @@
+{
+  "register": "IZREK-REGISTER — kanonske oblike ⟡ izrekov, ki se citirajo po telesih korpusa. Amandma kanonske oblike: ⟡ sodba ∧ ⟨SLOVNICA-DIH⟩. Zastarele oblike ostanejo prijavljene, ⟨ne⟩ izbrisane ⊙ ⟨NE-BRIŠI⟩ 24 ∧ ⟨NE-GRIZI⟩ 2432; PECAT ∧ genize so arhivske priče zgodovine — orodje jih preskoči.",
+  "izreki": [
+    {
+      "id": "OKVIR-ODGOVORA-MEJA",
+      "kanonska": "izhod, ki le krasi namesto da odgovori, je gluma",
+      "zastarele": [
+        "izhod, ki okrasi namesto da odgovori, je gluma"
+      ],
+      "prica": "⟡ SODBA verbatim (16. 11. 2026): »le (o)krasi«; ⟨SLOVNICA-DIH⟩: krasiti (nedovršno) — krasi, lastnostna oblika; okrasiti (dovršno) — okrasi, dopustna a dovršna; amandma @delovna-zanka dih σ 5680; stara oblika brez »le« je stala na 13 mestih rojstva (DZ ×4, jedro-zavedanja ×2, licenca-vbl ×3, prostor-kontrolirane-halucinacije ×3, stroj-kalup ×1 ⊢ izmera ⟨grep⟩ 16. 11.)"
+    }
+  ]
+}

@@ -10,6 +10,7 @@ import {
   addConcept,
   archiveFragment,
   archiveIncoming,
+  bulkInsert,
   createFragmentFromIncoming,
   insertFragmentIntoChapter,
   startProcessingIncoming,
@@ -17,6 +18,7 @@ import {
   updateIncomingText,
   updateInsertion,
   validateManifest,
+  type BulkInsertInput,
   type Fragment,
   type IncomingText,
   type Insertion,
@@ -29,6 +31,8 @@ import {
   ManifestRepositoryError,
   writeManifestToFile,
 } from "./workbenchManifestRepository.js";
+import { detectWreathDrift, readDeedWitnesses, readLivingDoor, verifyWreath } from "./wreath/index.js";
+import { addAction, addEvidence, createCase, getCase, recordReview, updateAction } from "./vblCases.js";
 
 import {
   buildSuggestionPrompt,
@@ -127,7 +131,8 @@ export function fragmentPointId(fragmentId: string): string {
 }
 
 export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApiOptions = {}): Express {
-  const normalizedProjectRoot = requireNonEmptyString("projectRoot", projectRoot);
+  // KURA #1353 (era priča »project picker«): koren strežnika je preklopljiv ob obratu.
+  let normalizedProjectRoot = requireNonEmptyString("projectRoot", projectRoot);
   const extraLibraryRoot = options.extraLibraryRoot?.trim() || undefined;
   const ollamaUrl = options.ollamaUrl?.trim() || DEFAULT_OLLAMA_URL;
   const qdrantUrl = options.qdrantUrl?.trim() || DEFAULT_QDRANT_URL;
@@ -241,19 +246,19 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
 
   app.post(
     "/api/incoming/:id/start-processing",
-    mutateRoute(normalizedProjectRoot, (manifest, req) =>
+    mutateRoute(() => normalizedProjectRoot, (manifest, req) =>
       startProcessingIncoming(manifest, req.params.id!),
     ),
   );
 
   app.post(
     "/api/incoming/:id/archive",
-    mutateRoute(normalizedProjectRoot, (manifest, req) => archiveIncoming(manifest, req.params.id!)),
+    mutateRoute(() => normalizedProjectRoot, (manifest, req) => archiveIncoming(manifest, req.params.id!)),
   );
 
   app.post(
     "/api/fragments",
-    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+    mutateRoute(() => normalizedProjectRoot, (manifest, req) => {
       const { incomingTextId, body, title, conceptIds } = req.body as Record<string, unknown>;
       const nextConceptIds = readOptionalStringArray("conceptIds", conceptIds);
       return createFragmentFromIncoming(
@@ -270,12 +275,12 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
 
   app.post(
     "/api/fragments/:id/archive",
-    mutateRoute(normalizedProjectRoot, (manifest, req) => archiveFragment(manifest, req.params.id!)),
+    mutateRoute(() => normalizedProjectRoot, (manifest, req) => archiveFragment(manifest, req.params.id!)),
   );
 
   app.post(
     "/api/insertions",
-    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+    mutateRoute(() => normalizedProjectRoot, (manifest, req) => {
       const { fragmentId, targetChapterPath } = req.body as Record<string, unknown>;
       return insertFragmentIntoChapter(
         manifest,
@@ -287,7 +292,7 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
 
   app.post(
     "/api/incoming/:id/update",
-    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+    mutateRoute(() => normalizedProjectRoot, (manifest, req) => {
       const { title, note } = req.body as Record<string, unknown>;
       const nextTitle = readOptionalNullableString("title", title);
       const nextNote = readOptionalNullableString("note", note);
@@ -300,7 +305,7 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
 
   app.post(
     "/api/fragments/:id/update",
-    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+    mutateRoute(() => normalizedProjectRoot, (manifest, req) => {
       const { title, text, note, conceptIds } = req.body as Record<string, unknown>;
       const nextTitle = readOptionalNullableString("title", title);
       const nextText = readOptionalNonEmptyString("text", text);
@@ -317,7 +322,7 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
 
   app.post(
     "/api/insertions/:id/update",
-    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+    mutateRoute(() => normalizedProjectRoot, (manifest, req) => {
       const { targetChapterPath, positionNote, note } = req.body as Record<string, unknown>;
       const nextTargetChapterPath = readOptionalNonEmptyString("targetChapterPath", targetChapterPath);
       const nextPositionNote = readOptionalNullableString("positionNote", positionNote);
@@ -332,7 +337,7 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
 
   app.post(
     "/api/concepts",
-    mutateRoute(normalizedProjectRoot, (manifest, req) => {
+    mutateRoute(() => normalizedProjectRoot, (manifest, req) => {
       const { label, note } = req.body as Record<string, unknown>;
       return addConcept(manifest, {
         label: requireBodyString("label", label),
@@ -488,6 +493,111 @@ export function createWorkbenchApiApp(projectRoot: string, options: WorkbenchApi
     }
   }));
 
+  // KURA #1353: era priče zahtevajo bulk ∧ wreath ∧ project-picker ∧ VBL zadeve.
+  app.get("/api/project", asyncRoute(async (_req, res) => {
+    res.json({ projectRoot: normalizedProjectRoot });
+  }));
+
+  app.post("/api/project", asyncRoute(async (req, res) => {
+    const { projectRoot: nextRoot } = req.body as Record<string, unknown>;
+    normalizedProjectRoot = requireNonEmptyString("projectRoot", requireBodyString("projectRoot", nextRoot));
+    res.json({ projectRoot: normalizedProjectRoot });
+  }));
+
+  app.post(
+    "/api/insertions/bulk",
+    mutateRoute(() => normalizedProjectRoot, (manifest, req) => {
+      const { insertions } = req.body as Record<string, unknown>;
+      if (!Array.isArray(insertions)) {
+        throw new Error("bulk insertions requires an `insertions` array.");
+      }
+      return bulkInsert(manifest, insertions as BulkInsertInput[]);
+    }, 201),
+  );
+
+  app.get("/api/wreath/verify", asyncRoute(async (_req, res) => {
+    res.json(verifyWreath(normalizedProjectRoot));
+  }));
+
+  app.get("/api/wreath/report", asyncRoute(async (_req, res) => {
+    const verification = verifyWreath(normalizedProjectRoot);
+    res.json({
+      status: verification.status,
+      total: verification.total,
+      matched: verification.matched,
+      rows: verification.results,
+      deedCount: readDeedWitnesses(normalizedProjectRoot).length,
+      livingDoor: readLivingDoor(normalizedProjectRoot) !== null,
+    });
+  }));
+
+  app.get("/api/wreath/drift", asyncRoute(async (_req, res) => {
+    res.json(detectWreathDrift(normalizedProjectRoot));
+  }));
+
+  app.post("/api/vbl/cases", asyncRoute(async (req, res) => {
+    const { title, claim, reporter } = req.body as Record<string, unknown>;
+    const created = await createCase(normalizedProjectRoot, {
+      title: requireBodyString("title", title),
+      claim: requireBodyString("claim", claim),
+      reporter: requireBodyString("reporter", reporter),
+    });
+    res.status(201).json(created);
+  }));
+
+  app.get("/api/vbl/cases/:id", asyncRoute(async (req, res) => {
+    const found = await getCase(normalizedProjectRoot, req.params.id!);
+    if (!found) {
+      throw new Error(`Case not found: ${req.params.id}`);
+    }
+    res.json(found);
+  }));
+
+  app.post("/api/vbl/cases/:id/evidence", asyncRoute(async (req, res) => {
+    const { label, source, content, actor } = req.body as Record<string, unknown>;
+    const updated = await addEvidence(normalizedProjectRoot, req.params.id!, {
+      label: requireBodyString("label", label),
+      source: requireBodyString("source", source),
+      content: requireBodyString("content", content),
+      actor: requireBodyString("actor", actor),
+    });
+    res.status(201).json(updated);
+  }));
+
+  app.post("/api/vbl/cases/:id/reviews", asyncRoute(async (req, res) => {
+    const { reviewer, executor, outcome, scope, findings } = req.body as Record<string, unknown>;
+    const updated = await recordReview(normalizedProjectRoot, req.params.id!, {
+      reviewer: requireBodyString("reviewer", reviewer),
+      executor: requireBodyString("executor", executor),
+      outcome: requireBodyString("outcome", outcome) as "SUPPORTED" | "DISPUTED" | "INCONCLUSIVE",
+      scope: requireBodyString("scope", scope),
+      findings: Array.isArray(findings) ? (findings as string[]) : [],
+    });
+    res.status(201).json(updated);
+  }));
+
+  app.post("/api/vbl/cases/:id/actions", asyncRoute(async (req, res) => {
+    const { description, owner, actor } = req.body as Record<string, unknown>;
+    const updated = await addAction(normalizedProjectRoot, req.params.id!, {
+      description: requireBodyString("description", description),
+      owner: requireBodyString("owner", owner),
+      actor: requireBodyString("actor", actor),
+    });
+    res.status(201).json(updated);
+  }));
+
+  app.post("/api/vbl/cases/:id/actions/:actionId", asyncRoute(async (req, res) => {
+    const { status, actor } = req.body as Record<string, unknown>;
+    const updated = await updateAction(
+      normalizedProjectRoot,
+      req.params.id!,
+      req.params.actionId!,
+      requireBodyString("status", status) === "DONE" ? "DONE" : "OPEN",
+      requireBodyString("actor", actor),
+    );
+    res.json(updated);
+  }));
+
   app.use(errorHandler);
 
   return app;
@@ -510,11 +620,12 @@ export function startWorkbenchApiServer(
  * under the per-root manifest lock so concurrent requests cannot interleave.
  */
 function mutateRoute<TValue>(
-  projectRoot: string,
+  getRoot: () => string,
   apply: (manifest: WorkbenchManifest, req: Request) => { manifest: WorkbenchManifest; value: TValue },
   successStatus = 200,
 ) {
   return asyncRoute(async (req, res) => {
+    const projectRoot = getRoot();
     await withManifestLock(projectRoot, async () => {
       const manifestPath = getManifestPath(projectRoot);
       const manifest = await ensureManifestFile(projectRoot);

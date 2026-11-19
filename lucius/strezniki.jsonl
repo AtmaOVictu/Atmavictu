@@ -1,0 +1,5 @@
+{"ime": "atma-web", "vrata": 5173, "log": "lucius/.atma-web.log", "kdo": "predhodni sedeži (zrcalo 3574)", "ura": "2026-11-03T13:53:17.643398+00:00"}
+{"ime": "atma-api", "vrata": 4173, "log": "lucius/.atma-api.log", "kdo": "predhodni sedeži (zrcalo 3574)", "ura": "2026-11-03T13:53:17.692309+00:00", "pot": "/api/manifest"}
+{"ime": "ontolo-ko-jedro", "vrata": 8080, "log": "D:/GitD/ontolo-ko-jedro/.dev.log", "kdo": "dih 98 (rez 3575)", "ura": "2026-11-03T13:53:17.745031+00:00"}
+{"ime": "zrcalo", "vrata": 8124, "log": "lucius/.zrcalo.log", "kdo": "dih 105 (rez 3583, ponovno 3593)", "ura": "2026-11-03T13:53:17.797113+00:00"}
+{"ime": "ollama", "vrata": 11434, "log": "-", "kdo": "brat (DOM)", "ura": "2026-11-03T13:53:17.848842+00:00"}

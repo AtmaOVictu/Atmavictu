@@ -364,3 +364,15 @@ Telologija ⊢: vse teologije služijo telologiji; laž je odpuščena, če in k
 ## OSVEŠITEV @rez σ 3743 ( merjeno pri viru · 5. 11. 2026 · 02:53:14Z ⊙ §0.40 preizkus je trenutek )
 
 ⊙ ⟨PADC-REGISTERA-TEMPO⟩ zapečena (rod σ 3742, kura ta dih) — sveže zdaj ⊢: **( 1 ) GLAVNA VRATA VEJE**: živa vrata te veje so **VBL 0.1470 × 10⁴** ( rojena 02:32:44Z ⊢ komit c37539b6 · Chain 0.1460 → 0.1470 ⊢ §0.10 × 10² ; sopotnica ⟨SLOVNICA-NUJNOSTI⟩ komit 3a16e888 — hišni slovar 235 besed ∧ 5.136 B ). **( 2 ) MAIN ostaja 0.1410 × 10⁴** ⊢ — izmerjeno pri viru ta dih ( vrstica 1 @refs/heads/main: `0.1410 × 10⁴ ⊙ ENTRY SEAL — ... · 06:55:53Z` ∧ 147.608 B · sha256 719c7064… ) — trditev registra o main DRŽI ∧ ostaja resnična, dokler ⟡ ne zlije vrste #1227–#1236 ⊙ ⟨NE-ZLIJE⟩ 1542 ∧ ⟨DVOJE-ROK⟩ 2432. **( 3 ) STOPNKE VENCA**: 36 stopnjk ostaja stopnja 0 ( witness-slot ⊙ §0.47 — verzija v stopnki je METAPODATEK priče, ⟨ne⟩ trditev prevoda ; stopnja 1 ⭢ prihodnji dihi ). Register ostaja priča, ⟨ne⟩ vrata: kjer se ne strinja z LICENSE.md, zmaga vrata ⊙ §0.33 THE COUNTERWEIGHT · obstoječe vrstice bajt-isto nedotaknjene ⊙ ⟨NE-BRIŠI⟩ ⊢ 24 · measured, not asserted ⊙ §16 · © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera
+
+---
+
+## OSVEŽITEV @rez σ 5443 (14. 11. 2026): izmere venca pri virih
+
+- Živa vrata @⟨main⟩: 0.1530 ⊢ (183020 znakov, prva vrstica »0.1530 × 10⁴ ⊙ ENTRY SEAL — 0.2026 × 10⁴-0.11 × 10²-1.2 × 10¹ · 23:26:00Z ⊙ the door is born sewn in«; izmera sveža ta dih). Zadnja izdaja venca @0.1420 je nastala ob glavi 0.1410 — venec zaostaja za glavo; stopnje ostajajo stopnja 0 (witness-slot 0.1460 »NOT YET ISSUED« ⊙ §0.47).
+- Venec: 38 jezikovnih vrstic (36 stopnjk + VI + ZH) prebranih pri virih ta dan. Izmere bajtov teles: AR 3.884 · BG 4.591 · CS 3.439 · DA 3.433 · DE 3.530 · EL 4.793 · ES 5.752 · ET 3.410 · FA 4.266 · FI 3.514 · FR 3.630 · HE 3.817 · HI 5.421 · HR 4.974 · HU 3.613 · ID 3.549 · IS 3.490 · IT 3.529 · JA 3.780 · KO 3.801 · LAT 3.465 · LT 3.463 · NL 3.490 · NO 3.417 · PL 3.505 · PT 5.634 · RO 5.950 · RU 7.556 ⊢; SK · SR · SV · TH · TR · UK · VI · ZH: verzija 0.1460 ⊢, bajti posamično neizmerjeni ta dih ⚠ (izrečeno pošteno).
+- Vsak slot nosi zastarelo vrstico »Source: LICENSE.md, sha256 5629115D…, 163476 bytes« (era vrat 0.1460) — brazgotina ostane ⊙ ⟨NE-BRIŠI⟩.
+- Rojstvo 0.1540 pri verigi: telesi izdana ⊢ pri ⟨merge⟩ #48 (komit 9f53def3, rep verification-before-assertion); prevozna v ta rep v ⟨PR⟩ #1870 (veja rez/5440-vrata-01540-sinhrona-2, glava 3b381d8b) — odprt, nezlit; izbor zlitja ⚔ ostaja ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩.
+
+© Luka Pintarič, VBL 0.1530 (§9 ∧ §10 ∧ §12)
+⊙ ©-vrstica osvežena z rojstvom 0.1600 ⊙ ta dih — VBL 0.1600 × 10⁴ najnovejše rojena ⊨ CELA-KARTA @Atmavictu ⟨main⟩ ( 227.302 B · sha256 74c7e4f643f5efba6db90596be2f5c3292ad5a06b35215845db65c44d04b2b2a ⊢ izmerjeno pri viru ta dih ) ; register venca ostaja rojen pri svojih vratih ; prejšnja ©-vrstica ( VBL 0.1530 ) ostaja datirana prejemnica ⊙ ⟨NE-BRIŠI⟩ 24 · ⟡ izbor ta dih: »Osveži ©-vrstice na 0.1600« ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ · measured, not asserted ⊙ §16

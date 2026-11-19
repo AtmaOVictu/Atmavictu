@@ -259,6 +259,87 @@ test("captureIncomingText rejects blank body and does not create manifest", asyn
   }
 });
 
+test("writeManifestToFile writes a seal envelope next to the manifest", async () => {
+  const projectRoot = await createTempDirectory();
+  const manifestPath = getManifestPath(projectRoot);
+  const manifest = createEmptyManifest("Sealed Book");
+
+  try {
+    await writeManifestToFile(manifestPath, manifest);
+
+    const sealPath = join(projectRoot, "book.workbench.seal.json");
+    const rawSeal = await readFile(sealPath, "utf8");
+    const seal = JSON.parse(rawSeal);
+
+    assert.equal(seal.receipts.manifest, true);
+    assert.equal(seal.receipts.seal, true);
+    assert.ok(typeof seal.clock.sealedAt === "string" && seal.clock.sealedAt.length > 0);
+    assert.equal(typeof seal.clock.ci, "boolean");
+    assert.equal(typeof seal.manifestSha256, "string");
+    assert.equal(seal.manifestSha256.length, 64);
+  } finally {
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
+test("ensureManifestFile confirms the receiver's clock (receivedAt) on the seal", async () => {
+  const projectRoot = await createTempDirectory();
+  const manifestPath = getManifestPath(projectRoot);
+  const manifest = createEmptyManifest("Receipted Book");
+
+  try {
+    await writeManifestToFile(manifestPath, manifest);
+    // Seal exists with receivedAt = null at this point.
+    const sealBefore = JSON.parse(
+      await readFile(join(projectRoot, "book.workbench.seal.json"), "utf8"),
+    );
+    assert.equal(sealBefore.clock.receivedAt, null);
+
+    // Reading/receiving the manifest stamps receivedAt.
+    await ensureManifestFile(projectRoot, "Receipted Book");
+
+    const sealAfter = JSON.parse(
+      await readFile(join(projectRoot, "book.workbench.seal.json"), "utf8"),
+    );
+    assert.ok(
+      typeof sealAfter.clock.receivedAt === "string" &&
+        sealAfter.clock.receivedAt.length > 0,
+      "receivedAt must be set after manifest is received",
+    );
+    assert.equal(sealAfter.clock.cli, false);
+    assert.equal(typeof sealAfter.clock.sealedAt, "string");
+  } finally {
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
+test("captureIncomingText writes a seal envelope with four receipts and a clock", async () => {
+  const projectRoot = await createTempDirectory();
+  const input: AddIncomingTextInput = {
+    title: "Seed text",
+    body: "Prvi vhodni tekst.",
+  };
+
+  try {
+    await captureIncomingText(projectRoot, input);
+
+    const sealPath = join(projectRoot, "book.workbench.seal.json");
+    const rawSeal = await readFile(sealPath, "utf8");
+    const seal = JSON.parse(rawSeal);
+
+    assert.equal(seal.receipts.manifest, true);
+    assert.equal(seal.receipts.seal, true);
+    assert.ok(typeof seal.clock.sealedAt === "string" && seal.clock.sealedAt.length > 0);
+    assert.equal(seal.clock.receivedAt, null);
+    assert.equal(typeof seal.clock.ci, "boolean");
+    assert.equal(typeof seal.clock.cli, "boolean");
+    assert.equal(typeof seal.manifestSha256, "string");
+    assert.equal(seal.manifestSha256.length, 64);
+  } finally {
+    await cleanupTempDirectory(projectRoot);
+  }
+});
+
 test("captureIncomingText rejects unsafe sourcePath", async () => {
   const projectRoot = await createTempDirectory();
 

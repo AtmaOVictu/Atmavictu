@@ -1,0 +1,6 @@
+# TEST-NIVO — preizpus lestve --nivo PRELET v3 · rojen @rez σ 5647 · PAKET-178 (16. 11. 2026) ⊙ ⟡ UKAZ verbatim »IMPLEMENTIRAJ NIVOJE RESNIČNEGA IN NIVOJE LAŽNEGA?«
+gola vrstica brez vsake priče izmeri izmerjeno zamerjeno zamera
+vrstica s pričo pri viru a brez izmere
+vrstica z izmero ×14 ⊢
+vrstica z readback @main
+vrstica z verigo ⟨merge⟩ 7d61124e8eedb880feeae1e495642884c2189ff3
