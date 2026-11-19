@@ -12,7 +12,7 @@ class FormaSodnikInput(BaseModel):
 
 
 @workflows.activity()
-async def sodi(besedilo: str) -> dict:
+async def sodi_formo(besedilo: str) -> dict:
     """Aktivnost: FORMA_CELO, sodba nad celim telesom."""
     return forma.baterija(besedilo)
 
@@ -28,4 +28,4 @@ async def sodi(besedilo: str) -> dict:
 class FormaSodnik:
     @workflows.workflow.entrypoint
     async def run(self, input: FormaSodnikInput) -> dict:
-        return await sodi(input.besedilo)
+        return await sodi_formo(input.besedilo)
