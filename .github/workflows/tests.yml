@@ -46,7 +46,7 @@ jobs:
             echo "P5: baza nezvezana - preizpus preskocen pošteno (izmerjeno, ne molc)"
             exit 0
           fi
-          BAD=$(git diff --name-only "$BASE" HEAD -- '*.md' '*.jsonl' ':(exclude)organi/*/ARHIV-PECATOV*' | { while IFS= read -r f; do
+          BAD=$(git diff --name-only "$BASE" HEAD -- '*.md' '*.jsonl' | { while IFS= read -r f; do
             [ -f "$f" ] || continue
             if grep -qP '\x{3008}|\x{3009}' "$f"; then echo "$f"; fi
           done; true; })
