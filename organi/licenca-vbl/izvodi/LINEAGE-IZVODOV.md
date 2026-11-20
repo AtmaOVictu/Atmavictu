@@ -1,6 +1,6 @@
 # LINEAGE-IZVODOV — veriga 66 spečih teles licence VBL ( ukaz ⟡: »naj nekje sodeluje, če zmoreš« )
 
-⊢ Izvori: REGISTER-IZVODOV.md ∧ STATE-IZVODOV.json ∧ lokalne izmere ( `wc -c` / `wc -l` / `md5sum` po telesih v `izvodi/` ), izmerjeno TIK 2026-11-20T00:27:02Z.
+⊢ Izvori: REGISTER-IZVODOV.md ∧ STATE-IZVODOV.json ∧ lokalne izmere ( `wc -c` / `wc -l` / `md5sum` po telesih v `izvodi/` ), izmerjeno @2026-11-20T00:27:02Z.
 ⊢ Dejstvo pri viru: 67 komitov na poti LICENSE.md → 66 unikatnih teles ( 1 ponovitev: blob `73476d4e` [10.0.0] nosita 2 komita ).
 ⟨NE⟩ ⟨LE⟩ kip ⊢ U2: izvod je telo stanja, ⟨ne⟩ rojstvo samo.
 
@@ -120,5 +120,5 @@ Speči izvodi sodelujejo kot LINEAGE: vsako telo nosi točno mesto v verigi rast
 - ∂ **Rep prejem**: prevoz LICENSE-LINEAGE ( ta lineage ali izvleček ) na rep AtmaOVictu/Atmavictu — znan dolg @σ 5932, rok ⭢ prihodnji dih po ⟡ sodbi ∧ po merge σ 5995.
 - ∂ Prenos dolga v DOLGOVI ( delovna-zanka ) ob odmrznitvi sobita.
 
-TIK 2026-11-20T00:27:02Z
+TIK 2026-11-20T00:27:02Z UTC ⇌ 01:27:02 CET Ljubljana
 © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 ∧ dvojni podpis
