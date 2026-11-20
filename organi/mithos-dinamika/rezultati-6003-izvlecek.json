@@ -1,0 +1,259 @@
+{
+  "rez": "σ 6003",
+  "baza": {
+    "alpha_c": 0.9,
+    "beta_c": 0.6,
+    "gamma_e": 0.8,
+    "r0": 0.5,
+    "T_R": 40.0,
+    "gamma_phi": 0.2,
+    "T": 12.0,
+    "delta_phi": 0.1,
+    "o_rate": 0.05,
+    "kappa": 0.25,
+    "lam": 0.35,
+    "Theta": 0.35
+  },
+  "replika_600": {
+    "korakov": 600,
+    "katarze_st": 590,
+    "prva_katarza": 11,
+    "perioda": 1.0,
+    "izpust": 32.4942,
+    "obrat_ven": 124.6074,
+    "koncno": {
+      "Z": 0.5397,
+      "J": 3.2489,
+      "E": 5.3326,
+      "N": 0.7143
+    },
+    "Z_analit": 0.625,
+    "N_analit": 0.7143,
+    "davek_katarze": 13.6
+  },
+  "dolga_6000": {
+    "korakov": 6000,
+    "katarze_st": 5990,
+    "prva_katarza": 11,
+    "perioda": 1.0,
+    "izpust": 330.5742,
+    "obrat_ven": 2021.1632,
+    "koncno": {
+      "Z": 0.5397,
+      "J": 5.6188,
+      "E": 7.8619,
+      "N": 0.7143
+    },
+    "Z_analit": 0.625,
+    "N_analit": 0.7143,
+    "davek_katarze": 13.6
+  },
+  "spirala": {
+    "alpha_c": {
+      "alpha_c=0.6": {
+        "korakov": 600,
+        "katarze_st": 0,
+        "izpust": 0,
+        "obrat_ven": 90.3649,
+        "koncno": {
+          "Z": 0.4167,
+          "J": 3.2489,
+          "E": 4.1048,
+          "N": 0.7143
+        },
+        "Z_analit": 0.4167,
+        "N_analit": 0.7143,
+        "davek_katarze": 0.0
+      },
+      "alpha_c=0.9": {
+        "korakov": 600,
+        "katarze_st": 590,
+        "prva_katarza": 11,
+        "perioda": 1.0,
+        "izpust": 32.4942,
+        "obrat_ven": 124.6074,
+        "koncno": {
+          "Z": 0.5397,
+          "J": 3.2489,
+          "E": 5.3326,
+          "N": 0.7143
+        },
+        "Z_analit": 0.625,
+        "N_analit": 0.7143,
+        "davek_katarze": 13.6
+      },
+      "alpha_c=1.2": {
+        "korakov": 600,
+        "katarze_st": 593,
+        "prva_katarza": 8,
+        "perioda": 1.0,
+        "izpust": 91.2693,
+        "obrat_ven": 182.7198,
+        "koncno": {
+          "Z": 0.6289,
+          "J": 3.2489,
+          "E": 7.403,
+          "N": 0.7143
+        },
+        "Z_analit": 0.8333,
+        "N_analit": 0.7143,
+        "davek_katarze": 24.5
+      }
+    },
+    "Theta": {
+      "Theta=0.2": {
+        "korakov": 600,
+        "katarze_st": 594,
+        "prva_katarza": 7,
+        "perioda": 1.0,
+        "izpust": 66.0556,
+        "obrat_ven": 151.9232,
+        "koncno": {
+          "Z": 0.3805,
+          "J": 3.2489,
+          "E": 6.3014,
+          "N": 0.7143
+        },
+        "Z_analit": 0.625,
+        "N_analit": 0.7143,
+        "davek_katarze": 39.1
+      },
+      "Theta=0.35": {
+        "korakov": 600,
+        "katarze_st": 590,
+        "prva_katarza": 11,
+        "perioda": 1.0,
+        "izpust": 32.4942,
+        "obrat_ven": 124.6074,
+        "koncno": {
+          "Z": 0.5397,
+          "J": 3.2489,
+          "E": 5.3326,
+          "N": 0.7143
+        },
+        "Z_analit": 0.625,
+        "N_analit": 0.7143,
+        "davek_katarze": 13.6
+      },
+      "Theta=0.5": {
+        "korakov": 600,
+        "katarze_st": 0,
+        "izpust": 0,
+        "obrat_ven": 96.2215,
+        "koncno": {
+          "Z": 0.625,
+          "J": 3.2489,
+          "E": 4.3131,
+          "N": 0.7143
+        },
+        "Z_analit": 0.625,
+        "N_analit": 0.7143,
+        "davek_katarze": 0.0
+      }
+    },
+    "kappa": {
+      "kappa=0.15": {
+        "korakov": 600,
+        "katarze_st": 0,
+        "izpust": 0,
+        "obrat_ven": 83.2296,
+        "koncno": {
+          "Z": 0.45,
+          "J": 3.2489,
+          "E": 3.8524,
+          "N": 0.4286
+        },
+        "Z_analit": 0.45,
+        "N_analit": 0.4286,
+        "davek_katarze": 0.0
+      },
+      "kappa=0.25": {
+        "korakov": 600,
+        "katarze_st": 590,
+        "prva_katarza": 11,
+        "perioda": 1.0,
+        "izpust": 32.4942,
+        "obrat_ven": 124.6074,
+        "koncno": {
+          "Z": 0.5397,
+          "J": 3.2489,
+          "E": 5.3326,
+          "N": 0.7143
+        },
+        "Z_analit": 0.625,
+        "N_analit": 0.7143,
+        "davek_katarze": 13.6
+      },
+      "kappa=0.35": {
+        "korakov": 600,
+        "katarze_st": 594,
+        "prva_katarza": 7,
+        "perioda": 1.0,
+        "izpust": 97.6598,
+        "obrat_ven": 191.3428,
+        "koncno": {
+          "Z": 0.4324,
+          "J": 3.2489,
+          "E": 7.7022,
+          "N": 1.0
+        },
+        "Z_analit": 0.75,
+        "N_analit": 1.0,
+        "davek_katarze": 42.3
+      }
+    },
+    "gamma_phi": {
+      "gamma_phi=0.1": {
+        "korakov": 600,
+        "katarze_st": 590,
+        "prva_katarza": 11,
+        "perioda": 1.0,
+        "izpust": 32.4942,
+        "obrat_ven": 123.5335,
+        "koncno": {
+          "Z": 0.5397,
+          "J": 3.2489,
+          "E": 5.3185,
+          "N": 0.7143
+        },
+        "Z_analit": 0.625,
+        "N_analit": 0.7143,
+        "davek_katarze": 13.6
+      },
+      "gamma_phi=0.2": {
+        "korakov": 600,
+        "katarze_st": 590,
+        "prva_katarza": 11,
+        "perioda": 1.0,
+        "izpust": 32.4942,
+        "obrat_ven": 124.6074,
+        "koncno": {
+          "Z": 0.5397,
+          "J": 3.2489,
+          "E": 5.3326,
+          "N": 0.7143
+        },
+        "Z_analit": 0.625,
+        "N_analit": 0.7143,
+        "davek_katarze": 13.6
+      },
+      "gamma_phi=0.3": {
+        "korakov": 600,
+        "katarze_st": 590,
+        "prva_katarza": 11,
+        "perioda": 1.0,
+        "izpust": 32.4942,
+        "obrat_ven": 125.6837,
+        "koncno": {
+          "Z": 0.5397,
+          "J": 3.2489,
+          "E": 5.3459,
+          "N": 0.7143
+        },
+        "Z_analit": 0.625,
+        "N_analit": 0.7143,
+        "davek_katarze": 13.6
+      }
+    }
+  }
+}

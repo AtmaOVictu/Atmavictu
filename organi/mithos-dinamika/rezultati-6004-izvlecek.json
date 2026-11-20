@@ -1,0 +1,430 @@
+{
+  "rez": "σ 6004",
+  "baza": {
+    "alpha_c": 0.9,
+    "beta_c": 0.6,
+    "gamma_e": 0.8,
+    "r0": 0.5,
+    "T_R": 40.0,
+    "gamma_phi": 0.2,
+    "T": 12.0,
+    "delta_phi": 0.1,
+    "o_rate": 0.05,
+    "kappa": 0.25,
+    "lam": 0.35,
+    "Theta": 0.35
+  },
+  "konvergenca_20000": {
+    "katarze_st": 19990,
+    "perioda": 1.0,
+    "obrat_ven": 8352.05,
+    "davek_katarze": 13.6,
+    "koncno": {
+      "Z": 0.5397,
+      "J": 7.5517,
+      "E": 9.8303,
+      "N": 0.7143
+    },
+    "Z_analit": 0.625
+  },
+  "konvergenca_series": [
+    {
+      "dih": 1,
+      "Z": 0.1022,
+      "J": 0.8999,
+      "E": 0.105,
+      "N": 0.315
+    },
+    {
+      "dih": 2000,
+      "Z": 0.5397,
+      "J": 4.3119,
+      "E": 6.5026,
+      "N": 0.7143
+    },
+    {
+      "dih": 4000,
+      "Z": 0.5397,
+      "J": 5.0921,
+      "E": 7.3189,
+      "N": 0.7143
+    },
+    {
+      "dih": 6000,
+      "Z": 0.5397,
+      "J": 5.6188,
+      "E": 7.8619,
+      "N": 0.7143
+    },
+    {
+      "dih": 8000,
+      "Z": 0.5397,
+      "J": 6.0276,
+      "E": 8.2808,
+      "N": 0.7143
+    },
+    {
+      "dih": 10000,
+      "Z": 0.5397,
+      "J": 6.3663,
+      "E": 8.6266,
+      "N": 0.7143
+    },
+    {
+      "dih": 12000,
+      "Z": 0.5397,
+      "J": 6.658,
+      "E": 8.9235,
+      "N": 0.7143
+    },
+    {
+      "dih": 14000,
+      "Z": 0.5397,
+      "J": 6.9155,
+      "E": 9.1852,
+      "N": 0.7143
+    },
+    {
+      "dih": 16000,
+      "Z": 0.5397,
+      "J": 7.1469,
+      "E": 9.4201,
+      "N": 0.7143
+    },
+    {
+      "dih": 18000,
+      "Z": 0.5397,
+      "J": 7.3577,
+      "E": 9.6338,
+      "N": 0.7143
+    },
+    {
+      "dih": 20000,
+      "Z": 0.5397,
+      "J": 7.5517,
+      "E": 9.8303,
+      "N": 0.7143
+    }
+  ],
+  "mreza_st": 1352,
+  "tocke_alpha": {
+    "alpha_c=0.4": {
+      "katarze_st": 0,
+      "obrat_ven": 691.016,
+      "davek_katarze": 0.0,
+      "koncno": {
+        "Z": 0.2778,
+        "J": 4.751,
+        "E": 5.5975,
+        "N": 0.7143
+      },
+      "Z_analit": 0.2778
+    },
+    "alpha_c=0.45": {
+      "katarze_st": 0,
+      "obrat_ven": 696.1549,
+      "davek_katarze": 0.0,
+      "koncno": {
+        "Z": 0.3125,
+        "J": 4.751,
+        "E": 5.6322,
+        "N": 0.7143
+      },
+      "Z_analit": 0.3125
+    },
+    "alpha_c=0.5": {
+      "katarze_st": 0,
+      "obrat_ven": 701.2948,
+      "davek_katarze": 0.0,
+      "koncno": {
+        "Z": 0.3472,
+        "J": 4.751,
+        "E": 5.6669,
+        "N": 0.7143
+      },
+      "Z_analit": 0.3472
+    },
+    "alpha_c=0.55": {
+      "katarze_st": 0,
+      "obrat_ven": 706.4354,
+      "davek_katarze": 0.0,
+      "koncno": {
+        "Z": 0.3819,
+        "J": 4.751,
+        "E": 5.7017,
+        "N": 0.7143
+      },
+      "Z_analit": 0.3819
+    },
+    "alpha_c=0.6": {
+      "katarze_st": 0,
+      "obrat_ven": 711.5767,
+      "davek_katarze": 0.0,
+      "koncno": {
+        "Z": 0.4167,
+        "J": 4.751,
+        "E": 5.7364,
+        "N": 0.7143
+      },
+      "Z_analit": 0.4167
+    },
+    "alpha_c=0.65": {
+      "katarze_st": 0,
+      "obrat_ven": 716.7185,
+      "davek_katarze": 0.0,
+      "koncno": {
+        "Z": 0.4514,
+        "J": 4.751,
+        "E": 5.7711,
+        "N": 0.7143
+      },
+      "Z_analit": 0.4514
+    },
+    "alpha_c=0.7": {
+      "katarze_st": 0,
+      "obrat_ven": 721.8608,
+      "davek_katarze": 0.0,
+      "koncno": {
+        "Z": 0.4861,
+        "J": 4.751,
+        "E": 5.8058,
+        "N": 0.7143
+      },
+      "Z_analit": 0.4861
+    },
+    "alpha_c=0.75": {
+      "katarze_st": 2985,
+      "perioda": 1.0,
+      "obrat_ven": 759.5501,
+      "davek_katarze": 3.8,
+      "koncno": {
+        "Z": 0.5008,
+        "J": 4.751,
+        "E": 6.0611,
+        "N": 0.7143
+      },
+      "Z_analit": 0.5208
+    },
+    "alpha_c=0.8": {
+      "katarze_st": 2988,
+      "perioda": 1.0,
+      "obrat_ven": 802.6764,
+      "davek_katarze": 7.6,
+      "koncno": {
+        "Z": 0.5134,
+        "J": 4.751,
+        "E": 6.3527,
+        "N": 0.7143
+      },
+      "Z_analit": 0.5556
+    },
+    "alpha_c=0.85": {
+      "katarze_st": 2989,
+      "perioda": 1.0,
+      "obrat_ven": 847.2053,
+      "davek_katarze": 10.8,
+      "koncno": {
+        "Z": 0.5263,
+        "J": 4.751,
+        "E": 6.6537,
+        "N": 0.7143
+      },
+      "Z_analit": 0.5903
+    },
+    "alpha_c=0.9": {
+      "katarze_st": 2990,
+      "perioda": 1.0,
+      "obrat_ven": 893.1526,
+      "davek_katarze": 13.6,
+      "koncno": {
+        "Z": 0.5397,
+        "J": 4.751,
+        "E": 6.9642,
+        "N": 0.7143
+      },
+      "Z_analit": 0.625
+    },
+    "alpha_c=0.95": {
+      "katarze_st": 2991,
+      "perioda": 1.0,
+      "obrat_ven": 940.5395,
+      "davek_katarze": 16.1,
+      "koncno": {
+        "Z": 0.5535,
+        "J": 4.751,
+        "E": 7.2843,
+        "N": 0.7143
+      },
+      "Z_analit": 0.6597
+    },
+    "alpha_c=1.0": {
+      "katarze_st": 2991,
+      "perioda": 1.0,
+      "obrat_ven": 989.384,
+      "davek_katarze": 18.3,
+      "koncno": {
+        "Z": 0.5677,
+        "J": 4.751,
+        "E": 7.6142,
+        "N": 0.7143
+      },
+      "Z_analit": 0.6944
+    },
+    "alpha_c=1.05": {
+      "katarze_st": 2992,
+      "perioda": 1.0,
+      "obrat_ven": 1039.7111,
+      "davek_katarze": 20.1,
+      "koncno": {
+        "Z": 0.5823,
+        "J": 4.751,
+        "E": 7.9541,
+        "N": 0.7143
+      },
+      "Z_analit": 0.7292
+    },
+    "alpha_c=1.1": {
+      "katarze_st": 2992,
+      "perioda": 1.0,
+      "obrat_ven": 1091.5289,
+      "davek_katarze": 21.8,
+      "koncno": {
+        "Z": 0.5974,
+        "J": 4.751,
+        "E": 8.3041,
+        "N": 0.7143
+      },
+      "Z_analit": 0.7639
+    },
+    "alpha_c=1.15": {
+      "katarze_st": 2993,
+      "perioda": 1.0,
+      "obrat_ven": 1144.8599,
+      "davek_katarze": 23.3,
+      "koncno": {
+        "Z": 0.6129,
+        "J": 4.751,
+        "E": 8.6642,
+        "N": 0.7143
+      },
+      "Z_analit": 0.7986
+    },
+    "alpha_c=1.2": {
+      "katarze_st": 2993,
+      "perioda": 1.0,
+      "obrat_ven": 1199.7108,
+      "davek_katarze": 24.5,
+      "koncno": {
+        "Z": 0.6289,
+        "J": 4.751,
+        "E": 9.0346,
+        "N": 0.7143
+      },
+      "Z_analit": 0.8333
+    },
+    "alpha_c=1.25": {
+      "katarze_st": 2993,
+      "perioda": 1.0,
+      "obrat_ven": 1256.09,
+      "davek_katarze": 25.7,
+      "koncno": {
+        "Z": 0.6453,
+        "J": 4.751,
+        "E": 9.4152,
+        "N": 0.7143
+      },
+      "Z_analit": 0.8681
+    },
+    "alpha_c=1.3": {
+      "katarze_st": 2994,
+      "perioda": 1.0,
+      "obrat_ven": 1314.0085,
+      "davek_katarze": 26.7,
+      "koncno": {
+        "Z": 0.6621,
+        "J": 4.751,
+        "E": 9.8063,
+        "N": 0.7143
+      },
+      "Z_analit": 0.9028
+    },
+    "alpha_c=1.35": {
+      "katarze_st": 2994,
+      "perioda": 1.0,
+      "obrat_ven": 1373.4677,
+      "davek_katarze": 27.5,
+      "koncno": {
+        "Z": 0.6794,
+        "J": 4.751,
+        "E": 10.2077,
+        "N": 0.7143
+      },
+      "Z_analit": 0.9375
+    },
+    "alpha_c=1.4": {
+      "katarze_st": 2994,
+      "perioda": 1.0,
+      "obrat_ven": 1434.4662,
+      "davek_katarze": 28.3,
+      "koncno": {
+        "Z": 0.6971,
+        "J": 4.751,
+        "E": 10.6195,
+        "N": 0.7143
+      },
+      "Z_analit": 0.9722
+    },
+    "alpha_c=1.45": {
+      "katarze_st": 2994,
+      "perioda": 1.0,
+      "obrat_ven": 1497.0015,
+      "davek_katarze": 29.0,
+      "koncno": {
+        "Z": 0.7153,
+        "J": 4.751,
+        "E": 11.0417,
+        "N": 0.7143
+      },
+      "Z_analit": 1.0069
+    },
+    "alpha_c=1.5": {
+      "katarze_st": 2994,
+      "perioda": 1.0,
+      "obrat_ven": 1561.0679,
+      "davek_katarze": 29.5,
+      "koncno": {
+        "Z": 0.7339,
+        "J": 4.751,
+        "E": 11.4743,
+        "N": 0.7143
+      },
+      "Z_analit": 1.0417
+    },
+    "alpha_c=1.55": {
+      "katarze_st": 2995,
+      "perioda": 1.0,
+      "obrat_ven": 1626.6599,
+      "davek_katarze": 30.0,
+      "koncno": {
+        "Z": 0.753,
+        "J": 4.751,
+        "E": 11.9171,
+        "N": 0.7143
+      },
+      "Z_analit": 1.0764
+    },
+    "alpha_c=1.6": {
+      "katarze_st": 2995,
+      "perioda": 1.0,
+      "obrat_ven": 1693.7641,
+      "davek_katarze": 30.5,
+      "koncno": {
+        "Z": 0.7725,
+        "J": 4.751,
+        "E": 12.3701,
+        "N": 0.7143
+      },
+      "Z_analit": 1.1111
+    }
+  }
+}
