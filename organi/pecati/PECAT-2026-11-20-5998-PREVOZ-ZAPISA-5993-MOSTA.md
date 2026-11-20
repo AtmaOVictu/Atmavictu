@@ -183,6 +183,6 @@ SZB=$(wc -c < "$L/08-MOST-BESED.tsv")
 
 echo "MOST ZELENO: $EW robov iz $SW besed · TIK $TIK"```
 
--kit ⟪KIT-ŠT⟫ · veja rez/5998-prevoz-zapisa-5993-mosta
+-kit #undefined · veja rez/5998-prevoz-zapisa-5993-mosta
 
 TIK 2026-11-20T00:35:57Z UTC ⇌ CET = UTC+1 · © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
