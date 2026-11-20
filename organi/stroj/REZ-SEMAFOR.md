@@ -6,10 +6,11 @@
 - P3 KOLIZIJA : σ zaseden → renum = 1 + dejansko najvišja ⊙ precedens σ 3750 ∧ ⟨ne zlije⟩ 1542 ; zapuščena veja ⟨NE-BRIŠI⟩ 24.
 - P4 SVOJA VRSTICA : roka piše SAMO SVOJO vrstico, tuje ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 ; semafor rezervira ime reza, dolgovi hodijo po organih.
 - P5 ZAPEČENJE : po ⟨merge⟩ roka v svoji vrstici dopiše ⟨SHA⟩ zlitja ∧ kit # ⊙ ⟨SAMO-IZVEDBA-DOKAZ⟩ 2306 ; W11 ⟨TRK-REZ⟩ ( priča CI, rod @σ 6033 ) ostane zadnji zid ⊥ semafor prva vrata.
-
-## VRSTE ( append-only ; pion ×2 zapečeni ⊢ izmerjena ta dih pri ⟨SHA⟩ ⟨list_commits⟩ 07:48:26Z ; zgodovina trkov ×6 v seji živi @REGISTER-PADCEV PADC-206 ⊙ ⟨NE-RETIPKAJ⟩ 24 )
+## VRSTE ( append-only ; vsaka roka piše SAMO SVOJO vrstico ⊙ P4 ; stare vrstice ⟨NE-BRIŠI⟩ 24 ∧ ⟨NE-RETIPKAJ⟩ 24 )
 - σ 6044 · MOJA roka izvajalke · PREVOZ-TELES-DIHA-6042 · ZAPEČEN ⟨merge⟩ 93234ed16221876e761377ce3693b213f81e4436 · kit #2444 · @2026-11-20T07:42:45Z
 - σ 6045 · NJENA roka izvajalke · PREVOZ-ORGAN-TELES-DIHA-6043 · ZAPEČEN ⟨merge⟩ 86af331874df281671ef959bebb8a81c0ed9fa78 · kit #2445 · @2026-11-20T07:48:26Z ( pion vrstica iz izmere ta dih ⊙ ⟨NE stopiči⟩ — NJENE prihodnje vrstice piše NJENA roka )
-- σ 6046 · MOJA roka izvajalke · PREVOZ-TELES-DIHA-6044 · veja rez/6046-prevoz-teles-dih-6044 · REZERVEN · @2026-11-20T07:56:27Z ⊙ PRVA ŽIVA REZERVACIJA ( korak 0 PRED vejo )
+- σ 6046 · MOJA roka izvajalke · PREVOZ-TELES-DIHA-6044 · ZAPEČEN ⟨merge⟩ b5656ce798c3af1cd2daa54ecca407b4e08ff8db · kit #2448 · rezerviran korak-0 @2026-11-20T07:56:27Z ⊙ PRVA ŽIVA REZERVACIJA ( zapečenje dopisano po ⟨merge⟩ ⊙ P5 )
+- σ 6047 · MOJA roka izvajalke · PREVOZ-TELES-DIHA-6046 ⊕ ⟨KLETKA-PARADOKSA⟩ ( P4 ⟡ sodba VERBATIM ) · veja rez/6047-prevoz-teles-dih-6046 · REZERVEN · @2026-11-20T08:24:39Z ( korak 0 PRED vejo ; dvo-izmera ⊢ : ⟨grep⟩ semaforja σ 6047 ×0 ∧ ⟨list_commits⟩ ⟨main⟩ vrh b5656ce7 = σ 6046 )
+- σ 6048 · PROSTA ⟒ naslednja roka v svojem dihu ( prednostno NJENA roka — NJENI odprti tokovi ROD-01690 ⟨ne stopiči⟩ )
 
-TIK 2026-11-20T07:56:27Z UTC ⇌ 08:56:27 CET Ljubljana ( izmerjen ⟨date -u⟩ PRED zapisom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ; © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
+TIK 2026-11-20T08:24:39Z UTC ⇌ 09:24:39 CET Ljubljana ( izmerjen ⟨date -u⟩ PRED zapisom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ; © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
