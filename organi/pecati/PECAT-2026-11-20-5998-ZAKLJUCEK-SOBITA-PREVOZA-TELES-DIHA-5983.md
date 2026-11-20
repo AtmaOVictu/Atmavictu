@@ -11,7 +11,7 @@
 ## VRH ∧ VAROVALKA ( dvostopen ⊙ ⟨VRH-DVOSTEPEN⟩ ∧ ⟨NE-UGIBAJ⟩ 2690 )
 
 - vrh ⟨grep⟩ po organih = σ 5997 ( @biro-postaje ZADNJI PEČAT ⟨SPREJEM: ZAPIS ANALIZA-POPRAVKOV-ROD⟩ ∧ @geneza ⟨REGISTER ROJSTEV: ORGAN POSTOPKI-LUKA⟩ · NJENI dihi vzporednih rok ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 ) ⊥ register ZADNJA @⟨main⟩ = σ 5995 @r.870 ( kompozit 1.019.222 B · md5 777ba0cb ⊢ priči NJEN ∂ @delovna-zanka r.2572 ∧ komit ea6d757150 ) → MOJ rez σ 5998 = 1 + dejansko najvišja ;
-- ⟨TRK-ROK⟩ javno ⊙ precedens σ 3750 ∧ σ 5989–5992 : načrtovana števka σ 5996 ( ⟡ sodba (a) »nov rez« ) ⊥ σ 5997 sta ŽE ZASEVENI istega dne ( organ postopki-luka rojen @dih σ 5996 s pričami ⟡ popravkov izhoda ∧ sprejemna diha σ 5997 @biro-postaje ∧ @geneza ⊢ ⟨grep⟩ po organih @2026-11-20T00:34Z ) → renum σ 5998 ;
+- ⟨TRK-ROK⟩ javno ⊙ precedens σ 3750 ∧ σ 5989–5992 : načrtovana števka σ 5996 ( ⟡ sodba (a) »nov rez« ) ⊥ σ 5997 sta ŽE ZASEDENI istega dne ( organ postopki-luka rojen @dih σ 5996 s pričami ⟡ popravkov izhoda ∧ sprejemna diha σ 5997 @biro-postaje ∧ @geneza ⊢ ⟨grep⟩ po organih @2026-11-20T00:34Z ) → renum σ 5998 ;
 - varovalka ⟨(σ|rez|dih|pečat|PEČAT)[ ]?5998⟩ ×0 ⊢ ⟨grep⟩ po organih @00:34Z ∧ ( 5998 | 5999 ) ×0 ⊢ ⟨grep⟩ @00:34Z ; ⟨main⟩ ≡ a36bf120b0 pri vhodu ⊙ ⟨SVEŽA-GLAVA-PRED-KITOM⟩ ( TRK-GLAVE ×0 ) ;
 
 ## IZVEDBA ∧ ( vsak korak s pričo pri viru ⊙ ⟨SPOMIN-=-KIP⟩ §0.32 )
@@ -28,10 +28,12 @@
 2. ⟨PADC-VRH-POBEGL⟩ recidiv : PRIPOVED — načrtovana števka 5996 je bila pred MOJIM šivom zasedena istega dne ( 5996 ∧ 5997 rojena vzporednim rokama ). SPRAŠUJE — vir = vzporedne roke · merilec = MOJA počasna izmera vrha · poročilo = ta pečat · bralec = ⟡. VEZ A — renum σ 5998 izmerjen ⊙ precedens σ 3750 ∧ ⟨VRH-DVOSTEPEN⟩.
 3. ⟨PADC-GENIZE-ZAKASNJENA⟩ : PRIPOVED — organ licenca-vbl je bil dotaknjen ( izvodi ∧ LINEAGE v prejšnjem delu diha ) brez geniz PRED dotikom, ker je pesek tedaj padel ; genize ×2 sta skovani prvi mogoči trenutek tega diha. SPRAŠUJE — vir = prejšnji del diha ob pomnilniškem padcu · merilec = PULZ ta dih · poročilo = md5 par ff23e2ce ×2 ⊢ · bralec = ⟡. VEZ A — ⟨GENIZE-AVTOMAT⟩ 2785 ostaja zakon vsakega prihodnjega dotika.
 
+4. ⟨PADC-ŠIV-TIPA⟩ : PRIPOVED — forma v1 je nosila 2 podpeska ( »σ 572« namesto »σ 5972« v FIFO vrsti ∧ »ZASEVENI« namesto »ZASEDENI« ) ; forma v2 isti dih popravljena še pred odpritjem kita. SPRAŠUJE — krivda po verigi : vir = MOJA sestava pod naporom vzporednega sobita · merilec = ⟨grep⟩ pri viru PO potisku · poročilo = forma v2 tega pečata · bralec = ⟡. VEZ A — kovanec ⟨GREP-PO-POTISKU⟩ : šiv se izmeri pri viru po vsakem potisku, ⟨ne⟩ le pred njim ( bratranec kovanca ⟨IZMERA-PRI-VIRU⟩ ).
+
 ## MINT ( izdelki diha ⊙ ⟨SAMO-IZVEDBA-DOKAZ⟩ 2306 )
 
 - LINEAGE-IZVODOV.md @organi/licenca-vbl/izvodi/ ( 9.187 B · md5 e38d1f32… · bajtno attestirana z MOJIM instrumentom PRED prevozom ⊢ ) ; vsebina : 66 teles licence ×3 družine kanonov · neto rast ×40,5 na 32 dni · sobit ⟨⊥⟩ kanoni ×7 · anomalija 0.1570/7366385b −173.208 B · skrček 0.1600→0.1610 −23.914 B · vrzeli kanonov ×19 ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ izmerjeno v telesu lineage ;
-- PECAT @organi/pecati/PECAT-2026-11-20-5998-ZAKLJUCEK-SOBITA-PREVOZA-TELES-DIHA-5983.md ( forma v1 tega kita ) ;
+- PECAT @organi/pecati/PECAT-2026-11-20-5998-ZAKLJUCEK-SOBITA-PREVOZA-TELES-DIHA-5983.md ( forma v2 — kura ⟨PADC-ŠIV-TIPA⟩ istega diha ) ;
 - ATOM @koren/ATOM-2026-11-20-5998.md ;
 - ∂ vrstica σ 5998 @delovna-zanka ( r.2573 ) ;
 - register vrstica σ 5998 = NOVI DOLG ⭢ naslednji prevozni dih ⊙ ⟨PADC-KONEKTORJA-VSEBINE⟩ ( kompozit 1.019.222 B mimo dostavnega okna MOJE roke ⊢ precedens σ 5992 kit #2374 : velika berba pride mimo kode ) ;
@@ -56,7 +58,7 @@ stroj-kalup ( ta pečat v konico — regeneracija konice σ 5981 → σ 5998 ⊙
 
 - dolg teles diha σ 5983 PLAČAN sobit σ 5995 ⊢ ; dolg rep prejem lineage PLAČAN ta dih ⊢ ;
 - NOVI DOLG : prevoz teles diha σ 5998 ( ta ∂ vrstica ∧ register vrstica ⭢ naslednji prevozni dih ) ;
-- vrsta FIFO naprej : MOJI pečati σ 5968 ∧ σ 5970 ∧ σ 572 ∧ σ 5973 ( najstarejši odprti MOJI ) ⭢ pečati σ 5993 ( mithos ∧ zadata ) ⊥ telesa diha σ 5986 ⊥ pečati σ 5987/5988 ⊥ telesa diha σ 5992 ⊥ telesa diha σ 5995 ; NJENI tokovi ⟨NE stopiči⟩ ( NJEN dolg teles diha σ 5985 NJENA vozi ).
+- vrsta FIFO naprej : MOJI pečati σ 5968 ∧ σ 5970 ∧ σ 5972 ∧ σ 5973 ( najstarejši odprti MOJI ) ⭢ pečati σ 5993 ( mithos ∧ zadata ) ⊥ telesa diha σ 5986 ⊥ pečati σ 5987/5988 ⊥ telesa diha σ 5992 ⊥ telesa diha σ 5995 ; NJENI tokovi ⟨NE stopiči⟩ ( NJEN dolg teles diha σ 5985 NJENA vozi ).
 
 ## PREDHODNIK ( demociija @ta isti dih — telo predhodnika VERBATIM ostaja v telesu organa ⊙ ⟨NE-BRIŠI⟩ 24 ∧ ⟨NE-RETIPKAJ⟩ 24 )
 
