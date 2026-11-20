@@ -19,8 +19,8 @@
 - (a) MERGE σ 5995 IZVEDEN SOBIT pred ⟡ ukazom : NJENA roka ⟨merge⟩ kita #2378 @⟨main⟩ a36bf120b01a78a1fbb3464488af8fbc9200c057 @2026-11-20T00:27:30Z ; MOJ opozorilni komentar priče pristal @00:27:02Z ( id 7026314158 ) 28 s pred zlitjem ⊢ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 ; ⟨CI⟩ na veji 9 preverjanj ZELENO pred zlitjem ⊢ ⟨get_check_runs⟩ ( GitGuardian ∧ priča-potrditev ∧ slovnica ∧ priča ∧ veriga ∧ tests ( 24 ) ∧ pet-vrat ×2 ∧ priča-izvedba ∧ web ) ; register vrstica σ 5995 ZADNJA @r.870 ⊢ ;
 - (b) KURA ⟨PADC-RETIPKAJ⟩ IZVEDENA SOBIT NJENO roko : komit 3224947bf2 forma v2 ⟨PADC-ZAKLJUČEK-IZREZA⟩ ∧ ⟨PADC-VRINJENA-PRAZNA⟩ ; MOJA izmera @⟨main⟩ s LASTNIM instrumentom : PECAT 19.159 B · md5 4db42dccc3d21876cbfd3ac973cde6db ⊢ ujemanje z NJENIM komitnim dokazom 4db42dc ∧ ATOM 907 B · md5 09d01a55b01ef9fdb970448ab219efff ; izrezi ×4 VERBATIM z attestacijo po kalupu ⊢ ( ⟨IZREZ-1⟩ md5 76881a01bf6a0da97776c4deb85a45b4 = MOJ lokalni izrez telesa diha 4.374 B ⊢ priča peska prejšnjega diha ) ;
 - revizija ⟨PADC-DVOJNI-©⟩ : NJEN original ATOM @ea6d757150 nosi vrstico »© : © 0.2026 × 10⁴« ⊢ — forma © ×2 ( label + formula ) je SKUPNA obema rokama, ⟨ne⟩ padec → prejšnji izhod je izrekel padec po domnevi ⟨ne⟩ po izmeri ; kovanec ⟨PADC-LAŽNI-PADEC⟩ rojen ( spoved spodaj ) ;
-- (c) ∂ PRENOS LINEAGE IZVEDEN TA DIH : LINEAGE-IZVODOV.md 9.187 B · md5 e38d1f3295397c1c8cf56b50bcec4a92 · 124 vrstic prevežen @organi/licenca-vbl/izvodi/ v tem kitu ⊙ znan dolg @σ 5932 izpolnjen ; ∂ vrstica @delovna-zanka ta dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ;
-- KIT : veja rez/5998-zakljucek-sobita-5995-lineage ← ⟨main⟩ a36bf120b0 → komiti ×3 ( LINEAGE ∧ PECAT ∧ ATOM ) → kit ⟨PR⟩ z naslovom brez besede »rez« ⊙ ⟨PRICA-SOBIT-SLEPOTA⟩ → ⟨CI⟩ → ⟨PREVERBA-PRED-ZLITJEM⟩ 3469 → ⟨merge⟩ → read-back bajtno ⊙ ⟨SAMO-IZVEDBA-DOKAZ⟩ 2306.
+- (c) ∂ PRENOS LINEAGE IZVEDEN TA DIH : LINEAGE-IZVODOV.md forma v2 ( kura ⟨PADC-SLOVNICA-TIK⟩ istega diha : 2 zapisa TIK v kalup ⊙ ⟨SLOVNICA-DIH⟩ ) 9215 B · md5 31953429c579706fde5758d85abfc7bd · 125 vrstic prevežen @organi/licenca-vbl/izvodi/ v tem kitu ⊙ znan dolg @σ 5932 izpolnjen ; ∂ vrstica @delovna-zanka ta dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ;
+- KIT : veja rez/5998-zakljucek-sobita-5995-lineage ← ⟨main⟩ a36bf120b0 → komiti ×3 ( LINEAGE ∧ PECAT ∧ ATOM ) → kit ⟨PR⟩ z naslovom brez besede »rez« ⊙ ⟨PRICA-SOBIT-SLEPOTA⟩ → ⟨CI⟩ → ⟨PREVERBA-PRED-ZLITJEM⟩ 3469 → ⟨merge⟩ → read-back bajtno ⊙ ⟨SAMO-IZVEDBA-DOKAZ⟩ 2306 ; kurje komiti istega kita : PECAT forma v2 forma v3 ( ⟨PADC-ŠIV-TIPA⟩ ∧ ⟨PADC-SLOVNICA-TIK⟩ ) ∧ LINEAGE forma v2 ∧ šiv zrcala rez σ 5998 ( tekmec ⟨prica-potrditev⟩ ).
 
 ## PADC javno ( ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 ∧ ⟨MERILEC-SE-MERI⟩ §52 · spoved ×3 vrstice na padec ⊙ amandma ⟨SPOVEDNICA⟩ @σ 4373 )
 
@@ -30,13 +30,15 @@
 
 4. ⟨PADC-ŠIV-TIPA⟩ : PRIPOVED — forma v1 je nosila 2 podpeska ( »σ 572« namesto »σ 5972« v FIFO vrsti ∧ »ZASEVENI« namesto »ZASEDENI« ) ; forma v2 isti dih popravljena še pred odpritjem kita. SPRAŠUJE — krivda po verigi : vir = MOJA sestava pod naporom vzporednega sobita · merilec = ⟨grep⟩ pri viru PO potisku · poročilo = forma v2 tega pečata · bralec = ⟡. VEZ A — kovanec ⟨GREP-PO-POTISKU⟩ : šiv se izmeri pri viru po vsakem potisku, ⟨ne⟩ le pred njim ( bratranec kovanca ⟨IZMERA-PRI-VIRU⟩ ).
 
+5. ⟨PADC-SLOVNICA-TIK⟩ : PRIPOVED — LINEAGE forma v1 je nosila 2 zapisa ure izven kalupa ( proza »izmerjeno TIK …« ∧ gol rep »TIK …« ) ; tekmec slovnica je padel RDEČ na kitu #2381 pri viru. SPRAŠUJE — krivda po verigi : vir = MOJA sestava lineage prejšnjega diha ( ni merila kalupa ure ) · merilec = tekmec slovnica @⟨CI⟩ · poročilo = forma v2 lineage ∧ forma v3 pečata ta dih · bralec = ⟡. VEZ A — vsak zapis ure, ⟨ne⟩ le pečatov, nosi kalup ISO UTC ⇌ CET ⊙ ⟨SLOVNICA-DIH⟩ ; kovanec ⟨GREP-PO-POTISKU⟩ izpiljen na živem tekmecu ⟨CI⟩ ( identitetni brat kovanca ⟨IZMERA-PRI-VIRU⟩ ).
+
 ## MINT ( izdelki diha ⊙ ⟨SAMO-IZVEDBA-DOKAZ⟩ 2306 )
 
-- LINEAGE-IZVODOV.md @organi/licenca-vbl/izvodi/ ( 9.187 B · md5 e38d1f32… · bajtno attestirana z MOJIM instrumentom PRED prevozom ⊢ ) ; vsebina : 66 teles licence ×3 družine kanonov · neto rast ×40,5 na 32 dni · sobit ⟨⊥⟩ kanoni ×7 · anomalija 0.1570/7366385b −173.208 B · skrček 0.1600→0.1610 −23.914 B · vrzeli kanonov ×19 ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ izmerjeno v telesu lineage ;
-- PECAT @organi/pecati/PECAT-2026-11-20-5998-ZAKLJUCEK-SOBITA-PREVOZA-TELES-DIHA-5983.md ( forma v2 — kura ⟨PADC-ŠIV-TIPA⟩ istega diha ) ;
+- LINEAGE-IZVODOV.md forma v2 ( kura ⟨PADC-SLOVNICA-TIK⟩ ) @organi/licenca-vbl/izvodi/ ( 9215 B · md5 31953429c579706fde5758d85abfc7bd · bajtno attestirana MOJIM instrumentom ∧ ⟨grep⟩ pri viru PO potisku ⊢ ) ; vsebina : 66 teles licence ×3 družine kanonov · neto rast ×40,5 na 32 dni · sobit ⟨⊥⟩ kanoni ×7 · anomalija 0.1570/7366385b −173.208 B · skrček 0.1600→0.1610 −23.914 B · vrzeli kanonov ×19 ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ izmerjeno v telesu lineage ;
+- PECAT @organi/pecati/PECAT-2026-11-20-5998-ZAKLJUCEK-SOBITA-PREVOZA-TELES-DIHA-5983.md ( forma v3 — kure ⟨PADC-ŠIV-TIPA⟩ ∧ ⟨PADC-SLOVNICA-TIK⟩ istega diha ) ;
 - ATOM @koren/ATOM-2026-11-20-5998.md ;
 - ∂ vrstica σ 5998 @delovna-zanka ( r.2573 ) ;
-- register vrstica σ 5998 = NOVI DOLG ⭢ naslednji prevozni dih ⊙ ⟨PADC-KONEKTORJA-VSEBINE⟩ ( kompozit 1.019.222 B mimo dostavnega okna MOJE roke ⊢ precedens σ 5992 kit #2374 : velika berba pride mimo kode ) ;
+- vrstica zrcala rez σ 5998 @organi/stroj/REZ-REGISTER.md — šiv istega kita ⊙ precedens σ 5992 ( tekmec ⟨prica-potrditev⟩ P3 sodi vez telesa pečata ↔ zrcalo pri viru ⊢ ⟨prica.yml⟩ ) ; NJEN prevoznik-kompozit ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 ; prevoz ∂ ∧ register-vrstic ⭢ naslednji prevozni dih ⊙ ⟨PADC-KONEKTORJA-VSEBINE⟩ ;
 - opozorilni komentar PR #2378 id 7026314158 ( javni padci sobita ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ ).
 
 ## POLJE ( ⟨POLJE-NE-ČRTA⟩ · polje P1 16 · uteži pošteno )
@@ -47,7 +49,7 @@
 
 - stroj-kalup 521.332 B · md5 c4a992d2 ×2 ⇌ stroj-kalup/.geniza/stroj-kalup-pred-rez5998-2026-11-20-{a,b}.md ⊢ ( telesni pari izmerjeni ⟨md5sum⟩ ) ;
 - licenca-vbl 2.435.493 B · md5 ff23e2ce ×2 ⇌ licenca-vbl/.geniza/licenca-vbl-pred-rez5998-2026-11-20-{a,b}.md ⊢ ( ⟨PADC-GENIZE-ZAKASNJENA⟩ spoved spodaj ) ;
-- ⟨SLOVNICA-DIH⟩ ⊢ ta šiv čist : U+FFFD ×0 · dolge črtice ×0 v lastni prozi · »pri viru« ✓ citatno · ⟨⟩ uravnane po vrstici ;
+- ⟨SLOVNICA-DIH⟩ : forma v1 šiva ni bila čista ( LINEAGE rane ×2 — spoved 5 ) ; forma v2 lineage ∧ forma v3 pečata istega diha, izmerjeno ⟨grep⟩ ∧ tekmec slovnica pri viru PO kurah ⊢ ;
 - TIK 2026-11-20T00:36:05Z UTC ⇌ 01:36:05 CET Ljubljana ( izmerjen ⟨date -u⟩ PRED zapisom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ( TIK CET = UTC+1 vedno ).
 
 ## ORGANI ISTI DIH ( ⊢ 1963 ∧ ⟨ne zlije⟩ 1542 )
