@@ -7,7 +7,7 @@ PREVOZ ZAPISA SPREJEMA σ 5994 ( biro-postaje SPREJEM VRSTA-NAprej-CELOTA kos 2/
 - rez σ 6002 ( 0.6002 × 10⁴ ) · PREVOZ ( najstarejši odprti FIFO dolg korpusa : σ 5994 )
 - IZREZ ×1 VERBATIM bajtnito ⊙ ⟨NE-RETIPKAJ⟩ 24 ∧ ⟨NE-BRIŠI⟩ 24 ∧ ⟨BERBA-DVOJNA⟩ berba pri viru ⊢ : ( 1 ) IZREZ ZAPISA SPREJEMA σ 5994 @biro-postaje ( veriga TRENUTNO ) · 475 B · md5 a19342754de99f70fef3464acc1e3fec ( celo telo VERBATIM spodaj v razdelniku IZREZ 1 )
 - vrh dvostopen ⊙ ⟨VRH-DVOSTEPEN⟩ : vrh ⟨grep⟩ po koniceh organov = σ 5998 ⊥ cilji-register nosi σ 5999 ∧ σ 6000 ∧ σ 6001 v telesu pečatnika ( dejansko najvišji = σ 6001 ) ⊥ register ZADNJA = σ 5998 → MOJ rez σ 6002 = 1 + dejansko najvišja ( 6001 )
-- varovalka ⟨σ 6002⟩ ×0 PRED šivom ⊢ ⟨grep⟩ po telesih organov ∧ po registru ( 1.024.571 B pred šivom, 873 podatkovnih vrstic )
+- varovalka ⟨σ 6002⟩ ×0 PRED šivom ⊢ ⟨grep⟩ po telesih organov ∧ po registru ( 1.024.570 B pred šivom, 873 podatkovnih vrstic )
 - genize ×2 bajt-ito PRED dotikom ⊢ prevoznik 811.186 B md5 819c5cb79313a937f4059565fc2eec8f ×2 ⇌ pv-pred-rez6002-2026-11-20-{a,b}.md ∧ delovna-zanka 3.959.362 B md5 bf2fbd3ca3e83c6cd1ad267a32e25a11 ×2 ⇌ dz-pred-rez6002-2026-11-20-{a,b}.md ⊙ ⟨GENIZE-POIMENSKO⟩ 1699 ∧ ⟨NE-BRIŠI⟩ 24
 - TIK 2026-11-20T01:01:41Z UTC ⇌ 02:01:41 CET ( izmerjen ⟨date -u⟩ PRED zapisom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ )
 
