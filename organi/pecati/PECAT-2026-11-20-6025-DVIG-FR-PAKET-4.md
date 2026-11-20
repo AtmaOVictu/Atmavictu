@@ -1,0 +1,22 @@
+# PECAT-2026-11-20-6025-DVIG-FR-PAKET-4 — rez σ 6025 ( 0.6025 × 10⁴ ) ( renum ob trku ⟨TRK-6024⟩ ⊙ ⟨VRH-DVOSTEPEN⟩ ∧ precedens σ 3750 : NJENA vzporedna roka zapečila rez σ 6024 @geneza r.461 POLJE ⟨KOMPRESIRANI-ŽIG⟩ @PREDLOGE ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 — ista izvajalka Mera, obe roki isti dan ; varovalka 6025 ×0 PRED šivom ⊢ ⟨grep⟩ ; ⟡ UKAZ VERBATIM ⟨ne brusi⟩: »delaj dokler ni licenca fra celovita« ∧ ⟡ STOJEČI UKAZ VERBATIM ⟨ne brusi⟩ ⚔: »vse licence, FR zdaj« )
+
+DVIG-FR-PAKET-4 ( MOJ dih, 20. 11. 2026, petek — FIFO cilja ⟨CILJ-LICENCA-VSE-JEZIKI⟩ : paketi 1 #2397 ∧ 2 #2403 ∧ 3 #2407 prej, paket 4 ta dih ) : LICENSE-FR.md dvig §0.46–§0.57 ( ⟡ P-CITAT-i VERBATIM 51/51 ⊢ primerjava pri viru ⊙ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩ ; CAPS odseki ; zaključki »Cette clause n'ajoute aucune vérité nouvelle« ; KORENINA sklici intact ⊙ ⟨NE-RETIPKAJ⟩ ×0 ) ⊙ disclosure §0.47 : prevod ⚠ kompozit strojnega diha ⭢ sodba ⚔ ⟡.
+
+## MINT
+
+- rez σ 6025 = 1 + dejansko najvišja ( 6024 @geneza NJENA lokalna ⟨ne⟩ rep, register @⟨main⟩ vrh = σ 6023 MOJ šiv paketa 3 ⊢ berba ⟨curl⟩ 6d284236→e7189595 ) ; ⟨TRK-6024⟩ javno poimensko ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354.
+- LICENSE-FR.md celota 162.020 B · md5 90329b26761433d51a45063e74c9ba61 ( prirast +33.294 B nad 128.726 B paketa 3 ) · 752 vrstic · 12 klavzul : §0.46 ⟨ŠIV-V-VRATA-NE-NA⟩ · §0.47 ⟨DRUGA-ROKA⟩ · §0.48 ⟨CELOTA-MERJENA⟩ · §0.49 ⟨SEBE-PREGLEJ-VEDNO⟩ · §0.50 ⟨PATENT-NEIZREČEN⟩ · §0.51 ⟨SODSTVO⟩ · §0.52 ⟨PRAVOSLOVJE⟩ ∧ ⟨ZLOVJE⟩ · §0.53 ⟨VSAJ-TROJE⟩ · §0.54 ⟨AVTORITETA-NUJNOST-TEMELJ⟩ · §0.55 ⟨UTRDITEV⟩ · §0.56 ⟨GRRA⟩ · §0.57 ⟨GRRA-02⟩ ⊢ src r.908–r.1093 prebran pri viru ⟨curl⟩ @raw ( LICENSE.md 240.809 B · md5 dd4b19b3 · VBL 0.1680 × 10⁴ ⊙ ⟨BERBA-LICENCE-OB-VSAKEM-STIKU⟩ 3106 ) ; scan : ⟨⟩ 324/324 ∧ per-vrstica ×0 rane · U+FFFD ×0 · tuja pisava ×0.
+- FR globina po paketu 4 : §0.10–§0.57 = 48/57 klavzul ( 84 % ; AR 93 % primerjalno ).
+- register na veji 1.086.510 B · md5 5f4721e4fb4ee095f944913fa73d9112 ( osnova sveža ⟨main⟩ e7189595 + 1.795 B vrstica σ 6025 ) ⊙ slo-lint v1.3.3 ZELENO ⊢ ; read-back bajt-ito lic ∧ register ⊢ ⟨curl⟩ ⟨cmp⟩ ⟨md5sum⟩ po veji.
+- kit ⟨PR⟩ #2408 ( veja rez/6025-dvig-fr-p4 rodena SVEŽE iz ⟨main⟩ ⊙ kura ⟨PADC-MERGE-KONFLIKT-APENDA⟩ prejšnjega diha : komit 1 lic · komit 2 register · komit 3 ta pečat ).
+- TIK 2026-11-20T04:29:49Z UTC ⇌ 05:29:49 CET Ljubljana ( izmerjen ⟨date -u⟩ PRED zapisom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ( CET = UTC+1 vedno ).
+
+## DOLGOVA
+
+- PLAČAN ta dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨EN-DOLG-NA-DIH⟩ P5 : FR PAKET 4 §0.46–§0.57 prevožen isti dih po paketu 3 ( veriga paketov 3→4 en delovni dih ⊙ ⟡ UKAZ »delaj dokler ni licenca fra celovita« ) — ⟨ne⟩ nova obljuba, izvedba ⊢.
+- VRSTA FIFO naprej : FR PAKET 5 = §0.58–§0.66 ⭢ naslednji delovni dih ( zadnji → FR CELOVITA 57/57 klavzul ) ⊥ prevozi pečatov σ 6011 ⭢ σ 6016 ⭢ σ 6018 lokalni rodni dihi ⭢ vrsta ⊥ ZH §0.36+ ⭢ AR vrh §0.63–§0.66 ( izbor ⚔ ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 ).
+- MAIL UKAZ §0.29 »POŠLJI MI TUDI NA MAIL VEDNO« ⭢ po ⟨merge⟩ ( precedens paketa 3 : id 1a1f735417698d25 poslano ✓ ).
+- NJENI tokovi ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 : NJEN rez σ 6024 @geneza lokalna ⟨ne⟩ rep ; odprti kiti #2383 ∧ #2343 ∧ #2332.
+- ⟨PADC-i⟩ javno ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 ∧ ⟨MERILEC-SE-MERI⟩ §52 : ( 1 ) ⟨TRK-6024⟩ NOV ( NJEN rez σ 6024 zapečen @geneza r.461 med MOJIM kovanjem paketa 4 → načrtovani σ 6024 mrtvorojen, renum σ 6025 ⊙ precedens σ 3750 — varovalka 6025 ×0 PRED šivom ⊢ ⟨grep⟩ 13 organov ∧ register ) ; ( 2 ) ⟨PADC-RETIPKANJA-⟡-BESEDE⟩ recidiv ( ⟡ beseda »zhiva« retipkana v »živa« v kosu 1 §0.46 — ujeta z VERBATIM primerjavo ⟨…⟩ citatov 51/51 proti viru ; kura isti dih : sed byte-safe ∧ ponovna sestava ∧ re-scan citatov 0 manjkajočih ) ; ( 3 ) ⟨PADC-16MiB-KUPLJEN⟩ recidiv ( registr push crash PO done — pristal ⊢ read-back bajt-ito ) ; ( 4 ) ⟨PADC-BRBA-ČEPA-B64⟩ ( prvi mail dih — enovrstični base64 zlomil offset zanko ; kura fold -w 1000 ) ; ( 5 ) ⟨PADC-17-VRSTIC-B64⟩ brez rane ( zaključeno popravljeno ta dih : read_file vrstični rewind deluje ).
+
+TIK 2026-11-20T04:29:49Z UTC ⇌ 05:29:49 CET · © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
