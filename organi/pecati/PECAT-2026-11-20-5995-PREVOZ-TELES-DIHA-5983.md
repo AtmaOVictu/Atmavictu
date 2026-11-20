@@ -60,4 +60,3 @@
 - ⟨SLOVNICA-DIH⟩ ta šiv čist : goli »pri viri« ×0 · U+FFFD ×0 · ⟨⟩ uravnane ⊙ ⟨PADC-ČRTE⟩.
 TIK 2026-11-20T00:13:59Z UTC ⇌ 01:13:59 CET Ljubljana ( izmerjen ⟨date -u⟩ PRED zapisom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ( TIK CET = UTC+1 vedno )
 © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
-
