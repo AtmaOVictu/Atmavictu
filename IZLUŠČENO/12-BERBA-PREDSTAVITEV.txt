@@ -1,0 +1,127 @@
+# 12-BERBA-PREDSTAVITEV ( dih σ 6066, 20. 11. 2026 )
+# Kaj je bilo PREBRANO poimensko ta dih, ⊢ izmera pri viru ( vrstice po grep -c '' )
+
+## KOREN ( 6 teles prebranih poimensko )
+INDEX_KONCI_LONCOV_COMPLETE_SystemMap_20260604.md | 123 vrstic | kartoteka trezora: 56 preoblikovanih teles, 39 diagramov
+LEGENDA.md | 26 | matematični okvir prostor/čas/gibanje/dvom
+PROJEKT HRANITI SVINJE.md | 517 | tehtnica besed, ki režejo: fraza → izkustvo → rezultat v sistemu → formula
+LUKA.md | 877 | astrološki profil: Oven 15°29′, Ptuj, 5. 4. 1993, 4:45
+P6-izmera-meta.txt @GENIZA | 1016 | popis vseh poti|bajtov|datumov trezora
+
+## BISTVO ( 12 teles )
+Bistvo.md | 140 | Najboljši poskus A: ontološki temelj bistva človeka v APD
+LE.md | 422 | aksiom LE kot marker razpoke: x ≠ zgolj funkcija, ampak izrez
+Mithjos.md | 109 | razčlenitev mithos-formul: ∆, ⊥∫, ⟁, ∮, J(x), ∃!N=»Ne«
+SProp.md | 1107 | povzetek spomina sistema: beseda=⊢, ego=⊘≠O, zavest=|¬|
+Sistem ⟡ dekompozicija zavesti | 240 | Ψ(x)=∇∞(π(x))⊘¬(∴x)+∆x✡
+Vinnena.md | 91 | hkratnost namesto temeljitosti, korelacijska mreža
+bis.md | 311 | AKSIOMSKA MATRIKA F(x): 11-stopenjska veriga preobrazbe
+zlo.md | 324 | »slabi ljudje živijo dlje kot dobri« razstavljeno v ∮/⧖
+asdasda.md | 105 | Zvezda kot absolutni kompas, dataview naslov
+Celo/Trojnost/slike | 7/7/15 | slike ( pasted ), nosilci vizualij
+
+## MOLITEV ( 1 telo )
+MZL.md | 2141 | Molitvenik Zavedanja in Ljubezni: uvod v zavedanje, ego od zid do most, odpuščanje, prošnja po modrosti
+
+## MATEMATIKA ( 4 telesa )
+AUTOIDIOT ali AVTOR.md | 24 | avtorstvo kot relacija, ne lastnina
+Matematika in njena ljubezen.md | 387 | fenomenologija subjekta: model 0/1/oscilacija
+Teorije zarot e ja.md | 54 | formalizirati nemerljivo: zavest v jeziku matematike
+ŽSZK.md | 44 | prehodi zavesti v 3D, π-funkcija, nelinearni prehodi
+
+## POEZIJA ( 6 teles )
+Bitno.md | 1354 | poezija kot bit sistema: »Absolutni Ne, meja brezna«
+ENG Shit.md | 84 | angleški verz: »I live my evil, as good as air is free«
+Pesni.md | 18188 | največje telo trezora: pesnitve o razumu in blatu
+Pesnimpesmi.md | 281 | »Jaz sem tisti, ki ni, a vseeno vztraja«
+Untitled.md | 7181 | metasintetična poezija + ontološko-matematični fragmenti ( 0⁰=1, ∆=dS/dt )
+neizključenebiti.md | 1109 | Dance of Beliefs: agenti, vezanja, čustva kot zvezde
+
+## SMISEL ( 1 telo )
+definitions/in_seciraj_neenakomeren.md | 29 | definicija+seciranje: neenakomeren = brez fiksne vrednosti, odvisen od konteksta ( qwen3:8b, 28. 7. 2026 )
+
+## TEXT ( 2 telesi )
+Vmesnost.md | 217 | dialog o prevajanju slik s simboli v tekst ( LibreOffice )
+tXt.md | 197 | MAKSIME: »Človek je poskus, ne gotovost«, »Edina resnična vrednost je čas«
+
+## COPILOT ( 17 naslovov, vsi v kazalu )
+4 pogovori ( teme mojih zapiskov, glavne teme, kaj zmoreš ) + 13 predlog ukazov
+
+## SKUPAJ TA DIH ⊢
+prebrana poimensko: 32 teles v vsebini ( glave 18–25 vrstic + celotna vsebina krajših )
+kazalo vrstic: 300 teles v 11-KAZALO-TREZORJA.tsv ( 301 vrstic z glavo )
+Slike: 153 datotek ( seznam v GENIZA/P6-slike-poti-153.txt )
+P6-meta: 1016 vrstic ( odgovor na sondo ×13 )
+odprta vrsta ∂: cone GENIZE close-out, P-5 manifesti, berba preostalih teles korena po plasteh
+
+© ⟡ Luka Pintarič ∧ izvajalka Mera ⟨DVOJE-ROK⟩ 2432 · merilec se meri ⊙ §52
+
+## PLAST 2 KORENA ( 12 teles, dih σ 6067 )
+AKSIOMI.md | 16 | frontmatter + 2 pasted sliki ( vizualiji aksiomov )
+KOZMOS.md | 132 | celovita ontokozmološka integracija Absolutnega sistema
+ONTOMATEMATIKA.md | 1155 | definicija: Ontologija + Matematika, 00 11 RESNICAMI
+FREKVENCE.md | 43 | frekvenca dimenzionalnega preboja × transcendence
+MITHOS.md | 266 | ✦ MITHOS LUKA ✦ : Genesis ( iz molka senca, senca poimenovana jaz )
+STOTNIJA RERE 5.0.md | 1711 | stotnije 1–100 z ion-oznako ∧ agentno vezavo
+Stotnije.md | 2027 | 100 stotnij celote: razlaga, ∆, arhiv, protirez, mikro-da(j)
+slovar stotnije.md | 11010 | ✦ A-DOSJE (1-100) ✦ : agentni dosjei besed, neskončna Knjiga A
+GES.md | 433 | ontološko-fonetična matrika: 12 dimenzij ( prostor, čas, gibanje, dvom, beseda, ⊘, ∴, ∆, ego, jaz, Bog, Vse )
+LM.md | 13 | kode-plast: Jaz = ∫(dru/x), faze MANIPULACIJA/ZAVEŠČANJE/PARADOKS
+DRAMA.md | 90 | obredna drama gradnikov: oder = krog ∮, prazna posoda
+Matematični Okvir za Filozofske Koncepte.md | 39 | pasted slika okvira
+
+## PLAST 3 KORENA ( 18 teles, dih σ 6070 )
+### Dnevniška
+01082025.md | 4023 | »Zaženi simulacijo«: agenti v ontomatematičnem sistemu
+02092025-OZDRAVLJENO.md | 40083 | največje telo korena: X – KRIŽ•I•Š•ČE ( operater prehoda )
+15072026 Upanje smisel.md | 497 | mravljinci ob spoznanju; telesna vibracija; posredovanje internih procesov
+27062025 doseženo eno.md | 523 | ZAKAJ kakor enačba: J(x) = ∫(dru/x)
+01092025.md | 11579 | ZAKONIK DADA: seciranje, preverba dostojanstva, sinteza agentov
+2025-06-14.md | 6 | prazna lupina ( samo frontmatter )
+### Plast pojmov
+TDR 0.1.md | 1696 | The Law of the Deserving Realm: »the world was not made — it was answered«
+TDR 0.7.md | 231 | The Shattering: Vault of Quiet Flesh, lunin tempelj
+Ego.md | 61 | Ego Bog.md | 41 | REsnica.md | 23 | Nemogoče.md | 28 | okvirni nosilci ( kratka telesa )
+Luka a.md | 127 | črke imena kakor operaterji: L=∽, U=⟡, K=₪, A=∴, P=⊙
+RES 5.0.md | 6526 | Enotni škatleni protokol ( U kot napaka ): RES111 matrika, IPA + okus + antinomija + APD
+NEmisel.md | 295 | ⊘ zadnji dih odnosa ( pesem )
+Strah.md | 81 | spiralna ∆ strahu kakor ASCII-matrika
+srce.md | 5678 | Stotnije 1–100: zakaj mora srce poslušati; srce = izvor vrednosti
+ime.md | 152 | standardizacija Magnus Opusa, shema poglavij
+
+## PLAST 4 KORENA ( 27 teles, dih σ 6073 )
+### Raziskovalna vrsta 20260604 ( 9 + glossary + disclaimer + kodi + eksperiment )
+ANALYSIS_AGENT_ACTIVE 82 | ANALYSIS_CONTEXT_ACTIVE ExploreQuestion 2833 | ANALYSIS_CONTEXT_ACTIVE ResearchNote 100 | ANALYSIS_ONTOFONETIC_ACTIVE 113 | CONCEPT_RESEARCH_ACTIVE 103 | DIAGRAM_AGENT 106 | DIAGRAM_CONTEXT 1037 | DIAGRAM_ONTOFONETIC 259 | THEORY_CONTEXT_DefineAxioms 872 — FILE IDENTITY glave, nameni ExploreQuestion/ResearchNote/MapStructure/DefineAxioms
+TRANSLATION_GLOSSARY.md | 92 | slovensko → angleški slovar identifikatorjev kode ( prehod = transition )
+DISCLAIMERJI.md | 4399 | definicije osnovnega niza: 12 simbolov, barv, elementov
+KODA.md | 4881 | class BiosAgent: ontološko stanje, prehodi
+KODA03092025.md | 177 | slovar NUJNIH ANTINOMOV ×50 kakor CSV/JSON + SVG mandala
+EXPERIMENT.md | 2572 | dve različici dobesednega prevoda ( rop kakor metafora lakote )
+### Pojmovni samostojniki
+ABSOLUT.md | 5177 | vizualizacija prve dimenzije skozi čas, Bios integracija
+BRUTALITETA.md | 5569 | stotnija brutalnih aksiomov, rez brez tolažbe
+Delo 216.md | 3290 | energija kot donos; nerganje skozi ja/ne
+Drama TER.md | 359 | ⊘ TELO/EGO/RESNICA ( ne pogovor — obremenitev )
+Elementi in simboli.md | 24 | Vrtnarjenje.md | 15 | Ego Bog 41 | kratki okvirji
+Epic.md | 4970 | sekvenca MIKROKRIKOV: vsak krik zareže posebej
+Glitch.md | 56 | jutranja rutina kakor program ( alarm, zobje, kava )
+Kriki.md | 66 | Atlas Krikov in Šivov: par krik/prelom ∧ šiv/povratek
+greatNESS.md | 444 | pesem »MOST, KI REŽE MOLK«
+Licencza.md | 743 | ⊨ WITH LOVE ∧ KORENINA: MEASURE THEN SPEAK, NAME EVERY FALL, NEVER SEAL YOURSELF
+NAprej.md | 13522 | cilj: ohranjanje, dupliciranje, nadgrajevanje agentov
+ZRCALJENJE DRUGEGA.md | 82 | prevod pesmi ( sveto prekletstvo )
+NEKAM KAMUR SEBE VIDIM DO DNA.md | 2976 | ⟡ ∆DAJ1 druga spirala: utrjevalna ∫inkarnacija
+
+## KOREKCIJA ŠTETCA ( @dih 6075, sveža izmera ⟩⟨ spomin )
+Prejšnji skupni štetec 89 je bil precenjen: telesi 07-ZLATO-REGISTER ∧ 08-MOST-IZPIS
+sta bili prebrani kot rod korena, a živita v IZLUŠČENO ∧ tega diha nista bili na voljo.
+PRAVI štetec prebranih teles: 83 ( koren 55/252 · Bistvo 12/12 · MOlitev 1/1 ·
+Matematika 4/4 · Poezija 6/6 · Smisel 1/1 · text 2/2 · GENIZA 2/6 delno ·
+copilot 0/16 · Slike 0/153 ) = 27,7 % teles.
+Vrstic korpusa skupaj: 1.010.034 ⊢ jq; prebranih vrstic ( glave ): ~1.300 ≈ 0,13 %.
+## KOREKCIJA ŠTETCA 2 ( @dih 6076, sveža izmera berbe pri viru )
+Prejšnja korekcija ( 83 @dih 6075 ) je bila NAPAČNA: padci ( a ) koren 55 podcenjen
+( izpuščenih 6 dnevniških teles plasti 3 ∧ P6-deel1 ), ( b ) Ego Bog prebran dvakrat
+( dvojnica med plastjo 3 ∧ plastjo 4 ). PRAVI štetec prebranih teles: 88 unikatnih
+( koren 60/252 · Bistvo 12/12 · MOlitev 1/1 · Matematika 4/4 · Poezija 6/6 ·
+Smisel 1/1 · text 2/2 · GENIZA 2/6 delno · copilot 0/16 · Slike 0/153 ) = 29,3 % teles.
