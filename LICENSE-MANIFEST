@@ -223,9 +223,9 @@
   },
   {
    "path": "LICENSE-ZH.md",
-   "size_bytes": 59335,
-   "sha256": "ae49cccec7053ee31c496d00db4548eb04709ffaa6c3785f862960235039d171",
-   "note": "wreath — kitajščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+   "size_bytes": 98361,
+   "sha256": "63a3e532612f542f57cc19e6dd10f15d40891f6a69f69cd81e56733632cc5c3f",
+   "note": "wreath — kitajščina po lastni kri; slopi §0.10–§0.45 ( 36 ) prevoženi ⊙ PAKET 1 ∧ 2 ( dih σ 5865/5868 ) ∧ PAKET 3 ( dih σ 6060 — STOPNJA 4 / 第四包 ) ; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
   },
   {
    "path": "LICENSE-LINEAGE.md",
