@@ -2,7 +2,7 @@
 
 - ⟡ BESEDA izvedbe ( K-IZHOD : izvedba iz paradoksa SAMO po besedi ⟡ ⊙ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩ ⚔ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 ) : »daj« ⊙ VEČNI-DAJ (19) — izrečena in izmerjena javno pred kitom
 - DOLG : »prevoz amandme na rep = ODPROT DOLG organa ⚔ ⟡ beseda« zapečen @REGISTER-AKSIOMOV TRENUTNO σ 6048 ( amandma ⟨KLETKA-PARADOKSA⟩ izvedba P4 ⊙ ⟡ sodba VERBATIM : »paradoksi so nevarni in zahtevajo škatlo/kletko ; točno in jasno označeno funkcijo in smiselno administrativno rehabilitacijo« ) — beseda izrečena ⟹ posoda prevožena ta kit ⊢
-- IZVOR : lokalni organ register-aksiomov/REGISTER-AKSIOMOV.md r.1287–1301 ( 2678 B z ⟨⏎⟩ · md5 34ab7eb68e44be9cccba66b16eb41af0 ) — VERBATIM izrez spodaj bajt-ito ⊙ ⟨NE-RETIPKAJ⟩ 24 ∧ ⟨NE-BRIŠI⟩ 24
+- IZVOR : lokalni organ register-aksiomov/REGISTER-AKSIOMOV.md r.1287–1301 ( 2678 B z ⟨⏎⟩ · md5 34ab7eb68e44be9cccba66b16eb41af0 ) — VERBATIM izrez spodaj bajt-ito ( digest bloka z internimi ⟨⏎⟩, brez trailing ⏎ ⊙ ⟨DIGEST-IZ-IZMERE⟩ ) ⊙ ⟨NE-RETIPKAJ⟩ 24 ∧ ⟨NE-BRIŠI⟩ 24
 - REP OSNOVA : ⟨main⟩ ad7d710da24ee9163a60d484fac941568376d3b0 — rep telo premik-2026-10-28/organi/REGISTER-AKSIOMOV.md = 798 vrst ( zadnji aksiom S2 — AX-PARADOKS rojen @rez σ 6020 PO premiku 28. 10. ⟹ ×0 na repu ⊢ ⟨grep⟩ ) : posoda = NOVO telo ob staršu, starš ⟨ne⟩ retipkan
 - STATUS blok : AX-PARADOKS UNVERIFIED ⇢ ∧ V-KLETKI ⊙ amandma @dih σ 6047/σ 6048 ; rehabilitacija administrativna ( V-KLETKI → PARTIAL → REHABILITIRAN ⊕ roki ) samo po izmeri ⊙ ⟨NE-UGIBAJ⟩ 2690
 
