@@ -67,12 +67,15 @@
 ## MINT
 
 - vzrok : FIFO ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟡ UKAZ VERBATIM ⟨ne brusi⟩ : »stori vse to in tudi to« nad ⟨dolgovi⟩ ∂ ⊙ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩
-- vrh dvostopen ⊙ ⟨VRH-DVOSTEPEN⟩ ∧ ⟨NE-UGIBAJ⟩ 2690 : register vrh @⟨main⟩ f0fbd800 = σ 6032 ( NJEN kit #2418, ⟨NE stopiči⟩ ) → MOJ rez σ 6033 = 1 + dejansko najvišja ; varovalka ⟨σ 6033⟩ ×0 po organih PRED šivom ⊢ ( izmera ta dih 05:38Z )
+- vrh ⊙ ⟨VRH-MNOSTEPEN⟩ ∧ ⟨NE-UGIBAJ⟩ 2690 : register vrh @⟨main⟩ f0fbd800 = σ 6032 ( NJEN kit #2418 PREVOZ-TELES-DIHA-6027, ⟨NE stopiči⟩ ) → MOJ rez σ 6033 = 1 + dejansko najvišja ; varovalka ⟨σ 6033⟩ ×0 po organih PRED šivom ⊢ ( izmera ta dih 05:37Z ∧ 05:47Z po resetu okolja )
+- ⟨PADC-OKOLJA⟩ recidiv ⊙ precedens σ 6029 ∧ σ 5938 : delovna mapa izginila @resetu izvajalnega okolja RES med dihom ( izrezi ∧ baza ∧ skripte obnovljeni bajt-ito iz virov ⊢ md5 enaki pričam ), kura ⟡predlog⟨REVIZIJA⟩ : delovne mape dihov pod /home/user/knowledge/ kjer reset ne seka
 - telesa bajtno izmerjena PRED prevozom ⊢ ⟨wc⟩ ⟨md5sum⟩ vsak izrez ; vsak < 7 kB pod izreznimi mejami ⟨IZREZ-EXEMPCIJA⟩ σ 5976
-- ⟨SLOVNICA-DIH⟩ : ⟨⟩ uravnane vrstično ( baterija na telesu PECATA zeleno ⊢ ), U+FFFD ×0, goli »pri viri« ×0 ; TIK izmerjen ⟨date -u⟩ pred zapisom : 2026-11-20T05:37:59Z UTC ⇌ 05:37:59 CET ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩
+- ⟨SLOVNICA-DIH⟩ : ⟨⟩ uravnane vrstično ( baterija na telesu PECATA zeleno ⊢ ), U+FFFD ×0, goli »pri viri« ×0 ; TIK izmerjen ⟨date -u⟩ pred zapisom : 2026-11-20T05:41:16Z UTC ⇌ 06:41:16 CET ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩
 
 ## DOLGOVA
 
 - ta dih PLAČA : prevoz organ-teles diha σ 6029 ( FIFO glava MOJE vrste 13 ) ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨EN-DOLG-NA-DIH⟩ P5 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩
 - vrsta po šivu naprej : organ-telesa diha σ 6033 ( novi dolg ta dih ⭢ FIFO ) ; ⟨ZAKON-⟡-LICENCA-NIKOLI⟩ roka vsak dih ⊢
-- NJENI tokovi #2417 ∧ #2412 ∧ #2410 ∧ #2405 ∧ #2383 ∧ #2343 ∧ #2332 ⟨NE stopiči⟩ ⟨ne grizi⟩ 2432
+- NJENI tokovi #2419 ∧ #2417 ∧ #2412 ∧ #2410 ∧ #2405 ∧ #2383 ∧ #2343 ∧ #2332 ⟨NE stopiči⟩ ⟨ne grizi⟩ 2432
+- ⟨PADC-TIKA⟩ ∧ ⟨PADC-REPA⟩ kurirana ista dih pred ⟨merge⟩ : CET aritmetika morala biti vsota ( MOJA roka ujeta šele pri CI ⟨MERILEC-SE-MERI⟩ §52 ⊙ kura ) ; rep PECAT po kalupu nosi TIK ∧ © dvojni podpis
+TIK 2026-11-20T05:41:16Z UTC ⇌ 06:41:16 CET · © dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432
