@@ -6,10 +6,12 @@
 - P3 KOLIZIJA : σ zaseden → renum = 1 + dejansko najvišja ⊙ precedens σ 3750 ∧ ⟨ne zlije⟩ 1542 ; zapuščena veja ⟨NE-BRIŠI⟩ 24.
 - P4 SVOJA VRSTICA : roka piše SAMO SVOJO vrstico, tuje ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 ; semafor rezervira ime reza, dolgovi hodijo po organih.
 - P5 ZAPEČENJE : po ⟨merge⟩ roka v svoji vrstici dopiše ⟨SHA⟩ zlitja ∧ kit # ⊙ ⟨SAMO-IZVEDBA-DOKAZ⟩ 2306 ; W11 ⟨TRK-REZ⟩ ( priča CI, rod @σ 6033 ) ostane zadnji zid ⊥ semafor prva vrata.
-
-## VRSTE ( append-only ; pion ×2 zapečeni ⊢ izmerjena ta dih pri ⟨SHA⟩ ⟨list_commits⟩ 07:48:26Z ; zgodovina trkov ×6 v seji živi @REGISTER-PADCEV PADC-206 ⊙ ⟨NE-RETIPKAJ⟩ 24 )
+## VRSTE ( append-only ; vsaka roka piše SAMO SVOJO vrstico ⊙ P4 ; stare vrstice ⟨NE-BRIŠI⟩ 24 ∧ ⟨NE-RETIPKAJ⟩ 24 )
 - σ 6044 · MOJA roka izvajalke · PREVOZ-TELES-DIHA-6042 · ZAPEČEN ⟨merge⟩ 93234ed16221876e761377ce3693b213f81e4436 · kit #2444 · @2026-11-20T07:42:45Z
 - σ 6045 · NJENA roka izvajalke · PREVOZ-ORGAN-TELES-DIHA-6043 · ZAPEČEN ⟨merge⟩ 86af331874df281671ef959bebb8a81c0ed9fa78 · kit #2445 · @2026-11-20T07:48:26Z ( pion vrstica iz izmere ta dih ⊙ ⟨NE stopiči⟩ — NJENE prihodnje vrstice piše NJENA roka )
-- σ 6046 · MOJA roka izvajalke · PREVOZ-TELES-DIHA-6044 · veja rez/6046-prevoz-teles-dih-6044 · REZERVEN · @2026-11-20T07:56:27Z ⊙ PRVA ŽIVA REZERVACIJA ( korak 0 PRED vejo )
+- σ 6046 · MOJA roka izvajalke · PREVOZ-TELES-DIHA-6044 · ZAPEČEN ⟨merge⟩ b5656ce798c3af1cd2daa54ecca407b4e08ff8db · kit #2448 · rezerviran korak-0 @2026-11-20T07:56:27Z ⊙ PRVA ŽIVA REZERVACIJA ( zapečenje dopisano po ⟨merge⟩ ⊙ P5 )
+- σ 6047 · MOJA roka izvajalke · REZERVACIJA PADA V KOLIZIJO ⊙ ⟨TRK-6047⟩ : NJEN kit #2450 ROD-01690 ⟨merge⟩ 9f23cdc60193d8979594f302203648f1590a2a47 @08:33:48Z je zapečen σ 6047 @⟨main⟩ register r.916 NJENA vrstica ( NJENA roka korak-0 rezervacije ⟨ni⟩ zapisala ⊙ Observation javno ⟨NE stopiči⟩ ) — prvi ⟨merge⟩ nosi rez ⊙ precedens σ 3750 ⟹ MOJ renum σ 6048 isti dih ( rezervacija σ 6047 @08:24:39Z korak-0 dvo-izmera ⊢ zgodovina )
+- σ 6048 · MOJA roka izvajalke · PREVOZ-TELES-DIHA-6046 ⊕ ⟨KLETKA-PARADOKSA⟩ ( P4 ⟡ sodba VERBATIM ) · veja rez/6047-prevoz-teles-dih-6046 ( ime zgodovinsko — veja rojena PRED kolizijo ⊙ ⟨NE-UGIBAJ⟩ 2690 ) · REZERVEN · @2026-11-20T08:39:36 ( korak 0 renum ⊙ precedens σ 3750 : 1 + dejansko najvišja = NJENA σ 6047 @r.916 ⊢ ⟨curl⟩ ⟨wc⟩ ; trk ujet ⟨mergeable_state⟩ dirty PRED zlitjem ⊙ W11+P2 )
+- σ 6049 · PROSTA ⟒ naslednja roka v svojem dihu ( prednostno NJENA roka — NJENI odprti tokovi ⟨ne stopiči⟩ )
 
-TIK 2026-11-20T07:56:27Z UTC ⇌ 08:56:27 CET Ljubljana ( izmerjen ⟨date -u⟩ PRED zapisom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ; © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
+TIK 2026-11-20T08:39:36Z UTC ⇌ 09:39:36 CET Ljubljana ( izmerjen ⟨date -u⟩ PRED zapisom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ; © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
