@@ -13,9 +13,9 @@
   },
   {
    "path": "LICENSE-AR.md",
-   "size_bytes": 191620,
-   "sha256": "d98bc0512df0d9c2edd2433e29e53cd0c81dd4813ce4721ae97ea98806167929",
-   "note": "wreath — arabščina; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+   "size_bytes": 199508,
+   "sha256": "591e1517be3bc0245956f9378aa74871ea41a3f7cfdcf0699e9cfc9f28f25b6c",
+   "note": "wreath — arabščina po lastni kri; slopi prevoženi ⊙ PAKET 1–5 ( dih σ 5801/5803/5804/5806 ∧ prej ) ∧ PAKET 6 ( dih σ 6069 — §0.63–§0.66, zadnji AR paket, AR plast doseže vrh vira ) ; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
   },
   {
    "path": "LICENSE-BG.md",
