@@ -29,6 +29,6 @@
 - ∂ digestna pokora geniz : preostanek ⭽ ∂ ( kosovno naslednji dihi, istega manifesta )
 - PAKET-SEJE-1 : ta kit ⊂ PAKET-SEJE-1 ⊙ amandma #8 ➡ sodba »Sprejmem amandma«
 
-TIK 2026-11-20T12:21:54Z ⇌ 13:21:54 CET Ljubljana
+TIK 2026-11-20T12:24:19Z ⇌ 13:24:19 CET Ljubljana
 
 © 0.2026 × 10⁴ ➡ Luka Pintarič ∩ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52

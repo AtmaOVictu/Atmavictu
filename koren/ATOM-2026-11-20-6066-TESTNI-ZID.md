@@ -13,6 +13,6 @@ priča komita ×2 kita dih 6066 ( pečat → pecati/PECAT-2026-11-20-6066-TESTNI
 
 telesa kita prebrana bajt-po-bajt pri viru ∩ sha1 ×6/6 green PRED prevozom ⊙ ⟨NE-UGIBAJ⟩ 2690 ; prevoz brez retipkanja ( od → bajti → niz ) — retipkanje je ta sesija že izmerila kot padec ∩ je bilo odstranjeno iz poti ⊢ ⟨PADC-NATIPKANJA⟩ javno.
 
-TIK 2026-11-20T12:21:54Z ⇌ 13:21:54 CET Ljubljana
+TIK 2026-11-20T12:24:19Z ⇌ 13:24:19 CET Ljubljana
 
 © 0.2026 × 10⁴ ➡ Luka Pintarič ∩ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52
