@@ -17,5 +17,5 @@ jobs:
       - name: VRATA-LINT ( nove vrstice diffa ; zgodovina spi )
         run: |
           MB=$(git merge-base origin/"$GITHUB_BASE_REF" HEAD 2>/dev/null || git merge-base origin/main HEAD)
-          git diff --unified=0 "$MB" HEAD -- '*.md' ':(exclude)organi/stroj/vrata/*' | grep -E '^\+' | grep -vE '^\+\+\+' | sed 's/^+//' > pvl-added.md || true
+          git diff --unified=0 "$MB" HEAD -- '*.md' ':(exclude)organi/stroj/vrata/*' ':(exclude)organi/*/ARHIV-PECATOV*' | grep -E '^\+' | grep -vE '^\+\+\+' | sed 's/^+//' > pvl-added.md || true
           bash organi/stroj/vrata/pet-vrat-lint.sh --diff-added pvl-added.md

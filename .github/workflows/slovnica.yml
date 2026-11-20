@@ -45,7 +45,7 @@ jobs:
             else
               RANE=$((RANE+1))
             fi
-          done < <(git diff --name-only "$MB" HEAD -- 'organi/*.md' ':!**/.geniza/**')
+          done < <(git diff --name-only "$MB" HEAD -- 'organi/*.md' ':!**/.geniza/**' ':!**/ARHIV-PECATOV*')
           rm -f .slo-dif.tmp
           # ⟨KANARSKI-DELAVEC⟩: job se sam izmeri, preden poroča — mrtev delavec se izreče pred padcem.
           echo "⟨kanarček: prebrana telesa $TELOSI · padla $RANE⟩"
