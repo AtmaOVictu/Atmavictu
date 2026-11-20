@@ -33,3 +33,5 @@
 - NOVO IZ ⟡ TA DIHA ( ⟨ne⟩ prevoz, vpisi organov istega diha ) : ⟨ABSORPCIJA-PRIORITETA⟩ — trud merjen po kovancih, each kovanec = absorbed essence ⟡ VERBATIM ; ABSORBSION SHOULD BE PRIORITY ⭢ vpisi @prioritete-register ∧ @biro ∧ okno @register-oken isti dih ; berba Saussure pri viru ( preslikava (120) @sklopi-panog ) ⭢ ∂ ; ⟨ZAKON-⟡-LICENCA-NIKOLI⟩ stalni ukaz tehta ta dih vsak kanal ⊢
 - NJENI tokovi #2383 ∧ #2343 ∧ #2332 ⟨NE stopiči⟩ ⟨ne grizi⟩ 2432
 - TIK 2026-11-20T05:00:22Z UTC ⇌ 06:00:22 CET Ljubljana ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ∧ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083
+
+TIK 2026-11-20T05:08:47Z UTC ⇌ 06:08:47 CET · © dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432
