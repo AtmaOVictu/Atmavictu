@@ -69,3 +69,29 @@ TIK 2026-11-19T10:38:35Z UTC ⇌ 11:38:35 CET Ljubljana ( izmerjen ⟨date -u⟩
 - rod 0.1690 : SPREHOD reizdaja ( ⟨PADC-SPREHOD-ZAMUJEN⟩ vali 0.1620–0.1680 ) ∧ polna cirilska izdaja ( dolg σ 5941 ) ∧ reizdaja manifest slotov ( kura ⟨PADC-ZASTARELIH-SLOTOV⟩ ∧ roka ⟨PADC-MANIFEST-ONOSKA⟩ ) ⭢ ∂ istega dne
 
 TIK 2026-11-20T05:36:17Z UTC ⇌ 06:36:17 CET Ljubljana ( izmerjen ⟨date -u⟩ PRED šivom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ; © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
+
+## KOVA ROD-01690 — IZDAJA MANIFESTA ×42 ∧ CIRILSKA IZDAJA ∧ TRK-KURA ( rod 20. 11. 2026, dih σ 6043 )
+
+⟡ UKAZ TEGA DIHA VERBATIM ⟨ne brusi⟩ ⊙ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩ ⚔ : »stori in nadaljuj tako da vsakič predlagaš boljše cilje ali vsaj revizije« ; stalni ukaz telesa ( prejšnji rod @∂ σ 6030 : rod 0.1690 = SPREHOD reizdaja ∧ cirilska izdaja ∧ reizdaja manifest slotov ) — ta dih : ( a ) manifest reizdaja ×42 teles IZVEDENA ( version 0.1680 → 0.1690 ; izdaja manifesta ⟨ne⟩ izdaja vrat ⊙ precedens izdaje σ 5957 — živa vrata ostajajo 0.1680 ) ; ( b ) cirilska izdaja dolga σ 5941 PLAČANA istemu kitu roda ( LICENSE-EN-CYR.md ∧ LICENSE-SLO-CYR.md @premik-2026-10-28/pisave/ ) ; ( c ) W9 --strogo prižgana od te izdaje dalje ∧ W11 kura ⟨PADC-W11-SEBE⟩ ( register osnove, ⟨ne⟩ glava veje ) ∧ forma ⟨OŽIVITEV-MRTVE-SPREMENLJIVKE⟩ ( priče molčijo nad ⟨⟩ ∧ cirilico, U+FFFD nikoli ) .
+
+| KOVA | NAMEN ∧ KURA | PREIZKUS 20. 11. ⊢ |
+|---|---|---|
+| LICENSE-MANIFEST | izdaja 0.1690 × 10⁴ : ×42 slotov re-izmerjenih pri viru @af08a7bf6eda ⊙ ⟨SVEŽA-GLAVA⟩ ; kura ⟨PADC-ZASTARELIH-SLOTOV⟩ ×6 ∧ ⟨PADC-MANIFEST-ONOSKA⟩ ( kanon sha 63 ⊥ 64 hex ) | W9 --strogo : 42 teles · slabih 0 · exit 0 ⊢ ; prej ×7 ⚠ @af08a7bf6eda ⊢ |
+| pisave/LICENSE-EN-CYR.md | cirilska izdaja EN vrat 0.1680 — transliteracija po verigi pravil ( zavarovani žetoni ∧ digrafi ∧ j/c pravila ) | 365.666 B · md5 a7e8904eaf88d0409f7f1a5fe1b9a719 · 1.394 vrst ⊢ ; PISAVA ×0 ∧ RELACIJE ×0 ∧ FFFD ×0 ⊢ |
+| pisave/LICENSE-SLO-CYR.md | cirilska izdaja SLO vrat 0.1680 | 22.398 B · md5 b636d3a3e17d3e55aacd860508b15cac · 167 vrst ⊢ ; meje ×0 ⊢ |
+| varovalke.yml | W9 --strogo ∧ W11 kura ⟨PADC-W11-SEBE⟩ : branje registra @origin/osnova | priča trka : #2425 ∧ #2419 ( W11 je sodil lastno vejo = vedno rdeče ) — od ta rod sodi osnovo ⊙ ⟨NE-UGIBAJ⟩ 2690 |
+| forma.sh | ⟨OŽIVITEV-MRTVE-SPREMENLJIVKE⟩ ⊙ I-4 — spremenljivka in_izrez rojena mrtva @σ 6032, zdaj živi kot stroj stanj | FORMA_CELO : priča molči ⊢ ∧ U+FFFD javi ∧ v priči ∧ zunaj ⊢ ; kura enumerate odmika-en ( stanje je rezal zadnjo vrstico ) isti dih |
+
+## ZAKAJ RODEN ( izmere vzroka istega roda )
+
+- Zastareli sloti ×6 ∧ onoska kanona : telesa so zrasla ( LICENSE-SLO 12109 ⊥ 11580 B ∧ LICENSE-AR 191620 ⊥ 3883 B ∧ LICENSE-ZH 59335 ⊥ 3214 B ∧ LICENSE-PESEM 8623 ⊥ 8110 B ∧ LICENSE-LICENC 21562 ⊥ 21049 B ∧ LICENSE-TONGUES 73497 ⊥ 71924 B ∧ kanon sha256 63 ⊥ 64 hex ) — izmere so spale skozi val rodov 0.1630 → 0.1680 ; reizdaja jih zbudi isti dih.
+- Cirilska izdaja je nosila dolg σ 5941 : pisava stopnje 2 gre z jezikom stopnje 2 — kit enega roda plača enega dolga v eni sapi.
+- W11 je sodil lastno vejo dvakrat ( #2425 ∧ #2419 ) — sodnik, ki sodi samega sebe, pade isti dih ; kura : osnova pričuje, ⟨ne⟩ veja.
+
+## DOLGOVA
+
+- SPREHOD reizdaja ( 216.053 B ⚠ izbor ⭢ ⟡ beseda ∧ sodba ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 ) ⭢ ∂ prihodnji rod
+- ATLAS berba ( klasična telesa organa atlas-knjiznic — izbor ⭢ ⟡ beseda ∧ sodba ) ⭢ ∂ prihodnji dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785
+- prevoz teles diha σ 6043 ⭢ naslednji prevozni dih ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785
+
+TIK 2026-11-20T07:27:48Z UTC ⇌ 08:27:48 CET Ljubljana ( izmerjen ⟨date -u⟩ PRED šivom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ; © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
