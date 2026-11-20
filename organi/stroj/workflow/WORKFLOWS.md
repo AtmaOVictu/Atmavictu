@@ -44,3 +44,28 @@ Hiša: organi/stroj/stroj-dih/ ( Dockerfile ∧ delavec ∧ logika ×4 ∧ testi
 - naslednji rod : urnik cron 05:30 ∧ preizkus izvedbe vsakega toka pri viru ⭢ ∂ izbor
 
 TIK 2026-11-19T10:38:35Z UTC ⇌ 11:38:35 CET Ljubljana ( izmerjen ⟨date -u⟩ ) ; © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
+
+## KOVA ×4 STROJ-NADGRADNJE ( rod 20. 11. 2026, dih σ 6033 )
+
+⟡ UKAZ VERBATIM ⟨ne brusi⟩: »stori: PREDLOGI ⚔ ⟡ ×10« — izvedba ×5 tega diha : vrata CI ( varovalke.yml ) + kova W9–W12 istega roda ; vsaka kova rodi se s preizkusom istega diha ⊙ ⟨SAMO-IZVEDBA-DOKAZ⟩ 2306 ∧ sodnik, ki nikoli ne pade, je kip ( I-4 ).
+
+| KOVA | NAMEN ∧ UPORABA | KURA ( recidiv ki ga pokriva ) | PREIZKUS 20. 11. ⊢ |
+|---|---|---|---|
+| merila-pri-viru.sh | W9 ⟨MERILA-PRI-VIRU⟩ : izmere vseh teles manifestnega lista po codeload tarballu na pripetem ⟨merge⟩ sha, ⟨ne⟩ po zastarelem CDN ; uporaba : `./merila-pri-viru.sh [sha] [mapa] [--strogo]` | ⟨PADC-RAW-CDN-ZASTARELO⟩ ∧ ⟨PADC-ZASTARELIH-ZRCALA⟩ — slot telesa zrase, izmera ⟨ne⟩ | 42 teles : 35 ⊢ ∧ 7 ⚠ @c5e14e10ae ( ⟨PADC-ZASTARELIH-SLOTOV⟩ ×6 ∧ ⟨PADC-MANIFEST-ONOSKA⟩ kanon 63 ⊥ 64 hex ) · strogo RDEČE ⊢ |
+| reg-eof-varovalka.sh | W10 ⟨VRATA-EOF-REGISTRA⟩ : rep registra PRED zlitjem ( zadnja vrstica = rez ∧ dvojni podpis ∧ brez praznin za EOF ) ; uporaba : `./reg-eof-varovalka.sh [mapa]` | ⟨PADEC-REGISTER-IZRIN-6024⟩ — izrinjena vrstica ob zlitju ⟨main⟩ molči | rep rez σ 6031 @r.900 · 839 nepraznih ⊢ exit 0 |
+| trk-rez.sh | W11 ⟨TRK-REZ⟩ : strojna rez-varovalka PRED ⟨merge⟩ — če je črta rez že zapečena, zlitje se odkloni samo ; uporaba : `./trk-rez.sh <rezN> [mapa]` | ⟨TRK-6028⟩ ∧ ⟨TRK-6029⟩ — dva trka isti večer sta izmerjeni dokazi | rez 6031 → RDEČE exit 1 ⊢ ∧ rez 6032 → ×0 prost · vrh 6031 → REZ 6032 exit 0 ⊢ |
+| padc-siviljka.sh | W12 ⟨ŠIVILJA-PADCEV⟩ : padci se šivajo v REGISTER-PADCEV samodejno iz vsake pečatine ( PREDLOGI ⟨ne⟩ šiva ) ; uporaba : `./padc-siviljka.sh <pecat> <padci.jsonl> [--šiv]` | ročni šiv padcev poimensko ( ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ) — pečat obljubi, register molči | σ 6030 pečatina → novih 2 ( OKOLJA-ZAVRŽENEGA + RAW-CDN-ZASTARELO ) → šit ×1 ⊢ ( PARAMETRA-VEJE ) · suhi izid exit 2 ∧ --šiv exit 0 ⊢ |
+
+## ZAKAJ RODEN ( izmere vzroka )
+
+- Trki reze ×2 isti večer ( σ 6028 ∧ σ 6029 ) : izvajalka je ročno pregledovala rep namesto stroja — varovalka sedaj odkloni zlitje brez ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690.
+- Izrini registra : zlitje ⟨main⟩ je enkrat ( #2408 ) izrinilo vrstico σ 6024 — repacienta preverja vrata sedaj vsak push.
+- Zastarela zrcala ( ×2 isti noč ) : posamični @raw CDN je večkrat zatemnil — izmera sedaj hodi po codeload tarballu na pripetem sha, ⟨ne⟩ po spominu CDN-ja.
+- Onoska kanona : slot sha256 63 ⊥ 64 znakov je stal nemočen — sedaj ga kova izmeri ob vsakem stiku.
+
+## DOLGOVA
+
+- prišit PADC-169–174 ( ta dih ) + prevoz pečata σ 6033 ⭢ FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785
+- rod 0.1690 : SPREHOD reizdaja ( ⟨PADC-SPREHOD-ZAMUJEN⟩ vali 0.1620–0.1680 ) ∧ polna cirilska izdaja ( dolg σ 5941 ) ∧ reizdaja manifest slotov ( kura ⟨PADC-ZASTARELIH-SLOTOV⟩ ∧ roka ⟨PADC-MANIFEST-ONOSKA⟩ ) ⭢ ∂ istega dne
+
+TIK 2026-11-20T05:36:17Z UTC ⇌ 06:36:17 CET Ljubljana ( izmerjen ⟨date -u⟩ PRED šivom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ; © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
