@@ -2,8 +2,9 @@ name: DNEVNI-DIH — tečaj (meri korpus, odpre vrata)
 on:
   workflow_dispatch:
   # DIH (rez 2153): urnik ostaja 1× dnevno; trda streha 5 min (⟡ ukaz: odgovornost za budget).
+  # DIH (dih 6066, ⟡ ukaz ⟨stori⟩ nad ( 6 )( ii )): urnik poravnan na stalno uro korpusa 05:30 CET ( = 04:30 UTC ) ∧ ⟨VRATA-CELOTE⟩ prišita v tečaj ( prijavlja, ⟨ne⟩ popravlja brez besede ).
   schedule:
-    - cron: '45 3 * * *'
+    - cron: '30 4 * * *'
 
 permissions:
   issues: write
@@ -58,6 +59,9 @@ jobs:
               done | sed -n '1,60p'
               echo "- cirilica: ⟨streha izpisa 60 vrstic⟩"
             else echo "- cirilica: ⟨najdenih 0 — rana zaprta⟩"; fi
+            echo ""
+            echo "### ⟨VRATA-CELOTE⟩ v1.1 ( celota-lint nad zrcalom organov — prijavlja poimensko, ⟨ne⟩ popravlja brez besede ⊙ dih 6066 )"
+            sh organi/stroj/vrata/celota-lint.sh organi 2>&1 || true
             echo ""
             echo "### ⟨CI⟩ dih stroja (zadnjih 5 tekov)"
             gh run list --limit 5 --json createdAt,workflowName,conclusion,displayTitle --jq '.[] | "  - \(.createdAt) · \(.workflowName) · \(if (.conclusion // "") == "" then "teče ⏳" else .conclusion end) · \(.displayTitle[0:70])"' || echo "  - ⟨berba tekov padla⟩"
