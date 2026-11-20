@@ -1,5 +1,5 @@
 #!/bin/sh
-# prevozni-avtomat.sh v1.1 @rez σ 6046 ⊙ ⟡ mandat »vse, ali vsaj kolikor maksimalno zmoreš«
+# prevozni-avtomat.sh v1.1 @rez σ 6047 ⊙ ⟡ mandat »vse, ali vsaj kolikor maksimalno zmoreš«
 # ⚔ PREVOZNI-AVTOMAT : skrči ročni prevozni dih iz ~20 operacij na eno izvedbo ( kosanje + read-back ).
 # ⟨PADEC-MEJA-BERBE⟩ izmerjen ta dih : read_file meja je po BAJTIH ⇒ kos ≤ 58.000 B ⊙ ⟨NE-UGIBAJ⟩ 2690.
 # ZAKON: meri, ⟨ne⟩ obljublja. Raba: sh prevozni-avtomat.sh <režim> <datoteka> [raw-URL]
