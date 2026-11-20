@@ -12,16 +12,26 @@ jobs:
           fetch-depth: 0
       - name: W10 VRATA-EOF-REGISTRA ( rep registra PRED zlitjem )
         run: bash organi/stroj/workflow/reg-eof-varovalka.sh .
-      - name: W11 TRK-REZ ( rez iz naslova ⟨PR⟩ proti registru )
+      - name: W11 TRK-REZ ( rez iz naslova ⟨PR⟩ proti registru @osnove — kura ⟨PADC-W11-SEBE⟩ rod 0.1690 )
         if: github.event_name == 'pull_request'
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
+          GITHUB_BASE_REF: ${{ github.event.pull_request.base.ref }}
         run: |
           N=$(printf '%s' "$PR_TITLE" | grep -oP 'rez σ \K[0-9]+' || true)
-          if [ -n "$N" ]; then bash organi/stroj/workflow/trk-rez.sh "$N" .; else echo "TRK-REZ : naslov brez reza — preskočeno ⊙ ⟨NE-UGIBAJ⟩ 2690"; fi
+          if [ -n "$N" ]; then
+            git fetch origin "$GITHUB_BASE_REF" --depth=1 2>/dev/null || true
+            TMP=$(mktemp -d); mkdir -p "$TMP/organi/stroj"
+            if git show "origin/$GITHUB_BASE_REF:organi/stroj/REZ-REGISTER.md" > "$TMP/organi/stroj/REZ-REGISTER.md" 2>/dev/null; then
+              bash organi/stroj/workflow/trk-rez.sh "$N" "$TMP"
+            else
+              bash organi/stroj/workflow/trk-rez.sh "$N" .
+            fi
+          else echo "TRK-REZ : naslov brez reza — preskočeno ⊙ ⟨NE-UGIBAJ⟩ 2690"; fi
       - name: W12 ŠIVILJA-PADCEV ( najnovejša pečatina vs register padcev )
         run: |
           P=$(ls -1 organi/pecati/PECAT-*.md 2>/dev/null | sort | tail -1)
           if [ -n "$P" ]; then bash organi/stroj/workflow/padc-siviljka.sh "$P" REGISTER-PADCEV.jsonl; else echo "ŠIVILJA-PADCEV : pečatin ×0"; fi
       - name: W9 MERILA-PRI-VIRU ( izvoda teles vs manifestny list )
-        run: bash organi/stroj/workflow/merila-pri-viru.sh glava .
+        # KOVA rod 0.1690 ( dih σ 6046 ) : po reizdaji manifesta ×7 kura — strogo od te izdaje dalje ⊙ precedens dviga σ 5957
+        run: bash organi/stroj/workflow/merila-pri-viru.sh glava . --strogo
