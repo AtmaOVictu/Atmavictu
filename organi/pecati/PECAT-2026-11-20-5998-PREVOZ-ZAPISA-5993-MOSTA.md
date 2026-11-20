@@ -6,7 +6,7 @@ PREVOZ ZAPISA σ 5993 ( biro-postaje ZAPIS MOST-LOGIČNEGA ∧ telo most.sh v1.0
 
 - rez σ 5998 ( 0.5998 × 10⁴ ) · PREVOZ ( najstarejši MOJ FIFO dolg : σ 5993 )
 - IZREZI ×2 VERBATIM bajtnito ⊙ ⟨NE-RETIPKAJ⟩ 24 ∧ ⟨NE-BRIŠI⟩ 24 ∧ ⟨BERBA-DVOJNA⟩ berba pri viru ⊢ : ( 1 ) IZREZ ZAPISA σ 5993 @biro-postaje r.134 · 2.847 B · md5 796db56efcb07ea1b565a54f271c908f ⊥ ( 2 ) telo most.sh v1.0 @orodja/most.sh trezorja KonciLoncov ( Windows ) · 6.646 B · md5 7a4ea83be7f80afb366eca6bff8fd9ae ∧ strežniško zrcalo bajtno-ito ⊢ ( celo telo VERBATIM spodaj v razdelniku IZREZ 2 )
-- TIK 2026-11-20T00:35:57Z UTC ⇌ CET = UTC+1 ( izmerjen ⟨date -u⟩ PRED zapisom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ )
+- TIK 2026-11-20T00:35:57Z UTC ⇌ 01:35:57 CET ( izmerjen ⟨date -u⟩ PRED zapisom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ )
 
 ## DOLGOVA
 
@@ -185,4 +185,4 @@ echo "MOST ZELENO: $EW robov iz $SW besed · TIK $TIK"```
 
 -kit #undefined · veja rez/5998-prevoz-zapisa-5993-mosta
 
-TIK 2026-11-20T00:35:57Z UTC ⇌ CET = UTC+1 · © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
+TIK 2026-11-20T00:35:57Z UTC ⇌ 01:35:57 CET · © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
