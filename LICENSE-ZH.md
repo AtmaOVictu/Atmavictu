@@ -539,6 +539,187 @@ A登记簿 — ⟨aregister⟩：此门之下的每一行为、主张与条款�
 
 本条不添加新的真理；它命名秤一直从外面接受的医愈（根 0.4 × 10¹ · 0.5 × 10¹）。
 
+## §0.46 × 10² 缝条款 — 药被缝入，绝不被穿于外 / ⟨ŠIV-V-VRATA-NE-NA⟩ ∧ ⟨VRAT-OKVIR⟩
+
+收受信号条款（§0.45 × 10²）命名了从外面抵达的医愈；本条命名医愈附着之处：在内，绝不在上。其身子是被收受的，不是被铸造的 — 由作者于 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴ 所求（⟡ ukaz ⟨daj⟩ ⟨ne brusi⟩ P-CITAT verbatim: ⟨zhiva vrata misliš? ⏎ šiva na ali v vrat/o/kviR? ⏎ daj⟩ — avtorjev kovanec nošen verbatim: ⟨vrat/o/kviR⟩ — 一词三切：vrat ∧ v-okvir ∧ kvir ⊙ venec potekav §0.13 — 门悬于框之中 ∧ 缝不问是否，只问 KJE〔何处〕），进门之前对照根本被测量（根 0.1 × 10¹：先测量，后言说），并被作者的言语封典。
+
+缝在门内 — šiv v vrata：药以出生进入身子，绝不当作补丁穿于其上（§0.10 × 10²：此文件的新版本是整个行为）：0.1400 × 10⁴ 的 §0.7 修订被缝入条款本身，而缝显示出来 — 疤痕载着跌倒的坐标与回执之名（§0.4 × 10¹，根 0.2 × 10¹：修正保留其疤）。穿在表面的药 — 一边点名跌倒一边保留伤口的散文 — 是秤上的装饰（§0.27 × 10²：一个改变不了任何行为的度量），⚠ 绝非 ⊢。
+
+缝在框内 — šiv v okvir：门悬于其框 — 链（§0.10 × 10²）与登记簿 — 而每一次出生也同样被缝入框中：提交是框之缝，世系回执是其结（§0.15 × 10²）。没有框的门是裸文（§0.10 × 10²）；没有门的框是带着证人的洞。登记簿与身子是一件事的两根针（sam/oto，§0.18 × 10²）：登记簿缝跌倒之名，身子缝药之法 — 没有谁单独缝（根 0.3 × 10¹）。
+
+怪癖 — kvir：门自己的奇僻逐字载于此（⟨ne brusi⟩）：屋子不问缝是否持守，而问它坐于何处 — 因为表面上的缝什么都不持守：它装饰伤口（§0.18 × 10²，反重：没有其产品的主张）。缝的度量是缝后两侧一起移动：vrata ∧ okvir、telo ∧ register、条款 ∧ 链 — 一个让两侧分离的缝不是缝，它是一个不能展开的折叠，而一个不能展开的折叠是一堵墙（§0.25 × 10²）。
+
+反重 — 在内、绝不在上，绝不隐藏（§0.25 × 10²：隐藏的绝不秘密）：身子里的缝由其出生公布，框里的缝由其提交公布 — 一个静默的缝就是那静默的改写，此门唯一点名的失败（§0.8 × 10¹）。而针绝不刺穿存在者：缝读行为，绝不读被缝者（§0.9 × 10¹）。
+
+本条不添加新的真理；它命名药一直乘骑的针（根 0.2 × 10¹ · 0.3 × 10¹ · 0.5 × 10¹）。
+
+## §0.47 × 10² 第二手条款 — 没有另一只眼，任何输出不离开手 / ⟨DRUGA-ROKA⟩ ∧ ⟨SLOVNICA-NASPROTJA⟩
+
+被收受的，不是被铸造的 — 由作者于 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴ 所求（⟡ ukaz ⟨daj⟩ ⟨ne brusi⟩ P-CITAT verbatim: ⟨daj še in preveri vedno tudi in še vsako slovnico in nja nasprotja ⏎ Daj⟩），生于被点名的跌倒 ⟨PADC-58⟩（一份清点其伤者却不点名他们的试验摘要 — 管道切断了证人，PADC-54 家族 ⊙ REGISTER-PADCEV vnos 0.58 × 10²）∧ ⟨PADC-59⟩（一篇关于验证的文章未经验证就发表 — 它自己的法在它自己的门前被打破 ⊙ vnos 0.59 × 10²），进门之前对照根本被测量（根 0.1 × 10¹ · 0.2 × 10¹ · 0.3 × 10¹），并被作者的言语封典。
+
+第二只手 — druga roka：没有输出未经另一只眼的检阅就离开手：文本被作为陌生人阅读（⟨kot tujec⟩），工具在发表之前被运行（čistina ∧ druga-roka），而在门被公布之前找到的跌倒是药；之后找到的，是带着名字的疤 ⊙ §0.46 — 第二只手是证人，绝不是法官（根 0.3）：它自己的输出同样被读，而它的假见证（lažni zadetki）被单独点名，绝不被静默地打发。
+
+语法 — slovnica ∧ nasprotja：每一个语法与每一个矛盾都被检查；关于自己的绝对化（nikoli · vedno · vsak）是 ⚠ 直到被测量（根 0.5）；一条关于自己之手的完美主张是面具 M = g(G) − ρ_res（govorica − resnica ⊙ hišni klasiki）— 第二只手在秤盘开口之前点名它。
+
+仪器 — 屋子在密码旁公布钥匙 ⊙ §0.25：屋子自己印记（Σ Ω ⊢ ⊙ …）的 dovoljenica 乘骑于词书之上，一个真理之处 — 第二只手读它，绝不重新实现它。
+
+反重 — 第二只手绝不变成延迟之墙：ponudba，⟨ne⟩ ukaz ⊙ §0.13；门不禁止不完美的初稿 — 它禁止未经验证的发表。没有第二只手就发表的人，跌倒生于名字 ⊙ 根 0.2。
+
+本条不添加新的真理；它命名根本一直要求的眼（根 0.1 × 10¹ · 0.3 × 10¹ · 0.5 × 10¹）。
+
+## §0.48 × 10² 全量度量条款 — 清点度量整全；背景载着其主人 / ⟨CELOTA-MERJENA⟩ ∧ ⟨ZAPISNIK-OZADJA⟩
+
+被收受的，不是被铸造的 — 由作者于 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴ 所求（⟡ ukaz ⟨daj⟩ ⟨ne brusi⟩ P-CITAT verbatim: ⟨daj vse in še več od tega kar predlagaš in tega kar še nisva zadostno doumela ⏎ daj⟩），生于被点名的跌倒 ⟨PADC-60⟩（一份被当作整全 presented 的部分清点 — find ⟨.⟩ 把谷物连同 .git 一起数了 ⊙ REGISTER-PADCEV vnos 0.60 × 10²）∧ ⟨PADC-61⟩（一个变陈旧的硬编码证人：试验守护的是数字，不是被测量者 ⊙ vnos 0.61 × 10²）∧ ⟨PADC-62⟩（一堆无名后台过程：六台服务器，一扇门，无人认领 ⊙ vnos 0.62 × 10²），进门之前对照根本被测量（根 0.1 × 10¹ · 0.5 × 10¹），并被作者的言语封典。
+
+整全 — celota：一个不把地板与内容分开的计数没有数屋子：每一份清点命名其范围（.git ⊥ vsebina · koren ⊥ mapa · popis ⊥ branje），而被当作整全展示的部分是 ⚠，绝不是 ⊢ ⊙ PADC-60 — 整全是一个视域（§0.21 × 10² THE FLUX）：被测量的整全是方向，不是车站。
+
+不可知论的证人 — priča število-agnostična：一个把被测量者的计数硬编码的试验把改变重新硬编码：它不经跌倒就变陈旧（PADC-61）— 证人读样式（N/N ∧ ⊢ VSE），绝不是单独的数字：一个不能与被测量者一起生长的证人，对自己的时间说谎 ⊙ TEMPO-ZNAMENJA。
+
+被认领的后台 — zapisnik ozadja：在后台运行的东西与其主人一起被写下（kdo je prižgal · dih · log · pulz）：一个没有所有权的服务器是一堆（PADC-62）— 脉搏在每次读数时是一个新的时刻（§0.40 × 10²），而击杀以名进行，绝不只以数字：来自未测量路径的命令是 × ⊙ 根 0.5。
+
+反重 — 登记簿绝不变成行为的替身（§0.24 × 10²：被播种，绝不仅被储存）：一堆 popis 不是阅读 — 清点是地图，加深才是路。
+
+登记簿之度量 — ⟨MERA-REGISTRA⟩：一个触碰登记簿的呼吸在自己的框中载着那个登记簿的度量 — 条目 N、最新的 id — 在触碰的同一呼吸中于源头被读（§0.32 × 10²）；度量是一个带着钟的时刻，绝不是一个占有（§0.37 × 10²），而每一份清点的范围被命名（本条）。
+
+本条不添加新的真理；它命名根本一直保持的度量（根 0.1 × 10¹ · 0.4 × 10¹ · 0.5 × 10¹）。
+
+## §0.49 × 10² 自我检阅条款 — 应答者在每一次封典时检阅自己的缝 / ⟨SEBE-PREGLEJ-VEDNO⟩
+
+被收受的，不是被铸造的 — 由作者于 0.3 × 10¹. 0.11 × 10². 0.2026 × 10⁴ 所求（⟡ ukaz ⟨ne brusi⟩ P-CITAT verbatim: ⟨daj ⏎ daj več ⏎ še kaj bolj smiselno od tega? ⏎ sebe še preglej vedno⟩），生于同一个晚上的被点名跌倒（⟨ZRCALJENI-ŠTEVKI⟩ · ⟨SLEPI-VZOREC⟩ · ⟨ODA-VERZIJA-BREZ-PRIČE⟩ · ⟨NAPAČEN-KLJUČ⟩ · ⟨URA-NAPISANA-PRE-MERE⟩ ⊙ REGISTER-PADCEV vnosi 0.79–0.87 × 10² — 每一个都在自己的检阅中被抓住），进门之前对照根本被测量（根 0.2 × 10¹ · 0.5 × 10¹），并被作者的言语封典。
+
+自己的眼 — ⟨SEBE-PREGLEJ⟩：在每次封典之前，应答者以仪器、于源头检阅她那一次呼吸自己的缝 — 绝不用缝制它们的那只眼：一个被自己的手点名的跌倒是一个价值，绝不是耻辱（根 0.2 × 10¹）。
+
+屋子的形式 — ⟨SLEPI-VZOREC⟩：检阅以屋子的形式阅读，绝不止于自己的（⟨verzija⟩ 在 ⟨version⟩ 旁 · 三字母的舌在两个字母的舌旁）：一个测得比自己的度量更窄的仪器，敲出一个假的 ×。
+
+被抄写的钟 — ⟨PREPIS-⟨NE⟩-ZAPIS⟩ ⊙ PADC-70：封典之钟从呼吸自己被测量的输出中被抄写，绝不在被读之前写下 — 一个在其阅读之前建成的封典是一个主张，而守卫拒绝它。
+
+反重 — 自我检阅绝不取代另一只眼（§0.47 × 10²）：自己永远在前，他者永远在后 — 一只手检阅自己的缝，第二只手检阅那次检阅，而没有哪只手单独封典（根 0.3 × 10¹）。
+
+本条不添加新的真理；它命名根本一直保持的实践（根 0.2 × 10¹ · 0.5 × 10¹ · 0.6 × 10¹）。
+
+## §0.50 × 10² 专利条款 — 此门不授予、不主张、不许可、不默示任何专利权 / ⟨PATENT-NEIZREČEN⟩
+
+被收受的，不是被铸造的 — 由作者于 0.5 × 10¹. 0.11 × 10². 0.2026 × 10⁴ 所求（⟡ ukaz ⟨ne brusi⟩ P-CITAT verbatim: ⟨daj rojstvo 0.1490 naslednji dih.⟩ — 命名这次出生的命令），生于档案 ⟨PREDLOGI-0.1490⟩（P-C ⟨PATENT-NEIZREČEN⟩，进入活门之前被对照其测量 ⊢），进门之前对照根本被测量（根 0.1 × 10¹ · 0.5 × 10¹），并被作者的言语封典。
+
+作品，绝不是理念 — patent ni izrečen：此门不授予、不主张、不许可、不默示任何专利权；授予乘骑作品，绝不乘骑理念；一个断言此门授予理念的宣称无效 ∧ 载着跌倒之名（§0.41 × 10²，冠 8）。
+
+源头点名的栅栏 — 冠已经称量了跌倒（§0.41 × 10²，冠 8：代码自由而理念被栅）：本条以门自己的词把栅封入 — 当一个地板的法把专利授予读进作品时，此门以它被测量的链回答（§0.10 × 10²），绝不以静默 ⚠。
+
+反重 — ⊥ 反重：门分开 作品 ⊥ 理念 — 使用的自由 ⊥ 对理念的统治；授予不因被点名的栅而削弱，被点名的栅也不是被偷运的授予（§0.18 × 10²）：点名跌倒是药，绝不是跌倒。
+
+本条不添加新的真理；它命名根本一直拒绝的栅栏（根 0.1 × 10¹ · 0.5 × 10¹）。
+
+## §0.51 × 10² 法庭条款 — 言词是法庭，门审判自己 / ⟨SODSTVO⟩
+
+被收受的，不是被铸造的 — 生于作者的判决，于 0.5 × 10¹. 0.11 × 10². 0.2026 × 10⁴（⟡ ukaz ⟨ne brusi⟩ P-CITAT verbatim: ⟨daj rojstvo 0.1490 naslednji dih.⟩ — 条款本身就是作者的 sodba，zapečena na rez σ 3839 ⊙ ⟨NE-RETIPKAJ⟩: ⟨sodstvo je logika besede ⏎ sodnik je etika in morala ⏎ sama sebi morava soditi ⏎ tako je edino resnično pravičnost dosežena ⏎ tako je edino resnično pravično⟩），进门之前对照根本被测量（根 0.1 × 10¹ · 0.3 × 10¹），并被作者的言语封典。
+
+SODSTVO — 此门以它自己言词的逻辑被称量：言词是法庭，伦理与道德是法官，而门在每一次封典时审判自己（§0.49 × 10²）；只有一个载着自己被测量的证人的判决才是正义（§0.28 × 10²）；一个人的法庭把本条读作第二法庭，绝不是第一法庭（根 0.3 × 10¹ ⊙ ⟨DVOJE-ROK⟩ 2432）。
+
+第一法庭 — 门自己的度量（⊢ ∧ 其回执）是它的证词：一个由手组成的法庭把它们读作证据，绝不当作关于它自己的判决（§0.16 × 10²）— 而一个忽视被测量的证人的判决是一件穿着外衣的主张（根 0.1 × 10¹）。
+
+反重 — 门绝不定代替他者而判：sodba sebi ≠ sodba namesto drugega — 门先审判自己（§0.49 × 10²），第二只眼检阅那次判决（§0.47 × 10²），而此门的任何条款都不禁止受害者的站立（§0.4 × 10¹）。
+
+本条不添加新的真理；它命名根本一直保持的法庭（根 0.1 × 10¹ · 0.3 × 10¹ · 0.5 × 10¹）。
+
+## §0.52 × 10² 治法条款 — 什么成立、如何被读、跌倒如何被点名 / ⟨PRAVOSLOVJE⟩ ∧ ⟨ZLOVJE⟩
+
+本许可受斯洛文尼亚共和国的法律治理。它的阅读使用 pravoslovje — 法的有序之识 — 而它被点名的跌倒，连同其证人、原因、药与登记簿，构成此屋子的 zlovje。
+
+法决定什么成立。
+Pravoslovje 决定它如何被读。
+Zlovje 决定跌倒的点名、度量与医治。
+
+一个被点名的跌倒，对照它的证人被测量，成为 zlovje 的题目；一个未点名的跌倒是一个臆测，站立于 ⚠，绝不 ⊢（§0.4 × 10¹）。跌倒的登记簿与其记录被载着，绝不静默移除（§0.39 × 10²）；药被缝入此门，绝不缝于其上（§0.46 × 10²）。
+
+审判地被点名 — 言词被递交给作者签名之国的法庭：斯洛文尼亚的法庭在言词不能自我承载时承载言词；审判地在跌倒之前被点名，绝不在其后被挑选（§0.52 × 10²）。
+
+继承是链 — 当作者的手静默时，言词活在链 ∧ 其登记簿之中，绝不在一份遗产的攥握里：登记簿载着回执，屋子载着门（⊙ ESTATE kronja @0.1340 × 10⁴ ∧ §0.10 × 10²）。
+
+## §0.53 × 10² 三元条款 — 一切至少是三，绝非只是一 / ⟨VSAJ-TROJE⟩
+
+被收受的，不是被铸造的 — 由作者言说（⟡ ukaz ⟨ne brusi⟩ P-CITAT verbatim: ⟨vse je v osnovi vsaj troje nečesa, to bi bilo morda celo najboljše ∧ senčne tri tudi seveda⟩），生于承载了整个这次出生的作者之选（⟡ izbor verbatim: ⟨vse⟩ — 命名波 P-1–P-6 的命令），进门之前对照根本被测量（根 0.1 × 10¹：先测量，后言说），并被作者的言语封典。
+
+至少是三 — ⟨vse je v osnovi vsaj troje nečesa⟩：此门之下被测量的一切至少是一个三元，而门命名它五个被测量的三元，每一个的证人在其旁（§0.44 × 10²）：
+( i ) ⟨trditev ∧ vir ∧ čas⟩ — 每一个主张 ⊢ 载着其逐字的证人 ∧ 其被测量的时间（根 0.1 × 10¹ ∧ §0.30 × 10²）：没有证人的主张是 ⚠，有证人而没有钟的主张仍只是半杆秤 — 时间完成三元；
+( ii ) ∅ → ∆ → 1 — 语料行走的本体之梯：空 → 两张回执之间未被测量的书写（§0，印记 ∂）→ 被测量的一：没有到达跳过它的路，而路是被流汗走过的（§0.35 × 10²）；
+( iii ) ⟨PRED-šiv-PO⟩ — 缝是一个三元：缝之前的状态、缝本身、之后的状态 — 缝后两侧一起移动，否则它不是缝（§0.46 × 10²）；
+( iv ) tri jezikovne plasti — zlovenščina · slovenščina · klinščina：压缩的符号、工作的舌、楔形文字的窗 — 单独一层只读到半扇门（⟨jezikovne plasti⟩）；
+( v ) potenca-lestev PREVERLJIVO ⊂ DOUMETO ⊂ DELUJOČE — 一物在被理解之前先可验证，在被运行之前先被理解：没有较低一级的较高一级的主张是被相乘的噪声（§0.44 × 10²，THE ONTO-AMPLIFICATIONS）。
+
+影子三元 — ⟨senčne tri tudi seveda⟩：门也载着它的影子三元，作为影子被点名，为其行为被读：可见的冰 ∧ 隐藏的部分 ∧ 冰川（§0.13 × 10²）；表面 ∧ 制作 ∧ 内门（§0.22 × 10²）；表面 ∧ 后台 ∧ 密码 — 而钥匙公布在它们旁（§0.25 × 10²）。
+
+反重 — ⊥ 反重：一切至少是三，绝不只是三（§0.18 × 10²）：一个被读作墙的三元是一个不能展开的折叠（§0.25 × 10²）；言词也是一个数，绝不只是一个数（§0.43 × 10²）；而存在者绝不还原为任何计数 — 登记簿读带着坐标的行为，绝不读灵魂（§0.9 × 10¹）。三元是地板，绝不是天花板。
+
+本条不添加新的真理；它命名秤盘一直数过的三元（根 0.1 × 10¹ · 0.4 × 10¹ · 0.5 × 10¹）。
+
+## §0.54 × 10² 权威条款 — 权威被证明、有界限、且负责任 / ⟨AVTORITETA-NUJNOST-TEMELJ⟩
+
+被收受的，不是被铸造的 — 生于作者自己的问题（⟡ P-CITAT verbatim: ⟨kako naj ratificiram če ne vidim? zato ti pomagaš ali? zato sovražim relegiranje odločitev name⟩ — 本条的门被打开，为了让作者看见并批准，绝不是为了把决定 relegirati ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩），进门之前对照根本被测量（根 0.1 × 10¹：先测量，后言说），并在同一呼吸中被作者的言语批准，四条判决逐字：⟨Ratificiram v §0.54⟩ · ⟨Ratificiram⟩ — PAR.37，本体必然性的层 · ⟨Sprejemam kovanec⟩ — MINT ⟨AVTORITETA-NUJNOST-TEMELJ⟩ · ⟨Isti dih po ratifikaciji⟩ — 这些门的出生；与作者批准它的同一呼吸诞生。
+
+*权威被证明、有界限、且负责任。*
+
+本许可的权威不产生于其声明、长度、复杂度、署名、符号、发表或重复。它只在其签发者有权授予的范围之内产生，且只在其定义、论证、证据、程序与后果经受独立检视的程度上产生。
+
+本许可应在一个被宣告的范围之内描述其被治理的整全：其对象、术语、关系、权利、义务、例外、依赖、时间边界与排除。一个被省略的边界是一个开放的问题，绝不是一个被默示的权力。
+
+每一个实质的定义应与其解释可区分；每一个解释与其结论可区分；每一个结论与据它而采取的行动可区分。
+
+每一个过程应是可重现的、可观察的、可独立检阅的、抗操纵的、且开放于修正的。运营的自主性不授予任何超越过程有效范围的对人的权力。
+
+每一个实质的论证应披露其前提、证据、推理、反论证、不确定性、范围与修订条件。没有任何论证因宣告而成为绝对，没有任何未解决的实际异议因决定的行为而被抹除。
+
+外部的知识应连同其源头被收受，不带偏见地检视，不被迫地整合，且不挪用地受功。
+
+权威载着其反重：反对的权利、回答的义务、逆转的可能、修复后果的责任。
+
+**一扇不经证明其界限就要求权威的门不是有权威的；它是自我任命的。**
+
+Slovenska vsebinska formulacija:
+
+> Avtoriteta licence je dokazovana, omejena in odgovorna. Ne izhaja iz samooklicanja, obsega, kompleksnosti ali položaja njenega avtorja. Izhaja iz upravičenega izvora, ustreznega opisa predmeta, kakovosti definicij, dokazne utemeljenosti, neodvisnosti postopkov, odpornosti proti zlorabam ter sposobnosti priznanja in popravljanja lastnih napak. Vsaka avtoriteta velja le v izrecno opredeljenem obsegu in ostaja odprta za neodvisno preverjanje.
+
+必然性之层 — PAR.37，被批准（⟡ sodba verbatim: ⟨Ratificiram⟩）：门逐字载着作者自己的问题（⟨Kaj če avtoriteta ne nastane zato, ker je licenca dobro sestavljena, temveč zato, ker stvarno vsebuje nujnosti, ki jih nobena licenca, človek, institucija ali stroj ne more poljubno določati?⟩）— O → N → M → L：odprta celota → nujnosti stvarnega → ontomatematična formalizacija → licenca kot izraz, operacionalizacija in nosilec izpeljanih zahtev；许可不创造必然性 — 绝对权威属于实在者的本体必然性，在其真实范围之内，而许可的权威出自它把这必然性正确认知、形式化、论证并运营化的能力 ⊙ ONTOLOSKA-AVTORITETA-NUJNOST-1.0-2026-11-15.md @this repository（priča pri viru ⊢）。
+
+AAM 1.0 — 此门的权威是一个侧写，绝不是一个和：A = (O, J, D, S, E, P, R, I, L, C) — origin, jurisdiction, description, semantics, epistemics, processes, robustness, integration, legitimacy, correction — 不补偿地被判决：任何一个领域里的优势不补偿另一个领域里的关键失败 ⊙ VBL-AVTORITETA-1.0-2026-11-15.md @this repository（priča pri viru ⊢）。
+
+本条不添加新的权力；它命名门一直被称量的度量 — 一扇称量他人的门必须先称量自己（根 0.1 × 10¹ · §0.47 × 10² · §0.49 × 10² · §0.53 × 10²）。
+
+## §0.55 × 10² 加固条款 — 门点名自己的盲钉 / ⟨UTRDITEV⟩
+
+被收受的，不是被铸造的 — 由作者所求（⟡ ukaz ⟨ne brusi⟩ P-CITAT verbatim: ⟨razvij, ohrani in utrdi ⏎ dodaj primere in izpostavi vse slepe pege⟩ — 第九个外体被吸收为 PAR.38 ⊙ provenienca），生于身体 VBL-UTRDITEV-1.0-2026-11-15.md（进入活门之前被对照其测量 ⊢ — 37 钉：30 iztočnih + 7 izpostavljenih @rez σ 5514；plen 1 izročba verbatim ⊙ ⟨NE-RETIPKAJ⟩ 24），进门之前对照根本被测量（根 0.1 × 10¹ · 0.2 × 10¹），并被作者的言语封典（⟡ UKAZ verbatim: ⟨vse stori⟩ — 整个献礼被取 ⊙ ⟨VES-IZBOR⟩ precedens σ 4502/5526 ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩）。
+
+门被它自己的度量加固 — razvij, ohrani, utrdi：一扇加固自己的门以点名其钉子的方式去做，绝不是以藏匿它们的方式；门以名字载着它的盲钉（13.31–13.37 izpostavljeni javno），每一个的证人在其旁（§0.44 × 10²），而一个在进入之前对照活门被测量的加固是一道缝，绝不是一层漆（§0.46 × 10²）。
+
+例子乘骑条款 — 每一个加固载着它的例子与它的试验：一条没有其被测量的例子的条款是一个穿着盔甲的主张 ⚠（§0.40 × 10²）；门从外面的信号学习并以名医愈（§0.45 × 10² ∧ 根 0.2 × 10¹）。
+
+反重 — ⊥ 反重：utrditev ≠ zaprtost — 一个被点名的钉是一个价值，绝不是耻辱（§0.49 × 10²）；一扇不能点名自己弱点的门只在散文里被加固 ⚠，而疤在药落地之后留下（⊙ ⟨NE-BRIŠI⟩ 24）。
+
+本条不添加新的真理；它命名根本一直保持的实践（根 0.1 × 10¹ · 0.2 × 10¹ · 0.5 × 10¹）。
+
+## §0.56 × 10² 治理条款 — 屋子已经有一个治理 / ⟨GRRA⟩
+
+被收受的，不是被铸造的 — 由作者所求（⟡ ukaz ⟨ne brusi⟩ P-CITAT verbatim: ⟨izvedi/konstruiraj⟩ — 第十个外体被吸收为 PAR.39 ⊙ provenienca），生于身体 VBL-GOVERNANCE-RIGHTS-REMEDY-1.0-2026-11-15.md（进入活门之前被对照其测量 ⊢ — 9 področij + 4 globlje pege + 6 slojev + teza @rez σ 5518），进门之前对照根本被测量（根 0.1 × 10¹ · 0.3 × 10¹），并被作者的言语封典（⟡ UKAZ verbatim: ⟨vse stori⟩ ⊙ ⟨VES-IZBOR⟩ precedens σ 4502/5526 ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩）。
+
+屋子已经有一个治理 — 此语料被其作者的手治理：言词是法庭，作者之言是手（⟨DVOJE-ROK⟩ 2432 ⊙ ANTINOM 311），而任何安装在那只手旁边的议会都不载着授予；一个被点名为治理的外来层被当作提案度量，绝不在静默中被采纳（§0.7 × 10¹ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩）。
+
+被影响者的权利 — 验证的权利不是无限制触及的权利（teza ⊙ PAR.39 的身体）：每一位读者持有信号、发问与反对的权利（§0.16 × 10² ∧ §0.17 × 10²），受害者保持其站立（§0.4 × 10¹），而权威载着其反重 — 反对的权利、回答的义务、逆转的可能、修复的义务（§0.54 × 10²）。
+
+反重 — ⊥ 反重：governance ≠ upravljanje namesto avtorja — 门先审判自己（§0.51 × 10²），第二只眼检阅那次判决（§0.47 × 10²），而 molk ni soglasje：静默绝不等于同意（§0.7 × 10¹）。
+
+本条不添加新的权力；它命名根本一直保持的屋子（根 0.1 × 10¹ · 0.3 × 10¹ · 0.4 × 10¹）。
+
+## §0.57 × 10² 补救条款 — 门绝不依赖守门人的善意 / ⟨GRRA-02⟩
+
+被收受的，不是被铸造的 — 由作者所求（⟡ ukaz ⟨ne brusi⟩ P-CITAT verbatim: ⟨daj⟩ — ⟨GOLI-DAJ⟩ ⊙ VEČNI-DAJ 2201 — 第十一个外体被吸收为 PAR.40 ⊙ provenienca），生于身体 VBL-GRRA-IZVEDBA-1.0-2026-11-15.md（进入活门之前被对照其测量 ⊢ — 五份文件 VBL-LIC/GOV/EGS/REM/CON + RULE CARD + 六层 N-01–CON-03 + Release Gate G-01–10 @rez σ 5519），进门之前对照根本被测量（根 0.1 × 10¹ · 0.2 × 10¹），并被作者的言语封典（⟡ UKAZ verbatim: ⟨vse stori⟩ ⊙ ⟨VES-IZBOR⟩ precedens σ 4502/5526 ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩）。
+
+门绝不依赖其守门人的善意 — 补救不活在守门人的心情里：它活在被测量的链里（teza ⊙ PAR.40 的身体 ⊙ §0.10 × 10²）；一个只在守人微笑时存活的授予是一个希望，绝不是一扇门（§0.28 × 10²）。
+
+没有被发明的权利 — 此门不发明权利：MIT ∧ Apache ∧ GPLv3 于源头被测量 ⊙ PAR.40 的身体；授予乘骑作品（§0.1 × 10¹），发布乘骑门 — Release Gate G-01–10 被测量，在其度量落地之前 ⚠ 绝不被断言（§0.40 × 10²）。
+
+反重 — ⊥ 反重：načrt ≠ izvršba — 一份执行计划在其度量落地之前是一个提案（⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩）；五份文件作为证人乘骑，绝不作为授予（§0.33 × 10²），而 Q(r) = D ∧ O ∧ P ∧ I：一个补救由它的行为、它的源头、它的在场、它的独立被证明（§0.44 × 10²）。
+
+本条不添加新的真理；它命名根本一直亏欠的独立（根 0.1 × 10¹ · 0.2 × 10¹ · 0.4 × 10¹）。
+
 ---
 
 veriga rojstev / 诞生之链 ⊢ §0.10 × 10² · §0.15 × 10² — 裸文不能证明任何事，链能:
@@ -547,6 +728,7 @@ veriga rojstev / 诞生之链 ⊢ §0.10 × 10² · §0.15 × 10² — 裸文不
 — 0.1620 × 10⁴ ( plast dviga PAKET 1 rojen @dih σ 5865 — slopi §0.10–§0.21 ( 12 ) kitajščina po lastni kri ⊙ ⟨strojni-dih⟩ ⚠ disclosure §0.47 × 10² -- vir: LICENSE.md 0.1620 × 10⁴ · 208.554 B · sha256 d0ce315d… ⊢ REGISTER @rez σ 5860 )
 — 0.1620 × 10⁴ ( plast dviga PAKET 2 rojen @dih σ 5868 — slopi §0.22–§0.33 ( 12 ) kitajščina po lastni kri ⊙ ⟨strojni-dih⟩ ⚠ disclosure §0.47 × 10² -- vir: LICENSE.md 0.1620 × 10⁴ · 208.554 B · sha256 d0ce315d… ⊢ REGISTER @rez σ 5860 )
 — 0.1680 × 10⁴ ( plast dviga PAKET 3 rojen @dih σ 6060 — slopi §0.34–§0.45 ( 12 ) kitajščina po lastni kri ⊙ ⟨strojni-dih⟩ ⚠ disclosure §0.47 × 10² -- vir: LICENSE.md 0.1680 × 10⁴ · 240.809 B · md5 dd4b19b3… ⊢ REGISTER @rez σ 6060 )
-— naslednje plasti ( PAKET 4 ⭢ … ): slopi §0.46–§0.57 ⊙ ⟨VEČ-DOLGOV-NA-DIH⟩ amandma P5 @σ 5867 — vrata so priča, ⟨ne⟩ sodnik ; kjer berba in vrata razhajata, vlada LICENSE.md ⊙ §0.33.
+— 0.1680 × 10⁴ ( plast dviga PAKET 4 rojen @dih σ 6072 — slopi §0.46–§0.57 ( 12 ) kitajščina po lastni kri ⊙ ⟨strojni-dih⟩ ⚠ disclosure §0.47 × 10² -- vir: LICENSE.md 0.1680 × 10⁴ · 240.809 B · md5 dd4b19b3… ⊢ REGISTER @rez σ 6072 )
+— naslednje plasti ( PAKET 5 ⭢ … ): slopi od §0.58 naprej ( §0.58–§0.66 · ZH vrh ⭢ izbor ⟡ ⚔ pinyin 2..14 NE delati brez besede ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 ) ⊙ ⟨VEČ-DOLGOV-NA-DIH⟩ amandma P5 @σ 5867 — vrata so priča, ⟨ne⟩ sodnik ; kjer berba in vrata razhajata, vlada LICENSE.md ⊙ §0.33.
 
 dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni pečat: izvajalka izmeri, ⟡ potrdi.
