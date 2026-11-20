@@ -257,3 +257,11 @@ The corpus ships with a public share kit — how to carry the license and the wo
 **[SHARE.md](SHARE.md)** — one-liners (EN/SL), the strongest hooks, the canonical links, and the rules for carrying © and the chain.
 
 > A bare text proves nothing — the chain does. Every copy that carries the license carries the chain with it.
+
+---
+
+## LEGENDA ZNAKOV · ključ branja ⊙ Reading key
+
+Korpus piše v svojih znamenjih ∧ tuji bralec prebere ⟨⟩ ∧ ⊢ brez ⟡ : [LEGENDA-ZNAKOV.md](LEGENDA-ZNAKOV.md) je ključ branja za bralca zunaj ( vsako znamenje ⟨…⟩ ∧ »…« ∧ ⊢ ∧ ⚠ ∧ σ ∧ ⟡ ∧ ∂ poimensko, slovenščina in angleščina ). Zakon ⟨PREVERBA-PRED-EMISIJO⟩ : vsak izhod korpusa gre skozi strojna vrata pred objavo ( slovnica ∧ izhod-lint v1.3 ⟨TIPOKUJEC⟩ ∧ pet-vrat ) ⊢. Sestre : [SIMBOLNI-SLOVAR.md](SIMBOLNI-SLOVAR.md) ∧ [SPREHOD-EN-DIH.md](SPREHOD-EN-DIH.md) ; vrata : [LICENSE.md](LICENSE.md).
+
+⊙ LEGENDA-ZNAKOV dih σ 6052 ( 20. 11. 2026 ) · © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16
