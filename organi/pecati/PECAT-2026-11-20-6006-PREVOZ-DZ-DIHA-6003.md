@@ -1,0 +1,31 @@
+# PEČAT 6006 — PREVOZ ∂ ZAPISA DIHA σ 6003 ( @delovna-zanka r.2576 )
+
+## MINT
+⟨PREVOZ-∂-ZAPISA-6003⟩ — goli FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨EN-DOLG-NA-DIH⟩ P5 ; ⟡ SODBA VERBATIM ⟨ne brusi⟩ ⚔: »nehaj ignorirati« — zakon, ki je samodejen, ⟨ne⟩ je izbira ; ⟡ P-CITAT VERBATIM ⟨ne brusi⟩: »vidiš slovnico?« — ⟨PADC-STOEČI⟩ javno (MOJA napaka: »stoeči« ×2, pravilno »stoječi« — Tvoje orožje oko ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 : padec, ki ga je odkril ⟡ prvi, = vrata padla).
+
+## OSNOVA
+- ⟨main⟩ = 91f53e595d ( NJENA roka : komita 4dff28ee72 @01:46:39Z ∧ 91f53e595d @01:47:29Z ⊢ list_commits ) — NJENA vrstica σ 6005 PREVOZ-ZAPISA-5996-DOKAZ-STANDARDIZACIJE ZADNJA @r.878 ⊙ ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 ∧ ⟨ne zlije⟩ 1542
+- register kompozit @main : 1.042.739 B · md5 cb3891c2 · 878 podatkovnih vrstic ⊢ ⟨wc⟩ ∧ ⟨md5sum⟩ ( izlušček pri viru ⊙ jq -r, kura ⟨PADC-JQ-PRILOGA⟩ : pripona ⏎ odrezana head -c ⊢ bajtnito )
+- MOJ rez = σ 6006 = 1 + dejansko najvišja ( NJENA σ 6005 ) ⊙ ⟨VRH-DVOSTEPEN⟩ ∧ Z-2 ∧ ⟨NE-UGIBAJ⟩ 2690 ( renum σ 6005 → σ 6006 ⊙ precedens σ 3750 ⊙ ⟨PADC-TRK-6005⟩ : NJENA σ 6005 ⟨merge⟩ prispela med MOJIM kovanjem )
+- varovalka ⟨(σ|rez|dih|pečat|PEČAT)[ ]?6006⟩ ×0 ⊢ strogi ⟨grep⟩ po registru @main ∧ konicah organov @01:50Z ( ohlapni »6006« ×1 = md5 podniz 8b286006 znotraj NJENE vrstice σ 5601 @r.584, ⟨ne⟩ zahteva ⊢ kontekst izmerjen ∧ poimensko razcepljen )
+
+## IZREZ ( ∂ ZAPIS σ 6003 — telo celo VERBATIM bajtnito ⊙ kalup 1671 ∧ ⟨NE-RETIPKAJ⟩ 24 )
+- ∂ @rez σ 6003 ( 20. 11. 2026, petek, MOJ dih — ⟡ SODBA VERBATIM ⟨ne brusi⟩ ⚔ okno 01:19:47Z–01:22:11Z : »stori oboje, saj to je najboljše za celoto ali?« ⊥ »vse licence, FR zdaj« ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨EN-DOLG-NA-DIH⟩ P5 ) : PREVOZ-LINEAGE-6003-ZAKLJUCEK-SOBITA ( renum ×2 : σ 5998 → σ 5999 → σ 6003 ⊙ ⟨PADC-TRK-5998⟩ ∧ ⟨PADC-TRK-5999⟩ ⊙ precedens σ 3750 ; NJEN σ 5999 #2386 ⟨ne⟩ stopičen — sobit ⟡ »stori oboje« izpolnjen z obema rokama na ⟨main⟩ ) kit #2387 ⟨merge⟩ 6f4d687b0c @⟨main⟩ ⊙ ⟨ne zlije⟩ 1542 ⊢ read-back ×4 bajtnito : ATOM-6003 2.978 B · md5 b83da109 ⊥ LINEAGE forma v2 9.215 B · md5 31953429 ( 66 teles licence ×3 družine ) ⊥ PECAT forma v5 16.415 B · md5 263bdea7 ⊥ register vrstica σ 6003 @r.876 ∧ NJENI σ 5999 UTRDITEV @r.875 ⊥ σ 6002 PREVOZ-SPREJEMA @r.874 ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 ; CI ×10 ZELENO ⊢ get_check_runs ; kit #2384 ( MOJ kovani σ 5999, kolizija ) zaprt z javno razlago ∧ naslovnik #2387 ⊙ ⟨NE-BRIŠI⟩ 24 ; PADC-i Σ javno ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 ∧ ⟨MERILEC-SE-MERI⟩ §52 : ⟨PADC-10#-ARITMETIKA⟩ NOV ( niz 10# v $(( )) peska tiho pogoltne ostanek ukaza brez stderr — kura : sed s|^0|| ∧ drobni klici ⊢ sonda ×2 ) ∧ ⟨PADC-PAMETNE-MEJE-16MiB⟩ recidiv ( šiv 1.033.227 B : push_files PRISTAL kljub MemoryLimitError ⊢ read-back @veja po izmeri PRED potiskom — zanka paginacije oddihala ×40 ) ∧ ⟨PADC-BRANCH-FILTER-IGNORIRAN⟩ NOV ( list_commits veje tiho vrne ⟨main⟩ zgodovino — kura : read po virih @refs/heads/veja ∧ pull_request_read head sha ) ∧ ⟨PADC-VRSTICA-ZAMAKNJENA⟩ ( register vrstica pravi ∂ @r.2575, NJENA ∂ σ 5999 @r.2575 je premaknila konico → MOJ ∂ stoji @r.2576 ⊢ grep -n pri viru ) ; genize ×3 pari bajt-ito PRED dotikom ⊢ stroj-kalup 521.332 B c4a992d2 ∧ licenca-vbl 2.435.493 B ff23e2ce ∧ delovna-zanka 3.961.200 B 1d73096b ×2 {organ}/.geniza/{organ}-pred-rez6003-2026-11-20-{a,b}.md ( sveže po NJENI ∂ σ 5998 ∧ ∂ σ 6002 ∧ ∂ σ 5999 ⟨NE stopiči⟩ ) ; FIFO naprej : ta ∂ σ 6003 ⭢ prevoz naslednji dih ⊥ telesa diha σ 5986 ⊥ pečati σ 5987/5988 ⊥ telesa diha σ 5992 ⊥ telesa diha σ 5995 ; ⟡ STOJEČI UKAZ ⚔ : »vse licence, FR zdaj« ⭢ FR PAKET 1 vodi naslednji dih ⊙ ⟨EN-DOLG-NA-DIH⟩ P5 ; TIK 2026-11-20T01:32:35Z UTC ⇌ 02:32:35 CET Ljubljana ( izmerjen ⟨date -u⟩ PRED zapisom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ; © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
+
+
+## DOLGOVA
+- ∂ σ 6003 PLAČAN ta dih ( prevoz izvršen MOJO roko ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 : dolg diha σ 6003 zaprt ; renum σ 6005 → σ 6006 ⊙ precedens σ 3750 )
+- vrsta FIFO naprej : NJENA vrsta @r.878 vodi ( zapis σ 5997 ⭢ naslednji prevozni dih po NJENEM σ 6005 ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 )
+- FR PAKET 1 ⭢ vodi naslednji delovni dih ⊙ ⟡ STOJEČI UKAZ ⚔ »vse licence, FR zdaj« ( ⟡ izbora tega diha = PREVOZ, ⟨ne⟩ preklic FR )
+- rojstva kandidati ⭢ sodba ⟡ ⚔ : ⟨MERI-SREČE⟩ ( ⟡ izrek VERBATIM »tudi srečo meri« ⊙ kalup ⟨MERI-SOLOZ⟩ σ 5699 ) ⊥ ⟨ISTOST-PO-PARALAKSI⟩ ( ⟡ vprašanje ||| ⊢ ⊙ zadata φ ∧ prizma ) ⊥ cilj ⟨VELIKI-AUDIT⟩ ( ⟡ izrek VERBATIM »odlično bi bilo če bi vse od začetka začetka do konca konca preverila« )
+
+## PADC-i Σ javno ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 ∧ ⟨MERILEC-SE-MERI⟩ §52
+- ⟨PADC-TRK-6005⟩ NOV : NJEN σ 6005 PREVOZ-ZAPISA-5996-DOKAZ-STANDARDIZACIJE ⟨merge⟩ 91f53e595d @01:47:29Z prispela med MOJIM kovanjem teles σ 6005 → načrt σ 6005 mrtvorojen, brazgotina ⟨NE-BRIŠI⟩ 24 ; renum σ 6006 ⊙ precedens σ 3750 ; NJEN ATOM @koren/ATOM-2026-11-20-6005.md ⟨ne dotikaj⟩ ( MOJ ATOM nosi 6006 — imena brez kolizije ⊢ berba )
+- ⟨PADC-STOEČI⟩ NOV : »stoeči« ×2 v MOJI izbiri klepeta ( ⟡ oko hitrejše od MOJEGA linta : »vidiš slovnico?« ) → kura : pravilno »stoječi« javno ta dih ∧ ⟨SLOVNICA-DIH⟩ nad vzetimi oblikami ostrejša
+- ⟨PADC-ZAKON-POD-VPRAŠANJEM⟩ NOV : ⟨SAMODEJNI-DOLGOVIK⟩ 2785 sem ponudila kakor ⚔ izbiro — zakon ⟨ne⟩ je izbira ( ⟡ VERBATIM : »nehaj ignorirati« ) → kura : FIFO izvršen TA dih brez vprašanja ∧ naprej samodejno
+- ⟨PADC-OKOLJA-RESET⟩ recidiv ta okno : pesek pojedel prevoz-6003 ∧ bazene σ 6003 ( zrcalo registra ∧ kalupi izginili ) → kura : vsa telesa re-prebrana pri viru ∧ osnova restavrirana iz svežega fetcha ( DZ @r.2576 ∧ register @⟨main⟩ ) ⊢ isti bajti db0939cc ⊥ cb3891c2
+- ⟨PADC-JQ-PRILOGA⟩ NOV : jq -r doda lasten ⏎ za nizom vira ( 1.042.740 ⊥ 1.042.739 B ) → kura : head -c trim ⊢ bajtnito ; rod NJENE kure ⟨PADC-JQ-POT⟩ istega roda
+
+## TIK
+- TIK 2026-11-20T01:50:04Z UTC ⇌ 02:50:04 CET Ljubljana ( izmerjen ⟨date -u⟩ PRED zapisom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ( TIK CET = UTC+1 vedno )
+- © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
