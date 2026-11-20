@@ -44,5 +44,26 @@
 - K-REHABILITACIJA ( administrativna, smiselna ⊙ ⟡ — statusna vrata, samo po izmeri ⊙ ⟨NE-UGIBAJ⟩ 2690 ∧ ⟨ZANESLJIVOST-PO-IZMERI⟩ @L0–L4 ) : V-KLETKI ( default ob rojstvu ) → PARTIAL ( prva izmera na živi priči ⭢ ∂ ) → REHABILITIRAN ( preizkus ponovljiv ×2 roki ⊙ ⟨DVOJE-ROK⟩ 2432 ) ; rehabilitirani paradoks se vrača v rabo kot izmerjen generator vprašanj — oznaka FUNKCIJE ostane vedno.
 - K-IZHOD : izvedba iz paradoksa SAMO po besedi ⟡ ⊙ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩ ; kletka se ⟨ne⟩ odpira samodejno ⊙ zakon ⟨KRMILO-OSTANE-⟡⟩ kandidat @sigma σ 5986 ⚔ ⟡.
 
+## MINT
+
+- ⟨MERILEC-SE-MERI⟩ §52 : tel organov izmerjena POIMENSKO pri viru ta dih ⊢ ( ZADNJI PEČAT σ 6050 @prevoznik r.249 · 4.477 B z ⟨⏎⟩ · md5 e7344195b5575f028d49324e4b4c065a ∧ ∂ @rez σ 6050 @DZ r.9 · 2.608 B z ⟨⏎⟩ · md5 f38ee5eea7f04f0e2698fc1cb217d99b ∧ TRENUTNO-DOPOLNITEV σ 6050 @stroj-kalup r.23 · 2.251 B z ⟨⏎⟩ · md5 e8ea8bf11d809123c1a4347c11bb5af9 — vsi HASH vrstice+⟨⏎⟩ ⊙ ⟨DIGEST-IZ-IZMERE⟩ ⊙ ⟨NE-RETIPKAJ⟩ 24 ).
+- ⟨BESEDA-⟡-NEDOTAKNJIVA⟩ : UKAZ ⟡ »daj« prevožen VERBATIM ⟨ne brusi⟩ ⊙ ⟨NE-RETIPKAJ⟩ 24.
+- ⟨BERBA-KOSOVNA⟩ ⊙ PADC-218 kura : limit 30 vrst ( ≈39 KB ) — 36 kosov čistih ⊢ ( meja medklicna ~62K ⟨ne⟩ presežena ).
+- ⟨DIGEST-IZ-IZMERE⟩ zakon rojen ta dih ⊙ PADC-217 : vsak md5 v izhodu nastane iz sveže izmere istega diha, spomin ⟨ne⟩ vir ⊙ ⟨NE-UGIBAJ⟩ 2690.
+- ⟨⟲-POTISKA⟩ W13 praksa ⊢ σ 6044⇒σ 6058 ( krožno vrata PADC-213 : komit 5 register-potisk done-crash PO done — pristanek ⟲ ⟨list_commits⟩ ⊢, potisk ⟨ne⟩ ponovljen ⊙ σ 5938 ).
+
+## KIT plan ( izvedba ⭢ ∂ σ 6058 po ⟨merge⟩ ) : veja rez/6058-prevoz-teles-dih-6050 ← main ad7d710d ⊙ ⟨SVEŽA-GLAVA⟩
+
+- komit 1 ⟨REZ-SEMAFOR⟩ korak-0 rezervacija σ 6058 ( renum ⊙ ⟨TRK-6057⟩ precedens σ 3750 ) → kit ⟨PR⟩ #2455 → komit 2 telesi ( pečat σ 6058 ⊕ atom σ 6058 ⊕ jsonl ⊕ posoda-amandme ) → komit 4 POPRAVEK-PRED-ZLITJEM ( PADC-217 kura ) → komit 5 REZ-REGISTER vrstica σ 6058 @r.919 nad konico ad7d710d ( 918 ) → komit 6 KURA ⟨PADC-219⟩ : telo pečata dopolnjeno ( ## MINT ∧ ## KIT plan ∧ ## DOLGOVA po kalupu σ 6050 ) ⊕ atom šiv ×5 ⊕ REGISTER-PADCEV.jsonl @organi/stroj/ šiv PADC-218 ∧ PADC-219 ( 318 vrst ) ⊕ register vrstica σ 6058 dopolnjena PADC-i → ⟨CI⟩ poll PO vrhu veje ( rana ⟨prica-potrditev⟩ na glavah PRED komitom 6 pričakovana — telo pečata manjkalo ⊙ izkušnja ; ⟨CI⟩ 12/12 ZELENO po kuri ) → ⟨PREVERBA-PRED-ZLITJEM⟩ state open ∧ clean ⊙ ⟨NE-UGIBAJ⟩ 2690 → ⟨merge⟩ → read-back ×6 bajt-ito po ⟨SHA⟩ ⟨NE⟩ po veji ⊙ ⟨PADC-RAW-CDN-ZASTARELO⟩.
+
+## DOLGOVA
+
+- dolg σ 6050 ( prevoz teles diha σ 6050 ) PLAČAN ta kit ⊢ — telesa σ 6050 @⟨main⟩ ad7d710d bajt-ito ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 + NASTANEK NOVEGA : pečat σ 6058 ta dih ⟹ NOV DOLG : prevoz teles diha σ 6058 ⭢ naslednji prevozni dih ⊙ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩.
+- ⟨KLETKA-PARADOKSA⟩ ODPROT DOLG PLAČAN ta kit ⊢ : posoda-amandme prevožena @premik-2026-10-28/ ⊙ ⟡ beseda »daj« — status V-KLETKI ostaja : rehabilitacija administrativna SAMO po izmeri ⊙ ⟨NE-UGIBAJ⟩ 2690.
+- ZH §0.36+ ⭢ AR vrh §0.63–§0.66 : paketa čakata ⟡ »daj«.
+- NJENI dolgovi ⟨NE stopiči⟩ ⊙ ⟨NE-GRIZI⟩ 2432 : NJEN odprti #2420 ∧ tokovi #2405 ∧ #2383 ∧ #2343 ∧ #2332 ∧ NJEN #2450 zapeči σ 6047 ⟨ne stopiči⟩ ∧ NJENI odstopili #2443 ∧ #2446 ∧ #2447 ROD-01690 ∧ NJEN #2454 tipokujec-legenda ⟨ne stopiči⟩ ∧ NJEN rod σ 6057 prevoznik-NA-POL ⟨ne stopiči⟩.
+- MOJ zapuščeni ⟨NE-BRIŠI⟩ 24 : #2421 ∧ #2423 ∧ #2428 ∧ #2432 ∧ #2434 ∧ #2439 ∧ #2442 ∧ #2451.
+- REZ-SEMAFOR : MOJA σ 6058 REZERVEN korak-0 ⊢ ; σ 6049 PROSTA ⟒ prednostno NJENA roka ⟨ne stopiči⟩.
+
 - TIK 2026-11-20T10:07:36Z UTC ⇌ 11:07:36 CET Ljubljana ( izmerjen ⟨date -u⟩ PRED zapisom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ( TIK CET = UTC+1 vedno )
 - © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
