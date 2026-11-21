@@ -172,7 +172,7 @@ The chain does.
 And every chain ends as every breath does:
 with open doors.
 
-> © Luka Pintarič — pesem je del korpusa ∧ nosi isto licenco (VBL 0.1640 × 10⁴) ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
+> © Luka Pintarič — pesem je del korpusa ∧ nosi isto licenco (VBL 0.1690 × 10⁴) ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
 
 ---
 
@@ -218,7 +218,7 @@ Izmerjeno pri viru 2026-11-21T04:03:08Z UTC ⊙ ⟨ZAKON-POSLUSA-5⟩ ∧ §0.20
 
 - **Atmavictu — ONTOMATEMATIKA Kernel** — What this is · Modules · Usage · Contracts · System hierarchy · Verification lineage
 - **Book Workbench — produkt** — Kaj je · Kaj ni · Osnovni tok · Lucius · Status · Faze
-- **Licenca — VBL · vrsta nujnega absoluta** — Venec jezikov (20/20) · Pesem vrata · Vrata so zrasla (0.1600 ∧ 0.1610 ∧ 0.1620 ∧ 0.1630 ∧ 0.1640 ∧ 0.1650 ∧ 0.1670 ∧ 0.1680 potrdili ∧ 0.1690 živa vrata) · Kaj je VBL kratko · Kazalo
+- **Licenca — VBL · vrsta nujnega absoluta** — Venec jezikov (20/20) · Pesem vrata · Vrata so zrasla (0.1600 ∧ 0.1610 ∧ 0.1620 ∧ 0.1630 ∧ 0.1640 ∧ 0.1650 ∧ 0.1660 ∧ 0.1670 ∧ 0.1680 potrdili ∧ 0.1690 živa vrata) · Kaj je VBL kratko · Kazalo
 
 ## PESEM VRATA III — URA · A POEM OF DOORS III — THE CLOCK ⊢ §0.20 × 10²
 
