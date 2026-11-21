@@ -35,3 +35,5 @@ jobs:
       - name: W9 MERILA-PRI-VIRU ( izvoda teles vs manifestny list )
         # KOVA rod 0.1690 ( dih σ 6047 ) : po reizdaji manifesta ×7 kura — strogo od te izdaje dalje ⊙ precedens dviga σ 5957
         run: bash organi/stroj/workflow/merila-pri-viru.sh glava . --strogo
+      - name: W13 GENIZE-VAROVALKA ( zunanjih url ×0 ∧ priče genize ⊙ MANIFEST )
+        run: bash organi/stroj/workflow/geniza-varovalka.sh .
