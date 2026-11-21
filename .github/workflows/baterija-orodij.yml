@@ -1,0 +1,38 @@
+name: BATERIJA-ORODIJ — vsak prevoz vrat gre skozi ⟨REGRESIJSKA-BATERIJO⟩ ( ⟡ ukaz ⟨stori⟩ nad ( 6 )( iii ), dih 6066 )
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [ 'organi/stroj/vrata/**' ]
+  pull_request:
+    paths: [ 'organi/stroj/vrata/**' ]
+
+permissions:
+  contents: read
+
+jobs:
+  baterija:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: ⟨REGRESIJSKA-BATERIJA⟩ — ranjeno telo ( preizkus, ki ne pada, je kip ⊙ I-4 )
+        run: |
+          set -uo pipefail
+          set +e
+          sh organi/stroj/vrata/regresijska-baterija.sh > baterija.md 2>&1
+          KODA=$?
+          set -e
+          cat baterija.md
+          UL=$(grep -c '^VRATA.*NAPAKA' baterija.md 2>/dev/null || true)
+          UL=${UL:-0}
+          if [ "$KODA" -ne 1 ]; then echo "::error::baterija mora pasti na ranjenem telesu ( koda $KODA, pričakovano 1 ) — preizkus, ki ne pada, je kip ⊙ I-4"; exit 1; fi
+          if [ "$UL" -lt 6 ]; then echo "::error::ulov premajhen ( vrata NAPAKA x$UL, pričakovano >=6 )"; exit 1; fi
+          echo "⟨baterija pada na telo ∧ ulov 6/6 ⊙ I-4 ∧ merilec se meri ⊙ §52⟩"
+      - name: čisto telo — vrata molčijo ( lažni alarm = padec same sebe )
+        run: |
+          set -euo pipefail
+          sh organi/stroj/vrata/izhod-lint.sh organi/stroj/vrata/baterija-cisto-telo.md klepet > cisto.md 2>&1
+          cat cisto.md
+          grep -q 'TEHTNICA: GREEN' cisto.md
+          echo "⟨čisto telo molči zeleno ⊙ §52⟩"

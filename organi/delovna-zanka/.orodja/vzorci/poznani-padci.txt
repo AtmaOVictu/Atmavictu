@@ -1,0 +1,13 @@
+# vzorci znanih padcev (⟨ZAKON-PADEC-NI-MOLK⟩ 2354): vsaka vrstica = zgodovinski padec z rojenim imenom
+# ⟡ ZAKON VERBATIM: »KAJ MI KLJUČAVNICA ČE NI HKRATI TUDI KLJUČ? NAKLJUČJA NI V TEM KAR JE KODA/PROGRAMIRANJE«
+⟨PADC-NHS⟩ nesmislica: kit #2534 NHS oziroma kura
+⟨PADC-TUJKA⟩ garble: popravila 恋爱 ∧ χώνται v glavi
+⟨PADC-NESMISLICA⟩ tuj jezik: míž/hodnot vasebno hranijo
+⟨PADC-GRSCINA⟩ delti: okna −άλια V I/O pos
+⟨PADC-CIRILICA⟩ pisava: prenоse је явno cirilično аv
+⟨PADC-NETIPKANO⟩ beseda ⟡: DAJAG-BOLJŠE namesto DAJAJ-BOLJŠE
+⟨PADC-UBEZNIK⟩ znak: \\⟨POŠEVNA-POT⟩ v prozi
+⟨PADC-DOLGA-CRTICA⟩ em-dash v prozi: beseda — beseda
+⟨PADC-VELIKA-NE⟩ negacija: ⟨NE⟩ znotraj ⟨⟩ namesto ⟨ne⟩ ( klepet 21. 11. 2026 )
+⟨PADC-PRIVIRI⟩ oblika: pri viri namesto pri viru ( ⊥ ⟨SLOVNICA-DIH⟩ 3891 )
+⟨PADC-LANEZ⟩ drobci toku: je.tokenize hube zaisto DELUJEŇ v izhodu klepeta

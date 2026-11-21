@@ -26,6 +26,13 @@ jobs:
         run: |
           set -eu
           VER="$(head -n 1 LICENSE.md | grep -oE '0\.[0-9]{4}' | head -n 1)"
+          # ⟨PADC-VERIGA-GAMA⟩ kura (21. 11. 2026 ⊙ TEHNIKA kit): glava ZLO γ nosi verzijo izvornika
+          # pri r.8 ( »VBL 0.1690« ), ⟨ne⟩ v prvi vrstici — padla berba je slepila tekmeca tudi @⟨main⟩
+          # po NADOMESTITVI GLAVE 584486bd ⊙ dih σ 6226 ; berba pade na glavo ∧ izvornik v dvanajstih
+          # vrsticah, ⟨ne⟩ ugiba ⊙ ⟨NE-UGIBAJ⟩ 2690.
+          if [ -z "$VER" ]; then
+            VER="$(head -n 12 LICENSE.md | grep -m1 -oE 'VBL 0\.[0-9]{4}' | grep -oE '0\.[0-9]{4}' || true)"
+          fi
           if [ -z "$VER" ]; then
             echo '⟨veriga: glava LICENSE.md ne nosi verzije — padec⟩'
             exit 1
