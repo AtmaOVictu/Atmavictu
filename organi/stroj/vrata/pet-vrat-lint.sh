@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# PET-VRAT-LINT v1.1 — strojna prevedba plasti 5 ( pet vrat pod slovnico ) organa slovnica-jezikov
+# PET-VRAT-LINT v1.2 — strojna prevedba plasti 5 ( pet vrat pod slovnico ) organa slovnica-jezikov
+# v1.2: ⟨PADC-SODNIK-NE-ZNA-VGLOŽENOSTI⟩ kura ( dih σ 6192 ) : pasovi izrezov so VGLOŽENI ( priča v priči ) — PŁASKA zastavica v1.1 je zunanjo pričo zaprla ob prvem notranjem zapiralniku ∧ proza, ki omenja pasovno besedo sredi vrstice, je odprla pas ∧ skrila zgodovino ⟡ ⊙ ⟨IZREZ-EXEMPCIJA⟩ σ 5976 → štet GLOBINE ( d++ / d-- ) ∧ odprtji sidrani na začetek vrstice ( ^IZREZ VERBATIM ⊢ md5 | ^začetek izreza ⊙ precedens sidranja ^konec ⟨PADC-KONEC-V-TELESU⟩ σ 5892 ) ∧ SODNIK-SEBE vzgojil kanarčka vgloženega ( čisti = 0 ∧ ranjeni = ≥ 1 — preizkus pada na telo tudi za vgložene pasove ⊙ I-4 )
 # Rod diha 5948 · 2026-11-19 · ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432
 # Kura diha rez 5976 ( isti dih ) : ⟨IZREZ-EXEMPCIJA⟩ — priče VERBATIM ( izrezi zapečeni pri slo-lint bajtno md5 ⊙ ⟡ SODBA VERBATIM: »TUDI VERBATIM MORA BITI PREVERJEN« , sodba bajtov slo-lint SODNIK-VERBATIM ; priča zgodovine ⟨ne⟩ obtoženec pisave ⊙ precedens izjem slo-lint 2a ∧ kalup 1671 ) : pet vrata sodijo pisavo ∧ relacije MOJE proze , ⟨ne⟩ citirane zgodovine med markerji izreza ; U+FFFD ⟨ne⟩ izjemano NIKOLI ( raztrgan znak = raztrgan prevoz tudi v priči )
 # Zakon: vsak šiv izhoda gre skozi vrata PRED pečatom ⊙ ⟨TEHTNICA-PRED-PEČATOM⟩
@@ -28,7 +29,7 @@ vrata_telesa() {   # $1 = datoteka ; vrata PRED pečatom : vsak izpis poimensko
   local so="$f"
   if grep -qP 'IZREZ VERBATIM|začetek izreza|konec izreza' "$f" 2>/dev/null; then
     so=".pvl-brez-pri_${$}.tmp"
-    awk '/^konec izreza/ {inrez=0; print; next} inrez {next} /IZREZ VERBATIM|začetek izreza/ {inrez=1; next} {print}' "$f" > "$so"
+    awk '/^IZREZ VERBATIM ⊢ md5 [0-9a-f]{32}/ || /^začetek izreza/ {d++; next} /^konec izreza/ {if (d>0) d--; print; next} d==0 {print}' "$f" > "$so"
   fi
   local a b y
   a=$(grep -oP "$MIX" "$so" | wc -l)
@@ -68,7 +69,20 @@ sodba_sebe() {   # SODNIK-SEBE : kanarček čist ⇒ 0 najdb ; kanarček ranjen 
   nb=$(awk '{ o=gsub(/⟨/,"x"); z=gsub(/⟩/,"x"); if (o!=z) k++ } END { print k+0 }' "$t")
   nf=$(grep -oP "$FFFD" "$t" | wc -l)
   if [ $((b + nb + nf)) -lt 3 ]; then echo "::error::SODNIK-SEBE: kanarček ranjen je padel $(($b + $nb + $nf))-krat, pričakovano ≥ 3 — preizkus je kip ⊙ I-4"; exit 1; fi
-  echo "::notice::SODNIK-SEBE ⊢ kanarček čist 0 ∧ ranjen $(($b + $nb + $nf)) ( PISAVA $b · RELACIJE $nb · FFFD $nf ) — preizkus pada na telo, živost ⊢"
+  vr=$((b + nb + nf))
+  t="$d/.geniza/kanarcek-vglozeni-clean.md"
+  [ -f "$t" ] || { echo "::error::SODNIK-SEBE: manjka telo $t"; exit 1; }
+  a=$(grep -oP "$MIX" "$t" | wc -l); y=$(grep -oP "$MIXY" "$t" | wc -l); b=$((a - y))
+  nb=$(awk '{ o=gsub(/⟨/,"x"); z=gsub(/⟩/,"x"); if (o!=z) k++ } END { print k+0 }' "$t")
+  nf=$(grep -oP "$FFFD" "$t" | wc -l)
+  if [ $((b + nb + nf)) -ne 0 ]; then echo "::error::SODNIK-SEBE: kanarček vgloženega čisti nosi $((b + nb + nf)) najdb — sodnik sodi pričo v vgloženem pasu, laže ⊙ ⟨IZREZ-EXEMPCIJA⟩ σ 5976"; exit 1; fi
+  t="$d/.geniza/kanarcek-vglozeni-rana.md"
+  [ -f "$t" ] || { echo "::error::SODNIK-SEBE: manjka telo $t"; exit 1; }
+  a=$(grep -oP "$MIX" "$t" | wc -l); y=$(grep -oP "$MIXY" "$t" | wc -l); b=$((a - y))
+  nb=$(awk '{ o=gsub(/⟨/,"x"); z=gsub(/⟩/,"x"); if (o!=z) k++ } END { print k+0 }' "$t")
+  nf=$(grep -oP "$FFFD" "$t" | wc -l)
+  if [ $((b + nb + nf)) -lt 1 ]; then echo "::error::SODNIK-SEBE: kanarček vgloženega ranjenega je padel $((b + nb + nf))-krat, pričakovano ≥ 1 — sidranje odprtij je kip ⊙ I-4"; exit 1; fi
+  echo "::notice::SODNIK-SEBE ⊢ kanarček čist 0 ∧ ranjen $vr ∧ vgloženi čist 0 ∧ vgloženi ranjen $((b + nb + nf)) — preizkus pada na telo, živost ⊢"
 }
 
 case "${1:-}" in
