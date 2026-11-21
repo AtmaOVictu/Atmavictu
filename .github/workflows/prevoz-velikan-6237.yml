@@ -19,21 +19,40 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: rez/6237-rojstvo-01700-zlo-vrata
-      - name: 'prilepi vrstico σ 6237 bajt-ito (varovalka ⟨⟲-PO-DONE⟩ — vrstica na mestu ⇒ molk, ⟨ne⟩ dvojni potisk)'
+        env:
+          DIAG: 'checkout cone zgrajen'
+      - name: 'prilepi vrstico σ 6237 bajt-ito ( varovalka ⟨⟲-PO-DONE⟩ — kar napaka, torej poved )'
         run: |
           set -eu
+          if [ ! -f organi/stroj/REZ-REGISTER.md ]; then
+            echo '::error::REZ-REGISTER.md manjka @glavi veje — checkout ali pot napačna'
+            exit 1
+          fi
           if grep -qF -- '- rez σ 6237 ·' organi/stroj/REZ-REGISTER.md; then
-            echo '⟨vrstica σ 6237 že pri viru — privez molči⟩'
+            echo '::error::vrstica σ 6237 je že pri viru — privez molči, brez dvojnega potiska'
             exit 0
           fi
           if [ ! -f prevoz/VTNICA-6237.txt ]; then
-            echo '⟨marker manjka⟩'; exit 1
+            echo '::error::marker prevoz/VTNICA-6237.txt manjka'
+            exit 1
           fi
           wc -c prevoz/VTNICA-6237.txt
           cat prevoz/VTNICA-6237.txt >> organi/stroj/REZ-REGISTER.md
+          if ! cmp -s <(cat prevoz/VTNICA-6237.txt) <(tail -n 1 organi/stroj/REZ-REGISTER.md); then
+            echo '::error::prilep ne ujema konice — bajtna varovalka ustavila potisk'
+            exit 1
+          fi
           wc -l organi/stroj/REZ-REGISTER.md
           git config user.name 'izvajalka[bot]'
           git config user.email 'izvajalka@users.noreply.github.com'
           git add organi/stroj/REZ-REGISTER.md
-          git commit -m 'K10 ∂ prevoznika : REZ-REGISTER vrstica rez σ 6237 ( privez ⟨REPOV-PRIVEZ⟩, 940 vrstic ) ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 © Luka Pintarič, VBL 0.1700 × 10⁴'
-          git push
+          if ! git commit -m 'K10 ∂ prevoznika : REZ-REGISTER vrstica rez σ 6237 ( privez ⟨REPOV-PRIVEZ⟩, 940 vrstic ) ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 © Luka Pintarič, VBL 0.1700 × 10⁴'; then
+            echo '::error::git commit ni uspel ( ni sprememb za komit? )'
+            exit 1
+          fi
+          if ! git push 2> push.err; then
+            VZ="$(cat push.err | tr -d '\n' | tr -d ':' | head -c 280)"
+            echo "::error::git push zavrnjen — vzrok: ${VZ}"
+            exit 1
+          fi
+          echo '::notice::vrstica σ 6237 prilepljena ∧ potiskan'
