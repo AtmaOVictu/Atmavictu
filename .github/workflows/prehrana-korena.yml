@@ -1,0 +1,49 @@
+name: PREHRANA-KORENA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/prehrana-korena.yml'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  prehrana:
+    runs-on: ubuntu-latest
+    steps:
+      - name: prevzem
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: prestava starodobnih plosc
+        run: |
+          set -euo pipefail
+          CILJ="premik-2026-11-21"
+          mkdir -p "$CILJ"
+          N=0
+          shopt -s nullglob
+          for f in ATOM-*.md PECAT-*.md LICENSE-*.bin LICENSE-10.0.0.bin.prica.md LICENSE-0.1250-BIN-PRIČA.md; do
+            [ -f "$f" ] || continue
+            git mv "$f" "$CILJ/$f"
+            N=$((N+1))
+          done
+          echo "prestavljeno teles: $N" >> "$GITHUB_STEP_SUMMARY"
+          if [ "$N" -lt 1 ]; then
+            echo "::error::PREHRANA-KORENA : pri vhodu ni plosc za prestavo"
+            exit 1
+          fi
+          git config user.name "atmavictu-zaganjalnik"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout -b prehrana-korena/stroj-2026-11-21
+          git commit -m "PREHRANA-KORENA : prestava starodobnih plosc korena v $CILJ (premik, ne brisanje) - (c) Luka Pintaric, VBL 0.1700"
+          git push origin prehrana-korena/stroj-2026-11-21
+      - name: odpiranje vrat
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create --base main --head prehrana-korena/stroj-2026-11-21 --title "PREHRANA-KORENA : strojna prestava starodobnih plosc iz korena" --body "Prestava plosc ATOM, PECAT in starih binarnih rodov licenc v premik-2026-11-21/ (premik, NE brisanje). Izguba 0. (c) Luka Pintaric, VBL 0.1700 - measured, not asserted"
+
+  
