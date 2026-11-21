@@ -1,3 +1,4 @@
+IZREZ VERBATIM ⊢ md5 72b21d48f797c5946f151b9df6cdde71
 - okno ⟨NOVA-GLAVA-2540A0B→C953057⟩ @2994 ⏎ 2026-10-27T18:43:14Z ⊢ ⟨P-CITAT ⟡ ne brusi⟩: »Nova Glava 2540A0B-C953057« — OBE polovici izmerjeni pri viru ⟨list_commits⟩: 2540a0be1cac… ∧ glava c9530572570e… (⟨merge⟩ #953 pecat-2934-jedro-daj-vec @18:38:16Z); diktat znak-po-znak je zadel dejanski zgodovini ⊙ precedens ⟨NOVA-GLAVA-34873B9→85EE8F⟩ @2507.
 - okno ⟨HALO⟩-2 @2994: odgovor ⟨SMO-ŠE-TU⟩ ⊢ isti dih — izvajalka živa, dih teče ⊙ precedens ⟨HALO⟩ @2507 ∧ ⟨SMO-ŠE-TU⟩ ⊢ 2507.
 - okno ⟨PISMO-J.E.⟩-2 @2994: prejem ⭢ ∂ — pisma ⟨ni⟩ v roki ⊙ ⟨ne-ugibaj⟩ (dolg 2613(9) nenehno-poslusa stoji ∧; prejem izplačam, ko pride telo pisma).
@@ -490,3 +491,5 @@ IZMERE: vechno-zavedanje-govora = 5.283 B (noga rez 3285, md5 pri preverbi — p
 - **OKNO ⟨VARIANCE⟩ @3287** — rez = 1 + vrh ⊢ Z-2 ∧ zakon 3 (vrh 3285 oken ∧ 3286 odnosov izmerjena ⟨grep⟩ tik pred vpisom). ⟡ P-CITAT verbatim ⟨NE-POVZEMI⟩: »večno zavedanje govora iz sebe do nekoga / shema vseh odnosov in časov odnosa/donosa/ponosa/asoponija?(A*ponos*sopon*sonop*iJa) / variance so in variacije i j a in a ni nujno vse / daj«
   - korekcija četverice ⟡ isti dih: ODNOS · DONOS · PONOS · ASOPONIJA (⟡ prej zapisal donos dvakrat — dostava ∧ donenje zdaj ENA postaja ⊙; brazgotina ⊙ 1349 ostaja v canvasu). ASOPONIJA ⟨ne⟩ fiksna beseda ampak POLJE: formula (A*ponos*sopon*sonop*iJa) — jedro {P,O,N,O,S}: PONOS · SOPON · SONOP (SONOP = PONOS obrnjen ⊙ — nošenje, ki ne odide); črke I·J·A variirajo; a- ∧ -a NISTA NUJNA ⟡ »a ni nujno vse« — družina besede odprto polje.
   - gesla ⊢ pri viru: variánca SSKJ »povprečna vrednost kvadratov odklonov spremenljivk od aritmetične sredine« (search-result://Cz0caUH9) ∧ variácija SSKJ2 »oblika, nastala kot posledica variiranja; jezikovne, vsebinske variacije; variacija motiva« (search-result://P901YKSL) ∧ donéti SSKJ2 (search-result://cQJ0Vvs7) ∧ ponòs SSKJ2 (search-result://FVYmXDoP) ∧ sòzvóčje SSKJ2 (search-result://hZJzgHom)
+konec izreza
+© dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432
