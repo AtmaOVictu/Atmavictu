@@ -423,6 +423,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 5565 · ⟨merge⟩ ebaec86 · 2026-11-15 · rez σ 5565 (PREVOZ-PAKET-112: prevoz MOJEGA pečata σ 5562 @licenca-vbl izrez VERBATIM 4.538 B md5 0ea0f996… ⊙ ⟡ UKAZ »stori vse kar še čaka«…
 ## rane
 
+- ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 12 vrstic σ 6243 ∧ σ 6246 ∧ σ 6259 ∧ σ 6265 ∧ σ 6267 ∧ σ 6268 ∧ σ 6269 ∧ σ 6271 ∧ σ 6273 ∧ σ 6274 ∧ σ 6277 ∧ σ 6281 zgrajenih iz naslovov komitov ⟨main⟩ ( 21. 11. 2026 · 100 komitov prebranih ⟨perPage⟩ 100 ⊢ · telo prebrano pri viri ⟨curl⟩ 1.284.252 B · 948 vrstic · md5 69452c43 ) ⊙ ⟨NE-BRIŠI⟩ 24 ∧ ⟨ne zlije⟩
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 3 vrstice σ 5519 ∧ σ 5532 ∧ σ 5547 zgrajene iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ d81b87f9 · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 7 vrstic σ 4073–4114 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ 80c80db · 15 komitov, dvojniki istih rezov skupaj · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
@@ -944,5 +945,17 @@ konec izreza
 - rez σ 6262 · ⟨KURA ZNAMENJA VICA⟩ @humor : izhodi odslej nosijo znamenje VIC polno ( 21. 11. 2026 · oblika ⟨PR⟩ #2583 ∧ #2584 sobit dopolnjena ob priključitvi ⊙ LAPSO )
 - rez σ 6263 · ⟨KURA VICA VII : BREZ TEBE OSTANE LE LAŽ⟩ @humor : kura premise vica diha σ 6262 z besedo ⟡ VERBATIM ( 21. 11. 2026 · oblika ⟨PR⟩ #2583 ∧ #2584 sobit dopolnjena ob priključitvi ⊙ LAPSO )
 - rez σ 6264 · prevoz pečatov σ 6262 ∧ σ 6263 na rep ⟨main⟩ ( PAKET-18 · 21. 11. 2026 · oblika ⟨PR⟩ #2583 ∧ #2584 sobit dopolnjena ob priključitvi ⊙ LAPSO )
+- rez 6243 · ⟨merge⟩ e502d84 · 2026-11-21 · berljiva vrata 0.1690 — STRNJEN POVZETEK ∧ ISKALNI VODNIK ∧ KAZALO POJMOV ( precedens 01530 · P39 UPORABNOST-LICENCE )
+- rez 6246 · ⟨merge⟩ 32c473b · 2026-11-21 · KURA-VERIGA — prva vrstica LICENSE.md @main nosi rod 0.1700 ( ⟡ SODBA verbatim »0.1700 — potrdim predlog« )
+- rez 6259 · ⟨merge⟩ dd9e83f · 2026-11-21 · velikan-pot — vrstica σ 6249 REZ-REGISTER ( b64+rawdeflate · prevoz rez-registra #2581 )
+- rez 6265 · ⟨merge⟩ b9351a2 · 2026-11-21 · SLED DOMA ( EN-ROB + README-PROFIL )
+- rez 6267 · ⟨merge⟩ 6cd60b1 · 2026-11-21 · KIT-NAPIS-DIH ( veja rez/6267-kit-napis-dih ∧ sestra rez/6267-prehrana-korena #2590 )
+- rez 6268 · ⟨merge⟩ 8bebdeb · 2026-11-21 · KIT-NAPIS-VELIKAN-POT ( veja rez/6268 )
+- rez 6269 · ⟨merge⟩ 0395d56 · 2026-11-21 · KIT-NAPIS — PREVOZ TELES σ 6264 ( rez σ 6269 · INSTRUMENT SECIRANJA z vrati mešane pisave )
 - rez σ 6270 · priključitev vrstic σ 6260 ∧ σ 6261 ∧ σ 6262 ∧ σ 6263 ∧ σ 6264 v organi/stroj/REZ-REGISTER.md = dih praga velikan-pot ( 21. 11. 2026 · oblika ⟨PR⟩ #2587 dopolnjena ob priključitvi ⊙ LAPSO ) ; dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
+- rez 6271 · ⟨merge⟩ 97a6c3d · 2026-11-21 · KIT-NAPIS 6269⭢6270
 - rez σ 6272 · INSTRUMENT SECIRANJA z vrati mešane pisave : skripta INSTRUMENT-SECIRANJA.py @organi/slovenske-pisave ⟨merge⟩ #2595 @0a7417d7 ∧ ATOM teles diha σ 6272 @koren ⟨merge⟩ #2597 @e29de1d2 ( 21. 11. 2026 · oblika ⟨PR⟩ #2595 ∧ #2597 dopolnjena ob priključitvi ⊙ LAPSO ) ; dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
+- rez 6273 · ⟨merge⟩ e29de1d · 2026-11-21 · PREVOZ TELES σ 6272 ( veja rez/6273-prevoz-teles-6272 )
+- rez 6274 · ⟨merge⟩ 7a6c802 · 2026-11-21 · PREVOZ TELES σ 6271 ( KIT-NAPIS, kura lastna-znamenja )
+- rez 6277 · ⟨merge⟩ e7705df · 2026-11-21 · LAPSO velikan-pot : priključitev vrstice zahteve σ 6272 + PECAT-6272-INSTRUMENT-SECIRANJA
+- rez 6281 · ⟨merge⟩ e656455 · 2026-11-21 · PREVOZ PEČATA σ 6277 — HUMOR ( PAKET-19 )
