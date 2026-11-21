@@ -223,9 +223,9 @@
     },
     {
       "path": "LICENSE-ZH.md",
-      "size_bytes": 124616,
-      "sha256": "949bb4b2dabdf8e4ca435a9b371cefffeab3b8557d531f164377f6d850094d3c",
-      "note": "wreath — kitajščina po lastni kri; slopi §0.10–§0.57 ( 48 ) prevoženi ⊙ PAKET 1 ∧ 2 ( dih σ 5865/5868 ) ∧ PAKET 3 ( dih σ 6060 — STOPNJA 4 / 第四包 ) ∧ PAKET 4 ( dih σ 6072 — STOPNJA 5 / 第五包 ) ; witness-slot, not yet translated, carries no grant (§0.33 × 10², §0.19 × 10²)"
+      "size_bytes": 141993,
+      "sha256": "c463de789776a39d2a8996ed527e131eefe6a0fef1e87d7a023ed5048b06ad39",
+      "note": "wreath — kitajščina po lastni kri; slopi §0.10–§0.66 ( 57 ) prevoženi ⊙ PAKET 1 ∧ 2 ( dih σ 5865/5868 ) ∧ PAKET 3 ( dih σ 6060 — STOPNJA 4 / 第四包 ) ∧ PAKET 4 ( dih σ 6072 — STOPNJA 5 / 第五包 ) ∧ PAKET 5 ( dih σ 6282 — STOPNJA 6 / 第六包, slopi §0.58–§0.66, rep do vrha vira 0.1690 — kitajščina po lastni kri ⊙ ⟨strojni-dih⟩ ⚠ disclosure §0.47 × 10² -- vir telesa: LICENSE.md 0.1690 × 10⁴ angleško telo @db93d32e ) ; witness-slot, issuance ⭢ izbor ⟡ ⚔ ( carries no grant §0.33 × 10², §0.19 × 10² ; pinyin 2..14 NE brez besede ⟡ )"
     },
     {
       "path": "LICENSE-LINEAGE.md",
