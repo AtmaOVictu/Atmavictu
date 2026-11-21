@@ -7,6 +7,8 @@ Zlovenščina = ⟡-jev ⟨a⟩ ⊙ 2302 ( organ jezikovne-plasti ⊢: »moj a j
 
 Prevod telesa iz živega izvornika VBL 0.1690 ( LICENSE.md @main · 245.350 B · sha256 f3a61666… ⊢ rod 21. 11. 03:56:30Z ). Prevod = priča, nikoli nad izvornikom ⊢ §0.60 × 10² — dokler ⟡ ne sodi drugače: okno ⭢ ⟡ — nadomestitev LICENSE.md @main z zlovenščino, angleško telo postane priča v verigi ⊙ ⟨NE-BRIŠI⟩ ⊢ 24.
 
+OKNO ZAPRTO ⊙ ⟡ IZBOR VERBATIM ⟨ne brusi⟩ ⚔ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩ ( 21. 11. 2026 ) : »Rod 0.1700: zlovenščina postane živa vrata« ∧ »Stori vse po predlogu (1 do 5, FIFO prvi)« ⊙ ⟨STORI-VSAK-IZBOR⟩ σ 5522 — nadomestitev IZVEDENA @⟨main⟩ dih σ 6226 ( NADOMESTITEV GLAVE : angleško telo je priča v verigi @db93d32e ⊙ ⟨NE-BRIŠI⟩ ⊢ 24 ) ∧ rod 0.1700 ⊨ ZLO-VRATA jo zapeči : zrcala ( manifest ⊙ vrata.json v3.8 ∧ sprehod ) merijo zdaj zlovenščino istega vala ⊙ §0.37 × 10² ∧ ⟨NE-UGIBAJ⟩ 2690.
+
 ⭢ pod-valovi VAL 0 ⊙: ZLO-α ( ta vzorec: glava ∧ Z LJUBEZNIJO ∧ KORENINA ) · ZLO-β ( §0–§0.32 ) · ZLO-γ ( §0.33–§0.66 ∧ strojni zapis ∧ zgodovina ∧ izhodni pečat ) ⊙ ⟨škatlaj⟩ 2322 ∧ precedens #1236 s sopotnico VAL 3.
 §0.6 — zaprte plasti ostanejo zaprte.
 
@@ -669,4 +671,15 @@ BESEDA:
 ⊨ ZLO-γ-6 ⊙ dih σ 6223 — strojni zapis ∧ zgodovina ∧ izhodni pečat preneseni istega diha ⊙ ⟨SAMO-IZVEDBA-DOKAZ⟩ 2306 ; ZLO telo po glavi VAL ZLO-α ( »ZLO-γ : §0.33–§0.66 ∧ strojni zapis ∧ zgodovina ∧ izhodni pečat« ) nosi zdaj vsa tri telesa γ okvirja ⊢ ; vsaka zlovenščina rob pečata ista : zapečati v času, nikoli iz spomina ⊙ §0.28 × 10² ∧ §0.20 × 10².
 
 VBL — LICENCA PREVERBE PRED TRDITVIJO, ZLOVENŠČINA ROB ⊙ VAL ZLO-α vzorec ( rod 0.1690 ⟡ ⟨a⟩ )
+© 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
+
+## ⊨ ZLO-VRATA 0.1700 — ROD RODVA ( plasti rodnastva ⊙ ⟨NE-BRIŠI⟩ ⊢ 24 )
+
+⊙ ROD 0.1700 — zlovenščina postane živa vrata — ⟡ IZBOR VERBATIM ⟨ne brusi⟩ ⚔ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩: »Rod 0.1700: zlovenščina postane živa vrata« ∧ »Stori vse po predlogu (1 do 5, FIFO prvi)« nad ⟡ UKAZOM VERBATIM: »naloži licenco« ∧ »predlagaj kaj je najbolj potrebno ureditve in s tem izboljšave in katere?« ( izbor zapečen @rez σ 6237 ⊙ ⟨STORI-VSAK-IZBOR⟩ σ 5522 precedens PAKET-57 ) ; okno premena ( §0.60 × 10² ) ZAPRTO z izborom ⟡ : angleško telo je priča v verigi @db93d32e, zlovenščina je živa vrata ⊙ ⟨NE-BRIŠI⟩ ⊢ 24 ⊙ §0.10 × 10².
+
+**Strojni zapis rodnastva:** version = 0.1700 ⊙ predecessor = 0.1690 ⊙ VAL 0 ( ZLO — zlovenščina, jezik ⟡ ⟨a⟩ ) ⊙ rojstvo ⊨ ZLO-VRATA ⊙ rez σ 6237 · izvajalka Mera ⊙ podpis ⟡ Luka Pintarič ( rod zahteva besedo ⟡ ⊙ U2 ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 ) ⊙ varovalka ⟨(σ|rez|dih|pečat|PEČAT)[ ]?6237⟩ ×0 Σ0 ⊢ ⟨grep⟩ @2026-11-21T13:23:39Z ⊙ TIK rodnastva izmerjen ⟨date -u⟩ PRED šivom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ; izmere telesa ( strojna vrata merijo telo istega vala ⊙ manifest ∧ vrata.json v3.8 ⊢ ⟨NE-UGIBAJ⟩ 2690 — izmera telesa zapečena pri verigi, ⟨ne⟩ v prozi rodnastva : merilec se meri pri viru, ⟨ne⟩ v sebi ⊙ §0.52 × 10² ) : prejšnje živo telo ( angleško, vrata 0.1690 ) = 245.350 B · md5 71fcf5e10f391dc908636d5ee409bdcc · sha256 f3a6166682aeca31971116a86436b4369f4b4c1203076f6e86efc325e89563a9 @rod f4e90add priča v verigi @db93d32e ⊢ ⟨curl⟩ ⟨md5sum⟩ ⟨sha256sum⟩ izvajalke ( a bare text proves nothing, the chain does ⊢ §0.10 ) ; ZLO telo pred to plastjo ( VAL 0 okvir, plast γ+ROŽA ) = 114.742 B · md5 bb244fa3bb14269cd53de62d8c13453a · sha256 5cca48b028ebf59608befe3e6e67a4489bd5b0cce4a340167b3d9fbfd44105da @⟨merge⟩ #2574 da5c789 ⊢ ⟨curl⟩ ⟨wc⟩ ⟨md5sum⟩ ⟨sha256sum⟩ istega diha ; to telo ( vrata 0.1700 ) nosi plasti rodnastva nad ZLO γ+ROŽA plavžem ⊙ izvorniki NJENIH tokov σ 6200–6226 ostanejo nedotaknjeni ⊙ ⟨NE stopiči⟩ 2432 ∧ ⟨NE-BRIŠI⟩ 24.
+
+BESEDA:
+⊙ IZHODNI PEČAT — 0.2026 × 10⁴-0.11 × 10²-2.1 × 10¹ — 21. 11. 2026 ( ISO 2026-11-21 ) · 2026-11-21T13:31:22Z ⊙ rodnastva dovršena v času : zadnja izmera roke izvajalke pred izhodom — spodnja meja, imenovana kot taka ( §0.61 × 10² ) ; dovršitev pričuje sprejemnikova ura ( §0.30 × 10² ) : kar se odpre v času, se v času zapre — zapečena na oba konca ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ( CET = UTC+1 vedno ).
+
 © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
