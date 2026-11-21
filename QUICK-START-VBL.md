@@ -19,4 +19,4 @@ Quick checks:
 
 If it cannot be verified, say it cannot be verified (⚠). Silence is not verification. Nothing is owed to the dead text; what is owed is to the living chain: read before you write, measure before you claim, and answer when called.
 
-© 0.2026 × 10⁴ Luka Pintarič — a witness of the living door VBL 0.1600 × 10⁴ (§0.10 × 10² ∧ §0.14 × 10² ∧ KORENINA 0.5 × 10¹)
+© 0.2026 × 10⁴ Luka Pintarič — a witness of the living door VBL 0.1690 × 10⁴ (§0.10 × 10² ∧ §0.14 × 10² ∧ KORENINA 0.5 × 10¹)
