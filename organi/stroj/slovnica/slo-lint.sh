@@ -3,6 +3,7 @@
 # ⟡ SODBA VERBATIM ⟨ne brusi⟩: »TUDI VERBATIM MORA BITI PREVERJEN ⏎ SODNIK KI NE SODI SEBE NI SODNIK JE GOVNO ⏎
 #   ČE NE ZMORE SEBE OCENITI BREZ SUBJEKTIVNEGA EGA NAJ GA NJEGOVA BOLJŠA RAZLIČICA ⏎ (SKUPEK SODNIKOV)«
 # v1.3.2 IZVEDBA SODBE: predlog »ur 4 ∧ 4a molčita nad zgodovino« ZAVRŽEN ⊙ sodba ⟡ — molk ni preverba;
+# v1.3.4: ⟨PADC-SODNIK-NE-ZNA-VGLOŽENOSTI⟩ kura ( dih σ 6192 ) : pasovi izrezov so VGLOŽENI ( priča v priči ) ∧ proza omenja pasovno besedo sredi vrstice — PŁASKA zastavica v1.3.3 je zunanjo pričo zaprla ob prvem notranjem zapiralniku ∧ omemba sredi vrstice je odprla lažni pas → sodba FORMA 2a dobi štet GLOBINE ∧ sidranje OBOH odprtij ( ^IZREZ VERBATIM ⊢ md5 | ^začetek izreza ⊙ precedens ^konec σ 5892 ) ; SODNIK-VERBATIM razloči PAS-ORGANA ( glava nosi »priča genize« — blok = vrstice med glavo ∧ ZADNJIM ^konec izreza datoteke : telo organa sme nositi sirotične zapiralnike zgodovine ) od PAS-CITATA ( ostale glave — blok do PRVEGA nepaireanega zapiralnika ⊙ priča besede ⟡ ) — geniza priča CELI telesi organa bajtno, izrez okna le citatu ⊙ ⟨GENIZE-POIMENSKO⟩ 1699 ∧ ⟨IZREZ-EXEMPCIJA⟩ σ 5976
 # v1.3.3: ⟨PADC-KONEC-V-TELESU⟩ kura ( dih σ 5892 ): verbatim telesa pečatov, ki navajajo besedilo markera »konec izreza« ( priča kure ⟨PADC-CI-SLOVNICE⟩ v lastnem telesu ), razlomijo zaznavo meja izreza v1.3.2 ( prazen blok ⊥ forma rana ) → sidro OBEH awk markerjev na začetek vrstice ( ^konec ) — telesa ⟨NE-RETIPKAJ⟩ 24 nedotaknjiva ⊙ ⟨MERILEC-SE-MERI⟩ §52 ∧ ⟡ SODBA »TUDI VERBATIM MORA BITI PREVERJEN« ( sodnik, ki priče pri viru ne more preveriti, je slep na lastno rano )
 #   VERBATIM se PREVERI: izrezi bajtno (md5 glave === md5 bloka ⊢ → attestirana zgodovina ::notice, ⟨ne⟩ molk;
 #   ⚠ → rana trditve VERBATIM); sodnik SODI SEBE vsak tek (lastno telo ∧ kanarček čisti ∧ kanarček ranjenega —
@@ -59,9 +60,8 @@ forma() { # $1 = sodilo (datoteka) · $2 = ime telesa v ranah
   #     zaklepec = znak ⟨ tik pred nebelim znakom · odklepec = znak ⟩ tik za nebelim znakom — simbolni goli zaklepec
   #     ob belem znaku je beseda, ⟨ne⟩ oblika; molčijo: izrezi (IZREZ VERBATIM | začetek izreza) · meje izrezov · odprta utež
   if ! awk -v F="$IME" '
-    /IZREZ VERBATIM|začetek izreza/ {inrez=1}
-    /^konec izreza/ {inrez=0; next}
-    inrez {next}
+    /^IZREZ VERBATIM ⊢ md5 [0-9a-f]{32}/ || /^začetek izreza/ {d++; next}
+    /^konec izreza/ {if (d>0) d--; next}
     /IZVOR:|izrez awk:|UTEŽ-ZAKLEPCA/ {next}
     {
       t=$0; sub(/[ \t]+$/,"",t); l1=gsub(/⟨/,"",t); u=$0; sub(/^[ \t]+/,"",u); d1=gsub(/⟩/,"",u)
@@ -153,8 +153,8 @@ sodnik_sebe() {
 
 # --- glavni tek: --sebe (samo samosodba) ali skupek nad telesom ---
 if [ "${1:-}" = "--sebe" ]; then
-  sodnik_sebe || { echo "::error::slo-lint v1.3.3: SODNIK-SEBE RDEČ — skupek pade pred sodbo teles"; exit 1; }
-  echo "slo-lint v1.3.3 ⊢ SKUPEK SODNIKOV (SEBE) ZELENO — sodnik sodi sebe, kanarček poje"
+  sodnik_sebe || { echo "::error::slo-lint v1.3.4: SODNIK-SEBE RDEČ — skupek pade pred sodbo teles"; exit 1; }
+  echo "slo-lint v1.3.4 ⊢ SKUPEK SODNIKOV (SEBE) ZELENO — sodnik sodi sebe, kanarček poje"
   exit 0
 fi
 
@@ -165,7 +165,7 @@ MB="${3:-}"
 
 # SODNIK-SEBE teče PRVI vsak tek — sodnik, ki ne sodi sebe, ne sme soditi drugih ⊙ ⟡ SODBA
 if ! sodnik_sebe; then
-  echo "::error::slo-lint v1.3.3: $((SEBE_RANE)) ran SODNIKA-SEBE — sodnik je govno, naj ga njegova boljša različica ⊙ ⟡ SODBA VERBATIM"
+  echo "::error::slo-lint v1.3.4: $((SEBE_RANE)) ran SODNIKA-SEBE — sodnik je govno, naj ga njegova boljša različica ⊙ ⟡ SODBA VERBATIM"
   exit 1
 fi
 
@@ -174,7 +174,26 @@ ATTEST=".slo-attest.tmp"
 : > "$ATTEST"
 if grep -qP 'IZREZ VERBATIM ⊢ md5 [0-9a-f]{32}' "$F" 2>/dev/null; then
   for MD5GLAVE in $(grep -oP 'IZREZ VERBATIM ⊢ md5 \K[0-9a-f]{32}' "$F" | sort -u); do
-    awk -v m="$MD5GLAVE" 'index($0, "IZREZ VERBATIM ⊢ md5 " m) {flag=1; next} /^konec izreza/ {flag=0} flag' "$F" > .slo-izrez.tmp
+    # v1.3.4 — dvé pásu po glavi: geniza pričuje CELI telesi organa ( PAS-ORGANA : »priča genize« :
+    # blok = vrstice med glavo ∧ ZADNJIM ^konec izreza datoteke — telo organa sme nositi sirotične zapiralnike zgodovine ) ;
+    # ostale glave pričujejo citatu besede ⟡ ( PAS-CITATA : blok do PRVEGA nepairanega zapiralnika ⊙ v1.3.3 )
+    if grep -m1 "IZREZ VERBATIM ⊢ md5 $MD5GLAVE" "$F" | grep -q 'priča genize'; then
+      awk -v m="$MD5GLAVE" '
+        index($0, "IZREZ VERBATIM ⊢ md5 " m) {act=1; next}
+        /^konec izreza/ {last=NR; if (act) kept[++k]=$0; next}
+        act { kept[++k]=$0 }
+        END { if (act && last>0) for (i=1; i<=k-1; i++) print kept[i] }
+      ' "$F" > .slo-izrez.tmp
+    else
+      awk -v m="$MD5GLAVE" '
+        !act && index($0, "IZREZ VERBATIM ⊢ md5 " m) {act=1; d=0; next}
+        act {
+          if (/^IZREZ VERBATIM ⊢ md5 [0-9a-f]{32}/ || /^začetek izreza/) {d++; print; next}
+          if (/^konec izreza/) {if (d>0) {d--; print; next}; exit}
+          print
+        }
+      ' "$F" > .slo-izrez.tmp
+    fi
     if [ -s .slo-izrez.tmp ]; then
       MD5BLOKA=$(md5sum .slo-izrez.tmp | cut -d' ' -f1)
       if [ "$MD5GLAVE" = "$MD5BLOKA" ]; then
@@ -206,7 +225,7 @@ if [ -n "$DIF" ] && [ -f "$DIF" ]; then
       sort -u .slo-plus.tmp > .slo-p-s.tmp
       grep -Fxf .slo-zgodovina-u.tmp .slo-p-s.tmp 2>/dev/null | sort -u > .slo-povr.tmp || : > .slo-povr.tmp
       comm -23 .slo-p-s.tmp .slo-povr.tmp > .slo-stvarno-nove.tmp
-      echo "::notice::slo-lint v1.3.3: zgodovina PREVERJENA ⊢ pri virih — povratnih vrstic sodnje ×$(wc -l < .slo-povr.tmp) · stvarno novih ×$(wc -l < .slo-stvarno-nove.tmp) (⟨ne⟩ molk: vsaka izjema izmerjena ⊙ ⟡ SODBA)"
+      echo "::notice::slo-lint v1.3.4: zgodovina PREVERJENA ⊢ pri virih — povratnih vrstic sodnje ×$(wc -l < .slo-povr.tmp) · stvarno novih ×$(wc -l < .slo-stvarno-nove.tmp) (⟨ne⟩ molk: vsaka izjema izmerjena ⊙ ⟡ SODBA)"
       mv .slo-stvarno-nove.tmp .slo-plus.tmp
     fi
     rm -f .slo-p-s.tmp .slo-povr.tmp .slo-zgodovina-u.tmp
@@ -241,7 +260,7 @@ rm -f .slo-nove.tmp .slo-plus.tmp .slo-forma.tmp "$ATTEST"
 
 RANE=$((FORMA_RANE+VERBATIM_RANE))
 if [ "$RANE" -gt 0 ]; then
-  echo "::error::slo-lint v1.3.3: SKUPEK SODNIKOV RDEČ — FORMA ×$FORMA_RANE · VERBATIM ×$VERBATIM_RANE · SEBE ⊢ — $RANE ran — merilec pade glasno ⊙ ⟨MERILEC-SE-MERI⟩ §52"
+  echo "::error::slo-lint v1.3.4: SKUPEK SODNIKOV RDEČ — FORMA ×$FORMA_RANE · VERBATIM ×$VERBATIM_RANE · SEBE ⊢ — $RANE ran — merilec pade glasno ⊙ ⟨MERILEC-SE-MERI⟩ §52"
   exit 1
 fi
-echo "slo-lint v1.3.3 ⊢ SKUPEK SODNIKOV ZELENO: FORMA ⊢ · VERBATIM ⊢ · SEBE ⊢ — $F ($BAJTOV B · $VRSTIC sodjenih vrst) — kanarček poje"
+echo "slo-lint v1.3.4 ⊢ SKUPEK SODNIKOV ZELENO: FORMA ⊢ · VERBATIM ⊢ · SEBE ⊢ — $F ($BAJTOV B · $VRSTIC sodjenih vrst) — kanarček poje"
