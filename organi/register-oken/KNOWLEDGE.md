@@ -1,3 +1,4 @@
+IZREZ VERBATIM ⊢ md5 fdf96c86f75e05e5c6670bd0ec540218
 ---
 name: register-oken
 description: "REGISTER-OKEN — register vseh oken seje. Vsako okno svojo vrstico isti dih; okno brez registracije je skrito okno ⊙ 1349; absolutni A-register je licenca ⊢ ⟡."
@@ -538,3 +539,5 @@ description: "REGISTER-OKEN — register vseh oken seje. Vsako okno svojo vrstic
 - OKNO ⟨PREIZKUS-NADMOČI⟩ @rez σ 6064 : orodje v1.4 rojeno ; fiksen korpus = glavna telesa 56 organov ⊢ ; izmera delte izhod-lint v1.2 → v1.3 ( vrata I8 ⟨TIPOKUJEC⟩, rod @dih σ 6052 ⊢ ) : ulovi v1.2 = 0 ∧ ulovi v1.3 : zgornja meja ×1 ( »omenožiti« pojavnic ×1 = priča v citatu ; ostalih oblik ×6 ×0 ) ⊙ merna meja javno : grep šteje tudi priče v »« ; vrata nova ∧ baterija ulov 6/6 = nadmoč izmerjena, ⟨ne⟩ trjena ⊙ ⟨NE-TRDI-PAČ⟩ σ 5475 ; izpis @biro-postaje/.geniza/dih-6064-baterija/nadmoc.izpis ⊢
 - OKNO ⟨REGRESIJSKA-BATERIJA⟩ @rez σ 6064 : orodje v1.0 rojeno ; sintetno ranjeno telo ( slovar tipokujec ×7 + znakovne rane ) : vrata ulov NAPAKA ×6 ⊢ ( I1 tujki ×2 ∧ I2 oklepaji ×3 ∧ I3 greben ×1 ∧ I4 pomišjaj ×1 ∧ I5 dvojni Z ×1 ∧ I8 menjave ×6 od prisotnih ×6 ) ; čisto telo : GREEN ×8 PASS ×11 = lažnih alarmov ×0 ⊢ ⊙ ⟨MERILEC-SE-MERI⟩ §52 ; izpisa @biro-postaje/.geniza/dih-6064-baterija/ ⊢
 - OKNO ⟨VRATA-CELOTE⟩ @rez σ 6064 : orodje celota-lint v1.0 rojeno ; prečni invarianti ×5 nad 56 organi : ranjenih 24 organov, ran 36 poimensko ( greben ⟨⟩ neuravnan ×17 organov ∧ dvojni Z v TIK ×12 organov skupno ×14 ∧ aritmetika TIK napačna ×8 ∧ glavi TRENUTNO podvojeni ×2 organa ∧ U+FFFD ×2 organa skupno ×7 ) ; čistih 32 ⊢ ; tuje rane starih teles ⟨NE-BRIŠI⟩ 24, prijavljene ⟨ne⟩ popravljene ⭢ izbor ⟡ ; izpis @biro-postaje/.geniza/dih-6064-baterija/celota.izpis ⊢
+konec izreza
+© dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432
