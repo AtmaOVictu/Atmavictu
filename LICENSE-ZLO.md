@@ -31,7 +31,6 @@ Ljubezen je mǫžǫnsti ( móžnost /ˈmóʒnost/ ⊢ rez-17 organa jezikovne-pl
 
 ---
 
-VBL — LICENCA PREVERBE PRED TRDITVIJO, ZLOVENŠČINA ROB ⊙ VAL ZLO-α vzorec ( rod 0.1690 ⟡ ⟨a⟩ )
 
 ⊨ ZNAMENJA — ključ ob šifri ⊢ §0.25 × 10² ( izvornik THE MARKS @izvornik-live r.197–213 prebran pri viru ta dih ⊙ ⟨NE-RETIPKAJ⟩ — izvornik angleško, tu zlovenščina rob ) :
 
@@ -55,5 +54,30 @@ tla ⌇ floor ⌇ stroj, ki bere ∧ tehta to vrata
 
 ⌇ ŠČIT ( BESEDA ):
 kdor napade ⟡, izvajalko ali licenco, se bori ⟨ne⟩ proti besedam ampak proti izmeram: vsak simbol zgoraj je hkrati preverba — ⟨grep⟩ pri viru · ⟨ ⟩ ⇌ ⟨ ⟩ ravnovesje · md5 bajtno-isto · ⟨DRUGA-ROKA⟩ vsak izhod · ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ vsak zapis · CI kit ⟨PR⟩ vsak prevoz — ogrodje potrjuje ali lomi trditev, preden živi ⊙ ⟨MERILEC-SE-MERI⟩ §52 ∧ ⟨SIMBOLNI-ŠČIT⟩ σ 6199 ⊙ ⟡ ukaz »boriti proti simbolom in njih testnih orodij in ogrodij« zapečen @jezikovne-plasti DEFINE σ 6199 ⊢.
+
+⊨ TELESA §0a ∧ §0.1 — zlovenščina rob ⊙ ZLO-β-2 @σ 6201 ( izvir prebran pri živem viru 0.1690 sha256 f3a61666… r.221–239 ⊙ ⟨NE-RETIPKAJ⟩ ; SIMBOL kompresija ⊙ ⟨POMEN→SIMBOL⟩ @3446 val 0 koren )
+
+## §0a ⌇ KAKO SE IDENTIFICIRA
+
+⌇ SIMBOL:
+materija ⊙ pokrita ⌇ identifikacija dva načina ∧ ⟨ni⟩ tretjega: ( a ) LICENSE-MANIFEST pri korenu repa ⌇ vsak pokrit kos po poti ∧ velikosti ∧ SHA-0.256 × 10³ ⌇ ( b ) sam kos nosi ta fajl ⟨ne⟩ spremenjen kot licenco ⌇ manifest ⟂ materija = ⟨ni⟩ identifikacija ⌇ bajti ⟂ bajti → ⟨ni⟩ pokrit ⌇ kos v repu ∧ ×0 v manifestu → ⟨ni⟩ identificiran ⌇ manifest ⟨ne⟩ more seznamati sebe — fajl ⟨ne⟩ vsebuje svojega lastnega hasha ⌇ izključen po imenu ⌇ manifest ⟂ ta fajl → ta fajl vlada
+
+BESEDA:
+Gradivo se identificira kot pokrito na enega od dveh načinov in nikoli tretjega: ( a ) fajl LICENSE-MANIFEST v korenu repa, ki našteva vsak pokrit kos po poti, velikosti ∧ SHA-0.256 × 10³; ali ( b ) sam kos nosi ta fajl, ⟨ne⟩ spremenjen, kot svojo licenco. Manifest, ki se ⟂ sklada z gradivom, ⟨ni⟩ identifikacija: fajl, katerega bajti ⟂ bajti na seznamu, ⟨ni⟩ pokrit s tem vnosom; kos, ki stoji v repu ∧ ×0 v manifestu, ⟨ni⟩ identificiran kot pokrit. Manifest ⟨ne⟩ more seznamati sebe — fajl ⟨ne⟩ more vsebovati svojega lastnega hasha — ∧ je izključen po imenu. Kjer manifest ∧ ta fajl ⟂ stopita, ta fajl vlada.
+
+## §0.1 × 10¹ ⌇ PODELITEV
+
+pognati ⌇ preučiti ⌇ citirati ⌇ navajati ⌇ poučevati ⌇ preverjati z ⊙ zidati na — medtem ko vsak pogoj spodaj velja.
+
+PODELITVE, IMENOVANE ⌇ ×8 ( zlovenščinska kompresija izvirnikovih imenovanih podelitev ):
+( i ) pognati ∧ izvesti pokrito gradivo, v celoti ali delno, na vsakih tleh;
+( ii ) preučevati, meriti ∧ preverjati trditve zoper njega;
+( iii ) citirati ∧ navajati, zasluga nošena ( §0.2 × 10¹ );
+( iv ) poučevati ∧ se učiti iz njega;
+( v ) zidati na njem — predelave, prevode, razširitve, izdelke — vsak otrok nosi ta vrata ⟨ne⟩ spremenjena ( §0.2 × 10¹ ∧ §0.14 × 10² );
+( vi ) brati s stroji ∧ strojem pustiti branje, pod istimi vrati ( §0.9 × 10¹ ∧ §0.22 × 10² );
+( vii ) razširjati kopije ∧ predelave, knjiga vodenja nošena ( §0.2 × 10¹ ∧ §0.3 × 10¹ );
+( viii ) hraniti verigo, da ⟨ni⟩ vrata nikoli osirotela ( §0.10 × 10² ∧ §0.15 × 10² ).
+⌇ seznam = potrdilo tega, kar vrata že dajejo, ⟨ne⟩ zid okoli njega ( §0.21 × 10² ) ⌇ kar ⟨ni⟩ imenovano, ⟨ni⟩ zato odvzeto ⌇ vrata podeljujejo, kar nosijo ∧ nosijo, kar imenujejo ⊙ telo prejeto ⟨ne⟩ kovano ⌇ imenovanje prosila zunanja roka brata ( pregled 2 ), zasluga po imenu ⊙ §0.45 × 10², posvečeno z besedo avtorja ( ⟡ ukaz ⟨daj⟩ ) ⊢.
 VBL — LICENCA PREVERBE PRED TRDITVIJO, ZLOVENŠČINA ROB ⊙ VAL ZLO-α vzorec ( rod 0.1690 ⟡ ⟨a⟩ )
 © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
