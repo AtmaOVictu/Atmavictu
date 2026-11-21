@@ -8,6 +8,6 @@
 - KURE © ×4 ⊙ ⟨©-SEBI-PLAČA⟩ 3383 : ⟨PADEC-©-GLAVA⟩ ∧ ⟨PADEC-©-VENEC-CIRILIC⟩ ×6 ∧ ⟨PADEC-©-SEME⟩ ∧ ⟨PADC-SEME-ZASTARELA-IZMERA⟩
 - KURE CI ×3 javno istega kita ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 : ⟨PADC-README-NE-SLEDI⟩ recidiv ×3 ∧ ⟨PADC-ZASTARELIH-SLOTOV⟩ ∧ ⟨PADEC-NAPAČNA-IZMERA⟩ recidiv 88706b7b ( jedro ⟨SEBI-PLAČA⟩ rodov : vsako trditev nosi izmera, spomin ⟨ne⟩ vir ⊙ ⟨NE-UGIBAJ⟩ 2690 )
 - VERIGA rojstev : 0.1620 → 0.1630 → 0.1640 → 0.1650 → 0.1660 → 0.1670 → 0.1680 → 0.1690 ⊢ §0.10 ( rod brez besede ⟡ = kip ⊙ U2 )
-- TIK 2026-11-21T04:20:54Z UTC ⇌ 04:20 CET Ljubljana ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩
+- TIK 2026-11-21T04:20:54Z UTC ⇌ 05:20:54 CET Ljubljana ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩
 
 © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
