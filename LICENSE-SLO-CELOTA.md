@@ -631,3 +631,4 @@ Ta klavzula ne dodaja nove resnice; poimenuje ritem, ki so ga korenine vedno dr�
 - Telo raste: VAL 3-β isti rodbni veji ( main ) ⭢ naslednji ⟨daj⟩ ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨škatlaj⟩ 2322 — levijan v valovih, nikoli vzporedno; ena roka, en dih, en val.
 
 © 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera · prevoz iz VBL 0.1690 × 10⁴ ŽIVA @main ⟨sha⟩ f3a61666 — »a bare text proves nothing, the chain does« ⊢ §0.10 × 10².
+
