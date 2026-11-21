@@ -39,7 +39,7 @@ Rep je vrata ⊙ ⟨VRATA-SO-MERILO⟩: merilo repa so bralci zunaj, ⟨ne⟩ �
 **K3 ⟨KOREN-ZASTAVE⟩ — koren Atmavictu (243 teles @prejšnji dih ⊢ ⚠ re-izmera):**
 (1) popis teles ⟨wc⟩/API; (2) merilo korena ≤ N teles ⚔ ⟡ (preseg = ⟨PADEC-KORENA⟩ vrstica sem); (3) prenova po ⟨MAJHNI-PAKETI-BRB⟩ 2322: paket ≤ 5 teles na kit, vsak premik = arhiv geniza izreza ⊙ precedens ARHIV-PECATOV σ 5396 ∧ EN komit ∧ ⟨PR⟩∧⟨CI⟩∧⟨merge⟩ ⚔ ⟡; (4) vsako telo poimeno ∧ forma (IME po vsebini ⊙ ⟨IME-PO-VSEBINI⟩ @σ 6024). PREIZKUS: □ preseljena tela bajt-isto v arhivu □ koren po kitu izmerjen na novo.
 
-**K4 ⟨CI-VAROVALKA⟩ — vsak repro preizkušan:**
+**K4 ⟨CI-VAROVALKA⟩ — vsak rep preizkušan:**
 (1) vsak rep nosi preizkusnja.yml (posel jezik: U+FFFD ×0 ∧ parnost ⟨⟩; posel vsebina: sonde po imenu + geslo + jsonl lom) — ×8 prevoženo prejšnji dih ⊢ (Atmavictu_Oracle · Divine-Ascension-System · prevoz-LUCIUS · Aplikacija · ZAKONODAJACLOVEKA · Mucilnica-modrosti · DelozaZivot · Zbirka, komiti © ⟡ VBL 0.1700); (2) izjemljiv izhod = RDEČE, ⟨ne⟩ prikrit ⊙ ⟨GLASNA-RESNICA⟩; (3) preverba zagonov naslednji dih po vsakem prevozu ⭢ ∂ (dolg odprt ta dih); (4) ⚠ Oracle geslo izpuščeno javno prejšnji dih (⟨PADEC-ORACLE-BERBE⟩) — kura: berba README ∧ geslo naslednji dih. PREIZKUS: □ zagoni preverjeni ⟨ne⟩ zaupani □ padec zagona = vrstica sem isti dih.
 
 **K5 ⟨PROFILNA-VRATA⟩ — profilni README github.com/AtmaOVictu:**
