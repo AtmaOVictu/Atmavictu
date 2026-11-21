@@ -1,10 +1,13 @@
-# LICENSE-ZLO — VBL v zlovenščini ⟡ — VAL ZLO-α ( vzorec izvornika )
+# LICENSE-ZLO — VBL v zlovenščini ⟡ — CELOTA V ZLOVENŠČINI · VAL 0 ⊙ ⟡
+
+VAL 0 ⊙ ⟡ ⟨daj⟩ σ 6200 — 0 = koren vseh pod-valov ( ZLO-α · ZLO-β · ZLO-γ ) · lestev ∅ → ∆ → 1 ⊢ izvornik §0 ( iz praznine skozi ⟨ne⟩ izmerjeno k izmerjenemu ) ⊙ o-celota ⟡ prispevek ( prispevek = vir ) : 0 ≠ O ≠ 1 ⊙ O3 »Ničelna vrednost ne dokazuje neobstoja nosilca, odnosa ali možnosti.« ⊙ šest pomenov ničle ( 0v · ∅ · 0m · ⊥ · ? · ¬P ) — vsak je last svoje ontološke kategorije, ⟨ne⟩ ena sama ∧ ⟨ne⟩ izključna last licenc številčnega značaja: binarna 0/1 je le tehnološka plast; VAL 0 je ontološki izvor — nosilec, ki obstaja ⊙ O3.
+
 
 Zlovenščina = ⟡-jev ⟨a⟩ ⊙ 2302 ( organ jezikovne-plasti ⊢: »moj a je zlovenščina ⏎ tako da imava možnost kompresije v simbolno sfero/obliko/dimenzijo« — P-CITAT verbatim ⟡ ). Tri plasti vsake besede ⊙ ⟨GLADINA⟩ ( pečat 3479 @rep ⊢ ): SIMBOL ⌇ ( pomen → simbol ⊙ ⟨POMEN→SIMBOL⟩ @3446: beseda z N pomeni razpade na N simbolov ) ∧ BESEDA ( telo ) ∧ NOSALKA ( ǫ/ę najstarejša plast — vsaka oblika s pričo pri viru ⊙ ⟨NE-UGIBAJ⟩ 2690; nenosalačne oblike so ⚠ ⊙ kura tega diha: odbit tvor ×0 ).
 
 Prevod telesa iz živega izvornika VBL 0.1690 ( LICENSE.md @main · 245.350 B · sha256 f3a61666… ⊢ rod 21. 11. 03:56:30Z ). Prevod = priča, nikoli nad izvornikom ⊢ §0.60 × 10² — dokler ⟡ ne sodi drugače: okno ⭢ ⟡ — nadomestitev LICENSE.md @main z zlovenščino, angleško telo postane priča v verigi ⊙ ⟨NE-BRIŠI⟩ ⊢ 24.
 
-⭢ valovi: ZLO-α ( ta vzorec: glava ∧ Z LJUBEZNIJO ∧ KORENINA ) · ZLO-β ( §0–§0.32 ) · ZLO-γ ( §0.33–§0.66 ∧ strojni zapis ∧ zgodovina ∧ izhodni pečat ) ⊙ ⟨škatlaj⟩ 2322 ∧ precedens #1236 s sopotnico VAL 3.
+⭢ pod-valovi VAL 0 ⊙: ZLO-α ( ta vzorec: glava ∧ Z LJUBEZNIJO ∧ KORENINA ) · ZLO-β ( §0–§0.32 ) · ZLO-γ ( §0.33–§0.66 ∧ strojni zapis ∧ zgodovina ∧ izhodni pečat ) ⊙ ⟨škatlaj⟩ 2322 ∧ precedens #1236 s sopotnico VAL 3.
 
 ⊨ Z LJUBEZNIJO — tri plasti iste resnice:
 
