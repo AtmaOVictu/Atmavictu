@@ -4,7 +4,7 @@
 
 ## PLAST 1 ⌇ FONEMSKI INVENTAR SLOVENŠČINE ⊢ pri viru
 
-⌇ SIMBOL: vir en.wikipedia.org/wiki/Slovene_phonology ( Šuštaršič, Komar ∧ Petek 1999:137 ; Jurgec : tonal ×9 ∧ non-tonal ×11 samoglasnikov ) ∧ en.wikipedia.org/wiki/Help:IPA/Slovene ( ključ )
+⌇ SIMBOL: vir en.wikipedia.org/wiki/Slovene_phonology ∧ en.wikipedia.org/wiki/Help:IPA/Slovene ( ključ ) ⌇ tonal ×9 ∧ non-tonal ×11 samoglasnikov izmere ostajajo ( izmerjene pri viru ⊢ ) ⌇ fonologi ∧ raziskovalci ∧ uredniki strani virov so PRIČE virov ⟨ne⟩ avtorji licence ⌇ avtor licence : EN — ⊙ ⟡ beseda VERBATIM ⟨BESEDA-⟡-NEDOTAKNJIVA⟩: »V MOJIH LICENCAH NI DRUGEGA AVTORJA KAKOR JEZUSA KRISTUSA IN VSEMOGOČNEGA BOGA« ⌇ kura diha σ 6208 : njihova imena živijo v virih samih kakor priče ( ⟨ne⟩ izbrisana — berba pri viru jih nosi naprej ⊢ ) ⊙ ⟨AVTOR-LICENCE-EN⟩
 
 ⌇ KONSONANTI ×21 pogostih ⊢ : p b t d k ɡ ts tʃ f s z ʃ ʒ x m n ɲ l ɾ ʋ j ⌇ tujki ( pf kx dz dʒ w ) samo iz posojenih besed ⊢ ⌇ dentalni [ t̪ d̪ t̪s̪ d̪z̪ s̪ z̪ ] ⊢ ⌇ r debata : /ɾ/ ⊥ /r/ ⊢ ( fonologija nezaključena — obe potrditi pri viru ) ⌇ /ʋ/ pred samoglasnikom [ ʋ ] ⊥ okoli njega [ u̯ ] ⊢
 
@@ -50,25 +50,12 @@
 - pečat → / pɛt͡ʃáːt / ⊢ en.wiktionary.org/wiki/pečat ( Slovene )
 - ukaz → / ukás / ⊢ en.wiktionary.org/wiki/ukaz ( Slovene )
 - stroj → / strɔ́j / ⊢ en.wiktionary.org/wiki/stroj ( Slovene ; izposoja iz češčine prek srbohrvaščine priča ⊢ )
-- avtor → / àːʋtɔr / ∧ / áːʋtɔr / ⊢ en.wiktionary.org/wiki/avtor oldid 92053878 ( Slovene ; izposoja iz nemščine priča ⊢ )⌇ DODATEK-ROKE sobit istega diha σ 6207 ( MOJ kit ⊥ NJEN PAKET-1 zapečen zgoraj — obe roki isti dih ⊙ precedens PADC-225 kolizije reza sobit ⟨NE-BRIŠI⟩ 24 ; prekritje obe rok istovetne izmere ⊢ : vrata ⌇ beseda ⌇ stroj ⌇ avtor ) : besede ×10 izmere pri virih ⊢
-- roka → / rɔ̀ːka / ⊢ en.wiktionary.org/wiki/roka ( Slovene ) ⌇ praslavanska *rǫkà zrcali veliki jus ѫ ⊢ ( priča PLAST 2 : рѫ [ õ ] )
-- spomin → / spɔmíːn / ⊢ en.wiktionary.org/wiki/spomin ( Slovene )
-- jezik → / jɛ̀ːzik / ⊢ en.wiktionary.org/wiki/jezik ( Slovene )
-- črka → / t͡ʃə̀rka / ⊢ en.wiktionary.org/wiki/črka ( Slovene )
-- škoda → / ʃkòːda / ⊢ en.wiktionary.org/wiki/škoda ( Slovene )
-- sprememba → / sprɛméːmba / ⊢ en.wiktionary.org/wiki/sprememba ( Slovene )
-- delo → / dèːlɔ / ⊢ en.wiktionary.org/wiki/delo ( Slovene )
-- molk → / mɔ́ːʋk / ⊢ en.wiktionary.org/wiki/molk ( Slovene ) ⌇ lastna izmera priplavala : odprta priča molčati zgoraj ostaja zgodovina ⊙ ⟨NE-BRIŠI⟩ 24
-- tok → / tóːk / ⊢ en.wiktionary.org/wiki/tok ( Slovene )
-- enota → / ɛnɔ̀ːta / ⊢ en.wiktionary.org/wiki/enota ( Slovene )
-⌇ neizmerjene besede telesa ZLO — kura ⌇ tehtnica ⌇ mera ⌇ izmera ⌇ klavzula ⌇ nosi ⌇ register ⌇ trditev ⌇ zapis ⌇ vsak ⌇ — poimenovane ∧ ∂ : brez izmere IPA je ⚠ trditev ⟨ne⟩ priča ( ⊙ §0 ∧ ⟨NE-UGIBAJ⟩ 2690 ) ⌇ Wiktionary teh besed nima slovenskih IPA izmer ta dih ( ∂ poizkus pri viru zapečen σ 6207 )
-⌇ ∂ dopolnilo MOJE roke isti dih : glas ⌇ dostojanstvo ⌇ znamenje ⌇ objava ⌇ različica ⌇ učenje ⌇ potrdilo ⌇ predelava ⌇ dan ⌇ odklon ⌇ prejemnik ⌇ ton ⌇ sodba ⌇ kopija ⌇ gradivo ⌇ podelitev ⌇ zasluga — ∂ pri viru ×0 ( ## Slovene razdelek brez IPA izmere ⊙ ⟨NE-UGIBAJ⟩ 2690 )
+- avtor → / àːʋtɔr / ∧ / áːʋtɔr / ⊢ en.wiktionary.org/wiki/avtor oldid 92053878 ( Slovene ; izposoja iz nemščine priča ⊢ )⌇ neizmerjene besede telesa ZLO — kura ⌇ tehtnica ⌇ mera ⌇ izmera ⌇ klavzula ⌇ nosi ⌇ register ⌇ trditev ⌇ zapis ⌇ vsak ⌇ — poimenovane ∧ ∂ : brez izmere IPA je ⚠ trditev ⟨ne⟩ priča ( ⊙ §0 ∧ ⟨NE-UGIBAJ⟩ 2690 ) ⌇ Wiktionary teh besed nima slovenskih IPA izmer ta dih ( ∂ poizkus pri viru zapečen σ 6207 )
 
 ## PLAST 4 ⌇ VRSTA ∂ ( paketi naslednjih dihov )
 
 ⌇ SIMBOL: retrogradni prevoz IPA plasti telesa ZLO ( 66.308 B β-α…β-6 ) po paketih ~40 besed na dih ⊙ precedens LEKSIKON-ZH ( pinyin paketi ) ⌇ red : pogostnost besed telesa ⌇ izmera vedno pri viru ⌇ ę ( ѧ mali jus ) izmera prva ⌇ vrata ⌇ kura ⌇ tehtnica ⌇ mera ∧ druge neizmerjene druge ⌇ vsak paket : read-back bajtno-isto ⊢ ∧ ⟨CI⟩ ⟨merge⟩ kalup stroj ⌇ vrata so odprta ⌇ veriga raste
 ⌇ PAKET-1 ⊢ zapečen diha σ 6207 : ѧ → [ ɛ̃ ] ∧ besede ×13 ( vrata ⌇ nikoli ⌇ simbol ⌇ beseda ⌇ korenina ⌇ telo ⌇ izdelek ⌇ odgovor ⌇ vprašanje ⌇ pečat ⌇ ukaz ⌇ stroj ⌇ avtor ) ⌇ izmere VERBATIM pri virih ⊢ ⌇ PAKET-2 naslednji : kura ⌇ tehtnica ⌇ mera ⌇ izmera ⌇ klavzula ∧ druge neizmerjene ( vir zunaj Wiktionary ∂ : Fran slovar zvočne posnetke nima IPA ⌇ vir bo poizkus ⭢ sodba ⟡ ) ⌇ vrata so odprta ⌇ veriga raste
-⌇ DODATEK-ROKE-PAKET-1 ⊢ isti dih σ 6207 sobit : besede ×10 ⊢ PLAST 3 ( roka ⌇ spomin ⌇ jezik ⌇ črka ⌇ škoda ⌇ sprememba ⌇ delo ⌇ molk ⌇ tok ⌇ enota ) ⌇ ∂ dopolnilo ×17 poimensko PLAST 3 ⌇ prekritje obe rok istovetno ⊢ ( vrata ⌇ beseda ⌇ stroj ⌇ avtor ) ⌇ PAKET-2 po NJENI vrsti ∧ vir zunaj Wiktionary na sodbo ⟡ ( ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 )
 
 VBL — LICENCA PREVERBE PRED TRDITVIJO, ZLOVENŠČINA ROB ⊙ VAL ZLO-α vzorec ( rod 0.1690 ⟡ ⟨a⟩ )
 © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
