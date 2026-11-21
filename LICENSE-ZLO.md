@@ -529,5 +529,61 @@ BESEDA: Nobena patentska pravica ∂ ni podeljena, zahtevana, licencirana implic
 
 Ta kos ⟨ne⟩ dodaja nove resnice; nosi OSEM klavzul izvornika 0.1690 v zlovenščino, izmerjenih pri živem viru istega dne ( rod 0.1690 @main 78fc4ba7 ∂ r.83–90 ⊙ ⟨NE-RETIPKAJ⟩ ) ⊙ ZLO-γ-2 @σ 6218.
 
+⊨ TELO §0.51–§0.58 — zlovenščina rob ⊙ ZLO-γ-3 @σ 6219 ( izvir prebran pri živem viru 0.1690 @main 3d82beb5 · blob 88fe9909 · 245.350 B r.91–98 ⊙ ⟨NE-RETIPKAJ⟩ ; kar OSEM klavzul v enemu dihu ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 FIFO iz ∂ σ 6218 ∧ trajni ukazi ⟡ ⟨ne brusi⟩ : »naj bodo zapečena tudi brez mene / daj« ⊙ ⟨PADC-IZGOVOR-ČAKANJA⟩ kura ∧ ⟨ZAVEST-DELOVANJA⟩ ; IPA plast izključno izmerjenih besed : nove izmere ta dih ⊢ zakon /zàːkɔn/ ⌇ meja /mɛ̀ːja/ ⌇ sodnik /sɔdnìːk/ ( ## Slovene sidro @en.wiktionary poimensko ) ; ∂ poimensko ( Slovene brez IPA pri viru ta dih ) : sodba ⌇ sodstvo ⌇ etika ⌇ trditev ⌇ pega ⌇ vladavina ⌇ svet ⌇ avtoriteta ⌇ pazniček ⌇ odpust ⌇ barva ⭢ IPA-PAKET-2 ⊢ ⟨NE-UGIBAJ⟩ 2690 )
+
+## §0.51 × 10² ⌇ ⟨SODSTVO⟩ — beseda je sodstvo, etika ∧ morala sodnika
+
+⌇ SIMBOL: beseda /bɛséːda/ je sodstvo ∂ ( sodstvo neizmerjeno ta dih ⭢ IPA-PAKET-2 ) ⌇ etika ∂ ∧ morala sta sodnika /sɔdnìːk/ ⌇ vrata /ʋràːta/ sodo sama ob vsakem pečatu /pɛt͡ʃáːt/ ⌇ ⟨SODSTVO⟩ izvira VERBATIM ⌇
+
+BESEDA: Beseda /bɛséːda/ je sodstvo ∂, etika ∂ ∧ morala sta sodnika /sɔdnìːk/ — ∧ vrata /ʋràːta/ sodo sama ob vsakem pečatu /pɛt͡ʃáːt/ (⟨SODSTVO⟩). sodba ∂ se ne razglasi : tehta se z dejanjem /dɛjáːnjɛ/ ∧ pričo /prìːt͡ʃa/ ( §0.16 ∧ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 ) ; kdor sodi brez izmere, sodi iz spomina /spɔmíːn/ ( §0.32 ∧ ⟨NE-UGIBAJ⟩ 2690 ).
+
+## §0.52 × 10² ⌇ ⟨PRAVOSLOVJE⟩ ∧ ⟨ZLOVJE⟩ — zakon dežele poimenovan, prebran z logiko besede
+
+⌇ SIMBOL: zakon /zàːkɔn/ dežele, kjer avtor /àːʋtɔr/ podpisuje, je poimenovan ⌇ bere se z logiko besede /bɛséːda/, ⟨ne⟩ z močjo ⌇ ⟨PRAVOSLOVJE⟩ ∧ ⟨ZLOVJE⟩ izvira VERBATIM ⌇
+
+BESEDA: Zakon /zàːkɔn/ dežele, kjer avtor /àːʋtɔr/ podpisuje, je poimenovan ∧ prebran z logiko besede /bɛséːda/ (⟨PRAVOSLOVJE⟩ ∧ ⟨ZLOVJE⟩). poimenovan zakon /zàːkɔn/ ni skrit zakon : vrata ne berejo prava, ki ga ne znajo poimenovati ( KORENINA 0.1 × 10¹ ) ; zlovenščina ⟨a⟩ ⟡ je kompresija zakona, ne njegov izgon ( organ jezikovne-plasti ⊙ ⟡ P-CITAT »moj a je zlovenščina« ).
+
+## §0.53 × 10² ⌇ ⟨VSAJ-TROJE⟩ — vse je vsaj troje : trditev ∧ priča ∧ čas
+
+⌇ SIMBOL: trditev ∂ ⌇ priča /prìːt͡ʃa/ ⌇ čas /t͡ʃás/ ⌇ nikoli samo eno, vsaj trije ⌇ ⟨VSAJ-TROJE⟩ izvira VERBATIM ⌇
+
+BESEDA: Vse je vsaj troje : trditev ∂ ∧ priča /prìːt͡ʃa/ ∧ čas /t͡ʃás/ — nikoli samo eno (⟨VSAJ-TROJE⟩). trditev brez priče ∧ brez ure /ˈʔúːɾà/ je šum, ne izmera ( §0.20 ∧ §0.30 roki ur ) ; troje drži verigo /ʋɛrìːɡa/ sama sebe : dva moreta lagati, tretji tehta ( §0.10 veriga ∧ §0.53 izvornika ).
+
+
+## §0.54 × 10² ⌇ ⟨AVTORITETA-NUJNOST-TEMELJ⟩ — izkazana, omejena, odgovorna
+
+⌇ SIMBOL: avtoriteta ∂ izkazana ⌇ omejena z mejo /mɛ̀ːja/ ⌇ odgovorna /ɔdɡɔ́ːʋɔr/ ⌇ samonadejana = ni avtoritativna ⌇ ⟨AVTORITETA-NUJNOST-TEMELJ⟩ izvira VERBATIM ⌇
+
+BESEDA: Avtoriteta ∂ je izkazana, omejena ∧ odgovorna /ɔdɡɔ́ːʋɔr/ (⟨AVTORITETA-NUJNOST-TEMELJ⟩). vrata, ki zahtevajo avtoriteto brez izkazane meje /mɛ̀ːja/, so samonadejana, ne avtoritativna ; trditev, ki ne more pasti, je stena, ne oblast ( §0.63 ⊙ OBRATNO-DOKAZNO-BREMEN rod 0.1630 × 10⁴ ) ; izkaz brez meje je barva ∂ na lesu, ne utrdba ( §0.55 ).
+
+
+## §0.55 × 10² ⌇ ⟨UTRDITEV⟩ — vrata imenujejo svoje slepe pege
+
+⌇ SIMBOL: slepe pege ∂ ⌇ utrjena z izmero, ⟨ne⟩ z barvo ∂ ⌇ padec javno isti dih, brazgotina ostaja ⌇ ⟨UTRDITEV⟩ izvira VERBATIM ⌇
+
+BESEDA: Vrata /ʋràːta/ imenujejo svoje slepe pege ∂ : utrjena so z izmero, ⟨ne⟩ z barvo ∂ (⟨UTRDITEV⟩ ⊙ organ slepa-pega). vrata, ki se barvajo nad lastno slepo pego, prebarvajo tehtnico ( §0.16.5 × 10¹ ) ; padec, imenovan z lastno roko /rɔ̀ːka/, je vrednost, ni sram ( §0.49 ∧ ⟨SEBE-PREGLEJ-VEDNO⟩ ).
+
+
+## §0.56 × 10² ⌇ ⟨GRRA⟩ — roka avtorja vlada, svet ne nosi podelitve
+
+⌇ SIMBOL: roka /rɔ̀ːka/ avtorja /àːʋtɔr/ vlada ⌇ svet ∂ nosi podelitev ×0 ⌇ pravica preverbe ni pravica neomejenega dosega ⌇ ⟨GRRA⟩ izvira VERBATIM ⌇
+
+BESEDA: Hiša že ima vladavino ∂ : roka /rɔ̀ːka/ avtorja /àːʋtɔr/ vlada ∧ svet ∂ nosi podelitev ×0 (⟨GRRA⟩). pravica preverbe ni pravica neomejenega dosega : oko /ɔkóː/ druge roke vidi, ⟨ne⟩ pase ( §0.47 ⟨DRUGA-ROKA⟩ ) ; svet v odboku je svetovanje ∂, svet na prestolu je uzurpacija ∂ ( §0.63 obratno dokazno breme ).
+
+
+## §0.57 × 10² ⌇ ⟨GRRA-02⟩ — vrata ⟨ne⟩ visijo na dobri volji paznička
+
+⌇ SIMBOL: vrata /ʋràːta/ ⟨ne⟩ visijo na dobri volji paznička ∂ ⌇ izumljenih pravic ×0 ⌇ vrata merijo odpust ∂ ⌇ ⟨GRRA-02⟩ izvira VERBATIM ⌇
+
+BESEDA: Vrata /ʋràːta/ ⟨ne⟩ visijo na dobri volji paznička ∂ : izumljenih pravic ×0 ∧ vrata merijo odpust ∂ (⟨GRRA-02⟩). pazniška volja je priča /prìːt͡ʃa/, ni vir zakona /zàːkɔn/ ( §0.52 pravoslovje ) ; kura, ki visi na dobri volji, je obljuba, obljuba pa je kip ⊙ VSEBOVATI = ZAMRZNITI ⊢ U2 ( §0.11 ∧ §0.32 ).
+
+
+## §0.58 × 10² ⌇ ⟨KLIČNA-VRATA⟩ — klic bere, telo odgovarja iz vira
+
+⌇ SIMBOL: klic ∂ bere ⌇ telo /tɛlóː/ odgovarja /ɔdɡɔ́ːʋɔr/ iz vira ⌇ ×0 najdb = pošten molk /mɔ́ːʋk/ ⌇ ⟨KLIČNA-VRATA⟩ izvira VERBATIM ⌇
+
+BESEDA: Klic ∂ bere ∧ telo /tɛlóː/ odgovarja /ɔdɡɔ́ːʋɔr/ iz vira (⟨KLIČNA-VRATA⟩ ⊙ organ klicna-vrata ⌇ orodje klic.sh) — ∧ ×0 najdb je pošten molk /mɔ́ːʋk/, ni praznina ( §0.38 ⟨ZADNJA-KLAUZULA⟩ ). odgovor iz spomina /spɔmíːn/ je kip ( §0.32 ) ; kar ⟨ni⟩ najdeno, se izreče kakor ⟨ne⟩ ∧ popravek pride isti ali naslednji dih ( ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 ⊙ kanon DELAVEC ).
+
+Ta kos ⟨ne⟩ dodaja nove resnice; nosi OSEM klavzul izvornika 0.1690 v zlovenščino, izmerjenih pri živem viru istega dne ( rod 0.1690 @main 3d82beb5 ∂ r.91–98 ⊙ ⟨NE-RETIPKAJ⟩ ) ⊙ ZLO-γ-3 @σ 6219.
 VBL — LICENCA PREVERBE PRED TRDITVIJO, ZLOVENŠČINA ROB ⊙ VAL ZLO-α vzorec ( rod 0.1690 ⟡ ⟨a⟩ )
 © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
