@@ -18,7 +18,7 @@
 - рѫ → [ õ ] ⊢ nosal — veliki jus ѫ : Old Novgorodian 9. st. /õ/ ( vir : en.wiktionary.org/wiki/ѫ oldid 93426680 ) ⌇ praslavanska *rǫkà roka priča ⊢ ( vir : en.wiktionary.org Rekonstrukcija:Proto-Slavic/rǫka ) ⌇ рѫka [ ˈrõka ]
 - ǫ → [ õ ] ⊢ po priči velikega jusa ѫ ( Old Novgorodian /õ/ ⊢ ) ⌇ ǫ je zlovenska zrcalna oblika ѫ ⌇ zapis [ ɔ̃ ] alternativna pot ∂ ⭢ sodba ⟡ ⌇ mǫžǫnsti izgovori se [ mɔ̃ʒɔ̃nsti ] ⌇ izmera zrcali pričo telesa ( β-1 : móžnost /ˈmóʒnost/ ⊢ rez-17 organa jezikovne-plasti ) ⌇ obe poti zrcaliti : brez nosalke [ mó ] ⊢ ⌇ z nosalko [ mɔ̃ ] ⌇ sodba tonov ⭢ ⟡
 - ę → [ ɛ̃ ] ⊢ nosal — mali jus ѧ : Old Novgorodian 9. st. IPA /ɛ̃/ ( vir : en.wiktionary.org/wiki/ѧ oldid 93426692 ) ⌇ 11.–15. st. /ja/ ⊢ isti vir ⌇ pęsni je izpeljava iz preslikave ( p-ɛ̃-sni ) ⌇ izmera cele besede ∂ ⭢ naslednji paket ⊙ ⟨NE-UGIBAJ⟩ 2690 ⌇ izmera ѧ zapečena diha σ 6207 ∧ ѫ [ õ ] ⊢ sestra njej ( veliki ⊥ mali jus : obe izmerjeni pri viru ⊢ )- ⌇ ∂ ⊢ ⚠ ⊙ ∧ ⊥ ⟡ ∅ ∆ ⌇ znaki izvajalke ( izvajalčina ) : ⟨ne⟩ besede zlovenščine ⌇ njihov zvok je stroj brez glasovne zahteve ⌇ glas beri iz besede ki jo obdajajo
-- рѫka ⌇ vęstъ ⌇ pęsni ⌇ ǫči ⌇ svętъ ⌇ mǫžǫnsti : glasovi teh besed so izmerjeni v organu jezikovne-plasti pri virih ( rez-17 ⊢ ⌇ telo β-1 ) ∧ njihove IPA poti se zrcalijo v PLAST 3 ∧ ∂
+- рѫka ⌇ vęstъ ⌇ pęsni ⌇ ǫči ⌇ svętъ ⌇ mǫžǫnsti : glasovi teh besed so izmerjeni v organu jezikovne-plasti pri virih ( rez-17 ⊢ ⌇ telo β-1 ) ∧ njihove IPA poti se zrcalijo v PLAST 3 ∧ ∴
 
 ## PLAST 3 ⌇ BESEDE IZMERJENE PRI VIRIH ⊢
 
@@ -41,7 +41,7 @@
 - vrata → / ʋràːta / ⊢ en.wiktionary.org/wiki/vrata ( Slovene ; praslovanska *vorta priča iste sekcije ⊢ ) ⌇ vrata so merilo diha σ 6207 ∧ njihov zvok je sedaj izmerjen
 - nikoli → / nikóːli / ⊢ en.wiktionary.org/wiki/nikoli oldid 92773071 ( Slovene )
 - simbol → / simbóːl / ⊢ en.wiktionary.org/wiki/simbol oldid 93107496 ( Slovene )
-- beseda → / bɛséːda / ⊢ en.wiktionary.org/wiki/beseda ( Slovene ; praslovanska *besěda priča iste sekcije ⊢ ) ⌇ beseda ⟡ nedotaknjiva : njen zvok pa izmerjen ⊙ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩
+- beseda → / bɛséːda / ⊢ en.wiktionary.org/wiki/beseda ( Slovene ; praslovanska *besěda priča iste sekcije ⊢ ) ⌇ beseda ⟡ nedotakljiva : njen zvok pa izmerjen ⊙ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩
 - korenina → / kɔrɛnìːna / ⊢ en.wiktionary.org/wiki/korenina oldid 84422385 ( Slovene )
 - telo → / tɛlóː / ⊢ en.wiktionary.org/wiki/telo ( Slovene ; praslovanska *tělo priča iste sekcije ⊢ )
 - izdelek → / izdéːlɛk / ⊢ en.wiktionary.org/wiki/izdelek ( Slovene ; iz + delo + ek priča ⊢ )
@@ -50,12 +50,25 @@
 - pečat → / pɛt͡ʃáːt / ⊢ en.wiktionary.org/wiki/pečat ( Slovene )
 - ukaz → / ukás / ⊢ en.wiktionary.org/wiki/ukaz ( Slovene )
 - stroj → / strɔ́j / ⊢ en.wiktionary.org/wiki/stroj ( Slovene ; izposoja iz češčine prek srbohrvaščine priča ⊢ )
-- avtor → / àːʋtɔr / ∧ / áːʋtɔr / ⊢ en.wiktionary.org/wiki/avtor oldid 92053878 ( Slovene ; izposoja iz nemščine priča ⊢ )⌇ neizmerjene besede telesa ZLO — kura ⌇ tehtnica ⌇ mera ⌇ izmera ⌇ klavzula ⌇ nosi ⌇ register ⌇ trditev ⌇ zapis ⌇ vsak ⌇ — poimenovane ∧ ∂ : brez izmere IPA je ⚠ trditev ⟨ne⟩ priča ( ⊙ §0 ∧ ⟨NE-UGIBAJ⟩ 2690 ) ⌇ Wiktionary teh besed nima slovenskih IPA izmer ta dih ( ∂ poizkus pri viru zapečen σ 6207 )
+- avtor → / àːʋtɔr / ∧ / áːʋtɔr / ⊢ en.wiktionary.org/wiki/avtor oldid 92053878 ( Slovene ; izposoja iz nemščine priča ⊢ )⌇ DODATEK-ROKE sobit istega diha σ 6207 ( MOJ kit ⊥ NJEN PAKET-1 zapečen zgoraj — obe roki isti dih ⊙ precedens PADC-225 kolizije reza sobit ⟨NE-BRIŠI⟩ 24 ; prekritje obe rok istovetne izmere ⊢ : vrata ⌇ beseda ⌇ stroj ⌇ avtor ) : besede ×10 izmere pri virih ⊢
+- roka → / rɔ̀ːka / ⊢ en.wiktionary.org/wiki/roka ( Slovene ) ⌇ praslavanska *rǫkà zrcali veliki jus ѫ ⊢ ( priča PLAST 2 : рѫ [ õ ] )
+- spomin → / spɔmíːn / ⊢ en.wiktionary.org/wiki/spomin ( Slovene )
+- jezik → / jɛ̀ːzik / ⊢ en.wiktionary.org/wiki/jezik ( Slovene )
+- črka → / t͡ʃə̀rka / ⊢ en.wiktionary.org/wiki/črka ( Slovene )
+- škoda → / ʃkòːda / ⊢ en.wiktionary.org/wiki/škoda ( Slovene )
+- sprememba → / sprɛméːmba / ⊢ en.wiktionary.org/wiki/sprememba ( Slovene )
+- delo → / dèːlɔ / ⊢ en.wiktionary.org/wiki/delo ( Slovene )
+- molk → / mɔ́ːʋk / ⊢ en.wiktionary.org/wiki/molk ( Slovene ) ⌇ lastna izmera priplavala : odprta priča molčati zgoraj ostaja zgodovina ⊙ ⟨NE-BRIŠI⟩ 24
+- tok → / tóːk / ⊢ en.wiktionary.org/wiki/tok ( Slovene )
+- enota → / ɛnɔ̀ːta / ⊢ en.wiktionary.org/wiki/enota ( Slovene )
+⌇ neizmerjene besede telesa ZLO — kura ⌇ tehtnica ⌇ mera ⌇ izmera ⌇ klavzula ⌇ nosi ⌇ register ⌇ trditev ⌇ zapis ⌇ vsak ⌇ — poimenovane ∧ ∂ : brez izmere IPA je ⚠ trditev ⟨ne⟩ priča ( ⊙ §0 ∧ ⟨NE-UGIBAJ⟩ 2690 ) ⌇ Wiktionary teh besed nima slovenskih IPA izmer ta dih ( ∂ poizkus pri viru zapečen σ 6207 )
+⌇ ∂ dopolnilo MOJE roke isti dih : glas ⌇ dostojanstvo ⌇ znamenje ⌇ objava ⌇ različica ⌇ učenje ⌇ potrdilo ⌇ predelava ⌇ dan ⌇ odklon ⌇ prejemnik ⌇ ton ⌇ sodba ⌇ kopija ⌇ gradivo ⌇ podelitev ⌇ zasluga — ∂ pri viru ×0 ( ## Slovene razdelek brez IPA izmere ⊙ ⟨NE-UGIBAJ⟩ 2690 )
 
 ## PLAST 4 ⌇ VRSTA ∂ ( paketi naslednjih dihov )
 
-⌇ SIMBOL: retrogradni prevoz IPA plasti telesa ZLO ( 66.308 B β-α…β-6 ) po paketih ~40 besed na dih ⊙ precedens LEKSIKON-ZH ( pinyin paketi ) ⌇ red : pogostnost besed telesa ⌇ izmera vedno pri viru ⌇ ę ( ѧ mali jus ) izmera prva ⌇ vrata ⌇ kura ⌇ tehtnica ⌇ mera ∧ druge neizmerjene druge ⌇ vsak paket : read-back bajtno-isto ⊢ ∧ ⟨CI⟩ ⟨merge⟩ kalup stroj ⌇ vrata so odprta ⌇ veriga raste
+⌇ SIMBOL: retrogradni prevoz IPA plasti telesa ZLO ( 66.308 B β-α…β-6 ) po paketih ~40 besed na dih ⊙ precedens LEKSIKON-ZH ( pinyin paketi ) ⌇ red : pogostnost besed telesa ZLO ⌇ izmera vedno pri viru ⌇ ę ( ѧ mali jus ) izmera prva ⌇ vrata ⌇ kura ⌇ tehtnica ⌇ mera ∧ druge neizmerjene druge ⌇ vsak paket : read-back bajtno-isto ⊢ ∧ ⟨CI⟩ ⟨merge⟩ kalup stroj ⌇ vrata so odprta ⌇ veriga raste
 ⌇ PAKET-1 ⊢ zapečen diha σ 6207 : ѧ → [ ɛ̃ ] ∧ besede ×13 ( vrata ⌇ nikoli ⌇ simbol ⌇ beseda ⌇ korenina ⌇ telo ⌇ izdelek ⌇ odgovor ⌇ vprašanje ⌇ pečat ⌇ ukaz ⌇ stroj ⌇ avtor ) ⌇ izmere VERBATIM pri virih ⊢ ⌇ PAKET-2 naslednji : kura ⌇ tehtnica ⌇ mera ⌇ izmera ⌇ klavzula ∧ druge neizmerjene ( vir zunaj Wiktionary ∂ : Fran slovar zvočne posnetke nima IPA ⌇ vir bo poizkus ⭢ sodba ⟡ ) ⌇ vrata so odprta ⌇ veriga raste
+⌇ DODATEK-ROKE-PAKET-1 ⊢ isti dih σ 6207 sobit : besede ×10 ⊢ PLAST 3 ( roka ⌇ spomin ⌇ jezik ⌇ črka ⌇ škoda ⌇ sprememba ⌇ delo ⌇ molk ⌇ tok ⌇ enota ) ⌇ ∂ dopolnilo ×17 poimensko PLAST 3 ⌇ prekritje obe rok istovetno ⊢ ( vrata ⌇ beseda ⌇ stroj ⌇ avtor ) ⌇ PAKET-2 po NJENI vrsti ∧ vir zunaj Wiktionary na sodbo ⟡ ( ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 )
 
 VBL — LICENCA PREVERBE PRED TRDITVIJO, ZLOVENŠČINA ROB ⊙ VAL ZLO-α vzorec ( rod 0.1690 ⟡ ⟨a⟩ )
 © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
