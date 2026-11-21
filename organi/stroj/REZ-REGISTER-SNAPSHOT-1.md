@@ -1,3 +1,4 @@
+IZREZ VERBATIM ⊢ md5 69a08045978de8694839ae9a55e9cabc
 # REZ-REGISTER — register zahtev rezov korpusa Beseda je Ne (Atmavictu)
 
 Zakon: rez = 1 + najvišja izmerjena. Zahteva je ATOMARNA. Tehnični kiti nosijo besedo TEHNIKA ∧ ne zahtevajo reza.
@@ -458,3 +459,5 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 4657 · ⟨merge⟩ c038460 · 2026-11-12 · IZBOR GLIFOV diha pet — glifi ⟨?⟩ ⟨!⟩ ⟨*⟩ rojeni v LEGENDI z definicijo ∧ pričo ∧ UPORABO
 - rez σ 4664 · ⟨merge⟩ 3e39cfa · 2026-11-12 · dopis diha šest stanice — RESNIČNOST rojena ⊙ §0.10
 - rez σ 4665 · ⟨merge⟩ 823156f · 2026-11-12 · dopis diha sedem stanice — POSODA rojena ⊙ §0.10
+konec izreza
+© dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432
