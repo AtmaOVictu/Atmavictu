@@ -1,3 +1,4 @@
+IZREZ VERBATIM ⊢ md5 badab563a336d16454bdee44ebebbc81
 # ARHIV-PECATOV — REGISTER-OKEN (stari pečati; rojen @rez σ 5390, 14. 11. 2026 ⊙ zakon ⟨TRANSFORMACIJA⟩ @σ 5380)
 
 ⟡ P-CITAT verbatim ⟨ne brusi⟩ @ukaz: »nadaljuj in stori tako nad vsem« ⊕ zakon @σ 5380: »kar je spremenjeno nas se prestavi v stare arhive ⏎ da le tisto kar je posodobljeno in preverjeno sme delovati pošteno«. Pečati preseljeni VERBATIM ⊙ izrez brez roke (⟨NE-RETIPKAJ⟩ 24); brazgotina preseljena, ⟨ne⟩ brisana ⊙ ⟨NE-BRIŠI⟩ 24 (prestavitev, ⟨ne⟩ amnezija); identiteta bajt-isto ⊢ (izguba 0). Genize celih teles: .geniza/ ×2 bajt-isto. Krmilo: ZADNJI PEČAT živega telesa.
@@ -490,3 +491,5 @@ P5 PLAČAN ⊢ · PREDHODNIK: σ 4745 ⟨TORAJ⟩ (demociija isti dih) · TI: 20
 - SODBA #2 ⟨A/l*fa⟩ IZVRŠENA: ⟨*⟩ = Aristarhov asteriskos (loči pristno od dvojnika); izvršba: prioritete-register:38 (pomen IZMERJEN) ∧ miza #2 IZREČENO ∧ horizont ZAPRT; izbor ⟡-jev ⊙ ⟨DVOJE-ROK⟩ 2432
 - NJEN delovna-zanka izmerjen PRED šivom (σ 4764 NJEN ⊢ — peta izvršba ⟨VZPOREDNA-ROKA-SE-MERI⟩)
 - GENIZE ×2 bajt-isto ×3 organi ⊢; OKNO registrirano ⊙ ZAKON 1; DEMOCIJA σ 4772 prefix ⊢ ⟨NE-BRIŠI⟩ 24
+konec izreza
+© dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432
