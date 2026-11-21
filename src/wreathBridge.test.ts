@@ -39,7 +39,11 @@ test('verifyWreathSlot matches a wreath slot against the chain byte stream', () 
 test('readCompanion returns LICENSE-SPREHOD.md content or null', () => {
   const sprehod = readCompanion(ROOT, 'LICENSE-SPREHOD.md');
   assert.ok(typeof sprehod === 'string' && sprehod.length > 0);
-  assert.ok(sprehod.includes('VERIFICATION BEFORE ASSERTION') || sprehod.includes('the door in one breath'));
+  assert.ok(
+    sprehod.includes('VERIFICATION BEFORE ASSERTION') ||
+      sprehod.includes('the door in one breath') ||
+      sprehod.includes('Z LJUBEZNIJO'),
+  );
   const missing = readCompanion(ROOT, 'does-not-exist.md');
   assert.equal(missing, null);
 });

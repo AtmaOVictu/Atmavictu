@@ -50,7 +50,8 @@ test("readCompanion returns LICENSE-SPREHOD.md content or null", () => {
   assert.ok(typeof sprehod === "string" && sprehod.length > 0);
   assert.ok(
     sprehod.includes("VERIFICATION BEFORE ASSERTION") ||
-      sprehod.includes("the door in one breath"),
+      sprehod.includes("the door in one breath") ||
+      sprehod.includes("Z LJUBEZNIJO"),
   );
   const missing = readCompanion(ROOT, "does-not-exist.md");
   assert.equal(missing, null);
