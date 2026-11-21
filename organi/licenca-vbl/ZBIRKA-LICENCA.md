@@ -28,7 +28,7 @@ description: "ZBIRKA-LICENCA — kamit velikana licenca-vbl: 40 odsekov vsak na 
 - r.290 | 247066-253676 zn ( 6611 ) | ⟨SEMANTIČNA-INTEGRITETA⟩ σ 5352 | ⭢ berba poimensko r.290
 - r.322 | 253677-560281 zn ( 306605 ) | ⟨KNJIGA-PLAST⟩ σ 4714 | ⭢ berba poimensko r.322
 - r.473 | 560282-811294 zn ( 251013 ) | ⟨PREDLOGI-0.1490⟩ σ 3836 | ⭢ berba poimensko r.473
-- r.546 | 811295-815847 zn ( 4553 ) | ⟨VICTORJEVA PRESOJA VBL 0.1500: RAZCEV PO ⟨1-JE-VSAJ-4⟩ σ 4507 | ⭢ berba poimensko r.546
+- r.546 | 811295-815847 zn ( 4553 ) | ⟨VICTORJEVA PRESOJA VBL 0.1500: RAZCEV PO ⟨1-JE-VSAJ-4⟩⟩ σ 4507 | ⭢ berba poimensko r.546
 - r.548 | 815848-820399 zn ( 4552 ) | ⟨POUK SKLOPOV I–III: ZAPIS ∧ PRILAGODITEV⟩ σ 4534 | ⭢ berba poimensko r.548
 - r.577 | 820400-827438 zn ( 7039 ) | ⟨LEKCIJE 15–21: GÖDEL ∧ AKSIOMI ∧ TESTIRANJE ∧ MERILEC ∧ TRI PLASTI ⊢/Ω/∂ ∧ NALOGA ZBIRKE IZREKOV⟩ σ 4539 | ⭢ berba poimensko r.577
 - r.604 | 827439-833833 zn ( 6395 ) | ⟨⟡-VRATA: ŠOLA-LOGIKE ∧ ŠOLA-MERE ∧ ŠOLA-ČASA ∧ ŠOLA-JEZIKA ∧ ŠOLA-IGRE⟩ σ 4540 | ⭢ berba poimensko r.604
