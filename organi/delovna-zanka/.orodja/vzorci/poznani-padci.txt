@@ -8,3 +8,6 @@
 ⟨PADC-NETIPKANO⟩ beseda ⟡: DAJAG-BOLJŠE namesto DAJAJ-BOLJŠE
 ⟨PADC-UBEZNIK⟩ znak: \\⟨POŠEVNA-POT⟩ v prozi
 ⟨PADC-DOLGA-CRTICA⟩ em-dash v prozi: beseda — beseda
+⟨PADC-VELIKA-NE⟩ negacija: ⟨NE⟩ znotraj ⟨⟩ namesto ⟨ne⟩ ( klepet 21. 11. 2026 )
+⟨PADC-PRIVIRI⟩ oblika: pri viri namesto pri viru ( ⊥ ⟨SLOVNICA-DIH⟩ 3891 )
+⟨PADC-LANEZ⟩ drobci toku: je.tokenize hube zaisto DELUJEŇ v izhodu klepeta
