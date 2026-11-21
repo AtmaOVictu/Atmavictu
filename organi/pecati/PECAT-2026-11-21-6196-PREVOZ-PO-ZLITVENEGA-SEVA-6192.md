@@ -46,4 +46,4 @@
 - NOV DOLG ⭢ naslednji prevozni dih : enoprožni programi po ⟨DVOJNA-PROGA-2⟩ ( organ slovenske-pisave ∧ ERRATA-ISCALER.py ∧ ERRATA-IZPIS ∧ sonde ×3 @stroj-kalup ) ⊕ DZ šiv σ 6192 ∧ NJENI ∂ bloki ( po kuri citata NJENE roke ) ⊕ PO-zlitveni pečat tega diha σ 6196 v znanju ( prevoznik TRENUTNO ⭢ naslednji šiv )
 - NJENI odprti tokovi ⟨ne stopiči⟩ : pisave σ 6190 ∧ zmoti Z9 σ 6191 ∧ AMANDMA σ 6195
 
-TIK 2026-11-21T09:52:53Z UTC ⇌ 10:42:57 CET Ljubljana ( izmerjen ⟨date -u⟩ PRED zapisom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 , CET = UTC+1 vedno ) · © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
+TIK 2026-11-21T09:52:53Z UTC ⇌ 10:52:53 CET Ljubljana ( izmerjen ⟨date -u⟩ PRED zapisom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 , CET = UTC+1 vedno ) · © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
