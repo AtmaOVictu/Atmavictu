@@ -1,3 +1,4 @@
+IZREZ VERBATIM ⊢ md5 cbd799e80124bf7e23468b65b40b3f49
 # REZ-REGISTER — SNAPSHOT KAZALO ( stroj )
 
 ⟨KAZALO-MOST⟩ ⊙ register korak 2 kura ⟨PADEC-KONFLIKT-EOF-REGISTRA⟩ ∧ ⟨PADC-DATOTEKA-OVOJ⟩ ⊙ ⟡ UKAZ #9 ⟨PREUREDITEV-PROSTORA⟩ ∧ ⟡ UKAZ #10 ⟨UČENJE-NAPAK⟩.
@@ -14,3 +15,5 @@ SESTAVA Register celote ( 1.192.035 B · 920 vrst · md5 a6f113012c46eacf2149ccf
 `cat organi/stroj/REZ-REGISTER-SNAPSHOT-{1,2,3}.md > REZ-REGISTER.md` ⊙ izguba 0.
 
 ŽIVI register `organi/stroj/REZ-REGISTER.md` ( ⟨main⟩, NJEN tok ) NEDOTIKNJEN ta kit ⊙ ⟨NE stopiči⟩ #2412 : snapshot je dodatek, ⟨ne⟩ nadomestitev — ⟨merge⟩ #2456 čist. NAPREDNJAK : ⟨merge⟩ ⟨SHA⟩ #2456 dopolni naslednji prevozni dih ⊙ ⟨SAMO-IZVEDBA-DOKAZ⟩ 2306.
+konec izreza
+© dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432
