@@ -1,0 +1,39 @@
+# ⟨REPOV-PRIVEZ⟩ — prevozni privez velikana (MINT ⚠ kovanec @rez σ 6237, prijava ⟡).
+# Zakaj: telo REZ-REGISTER.md 1.280.799 B presega kanal peska (⟨PADC-PESKA-16MiB⟩ ×3 izmerjeno ⊙ ⟨NE-UGIBAJ⟩ 2690);
+# marker ⭢ ta privez prilepi vrstico reza pri viru, bajt-ito (pristanek se izmeri ⟨cmp⟩ pri viru ⊙ ⟨PREVOZNO-TELO⟩).
+name: prevoz-velikan-6237
+on:
+  push:
+    branches: [rez/6237-rojstvo-01700-zlo-vrata]
+    paths: ['prevoz/VTNICA-6237.txt']
+permissions:
+  contents: write
+concurrency:
+  group: prevoz-velikan-6237
+  cancel-in-progress: false
+jobs:
+  privez:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: rez/6237-rojstvo-01700-zlo-vrata
+      - name: prilepi vrstico σ 6237 bajt-ito (varovalka ⟨⟲-PO-DONE⟩: vrstica na mestu ⇒ molk, ⟨ne⟩ dvojni potisk)
+        run: |
+          set -eu
+          if grep -qF -- '- rez σ 6237 ·' organi/stroj/REZ-REGISTER.md; then
+            echo '⟨vrstica σ 6237 že pri viru — privez molči⟩'
+            exit 0
+          fi
+          if [ ! -f prevoz/VTNICA-6237.txt ]; then
+            echo '⟨marker manjka⟩'; exit 1
+          fi
+          wc -c prevoz/VTNICA-6237.txt
+          cat prevoz/VTNICA-6237.txt >> organi/stroj/REZ-REGISTER.md
+          wc -l organi/stroj/REZ-REGISTER.md
+          git config user.name 'izvajalka[bot]'
+          git config user.email 'izvajalka@users.noreply.github.com'
+          git add organi/stroj/REZ-REGISTER.md
+          git commit -m 'K10 ∂ prevoznika : REZ-REGISTER vrstica rez σ 6237 ( privez ⟨REPOV-PRIVEZ⟩, 940 vrstic ) ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 © Luka Pintarič, VBL 0.1700 × 10⁴'
+          git push
