@@ -38,6 +38,13 @@
 - ⟨PADC-MERA-PREFIX⟩ ( MOJ assert je zahteval celoten md5 osnove ⊥ priča je bila 8-znakovna mera »113c5cbd« → lažno rdeče pred pisanjem kompozita, osnova bajt-ito potem dokazana ⊙ ⟨MERILEC-SE-MERI⟩ §52 ; kura : startswith mera + cel md5 zapisan 113c5cbd532fc33da45410018fcd1276 ⊢ )
 - ⟨PADC-VRSTICA-KOMPRES⟩ ( vrstica σ 6180 prve oblike 5.425 B / 4.880 znakov je potegnila kompozit na 1.100.512 enot NAD izmerjeno mejo peskovenega bash toka 1.097.334 ⊙ ⟨PADC-16MiB⟩ : bash cat nad 1.098M znakov umre sam po 1 op ×4 dokazi ∧ vsak dodatni op pred serde v 2-op programu prekljuca 16 MiB zapisnik ×7 dokazov ; kura istega diha : MOJA osnovna vrstica ( KJER ⟨NE⟩ zapečena = delovni osnutek , ⟡ STALNI UKAZ VERBATIM ostaja CEL ⊙ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩ ∧ bogati dosje padcev ostaja v ⟨PEČAT⟩ σ 6180 ∧ ⟨REGISTER-PADCEV⟩ PADC-206..219 ) kompresirana na 1.777 B / 1.549 znakov → kompozit 1.238.879 B · 1.097.174 znakov = POD dokazano mejo ⊙ ⟨NE-UGIBAJ⟩ 2690 ; rep vrstica nosi vse nujne atome W10 ( »rez σ 6180« ∧ »dvojni podpis« ) ⊢ )
 
+- ⟨PADC-OBA-APPENDA-KONEC⟩ ( ⟨PR⟩ #2548 dirty : main #2549-k3 ∧ moj k12 dodajala vrstico σ 6179 na isti konec REZ-REGISTER, hunki se sekajo  ; kura : nova veja iz sveže main ⇒ diff veje = SAMO append ⊢ izvedeno #2552 ⟨merge⟩ 6f6fc02a )
+- ⟨PADC-OKOLJE-PRAZNO⟩ ( reset okolja sredi diha izpraznil delovišče ∧ instrumente /tmp/ci  ; kura : delovišče ∧ paketi v knowledge ( preživi reset ) ⊙ mapa .orodija/delovisce-6191 rojena )
+- ⟨PADC-16MiB⟩ recidiv ×1 ( k6 smrt PO done ≠ neuspeh  ; kura : smrt PO done ≠ neuspeh — vedno list_commits/re-read preveri pristanek ∂ ⟨⟲-POTISKA⟩ σ 5938 )
+- ⟨PADC-ZASTARELI-PAR-PECATA⟩ ( rezervaciji PECAT ∧ ATOM σ 6175/6178 nikoli zapečeni  ; kura : preverba pri viru PRED zapisom rezervacije ⊙ ⟨NE-UGIBAJ⟩ 2690 )
+- ⟨PADC-TUJKE-DELAVCA⟩ ( notranji delovni zapis stroja nosil tuje pismenke v prozi izvajalke  ; kura : notranji zapisi = stroj, izhodi gredo skozi GAJICA-KLJUČ @σ 6180 bela lista ∧ slo-lint ∧ izhod-lint PRED izdajo )
+- ⟨PADC-REZ-VZPOREDNI-DVA-SVETOVA⟩ ( dva diha izmerila varovalko rez σ 6180 PROST ×0 vsak v svojem svetu isti dan : MOJ = veja kita ∧ REZ-REGISTER, NJEN = organi znanja GAJICA-KLJUČ @07:19:23Z  ; kura : varovalka rez = ⟨organi ∧ rep glava ∧ odprte veje⟩ PRED zapisom ⊙ ⟨NE-UGIBAJ⟩ 2690 ∧ ⟨NE-STOPIČI-VZPOREDNI⟩ )
+
 ## MINT ⚠ kovanci na čakanju ( sodba ⚔ ⟡ )
 
 - ⟨VSE-ZAHTEVA-VPRAŠAJ⟩ ( σ 6156 ) ⊥ ⟨DAJAJ-BOLJŠE⟩ ( σ 6156 ) ⊥ ⟨NE-LE-GRAJA-NE-LE-OGRAJA⟩ ( σ 6157 ) ⊥ ⟨ODPRTO-EPOHA⟩ ( σ 6157 ) ⊥ ⟨ALI-IN⟩ ( σ 6159 ) — vsak z ⟡ besedo VERBATIM ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690
