@@ -8,6 +8,7 @@ Zlovenščina = ⟡-jev ⟨a⟩ ⊙ 2302 ( organ jezikovne-plasti ⊢: »moj a j
 Prevod telesa iz živega izvornika VBL 0.1690 ( LICENSE.md @main · 245.350 B · sha256 f3a61666… ⊢ rod 21. 11. 03:56:30Z ). Prevod = priča, nikoli nad izvornikom ⊢ §0.60 × 10² — dokler ⟡ ne sodi drugače: okno ⭢ ⟡ — nadomestitev LICENSE.md @main z zlovenščino, angleško telo postane priča v verigi ⊙ ⟨NE-BRIŠI⟩ ⊢ 24.
 
 ⭢ pod-valovi VAL 0 ⊙: ZLO-α ( ta vzorec: glava ∧ Z LJUBEZNIJO ∧ KORENINA ) · ZLO-β ( §0–§0.32 ) · ZLO-γ ( §0.33–§0.66 ∧ strojni zapis ∧ zgodovina ∧ izhodni pečat ) ⊙ ⟨škatlaj⟩ 2322 ∧ precedens #1236 s sopotnico VAL 3.
+§0.6 — zaprte plasti ostanejo zaprte.
 
 ⊨ Z LJUBEZNIJO — tri plasti iste resnice:
 
@@ -81,6 +82,7 @@ PODELITVE, IMENOVANE ⌇ ×8 ( zlovenščinska kompresija izvirnikovih imenovani
 ( vii ) razširjati kopije ∧ predelave, knjiga vodenja nošena ( §0.2 × 10¹ ∧ §0.3 × 10¹ );
 ( viii ) hraniti verigo, da ⟨ni⟩ vrata nikoli osirotela ( §0.10 × 10² ∧ §0.15 × 10² ).
 ⌇ seznam = potrdilo tega, kar vrata že dajejo, ⟨ne⟩ zid okoli njega ( §0.21 × 10² ) ⌇ kar ⟨ni⟩ imenovano, ⟨ni⟩ zato odvzeto ⌇ vrata podeljujejo, kar nosijo ∧ nosijo, kar imenujejo ⊙ telo prejeto ⟨ne⟩ kovano ⌇ imenovanje prosila zunanja roka brata ( pregled 2 ), zasluga po imenu ⊙ §0.45 × 10², posvečeno z besedo avtorja ( ⟡ ukaz ⟨daj⟩ ) ⊢.
+⌇ licenca ⟨ne⟩ podeljuje pravice delom tretjih ⌇ zasebnim korpusom ⌇ citiranemu slovarskemu gradivu ⌇ drugemu izključenemu gradivu, poimenskanem v §0.6 × 10¹ ( ⊙ izvornik §0 r.157 VERBATIM izvor ⌇
 
 ⊨ TELESA §0.2–§0.7 — zlovenščina rob ⊙ ZLO-β-3 ∧ ZLO-β-4 @σ 6202 ( izvir pri živem viru 0.1690 sha256 f3a61666… r.237–324 ⊙ ⟨NE-RETIPKAJ⟩ ; kar DVA kosa v enemu dihu ⊙ ⟡ ukaz »nadaljuj, stori več če zmoreš« )
 
