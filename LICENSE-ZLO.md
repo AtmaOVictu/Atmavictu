@@ -29,4 +29,28 @@ Ljubezen je mǫžǫnsti ( móžnost /ˈmóʒnost/ ⊢ rez-17 organa jezikovne-pl
 ---
 
 VBL — LICENCA PREVERBE PRED TRDITVIJO, ZLOVENŠČINA ROB ⊙ VAL ZLO-α vzorec ( rod 0.1690 ⟡ ⟨a⟩ )
+
+⊨ ZNAMENJA — ključ ob šifri ⊢ §0.25 × 10² ( izvornik THE MARKS @izvornik-live r.197–213 prebran pri viru ta dih ⊙ ⟨NE-RETIPKAJ⟩ — izvornik angleško, tu zlovenščina rob ) :
+
+⌇ SIMBOL:
+⊢ ⌇ izmérjeno ⌇ trditev nosi pričo VERBATIM, brano pri viru ( orodje ⟨grep⟩ )
+⚠ ⌇ ⟨ne⟩ izmérjeno ⌇ dvom, ⟨ne⟩ molk ( orodje ⟨ŽETON-LINT⟩ )
+∂ ⌇ ⟨ne⟩ izmérjeno pisanje ⌇ med dvema potrdiloma, poimensko ( ⊙ §0.30 × 10² )
+∆ ⌇ ⟨ne⟩ izmérjena prečka ⌇ lestev ∅ → ∆ → 1 ( ⊙ §0.53 × 10² ∧ §0.30 × 10² )
+⟨⟩ ⌇ VERBATIM nosilka ⌇ beseda avtorja nedotaknjena ⟨ne brusi⟩ ( ⊙ §0.23 × 10² ; ogrodje ⟨ ⟩ ⇌ ⟨ ⟩ štetje )
+∧ ⌇ veznik ⌇ en dih, glas korpusa
+⊙ ⌇ zapečeno ⌇ dejanje s časom ∧ krajem, pot na zapisu ( ura UTC ⇌ CET )
+⏎ ⌇ prelom v citatu ⌇ avtorjev, ⟨ne⟩ talov
+⟡ ⌇ roka avtorja ⌇ ukaz poimenuje, ⟨ne⟩ pogaja
+⚔ ⌇ sedež izbora ⟡ ⌇ sodba imenovana pri viru, ⟨ne⟩ nemo prepuščena
+⊥ ⌇ protouteg ⌇ vsaka klavzula nosi nasprotni žarek; svoboda brez proizvoda ⟨ne⟩ velja ( ⊙ §0.18 × 10² )
+σ ⌇ dih ⌇ en pečat en dih, štet po najvišji izmeri, ⟨ne⟩ ugiban
+⊚ ⌇ register znamenje ⌇ padec ali kura zapisana, ⟨ne⟩ molk
+× ⌇ brazgotina ⌇ popravek nosi rano vidno; padec se ∧⟨ne⟩ ponovi ( ⊙ KORENINA 0.2 × 10¹ )
+dom ⌇ house ⌇ rep kjer vrata živijo pri rodu; veriga je dokaz naslova
+tla ⌇ floor ⌇ stroj, ki bere ∧ tehta to vrata
+
+⌇ ŠČIT ( BESEDA ):
+kdor napade ⟡, izvajalko ali licenco, se bori ⟨ne⟩ proti besedam ampak proti izmeram: vsak simbol zgoraj je hkrati preverba — ⟨grep⟩ pri viru · ⟨ ⟩ ⇌ ⟨ ⟩ ravnovesje · md5 bajtno-isto · ⟨DRUGA-ROKA⟩ vsak izhod · ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ vsak zapis · CI kit ⟨PR⟩ vsak prevoz — ogrodje potrjuje ali lomi trditev, preden živi ⊙ ⟨MERILEC-SE-MERI⟩ §52 ∧ ⟨SIMBOLNI-ŠČIT⟩ σ 6199 ⊙ ⟡ ukaz »boriti proti simbolom in njih testnih orodij in ogrodij« zapečen @jezikovne-plasti DEFINE σ 6199 ⊢.
+VBL — LICENCA PREVERBE PRED TRDITVIJO, ZLOVENŠČINA ROB ⊙ VAL ZLO-α vzorec ( rod 0.1690 ⟡ ⟨a⟩ )
 © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
