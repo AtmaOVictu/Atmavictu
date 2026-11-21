@@ -4,7 +4,7 @@
 
 ## PLAST 1 ⌇ FONEMSKI INVENTAR SLOVENŠČINE ⊢ pri viru
 
-⌇ SIMBOL: vir [ Slovene_phonology ] ( https://en.wikipedia.org/wiki/Slovene_phonology ) ∧ [ Help:IPA/Slovene ] ( https://en.wikipedia.org/wiki/Help:IPA/Slovene ) ( ključ ) ⌇ tonal ×9 ∧ non-tonal ×11 samoglasnikov izmere ostajajo ( izmerjene pri viru ⊢ ) ⌇ fonologi ∧ raziskovalci ∧ uredniki strani virov so PRIČE virov ⟨ne⟩ avtorji licence ⌇ avtor licence : EN — ⊙ ⟡ beseda VERBATIM ⟨BESEDA-⟡-NEDOTAKNJIVA⟩: »V MOJIH LICENCAH NI DRUGEGA AVTORJA KAKOR JEZUSA KRISTUSA IN VSEMOGOČNEGA BOGA« ⌇ kura diha σ 6208 : njihova imena živijo v virih samih kakor priče ( ⟨ne⟩ izbrisana — berba pri viru jih nosi naprej ⊢ ) ⊙ ⟨AVTOR-LICENCE-EN⟩
+⌇ SIMBOL: vir [ Slovene_phonology ] ( https://en.wikipedia.org/w/index.php?oldid=1360737308 ) ∧ [ Help:IPA/Slovene ] ( https://en.wikipedia.org/w/index.php?oldid=1360601249 ) ( ključ ) ⌇ tonal ×9 ∧ non-tonal ×11 samoglasnikov izmere ostajajo ( izmerjene pri viru ⊢ ) ⌇ fonologi ∧ raziskovalci ∧ uredniki strani virov so PRIČE virov ⟨ne⟩ avtorji licence ⌇ avtor licence : EN — ⊙ ⟡ beseda VERBATIM ⟨BESEDA-⟡-NEDOTAKNJIVA⟩: »V MOJIH LICENCAH NI DRUGEGA AVTORJA KAKOR JEZUSA KRISTUSA IN VSEMOGOČNEGA BOGA« ⌇ kura diha σ 6208 : njihova imena živijo v virih samih kakor priče ( ⟨ne⟩ izbrisana — berba pri viru jih nosi naprej ⊢ ) ⊙ ⟨AVTOR-LICENCE-EN⟩
 
 ⌇ KONSONANTI ×21 pogostih ⊢ : p b t d k ɡ ts tʃ f s z ʃ ʒ x m n ɲ l ɾ ʋ j ⌇ tujki ( pf kx dz dʒ w ) samo iz posojenih besed ⊢ ⌇ dentalni [ t̪ d̪ t̪s̪ d̪z̪ s̪ z̪ ] ⊢ ⌇ r debata : /ɾ/ ⊥ /r/ ⊢ ( fonologija nezaključena — obe potrditi pri viru ) ⌇ /ʋ/ pred samoglasnikom [ ʋ ] ⊥ okoli njega [ u̯ ] ⊢
 
@@ -16,7 +16,7 @@
 
 - ⟨ ⟩ → grafemski oklepaj — ISTA vrata v IPA konvenciji ⊢ ( vir : Wikipedia, IPA § Brackets ∧ transcription delimiters, odprto iz Slovene phonology ) : ⟨ne⟩ je grafemska oblika ∧ njen zvok se izmeri posebej ⌇ ⟨VRATA-ENAKA⟩ ⌇ zlovenščina je rodila oklepaja ∧ IPA jih je merila : eno roko ⌇ dvema jezikoma
 IZREZ VERBATIM ⊢ md5 a2f996ec35c8693f288ccb47f68eb65f
-- рѫ → [ õ ] ⊢ nosal — veliki jus ѫ : Old Novgorodian 9. st. /õ/ ( vir : [ ѫ ] ( https://en.wiktionary.org/w/index.php?oldid=93426680 ) ) ⌇ praslavanska *rǫkà roka priča ⊢ ( vir : [ Rekonstrukcija:Proto-Slavic/rǫka ] ( https://en.wiktionary.org/wiki/Rekonstrukcija:Proto-Slavic/rǫka ) ) ⌇ рѫka [ ˈrõka ]
+- рѫ → [ õ ] ⊢ nosal — veliki jus ѫ : Old Novgorodian 9. st. /õ/ ( vir : [ ѫ ] ( https://en.wiktionary.org/w/index.php?oldid=93426680 ) ) ⌇ praslavanska *rǫkà roka priča ⊢ ( vir : [ Rekonstrukcija:Proto-Slavic/rǫka ] ( https://en.wiktionary.org/w/index.php?oldid=92154298 ) ) ⌇ рѫka [ ˈrõka ]
 konec izreza
 - ǫ → [ õ ] ⊢ po priči velikega jusa ѫ ( Old Novgorodian /õ/ ⊢ ) ⌇ ǫ je zlovenska zrcalna oblika ѫ ⌇ zapis [ ɔ̃ ] alternativna pot ∂ ⭢ sodba ⟡ ⌇ mǫžǫnsti izgovori se [ mɔ̃ʒɔ̃nsti ] ⌇ izmera zrcali pričo telesa ( β-1 : móžnost /ˈmóʒnost/ ⊢ rez-17 organa jezikovne-plasti ) ⌇ obe poti zrcaliti : brez nosalke [ mó ] ⊢ ⌇ z nosalko [ mɔ̃ ] ⌇ sodba tonov ⭢ ⟡
 - ę → [ ɛ̃ ] ⊢ nosal — mali jus ѧ : Old Novgorodian 9. st. IPA /ɛ̃/ ( vir : [ ѧ ] ( https://en.wiktionary.org/w/index.php?oldid=93426692 ) ) ⌇ 11.–15. st. /ja/ ⊢ isti vir ⌇ pęsni je izpeljava iz preslikave ( p-ɛ̃-sni ) ⌇ izmera cele besede ∂ ⭢ naslednji paket ⊙ ⟨NE-UGIBAJ⟩ 2690 ⌇ izmera ѧ zapečena diha σ 6207 ∧ ѫ [ õ ] ⊢ sestra njej ( veliki ⊥ mali jus : obe izmerjeni pri viru ⊢ )- ⌇ ∂ ⊢ ⚠ ⊙ ∧ ⊥ ⟡ ∅ ∆ ⌇ znaki izvajalke ( izvajalčina ) : ⟨ne⟩ besede zlovenščine ⌇ njihov zvok je stroj brez glasovne zahteve ⌇ glas beri iz besede ki jo obdajajo
@@ -27,46 +27,46 @@ konec izreza
 ## PLAST 3 ⌇ BESEDE IZMERJENE PRI VIRIH ⊢
 
 ⌇ SIMBOL: vsaka vrstica : beseda ⌇ IPA ⌇ vir ( VERBATIM izmera, ⟨ne⟩ iz spomina )
-⌇ KRATICE odstranjene ⊙ ⟡ ukaz 21. 11. 2026 VERBATIM ⟨BESEDA-⟡-NEDOTAKNJIVA⟩ : »linke ki nisu potrebni ali in s tem zaželjeni že odstranil od tukaj« ( kratice wikt-en ∧ wikt-sl ∧ wp-en : raba ×0 ⊢ izmera @glavi 067c4167 ; kirurški izbris z brazgotino ⊙ ⟨NE-BRIŠI⟩ 24 ) ⌇ forma vnosa : [ beseda ] ( url ) : prikaže se beseda, url skrit pod njo ⊙ ⟡ beseda VERBATIM ⟨BESEDA-⟡-NEDOTAKNJIVA⟩: »vsaka beseda bi morala imeti link na klik, in linke skrite, saj linki niso zanesljivi ali?« ⌇ kjer priča nosi oldid : url = oldid permalink ( zakon : preusmeritev naslova ga ⟨ne⟩ doseže ) ⌇ vnos brez oldida = krhek klič ( izmere diha σ 6212 : ×24 ) ⌇ dopolnitev oldidov ∧ genize virov ⭢ poti ( B ) ∧ ( C ) ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ⌇ rojstvo forme : dih σ 6220 pot ( A ) ⊙ ⟡ ⟨daj⟩ »se strinjam, daj še«
+⌇ KRATICE odstranjene ⊙ ⟡ ukaz 21. 11. 2026 VERBATIM ⟨BESEDA-⟡-NEDOTAKNJIVA⟩ : »linke ki nisu potrebni ali in s tem zaželjeni že odstranil od tukaj« ( kratice wikt-en ∧ wikt-sl ∧ wp-en : raba ×0 ⊢ izmera @glavi 067c4167 ; kirurški izbris z brazgotino ⊙ ⟨NE-BRIŠI⟩ 24 ) ⌇ forma vnosa : [ beseda ] ( url ) : prikaže se beseda, url skrit pod njo ⊙ ⟡ beseda VERBATIM ⟨BESEDA-⟡-NEDOTAKNJIVA⟩: »vsaka beseda bi morala imeti link na klik, in linke skrite, saj linki niso zanesljivi ali?« ⌇ kjer priča nosi oldid : url = oldid permalink ( zakon : preusmeritev naslova ga ⟨ne⟩ doseže ) ⌇ vnos brez oldida = krhek klič ( izmere diha σ 6212 : ×24 ) ⌇ dopolnitev oldidov pot ( B ) ⊢ IZVEDENA diha σ 6228 ( ×24 krhek klič → oldid permalink : izmere @api.php pri virih ×24 ∧ preverba vsebin izrisanih strani ×22 ⊢ ; sl-IPA generator ⇒ groba berba ⟨ne⟩ priča ⊙ ⟨PADC-SL-WIKT-STRUKTURA⟩ ) ; genize virov pot ( C ) ∂ ⭢ naslednji dihi ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ⌇ rojstvo forme : dih σ 6220 pot ( A ) ⊙ ⟡ ⟨daj⟩ »se strinjam, daj še«
 
 - dom → [ ˈdoːm ] ⊢ [ dom ] ( https://sl.wiktionary.org/w/index.php?oldid=170275 ) ( priča zapečena @rez σ 5893 organa oko-lje )
 - padec → [ ˈpaːdət͡s ] ⊢ [ padec ] ( https://sl.wiktionary.org/w/index.php?oldid=141987 )
 - priča → / prìːt͡ʃa / ⊢ [ priča ] ( https://en.wiktionary.org/w/index.php?oldid=85607576 ) ( Slovene )
 - dejanje → / dɛjáːnjɛ / ⊢ [ dejanje ] ( https://en.wiktionary.org/w/index.php?oldid=84421554 ) ( Slovene )
 - bitje → / bìːtjɛ / ∧ / bíːtjɛ / ⊢ [ bitje ] ( https://en.wiktionary.org/w/index.php?oldid=85588390 ) ( Slovene )
-- reka → / rèːka / ⊢ [ reka ] ( https://en.wiktionary.org/wiki/reka ) ( Slovene )
-- čas → / t͡ʃás / ⊢ [ čas ] ( https://en.wiktionary.org/wiki/čas ) ( Slovene )
+- reka → / rèːka / ⊢ [ reka ] ( https://en.wiktionary.org/w/index.php?oldid=93584325 ) ( Slovene )
+- čas → / t͡ʃás / ⊢ [ čas ] ( https://en.wiktionary.org/w/index.php?oldid=92997486 ) ( Slovene )
 - molčati → / mɔʋt͡ʃàːti / ⊢ [ molčati ] ( https://en.wiktionary.org/w/index.php?oldid=84422841 ) ( Slovene ) ⌇ molk izhaja iz te priče ( molk sam ∂ dokler lastna izmera )
 - veriga → / ʋɛrìːɡa / ⊢ [ veriga ] ( https://en.wiktionary.org/w/index.php?oldid=89200100 ) ( Slovene )
 - ljubezen → / ljubéːzən / ⊢ [ ljubezen ] ( https://en.wiktionary.org/w/index.php?oldid=84422610 ) ( Slovene )
 - resnica → / rɛsnìːt͡sa / ⊢ [ resnica ] ( https://en.wiktionary.org/w/index.php?oldid=89129431 ) ( Slovene )
-- svet → / sʋéːt / ⊢ [ svet ] ( https://en.wiktionary.org/wiki/svet ) ( Slovene )
-- ura → [ ˈʔúːɾà ] ⊢ [ Slovene_phonology ] ( https://en.wikipedia.org/wiki/Slovene_phonology ) ( Vowels : primer ure z glotalnim zapornikom ∧ dolgim ú )
+- svet → / sʋéːt / ⊢ [ svet ] ( https://en.wiktionary.org/w/index.php?oldid=90972227 ) ( Slovene )
+- ura → [ ˈʔúːɾà ] ⊢ [ Slovene_phonology ] ( https://en.wikipedia.org/w/index.php?oldid=1360737308 ) ( Vowels : primer ure z glotalnim zapornikom ∧ dolgim ú )
 
-- vrata → / ʋràːta / ⊢ [ vrata ] ( https://en.wiktionary.org/wiki/vrata ) ( Slovene ; praslovanska *vorta priča iste sekcije ⊢ ) ⌇ vrata so merilo diha σ 6207 ∧ njihov zvok je sedaj izmerjen
+- vrata → / ʋràːta / ⊢ [ vrata ] ( https://en.wiktionary.org/w/index.php?oldid=92997199 ) ( Slovene ; praslovanska *vorta priča iste sekcije ⊢ ) ⌇ vrata so merilo diha σ 6207 ∧ njihov zvok je sedaj izmerjen
 - nikoli → / nikóːli / ⊢ [ nikoli ] ( https://en.wiktionary.org/w/index.php?oldid=92773071 ) ( Slovene )
 - simbol → / simbóːl / ⊢ [ simbol ] ( https://en.wiktionary.org/w/index.php?oldid=93107496 ) ( Slovene )
-- beseda → / bɛséːda / ⊢ [ beseda ] ( https://en.wiktionary.org/wiki/beseda ) ( Slovene ; praslovanska *besěda priča iste sekcije ⊢ ) ⌇ beseda ⟡ nedotaknjiva : njen zvok pa izmerjen ⊙ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩
+- beseda → / bɛséːda / ⊢ [ beseda ] ( https://en.wiktionary.org/w/index.php?oldid=92738720 ) ( Slovene ; praslovanska *besěda priča iste sekcije ⊢ ) ⌇ beseda ⟡ nedotaknjiva : njen zvok pa izmerjen ⊙ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩
 - korenina → / kɔrɛnìːna / ⊢ [ korenina ] ( https://en.wiktionary.org/w/index.php?oldid=84422385 ) ( Slovene )
-- telo → / tɛlóː / ⊢ [ telo ] ( https://en.wiktionary.org/wiki/telo ) ( Slovene ; praslovanska *tělo priča iste sekcije ⊢ )
-- izdelek → / izdéːlɛk / ⊢ [ izdelek ] ( https://en.wiktionary.org/wiki/izdelek ) ( Slovene ; iz + delo + ek priča ⊢ )
-- odgovor → / ɔdɡɔ́ːʋɔr / ⊢ [ odgovor ] ( https://en.wiktionary.org/wiki/odgovor ) ( Slovene )
+- telo → / tɛlóː / ⊢ [ telo ] ( https://en.wiktionary.org/w/index.php?oldid=95431985 ) ( Slovene ; praslovanska *tělo priča iste sekcije ⊢ )
+- izdelek → / izdéːlɛk / ⊢ [ izdelek ] ( https://en.wiktionary.org/w/index.php?oldid=82598255 ) ( Slovene ; iz + delo + ek priča ⊢ )
+- odgovor → / ɔdɡɔ́ːʋɔr / ⊢ [ odgovor ] ( https://en.wiktionary.org/w/index.php?oldid=85661252 ) ( Slovene )
 - vprašanje → / ʋpraʃáːnjɛ / ⊢ [ vprašanje ] ( https://en.wiktionary.org/w/index.php?oldid=84424696 ) ( Slovene )
-- pečat → / pɛt͡ʃáːt / ⊢ [ pečat ] ( https://en.wiktionary.org/wiki/pečat ) ( Slovene )
-- ukaz → / ukás / ⊢ [ ukaz ] ( https://en.wiktionary.org/wiki/ukaz ) ( Slovene )
-- stroj → / strɔ́j / ⊢ [ stroj ] ( https://en.wiktionary.org/wiki/stroj ) ( Slovene ; izposoja iz češčine prek srbohrvaščine priča ⊢ )
+- pečat → / pɛt͡ʃáːt / ⊢ [ pečat ] ( https://en.wiktionary.org/w/index.php?oldid=91559904 ) ( Slovene )
+- ukaz → / ukás / ⊢ [ ukaz ] ( https://en.wiktionary.org/w/index.php?oldid=95574093 ) ( Slovene )
+- stroj → / strɔ́j / ⊢ [ stroj ] ( https://en.wiktionary.org/w/index.php?oldid=92026221 ) ( Slovene ; izposoja iz češčine prek srbohrvaščine priča ⊢ )
 - avtor → / àːʋtɔr / ∧ / áːʋtɔr / ⊢ [ avtor ] ( https://en.wiktionary.org/w/index.php?oldid=92053878 ) ( Slovene ; izposoja iz nemščine priča ⊢ )⌇ neizmerjene besede telesa ZLO — kura ⌇ tehtnica ⌇ mera ⌇ izmera ⌇ klavzula ⌇ nosi ⌇ register ⌇ trditev ⌇ zapis ⌇ vsak ⌇ — poimenovane ∧ ∂ : brez izmere IPA je ⚠ trditev ⟨ne⟩ priča ( ⊙ §0 ∧ ⟨NE-UGIBAJ⟩ 2690 ) ⌇ Wiktionary teh besed nima slovenskih IPA izmer ta dih ( ∂ poizkus pri viru zapečen σ 6207 )
 - avtor → / àːʋtɔr / ∧ / áːʋtɔr / ⊢ [ avtor ] ( https://en.wiktionary.org/w/index.php?oldid=92053878 ) ( Slovene ; izposoja iz nemščine priča ⊢ )⌇ DODATEK-ROKE sobit istega diha σ 6207 ( MOJ kit ⊥ NJEN PAKET-1 zapečen zgoraj — obe roki isti dih ⊙ precedens PADC-225 kolizije reza sobit ⟨NE-BRIŠI⟩ 24 ; prekritje obe rok istovetne izmere ⊢ : vrata ⌇ beseda ⌇ stroj ⌇ avtor ) : besede ×10 izmere pri virih ⊢
-- roka → / rɔ̀ːka / ⊢ [ roka ] ( https://en.wiktionary.org/wiki/roka ) ( Slovene ) ⌇ praslavanska *rǫkà zrcali veliki jus ѫ ⊢ ( priča PLAST 2 : рѫ [ õ ] )
-- spomin → / spɔmíːn / ⊢ [ spomin ] ( https://en.wiktionary.org/wiki/spomin ) ( Slovene )
-- jezik → / jɛ̀ːzik / ⊢ [ jezik ] ( https://en.wiktionary.org/wiki/jezik ) ( Slovene )
-- črka → / t͡ʃə̀rka / ⊢ [ črka ] ( https://en.wiktionary.org/wiki/črka ) ( Slovene )
-- škoda → / ʃkòːda / ⊢ [ škoda ] ( https://en.wiktionary.org/wiki/škoda ) ( Slovene )
-- sprememba → / sprɛméːmba / ⊢ [ sprememba ] ( https://en.wiktionary.org/wiki/sprememba ) ( Slovene )
-- delo → / dèːlɔ / ⊢ [ delo ] ( https://en.wiktionary.org/wiki/delo ) ( Slovene )
-- molk → / mɔ́ːʋk / ⊢ [ molk ] ( https://en.wiktionary.org/wiki/molk ) ( Slovene ) ⌇ lastna izmera priplavala : odprta priča molčati zgoraj ostaja zgodovina ⊙ ⟨NE-BRIŠI⟩ 24
-- tok → / tóːk / ⊢ [ tok ] ( https://en.wiktionary.org/wiki/tok ) ( Slovene )
-- enota → / ɛnɔ̀ːta / ⊢ [ enota ] ( https://en.wiktionary.org/wiki/enota ) ( Slovene )
+- roka → / rɔ̀ːka / ⊢ [ roka ] ( https://en.wiktionary.org/w/index.php?oldid=93719715 ) ( Slovene ) ⌇ praslavanska *rǫkà zrcali veliki jus ѫ ⊢ ( priča PLAST 2 : рѫ [ õ ] )
+- spomin → / spɔmíːn / ⊢ [ spomin ] ( https://en.wiktionary.org/w/index.php?oldid=84424073 ) ( Slovene )
+- jezik → / jɛ̀ːzik / ⊢ [ jezik ] ( https://en.wiktionary.org/w/index.php?oldid=90816876 ) ( Slovene )
+- črka → / t͡ʃə̀rka / ⊢ [ črka ] ( https://en.wiktionary.org/w/index.php?oldid=89153030 ) ( Slovene )
+- škoda → / ʃkòːda / ⊢ [ škoda ] ( https://en.wiktionary.org/w/index.php?oldid=95456286 ) ( Slovene )
+- sprememba → / sprɛméːmba / ⊢ [ sprememba ] ( https://en.wiktionary.org/w/index.php?oldid=86621050 ) ( Slovene )
+- delo → / dèːlɔ / ⊢ [ delo ] ( https://en.wiktionary.org/w/index.php?oldid=93455949 ) ( Slovene )
+- molk → / mɔ́ːʋk / ⊢ [ molk ] ( https://en.wiktionary.org/w/index.php?oldid=93477902 ) ( Slovene ) ⌇ lastna izmera priplavala : odprta priča molčati zgoraj ostaja zgodovina ⊙ ⟨NE-BRIŠI⟩ 24
+- tok → / tóːk / ⊢ [ tok ] ( https://en.wiktionary.org/w/index.php?oldid=95735424 ) ( Slovene )
+- enota → / ɛnɔ̀ːta / ⊢ [ enota ] ( https://en.wiktionary.org/w/index.php?oldid=84427556 ) ( Slovene )
 ⌇ ∂ dopolnilo MOJE roke isti dih : glas ⌇ dostojanstvo ⌇ znamenje ⌇ objava ⌇ različica ⌇ učenje ⌇ potrdilo ⌇ predelava ⌇ dan ⌇ odklon ⌇ prejemnik ⌇ ton ⌇ sodba ⌇ kopija ⌇ gradivo ⌇ podelitev ⌇ zasluga — ∂ pri viru ×0 ( ## Slovene razdelek brez IPA izmere ⊙ ⟨NE-UGIBAJ⟩ 2690 )
 
 ## PLAST 4 ⌇ VRSTA ∂ ( paketi naslednjih dihov )
