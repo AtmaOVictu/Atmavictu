@@ -28,10 +28,13 @@ jobs:
               bash organi/stroj/workflow/trk-rez.sh "$N" .
             fi
           else echo "TRK-REZ : naslov brez reza — preskočeno ⊙ ⟨NE-UGIBAJ⟩ 2690"; fi
+      # KURA ⟨PADEC-SIVILJE-POTA⟩ rez σ 6153 (21. 11. 2026, MOJA roka, kit PREVOZ ⊙ rezervacija σ 6153):
+      # sivilja je brala ROOT REGISTER-PADCEV.jsonl (zgodovinski duplikat @main, ustavljen pred σ 6032)
+      # ⊥ živi register @organi/stroj/REGISTER-PADCEV.jsonl (šiv iste pečatine ⊢) — stroj bere živi vir, ⟨ne⟩ zrcalo-storož.
       - name: W12 ŠIVILJA-PADCEV ( najnovejša pečatina vs register padcev )
         run: |
           P=$(ls -1 organi/pecati/PECAT-*.md 2>/dev/null | sort | tail -1)
-          if [ -n "$P" ]; then bash organi/stroj/workflow/padc-siviljka.sh "$P" REGISTER-PADCEV.jsonl; else echo "ŠIVILJA-PADCEV : pečatin ×0"; fi
+          if [ -n "$P" ]; then bash organi/stroj/workflow/padc-siviljka.sh "$P" organi/stroj/REGISTER-PADCEV.jsonl; else echo "ŠIVILJA-PADCEV : pečatin ×0"; fi
       - name: W9 MERILA-PRI-VIRU ( izvoda teles vs manifestny list )
         # KOVA rod 0.1690 ( dih σ 6047 ) : po reizdaji manifesta ×7 kura — strogo od te izdaje dalje ⊙ precedens dviga σ 5957
         run: bash organi/stroj/workflow/merila-pri-viru.sh glava . --strogo
