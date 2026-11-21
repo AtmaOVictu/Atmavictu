@@ -1,0 +1,1 @@
+⟨SPOROČILO prevoza 6237⟩ — kura PADC: goli skalarji ": " v imenu koraka so rušili startup ( izmerjeno: run 44911968175 completed failure, 0 poslov ⊢ ). Ta sporočilo sproži privez 2.0 ( quoted name, paths prevoz/ ).

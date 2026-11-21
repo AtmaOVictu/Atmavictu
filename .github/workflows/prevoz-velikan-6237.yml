@@ -5,7 +5,7 @@ name: prevoz-velikan-6237
 on:
   push:
     branches: [rez/6237-rojstvo-01700-zlo-vrata]
-    paths: ['prevoz/VTNICA-6237.txt']
+    paths: ['prevoz/']
 permissions:
   contents: write
 concurrency:
@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: rez/6237-rojstvo-01700-zlo-vrata
-      - name: prilepi vrstico σ 6237 bajt-ito (varovalka ⟨⟲-PO-DONE⟩: vrstica na mestu ⇒ molk, ⟨ne⟩ dvojni potisk)
+      - name: 'prilepi vrstico σ 6237 bajt-ito (varovalka ⟨⟲-PO-DONE⟩ — vrstica na mestu ⇒ molk, ⟨ne⟩ dvojni potisk)'
         run: |
           set -eu
           if grep -qF -- '- rez σ 6237 ·' organi/stroj/REZ-REGISTER.md; then
