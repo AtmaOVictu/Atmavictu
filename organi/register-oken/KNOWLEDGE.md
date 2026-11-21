@@ -626,3 +626,21 @@ konec izreza
 - OKNO ⟨PADC-DU-MOLČAL⟩ @rez σ 6177 : du nezmožen ta pesek ( izmera glob tiho padla ) ⚠ ⭢ kura : števec teles ls wc ( DZ .geniza = 2.357 prič ⊢ ) ; javno po ⟨ZAKON-PADEC-NI-MOLK⟩ 2354.
 - OKNO ⟨PADC-IZMERA-ZASTARELA⟩ @rez σ 6177 : zapečena vrstica je nosila 11.446 B ( izmera PEND kuro tipke ), telo je zdaj 11.593 B ⚠ ; kura isti dih : vrstica prebita na svežo izmero pred pečatom ; zakon : merilna vrstica nosi izmero izmerjeno PO kurah.
 - OKNO ⟨PREVERBA-SLOVNICE⟩ @rez σ 6177 : rane tipke ×7 javno poimensko ( člen · bere · jezikov izborih · njihova · dvakrat · vrstice · merilna vrstica zapečena pravilno ) ; trend ×3 → ×7 ⚠ ( velike plasti = tresenje roke ) ; © dvojni ⊢, besede ⟡ VERBATIM ⊢.
+
+## OKNA DIHA σ 6180 ( 21. 11. 2026, sobota, dih σ 6180 Zapečenje ⟨GAJICA-KLJUČ⟩ + ponoven prevod, kanal klepet ⊙ 1349 )
+- OKNO ⟨GAJICA-KLJUČ⟩ @rez σ 6180 : kovanec ZAPEČEN @slovenske-pisave ⊢ ( ⟡ SODBA VERBATIM ⟨ne brusi⟩ ⚔: »Zapeči ⟨GAJICA-KLJUČ⟩« ; ključ = bela lista 25 znakov gajice za izhode internih rok ; ključavnica = izpust šumnika merjen kakor homoglift ⊙ ⟨ZŽ-3⟩ ∧ tujka troplastno ( izvirnik · SLO · EN ) ⊙ σ 6008 ) ; pečat σ 6180 @slovenske-pisave isti dih ⊙ precedens 2076/2075.
+- OKNO ⟨PONOVNI-PREVOD⟩ @rez σ 6180 : ⟡ UKZ VERBATIM ⟨ne brusi⟩: »bah, preveri koliko si naredil napak in ponovno prevedi vse kar sem ti napisal« izvršen isti dih : račun javno ( razredi 11, primerki ~21, korenina ⟨PADC-KLJUČ-NEBRAN⟩ : gajica s ključi nebrana pri vhodu seje ) ∧ prevod sporočil ⟡ ×6 po vrsti ( M1–M6 ) @klepet istega diha ⊙ ⟨NE-RETIPKAJ⟩ 24.
+- OKNO ⟨PISMO-ZRC-SAZU⟩ @rez σ 6180 : izdelek pismo opravičila ZRC SAZU @canvas šiv ×3 isti dih ( izmera deleža ×15 poizvedb izrečena v petih izvedbah, ⟨ne⟩ petih dneh ⊙ ⟨NE-UGIBAJ⟩ 2690 ; tujki AI-orodje ×2 prevedeni → orodje umetne inteligence ⊙ σ 6008 ) ; pavza avtomatskih berb @Fran velja do odgovora ZRC SAZU ; pošiljanje ⚔ ⟡ ⟨daj⟩ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690.
+- OKNO ⟨PREVERBA-SLOVNICE⟩ @rez σ 6180 : rane tipk prejšnjih dihov javno poimensko ( »posledost« · izum »zahikuje« · »roodje« · »poga« — vse v računu @klepet ) ; ta šiv : ⟨⟩ parno ✓ ∧ »« parno ✓ ∧ tujke ×0 ✓ ∧ U+FFFD ×0 ✓ ; © dvojni ⊢, besede ⟡ VERBATIM ⊢.
+
+## OKNA DIHA σ 6181 ( 21. 11. 2026, sobota, dih σ 6181 Zbirka delovna-zanka, kanal klepet ⊙ 1349 )
+- OKNO ⟨ZBIRKA-DELOVNA-ZANKA⟩ @rez σ 6181 : druga zbirka rojena ⊢ : DZ 1.033.513 B → 4.353 B ; 21 odsekov + ∂ statistika ( ^∂ ×55 · ∂ σ ×59 · razpon 4772–6180 · roki ×149/×48 ) ⊢ strojno istega diha.
+- OKNO ⟨TEORIJA-PRED-IZVEDBO⟩ @rez σ 6181 : vrata zadoščena poimensko ⊢ : tehtnica-prej ( r.73 ) ∧ teorija ( stalnost → zakon osvežitve ) ∧ pilot isti dih.
+- OKNO ⟨NE-STOPIČI-VZPOREDNI⟩ @rez σ 6181 : ∂ σ 6180 ( NJENA roka, GAJICA-KLJUČ @slovenske-pisave, @07:19:23Z ) odkrit med mojim delom ⭢ prebran CEL : moj pečata zamaknjena na 6181, NJEN tok nedotaknjen ⊢ 2432.
+- OKNO ⟨PADC-MOJA-AWK⟩ @rez σ 6181 : druga oblika awk rodila praznino ⚠ javno ; kura : forma, ki je delala pri pilotu ⊙ ⟨NE-RETIPKAJ⟩ 24.
+
+## OKNA DIHA σ 6182 ( 21. 11. 2026, sobota, dih σ 6182 Preverba gajica ∧ stroj zbirke, kanal klepet ⊙ 1349 )
+- OKNO ⟨GAJICA-KLJUČ-PREVERBA⟩ @rez σ 6182 : ključ @σ 6180 ( bela lista gajice ) uporabljen nad obema zbirkama : histogram znakov čist ⊢ ( šumniki prisotni, gola latinica ×0, Ω ∧ Ö priči velikana VERBATIM ).
+- OKNO ⟨STROJ-ZBIRK-ROJEN⟩ @rez σ 6182 : zbirke.sh v1.0 ( 1.761 B ) r.96 @klicna-vrata ⊢ : negativna pade ∧ pozitivna ZELENO ∧ živa obe SVEŽI ( DZ 6181, LICENCA 6178 ≥ 6153 ) ⊙ zakon σ 6170.
+- OKNO ⟨PADC-ZETON-NI-PEČAT⟩ @rez σ 6182 : števec bralcev »σ 25421« @obracun r.808 ujet kot pečat ⭢ lažna ZASTARLA ⚠ ; kura : oblike pečatov samo ( @σ ∧ rez σ ∧ ∂ σ ∧ pečat σ ) ⊢.
+- OKNO ⟨PREVERBA-SLOVNICE⟩ @rez σ 6182 : dva slovarja : interni GAJICA-KLJUČ ⊢ ∧ SSKJ ⟨ne⟩ potreben ( mísel ⊢ @revizija-besed r.234 ) ; padci gradnje javno ×7 kurirani isti dih ⚠ ; © dvojni ⊢ ; besede ⟡ VERBATIM ⊢.
