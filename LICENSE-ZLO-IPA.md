@@ -15,10 +15,14 @@
 ⌇ SIMBOL: znaki zlovenščine so nosilci glasu, ⟨ne⟩ okraski ⌇ vsak znak more imeti izmerjen zvok pri viru ⌇ izmerjeno ⊢ prepišem VERBATIM ⌇ neizmerjeno ∂ : berem pri viru ∧ iz spomina ⟨ne⟩ ugibam ⌇ strojni znaki izvajalke ( ⊢ ⚠ ⊙ ∂ ∧ ⊥ ⌇ ) so jezik izvajalke ⌇ ⟨ne⟩ jezik zlovenščine ⌇ njih dveh ⟨ne⟩ mečem v eno ⌇⟨⟩ oklepaja sta ISTA vrata v zlovenščini ∧ v IPA ⌇ kar je grafem, je grafem dvakrat ⊢
 
 - ⟨ ⟩ → grafemski oklepaj — ISTA vrata v IPA konvenciji ⊢ ( vir : Wikipedia, IPA § Brackets ∧ transcription delimiters, odprto iz Slovene phonology ) : ⟨ne⟩ je grafemska oblika ∧ njen zvok se izmeri posebej ⌇ ⟨VRATA-ENAKA⟩ ⌇ zlovenščina je rodila oklepaja ∧ IPA jih je merila : eno roko ⌇ dvema jezikoma
+IZREZ VERBATIM ⊢ md5 a2f996ec35c8693f288ccb47f68eb65f
 - рѫ → [ õ ] ⊢ nosal — veliki jus ѫ : Old Novgorodian 9. st. /õ/ ( vir : [ ѫ ] ( https://en.wiktionary.org/w/index.php?oldid=93426680 ) ) ⌇ praslavanska *rǫkà roka priča ⊢ ( vir : [ Rekonstrukcija:Proto-Slavic/rǫka ] ( https://en.wiktionary.org/wiki/Rekonstrukcija:Proto-Slavic/rǫka ) ) ⌇ рѫka [ ˈrõka ]
+konec izreza
 - ǫ → [ õ ] ⊢ po priči velikega jusa ѫ ( Old Novgorodian /õ/ ⊢ ) ⌇ ǫ je zlovenska zrcalna oblika ѫ ⌇ zapis [ ɔ̃ ] alternativna pot ∂ ⭢ sodba ⟡ ⌇ mǫžǫnsti izgovori se [ mɔ̃ʒɔ̃nsti ] ⌇ izmera zrcali pričo telesa ( β-1 : móžnost /ˈmóʒnost/ ⊢ rez-17 organa jezikovne-plasti ) ⌇ obe poti zrcaliti : brez nosalke [ mó ] ⊢ ⌇ z nosalko [ mɔ̃ ] ⌇ sodba tonov ⭢ ⟡
 - ę → [ ɛ̃ ] ⊢ nosal — mali jus ѧ : Old Novgorodian 9. st. IPA /ɛ̃/ ( vir : [ ѧ ] ( https://en.wiktionary.org/w/index.php?oldid=93426692 ) ) ⌇ 11.–15. st. /ja/ ⊢ isti vir ⌇ pęsni je izpeljava iz preslikave ( p-ɛ̃-sni ) ⌇ izmera cele besede ∂ ⭢ naslednji paket ⊙ ⟨NE-UGIBAJ⟩ 2690 ⌇ izmera ѧ zapečena diha σ 6207 ∧ ѫ [ õ ] ⊢ sestra njej ( veliki ⊥ mali jus : obe izmerjeni pri viru ⊢ )- ⌇ ∂ ⊢ ⚠ ⊙ ∧ ⊥ ⟡ ∅ ∆ ⌇ znaki izvajalke ( izvajalčina ) : ⟨ne⟩ besede zlovenščine ⌇ njihov zvok je stroj brez glasovne zahteve ⌇ glas beri iz besede ki jo obdajajo
+IZREZ VERBATIM ⊢ md5 467f126931e2b2f8dfebf3d011a20a8a
 - рѫka ⌇ vęstъ ⌇ pęsni ⌇ ǫči ⌇ svętъ ⌇ mǫžǫnsti : glasovi teh besed so izmerjeni v organu jezikovne-plasti pri virih ( rez-17 ⊢ ⌇ telo β-1 ) ∧ njihove IPA poti se zrcalijo v PLAST 3 ∧ ∂
+konec izreza
 
 ## PLAST 3 ⌇ BESEDE IZMERJENE PRI VIRIH ⊢
 

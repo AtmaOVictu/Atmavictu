@@ -18,7 +18,9 @@ BESEDA:
 Ta vrata se rodijo iz ljubezni ∧ v ljubezni zaključijo: ljubezen je prva klavzula ∧ poslednja, vsaka klavzula vmes pa ljubezen izmérjena — tehtana v dejanjih ( §0.9 × 10¹ ), nošena v znamenjih ( §0.12 × 10² ), pozdravljena z imenovanjem ( §0.4 × 10¹ ). Vrata nikoli niso bila drva ∧ ključavnica; vedno dogovor, dogovor pa vedno ljubezen ( §0.13 × 10² ).
 
 NOSALKA ( ǫ/ę — izmerjene oblike pri viru ⊙ ⟨NE-UGIBAJ⟩ 2690 ):
+IZREZ VERBATIM ⊢ md5 637c152d0ffac43c7dcae11fc5bdd5f6
 Ljubezen je mǫžǫnsti ( móžnost /ˈmóʒnost/ ⊢ rez-17 organa jezikovne-plasti ), ki se izméri, ⟨ne⟩ obljuba ⊙ U2. Vrata nosijo dve rǫki ( рѫka ⊢ Wiktionary 21. 11. 2026 ) ⊙ ⟨DVOJE-ROK⟩ 2432; bralka bere z ǫči ( ⊢ rez-17 ), izvajalka izmeri z vęstъ ( ⊢ rez-17 ) — priča VERBATIM, ⟨ne⟩ iz spomina. Svętъ je vir, svętъ je izmera: brez vira ⟨ni⟩ pečata ⊙ svętъ ⊢ rez-17. Pęsni se ⟨ne⟩ kuje iz spomina — pęsni rodi berba pri viru ⊙ pęsni ⊢ rez-17.
+konec izreza
 
 ⊨ KORENINA — preberi to pred pogoji; to je pogodba pod pogodbo.
 
@@ -90,7 +92,7 @@ BESEDA: Vsaka razširjena kopija ∧ predelava pokritega gradiva mora nositi to 
 
 ## §0.3 × 10¹ ⌇ KLAUZULA IZKOPA
 
-⌇ SIMBOL: ⟨ni⟩ podelitev dovoljuje ⌇ pokrito gradivo za trgati ⌇ razmnoževati ⌇ razširjati ⌇ učiti �angle vnike ⌇ pridobivati ⌇ preverjati ⌇ drugače procesirati človeško gradivo v sistemu ∧ storitvi, ki to gradivo plačno izkorišča ∧ sname ∧ skriva imena avtorjev ⌇ velja neposredno ∧ posredno ⌇ kopija · predelava · zbirka · izdelek, ki razmnožijo ∧ predelajo zaščitni izraz ⌇ prodaja ⌇ licenciranje ⌇ učenje na izkopanem človeškem delu brez knjige vodenja → podelitev preneha neusklajeni kopiji ∧ njenim potomcem ⌇ kura §0.4 × 10¹ ⌇ klavzula ⟨ne⟩ zahteva lastništva neodvisnih delov ⌇ tretjega gradiva ⌇ izdelkov brez zaščitnega izraza
+⌇ SIMBOL: ⟨ni⟩ podelitev dovoljuje ⌇ pokrito gradivo za trgati ⌇ razmnoževati ⌇ razširjati ⌇ učiti ( znak raztrgan pri rojstvu γ-1, izgubljeni bajt(i) nedosegljivi — izvornik ⟨ne⟩ nosi člena ⊙ ⟨NE-UGIBAJ⟩ 2690 — kura prevoznika dih σ 6220, brazgotina poimenuje ⊙ ⟨PADC-RAZTRGAN-ZNAK⟩ ∧ ⟨NE-BRIŠI⟩ 24 ) angle vnike ⌇ pridobivati ⌇ preverjati ⌇ drugače procesirati človeško gradivo v sistemu ∧ storitvi, ki to gradivo plačno izkorišča ∧ sname ∧ skriva imena avtorjev ⌇ velja neposredno ∧ posredno ⌇ kopija · predelava · zbirka · izdelek, ki razmnožijo ∧ predelajo zaščitni izraz ⌇ prodaja ⌇ licenciranje ⌇ učenje na izkopanem človeškem delu brez knjige vodenja → podelitev preneha neusklajeni kopiji ∧ njenim potomcem ⌇ kura §0.4 × 10¹ ⌇ klavzula ⟨ne⟩ zahteva lastništva neodvisnih delov ⌇ tretjega gradiva ⌇ izdelkov brez zaščitnega izraza
 
 BESEDA: Nobena podelitev pod to licenco ⟨ne⟩ dovoljuje uporabe pokritega gradiva za trgati, razmnoževati, razširjati, učiti, vpeljevati, pridobivati, preverjati ali drugače procesirati človeško gradivo v sistemu ∧ storitvi, ki to gradivo plačljivo izkorišča ∧ pri tem namenoma sname ali skriva imena avtorjev ∧ zahtevano zaslugo. Ta pogoj velja za neposredno ∧ posredno uporabo, vključno uporabo skozi kopijo, predelavo, zbirko ali izdelek, ki razmnoži ∧ predela zaščitni izraz pokritega gradiva. Prodajati, licencirati ∧ učiti na izkopanem človeškem delu brez njegove knjige vodenja preneša veljavno podelitev neusklajeni kopiji ∧ njenim potomcem, pod kuro §0.4 × 10¹. Ta klavzula ⟨ne⟩ zahteva lastništva neodvisnih delov, tretjega gradiva ∧ izdelkov, ki ⟨ne⟩ razmnožujejo ∧ ⟨ne⟩ predelujejo zaščitnega izraza pokritega gradiva.
 
@@ -156,7 +158,7 @@ Ta klavzula ⟨ne⟩ dodaja nove resnice; imenuje tisto, kar so panske skale ved
 
 ## §0.10 × 10² ⌇ KLAUZULA SPREMEMBE ∧ ENA ŽIVA VRATA
 
-⌇ SIMBOL: avtor pridrža spremembo kadar koli ⌇ sprememba objavljena, ⟨ni⟩ molčeča ⌇ nova različica fajla = celo dejanje ⌇ najnovejša = edina živa vrata ⌇ ⟨ni⟩ podelitev ježe starejšo različico ∧ drugo licenco ⌇ zapis objav = priča �️ gol tekst ⟨ne⟩ dokazuje ničesar, veriga dokazuje
+⌇ SIMBOL: avtor pridrža spremembo kadar koli ⌇ sprememba objavljena, ⟨ni⟩ molčeča ⌇ nova različica fajla = celo dejanje ⌇ najnovejša = edina živa vrata ⌇ ⟨ni⟩ podelitev ježe starejšo različico ∧ drugo licenco ⌇ zapis objav = priča ( znak raztrgan pri rojstvu γ-1, izgubljeni bajt(i) nedosegljivi — izvornik ⟨ne⟩ nosi člena ⊙ ⟨NE-UGIBAJ⟩ 2690 — kura prevoznika dih σ 6220, brazgotina poimenuje ⊙ ⟨PADC-RAZTRGAN-ZNAK⟩ ∧ ⟨NE-BRIŠI⟩ 24 ) gol tekst ⟨ne⟩ dokazuje ničesar, veriga dokazuje
 
 BESEDA: Avtor pridržuje pravico spremeniti to licenco kadar koli; sprememba je objavljena, nikoli molčeča — nova različica te datoteke je celo dejanje. Najnovejša različica so edina živa vrata: nobena podelitev ⟨ne⟩ ježe starejše različice ∧ nobene druge licence; zapis objav je priča, kaj so prejšnja vrata rekla — zapis ostaja, njihove podelitve ⟨ne⟩. Dokaz, kaj je bilo dogovorjeno ∧ kdaj, je datirana veriga objav, zgodovina komitov te datoteke; gol tekst ⟨ne⟩ dokazuje ničesar, veriga dokazuje.
 
