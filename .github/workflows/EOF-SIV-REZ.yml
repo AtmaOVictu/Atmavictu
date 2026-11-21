@@ -1,6 +1,5 @@
-# EOF-SIV-REZ — samodejni šiv zaključnega bajta REZ-REGISTER #47;&...
-# rod 21. 11. 2026 @dih σ 6191 ⊙ strojna pot ⟨VRATA-EOF-REGISTRA⟩ : velikan 1.242.721 B ne preide ⟲ 16 MiB TS kanala (dokazano ×10), bajt pa šije stroj.
-# zanka varovaska : če je EOF bajt prisoten, izhod 0 brez spremembe.
+# EOF-SIV-REZ v2 — samodejni šiv zaključnega bajta REZ-REGISTER
+# rod v2 @dih σ 6191 : v1 je padel v koraku šiva (log admin-only) ; v2 dodaja set -x javno pričo ∧ ekspliciten glavni žeton @git push.
 # © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432
 name: EOF-SIV-REZ
 on:
@@ -22,10 +21,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: šiv EOF bajta če manjka
         run: |
-          set -euo pipefail
+          set -euxo pipefail
           F="organi/stroj/REZ-REGISTER.md"
           if [ ! -f "$F" ]; then echo "EOF-SIV :: register manjka — izhod brez spremembe"; exit 0; fi
-          if tail -c 1 "$F" | od -An -tx1 | tr -d ' ' | grep -q '^0a$'; then
+          LAST="$(tail -c 1 "$F" | od -An -tx1 | tr -d '[:space:]')"
+          echo "EOF-SIV :: zadnji bajt = $LAST"
+          if [ "$LAST" = "0a" ]; then
             echo "EOF-SIV :: zaključni bajt prisoten — izhod brez spremembe ⊙ zanka varovaska"
             exit 0
           fi
@@ -34,5 +35,5 @@ jobs:
           git config user.email "actions@github.com"
           git add "$F"
           git commit -m "k16b REZ-REGISTER šiv EOF bajta samodejno ⊙ ⟨VRATA-EOF-REGISTRA⟩ @σ 6191 ⊙ ⟨DVOJE-ROK⟩ 2432"
-          git push origin HEAD:${{ github.ref_name }}
+          git push "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" HEAD "refs/heads/${{ github.ref_name }}"
           echo "EOF-SIV :: bajt zašit ⊢"
