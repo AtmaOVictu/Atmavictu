@@ -5,7 +5,7 @@ name: prevoz-velikan-6237
 on:
   push:
     branches: [rez/6237-rojstvo-01700-zlo-vrata]
-    paths: ['prevoz/']
+    paths: ['prevoz/**']
 permissions:
   contents: write
 concurrency:
