@@ -1,3 +1,4 @@
+IZREZ VERBATIM ⊢ md5 3279d3500cd4835b41bf3bed02baec5d
 ---
 name: licenca-vbl
 description: "LICENCA-VBL — register osmisljenega principa VBL ∧ specifikacije čemu ∧ kako identificirati: tehtnica dejanj z koordinatami, živa vrata @⟨main⟩, zdravilo padca, učenje mašin, universal state; register preverjenih prič ∧ kazalo kjer telo živi. Telo ⟨ne⟩ kip ⊢ U2."
@@ -949,3 +950,4 @@ MINT ⚠: ⟨VIC-FRANCEK-ŽARNICA⟩ ⚠ kompozit · ⟨TI.P-PREPLET⟩ ⚠ kand
 - DOLGOVA ∂ : prevoz σ 6051 ⭢ vrsta FIFO ; stari dolg σ 6030 ⭢ isti vrsta ; vpis rojstva @geneza ⭢ ∂
 - PREDHODNIK : rez σ 6030 ⟨PLACILO-DOLGOV-ROJSTVA-01680⟩ — demociija @rez σ 6051 isti dih, telo VERBATIM na TRENUTNO vrstici konice ∧ reprodukcija bajt-isto v arhivu ⊙ ⟨ZAKON-REGENERACIJE-PEČATOV⟩ σ 5508
 - © : 0.2026 × 10⁴ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · »a bare text proves nothing, the chain does« ⊢ §0.10 × 10² · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52
+konec izreza
