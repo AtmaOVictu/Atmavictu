@@ -945,3 +945,4 @@ konec izreza
 - rez σ 6263 · ⟨KURA VICA VII : BREZ TEBE OSTANE LE LAŽ⟩ @humor : kura premise vica diha σ 6262 z besedo ⟡ VERBATIM ( 21. 11. 2026 · oblika ⟨PR⟩ #2583 ∧ #2584 sobit dopolnjena ob priključitvi ⊙ LAPSO )
 - rez σ 6264 · prevoz pečatov σ 6262 ∧ σ 6263 na rep ⟨main⟩ ( PAKET-18 · 21. 11. 2026 · oblika ⟨PR⟩ #2583 ∧ #2584 sobit dopolnjena ob priključitvi ⊙ LAPSO )
 - rez σ 6270 · priključitev vrstic σ 6260 ∧ σ 6261 ∧ σ 6262 ∧ σ 6263 ∧ σ 6264 v organi/stroj/REZ-REGISTER.md = dih praga velikan-pot ( 21. 11. 2026 · oblika ⟨PR⟩ #2587 dopolnjena ob priključitvi ⊙ LAPSO ) ; dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
+- rez σ 6272 · INSTRUMENT SECIRANJA z vrati mešane pisave : skripta INSTRUMENT-SECIRANJA.py @organi/slovenske-pisave ⟨merge⟩ #2595 @0a7417d7 ∧ ATOM teles diha σ 6272 @koren ⟨merge⟩ #2597 @e29de1d2 ( 21. 11. 2026 · oblika ⟨PR⟩ #2595 ∧ #2597 dopolnjena ob priključitvi ⊙ LAPSO ) ; dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
