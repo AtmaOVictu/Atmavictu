@@ -55,10 +55,10 @@ jobs:
             try {
               rep = fsx.readFileSync('organi/stroj/REZ-REGISTER.md', 'utf8');
               lines.push('rep_konec=' + JSON.stringify(rep.slice(-90)));
-              lines.push('stara_je_ziva=' + rep.includes('PREVOz'.replace('z', 'ZIT')) .toString());
+              lines.push('stara_6419_zivi=' + rep.includes('rez \u03c3 6419 \u00b7 2026-11-22 \u00b7 PREVOZ-KOMPOZIT \u03c3 6419').toString());
             } catch (e) { lines.push('rep_napaka=' + e.message); }
-            const doKure = rep.includes('rez \u03c3 6421 \u00b7 2026-11-22 \u00b7 PREVOZ-KOMPOZIT') === false;
-            lines.push('kura_ze_prisita=' + (!doKure).toString());
+            const doKure = run('git status --porcelain').out.includes('REZ-REGISTER');
+            lines.push('umazan_register=' + doKure.toString());
             if (doKure) {
               const st = run('git status --porcelain').out.trim();
               lines.push('status=' + st.slice(0, 200));
