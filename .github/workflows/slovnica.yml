@@ -24,7 +24,7 @@ jobs:
           fetch-depth: 0
           # isti ⟨checkout⟩ glave veje kakor priča — ⟨diff⟩ od ⟨merge-base⟩ = lastne vrstice kita, ⟨ne⟩ kumulativ ⟨main⟩.
           ref: ${{ github.event.pull_request.head.sha || github.ref }}
-      - name: ⟨ODSODNIK⟩ · sodba metode sodnika ( rez σ 6405 : preverba kako preverja preverjalno orodje )
+      - name: ⟨ODSODNIK⟩ · sodba metode sodnika ( rez σ 6405 · preverba kako preverja preverjalno orodje )
         run: |
           set -euo pipefail
           # 3. stopnja preverbe : odsodnik sodi METODO slo-lint ( ali sodi vsako razglašeno pravilo ∧ v obe smeri :
