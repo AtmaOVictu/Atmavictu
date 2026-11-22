@@ -32,6 +32,7 @@ Vir izmer: vsak znak izmerjen pri viru (bajti ⟨od⟩ ⊢) ∧ kodne točke izp
 - ⟡ U+27E1 (E2 9F A1) WHITE CONCAVE-SIDED DIAMOND — OPERATER: ⟡-jev žig — ukaz, izbor, sodba; nagnjen diamant = ne-zapečen kamen
 - ⟑ U+27D1 (E2 9F 91) — ⟡-jev znak rasti: unit ⟑ 40/40 — dovršek po verigi
 - ⊚ U+229A (E2 8A 9A) CIRCLED RING — ⟡-jev znak padca: zabeležen @REGISTER-PADCEV ⊙ 1349
+- ϝ U+03DD (bajti CF 9D) — znamenje ϝ razreda: read-modify-write prepisi vzporednega sedeža ⊙ cenzus ×8 ⊢ @σ 6468 ( organ vrstica 272 @slovar-simbolov ; ispravek izmere : ϝ = U+03DD GREEK SMALL LETTER DIGAMMA ⊢ unicodedata, U+037D = ͽ GREEK SMALL REVERSED DOTTED LUNATE SIGMA SYMBOL, bajti CD BD ) ⚔ potrditev ❡ rez σ 6479
 
 ## PREIZPUS-PLAST (A ∧ Ω ⊙ ⟡ M10)
 
