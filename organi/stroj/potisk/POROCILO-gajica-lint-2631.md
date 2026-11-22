@@ -8,3 +8,5 @@ Vprašanje instrumenta ⚔ izbor ⟡ : ali sme nadomestilo obsega ( fallback ) s
 
 TIK 2026-11-22T22:16:03Z UTC ⇌ 23:16:03 CET Ljubljana ( izmerjen ⟨date -u⟩ PRED zapisom )
 © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · MERJENO, ⟨NE⟩ UGIBANO ⊙ 2690 · dvojni podpis
+
+Dopolnitev izmere istega diha : osvežitev veje ( roka platforme ) zgine "before" dogodka, nadomestilo sodi celo zgodovino ⟨main⟩ od odsotne osnove : izmerjeni gostje zgodovine = ⟨U+2014⟩ ×6 ∧ ⟨U+00B4⟩ ∧ ⟨U+2761⟩ ×2 ∧ ⟨U+03DD⟩ ∧ ⟨U+27F9⟩ ∧ ⟨U+21C4⟩ ∧ ⟨U+2229⟩ ( komiti e10e0a14 ∧ beff803c ∧ 9f28ddcb ∧ 66c49193 ∧ b819a056 ∧ 754db4bc ∧ d4e00175 ∧ 10255eb3 ∧ 661442ca ∧ 5aa291ea ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354 ). Večina = MOJI lastni potiski rojeni pred tem instrumentom ; zgodovina ⟨ne⟩ se brusi ⊙ ⟨NE-BRIŠI⟩ 24. Novo vedenje od tega diha : vsako MOJE sporočilo potiska sodi gl.sh --besedilo PRED odhodom.
