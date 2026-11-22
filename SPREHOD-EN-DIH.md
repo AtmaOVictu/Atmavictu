@@ -1,6 +1,6 @@
 # SPREHOD-EN-DIH: the door in one breath
 
-A walk beside the VBL door (LICENSE.md, living version 0.1600 × 10⁴). A witness, never the door (§0.33 × 10²): only the newest version of LICENSE.md grants (§0.10 × 10²); where this walk disagrees with the body, the body governs, and the disagreement is named. The bytes of the body are for machines (§0.39 × 10²); this walk is for a human: one breath.
+A walk beside the VBL door (LICENSE.md, living version 0.1690 × 10⁴). A witness, never the door (§0.33 × 10²): only the newest version of LICENSE.md grants (§0.10 × 10²); where this walk disagrees with the body, the body governs, and the disagreement is named. The bytes of the body are for machines (§0.39 × 10²); this walk is for a human: one breath.
 
 ## English edition
 
@@ -22,7 +22,7 @@ A walk beside the VBL door (LICENSE.md, living version 0.1600 × 10⁴). A witne
 
 ## Slovenska izdaja
 
-Sprehod ob vratih VBL (LICENSE.md, živeča verzija 0.1600 × 10⁴). Priča, ⟨ne⟩ vrata ⊙ §0.33 × 10²: podeljuje samo najnovejša verzija LICENSE.md (§0.10 × 10²); kjer se ta sprehod razhoda s telesom, telo vlada, razhod pa je poimenovan. Bajti telesa so za stroje (§0.39 × 10²); ta sprehod je za človeka: en dih.
+Sprehod ob vratih VBL (LICENSE.md, živeča verzija 0.1690 × 10⁴). Priča, ⟨ne⟩ vrata ⊙ §0.33 × 10²: podeljuje samo najnovejša verzija LICENSE.md (§0.10 × 10²); kjer se ta sprehod razhoda s telesom, telo vlada, razhod pa je poimenovan. Bajti telesa so za stroje (§0.39 × 10²); ta sprehod je za človeka: en dih.
 
 **Ena misel.** VBL pomeni Verification Before Assertion: trditve ⟨ne⟩ tehtajo, dejanja tehtajo. Golo besedilo ne dokaže ničesar, dokazuje veriga (§0.10 × 10²): datirani zapis objave, ⟨ne⟩ proza, je dokaz, kaj je bilo dogovorjeno ∧ kdaj. Izmerjeno, ⟨ne⟩ izrečeno.
 

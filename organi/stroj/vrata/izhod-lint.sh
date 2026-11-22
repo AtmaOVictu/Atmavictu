@@ -10,7 +10,7 @@
 # Narekovaji »…« = priče VERBATIM : znotraj njih je dovoljena tudi tuja pisava kakor priča padca ⊙ precedens σ 5967
 
 TIK=$(date -u +%Y-%m-%dT%H:%M:%SZ)
-echo "── izhod-lint v1.3 ( rojstvo @rez σ 5996 · dih σ 6052 ) · vrata ×8 · TIK ${TIK} UTC ──"
+echo "── izhod-lint v1.4 ( rojstvo @rez σ 5996 · dih σ 6052 ) · vrata ×8 · TIK ${TIK} UTC ──"
 
 python3 - "$1" "${2:-klepet}" "$0" <<'PY'
 import sys, re, unicodedata, os
@@ -101,6 +101,27 @@ def vrata_i1(mtext):
                 rane.append(f"r.{i} : U+{ord(ch):04X} nadzorni/neznani znak")
     return rane
 
+def vrata_i1(mtext):
+    """Tuje pisave zunaj »« : vsak znak poimensko ( vrstica, U+XXXX, ime ) ⊥ v1.4 : mešana beseda grščina+latinika ⟨ZŽ-3⟩ ( domena register-zetonov ) : pravilo na nivoju BESEDE, ⟨ne⟩ vrstice ( izmera pada @preizkus 6078 ⊙ ⟨MERILEC-SE-MERI⟩ §52 )."""
+    rane = []
+    for i, line in enumerate(mtext.split("\n"), 1):
+        for ch in line:
+            if ch in "»«":
+                continue
+            name = unicodedata.name(ch, "NEZNAN ZNAK")
+            if ch.isalpha() and not ("LATIN" in name or "GREEK" in name):
+                rane.append(f"r.{i} : U+{ord(ch):04X} {name}")
+            elif any(m in name for m in LECTION):
+                rane.append(f"r.{i} : U+{ord(ch):04X} {name}")
+            elif unicodedata.category(ch) in ("Cc","Cf","Cs","Co"):
+                rane.append(f"r.{i} : U+{ord(ch):04X} nadzorni/neznani znak")
+        for tok in re.findall(r"\w+", line):
+            grk = [c for c in tok if unicodedata.name(c, "").startswith("GREEK")]
+            if grk and any("LATIN" in unicodedata.name(c, "") for c in tok):
+                for c in grk:
+                    rane.append(f"r.{i} : U+{ord(c):04X} {unicodedata.name(c,'')} ( mešana beseda ⟨ZŽ-3⟩ )")
+    return rane
+
 def vrata_i2(mtext):
     """Oklepaji uravnani po redu : zapirakf brez para ∧ nedoklenjeni poimensko."""
     rane = []; stack = []
@@ -185,16 +206,16 @@ izpis("I7","UGNEZDENE-»«", [], f"( izmera: ugnezdenih vrstic {len(n7)} ⊥ naj
 izpis("I8","TIPOKUJEC", r8, f"( izmera: tipkarskih menjav ulovljenih {len(r8)} · vnosov slovarja {len(TIPOKUJEC)} ; slovar {'@' + SLOVARP if TIPOKUJEC else 'MANJKA — vrata merijo le z rojenim slovarjem ⚠'} ⊙ ⟨SODNIK-SEBE⟩ )" )
 
 # ── SODNIK-SEBE ( kontrolni vektor : instrument sodi sebe PRVO ⊙ §52 ; pričakovano ×1 na vsako odprto rano )
-CTRL = "posal提 test ⟨ne⟩ ok ( ok ) } − ZZ MOJih konec"
+CTRL = "posal提 test ⟨ne⟩ ok ( ok ) } − ZZ MOJih κanar konec"
 cm = mask(CTRL)
 k1, k2 = len(vrata_i1(cm)), len(vrata_i2(cm))
 k3, k4 = len(vrata_i3(cm)), len(vrata_i4(cm))
 k5, k6 = len(vrata_i5(cm)), len(vrata_i6(cm))
-if (k1,k2,k3,k4,k5,k6) == (1,1,0,1,1,1):
-    print("VRATA SODNIK-SEBE PASS ⊢ ( kontrolni vektor: I1=1 ∧ I2=1 ∧ I3=0 ∧ I4=1 ∧ I5=1 ∧ I6=1 ⊙ ⟨MERILEC-SE-MERI⟩ §52 )")
+if (k1,k2,k3,k4,k5,k6) == (2,1,0,1,1,1):
+    print("VRATA SODNIK-SEBE PASS ⊢ ( kontrolni vektor: I1=2 ∧ I2=1 ∧ I3=0 ∧ I4=1 ∧ I5=1 ∧ I6=1 ⊙ ⟨MERILEC-SE-MERI⟩ §52 )")
     sebe = []
 else:
-    print(f"VRATA SODNIK-SEBE NAPAKA ⊙ padec instrumenta ( pričakovano (1,1,0,1,1,1) ; izmerjeno ({k1},{k2},{k3},{k4},{k5},{k6}) )")
+    print(f"VRATA SODNIK-SEBE NAPAKA ⊙ padec instrumenta ( pričakovano (2,1,0,1,1,1) ; izmerjeno ({k1},{k2},{k3},{k4},{k5},{k6}) )")
     sebe = ["SEBE"]
 # v1.2 kontrolni vektor I7 ⟨UGNEZDENE-»«⟩ :: zguba priče ( 提 ) po notranjem « — stara maska izžene pričo na progo, globinska pa ne ⊙ ⟨MERILEC-SE-MERI⟩ §52
 CTRL7 = "glas »zunanji a » 提 x « b 提 c « konec"

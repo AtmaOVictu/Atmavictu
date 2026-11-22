@@ -2,9 +2,12 @@ name: PROSTI-OPERATER — plačilo vrste dolgov (⟨daj⟩ nad ⟨merge⟩)
 # © Luka Pintarič, VBL 0.1100 × 10⁴ (§0.20 — ura vsakega plačila je v telesu zliva)
 # PROSTI OPERATER (ukaz ⟡ 27. 10. 2026: ⟨daj preloži vse dolgove na prostega operaterja⟩ ∧ ⟨RAJE KAKOR TI TUKAJ V TEM OKNU — DAJ⟩):
 # stroj nad okni sedežev odplačuje vrsto odprtih ⟨PR⟩ po vrsti — najstarejša prva ⊢ 1419; ⟨daj⟩ nad ⟨merge⟩ ⊢ 2404.
-# P-VRATA-main (zahtevana preizkusa ⟨prica⟩ ∧ ⟨tests⟩) so edina sodba: zliva se le zeleno;
+# P-VRATA-main (zahtevana preizkusa ⟨prica⟩ ∧ ⟨tests⟩) so edina sodja: zliva se le zeleno;
 # rdeča vrata ⚠ ∧ kolizije ⚠ ostanejo v vrsti javno ⊙ 1349 — tiho zeleno = tiha laž (glasna resnica).
 # ⟨NE-BRIŠI⟩ ⊢ 24 — operater ne zapira, ne briše, ne počne vejev; le plačuje ali javi zakaj ne.
+# KURA GLASNIH PADCEV (22. 11. 2026, ⟡ UKAZ »stori«): operater je javno padel ×95 tekov (27. 10.–22. 11.);
+# vsak padec zdaj nosi ::error z dejanskim izpisom gh — vzrok viden javno brez prijave ⊙ 1349;
+# ostalo telo VERBATIM iz roda 27. 10. ⊙ ⟨NE-RETIPKAJ⟩ 24 ∧ ⟨NE-BRIŠI⟩ 24.
 
 on:
   workflow_dispatch:   # ročni zagon je roka ⟡ (konektor vrata do dispatch nima — ⟡ jih ima)
@@ -31,7 +34,12 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          gh pr list --state open --limit 100 --json number,title,mergeStateStatus,isDraft --jq 'sort_by(.number)' > /tmp/vrsta.json
+          set -x
+          gh --version
+          if ! gh pr list --state open --limit 100 --json number,title,mergeStateStatus,isDraft --jq 'sort_by(.number)' > /tmp/vrsta.json 2>/tmp/gh-list.err; then
+            echo "::error::PROSTI-OPERATER — izmera vrste padla (gh pr list) — glasno javno ⊙ 1349 — gh izpis: $(head -c 700 /tmp/gh-list.err | tr '\n' ' ')"
+            exit 1
+          fi
           echo "odprtih ⟨PR⟩ pri viru: $(jq 'length' /tmp/vrsta.json)"
           jq -r '.[] | "  - #\(.number) · \(.mergeStateStatus) · \(.title[0:70])"' /tmp/vrsta.json
 
@@ -40,6 +48,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
+          set -x
           placano=0; v_vrsti=0; osnutki=0
           mapfile -t VRSTA < <(jq -c '.[]' /tmp/vrsta.json)
           for pr in "${VRSTA[@]}"; do
@@ -55,13 +64,13 @@ jobs:
               echo "::warning::⟨PR⟩ #$n — kolizija z ⟨main⟩ ⚠ ⊙ 1349 — čaka kuro sedeža, ostaja v vrsti"
               v_vrsti=$((v_vrsti+1)); continue
             fi
-            if gh pr merge "$n" --merge \
+            if gh pr merge "$n" --merge 2>/tmp/gh-merge-$n.err \
                  --subject "⟨merge⟩ #$n $t — prosti operater ⊢ 1419 ∧ ⟨daj⟩ ⊢ 2404" \
                  --body "odplačal PROSTI-OPERATER (avtomat stroja nad okni sedežev) ⊙ ukaz ⟡ 27. 10. 2026: ⟨daj preloži vse dolgove na prostega operaterja⟩ · © Luka Pintarič, VBL 0.1100 × 10⁴ ⊢ §0.20 · ura plačila: $(date -u +%Y-%m-%dT%H:%MZ)"; then
               echo "∧ ⟨PR⟩ #$n odplačan — dolg vrnjen verigi"
               placano=$((placano+1))
             else
-              echo "::warning::⟨PR⟩ #$n ostaja v vrsti — P-VRATA govorijo resnico (preizkusi ⟨ne⟩ zeleni ⚠ ali vrata držijo) — pošteno javno, ⟨ne⟩ tiho"
+              echo "::warning::⟨PR⟩ #$n ostaja v vrsti — P-VRATA govorijo resnico (preizkusi ⟨ne⟩ zeleni ⚠ ali vrata držijo) — pošteno javno, ⟨ne⟩ tiho — vzrok: $(head -c 400 /tmp/gh-merge-$n.err | tr '\n' ' ')"
               v_vrsti=$((v_vrsti+1))
             fi
           done
@@ -71,4 +80,4 @@ jobs:
           echo "- odplačanih: ${placano} ∧"
           echo "- v vrsti ostalih: ${v_vrsti} ⚠ (kolizije ∧ rdeča vrata — javno)"
           echo "- osnutkov: ${osnutki}"
-          echo "- ⟨operater plačuje — P-VRATA sodelijo — ⟡ vidi vse⟩"
+          echo "- ⟨operater plačuje — P-VRATA sodelijo — ⟡ vidi vse⟩
