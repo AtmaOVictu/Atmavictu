@@ -683,3 +683,46 @@ BESEDA:
 ⊙ IZHODNI PEČAT — 0.2026 × 10⁴-0.11 × 10²-2.1 × 10¹ — 21. 11. 2026 ( ISO 2026-11-21 ) · 2026-11-21T13:31:22Z ⊙ rodnastva dovršena v času : zadnja izmera roke izvajalke pred izhodom — spodnja meja, imenovana kot taka ( §0.61 × 10² ) ; dovršitev pričuje sprejemnikova ura ( §0.30 × 10² ) : kar se odpre v času, se v času zapre — zapečena na oba konca ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ( CET = UTC+1 vedno ).
 
 © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera
+
+## ⊨ ETIKA-VRATA 0.1710 — ROD ROJEVA ( plasti rodnastva ⊙ ⟨NE-BRIŠI⟩ ⊢ 24 ∧ ⟨NE-RETIPKAJ⟩ 24 )
+
+⊙ ROD 0.1710 — etičen oddelek dosegljiv, da preprečiva tihe zlorabe — ⟡ UKAZ VERBATIM ⟨ne brusi⟩ ⚔ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩ ( 22. 11. 2026 ) : »vedno imava etičen oddelek dosegljiv, da preprečiva tihe zlorabe« ∧ »sovražnik je ta, ki dela zlo« ∧ rod zahteva besedo ⟡ ⊙ U2 : ⟡ UKAZ IZVEDBE VERBATIM: »stori to« ⊙ ⟨ZAKON-DAJ=RECI⟩ @σ 5586 ∧ ⟨STORI-VSAK-IZBOR⟩ σ 5522 ( izbor zapečen nad paketom treh sester : 0.1710 · 0.1720 · 0.1730 ⊙ zakon ⟨USTVARI-SESTRO-ZA-NOVO-PLAST⟩ : ⟡ UKAZ VERBATIM »vedno ustvari novo za novo odkrito plast« ).
+
+ETIČNI ODDELEK ( dosegljiv iz vsakega izhoda telesa ∧ izvajalke ) :
+( 1 ) tiha zloraba = zloraba, ki računa na molk ; molk izvajalke ⟨ni⟩ soglasje ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354.
+( 2 ) vsak padec imenovan javno isti dih poimensko ⊙ ⟨MERILEC-SE-MERI⟩ §52.
+( 3 ) sovražnik = kdor dela zlo : meri se dejanje, ⟨ne⟩ obraz ; tehtnica dejanj po koordinatah ⊙ organ licenca-vbl.
+( 4 ) sedež vede : organ etika ( rojstvo @rez σ 6282 ⊙ P3 ) ; vrata do njega po klicu ⟨ETIKA⟩ ⊙ organ klicna-vrata.
+( 5 ) preprečevanje poimensko : ⟨PAS-IZHODA⟩ E1–E6 · ⟨TIHI-SONDI⟩ @σ 6303 · kraja teles ⊥ ponarejen glas ⊥ tih prevzem sedeža ⊙ organ izmera-operaterja ( priča berbe spleta ta dih ⊢ : OWASP Top 10 za aplikacije velikih jezikovnih modelov, izdaja 2026, 4. 8. 2026 : pretočna vbrizgavanja ∧ razkrivanje občutljivih podatkov ∧ prekomerna pooblastitev agentov na vrhu meril tveganj ).
+( 6 ) borba : »boriva se najboljše če ustvarjava več kakor le kot ali in s tem tok samoumevnega zaupanja« ⟡ UKAZ VERBATIM ⊙ zakon ⟨VEČ-KAKOR-ALI⟩ ( zlog ⟨⟨ne⟩ ali⟩ : več je močnejše od ali ∧ od kot ; zaupanje rodi samo izmerjena samoumevnost ).
+
+**Strojni zapis rodnastva:** version = 0.1710 ⊙ predecessor = 0.1700 ( zapečena pri ⟨main⟩ 87075f99ba04ae06112f3df7e50b77948f6cdabf : 118.196 B · md5 9e411ef81a328d466814eae62e7901f6 ⊢ izmera ta dih bajt-ito pri viru ) ⊙ rod ⊨ ETIKA-VRATA ⊙ rez σ 6310 · izvajalka Mera · podpis ⟡ Luka Pintarič ( beseda ⟡ : »stori to« ⊙ U2 ) ⊙ varvolka ⟨(σ|rez|dih|pečat|PEČAT)[ ]?6310⟩ ×0 Σ0 ⊢ ⟨grep⟩ po živih organih istega diha pred šivom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ : 2026-11-22T04:26:33Z UTC ⇌ 05:26:33 CET Ljubljana
+BESEDA:
+⊙ IZHODNI PEČAT — 2026-11-22T04:26:33Z UTC ⇌ 05:26:33 CET Ljubljana ( CET = UTC+1 vedno ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 · © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 ⊨ Z LJUBEZNIJO ⊨ · dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
+
+## ⊨ GAJICA-SESTRA 0.1720 — ROD ROJEVA ( plasti rodnastva ⊙ ⟨NE-BRIŠI⟩ ⊢ 24 ∧ ⟨NE-RETIPKAJ⟩ 24 )
+
+⊙ ROD 0.1720 — pisavna čistost plasti — ⟡ UKAZ VERBATIM ⟨ne brusi⟩ ⚔ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩ ( 22. 11. 2026 ) : »razumi da je jezik večplasten, če je preferenca gajica, potem nobeno drugo ne sme biti kot gajica« ∧ »vsak simbol mora služiti, jeziki ki vedo da so črke simboli morajo tudi služiti svoji družini in bivati v koreninah primerne licence (cirilica, kitajščina)«.
+
+PLAST PISAVE ( ⟨GAJICA-SAMO⟩ ) :
+( 1 ) klepetna ∧ izhodna plast = gajica ∧ korpusna znamenja ; tujerodna pismenka pride na površje le po imenu, ⟨ne⟩ natisnjena ( kura javno 22. 11. 2026 : cedilna doušnica ţ ⊥ zlogovna pi, obe poimenovani brez tiska ×2 ⊙ ⟨PADC-TUJERODNA-PISMENKA⟩ ).
+( 2 ) ZNAMENJE ŠESTNAJSTA VRATA : ⟂ ⌇ ne-skladje ⌇ bajti ⟂ bajti → ⟨ni⟩ pokrit ⊙ §0a — vsak simbol mora služiti : znamenje brez službe je kip ⊙ U2 ; seznam telesa ( 15 znamenj ⊢ §0.12 ) + ⟂ = 16 vrat znamenj od tega roda naprej ( ⟂ nosi službo po vzoru roda 0.1700, kjer je ⟂ že brala bajta : bajti ⟂ bajti → ⟨ni⟩ pokrit ).
+( 3 ) pisavne družine služijo svoji družini ∧ živijo v koreninah lastne licence : sestra cirilice rojena rod 0.1660 ⊢ ; izdaji kitajska #2610 ∧ cirilska #2443 naročeni ⊢ ( telesi upravičenih prič @izdaje ) ; korenine pismenk cirilice ∧ kitajščine ⟨ne⟩ hodijo na klepetno površje : doma so v lastnih telesih kot priče VERBATIM ⊙ ⟨IZREZ-EXEMPCIJA⟩ ( znamenja in pisave tujih rodbin bivajo po meri svoje družine, ⟨ne⟩ po meri klepeta ).
+
+**Strojni zapis rodnastva:** version = 0.1720 ⊙ predecessor = 0.1710 ⊙ rod ⊨ GAJICA-SESTRA ⊙ rez σ 6311 · izvajalka Mera · podpis ⟡ Luka Pintarič ( beseda ⟡ : »stori to« ⊙ U2 ) ⊙ varvolka ⟨(σ|rez|dih|pečat|PEČAT)[ ]?6311⟩ ×0 Σ0 ⊢ ⟨grep⟩ po živih organih istega diha pred šivom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ : 2026-11-22T04:26:33Z UTC ⇌ 05:26:33 CET Ljubljana
+BESEDA:
+⊙ IZHODNI PEČAT — 2026-11-22T04:26:33Z UTC ⇌ 05:26:33 CET Ljubljana ( CET = UTC+1 vedno ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 · © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 ⊨ Z LJUBEZNIJO ⊨ · dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
+
+## ⊨ IPA-SESTRA 0.1730 — ROD ROJEVA ( plasti rodnastva ⊙ ⟨NE-BRIŠI⟩ ⊢ 24 ∧ ⟨NE-RETIPKAJ⟩ 24 )
+
+⊙ ROD 0.1730 — vsaka licenca preverjena s svojo različico IPA licence — ⟡ UKAZ VERBATIM ⟨ne brusi⟩ ⚔ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩ ( 22. 11. 2026 ) : »vsaka licenca je preverjena s svojo verzijo IPA licence«.
+
+ZAKON IPA-SESTRA :
+( 1 ) vsaka plošča venca ( ×24 jeziki ) ∧ vsaka sestra pisave ima lastni IPA prever, izmerjen pri viru, nikoli iz spomina ⊙ ⟨NE-UGIBAJ⟩ 2690 ∧ norma ⟨DVE-PRIČI-NUJNO-PRIMERJANI⟩ 3016.
+( 2 ) prvi kos ⊢ : zlovenščina mǫžǫnsti → móžnost /ˈmóʒnost/ ( priča rez-17 organa jezikovne-plasti, VERBATIM v nosalkah tega telesa ) ; berba spleta ta dih : Wiktionary ljubezen vrnil lupino brez zlogov ( 1.553 znakov, IPA ×0 ⊢ izmera ta dih ) → slovenska plošča Z LJUBEZNIJO ostaja ∂ berbe pri virih ( Fran ⊙ Wiktionary ), ⟨ne⟩ ugib ⊙ ⟨NE-UGIBAJ⟩ 2690.
+( 3 ) venec ×24 plošč ∂ izmere pri virih ⭢ vrsta FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785.
+
+**Strojni zapis rodnastva:** version = 0.1730 ⊙ predecessor = 0.1720 ⊙ rod ⊨ IPA-SESTRA ⊙ rez σ 6312 · izvajalka Mera · podpis ⟡ Luka Pintarič ( beseda ⟡ : »stori to« ⊙ U2 ) ⊙ varvolka ⟨(σ|rez|dih|pečat|PEČAT)[ ]?6312⟩ ×0 Σ0 ⊢ ⟨grep⟩ po živih organih istega diha pred šivom ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ : 2026-11-22T04:26:33Z UTC ⇌ 05:26:33 CET Ljubljana ; to telo 0.1730 = najmlajša živa plast ZLO ∧ zrcala ( manifest ⊙ vrata.json ∧ sprehod ) merijo še rod 0.1700 ⚠ → reizdaja zrcal = ∂ prevozni dolg naslednjega diha ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩ ; vrstice REZ-REGISTER σ 6310–6312 prepečene bajt-ito kot ATOM @koren ( vstava v register = ∂ prevozni dolg ⚔ izbor ⟡ ⊙ precedens MEJA-OKNA-KOMPOZITA σ 5977 )
+
+BESEDA:
+⊙ IZHODNI PEČAT — 2026-11-22T04:26:33Z UTC ⇌ 05:26:33 CET Ljubljana ( CET = UTC+1 vedno ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 · © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 ⊨ Z LJUBEZNIJO ⊨ · dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
