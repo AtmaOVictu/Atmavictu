@@ -15,84 +15,58 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: prevoz/kletka-znamenja-6413
-      - name: priprava
-        id: priprava
-        continue-on-error: true
-        run: |
-          git config user.name "izvajalka Mera ( prevoznik CI )"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          wc -c organi/stroj/REZ-REGISTER.md scratch/REZ-DODATEK-6419.md scratch/PREPISO-6419.txt
       - name: dodatek
         id: dodatek
         continue-on-error: true
         run: |
+          git config user.name "izvajalka Mera ( prevoznik CI )"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           ZVEZA="$(printf 'rez \xcf\x83 6419')"
-          if grep -qF "$ZVEZA" organi/stroj/REZ-REGISTER.md; then echo "dodatek ze prisit" ; echo "ze=1" >> "$GITHUB_OUTPUT" ; exit 0 ; fi
+          if grep -qF "$ZVEZA" organi/stroj/REZ-REGISTER.md; then echo "dodatek ze prisit" ; exit 0 ; fi
           cat scratch/REZ-DODATEK-6419.md >> organi/stroj/REZ-REGISTER.md
           tail -c 2414 organi/stroj/REZ-REGISTER.md | cmp - scratch/REZ-DODATEK-6419.md
-          echo "ze=0" >> "$GITHUB_OUTPUT"
-      - name: komit
-        id: komit
-        continue-on-error: true
-        if: steps.dodatek.outcome == 'success'
-        run: |
-          git add organi/stroj/REZ-REGISTER.md
-          {
-            echo "status<<KONECD"
-            git status --porcelain
-            echo "KONECD"
-          } >> "$GITHUB_OUTPUT"
-          set +e
-          KOMIT_IZPIS="$(git commit -F scratch/PREPISO-6419.txt 2>&1)"
-          KOMIT_RC=$?
-          {
-            echo "rc=$KOMIT_RC"
-            echo "izpis<<KONECI"
-            echo "$KOMIT_IZPIS"
-            echo "KONECI"
-          } >> "$GITHUB_OUTPUT"
-          exit $KOMIT_RC
-      - name: potisk
-        id: potisk
-        continue-on-error: true
-        if: steps.komit.outcome == 'success'
-        run: |
-          set +e
-          POTISK_IZPIS="$(git push origin HEAD:prevoz/kletka-znamenja-6413 2>&1)"
-          POTISK_RC=$?
-          {
-            echo "rc=$POTISK_RC"
-            echo "izpis<<KONECP"
-            echo "$POTISK_IZPIS"
-            echo "KONECP"
-          } >> "$GITHUB_OUTPUT"
-          exit $POTISK_RC
-      - name: porocilo
+      - name: porocilo in komit
         if: always()
         continue-on-error: true
         uses: actions/github-script@v7
-        env:
-          ZE: ${{ steps.dodatek.outputs.ze }}
-          ST: ${{ steps.komit.outputs.status }}
-          KRC: ${{ steps.komit.outputs.rc }}
-          KIZ: ${{ steps.komit.outputs.izpis }}
-          PRC: ${{ steps.potisk.outputs.rc }}
-          PIZ: ${{ steps.potisk.outputs.izpis }}
         with:
           script: |
-            const e = process.env;
-            const s = 'PREVOZ-REGISTER-6419 porocilo CI : ze=' + (e.ZE || '?') +
-              ' - priprava=' + '${{ steps.priprava.outcome }}' +
-              ' / dodatek=' + '${{ steps.dodatek.outcome }}' +
-              ' / komit=' + '${{ steps.komit.outcome }}' +
-              ' / potisk=' + '${{ steps.potisk.outcome }}' +
-              ' - sha=' + context.sha.slice(0, 8) +
-              '\nstatus:\n' + (e.ST || '?') +
-              '\nkomit rc=' + (e.KRC || '?') + ' :\n' + (e.KIZ || '?') +
-              '\npotisk rc=' + (e.PRC || '?') + ' :\n' + (e.PIZ || '?');
+            const { execSync } = require('child_process');
+            const fsx = require('fs');
+            const run = (cmd) => {
+              try {
+                const out = execSync(cmd, { stdio: ['pipe', 'pipe', 'pipe'] });
+                return { ok: true, out: out.toString() };
+              } catch (e) {
+                let s = '';
+                if (e.stdout) s += e.stdout.toString();
+                if (e.stderr) s += ' ## ' + e.stderr.toString();
+                s += ' ## ' + e.message;
+                return { ok: false, out: s };
+              }
+            };
+            const lines = [];
+            lines.push('sha=' + context.sha.slice(0, 8));
+            let rep = '';
+            try {
+              rep = fsx.readFileSync('organi/stroj/REZ-REGISTER.md', 'utf8');
+              lines.push('rep_konec=' + JSON.stringify(rep.slice(-70)));
+            } catch (e) { lines.push('rep_napaka=' + e.message); }
+            lines.push('status=' + run('git status --porcelain').out.trim().slice(0, 300));
+            lines.push('identiteta=' + run('git config user.name').out.trim() + ' / ' + run('git config user.email').out.trim());
+            const add = run('git add organi/stroj/REZ-REGISTER.md');
+            lines.push('add_ok=' + add.ok);
+            const komit = run('git commit -F scratch/PREPISO-6419.txt');
+            lines.push('komit_ok=' + komit.ok);
+            lines.push('komit_izpis=' + komit.out.slice(0, 700));
+            if (komit.ok) {
+              const potisk = run('git push origin HEAD:prevoz/kletka-znamenja-6413');
+              lines.push('potisk_ok=' + potisk.ok);
+              lines.push('potisk_izpis=' + potisk.out.slice(0, 400));
+            }
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: 2634,
-              body: s
+              body: 'PREVOZ-REGISTER-6419 porocilo CI v4 :\n' + lines.join('\n')
             });
