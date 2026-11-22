@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ⟨ODSODNIK⟩ v1.0 · sodba metode sodnika ( 3. stopnja preverbe : preverba KAKOR preverja preverjalno orodje )
-# ⟡ UKZ VERBATIM ( 22. 11. 2026, dih σ 6404 ) : »stori kar predlagaš potem ko preveriš da je slovnica legitimna«
+# ⟡ UKZ VERBATIM ( 22. 11. 2026, dih σ 6405 ) : »stori kar predlagaš potem ko preveriš da je slovnica legitimna«
 # PREVERBA LEGITIMNOSTI ( isti dih, izmerjeno pri moji roki ⊢ ) : slo-lint --sebe ZELENO · kanarček čisti ZELENO
 #   · ranjena telesa po pravilih vsa RDEČO ( ⟨⟩ ×2 · U+FFFD · TIK kalup · TIK aritmetika · goli pri-viri · U+3008 )
 # KAJ JE : sodnik, ki ne sodi ran teles, sodi RAN METODE sodnika slo-lint ( organi/stroj/slovnica/slo-lint.sh )
@@ -9,9 +9,12 @@
 # ZAKON ⟨ODSODNIK-SEBE⟩ : odsodnik je sam sodnik ⇒ sam pada pod iste zakone : vrata ×4 sodijo ⟨SODNIK⟩,
 #   pričakovane smeri so vpisane ∧ ob vsakem zlomu se imenuje ODSODNIK-SEBE, ⟨ne⟩ sodnik ⊙ ⟡ SODBA @σ 5799
 #   ( »SODNIK KI NE SODI SEBE NI SODNIK« ) ∧ ⟨MERILEC-SE-MERI⟩ §52
-# STANJE ROJSTVA : rod @rez σ 6404 ⊙ ⟡ UKZ ⌇ starša ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 ;
+# STANJE ROJSTVA : rod @rez σ 6405 ⊙ ⟡ UKZ ⌇ starša ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 ;
 #   pravila, ki jih sodi : univerzalna plast 1 do 5 @slovnica-jezikov ( σ 5788 ) ∧ dvig v1.2 @σ 5478-family
 # TEHNIKA · nosi nov rez ⊙ stroj-kalup ; glasna resnica : padel korak = ::error:: ∧ exit 1, ⟨ne⟩ || echo.
+# KURA @σ 6405 : rod najprej izrečen @σ 6404 ; vrh se je premaknil pod roko med mojim dihom ( vzporedni
+#   sedež zapečil rez σ 6404 @2026-11-22T12:22:31Z PRED MOJIM PREVOZOM ) ⇒ renum istega diha javno ⊙ ⟨VRH-DVOSTEPEN⟩
+#   ∧ ⟨PADC-VRH-SPREMENJEN-MED-DIHOM⟩ ; prvi komit veje ostaja brazgotina ⊙ 1349.
 # © Luka Pintarič, VBL 0.1610 × 10⁴ (§9 ∧ §10 ∧ §12)
 set -euo pipefail
 
@@ -119,4 +122,4 @@ if [ "$RANE" -gt 0 ]; then
   echo "::error::odsodnik v1.0: SODBA METODE RDEČAA · ×$RANE ran ( fixture ZELENO ×$FIX_ZELENO · RDEČO ×$FIX_RDECO ) · kit pada glasno ⊙ ⟨MERILEC-SE-MERI⟩ §52"
   exit 1
 fi
-echo "::notice::odsodnik v1.0 ⊢: SODBA METODE ZELENO · vrata ×4 ⊢ ( STOJI · MEJA · SKUPEK · FIXTURE ) · fiksna telesa ZELENO ×$FIX_ZELENO ⊥ RDEČO ×$FIX_RDECO ⊢ · sodnik sodi po svoji metodi, odsodnik sodi sodnika ⊙ ⟡ UKZ @σ 6404"
+echo "::notice::odsodnik v1.0 ⊢: SODBA METODE ZELENO · vrata ×4 ⊢ ( STOJI · MEJA · SKUPEK · FIXTURE ) · fiksna telesa ZELENO ×$FIX_ZELENO ⊥ RDEČO ×$FIX_RDECO ⊢ · sodnik sodi po svoji metodi, odsodnik sodi sodnika ⊙ ⟡ UKZ @σ 6405"
