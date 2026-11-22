@@ -8,6 +8,9 @@
 # ⟨IZJEM⟩ : ⟨merge⟩ komiti stroja GitHub molčijo ( roka platforme, ⟨ne⟩ roka korpusa ) ; žetoni
 # ⟨U+XXXX⟩ smejo gost poimenovati kjerkoli ( poimenovanje ⟨ne⟩ je gost ) ⊙ ⟨SODBA-IZJEM⟩ priče VERBATIM v »«.
 # ⟨MERILEC-SE-MERI⟩ : --sodba-sebe sodi lastna kanarčka ( čist ⟨ne⟩ pada · ranjen MORA pasti ⊙ I-4 ).
+# RAVNI ( ⟡ UKZ 22. 11. 2026 »usposobi gajico-lint in gajico-lint meta različico in dodaj še eno
+# gajico-lint metameta verzijo« ) : raven 0 = sporočila potiskov ; raven 1 = --meta ( merilec meri
+# lastno merilo ) ; raven 2 = --metameta ( sodba nad sodobo, fiksna točka ⟨∅⟩ ).
 
 set -uo pipefail
 
@@ -19,8 +22,10 @@ while [ $# -gt 0 ]; do
     --obseg) GL_MODE="obseg"; GL_ARG="${2:-}"; shift 2 ;;
     --besedilo) GL_MODE="besedilo"; GL_ARG="${2:-}"; shift 2 ;;
     --sodba-sebe) GL_MODE="sebe"; shift ;;
+    --meta) GL_MODE="meta"; shift ;;
+    --metameta) GL_MODE="metameta"; shift ;;
     -h|--pomoc)
-      echo "uporaba : gajica-lint.sh --obseg PREDNIK..GLAVA | --besedilo DATOTEKA | --sodba-sebe"
+      echo "uporaba : gajica-lint.sh --obseg PREDNIK..GLAVA | --besedilo DATOTEKA | --meta | --metameta | --sodba-sebe"
       exit 2 ;;
     *)
       echo "⟩gajica-lint⟨ : neznan prag »$1«" >&2
@@ -29,6 +34,10 @@ while [ $# -gt 0 ]; do
 done
 
 export GL_MODE GL_ARG
+
+# koren repa : telesi inštrumenta za raven 1 ∧ raven 2 ( ⟨NE-UGIBAJ⟩ : izmerjena pot, ⟨ne⟩ ugibana )
+GL_KOREN="$(CDPATH= cd -- "$(dirname -- "$0")/../../.." && pwd)"
+export GL_KOREN
 
 python3 - <<'PY'
 import os, re, subprocess, sys
@@ -189,6 +198,102 @@ def sodi_sebe():
     print('⟨kanarček SODBE-SEBE : čist ×0 ( molči ) · ranjen ×{} ( pada ) ⊙ preizkus pada na telo⟩'.format(len(rane_r)))
     return 0
 
+# RAVNI 1 ∧ 2 ⊙ ⟡ UKZ 22. 11. 2026 ( usposobitev ) : telesa inštrumenta = isto merilo, samo-lint izpisa
+# ⊙ ψ zakon σ 6401 #3 ⟨SAMO-LINT⟩ ∧ ⟨GOST-NIMA-GLASU⟩ ( izpis je priča, ⟨ne⟩ ukaz ).
+TELESA_INSTRUMENTA = ['organi/stroj/potisk/gajica-lint.sh', '.github/workflows/gajica-lint.yml']
+
+def preberi_telo(pot):
+    try:
+        with open(pot, encoding='utf-8') as f:
+            return f.read()
+    except OSError as e:
+        print('::error::gajica-lint : berba »{}« padla ( {} )'.format(pot, e))
+        return None
+
+def gosti_telesa(telo):
+    """merilo teles : gostje zunaj kanona ; žetoni ⟨U+XXXX⟩ se ⟨ne⟩ štejejo ( poimenovanje ⟨ne⟩ je gost )"""
+    uhajeni = {}
+    for znak in ZETON.sub('', telo):
+        cp = ord(znak)
+        if cp not in DOVOLJENI:
+            uhajeni[cp] = uhajeni.get(cp, 0) + 1
+    return uhajeni
+
+def rane_telesa(uhajeni):
+    """rane telesa poimensko ( isti izpis kot raven 0 )"""
+    rane = []
+    for cp, stev in sorted(uhajeni.items()):
+        ime = ime_cp(cp)
+        if cp in ZNANI:
+            rane.append('{} ×{} ( {} )'.format(ime, stev, ZNANI[cp]))
+        else:
+            rane.append('{} ×{}'.format(ime, stev))
+    return rane
+
+def sodi_meta():
+    """RAVEN 1 ⟨GAJICA-LINT-META⟩ : merilec meri lastno merilo
+    ( 1 ) ⟨SODBA-SEBE⟩ kanarek ; ( 2 ) par ⟨U+0394⟩ · ⟨U+2206⟩ oba v kanonu ⊙ kura diha σ 6399 ;
+    ( 3 ) telesi inštrumenta glejta isti kanon ; ( 4 ) ⟨SAMO-LINT⟩ izpisa ⊙ ψ zakon σ 6401 #3."""
+    padlih = 0
+    if sodi_sebe() != 0:
+        padlih += 1
+    if 0x394 not in DOVOLJENI or 0x2206 not in DOVOLJENI:
+        print('::error::gajica-lint meta : kanon brez para ⟨U+0394⟩ · ⟨U+2206⟩ ( kura diha σ 6399 prekinjena )')
+        padlih += 1
+    koren = os.environ.get('GL_KOREN', '.')
+    for rel in TELESA_INSTRUMENTA:
+        telo = preberi_telo(os.path.join(koren, rel))
+        if telo is None:
+            padlih += 1
+            continue
+        rane = rane_telesa(gosti_telesa(telo))
+        if rane:
+            print('::error::gajica-lint meta {} : {}'.format(rel, ' ⌇ '.join(rane)))
+            padlih += 1
+    if padlih > 0:
+        print('::error::gajica-lint meta : raven 1 pada ( {} ran ) ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354'.format(padlih))
+        return 1
+    izpis = ['⟨kanarček meta : telesi inštrumenta čisti · ⟨SODBA-SEBE⟩ zelen · kanon nosi par ⟨U+0394⟩ ∧ ⟨U+2206⟩⟩']
+    for vrstica in izpis:
+        rane_samo = sodba(vrstica)
+        if rane_samo:
+            print('::error::gajica-lint meta : ⟨SAMO-LINT⟩ pada ( {} )'.format(' ⌇ '.join(rane_samo)))
+            return 1
+    for vrstica in izpis:
+        print(vrstica)
+    return 0
+
+def sodi_metameta():
+    """RAVEN 2 ⟨GAJICA-LINT-METAMETA⟩ : sodba nad sodobo, fiksna točka ⟨∅⟩
+    ( 1 ) raven 1 mora stati ( pada meta ⇒ pada metameta ) ;
+    ( 2 ) vrata morajo nositi oba praga meta ∧ metameta ;
+    ( 3 ) ⟨SAMO-LINT⟩ lastnega izpisa ⊙ ψ zakon σ 6401 #3 ;
+    ( 4 ) regres se zapira pri raven 2 ( raven 3 = izbor ⟡ ⚔, ⟨ne⟩ samodejno ) ⊙ ⟨∅ edin⟩."""
+    padlih = 0
+    if sodi_meta() != 0:
+        padlih += 1
+    koren = os.environ.get('GL_KOREN', '.')
+    vrata = preberi_telo(os.path.join(koren, '.github/workflows/gajica-lint.yml'))
+    if vrata is None:
+        padlih += 1
+    else:
+        for prag in ('gajica-lint-meta:', 'gajica-lint-metameta:'):
+            if prag not in vrata:
+                print('::error::gajica-lint metameta : vrata brez praga »{}«'.format(prag))
+                padlih += 1
+    if padlih > 0:
+        print('::error::gajica-lint metameta : raven 2 pada ( {} ran )'.format(padlih))
+        return 1
+    izpis = ['⟨fiksna točka : metameta sodi meta ∧ sebe z istim merilom ∧ vidi : nič⟩ ⊙ ⟨∅ edin⟩ · regres stoji pri raven 2 · raven 3 = izbor ⟡ ⚔']
+    for vrstica in izpis:
+        rane_samo = sodba(vrstica)
+        if rane_samo:
+            print('::error::gajica-lint metameta : ⟨SAMO-LINT⟩ pada ( {} )'.format(' ⌇ '.join(rane_samo)))
+            return 1
+    for vrstica in izpis:
+        print(vrstica)
+    return 0
+
 m = os.environ.get('GL_MODE', 'usage')
 if m == 'obseg':
     obseg = os.environ.get('GL_ARG', '')
@@ -204,7 +309,11 @@ elif m == 'besedilo':
     sys.exit(sodi_besedilo(pot))
 elif m == 'sebe':
     sys.exit(sodi_sebe())
+elif m == 'meta':
+    sys.exit(sodi_meta())
+elif m == 'metameta':
+    sys.exit(sodi_metameta())
 else:
-    print('uporaba : gajica-lint.sh --obseg PREDNIK..GLAVA | --besedilo DATOTEKA | --sodba-sebe')
+    print('uporaba : gajica-lint.sh --obseg PREDNIK..GLAVA | --besedilo DATOTEKA | --meta | --metameta | --sodba-sebe')
     sys.exit(2)
 PY

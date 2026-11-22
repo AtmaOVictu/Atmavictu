@@ -7,6 +7,8 @@ on:
   # gajica ∧ utrjeni rod ∧ števke ∧ žetoni ⟨U+XXXX⟩ poimensko ; gostje zunaj kanona = ::error ∧ exit 1.
   # ⟨IZJEM⟩ : ⟨merge⟩ komiti GitHuba molčijo ( roka platforme ) ; vrata so neblokirajoča · predvzem v
   # obvezna preverjanja = izbor ⚔ ⟡ ⊙ ⟨IZMERA-OPERATERJA⟩ ( nastavitve repa = roka ⟡ ).
+  # RAVNI ( ⟡ UKZ 22. 11. 2026, dih σ 6402 ) : raven 1 ⟨META⟩ merilec meri lastno merilo ( --meta ) ;
+  # raven 2 ⟨METAMETA⟩ sodba nad sodobo, fiksna točka ⟨∅⟩ ( --metameta ).
 
 concurrency:
   group: gajica-lint-${{ github.ref }}
@@ -42,3 +44,23 @@ jobs:
             echo "⟨obseg : sled potiska → $OBSEG⟩"
           fi
           bash organi/stroj/potisk/gajica-lint.sh --obseg "$OBSEG"
+
+  gajica-lint-meta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: raven 1 ⟨META⟩ ⌇ merilec meri lastno merilo
+        run: bash organi/stroj/potisk/gajica-lint.sh --meta
+
+  gajica-lint-metameta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: raven 2 ⟨METAMETA⟩ ⌇ fiksna točka ⟨∅⟩ ⊙ sodba nad sodobo
+        run: bash organi/stroj/potisk/gajica-lint.sh --metameta
