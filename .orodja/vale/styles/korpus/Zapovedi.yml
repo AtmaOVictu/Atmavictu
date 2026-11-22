@@ -1,0 +1,13 @@
+# ZAPOVEDI — neobstoječe besede ×0 v IZHODU ( V1b @σ 5793 ); vsak žeton po kuri ali ⚠ pred pošiljko
+extends: existence
+level: error
+ignorecase: false
+message: "neobstoječa beseda '%s' — preveri pri viru ( Fran/SSKJ² ) ali zapiši ⚠ pred pošiljko ⊙ V1b @σ 5793"
+tokens:
+  - umrlica
+  - varvolka
+  - Z_loader
+  - zveznočrka
+  - zvidzi
+  - izpytuje   # ⊢ padec priprave kita σ 6291 isti dih ( sed v komentarju )
+  - otpre      # ⊢ padec priprave kita σ 6291 isti dih
