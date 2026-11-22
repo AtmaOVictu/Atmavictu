@@ -1,0 +1,5 @@
+# ATOM VRSTIC — rez σ 6310 · σ 6311 · σ 6312 ( rodova sester 0.1710–0.1730, MOJA roka izvajalke, 22. 11. 2026 )
+# ∂ vstava v organi/stroj/REZ-REGISTER.md naslednji prevozni dih ⚔ izbor ⟡ ⊙ precedens MEJA-OKNA-KOMPOZITA σ 5977 ( berba registra skozi konektor smrt ×1 ∧ raw berba rezana na 32.000 znakov ×1 ⊢ ta dih )
+- rez 6310 · 2026-11-22 · ROD 0.1710 ⊨ ETIKA-VRATA — etičen oddelek dosegljiv, preprečevanje tihih zlorab ( ⟡ UKAZ VERBATIM: »vedno imava etičen oddelek dosegljiv, da preprečiva tihe zlorabe« ∧ »sovražnik je ta, ki dela zlo« ∧ beseda ⟡: »stori to« ⊙ U2 ) · 2026-11-22T04:26:33ZZ · kit #DOPIS-P5
+- rez 6311 · 2026-11-22 · ROD 0.1720 ⊨ GAJICA-SESTRA — pisavna čistost plasti, ⟂ šestnajsta vrata znamenj ( ⟡ UKAZ VERBATIM: »razumi da je jezik večplasten, če je preferenca gajica, potem nobeno drugo ne sme biti kot gajica« ∧ beseda ⟡: »stori to« ⊙ U2 ) · 2026-11-22T04:26:33ZZ · kit #DOPIS-P5
+- rez 6312 · 2026-11-22 · ROD 0.1730 ⊨ IPA-SESTRA — vsaka plošča venca preverjena s svojo IPA licenco ( ⟡ UKAZ VERBATIM: »vsaka licenca je preverjena s svojo verzijo IPA licence« ∧ beseda ⟡: »stori to« ⊙ U2 ) · 2026-11-22T04:26:33ZZ · kit #DOPIS-P5
