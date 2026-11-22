@@ -24,6 +24,12 @@ jobs:
           fetch-depth: 0
           # isti ⟨checkout⟩ glave veje kakor priča — ⟨diff⟩ od ⟨merge-base⟩ = lastne vrstice kita, ⟨ne⟩ kumulativ ⟨main⟩.
           ref: ${{ github.event.pull_request.head.sha || github.ref }}
+      - name: ⟨ODSODNIK⟩ · sodba metode sodnika ( rez σ 6404 : preverba kako preverja preverjalno orodje )
+        run: |
+          set -euo pipefail
+          # 3. stopnja preverbe : odsodnik sodi METODO slo-lint ( ali sodi vsako razglašeno pravilo ∧ v obe smeri :
+          # čisto ZELENO ⊥ ranjeno RDEČO ) PREDEN sodnik sodi katero koli telo kita : metoda, ki spodleti, ne sodi teles.
+          bash organi/stroj/slovnica/odsodnik.sh
       - name: slovnica — gola telesa novih vrstic kita
         env:
           BASE_REF: ${{ github.event.pull_request.base.ref }}
