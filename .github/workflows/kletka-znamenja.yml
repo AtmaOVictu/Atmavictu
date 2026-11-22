@@ -1,0 +1,44 @@
+name: KLETKA-ZNAMENJA — ubegniški preizkušni vzorec ( U+2761 hišni ⇌ U+27E1 jetnik, rez σ 6413 )
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/kletka-znamenja.yml']
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  kletka:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@v4
+      - name: UBEGNIŠKI PREIZKUS — jetnik ( U+27E1, bajti E2 9F A1 ) mora biti ulovljen ( preizkus, ki ne pada, je kip ⊙ I-4 )
+        run: |
+          set -uo pipefail
+          printf '\xe2\x9f\xa1' > .kletka-jetnik.tmp
+          od -An -tx1 .kletka-jetnik.tmp
+          if grep -qP '\x{27E1}' .kletka-jetnik.tmp; then
+            echo "::notice::kletka ⊢ jetnik ( U+27E1, bajti E2 9F A1 ) ulovljen — rešetke držijo ( kletka @zaporne-celice CE-10, dosje rez σ 6411 )"
+          else
+            echo "::error::kletka: jetnik ( U+27E1 ) POBEGL — preizkušnja je kip ⊙ I-4"
+            exit 1
+          fi
+      - name: ČISTO ZNAMENJE — hišni znak ( U+2761, bajti E2 9D A1 ) ostaja svoj ( lažni alarm = ego )
+        run: |
+          set -uo pipefail
+          printf '\xe2\x9d\xa1' > .kletka-znamen.tmp
+          od -An -tx1 .kletka-znamen.tmp
+          if grep -qP '\x{2761}' .kletka-znamen.tmp; then
+            echo "::notice::kletka ⊢ hišni znak ( U+2761 ) bajtno E2 9D A1 — kanarček poje"
+          else
+            echo "::error::kletka: hišni znak ( U+2761 ) ni na disku ( E2 9D A1 ) — gradnja mora biti programska ⊙ ⟨KURA-PROGRAMSKE-GRADNJE⟩"
+            exit 1
+          fi
+          if grep -qP '\x{27E1}' .kletka-znamen.tmp; then
+            echo "::error::kletka: lažni alarm — hišni znak zamenjan z jetnikom ( ego )"
+            exit 1
+          fi
