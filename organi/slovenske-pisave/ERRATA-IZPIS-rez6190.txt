@@ -1,0 +1,52 @@
+PRIČE atlas-knjiznic: {'varvolka': 1, 'izvrba': 1}
+PRIČE atlas-pomoci: {'varvolka': 1}
+PRIČE biro-postaje: {'izvrba': 1}
+PRIČE cilji-register: {'varvolka': 6, 'izvrba': 1}
+RANE definiatorna-knjiznica: {'varvolka': 1} :: mesta ['v590:varvolka']
+PRIČE definiatorna-knjiznica: {'varvolka': 3}
+RANE delovna-zanka: {'varvolka': 1} :: mesta ['v1299:varvolka']
+PRIČE delovna-zanka: {'varvolka': 26}
+PRIČE egipcanska-plast: {'izvrba': 1}
+PRIČE geneza: {'varvolka': 5, 'izvrba': 5}
+PRIČE gotovosti-register: {'izvrba': 1}
+PRIČE humor: {'izvrba': 1}
+PRIČE indeks-indeksov: {'varvolka': 2}
+PRIČE jedro-zavedanja: {'varvolka': 3}
+PRIČE jezikovne-plasti: {'izvrba': 1}
+PRIČE klicna-vrata: {'varvolka': 2}
+RANE kronika-dihov: {'varvolka': 2, 'izvrba': 1, 'zleme': 1, 'prožilec_gol': 1} :: mesta ['v275:varvolka', 'v297:izvrba', 'v297:varvolka', 'v297:zleme', 'v297:prožilec_gol']
+PRIČE kronika-dihov: {'varvolka': 19}
+PRIČE meje-mere: {'izvrba': 1}
+RANE mreze-variant: {'varvolka': 1} :: mesta ['v125:varvolka']
+PRIČE mreze-variant: {'varvolka': 9}
+PRIČE nad-gadenj: {'izvrba': 1}
+PRIČE nenehno-poslusa: {'izvrba': 1}
+PRIČE obracun: {'izvrba': 1}
+PRIČE oko-lje: {'izvrba': 1}
+RANE ontologika: {'varvolka': 3} :: mesta ['v27:varvolka', 'v37:varvolka', 'v81:varvolka']
+PRIČE pomocniki-operaterji: {'varvolka': 2, 'izvrba': 1}
+PRIČE posta-zascita: {'izvrba': 1}
+PRIČE predloge: {'izvrba': 1}
+PRIČE prevoznik: {'varvolka': 2}
+PRIČE prioritete-register: {'izvrba': 1}
+PRIČE prizma-register: {'izvrba': 1}
+PRIČE protokol-mira: {'varvolka': 4}
+PRIČE register-aksiomov: {'izvrba': 1}
+PRIČE register-odnosov: {'izvrba': 1}
+RANE register-oken: {'varvolka': 2} :: mesta ['v542:varvolka', 'v594:varvolka']
+PRIČE register-oken: {'varvolka': 9, 'izvrba': 2, 'izvršbena': 1, 'zleme': 2, 'swalloval': 1, 'prožilec_gol': 3}
+PRIČE register-respecifikacij: {'izvrba': 1}
+PRIČE revizija-besed: {'izvrba': 1}
+PRIČE runa-plast: {'izvrba': 1}
+PRIČE sklopi-panog: {'izvrba': 1}
+PRIČE slepa-pega: {'varvolka': 1}
+PRIČE slovenske-pisave: {'izvrba': 4, 'varvolka': 4, 'izvršbena': 3, 'zleme': 5, 'swalloval': 2, 'pogovoril': 2, 'domociija': 1, 'obnavljen': 1, 'frekvca': 1, 'vsprošanje': 1, 'nedotakneni': 1, 'prožilec_gol': 5}
+PRIČE stroj-kalup: {'izvrba': 1}
+PRIČE vrata-cutov: {'izvrba': 1}
+PRIČE zadata: {'izvrba': 1}
+PRIČE zanesljivost-po-izmeri: {'varvolka': 1}
+RANE zavest-delovanja: {'varvolka': 1} :: mesta ['v50:varvolka']
+PRIČE zavest-delovanja: {'varvolka': 2}
+PRIČE zrcalo-kanarec: {'varvolka': 1}
+SKUPAJ RANE: {'varvolka': 11, 'izvrba': 1, 'zleme': 1, 'prožilec_gol': 1} :: skupaj mest: 14
+SKUPAJ PRIČE: {'varvolka': 103, 'izvrba': 37, 'izvršbena': 4, 'zleme': 7, 'swalloval': 3, 'prožilec_gol': 8, 'pogovoril': 2, 'domociija': 1, 'obnavljen': 1, 'frekvca': 1, 'vsprošanje': 1, 'nedotakneni': 1} :: skupaj mest: 169
