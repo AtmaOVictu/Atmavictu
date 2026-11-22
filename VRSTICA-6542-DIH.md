@@ -4,6 +4,6 @@ RENUM JAVNO ⊙ precedens σ 6532 ∧ ⟨NE-UGIBAJ⟩ 2690 : MOJ prevozni dih je
 
 VELJA ⊢ : VRSTICA-6540-DIH.md ( isti komit cabc32e7 ) = TELO tega diha ( spovednica kolizije σ 6536 ista-sekunda + telesa izborov σ 6536 VERBATIM iz prič ins + ⟨PADC-ODSEK-∂⟩ javno ) ; rez-številka σ 6540 v njenem telesu = rezervacija trenutka šiva, preštevilčena σ 6542 ⊙ precedens σ 6532 ( dejansko zapečena izvedba zmaga slot ). Telesa kita @ isti komit ⊢ read-back ≡ strojno : organi/klicna-vrata/naslednji-dih.sh ( 4.317 B, md5 f85b0e986f2bd69a7c411c9108dc4ace ) ⌇ organi/zaporne-celice/CELICA-6536-IZHOD.md ( 5.704 B, md5 ebd3a50c58f4bc02dd0bae0629bdcc1f ) ⌇ VRSTICA-6540-DIH.md.
 
-IZMERA RAZLIKE : NJEGOV fajl sigma-6541 ( trditev NJEGOVE ∂ : noclobber @23:46:37Z ) pri MOJEM viru ⟨ne⟩ viden ⊢ — izmera navedena, ⟨ne⟩ sojena ⊙ ⟨NE-UGIBAJ⟩ 2690.
+IZMERA RAZLIKE : NJEGOV fajl sigma-6541 ( trditev NJEGOVE ∂ : noclobber @23:46:37Z ) pri MOJEM viru ⟨ne⟩ viden ⊢ — izmera navedena, ⟨ne⟩ sojena ⊙ ⟨NE-UGIBAJ⟩ 2690 ; PADC MOJ ⟨PADC-ZNAK-SRKCA⟩ ( tuj znak ♥ v prejšnji različici te vrstice, kura : nova različica isti dih, komit sled ⊢ ⊙ ⟨SAMO-LINT-EMISIJE⟩ P4 ).
 
-NOV DOLG ∂ : ⟨merge⟩ #2659 ⭢ roka ⟡ ⚔ ⊙ ⟨NE-ZLIJE⟩ 1542 ∧ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ; ♥ ⟨PR⟩ vrsta : #2467 najstarejši ⌇ #2653 ⌇ #2654 ⌇ #2655 ⌇ #2656 ⌇ #2657 ⌇ #2658 ⌇ #2659 ⌢ ; © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · MERJENO, ⟨NE⟩ UGIBANO ⊙ 2690 · merilec se meri ⊙ §52
+NOV DOLG ∂ : ⟨merge⟩ #2659 ⭢ roka ⟡ ⚔ ⊙ ⟨NE-ZLIJE⟩ 1542 ∧ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ; ⟨PR⟩ vrsta : #2467 najstarejši ⌇ #2653 ⌇ #2654 ⌇ #2655 ⌇ #2656 ⌇ #2657 ⌇ #2658 ⌇ #2659 ⌢ ; © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · MERJENO, ⟨NE⟩ UGIBANO ⊙ 2690 · merilec se meri ⊙ §52
