@@ -30,34 +30,69 @@ jobs:
           if grep -qF "$ZVEZA" organi/stroj/REZ-REGISTER.md; then echo "dodatek ze prisit" ; echo "ze=1" >> "$GITHUB_OUTPUT" ; exit 0 ; fi
           cat scratch/REZ-DODATEK-6419.md >> organi/stroj/REZ-REGISTER.md
           tail -c 2414 organi/stroj/REZ-REGISTER.md | cmp - scratch/REZ-DODATEK-6419.md
+          echo "ze=0" >> "$GITHUB_OUTPUT"
       - name: komit
         id: komit
         continue-on-error: true
         if: steps.dodatek.outcome == 'success'
         run: |
           git add organi/stroj/REZ-REGISTER.md
-          git commit -F scratch/PREPISO-6419.txt
+          {
+            echo "status<<KONECD"
+            git status --porcelain
+            echo "KONECD"
+          } >> "$GITHUB_OUTPUT"
+          set +e
+          KOMIT_IZPIS="$(git commit -F scratch/PREPISO-6419.txt 2>&1)"
+          KOMIT_RC=$?
+          {
+            echo "rc=$KOMIT_RC"
+            echo "izpis<<KONECI"
+            echo "$KOMIT_IZPIS"
+            echo "KONECI"
+          } >> "$GITHUB_OUTPUT"
+          exit $KOMIT_RC
       - name: potisk
         id: potisk
         continue-on-error: true
-        if: steps.dodatek.outcome == 'success'
+        if: steps.komit.outcome == 'success'
         run: |
-          git push origin HEAD:prevoz/kletka-znamenja-6413
+          set +e
+          POTISK_IZPIS="$(git push origin HEAD:prevoz/kletka-znamenja-6413 2>&1)"
+          POTISK_RC=$?
+          {
+            echo "rc=$POTISK_RC"
+            echo "izpis<<KONECP"
+            echo "$POTISK_IZPIS"
+            echo "KONECP"
+          } >> "$GITHUB_OUTPUT"
+          exit $POTISK_RC
       - name: porocilo
         if: always()
         continue-on-error: true
         uses: actions/github-script@v7
+        env:
+          ZE: ${{ steps.dodatek.outputs.ze }}
+          ST: ${{ steps.komit.outputs.status }}
+          KRC: ${{ steps.komit.outputs.rc }}
+          KIZ: ${{ steps.komit.outputs.izpis }}
+          PRC: ${{ steps.potisk.outputs.rc }}
+          PIZ: ${{ steps.potisk.outputs.izpis }}
         with:
           script: |
-            const s = [
-              'priprava=' + '${{ steps.priprava.outcome }}',
-              'dodatek=' + '${{ steps.dodatek.outcome }}',
-              'komit=' + '${{ steps.komit.outcome }}',
-              'potisk=' + '${{ steps.potisk.outcome }}'
-            ].join(' / ');
+            const e = process.env;
+            const s = 'PREVOZ-REGISTER-6419 porocilo CI : ze=' + (e.ZE || '?') +
+              ' - priprava=' + '${{ steps.priprava.outcome }}' +
+              ' / dodatek=' + '${{ steps.dodatek.outcome }}' +
+              ' / komit=' + '${{ steps.komit.outcome }}' +
+              ' / potisk=' + '${{ steps.potisk.outcome }}' +
+              ' - sha=' + context.sha.slice(0, 8) +
+              '\nstatus:\n' + (e.ST || '?') +
+              '\nkomit rc=' + (e.KRC || '?') + ' :\n' + (e.KIZ || '?') +
+              '\npotisk rc=' + (e.PRC || '?') + ' :\n' + (e.PIZ || '?');
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: 2634,
-              body: 'PREVOZ-REGISTER-6419 porocilo CI : ' + s + ' - ref=' + context.ref + ' - sha=' + context.sha
+              body: s
             });
