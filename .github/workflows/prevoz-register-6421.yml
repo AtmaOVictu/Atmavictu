@@ -1,0 +1,81 @@
+name: PREVOZ-REGISTER-6421
+on:
+  push:
+    branches: ['prevoz/kletka-znamenja-6413']
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: prevoz-register-6419
+  cancel-in-progress: false
+jobs:
+  rep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: prevoz/kletka-znamenja-6413
+      - name: kura dodatek
+        id: kura
+        continue-on-error: true
+        run: |
+          git config user.name "izvajalka Mera ( prevoznik CI )"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          NOVA="$(printf 'rez \xcf\x83 6421')"
+          if grep -qF "$NOVA" organi/stroj/REZ-REGISTER.md; then echo "kura ze prisita" ; exit 0 ; fi
+          STARI="$(printf 'rez \xcf\x83 6419 \xc2\xb7 2026-11-22 \xc2\xb7 PREVOZ-KOMPOZIT \xcf\x83 6419')"
+          NOVI="$(printf 'rez \xcf\x83 6421 \xc2\xb7 2026-11-22 \xc2\xb7 PREVOZ-KOMPOZIT \xcf\x83 6421')"
+          cp organi/stroj/REZ-REGISTER.md /tmp/reg-pred.txt
+          LC_ALL=C sed -i "s/$STARI/$NOVI/" organi/stroj/REZ-REGISTER.md
+          if ! grep -qF "$NOVI" organi/stroj/REZ-REGISTER.md; then echo "kura ni zadela" ; cp /tmp/reg-pred.txt organi/stroj/REZ-REGISTER.md ; exit 1 ; fi
+          if grep -qF "$STARI" organi/stroj/REZ-REGISTER.md; then echo "stara vrstica se zivi" ; cp /tmp/reg-pred.txt organi/stroj/REZ-REGISTER.md ; exit 1 ; fi
+      - name: porocilo in komit
+        if: always()
+        continue-on-error: true
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { execSync } = require('child_process');
+            const fsx = require('fs');
+            const run = (cmd) => {
+              try {
+                const out = execSync(cmd, { stdio: ['pipe', 'pipe', 'pipe'] });
+                return { ok: true, out: out.toString() };
+              } catch (e) {
+                let s = '';
+                if (e.stdout) s += e.stdout.toString();
+                if (e.stderr) s += ' ## ' + e.stderr.toString();
+                s += ' ## ' + e.message;
+                return { ok: false, out: s };
+              }
+            };
+            const lines = [];
+            lines.push('sha=' + context.sha.slice(0, 8));
+            let rep = '';
+            try {
+              rep = fsx.readFileSync('organi/stroj/REZ-REGISTER.md', 'utf8');
+              lines.push('rep_konec=' + JSON.stringify(rep.slice(-90)));
+              lines.push('stara_je_ziva=' + rep.includes('PREVOz'.replace('z', 'ZIT')) .toString());
+            } catch (e) { lines.push('rep_napaka=' + e.message); }
+            const doKure = rep.includes('rez \u03c3 6421 \u00b7 2026-11-22 \u00b7 PREVOZ-KOMPOZIT') === false;
+            lines.push('kura_ze_prisita=' + (!doKure).toString());
+            if (doKure) {
+              const st = run('git status --porcelain').out.trim();
+              lines.push('status=' + st.slice(0, 200));
+              const add = run('git add organi/stroj/REZ-REGISTER.md');
+              lines.push('add_ok=' + add.ok);
+              const komit = run('git commit -F scratch/PREPISO-KURA-6421.txt');
+              lines.push('komit_ok=' + komit.ok);
+              lines.push('komit_izpis=' + komit.out.slice(0, 500));
+              if (komit.ok) {
+                const potisk = run('git push origin HEAD:prevoz/kletka-znamenja-6413');
+                lines.push('potisk_ok=' + potisk.ok);
+                lines.push('potisk_izpis=' + potisk.out.slice(0, 300));
+              }
+            }
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: 2634,
+              body: 'PREVOZ-REGISTER-6421 porocilo CI v5 :\n' + lines.join('\n')
+            });
