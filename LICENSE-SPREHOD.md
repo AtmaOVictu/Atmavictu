@@ -1,4 +1,4 @@
-# LICENSE-ZLO — VBL v zlovenščini ⟡ — CELOTA V ZLOVENŠČINI · VAL 0 ⊙ rod 0.1700 ⊙ ⟡
+# LICENSE-ZLO — VBL v zlovenščini ⟡ — CELOTA V ZLOVENŠČINI · VAL 0 ⊙ rod 0.1730 ⊙ ⟡
 
 VAL 0 ⊙ ⟡ ⟨daj⟩ σ 6200 — 0 = koren vseh pod-valov ( ZLO-α · ZLO-β · ZLO-γ ) · lestev ∅ → ∆ → 1 ⊢ izvornik §0 ( iz praznine skozi ⟨ne⟩ izmerjeno k izmerjenemu ) ⊙ o-celota ⟡ prispevek ( prispevek = vir ) : 0 ≠ O ≠ 1 ⊙ O3 »Ničelna vrednost ne dokazuje neobstoja nosilca, odnosa ali možnosti.« ⊙ šest pomenov ničle ( 0v · ∅ · 0m · ⊥ · ? · ¬P ) — vsak je last svoje ontološke kategorije, ⟨ne⟩ ena sama ∧ ⟨ne⟩ izključna last licenc številčnega značaja: binarna 0/1 je le tehnološka plast; VAL 0 je ontološki izvor — nosilec, ki obstaja ⊙ O3.
 
