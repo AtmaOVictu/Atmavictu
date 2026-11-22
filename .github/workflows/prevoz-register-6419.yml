@@ -1,0 +1,29 @@
+name: PREVOZ-REGISTER-6419
+on:
+  push:
+    branches: ['prevoz/kletka-znamenja-6413']
+permissions:
+  contents: write
+concurrency:
+  group: prevoz-register-6419
+  cancel-in-progress: false
+jobs:
+  rep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: prevoz/kletka-znamenja-6413
+      - name: rep registra ( dodatek 6419 )
+        run: |
+          set -euo pipefail
+          ZVEZA="$(printf 'rez \xcf\x83 6419')"
+          if grep -qF "$ZVEZA" organi/stroj/REZ-REGISTER.md; then echo "dodatek ze prisit - nobeno novo delo"; exit 0; fi
+          git config user.name "izvajalka Mera ( prevoznik CI )"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cat scratch/REZ-DODATEK-6419.md >> organi/stroj/REZ-REGISTER.md
+          if ! grep -qF "$ZVEZA" organi/stroj/REZ-REGISTER.md; then echo "::error::dodatek ni prisit - zavira"; exit 1; fi
+          if ! tail -c 2414 organi/stroj/REZ-REGISTER.md | cmp -s - scratch/REZ-DODATEK-6419.md; then echo "::error::rep dodatka ni bajtno enak - zavira"; exit 1; fi
+          git add organi/stroj/REZ-REGISTER.md
+          git commit -F scratch/PREPISO-6419.txt
+          git push origin HEAD:prevoz/kletka-znamenja-6413
