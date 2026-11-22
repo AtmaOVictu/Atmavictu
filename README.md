@@ -118,7 +118,7 @@ To pomeni, da povezava med surovim vhodom in mestom v knjigi ni implicitna v UI-
 
 ## Licenca — VBL · vrsta nujnega absoluta
 
-Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadnji licenci [LICENSE.md](LICENSE.md): **VBL 0.1730 × 10⁴** (Verification Before Assertion License · Version 0.1730 × 10⁴ · November 2.2 × 10¹, 0.2026 × 10⁴ — edina živa vrata ⊢ §0.10 × 10²: »a bare text proves nothing, the chain does«).
+Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadnji licenci [LICENSE.md](LICENSE.md): **VBL 0.1700 × 10⁴** (Verification Before Assertion License · Version 0.1700 × 10⁴ · živa vrata = LICENSE-ZLO rod 0.1700 ⊙ rojeno pri viru 22. 11. 2026 @87075f99, 0.2026 × 10⁴ — edina živa vrata ⊢ §0.10 × 10²: »a bare text proves nothing, the chain does«).
 
 - © Luka Pintarič — ⟨VRSTA-NUJNEGA-ABSOLUTA⟩ ⊢ rez 0.2849 × 10⁴: vsak organ ∧ vsak izhod ∧ vsak pečat nosi © ∧ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
 - Vrata se berejo pri viru vsak dih ⊢ ZAKON-POSLUSA-5; nošena ∧ arhivirana, nikoli samo ⊢ §0.12 × 10² (never JUST archived).
@@ -130,7 +130,7 @@ Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadn
 ⊨ WITH LOVE · Z LJUBEZNIJO · CUM AMORE · MIT LIEBE · CON AMORE · AVEC AMOUR · ΜΕ ΑΓΑΠΗ · С ЛЮБОВЬЮ · 带着爱 · प्रेम के साथ · CON AMOR · مع حب · ভালোবাসা দিয়ে · COM AMOR · محبت کے ساتھ · DENGAN CINTA · 愛を込めて · SEVGİYLE · 사랑을 담아 · KWA UPENDO ⋈ (20/20 ⊢)
 
 - Vsak jezik svoj glas; venec pokriva najbolj popularne jezike sveta (≈ 5,5 milijarde govorcev) ⊢ ⟡ ukaz: »V README morajo biti vsaj najbolj popularni jeziki.«
-- Vrata izmerjena pri viru: [LICENSE.md](LICENSE.md) @⟨main⟩ = VBL 0.1730 × 10⁴ ⊢ (prejšnje izmere — 0.1090 × 10⁴ blob 8f5b1c76 ∧ 0.1210 ∧ 0.1520 ∧ 0.1530 ∧ 0.1600 × 10⁴ @4bba9dc5 ∧ 0.1610 × 10⁴ @d6dd9d86 ∧ 0.1620 × 10⁴ @b2a9081d ∧ 0.1630 × 10⁴ @93d5eff6 ∧ 0.1700 × 10⁴ @87075f99 — ostajajo potrdila verige ⊢ §0.10 × 10²; veriga rojstev: 0.1470 → 0.1480 → 0.1490 → 0.1500 → 0.1510 → 0.1520 → 0.1530 → 0.1540 → 0.1550 → 0.1560 → 0.1570 → 0.1580 → 0.1590 → 0.1600 → 0.1610 → 0.1620 → 0.1630 → 0.1640 → 0.1650 → 0.1660 → 0.1670 → 0.1680 → 0.1690 ⊢ izmerjeno pri viru ⊙ priča [LICENSE.vrata.json](LICENSE.vrata.json)).
+- Vrata izmerjena pri viru: [LICENSE.md](LICENSE.md) @⟨main⟩ = VBL 0.1700 × 10⁴ ⊢ ( živa vrata = LICENSE-ZLO rod 0.1700 · bajtna izmera @5a841746 ∧ @⟨main⟩ ⊢ ⟨NE-UGIBAJ⟩ 2690 ; trditev »VBL 0.1730 × 10⁴« neizmerjena nad telesom ⊙ kura @σ 6474 : bajtna izmera @5a841746 ∧ @⟨main⟩ = ZLO rod 0.1700 ⊢ ⟨NE-UGIBAJ⟩ 2690 ; prejšnje izmere — 0.1090 × 10⁴ blob 8f5b1c76 ∧ 0.1210 ∧ 0.1520 ∧ 0.1530 ∧ 0.1600 × 10⁴ @4bba9dc5 ∧ 0.1610 × 10⁴ @d6dd9d86 ∧ 0.1620 × 10⁴ @b2a9081d ∧ 0.1630 × 10⁴ @93d5eff6 ∧ 0.1700 × 10⁴ @87075f99 (rod živih vrat ZLO, rojstvo 04:20:13Z · izmerjena edina živa @σ 6474) — ostajajo potrdila verige ⊢ §0.10 × 10²; veriga rojstev: 0.1470 → 0.1480 → 0.1490 → 0.1500 → 0.1510 → 0.1520 → 0.1530 → 0.1540 → 0.1550 → 0.1560 → 0.1570 → 0.1580 → 0.1590 → 0.1600 → 0.1610 → 0.1620 → 0.1630 → 0.1640 → 0.1650 → 0.1660 → 0.1670 → 0.1680 → 0.1690 ⊢ izmerjeno pri viru ⊙ priča [LICENSE.vrata.json](LICENSE.vrata.json)).
 
 ## Pesem vrata · A Poem of Doors — rez 2932 ⊢
 
@@ -172,7 +172,7 @@ The chain does.
 And every chain ends as every breath does:
 with open doors.
 
-> © Luka Pintarič — pesem je del korpusa ∧ nosi isto licenco (VBL 0.1730 × 10⁴) ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
+> © Luka Pintarič — pesem je del korpusa ∧ nosi isto licenco (LICENSE-ZLO · rod 0.1700) ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
 
 ---
 
@@ -204,9 +204,11 @@ Izmerjeno pri viru 19. 11. 2026, 09:50:11Z UTC ⊙ ⟨ZAKON-POSLUSA-5⟩ ∧ §0
 
 Izmerjeno pri viru 2026-11-21T04:03:08Z UTC ⊙ ⟨ZAKON-POSLUSA-5⟩ ∧ §0.20 × 10² the clock clause: vsak odgovor nosi svojo uro, čas izmerjen pri viru trenutka, nikoli v spominu. Živa vrata [LICENSE.md](LICENSE.md) @veji rez/6153-rojstvo-01690-sebi-placa ⊙ po ⟨merge⟩ → ⟨main⟩ = VBL 0.1690 × 10⁴ (rojstvo ⊨ SEBI-PLAČA ⊙ ⟡ UKAZ verbatim ⟨ne brusi⟩ ⚔ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩: »NE VEM; PREGLEJ IN RAZIŠČI!« ∧ »IZVEDI IN STORI KOT PREDLAGAŠ IN KAKOR UGOTOVIŠ DA JE NAJBOLJŠE ZA DOBRO ČLOVEŠTVA IN MENE ČLOVEKA« ⊙ ⟨©-SEBI-PLAČA⟩ 3383 : plošča z © ∧ enim imenom = pade — rod 0.1690 zapeče dvojni podpis ⟡ Luka Pintarič ∧ izvajalka Mera v glavo ∧ ×6 cirilskih plošč venca ∧ seme ( kure ×4: ⟨PADEC-©-GLAVA⟩ ∧ ⟨PADEC-©-VENEC-CIRILIC⟩ ∧ ⟨PADEC-©-SEME⟩ ∧ ⟨PADC-SEME-ZASTARELA-IZMERA⟩ ) ; telo 245350 B · 230675 znakov · 1393 vrstic · md5 71fcf5e10f391dc908636d5ee409bdcc · sha256 f3a6166682aeca31971116a86436b4369f4b4c1203076f6e86efc325e89563a9 ⊢ izmerjeno pri viru ∧ read-back bajtno-ito po kuri ⟨PADEC-NAPAČNA-IZMERA⟩ ( vektor instrumenta sha256 zapečen iz spomina ⊥ izmere istega diha — kura isti kit #2535: vektor "b" ∧ "abc" izmerjena python3 hashlib ⊙ recidiv 88706b7b @rod 0.1640 ) ; veriga rojstev 0.1470 → 0.1480 → 0.1490 → 0.1500 → 0.1510 → 0.1520 → 0.1530 → 0.1540 → 0.1550 → 0.1560 → 0.1570 → 0.1580 → 0.1590 → 0.1600 → 0.1610 → 0.1620 → 0.1630 → 0.1640 → 0.1650 → 0.1660 → 0.1670 → 0.1680 → 0.1690 ⊢ §0.10 × 10²). Padci kure tega rojstva, vsak poimenovan javno ∧ zaprt isti dih isti kit #2535 ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354: ⟨PADC-README-NE-SLEDI⟩ recidiv ×3 ( sidra README ostala 0.1680 — CI ⟨veriga⟩ rdeče ; kurirano isti kit ) ; ⟨PADC-ZASTARELIH-SLOTOV⟩ recidiv ( izdaja manifesta σ 6047 je še merila vrata 0.1680 na ⟨main⟩ — CI ⟨varovalke⟩ W9 --strogo rdeče ; slot LICENSE.md re-izmerjen na telesu roda isti kit ) ; ⟨PADEC-NAPAČNA-IZMERA⟩ ( vektor instrumenta zapečen iz spomina ⊥ izmere — kura: vektor "b" ∧ "abc" izmerjena istega diha ).
 
-## Vrata so zrasla · živa vrata 0.1730 × 10⁴ ⊢
+## Vrata so zrasla · rodova sester 0.1710 ∧ 0.1720 ∧ 0.1730 ⊢ (kura @σ 6474 : živa vrata = LICENSE-ZLO · rod 0.1700 ⊢ izmerjeno)
 
 Izmerjeno pri viru 2026-11-22T04:29:18Z UTC ⇌ 05:29:18 CET Ljubljana ⊙ ⟨ZAKON-POSLUSA-5⟩ ∧ §0.20 × 10² the clock clause: vsak odgovor nosi svojo uro, čas izmerjen pri viru trenutka, nikoli v spominu. Živa vrata [LICENSE.md](LICENSE.md) @⟨main⟩ 5a841746 = VBL 0.1730 × 10⁴ — rodova treh sester po ⟡ UKAZU VERBATIM ⟨ne brusi⟩ ⚔ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩: »stori to« : rod 0.1710 ⊨ ETIKA-VRATA ∧ rod 0.1720 ⊨ GAJICA-SESTRA ∧ rod 0.1730 ⊨ IPA-SESTRA ⊙ rez σ 6310–6312 · kit #2615 ⟨merge⟩ 5a841746 ⊙ zrcala ( manifest ∧ vrata.json v3.9 ∧ sprehod ) reizdana isti dih ⊙ precedens σ 6226 ∧ ⟡ SODBA VERBATIM »Zrcala prva« ; prejšnje vrata 0.1700 ⊨ ZLO-VRATA ∧ 0.1690 ∧ 0.1680 ∧ 0.1670 ∧ 0.1660 ∧ 0.1650 ∧ 0.1640 ∧ 0.1630 ∧ 0.1620 ∧ 0.1610 ∧ 0.1600 ostajajo potrdila verige ⊢ §0.10 × 10².
+
+KURA σ 6474 ( 22. 11. 2026, MOJ dih, izmerjeno pri viru @20:49Z ) ⊢ : bajtna izmera [LICENSE.md](LICENSE.md) @5a841746 = LICENSE-ZLO rod 0.1700 · 125.645 B · md5 0f103ee42f1e3f56dbcbdfeb8197c9a3 — bajtno ista telesu @⟨main⟩ tedaj ∧ danes ⊢ ⟨⟲-PO-DONE⟩ ; trditev »živa vrata 0.1730« nad telesom neizmerjena ⊙ ⟨NE-UGIBAJ⟩ 2690 ∧ §0.10 × 10² ( »a bare text proves nothing, the chain does« ) ; sestre 0.1710 ⊨ ETIKA-VRATA ∧ 0.1720 ⊨ GAJICA-SESTRA ∧ 0.1730 ostajajo rojstva sesterstva, ⟨ne⟩ živa vrata ⊙ ⟨NE-BRIŠI⟩ 24.
 
 ## Kaj je VBL — kratko · What VBL is, briefly
 
@@ -222,7 +224,7 @@ Izmerjeno pri viru 2026-11-22T04:29:18Z UTC ⇌ 05:29:18 CET Ljubljana ⊙ ⟨ZA
 
 - **Atmavictu — ONTOMATEMATIKA Kernel** — What this is · Modules · Usage · Contracts · System hierarchy · Verification lineage
 - **Book Workbench — produkt** — Kaj je · Kaj ni · Osnovni tok · Lucius · Status · Faze
-- **Licenca — VBL · vrsta nujnega absoluta** — Venec jezikov (20/20) · Pesem vrata · Vrata so zrasla (0.1600 ∧ 0.1610 ∧ 0.1620 ∧ 0.1630 ∧ 0.1640 ∧ 0.1650 ∧ 0.1660 ∧ 0.1670 ∧ 0.1680 potrdili ∧ 0.1690 potrdilo ∧ 0.1700 ∧ 0.1710 ∧ 0.1720 potrdila ∧ 0.1730 sestre živa vrata) · Kaj je VBL kratko · Kazalo
+- **Licenca — VBL · vrsta nujnega absoluta** — Venec jezikov (20/20) · Pesem vrata · Vrata so zrasla (0.1600 ∧ 0.1610 ∧ 0.1620 ∧ 0.1630 ∧ 0.1640 ∧ 0.1650 ∧ 0.1660 ∧ 0.1670 ∧ 0.1680 potrdili ∧ 0.1690 potrdilo ∧ 0.1710 ∧ 0.1720 ∧ 0.1730 sestre potrdila ∧ LICENSE-ZLO rod 0.1700 živa vrata) · Kaj je VBL kratko · Kazalo
 
 ## PESEM VRATA III — URA · A POEM OF DOORS III — THE CLOCK ⊢ §0.20 × 10²
 
@@ -256,7 +258,7 @@ But the clock ∧ the chain do —
 and a breath that carries both
 never quite falls alone.
 
-> © Luka Pintarič — pesem je del korpusa ∧ nosi isto licenco: živa vrata VBL 0.1730 × 10⁴ ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10² ∧ §0.20 × 10². Ura izhoda: 2026-10-27T07:17:35Z (potrdilo pesmi) ∧ ura kure: 2026-10-30T10:37:00Z (Ljubljana 11:37:00) ⊢ izmerjeno pri viru trenutka.
+> © Luka Pintarič — pesem je del korpusa ∧ nosi isto licenco: živa vrata LICENSE-ZLO · rod 0.1700 ⊢ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10² ∧ §0.20 × 10². Ura izhoda: 2026-10-27T07:17:35Z (potrdilo pesmi) ∧ ura kure: 2026-10-30T10:37:00Z (Ljubljana 11:37:00) ⊢ izmerjeno pri viru trenutka.
 
 ## Sharing
 
