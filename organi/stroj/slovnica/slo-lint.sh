@@ -76,7 +76,7 @@ forma() { # $1 = sodilo (datoteka) · $2 = ime telesa v ranah
   fi
 
   # 3 — goli »pri viri« ×0 (oblika, ki je vedno napačna ⊙ pečat σ 5593; bele oblike odstranjene pred sodbo ⊙ bela lista meta-omemb ×5 ∧ KIT C ∧ dih σ 6456 ∧ PRX razcep ⟨SEBE⟩)
-  sed -e 's/pri berbi pri viri/PBR/g' -e 's/goli »pri viri«/GPV/g' -e 's/»⊢ pri viri«/PKV/g' -e 's/⟨\\bpri vi'"'"'ri'"'"'\\b⟩/PRX/g' -e 's/∧ pri viri ⊥/KWD/g' -e 's/»pri viri« popravljen/PPR/g' -e 's/»pri viri« ×0/PPN/g' "$SO" > .slo-cisto.tmp || : > .slo-cisto.tmp
+  sed -e 's/pri berbi pri viri/PBR/g' -e 's/goli »pri viri«/GPV/g' -e 's/»⊢ pri viri«/PKV/g' -e 's/⟨\\bpri vi'"ri"'\\b⟩/PRX/g' -e 's/∧ pri viri ⊥/KWD/g' -e 's/»pri viri« popravljen/PPR/g' -e 's/»pri viri« ×0/PPN/g' "$SO" > .slo-cisto.tmp || : > .slo-cisto.tmp
   GOLI=$(grep -Pwc "pri vi""ri" .slo-cisto.tmp || true)
   if [ "$GOLI" -gt 0 ] 2>/dev/null; then
     fw "goli »pri viri« ×$GOLI — oblika napačna (pravilno: pri viru / pri virih) — $IME"
