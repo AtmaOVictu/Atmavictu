@@ -1,0 +1,11 @@
+# KURE — menjave z izmerjenimi popravki; vsaka vrstica nosi pričo ⊢ ( ⟨DIGEST-IZ-IZMERE⟩ 217 )
+extends: substitution
+message: "kura '%s' za padec '%s' ( priča pri viru )"
+level: error
+swap:
+  umrlica: umrla            # ⊢ PADC-UMRLICA @σ 6075 ( beseda pri viru ×0 )
+  pri viri\b: pri viru      # ⊢ ⟨SLOVNICA-DIH⟩ @σ 3891 ∧ 4422 ( neobstoječa mestniška oblika )
+  varvolka: varovalka       # ⊢ ⟨SLOVNICA-DIH⟩ @σ 3891 ( SSKJ², ×0 pri viru )
+  rimo-vani: rimovani       # ⊢ PADC-ZAMILJANA-RIMOVANI @σ 6159
+  raspoRedaja: razporeditev # ⊢ PADC-RASPOREDAJA @σ 6112
+  Z_loader: Zveza           # ⊢ PADC-NEOBESTOJECA @rez σ 6290 ( klepet 18:29Z, V1b recidiv ) — padec diha σ 6289, tu zgolj priča
