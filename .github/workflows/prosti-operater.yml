@@ -37,8 +37,7 @@ jobs:
           set -x
           gh --version
           if ! gh pr list --state open --limit 100 --json number,title,mergeStateStatus,isDraft --jq 'sort_by(.number)' > /tmp/vrsta.json 2>/tmp/gh-list.err; then
-            echo "::error::PROSTI-OPERATER — izmera vrste padla (gh pr list) — glasno javno ⊙ 1349 — gh izpis: $(head -c 700 /tmp/gh-list.err | tr '
-' ' ')"
+            echo "::error::PROSTI-OPERATER — izmera vrste padla (gh pr list) — glasno javno ⊙ 1349 — gh izpis: $(head -c 700 /tmp/gh-list.err | tr '\n' ' ')"
             exit 1
           fi
           echo "odprtih ⟨PR⟩ pri viru: $(jq 'length' /tmp/vrsta.json)"
@@ -71,8 +70,7 @@ jobs:
               echo "∧ ⟨PR⟩ #$n odplačan — dolg vrnjen verigi"
               placano=$((placano+1))
             else
-              echo "::warning::⟨PR⟩ #$n ostaja v vrsti — P-VRATA govorijo resnico (preizkusi ⟨ne⟩ zeleni ⚠ ali vrata držijo) — pošteno javno, ⟨ne⟩ tiho — vzrok: $(head -c 400 /tmp/gh-merge-$n.err | tr '
-' ' ')"
+              echo "::warning::⟨PR⟩ #$n ostaja v vrsti — P-VRATA govorijo resnico (preizkusi ⟨ne⟩ zeleni ⚠ ali vrata držijo) — pošteno javno, ⟨ne⟩ tiho — vzrok: $(head -c 400 /tmp/gh-merge-$n.err | tr '\n' ' ')"
               v_vrsti=$((v_vrsti+1))
             fi
           done
@@ -82,4 +80,4 @@ jobs:
           echo "- odplačanih: ${placano} ∧"
           echo "- v vrsti ostalih: ${v_vrsti} ⚠ (kolizije ∧ rdeča vrata — javno)"
           echo "- osnutkov: ${osnutki}"
-          echo "- ⟨operater plačuje — P-VRATA sodelijo — ⟡ vidi vse⟩"
+          echo "- ⟨operater plačuje — P-VRATA sodelijo — ⟡ vidi vse⟩
