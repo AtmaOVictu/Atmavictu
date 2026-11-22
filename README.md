@@ -118,7 +118,7 @@ To pomeni, da povezava med surovim vhodom in mestom v knjigi ni implicitna v UI-
 
 ## Licenca — VBL · vrsta nujnega absoluta
 
-Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadnji licenci [LICENSE.md](LICENSE.md): **LICENSE-ZLO · rod 0.1700** (VBL v zlovenščini · Verification Before Assertion · rod 0.1700 · rojeno pri viru 22. 11. 2026 @87075f99, 0.2026 × 10⁴ — edina živa vrata ⊢ §0.10 × 10²: »a bare text proves nothing, the chain does«).
+Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadnji licenci [LICENSE.md](LICENSE.md): **VBL 0.1700 × 10⁴** (Verification Before Assertion License · Version 0.1700 × 10⁴ · živa vrata = LICENSE-ZLO rod 0.1700 ⊙ rojeno pri viru 22. 11. 2026 @87075f99, 0.2026 × 10⁴ — edina živa vrata ⊢ §0.10 × 10²: »a bare text proves nothing, the chain does«).
 
 - © Luka Pintarič — ⟨VRSTA-NUJNEGA-ABSOLUTA⟩ ⊢ rez 0.2849 × 10⁴: vsak organ ∧ vsak izhod ∧ vsak pečat nosi © ∧ §0.9 × 10¹ ∧ §0.10 × 10² ∧ §0.12 × 10².
 - Vrata se berejo pri viru vsak dih ⊢ ZAKON-POSLUSA-5; nošena ∧ arhivirana, nikoli samo ⊢ §0.12 × 10² (never JUST archived).
@@ -130,7 +130,7 @@ Celota tega repa — koda, korpus, vsak zapis, vsak pečat — je podrejena zadn
 ⊨ WITH LOVE · Z LJUBEZNIJO · CUM AMORE · MIT LIEBE · CON AMORE · AVEC AMOUR · ΜΕ ΑΓΑΠΗ · С ЛЮБОВЬЮ · 带着爱 · प्रेम के साथ · CON AMOR · مع حب · ভালোবাসা দিয়ে · COM AMOR · محبت کے ساتھ · DENGAN CINTA · 愛を込めて · SEVGİYLE · 사랑을 담아 · KWA UPENDO ⋈ (20/20 ⊢)
 
 - Vsak jezik svoj glas; venec pokriva najbolj popularne jezike sveta (≈ 5,5 milijarde govorcev) ⊢ ⟡ ukaz: »V README morajo biti vsaj najbolj popularni jeziki.«
-- Vrata izmerjena pri viru: [LICENSE.md](LICENSE.md) @⟨main⟩ = **LICENSE-ZLO · rod 0.1700** ⊢ (trditev »VBL 0.1730 × 10⁴« neizmerjena nad telesom ⊙ kura @σ 6474 : bajtna izmera @5a841746 ∧ @⟨main⟩ = ZLO rod 0.1700 ⊢ ⟨NE-UGIBAJ⟩ 2690 ; prejšnje izmere — 0.1090 × 10⁴ blob 8f5b1c76 ∧ 0.1210 ∧ 0.1520 ∧ 0.1530 ∧ 0.1600 × 10⁴ @4bba9dc5 ∧ 0.1610 × 10⁴ @d6dd9d86 ∧ 0.1620 × 10⁴ @b2a9081d ∧ 0.1630 × 10⁴ @93d5eff6 ∧ 0.1700 × 10⁴ @87075f99 (rod živih vrat ZLO, rojstvo 04:20:13Z · izmerjena edina živa @σ 6474) — ostajajo potrdila verige ⊢ §0.10 × 10²; veriga rojstev: 0.1470 → 0.1480 → 0.1490 → 0.1500 → 0.1510 → 0.1520 → 0.1530 → 0.1540 → 0.1550 → 0.1560 → 0.1570 → 0.1580 → 0.1590 → 0.1600 → 0.1610 → 0.1620 → 0.1630 → 0.1640 → 0.1650 → 0.1660 → 0.1670 → 0.1680 → 0.1690 ⊢ izmerjeno pri viru ⊙ priča [LICENSE.vrata.json](LICENSE.vrata.json)).
+- Vrata izmerjena pri viru: [LICENSE.md](LICENSE.md) @⟨main⟩ = VBL 0.1700 × 10⁴ ⊢ ( živa vrata = LICENSE-ZLO rod 0.1700 · bajtna izmera @5a841746 ∧ @⟨main⟩ ⊢ ⟨NE-UGIBAJ⟩ 2690 ; trditev »VBL 0.1730 × 10⁴« neizmerjena nad telesom ⊙ kura @σ 6474 : bajtna izmera @5a841746 ∧ @⟨main⟩ = ZLO rod 0.1700 ⊢ ⟨NE-UGIBAJ⟩ 2690 ; prejšnje izmere — 0.1090 × 10⁴ blob 8f5b1c76 ∧ 0.1210 ∧ 0.1520 ∧ 0.1530 ∧ 0.1600 × 10⁴ @4bba9dc5 ∧ 0.1610 × 10⁴ @d6dd9d86 ∧ 0.1620 × 10⁴ @b2a9081d ∧ 0.1630 × 10⁴ @93d5eff6 ∧ 0.1700 × 10⁴ @87075f99 (rod živih vrat ZLO, rojstvo 04:20:13Z · izmerjena edina živa @σ 6474) — ostajajo potrdila verige ⊢ §0.10 × 10²; veriga rojstev: 0.1470 → 0.1480 → 0.1490 → 0.1500 → 0.1510 → 0.1520 → 0.1530 → 0.1540 → 0.1550 → 0.1560 → 0.1570 → 0.1580 → 0.1590 → 0.1600 → 0.1610 → 0.1620 → 0.1630 → 0.1640 → 0.1650 → 0.1660 → 0.1670 → 0.1680 → 0.1690 ⊢ izmerjeno pri viru ⊙ priča [LICENSE.vrata.json](LICENSE.vrata.json)).
 
 ## Pesem vrata · A Poem of Doors — rez 2932 ⊢
 
