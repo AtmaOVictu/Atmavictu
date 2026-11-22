@@ -1,0 +1,44 @@
+name: gajica-lint
+on:
+  push:
+  workflow_dispatch:
+  # TEHNIKA (⟡ UKZ, 22. 11. 2026, dih σ 6399): ⟨GAJICA-LINT⟩ sodi sporočila komitov VSAGEGA prihodnjega
+  # potiska ( ⟨ne⟩ telesa datotek · te sodita ⟨slovnica⟩ ∧ ⟨pet-vrat⟩, ta vrata pa pisavo sporočil ) :
+  # gajica ∧ utrjeni rod ∧ števke ∧ žetoni ⟨U+XXXX⟩ poimensko ; gostje zunaj kanona = ::error ∧ exit 1.
+  # ⟨IZJEM⟩ : ⟨merge⟩ komiti GitHuba molčijo ( roka platforme ) ; vrata so neblokirajoča · predvzem v
+  # obvezna preverjanja = izbor ⚔ ⟡ ⊙ ⟨IZMERA-OPERATERJA⟩ ( nastavitve repa = roka ⟡ ).
+
+concurrency:
+  group: gajica-lint-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  gajica-lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: ⟨SODBA-SEBE⟩ ⌇ kanarek ( merilec se meri, preden poroča )
+        run: bash organi/stroj/potisk/gajica-lint.sh --sodba-sebe
+      - name: sodba sporočil potiska ( pisava, ⟨ne⟩ pomen )
+        env:
+          PREDNIK: ${{ github.event.before }}
+          GLAVA: ${{ github.sha }}
+          PRIVZETA: ${{ github.event.repository.default_branch }}
+        run: |
+          set -euo pipefail
+          # ⟨obseg potiska⟩ : prednik poznan → le njegova sled ( PREDNIK..GLAVA ) ;
+          # nova veja ∨ siljenje → obseg od privzete veje ( ⟨NE-UGIBAJ⟩ : brez prednika ni žaljeno sojenje ).
+          if [ -z "$PREDNIK" ] || [ "$PREDNIK" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$PREDNIK" 2>/dev/null; then
+            git fetch origin "$PRIVZETA" --quiet 2>/dev/null || true
+            OBSEG="origin/$PRIVZETA..HEAD"
+            echo "⟨obseg : nova ∨ prisiljena veja → $OBSEG⟩"
+          else
+            OBSEG="$PREDNIK..$GLAVA"
+            echo "⟨obseg : sled potiska → $OBSEG⟩"
+          fi
+          bash organi/stroj/potisk/gajica-lint.sh --obseg "$OBSEG"
