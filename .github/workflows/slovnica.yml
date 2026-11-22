@@ -24,6 +24,15 @@ jobs:
           fetch-depth: 0
           # isti ⟨checkout⟩ glave veje kakor priča — ⟨diff⟩ od ⟨merge-base⟩ = lastne vrstice kita, ⟨ne⟩ kumulativ ⟨main⟩.
           ref: ${{ github.event.pull_request.head.sha || github.ref }}
+      # TEHNIKA (dih σ 6405 · kura ⟨PADC-PREVOZA-REGISTRA⟩): prevoz telesa REZ-REGISTER.md (1,3 MB) skozi izvajalni prostor je padel ×4 na spominski meji ⇒ po zakonu registra
+      # tehnični kiti ⟨ne⟩ zahtevajo novega reza ∧ register je odšel domov ⊙ PREMIK-2026-10-28 ⇒ kit nosi besedo TEHNIKA ⊙ precedens REGISTER-PULZ;
+      # vrstica zahteve diha σ 6405 ostaja zapečena v organih diha ∧ genizi ⭢ roka ⟨IZMERA-OPERATERJA⟩ (⟡) ali prihodnji dih z močnejšim prevozom.
+      - name: ⟨ODSODNIK⟩ · sodba metode sodnika ( rez σ 6405 · preverba kako preverja preverjalno orodje )
+        run: |
+          set -euo pipefail
+          # 3. stopnja preverbe : odsodnik sodi METODO slo-lint ( ali sodi vsako razglašeno pravilo ∧ v obe smeri :
+          # čisto ZELENO ⊥ ranjeno RDEČO ) PREDEN sodnik sodi katero koli telo kita : metoda, ki spodleti, ne sodi teles.
+          bash organi/stroj/slovnica/odsodnik.sh
       - name: slovnica — gola telesa novih vrstic kita
         env:
           BASE_REF: ${{ github.event.pull_request.base.ref }}

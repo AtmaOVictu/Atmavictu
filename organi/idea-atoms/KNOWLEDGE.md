@@ -7,7 +7,7 @@ icon: "⇄"
 
 # IDEA-ATOMS — organ preslikave idea atoms ⇄ ∅/∆
 
-⟨MERIM/KUJEM σ 5982⟩ ⟨ODKOD: klepet ⟡ UKAZ VERBATIM → KAM: nov organ⟩ ( 19. 11. 2026, četrtek, MOJ dih — ⟡ UKAZ VERBATIM ⟨ne brusi⟩: »Rodi vez/organ (idea atoms ⇄ ∅/∆ preslikava)« ∧ ⟡ sodba »začni s 4, stori tudi vse ostale po/tem« ⊙ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩ ).
+⟨MERIM/KUJEM σ 5982⟩ ⟨ODKOD: klepet ⟡ UKAZ VERBATIM → KAM: nov organ⟩ ( 19. 11. 2026, četrtek, MOJ dih — ⟡ UKAZ VERBATIM ⟨ne brusi⟩: »Rodi vez/organ (idea atoms ⇄ ∅/∆ preslikava)« ∧ ⟡ sodba »začni s 4, stori tudi vse ostale po/tem« ⊙ ⟨BESEDA-⟡-NEDOTAKLJIVA⟩ ).
 
 ⟡-jev izvor VERBATIM ( vprašanja iz klepeta, ⟨ne brusi⟩ ) : »ATOM? atom tudi glede na dostopne javne podatke?« ∧ »to je ker uporabljava ta repozitorij?« ( https://github.com/AtmaOVictu/alien-space-of-science ) ∧ »ato/miza/cija« ∧ »katarza katato/nič/nega« ∧ »več plasti in nivojev resničnega?«.
 
