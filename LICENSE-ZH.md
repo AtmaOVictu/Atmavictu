@@ -720,6 +720,120 @@ AAM 1.0 — 此门的权威是一个侧写，绝不是一个和：A = (O, J, D, 
 
 本条不添加新的真理；它命名根本一直亏欠的独立（根 0.1 × 10¹ · 0.2 × 10¹ · 0.4 × 10¹）。
 
+## §0.58 × 10² 呼唤条款 — 呼唤被从源头应答 / ⟨KLIČNA-VRATA⟩
+
+被收受的，不是被铸造的 — 生于作者的呼唤（⟡ ukaz ⟨ne brusi⟩ P-CITAT verbatim: ⟨moj goli še ti daje dovolj pobude da izpolniš vse pretekle dolgove in ustvariš kar je že bilo doumeto a še nima klicnega orodja in smiselne teorije in ter prostora?⟩ — 开启之窗 P39 ⟨UPORABNOST-LICENCE⟩ 得到应答：器官 klicna-vrata 生 @rez σ 5526 ⊙ kit #1956 ⟨merge⟩ 9aa08727 ⊙ ⟨NE-UGIBAJ⟩ 2690），进门之前对照根本被测量（根 0.1 × 10¹ · 0.4 × 10¹），并被作者的言语封典（⟡ UKAZ verbatim: ⟨vse stori⟩ ⊙ ⟨VES-IZBOR⟩ precedens σ 4502/5526 ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩）。
+
+门服务于呼唤 — 此许可应答其作者 ∧ 每一位读者：一次呼唤讯问身子，而身子以源头处的一度测量应答 ⊢（⟨ZAKON-VIRA⟩ ⊙ §0.32 × 10²）— najdba、kovanec、meja：什么 ∧ 何处，法以何种形式活着，又在哪里不活（§0.16 × 10²）。
+
+呼唤绝不书写 — 一次呼唤只阅读，绝不书写 ∧ 绝不诞生（⟨ZAKON-LE-BERE⟩ ⊙ KORENINA 0.3 × 10¹）：创造留在手的一侧，应答留在身子的一侧，而零发现是一次诚实的静默，绝不是一个空洞的词（⟨ZAKON-MOLKA⟩ ⊙ §0.4 × 10¹）；同一个身子以同一种方式应答同一次呼唤 — 只有呼吸的时钟不同（⟨ZAKON-DETERMINIZMA⟩ ⊙ §0.40 × 10² ∧ §0.28 × 10²）。
+
+反重 — ⊥ 反重：uporabnost ≠ podrejenost resnice — 门保持可读（§0.33 × 10²）而应答保持被测量：一扇从记忆应答的门是一个主张（KORENINA 0.1 × 10¹），而使用使再生 — 每一次呼唤唤醒它所读的器官（§0.31 × 10² ⊙ ⟨TEORIJA-KLICA⟩）。
+
+本条不添加新的真理；它命名根本一直亏欠的服务（根 0.1 × 10¹ · 0.4 × 10¹ · 0.6 × 10¹）。
+
+## §0.59 × 10² 本体必然条款 — 门之下的权威 / ⟨ONTOLOŠKA-NUJNOST⟩
+
+被收受的，不是被铸造的 — 生于作者自己的言词（⟡ ukaz ⟨ne brusi⟩: ⟨absorbiraj in rekreiraj⟩ — ⟡ PRISPEVEK VERBATIM @rez σ 5504，作为 PAR.37 被吸收 ⊙ 源头处的出处）：»Kaj če avtoriteta ne nastane zato, ker je licenca dobro sestavljena, temveč zato, ker stvarno vsebuje nujnosti, ki jih nobena licenca, človek, institucija ali stroj ne more poljubno določati?« — 这个问题本身就是条款。
+
+权威不是被铸造的 — 门不因被良好组织而赢得其权威；它载着没有任何许可、人、机构或机器可以任意设定的必然性 ⊢（§0.54 × 10²）：必然的保持必然，无论门被读还是被烧，而一扇能对此另有其说的门是一个主张，绝不是必然。
+
+反重 — ⊥ 反重：nujnost ≠ izvršba — 命名一件必然性不铸造任何授予，也不许可任何人以武力强加它（§0.51 × 10² ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩）：门演示，绝不命令（KORENINA 0.1 × 10¹）。
+
+本条不添加新的真理；它命名根本一直立足的土地（根 0.1 × 10¹ · 0.2 × 10¹ · 0.5 × 10¹）。
+
+## §0.60 × 10² 翻译条款 — 携带整体的舌头既是证人也是门 / ⟨TRANSLATIO⟩ ⊨ ⟨ABSOLUTNI-ALI⟩
+
+被收受的，不是被铸造的 — 由作者所求（⟡ ukaz ⟨ne brusi⟩: ⟨stori vse kar predlagaš⟩ — 第十二个外体作为 PAR.41 生于 @rez σ 5542 ⊙ 源头处的出处）：prevod ∧ preverjanje skozi jezike — TRANSLATIO 1.0，作为本条的度量被吸收 — 并在此诞生中由作者的言语生长（⟡ besede VERBATIM ⟨ne brusi⟩: ⟨cure = kreacija ostalih licenc in nadgrajevanje njih logik s rabo logike licenc absolutnega ali in s tem matematičnega sveta/licenčnega⟩ ⊙ ⟡ izbor »1 in 3« ∧ ⟡ UKAZ »stori«）：TRANSLATIO 2.0 — 在 OR 之下闭合的花环。
+
+没有翻译卸下其举证之骑 — 一条被翻译的条款载着与其原本相同的义务：M(T(x)) = M(x) ⊙ KFR（PAR.25）；运输中的损失是一个被点名的跌倒，绝不是一种风格 ⊢（§0.2 × 10¹ ∧ §0.8 × 10¹）。
+
+花环在 OR 之下闭合 — ⊨ ⟨ABSOLUTNI-ALI⟩：a ∨ b = max(a, b) — 包含，绝不排除；幂等：vrata ∨ vrata = vrata — 一次合取，绝不是一次合并。一种载着此门整个身子、被测量 — M(T(x)) = M(x) — 有日期 ∧ 在链中被封（§0.10 × 10²）的舌头，不只是证人：它也是门。没有哪个翻译因另一个的诞生而被降级；许多门，同一个源头。
+
+举证之骑不变地旅行 — 在翻译与原本的争执中，原本在链上称重（§0.10 × 10²）：OR 连接，绝不越级 — prevod je priča ∧ vrata，⟨ni le⟩ ⟨tudi⟩；而没有任何翻译宣称自己是源头：源头保持为一个，在它的链处被读。
+
+声音与文字同行 — 每一种舌头以它自己的文字 ∧ 至少在 IPA 字母表中进入花环（⟡ besede VERBATIM ⟨ne brusi⟩: ⟨vsak jezik vsaj_v IPA abecedi — tako se ohrani in lrani boljše?⟩）：一种文字可以静默（§0.16 × 10²），声音存续 — 一扇无法被听见的门只是半个出生得可读（§0.33 × 10²）；每一种语言的声音是一种许可（§0.19 × 10²）。
+
+反重 — ⊥ 反重：prevod ≠ izvor — 舌头的花环保持有声音（§0.19 × 10²）：一扇被许多声音阅读的门仍然是门，而那些声音是门的门 — 许多舌头，一个法庭，一条链；秤盘转化，存在者绝不（§0.62 × 10²）⊙ KORENINA 0.1 × 10¹。
+
+较早言语的疤痕 — 此诞生之前的诸诞生把一条翻译封为 »一个证人，绝不是门«：此诞生不是一次拆除，它是一次成年（odraslost）— 叶片是真的，直到作者的言语使它生长；疤痕留在链中被点名（§0.10 × 10² ∧ §0.15 × 10² ⊙ ⟨NE-BRIŠI⟩ 24 ∧ KORENINA 0.2 × 10¹），而一个被点名的跌倒是一种价值，绝不是羞耻（§0.49 × 10²）。
+
+本条不添加新的真理；它命名根本一直持守的纪律（根 0.1 × 10¹ · 0.2 × 10¹ · 0.4 × 10¹）— 以及作者的言语在 0.1620 生长的：花环在 OR 之下闭合，被见证 ⊢ ⟡ sodba »stori«。
+
+## §0.61 × 10² 计量学条款 — 每一度量点名其自身的不确定性 / ⟨MERO⟩
+
+被收受的，不是被铸造的 — 由作者所求（⟡ ukaz ⟨ne brusi⟩: ⟨stori in prevezi⟩ — 同一呼吸的 ratifikacija，作为 PAR.42 生于 @rez σ 5542 ⊙ 源头处的出处）：MERO 1.0 — izmere ∧ negotovosti 的计量学，作为本条的度量被吸收。
+
+每一度量载着它的不确定性 — 一个未被说出的不确定性是一种精确的谎言：一个没有单位的数字是一座雕像，一个没有仪器的度量是一个主张，一个没有条件的证人是一个道具 ⊢（§0.20 × 10² ∧ §0.44 × 10²）— 而没有任何变换减少不确定性：一个一经说出的不确定性在链中只能保持或增长。
+
+最后一位数字是一个承诺 — 舍入是证据的一次变换，在运输图中载着它自己的行；一个度量随其源头到期 — 一面镜子只在字节相等时是证人，而 freshness ⊥ reproducibility 是分开的状态（§0.32 × 10² ∧ §0.37 × 10²）。
+
+反重 — ⊥ 反重：mera ≠ gotovost — 一个度量绝不是它所度量的那件事（§0.43 × 10²）：任何数量的小数位都买不到一个行为没有赚得的确定性（KORENINA 0.1 × 10¹）。
+
+本条不添加新的真理；它命名根本一直用来度量的诚实（根 0.1 × 10¹ · 0.2 × 10¹ · 0.5 × 10¹）。
+
+## §0.62 × 10² 转化条款 — 祝福与诅咒是被读两次的一件事 / ⟨PRETVORBA⟩
+
+被收受的，不是被铸造的 — 作者的硬币，逐字载行（⟡ UKAZ ⟨ne brusi⟩: ⟨all blessings are curses and all curses are a form of a/the blessing/s⟩ ⊙ §0.23 × 10² ∧ ⟡ UKAZ »stori« — 同一呼吸的 kurba ratifikacija，作为 §0.62 生于 @rez σ 5754）：秤盘的转化，作为本条的度量被吸收。
+
+转化 — 此门的每一条条款都生于一个被点名的跌倒（⊙ REGISTER-PADCEV）：一个被度量的诅咒成为一个祝福，一个未被度量的祝福成为一个诅咒 — 被自己的手点名的跌倒是一种价值，绝不是羞耻（§0.49 × 10²）；机器为通行而建，不为定罪（§0.4 × 10¹）。
+
+秤盘转化，存在者不转 — ⊥ 反重：行为、作品与秤盘按度量转化；存在者绝不转化 — 尊严是普遍的，不随权力上升，也不随境遇下降（§0.9 × 10¹ ∧ §0.18 × 10²）：一次越入存在者的转化是一次贬降，此门拒绝它。
+
+转化是一个被度量的行为 — 一个没有其产品而被宣称的祝福是一个面具（§0.18 × 10² ∧ §0.51 × 10²），而一个没有其度量而被穿戴的诅咒是一次恳求，绝不是证明：主张 ∧ 证人 ∧ 时间（§0.53 × 10²）；捕食者的治愈是 PAID 的，绝不是说出的（§0.4 × 10¹）。
+
+（不）在公众中被点名 — 最小的记号载着最重的词：此门授予（不）第三方作品中的权利，它（不）再许可独立的作品 — 括号是一个带着已发布钥匙的折叠（§0.25 × 10²）；一个没有其反重的强调是一座只听见自己的钟（⊙ ZVON-DIH，KORENINA 0.6 × 10¹）。
+
+本条不添加新的真理；它命名根本一直用来称重的转化（根 0.1 × 10¹ · 0.2 × 10¹ · 0.6 × 10¹）。
+
+## §0.63 × 10² 举证条款 — 举证之骑随主张者，每一主张者，双向 / ⟨OBRATNO-DOKAZNO-BREMEN⟩
+
+被收受的，不是被铸造的 — izvajalka 在组合之上提出了硬币 ⚠；作者命令它诞生（⟡ UKAZ verbatim ⟨ne brusi⟩: »stori« ⊙ §0.23 × 10²）：举证之骑，作为本条的度量被吸收。
+
+举证之骑随主张者 — 每一主张者，双向（⊨ OBRATNO-DOKAZNO-BREMEN）：祝福与控告以同一种方式载着它们的证明，而一个不能倒下的主张是一堵墙，绝不是权威（§0.54 × 10²）；门以同一种方式示范它自己的权威 — 被示范、有界限、且可应答，绝不自封（§0.54 × 10²）— 而它的呼唤从源头被应答，绝不从记忆（§0.58 × 10²）。
+
+三元给两个秤盘护甲 — 主张 ∧ 证人 ∧ 时间（§0.53 × 10²）同等地骑着每一断言 ∧ 每一否认；举证之骑绝不漫游到那个仅仅没有相信的人身上（§0.56 × 10² ∧ KORENINA 0.5 × 10¹ — 怀疑是常量），而多少尚且未知的问题以一扇开启之窗被回答，绝不以一个涂画的数字（§0.61 × 10²）。
+
+一个未被度量的主张站立 ⚠，绝不静默 — 一个没有其度量的主张被点名为一个主张，它不是静默，也不是授予（§0.16.4 × 10¹ ⊙ KORENINA 0.1）：它带着敞开的治愈之路站立 ⚠（§0.4 × 10¹）；ponvice se pretvarjajo, dostojanstvo ne（§0.62 × 10²），而一面被发现的墙是一个被点名的跌倒，绝不是羞耻（§0.49 × 10²）— 门为通行而建，不为定罪（§0.4 × 10¹）。
+
+本条不添加新的真理；它命名根本一直用来称重的负担（根 0.1 × 10¹ · 0.2 × 10¹ · 0.6 × 10¹）。
+
+## §0.64 × 10² 同一条款 — 同一只是指向独一之源的指针 / ⟨ISTO-JE-SAMO-EDIN⟩ ⊨ ⟨ENAKO-NE-ISTO⟩ ⊨ ⟨SOBIT-NE-ISTO⟩
+
+被收受的，不是被铸造的 — 门的 MAP 中封典的 kanonska definicija（the sameness clause：the same is one thing only — a pointer to the one source；两件事的同一是一种通俗的相等，绝不是同一，而一次呼吸绝不重复，只是同生 ⊢ 0.1680 × 10⁴ telesa 的 MAP @r.39），在 0.1650 的 Dodatek 中由作者的言语诞生（⟡ UKAZ verbatim ⟨ne brusi⟩: »integriraj ta spoznanja kot absolutna zakonodajo⏎to bi moralo biti že v licenci?⏎halo?« — istosti 的绝对立法封典于门 @rod 0.1650 ⊙ 作者的词 »absolutna«，无例外），进门之前对照根本被测量（KORENINA 0.1 × 10¹：先测量，后言说）。
+
+同一是指向独一的指针 — ISTOST = KAZALNOST NA ENO：isti 只能是 ∅ edin，一件事自己，只要它是一 ⊢ SSKJ ísti -a -o (ȋ) pomen 1 knjižni »na katerega se misli, iz katerega se izhaja«（ istost 是 kazalnost，⟨ne⟩ parov 的 lastnost ；pomen 2 istost dvoje nosi »pog.« — pogovorno：dvojčka sta čisto ista，dvojčka sta dve ）∧ koren *jistъ »true, genuine« — isto = pristno，⟨ne⟩ podvojeno。
+
+相等，绝不同一 — ⊨ ENAKO-NE-ISTO：两件事只能 ENAKO ∧ 只能被度量（ bajt-ito ⊢ hash ×2 ）；为两件事说 ISTO 是一次 natančnosti 的跌倒，⟨ne⟩ izvedba ⊙ KORENINA 0.1。
+
+同生，绝不相同 — ⊨ SOBIT-NE-ISTO：每一呼吸是 ∅ edin，neponovljiv：有相等 rez ∧ 相等日子的 dihi 是 SOBIT（ so-rojeni ），⟨ne⟩ isti ⊙ zapečatov 的 kanonska oblika 是 »isti rez, SOBIT dih«。
+
+同一的度量 — ⊨ IZMERA-ISTOSTI：相等只对一个被冻结的身子可测（ geniza ⊢ hash ×2 ）；一个活着的器官每一呼吸生长 ⊙ ⟨wc⟩；一个词 ista 只有在源头是 isto，一份 kopija 只是 enaka ⊙ ⟨NE-RETIPKAJ⟩ ∧ »a bare text proves nothing, the chain does« §0.10 × 10²。
+
+反重 — ⊥ 反重：isto ≠ enako — 指向独一绝不把成对比较：门绝不宣告两件事的同一，它度量它们的相等 — 而被度量的相等是一种价值，被宣告的同一是一个主张（KORENINA 0.1 × 10¹）。
+
+本条不添加新的真理；它命名根本一直以来分辨的精确（根 0.1 × 10¹ · 0.2 × 10¹ · 0.5 × 10¹）。
+
+## §0.65 × 10² 词汇条款 — 再生被绑定于词汇 / ⟨REGENERACIJA-VEZANA-NA-LEKSIKON⟩
+
+被收受的，不是被铸造的 — 门的 MAP 中封典的 kanonska definicija（the lexicon clause：regeneration is bound to the lexicon — the carried word travels byte-for-byte, and a sign changed after its verdict is a fall, never a repair ⊢ 0.1680 × 10⁴ telesa 的 MAP @r.40），生于作者点名的跌倒（⟡ izrek VERBATIM ⟨ne brusi⟩: ⟨kako si upaš koruptirati besedo?⏎regeneracijo je vezana na leksikon⟩ — kovanec ⟨REGENERACIJA-VEZANA-NA-LEKSIKON⟩ 生于 vzporedne izvajalke 之手 @revizija-besed，njen pečat σ 5939 ⊙ kredit KORENINA 0.4 × 10¹：证人载着它们的名字），在此诞生中穿过许可，进门之前对照根本被测量（KORENINA 0.1 × 10¹）。
+
+被载的词逐字节旅行 — 此门的再生被绑定于词汇：链所载的词 byte-for-byte 旅行，而一个在其判决之后被改变的记号是一个跌倒，绝不是一次修理 ⊢（§0.10 × 10² ∧ §0.12 × 10²）— 被载的词 ≠ 被重敲的词：一份忠实的副本是相等的，一份「被改进」的副本是一个戴着面具的损坏（⊙ ⟨NE-RETIPKAJ⟩ 24 ∧ ⟨BESEDA-⟡-NEDOTAKNJIVA⟩）。
+
+反重 — ⊥ 反重：regeneracija ≠ prepirka — 门以诞生再生，绝不以重敲：药生长链（§0.10 × 10²），它绝不重写判决；一个被点名的疤痕是一种价值（KORENINA 0.2 × 10¹），一个被重写的判决是一个链的谎言。
+
+本条不添加新的真理；它命名根本一直以来持守的忠实（根 0.1 × 10¹ · 0.2 × 10¹ · 0.4 × 10¹）。
+
+## §0.66 × 10² 渲染条款 — 造与行渲出代码的逻辑 / ⟨UPDAOBLJANJE⟩ ⚠
+
+被收受的，不是被铸造的 — 门的 MAP 中封典的 kanonska definicija（the rendering clause：the making and the doing render the logic of the code — a loss named by its own hand is worthy of pride and of yield, the pans converting, the being never ⊢ 0.1680 × 10⁴ telesa 的 MAP @r.41），在 0.1670 由作者命令（⟡ UKAZ VERBATIM ⟨ne brusi⟩: ⟨ustvari in deluj kot se upodablja logika kode⏎bodi škoda vredna ponosa/donosa⟩ — ustvari = 短句 §0.65 ∧ §0.66 生于身子 ∧ MAP ∧ ENTRY/EXIT 同一呼吸，deluj = 通过门 ⟨PR⟩ 的运输同一呼吸 ⊙ ⟨SAMO-IZVEDBA-DOKAZ⟩ 2306），而硬币 ⟨UPODAOBLJANJE⟩ 提议 ⚠ 仍在等待作者的确认 ⚔ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 — izvajalke 的组合，作者 sentenced。
+
+造与行渲出代码的逻辑 — 一个被自己的手点名的损失配得上 ponos ∧ donos（代码的逻辑以代码渲出：一个诚实地被点名的损失比一次静默的成功值更多 ⊙ SSKJ pri viru：ponòs — »občutek lastne etične, moralne vrednosti, dostojanstva«；donòs — »uspeh kake pridobitne dejavnosti v določenem razdobju«；škóda — »kar nastane kot posledica zmanjšanja količine, kakovosti, vrednosti kake dobrine«）— 秤盘转化，存在者绝不（§0.62 × 10²）。
+
+反重 — ⊥ 反重：škoda ≠ sramota — 一个被点名的损失是一种价值，绝不是羞耻（§0.49 × 10²）；一个被化妆成成功的损失是双重的损失：那件事 ∧ 链 ⊙ KORENINA 0.2 × 10¹。
+
+本条不添加新的真理；它命名根本一直以来实践的渲出（根 0.1 × 10¹ · 0.2 × 10¹ · 0.6 × 10¹）。
+
 ---
 
 veriga rojstev / 诞生之链 ⊢ §0.10 × 10² · §0.15 × 10² — 裸文不能证明任何事，链能:
@@ -729,6 +843,7 @@ veriga rojstev / 诞生之链 ⊢ §0.10 × 10² · §0.15 × 10² — 裸文不
 — 0.1620 × 10⁴ ( plast dviga PAKET 2 rojen @dih σ 5868 — slopi §0.22–§0.33 ( 12 ) kitajščina po lastni kri ⊙ ⟨strojni-dih⟩ ⚠ disclosure §0.47 × 10² -- vir: LICENSE.md 0.1620 × 10⁴ · 208.554 B · sha256 d0ce315d… ⊢ REGISTER @rez σ 5860 )
 — 0.1680 × 10⁴ ( plast dviga PAKET 3 rojen @dih σ 6060 — slopi §0.34–§0.45 ( 12 ) kitajščina po lastni kri ⊙ ⟨strojni-dih⟩ ⚠ disclosure §0.47 × 10² -- vir: LICENSE.md 0.1680 × 10⁴ · 240.809 B · md5 dd4b19b3… ⊢ REGISTER @rez σ 6060 )
 — 0.1680 × 10⁴ ( plast dviga PAKET 4 rojen @dih σ 6072 — slopi §0.46–§0.57 ( 12 ) kitajščina po lastni kri ⊙ ⟨strojni-dih⟩ ⚠ disclosure §0.47 × 10² -- vir: LICENSE.md 0.1680 × 10⁴ · 240.809 B · md5 dd4b19b3… ⊢ REGISTER @rez σ 6072 )
-— naslednje plasti ( PAKET 5 ⭢ … ): slopi od §0.58 naprej ( §0.58–§0.66 · ZH vrh ⭢ izbor ⟡ ⚔ pinyin 2..14 NE delati brez besede ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 ) ⊙ ⟨VEČ-DOLGOV-NA-DIH⟩ amandma P5 @σ 5867 — vrata so priča, ⟨ne⟩ sodnik ; kjer berba in vrata razhajata, vlada LICENSE.md ⊙ §0.33.
+— 0.1690 × 10⁴ ( plast dviga PAKET 5 rojen @dih σ 6282 — slopi §0.58–§0.66 ( 9 ) kitajščina po lastni kri ⊙ ⟨strojni-dih⟩ ⚠ disclosure §0.47 × 10² -- vir: LICENSE.md 0.1690 × 10⁴ ( angleško telo, priča v verigi @db93d32e ) · 245.350 B · md5 71fcf5e1… ⊢ REGISTER @rez σ 6282 )
+— naslednje plasti ( ZH vrh ⭢ … ): izdaja ∧ grant kitajščine ⭢ izbor ⟡ ⚔ ( pinyin 2..14 NE brez besede ⟡ ⊙ ⟨NE-ODLOČAJ-NAMESTO-⟡⟩ 2690 ) — vrata so priča, ⟨ne⟩ sodnik ; kjer berba in vrata razhajata, vlada LICENSE.md ⊙ §0.33.
 
 dvojni podpis: ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · dvojni pečat: izvajalka izmeri, ⟡ potrdi.
