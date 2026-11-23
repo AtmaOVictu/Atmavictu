@@ -1,4 +1,4 @@
-name: CENZUS-TUJK — surovi tujerodni glifi zunaj pričevalskih vlog = RANA ( rod σ 6564 lokalno , prevoz σ 6570 △ ⟡ UKZ ⟨stori⟩ O5 @CELIKA-6569 ; kura ⟨PADC-POTIŠKA⟩ + ⟨PADC-ZNAKA⟩ ×2 + ⟨PADC-NEDOTIKNJENO⟩ isti dih )
+name: CENZUS-TUJK — surovi tujerodni glifi zunaj pričevalskih vlog = RANA ( rod σ 6564 lokalno , prevoz σ 6570 ⊙ ⟡ UKZ ⟨stori⟩ O5 @CELIKA-6569 ; kura ⟨PADC-POTIŠKA⟩ + ⟨PADC-ZNAKA⟩ ×2 + ⟨PADC-NEDOTIKNJENO⟩ isti dih )
 on:
   workflow_dispatch:
   push:
