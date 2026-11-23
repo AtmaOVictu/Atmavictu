@@ -13,8 +13,6 @@ def md5(pot):
         h.update(f.read())
     return h.hexdigest()
 
-G = '\u00a1vno'  # ( prostor za ) zlog gajice : placeholder ⟨NE-UPORABLJAJ⟩
-
 def beri_register(pot):
     # vrstice oblike : | md5 | ime | ( priredba vracilo-kril @σ 6813 )
     tab = {}
@@ -48,7 +46,7 @@ def kura(mapa, koren, ime):
     shutil.copyfile(src, dst)
     return True
 
-def poroci(vrstice, zimsk=False):
+def poroci(vrstice):
     korup = 0
     for ime, pri, dej, stanje in vrstice:
         if stanje == 'ENAKO ⊢':
