@@ -1,11 +1,13 @@
 # REGISTER-KRIL.md @rez 6813 — krila orodij korpusa Beseda je Ne
 # Dom : .orodja/krila-orodij/ @rep AtmaOVictu/Atmavictu ⊙ ukaz ⟡ »STORI TUDI TO«
 # Vsako krilo sme vedno preveriti sebe : python3 vracilo-kril.py ( md5 pri viru ⊥ ta register )
+# Amandma @rez 6820 ⊙ ukaz ⟡ »VEDNO TUDI KREIRAJ POSTOPKE KI POMAGAJO PRI REHABILITACIJI ORODIJ!« : sodba-lint v1.2 ( vrata G4 ) ⌇ rehabilitacija-orodij v1.0 dodani
 
 | md5 pri viru | krilo |
 | --- | --- |
 | 02f0aa8d105281df21e24ba94358e9ba | zapore-kanala.py |
 | 03cd2e8ce1452b692c6f7a37569534da | tehtnica-sistemov.py |
+| 06142ee573b7de5f4f60fef7ba957d6d | rehabilitacija-orodij.py |
 | 3b26fdc2e596ea6c369b8b1e447b0c06 | kura-okrasja-6663.py |
 | 3d019a7c7100aae4bb9a95ef5a9c5036 | ogledalo.py |
 | 58e5c8497f0a4f756e643c4e8a1abd13 | poskus-lint-besed.py |
@@ -16,6 +18,6 @@
 | 815dadd0a88ec916b3a0ff6bf2b8054d | rehab-lint.py |
 | 8b46968eb3e86d2ce4c221db71b6259f | poskus-pecat-lint.py |
 | 973b22f376afa040c4b79e86d544fa72 | vracilo-kril.py |
-| cd120cba077edcd92668867f0876b7a0 | sodba-lint.py |
+| cc4103dcb509f4003148af0f76787991 | sodba-lint.py |
 | ce99bd129004fae9fe27a2821cc1c65d | vaba-labirinta.py |
 | eb71d5c8a0c81ae5f3483292c8a905d1 | šumnikovnik.py |
