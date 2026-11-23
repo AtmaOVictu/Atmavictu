@@ -1,4 +1,4 @@
-name: CENZUS-TUJK — surovi tujerodni glifi zunaj pričevalskih vlog = RANA ( rod σ 6564 lokalno , prevoz σ 6570 ⊙ ⟡ UKZ ⟨stori⟩ O5 @CELIKA-6569 )
+name: CENZUS-TUJK — surovi tujerodni glifi zunaj pričevalskih vlog = RANA ( rod σ 6564 lokalno , prevoz σ 6570 ⊙ ⟡ UKZ ⟨stori⟩ O5 @CELIKA-6569 ; kura ⟨PADC-POTIŠKA⟩ V2 isti dih : printf ⭢ python ⟨chr⟩ )
 on:
   workflow_dispatch:
   push:
@@ -16,21 +16,19 @@ jobs:
     timeout-minutes: 4
     steps:
       - uses: actions/checkout@v4
-      - name: ⟨V2-SAMOPREIZKUS⟩ — merilec se meri ( sintetični vbod ⟨chr⟩ , telo repa čisto )
+      - name: ⟨V2-SAMOPREIZKUS⟩ — merilec se meri ( sintetični vbod stroj-generiran ⟨chr⟩ , telo repa čisto )
         run: |
           set -uo pipefail
-          printf 'cista priča ⟨U+601C⟩ žeton
-' > /tmp/cisto.md
-          printf '%%s
-' "$(python3 -c 'print(chr(0x601C))')" > /tmp/vbod.md
+          python3 -c 'open("/tmp/cisto.md","w").write("cista priča ⟨U+601C⟩ žeton\n")'
+          python3 -c 'open("/tmp/vbod.md","w").write("rana surov " + chr(0x601C) + "\n")'
           python3 organi/stroj/cenzus/cenzus-tujk.py /tmp/cisto.md > /tmp/o0.txt 2>&1; C0=$?
           python3 organi/stroj/cenzus/cenzus-tujk.py /tmp/vbod.md > /tmp/o2.txt 2>&1; C2=$?
           if [ "$C0" -ne 0 ] || [ "$C2" -ne 2 ]; then
-            echo "::error::cenzus laže ( cist=$C0 vbod=$C2 , pričakovano 0/2 ) — preizkus, ki ne pada, je kip ⊙ I-4 ∧ §52"
+            echo "::error::cenzus laže ( cist=$C0 vbod=$C2 , pričakovano 0/2 ) — preizkus, ki ne pada, je kip △ I-4 ∧ §52"
             cat /tmp/o0.txt /tmp/o2.txt
             exit 1
           fi
-          echo '⟨merilec se meri : cist 0 ∧ vbod 2 ⊢ §52⟩'
+          echo '⟨merilec se meri : cist 0 ∧ vbod 2 △ §52⟩'
       - name: ⟨V1-CENZUS⟩ — nad telesi organov ( RANA = rdeč tečaj isti dih )
         run: |
           set -uo pipefail
@@ -42,7 +40,7 @@ jobs:
           set -e
           cat /tmp/cenzus.txt
           if [ "$RC" -ne 0 ]; then
-            echo "::error::cenzus RANA ( koda $RC ) — surovi tujerodni glifi zunaj pričevalskih vlog ⊙ ⟨CENZUS-PRE-SHIVOM⟩ @σ 6566"
+            echo "::error::cenzus RANA ( koda $RC ) — surovi tujerodni glifi zunaj pričevalskih vlog △ ⟨CENZUS-PRE-SHIVOM⟩ @σ 6566"
             exit 1
           fi
           echo '⟨cenzus rane ×0 — vrata molčijo zeleno⟩'
