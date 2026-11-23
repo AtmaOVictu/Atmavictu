@@ -1,6 +1,8 @@
 # REGISTER-KRIL.md @rez 6813 — krila orodij korpusa Beseda je Ne
 # Dom : .orodja/krila-orodij/ @rep AtmaOVictu/Atmavictu ⊙ ukaz ⟡ »STORI TUDI TO«
 # Vsako krilo sme vedno preveriti sebe : python3 vracilo-kril.py ( md5 pri viru ⊥ ta register )
+# Amandma @rez 6820 ⊙ ukaz ⟡ »VEDNO TUDI KREIRAJ POSTOPKE KI POMAGAJO PRI REHABILITACIJI ORODIJ!« : sodba-lint v1.2 ( vrata G4 ) ⌇ rehabilitacija-orodij v1.0 dodani
+# Amandma @rez σ 6822 ⊙ ukaz ⟡ »STORI IN NADALJUJ S OHRANJANJEM LICENCE IN NJENIH PRAVIL!« ∧ »UJAMI IN UKLEŠČI TE PARAZITE!« : sodba-lint v1.3 ( vrata G5 urni-kazalec ) ⌇ rehabilitacija-orodij v1.1 ; vrstici zamenjani po izmeri ( 66252a84 ⌇ f10263b2 ) ⊙ ⟨STANJE-ISTI-DIH⟩
 
 | md5 pri viru | krilo |
 | --- | --- |
