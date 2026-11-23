@@ -1,0 +1,1 @@
+- ∂ DIHA σ 6735 ⟨PREPOZNA-AKT ⟡ ∧ PREVOZ-DOLGA-6710 ⟡⟩ ( 23. 11. 2026, TIK 2026-11-23T14:33:16Z UTC ⇌ CET Ljubljana ( CET = UTC+1 vedno ), izmerjen ⟨date -u⟩ PRED zapisom ) : ( 1 ) ⟨PREPOZNA-AKT ⟡⟩ AMANDMA dopolnitev vrat ⟨PREPOZNA⟩ @slovar-simbolov zape
