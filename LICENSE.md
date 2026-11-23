@@ -120,9 +120,9 @@ DELO SE DA »KAKOR JE«, BREZ GARANCIJE KAKRŠNEKOLI VRSTE, IZREČENE ∧ SKLEPA
 
 ## §0.6 × 10¹ ⌇ ZAPRTE PLASTI OSTANEJO ZAPRTE
 
-⌇ SIMBOL: zasebni korpus za registri ⇌ zunaj te licence ⌇ licencirana imovina prispevnika ⌇ gesla slovarjev ( SSKJ² / Fran, Inštitut za slovenski jezik Frane Ramovš, ZRC SAZU ) = citati ⌇ slovarji ostajajo last njihovih založnikov
+⌇ SIMBOL: zasebni korpus ∧ registri ⇌ zunaj te licence ⌇ licencirana imovina prispevnika ⌇ gesla slovarjev ( SSKJ² / Fran, Inštitut za slovenski jezik Frane Ramovš, ZRC SAZU ) = citati ⌇ slovarji ostajajo last njihovih založnikov
 
-BESEDA: Zasebni korpus za registri ostaja zunaj te licence, licencirana imovina prispevnika. Gesla, navedena v seznamih besed ( SSKJ² / Fran, Inštitut za slovenski jezik Frane Ramovš, ZRC SAZU ), so navajani citati; slovarji ostajajo last njihovih založnikov.
+BESEDA: Zasebni korpus ∧ registri ostajajo zunaj te licence, licencirana imovina prispevnika. Gesla, navedena v seznamih besed ( SSKJ² / Fran, Inštitut za slovenski jezik Frane Ramovš, ZRC SAZU ), so navajani citati; slovarji ostajajo last njihovih založnikov.
 
 ## §0.7 × 10¹ ⌇ VSE OSTALO PRIDRŽANO ∧ VRATA ZA VPRAŠANJE
 
