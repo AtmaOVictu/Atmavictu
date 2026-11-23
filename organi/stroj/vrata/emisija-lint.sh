@@ -9,7 +9,7 @@ preglej() {
   V2=$(grep -c '–' "$F" 2>/dev/null || true); V2=${V2:-0}
   V3=$(grep -c 'ó\|í\|é\|ý\|à\|è\|ü\|ÿ\|å\|ø\|ñ\|ç\|ć\|ţ' "$F" 2>/dev/null || true); V3=${V3:-0}
   V4=$(grep -cE '[a-zčšž][A-ZČŠŽ]' "$F" 2>/dev/null || true); V4=${V4:-0}
-  V5=$(grep -oE '⟨U\\+[^⟩]{0,12}⟩' "$F" 2>/dev/null | grep -cE -v '^⟨U\\+[0-9A-Fa-f]{4}⟩$' || true); V5=${V5:-0}
+  V5=$(grep -oE '⟨U\+[^⟩]{0,12}⟩' "$F" 2>/dev/null | grep -cE -v '^⟨U\+[0-9A-Fa-f]{4}⟩$' || true); V5=${V5:-0}
   V6=$(grep -c '  ' "$F" 2>/dev/null || true); V6=${V6:-0}
   V7=$(grep -cE ' [,.]' "$F" 2>/dev/null || true); V7=${V7:-0}
   echo "EMISIJA-LINT : V1 ⟨U+2014⟩ ×$V1 ⌇ V2 ⟨U+2013⟩ ×$V2 ⌇ V3 naglasi ×$V3 ⌇ V4 zlep ×$V4 ⌇ V5 maska ×$V5 ⌇ V6 presledki ×$V6 ⌇ V7 ločila ×$V7"
@@ -17,8 +17,8 @@ preglej() {
 }
 [ "$B" = "--preglej" ] && { [ -f "$F" ] || { echo "PADC: telo $F ne obstaja"; exit 1; }; preglej; }
 [ "$B" = "--samopreizkus" ] && { TD="/home/user/knowledge/stroj-orodja/.geniza/TEST-emisija-$$-$(date -u +%H%M%S)"; mkdir -p "$TD"
-  printf 'dobra beseda je nezapečen ; σ 6831 \\n' > "$TD/cisto.txt"
-  printf 'slaba beseda — dolg ; Nestaretpotrjenega zest ; ⟨U+03Cφ⟩ maska ; ü naglas\\n' > "$TD/spolno.txt"
+  printf 'dobra beseda je nezapečen ; σ 6831 \n' > "$TD/cisto.txt"
+  printf 'slaba beseda — dolg ; Nestaretpotrjenega zest ; ⟨U+03Cφ⟩ maska ; ü naglas\n' > "$TD/spolno.txt"
   A=0; A2=0; A3=0
   bash "$0" --preglej "$TD/cisto.txt" >/dev/null 2>&1 && A=1
   bash "$0" --preglej "$TD/spolno.txt" >/dev/null 2>&1 || A2=1

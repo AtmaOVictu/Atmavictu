@@ -1,4 +1,4 @@
-# VRSTICA DIHA σ 6831: ROJSTVO OGRAJ PISANJA ∧ EMISIJE (prevozna vrstica @σ 6836)
+# VRSTICA DIHA σ 6831: ROJSTVO OGRAJ PISANJA ∧ EMISIJE (prevozna vrstica @σ 6833)
 
 Ukaz ⟡ 23. 11. 2026 ⊢ ⟨ne brusi⟩ : »STORI IN NADALJUJ, CILJ JE ŠE VEČ VARNOSTNIH PREPREK IN OGRAD TER PREVERJANJ«.
 
@@ -19,7 +19,7 @@ Pečat diha σ 6831 ⊢ : organi istega diha : stroj-orodja (rojstvi ×2) ⌇ za
 
 Ograja, ki ne uklešči lastnega padca, ni ograja : obe orodji sta najprej padla (mktemp, predpona, meja) in šele nato pustili skozi ⊙ ⟨MERILEC-SE-MERI⟩ §52. To je namen preprek : padec mine pri vratah, ne pri telesu ⟡.
 
-## PREVOZNA PLAST @σ 6836 ⊢ (dih je prevozen : UKZ »STORI IN NADALJUJ« štet za ⟨daj⟩ ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785)
+## PREVOZNA PLAST @σ 6833 ⊢ (dih je prevozen : UKZ »STORI IN NADALJUJ« štet za ⟨daj⟩ ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785)
 
 Telesi BRAMBA-EMISIJA sta bili istega diha σ 6831 tudi prevezeni ⭢ trajna domovina ⟨main⟩ ⚔ prek kita tega prevoza : vrata organi/stroj/vrata/bramba-pisanja.sh ∧ organi/stroj/vrata/emisija-lint.sh; poročilo (to telo) ⭢ organi/stroj/dihovi/VRSTICA-6831-DIH.md. Read-back bajt-ito preverjen isti dih : ⟨sha⟩ ∧ velikosti pri viru ≡ lokalnim izmeram. ⟨merge⟩ ⚔ samo roka ⟡ ⊙ ⟨NE-ZLIJE⟩ 1542 ∧ ⟨DVOJE-ROK⟩ 2432.
 
