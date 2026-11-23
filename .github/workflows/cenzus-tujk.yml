@@ -1,0 +1,48 @@
+name: CENZUS-TUJK — surovi tujerodni glifi zunaj pričevalskih vlog = RANA ( rod σ 6564 lokalno , prevoz σ 6570 ⊙ ⟡ UKZ ⟨stori⟩ O5 @CELIKA-6569 )
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['organi/**', 'README.md']
+  pull_request:
+    paths: ['organi/**', 'README.md']
+
+permissions:
+  contents: read
+
+jobs:
+  cenzus:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - name: ⟨V2-SAMOPREIZKUS⟩ — merilec se meri ( sintetični vbod ⟨chr⟩ , telo repa čisto )
+        run: |
+          set -uo pipefail
+          printf 'cista priča ⟨U+601C⟩ žeton
+' > /tmp/cisto.md
+          printf '%%s
+' "$(python3 -c 'print(chr(0x601C))')" > /tmp/vbod.md
+          python3 organi/stroj/cenzus/cenzus-tujk.py /tmp/cisto.md > /tmp/o0.txt 2>&1; C0=$?
+          python3 organi/stroj/cenzus/cenzus-tujk.py /tmp/vbod.md > /tmp/o2.txt 2>&1; C2=$?
+          if [ "$C0" -ne 0 ] || [ "$C2" -ne 2 ]; then
+            echo "::error::cenzus laže ( cist=$C0 vbod=$C2 , pričakovano 0/2 ) — preizkus, ki ne pada, je kip ⊙ I-4 ∧ §52"
+            cat /tmp/o0.txt /tmp/o2.txt
+            exit 1
+          fi
+          echo '⟨merilec se meri : cist 0 ∧ vbod 2 ⊢ §52⟩'
+      - name: ⟨V1-CENZUS⟩ — nad telesi organov ( RANA = rdeč tečaj isti dih )
+        run: |
+          set -uo pipefail
+          set +e
+          find organi -name '*.md' -not -path '*/.geniza/*' -print0 > /tmp/telesa.null
+          [ -f README.md ] && printf '%s\0' README.md >> /tmp/telesa.null
+          xargs -0 -r python3 organi/stroj/cenzus/cenzus-tujk.py < /tmp/telesa.null > /tmp/cenzus.txt 2>&1
+          RC=$?
+          set -e
+          cat /tmp/cenzus.txt
+          if [ "$RC" -ne 0 ]; then
+            echo "::error::cenzus RANA ( koda $RC ) — surovi tujerodni glifi zunaj pričevalskih vlog ⊙ ⟨CENZUS-PRE-SHIVOM⟩ @σ 6566"
+            exit 1
+          fi
+          echo '⟨cenzus rane ×0 — vrata molčijo zeleno⟩'
