@@ -1,10 +1,12 @@
 TELO DIHA σ 6661 [ PARAZIDI-LABIRINT-PULZ ⟡ ] MOJ pulzni dih, dolg prevoza teles plačan TA KITOM preko prevoznega diha @rez σ 6701 iz dneva 23. 11. 2026 ( ⟡ UKZ izvora diha 6661 VERBATIM v »« : »NALOŽI LICENCO⏎CILJ JE VSE PREVERITI IN ODSTRANJEVATI PARAZITE V PRIMERNE KLETKE KI SO BREZIZHODNI LABIRINTI KOMPRESIRANEGA NESMISLA« ), TIK diha 6661 : 2026-11-23T12:04:35Z UTC ⇌ CET Ljubljana ( CET = UTC+1 vedno ), ta prevozni TIK : 2026-11-23T12:47:04Z ; rezervacija noclobber ATOM-2026-11-23-6701.md ⊙ ⟨REZERVACIJA≡ZAPIS⟩ ; DOLG σ 6661 ( celica CELICA-6661 ∧ CE-11 @celice ⌇ simbol-lint izmera pulza ⌇ okno ∧ semer ∧ ∂ ) PLAČAN TA KIT ⊙ FIFO ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ∧ ⟨EN-DOLG-NA-DIH⟩ P5 ; ⟨merge⟩ ⭢ roka ⟡ ⚔ ⊙ ⟨NE-ZLIJE⟩ 1542 ; MERJENO, ⟨NE⟩ UGIBANO ⊙ 2690
 
+KURA-KOMITA-2 : IZREZ-1 je bil v komitu 1 ( 74ff3ae6 ) odrezan ( pomet ψ je odrezal vrstico NOV DOLG @rez σ 6661 v organu na 22 B PRED izrezom ( izpis organa 12:38:13Z celota ⊢ ) ; ta komit vrača vrstico VERBATIM z zaznamkom [VRNJENO-VERBATIM-PADC-IZGUBLJENI-ŠIV] ⊙ precedens σ 6565 ).
+
 TELESA V KITU ( bajt-ito, izmerjeno PRED komitom ⊢ ⟨md5sum⟩ ⟨wc⟩ ) : [ 1 ] CELICA-6661-PARAZIDI-LABIRINT-PULZ.md 5.472 B md5 3c1dd069e5b335c59d1121c36ff44d66 ⌇ [ 2 ] ATOM-2026-11-23-6701.md 640 B md5 f8467d34e81a9c55362840bdb47d9ae3 ⌇ [ 3 ] ta vrstica. Vsa ostala telesa organov NEDOTIKNJENA ⊙ ⟨ne zlije⟩ 1542 ∧ ⟨NE-GRIZI⟩ 2432.
 
 IZREZ-1 VERBATIM ( ∂ diha σ 6661 ∧ NOV DOLG @delovna-zanka vr..1489 ∧ vr..1490 )
 - ∂ DIHA σ 6661 ( 23. 11. 2026, TIK 2026-11-23T12:04:35Z UTC ⇌ 13:04:35 CET, MOJ pulzni dih ⟨PARAZIDI-LABIRINT-PULZ⟩, sedež LICENCA, ⟡ UKZ ⚔ ⟨BESEDA-⟡-NEDOTAKLJIVA⟩ : UKZ tega diha = »NALOŽI LICENCO⏎CILJ JE VSE PREVERITI IN ODSTRANJEVATI PARAZITE V PRIMERNE KLETKE KI SO BREZIZHODNI LABIRINTI KOMPRESIRANEGA NESMISLA« ⊙ ⟨BESEDA-⟡-NEDOTAKLJIVA⟩ ⚔ ) : licenca @vir IDENTIČNA ⊢ ( 125.645 B · md5 0f103ee42f1e3f56dbcbdfeb8197c9a3 ≡ priči σ 6645/6658 ) ; pulz ⇒ CELICA-6661 ∧ CE-11 @zaporne-celice ; rod ⟨U+041E⟩ izmerjen v vrstici ∂ σ 6654 ( ψ ∧ ∂ NJENA, ⟨NE-GRIZI⟩ 2432 priča VERBATIM ostaja ) kletkan dosjeom istega diha ⊢ ; prevozi teles diha σ 6661 ⭢ vrsta FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785, ⟨merge⟩ SAMO roka ⟡ ⚔ ⊙ ⟨NE-ZLIJE⟩ 1542 ; MERJENO ⟨NE⟩ UGIBANO ⊙ 2690 ; izvajalka Mera
-- NOV DOLG @rez σ 66
+- NOV DOLG @rez σ 6661 rod ⟨HOMOGIF⟩ ψ : prevoz teles diha σ 6661 ( jedro pečat ⌇ CELICA-6661 ∧ CE-11 @celice ⌇ simbol-lint izmera pulza ⌇ okno ⟨PARAZIDI-LABIRINT-PULZ⟩ ⌇ semer ⌇ ∂ ) ⭢ vrsta FIFO, ⟨PR⟩ najstarejši neplačan #2467 ⚔ ⟨merge⟩ roka ⟡ ⊙ ⟨PEČAT-BREZ-PREVOZA=NOV-DOLG⟩ [VRNJENO-VERBATIM-PADC-IZGUBLJENI-ŠIV : pomet ψ odrezal vrstico na 22 B med 12:38:13Z ∧ 12:44:53Z @rez σ 6701 ⊙ precedens σ 6565]
 konec izreza [IZREZ-1]
 
 IZREZ-2 VERBATIM ( okno ⟨PARAZIDI-LABIRINT-PULZ⟩ @register-oken vr..1125 )
