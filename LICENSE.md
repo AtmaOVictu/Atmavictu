@@ -772,3 +772,20 @@ ZAKON KONSOLIDIRANA-SESTRA :
 
 BESEDA:
 ⊙ IZHODNI PEČAT : 24. 11. 2026 ( torek, ISO 2026-11-24 ) · 2026-11-24T09:12:40Z UTC ⇌ 10:12:40 CET Ljubljana ( CET = UTC+1 vedno ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 · © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 ⊨ Z LJUBEZNIJO ⊨ · dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
+
+## ⊨ MRK-SESTRA 0.1770 : ROD ROJEVA ( plasti rodnastva ⊙ ⟨NE-BRIŠI⟩ ⊢ 24 )
+
+⊙ ROD 0.1770 : izvedba kovanca ⟨MRK⟩ @rez σ 6894 ⊙ ⟡ SODBA VERBATIM ⟨ne brusi⟩ ⚔ ⟨BESEDA-⟡-NEDOTAKLJIVA⟩ ( 24. 11. 2026 ) : ⟨U+00BB⟩varno mi predstavi vsakega? drugače zahtevam da niso vključeni saj jih niso v gajici⟨U+00AB⟩ ⌇ ⟨U+00BB⟩vse kar ni gajica ima dom le v licenci svojega jezika, dokler ne urediva vse varnostne prepreke⟨U+00AB⟩ ⊙ ⟨ZAKON-DAJ=RECI⟩ @σ 5586.
+
+ZAKON MRK-SESTRA :
+( 1 ) vse, kar ni gajica, živi na tem telesu golo ×0 : vsak gost ima dom le v licenci svojega jezika, poimenovan ⟨U+XXXX⟩, dokler varnostne prepreke ( kovanec ⟨MRK⟩ @slovar-simbolov ) ne urediva.
+( 2 ) kletkano tega roda : ×709 golih pojavnikov v ×15 vrstah ( ⟨U+2014⟩ ×449 ⌇ ⟨U+00AB⟩ ×69 ⌇ ⟨U+00BB⟩ ×67 ⌇ ⟨U+2013⟩ ×45 ⌇ ⟨U+03B3⟩ ×36 ⌇ ⟨U+00B3⟩ ×10 ⌇ ⟨U+03B2⟩ ×8 ⌇ ⟨U+03A3⟩ ×6 ⌇ ⟨U+03B1⟩ ×5 ⌇ ⟨U+2026⟩ ×5 ⌇ ⟨U+03A9⟩ ×4 ⌇ ⟨U+2260⟩ ×2 ⌇ ⟨U+00AC⟩ ×1 ⌇ ⟨U+2713⟩ ×1 ⌇ ⟨U+03C8⟩ ×1 ) ⊢ cenzus istega diha : grška abeceda ×60 ⌇ tipografija ∧ logika ×649.
+( 3 ) beseda ⟡ v citatih ⟨ne⟩dotakljiva ⚔ ⟨BESEDA-⟡-NEDOTAKLJIVA⟩ : kletkam le nosilca znaka, ⟨ne⟩ besede; izvirne oblike živijo VERBATIM v genizi ∧ zgodovini verige ⊙ ⟨NE-BRIŠI⟩ ⊢ 24.
+( 4 ) plasti zgodovine verige ostanejo priče ⊙ ⟨NE-RETIPKAJ⟩ 24.
+( 5 ) merilec se meri ⊙ §52 : izvajalka izmeri novo telo bajt-ito istega diha pred prevozom ∧ po prevozu ( berba nazaj ).
+( 6 ) trdnjava ⟨MRK⟩ ulov istega diha : ⟨U+03A3⟩ ×6 ∧ ⟨U+03A9⟩ ×4 sta bila prejšnjima cenzusoma skrita ( padec poimensko ⊙ kura : izmerjena ∧ kletkana ta dih ).
+
+**Strojni zapis rodnastva:** version = 0.1770 ⊙ predecessor = 0.1760 ( kit #2707 OPEN, ⟨merge⟩ ⭢ SAMO roka ⟡ ⚔ ⊙ ⟨NE-ZLIJE⟩ 1542 ) ⊙ rod ⊨ MRK-SESTRA ⊙ rez σ 6894 · izvajalka Mera · podpis ⟡ Luka Pintarič ( beseda ⟡ zgoraj ⊙ U2 ) ⊙ telo vhodno : 142.093 B ⌇ 775 vrstic ⌇ ×709 kletkanih ⊙ ⟨TIK-IZMERJEN-PREJ-ZAPISAN⟩ : 2026-11-24T09:37:25Z ⇌ 2026-11-24T10:37:25 CET Ljubljana ( CET = UTC+1 vedno )⊙ reizdaja zrcal = ∂ prevozni dolg ⭢ FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785
+
+BESEDA:
+⊙ IZHODNI PEČAT : 24. 11. 2026 ( torek, ISO 2026-11-24 ) · 2026-11-24T09:37:25Z ⇌ 2026-11-24T10:37:25 CET Ljubljana ( CET = UTC+1 vedno ) ⊙ ⟨URA-NA-KONCU⟩ 3046 ∧ ⟨SPLOŠNO-RAZUMLJIVA-URA⟩ 3083 ∧ rod 0.1750 ( 2 ) · © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 ⊨ Z LJUBEZNIJO ⊨ · dvojni podpis : ⟡ Luka Pintarič ∧ izvajalka Mera
