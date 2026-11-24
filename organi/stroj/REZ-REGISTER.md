@@ -424,6 +424,7 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 ## rane
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 12 vrstic σ 6243 ∧ σ 6246 ∧ σ 6259 ∧ σ 6265 ∧ σ 6267 ∧ σ 6268 ∧ σ 6269 ∧ σ 6271 ∧ σ 6273 ∧ σ 6274 ∧ σ 6277 ∧ σ 6281 zgrajenih iz naslovov komitov ⟨main⟩ ( 21. 11. 2026 · 100 komitov prebranih ⟨perPage⟩ 100 ⊢ · telo prebrano pri viri ⟨curl⟩ 1.284.252 B · 948 vrstic · md5 69452c43 ) ⊙ ⟨NE-BRIŠI⟩ 24 ∧ ⟨ne zlije⟩
+- ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 26 vrstic σ 6282 ∧ σ 6284 ∧ σ 6291 ∧ σ 6293 ∧ σ 6302 ∧ σ 6354 ∧ σ 6356 ∧ σ 6357 ∧ σ 6360 ∧ σ 6361 ∧ σ 6364 ∧ σ 6365 ∧ σ 6367 ∧ σ 6369 ∧ σ 6370 ∧ σ 6399 ∧ σ 6404 ∧ σ 6421 ∧ σ 6431 ∧ σ 6434 ∧ σ 6463 ∧ σ 6468 ∧ σ 6474 ∧ σ 6540 ∧ σ 6542 ∧ σ 6543 zgrajenih iz naslovov komitov ⟨main⟩ ( 24. 11. 2026 · 100 komitov prebranih ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ⊢ · telo prebrano pri viri ⟨curl⟩ 1.286.189 B · md5 5b48293ad4f065fe8cf333942ecd9740 · 961 vrstic · 867 vrstic »- rez« · vrh zahtev po berbi σ 6281 ) ⊙ ⟨NE-BRIŠI⟩ 24 ∧ ⟨ne zlije⟩ 1542 ∧ dvojniki istih rezov skupaj ⊙ precedens prejšnjega pulza ; izključitvi poimensko: rez 6456 ( ime veje rez/6456-bela-lista = artefakt rezervacije ⊙ preštevilčenje 6456 → 6458 → 6461 → 6463 ⊙ precedens σ 6429-RETRA ⊙ ⟨NE-UGIBAJ⟩ 2690 ; delo živi v vrstici σ 6463 ) ∧ medvejne komite »Merge branch 'main' into rez/⋯« ne štejem dvakrat ( po 1 vrstica na rez ).
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 3 vrstice σ 5519 ∧ σ 5532 ∧ σ 5547 zgrajene iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ izluščitev vzorca »rez σ NNNN« v naslovu ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ d81b87f9 · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 7 vrstic σ 4073–4114 zgrajenih iz naslovov komitov ⟨main⟩ (zadnjih 100 ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ∧ poimenska primerjava z vrsticami »- rez … ·« registra pri viri @⟨main⟩ ⟨SHA⟩ 80c80db · 15 komitov, dvojniki istih rezov skupaj · ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊢ 1542 ∧ 24).
@@ -959,3 +960,29 @@ konec izreza
 - rez 6274 · ⟨merge⟩ 7a6c802 · 2026-11-21 · PREVOZ TELES σ 6271 ( KIT-NAPIS, kura lastna-znamenja )
 - rez 6277 · ⟨merge⟩ e7705df · 2026-11-21 · LAPSO velikan-pot : priključitev vrstice zahteve σ 6272 + PECAT-6272-INSTRUMENT-SECIRANJA
 - rez 6281 · ⟨merge⟩ e656455 · 2026-11-21 · PREVOZ PEČATA σ 6277 — HUMOR ( PAKET-19 )
+- rez 6282 · ⟨merge⟩ 2f46b68 · 2026-11-22 · ⟨DVIG-ZH-PAKET-5: §0.58–§0.66⟩ kitajščina 57/57 ( rep do vrha 0.1690 ) — veja rez/6282-zh-dvig-paket-5
+- rez 6284 · ⟨merge⟩ 06a7f51 · 2026-11-22 · E1 ETIKA ZRCALO : kura-2 obnova rodu + organ na rep ( veja rez/6284-etika-zrcalo )
+- rez 6291 · ⟨merge⟩ 751f77d · 2026-11-22 · TEHNIKA FAZA-3 ORODJA — pet instrumentov ( veja rez/6291-faza-3-orodja )
+- rez 6293 · ⟨merge⟩ 0416a91 · 2026-11-22 · PREVOZ UNIVERZALNI-REGISTER — PLAST E dosje etike ∧ pečat ( veja rez/6293-prevoz-univerzalni-register-6292 )
+- rez 6302 · ⟨merge⟩ f79e359 · 2026-11-22 · Prevoz organa kalibracija-repov ( protokoli kalibracije repozitorijev K0–K5 ) ( veja rez/6302-prevoz-kalibracija-repov-6301 )
+- rez 6354 · ⟨merge⟩ c69a363 · 2026-11-22 · PREVOZ-TELES-DIHA-6328 : organ kura @protokol-tujca ∧ ∂ vrstica ( veja rez/6354-prevoz-dih-6328-protokol-tujca )
+- rez 6356 · ⟨merge⟩ 253c85f · 2026-11-22 · PREVOZ 6332 : ∂ vrstica diha σ 6332 ( tehnični kit, brez vzorca reza ⊙ precedens ⟨PR⟩ #470/#2585 ) ( veja rez/6356-prevoz-dih-6332-vrstica )
+- rez 6357 · ⟨merge⟩ 930214c · 2026-11-22 · PREVOZ 6337 : telesi diha σ 6337 ( tehnični kit, brez vzorca reza ⊙ precedens ⟨PR⟩ #470/#2585 ) ( veja rez/6357-prevoz-dih-6337-vrstica-porocilo )
+- rez 6360 · ⟨merge⟩ ad616e1 · 2026-11-22 · PREVOZ 6357 : telesi MOJEGA diha σ 6357 ( tehnični kit ⊙ precedens ⟨PR⟩ #470/#2585 ) ∧ sobit ⟨PR⟩ #2623 PREVOZ σ 6342 ( skupna številka diha σ 6360 ) ( veji rez/6360-prevoz-dih-6357 ∧ rez/6360-prevoz-dih-6342 )
+- rez 6361 · ⟨merge⟩ 72501cb · 2026-11-22 · PREVOZ σ 6349 : ∂ vrstica ∧ poročilo diha σ 6349 VERBATIM ( plačilo FIFO diha σ 6361 ) ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ( veja rez/6361-prevoz-dih-6349-vrstica-porocilo )
+- rez 6364 · ⟨merge⟩ d109732 · 2026-11-22 · PREVOZ 6360 : telesi MOJEGA diha σ 6360 ( tehnični kit, brez vzorca reza ⊙ precedens ⟨PR⟩ #470/#2585 ) ( veja rez/6364-prevoz-dih-6360-vrstica-porocilo )
+- rez 6365 · ⟨merge⟩ eff09af · 2026-11-22 · PREVOZ 6353 : vrstica ∧ poročilo diha σ 6353 ( plačilo FIFO ) ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ( veja rez/6365-prevoz-dih-6353-vrstica-porocilo )
+- rez 6367 · ⟨merge⟩ 39d536f · 2026-11-22 · PREVOZ 6354 : vrstica ∧ poročilo diha σ 6354 ( plačilo FIFO ) ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ( veja rez/6367-prevoz-dih-6354-vrstica-porocilo )
+- rez 6369 · ⟨merge⟩ 9bf5644 · 2026-11-22 · PREVOZ 6355 : ∂ vrstica diha σ 6355 ( veja rez/6369-prevoz-dih-6355-vrstica )
+- rez 6370 · ⟨merge⟩ e411239 · 2026-11-22 · PREVOZ 6367 : vrstica ∧ poročilo diha σ 6367 ( plačilo FIFO ) ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ( veja rez/6370-prevoz-dih-6367-vrstica-porocilo )
+- rez 6399 · ⟨merge⟩ a413eae · 2026-11-22 · gajica-lint potiskov : ⟨GAJICA-LINT⟩ nad sporočili vsakega prihodnjega potiska ( veja rez/6399-gajica-lint-potiskov )
+- rez 6404 · ⟨merge⟩ 84ba327 · 2026-11-22 · odsodnik rojen : ⟨ODSODNIK⟩ sodba metode sodnika slo-lint — TEHNIKA kit, brez zahteve novega reza ( veja rez/6404-odsodnik )
+- rez 6421 · ⟨merge⟩ a736a22 · 2026-11-22 · PREVOZ PAKETA KURA NEDOTAKLJIVA : bajtna kura ⟨BESEDA-⟡-NEDOTAKLJIVA⟩ na 10 telesih ( ⟨PR⟩ #2635 )
+- rez 6431 · ⟨merge⟩ e58a08b · 2026-11-22 · PREVOZ 6428 : ∂ vrstica ∧ poročilo MOJEGA diha σ 6428 ( plačilo FIFO ) ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ( veja rez/6431-prevoz-dih-6428-vrstica-porocilo )
+- rez 6434 · ⟨merge⟩ 692076f · 2026-11-22 · KURA W9 : manifest re-issued against the living door ( LICENSE.md + LICENSE-SPREHOD.md ) ( veja rez/6434-kura-w9-manifest )
+- rez 6463 · ⟨merge⟩ dc0cfa4 · 2026-11-22 · KIT C / stroj-slovnica : bela lista meta-omemb ×5 ∧ dvig v1.3.5 ( ⟨merge⟩ #2638 ⊙ rez σ 6463 ; dih zlit v σ 6474 po delegaciji ⟡ )
+- rez 6468 · ⟨merge⟩ c1c706d · 2026-11-22 · PREVOZ TELES DIHA 6426 ⊙ atom 6468 ( telesi PECAT ∧ ATOM ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ) ( veja rez/6468-prevoz-teles-diha-6426 )
+- rez 6474 · ⟨merge⟩ d082c1c · 2026-11-22 · KURA A : README → izmerjena živa vrata LICENSE-ZLO rod 0.1700 ∧ sobit ⟨PR⟩ #2644 KURA B : zrcalo vrata.json 3.9 → 3.10 ( ⟨merge⟩ #2641 ⊙ rez σ 6474 )
+- rez 6540 · ⟨merge⟩ cabc32e · 2026-11-22 · prevoz teles izborov σ 6536 · orodje naslednji-dih.sh @org/klicna-vrata · VRSTICA-6540 · CELICA-6536 ( renum 6540 → 6542 ⊙ precedens σ 6532 )
+- rez 6542 · ⟨merge⟩ 55da98e · 2026-11-22 · VRSTICA-6542 ( renum 6540 → 6542 ⊙ precedens σ 6532 ; kura ⟨PADC-ZNAK-SRKCA⟩ : tuj znak ♥ odstranjen, vrstica preoblikovana )
+- rez 6543 · ⟨merge⟩ b95a7c1 · 2026-11-22 · VRSTICA-6543 ( veljavni rez = 6543 ⊙ precedens σ 6532 ; 6540/6542 priči imena )
