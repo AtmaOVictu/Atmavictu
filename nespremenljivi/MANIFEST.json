@@ -81,5 +81,14 @@
     }
   ],
   "cis_varovalka": ".github/workflows/nespremenljivi.yml",
+  "zgodovina_kita": {
+    "veja": "kit/nespremenljivi-plast",
+    "pr": 2716,
+    "komiti": [
+      { "sha": "7c3a41f26bad7804abb366e2a9579e2170b345eb", "vloga": "EN komit telesa ×9 ⊢" },
+      { "sha": "cfdafaa23f9eb7c2fb99395f986010b06eef363a", "vloga": "prepečat mana ∧ README, rez 6974 : prehiten isti dih, priča zgodovine ⊙ ⟨NE-BRIŠI⟩ 24" },
+      { "sha": "ba5ab4bc25f6772bad7138a5a79a991c523f0827", "vloga": "prepečat mana ∧ README, rez 6975 : zapečen, rezervacija v organih PRED prepečatom ⊢" }
+    ]
+  },
   "podpis": "Luka Pintarič (ukaz ∧ izbor) in izvajalka Mera · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52"
 }
