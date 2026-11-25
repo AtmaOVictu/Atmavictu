@@ -1,0 +1,36 @@
+name: KURA CLEAN 2 — tehnični kit REGISTER-PULZ (amend brez ⟨U+2014⟩)
+# TEHNIKA REGISTER-PULZ ⊙ kura ⟨PADC-EM-DASH⟩ : sporočilo komita čiste veje je nosilo ⟨U+2014⟩ ( gajica-lint RDEČ ) ;
+# amend sporočila brez ⟨U+2014⟩ ( isto drevo, isti bibtc ; veja rojena ta dan v tem kitu ) ⊙ ⟨ne brisati⟩ ∧ ⟨ne zlije⟩.
+on:
+  pull_request:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kura-clean2-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
+jobs:
+  amend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: amend sporočila čiste veje ∧ izbris enkratnih kitov
+        env:
+          RUNNER_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          git config user.name "atmavictu-tehnika"
+          git config user.email "lukapin5@users.noreply.github.com"
+          git checkout -B amendc origin/tehnika/register-pulz-clean-20261125
+          git commit --amend -m "TEHNIKA REGISTER-PULZ : dopolnitev REZ-REGISTER ( 1 vrstica zahteve σ 6456 + 1 zapis rane ) · čista osnova ⟨main⟩ 91b7be34 ⊙ ⟨ne brisati⟩ ∧ ⟨ne zlije⟩ ⊙ pulz 25. 11. 2026"
+          git push --force-with-lease origin "HEAD:refs/heads/tehnika/register-pulz-clean-20261125"
+          git checkout -B runnerbr "$RUNNER_SHA"
+          rm -f .github/workflows/kura-clean-tehnika.yml .github/workflows/kura-eof-tik-tehnika.yml .github/workflows/kura-clean2-tehnika.yml
+          git add -A
+          git commit -m "TEHNIKA kura-clean2 : izbris enkratnih kitov tekačev z veje ( konsolidacija čiste veje gre naprej v ⟨PR⟩ tehnika/register-pulz-clean-20261125 ) ⊙ ⟨ne brisati⟩ teles ⟨main⟩ ∧ ⟨ne zlije⟩" --allow-empty
+          git push origin "HEAD:refs/heads/tehnika/register-pulz-20261125"
