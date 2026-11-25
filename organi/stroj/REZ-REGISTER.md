@@ -981,7 +981,7 @@ konec izreza
 - rez 6421 · ⟨merge⟩ a736a22 · 2026-11-22 · PREVOZ PAKETA KURA NEDOTAKLJIVA : bajtna kura ⟨BESEDA-⟡-NEDOTAKLJIVA⟩ na 10 telesih ( ⟨PR⟩ #2635 )
 - rez 6431 · ⟨merge⟩ e58a08b · 2026-11-22 · PREVOZ 6428 : ∂ vrstica ∧ poročilo MOJEGA diha σ 6428 ( plačilo FIFO ) ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ( veja rez/6431-prevoz-dih-6428-vrstica-porocilo )
 - rez 6434 · ⟨merge⟩ 692076f · 2026-11-22 · KURA W9 : manifest re-issued against the living door ( LICENSE.md + LICENSE-SPREHOD.md ) ( veja rez/6434-kura-w9-manifest )
-- rez 6456 · ⟨merge⟩ 4460e6d · 2026-11-22 · PREŠTEVILČENJE ⟨PADC-DUPLIKAT-REZ⟩ ( isti prevozni dih ) : ψ stekla v σ 6456 ( TIK 20:00:44Z ) ⇒ MOJ prevozni dih preštevilčen v σ 6458 ⊙ precedens σ 6429-RETRA ; ime veje rez/6456-bela-lista nosi čas rezervacije, pečat diha = σ 6458
+- rez 6456 · ⟨merge⟩ 4460e6d · 2026-11-22 · PREŠTEVILČENJE ⟨PADC-DUPLIKAT-REZ⟩ ( isti prevozni dih ) : ψ stekla v σ 6456 TIK 2026-11-22T20:00:44Z UTC ⇌ 21:00:44 CET Ljubljana ⇒ MOJ prevozni dih preštevilčen v σ 6458 ⊙ precedens σ 6429-RETRA ; ime veje rez/6456-bela-lista nosi čas rezervacije, pečat diha = σ 6458
 - rez 6463 · ⟨merge⟩ dc0cfa4 · 2026-11-22 · KIT C / stroj-slovnica : bela lista meta-omemb ×5 ∧ dvig v1.3.5 ( ⟨merge⟩ #2638 ⊙ rez σ 6463 ; dih zlit v σ 6474 po delegaciji ⟡ )
 - rez 6468 · ⟨merge⟩ c1c706d · 2026-11-22 · PREVOZ TELES DIHA 6426 ⊙ atom 6468 ( telesi PECAT ∧ ATOM ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785 ) ( veja rez/6468-prevoz-teles-diha-6426 )
 - rez 6474 · ⟨merge⟩ d082c1c · 2026-11-22 · KURA A : README → izmerjena živa vrata LICENSE-ZLO rod 0.1700 ∧ sobit ⟨PR⟩ #2644 KURA B : zrcalo vrata.json 3.9 → 3.10 ( ⟨merge⟩ #2641 ⊙ rez σ 6474 )
