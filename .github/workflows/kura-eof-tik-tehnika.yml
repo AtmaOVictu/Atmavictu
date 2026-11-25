@@ -1,0 +1,47 @@
+name: KURA-EOF-TIK — tehnični kit REGISTER-PULZ (pulz 25. 11. 2026)
+# TEHNIKA REGISTER-PULZ ⊙ enkratna kura ⟨PADC-EOF⟩ ∧ kalupa ⟨TIK⟩ nad REZ-REGISTER veje kita
+# ⟨ne brisati⟩ — samo popravek zaključne ⟨U+000A⟩ ∧ kalupa TIK; ⟨ne zlije⟩; po koncu kit izbriše sebe.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kura-eof-tik
+  cancel-in-progress: false
+
+jobs:
+  kura:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: kura — EOF ⟨U+000A⟩ ∧ TIK kalup
+        run: |
+          set -euo pipefail
+          F=organi/stroj/REZ-REGISTER.md
+          if ! tail -c 1 "$F" | od -An -tu1 | grep -q 10; then
+            printf '\n' >> "$F"
+            echo "kura EOF: dodana zaključna ⟨U+000A⟩"
+          else
+            echo "kura EOF: zaključna ⟨U+000A⟩ že stoji ⊢"
+          fi
+          if grep -q 'TIK 20:00:44Z' "$F"; then
+            sed -i 's/( TIK 20:00:44Z )/TIK 2026-11-22T20:00:44Z UTC ⇌ 21:00:44 CET Ljubljana/' "$F"
+            echo "kura TIK: kalup postavljen"
+          else
+            echo "kura TIK: kalup že stoji ⊢"
+          fi
+      - name: izbris kita ( enkraten )
+        run: rm -f .github/workflows/kura-eof-tik-tehnika.yml .github/workflows/kura-eof-tik.yml
+      - name: potisk
+        run: |
+          set -euo pipefail
+          git config user.name "atmavictu-tehnika"
+          git config user.email "lukapin5@users.noreply.github.com"
+          git add -A
+          git commit -m "TEHNIKA REGISTER-PULZ ⊙ kura ⟨PADC-EOF⟩ + kalup TIK ( kit kura-eof-tik, enkraten ) : zaključna ⟨U+000A⟩ ⊙ ⟨VRATA-EOF-REGISTRA⟩ σ 6032 ∧ »TIK 2026-11-22T20:00:44Z UTC ⇌ 21:00:44 CET Ljubljana« ⊙ ⟨ne brisati⟩ ∧ ⟨ne zlije⟩" --allow-empty
+          git push origin HEAD:${{ github.ref_name }}
