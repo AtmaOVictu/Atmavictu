@@ -23,4 +23,4 @@ Komu: naročnik ⟡ Luka Pintarič (operater po roki pri viru, ⟨ne⟩ po imenu
 
 MANIFEST.json je merilo te plasti: vsako telo nosi pot, velikost, sha256, izvirnik in datum zapečenja. Telo brez vrstice v manifestu ni zapečeno telo te plasti.
 
-© 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · rojeno rez 6971, dih NESPREMENLJIVA-PLAST, TIK 2026-11-25
+© 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52 · rojeno rez 6974, dih NESPREMENLJIVA-PLAST, TIK 2026-11-25T09:09:24Z ( prepečat iz zastarele izmere 6971 istega kita pred ⟨merge⟩, telesa ×6 nespremenjena ⊙ ⟨MERILEC-SE-MERI⟩ §52 )
