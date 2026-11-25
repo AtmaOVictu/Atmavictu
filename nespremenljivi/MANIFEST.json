@@ -1,9 +1,9 @@
 {
   "plast": "NESPREMENLJIVI",
   "dih": "NESPREMENLJIVA-PLAST",
-  "rez": 6974,
-  "tik_zapečenja": "2026-11-25T09:09:24Z",
-  "prepecat": "PRVI prepečat mana ∧ README istega kita pred ⟨merge⟩: prvi pečat je nosil rez 6971 po zastareli izmeri vrha ( 6970 ) iz stiske konteksta; vzporedni dihovi korpusa 6971 ( PREUREDBA ), 6972 ( OBRT ) ∧ 6973 ( ČISTO-TELO ) so ga prehiteli ⊙ ⟨MERILEC-SE-MERI⟩ §52 ∧ ⟨NE-UGIBAJ⟩ 2690 ; telesa ×6 te plasti pri prepečatu NESPREMENJENA, digesti manifesta veljajo ⊢",
+  "rez": 6975,
+  "tik_zapečenja": "2026-11-25T09:11:50Z",
+  "prepecat": "DRUGI prepečat mana ∧ README istega kita pred ⟨merge⟩: prvi pečat je nosil rez 6971 po zastareli izmeri vrha ( 6970 ) iz stiske konteksta; vzporedni dihovi korpusa 6971 ( PREUREDBA ), 6972 ( OBRT ), 6973 ( ČISTO-TELO ) ∧ 6974 ( POPRAVEK-SLOVNICE ) so ga prehiteli ⊙ ⟨MERILEC-SE-MERI⟩ §52 ∧ ⟨NE-UGIBAJ⟩ 2690 ; rezervacija rez 6975 zapečena v organih ( TRENUTNO ∧ semer ∧ okno ∧ ∂ ∧ rod ) pred tem prepečatom, prvi poskus prepečata cfdafaa2 ( rez 6974 ) prehiten isti dih ; telesa ×6 te plasti pri prepečatih NESPREMENJENA, digesti manifesta veljajo ⊢",
   "sedeči_zakon": "priča je komputacija v kubitno gajico in nazaj (zakoni/ZAKON-PRIČE.md); bajti, md5 in sha256 so tehnično ščetlo",
   "pravila": [
     "v zapečenem telesu se nikoli več ne spremeni noben znak, nobena vrstica in noben red vrstic",
