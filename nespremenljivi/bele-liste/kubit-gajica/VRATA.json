@@ -1,0 +1,23 @@
+{
+  "vrata": "POSEBAJ-PROSTOR registrov kubit gajica",
+  "ukaz": "PREVOZI JU V POSEBAJ PROSTOR NA GITHUBU, USTVARI MAPO POSEBAJ ZA NJIJU, UPORABI JO VSAKIČ KO DVOMIVA ALI JE REGISTER ZDRAV",
+  "zakon_zdravja": "ob vsakem dvomu ali je register zdrav: preberi telo registra pri viru in primerjaj bajte s pričo spodaj; razlika bajtov = rana javno",
+  "register_1": {
+    "pot": "register-1/KNOWLEDGE.md",
+    "bajti": 3726,
+    "md5": "cdc8d7e0db9a93ed6a2d3bfca6c079b3",
+    "pecat": "POTRJUJEM 24. 11. 2026",
+    "znakov": 87,
+    "piramid": 348
+  },
+  "register_2": {
+    "pot": "register-2/KNOWLEDGE.md",
+    "bajti": 4061,
+    "md5": "813dfda7427e9f48e7db5bc59a05e351",
+    "pecat": "STORI 24. 11. 2026",
+    "znakov": 87,
+    "piramid": 348
+  },
+  "tik_prevoza": "2026-11-24T18:23:19Z UTC ⇌ 19:23:19 CET Ljubljana",
+  "podpis": "Luka Pintarič in izvajalka Mera, dvoje rok 2432, merjeno ne ugibano 2690"
+}

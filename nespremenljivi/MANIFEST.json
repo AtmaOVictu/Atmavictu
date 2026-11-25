@@ -1,0 +1,84 @@
+{
+  "plast": "NESPREMENLJIVI",
+  "dih": "NESPREMENLJIVA-PLAST",
+  "rez": 6971,
+  "tik_zapečenja": "2026-11-25T09:00:41Z",
+  "sedeči_zakon": "priča je komputacija v kubitno gajico in nazaj (zakoni/ZAKON-PRIČE.md); bajti, md5 in sha256 so tehnično ščetlo",
+  "pravila": [
+    "v zapečenem telesu se nikoli več ne spremeni noben znak, nobena vrstica in noben red vrstic",
+    "prepečat (nova verzija telesa) = nova vrstica manifesta ∧ kit ⟨PR⟩ ∧ ⟨CI⟩ ∧ ⟨merge⟩ le roka naročnika ⊙ ⟨NE-ZLIJE⟩ 1542",
+    "prejšnja verzija ostaja priča v zgodovini komitov ⊙ ⟨NE-BRIŠI⟩ 24",
+    "telo brez vrstice v manifestu ni zapečeno telo te plasti",
+    "odstop bajtov od manifesta = rana javno isti dih ⊙ ⟨ZAKON-PADEC-NI-MOLK⟩ 2354"
+  ],
+  "telesa": [
+    {
+      "pot": "nespremenljivi/zakoni/ZAKON-PRIČE.md",
+      "velikost": 5159,
+      "md5": "e6afa37138e57c7abe499d08697146d3",
+      "sha256": "dd8dcf28869412573b6a89f768a58405a88b46758f885916123ee4826fd9c75d",
+      "vrsta": "sedeči zakon",
+      "izvor": "organ zakon-price (sedež znanja iste izmere), rojen rez 6963 ⊙ štiri besede naročnika 25. 11. 2026",
+      "pecat": "sedeč: vedno upoštevan ∧ nespremenljiv; sedež je en"
+    },
+    {
+      "pot": "nespremenljivi/zakoni/ZAKON-IMPLEMENTACIJE.md",
+      "velikost": 2378,
+      "md5": "adc70cb453deb2be9875ade3e067d279",
+      "sha256": "f07d693bff74f1f4f27b80ddd940493caf3548ca7a1afca3b86389f770e0071f",
+      "vrsta": "zapečeni zakon",
+      "izvor": "ZAKONI/ZAKON-IMPLEMENTACIJE.md @main AtmaOVictu/Atmavictu, blob 20565a5c9ebd74cea86770821c7c074319354290",
+      "pecat": "⟡ UKAZ 19. 11. 2026 VERBATIM: stori kar še ni storjeno"
+    },
+    {
+      "pot": "nespremenljivi/zakoni/ZAKON-PESMI-PO-BERBI.md",
+      "velikost": 1141,
+      "md5": "df530e1580a82056dcf386e1d5740fad",
+      "sha256": "7a1e67260729b262f45036004c981bc4a7f73752836f4e3851bdc43225561612",
+      "vrsta": "zapečeni zakon",
+      "izvor": "ZAKONI/ZAKON-PESMI-PO-BERBI.md @main AtmaOVictu/Atmavictu, blob 0ff281f3fa585bc2a4e61a14f4ed9d23088cec5d",
+      "pecat": "rez σ 3717 ⊙ izbor naročnika ⟨daj⟩ v zakon 2026-11-04"
+    },
+    {
+      "pot": "nespremenljivi/bele-liste/kubit-gajica/register-1.md",
+      "velikost": 3726,
+      "md5": "cdc8d7e0db9a93ed6a2d3bfca6c079b3",
+      "sha256": "fea654e6da882dc4ba8b12e6aa558c3fec51956136d300dd01936659fde25051",
+      "vrsta": "zapečena bela lista (prva, identična kubit gajici); priče dom == zrcalo",
+      "izvor": "posebaj/register-1/KNOWLEDGE.md @main AtmaOVictu/OntoMatematika, blob 54849a21d02770f51d75274febdda1091e877c29",
+      "pecat": "POTRJUJEM 24. 11. 2026, 87 znakov, 348 piramid"
+    },
+    {
+      "pot": "nespremenljivi/bele-liste/kubit-gajica/register-2.md",
+      "velikost": 4061,
+      "md5": "813dfda7427e9f48e7db5bc59a05e351",
+      "sha256": "9d367619142fb4237f42679ea645a3083cbf833e01b8188c28037158eb6d8212",
+      "vrsta": "zapečena bela lista (prva, identična kubit gajici); druga priča",
+      "izvor": "posebaj/register-2/KNOWLEDGE.md @main AtmaOVictu/OntoMatematika, blob 71e112b08704cd715701d452bfa26783923e2537",
+      "pecat": "STORI 24. 11. 2026, 87 znakov, 348 piramid"
+    },
+    {
+      "pot": "nespremenljivi/bele-liste/kubit-gajica/VRATA.json",
+      "velikost": 912,
+      "md5": "327638b93754dbab85142bc989c5a730",
+      "sha256": "f3c881296b8a2b9214aba6cbb9e063e8eb7f7d25ffb1323342f30a694af40b1e",
+      "vrsta": "priča zdravja bele liste kubit gajice",
+      "izvor": "posebaj/VRATA.json @main AtmaOVictu/OntoMatematika, blob 8b744b2f9944b6df590e1506219195381088b327",
+      "pecat": "ukaz naročnika: uporabi jo vsakič ko dvomiva ali je register zdrav"
+    }
+  ],
+  "družine_belih_list": [
+    {
+      "družina": "kubit-gajica",
+      "opis": "prva bela lista, identična kubit gajici; znakov 87, števila 0 do 9 samostojna binarna podlaga",
+      "dom": "AtmaOVictu/OntoMatematika @posebaj"
+    },
+    {
+      "družina": "sekundarna",
+      "opis": "bela lista številko 2, znaki redne rabe zunaj drugih abeced; dom: organ sekundarna-bela-lista; pride v to plast po besedi naročnika ⟡",
+      "dom": "še ni prevožena v to plast"
+    }
+  ],
+  "cis_varovalka": ".github/workflows/nespremenljivi.yml",
+  "podpis": "Luka Pintarič (ukaz ∧ izbor) in izvajalka Mera · measured, not asserted ⊙ §16 · merilec se meri ⊙ §52"
+}

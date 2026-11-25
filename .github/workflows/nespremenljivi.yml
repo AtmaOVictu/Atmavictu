@@ -1,0 +1,45 @@
+name: nespremenljivi
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'nespremenljivi/**'
+      - '.github/workflows/nespremenljivi.yml'
+  pull_request:
+    paths:
+      - 'nespremenljivi/**'
+      - '.github/workflows/nespremenljivi.yml'
+  workflow_dispatch:
+
+jobs:
+  preverba:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: preverba digestov zapečenih teles
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, hashlib, sys
+          from pathlib import Path
+          m = json.loads(Path('nespremenljivi/MANIFEST.json').read_text(encoding='utf-8'))
+          telesa = m['telesa']
+          padci = 0
+          for t in telesa:
+              pot = Path(t['pot'])
+              if not pot.exists():
+                  print(f"::error title=nespremenljivi::zapečeno telo manjka: {t['pot']}")
+                  padci += 1
+                  continue
+              bajti = pot.read_bytes()
+              digest = hashlib.sha256(bajti).hexdigest()
+              ok = digest == t['sha256'] and len(bajti) == t['velikost']
+              stanje = 'ZELENO' if ok else 'RDECE'
+              print(f"{stanje} {t['pot']} velikost {len(bajti)} od {t['velikost']} sha256 {digest}")
+              if not ok:
+                  padci += 1
+          if padci:
+              print(f"::error title=nespremenljivi::odstop zapečenih teles: {padci}; sprememba brez prepečata = rana, prepečat le roka naročnika")
+              sys.exit(1)
+          print(f"ZELENO: vsa zapečena telesa bajtno identična manifestu ({len(telesa)})")
+          PY
