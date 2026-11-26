@@ -1,0 +1,32 @@
+name: ogra-kavelj
+# ⟨SEKIRA-HOOK⟩ @rez σ 7790 ⊙ ukaz ⟡ ( 26. 11. 2026 ) : vsak prevoz kita
+# teče skozi ogro ( ventil ∧ samopreizkus ∧ cenzus tujk nad telesi kita ) ;
+# rdeča = prevoz zavrnjen ; ⟨merge⟩ samo roka naročnika ⚔ ⊙ ⟨NE-ZLIJE⟩ 1542.
+on:
+  pull_request:
+    branches: [main]
+concurrency:
+  group: ogra-kavelj-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  ogra:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: ventil ∧ samopreizkus ( merilec se meri, preden sodi )
+        run: python3 .orodja/stroj-orodja/ograja.py samopreizkus
+      - name: cenzus tujk po telesih kita ( rana = rdeča = zavrnjen prevoz )
+        run: |
+          set -euo pipefail
+          git diff --name-only origin/main...HEAD > spremenki.txt || true
+          grep -E '^(organi/|\.orodja/|\.github/workflows/)' spremenki.txt | grep -E '\.(md|py|sh|yml|json)$' > telesa-kita.txt || true
+          if [ -s telesa-kita.txt ]; then
+            xargs -a telesa-kita.txt python3 .orodja/stroj-orodja/ograja.py tujke --zgovori
+          else
+            echo "⟨ogra : v kitu ni teles organov ∧ orodij ; vrata molčijo ⊢⟩"
+          fi
