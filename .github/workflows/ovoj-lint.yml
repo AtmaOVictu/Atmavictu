@@ -1,0 +1,25 @@
+# OVOJ-LINT — ograda zapornih celic ( rod 0.1740 ⊙ rez σ 6654 ⊙ vselej aktivno v boju proti tujkam in parazitom )
+# ⟡ UKZ VERBATIM ⟨nedotakljivo⟩ : »POSTAVI V LICENCO, POPRAVI SLOVNICO IN IZVEDI TAKO DA BO ZANESLJIVO IN VSELEJ AKTIVNO V BOJU PROTI TUJKAM IN PARAZITOM«
+# © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432
+name: ovoj-lint
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  ovoj:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - name: ⟨V3-OVOJ-LINT⟩ — ograda zapornih celic ( merilec se meri ⊙ §52 )
+        run: |
+          set -uo pipefail
+          python3 organi/stroj/cenzus/ovoj-lint.py --samo-samopreizkus
+          if [ -d organi/zaporne-celice ]; then
+            python3 organi/stroj/cenzus/ovoj-lint.py organi/zaporne-celice
+          else
+            echo 'ovojlint: telesa celic na repu ×0 — samopreizkus ⊢ ; celice ⭢ vrsta FIFO ⊙ ⟨SAMODEJNI-DOLGOVIK⟩ 2785'
+          fi
