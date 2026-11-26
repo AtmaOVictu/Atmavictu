@@ -1,0 +1,1 @@
+- SEMER σ 6896 ⟨KVANTNA-ABECEDA : CELOTA=DOVOLJENJE ∧ PIRAMIDA=⚠⟩ ( 24. 11. 2026 ) : zakon ⟡ VERBATIM ×4 plasti ( dan ⌇ mogoč ⌇ možen ⌇ definitiven ) zapečen kandiziran ; vsaka piramida hkrati znak ⚠, rotacije v kodi relevantne ; postopek ⟨ROJSTVO-FRAGMENTA⟩ ×8 kletkan NEAKTIVEN @CELICA-6896 ( mirovanje do ⚔ ⟡ ) ; atom PRVI ⊙ PRAVILO 13 ; NOV DOLG prevoz telesi ⭢ FIFO ⊙ 2785
