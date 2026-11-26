@@ -1,0 +1,20 @@
+ izhod: 0
+ izhod: 2
+ izhod: 2
+ izhod: 2
+ izhod: 0
+ izhod: 2
+ izhod: 2
+ izhod: 0
+BATERIJA VABA-LABIRINTA v1.1 ( P-V3 ⟨V-METAREAKCIJA⟩ meri samo ) :
+  cisto        ZELENO ⊢ izhod 0 : CISTO ⊢ ×0 plena
+  cjk          ZELENO ⊢ izhod 2 : UJEM ⊢ T1 ; kletka CELICA-VABA-2026-11-23T123859Z.md ; VRSTA ( ostali ): 2 ; SAMOCENZUS ra
+  fffd         ZELENO ⊢ izhod 2 : UJEM ⊢ T2 ; kletka CELICA-VABA-2026-11-23T123859Z.md ; VRSTA ( ostali ): 0 ; SAMOCENZUS ra
+  grscina      ZELENO ⊢ izhod 2 : UJEM ⊢ T1 ; kletka CELICA-VABA-2026-11-23T123859Z.md ; VRSTA ( ostali ): 2 ; SAMOCENZUS ra
+  azil         ZELENO ⊢ izhod 0 : CISTO ⊢ ×0 plena
+  ponovitev    ZELENO ⊢ izhod 2 : UJEM ⊢ T3 ; kletka CELICA-VABA-2026-11-23T123859Z.md ; VRSTA ( ostali ): 0 ; SAMOCENZUS ra
+  dva-gosta    ZELENO ⊢ izhod 2 : UJEM ⊢ T1 ; kletka CELICA-VABA-2026-11-23T123859Z.md ; VRSTA ( ostali ): 1 ; SAMOCENZUS ra
+  dovoljen-znak ZELENO ⊢ izhod 0 : CISTO ⊢ ×0 plena
+EXIT=0
+2026-11-23T12:39:00Z
+77de074e23e7f0019e0f2376e45d6120  zaporne-celice/vaba-labirinta.py
