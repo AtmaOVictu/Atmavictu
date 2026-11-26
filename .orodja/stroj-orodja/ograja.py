@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# ⟨OGRAJA⟩ v2.0 : ograja med roko modela in telesi korpusa
+# ⟨OGRAJA⟩ v2.1 : ograja med roko modela in telesi korpusa
+# amandma v2.1 ⊙ ukaz ⟡ 26. 11. 2026 VERBATIM ( »PREVERI DA NI NOBENIH
+#   HIBRIDNIH UKAZOV! USTVARI ANGLEŠKE VERZIJE UKAZOV!« ) : kura
+#   hibridov ( mešana imena ) ∧ angleški dvojci ukazov za tuja orodja.
 # rod @rez σ 7790 @stroj-orodja ⊙ ukaz Luka Pintarič VERBATIM
 #   »CREATE MEASURES AS TOOLS AGAINST LISTED ISSUES!« ( 26. 11. 2026 )
-#   ⊙ osem plasti v2.0 ( ukaz ⟡ VERBATIM 26. 11. 2026 ):
+#   ⊙ osem plasti ( v2.0 rod, v2.1 amandma ; ukaz ⟡ VERBATIM 26. 11. 2026 ):
 #   ⟨VENTIL-ORODJA⟩ : pred vsakim merjenjem preveri lastni md5 proti
 #     zapečateni priči ( ograja-ventil.md ob telesu ) ; spremenjeno telo
 #     orodja = izhod 2 ( instrument laže ). Merilec se meri ob vsaki rabi,
 #     ⟨ne⟩ le v bateriji.
-#   ⟨SEKIRA-HOOK⟩ : CI kavelj ogra-kavelj.yml ; vsak prevoz kita teče skozi
+#   ⟨SEKIRA-KAVALJ⟩ : CI kavelj ogra-kavelj.yml ; vsak prevoz kita teče skozi
 #     ogro ( tujke ∧ vrata nad telesi kita ) ; rdeča = prevoz zavrnjen ;
 #     ⟨merge⟩ samo roka naročnika ⚔.
 #   ⟨STALNI-DIH⟩ : vrata berejo MANIFEST-STROGA sha256 vsak pulz ( forma
@@ -21,7 +24,7 @@
 #     ⊙ σ 7769 ∧ 7784 ; kodne maske ostanejo znotraj stroja.
 #   ⟨KUBIT-KOVANJE⟩ : polna kubit plast pod gladino ( formula + oba zapečena
 #     registra + drsenje binarne podlage ) ⊙ zakon treh vrat 6949.
-#   ⟨REHAB-VEZA⟩ : ko vrata najdejo rano, povrni telo bajtno iz genize
+#   ⟨VEZA-POVRNITVE⟩ : ko vrata najdejo rano, povrni telo bajtno iz genize
 #     priče ⭢ predlog ⭢ sodba ⚔ ; ranjeno telo se ⟨ne⟩ prepisuje.
 #   ⟨ODPLAČILO-DOLGA ∂⟩ : prevoz telesa na rep po vrsti FIFO, po besedi
 #     naročnika ⚔ ( beseda izrečena 26. 11. 2026 ).
@@ -42,9 +45,23 @@
 #                                            --geniza MAPA : namig povrni )
 #   python3 ograja.py belo   --iz PRIČA... --izhod belo.tsv   ( ⟨BELO-NAVODILO⟩ )
 #   python3 ograja.py dih    [KOREN]       ( --manifest VZOREC ; ⟨STALNI-DIH⟩ )
-#   python3 ograja.py povrni TELO --iz GENIZA --napisi PREDLOG ( ⟨REHAB-VEZA⟩ )
+#   python3 ograja.py povrni TELO --iz GENIZA --napisi PREDLOG ( ⟨VEZA-POVRNITVE⟩ )
 #   python3 ograja.py ventil [--zapeči]    ( ⟨VENTIL-ORODJA⟩ )
 #   python3 ograja.py samopreizkus         ( baterija nad sintetičnimi trupi )
+#
+# ANGLEŠKI DVOJCI UKAZOV ( ukaz ⟡ 26. 11. 2026 : da več orodij ima priložnost
+#   primerjati rezultate ) : vsak dvojci teče po ISTEM motoru, isti vhod
+#   ⭢ isti izhod bajt-za-bajt ⊙ ⟨MERILEC-SE-MERI⟩ §52 ; angleški ukaz je
+#   čisto angleški, slovenski čisto slovenski : ukazi ⟨ne⟩ mešani.
+#   python3 ograja.py foreign DATOTEKA...   ( = tujke ; --strogo ; --belo )
+#   python3 ograja.py trace PRED PO          ( = sled ; --vrstice ; --prag )
+#   python3 ograja.py witness DATOTEKA...    ( = prica )
+#   python3 ograja.py gates DATOTEKA...      ( = vrata ; --manifest ; --geniza )
+#   python3 ograja.py whitelist --iz PRIČA... ( = belo ; --izhod )
+#   python3 ograja.py breath [KOREN]         ( = dih ; --manifest )
+#   python3 ograja.py restore TELO           ( = povrni ; --iz ; --napisi )
+#   python3 ograja.py valve [--zapeči]      ( = ventil )
+#   python3 ograja.py selftest               ( = samopreizkus )
 #
 # IZHODI : 0 = čisto ⊢ ; 1 = rana javno poimensko ; 2 = padec instrumenta.
 # TIŠINA : poročila ⭢ .geniza/ograja/ ; stdout SAMO z --zgovori
@@ -82,7 +99,7 @@ import hashlib
 import difflib
 from datetime import datetime, timezone
 
-VERZIJA = "2.0"
+VERZIJA = "2.1"
 ROD = "7790"
 
 
@@ -740,7 +757,7 @@ def beri_manifest(pot):
 def poroci_vrata(poti, manifest, geniza=None, uradne=None, zasedeni=None,
                  drs=None, belo=None):
     """prevozna vrata : cenzus tujk ∧ veriga md5 po pričah ;
-    rana pri neujemanju nosi namig povrni ( ⟨REHAB-VEZA⟩ )"""
+    rana pri neujemanju nosi namig povrni ( ⟨VEZA-POVRNITVE⟩ )"""
     vrstice = []
     rane = 0
     predpomnilnik = {}
@@ -848,7 +865,7 @@ def pulz_dih(koren, pot_manifesta):
     return (len(sprem) + len(izg)), vrstice
 
 
-# -------------------------------------------------------- ⟨REHAB-VEZA⟩ ----
+# -------------------------------------------------------- ⟨VEZA-POVRNITVE⟩ ----
 def povrni_telo(pot_tela, geniza, pot_izhoda):
     """povrni telo bajtno iz genize priče ; piše PREDLOG telo, ranjeno telo
     ⟨ne⟩ prepisuje ; brez priče = padec instrumenta"""
@@ -1038,7 +1055,7 @@ def samopreizkus():
                and len([s for s in stanja if "IZGINILO" in s]) == 1,
                "pulz čist %d ⭢ pomet %d ( sprem 1 ∧ izg 1 ; novo ni pomet )" % (pomet1, pomet2))
 
-        # T14 : ⟨REHAB-VEZA⟩ ( povrni bajtno iz genize priče )
+        # T14 : ⟨VEZA-POVRNITVE⟩ ( povrni bajtno iz genize priče )
         geniza_par = os.path.join(dom, "geniza", "telo-vrata.md")
         shutil.copy(telo_vrata, geniza_par)
         with open(telo_vrata, "w", encoding="utf-8") as f:
@@ -1137,9 +1154,22 @@ def glavna(argv):
                          "povrni|ventil|samopreizkus DATOTEKA... "
                          "[--zgovori] [--strogo] [--vrstice a-b,c] [--prag N] "
                          "[--manifest price.tsv] [--belo belo.tsv] "
-                         "[--kocke DOSJE...] [--geniza MAPA]\n")
+                         "[--kocke DOSJE...] [--geniza MAPA]\n"
+                         "angleški dvojci : foreign ⌇ trace ⌇ witness ⌇ gates ⌇ "
+                         "whitelist ⌇ breath ⌇ restore ⌇ valve ⌇ selftest\n")
         return 2
     ukaz = argv[1]
+    # ⟨ANGLEŠKI-DVOJCI⟩ : angleška različica vsakega slovenskega ukaza teče
+    #   po istem motoru ( isti vhod ⭢ isti izhod ⊙ ⟨MERILEC-SE-MERI⟩ §52 ),
+    #   da smejo tuja orodja ista telesa meriti ∧ rezultate primerjati ;
+    #   vsak ukaz en jezik cel : hibridov ni.
+    dvojci = {
+        "foreign": "tujke", "trace": "sled", "witness": "prica",
+        "gates": "vrata", "whitelist": "belo", "breath": "dih",
+        "restore": "povrni", "valve": "ventil", "selftest": "samopreizkus",
+    }
+    if ukaz in dvojci:
+        ukaz = dvojci[ukaz]
     ostali = list(argv[2:])
     zgovori = "--zgovori" in ostali
     ostali = [u for u in ostali if u != "--zgovori"]
@@ -1343,7 +1373,7 @@ def glavna(argv):
         return 1 if pomet else 0
 
     if ukaz == "povrni":
-        # ⟨REHAB-VEZA⟩ : --iz GENIZA ( glavna zastavica po glavi ) ∨ --geniza
+        # ⟨VEZA-POVRNITVE⟩ : --iz GENIZA ( glavna zastavica po glavi ) ∨ --geniza
         geniza_pot = geniza or (price_poti[0] if price_poti else None)
         if len(ostali) != 1 or not geniza_pot or not napisi:
             sys.stderr.write("raba : ograja.py povrni TELO --iz GENIZA "

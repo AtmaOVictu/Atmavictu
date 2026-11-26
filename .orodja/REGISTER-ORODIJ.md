@@ -46,3 +46,15 @@ Veja kita: orodja/ogra-7790 ( tehnični kit ⊙ precedens σ 6572 )
 - izmera števcev tega kita ⊢ : stroj-orodja ×146 → ×147 ; živih teles orodij 229 → 230
 - osem plasti rodu ⊙ ukaz ⟡ 26. 11. 2026 : VENTIL ⌇ SEKIRA ⌇ STALNI-DIH ⌇ BELO-NAVODILO ⌇ SAMO-KOCKE ⌇ KUBIT-KOVANJE ⌇ REHAB-VEZA ⌇ ODPLAČILO-DOLGA ∂
 - priča roda: ATOM-2026-11-26-7790-OGRAJA-V2.md @koren repa
+
+
+## POST 26. 11. 2026 @σ 7790 ( amandma ⟨OGRAJA⟩ v2.1 : kura hibridov ∧ angleški dvojci )
+
+TIK 2026-11-26T11:51:11Z ( izmerjen pred zapisom )
+Veja kita: orodja/ogra-7790 ( isti kit, drugi komit )
+- ukaz ⟡ VERBATIM: »PREVERI DA NI NOBENIH HIBRIDNIH UKAZOV! USTVARI ANGLEŠKE VERZIJE UKAZOV! DA VEČ ORODIJ IMA PRILOŽNOST PRIMERJATI REZULTATE!«
+- amandma telesa: .orodja/stroj-orodja/ograja.py v2.0 ⭢ v2.1 ( 58312 bajtov, 1401 vrstic, md5 5b4a2dd7030e785baf3e57cefb121afa, baterija 16/16 ZELENO skozi ventil ⊢ ) ; bok priče: ograja-ventil.md ( md5 isti telesu ⊢ ⟨VENTIL-ORODJA⟩ )
+- kura hibridov ⊙ sodba ⟡ ( »SEKIRA-HOOK« = parazit ; »hook« angleška beseda, domači dvojček kavelj ) : plast ⟨SEKIRA-KAVALJ⟩ ×1 šiv ⌇ ⟨REHAB-VEZA⟩ ⭢ ⟨VEZA-POVRNITVE⟩ ×6 šivov ; staro ostaja VERBATIM v zgodovini kita ⊙ ⟨NE-BRIŠI⟩ 24
+- angleški dvojci ukazov ×9 ( vsak dvojec isti motor : isti vhod ⭢ isti izhod bajtno ⊢ cmp ×9 ) : foreign = tujke ⌇ trace = sled ⌇ witness = prica ⌇ gates = vrata ⌇ whitelist = belo ⌇ breath = dih ⌇ restore = povrni ⌇ valve = ventil ⌇ selftest = samopreizkus
+- števci : stroj-orodja ostaja ×147, živih teles 230 ( amandma istega telesa = novo rojstvo ×0 )
+- priča amandmaja: ATOM-2026-11-26-7790-OGRAJA-V21-ANGLESKI-DVOJCI.md @koren repa
