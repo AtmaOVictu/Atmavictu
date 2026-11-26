@@ -36,3 +36,13 @@ Ukaz ⟡ VERBATIM: »DAJ VSA ORODJA V PRIMERNO MAPO NA GITHUB IN MI DAJ LINK DA 
 - legitimnost vsakega telesa po zakonu orodil tri vrata @rez σ 6949: slovnica imena · samopreizkus pri viru · kubit gajica pod gladino
 
 © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera ⊙ ⟨DVOJE-ROK⟩ 2432 · MERJENO, ⟨NE⟩ UGIBANO ⊙ 2690
+
+## POST 26. 11. 2026 @σ 7790 ( rod ⟨OGRAJA⟩ v2.0 )
+
+TIK 2026-11-26T11:28:03Z ( izmerjen pred zapisom )
+Veja kita: orodja/ogra-7790 ( tehnični kit ⊙ precedens σ 6572 )
+- novo telo: .orodja/stroj-orodja/ograja.py v2.0 ( rod σ 7790, 56363 bajtov, md5 46dacd607ff44bba516984c4afb8499b, baterija 16/16 ZELENO skozi ventil ⊢ ) ; bok priče: ograja-ventil.md ( ⟨VENTIL-ORODJA⟩ )
+- nov CI kavelj: .github/workflows/ogra-kavelj.yml ( ⟨SEKIRA-HOOK⟩ : vsak prevoz kita skozi ogro ; rdeča = zavrnjen ; ⟨merge⟩ samo roka ⟡ ⚔ )
+- izmera števcev tega kita ⊢ : stroj-orodja ×146 → ×147 ; živih teles orodij 229 → 230
+- osem plasti rodu ⊙ ukaz ⟡ 26. 11. 2026 : VENTIL ⌇ SEKIRA ⌇ STALNI-DIH ⌇ BELO-NAVODILO ⌇ SAMO-KOCKE ⌇ KUBIT-KOVANJE ⌇ REHAB-VEZA ⌇ ODPLAČILO-DOLGA ∂
+- priča roda: ATOM-2026-11-26-7790-OGRAJA-V2.md @koren repa
