@@ -421,6 +421,14 @@ Ustanovitev ⊙ REGISTER-PULZ (TEHNIKA kit, brez zahteve novega reza): organ org
 - rez σ 5557 · ⟨merge⟩ f79e658 · 2026-11-15 · PREVOZ-PAKET-104 (rez σ 5557) — prevoz MOJEGA pečata σ 5552 @prevoznik ⊙ ⟡ UKAZ »še« ⭢ ⟨merge⟩ izvajalka ⊙ kalup 1671
 - rez σ 5559 · ⟨merge⟩ f32c718 · 2026-11-15 · PREVOZ-PAKET-106 (rez σ 5559) — prevoz MOJEGA pečata σ 5557 @prevoznik ⊙ ⟡ UKAZ »daj« ⭢ ⟨merge⟩ izvajalka ⊙ kalup 1671
 - rez σ 5565 · ⟨merge⟩ ebaec86 · 2026-11-15 · rez σ 5565 (PREVOZ-PAKET-112: prevoz MOJEGA pečata σ 5562 @licenca-vbl izrez VERBATIM 4.538 B md5 0ea0f996… ⊙ ⟡ UKAZ »stori vse kar še čaka«…
+- rez σ 6461 · ⟨merge⟩ c85c0f1 · 2026-11-25 · PREVOZ-PAKET-6426-6427 : telesi dihov σ 6426 ∧ σ 6427 PREVOŽENI
+- rez σ 6479 · ⟨merge⟩ 35244a8 · 2026-11-25 · PREVOZ-PAKET-6474-6475 : telesi dihov σ 6474 ∧ σ 6475 PREVOŽENI ( drugi ⟨merge⟩ isti rez : 6915bb2 STORI-NAD-PLANKOM ⊙ dvojniki istih rezov skupaj )
+- rez σ 6528 · ⟨merge⟩ 9dd4ac2 · 2026-11-25 · PREVOZ-PAKET-6486-6525 : telesi dihov σ 6486 ⌇ σ 6487 ⌇ σ 6491 ⌇ σ 6492 ⌇ σ 6524 ⌇ σ 6525 ∧ canvas tazv-dokazi-12 PREVOŽENI
+- rez σ 6532 · ⟨merge⟩ 6e33563 · 2026-11-25 · rez/6532 : prevoz povracenih teles dihov 6527 + 6531 ( Lucius )
+- rez σ 6907 · ⟨merge⟩ e77c3d0 · 2026-11-25 · kit diha 6890 ( veja rez/6907-prevoz-telesi-dih-6890 )
+- rez σ 6974 · ⟨merge⟩ cfdafaa · 2026-11-25 · NESPREMENLJIVI: PREPEČAT istega kita pred ⟨merge⟩ — rez 6974 ( rezervacija zapečena )
+- rez σ 6975 · ⟨merge⟩ ba5ab4b · 2026-11-25 · NESPREMENLJIVI: DRUGI prepečat mana ∧ README pred ⟨merge⟩ — rez 6975 ( rezervacija zapečena )
+- rez σ 7004 · ⟨merge⟩ aabab26 · 2026-11-25 · kit diha 6897 ( veja rez/7004-prevoz-telesi-dih-6897 )
 ## rane
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 12 vrstic σ 6243 ∧ σ 6246 ∧ σ 6259 ∧ σ 6265 ∧ σ 6267 ∧ σ 6268 ∧ σ 6269 ∧ σ 6271 ∧ σ 6273 ∧ σ 6274 ∧ σ 6277 ∧ σ 6281 zgrajenih iz naslovov komitov ⟨main⟩ ( 21. 11. 2026 · 100 komitov prebranih ⟨perPage⟩ 100 ⊢ · telo prebrano pri viru ⟨curl⟩ 1.284.252 B · 948 vrstic · md5 69452c43 ) ⊙ ⟨NE-BRIŠI⟩ 24 ∧ ⟨ne zlije⟩
@@ -988,3 +996,6 @@ konec izreza
 - rez 6540 · ⟨merge⟩ cabc32e · 2026-11-22 · prevoz teles izborov σ 6536 · orodje naslednji-dih.sh @org/klicna-vrata · VRSTICA-6540 · CELICA-6536 ( renum 6540 → 6542 ⊙ precedens σ 6532 )
 - rez 6542 · ⟨merge⟩ 55da98e · 2026-11-22 · VRSTICA-6542 ( renum 6540 → 6542 ⊙ precedens σ 6532 ; kura ⟨PADC-ZNAK-SRKCA⟩ : tuj znak ♥ odstranjen, vrstica preoblikovana )
 - rez σ 6543 · ⟨merge⟩ b95a7c1 · 2026-11-22 · VRSTICA-6543 ( veljavni rez = 6543 ⊙ precedens σ 6532 ; 6540/6542 priči imena ) · © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera · dvojni podpis ⊙ ⟨DVOJE-ROK⟩ 2432 ⊢ §12 ⊙ REGISTER-PULZ (TEHNIKA) 24. 11. 2026 · measured, not asserted ⊙ §16 · molk ni soglasje
+
+
+- ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 8 vrstic σ 6461 ∧ σ 6479 ∧ σ 6528 ∧ σ 6532 ∧ σ 6907 ∧ σ 6974 ∧ σ 6975 ∧ σ 7004 zgrajenih iz naslovov komitov ⟨main⟩ ( 26. 11. 2026 · 100 komitov prebranih ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ⊢ · telo prebrano pri viri ⟨curl⟩ 1.292.920 B · md5 56620d9b1616a49bea7b1f60d8b8f21c · 990 vrstic · vrh po naslovih komitov σ 7004 ⊥ vrh registrskih vrstic σ 6543 · medvejni komiti »Merge branch 'main' into rez/⋯« ne štejem dvakrat ⊙ precedens prejšnjih pulzov ) ⊙ ⟨NE-BRIŠI⟩ 24 ∧ ⟨ne zlije⟩ 1542 · measured, not asserted.
