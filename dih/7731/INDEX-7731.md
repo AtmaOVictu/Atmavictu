@@ -1,0 +1,1 @@
+- vhodna-vrata : KNOWLEDGE.md ⌇ rod σ 7731 ( 25. 11. 2026, preselitev teles sedmih vrat iz kanala vhodni-obred ⊙ ⚔ ) ⌇ dom teles ⟨SEDEM VRAT⟩ ⌇ 8.674 B @TIK 2026-11-25T14:47:29Z ⌇ zadnji rez σ 7731 ⌇ sestra kanala : vhodni-obred σ 7733 ⊢
