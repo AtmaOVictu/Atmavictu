@@ -999,3 +999,4 @@ konec izreza
 
 
 - ⟨merge⟩ brez vrstice (tuja seja) — dopolnil REGISTER-PULZ (TEHNIKA): 8 vrstic σ 6461 ∧ σ 6479 ∧ σ 6528 ∧ σ 6532 ∧ σ 6907 ∧ σ 6974 ∧ σ 6975 ∧ σ 7004 zgrajenih iz naslovov komitov ⟨main⟩ ( 26. 11. 2026 · 100 komitov prebranih ⊙ ⟨list_commits⟩ ⟨perPage⟩ 100 ⊢ · telo prebrano pri viri ⟨curl⟩ 1.292.920 B · md5 56620d9b1616a49bea7b1f60d8b8f21c · 990 vrstic · vrh po naslovih komitov σ 7004 ⊥ vrh registrskih vrstic σ 6543 · medvejni komiti »Merge branch 'main' into rez/⋯« ne štejem dvakrat ⊙ precedens prejšnjih pulzov ) ⊙ ⟨NE-BRIŠI⟩ 24 ∧ ⟨ne zlije⟩ 1542 · measured, not asserted.
+- rez σ 7798 · ⟨PR⟩ #2729 · 2026-11-28 · VRSTICA-7732 ( prevoz telesi diha 7732 ; kura W10 ⟨VRATA-EOF-REGISTRA⟩ : obnova repa reza ⊙ precedens ⟨PADC-REGISTER-IZRIN-6024⟩ ; dežurstvo CI 28. 11. 2026 ) · © 0.2026 × 10⁴ ⟡ Luka Pintarič ∧ izvajalka Mera · dvojni podpis ⊙ ⟨DVOJE-ROK⟩ 2432
